@@ -938,7 +938,7 @@ Examples:
     <String Target="启用 Windows 照片查看器（by 心之所向）" Link="Activer Visionneur Photo de Windows ( par XingZhiSuoXiang) "/>
     <String Target="安全相关设置" Link="Paramètres Sécurité"/>
     <String Target="开启模糊音（by 朽木）" Link="Activer support &quot;fuzzy&quot; (par XiuMu)"/>
-    <String Target="开启此功能将导致平台模式下无法使用手势调出操作中心。" Link="Vous ne pourrez pas appeler le centre d'action par le geste si vous éteignez cette fonction."/>
+    <String Target="开启此功能将导致平板模式下无法使用手势调出操作中心。" Link="Vous ne pourrez pas appeler le centre d'action par le geste si vous éteignez cette fonction."/>
     <String Target="禁用文件、目录、桌面、所有对象的“工作文件夹”右键菜单" Link="Désactiver &quot;dossier de travail&quot; dans le menu contextuel de fichiers, répertoires, bureau, tous les objets"/>
     <String Target="禁用文件夹的“固定到快速访问”右键菜单" Link="Désactiver &quot;Désépingler de l'Accès Rapide&quot; menu contextuel dans répertoire"/>
     <String Target="禁用文件的“OneDrive文件同步”右键菜单" Link="Désactiver &quot;Synchronisation de fichiers OneDrive&quot; menu contextuel dans fichier"/>

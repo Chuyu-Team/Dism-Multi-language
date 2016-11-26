@@ -936,7 +936,7 @@ Examples:
     <String Target="启用 Windows 照片查看器（by 心之所向）" Link="Aktivovat Windows Photo Viewer ( by XingZhiSuoXiang) "/>
     <String Target="安全相关设置" Link="Bezpečnostní nastavení"/>
     <String Target="开启模糊音（by 朽木）" Link="Povolit podporu fuzzy ( by XiuMu )"/>
-    <String Target="开启此功能将导致平台模式下无法使用手势调出操作中心。" Link="Nebudete moci volat Centrum upozornění pomocí gesta, pří vypnoutí této funkce."/>
+    <String Target="开启此功能将导致平板模式下无法使用手势调出操作中心。" Link="Nebudete moci volat Centrum upozornění pomocí gesta, pří vypnoutí této funkce."/>
     <String Target="禁用文件、目录、桌面、所有对象的“工作文件夹”右键菜单" Link="Zakázat &quot;pracovní složky&quot;v kontextovém menu u souborů, adresářů, pracovní plochy, všech objeků "/>
     <String Target="禁用文件夹的“固定到快速访问”右键菜单" Link="Zakázat &quot;Kód PIN pro rychlý přístup&quot; v kontextovém menu u adresářů"/>
     <String Target="禁用文件的“OneDrive文件同步”右键菜单" Link="Zakázat &quot;OneDrive synchronizace souboru&quot;v kontextovém menu u souborů"/>

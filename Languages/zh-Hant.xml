@@ -935,7 +935,7 @@
     <String Target="启用 Windows 照片查看器（by 心之所向）" Link="啟用 Windows 照片檢視器（by 心之所向）"/>
     <String Target="安全相关设置" Link="安全相關設置"/>
     <String Target="开启模糊音（by 朽木）" Link="開啟模糊音（by 朽木）"/>
-    <String Target="开启此功能将导致平台模式下无法使用手势调出操作中心。" Link="開啟此功能將導致平臺模式下無法使用手勢調出操作中心。"/>
+    <String Target="开启此功能将导致平板模式下无法使用手势调出操作中心。" Link="開啟此功能將導致平臺模式下無法使用手勢調出操作中心。"/>
     <String Target="禁用文件、目录、桌面、所有对象的“工作文件夹”右键菜单" Link="禁用檔、目錄、桌面、所有物件的“工作資料夾”右鍵菜單"/>
     <String Target="禁用文件夹的“固定到快速访问”右键菜单" Link="禁用資料夾的“固定到快速訪問”右鍵菜單"/>
     <String Target="禁用文件的“OneDrive文件同步”右键菜单" Link="禁用文件的“OneDrive檔同步”右鍵菜單"/>
