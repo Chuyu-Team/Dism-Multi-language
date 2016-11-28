@@ -875,7 +875,7 @@
       <String Target="禁用此服务将导致IPv6无法正常使用，请确保你不需要使用IPv6！" Link="禁用此服務將導致IPv6無法正常使用，請確認您不需要使用IPv6！"/>
 
     <String Target="禁用Windows Search" Link="禁用Windows Search"/>
-      <String Target="禁用此服务将导致搜索文件变慢，并且某些Windows Store可能无法正常使用！" Link="禁用此服務將導致搜索檔案變慢，並且某些Windows Store可能無法正常使用！"/>
+      <String Target="禁用此服务将导致搜索文件变慢，并且某些Windows Store应用可能无法正常使用！" Link="禁用此服務將導致搜索檔案變慢，並且某些Windows Store可能無法正常使用！"/>
 
     <String Target="禁用错误报告" Link="禁用錯誤報告"/>
 

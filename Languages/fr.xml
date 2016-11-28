@@ -878,7 +878,7 @@ Examples:
       <String Target="禁用此服务将导致IPv6无法正常使用，请确保你不需要使用IPv6！" Link="Désactiver le service IPv6. Svp assurez-vous que vous n’utiliserez pas IPv6!"/>
 
     <String Target="禁用Windows Search" Link="Désactiver Windows Search"/>
-      <String Target="禁用此服务将导致搜索文件变慢，并且某些Windows Store可能无法正常使用！" Link="Désactiver le service, rendra plus lente la recherche de fichiers. « Et quelques Apps Store de Windows peuvent ne pas fonctionner correctement!"/>
+      <String Target="禁用此服务将导致搜索文件变慢，并且某些Windows Store应用可能无法正常使用！" Link="Désactiver le service, rendra plus lente la recherche de fichiers. « Et quelques Apps Store de Windows peuvent ne pas fonctionner correctement!"/>
 
     <String Target="禁用错误报告" Link="Désactiver Windows Error Reporting"/>
 

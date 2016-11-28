@@ -241,7 +241,6 @@ Special Thanks to Massimiliano F.
     <String Target="请在此输入挂载路径，比如D:\1" Link="Inserire la cartella di montaggio qui. Esempio, D:\1"/>
 	  <String Target="请输入所在路径" Link="Inserire il percorso dell'immagine"/>
 	  <String Target="镜像文件" Link="File Immagine"/>
-    <String Target="即将完成操作，请选择其中一个映像。" Link="L'operazione è quasi terminata. Si prega di selezionare un'immagine."/>
 	  <String Target="只读模式" Link="SolaLettura"/>
 	  <String Target="快速挂载" Link="Montaggio Veloce"/>
 	  <String Target="（可启动）" Link="(Avviabile)"/>
@@ -479,7 +478,6 @@ Special Thanks to Massimiliano F.
 	  <String Target="指定本地源" Link="Specifica Sorgente locale"/>
 	  <String Target="应用" Link="Applica"/>
 	  <String Target="正在加载Windows功能" Link="Caricamento Funzionalità Windows"/>
-    <String Target="温馨提示：在详细设置中配置本地源可大幅度减少功能启用时间" Link="Suggerimento: Configurando la sorgente locale nelle impostazioni per ridurre il tempo di caricamento"/>
     <String Target="关闭功能" Link="Disattiva"/>
     <String Target="部分启用" Link="Parziale"/>
     <String Target="全部启用" Link="Attiva"/>
@@ -535,7 +533,7 @@ Special Thanks to Massimiliano F.
     <String Target="%s 无法获取账号SID，错误代码：0x%.8X" Link="%s Inpossibile ricevere l'account SID, codice errore: 0x%.8X"/>
     <String Target="%s 所关联的用户（%s）无法删除，错误代码：0x%.8X" Link="%s utente (%s) non può essere eliminato, codice errore: 0x%.8X"/>
     <String Target="%s 未关联任何用户。" Link="%s non è associato a nessun utente."/>
-    <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，那么你需要在空间回收，使用过期Appx清理删除它们。" Link="Congratulazioni! Eliminazione avvenuta con successo. Però, alcun applicazioni potrebbero essere Provisioned Appx, Se alcune app di sistema persistono, andare in Pulitura Disco e utilizzare pulitura Vecchie Appx."/>
+    <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" qLink=""/>
   
     <!--Windows Update-->
     <String Target="安装" Link="Installa"/>
@@ -877,7 +875,7 @@ Esempi:
       <String Target="禁用此服务将导致IPv6无法正常使用，请确保你不需要使用IPv6！" Link="Disattiva questo servizio IPv6 non funzionerà più come previsto. Assicurarsi di non aver bisogno di utilizzare IPv6!"/>
 
     <String Target="禁用Windows Search" Link="Disattiva Windows Search"/>
-      <String Target="禁用此服务将导致搜索文件变慢，并且某些Windows Store可能无法正常使用！" Link="Disattivando il servizio, le ricerche dei file saranno più lente. E alcune App di Windows Store non funzioneranno correttamente!"/>
+      <String Target="禁用此服务将导致搜索文件变慢，并且某些Windows Store应用可能无法正常使用！" Link="Disattivando il servizio, le ricerche dei file saranno più lente. E alcune App di Windows Store non funzioneranno correttamente!"/>
 
     <String Target="禁用错误报告" Link="Disattiva Segnalazione Errori di Windows"/>
 
@@ -937,18 +935,11 @@ Esempi:
     <String Target="启用 Windows 照片查看器（by 心之所向）" Link="Attiva Visualizzatore Foto di Windows ( by XingZhiSuoXiang) "/>
     <String Target="安全相关设置" Link="Impostazioni Sicurezza"/>
     <String Target="开启模糊音（by 朽木）" Link="Attiva supporto fuzzy ( by XiuMu )"/>
-    <String Target="开启此功能将导致平台模式下无法使用手势调出操作中心。" Link="Non sarai in grado di richiamare il centro notifiche utilizzando i gesti se disattivi questa funzione."/>
+    <String Target="开启此功能将导致平板模式下无法使用手势调出操作中心。" Link="Non sarai in grado di richiamare il centro notifiche utilizzando i gesti se disattivi questa funzione."/>
     <String Target="禁用文件、目录、桌面、所有对象的“工作文件夹”右键菜单" Link="Disattiva menu &quot;cartella di lavoro&quot; su file, cartelle, desktop, e tutti gli oggetti "/>
     <String Target="禁用文件夹的“固定到快速访问”右键菜单" Link="Disattiva menu &quot;Pin Accesso Rapido&quot; sulle cartelle"/>
     <String Target="禁用文件的“OneDrive文件同步”右键菜单" Link="Disattiva menu &quot;Sincronizza File OneDrive&quot; sui file"/>
     <!--系统优化已经结束-->
-
-    <!--首次启动模式咨询-->
-    <String Target="模式选择" Link="Selezione Modalità"/>
-    <String Target="你需要使用新手模式还是专家模式？" Link="To use novice mode or expert mode?"/>
-    <String Target="温馨提示：可以在菜单中点击设置，随时取消新手模式。" Link="Tips: You can set in the menu at any time to cancel the novice mode."/>
-    <String Target="新手模式（推荐）&#x000A;仅显示垃圾清理以及实用小工具。" Link="Novice mode(Recommend)&#x000A;Show cleanup tool and gadgets only."/>
-    <String Target="专家模式" Link="Modalità Esperto"/>
   
     <!--Dism++更新程序-->
     <String Target="发现新版本，需要更新 %d 个文件，约%s。&#x000D;&#x000A;&#x000D;&#x000A;更新日志：&#x000D;&#x000A;&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;确定要升级吗？"
@@ -985,7 +976,7 @@ Esempio:
  Dism++x86.exe /Image:C:\ /?
  Dism++x86.exe /Image:&quot;D:\1213\&quot; /?"/>
     <String Target="映像管理命令：
- /All	- v
+ /All	- 打开全局会话
  /Image	- 指定特定 Windows 映像的根目录的路径。
 
 
@@ -1097,7 +1088,7 @@ Comando:
     <String Target="当程序遇到某些问题时，系统会在这里留下稳定性报告，建议你定期清理。" Link="Quando i programmi hanno dei problemi, il sistema crea dei rapporti sulla stabilità, è raccomandato pulire il rapporto di stabilità annualmente."/>
     
     <String Target="常见的驱动临时解压目录" Link="cartelle temporanee per l'installazione driver"/>
-    <String Target="" Link="Quando Intel , AMD e Nvidia installano i driver, creano delle cartelle di estrazione."/>
+    <String Target="Intel、AMD以及Nvidia驱动在安装时留下的解压目录。" Link="Quando Intel , AMD e Nvidia installano i driver, creano delle cartelle di estrazione."/>
     
     <String Target="Terminal Server Client缓存" Link="Cache Terminal Server Client"/>
     <String Target="Terminal Server Client运行时产生的一些缓存文件。" Link="Quando Terminal Server Client è avviato, viene creata una cache."/>

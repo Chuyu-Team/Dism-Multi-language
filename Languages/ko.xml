@@ -851,7 +851,7 @@ Thanks: 阿泽西
       <String Target="禁用此服务将导致IPv6无法正常使用，请确保你不需要使用IPv6！" Link="이 서비스를 비활성화 하시면 IPv6를 정상적으로 사용할수 없습니다.IPv6을 사용하실지 확인하시길 바랍니다."/>
 
     <String Target="禁用Windows Search" Link="Windows 검색 사용 않함"/>
-      <String Target="禁用此服务将导致搜索文件变慢，并且某些Windows Store可能无法正常使用！" Link="이 서비스를 비활성화 하시면 파일 검색을 정상적으로 사용할수 없으며 또한 Windows Store를 정상적으로 사용할수 없습니다."/>
+      <String Target="禁用此服务将导致搜索文件变慢，并且某些Windows Store应用可能无法正常使用！" Link="이 서비스를 비활성화 하시면 파일 검색을 정상적으로 사용할수 없으며 또한 Windows Store를 정상적으로 사용할수 없습니다."/>
 
     <String Target="禁用错误报告" Link="에러 보고 사용 않함"/>
 
