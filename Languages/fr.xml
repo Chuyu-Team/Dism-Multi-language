@@ -1379,36 +1379,35 @@ Command:
     <xC144013A>Opération non prise en charge. Vérifiez que l’image de système d’exploitation se trouvant dans le chemin spécifié à capturer est prise en charge par WIMBoot.</xC144013A>
     <xC144013B>Opération non prise en charge. Vérifiez que le système d'exploitation actif contient un pilote wof (wof.sys).</xC144013B>
   </MessageTable>
-  <UserAgreement>Hot Tip
+  <UserAgreement>User Agreement
 
-    Chuyu team warn you read this user agreement (hereinafter referred to as 'agreement') carefully before you use Dism++.Please read me prudently then choose to accept or not.If you want to use Dism++,you must accept agreement.If you use Dism++,we deem you accepted agreement and you not mind the clauses.
+    Chuyu team strongly recommand every user to read the following user agreement (hereinafter referred to as 'agreement', or 'this agreement') carefully before using Dism++. Anyone chooses not to comply with or fail to understand the intended meaning of the agreement should not be allowed, nor be granted the right granted by Chuyu team to use Dism++. Anyone who uses Dism++ is considered to agree with the following agreement, and to comply with the content of this agreement.
 
-    Agreement arranged the rights and obligations of software service (hereinafter referred to as 'service')of Chuyu team and the users.'Users' means register and login and use this service personally.
-
-
-
-One: Dism++ Permission
-
-1. We allows the personal users use Dism++ in the personal computer only.The users can't use Dism++ in a non-personal environment,only if you saw the written approval from Chuyu team.
-
-2. You must read Dism++ help document carefully before you use Dism++.
-
-3. Dism++ users have the accountability to feedback the program bugs and the suggestions.If you use Dism++ for 30 days,you should send mingkuang a not-less-than-345-word Dism++ usage report.If you use Dism++ for 8 mounths or more,you should send mingkuang a not-less-than-520-word Annual Dism++ improvement suggestions on November 11th(local time).The email of mingkuang:mingkuang@live.com
-
-4. Dism++ users must love of peace and unity and friendship and helpful.
-
-5. Everyone cannot unauthorized use(including but not limited to copy or disseminate or show or mirror or upload or download in an illegal way)or impact Chuyu team normal serve by an unconventional way(For example,malicious disturb Chuyu team informations)If someone get Chuyu team informations from the Chuyu softwares,we will investigate for legal responsibility according to law.
-
-6. Chuyu team can ban the not-comply-with-the-permit users to use all the Chuyu softwares.We won't accept your demand or give technical support to you then investigate for legal responsibility according to law.
-
-7. Chuyu team will try our best to solve the comply-with-the-permit users' problems(provide necessary help and support)The time is because of the complexity and the users' votes.
+    This agreement defines the rights and obligations between Dism++ users of 'Dism++' software service (hereinafter referred to as 'service', or 'this service') and Chuyu team. 'Users', and 'Dism++ users' refer to individuals who register, login, or utilize this service. This agreement is subject to updates from Chuyu team at any possible moment. Updated agreement, once published in any format, replaces the original agreement. Dism++ should display the updated agreement when the software properly initiates. Dism++ users must stop using this software and the services fom Chuyu team immediately if they choose not to comply with the updated agreement.
 
 
+One: Rights and Obligations
 
-Two: Protect The Users' Privacy
-1. When Dism++ run,Dism++ gleans the messages of your system(including but not limited to the system version and architecture and name and language and CPU type and RAM)and Dism++ abnormal running information. But it don't glean the users' identity information.
+1. Dism++ users can only use Dism++ for personal use in their PC(s). Any non-personal use (including but not limited to commercial or occupational use) without written approval from Chuyu team is not allowed.
 
-2. Perhaps Chuyu team will send the users the messages of invite or fix program bug or invite to vote.
+2. Dism++ users must read this agreement and other content in the document of Dism++ carefully before using Dism++.
+
+3. Dism++ users have the obligation to report bugs and possible improvements to Chuyu team. Anyone who uses Dism++ for over 30 days should send mingkuang a 'Dism++ usage report' that is no less than 345 words. Anyone who uses Dism++ for 8 mounths or longer should send mingkuang an annual report (at least 520 words) on the topic 'the suggestion and possible improvement on Dism++' on November 11th (local time). Email of mingkuang: mingkuang@live.com.
+
+4. Dism++ users should retain the love for peace, for group work, and of helping others.
+
+5. Dism++ users should comply with the Basic Law (or local equivalents). Any action that violates copyright of Chuyu team or this agreement (including but not limited to inappropriately copy, propagate, display, mirror, upload, download, modify), and those that negatively impact Chuyu team's operation or services will be subject to serious legal actions.
+
+6. Anyone who fail to comply with this agreement automatically loses any right granted by Chuyu team. Chuyu team retain right to stop all software of Chuyu team in their PC(s), to reject any of their proposal(s), and to persue legal actions gainst them.
+
+7. Chuyu team will try their best to provide technical support for those who comply with this agreement, when all of the following factors permit: the complexity of issue, the availability of Chuyu team, and the other users' vote.
+
+
+
+Two: Privacy Issues
+1. After initiation, Dism++ will collect Dism++ users' system information (including but not restricted to the system version, system structure, system language, CPU information, RAM information), and Dism++'s own report (including but not restricted to the system crash dump and log files) to improve the service. Dism++ will not collect user identification information nor user's contact information.
+
+2. Chuyu team may send users invitations for testing Dism++, invitations for voting to help Chuyu team's decisioning, and software updates, but Chuyu team will never send messages that include but not limited to advertisements, promotions, frauds, or request for payment.
 
 
 
@@ -1446,5 +1445,5 @@ Six: Others
 
 3. If the agreement clauses be invalid or not executable because of whatever reason,the other clauses are still valid.Binding upon Both.
 
-4. If other-language version and simplified-chinese are different,please look at the simplified-chinese version.</UserAgreement>
+4. The user agreement written in Chinese-simplified should be referred to if the Chinese-simplified version differs from user agreements written in other languages.</UserAgreement>
 </Data>
