@@ -209,7 +209,8 @@
         <Activate>
           <General RootPath="?GetRegSz(HKEY_CURRENT_USER\Software\kugou,AppPath)" Flags="Directory">
             <Query>*.*.*.*</Query>
-            <Excluded>?GetRegSz(HKEY_CURRENT_USER\Software\KuGou8,AppVersionLast)</Excluded>
+            <!--2016-11-29 用户反馈出现误杀所以把AppVersionLast换成了AppVersion-->
+            <Excluded>?GetRegSz(HKEY_CURRENT_USER\Software\KuGou8,AppVersion)</Excluded>
           </General>
         </Activate>
       </Scan>
