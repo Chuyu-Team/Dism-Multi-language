@@ -679,7 +679,7 @@ Examples:
     <String Target="针对未来新建的用户，即 HKEY_USERS\DEFAULT。" Link="Für neue Benutzer (HKEY_USERS\DEFAULT)"/>
     <String Target="针对系统，即 HKEY_LOCAL_MACHINE。" Link="Für das System (HKEY_LOCAL_MACHINE)"/>
     <String Target="导入配置" Link="Registry-Import"/>
-    <String Target="导入注册表文件过程中遇到问题，具体错误信息请参考 Dism++.log。" Link="Vorgang erfolgreich beendet. Der Import der Registry-Datei kann zu schweren Systemfehlern führen. Bitte Hierfür die Dism++.log-Datei prüfen."/>
+    <String Target="导入注册表文件过程中遇到问题，具体错误信息请参考 Dism++.log。" Link="Vorgang erfolgreich beendet. Der Import der Registry-Datei kann zu schweren Systemfehlern führen. Bitte überprüfen Sie für detaillierte Angaben die Dism++.log-Datei."/>
     <String Target="注册表文件" Link="Registrierungsdatei"/>
     
     <!--Explorer-->
