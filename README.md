@@ -13,7 +13,7 @@ Thanks to Richard Kahl
 
 [Languages/de.xml]
 German Resource
-Thanks to Martin
+Thanks to franz@drwindows.de
 
 
 [Languages/en.xml]
@@ -42,7 +42,7 @@ Thanks to 阿泽西
 
 [Languages/ru.xml]
 Russian Resource
-Thanks: Vasiliy Nasonov, virus, Vladimir, ZT
+Thanks to Vasiliy Nasonov, virus, Vladimir, ZT
 
 
 [Languages/zh-Hans.xml]
@@ -52,4 +52,4 @@ Thanks: Vasiliy Nasonov, virus, Vladimir, ZT
 
 [Languages/zh-Hant.xml]
 繁体资源文件
-感谢：jamesfuh, 月下独酌
+感谢 jamesfuh, 月下独酌

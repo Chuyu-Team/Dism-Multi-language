@@ -12,7 +12,7 @@ There are 5 special symbols need special representation in XML.
    ‘       Single quotation marks		&apos;
    “       Double quotation marks		&quot;  
 
-Special Thanks to Martin
+Special Thanks to franz@drwindows.de
  -->
 <Data>
   <DefaultControl>
@@ -35,7 +35,7 @@ Special Thanks to Martin
   <StringMaps>
     <String Target="文件(&amp;F)" Link="&amp;Datei"/>
 		  <String Target="添加映像" Link="Image hinzufügen"/>
-        <String Target="释放映像	Ctrl+N" Link="Image	Bestätigen Ctrl+N"/>
+        <String Target="释放映像	Ctrl+N" Link="Image	bestätigen Ctrl+N"/>
         <String Target="挂载映像	Ctrl+Shift+N" Link="Image einbinden	Ctrl+Shift+N"/>
         <String Target="添加路径" Link="Pfad hinzufügen"/>
 		  <String Target="卸载映像	Delete" Link="Image auswerfen"/>
@@ -70,7 +70,7 @@ Special Thanks to Martin
     
 	  <String Target="帮助(&amp;H)" Link="&amp;Hilfe"/>
       <String Target="查看帮助(&amp;V)" Link="&amp;Hilfe aufrufen"/>
-		  <String Target="官方网站(&amp;O)" Link="&amp;Offizielle Hompepage"/>
+		  <String Target="官方网站(&amp;O)" Link="&amp;Offizielle Homepage"/>
 		  <String Target="问题反馈(&amp;B)" Link="Feed&amp;back"/>
       <String Target="关于Dism++(&amp;A)" Link="&amp;Über Dism++"/>
       <String Target="检查更新(&amp;U)" Link="Nach &amp;Updates suchen"/>
@@ -92,7 +92,7 @@ Special Thanks to Martin
 	  <String Target="只添加指定文件夹路径到映像列表。" Link="Nur den ausgewählten Pfad zur Image-Liste hinzufügen."/>
     <String Target="重新扫描系统" Link="Neuer Scan"/>
     <String Target="取消所有Compact压缩的文件（存在兼容性问题时使用）" Link="Alle komprimierten Dateien entpacken (bei Kompatibilitäts-Fehlern)"/>
-    <String Target="将现有的系统备份为WIM或者ESD（如果文件存在则自动增量到原有文件）。" Link="Das System in einer WIM- oder ESD-Datei sichern (Liegt bereits eine Sicherungs-Datei vor, werden Änderungen inkrementell diese Datei eingefügt."/>
+    <String Target="将现有的系统备份为WIM或者ESD（如果文件存在则自动增量到原有文件）。" Link="Das System in einer WIM- oder ESD-Datei sichern. Liegt bereits eine Sicherungs-Datei vor, werden Änderungen inkrementell in diese Datei eingefügt."/>
     <String Target="扫描映像是否存在组件存储损坏" Link="Image prüfen"/>
     <String Target="修复映像中存在的组件存储损坏" Link="Image reparieren"/>
     <String Target="从现有映像文件（WIM、ESD）恢复系统。" Link="System mit einer Image-Datei (WIM/ESD) wiederherstellen"/>
@@ -122,7 +122,7 @@ Special Thanks to Martin
 
     <String Target="直接保存&#x000A;将覆盖当前映像的数据。" Link="Jetzt speichern &#x000A;Das originale Image wird mit neuen Daten überschrieben."/>
 
-    <String Target="温馨提示" Link="HInweis"/>
+    <String Target="温馨提示" Link="Hinweis"/>
 	
 	  <String Target="正在挂载" Link="Einbinden"/>
     <String Target="正在卸载映像" Link="Auswerfen"/>
@@ -145,16 +145,16 @@ Special Thanks to Martin
 	  <String Target="正在转换格式" Link="Konvertierung"/>
 	  <String Target="正在从%s，转换到%s" Link="Konvertierung von %s nach %s"/>
 	
-	  <String Target="映像文件" Link="Image-Datei"/>
-	  <String Target="无法获取RE信息，错误代码：%d" Link="Kann WinRE Info nicht abrufen, Fehlercode: %d"/>
-	  <String Target="重启后，系统自动将启动RE，你确定要重启么？" Link="Das System wird in WinRE neu gestartet. Soll jetzt neu gestartet werden?"/>
+	  <String Target="映像文件" Link="Image"/>
+	  <String Target="无法获取RE信息，错误代码：%d" Link="Kann WinRE-Infomationen nicht abrufen, Fehlercode: %d"/>
+	  <String Target="重启后，系统自动将启动RE，你确定要重启么？" Link="Das System wird im WinRE-Modus neu gestartet. Soll jetzt neu gestartet werden?"/>
 	  <String Target="此功能可以将ESD、WIM格式相互转换。" Link="Diese Funktion konvertiert ESD zu WIM &amp; WIM zu ESD"/>
 	  <String Target="Dism++将会在RE中启动，你现在需要重启电脑么？" Link="Dism++ wird in WinRE gestartet. Soll jetzt neu gestartet werden?"/>
-	  <String Target="%s 位置的映像正繁忙，请稍后再试。" Link="Der Speicherort von %s Image wird gerade benutzt, bitte versuchen Sie es später noch einmal."/>
+	  <String Target="%s 位置的映像正繁忙，请稍后再试。" Link="Der Speicherort von %s Image wird gerade benötigt, bitte versuchen Sie es später noch einmal."/>
 	  <String Target="正在验证受损" Link="Status wird überprüft"/>
 	  <String Target="正在修复受损" Link="Status wiederhergestellt"/>
-    <String Target="%d 秒后将关闭计算机，点击取消可以撤销此任务。" Link="In %d Sekunden wird der Computer heruntergefahren. Klicken Sie auf 'Abbrechen' um den Vorgang abzubrechen."/>
-    <String Target="%d 秒后将重启计算机，点击取消可以撤销此任务。" Link="In %d Sekunden wird der Computer neu gestartet. Klicken Sie auf 'Abbrechen' um den Vorgang abzubrechen."/>
+    <String Target="%d 秒后将关闭计算机，点击取消可以撤销此任务。" Link="In %d Sekunden wird der Computer heruntergefahren. Klicken Sie auf 'Abbrechen' um den PC nicht herunterzufahren."/>
+    <String Target="%d 秒后将重启计算机，点击取消可以撤销此任务。" Link="In %d Sekunden wird der Computer neu gestartet. Klicken Sie auf 'Abbrechen' um nicht neu zu starten."/>
     
     <String Target="正在清理临时数据" Link="Temporäre Dateien werden gelöscht"/>
     <String Target="Sorry，无法配置环境，请在PE中使用此功能。" Link="Entschuldigung, die Umgebung nicht eingerichtet werden, bitte führen Sie die Aufgabe in WinPE durch."/>
@@ -185,8 +185,8 @@ Special Thanks to Martin
 	  <String Target="最大压缩" Link="Maximal"/>
 	  <String Target="极限压缩" Link="Wiederherstellung"/>
 	
-	  <String Target="映像名称" Link="Image Name"/>
-	  <String Target="映像说明" Link="Image Beschreibung"/>
+	  <String Target="映像名称" Link="Image-Name"/>
+	  <String Target="映像说明" Link="Image-Beschreibung"/>
 	  <String Target="显示名称" Link="Name anzeigen"/>
 	  <String Target="显示说明" Link="Beschreibung anzeigen"/>
 	  <String Target="映像标志" Link="Edition"/>
@@ -199,7 +199,7 @@ Special Thanks to Martin
 	  <String Target="不压缩映像" Link="Keine"/>
 	  <String Target="WIMBoot压缩映像" Link="WIMBoot"/>
 	  <String Target="快速压缩映像" Link="Schnell"/>
-	  <String Target="最大压缩映像" Link="Gross"/>
+	  <String Target="最大压缩映像" Link="Maximal"/>
 	  <String Target="极限压缩映像" Link="Wiederherstellung"/>
 	  <String Target="全选" Link="Alles"/>
 	  <String Target="反选" Link="Vertauschen"/>
@@ -229,7 +229,7 @@ Special Thanks to Martin
     <String Target="控制面板" Link="Systemsteuerung"/>
     <String Target="删除" Link="Entfernen"/>
     <String Target="关于Dism++" Link="Über Dism++"/>
-    <String Target="Dism++正在执行任务，你确定要关闭程序么？" Link="Dism++ ist beschäftigt, Dism++ trotzdem jetzt beenden?"/>
+    <String Target="Dism++正在执行任务，你确定要关闭程序么？" Link="Dism++ ist beschäftigt, soll Dism++ trotzdem jetzt beendet werden?"/>
     <String Target="正在检查更新" Link="Nach Updates wird gesucht..."/>
     <String Target="正在加载插件" Link="Lade Plug-in"/>
     <String Target="正在扫描已安装的系统" Link="Überprüfe installiertes System"/>
@@ -256,7 +256,7 @@ Special Thanks to Martin
     <String Target="请选择其中一个映像" Link="Bitte wählen Sie ein Image"/>
     <String Target="请在此输入映像文件路径，比如 D:\Backup.wim" Link="Bitte geben Sie den Pfad der Image-Datei an. Bsp.: D:\Backup.wim"/>
     <String Target="添加引导" Link="Bootdatei hinzufügen"/>
-    <String Target="格式化" Link="Format"/>
+    <String Target="格式化" Link="Formatierung"/>
     <String Target="释放映像" Link="Image bestätigen"/>
     <String Target="挂载映像 " Link="Image einbinden"/>
     
@@ -376,11 +376,11 @@ Special Thanks to Martin
 	  <String Target="需要扫描" Link="Bereit für den Scan"/>
 	  <String Target="正在扫描%s" Link="Scanvorgang %s"/>
 	  <String Target="出错" Link="Fehler"/>
-	  <String Target="正在清理%s" Link="Bereinigung %s "/>
+	  <String Target="正在清理%s" Link="Bereinigung: %s "/>
 	  <String Target="本次共释放了%s 的空间。" Link="%s sind fertiggestellt."/>
 
     <String Target="软件Q群：200783396、282276394（敲门砖：临安初雨 一夜落红）&#x000D;&#x000A;官方网站：www.chuyu.me&#x000D;&#x000A;&#x000D;&#x000A;如果发现BUG或者意见可以通过邮箱（mingkuang@live.com）或者在QQ群联系我&#x000D;&#x000A;&#x000D;&#x000A;诚请五湖四海的朋友为Dism++国际化支持添砖加瓦！&#x000D;&#x000A;——感谢以下热心用户背后默默的付出，排名仅根据首字母，不分重次先后——"
-          Link="Homepage: www.chuyu.me&#x000D;&#x000A;&#x000D;&#x000A;Wenn Sie Fehler finden oder Verbesserungsvorschläge machen möchten, bitte kontaktieren Sie mich über e-Mail (mingkuang@live.com)&#x000D;&#x000A;&#x000D;&#x000A;Laden Sie Freunde und Bekannte in aller Welt ein, um Dism ++ mehrsprachig zu unterstützen.&#x000D;&#x000A;— Vielen Dank an alle treuen und begeisterten User.&#x000D;&#x000A; Die Sprachenliste sortiere ich nach dem Alphabet, nicht nach der Verbreitung der Sprachen. -"/>
+          Link="Homepage: www.chuyu.me&#x000D;&#x000A;&#x000D;&#x000A;Sollten Sie Fehler finden oder wollen Sie Verbesserungsvorschläge machen, kontaktieren Sie mich bitte über e-Mail (mingkuang@live.com)&#x000D;&#x000A;&#x000D;&#x000A;Laden Sie Freunde und Bekannte in aller Welt ein, um Dism ++ mehrsprachig zu unterstützen.&#x000D;&#x000A;— Vielen Dank an alle treuen und begeisterten User.&#x000D;&#x000A;Die Sprachenliste sortiere ich nach dem Alphabet, nicht nach der Verbreitung der Sprachen.—"/>
 
     <String Target="该规则来自CCleaner解析引擎，因此不能提供说明。" Link="Diese Regelung wurde von CCleaner erstellt, daher kann Dism++ keine Beschreibungen anzeigen."/>
     <String Target="默认" Link="Standard"/>
@@ -534,7 +534,7 @@ Special Thanks to Martin
     <String Target="%s 所关联的用户（%s）无法删除，错误代码：0x%.8X" Link="%s Benutzer (%s) kann nicht entfernt werden, Fehlercode: 0x%.8X"/>
     <String Target="%s 未关联任何用户。" Link="%s ist mit keinem anderen Benutzer verknüpft."/>
     <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" qLink=""/>
-  
+
     <!--Windows Update-->
     <String Target="安装" Link="Installieren"/>
     <String Target="正在检查数据库" Link="Datenbank wird überprüft"/>
@@ -562,9 +562,9 @@ Special Thanks to Martin
     <String Target="温馨提示：引入独占请求后，你将无法安装其他更新，直到你重启系统。建议你先安装其他更新，最后安装此更新。" Link="Hinweis: Mit der exklusiven Berechtigung kann der Benutzer keine anderen Updates installieren, bevor nicht das System neu gestartet wurde. Wir empfehlen daher, zuerst andere Updates zu installieren und dann erst jene, die die exklusive Berechtigung benötigen"/>
     <String Target="暂不安装（推荐）&#x000A;我暂时还需要添加其他更新。" Link="Nicht installieren (empfohlen) &#x000A; Zuerst müssen andere Updates installiert werden."/>
     <String Target="继续安装&#x000A;我已确保我需要的更新均已安装。" Link="Weiter mit der Installation&#x000A; Alle anderen Updates wurden installiert."/>
-	<String Target="关于 %s 的警告：&#x000D;&#x000A;&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;你确定要继续吗？" Link="%s Achtung:&#x000D;&#x000A;&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;Wollen Sie wirklich fortfahren?"/>
-    <String Target="导出地址" Link="Links kopieren"/>
-    <String Target="补丁下载地址已经成功复制到剪切板。" Link="Der Download-Link wurde in den Zwischenspeicher kopiert."/>
+    <String Target="关于 %s 的警告：&#x000D;&#x000A;&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;你确定要继续吗？" Link="%s Achtung:&#x000D;&#x000A;&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;Wollen Sie wirklich fortfahren?"/>
+    <String Target="导出地址" Link="Links werden kopiert"/>
+    <String Target="补丁下载地址已经成功复制到剪切板。" Link="Download-Adressen wurden in den Zwischenspeicher kopiert."/>
 
     <!--区域和语言-->
     <String Target="区域和语言" Link="Region&amp;Sprache"/>
@@ -657,14 +657,14 @@ Examples:
     
     <String Target="用于修改WIM、SWM以及ESD文件信息。" Link="Bearbeiten der WIM, SWM&amp;ESD Dateien."/>
     
-    <String Target="文件浏览器" Link="Windows Explorer"/>
+    <String Target="文件浏览器" Link="Datei-Explorer"/>
     <String Target="提供简单的文件浏览，并支持无视权限删除。" Link="Einfache Dateiüberprüfung"/>
 
     <String Target="ISO生成器" Link="ISO Maker"/>
     <String Target="将一个文件夹打包为UEFI以及Legacy双启动ISO。" Link="Ein Verzeichnis wurde als Dual Boot (UEFI und Legacy ISO) erstellt."/>
-    <String Target="请在此输入文件夹路径，比如 D:\Win7" Link="Verzeichnispfad angeben, z.B. D:\Windows 10 Pro"/>
-    <String Target="请在此输入ISO生成路径，比如 D:\MyWin7.iso" Link="Pfad zur Iso-Datei angeben, z.B. D:\Win7.iso"/>
-    <String Target="请在此输入ISO标签，比如 IR5_CCSA_X64FRE_ZH-CN_DV9" Link="ISO-Name eingeben, z.Bsp.: IR5_CCSA_X64FRE_ZH-CN_DV9"/>
+    <String Target="请在此输入文件夹路径，比如 D:\Win7" Link="Verzeichnispfad angeben, z.B. D:\Win7"/>
+    <String Target="请在此输入ISO生成路径，比如 D:\MyWin7.iso" Link="Pfad zur Iso-Datei angeben, z.B. D:\MyWin7.iso"/>
+    <String Target="请在此输入ISO标签，比如 IR5_CCSA_X64FRE_ZH-CN_DV9" Link="ISO-Name eingeben, z.Bsp.: IRM_CCSA_X64FRE_DE-DE_DV5"/>
     
     <String Target="hosts编辑器" Link="hosts-Datei Editor"/>
     <String Target="用于hosts编辑" Link="Zur Bearbeitung der hosts-Datei"/>
@@ -678,7 +678,7 @@ Examples:
     <String Target="针对未来新建的用户，即 HKEY_USERS\DEFAULT。" Link="Für neue Benutzer (HKEY_USERS\DEFAULT)"/>
     <String Target="针对系统，即 HKEY_LOCAL_MACHINE。" Link="Für das System (HKEY_LOCAL_MACHINE)"/>
     <String Target="导入配置" Link="Registry-Import"/>
-    <String Target="导入注册表文件过程中遇到问题，具体错误信息请参考 Dism++.log。" Link="Der Import der Registry-Datei kann zu Fehlern führen. Hierfür bitte die Dism++.log-Datei prüfen."/>
+    <String Target="导入注册表文件过程中遇到问题，具体错误信息请参考 Dism++.log。" Link="Vorgang erfolgreich beendet. Der Import der Registry-Datei kann zu schweren Systemfehlern führen. Bitte Hierfür die Dism++.log-Datei prüfen."/>
     <String Target="注册表文件" Link="Registrierungsdatei"/>
     
     <!--Explorer-->
@@ -1025,7 +1025,7 @@ Command:
     <!--系统还原-->
     <String Target="当前模式不支持引导修复以及格式化分区，你需要重启并进入RE进行恢复么？" Link="Dieser Modus kann keine Partition formatieren oder den Bootsektor reparieren. Soll WinRE für die Wiederherstellung neu gestartet werden?"/>
     <String Target="正在格式化" Link="Formatierung"/>
-    <String Target="格式化分区 %s 失败，错误代码：%d。" Link="Die Formatierung der Partition %s ist fehlgeschlagen, Fehelrcode:%d."/>
+    <String Target="格式化分区 %s 失败，错误代码：%d。" Link="Die Formatierung der Partition %s ist fehlgeschlagen, Fehlercode:%d."/>
     <String Target="正在刷新" Link="Aktualisieren"/>
     <String Target="Dism++与此操作系统处于同一分区，无法进行格式化。" Link="Dism++ und das Betriebssystem sind auf der gleichen Partition, daher kann diese Partition nicht formatiert werden."/>
 
@@ -1060,16 +1060,16 @@ Command:
     <String Target="某些文件被硬链接合并后可能导致相关功能无法正常使用。" Link="Verschiedene gruppierte Dateien können nicht mehr korrekt ausgeführt werden."/>
     
     <String Target="CompactOs（较慢）" Link="CompactOs (Langsamer)"/>
-    <String Target="对单纯读取的文件进行哈夫曼压缩，在不影响性能的情况下，显著减少系统体积。特别感谢矿工以及所有Compact团队成员无私的支持与帮助。" Link="Nur-lesen berechtigte Dateien mit der Huffman-Methode komprimieren, reduziert erheblich den Speicherplatz ohne Verlust an Performance. Speziellen Dank dem Compact Team."/>
+    <String Target="对单纯读取的文件进行哈夫曼压缩，在不影响性能的情况下，显著减少系统体积。特别感谢矿工以及所有Compact团队成员无私的支持与帮助。" Link="Nur-lesen berechtigte Dateien mit der Huffman-Methode komprimieren, reduziert erheblich den Speicherplatz ohne Verlust an Performance. Besonderer Dank an das Compact Team."/>
     <String Target="使用后可能导致某些程序无法正常运行甚至让系统无法启动，如果使用后出现问题，可以在PE中点击 恢复功能-->撤销Compact。" Link="Die Ausführung der Komprimierung kann zu Fehlfunktionen von Programmen führen, wodurch das System evtl. nicht gestartet werden kann. Für die Reparatur kann eine Wiederherstellung durchgeführt werden -> Bitte nie mit WinPE komprimieren"/>
     <String Target="此功能与某些硬盘备份软件不兼容。如果使用后出现问题，可以点击 恢复功能-->撤销Compact。" Link="Die Funktion ist nicht kompatibel mit einigen Sicherungsprogrammen. Wenn Probleme auftreten, die Wiederherstellung auswählen und bitte nicht mehr komprimieren."/>
-	<String Target="过期Appx应用" Link="Ältere Appxs"/>
-    <String Target="在Appx应用升级时，会留下老版本应用，该功能将删除那些不使用的老版本。" Link="Nach Updates von Appxs werden ältere Versionen nicht gelöscht. Diese Funktion löscht nicht mehr benötigte Dateien. Beta-Version, deshalb können verschiedene Metro Appxs nicht mehr gestartet werden."/>
-    <String Target="少数用户报告称使用后无法打开Appx应用，需要重新安装Appx应用。" Link="Einige Benutzer berichten, dass Appxs nicht mehr starten und neu installiert werden mußten."/>
+	  <String Target="过期Appx应用" Link="Ältere Appxs"/>
+      <String Target="在Appx应用升级时，会留下老版本应用，该功能将删除那些不使用的老版本。" Link="Nach Updates von Appxs werden ältere Versionen nicht gelöscht. Diese Funktion löscht nicht mehr benötigte Dateien. Beta-Version, deshalb können verschiedene Metro Appxs nicht mehr gestartet werden."/>
+      <String Target="少数用户报告称使用后无法打开Appx应用，需要重新安装Appx应用。" Link="Einige Benutzer berichten, dass Appxs nicht mehr starten und neu installiert werden mußten."/>
 
-	<String Target="系统自带Appx应用" Link="Windows Store App"/>
-    <String Target="此功能将移除所有系统自带Appx应用，移除后可以在Windows应用商店重新下载他们。" Link="Die Funktion entfernt alle in das System eingebetteten Appxs. Sie können wieder aus dem Windows Store heruntergeladen werden."/>
-    
+	  <String Target="系统自带Appx应用" Link="Windows Store App"/>
+      <String Target="此功能将移除所有系统自带Appx应用，移除后可以在Windows应用商店重新下载他们。" Link="Die Funktion entfernt alle in das System eingebetteten Appxs. Sie können wieder aus dem Windows Store heruntergeladen werden."/>
+
     <String Target="WinSxS临时文件" Link="Temporäre WinSxS-Dateien"/>
     <String Target="系统更新时在WinSxS里面产生的临时文件。" Link="Die Dateien, die während eines Updates temporär erstellt werden."/>
     
@@ -1271,12 +1271,15 @@ Command:
 
     <String Target="零售演示离线内容" Link="Retail Demo Offline Inhalte"/>
     <String Target="为Windows10零售演示模式所缓存的离线内容" Link="Das Verzeichnis enthält temporäre Dateien des Windows 10 Demo-Modus"/>
-
+    
     <String Target="WinINet网页缓存" Link="WinINet Web Cache"/>
     <String Target="清理每个用户账户和应用容器下的Windows网络组件（例如IE，Edge）的网页缓存（仅支持默认目录）" Link="Bereinigung des Web Cache der WinINet-Komponenten (Bsp.: Internet Explorer, Edge), betrifft alle Benutzer und AppContainer (Nur Standard-Verzeichnis)"/>
-
+    
     <String Target="WinINet Cookies" Link="WinINet Cookies"/>
     <String Target="清理每个用户账户和应用容器下的Windows网络组件（例如IE，Edge）的Cookies（仅支持默认目录）" Link="Löschen von Cookies (Bsp.: Internet Explorer, Edge), betrifft alle Benutzer und AppContainer (Nur Standard-Verzeichnis)"/>
+    
+	  <String Target="最后一次正确配置（by Stanlazy）" Link="Letzte funktionierende Konfiguration (by Stanlazy)"/>
+    <String Target="最近能正常启动计算机的配置备份。" Link="Sicherung der letzten Konfiguration, mit dem der PC gestartet werden kann."/>
   </StringMaps>
   <MessageTable>
     <x800F0806>Ein oder mehrere Updates sind noch ausstehend, um fortzufahren, bitte das Programm neu starten.</x800F0806>
@@ -1323,7 +1326,7 @@ Command:
     <xC1420105>Anweisung zum Entpacken einer Datei, die nicht vorhanden ist. Das kann vorkommen, wenn eine Anweisung mit einem fremden Dateisystemfilter-Treiber fehlerhaft ausgeführt wurde. Bitte überprüfen Sie, dass kein AntiVirus- oder Sicherungs-Programm aktiv ist.</xC1420105>
     <xC1420106>Anweisung zum Entpacken einer Datei, die bereits entpackt wurde. Die Anweisung wird verworfen.</xC1420106>
     <xC1420107>Der Dienst meldet 2 verschiedene Dateien mit der gleichen Datei-ID. Die Dateien wurden mit inkompatiblen Flags besetzt. Der Einbindungsvorgang wird abgbrochen.</xC1420107>
-    <xC1420108>Der Dateisystemcontainer versucht einen Dateinamen 2mal zu vergeben. Das ist nicht zulässig, der WIM-Dienst sollte nur eine Anzeige je Dateiname erhalten.</xC1420108>
+    <xC1420108>Der Dateisystemcontainer versucht einen Dateinamen 2-mal zu vergeben. Das ist nicht zulässig, der WIM-Dienst sollte nur eine Anzeige je Dateiname erhalten.</xC1420108>
     <xC1420109>Der Dienst erhielt ein fehlerhaftes Signal eines Filters. Der Aufruf wird nicht weiter verarbeitet.</xC1420109>
     <xC142010A>Der Dienst erhielt einen Aufruf zum Entpacken einer Datei, die nicht in einem eingebundenen Image vorhanden ist. Der Entpackungsvorgang wird nicht durchgeführt.</xC142010A>
     <xC142010B>Es wurde versucht, ein Verzeichnis abzutrennen, das nicht eingebunden ist.</xC142010B>
@@ -1340,7 +1343,7 @@ Command:
     <xC1420117>Ein Verzeichnis konnte nicht vollständig geschlossen werden. I.d.R. sind noch Dateien in dem Verzeichnis von anderen Programme geöffnet. Beenden Sie diese Programme und entfernen Sie das Verzeichnis erneut um den Prozess zubeenden.</xC1420117>
     <xC1420118>Das eingebundene Image wird bereits verwendet. Stellen Sie sicher, dass das Image nicht von einem anderen Prozess eingebunden wurde.</xC1420118>
     <xC1420119>Die Binärdatei von wimserv.exe konnte nicht gefunden werden. Bitte stellen Sie sicher, dass die Datei im Systemsuchpfad verfügbar ist.</xC1420119>
-    <xC142011A>Imagex beendete sich während es auf den Start des Entpackungsvorgangs von wimmount wartete.</xC142011A>
+    <xC142011A>ImageX beendete sich während auf den Start des Entpackungsvorgangs von wimmount gewartet wurde.</xC142011A>
     <xC142011B>Der wimmount-Dienst wurde ohne Statusmeldung beendet.</xC142011B>
     <xC142011C>Das angegeben Verzeichnis ist kein gültiges Verzeichnis.</xC142011C>
     <xC142011D>Das angegebene Image kann nicht mehr als WIM-Datei vearbeitet werden. Der Fehler tritt auf, wenn ein Image unvollständig ausgeworfen wurde oder das Image noch eingebunden ist. If this image was unmounted with commit earlier, then the commit probably succeeded.  Please validate that this is the case and then unmount without commit.</xC142011D>
@@ -1354,13 +1357,13 @@ Command:
     <xC1420125>Das angegebene Verzeichnis kann nicht erneut eingebunden werden, da das Verzeichnis gerade ausgeworfen wird.</xC1420125>
     <xC1420126>Das angegebene Image ist bereits eingebunden und kann nicht erneut eingebunden werden.</xC1420126>
     <xC1420127>Das ausgewählte Image in der angegebene WIM ist bereits für den Lese/Schreib-Zugriff eingebunden</xC1420127>
-    <xC1420128>The specified image handle was not opened with the correct access level. In order to mount an image handle, the handle must have WIM_GENERIC_MOUNT access.</xC1420128>
+    <xC1420128>Das angegebene Imgae-Handle wurde nicht mit der richtigen Zugriffsebene geöffnet. Um ein Image-Handle einzubinden, muss das Handle WIM_GENERIC_MOUNT Zugriffsberechtigt sein.</xC1420128>
     <xC1420130>Es wurde versucht, ein aufgeteiltes Imageformt einzubinden. Der Vorgang wird nicht unterstützt.</xC1420130>
     <xC1420131>Es wurde versucht, auf ein Wurzelverzeichnis eines Laufwerkes zu verweisen. Der Vorgang wird nicht unterstützt.</xC1420131>
     <xC1420132>Die Version von WIMGAPI (Windows Imaging Application Platform Interface), um dieses eingebundene Verzeichnis zu erstellen entspricht nicht der aktuellen Version. Stellen Sie sicher, dass wimserv.exe, wimmount.sys und imagex.exe/wimgapi.dll in der gleichen Version vorliegen.</xC1420132>
     <xC1420134>Das Laufwerk des angegebenen Einbindungspfads wird nicht unterstützt. Bitte wählen Sie ein Verzeichnis auf einem internen Laufwerk aus.</xC1420134>
     <xC1420135>Die Einbindung ist fehlgeschlagen. Für die Einbindung müssen alle noch aktiven Programme (Bsp. Antivirus- oder ein Index-Suchprogramm), die Zugriff auf Dateien im angegebenen Pfad haben, beendet werden.</xC1420135>
-    <xC143010D>An invalid image index was specified to the wim container wrapper.  The wrapper cannot open an image.</xC143010D>
+    <xC143010D>Ein ungültiger Index wurde für den WIM-Container-Wrapper angegeben. Der Wrapper kann kein Image öffnen.</xC143010D>
     <xC1440129>Die ausgewählte Log-datei ist zwar vorhanden, ist aber keine Unicode Textdatei. Nur in Unicode erstellte Textdateien werden unterstützt.</xC1440129>
     <xC144012E>[ FEHLER ] %1</xC144012E>
     <xC144012F>[ WARNUNG ] Das erweiterte Dateiattribut %1 wurde ignoriert.</xC144012F>
@@ -1371,7 +1374,7 @@ Command:
     <xC144013A>Nicht unterstützter Vorgang. Überprüfen Sie, ob das zu erstellende System-Abbild im angegebenen Pfad von WIMBoot unterstützt wird.</xC144013A>
     <xC144013B>Nicht unterstützter Vorgang. Überprüfen Sie, ob auf Ihrem Betriebssystem ein wof-Treiber vorhanden ist (wof.sy).</xC144013B>
   </MessageTable>
-  <UserAgreement>User Agreement
+<UserAgreement>User Agreement
 
     Chuyu team strongly recommand every user to read the following user agreement (hereinafter referred to as 'agreement', or 'this agreement') carefully before using Dism++. Anyone chooses not to comply with or fail to understand the intended meaning of the agreement should not be allowed, nor be granted the right granted by Chuyu team to use Dism++. Anyone who uses Dism++ is considered to agree with the following agreement, and to comply with the content of this agreement.
 
