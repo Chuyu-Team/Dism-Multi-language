@@ -380,7 +380,7 @@ Special Thanks to franz@drwindows.de
 	  <String Target="本次共释放了%s 的空间。" Link="%s sind fertiggestellt."/>
 
     <String Target="软件Q群：200783396、282276394（敲门砖：临安初雨 一夜落红）&#x000D;&#x000A;官方网站：www.chuyu.me&#x000D;&#x000A;&#x000D;&#x000A;如果发现BUG或者意见可以通过邮箱（mingkuang@live.com）或者在QQ群联系我&#x000D;&#x000A;&#x000D;&#x000A;诚请五湖四海的朋友为Dism++国际化支持添砖加瓦！&#x000D;&#x000A;——感谢以下热心用户背后默默的付出，排名仅根据首字母，不分重次先后——"
-          Link="Homepage: www.chuyu.me&#x000D;&#x000A;&#x000D;&#x000A;Sollten Sie Fehler finden oder wollen Sie Verbesserungsvorschläge machen, kontaktieren Sie mich bitte über e-Mail (mingkuang@live.com)&#x000D;&#x000A;&#x000D;&#x000A;Laden Sie Freunde und Bekannte in aller Welt ein, um Dism ++ mehrsprachig zu unterstützen.&#x000D;&#x000A;— Vielen Dank an alle treuen und begeisterten User.&#x000D;&#x000A;Die Sprachenliste sortiere ich nach dem Alphabet, nicht nach der Verbreitung der Sprachen.—"/>
+          Link="Homepage: www.chuyu.me&#x000D;&#x000A;&#x000D;&#x000A;Wenn Sie Fehler finden oder Verbesserungsvorschläge machen wollen, kontaktieren Sie mich bitte über e-Mail (mingkuang@live.com)&#x000D;&#x000A;&#x000D;&#x000A;Laden Sie Freunde und Bekannte in aller Welt ein, um Dism ++ mehrsprachig zu unterstützen.&#x000D;&#x000A;— Vielen Dank an alle treuen und begeisterten User.&#x000D;&#x000A;Die Sprachenliste ist nach dem Alphabet sortiert, nicht nach Verbreitung der Sprache.—"/>
 
     <String Target="该规则来自CCleaner解析引擎，因此不能提供说明。" Link="Diese Regelung wurde von CCleaner erstellt, daher kann Dism++ keine Beschreibungen anzeigen."/>
     <String Target="默认" Link="Standard"/>
