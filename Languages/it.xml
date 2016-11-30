@@ -533,8 +533,8 @@ Special Thanks to Massimiliano F.
     <String Target="%s 无法获取账号SID，错误代码：0x%.8X" Link="%s Inpossibile ricevere l'account SID, codice errore: 0x%.8X"/>
     <String Target="%s 所关联的用户（%s）无法删除，错误代码：0x%.8X" Link="%s utente (%s) non può essere eliminato, codice errore: 0x%.8X"/>
     <String Target="%s 未关联任何用户。" Link="%s non è associato a nessun utente."/>
-    <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" qLink=""/>
-  
+    <String q="" Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="Congratulations! Deletion successful. However, as some applications may be Provisioned Appx, if some SYSTEM-owned app persists, please use Provisioned Appx to delete them."/>
+
     <!--Windows Update-->
     <String Target="安装" Link="Installa"/>
     <String Target="正在检查数据库" Link="Controllo Database"/>
@@ -679,7 +679,8 @@ Esempi:
     <String Target="导入配置" Link="Importa Reg"/>
     <String Target="导入注册表文件过程中遇到问题，具体错误信息请参考 Dism++.log。" Link="Errore nell'importazione del file di registro, Controllare il file log di Dism++ per i dettagli."/>
     <String Target="注册表文件" Link="File Registro"/>
-    
+    <String q="" Target="操作成功，但是导入注册表文件过程遇到一些非致命性错误，具体错误信息请参考 Dism++.log。" Link="Operation succeeded. However non-fatal errors occured when importing registry file. Detailed error message can be found in Dism++.log."/>
+
     <!--Explorer-->
     <String Target="将任务栏中的Cortana调整为" Link="Scegli come visualizzare Cortana sulla barra delle applicazioni"/>
       <String Target="隐藏" Link="Nascosto"/>
@@ -1279,6 +1280,9 @@ Comando:
 
     <String Target="WinINet Cookies" Link="Cookie WinINet"/>
     <String Target="清理每个用户账户和应用容器下的Windows网络组件（例如IE，Edge）的Cookies（仅支持默认目录）" Link="Elimina i coockie dei componenti WinINet (IE, Edge) per ogni Utente e Contenitore App"/>
+    
+    <String q="" Target="最后一次正确配置（by Stanlazy）" Link="Last working configuration (by Stanlazy)"/>
+    <String q="" Target="最近能正常启动计算机的配置备份。" Link="Backup of the most recent configuration that could start up the PC."/>
   </StringMaps>
   <MessageTable>
     <x800F0806>Uno o più aggiornamenti sono in sospeso, si prega di riavviare e quindi continuare.</x800F0806>

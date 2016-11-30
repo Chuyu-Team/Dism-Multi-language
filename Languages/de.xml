@@ -380,7 +380,7 @@ Special Thanks to franz@drwindows.de
 	  <String Target="本次共释放了%s 的空间。" Link="%s sind fertiggestellt."/>
 
     <String Target="软件Q群：200783396、282276394（敲门砖：临安初雨 一夜落红）&#x000D;&#x000A;官方网站：www.chuyu.me&#x000D;&#x000A;&#x000D;&#x000A;如果发现BUG或者意见可以通过邮箱（mingkuang@live.com）或者在QQ群联系我&#x000D;&#x000A;&#x000D;&#x000A;诚请五湖四海的朋友为Dism++国际化支持添砖加瓦！&#x000D;&#x000A;——感谢以下热心用户背后默默的付出，排名仅根据首字母，不分重次先后——"
-          Link="Homepage: www.chuyu.me&#x000D;&#x000A;&#x000D;&#x000A;Wenn Sie Fehler finden oder Verbesserungsvorschläge machen wollen, kontaktieren Sie mich bitte über e-Mail (mingkuang@live.com)&#x000D;&#x000A;&#x000D;&#x000A;Laden Sie Freunde und Bekannte in aller Welt ein, um Dism ++ mehrsprachig zu unterstützen.&#x000D;&#x000A;— Vielen Dank an alle treuen und begeisterten User.&#x000D;&#x000A;Die Sprachenliste ist nach dem Alphabet sortiert, nicht nach Verbreitung der Sprache.—"/>
+          Link="Homepage: www.chuyu.me&#x000D;&#x000A;&#x000D;&#x000A;Wenn Sie Fehler finden oder Verbesserungsvorschläge machen wollen, kontaktieren Sie mich bitte über e-Mail (mingkuang@live.com)&#x000D;&#x000A;&#x000D;&#x000A;Laden Sie Freunde und Bekannte in aller Welt ein, um Dism++ mehrsprachig zu unterstützen.&#x000D;&#x000A;— Vielen Dank an alle treuen und begeisterten User.&#x000D;&#x000A;Die Sprachenliste ist nach dem Alphabet sortiert, nicht nach Verbreitung der Sprache.—"/>
 
     <String Target="该规则来自CCleaner解析引擎，因此不能提供说明。" Link="Diese Regelung wurde von CCleaner erstellt, daher kann Dism++ keine Beschreibungen anzeigen."/>
     <String Target="默认" Link="Standard"/>
@@ -533,7 +533,7 @@ Special Thanks to franz@drwindows.de
     <String Target="%s 无法获取账号SID，错误代码：0x%.8X" Link="%s Benutzer SID kann nicht abgerufen werden, Fehlercode: 0x%.8X"/>
     <String Target="%s 所关联的用户（%s）无法删除，错误代码：0x%.8X" Link="%s Benutzer (%s) kann nicht entfernt werden, Fehlercode: 0x%.8X"/>
     <String Target="%s 未关联任何用户。" Link="%s ist mit keinem anderen Benutzer verknüpft."/>
-    <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" qLink="Glückwunsch! Das Löschen war erfolgreich. 
+    <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="Glückwunsch! Das Löschen war erfolgreich. 
 Da einige der Programme 'Provisioned Apps' sind, können noch system-eigene Apps, trotz des Löschvorgangs, vorhanden sein. Benutzen Sie deshalb bitte zum Löschen die Option 'Provisioned Apps'"/>
 
     <!--Windows Update-->
@@ -681,7 +681,8 @@ Examples:
     <String Target="导入配置" Link="Registry-Import"/>
     <String Target="导入注册表文件过程中遇到问题，具体错误信息请参考 Dism++.log。" Link="Vorgang erfolgreich beendet. Der Import der Registry-Datei kann zu schweren Systemfehlern führen. Bitte überprüfen Sie für detaillierte Angaben die Dism++.log-Datei."/>
     <String Target="注册表文件" Link="Registrierungsdatei"/>
-    
+    <String q="" Target="操作成功，但是导入注册表文件过程遇到一些非致命性错误，具体错误信息请参考 Dism++.log。" Link="Operation succeeded. However non-fatal errors occured when importing registry file. Detailed error message can be found in Dism++.log."/>
+
     <!--Explorer-->
     <String Target="将任务栏中的Cortana调整为" Link="Cortana in der Taskleiste anzeigen"/>
       <String Target="隐藏" Link="Versteckt"/>
@@ -1285,7 +1286,7 @@ Command:
   <MessageTable>
     <x800F0806>Ein oder mehrere Updates sind noch ausstehend, um fortzufahren, bitte das Programm neu starten.</x800F0806>
     <x800F081F>Dism++ kann keine Installationsdateien finden um .NET 3.5 zu nutzen, bitte eine ISO-Datei einbinden und fortfahren. Um Windows zu reparieren bitte diese Funktion nutzen, um die genauen Installationsdateien anzugeben. Misslingt eine Reparatur, wird die Reparaturinstallation empfohlen.</x800F081F>
-    <x80073703>Das Betriebssystem wurde zu stark angepasst, Dism ++ kann nicht fortfahren.</x80073703>
+    <x80073703>Das Betriebssystem wurde zu stark angepasst, Dism++ kann nicht fortfahren.</x80073703>
     <x800F0830>Das Betriebssystem wurde zu stark angepasst, bitte das System verwerfen und neu beginnen.</x800F0830>
     <x800F0825>Die ausgewählte Funktion gehört zum System und kann daher nicht deinstalliert werden.</x800F0825>
     <x800F082E>Die ausgewählte Funktion kann nicht zu einem Offline Image hinzugefügt werden.</x800F082E>
