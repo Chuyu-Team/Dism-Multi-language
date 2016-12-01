@@ -62,7 +62,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
 		  <String Target="插件管理" Link="Plugin Manager"/>
       <String Target="新手模式" Link="Novice Mode"/>
       <String Target="详细设置" Link="More settings"/>
-      <String Target="操作完成后" Link="After the operation is completed"/>
+      <String Target="操作完成后" Link="After completing the operation"/>
         <String Target="未定义" Link="None"/>
         <String Target="关机" Link="Shutdown"/>
         <String Target="重启" Link="Restart"/>
@@ -73,7 +73,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
 		  <String Target="官方网站(&amp;O)" Link="&amp;Official Site"/>
 		  <String Target="问题反馈(&amp;B)" Link="Feed&amp;back"/>
       <String Target="关于Dism++(&amp;A)" Link="&amp;About Dism++"/>
-      <String Target="检查更新(&amp;U)" Link="Check &amp;Update"/>
+      <String Target="检查更新(&amp;U)" Link="Check &amp;Check for Updates"/>
 
 	  <String Target="应用一个WIM、SWM、SWM或者ISO映像。" Link="Applies a WIM, SWM, SWM or ISO image."/>
     <String Target="从 WIM 文件安装映像。" Link="Mounts an image from a WIM file."/>
@@ -86,10 +86,10 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
 	  <String Target="解密微软在线提供ESD文件" Link="Decrypt ESD files from Microsoft Online"/>
 	  <String Target="重启进入RE并为我启动Dism++" Link="Restart to WinRE and run Dism++"/>
 	  <String Target="启动RE环境" Link="Start WinRE"/>
-	  <String Target="添加删除Dism插件" Link="Add or Delete Dism++ Plugin"/>
+	  <String Target="添加删除Dism插件" Link="Add or remove Dism++ Plugin"/>
 	  <String Target="在官方网站可以获取帮助文档，并提出你的宝贵意见" Link="Documentation is available on www.chuyu.me. We do appreciate your feedback!"/>
     <String Target="为映像重新添加引导。" Link="Re-add a boot image."/>
-	  <String Target="只添加指定文件夹路径到映像列表。" Link="Add only the selected path to the Image List."/>
+	  <String Target="只添加指定文件夹路径到映像列表。" Link="Add selected path to the Image List."/>
     <String Target="重新扫描系统" Link="Rescan"/>
     <String Target="取消所有Compact压缩的文件（存在兼容性问题时使用）" Link="Uncompact all compressed files (in case of compatibility issue)"/>
     <String Target="将现有的系统备份为WIM或者ESD（如果文件存在则自动增量到原有文件）。" Link="Backup this system into a WIM or ESD file (changes will be applied to existing WIN/ESD file (incremantal save) if you backuped before)."/>
@@ -343,33 +343,33 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="排除列表" Link="Exclusion list"/>
     <String Target="减少映像文件（WIM、ESD）保存时间" Link="Reduce the save duration of image file (WIM, and ESD)"/>
     <String Target="CompactOS压缩率" Link="CompactOS compression rate"/>
-    <String Target="压缩率越小性能越好（仅影响选中系统）" Link="the smaller Compression ratio, the better performance(the selected system only)"/>
-    <String Target="大约压缩33%（更佳性能）" Link="Compression 33%(Faster)"/>
-    <String Target="大约压缩36%" Link="Compression 36%"/>
-    <String Target="大约压缩38%" Link="Compression 38%"/>
-    <String Target="大约压缩44%（更小体积）" Link="Compression 44%(Smaller)"/>
+    <String Target="压缩率越小性能越好（仅影响选中系统）" Link="smaller the Compression ratio, better the performance (compression only affects selected system)"/>
+    <String Target="大约压缩33%（更佳性能）" Link="Compress 33% (Faster)"/>
+    <String Target="大约压缩36%" Link="Compress 36%"/>
+    <String Target="大约压缩38%" Link="Compress 38%"/>
+    <String Target="大约压缩44%（更小体积）" Link="Compress 44% (Smaller)"/>
     <String Target="加载WofAdk驱动（可能导致蓝屏！）" Link="Load WofAdk driver (may cause BSOD!)"/>
     <String Target="启用更新差异传输引擎" Link="Enable Windows Update Differ Engine"/>
 
     <!--Tab-->
-	  <String Target="Dism++正在执行其他任务，你可以稍后打开会话。" Link="Dism++ is doing other tasks, you can open session later."/>
+	  <String Target="Dism++正在执行其他任务，你可以稍后打开会话。" Link="Dism++ is busy, have a cup of tea and come back later."/>
 	  <String Target="为了优化性能，你需要手动打开会话。" Link="To optimize performance, you need to open the session manually."/>
 	  <String Target="打开会话" Link="Open session"/>
 	  <String Target="正在打开会话" Link="Opening session"/>
 
     <String Target="常用工具" Link="Utilities"/>
 	    <String Target="空间回收" Link="Disk Clean"/>
-      <String Target="启动项管理" Link="Startup Management"/>
+      <String Target="启动项管理" Link="Startup Manager"/>
       <String Target="工具箱" Link="Toolkit"/>
       <String Target="Appx管理" Link="Appx Management"/>
 
-	  <String Target="驱动管理" Link="Driver Management"/>
-	  <String Target="Windows服务" Link="Service Management"/>
-	  <String Target="Windows功能" Link="Feature Management"/>
-	  <String Target="更新管理" Link="Updates Management"/>
-      <String Target="已安装的更新" Link="Installed Updates"/>
-	  <String Target="可选功能" Link="Capability"/>
-    <String Target="部署功能" Link="Deployment Features"/>
+	  <String Target="驱动管理" Link="Driver Manager"/>
+	  <String Target="Windows服务" Link="Win Services"/>
+	  <String Target="Windows功能" Link="Win Features"/>
+	  <String Target="更新管理" Link="Win Updates"/>
+      <String Target="已安装的更新" Link="Update History"/>
+	  <String Target="可选功能" Link="Optional Features"/>
+    <String Target="部署功能" Link="Deploy Features"/>
 
     <!--空间回收-->
 	  <String Target="推荐操作" Link="Recommend"/>
@@ -377,16 +377,16 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
 	  <String Target="正在扫描%s" Link="Scaning %s"/>
 	  <String Target="出错" Link="Error"/>
 	  <String Target="正在清理%s" Link="Cleaning %s "/>
-	  <String Target="本次共释放了%s 的空间。" Link="%s is released."/>
+	  <String Target="本次共释放了%s 的空间。" Link="freed %s ."/>
 
     <String Target="软件Q群：200783396、282276394（敲门砖：临安初雨 一夜落红）&#x000D;&#x000A;官方网站：www.chuyu.me&#x000D;&#x000A;&#x000D;&#x000A;如果发现BUG或者意见可以通过邮箱（mingkuang@live.com）或者在QQ群联系我&#x000D;&#x000A;&#x000D;&#x000A;诚请五湖四海的朋友为Dism++国际化支持添砖加瓦！&#x000D;&#x000A;——感谢以下热心用户背后默默的付出，排名仅根据首字母，不分重次先后——"
-          Link="official site: www.chuyu.me&#x000D;&#x000A;&#x000D;&#x000A;If you find bugs or have ideas please can contact us via e-mail (mingkuang@live.com)&#x000D;&#x000A;&#x000D;&#x000A;We sincerely welcome volunteers around the world to make Dism++ available in your native language!&#x000D;&#x000A;——Here we honor all contributors (ranked alphabetically)——"/>
+          Link="official site: www.chuyu.me&#x000D;&#x000A;&#x000D;&#x000A;If you found bugs or have ideas please can contact us via e-mail (mingkuang@live.com)&#x000D;&#x000A;&#x000D;&#x000A;Please help us make Dism++ available in your native language! (github.com/Chuyu-Team/Dism-Multi-language)&#x000D;&#x000A;——Here we honor all contributors (ranked alphabetically)——"/>
 
-    <String Target="该规则来自CCleaner解析引擎，因此不能提供说明。" Link="The rule is from the CCleaner rules, so Dism++ is unable to show description(s)."/>
+    <String Target="该规则来自CCleaner解析引擎，因此不能提供说明。" Link="The rule is from the CCleaner rules, so details are not available."/>
     <String Target="默认" Link="Default"/>
     <String Target="关于 %s 的详细处理信息" Link="Detailed information about the %s"/>
-    <String Target="以下文件即将被处理，你可以点击 清理 处理他们" Link="The following files will be processed, and you can click‘Clean Up’to process them"/>
-    <String Target="关于 %s 的警告：&#x000D;&#x000A;&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;您确定要清理么？" Link="%s warning:&#x000D;&#x000A;&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;Sure to continue?"/>
+    <String Target="以下文件即将被处理，你可以点击 清理 处理他们" Link="The following files will be processed, and you can click 'Clean Up' to process them"/>
+    <String Target="关于 %s 的警告：&#x000D;&#x000A;&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;您确定要清理么？" Link="%s warning:&#x000D;&#x000A;&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;Sure to clean them up?"/>
     <String Target="全不选" Link="None"/>
     <String Target="已经清理" Link="Cleaned"/>
     <String Target="清理失败" Link="Failed"/>
@@ -396,7 +396,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="缓存文件" Link="Cache files"/>
     <String Target="应用程序" Link="Applications"/>
     <String Target="备份文件" Link="Backup files"/>
-    <String Target="Dism++即将进行清理，垃圾文件将被直接删除，无法通过回收站恢复，你确定要继续么？" Link="Dism++ will start cleaning. Rubbish files will be deleted diectly and cannot be recovered from Recycle Bin. Sure to continue?"/>
+    <String Target="Dism++即将进行清理，垃圾文件将被直接删除，无法通过回收站恢复，你确定要继续么？" Link="Dism++ will start cleaning. Files CANNOT be recovered from Recycle Bin. Sure to proceed?"/>
 
     <!--注册表清理-->
     <String Target="注册表清理" Link="Registry Cleanup"/>
@@ -1083,7 +1083,7 @@ Command:
     <String Target="Windows在下载更新以及更新Metro应用时会在这里产生临时安装包。" Link="When windows downloading updates or updating metro apps, system make temp installation packages in here"/>
 
     <String Target="临时文件" Link="Temp Files"/>
-    <String Target="一些程序为特定用户产生的临时文件。" Link="Temp files generated for specific users."/>
+    <String Target="一些程序为特定用户产生的临时文件。" Link="Temp files of one specific user."/>
 
     <String Target="Windows报告" Link="Windows Error Report"/>
     <String Target="当程序遇到某些问题时，系统会在这里留下稳定性报告，建议你定期清理。" Link="When the programs have some problems, the system will left a stability report here, I recommended you clean the stability report annually."/>
