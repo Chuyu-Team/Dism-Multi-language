@@ -681,7 +681,7 @@ Examples:
     <String Target="导入配置" Link="Registry-Import"/>
     <String Target="导入注册表文件过程中遇到问题，具体错误信息请参考 Dism++.log。" Link="Beim Import der Registry-Datei traten Fehler auf, überprüfen Sie bitte die Fehlermeldungen im Dism++.log-Datei."/>
     <String Target="注册表文件" Link="Registrierungsdatei"/>
-    <String q="" Target="操作成功，但是导入注册表文件过程遇到一些非致命性错误，具体错误信息请参考 Dism++.log。" Link="Der Vorgang wurde erfolgreich beendet. Dennoch traten einige Fehler beim Import der Registry-Datei auf. Details zur Fehlermeldung finden Sie in der Dism++.log-Datei."/>
+    <String Target="操作成功，但是导入注册表文件过程遇到一些非致命性错误，具体错误信息请参考 Dism++.log。" Link="Der Vorgang wurde erfolgreich beendet. Dennoch traten einige Fehler beim Import der Registry-Datei auf. Details zur Fehlermeldung finden Sie in der Dism++.log-Datei."/>
 
     <!--Explorer-->
     <String Target="将任务栏中的Cortana调整为" Link="Cortana in der Taskleiste anzeigen"/>
