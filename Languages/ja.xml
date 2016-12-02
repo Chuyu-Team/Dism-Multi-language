@@ -83,7 +83,7 @@ Special Thanks to 山形まり花、奎宁
 	  <String Target="打开并编辑现有的WIM文件" Link="既存の WIM ファイルを開いて編集"/>
 	  <String Target="WIM、ESD互转" Link="ESD / WIM 変換"/>
 	  <String Target="将ESD文件（支持加密）转换为ISO。" Link="ESD から ISO への変換（暗号化 ESD 可）。"/>
-	  <String Target="解密微软在线提供ESD文件" Link="Microsoft Online からの ESD ファイルを暗号化解除"/>
+	  <String Target="解密微软在线提供的ESD文件" Link="Microsoft Online からの ESD ファイルを暗号化解除"/>
 	  <String Target="重启进入RE并为我启动Dism++" Link="WinRE への再起動で Dism++ 実行"/>
 	  <String Target="启动RE环境" Link="WinRE 起動"/>
 	  <String Target="添加删除Dism插件" Link="Dism++ 拡張機能追加あるいは削除"/>

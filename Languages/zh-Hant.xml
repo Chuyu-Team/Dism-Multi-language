@@ -85,7 +85,7 @@
 	  <String Target="打开并编辑现有的WIM文件" Link="打開並編輯現有的WIM檔"/>
 	  <String Target="WIM、ESD互转" Link="ESD、WIM互轉"/>
 	  <String Target="将ESD文件（支持加密）转换为ISO。" Link="將ESD檔（支持加密）轉換為ISO。"/>
-	  <String Target="解密微软在线提供ESD文件" Link="解密微軟線上提供的ESD檔案"/>
+	  <String Target="解密微软在线提供的ESD文件" Link="解密微軟線上提供的ESD檔案"/>
 	  <String Target="重启进入RE并为我启动Dism++" Link="重啟進入RE並再次啟動Dism++"/>
 	  <String Target="启动RE环境" Link="啟動RE環境"/>
 	  <String Target="添加删除Dism插件" Link="添加或刪除Dism外掛程式"/>

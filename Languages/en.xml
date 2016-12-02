@@ -83,7 +83,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
 	  <String Target="打开并编辑现有的WIM文件" Link="Open and Edit an existing WIM File"/>
 	  <String Target="WIM、ESD互转" Link="ESD/WIM Conversion"/>
 	  <String Target="将ESD文件（支持加密）转换为ISO。" Link="Convert ESD to ISO (Support encrypted ESD files)."/>
-	  <String Target="解密微软在线提供ESD文件" Link="Decrypt ESD files from Microsoft Online"/>
+	  <String Target="解密微软在线提供的ESD文件" Link="Decrypt ESD files from Microsoft Online"/>
 	  <String Target="重启进入RE并为我启动Dism++" Link="Restart to WinRE and run Dism++"/>
 	  <String Target="启动RE环境" Link="Start WinRE"/>
 	  <String Target="添加删除Dism插件" Link="Add or remove Dism++ Plugin"/>
@@ -359,14 +359,14 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
 
     <String Target="常用工具" Link="Utilities"/>
 	    <String Target="空间回收" Link="Disk Clean"/>
-      <String Target="启动项管理" Link="Startup Manager"/>
+      <String Target="启动项管理" Link="Startup"/>
       <String Target="工具箱" Link="Toolkit"/>
-      <String Target="Appx管理" Link="Appx Management"/>
+      <String Target="Appx管理" Link="Appxs"/>
 
-	  <String Target="驱动管理" Link="Driver Manager"/>
-	  <String Target="Windows服务" Link="Win Services"/>
-	  <String Target="Windows功能" Link="Win Features"/>
-	  <String Target="更新管理" Link="Win Updates"/>
+	  <String Target="驱动管理" Link="Drivers"/>
+	  <String Target="Windows服务" Link="Services"/>
+	  <String Target="Windows功能" Link="Features"/>
+	  <String Target="更新管理" Link="Updates"/>
       <String Target="已安装的更新" Link="Update History"/>
 	  <String Target="可选功能" Link="Optional Features"/>
     <String Target="部署功能" Link="Deploy Features"/>

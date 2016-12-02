@@ -84,7 +84,7 @@ Thanks: Vasiliy Nasonov, virus, Vladimir, ZT
 	  <String Target="打开并编辑现有的WIM文件" Link="Открыть или изменить существующий WIM-файл"/>
 	  <String Target="WIM、ESD互转" Link="WIM, SWM конв."/>
 	  <String Target="将ESD文件（支持加密）转换为ISO。" Link="Преобразовать ESD в ISO (также поддерживаются зашифрованные ESD)."/>
-	  <String Target="解密微软在线提供ESD文件" Link="Расшифровать ESD-файлы, полученные официально от Майкрософт"/>
+	  <String Target="解密微软在线提供的ESD文件" Link="Расшифровать ESD-файлы, полученные официально от Майкрософт"/>
 	  <String Target="重启进入RE并为我启动Dism++" Link="Перезагрузить систему в среду восстановления Windows и запустить Dism++"/>
 	  <String Target="启动RE环境" Link="Запустить среду восстановления Windows"/>
 	  <String Target="添加删除Dism插件" Link="Добавить или удалить дополнения Dism++"/>
