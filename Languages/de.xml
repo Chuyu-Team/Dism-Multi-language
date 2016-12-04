@@ -564,7 +564,7 @@ Da einige der Programme 'Provisioned Apps' sind, können noch system-eigene Apps
     <String Target="暂不安装（推荐）&#x000A;我暂时还需要添加其他更新。" Link="Nicht installieren (empfohlen) &#x000A; Zuerst müssen andere Updates installiert werden."/>
     <String Target="继续安装&#x000A;我已确保我需要的更新均已安装。" Link="Weiter mit der Installation&#x000A; Alle anderen Updates wurden installiert."/>
     <String Target="关于 %s 的警告：&#x000D;&#x000A;&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;你确定要继续吗？" Link="%s Achtung:&#x000D;&#x000A;&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;Wollen Sie wirklich fortfahren?"/>
-    <String Target="导出地址" Link="Links werden kopiert"/>
+    <String Target="导出地址" Link="Links kopieren"/>
     <String Target="补丁下载地址已经成功复制到剪切板。" Link="Download-Adressen wurden in den Zwischenspeicher kopiert."/>
 
     <!--区域和语言-->
