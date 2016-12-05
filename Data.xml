@@ -293,8 +293,11 @@
       <Group>#系统相关</Group>
       <Scan>
         <Activate>
-          <General RootPath="%SystemDrive%\Users\*\AppData\Local\Microsoft\Windows\WER\"/>
-          <General RootPath="%ProgramData%\Microsoft\Windows\WER\"/>
+          <General RootPath="%SystemDrive%\Users\*\AppData\Local\Microsoft\Windows\WER"/>
+          <General RootPath="%ProgramData%\Microsoft\Windows\WER"/>
+          <General RootPath="%SystemRoot%\LiveKernelReports">
+            <Query>*</Query>
+          </General>
         </Activate>
       </Scan>
     </Item>
