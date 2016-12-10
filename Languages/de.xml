@@ -534,7 +534,7 @@ Special Thanks to franz@drwindows.de
     <String Target="%s 所关联的用户（%s）无法删除，错误代码：0x%.8X" Link="%s Benutzer (%s) kann nicht entfernt werden, Fehlercode: 0x%.8X"/>
     <String Target="%s 未关联任何用户。" Link="%s ist mit keinem anderen Benutzer verknüpft."/>
     <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="Glückwunsch! Das Löschen war erfolgreich. 
-Da einige der Programme 'Provisioned Apps' sind, können noch system-eigene Apps, trotz des Löschvorgangs, vorhanden sein. Benutzen Sie deshalb bitte zum Löschen die Option 'Provisioned Apps'"/>
+Da einige der Programme 'Provisioned Apps' sind, können noch system-eigene Apps, trotz des Löschvorgangs, vorhanden sein. Benutzen Sie deshalb zum Löschen bitte die Option 'Provisioned Apps'"/>
 
     <!--Windows Update-->
     <String Target="安装" Link="Installieren"/>
@@ -552,7 +552,7 @@ Da einige der Programme 'Provisioned Apps' sind, können noch system-eigene Apps
     <String Target="正在安装" Link="Installieren"/>
     <String Target="项目" Link="Elemente"/>
     <String Target="Windows Update数据库已经存在新版本，你需要更新吗？" Link="Die Windows Update Datenbank hat eine neuere Version gefunden, soll die neuere Version installiert werden?"/>
-    <String Target="下载%d%%" Link="Down. %d%%"/>
+    <String Target="下载%d%%" Link="Download %d%%"/>
     <String Target="将现有的本地补丁包添加至系统。" Link="Fügt Update-Pakete der Image-Datei hinzu."/>
     <String Target="使用Dism++数据库扫描当前系统需要的更新列表。" Link="Benutze die Dism++ Datenbank um nach benötigten Updates für die aktuelle Image-Datei zu suchen."/>
     <String Target="自动下载并安装更新列表中选中的更新。" Link="Updates automatisch herunterladen und installieren."/>
