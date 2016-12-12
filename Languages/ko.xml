@@ -75,7 +75,7 @@ Thanks: 阿泽西
 		  <String Target="关于Dism++(&amp;A)" Link="About Dism++(&amp;A)"/>
       <String Target="检查更新(&amp;U)" Link="업데이트 확인(&amp;U)"/>
 
-    <String Target="应用一个WIM、SWM、SWM或者ISO映像。" Link="한개의 WIM, SWM, SWM 또는 ISO 이미지 응용."/>
+    <String Target="应用一个WIM、ESD、SWM或者ISO映像。" Link="한개의 WIM, ESD, SWM 또는 ISO 이미지 응용."/>
     <String Target="从 WIM 文件安装映像。" Link="WIM 파일에서 이미지 설치."/>
 	  <String Target="卸载安装的 WIM 映像" Link="탑재된 WIM 이미지를 마운트 해제"/>
 	  <String Target="保存对安装的 WIM 映像的更改" Link="탑재된 WIM 이미지에 변경 내용 저장"/>

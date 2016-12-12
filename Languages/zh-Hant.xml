@@ -77,7 +77,7 @@
       <String Target="关于Dism++(&amp;A)" Link="關於Dism++(&amp;A)"/>
       <String Target="检查更新(&amp;U)" Link="檢查更新(&amp;U)"/>
     
-    <String Target="应用一个WIM、SWM、SWM或者ISO映像。" Link="套用一個WIM、SWM、SWM或者ISO映像。"/>
+    <String Target="应用一个WIM、ESD、SWM或者ISO映像。" Link="套用一個WIM、ESD、SWM或者ISO映像。"/>
     <String Target="从 WIM 文件安装映像。" Link="從 WIM 檔案掛接映像。"/>
 	  <String Target="卸载安装的 WIM 映像" Link="卸載安裝的 WIM 映像"/>
 	  <String Target="保存对安装的 WIM 映像的更改" Link="保存對安裝的 WIM 映像的更改"/>

@@ -76,7 +76,7 @@ Thanks: Vasiliy Nasonov, virus, Vladimir, ZT
 		  <String Target="关于Dism++(&amp;A)" Link="О Dism++...(&amp;A)"/>
       <String Target="检查更新(&amp;U)" Link="Проверить наличие обновлений(&amp;U)"/>
 
-    <String Target="应用一个WIM、SWM、SWM或者ISO映像。" Link="Применить WIM, SWM, SWM или ISO-образ."/>
+    <String Target="应用一个WIM、ESD、SWM或者ISO映像。" Link="Применить WIM, ESD, SWM или ISO-образ."/>
     <String Target="从 WIM 文件安装映像。" Link="Монтирование образа из WIM-файла."/>
 	  <String Target="卸载安装的 WIM 映像" Link="Размонтировать ранее смонтированный образ WIM"/>
 	  <String Target="保存对安装的 WIM 映像的更改" Link="Сохранить изменения в ранее смонтированный образ WIM"/>

@@ -75,7 +75,7 @@ Special Thanks to Richard Kahl
       <String Target="关于Dism++(&amp;A)" Link="&amp;O Programu Dism++"/>
       <String Target="检查更新(&amp;U)" Link="Kontrola &amp;Aktualizace"/>
 		
-	  <String Target="应用一个WIM、SWM、SWM或者ISO映像。" Link="Použít WIM, SWM, SWM or ISO obraz."/>
+	  <String Target="应用一个WIM、ESD、SWM或者ISO映像。" Link="Použít WIM, ESD, SWM or ISO obraz."/>
     <String Target="从 WIM 文件安装映像。" Link="Připojí obraz z WIM souboru."/>
 	  <String Target="卸载安装的 WIM 映像" Link="Odpojí připojené WIM obraz."/>
 	  <String Target="保存对安装的 WIM 映像的更改" Link="Uloží změny do WIM obrazu."/>

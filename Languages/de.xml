@@ -75,7 +75,7 @@ Special Thanks to franz@drwindows.de
       <String Target="关于Dism++(&amp;A)" Link="&amp;Über Dism++"/>
       <String Target="检查更新(&amp;U)" Link="Nach &amp;Updates suchen"/>
 		
-	  <String Target="应用一个WIM、SWM、SWM或者ISO映像。" Link="Erstellt eine WIM-, SWM-, SWM- oder ISO-Image-Datei."/>
+	  <String Target="应用一个WIM、ESD、SWM或者ISO映像。" Link="Erstellt eine WIM-, ESD-, SWM- oder ISO-Image-Datei."/>
     <String Target="从 WIM 文件安装映像。" Link="Einbinden einer WIM-Image-Datei"/>
 	  <String Target="卸载安装的 WIM 映像" Link="Auswerfen des WIM Images"/>
 	  <String Target="保存对安装的 WIM 映像的更改" Link="Änderungen am WIM-Image speichern."/>
