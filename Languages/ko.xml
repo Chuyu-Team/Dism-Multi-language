@@ -97,7 +97,8 @@ Thanks: 阿泽西
     <String Target="修复映像中存在的组件存储损坏" Link="이미지 복구"/>
     <String Target="从现有映像文件（WIM、ESD）恢复系统。" Link="현재 이미지 파일(WIM,ESD)에서 시스템 복구."/>
     <String Target="调整Dism++的设置" Link="Dism++설정에 대한 조정"/>
-    
+    <String Target="专家模式" Link="전문가 모드"/>
+
     <!--右键菜单-->
     <String Target="Xpress4k（推荐）" Link="Xpress4k(추천)"/>
     <String Target="LZX（体积最小）" Link="LZX(작은크기)"/>

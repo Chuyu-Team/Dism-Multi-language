@@ -98,7 +98,8 @@ Special Thanks to JP.Sudret
     <String Target="修复映像中存在的组件存储损坏" Link="Réparer Image"/>
     <String Target="从现有映像文件（WIM、ESD）恢复系统。" Link="Restaurer OS depuis un fichier Image existant (WIM/ESD)"/>
     <String Target="调整Dism++的设置" Link="Ajuster paramètres Dism++"/>
-    
+    <String Target="专家模式" Link="Mode expert"/>
+
     <!--右键菜单-->
     <String Target="Xpress4k（推荐）" Link="Xpress4k(recommander)"/>
     <String Target="LZX（体积最小）" Link="LZX(plus petit)"/>

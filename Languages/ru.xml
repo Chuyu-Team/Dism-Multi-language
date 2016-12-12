@@ -98,6 +98,7 @@ Thanks: Vasiliy Nasonov, virus, Vladimir, ZT
     <String Target="修复映像中存在的组件存储损坏" Link="Исправить образ"/>
     <String Target="从现有映像文件（WIM、ESD）恢复系统。" Link="Восстановить операционную систему из существующего файла образа (WIM, ESD)."/>
     <String Target="调整Dism++的设置" Link="Настройка параметров Dism++"/>
+    <String Target="专家模式" Link="режим эксперта"/>
 
     <!--右键菜单-->
     <String Target="Xpress4k（推荐）" Link="Xpress4k (рекомендуется)"/>

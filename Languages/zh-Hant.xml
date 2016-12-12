@@ -99,7 +99,8 @@
     <String Target="修复映像中存在的组件存储损坏" Link="修復映像中存在的元件儲存損壞"/>
     <String Target="从现有映像文件（WIM、ESD）恢复系统。" Link="從現有映像檔（WIM、ESD）恢復系統。"/>
     <String Target="调整Dism++的设置" Link="調整Dism++的設置"/>
-    
+    <String Target="专家模式" Link="專家模式"/>
+
     <!--右键菜单-->
     <String Target="Xpress4k（推荐）" Link="Xpress4k(推薦)"/>
     <String Target="LZX（体积最小）" Link="LZX(體積最小)"/>
