@@ -73,6 +73,7 @@
 	  <String Target="帮助(&amp;H)" Link="幫助(&amp;H)"/>
       <String Target="查看帮助(&amp;V)" Link="查看幫助(&amp;V)"/>
 		  <String Target="官方网站(&amp;O)" Link="官方網站(&amp;O)"/>
+      <String Target="官方群(&amp;G)" Link="官方群(&amp;G)"/>
 		  <String Target="问题反馈(&amp;B)" Link="問題反饋(&amp;B)"/>
       <String Target="关于Dism++(&amp;A)" Link="關於Dism++(&amp;A)"/>
       <String Target="检查更新(&amp;U)" Link="檢查更新(&amp;U)"/>
@@ -237,6 +238,9 @@
     <String Target="正在加载插件" Link="正在載入插件"/>
     <String Target="正在扫描已安装的系统" Link="正在掃描已安裝的系統"/>
     <String Target="已经是最新版本，无需更新！" Link="已經是最新版本，無需更新！"/>
+    <String Target="正在修复挂载映像" Link="正在修復掛載映射"/>
+    <String Target="正在取消现有任务，请稍等……" Link="正在取消現有任務，請稍等……"/>
+    <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="掛載映射 %s 已經損壞，需要修復才能繼續。你需要執行修復操作嗎？"/>
 
     <!--添加映像-->
     <String Target="请输入映像存放目录" Link="請輸入映像存放目錄"/>
