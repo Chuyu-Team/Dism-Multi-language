@@ -72,6 +72,7 @@ Thanks: Vasiliy Nasonov, virus, Vladimir, ZT
 	  <String Target="帮助(&amp;H)" Link="Справка(&amp;H)"/>
       <String Target="查看帮助(&amp;V)" Link="Помощь(&amp;V)"/>
 		  <String Target="官方网站(&amp;O)" Link="Посетить веб-сайт(&amp;O)"/>
+      <String Target="官方群(&amp;G)" Link="Официальная группа(&amp;G)"/>
 		  <String Target="问题反馈(&amp;B)" Link="Отчет об ошибке(&amp;B)"/>
 		  <String Target="关于Dism++(&amp;A)" Link="О Dism++...(&amp;A)"/>
       <String Target="检查更新(&amp;U)" Link="Проверить наличие обновлений(&amp;U)"/>
@@ -236,6 +237,9 @@ Thanks: Vasiliy Nasonov, virus, Vladimir, ZT
     <String Target="正在加载插件" Link="загрузка дополнения"/>
     <String Target="正在扫描已安装的系统" Link="Анализ установленной системы"/>
     <String Target="已经是最新版本，无需更新！" Link="Вы используете последнюю версию, обновление не требуется."/>
+    <String Target="正在修复挂载映像" Link="Переподключение образа"/>
+    <String Target="正在取消现有任务，请稍等……" Link="Отмена текущего задания, подождите..."/>
+    <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="Смонтированный образ %s повреждён и должен быть восстановлен перед продолжением. Вы хотите выполнить восстановление сейчас?"/>
 
     <!--添加映像-->
     <String Target="请输入映像存放目录" Link="Введите путь к папке хранения образа"/>

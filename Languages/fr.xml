@@ -72,6 +72,7 @@ Special Thanks to JP.Sudret
 	  <String Target="帮助(&amp;H)" Link="Aide(&amp;H)"/>
       <String Target="查看帮助(&amp;V)" Link="&amp;Voir l'Aide"/>
 		  <String Target="官方网站(&amp;O)" Link="Site &amp;Officiel"/>
+      <String Target="官方群(&amp;G)" Link="&amp;Groupe Officiel"/>
 		  <String Target="问题反馈(&amp;B)" Link="Retour d'Expérience(&amp;B)"/>
       <String Target="关于Dism++(&amp;A)" Link="&amp;A Props de Dism++"/>
       <String Target="检查更新(&amp;U)" Link="Vérification et Mise à Jour(&amp;U)"/>
@@ -236,6 +237,9 @@ Special Thanks to JP.Sudret
     <String Target="正在加载插件" Link="Chargement Plug-in"/>
     <String Target="正在扫描已安装的系统" Link="Scan du Système installé"/>
     <String Target="已经是最新版本，无需更新！" Link="C'est déjà la dernière version. Aucune autre mise à jour possible."/>
+    <String Target="正在修复挂载映像" Link="Image remontée"/>
+    <String Target="正在取消现有任务，请稍等……" Link="Annulation des tâches en cours, veuillez patienter …"/>
+    <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="L'image montée est endommagée, elle doit être réparée avant de continuer. Voulez-vous réparer l'image maintenant?"/>
 
     <!--添加映像-->
     <String Target="请输入映像存放目录" Link="Veuiller entrer le chemin d’accès de l’image"/>
