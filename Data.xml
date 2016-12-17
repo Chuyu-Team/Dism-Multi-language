@@ -293,11 +293,8 @@
       <Group>#系统相关</Group>
       <Scan>
         <Activate>
-          <General RootPath="%SystemDrive%\Users\*\AppData\Local\Microsoft\Windows\WER"/>
-          <General RootPath="%ProgramData%\Microsoft\Windows\WER"/>
-          <General RootPath="%SystemRoot%\LiveKernelReports">
-            <Query>*</Query>
-          </General>
+          <General RootPath="%SystemDrive%\Users\*\AppData\Local\Microsoft\Windows\WER\"/>
+          <General RootPath="%ProgramData%\Microsoft\Windows\WER\"/>
         </Activate>
       </Scan>
     </Item>
@@ -395,15 +392,43 @@
         <Scan>
           <Applicable>
             <ImageFlags>1</ImageFlags>
+            <FileExist FilePath="%SystemRoot%\SoftwareDistribution\Download"/>
           </Applicable>
           <Activate>
-            <General RootPath="%SystemRoot%\SoftwareDistribution\Download\"/>
+            <General RootPath="%SystemRoot%\SoftwareDistribution\Download"/>
           </Activate>
           <!--Excluded 可以排除-->
         </Scan>
         <Scan>
+          <Applicable>
+            <FileExist FilePath="%SystemRoot%\SoftwareDistribution"/>
+          </Applicable>
           <Activate>
-            <General RootPath="%SystemRoot%\SoftwareDistribution\"/>
+            <General RootPath="%SystemRoot%\SoftwareDistribution"/>
+          </Activate>
+        </Scan>
+      </ScanCollection>
+    </Item>
+
+    <Item Name="#传递优化缓存" Level="2">
+      <Description>#Win10开始使用传递优化（DeliveryOptimization）服务下载Windows更新和通用应用（UWP）产生的缓存文件</Description>
+      <Group>#缓存文件</Group>
+      <ScanCollection>
+        <Scan Type="Custom">
+          <Applicable>
+            <ImageFlags>1</ImageFlags>
+            <FileExist FilePath="%SystemRoot%\SoftwareDistribution\DeliveryOptimization"/>
+          </Applicable>
+          <Activate>
+            <Custom ProcName="NCDOCacheOnlineCleanup"/>
+          </Activate>
+        </Scan>
+        <Scan>
+          <Applicable>
+            <FileExist FilePath="%SystemRoot%\SoftwareDistribution\DeliveryOptimization"/>
+          </Applicable>
+          <Activate>
+            <General RootPath="%SystemRoot%\SoftwareDistribution\DeliveryOptimization"/>
           </Activate>
         </Scan>
       </ScanCollection>
