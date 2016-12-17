@@ -239,7 +239,7 @@ Special Thanks to JP.Sudret
     <String Target="已经是最新版本，无需更新！" Link="C'est déjà la dernière version. Aucune autre mise à jour possible."/>
     <String Target="正在修复挂载映像" Link="Image remontée"/>
     <String Target="正在取消现有任务，请稍等……" Link="Annulation des tâches en cours, veuillez patienter …"/>
-    <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="L'image montée est endommagée, elle doit être réparée avant de continuer. Voulez-vous réparer l'image maintenant?"/>
+    <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="L'image montée de %s est endommagée, elle doit être réparée avant de continuer. Voulez-vous réparer l'image maintenant?"/>
 
     <!--添加映像-->
     <String Target="请输入映像存放目录" Link="Veuiller entrer le chemin d’accès de l’image"/>
