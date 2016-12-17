@@ -71,6 +71,7 @@ Special Thanks to Richard Kahl
 	  <String Target="帮助(&amp;H)" Link="&amp;Pomoc"/>
       <String Target="查看帮助(&amp;V)" Link="&amp;Zobrazit nápovědu"/>
 		  <String Target="官方网站(&amp;O)" Link="&amp;Oficiální stránka"/>
+      <String Target="官方群(&amp;G)" Link="Oficiální Skupina(&amp;G)"/>
 		  <String Target="问题反馈(&amp;B)" Link="Zpětná &amp;vazba"/>
       <String Target="关于Dism++(&amp;A)" Link="&amp;O Programu Dism++"/>
       <String Target="检查更新(&amp;U)" Link="Kontrola &amp;Aktualizace"/>
@@ -235,6 +236,9 @@ Special Thanks to Richard Kahl
     <String Target="正在加载插件" Link="Načítání Plug-in"/>
     <String Target="正在扫描已安装的系统" Link="Skenován nainstalováný systém"/>
     <String Target="已经是最新版本，无需更新！" Link="Máte nejnovější verzi. Žádné další aktualizace."/>
+    <String Target="正在修复挂载映像" Link="Znovu načtení obrazu"/>
+    <String Target="正在取消现有任务，请稍等……" Link="Zrušení aktuální úlohy, prosím čekejte..."/>
+    <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="Připojený obraz %s je poškozen, musí být opraven než budete pokračovat. Chcete opravit obraz teď?"/>
 
     <!--添加映像-->
     <String Target="请输入映像存放目录" Link="Prosím, zadejte cestu k obrazu"/>
