@@ -70,6 +70,7 @@ Special Thanks to 山形まり花、奎宁
     
 	  <String Target="帮助(&amp;H)" Link="ヘルプ(&amp;H)"/>
       <String Target="查看帮助(&amp;V)" Link="ヘルプを表示(&amp;H)"/>
+      <String Target="官方群(&amp;G)" Link="QQ グループ(&amp;G)"/>
 		  <String Target="官方网站(&amp;O)" Link="公式サイト(&amp;O)"/>
 		  <String Target="问题反馈(&amp;B)" Link="フィードバック(&amp;B)"/>
       <String Target="关于Dism++(&amp;A)" Link="Dism++ について(&amp;A)"/>
@@ -235,6 +236,9 @@ Special Thanks to 山形まり花、奎宁
     <String Target="正在加载插件" Link="拡張機能読み込み中"/>
     <String Target="正在扫描已安装的系统" Link="インストール済みのシステムをスキャン中"/>
     <String Target="已经是最新版本，无需更新！" Link="最新バージョンです、更新必要がありません。"/>
+    <String Target="正在修复挂载映像" Link="マウントしたイメージを修復中"/>
+    <String Target="正在取消现有任务，请稍等……" Link="既存の任務をキャンセル中、しばらくお待ちください…"/>
+    <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="マウントしたのイメージ %s はおそらく壊れだ、続行して修復必要です。修復を実行ですか？"/>
 
     <!--添加映像-->
     <String Target="请输入映像存放目录" Link="イメージのパスを入力してください"/>
