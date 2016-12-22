@@ -22,8 +22,7 @@
         controller: function ()
 		{
             function loadlang(val)
-			{
-				
+			{				
                 Main.lang(val);
                 m.request({
                     method: 'GET',
@@ -34,6 +33,17 @@
                 });
             }
 			
+            function loaddata()
+            {
+                m.request({
+                    method: 'GET',
+                    url: 'json/data.json',
+                    type: function(data) {
+                        Main['data'] = data;
+                    }
+                });
+            }
+
 			var la=Main.lang();
 			
 			if(la.indexOf('zh-')==0)
@@ -58,6 +68,7 @@
 				la='en';
 			
             loadlang(la);
+            loaddata();
             return {
                 click: loadlang
             };
