@@ -20,9 +20,9 @@
         'en-us': {},
         'zh-cn': {},
         controller: function ()
-		{
+        {
             function loadlang(val)
-			{				
+            {                
                 Main.lang(val);
                 m.request({
                     method: 'GET',
@@ -32,7 +32,7 @@
                     }
                 });
             }
-			
+            
             function loaddata()
             {
                 m.request({
@@ -44,29 +44,29 @@
                 });
             }
 
-			var la=Main.lang();
-			
-			if(la.indexOf('zh-')==0)
-			{
-				switch(la)
-				{
-					case 'zh-cn':
-					case 'zh-sg':
-					case 'zh-Hans':
-						la='zh-Hans';
-						break;
-					default:
-						la='zh-Hant';
-						break;
-				}
-			}
-			else if(la.indexOf('ja-')==0)
-			{
-				la='ja';
-			}
-			else
-				la='en';
-			
+            var la=Main.lang();
+            
+            if(la.indexOf('zh-')==0)
+            {
+                switch(la)
+                {
+                    case 'zh-cn':
+                    case 'zh-sg':
+                    case 'zh-Hans':
+                        la='zh-Hans';
+                        break;
+                    default:
+                        la='zh-Hant';
+                        break;
+                }
+            }
+            else if(la.indexOf('ja-')==0)
+            {
+                la='ja';
+            }
+            else
+                la='en';
+            
             loadlang(la);
             loaddata();
             return {
@@ -85,7 +85,7 @@
                     Main['data']['text-update-details'].map(function (item, idx) {
                        return m('div', (idx + 1) + ' : ' + item);
                     }),
-					
+                    
                     m('div', { class: 'row' }, [
                         m('div', { class: 'col-lg-3 col-md-3 col-sm-0 col-xs-0' }, ''),
                         m('div', { class: 'col-lg-2 col-md-2 col-sm-4 col-xs-4' }, m('a', {
@@ -187,7 +187,7 @@
                             ]),
                             m('ul', { class: 'dropdown-menu', 'aria-labelledby': 'chlang' }, [
                                 m('li', { onclick: m.withAttr('data-lang', ctrl.click), 'data-lang': 'en' }, 'English'),
-								m('li', { onclick: m.withAttr('data-lang', ctrl.click), 'data-lang': 'ja' }, '日本の'),
+                                m('li', { onclick: m.withAttr('data-lang', ctrl.click), 'data-lang': 'ja' }, '日本の'),
                                 m('li', { onclick: m.withAttr('data-lang', ctrl.click), 'data-lang': 'zh-Hans' }, '简体中文'),
                                 m('li', { onclick: m.withAttr('data-lang', ctrl.click), 'data-lang': 'zh-Hant' }, '正體中文'),
                             ])

@@ -5,7 +5,7 @@
         "Update translations(Thanks to franz@drwindows.de, Hexhu, Vasiliy Nasonov)",
         "Update microsoft update database"
     ],
-	"Dism64": "http://cdn.chuyu.eastal.com/Dism++10.1.17.4x64_5DB775D56D7EB3039DBBC33E575F0F6A0BAF5972.zip",
+    "Dism64": "http://cdn.chuyu.eastal.com/Dism++10.1.17.4x64_5DB775D56D7EB3039DBBC33E575F0F6A0BAF5972.zip",
     "Dism32": "http://cdn.chuyu.eastal.com/Dism++10.1.17.4x86_A5C927FFA11A229A3F9E8C4F672C23ABDFB3868C.zip",
-	"DismFull": "http://cdn.chuyu.eastal.com/Dism++10.1.17.4_73B28A78E535E3FB07D86FF1E6CD9D193B360DE0.zip"
+    "DismFull": "http://cdn.chuyu.eastal.com/Dism++10.1.17.4_73B28A78E535E3FB07D86FF1E6CD9D193B360DE0.zip"
 }
