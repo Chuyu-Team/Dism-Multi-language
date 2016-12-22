@@ -1,0 +1,54 @@
+User-agent: Teleport
+Disallow: /
+
+User-agent: TeleportPro
+Disallow: /
+
+User-agent: EmailCollector
+Disallow: /
+
+User-agent: EmailSiphon
+Disallow: /
+
+User-agent: WebBandit
+Disallow: /
+
+User-agent: WebZIP
+Disallow: /
+
+User-agent: WebReaper
+Disallow: /
+
+User-agent: WebStripper
+Disallow: /
+
+User-agent: Web Downloader
+Disallow: /
+
+User-agent: WebCopier
+Disallow: /
+
+User-agent: Offline Explorer Pro
+Disallow: /
+
+User-agent: Offline Explorer
+Disallow: /
+
+User-agent: HTTrack Website Copier
+Disallow: /
+
+User-agent: Offline Commander
+Disallow: /
+
+User-agent: Leech
+Disallow: /
+
+User-agent: WebSnake
+Disallow: /
+
+User-agent: BlackWidow
+Disallow: /
+
+User-agent: HTTP Weazel
+Disallow: /
+
