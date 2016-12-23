@@ -4779,6 +4779,10 @@
         <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\InputMethod\Chs"/>
       </Applicable>
       <Item Type="CheckBox" Name="#微软拼音默认为英语输入（by Rambin）">
+        <Applicable>
+          <OSVersion Compare=">=">6.4</OSVersion>
+        </Applicable>
+        
         <Current>
           <State>
             <Applicable>
