@@ -335,9 +335,9 @@
       </Scan>
     </Item>
 
-    <!--
-    <Item Name="#Installer目录" Level="2">
-      <Description>#这是基本的Installer目录清理功能，类似WICleanup小工具</Description>
+    <Item Name="#(实验性功能)Installer目录" Level="0">
+      <Description>#清理被取代的msp补丁并减少Installer目录的大小。</Description>
+      <Warning>#(这是一个实验性功能)清理后将无法卸载被取代的msp更新，如果有卸载更新需求请勿使用此选项。</Warning>
       <Group>#系统相关</Group>
       <ScanCollection>
         <Scan>
@@ -345,12 +345,11 @@
             <FileExist FilePath="%SystemDrive%\Windows\Installer"/>
           </Applicable>
           <Activate>
-            <Custom ProcName="InstallerFolderCleanup"/>
+            <Custom ProcName="NCInstallerFolderCleanup"/>
           </Activate>
         </Scan>
       </ScanCollection>
     </Item>
-    -->
 
     <Item Name="#系统还原点" Level="2">
       <Description>#先删除全部还原点，再创建一个新的还原点(当系统还原已启用时)</Description>
