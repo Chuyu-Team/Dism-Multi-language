@@ -342,6 +342,7 @@
       <ScanCollection>
         <Scan>
           <Applicable>
+            <IsBeta/>
             <FileExist FilePath="%SystemDrive%\Windows\Installer"/>
           </Applicable>
           <Activate>
