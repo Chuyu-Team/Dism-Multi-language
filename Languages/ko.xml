@@ -71,6 +71,7 @@ Thanks: 阿泽西, OldMac
 	  <String Target="帮助(&amp;H)" Link="도움말(&amp;H)"/>
       <String Target="查看帮助(&amp;V)" Link="도움말 보기(&amp;V)"/>
 		  <String Target="官方网站(&amp;O)" Link="공식 사이트"/>
+      <String Target="官方群(&amp;G)" Link="정식(&amp;G)"/>
 		  <String Target="问题反馈(&amp;B)" Link="버그 신고"/>
 		  <String Target="关于Dism++(&amp;A)" Link="Dism++에 대해(&amp;A)"/>
       <String Target="检查更新(&amp;U)" Link="업데이트 확인(&amp;U)"/>
@@ -235,6 +236,9 @@ Thanks: 阿泽西, OldMac
     <String Target="正在加载插件" Link="플러그인 로드 중"/>
     <String Target="正在扫描已安装的系统" Link="설치된 시스템 검사 중"/>
     <String Target="已经是最新版本，无需更新！" Link="이미 최진 버전입니다. 업데이트가 필요없습니다!"/>
+    <String Target="正在修复挂载映像" Link="이미지을 다시 탑재(수정) 중입니다"/>
+    <String Target="正在取消现有任务，请稍等……" Link="작업을 취소 중입니다. 잠시 기다려 주십시오..."/>
+    <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="장착된 이미지%s가 손상되어 계속하기 전에 수리해야 합니다. 지금 이미지를 복구하시겠습니까?"/>
 
     <!--添加映像-->
     <String Target="请输入映像存放目录" Link="저장할 이미지 경로를 입력해 주시기 바랍니다"/>
