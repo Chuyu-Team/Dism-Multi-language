@@ -42,6 +42,7 @@ Thanks to 阿泽西
 [Languages/pl-PL.xml]
 Polish Resource
 Thanks to WinClub.pl
+romuald68@gmail.com
 
 [Languages/ru.xml]
 Russian Resource
