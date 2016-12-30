@@ -538,7 +538,8 @@ Thanks: WinClub.pl
 	<String Target="%s 无法获取账号SID，错误代码：0x%.8X" Link="%s Nie można uzyskać identyfikatora konta SID, kod błędu: 0x%.8X"/>
 	<String Target="%s 所关联的用户（%s）无法删除，错误代码：0x%.8X" Link="%s związane z użytkownikiem (%s) nie mogą być usunięte, kod błędu: 0x%.8X"/>
 	<String Target="%s 未关联任何用户。" Link="%s nie jest związane z żadnym użytkownikiem."/>
-  
+  <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="Gratulacje! Usunięcie zakończone pomyślnie. Ale niektóre aplikacje mogą odnosić się do pre aplikacji Appx. Jeśli masz do czynienia z faktem, że właścicielem aplikacji jest system - użyj &quot;Preset z Appx aplikacji systemowych&quot;, aby je usunąć."/>
+
     <!--Windows Update-->
 	<String Target="安装" Link="Instalacja"/>
 	<String Target="正在检查数据库" Link="Sprawdzanie bazy danych"/>
