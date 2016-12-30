@@ -39,6 +39,9 @@ Thanks to 山形まり花, 奎宁
 Korean Resource
 Thanks to 阿泽西
 
+[Languages/pl-PL.xml]
+Polish Resource
+Thanks to WinClub.pl
 
 [Languages/ru.xml]
 Russian Resource
@@ -53,3 +56,8 @@ Thanks to Vasiliy Nasonov, virus, Vladimir, ZT
 [Languages/zh-Hant.xml]
 繁体资源文件
 感谢 jamesfuh, 月下独酌
+
+
+[www]
+Dism++官网
+感谢 Reinforce-II
