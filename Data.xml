@@ -1757,14 +1757,14 @@
             <Activate>
               <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize" Value="ColorPrevalence" Type="REG_DWORD" Data="1"/>
               <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\DWM" Value="ColorPrevalence" Type="REG_DWORD" Data="1"/>
-              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="true"/>
+              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
             </Activate>
           </True>
           <False>
             <Activate>
               <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize" Value="ColorPrevalence" Type="REG_DWORD" Data="0"/>
               <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\DWM" Value="ColorPrevalence" Type="REG_DWORD" Data="0"/>
-              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="true"/>
+              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
             </Activate>
           </False>
         </Current>
@@ -2163,13 +2163,13 @@
           <True>
             <Activate>
               <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="HideFileExt" Type="REG_DWORD" Data="0"/>
-              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="true"/>
+              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
             </Activate>
           </True>
           <False>
             <Activate>
               <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="HideFileExt" Type="REG_DWORD" Data="1"/>
-              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="true"/>
+              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
             </Activate>
           </False>
         </Current>
@@ -2205,14 +2205,14 @@
             <Activate>
               <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="Hidden" Type="REG_DWORD" Data="1"/>
               <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="ShowSuperHidden" Type="REG_DWORD" Data="1"/>
-              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="true"/>
+              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
             </Activate>
           </True>
           <False>
             <Activate>
               <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="Hidden" Type="REG_DWORD" Data="2"/>
               <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="ShowSuperHidden" Type="REG_DWORD" Data="0"/>
-              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="true"/>
+              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
             </Activate>
           </False>
         </Current>
@@ -2274,7 +2274,7 @@
               <FileCreateByZIP Path="%systemroot%\Blank.ico" ZIPFile="Config\default.ui.zip/Data/Blank.ico"/>
               <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons" Value="77" Type="REG_EXPAND_SZ" Data="%systemroot%\Blank.ico"/>
               <ExplorerNotify Type="AssocChanged"/>
-              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="true"/>
+              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
               <ExplorerNotify Type="Restart"/>
             </Activate>
           </True>
@@ -2282,7 +2282,7 @@
             <Activate>
               <RegDelete Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons" Value="77"/>
               <ExplorerNotify Type="AssocChanged"/>
-              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="true"/>
+              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
             </Activate>
           </False>
         </System>
@@ -2374,7 +2374,7 @@
               <RegDelete Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{A0953C92-50DC-43bf-BE83-3742FED03C9C}" Wow64="True" SkipError="2"/>
               <RegDelete Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{A8CDFF1C-4878-43be-B5FD-F8091C1C60D0}" Wow64="True" SkipError="2"/>
               <RegDelete Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}" Wow64="True" SkipError="2"/>
-              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="true"/>
+              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
             </Activate>
           </True>
           <False>
@@ -2392,7 +2392,7 @@
               <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{A0953C92-50DC-43bf-BE83-3742FED03C9C}" Wow64="True"/>
               <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{A8CDFF1C-4878-43be-B5FD-F8091C1C60D0}" Wow64="True"/>
               <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}" Wow64="True"/>
-              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="true"/>
+              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
             </Activate>
           </False>
         </System>
@@ -2448,7 +2448,7 @@
               <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{0ddd015d-b06c-45d5-8c4c-f59713854639}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide" Wow64="True"/>
               <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{35286a68-3c57-41a1-bbb1-0eae73d76c95}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide" Wow64="True"/>
               <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{a0c69a99-21c8-4671-8703-7934162fcf1d}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide" Wow64="True"/>
-              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="true"/>
+              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
             </Activate>
           </True>
           <False>
@@ -2466,7 +2466,7 @@
               <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{0ddd015d-b06c-45d5-8c4c-f59713854639}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Show" Wow64="True"/>
               <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{35286a68-3c57-41a1-bbb1-0eae73d76c95}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Show" Wow64="True"/>
               <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{a0c69a99-21c8-4671-8703-7934162fcf1d}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Show" Wow64="True"/>
-              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="true"/>
+              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
             </Activate>
           </False>
         </System>
@@ -2530,13 +2530,13 @@
           <True>
             <Activate>
               <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Ribbon" Value="MinimizedStateTabletModeOff" Type="REG_DWORD" Data="1"/>
-              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="true"/>
+              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
             </Activate>
           </True>
           <False>
             <Activate>
               <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Ribbon" Value="MinimizedStateTabletModeOff" Type="REG_DWORD" Data="0"/>
-              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="true"/>
+              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
             </Activate>
           </False>
         </Current>
@@ -2569,13 +2569,13 @@
           <True>
             <Activate>
               <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\AutoplayHandlers" Value="DisableAutoplay" Type="REG_DWORD" Data="1"/>
-              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="true"/>
+              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
             </Activate>
           </True>
           <False>
             <Activate>
               <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\AutoplayHandlers" Value="DisableAutoplay" Type="REG_DWORD" Data="0"/>
-              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="true"/>
+              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
             </Activate>
           </False>
         </Current>
@@ -2652,13 +2652,13 @@
           <True>
             <Activate>
               <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="AlwaysShowMenus" Type="REG_DWORD" Data="1"/>
-              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="true"/>
+              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
             </Activate>
           </True>
           <False>
             <Activate>
               <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="AlwaysShowMenus" Type="REG_DWORD" Data="0"/>
-              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="true"/>
+              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
             </Activate>
           </False>
         </Current>
