@@ -2288,6 +2288,33 @@
         </System>
       </Item>
 
+      <Item Type="CheckBox" Name="#隐藏NTFS蓝色双箭头压缩标识（by IT之家）">
+        <Applicable>
+          <OSVersion Compare=">=">10.0</OSVersion>
+        </Applicable>
+        <System>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons" Value="179"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <FileCreateByZIP Path="%systemroot%\Blank.ico" ZIPFile="Config\default.ui.zip/Data/Blank.ico"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons" Value="179" Type="REG_EXPAND_SZ" Data="%systemroot%\Blank.ico"/>
+              <ExplorerNotify Type="Restart"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons" Value="179"/>
+              <ExplorerNotify Type="AssocChanged"/>
+              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
+
       <Item Type="CheckBox" Name="#创建快捷方式时不添&quot;快捷方式&quot;文字（by 518516.net）">
         <Current>
           <State>
@@ -2940,6 +2967,295 @@
             </Activate>
           </False>
         </Default>
+      </Item>
+
+      <Item Type="CheckBox" Name="#关闭“突出显示新安装的程序”（by 雪寂）">
+        <Current>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="Start_NotifyNewApps" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="Start_NotifyNewApps" Type="REG_DWORD" Data="0"/>
+              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="Start_NotifyNewApps" Type="REG_DWORD" Data="1"/>
+              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
+            </Activate>
+          </False>
+        </Current>
+
+        <Default>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="Start_NotifyNewApps" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="Start_NotifyNewApps" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="Start_NotifyNewApps" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
+
+      <Item Type="CheckBox" Name="#快速访问不显示常用文件夹（by 雪寂）">
+        <Applicable>
+          <OSVersion Compare=">=">10.0</OSVersion>
+        </Applicable>
+        <Current>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" Value="ShowFrequent" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" Value="ShowFrequent" Type="REG_DWORD" Data="0"/>
+              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" Value="ShowFrequent"/>
+              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
+            </Activate>
+          </False>
+        </Current>
+
+        <Default>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" Value="ShowFrequent" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" Value="ShowFrequent" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" Value="ShowFrequent"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
+
+      <Item Type="CheckBox" Name="#快速访问不显示最近使用的文件（by 雪寂）">
+        <Applicable>
+          <OSVersion Compare=">=">10.0</OSVersion>
+        </Applicable>
+        <Current>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" Value="ShowRecent" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" Value="ShowRecent" Type="REG_DWORD" Data="0"/>
+              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" Value="ShowRecent"/>
+              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
+            </Activate>
+          </False>
+        </Current>
+
+        <Default>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" Value="ShowRecent" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" Value="ShowRecent" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" Value="ShowRecent"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
+
+      <Item Type="CheckBox" Name="#将语言栏隐藏到任务拦（by 雪寂）">
+        <Current>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\CTF\LangBar" Value="ShowStatus" Type="REG_DWORD" Data="4"/>
+              <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\CTF\LangBar" Value="ExtraIconsOnMinimized" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\CTF\LangBar" Value="ShowStatus" Type="REG_DWORD" Data="4"/>
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\CTF\LangBar" Value="ExtraIconsOnMinimized" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_CURRENT_USER\Software\Microsoft\CTF\LangBar"/>
+            </Activate>
+          </False>
+        </Current>
+
+        <Default>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\CTF\LangBar" Value="ShowStatus" Type="REG_DWORD" Data="4"/>
+              <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\CTF\LangBar" Value="ExtraIconsOnMinimized" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\CTF\LangBar" Value="ShowStatus" Type="REG_DWORD" Data="4"/>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\CTF\LangBar" Value="ExtraIconsOnMinimized" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_USERS\DEFAULT\Software\Microsoft\CTF\LangBar"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
+
+      <Item Type="CheckBox" Name="#隐藏语言栏上的帮助按钮（by 雪寂）">
+        <Current>
+          <State>
+            <Applicable>
+              <RegExist Key="HHKEY_CURRENT_USER\Software\Microsoft\CTF\LangBar\ItemState\{ED9D5450-EBE6-4255-8289-F8A31E687228}" Value="DemoteLevel" Type="REG_DWORD" Data="3"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HHKEY_CURRENT_USER\Software\Microsoft\CTF\LangBar\ItemState\{ED9D5450-EBE6-4255-8289-F8A31E687228}" Value="DemoteLevel" Type="REG_DWORD" Data="3"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HHKEY_CURRENT_USER\Software\Microsoft\CTF\LangBar\ItemState\{ED9D5450-EBE6-4255-8289-F8A31E687228}" Value="DemoteLevel"/>
+            </Activate>
+          </False>
+        </Current>
+
+        <Default>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\CTF\LangBar\ItemState\{ED9D5450-EBE6-4255-8289-F8A31E687228}" Value="DemoteLevel" Type="REG_DWORD" Data="3"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\CTF\LangBar\ItemState\{ED9D5450-EBE6-4255-8289-F8A31E687228}" Value="DemoteLevel" Type="REG_DWORD" Data="3"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_USERS\DEFAULT\Software\Microsoft\CTF\LangBar\ItemState\{ED9D5450-EBE6-4255-8289-F8A31E687228}" Value="DemoteLevel"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
+    </Group>
+
+    <Group Name="Windows 7体验">
+      <Applicable>
+        <OSVersion Compare=">=">10.0</OSVersion>
+      </Applicable>
+      <Item Type="CheckBox" Name="#将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）">
+        <Applicable>
+          <Or>
+            <RegExist Key="HKEY_CLASSES_ROOT\DesktopBackground\Shell\Display\command" Value="DelegateExecute" Type="REG_SZ" Data="{06622D85-6856-4460-8DE1-A81921B41C4B}"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\DesktopBackground\Shell\Display\command" Value="DelegateExecute" Type="REG_SZ" Data="{556FF0D6-A1EE-49E5-9FA4-90AE116AD744}"/>
+          </Or>
+        </Applicable>
+        <System>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_CLASSES_ROOT\DesktopBackground\Shell\Display\command" Value="DelegateExecute" Type="REG_SZ" Data="{06622D85-6856-4460-8DE1-A81921B41C4B}"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_CLASSES_ROOT\DesktopBackground\Shell\Display" Value="ControlPanelPage" Type="REG_SZ" Data="Settings"/>
+              <RegWrite Key="HKEY_CLASSES_ROOT\DesktopBackground\Shell\Display" Value="ControlPanelName" Type="REG_SZ" Data="Microsoft.Display"/>
+              <RegWrite Key="HKEY_CLASSES_ROOT\DesktopBackground\Shell\Display\command" Value="DelegateExecute" Type="REG_SZ" Data="{06622D85-6856-4460-8DE1-A81921B41C4B}"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_CLASSES_ROOT\DesktopBackground\Shell\Display" Value="ControlPanelPage" SkipError="2"/>
+              <RegDelete Key="HKEY_CLASSES_ROOT\DesktopBackground\Shell\Display" Value="ControlPanelName" SkipError="2"/>
+              <RegWrite Key="HKEY_CLASSES_ROOT\DesktopBackground\Shell\Display\command" Value="DelegateExecute" Type="REG_SZ" Data="{556FF0D6-A1EE-49E5-9FA4-90AE116AD744}"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
+
+      <Item Type="CheckBox" Name="#将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）">
+        <Applicable>
+          <Or>
+            <RegExist Key="HKEY_CLASSES_ROOT\DesktopBackground\Shell\Personalize\command" Value="DelegateExecute" Type="REG_SZ" Data="{06622D85-6856-4460-8DE1-A81921B41C4B}"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\DesktopBackground\Shell\Personalize\command" Value="DelegateExecute" Type="REG_SZ" Data="{556FF0D6-A1EE-49E5-9FA4-90AE116AD744}"/>
+          </Or>
+        </Applicable>
+        <System>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_CLASSES_ROOT\DesktopBackground\Shell\Personalize\command" Value="DelegateExecute" Type="REG_SZ" Data="{06622D85-6856-4460-8DE1-A81921B41C4B}"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_CLASSES_ROOT\DesktopBackground\Shell\Personalize" Value="ControlPanelName" Type="REG_SZ" Data="Microsoft.Personalization"/>
+              <RegWrite Key="HKEY_CLASSES_ROOT\DesktopBackground\Shell\Personalize\command" Value="DelegateExecute" Type="REG_SZ" Data="{06622D85-6856-4460-8DE1-A81921B41C4B}"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_CLASSES_ROOT\DesktopBackground\Shell\Personalize" Value="ControlPanelName" SkipError="2"/>
+              <RegWrite Key="HKEY_CLASSES_ROOT\DesktopBackground\Shell\Personalize\command" Value="DelegateExecute" Type="REG_SZ" Data="{556FF0D6-A1EE-49E5-9FA4-90AE116AD744}"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
+
+      <Item Type="CheckBox" Name="#将“音量调节”调整为Windows 7模式（by 雪姬）">
+        <System>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\MTCUVC" Value="EnableMtcUvc" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\MTCUVC" Value="EnableMtcUvc" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\MTCUVC"/>
+            </Activate>
+          </False>
+        </System>
       </Item>
     </Group>
     
@@ -4772,6 +5088,164 @@
           </False>
         </Default>
       </Item>
+
+      <Item Type="CheckBox" Name="#锁定Internet Explorer工具栏（by 雪寂）">
+        <Current>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Toolbar" Value="Locked" Type="REG_DWORD" Data="1"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Toolbar" Value="Locked" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Toolbar" Value="Locked" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </False>
+        </Current>
+
+        <Default>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\Toolbar" Value="Locked" Type="REG_DWORD" Data="1"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\Toolbar" Value="Locked" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\Toolbar" Value="Locked" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
+
+      <Item Type="CheckBox" Name="#将同时可用下载数目调整到 10（by 雪寂）">
+        <Current>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings" Value="MaxConnectionsPer1_0Server" Type="REG_DWORD" Data="A"/>
+              <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings" Value="axConnectionsPerServer" Type="REG_DWORD" Data="A"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings" Value="MaxConnectionsPer1_0Server" Type="REG_DWORD" Data="A"/>
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings" Value="axConnectionsPerServer" Type="REG_DWORD" Data="A"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings" Value="MaxConnectionsPer1_0Server"/>
+              <RegDelete Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings" Value="axConnectionsPerServer"/>
+            </Activate>
+          </False>
+        </Current>
+
+        <Default>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings" Value="MaxConnectionsPer1_0Server" Type="REG_DWORD" Data="A"/>
+              <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings" Value="axConnectionsPerServer" Type="REG_DWORD" Data="A"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings" Value="MaxConnectionsPer1_0Server" Type="REG_DWORD" Data="A"/>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings" Value="axConnectionsPerServer" Type="REG_DWORD" Data="A"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings" Value="MaxConnectionsPer1_0Server"/>
+              <RegDelete Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings" Value="axConnectionsPerServer"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
+
+      <Item Type="CheckBox" Name="#遇到弹出窗口时始终在新选项卡中打开弹出窗口（by 雪寂）">
+        <Current>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TabbedBrowsing" Value="PopupsUseNewWindow" Type="REG_DWORD" Data="2"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TabbedBrowsing" Value="PopupsUseNewWindow" Type="REG_DWORD" Data="2"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TabbedBrowsing" Value="PopupsUseNewWindow"/>
+            </Activate>
+          </False>
+        </Current>
+
+        <Default>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\TabbedBrowsing" Value="PopupsUseNewWindow" Type="REG_DWORD" Data="2"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\TabbedBrowsing" Value="PopupsUseNewWindow" Type="REG_DWORD" Data="2"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\TabbedBrowsing" Value="PopupsUseNewWindow"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
+
+      <Item Type="CheckBox" Name="#关闭自动更新（by 雪寂）">
+        <Current>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main" Value="NoUpdateCheck" Type="REG_DWORD" Data="1"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main" Value="NoUpdateCheck" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main" Value="NoUpdateCheck"/>
+            </Activate>
+          </False>
+        </Current>
+
+        <Default>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\Main" Value="NoUpdateCheck" Type="REG_DWORD" Data="1"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\Main" Value="NoUpdateCheck" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\Main" Value="NoUpdateCheck"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
     </Group>
     
     <Group Name="#微软拼音输入法">
@@ -5999,6 +6473,26 @@
             </Activate>
           </False>
         </Default>
+      </Item>
+
+      <Item Type="CheckBox" Name="#禁用账号登录日志报告（by 雪寂）">
+        <System>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" Value="ReportBootOk" Type="REG_SZ" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" Value="ReportBootOk" Type="REG_SZ" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" Value="ReportBootOk" Type="REG_SZ" Data="1"/>
+            </Activate>
+          </False>
+        </System>
       </Item>
     </Group>
   </SystemOptimization>
