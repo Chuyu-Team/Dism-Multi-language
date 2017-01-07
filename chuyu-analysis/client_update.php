@@ -1,9 +1,8 @@
 <?php
-$dbhost = '127.0.0.1';
-$dbname = 'chuyu_analysis';
-$dbuser = 'root';
-$dbpass = 'root';
-
+require_once('./config.php');
+if($_SERVER['HTTP_USER_AGENT'] != "Dism++"){
+    die("Denied!");
+}
 try {
     $pdo = new PDO(
         "mysql:host=${dbhost};dbname=${dbname}",
@@ -28,7 +27,7 @@ if(xml_parse_into_struct($xmlparser,$rawData,$values) == 0) {
 }
 
 $data = array();
-$sql = "insert into client_info (id, architect, clientguid, osversion, dismversion, ulltotalphys, dwnumberofprocessors, languageid, editionid, lasttime) values (default, :architect, :clientguid, :osversion, :dismversion, :ulltotalphys, :dwnumberofprocessors, :languageid, :editionid, default) ON DUPLICATE KEY UPDATE architect = :architect, clientguid = :clientguid, osversion = :osversion, dismversion = :dismversion, ulltotalphys = :ulltotalphys, dwnumberofprocessors = :dwnumberofprocessors, languageid = :languageid, editionid = :editionid";
+$sql = "insert into client_info (id, architect, clientguid, osversion, dismversion, ulltotalphys, dwnumberofprocessors, languageid, editionid, lasttime) values (default, :architect, :clientguid, :osversion, :dismversion, :ulltotalphys, :dwnumberofprocessors, :languageid, :editionid, default) ON DUPLICATE KEY UPDATE architect = :architect, clientguid = :clientguid, osversion = :osversion, dismversion = :dismversion, ulltotalphys = :ulltotalphys, dwnumberofprocessors = :dwnumberofprocessors, languageid = :languageid, editionid = :editionid, lasttime = :lasttime";
 foreach($values as $node) {
     if($node['type'] == 'complete' && $node['level'] == 2) {
         switch($node['tag']){
@@ -62,6 +61,7 @@ foreach($values as $node) {
     }
 }
 try{
+    $data[':lasttime'] = date("Y-m-d H:i:s");
     $pdo->prepare($sql)->execute($data);
 }
 catch(PDOException $e) {
