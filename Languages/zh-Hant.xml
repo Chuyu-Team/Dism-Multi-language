@@ -356,9 +356,12 @@
     <String Target="大约压缩38%" Link="大約壓縮38%"/>
     <String Target="大约压缩44%（更小体积）" Link="大約壓縮44%（更小體積）"/>
     <String Target="加载WofAdk驱动（可能导致蓝屏！）" Link="加載WofAdk驅動（可能導致藍屏！）"/>
-    <String Target="启用更新差异传输引擎" Link="啟用更新差異傳輸引擎"/>
+    <String Target="更新差异传输引擎：" Link="更新差異傳輸引擎："/>
+    <String Target="关闭" Link="關閉"/>
+    <String Target="快速" Link="快速"/>
+    <String Target="完整" Link="完整"/>
 
-	  <!--Tab-->
+    <!--Tab-->
 	  <String Target="Dism++正在执行其他任务，你可以稍后打开会话。" Link="Dism++正在執行其他任務，您可以稍後打開對話。"/>
 	  <String Target="为了优化性能，你需要手动打开会话。" Link="為了優化性能，您需要手動打開對話。"/>
 	  <String Target="打开会话" Link="打開對話"/>
@@ -1026,9 +1029,6 @@ Command:
     <String Target="正在解压" Link="正在解壓縮"/>
     <String Target="操作完成！" Link="操作完成！"/>
     
-    <!--崩溃处理-->
-    <String Target="程序运行时不小心崩溃了，将 %s 发送至小鸭子邮箱（mingkuang@live.com）有助于解决此问题。" Link="程式運行時不小心崩潰了，將 %s 發送至小鴨子郵箱（mingkuang@live.com）有助於解決此問題。"/>
-
     <!--系统还原-->
     <String Target="当前模式不支持引导修复以及格式化分区，你需要重启并进入RE进行恢复么？" Link="當前模式不支持引導修復及格式化分區，您需要重啟並進入RE，進行恢復嗎？"/>
     <String Target="正在格式化" Link="正在格式化"/>
@@ -1128,13 +1128,13 @@ Command:
     <String Target="腾讯相关软件更新时会在此留下残留。" Link="騰訊相關軟體更新時會在此留下殘留。"/>
 
     <String Target="XDE缓存文件" Link="XDE快取檔案"/>
-    <String Target="WP开发时保存的一些虚拟机状态文件" Link="WP開發時保存的一些虛擬機器狀態檔。"/>
+    <String Target="WP开发时保存的一些虚拟机状态文件，不建议频繁清理此条目。" Link="WP開發時保存的一些虛擬機器狀態檔，不建議頻繁清理此條目。"/>
 
     <String Target="Boot备份信息" Link="Boot備份資訊"/>
     <String Target="修改启动信息后系统会创建备份，方便回滚。如果确定不需要还原则可以删除。" Link="修改啟動資訊後系統會創建備份，方便回復。 如果確定不需要還原則可以刪除。"/>
 
     <String Target="PDB缓存文件" Link="PDB快取檔案"/>
-    <String Target="调试程序时创建的符号缓存，如果你不需要这些缓存可以删除。" Link="偵錯工具時創建的符號緩存，如果你不需要這些緩存可以刪除。"/>
+    <String Target="调试程序时创建的符号缓存，不建议频繁清理此条目。" Link="偵錯工具時創建的符號緩存，不建議頻繁清理此條目。"/>
 
     <String Target="微软拼音安装文件" Link="微軟拼音安裝檔"/>
     <String Target="微软拼音升级程序遗留下的安装文件。" Link="微軟拼音升級程式遺留下的安裝檔。"/>
@@ -1288,6 +1288,9 @@ Command:
 
     <String Target="最后一次正确配置（by Stanlazy）" Link="最後一次正確配置（by Stanlazy）"/>
     <String Target="最近能正常启动计算机的配置备份。" Link="最近能正常啟動電腦的配置備份。"/>
+
+    <String Target="传递优化缓存" Link="傳遞優化緩存"/>
+    <String Target="Win10开始使用传递优化（DeliveryOptimization）服务下载Windows更新和通用应用（UWP）产生的缓存文件" Link="Win10開始使用傳遞優化（DeliveryOptimization）服務下載Windows更新和通用應用（UWP）產生的快取檔案。"/>
   </StringMaps>
   <MessageTable>
     <x800F0806>一個或多個更新執行中，請重啟後繼續。</x800F0806>

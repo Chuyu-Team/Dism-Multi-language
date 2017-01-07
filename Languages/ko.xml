@@ -354,7 +354,6 @@ Thanks: 阿泽西, OldMac
     <String Target="大约压缩38%" Link="압축 38%"/>
     <String Target="大约压缩44%（更小体积）" Link="압축 44% (작은크기)"/>
     <String Target="加载WofAdk驱动（可能导致蓝屏！）" Link="WofAdk 드라이브 가져오기 (시트템에 오류 가능성 있음)"/>
-    <String Target="启用更新差异传输引擎" Link="윈도우 업데이트 가능 엔진 활성화"/>
     
 	  <!--Tab-->
 	  <String Target="Dism++正在执行其他任务，你可以稍后打开会话。" Link="Dism++은 다른 작업 중입니다. 나중에 세션을 열수 있습니다."/>
@@ -1025,9 +1024,6 @@ Command:
     <String Target="正在解压" Link="압축푸는중"/>
     <String Target="操作完成！" Link="완성"/>
   
-    <!--崩溃处理-->
-    <String Target="程序运行时不小心崩溃了，将 %s 发送至小鸭子邮箱（mingkuang@live.com）有助于解决此问题。" Link="프로그램 실행시 에러가 생겼습니다.%s를 mingkuang 메일 (mingkuang@live.com) 로 보내면 에러 처리에 큰 도움이 될것입니다."/>
-
     <!--系统还原-->
     <String Target="当前模式不支持引导修复以及格式化分区，你需要重启并进入RE进行恢复么？" Link="현재 모드 부팅 복구를 지원 하지 않으며 파티션을 포맷는 RE로 다시 시작 및 복구를 해야?"/>
     <String Target="正在格式化" Link="서식"/>
@@ -1127,13 +1123,13 @@ Command:
     <String Target="腾讯相关软件更新时会在此留下残留。" Link="Tencent 관련 소프트웨어 업데이트 잔류물을 떠날 것 이다."/>
 
     <String Target="XDE缓存文件" Link="XDE 캐시 파일"/>
-    <String Target="WP开发时保存的一些虚拟机状态文件" Link="일부 Windows Phone 에뮬레이터 캐시 파일, 제거할 수 있음."/>
+    <String Target="WP开发时保存的一些虚拟机状态文件，不建议频繁清理此条目。" Link="일부 Windows Phone 에뮬레이터 캐시 파일, 제거할 수 있음."/>
 
     <String Target="Boot备份信息" Link="부팅 백업 파일"/>
     <String Target="修改启动信息后系统会创建备份，方便回滚。如果确定不需要还原则可以删除。" Link="시작 정보 시스템을 수정한 후 백업을 쉽게 만듭니다. 확실 하지 않은 경우 필요 당신은 복원 하려면 삭제할 수 있습니다."/>
 
     <String Target="PDB缓存文件" Link="PDB 캐시 파일"/>
-    <String Target="调试程序时创建的符号缓存，如果你不需要这些缓存可以删除。" Link="이러한 캐시를 필요 하지 않습니다 경우 디버거에서 기호 캐시를 삭제할 수 있습니다 때 만들어집니다."/>
+    <String Target="调试程序时创建的符号缓存，不建议频繁清理此条目。" Link="이러한 캐시를 필요 하지 않습니다 경우 디버거에서 기호 캐시를 삭제할 수 있습니다 때 만들어집니다."/>
 
     <String Target="微软拼音安装文件" Link="Microsoft 병음 설치 파일"/>
     <String Target="微软拼音升级程序遗留下的安装文件。" Link="기존 Microsoft 병음 설치 파일을 업그레이드 합니다."/>

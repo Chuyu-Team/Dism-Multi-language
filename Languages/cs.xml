@@ -354,7 +354,6 @@ Special Thanks to Richard Kahl
     <String Target="大约压缩38%" Link="Komprese 38%"/>
     <String Target="大约压缩44%（更小体积）" Link="Komprese 44%(menší velikost)"/>
     <String Target="加载WofAdk驱动（可能导致蓝屏！）" Link="Načíst ovladače WofAdk (může způsobit BSOD!)"/>
-    <String Target="启用更新差异传输引擎" Link="Povolit Windows Update rozdílový mechanismus"/>
 
     <!--Tab-->
 	  <String Target="Dism++正在执行其他任务，你可以稍后打开会话。" Link="Dism++ provádí jiné úkoly. Zkuste otevřít relaci později.."/>
@@ -1026,9 +1025,6 @@ Command:
     <String Target="正在解压" Link="Dekomprese"/>
     <String Target="操作完成！" Link="Dokončeno."/>
     
-    <!--崩溃处理-->
-    <String Target="程序运行时不小心崩溃了，将 %s 发送至小鸭子邮箱（mingkuang@live.com）有助于解决此问题。" Link="Program havaroval. Odeslat %s na mingkuang@live.com pro pomoc s řešení tohoto problému"/>
-
     <!--系统还原-->
     <String Target="当前模式不支持引导修复以及格式化分区，你需要重启并进入RE进行恢复么？" Link="Aktuální režim nelze použít pro opravu spouštění nebo formátování oddílu. Restartujte WinRE pro zotavení?"/>
     <String Target="正在格式化" Link="Formátování"/>
@@ -1128,13 +1124,13 @@ Command:
     <String Target="腾讯相关软件更新时会在此留下残留。" Link="Při aktualizaci software Tencent, zůstávají nepotřebné zbytky."/>
     
     <String Target="XDE缓存文件" Link="XDE Mezipaměť souborů"/>
-    <String Target="WP开发时保存的一些虚拟机状态文件" Link="Soubory uložení stavu virtuálního stroje v době vývoje pro Windows Phone."/>
+    <String Target="WP开发时保存的一些虚拟机状态文件，不建议频繁清理此条目。" Link="Soubory uložení stavu virtuálního stroje v době vývoje pro Windows Phone."/>
     
     <String Target="Boot备份信息" Link="Boot záložní soubor"/>
     <String Target="修改启动信息后系统会创建备份，方便回滚。如果确定不需要还原则可以删除。" Link="Při změně spouštěcích informací,systém vytvoří zálohu, pro snadný návrat zpět. Pokud nepotřebujete změnit zpět,můžete vymazat."/>
 
     <String Target="PDB缓存文件" Link="PDB Mezipaměť souborů"/>
-    <String Target="调试程序时创建的符号缓存，如果你不需要这些缓存可以删除。" Link="Mezipaměť znaků, který vznikli v čase ladění programů. Pokud nepotřebujete data, z mezipaměti, pak je můžete odstranit."/>
+    <String Target="调试程序时创建的符号缓存，不建议频繁清理此条目。" Link="Mezipaměť znaků, který vznikli v čase ladění programů. Pokud nepotřebujete data, z mezipaměti, pak je můžete odstranit."/>
 
     <String Target="微软拼音安装文件" Link="Microsoft Pinyin instalační soubory"/>
     <String Target="微软拼音升级程序遗留下的安装文件。" Link="Microsoft pinyin IME pozůstatky z instalačních souborů."/>

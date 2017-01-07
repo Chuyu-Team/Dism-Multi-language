@@ -354,7 +354,6 @@ Special Thanks to Massimiliano F.
     <String Target="大约压缩38%" Link="Compressione 38%"/>
     <String Target="大约压缩44%（更小体积）" Link="Compressione 44%(bassa)"/>
     <String Target="加载WofAdk驱动（可能导致蓝屏！）" Link="carica driver WofAdk (può causare BSOD!)"/>
-    <String Target="启用更新差异传输引擎" Link="Attiva Modulo Windows Update Alternativo"/>
 
     <!--Tab-->
 	  <String Target="Dism++正在执行其他任务，你可以稍后打开会话。" Link="Dism++ sta facendo altre attività, puoi aprire un'altra sessione successivamente."/>
@@ -1026,9 +1025,6 @@ Comando:
     <String Target="正在解压" Link="Decompressione"/>
     <String Target="操作完成！" Link="Terminato."/>
     
-    <!--崩溃处理-->
-    <String Target="程序运行时不小心崩溃了，将 %s 发送至小鸭子邮箱（mingkuang@live.com）有助于解决此问题。" Link="Il programma è andato in crash. Invia il file %s alla email mingkuang@live.com per aiuto nel risolvere questo problema"/>
-
     <!--系统还原-->
     <String Target="当前模式不支持引导修复以及格式化分区，你需要重启并进入RE进行恢复么？" Link="La modalità corrente non può essere utilizzata per riparare il boot o formattare la partizione. Vuoi riavviare in WinRE?"/>
     <String Target="正在格式化" Link="Formattazione"/>
@@ -1128,13 +1124,13 @@ Comando:
     <String Target="腾讯相关软件更新时会在此留下残留。" Link="Quando i software Tencent si aggiornano, lasciano dei residui."/>
     
     <String Target="XDE缓存文件" Link="File cache XDE"/>
-    <String Target="WP开发时保存的一些虚拟机状态文件" Link="Quando si sviluppa WP, WP salva lo stato di alcune macchine virtuali."/>
+    <String Target="WP开发时保存的一些虚拟机状态文件，不建议频繁清理此条目。" Link="Quando si sviluppa WP, WP salva lo stato di alcune macchine virtuali."/>
     
     <String Target="Boot备份信息" Link="File backup Boot"/>
     <String Target="修改启动信息后系统会创建备份，方便回滚。如果确定不需要还原则可以删除。" Link="Dopo aver cambiato le informazioni di avvio, il sistema crea un backup per facilitarne il ripristino. Se non hai necessita, puoi eliminarlo."/>
 
     <String Target="PDB缓存文件" Link="File cache PDB"/>
-    <String Target="调试程序时创建的符号缓存，如果你不需要这些缓存可以删除。" Link="Creati dalla cache del debugger simbolico, se non hai bisogno di questa cache puoi eliminarla."/>
+    <String Target="调试程序时创建的符号缓存，不建议频繁清理此条目。" Link="Creati dalla cache del debugger simbolico, se non hai bisogno di questa cache puoi eliminarla."/>
 
     <String Target="微软拼音安装文件" Link="File installazione Microsoft Pinyin"/>
     <String Target="微软拼音升级程序遗留下的安装文件。" Link="Microsoft pinyin IME updater lascia dei file di installazione."/>

@@ -354,7 +354,6 @@ Special Thanks to franz@drwindows.de
     <String Target="大约压缩38%" Link="Kompression 38%"/>
     <String Target="大约压缩44%（更小体积）" Link="Kompression 44% (kleiner)"/>
     <String Target="加载WofAdk驱动（可能导致蓝屏！）" Link="WofAdk Treiber laden (kann BSOD verursachen!)"/>
-    <String Target="启用更新差异传输引擎" Link="Windows Update Manager aktivieren"/>
 
     <!--Tab-->
 	  <String Target="Dism++正在执行其他任务，你可以稍后打开会话。" Link="Dism++ ist gerade beschäftigt, die Sitzung kann aber später geöffnet werden."/>
@@ -1026,9 +1025,6 @@ Command:
     <String Target="正在解压" Link="Entpacken"/>
     <String Target="操作完成！" Link="Beendet."/>
     
-    <!--崩溃处理-->
-    <String Target="程序运行时不小心崩溃了，将 %s 发送至小鸭子邮箱（mingkuang@live.com）有助于解决此问题。" Link="Das Programm ist abgestürzt. Bitte senden Sie %s an mingkuang@live.com, um Unterstützung für die Problembehandlung zu erhalten"/>
-
     <!--系统还原-->
     <String Target="当前模式不支持引导修复以及格式化分区，你需要重启并进入RE进行恢复么？" Link="Dieser Modus kann keine Partition formatieren oder den Bootsektor reparieren. Soll WinRE für die Wiederherstellung neu gestartet werden?"/>
     <String Target="正在格式化" Link="Formatierung"/>
@@ -1127,13 +1123,13 @@ Command:
     <String Target="腾讯相关软件更新时会在此留下残留。" Link="Nach dem Update der Tencent Softwares kann das Verzeichnis gelöscht werden."/>
     
     <String Target="XDE缓存文件" Link="XDE Speicherdateien"/>
-    <String Target="WP开发时保存的一些虚拟机状态文件" Link="Werden Windows Phone Appxs entwickelt, werden für Windows Phone VirtualMachine-Status-Dateien abgespeichert."/>
+    <String Target="WP开发时保存的一些虚拟机状态文件，不建议频繁清理此条目。" Link="Werden Windows Phone Appxs entwickelt, werden für Windows Phone VirtualMachine-Status-Dateien abgespeichert."/>
 	
     <String Target="Boot备份信息" Link="Boot Backup-Datei"/>
     <String Target="修改启动信息后系统会创建备份，方便回滚。如果确定不需要还原则可以删除。" Link="Werden die Startinformationen geändert, legt Windows ein Backup für die Wiederherstellung an. Wenn die Start-Informationen nicht mehr geändert werden, kann die Datei gelöscht werden."/>
 
     <String Target="PDB缓存文件" Link="PDB Cache-Dateien"/>
-    <String Target="调试程序时创建的符号缓存，如果你不需要这些缓存可以删除。" Link="Programmdatenbankdateien oder Symboldateien werden beim Debug-Durchlauf erstellt. Werden die Dateien nicht benötigt, kann der Cache gelöscht werden."/>
+    <String Target="调试程序时创建的符号缓存，不建议频繁清理此条目。" Link="Programmdatenbankdateien oder Symboldateien werden beim Debug-Durchlauf erstellt. Werden die Dateien nicht benötigt, kann der Cache gelöscht werden."/>
 
     <String Target="微软拼音安装文件" Link="Microsoft Pinyin Installationsdateien "/>
     <String Target="微软拼音升级程序遗留下的安装文件。" Link="Das Updateprogramm von Microsoft Pinyin IME (Eingabeeditor) legt diese Dateien ab."/>

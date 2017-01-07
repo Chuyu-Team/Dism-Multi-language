@@ -354,7 +354,6 @@ Thanks: WinClub.pl
     <String Target="大约压缩38%" Link="Kompresja 38%"/>
     <String Target="大约压缩44%（更小体积）" Link="Kompresja 44%(Mniejszy)"/>
     <String Target="加载WofAdk驱动（可能导致蓝屏！）" Link="Załaduj sterownik WofAdk (ryzyko BSOD!)"/>
-    <String Target="启用更新差异传输引擎" Link="Włącz silnik Windows Update"/>
 	 
 	<!--Tab-->
 	  <String Target="Dism++正在执行其他任务，你可以稍后打开会话。" Link="Dism++ działa, później otwórz sesje."/>
@@ -1125,13 +1124,13 @@ Komenda:
     <String Target="腾讯相关软件更新时会在此留下残留。" Link="Pliki po aktualizacji oprogramowania Tencent."/>
     
     <String Target="XDE缓存文件" Link="Pliki pamięci temp XDE"/>
-    <String Target="WP开发时保存的一些虚拟机状态文件" Link="Zapisane pliki stanu pracy maszyn wirtualnych."/>
+    <String Target="WP开发时保存的一些虚拟机状态文件，不建议频繁清理此条目。" Link="Zapisane pliki stanu pracy maszyn wirtualnych."/>
     
     <String Target="Boot备份信息" Link="Kopia plików Boot"/>
     <String Target="修改启动信息后系统会创建备份，方便回滚。如果确定不需要还原则可以删除。" Link="Po modyfikacji, podczas startu system informacyjny tworzy kopię, łatwą do przywrócenia. Jeśli nie są potrzebne, można je usunąć."/>
 
     <String Target="PDB缓存文件" Link="Pliki pamięci temp PDB"/>
-    <String Target="调试程序时创建的符号缓存，如果你不需要这些缓存可以删除。" Link="Utworzono podczas awarii cache symbol. Jeśli nie są potrzebne, można je usunąć."/>
+    <String Target="调试程序时创建的符号缓存，不建议频繁清理此条目。" Link="Utworzono podczas awarii cache symbol. Jeśli nie są potrzebne, można je usunąć."/>
 
     <String Target="微软拼音安装文件" Link="Pliki Microsoft pinyin "/>
     <String Target="微软拼音升级程序遗留下的安装文件。" Link="Pliki Legacy Microsoft pinyin wygenerowane podczas aktualizacji."/>
