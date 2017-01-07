@@ -2969,7 +2969,7 @@
         </Default>
       </Item>
 
-      <Item Type="CheckBox" Name="#关闭“突出显示新安装的程序”（by 雪寂）">
+      <Item Type="CheckBox" Name="#关闭“突出显示新安装的程序”（by 溯汐潮）">
         <Current>
           <State>
             <Applicable>
@@ -3009,7 +3009,7 @@
         </Default>
       </Item>
 
-      <Item Type="CheckBox" Name="#快速访问不显示常用文件夹（by 雪寂）">
+      <Item Type="CheckBox" Name="#快速访问不显示常用文件夹（by 溯汐潮）">
         <Applicable>
           <OSVersion Compare=">=">10.0</OSVersion>
         </Applicable>
@@ -3052,7 +3052,7 @@
         </Default>
       </Item>
 
-      <Item Type="CheckBox" Name="#快速访问不显示最近使用的文件（by 雪寂）">
+      <Item Type="CheckBox" Name="#快速访问不显示最近使用的文件（by 溯汐潮）">
         <Applicable>
           <OSVersion Compare=">=">10.0</OSVersion>
         </Applicable>
@@ -3095,7 +3095,7 @@
         </Default>
       </Item>
 
-      <Item Type="CheckBox" Name="#将语言栏隐藏到任务拦（by 雪寂）">
+      <Item Type="CheckBox" Name="#将语言栏隐藏到任务拦（by 溯汐潮）">
         <Current>
           <State>
             <Applicable>
@@ -3137,7 +3137,7 @@
         </Default>
       </Item>
 
-      <Item Type="CheckBox" Name="#隐藏语言栏上的帮助按钮（by 雪寂）">
+      <Item Type="CheckBox" Name="#隐藏语言栏上的帮助按钮（by 溯汐潮）">
         <Current>
           <State>
             <Applicable>
@@ -3238,7 +3238,7 @@
         </System>
       </Item>
 
-      <Item Type="CheckBox" Name="#将“音量调节”调整为Windows 7模式（by 雪姬）">
+      <Item Type="CheckBox" Name="#将“音量调节”调整为Windows 7模式（by 溯汐潮）">
         <System>
           <State>
             <Applicable>
@@ -5089,7 +5089,7 @@
         </Default>
       </Item>
 
-      <Item Type="CheckBox" Name="#锁定Internet Explorer工具栏（by 雪寂）">
+      <Item Type="CheckBox" Name="#锁定Internet Explorer工具栏（by 溯汐潮）">
         <Current>
           <State>
             <Applicable>
@@ -5127,7 +5127,7 @@
         </Default>
       </Item>
 
-      <Item Type="CheckBox" Name="#将同时可用下载数目调整到 10（by 雪寂）">
+      <Item Type="CheckBox" Name="#将同时可用下载数目调整到 10（by 溯汐潮）">
         <Current>
           <State>
             <Applicable>
@@ -5171,7 +5171,7 @@
         </Default>
       </Item>
 
-      <Item Type="CheckBox" Name="#遇到弹出窗口时始终在新选项卡中打开弹出窗口（by 雪寂）">
+      <Item Type="CheckBox" Name="#遇到弹出窗口时始终在新选项卡中打开弹出窗口（by 溯汐潮）">
         <Current>
           <State>
             <Applicable>
@@ -5209,7 +5209,7 @@
         </Default>
       </Item>
 
-      <Item Type="CheckBox" Name="#关闭自动更新（by 雪寂）">
+      <Item Type="CheckBox" Name="#关闭自动更新（by 溯汐潮）">
         <Current>
           <State>
             <Applicable>
@@ -6475,7 +6475,7 @@
         </Default>
       </Item>
 
-      <Item Type="CheckBox" Name="#禁用账号登录日志报告（by 雪寂）">
+      <Item Type="CheckBox" Name="#禁用账号登录日志报告（by 溯汐潮）">
         <System>
           <State>
             <Applicable>
