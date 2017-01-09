@@ -37,7 +37,7 @@ Thanks to 山形まり花, 奎宁
 
 [Languages/ko.xml]
 Korean Resource
-Thanks to 阿泽西
+Thanks to OldMac, 阿泽西
 
 [Languages/pl-PL.xml]
 Polish Resource

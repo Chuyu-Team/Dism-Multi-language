@@ -3176,7 +3176,7 @@
       </Item>
     </Group>
 
-    <Group Name="Windows 7体验">
+    <Group Name="#Windows 7体验">
       <Applicable>
         <OSVersion Compare=">=">10.0</OSVersion>
       </Applicable>
