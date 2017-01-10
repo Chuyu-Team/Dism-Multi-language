@@ -3141,17 +3141,17 @@
         <Current>
           <State>
             <Applicable>
-              <RegExist Key="HHKEY_CURRENT_USER\Software\Microsoft\CTF\LangBar\ItemState\{ED9D5450-EBE6-4255-8289-F8A31E687228}" Value="DemoteLevel" Type="REG_DWORD" Data="3"/>
+              <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\CTF\LangBar\ItemState\{ED9D5450-EBE6-4255-8289-F8A31E687228}" Value="DemoteLevel" Type="REG_DWORD" Data="3"/>
             </Applicable>
           </State>
           <True>
             <Activate>
-              <RegWrite Key="HHKEY_CURRENT_USER\Software\Microsoft\CTF\LangBar\ItemState\{ED9D5450-EBE6-4255-8289-F8A31E687228}" Value="DemoteLevel" Type="REG_DWORD" Data="3"/>
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\CTF\LangBar\ItemState\{ED9D5450-EBE6-4255-8289-F8A31E687228}" Value="DemoteLevel" Type="REG_DWORD" Data="3"/>
             </Activate>
           </True>
           <False>
             <Activate>
-              <RegDelete Key="HHKEY_CURRENT_USER\Software\Microsoft\CTF\LangBar\ItemState\{ED9D5450-EBE6-4255-8289-F8A31E687228}" Value="DemoteLevel"/>
+              <RegDelete Key="HKEY_CURRENT_USER\Software\Microsoft\CTF\LangBar\ItemState\{ED9D5450-EBE6-4255-8289-F8A31E687228}" Value="DemoteLevel"/>
             </Activate>
           </False>
         </Current>
