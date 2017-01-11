@@ -1306,7 +1306,7 @@ Command:
     <String Target="最近能正常启动计算机的配置备份。" Link="Sicherung der letzten Konfiguration, mit dem der PC gestartet werden kann."/>
 
     <String Target="传递优化缓存" Link="Speicher der Update-Übermittlungsoptimierung"/>
-    <String Target="Win10开始使用传递优化（DeliveryOptimization）服务下载Windows更新和通用应用（UWP）产生的缓存文件" Link="Gespeicherte Dateien von Windows 10 beim Start der Windows Update-Übermittlungsoptimierung für den Download von Windows Updates & UWP."/>
+    <String Target="Win10开始使用传递优化（DeliveryOptimization）服务下载Windows更新和通用应用（UWP）产生的缓存文件" Link="Gespeicherte Dateien von Windows 10 beim Start der Windows Update-Übermittlungsoptimierung für den Download von Windows Updates &amp; UWP."/>
   </StringMaps>
   <MessageTable>
     <x800F0806>Ein oder mehrere Updates sind noch ausstehend, um fortzufahren, bitte das Programm neu starten.</x800F0806>
