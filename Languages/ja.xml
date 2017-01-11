@@ -1175,7 +1175,7 @@ Examples:
     <String Target="迅雷游戏" Link="Thunder Games"/>
     <String Target="迅雷游戏安装后所在目录，一般人不需要此程序，可以考虑删除。" Link="Thunder games directory (after installing), most people do not need this program, you can consider to delete."/>
 
-    <String Target="NET程序集缓存（by 大胖子技术员）" Link=".NET アセンブリ キャッシュ (by DaPangZiJiShuYuan)"/>
+    <String Target="NET程序集缓存（by 大胖子技术员）" Link=".NET アセンブリ キャッシュ ( by dpzsjy )"/>
     <String Target="NET程序运行过程中产生的机器代码缓存文件，不建议频繁清理此条目。" Link="When .NET program running, it made the machine code cache files, I do not recommended to clean the cache files frequently."/>
 
     <String Target="以前的Dism++组件" Link="以前バージョンの Dism++ 残余ファイル"/>

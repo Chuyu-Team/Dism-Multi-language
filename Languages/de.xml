@@ -354,6 +354,10 @@ Special Thanks to franz@drwindows.de
     <String Target="大约压缩38%" Link="Kompression 38%"/>
     <String Target="大约压缩44%（更小体积）" Link="Kompression 44% (kleiner)"/>
     <String Target="加载WofAdk驱动（可能导致蓝屏！）" Link="WofAdk Treiber laden (kann BSOD verursachen!)"/>
+    <String Target="更新差异传输引擎：" Link="Windows Update Differ Engine:"/>
+    <String Target="关闭" Link="Aus"/>
+    <String Target="快速" Link="Schnell"/>
+    <String Target="完整" Link="Vollständig"/>
 
     <!--Tab-->
 	  <String Target="Dism++正在执行其他任务，你可以稍后打开会话。" Link="Dism++ ist gerade beschäftigt, die Sitzung kann aber später geöffnet werden."/>
@@ -686,6 +690,7 @@ Examples:
     <String Target="导入注册表文件过程中遇到问题，具体错误信息请参考 Dism++.log。" Link="Beim Import der Registry-Datei traten Fehler auf, überprüfen Sie bitte die Fehlermeldungen im Dism++.log-Datei."/>
     <String Target="注册表文件" Link="Registrierungsdatei"/>
     <String Target="操作成功，但是导入注册表文件过程遇到一些非致命性错误，具体错误信息请参考 Dism++.log。" Link="Der Vorgang wurde erfolgreich beendet. Dennoch traten einige Fehler beim Import der Registry-Datei auf. Details zur Fehlermeldung finden Sie in der Dism++.log-Datei."/>
+    <String Target="提交规则" Link="Regeln erstellen"/>
 
     <!--Explorer-->
     <String Target="将任务栏中的Cortana调整为" Link="Cortana in der Taskleiste anzeigen"/>
@@ -944,6 +949,22 @@ Examples:
     <String Target="禁用文件、目录、桌面、所有对象的“工作文件夹”右键菜单" Link="&quot;Arbeitsordner&quot; im Kontextmenu ausblenden "/>
     <String Target="禁用文件夹的“固定到快速访问”右键菜单" Link="&quot;An Schnellzugriff anheften&quot; im Kontextmenü bei Verzeichnissen ausblenden"/>
     <String Target="禁用文件的“OneDrive文件同步”右键菜单" Link="&quot;OneDrive Datei-Synchronisierung&quot; im Kontextmenü einer Datei ausblenden"/>
+    <String Target="关闭“突出显示新安装的程序”（by 溯汐潮）" Link="Kennzeichnung &quot;Zuletzt installierte Programme&quot; entfernen (by Hell Cabrite)"/>
+    <String Target="关闭自动更新（by 溯汐潮）" Link="Automatische Updates deaktivieren (by Hell Cabrite)"/>
+    <String Target="将“音量调节”调整为Windows 7模式（by 溯汐潮）" Link="Lautstärke-Regelung im Windows 7-Stil anzeigen (by Hell Cabrite)"/>
+    <String Target="将同时可用下载数目调整到 10（by 溯汐潮）" Link="Anzahl der gleichzeitigen Downloads auf 10 festlegen (by Hell Cabrite)"/>
+    <String Target="将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）" Link="&quot;Anpassen&quot; im Desktop-Kontextmenü im Winodws 7-Stil anzeigen (by dpzsjy) "/>
+    <String Target="将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）" Link="&quot;Anzeige-Einstellungen&quot; im Desktop-Kontextmenü im Winodws 7-Stil anzeigen (by dpzsjy)"/>
+    <String Target="将语言栏隐藏到任务拦（by 溯汐潮）" Link="Sprachanzeige in der Taskleiste verstecken (by Hell Cabrite)"/>
+    <String Target="快速访问不显示常用文件夹（by 溯汐潮）" Link="Häufig verwendete Ordner im Schnellzugriff nicht anzeigen (by Hell Cabrite)"/>
+    <String Target="快速访问不显示最近使用的文件（by 溯汐潮）" Link="Zuletzt verwendete Dateien im Schnellzugriff nicht anzeigen (by Hell Cabrite)"/>
+    <String Target="清理被取代的msp补丁并减少Installer目录的大小。" Link="Aktualisierungs-Dateien (MSP) bereinigen und das Installations-Verzeichnis verkleinern."/>
+    <String Target="禁用账号登录日志报告（by 溯汐潮）" Link="Aufzeichnung der Benutzeranmeldung deaktiveren(by Hell Cabrite)"/>
+    <String Target="遇到弹出窗口时始终在新选项卡中打开弹出窗口（by 溯汐潮）" Link="Popups immer in neuem Tab anzeigen(by Hell Cabrite)"/>
+    <String Target="锁定Internet Explorer工具栏（by 溯汐潮）" Link="Internet Explorer Toolbar sperren (by Hell Cabrite)"/>
+    <String Target="隐藏NTFS蓝色双箭头压缩标识（by IT之家）" Link="Blauer-Doppelpfeil für NTFS-Komprimierung im Icon verstecken (by IT Home)"/>
+    <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="Hilfe-Button in der Sprach-Anzeige verstecken (by Hell Cabrite)"/>
+    <String Target="Windows 7体验" Link="Windows 7 Leistungsindex"/>
     <!--系统优化已经结束-->
   
     <!--Dism++更新程序-->
@@ -1283,6 +1304,9 @@ Command:
     
 	  <String Target="最后一次正确配置（by Stanlazy）" Link="Letzte funktionierende Konfiguration (by Stanlazy)"/>
     <String Target="最近能正常启动计算机的配置备份。" Link="Sicherung der letzten Konfiguration, mit dem der PC gestartet werden kann."/>
+
+    <String Target="传递优化缓存" Link="Speicher der Update-Übermittlungsoptimierung"/>
+    <String Target="Win10开始使用传递优化（DeliveryOptimization）服务下载Windows更新和通用应用（UWP）产生的缓存文件" Link="Gespeicherte Dateien von Windows 10 beim Start der Windows Update-Übermittlungsoptimierung für den Download von Windows Updates & UWP."/>
   </StringMaps>
   <MessageTable>
     <x800F0806>Ein oder mehrere Updates sind noch ausstehend, um fortzufahren, bitte das Programm neu starten.</x800F0806>

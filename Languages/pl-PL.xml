@@ -354,8 +354,12 @@ Thanks: WinClub.pl
     <String Target="大约压缩38%" Link="Kompresja 38%"/>
     <String Target="大约压缩44%（更小体积）" Link="Kompresja 44%(Mniejszy)"/>
     <String Target="加载WofAdk驱动（可能导致蓝屏！）" Link="Załaduj sterownik WofAdk (ryzyko BSOD!)"/>
-	 
-	<!--Tab-->
+    <String Target="更新差异传输引擎：" Link="Silnik Windows Update:"/>
+    <String Target="关闭" Link="Wy³¹cz"/>
+    <String Target="快速" Link="Szybki"/>
+    <String Target="完整" Link="Pe³ny"/>
+
+    <!--Tab-->
 	  <String Target="Dism++正在执行其他任务，你可以稍后打开会话。" Link="Dism++ działa, później otwórz sesje."/>
 	  <String Target="为了优化性能，你需要手动打开会话。" Link="W celu zoptymalizowania wydajności, należy ręcznie otworzyć sesję."/>
 	  <String Target="打开会话" Link="Otwórz sesję"/>
@@ -363,15 +367,15 @@ Thanks: WinClub.pl
 
     <String Target="常用工具" Link="Narzędzia użytkowe"/>
 	    <String Target="空间回收" Link="Oczyszczanie"/>
-	  <String Target="启动项管理" Link="Autostart"/>
-	  <String Target="工具箱" Link="Zestaw narzędzi"/>
-	  <String Target="Appx管理" Link="Zarządzanie Appx"/>
+	    <String Target="启动项管理" Link="Autostart"/>
+	    <String Target="工具箱" Link="Zestaw narzędzi"/>
+	    <String Target="Appx管理" Link="Zarządzanie Appx"/>
   
-  	  <String Target="驱动管理" Link="Sterowniki"/>
+  	<String Target="驱动管理" Link="Sterowniki"/>
 	  <String Target="Windows服务" Link="Usługi"/>
 	  <String Target="Windows功能" Link="Programy i funkcje"/>
 	  <String Target="更新管理" Link="Aktualizacje"/>
-	  <String Target="已安装的更新" Link="Zainstalowane"/>
+	    <String Target="已安装的更新" Link="Zainstalowane"/>
 	  <String Target="可选功能" Link="Odchudzanie systemu"/>
     <String Target="部署功能" Link="Wdrażenie funkcji"/>
 	
@@ -673,7 +677,7 @@ Przykłady:
     <String Target="hosts编辑器" Link="Edytor Hosts"/>
     <String Target="用于hosts编辑" Link="Służy do modyfikowania pliku hosts."/>
 
-	<!--Optymalizacja systemu-->
+    <!--系统优化开始-->
     <String Target="系统优化" Link="Optymalizacja systemu"/>
     <String Target="当前用户" Link="Bieżący użytkownik"/>
     <String Target="新用户" Link="Nowy użytkownik"/>
@@ -685,9 +689,10 @@ Przykłady:
     <String Target="导入注册表文件过程中遇到问题，具体错误信息请参考 Dism++.log。" Link="Import pliku reg spowodował konflikt, sprawdź log Dism++."/>
     <String Target="注册表文件" Link="Pliki rejestru"/>    
     <String Target="操作成功，但是导入注册表文件过程遇到一些非致命性错误，具体错误信息请参考 Dism++.log。" Link="Operacja powiodła się. Jednak nie było pewne niezakończony zgonem problem podczas importowania pliku rejestracyjnego. Proszę odnieść się do Dism++. Log o szczegóły"/>
-	
-    <!--Explorer-->	
-	<String Target="将任务栏中的Cortana调整为" Link="Cortana na pasku zadań"/>
+    <String Target="提交规则" Link="Okreœlanie zasad"/>
+
+    <!--Explorer-->
+    <String Target="将任务栏中的Cortana调整为" Link="Cortana na pasku zadań"/>
       <String Target="隐藏" Link="Ukryj"/>
       <String Target="仅显示图标" Link="Pokaż tylko ikonę"/>
       <String Target="显示搜索框" Link="Pokaż wyszukiwarkę"/>
@@ -701,7 +706,7 @@ Przykłady:
     
     <String Target="用于内置管理员帐户的管理员批准模式 (by 坏坏小生)" Link="Tryb zatwierdzania przez administratora dla wbudowanego konta administratora (by HuaiHuaiXiaoSheng)"/>
 	
-	<String Target="隐藏“任务视图”按钮" Link="Ukryj przycisk Zadania"/>
+	  <String Target="隐藏“任务视图”按钮" Link="Ukryj przycisk Zadania"/>
 
     <String Target="打开资源管理器时显示此电脑" Link="Wyświetl Mój Komputer zamiast Explorer"/>
 
@@ -943,28 +948,44 @@ Przykłady:
     <String Target="开启此功能将导致平板模式下无法使用手势调出操作中心。" Link="Jeżeli wyłączysz tą funkcję nie bedziesz mógł uruchomić gestem centrum akcji."/>
     <String Target="禁用文件、目录、桌面、所有对象的“工作文件夹”右键菜单" Link="Wyłącz &quot;folder roboczy&quot; menu kontekstowe pliku, katalogu pulpitu, wszystkie obiekty"/>
     <String Target="禁用文件夹的“固定到快速访问”右键菜单" Link="Wyłącz &quot;Przypnij do&quot; w menu kontestowym i katalogu"/>
-    <String Target="禁用文件的“OneDrive文件同步”右键菜单" Link="Wyłącz &quot; Synchronizacje plików OneDrive; w menu kontekstowym pliku"/>    
-    <!--Optymalizacja systemu została zakończona-->
+    <String Target="禁用文件的“OneDrive文件同步”右键菜单" Link="Wyłącz &quot; Synchronizacje plików OneDrive; w menu kontekstowym pliku"/>
+    <String Target="关闭“突出显示新安装的程序”（by 溯汐潮）" Link="Wy³¹cz &quot;Podœwietlanie nowo zainstalowanych programów&quot; ( by Hell Cabrite )"/>
+    <String Target="关闭自动更新（by 溯汐潮）" Link="Wy³¹cz automatyczne aktualizacje ( by Hell Cabrite )"/>
+    <String Target="将“音量调节”调整为Windows 7模式（by 溯汐潮）" Link="Zmieñ &quot;Regulacjê g³oœnoœci&quot; na t¹ z Windows 7 ( by Hell Cabrite )"/>
+    <String Target="将同时可用下载数目调整到 10（by 溯汐潮）" Link="Zwieksz liczbe jednoczesnie pobieranych plików do 10 ( by Hell Cabrite )"/>
+    <String Target="将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）" Link="Zmieñ &quot;Personalizuj&quot; w PPM na pulpicie na ten z WIndows 7 ( by dpzjsy )"/>
+    <String Target="将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）" Link="Zmieñ &quot;Ustawienia ekranu&quot; w PPM na pulpicie na ten z Windows 7 ( by dpzjsy )"/>
+    <String Target="将语言栏隐藏到任务拦（by 溯汐潮）" Link="Ukryj &quot;Pasek jêzyka&quot; ( by Hell Cabrite)"/>
+    <String Target="快速访问不显示常用文件夹（by 溯汐潮）" Link="Nie wyœwietlaj Czesto u¿ywanych Folderów w zak³¹dce Szybki Dostêp ( by Hell Cabrite )"/>
+    <String Target="快速访问不显示最近使用的文件（by 溯汐潮）" Link="Nie wyœwietlaj ostatnio u¿ywanych plików w zak³¹dce Szybki Dostêp ( by Hell Cabrite )"/>
+    <String Target="清理被取代的msp补丁并减少Installer目录的大小。" Link="Czyœæ zast¹pione patch'e msp i zmniejsz rozmiar folderu Instalatora."/>
+    <String Target="禁用账号登录日志报告（by 溯汐潮）" Link="Wy³¹cz zapisywanie logowania u¿ytkownika ( by Hell Cabrite )"/>
+    <String Target="遇到弹出窗口时始终在新选项卡中打开弹出窗口（by 溯汐潮）" Link="Zawsze pokazuj pop-up'y w nowej karcie ( by Hell Cabrite )"/>
+    <String Target="锁定Internet Explorer工具栏（by 溯汐潮）" Link="Zablokuj toolbar Internet Explorer'a ( by Hell Cabrite )"/>
+    <String Target="隐藏NTFS蓝色双箭头压缩标识（by IT之家）" Link="Ukryj niebiesk¹ podwójn¹ strza³kê kompresji NTFS ( by IT Home )"/>
+    <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="Ukryj przycisk Pomoc paska jêzyka ( by Hell Cabrite )"/>
+    <String Target="Windows 7体验" Link="Windows 7 Experience"/>
+    <!--系统优化已经结束-->
 
-    <!--Aktualizacja Dism++-->
+    <!--Dism++更新程序-->
     <String Target="发现新版本，需要更新 %d 个文件，约%s。&#x000D;&#x000A;&#x000D;&#x000A;更新日志：&#x000D;&#x000A;&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;确定要升级吗？"
             Link="Odkryj nową wersję, musimy aktualizować %d kilka plików %s.&#x000D;&#x000A;&#x000D;&#x000A;Update log:&#x000D;&#x000A;&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;Jesteś pewien, że chcesz dokonać aktualizacji?"/>
-	<String Target="Dism++更新程序" Link="Aktualizacja Dism++"/>
-	<String Target="准备启动下载模块……&#x000D;&#x000A;" Link="Zacznij pobierać moduł...... &#x000D;&#x000A;"/>
-	<String Target="正在下载 - %d/%d"  Link="Pobieranie %d/%d"/>
-	<String Target="更新文件过程中遇到错误，Orz……" Link="Błędy podczas aktualizacji, Orz......"/>
-  
-    <!--Command Line-->
+	  <String Target="Dism++更新程序" Link="Aktualizacja Dism++"/>
+	  <String Target="准备启动下载模块……&#x000D;&#x000A;" Link="Zacznij pobierać moduł...... &#x000D;&#x000A;"/>
+	  <String Target="正在下载 - %d/%d"  Link="Pobieranie %d/%d"/>
+	  <String Target="更新文件过程中遇到错误，Orz……" Link="Błędy podczas aktualizacji, Orz......"/>
+
+    <!--命令行-->
     <String Target="退出" Link="Koniec"/>
-	<String Target="%s 解压失败，错误代码：%d" Link="%s Dekompresja nie powiodła się, kod błędu:%d"/>
-	<String Target="%s 解压成功" Link="%s Dekompresja zakończona sukcesem"/>
-	<String Target="%s 压缩失败，错误代码：%d" Link="%s Kompresja nie powiodła się, kod błędu:%d"/>
-	<String Target="%s 跳过" Link="%s Pominięto"/>
-	<String Target="%s 压缩成功" Link="%s Kompresja zakończona sukcesem"/>
-	<String Target="Dism++初始化成功，开始执行命令：%s" Link="Dism++ instalacja zakończona sukcesem."/>
-	<String Target="无法识别参数：%s" Link="Nierozpoznane parametry:%s"/>
-	<String Target="至少输入一个路径" Link="Wprowadź co najmniej jedną ścieżkę"/>
-	<String Target="%s 路径无效" Link="%s Nieprawidłowa ścieżka"/>
+	  <String Target="%s 解压失败，错误代码：%d" Link="%s Dekompresja nie powiodła się, kod błędu:%d"/>
+	  <String Target="%s 解压成功" Link="%s Dekompresja zakończona sukcesem"/>
+	  <String Target="%s 压缩失败，错误代码：%d" Link="%s Kompresja nie powiodła się, kod błędu:%d"/>
+	  <String Target="%s 跳过" Link="%s Pominięto"/>
+	  <String Target="%s 压缩成功" Link="%s Kompresja zakończona sukcesem"/>
+	  <String Target="Dism++初始化成功，开始执行命令：%s" Link="Dism++ instalacja zakończona sukcesem."/>
+	  <String Target="无法识别参数：%s" Link="Nierozpoznane parametry:%s"/>
+	  <String Target="至少输入一个路径" Link="Wprowadź co najmniej jedną ścieżkę"/>
+	  <String Target="%s 路径无效" Link="%s Nieprawidłowa ścieżka"/>
     <String Target="未正确识别到命令，以下是程序支持的所有命令：" Link="Podczas wykonywania polecenia wystąpił błąd. Upewnij sie czy poniższe polecenia są poprawne:"/>
     <String Target="将一个文件夹或者文件进行Compact压缩：&#x000D;&#x000A;/C  { /exe [ xpress4k（默认、更佳性能） | xpress8k | xpress16k | lzx（更小体积） ] } Path"
               Link="Compact kompresja pliku lub folderu:&#x000D;&#x000A;/C  { /exe [ xpress4k(default,Faster) | xpress8k | xpress16k | lzx(Smaller) ] } Path"/>
@@ -1171,7 +1192,7 @@ Komenda:
     <String Target="迅雷游戏" Link="Thunder Games"/>
     <String Target="迅雷游戏安装后所在目录，一般人不需要此程序，可以考虑删除。" Link="Pozostałości po instalacji, można rozważyć usunięcie."/>
 
-    <String Target="NET程序集缓存（by 大胖子技术员）" Link="Pamięć podręczna NET."/>
+    <String Target="NET程序集缓存（by 大胖子技术员）" Link="Pamięć podręczna NET. ( by dpzsjy )"/>
     <String Target="NET程序运行过程中产生的机器代码缓存文件，不建议频繁清理此条目。" Link="Nie zaleca się często czyścić plików cache NET, mogą wystąpić problemy pamięci podręcznej."/>
 
     <String Target="以前的Dism++组件" Link="Stara wersja Dism++"/>
@@ -1284,6 +1305,9 @@ Komenda:
     
 	  <String Target="最后一次正确配置（by Stanlazy）" Link="Ostatnia poprawna konfiguracja"/>
     <String Target="最近能正常启动计算机的配置备份。" Link="Komputer zostanie uruchomiony z ostatniej poprawnej konfiguracji."/>
+
+    <String Target="传递优化缓存" Link="Optymalizacja Cache"/>
+    <String Target="Win10开始使用传递优化（DeliveryOptimization）服务下载Windows更新和通用应用（UWP）产生的缓存文件" Link="Generowanie plików cache podczas uruchomienia Windows 10 korzystaj¹c z Dostarczania us³ug optymalizacji w celu pobrania aktualizacji systemu Windows i UWP."/>
   </StringMaps>
   <MessageTable>
     <x800F0806>Jedna lub więcej aktualizacji jest w toku, proszę wykonać restart i spróbować ponownie.</x800F0806>

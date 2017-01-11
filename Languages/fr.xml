@@ -357,6 +357,10 @@ Special Thanks to JP.Sudret
     <String Target="大约压缩38%" Link="Compression 38%"/>
     <String Target="大约压缩44%（更小体积）" Link="Compression 44%(Plus petit)"/>
     <String Target="加载WofAdk驱动（可能导致蓝屏！）" Link="Charger Pilote WofAdk (peut entrainer écran bleu BSOD!)"/>
+    <String Target="更新差异传输引擎：" Link="Moteur différent des mises à jour Windows:"/>
+    <String Target="关闭" Link="Eteint"/>
+    <String Target="快速" Link="Rapide"/>
+    <String Target="完整" Link="Complet"/>
 
     <!--Tab-->
 	  <String Target="Dism++正在执行其他任务，你可以稍后打开会话。" Link="Dism++ fait d'autres tâches, vous pouvez ouvrir la session plus tard."/>
@@ -403,7 +407,7 @@ Special Thanks to JP.Sudret
     <String Target="缓存文件" Link="Fichiers Cache"/>
     <String Target="应用程序" Link="Applications"/>
     <String Target="备份文件" Link="Fichiers de sauvegarde"/>
-    <String Target="Dism++即将进行清理，垃圾文件将被直接删除，无法通过回收站恢复，你确定要继续么？" Link="Dism++ va commencer à nettoyer. Les fichiers Rabbish seront directement supprimés et ne pourront pas être récupérés de la corbeille. Etes-vous sûr de continuer?"/>
+    <String Target="Dism++即将进行清理，垃圾文件将被直接删除，无法通过回收站恢复，你确定要继续么？" Link="Dism++ va commencer à nettoyer. Les fichiers rubbish seront directement supprimés et ne pourront pas être récupérés de la corbeille. Etes-vous sûr de continuer?"/>
 
     <!--注册表清理-->
     <String Target="注册表清理" Link="Nettoyage de registre"/>
@@ -688,6 +692,7 @@ Examples:
     <String Target="导入注册表文件过程中遇到问题，具体错误信息请参考 Dism++.log。" Link="Importer un fichier Reg connait des problèmes, veuillez vous référer au message d’erreur spécifique de Dism++.log."/>
     <String Target="注册表文件" Link="Fichier de Registre"/>
     <String Target="操作成功，但是导入注册表文件过程遇到一些非致命性错误，具体错误信息请参考 Dism++.log。" Link="Opération réussie. Cependant, il peut y avoir un problème non fatal lors de l'importation du fichier d'enregistrement. SVP se référer à Dism ++. Log pour plus de détails."/>
+    <String Target="提交规则" Link="Fournir des règles"/>
 
     <!--Explorer-->
     <String Target="将任务栏中的Cortana调整为" Link="Choisir comment afficher Cortana dans barre des tâches"/>
@@ -946,6 +951,22 @@ Examples:
     <String Target="禁用文件、目录、桌面、所有对象的“工作文件夹”右键菜单" Link="Désactiver &quot;dossier de travail&quot; dans le menu contextuel de fichiers, répertoires, bureau, tous les objets"/>
     <String Target="禁用文件夹的“固定到快速访问”右键菜单" Link="Désactiver &quot;Désépingler de l'Accès Rapide&quot; menu contextuel dans répertoire"/>
     <String Target="禁用文件的“OneDrive文件同步”右键菜单" Link="Désactiver &quot;Synchronisation de fichiers OneDrive&quot; menu contextuel dans fichier"/>
+    <String Target="关闭“突出显示新安装的程序”（by 溯汐潮）" Link="Désactiver &quot;Mettre en surbrillance les programmes nouvellement installés&quot; ( par Hell Cabrite )"/>
+    <String Target="关闭自动更新（by 溯汐潮）" Link="Désactiver les mises à jour automatiques ( par Hell Cabrite )"/>
+    <String Target="将“音量调节”调整为Windows 7模式（by 溯汐潮）" Link="Changer &quot;Réglage du volume&quot; en mode Windows 7 ( par Hell Cabrite )"/>
+    <String Target="将同时可用下载数目调整到 10（by 溯汐潮）" Link="Ajuster le nombre de téléchargements simultanés à 10 ( par Hell Cabrite )"/>
+    <String Target="将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）" Link="Changer &quot;Personnaliser&quot; dans le menu contextuel du bureau en mode Windows 7 ( par dpzjsy )"/>
+    <String Target="将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）" Link="Changer &quot;Paramètres d'affichage&quot; dans le menu contextuel du bureau en mode Windows 7 ( par dpzjsy )"/>
+    <String Target="将语言栏隐藏到任务拦（by 溯汐潮）" Link="Masquer la barre de langues dans la barre des tâches ( par Hell Cabrite )"/>
+    <String Target="快速访问不显示常用文件夹（by 溯汐潮）" Link="Ne pas afficher les dossiers fréquemment utilisés dans Quick Access ( par Hell Cabrite )"/>
+    <String Target="快速访问不显示最近使用的文件（by 溯汐潮）" Link="Ne pas afficher les dossiers récemment utilisés dans Quick Access ( par Hell Cabrite )"/>
+    <String Target="清理被取代的msp补丁并减少Installer目录的大小。" Link="Nettoyer les patchs msp remplacés et réduiser la taille du dossier Installer."/>
+    <String Target="禁用账号登录日志报告（by 溯汐潮）" Link="Désactiver l'enregistrement de connexion au compte ( par Hell Cabrite )"/>
+    <String Target="遇到弹出窗口时始终在新选项卡中打开弹出窗口（by 溯汐潮）" Link="Toujours afficher les fenêtres pop-up dans un nouvel onglet ( par Hell Cabrite )"/>
+    <String Target="锁定Internet Explorer工具栏（by 溯汐潮）" Link="Vérrouiller Internet Explorer dans la barre d'outils (par Hell Cabrite)"/>
+    <String Target="隐藏NTFS蓝色双箭头压缩标识（by IT之家）" Link="Cacher la compression NTFS icône double flèche bleue (par IT Home)"/>
+    <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="Masquer le bouton Aide sur la barre de langues ( par Hell Cabrite )"/>
+    <String Target="Windows 7体验" Link="Expérience de Windows 7"/>
     <!--系统优化已经结束-->
   
     <!--Dism++更新程序-->
@@ -1173,7 +1194,7 @@ Command:
     <String Target="迅雷游戏" Link="Thunder Games"/>
     <String Target="迅雷游戏安装后所在目录，一般人不需要此程序，可以考虑删除。" Link="Thunder games directory (after installing), most people do not need this program, you can consider to delete."/>
 
-    <String Target="NET程序集缓存（by 大胖子技术员）" Link="Cache assemblage NET (par DaPangZiJiShuYuan)"/>
+    <String Target="NET程序集缓存（by 大胖子技术员）" Link="Cache assemblage NET ( par dpzsjy )"/>
     <String Target="NET程序运行过程中产生的机器代码缓存文件，不建议频繁清理此条目。" Link="Quand le programme NET s'exécute, il crée des fichiers cache en code machine, il est recommandé de les supprimer fréquemment"/>
 
     <String Target="以前的Dism++组件" Link="Fichiers résiduels des précédentes versions de Dism++"/>
@@ -1286,6 +1307,9 @@ Command:
     
     <String Target="最后一次正确配置（by Stanlazy）" Link="Dernière configuration de travail (par Stanlazy)"/>
     <String Target="最近能正常启动计算机的配置备份。" Link="Sauvegarde de la configuration la plus récente qui pourrait démarrer le PC."/>
+
+    <String Target="传递优化缓存" Link="Cache d'Optimisation de la Distribution"/>
+    <String Target="Win10开始使用传递优化（DeliveryOptimization）服务下载Windows更新和通用应用（UWP）产生的缓存文件" Link="Fichiers cache générés lorsque Windows 10 commence à utiliser le service d'Optimisation de la Distribution pour télécharger les mises à jour Windows et UWP."/>
   </StringMaps>
   <MessageTable>
     <x800F0806>One or more updates are pending, please restart and then continue.</x800F0806>

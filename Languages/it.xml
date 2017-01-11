@@ -354,6 +354,10 @@ Special Thanks to Massimiliano F.
     <String Target="大约压缩38%" Link="Compressione 38%"/>
     <String Target="大约压缩44%（更小体积）" Link="Compressione 44%(bassa)"/>
     <String Target="加载WofAdk驱动（可能导致蓝屏！）" Link="carica driver WofAdk (può causare BSOD!)"/>
+    <String Target="更新差异传输引擎：" Link="Differente motore di ricerca Windows Update:"/>
+    <String Target="关闭" Link="Off"/>
+    <String Target="快速" Link="Veloce"/>
+    <String Target="完整" Link="Completo"/>
 
     <!--Tab-->
 	  <String Target="Dism++正在执行其他任务，你可以稍后打开会话。" Link="Dism++ sta facendo altre attività, puoi aprire un'altra sessione successivamente."/>
@@ -537,7 +541,7 @@ Special Thanks to Massimiliano F.
     <String Target="%s 无法获取账号SID，错误代码：0x%.8X" Link="%s Inpossibile ricevere l'account SID, codice errore: 0x%.8X"/>
     <String Target="%s 所关联的用户（%s）无法删除，错误代码：0x%.8X" Link="%s utente (%s) non può essere eliminato, codice errore: 0x%.8X"/>
     <String Target="%s 未关联任何用户。" Link="%s non è associato a nessun utente."/>
-    <String q="" Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="Congratulations! Deletion successful. However, as some applications may be Provisioned Appx, if some SYSTEM-owned app persists, please use Provisioned Appx to delete them."/>
+    <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="Congratulazioni! Cancellazione effettuta con successo. Però, alcune applicazioni potrebbero essere Provisioned Appx e persistere nel sistema, in questo caso utilizzare Provisioned Appx per eliminarle."/>
 
     <!--Windows Update-->
     <String Target="安装" Link="Installa"/>
@@ -683,7 +687,8 @@ Esempi:
     <String Target="导入配置" Link="Importa Reg"/>
     <String Target="导入注册表文件过程中遇到问题，具体错误信息请参考 Dism++.log。" Link="Errore nell'importazione del file di registro, Controllare il file log di Dism++ per i dettagli."/>
     <String Target="注册表文件" Link="File Registro"/>
-    <String q="" Target="操作成功，但是导入注册表文件过程遇到一些非致命性错误，具体错误信息请参考 Dism++.log。" Link="Operation succeeded. However non-fatal errors occured when importing registry file. Detailed error message can be found in Dism++.log."/>
+    <String Target="操作成功，但是导入注册表文件过程遇到一些非致命性错误，具体错误信息请参考 Dism++.log。" Link="Operazione eseguita con successo. Tuttavia si sono verificati errori non fatali dirante l'importazione del file di registro. Dettagli dell'errore possono essere trovati nel file Dism++.log."/>
+    <String Target="提交规则" Link="Regole fornite"/>
 
     <!--Explorer-->
     <String Target="将任务栏中的Cortana调整为" Link="Scegli come visualizzare Cortana sulla barra delle applicazioni"/>
@@ -944,6 +949,22 @@ Esempi:
     <String Target="禁用文件、目录、桌面、所有对象的“工作文件夹”右键菜单" Link="Disattiva menu &quot;cartella di lavoro&quot; su file, cartelle, desktop, e tutti gli oggetti "/>
     <String Target="禁用文件夹的“固定到快速访问”右键菜单" Link="Disattiva menu &quot;Pin Accesso Rapido&quot; sulle cartelle"/>
     <String Target="禁用文件的“OneDrive文件同步”右键菜单" Link="Disattiva menu &quot;Sincronizza File OneDrive&quot; sui file"/>
+    <String Target="关闭“突出显示新安装的程序”（by 溯汐潮）" Link="Disattiva &quot;Evidenzia programmi installati di recente&quot; ( by Hell Cabrite )"/>
+    <String Target="关闭自动更新（by 溯汐潮）" Link="Disattiva aggiornamenti automatici ( by Hell Cabrite )"/>
+    <String Target="将“音量调节”调整为Windows 7模式（by 溯汐潮）" Link="Cambia &quot;Regolazione Volume&quot; nella modalità Windows 7 ( by Hell Cabrite )"/>
+    <String Target="将同时可用下载数目调整到 10（by 溯汐潮）" Link="Imposta numero di download simultanei a 10 ( by Hell Cabrite )"/>
+    <String Target="将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）" Link="Cambia &quot;Personalizza&quot; nel menu del tasto destro sul desktop nella modalità Windows 7 ( by dpzjsy )"/>
+    <String Target="将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）" Link="Cambia &quot;Impostazioni Schermo&quot; nel menu del tasto destro sul desktop nella modalità Windows 7 ( by dpzjsy )"/>
+    <String Target="将语言栏隐藏到任务拦（by 溯汐潮）" Link="Nascondi barra della lingua ( by Hell Cabrite)"/>
+    <String Target="快速访问不显示常用文件夹（by 溯汐潮）" Link="Non visualizzare Cartelle usate di recente in Accesso rapido ( by Hell Cabrite )"/>
+    <String Target="快速访问不显示最近使用的文件（by 溯汐潮）" Link="Non visualizzare File usati di recente Accesso Rapido ( by Hell Cabrite )"/>
+    <String Target="清理被取代的msp补丁并减少Installer目录的大小。" Link="Rimuove le patch msp obsolete e riduce la dimensione della cartella Installer."/>
+    <String Target="禁用账号登录日志报告（by 溯汐潮）" Link="Disattiva informazioni sull’account all’accesso ( by Hell Cabrite )"/>
+    <String Target="遇到弹出窗口时始终在新选项卡中打开弹出窗口（by 溯汐潮）" Link="Mostrta sempre i nuovi pop-up in una nuova finestra ( by Hell Cabrite )"/>
+    <String Target="锁定Internet Explorer工具栏（by 溯汐潮）" Link="Blocca la barra degli strumenti di internet Explorer ( by Hell Cabrite )"/>
+    <String Target="隐藏NTFS蓝色双箭头压缩标识（by IT之家）" Link="Nscondi la doppia freccia sui file NTFS compressi ( by IT Home )"/>
+    <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="Nascondi tasto Aiuto nella Barra della Lingua ( by Hell Cabrite )"/>
+    <String Target="Windows 7体验" Link="Windows 7 Experience"/>
     <!--系统优化已经结束-->
   
     <!--Dism++更新程序-->
@@ -1171,7 +1192,7 @@ Comando:
     <String Target="迅雷游戏" Link="Thunder Games"/>
     <String Target="迅雷游戏安装后所在目录，一般人不需要此程序，可以考虑删除。" Link="Cartella Thunder games (dopo l'installazione), molte persone non necessitano di questo programma, puoi anche eliminarla."/>
 
-    <String Target="NET程序集缓存（by 大胖子技术员）" Link="Cache NET assembly (by DaPangZiJiShuYuan)"/>
+    <String Target="NET程序集缓存（by 大胖子技术员）" Link="Cache NET assembly ( by dpzsjy )"/>
     <String Target="NET程序运行过程中产生的机器代码缓存文件，不建议频繁清理此条目。" Link="Quando un programma NET è avviato, crea dei file cache del codice macchina, è raccomandato non pulire frequentemente questa cache."/>
 
     <String Target="以前的Dism++组件" Link="File residui di precedenti versioni di Dism++"/>
@@ -1282,8 +1303,11 @@ Comando:
     <String Target="WinINet Cookies" Link="Cookie WinINet"/>
     <String Target="清理每个用户账户和应用容器下的Windows网络组件（例如IE，Edge）的Cookies（仅支持默认目录）" Link="Elimina i coockie dei componenti WinINet (IE, Edge) per ogni Utente e Contenitore App"/>
     
-    <String q="" Target="最后一次正确配置（by Stanlazy）" Link="Last working configuration (by Stanlazy)"/>
-    <String q="" Target="最近能正常启动计算机的配置备份。" Link="Backup of the most recent configuration that could start up the PC."/>
+    <String Target="最后一次正确配置（by Stanlazy）" Link="Ultima configurazione funzionante (by Stanlazy)"/>
+    <String Target="最近能正常启动计算机的配置备份。" Link="Backup della configurazione più recente che potrebbe avviare il PC."/>
+
+    <String Target="传递优化缓存" Link="Cache Ottimizzazione Recapito"/>
+    <String Target="Win10开始使用传递优化（DeliveryOptimization）服务下载Windows更新和通用应用（UWP）产生的缓存文件" Link="File della cache generati Quando Windows inizia ad utilizzare il servizio Ottimizzazione Recapito per scaricare gli aggiornamenti Windows."/>
   </StringMaps>
   <MessageTable>
     <x800F0806>Uno o più aggiornamenti sono in sospeso, si prega di riavviare e quindi continuare.</x800F0806>
