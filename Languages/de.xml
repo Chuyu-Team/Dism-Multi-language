@@ -35,7 +35,7 @@ Special Thanks to franz@drwindows.de
   <StringMaps>
     <String Target="文件(&amp;F)" Link="&amp;Datei"/>
 		  <String Target="添加映像" Link="Image hinzufügen"/>
-        <String Target="释放映像	Ctrl+N" Link="Image	bestätigen Ctrl+N"/>
+        <String Target="释放映像	Ctrl+N" Link="Image bestätigen	 Ctrl+N"/>
         <String Target="挂载映像	Ctrl+Shift+N" Link="Image einbinden	Ctrl+Shift+N"/>
         <String Target="添加路径" Link="Pfad hinzufügen"/>
 		  <String Target="卸载映像	Delete" Link="Image auswerfen"/>
@@ -116,7 +116,7 @@ Special Thanks to franz@drwindows.de
     <String Target="Dism++关键组件丢失，请从 www.chuyu.me 重新下载Dism++。" Link="Wichtige Dism++ Dateien können nicht gefunden werden, bitte Dism++ erneut von www.chuyu.me herunterladen."/>
     <String Target="临时目录可用空间不足5GB，这可能导致Dism++无法正常运行，推荐将Dism++复制到可用空间大于5GB的驱动器，然后继续。" Link="Dism++ benötigt mehr als 5GB Speicher."/>
     <String Target="基础支撑库缺失，引导修复相关功能无法使用。" Link="Notwendige Bibliotheken konnten nicht gefunden werden. Boot-fix Funktionen können nicht verwendet werden."/>
-    <String Target="Dism++需要管理员权限才能运行，请右键 以管理员身份运行 然后继续。" Link="Dism++ benötigt administrative Berechtigungen, deshalb bitte Rechts-Klick auf die Ausführungsdatei und 'Als Administrator starten' auswählen."/>
+    <String Target="Dism++需要管理员权限才能运行，请右键 以管理员身份运行 然后继续。" Link="Dism++ benötigt administrative Berechtigungen, deshalb bitte Rechtsklick auf die Ausführungsdatei und 'Als Administrator starten' auswählen."/>
 
     <String Target="你需要增量保存还是直接保存？" Link="Abspeichern oder eine inkrementelle Sicherung durchführen?"/>
     <String Target="温馨提示：保存映像后空间不会减少，如果需要减少空间请重新编译目标文件。" Link="Hinweis: Der Speicherplatz wird sich bei diesem Image nicht verkleinern. Um den Speicherplatz zu verringern, erstellen Sie die Datei neu"/>
@@ -290,7 +290,7 @@ Special Thanks to franz@drwindows.de
 	  <String Target="请在此输入目标文件路径" Link="Bitte den Zielpfad angeben"/>
 	
 	  <!--ESD解密-->
-    <String Target="温馨提示：此功能将直接解密目标文件，原版控请自行备份。" Link="HInweis: Diese Funktion verschlüsselt direkt die Zieldatei. Sichern Sie deshalb bitte vorher die Original-Dateien."/>
+    <String Target="温馨提示：此功能将直接解密目标文件，原版控请自行备份。" Link="Hinweis: Diese Funktion verschlüsselt direkt die Zieldatei. Sichern Sie deshalb bitte vorher die Original-Dateien."/>
     <String Target="解密口令已自动匹配" Link="Das Passwort zur Verschlüsselung wird automatisch verglichen"/>
     <String Target="请在输入框输入解密口令" Link="Bitte das Passwort in das Eingabefeld eintragen"/>
     <String Target="请正确输入Key，错误信息：%s" Link="Bitte das korrekte Passwort eingeben, Fehler: %s"/>
@@ -451,10 +451,10 @@ Special Thanks to franz@drwindows.de
     <String Target="开机启动项" Link="Start"/>
     <String Target="系统启动项 —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="Systemstart —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
     <String Target="系统启动项32位 —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run" Link="System Boot 32Bit —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run"/>
-    <String Target="系统启动项（仅启动一次） —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="Systemstart( Run Once ) —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
-    <String Target="系统启动项32位（仅启动一次） —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce" Link="Systemstart 32Bit( Run Once ) —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce"/>
+    <String Target="系统启动项（仅启动一次） —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="Systemstart (Run Once) —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
+    <String Target="系统启动项32位（仅启动一次） —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce" Link="Systemstart 32Bit (Run Once) —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce"/>
     <String Target="用户启动项 —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="Benutzer Start —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
-    <String Target="用户启动项（仅启动一次） —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="Benutzer Start ( Run Once ) —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
+    <String Target="用户启动项（仅启动一次） —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="Benutzer Start (Run Once) —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
     <String Target="启动（所有用户） —— %SystemDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup" Link="Start (Alle Benutzer) —— %SystemDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup"/>
     <String Target="启动（当前用户） —— %UserProfile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup" Link="Start (Aktueller Benutzer) —— %UserProfile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"/>
     <String Target="本机启动项 —— HKLM\SYSTEM\CurrentControlSet\Control\Session Manager" Link="Native Boot —— HKLM\SYSTEM\CurrentControlSet\Control\Session Manager"/>
@@ -531,14 +531,14 @@ Special Thanks to franz@drwindows.de
     <String Target="正在删除Appx" Link="Appxs entfernen"/>
     <String Target="删除Windows Store可能导致你未来无法下载或更新Appx，你确定要继续么？" Link="Wenn der Windows Store entfernt wird, können keine Appxs oder Updates mehr heruntergeladen werden. Soll wirklich fortgefahren werden?"/>
     <String Target="删除Microsoft.XboxIdentityProvider可能导致Windows Store无法使用，你确定要继续么？" Link="Wenn der Microsoft.XboxIdentityProvider gelöscht wird, kann Windows Store evtl. nicht mehr benutzt werden. Wirklich entfernen?"/>
-    <String Target="%s 等待超时，请尝试使用空间回收 - 过期Appx清理。" Link="%s Pause, bitte 'Disk Clean benutzen', um nicht mehr benutzte Appxs zu entfernen."/>
+    <String Target="%s 等待超时，请尝试使用空间回收 - 过期Appx清理。" Link="%s Pause, bitte 'Disk Clean' benutzen, um nicht mehr benutzte Appxs zu entfernen."/>
     <String Target="无法初始化Appx管理接口。" Link="Appxs-Management kann nicht geöffnet werden."/>
     <String Target="%s 无法获取Appx关联的账号信息，错误代码：0x%.8X" Link="%s keine Informationen über diese App. Fehlercode: 0x%.8X"/>
     <String Target="%s 无法获取账号SID，错误代码：0x%.8X" Link="%s Benutzer SID kann nicht abgerufen werden, Fehlercode: 0x%.8X"/>
     <String Target="%s 所关联的用户（%s）无法删除，错误代码：0x%.8X" Link="%s Benutzer (%s) kann nicht entfernt werden, Fehlercode: 0x%.8X"/>
     <String Target="%s 未关联任何用户。" Link="%s ist mit keinem anderen Benutzer verknüpft."/>
     <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="Glückwunsch! Das Löschen war erfolgreich. 
-Da einige der Programme 'Provisioned Apps' sind, können noch system-eigene Apps, trotz des Löschvorgangs, vorhanden sein. Benutzen Sie deshalb zum Löschen bitte die Option 'Provisioned Apps'"/>
+Da einige der Programme 'Provisioned Apps' sind, können noch systemeigene Apps, trotz des Löschvorgangs, vorhanden sein. Benutzen Sie deshalb zum Löschen bitte die Option 'Provisioned Apps'"/>
 
     <!--Windows Update-->
     <String Target="安装" Link="Installieren"/>
@@ -564,7 +564,7 @@ Da einige der Programme 'Provisioned Apps' sind, können noch system-eigene Apps
     <String Target="正在删除过期补丁缓存" Link="Speicher abgelaufener Patches löschen"/>
     <String Target="分析%d%%" Link="Analysiere %d%%"/>
     <String Target="%s 将引入独占请求，请在 %d 秒内做出选择。" Link="%s benötigt exklusive Berechtigungen, bitte in %d Sekunden bestätigen."/>
-    <String Target="温馨提示：引入独占请求后，你将无法安装其他更新，直到你重启系统。建议你先安装其他更新，最后安装此更新。" Link="Hinweis: Mit der exklusiven Berechtigung kann der Benutzer keine anderen Updates installieren, bevor nicht das System neu gestartet wurde. Wir empfehlen daher, zuerst andere Updates zu installieren und dann erst jene, die die exklusive Berechtigung benötigen"/>
+    <String Target="温馨提示：引入独占请求后，你将无法安装其他更新，直到你重启系统。建议你先安装其他更新，最后安装此更新。" Link="Hinweis: Mit der exklusiven Berechtigung kann der Benutzer keine anderen Updates installieren, bevor nicht das System neu gestartet wurde. Wir empfehlen daher, zuerst andere Updates zu installieren und dann erst jene, für die exklusive Berechtigung benötigt wird"/>
     <String Target="暂不安装（推荐）&#x000A;我暂时还需要添加其他更新。" Link="Nicht installieren (empfohlen) &#x000A; Zuerst müssen andere Updates installiert werden."/>
     <String Target="继续安装&#x000A;我已确保我需要的更新均已安装。" Link="Weiter mit der Installation&#x000A; Alle anderen Updates wurden installiert."/>
     <String Target="关于 %s 的警告：&#x000D;&#x000A;&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;你确定要继续吗？" Link="%s Achtung:&#x000D;&#x000A;&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;Wollen Sie wirklich fortfahren?"/>
@@ -618,13 +618,13 @@ Da einige der Programme 'Provisioned Apps' sind, können noch system-eigene Apps
     <String Target="还原" Link="Wiederherstellen"/>
     <String Target="sppsvc关闭失败，有可能导致还原失败，是否继续？" Link="Sppsvc (Windows Aktivierung) kann nicht geschlossen werden. Das kann zu einer fehlerhaften Wiederherstellung führen. Fortfahren oder abbrechen?"/>
     <String Target="当前系统为 %hd.%hd %s，而激活备份信息为  %hd.%hd %s&#x000D;&#x000A;&#x000D;&#x000A;信息不匹配，你确定要继续么？" Link="Das aktuelle System ist %hd. %hd %s entspricht nicht der Aktivierungs-Information des Backups %hd. %hd %s&#x000D;&#x000A;&#x000D;&#x000A; Fortfahren oder abbrechen?"/>
-    <String Target="请重新选择你的系统，你当前要还原的系统与本系统不匹配，请重新选择你的系统！" Link="Das System des Backups enstpricht nicht dem System, das wiederhergestellt werden soll. Bitte das System erneut auswählen!"/>
-    <String Target="备份的信息与你所还原的信息版本不同，是否要继续还原？" Link="Die Backup Informationen enstprechen nicht den Informationen, die wiederhersgestellt werden sollen. Fortfahren oder abbrechen?"/>
-    <String Target="Sorry暂不支持此系统，请反馈给我。" Link="Sorry, dieses Sytem wird nicht unterstützt."/>
+    <String Target="请重新选择你的系统，你当前要还原的系统与本系统不匹配，请重新选择你的系统！" Link="Das System des Backups entspricht nicht dem System, das wiederhergestellt werden soll. Bitte das System erneut auswählen!"/>
+    <String Target="备份的信息与你所还原的信息版本不同，是否要继续还原？" Link="Die Backup Informationen entsprechen nicht den Informationen, die wiederhersgestellt werden sollen. Fortfahren oder abbrechen?"/>
+    <String Target="Sorry暂不支持此系统，请反馈给我。" Link="Sorry, dieses Sytem wird leider nicht unterstützt."/>
     <String Target="还原失败！具体错误信息请参考Dism++.log。" Link="Wiederherstellung fehlgeschlagen. Bitte die Dism++.log-Datei überprüfen."/>
     <String Target="备份失败，具体请参考日志Dism++.log。" Link="Sicherung fehlgeschlagen. Bitte die Dism++.log-Datei überprüfen."/>
     <String Target="无法备份Windows激活信息。" Link="Die Sicherung der Windows Aktivierung ist fehlgeschlagen."/>
-    <String Target="非致命性错误，Office信息无法备份。" Link="Fehler, Office Informationen können nicht gespeichert werden."/>
+    <String Target="非致命性错误，Office信息无法备份。" Link="Fehler, Office-Informationen können nicht gespeichert werden."/>
     
     <String Target="账户管理" Link="Konto-Manager"/>
     <String Target="用于清空登录密码或者启用其他登录账号。" Link="Passwort löschen oder andere Benutzerkonten aktivieren"/>
@@ -668,7 +668,7 @@ Examples:
     <String Target="ISO生成器" Link="ISO Maker"/>
     <String Target="将一个文件夹打包为UEFI以及Legacy双启动ISO。" Link="Ein Verzeichnis wurde als Dual Boot (UEFI und Legacy ISO) erstellt."/>
     <String Target="请在此输入文件夹路径，比如 D:\Win7" Link="Verzeichnispfad angeben, z.B. D:\Win7"/>
-    <String Target="请在此输入ISO生成路径，比如 D:\MyWin7.iso" Link="Pfad zur Iso-Datei angeben, z.B. D:\MyWin7.iso"/>
+    <String Target="请在此输入ISO生成路径，比如 D:\MyWin7.iso" Link="Pfad zur Iso-Datei angeben, z.B. D:\MeinWin7.iso"/>
     <String Target="请在此输入ISO标签，比如 IR5_CCSA_X64FRE_ZH-CN_DV9" Link="ISO-Name eingeben, z.Bsp.: IRM_CCSA_X64FRE_DE-DE_DV5"/>
     
     <String Target="hosts编辑器" Link="hosts-Datei Editor"/>
