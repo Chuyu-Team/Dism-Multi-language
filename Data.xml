@@ -594,6 +594,20 @@
       </ScanCollection>
     </Item>
 
+    <Item Name="#Appx缓存文件-可解决Appx闪退" Level="2">
+      <Description>#Appx运行时产生的缓存文件，当应用闪退时可尝试清理此选项，可解决大多数闪退问题。</Description>
+      <Group>#缓存文件</Group>
+      <ScanCollection>
+        <Scan>
+          <Applicable>
+            <OSVersion Compare=">=">6.2</OSVersion>
+          </Applicable>
+          <Activate>
+            <General RootPath="%SystemDrive%\Users\*\AppData\Local\Packages\*\LocalCache"/>
+          </Activate>
+        </Scan>
+      </ScanCollection>
+    </Item>
     <!--应用程序-->
 
     <Item Name="#Package Cache目录" Level="2">
@@ -1143,7 +1157,7 @@
       <!--2016-01-27 10:10添加-->
       <Description>#瑞昱声卡安装后留下的安装源缓存。</Description>
       <Warning>#此条目可能影响瑞昱声卡驱动的卸载。</Warning>
-      <Group>#临时文件</Group>
+      <Group>#缓存文件</Group>
       <Scan>
         <Applicable>
           <FileExist FilePath="%ProgramFiles%\Realtek\Audio"/>
@@ -1162,7 +1176,7 @@
       <!--2016-01-27 10:10添加-->
       <Description>#Java安装后留下的安装源缓存。</Description>
       <Warning>#此条目可能影响Java的卸载。</Warning>
-      <Group>#应用程序</Group>
+      <Group>#缓存文件</Group>
       <Scan>
         <Applicable>
           <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft"/>
@@ -1181,7 +1195,7 @@
       <!--2016-01-27 15:18添加-->
       <Description>#Intel驱动安装后留下的安装源缓存。</Description>
       <Warning>#此条目可能影响Intel驱动的卸载。</Warning>
-      <Group>#临时文件</Group>
+      <Group>#缓存文件</Group>
       <Scan>
         <Applicable>
           <FileExist FilePath="%ProgramData%\Intel\Package Cache"/>
@@ -1196,7 +1210,7 @@
       <!--2016-01-27 15:18添加-->
       <Description>#英伟达驱动安装后留下的安装源缓存。</Description>
       <Warning>#此条目可能影响英伟达驱动的卸载。</Warning>
-      <Group>#临时文件</Group>
+      <Group>#缓存文件</Group>
       <Scan>
         <Applicable>
           <FileExist FilePath="%ProgramFiles%\NVIDIA Corporation"/>
@@ -1204,6 +1218,20 @@
         <Activate>
           <General RootPath="%ProgramFiles%\NVIDIA Corporation\Installer2"/>
           <General RootPath="%SystemDrive%\users\*\appdata\nvidia\nvbackend\packages"/>
+        </Activate>
+      </Scan>
+    </Item>
+
+    <Item Name="#英伟达驱动安装包（by Ailick）" Level="1">
+      <!--2017-01-12 18:01添加-->
+      <Description>#Nvidia Geforce Experience更新程序时产生的安装包。</Description>
+      <Group>#临时文件</Group>
+      <Scan>
+        <Applicable>
+          <FileExist FilePath="%PROGRAMDATA%\NVIDIA Corporation\Downloader"/>
+        </Applicable>
+        <Activate>
+          <General RootPath="%PROGRAMDATA%\NVIDIA Corporation\Downloader"/>
         </Activate>
       </Scan>
     </Item>
