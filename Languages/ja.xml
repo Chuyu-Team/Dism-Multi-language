@@ -689,6 +689,7 @@ Examples:
     <String Target="导入注册表文件过程中遇到问题，具体错误信息请参考 Dism++.log。" Link="レジストリをインポート問題が発生しました、詳細情報は Dism++.log を参考します。"/>
     <String Target="注册表文件" Link="レジストリ ファイル"/>
     <String Target="操作成功，但是导入注册表文件过程遇到一些非致命性错误，具体错误信息请参考 Dism++.log。" Link="操作完了しました、でもレジストリをインポート問題が発生しました、詳細情報は Dism++.log を参考します。"/>
+    <String Target="提交规则" Link="ルールを提出する"/>
 
     <!--Explorer-->
     <String Target="将任务栏中的Cortana调整为" Link="Cortana 表示"/>
@@ -948,6 +949,22 @@ Examples:
     <String Target="禁用文件、目录、桌面、所有对象的“工作文件夹”右键菜单" Link="ファイル、ディレクトリ、デスクトップおよびすべて対象のコンテキスト メニューの[作業フォルダー]を無効化"/>
     <String Target="禁用文件夹的“固定到快速访问”右键菜单" Link="ディレクトリのコンテキスト メニューの[クイック アクセスにピン留め]を無効化"/>
     <String Target="禁用文件的“OneDrive文件同步”右键菜单" Link="ファイルのコンテキスト メニューの[Onedrive でファイルを同期]を無効化"/>
+    <String Target="关闭“突出显示新安装的程序”（by 溯汐潮）" Link="最近追加したアプリを表示しない（by 溯汐潮）"/>
+    <String Target="关闭自动更新（by 溯汐潮）" Link="自動更新を閉じる（by 溯汐潮）"/>
+    <String Target="将“音量调节”调整为Windows 7模式（by 溯汐潮）" Link="Windows 7 音量調整を利用する（by 溯汐潮）"/>
+    <String Target="将同时可用下载数目调整到 10（by 溯汐潮）" Link="同時にダウンロード数 10 に調整する（by 溯汐潮）"/>
+    <String Target="将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）" Link="Windows 7 個人用設定を利用する（by 大胖子技术员）"/>
+    <String Target="将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）" Link="Windows 7 ディスプレイ設定を利用する（by 大胖子技术员）"/>
+    <String Target="将语言栏隐藏到任务拦（by 溯汐潮）" Link="言語バーはタスクバーに隠す（by 溯汐潮）"/>
+    <String Target="快速访问不显示常用文件夹（by 溯汐潮）" Link="よく使うフォルダーをクリック アクセスに表示しない（by 溯汐潮）"/>
+    <String Target="快速访问不显示最近使用的文件（by 溯汐潮）" Link="最近使ったフォルダーをクイック アクセスに表示しない（by 溯汐潮）"/>
+    <String Target="清理被取代的msp补丁并减少Installer目录的大小。" Link="MSP パッチをクリーンアップし、Installer フォルダーのサイズを解放する。"/>
+    <String Target="禁用账号登录日志报告（by 溯汐潮）" Link="サインイン ログ報告無効化（by 溯汐潮）"/>
+    <String Target="遇到弹出窗口时始终在新选项卡中打开弹出窗口（by 溯汐潮）" Link="ポップアップ発生時常に新しいタブで開く（by 溯汐潮）"/>
+    <String Target="锁定Internet Explorer工具栏（by 溯汐潮）" Link="Internet Explorer のツール バーを固定する（by 溯汐潮）"/>
+    <String Target="隐藏NTFS蓝色双箭头压缩标识（by IT之家）" Link="NTFS圧縮の青い矢印を隠す（by IT之家）"/>
+    <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="言語バーのヘルプ ボタンを隠す（by 溯汐潮）"/>
+    <String Target="Windows 7体验" Link="Windows 7体験"/>
     <!--系统优化已经结束-->
 
     <!--Dism++更新程序-->
