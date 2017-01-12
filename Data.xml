@@ -335,14 +335,13 @@
       </Scan>
     </Item>
 
-    <Item Name="#(实验性功能)Installer目录" Level="0">
+    <Item Name="#Installer目录" Level="0">
       <Description>#清理被取代的msp补丁并减少Installer目录的大小。</Description>
       <Warning>#(这是一个实验性功能)清理后将无法卸载被取代的msp更新，如果有卸载更新需求请勿使用此选项。</Warning>
       <Group>#系统相关</Group>
       <ScanCollection>
         <Scan>
           <Applicable>
-            <IsBeta/>
             <FileExist FilePath="%SystemDrive%\Windows\Installer"/>
           </Applicable>
           <Activate>
