@@ -10,7 +10,7 @@ body {
     color: white;
     background-color: rgb(255, 127, 39);
     padding-top: 18vh;
-    text-shadow: 0 0 1px black;
+    //text-shadow: 0 0 1px black;
     font-weight: lighter;
     position: relative;
 }
@@ -104,7 +104,7 @@ body {
 
 .sc0 a {
     text-shadow: 0 0 0 grey;
-    color: dodgerblue;
+    color: rgba(163, 73, 164, 0.9);
     font-weight: bold;
     text-decoration: none;
 }
@@ -240,9 +240,14 @@ body {
     background-color: #61626E;
 }
 
+#icp {
+    float: right;
+}
+
 #copyright {
     /*display: inline-block;*/
     float: right;
+    padding: 0 2rem;
 }
 
 #copyright>* {
