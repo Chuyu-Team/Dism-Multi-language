@@ -11,9 +11,9 @@
         "Update translations(Thanks to franz@drwindows.de, Hexhu, Vasiliy Nasonov)",
         "Update microsoft update database"
     ],
-    "download-x64": "DISM++ 64BIT",
-    "download-x86": "DISM++ 32BIT",
-    "download-aio": "DISM++ FULL(32/64)",
+    "download-x64": "Dism++ 64Bit",
+    "download-x86": "Dism++ 32Bit",
+    "download-aio": "Dism++ Full(32/64)",
     "compability-info": "Compatible with Windows Vista/7/8/8.1/10",
     "about-dismpp-t0": "About Dism++",
     "about-dismpp-t1": "Dism++ can be considered as an GUI version of DISM, but it does not depend on MS DISM, and based directly on the lower-level CBS( Component Based Servicing Reference ).",
@@ -36,5 +36,5 @@
     "text-qqgroup": "QQ Group",
     "text-feedback": "E-mail",
     "text-relatedlink": "Links",
-    "copyright": "2016 Chuyu Team"
+    "copyright": "2017 Chuyu Team"
 }

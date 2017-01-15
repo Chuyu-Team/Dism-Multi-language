@@ -134,7 +134,7 @@ Thanks: WinClub.pl
 	<String Target="无法移动文件 %s，Dism++已回滚对系统的更改。" Link="Plik/i nie mogą być przeniesione, zmiany Dism++ zostaną wycofane."/>
 	
 	<String Target="正在配置WinRE" Link="Konfiguracja WinRE"/>
-	  <String Target="正在进行第 %d 阶段（共 %d ）" Link="Trwa krok %d (całkowiy %d )"/>
+	  <String Target="正在进行第 %d 阶段（共 %d ）" Link="Trwa krok %d (całkowiy %d)"/>
 	  <String Target="格式转换向导" Link="Kreator konwersji"/>
 	<String Target="此功能可以将微软发布的ESD转换为ISO，还支持加密的ESD哦。" Link="Funkcja ta umożliwia konwersję ESD do ISO, oraz posiada wsparcie do deszyfracji ESD."/>
 	<String Target="ESD映像文件" Link="Plik ESD"/>
@@ -354,12 +354,12 @@ Thanks: WinClub.pl
     <String Target="大约压缩38%" Link="Kompresja 38%"/>
     <String Target="大约压缩44%（更小体积）" Link="Kompresja 44%(Mniejszy)"/>
     <String Target="加载WofAdk驱动（可能导致蓝屏！）" Link="Załaduj sterownik WofAdk (ryzyko BSOD!)"/>
-    <String Target="更新差异传输引擎：" Link="Silnik Windows Update:"/>
-    <String Target="关闭" Link="Wy³¹cz"/>
+	  <String Target="更新差异传输引擎：" Link="Silnik Windows Update:"/>
+    <String Target="关闭" Link="Wyłącz"/>
     <String Target="快速" Link="Szybki"/>
-    <String Target="完整" Link="Pe³ny"/>
-
-    <!--Tab-->
+    <String Target="完整" Link="Pełny"/>
+	
+	  <!--Tab-->
 	  <String Target="Dism++正在执行其他任务，你可以稍后打开会话。" Link="Dism++ działa, później otwórz sesje."/>
 	  <String Target="为了优化性能，你需要手动打开会话。" Link="W celu zoptymalizowania wydajności, należy ręcznie otworzyć sesję."/>
 	  <String Target="打开会话" Link="Otwórz sesję"/>
@@ -367,15 +367,15 @@ Thanks: WinClub.pl
 
     <String Target="常用工具" Link="Narzędzia użytkowe"/>
 	    <String Target="空间回收" Link="Oczyszczanie"/>
-	    <String Target="启动项管理" Link="Autostart"/>
-	    <String Target="工具箱" Link="Zestaw narzędzi"/>
-	    <String Target="Appx管理" Link="Zarządzanie Appx"/>
+	  <String Target="启动项管理" Link="Autostart"/>
+	  <String Target="工具箱" Link="Zestaw narzędzi"/>
+	  <String Target="Appx管理" Link="Zarządzanie Appx"/>
   
-  	<String Target="驱动管理" Link="Sterowniki"/>
+  	  <String Target="驱动管理" Link="Sterowniki"/>
 	  <String Target="Windows服务" Link="Usługi"/>
 	  <String Target="Windows功能" Link="Programy i funkcje"/>
 	  <String Target="更新管理" Link="Aktualizacje"/>
-	    <String Target="已安装的更新" Link="Zainstalowane"/>
+	  <String Target="已安装的更新" Link="Zainstalowane"/>
 	  <String Target="可选功能" Link="Odchudzanie systemu"/>
     <String Target="部署功能" Link="Wdrażenie funkcji"/>
 	
@@ -691,8 +691,8 @@ Przykłady:
     <String Target="操作成功，但是导入注册表文件过程遇到一些非致命性错误，具体错误信息请参考 Dism++.log。" Link="Operacja powiodła się. Jednak nie było pewne niezakończony zgonem problem podczas importowania pliku rejestracyjnego. Proszę odnieść się do Dism++. Log o szczegóły"/>
     <String Target="提交规则" Link="Okreœlanie zasad"/>
 
-    <!--Explorer-->
-    <String Target="将任务栏中的Cortana调整为" Link="Cortana na pasku zadań"/>
+    <!--Explorer-->	
+	<String Target="将任务栏中的Cortana调整为" Link="Cortana na pasku zadań"/>
       <String Target="隐藏" Link="Ukryj"/>
       <String Target="仅显示图标" Link="Pokaż tylko ikonę"/>
       <String Target="显示搜索框" Link="Pokaż wyszukiwarkę"/>
@@ -706,7 +706,7 @@ Przykłady:
     
     <String Target="用于内置管理员帐户的管理员批准模式 (by 坏坏小生)" Link="Tryb zatwierdzania przez administratora dla wbudowanego konta administratora (by HuaiHuaiXiaoSheng)"/>
 	
-	  <String Target="隐藏“任务视图”按钮" Link="Ukryj przycisk Zadania"/>
+	<String Target="隐藏“任务视图”按钮" Link="Ukryj przycisk Zadania"/>
 
     <String Target="打开资源管理器时显示此电脑" Link="Wyświetl Mój Komputer zamiast Explorer"/>
 
@@ -1303,20 +1303,20 @@ Komenda:
     <String Target="WinINet Cookies" Link="WinINet Cookies"/>
     <String Target="清理每个用户账户和应用容器下的Windows网络组件（例如IE，Edge）的Cookies（仅支持默认目录）" Link="Oczyść Cookies z elementów WinINet components (I.e. IE, Edge) dla każdego Użytkownika oraz AppContainer (tylko Folder Domyślny)"/>
     
-	  <String Target="最后一次正确配置（by Stanlazy）" Link="Ostatnia poprawna konfiguracja"/>
+	<String Target="最后一次正确配置（by Stanlazy）" Link="Ostatnia poprawna konfiguracja"/>
     <String Target="最近能正常启动计算机的配置备份。" Link="Komputer zostanie uruchomiony z ostatniej poprawnej konfiguracji."/>
-
+ 
     <String Target="传递优化缓存" Link="Optymalizacja Cache"/>
-    <String Target="Win10开始使用传递优化（DeliveryOptimization）服务下载Windows更新和通用应用（UWP）产生的缓存文件" Link="Generowanie plików cache podczas uruchomienia Windows 10 korzystaj¹c z Dostarczania us³ug optymalizacji w celu pobrania aktualizacji systemu Windows i UWP."/>
+    <String Target="Win10开始使用传递优化（DeliveryOptimization）服务下载Windows更新和通用应用（UWP）产生的缓存文件" Link="Generowane pliki cache podczas uruchomienia systemu Windows, pomocne podczas pobierania aktualizacji i UWP."/>
   </StringMaps>
   <MessageTable>
     <x800F0806>Jedna lub więcej aktualizacji jest w toku, proszę wykonać restart i spróbować ponownie.</x800F0806>
     <x800F081F>Dism++ nie może znaleźć źródła instalacji, jeśli trzeba, aby umożliwić NET3.5 Proszę zamontować ISO, a następnie kontynuować. Jeśli potrzebujesz, aby naprawić system Windows, spróbuj opcje - aby ustawić szczegóły lokalnego źródła. jeśli to się nie powiedzie, to zaleca się stosowanie instalaci naprawczej.</x800F081F>
     <x80073703>System operacyjny jest mocno uproszczone, Dism++ nie może kontynuować.</x80073703>
     <x800F0830>System operacyjny jest mocno uproszczone, należy zrezygnować niniejszego systemu, a następnie uruchom ponownie.</x800F0830>
-	  <x800F0825>Próbujesz odinstalować pakiet, który został zainstalowany na komputerze i jest teraz na stałe. W związku z tym, ten pakiet nie może zostać odinstalowany.</x800F0825>
-	  <x800F082E>Określony pakiet nie może być dodany do obrazu w trybie offline.</x800F082E>
-	  <x800F082F>Nie można zakończyć sesji, ponieważ sesja jest aktywna.</x800F082F>
+	<x800F0825>Próbujesz odinstalować pakiet, który został zainstalowany na komputerze i jest teraz na stałe. W związku z tym, ten pakiet nie może zostać odinstalowany.</x800F0825>
+	<x800F082E>Określony pakiet nie może być dodany do obrazu w trybie offline.</x800F082E>
+	<x800F082F>Nie można zakończyć sesji, ponieważ sesja jest aktywna.</x800F082F>
     <x000F0801>Dism++ jest zajęty, prawdopodobnie dlatego, że inne programy są uruchomione. Spróbuj ponownie później.</x000F0801>
 
     <xA0020001>Obsługuje tylko plik ESD Microsoft Online do pliku ISO.</xA0020001>
@@ -1328,7 +1328,7 @@ Komenda:
     <xA0020007>Wymagane CBSHost.dll nie istnieje. Należy zapewnić integralność Dism++.</xA0020007>
     <xA0020008>rundll32.exe brakujący. Dism++ nie można uruchomić.</xA0020008>
     <xA0020009>Awaria ism++ sesji. Sugerują kompresję i wysłać "CBSHost _ *. DMP" do mingkunag@live.com aby móc rozwiązać ten problem.</xA0020009>
-	  <xA002000A>Dism++ wykrył jakiś problem ze zgodnością. Proszę zainstalować poprawkę KB960037, a następnie kontynuować.</xA002000A>
+	<xA002000A>Dism++ wykrył jakiś problem ze zgodnością. Proszę zainstalować poprawkę KB960037, a następnie kontynuować.</xA002000A>
 
     <x20020001>Brak domyślnego pliku konfiguracji skojarzenie w tym obrazie. Nie można wyeksportować.</x20020001>
     <x20020002>Znaleziono znany problem ze zgodnością. Host ten powinien być co najmniej system Windows 8/2012 sobie z tym poradzić. Jeśli będziesz kontynuować praca w starszej wersji, funkcje takie jak otwieranie, zamykanie, dodawanie, usuwanie, aktualizacja może nie działać prawidłowo.</x20020002>
@@ -1359,11 +1359,11 @@ Komenda:
     <xC142010A>Usługa otrzymała info dla pliku, którego nie ma w zamontowanym obrazie. Ta operacja zostanie zignorowana</xC142010A>
     <xC142010B>Próbowano odmontować katalog, który nie jest zamontowany.</xC142010B>
     <xC142010C>Nastąpiła próba edytowania obrazu, który został zamontowany tylko do odczytu.</xC142010C>
-    <xC142010E>Nonexistant katalog montowania zostały podany do procesu ekstrakcji.</xC142010E>
+    <xC142010E>Nonexistant katalog montowania został podany do procesu ekstrakcji.</xC142010E>
     <xC142010F>Nieporawidłowe polecenie przekazane do montowania przez menadzera obrazu. Jest to błąd programowania.</xC142010F>
     <xC1420110>Podany obraz nie był używany do montażu, i nie może być stosowany do odłączania. Połącz WIMUnmountImage z nazwą katalogu montowania i odmontuj obraz.</xC1420110>
     <xC1420111>Dopasowania obrazu podane przez dane podłączenia nie można było znaleźć.</xC1420111>
-    <xC1420112>Obraz nie może być nieoprawiony, ponieważ plik w katalogu głównym jest nadal w użyciu.</xC1420112>
+    <xC1420112>Obraz nie może być naprawiony, ponieważ plik jest używany</xC1420112>
     <xC1420113>Użytkownik próbował zamontować do katalogu, który już zawierał zamontowany obraz. To nie jest obsługiwane.</xC1420113>
     <xC1420114>Użytkownik próbował zamontować do katalogu, który nie jest pusty. To nie jest obsługiwane.</xC1420114>
     <xC1420115>Użytkownik próbował zamontować do katalogu, który nie istnieje. To nie jest obsługiwane.</xC1420115>
@@ -1374,7 +1374,7 @@ Komenda:
     <xC142011A>Minął czas oczekiwania na Imagex podczas inicjacji procesu wimmount.</xC142011A>
     <xC142011B>Wyłączenie usługi wimmount.</xC142011B>
     <xC142011C>Podany katalog nie jest prawidłowo zamontowany.</xC142011C>
-    <xC142011D>Zamontowane obraz nie może być zapisany z powrotem do WIM. Dzieje się tak, gdy obraz został częściowego odmontowany ale jest jeszcze nadal zamontowana. Jeśli obraz był wcześniej poprawnie odmontowany, to operacja może się zakończyć sukcesem.</xC142011D>
+    <xC142011D>Zamontowany obraz nie może być zapisany z powrotem do WIM. Dzieje się tak, gdy obraz został tylko częściowego odmontowany. Jeśli obraz był poprawnie odmontowany operacja zakończy się sukcesem.</xC142011D>
     <xC142011E>Katalog mocowania określonego obrazu uległ zmianie. Wszystkie pliki z tego obrazu zostaną wypakowane.</xC142011E>
     <xC142011F>Ten obszar nie obsługuje punktu ponownej analizy. Proszę zamontować do obszaru, który obsługuje punkty ponownej analizy..</xC142011F>
     <xC1420120>Podany katalog zawiera uszkodzony obraz montowania. Operacji montowania nie można wykonać na tym katalogu.</xC1420120>
