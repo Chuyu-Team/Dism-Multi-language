@@ -56,7 +56,7 @@
       <String Target="引导修复" Link="引導修復"/>
       <String Target="系统备份" Link="系統備份"/>
       <String Target="系统还原" Link="系統還原"/>
-		  <String Target="在RE中运行" Link="在RE中運行"/>
+		  <String Target="在RE中运行" Link="在RE中執行"/>
 		  <String Target="仅启动RE" Link="僅啟動RE"/>
       <String Target="撤销Compact" Link="取消Compact"/>
 
@@ -70,11 +70,11 @@
       <String Target="重启" Link="重新啟動"/>
     <String Target="程序外观" Link="程式外觀"/>
 	
-	  <String Target="帮助(&amp;H)" Link="幫助(&amp;H)"/>
-      <String Target="查看帮助(&amp;V)" Link="查看幫助(&amp;V)"/>
+	  <String Target="帮助(&amp;H)" Link="說明(&amp;H)"/>
+      <String Target="查看帮助(&amp;V)" Link="檢視說明(&amp;V)"/>
 		  <String Target="官方网站(&amp;O)" Link="官方網站(&amp;O)"/>
       <String Target="官方群(&amp;G)" Link="官方群(&amp;G)"/>
-		  <String Target="问题反馈(&amp;B)" Link="問題反饋(&amp;B)"/>
+		  <String Target="问题反馈(&amp;B)" Link="意見反映(&amp;B)"/>
       <String Target="关于Dism++(&amp;A)" Link="關於Dism++(&amp;A)"/>
       <String Target="检查更新(&amp;U)" Link="檢查更新(&amp;U)"/>
     
@@ -1273,10 +1273,10 @@ Command:
     <String Target="先删除全部还原点，再创建一个新的还原点(当系统还原已启用时)" Link="先删除全部還原點，再創建一個新的還原點（當系統還原已啟用時）"/>
     <String Target="清理后将无法使用之前创建的还原点，如果有使用之前的还原点的需求请勿使用此选项。" Link="清理後將無法使用之前創建的還原點，如果有使用之前的還原點的需求請勿使用此選項。"/>
 
-    <String Target="缩略图缓存" Link="縮略圖快取"/>
-    <String Target="缩略图缓存（所有用户）" Link="縮略圖快取（所有用戶）"/>
-    <String Target="缩略图缓存(需重启explorer)" Link="縮略圖快取（需重啓explorer）"/>
-    <String Target="缩略图缓存（当前用户）" Link="縮略圖快取（當前用戶）"/>
+    <String Target="缩略图缓存" Link="縮圖快取"/>
+    <String Target="缩略图缓存（所有用户）" Link="縮圖快取（所有使用者）"/>
+    <String Target="缩略图缓存(需重启explorer)" Link="縮圖快取（需重啓explorer）"/>
+    <String Target="缩略图缓存（当前用户）" Link="縮圖快取（目前使用者）"/>
 
     <String Target="微软系安软无用文件" Link="微軟系安軟無用檔案"/>
     <String Target="该项目清理WD，MSE，SCEP等微软系安软的无用文件" Link="該項目清理WD，MSE，SCEP等微軟系安軟的無用檔案"/>
