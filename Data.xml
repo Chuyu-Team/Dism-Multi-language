@@ -3210,6 +3210,7 @@
       </Applicable>
       <Item Type="CheckBox" Name="#将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）">
         <Applicable>
+          <OSVersion Compare="&lt;=">10.0.10586</OSVersion>
           <Or>
             <RegExist Key="HKEY_CLASSES_ROOT\DesktopBackground\Shell\Display\command" Value="DelegateExecute" Type="REG_SZ" Data="{06622D85-6856-4460-8DE1-A81921B41C4B}"/>
             <RegExist Key="HKEY_CLASSES_ROOT\DesktopBackground\Shell\Display\command" Value="DelegateExecute" Type="REG_SZ" Data="{556FF0D6-A1EE-49E5-9FA4-90AE116AD744}"/>
