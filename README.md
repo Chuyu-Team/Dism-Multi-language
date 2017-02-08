@@ -5,6 +5,9 @@ Dism++ Multi-language Files
 [Data.xml]
 Dism++ Rules file, Provides cleanup and optimization rules.
 
+[Languages/bg.xml]
+Bulgaria Resource
+Thanks to Мартин Тайна
 
 [Languages/cs.xml]
 Czech Resource
