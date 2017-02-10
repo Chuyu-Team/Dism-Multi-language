@@ -1306,10 +1306,10 @@ Command:
     <String Target="最近能正常启动计算机的配置备份。" Link="Sicherung der letzten Konfiguration, mit dem der PC gestartet werden kann."/>
 
     <String Target="传递优化缓存" Link="Speicher der Update-Übermittlungsoptimierung"/>
-    <String Target="Win10开始使用传递优化（DeliveryOptimization）服务下载Windows更新和通用应用（UWP）产生的缓存文件" Link="Gespeicherte Dateien von Windows 10 beim Start der Windows Update-Übermittlungsoptimierung für den Download von Windows Updates &amp; UWP."/>
+    <String Target="Win10开始使用传递优化（DeliveryOptimization）服务下载Windows更新和通用应用（UWP）产生的缓存文件" Link="Gespeicherte Dateien von Windows 10 beim Start der Windows Update-Übermittlungsoptimierung für den Download von Windows Updates und UWP."/>
   </StringMaps>
   <MessageTable>
-    <x800F0806>Ein oder mehrere Updates sind noch ausstehend, um fortzufahren, bitte das Programm neu starten.</x800F0806>
+    <x800F0806>Ein oder mehrere Updates stehen noch aus. Um fortzufahren, bitte das Programm neu starten.</x800F0806>
     <x800F081F>Dism++ kann keine Installationsdateien finden um .NET 3.5 zu nutzen, bitte eine ISO-Datei einbinden und fortfahren. Um Windows zu reparieren bitte diese Funktion nutzen, um die genauen Installationsdateien anzugeben. Misslingt eine Reparatur, wird die Reparaturinstallation empfohlen.</x800F081F>
     <x80073703>Das Betriebssystem wurde zu stark angepasst, Dism++ kann nicht fortfahren.</x80073703>
     <x800F0830>Das Betriebssystem wurde zu stark angepasst, bitte das System verwerfen und neu beginnen.</x800F0830>
