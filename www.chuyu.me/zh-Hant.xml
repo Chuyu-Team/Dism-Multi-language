@@ -29,4 +29,5 @@
   <String Src="%Links%" Dst="友情連結"/>
   <String Src="%WinOS%" Dst="WINOS精簡系統"/>
   <String Src="%ChuyuTream%" Dst="&amp;nbsp;2017&amp;nbsp;初雨團隊"/>
+  <String Src="%ICP%" Dst=""/>
 </Strings>
