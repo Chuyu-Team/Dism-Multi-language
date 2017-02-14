@@ -1,0 +1,325 @@
+﻿@charset "utf-8";
+
+.tab-com {
+	margin: 0 auto 0;
+	border-collapse: collapse;
+	width: 100%
+}
+
+.tab-com TD {
+	padding: 8px 0;
+	text-align: center;
+	border-bottom: 1px solid #E7E7EF;
+	border-right: 10px solid #FFF
+}
+
+.tab-com TD.val {
+	width: 16%
+}
+
+.tab-com TR.titles TD {
+	padding: 5px 0 0;
+	text-align: center;
+	border-bottom: none;
+	font-weight: normal;
+	font-size: 16px
+}
+
+.tab-com TR.titles TD H5 A {
+	font-size: 18px;
+	font-weight: normal;
+	color: #767683
+}
+
+.tab-com TR.titles TD H5 A SPAN {
+	display: block;
+	font-weight: 700;
+	color: #41424E
+}
+
+.tab-com TR.buttons TD {
+	border-bottom: none;
+	padding: 20px 0;
+	vertical-align: top
+}
+
+.tab-com TR.buttons TD .button {
+	width: 80%
+}
+
+.tab-com TR.buttons TD .button SPAN {
+	width: 100%;
+	padding: 16px 0 17px
+}
+
+.tab-com TR.buttons TD .trial {
+	padding-top: 7px;
+	font-size: 14px;
+	font-weight: 400
+}
+
+.tab-com TR.feature TD.txt {
+	text-align: left;
+	font-size: 14px;
+	font-weight: normal
+}
+
+.tab-com TR.feature TD.txt B {
+	display: block;
+	font-size: 16px;
+	font-weight: 700;
+	color: #41424E
+}
+
+.tab-com TR.feature TD.val SPAN {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	text-align: center;
+	zoom: 1;
+	position: relative;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px
+}
+
+.tab-com TR.feature TD.val SPAN B {
+	position: fixed;
+	top: 0;
+	left: 5000px
+}
+
+.tab-com TR.feature TD.val SPAN.yes {
+	background-color: #0087FF
+}
+
+@media only screen and (max-width: 767px) {
+	.tab-com,.tab-com tbody {
+		width: 100% !important
+	}
+
+	.tab-com .titles {
+		border: 0 !important;
+		margin: 0 !important;
+		padding: 0 !important
+	}
+
+	.tab-com .titles td h5 {
+		font-size: 14px
+	}
+
+	.tab-com tr {
+		position: relative !important
+	}
+
+	.tab-com tr:before,.tab-com tr:after {
+		content: "";
+		display: table;
+		line-height: 0
+	}
+
+	.tab-com td {
+		width: 25% !important;
+		float: left !important;
+		border-right: 0 !important
+	}
+
+	.tab-com td.txt {
+		width: 100% !important
+	}
+
+	.tab-com td.txt p {
+		font-size: 12px !important
+	}
+
+	.tab-com td.description {
+		display: none
+	}
+
+	.tab-com .top td h3,.tab-com .txt b {
+		font-size: 14px !important
+	}
+}
+
+.tab-com.ar-table td h2,.tab-com.he-table td h2 {
+	text-align: right
+}
+
+.tab-com.ar-table td h5 span,.tab-com.he-table td h5 span {
+	text-align: center
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1055px),only screen and (max-width: 767px) {
+	#protect .sizer,#slow .sizer,#extras .sizer,#passwords .sizer {
+		/* min-height: auto; */
+		padding: 60px 0
+	}
+}
+
+#top {
+}
+
+#top .absolute-center {
+	text-align: center
+}
+
+#top h1 {
+	padding: 0 0 55px
+}
+
+#top p.subh1 {
+	padding: 0 0 60px
+}
+
+#top a {
+	text-decoration: none;
+	display: block
+}
+
+#top .butt-holder .button {
+	display: inline-block
+}
+
+#top .butt-holder .button span {
+}
+
+#top #logo-win10 p {
+	padding: 30px 0 50px 0;
+    font-size: 24px
+}
+
+#top [class*="span"] {
+	padding: 0
+}
+
+#top [class*="span"] a {
+	padding: 30px 0 0 0
+}
+
+#top [class*="span"] p {
+	max-width: 280px;
+	margin: 0 auto
+}
+
+#top [class*="span"] p span {
+	font-weight: 700;
+	font-size: 22px;
+	display: block
+}[class*="mod-ar"] #top,[class*="mod-en-id"] #top,[class*="mod-en-in"] #top,[class*="mod-en-my"] #top,[class*="mod-en-ph"] #top,[class*="mod-en-sg"] #top,[class*="mod-fa-ir"] #top,[class*="mod-he-il"] #top,[class*="mod-id-id"] #top,[class*="mod-ja-jp"] #top,[class*="mod-ko-kr"] #top,[class*="mod-ms-my"] #top,[class*="mod-ru-ru"] #top,[class*="mod-ru-kz"] #top,[class*="mod-th-th"] #top,[class*="mod-tr-tr"] #top,[class*="mod-zh"] #top {
+}
+
+#extras {
+	background: #da2c2c;
+	background-image: url('../i/index/bg-extras.png'),-webkit-radial-gradient(left top ellipse, #c9335b 0, #da2c2c 100%);
+	background-image: url('../i/index/bg-extras.png'),-moz-radial-gradient(left top ellipse, #c9335b 0, #da2c2c 100%);
+	background-image: url('../i/index/bg-extras.png'),-o-radial-gradient(left top ellipse, #c9335b 0, #da2c2c 100%);
+	background-image: url('../i/index/bg-extras.png'),radial-gradient(ellipse at left top, #c9335b 0, #da2c2c 100%)
+}
+
+#extras h2,#extras h3,#extras p {
+	color: #FFF
+}
+
+#extras h3 {
+	padding: 222px 0 55px 0
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1055px) {
+	#extras h3 {
+		padding: 0
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	#extras h3 {
+		padding: 0
+	}
+}
+
+#extras img.main {
+	max-width: 100%;
+	padding: 200px 0 0 0
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1055px) {
+	#extras img.main {
+		padding: 0
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	#extras img.main {
+		padding: 0;
+		display: block;
+		margin: 0 auto
+	}
+}
+
+#extras .button {
+	margin-bottom: 226px
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1055px),only screen and (max-width: 767px) {
+	#extras .button {
+		margin-bottom: 0
+	}
+}
+
+#features .sizer {
+	padding-bottom: 120px
+}
+
+#features p {
+	color: #767683
+}
+
+#features img {
+	display: block;
+	margin: 0 auto;
+	padding: 0 0 40px 0
+}
+
+[class*="mod-fr"] .tab-com .button.twoline SPAN,[class*="mod-de"] .tab-com .button.twoline SPAN,[class*="mod-es"] .tab-com .button.twoline SPAN,[class*="mod-ru"] .tab-com .button.twoline SPAN {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-moz-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-moz-box-orient: vertical;
+	-moz-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	height: 67px
+}[class*="mod-ar"] #top a,[class*="mod-he"] #top a,[class*="mod-ar"] #top p,[class*="mod-he"] #top p,[class*="mod-ar"] #top span,[class*="mod-he"] #top span {
+	text-align: center
+}[class*="mod-ar"] #extras .button,[class*="mod-he"] #extras .button {
+	float: right
+}[class*="mod-de"] #top h1 {
+	padding: 0 95px 55px 95px
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1055px),only screen and (max-width: 767px) {
+[	class*="mod-de"] #top h1 {
+		padding: 0 0 55px 0
+	}
+}
+
+#top.bg-index-win-768 {
+	/*background-image: url("http://www.deskier.com/d/pc/103/960x600/1354775082617.jpg")*/
+    background-color: rgb(255,127,39);
+}
+
+.button.thin.large SPAN {
+	font-size: 16px;
+	-webkit-box-shadow: 0 0 0 1px #FFF inset;
+	-moz-box-shadow: 0 0 0 1px #FFF inset;
+	box-shadow: 0 0 0 1px #FFF inset
+}

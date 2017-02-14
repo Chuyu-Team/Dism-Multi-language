@@ -1,0 +1,24 @@
+﻿<script language="JavaScript">
+
+var la=(navigator.language || navigator.browserLanguage).toLowerCase();
+
+if(la.indexOf('zh-')==0)
+{
+    switch(la)
+    {
+        case 'zh-cn':
+        case 'zh-sg':
+            la='./zh-Hans';
+            break;
+        default:
+            la='./zh-Hant';
+            break;
+    }
+}
+else if(la.indexOf('ja-')==0)
+    la = './ja';
+else
+    la='./en';
+
+document.location = la;
+</script>
