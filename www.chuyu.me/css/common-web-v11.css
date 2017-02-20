@@ -30,11 +30,9 @@
 
 .button SPAN {
 	margin: 0 auto 0;
-	padding: 14px 20px 12px;
 	display: inline-block;
 	text-align: center;
-	font-weight: 700;
-	/*text-transform: uppercase;*/
+	font-weight: 600;
 	font-size: 15px;
 	line-height: 16px;
 	background-repeat: no-repeat;
@@ -686,10 +684,6 @@ A IMG {
 		display: block;
 		text-align: center;
 		font-size: 15px
-	}
-
-	#bottom-links .internal .navigation .block H4 A {
-		/*text-transform: uppercase*/
 	}
 
 	#bottom-links .internal .navigation .block UL LI {
