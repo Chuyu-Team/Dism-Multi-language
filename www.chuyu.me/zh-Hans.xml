@@ -30,4 +30,5 @@
   <String Src="%WinOS%" Dst="WINOS精简系统"/>
   <String Src="%ChuyuTream%" Dst="&amp;nbsp;2017&amp;nbsp;初雨团队"/>
   <String Src="%ICP%" Dst="&lt;p style=&quot;float: right; margin: 0 2rem;&quot;>浙ICP备17002125&lt;/p>"/>
+  <String Src="%Document%" Dst="Dism++帮助文档"/>
 </Strings>
