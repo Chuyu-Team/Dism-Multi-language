@@ -14,7 +14,7 @@
    “	双引号		&quot;
    
    &#x000D;&#x000A;  回车+换行
-感谢：jamesfuh, 月下独酌
+感谢：翔雲、jamesfuh, 月下独酌
  -->
 <Data>
   <DefaultControl>
@@ -1292,7 +1292,7 @@ Command:
     <String Target="使用Visual Studio所产生的日志" Link="使用Visual Studio所產生的日誌"/>
 
     <String Target="Installer目录" Link="Installer目錄"/>
-    <String Target="这是基本的Installer目录清理功能，类似WICleanup小工具" Link="這是基本的Installer目錄清理功能，類似WICleanup小工具"/>
+    <String Target="(这是一个实验性功能)清理后将无法卸载被取代的msp更新，如果有卸载更新需求请勿使用此选项。" Link="(這是一個實驗性功能)清理後將無法解除安裝被取代的 msp 更新，如果有解除安裝更新需求請勿使用此選項。"/>
 
     <String Target="零售演示离线内容" Link="零售演示離線內容"/>
     <String Target="为Windows10零售演示模式所缓存的离线内容" Link="為Windows10零售演示模式所快取的離線內容"/>
@@ -1308,6 +1308,12 @@ Command:
 
     <String Target="传递优化缓存" Link="傳遞優化緩存"/>
     <String Target="Win10开始使用传递优化（DeliveryOptimization）服务下载Windows更新和通用应用（UWP）产生的缓存文件" Link="Win10開始使用傳遞優化（DeliveryOptimization）服務下載Windows更新和通用應用（UWP）產生的快取檔案。"/>
+
+    <String Target="Appx缓存文件-可解决Appx闪退" Link="Appx 快取檔案-可解決 Appx 閃退"/>
+    <String Target="Appx运行时产生的缓存文件，当应用闪退时可尝试清理此选项，可解决大多数闪退问题。" Link="Appx 執行時產生的快取檔案，當程式閃退時可嘗試清理此選項，可解決大多數閃退問題。"/>
+
+    <String Target="英伟达驱动安装包（by Ailick）" Link="Nvidia 驅動安裝程式（by Ailick）"/>
+    <String Target="Nvidia Geforce Experience更新程序时产生的安装包。" Link="Nvidia Geforce Experience 更新程式時產生的安裝包。"/>
   </StringMaps>
   <MessageTable>
     <x800F0806>一個或多個更新執行中，請重啟後繼續。</x800F0806>

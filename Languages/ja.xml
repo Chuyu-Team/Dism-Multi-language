@@ -1292,7 +1292,7 @@ Examples:
     <String Target="使用Visual Studio所产生的日志" Link="Visual Studio 関するのログ ファイル"/>
 
     <String Target="Installer目录" Link="Installer フォルダー"/>
-    <String Target="这是基本的Installer目录清理功能，类似WICleanup小工具" Link="Installer フォルダーをクリーンアップの機能、WICleanup 同じようなのツール。"/>
+    <String Target="(这是一个实验性功能)清理后将无法卸载被取代的msp更新，如果有卸载更新需求请勿使用此选项。" Link="（試験性機能）クリーンアップされて、置換された msp 更新はアンインストールできません、更新アンインストール必要ために、選択不要ください。"/>
 
     <String Target="零售演示离线内容" Link="汎用小売りデモ コンテンツ"/>
     <String Target="为Windows10零售演示模式所缓存的离线内容" Link="デバイスが市販デモ モードの間、市販デモ サービスによってデバイスの動作が制御されます。"/>
@@ -1308,6 +1308,12 @@ Examples:
     
     <String Target="传递优化缓存" Link="配信の最適化ファイル"/>
     <String Target="Win10开始使用传递优化（DeliveryOptimization）服务下载Windows更新和通用应用（UWP）产生的缓存文件" Link="Windows 10 は更新および UWP をダウンロードで配信の最適化（DeliveryOptimization）サービスを利用する、これは一時ファイルです。"/>
+
+    <String Target="Appx缓存文件-可解决Appx闪退" Link="Appx キャッシュ - ストア アプリ起動不能を解決する"/>
+    <String Target="Appx运行时产生的缓存文件，当应用闪退时可尝试清理此选项，可解决大多数闪退问题。" Link="ストア アプリのキャッシュ ファイルです、ストア アプリ起動不能の場合は、これキャッシュをクリーンアップし、解決可能性があります。"/>
+
+    <String Target="英伟达驱动安装包（by Ailick）" Link="Nvidia ドライバーのインストール パッケージ（by Ailick）"/>
+    <String Target="Nvidia Geforce Experience更新程序时产生的安装包。" Link="Nvidia Geforce Experience 更新時自動的に生成のインストール パッケージ。"/>
   </StringMaps>
   <MessageTable>
     <x800F0806>1 つ以上の更新待ち、再起動後に続行してください。</x800F0806>
