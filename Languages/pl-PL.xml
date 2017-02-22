@@ -12,7 +12,7 @@ There are 5 special symbols need special representation in XML.
    ‘       Single quotation marks		&apos;
    “       Double quotation marks		&quot;  
 
-Thanks: WinClub.pl
+Thanks: WinClub.pl(romuald68@gmail.com)
  -->
 <Data>
   <DefaultControl>
@@ -1292,7 +1292,7 @@ Komenda:
     <String Target="使用Visual Studio所产生的日志" Link="Pliki log Visual Studio's"/>
 
     <String Target="Installer目录" Link="Folder instalacyjny"/>
-    <String Target="这是基本的Installer目录清理功能，类似WICleanup小工具" Link="Jest to podstawowa funkcja czyszczenia folderu Installer, podobnie jak WICleanup Tool"/>
+    <String Target="(这是一个实验性功能)清理后将无法卸载被取代的msp更新，如果有卸载更新需求请勿使用此选项。" Link="(Eksperymentalne) Po czyszczeniu zastąpionych aktualizacji MSP nie będzie można ich odinstalować. Jeśli konieczne będze odinstalowanie aktualizacji proszę nie korzystać z tej opcji."/>
 
     <String Target="零售演示离线内容" Link="Zawartość offline Retail Demo"/>
     <String Target="为Windows10零售演示模式所缓存的离线内容" Link="Nieaktywna tymczasowa Pomoc dla Windows 10 w trybie demonstracyjnym"/>
@@ -1303,11 +1303,17 @@ Komenda:
     <String Target="WinINet Cookies" Link="WinINet Cookies"/>
     <String Target="清理每个用户账户和应用容器下的Windows网络组件（例如IE，Edge）的Cookies（仅支持默认目录）" Link="Oczyść Cookies z elementów WinINet components (I.e. IE, Edge) dla każdego Użytkownika oraz AppContainer (tylko Folder Domyślny)"/>
     
-	<String Target="最后一次正确配置（by Stanlazy）" Link="Ostatnia poprawna konfiguracja"/>
+	  <String Target="最后一次正确配置（by Stanlazy）" Link="Ostatnia poprawna konfiguracja"/>
     <String Target="最近能正常启动计算机的配置备份。" Link="Komputer zostanie uruchomiony z ostatniej poprawnej konfiguracji."/>
  
     <String Target="传递优化缓存" Link="Optymalizacja Cache"/>
     <String Target="Win10开始使用传递优化（DeliveryOptimization）服务下载Windows更新和通用应用（UWP）产生的缓存文件" Link="Generowane pliki cache podczas uruchomienia systemu Windows, pomocne podczas pobierania aktualizacji i UWP."/>
+
+    <String Target="Appx缓存文件-可解决Appx闪退" Link="Pliki cache Appx - Napraw crash'e Appx"/>
+    <String Target="Appx运行时产生的缓存文件，当应用闪退时可尝试清理此选项，可解决大多数闪退问题。" Link="Wykonywalne pliki cache Appx. Jeśli są jakieś kopie, możemy spróbować je wyczyścić. W wielu przypadkach problem może być rozwiązany."/>
+
+    <String Target="英伟达驱动安装包（by Ailick）" Link="Pakiet instalacyjny sterownika nVidia (by Ailick)"/>
+    <String Target="Nvidia Geforce Experience更新程序时产生的安装包。" Link="NVIDIA GeForce Experience generuje ten pakiet instalacyjny przy aktualizacji programów."/>
   </StringMaps>
   <MessageTable>
     <x800F0806>Jedna lub więcej aktualizacji jest w toku, proszę wykonać restart i spróbować ponownie.</x800F0806>

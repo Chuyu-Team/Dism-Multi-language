@@ -13,7 +13,7 @@ There are 5 special symbols need special representation in XML.
    ‘       Single quotation marks		&apos;
    “       Double quotation marks		&quot;  
 
-Special Thanks to JP.Sudret
+Special Thanks to JP.Sudrets(jp.sudret@wanadoo.fr)
  -->
 <Data>
   <DefaultControl>
@@ -1294,7 +1294,7 @@ Command:
     <String Target="使用Visual Studio所产生的日志" Link="Les fichiers journaux (LOG) de Visual Studio"/>
 
     <String Target="Installer目录" Link="Dossier d'installation"/>
-    <String Target="这是基本的Installer目录清理功能，类似WICleanup小工具" Link="Sa fonctionnalité de base permet le nettoyage des dossiers d'installation , semblable à l'outil de nettoyage WICleanup"/>
+    <String Target="(这是一个实验性功能)清理后将无法卸载被取代的msp更新，如果有卸载更新需求请勿使用此选项。" Link="(Expérimental) Après le nettoyage, les mises à jour msp remplacées ne peuvent pas être désinstallées. Si vous avez besoin de désinstaller les mises à jour, n'utilisez pas cette option."/>
 
     <String Target="零售演示离线内容" Link="Contenu en ligne de version Retail en Démo"/>
     <String Target="为Windows10零售演示模式所缓存的离线内容" Link="Il contient le contenu temporaire hors ligne de Windows 10 Retail en Mode Démo"/>
@@ -1310,6 +1310,12 @@ Command:
 
     <String Target="传递优化缓存" Link="Cache d'Optimisation de la Distribution"/>
     <String Target="Win10开始使用传递优化（DeliveryOptimization）服务下载Windows更新和通用应用（UWP）产生的缓存文件" Link="Fichiers cache générés lorsque Windows 10 commence à utiliser le service d'Optimisation de la Distribution pour télécharger les mises à jour Windows et UWP."/>
+
+    <String Target="Appx缓存文件-可解决Appx闪退" Link="Fichiers cache Appx - Résoud incidents Appx"/>
+    <String Target="Appx运行时产生的缓存文件，当应用闪退时可尝试清理此选项，可解决大多数闪退问题。" Link="Fichiers cache d'exécution Appx. Si retours en arrière Appx , vous pouvez essayer de les nettoyer. Dans la plupart des cas, les problèmes peuvent être résolus."/>
+
+    <String Target="英伟达驱动安装包（by Ailick）" Link="package d'installation du pilote nVidia (par Ailick)"/>
+    <String Target="Nvidia Geforce Experience更新程序时产生的安装包。" Link="nVidia Geforce Expérience génère ce package d'installation lors de la mise à jour des programmes."/>
   </StringMaps>
   <MessageTable>
     <x800F0806>One or more updates are pending, please restart and then continue.</x800F0806>
