@@ -12,7 +12,7 @@ There are 5 special symbols need special representation in XML.
    ‘       Single quotation marks		&apos;
    “       Double quotation marks		&quot;  
 
-Special Thanks to Richard Kahl
+Special Thanks to Richard Kahl(Richard.Kahl@seznam.cz)
  -->
 <Data>
   <DefaultControl>
@@ -1292,7 +1292,7 @@ Command:
     <String Target="使用Visual Studio所产生的日志" Link="Visual Studio soubory logu "/>
 
     <String Target="Installer目录" Link="Instalační Složky"/>
-    <String Target="这是基本的Installer目录清理功能，类似WICleanup小工具" Link="Funkce čištění hlavní složky instalátoru, jako nástroj WICleanup"/>
+    <String Target="(这是一个实验性功能)清理后将无法卸载被取代的msp更新，如果有卸载更新需求请勿使用此选项。" Link="(Experimentální) Po čištění, nahrazené msp aktualizace nelze odinstalovat. Pokud potřebujete odinstalovat aktualizace, prosím nepoužívejte tuto možnost."/>
 
     <String Target="零售演示离线内容" Link="Obsah Offline Retail Demo Windows 10"/>
     <String Target="为Windows10零售演示模式所缓存的离线内容" Link="Dočasně offline obsah pro Windows 10 Retail Demo Mód"/>
@@ -1308,6 +1308,12 @@ Command:
 
     <String Target="传递优化缓存" Link="Doručená optimalizace Cache"/>
     <String Target="Win10开始使用传递优化（DeliveryOptimization）服务下载Windows更新和通用应用（UWP）产生的缓存文件" Link="Ukládat do mezipaměti soubory, které jsou generovány po spuštění Windows 10  pomocí služby optimalizace aktualizací systému Windows a UWP."/>
+    
+    <String Target="Appx缓存文件-可解决Appx闪退" Link="Soubory cache Appx - Fix Appx  Havárii"/>
+    <String Target="Appx运行时产生的缓存文件，当应用闪退时可尝试清理此选项，可解决大多数闪退问题。" Link="Spustitelné soubory, cache Appx. Pokud máte nějaké kopie, můžete se pokusit je čistit. V mnoha případech může být problém vyřešen."/>
+
+    <String Target="英伟达驱动安装包（by Ailick）" Link="Instalace ovladače nVidia (o Ailick)"/>
+    <String Target="Nvidia Geforce Experience更新程序时产生的安装包。" Link="NVIDIA GeForce Experience vygeneruje tento instalační balíček při aktualizaci programu."/>
   </StringMaps>
   <MessageTable>
     <x800F0806>Probíhá jedna nebo více aktualizací, restartujte a potom pokračujte.</x800F0806>
