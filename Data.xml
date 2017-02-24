@@ -61,23 +61,25 @@
             <Query>Config*</Query>
             <Excluded>Config.ini</Excluded>
           </General>
-
-          <General RootPath="%0%Config\amd64\BCDBoot"/>
-          <General RootPath="%0%Config\x86\BCDBoot"/>
-          <General RootPath="%0%Config\amd64\Dism"/>
-          <General RootPath="%0%Config\x86\Dism"/>
-          <General RootPath="%0%Config\amd64\nativedism.exe"/>
-          <General RootPath="%0%Config\x86\nativedism.exe"/>
-          <General RootPath="%0%Config\amd64\Plug-in"/>
-          <General RootPath="%0%Config\x86\Plug-in"/>
+          <General RootPath="%0%Config\amd64">
+            <Query>BCDBoot</Query>
+            <Query>DuiLib.dll</Query>
+            <Query>Plug-in</Query>
+            <Query>nativedism.exe</Query>
+            <Query>Dism</Query>
+          </General>
+          <General RootPath="%0%Config\x86">
+            <Query>BCDBoot</Query>
+            <Query>DuiLib.dll</Query>
+            <Query>Plug-in</Query>
+            <Query>nativedism.exe</Query>
+            <Query>Dism</Query>
+          </General>
           <General RootPath="%0%Config\Languages">
             <Excluded>?GetLocaleName().xml</Excluded>
           </General>
           <General RootPath="%0%Config\Plugins" Flags="Directory">
             <Query>{*}</Query>
-          </General>
-          <General RootPath="%0%Config\Config*">
-            <Excluded>Config.ini</Excluded>
           </General>
           <General RootPath="%0%">
             <Query>*.dmp</Query>
@@ -5465,6 +5467,26 @@
         </System>
       </Item>
 
+      <Item Type="CheckBox" Name="#Windows更新不包括恶意软件删除工具（by ‍Winaero）">
+        <System>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MRT" Value="DontOfferThroughWUAU" Type="REG_DWORD" Data="1"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MRT" Value="DontOfferThroughWUAU" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MRT" Value="DontOfferThroughWUAU"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
+      
       <Item Type="Combo" Name="#*将Windows Update自动更新调整为">
         <Applicable>
           <OSVersion Compare="&lt;">6.4</OSVersion>
@@ -6423,6 +6445,26 @@
           <False>
             <Activate>
               <RegDelete Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Error Reporting" Value="Disabled"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
+
+      <Item Type="CheckBox" Name="#禁用组件堆栈（Component Based Servicing）文件备份">
+        <System>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\SideBySide\Configuration" Value="DisableComponentBackups" Type="REG_DWORD" Data="1"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\SideBySide\Configuration" Value="DisableComponentBackups" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\SideBySide\Configuration" Value="DisableComponentBackups"/>
             </Activate>
           </False>
         </System>
