@@ -12,7 +12,7 @@ There are 5 special symbols need special representation in XML.
    ‘       Single quotation marks		&apos;
    “       Double quotation marks		&quot;
 
-Thanks: 4epHRk, Vasiliy Nasonov, virus, Vladimir, ZT
+Thanks: Vasiliy Nasonov, 4epHRk, virus, Vladimir, ZT
  -->
 
 <Data>
@@ -1293,7 +1293,7 @@ Compact支持命令：
     <String Target="使用Visual Studio所产生的日志" Link="Журналы, создаваемые во время работы Visual Studio."/>
 
     <String Target="Installer目录" Link="Папка установщика"/>
-    <String Target="这是基本的Installer目录清理功能，类似WICleanup小工具" Link="Функция очистки основной папки установщика, похоже на инструмент WICleanup."/>
+    <String Target="(这是一个实验性功能)清理后将无法卸载被取代的msp更新，如果有卸载更新需求请勿使用此选项。" Link="(Экспериментально) После очистки замененные msp-обновления не могут быть удалены. Если Вам, возможно, потребуется удалить обновления - не используйте данную опцию."/>
 
     <String Target="零售演示离线内容" Link="Офлайн содержимое retail-демоверсии Windows 10"/>
     <String Target="为Windows10零售演示模式所缓存的离线内容" Link="Временное автономное содержимое для Windows 10 Retail в демо-режиме."/>
@@ -1309,6 +1309,12 @@ Compact支持命令：
 
     <String Target="传递优化缓存" Link="Кэш оптимизации доставки"/>
     <String Target="Win10开始使用传递优化（DeliveryOptimization）服务下载Windows更新和通用应用（UWP）产生的缓存文件" Link="Кэш-файлы, генерируемые, когда Windows 10 начинает использовать службу оптимизации доставки обновлений для их загрузки и UWP."/>
+    
+    <String Target="Appx缓存文件-可解决Appx闪退" Link="Appx кэш-файлы - Исправление падения Appx"/>
+    <String Target="Appx运行时产生的缓存文件，当应用闪退时可尝试清理此选项，可解决大多数闪退问题。" Link="Кэш-файлы, генеририруемые во время выполнения Appx. Если Appx завершает работу, Вы можете попробовать очистить их. В большинстве случаев проблема может быть исправлена."/>
+
+    <String Target="英伟达驱动安装包（by Ailick）" Link="Пакет установки драйвера nVidia (by Ailick)"/>
+    <String Target="Nvidia Geforce Experience更新程序时产生的安装包。" Link="nVidia Geforce Experience генерирует этот пакет установки при обновлении программ."/>
   </StringMaps>
   <MessageTable>
     <x800F0806>Одно или несколько обновлений ожидает установки. Перезапустите компьютер для продолжения.</x800F0806>

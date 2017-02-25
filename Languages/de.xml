@@ -1291,7 +1291,7 @@ Command:
     <String Target="使用Visual Studio所产生的日志" Link="Visual Studios Log-Dateien"/>
 
     <String Target="Installer目录" Link="Installer Folder"/>
-    <String Target="这是基本的Installer目录清理功能，类似WICleanup小工具" Link="Einfaches Feature zum Löschen von Installationsverzeichnissen, ähnlich dem WICleanup Tool"/>
+    <String Target="(这是一个实验性功能)清理后将无法卸载被取代的msp更新，如果有卸载更新需求请勿使用此选项。" Link="(Experimentell) Nach der Bereinigung können erneuerte MSP (Windows Installer Patch) Updates nicht mehr deinstalliert werden. Falls Updates deinstalliert werden müssen, diese Option bitte nicht nutzen."/>
 
     <String Target="零售演示离线内容" Link="Retail Demo Offline Inhalte"/>
     <String Target="为Windows10零售演示模式所缓存的离线内容" Link="Das Verzeichnis enthält temporäre Dateien des Windows 10 Demo-Modus"/>
@@ -1307,6 +1307,12 @@ Command:
 
     <String Target="传递优化缓存" Link="Speicher der Update-Übermittlungsoptimierung"/>
     <String Target="Win10开始使用传递优化（DeliveryOptimization）服务下载Windows更新和通用应用（UWP）产生的缓存文件" Link="Gespeicherte Dateien von Windows 10 beim Start der Windows Update-Übermittlungsoptimierung für den Download von Windows Updates und UWP."/>
+    
+    <String Target="Appx缓存文件-可解决Appx闪退" Link="Appx Speicherdateien -  Appx Crash Reparatur"/>
+    <String Target="Appx运行时产生的缓存文件，当应用闪退时可尝试清理此选项，可解决大多数闪退问题。" Link="Speicherdateien der Appx Runtimes. Werden App-Dateien zurückgesetzt, können die meisten Probleme durch das Löschen dieser Dateien gelöst werden."/>
+
+    <String Target="英伟达驱动安装包（by Ailick）" Link="nVidia Treiber Installationspaket (by Ailick)"/>
+    <String Target="Nvidia Geforce Experience更新程序时产生的安装包。" Link="nVidia Geforce Experience erstellt dieses Installationspaket bei Programm-Updates."/>
   </StringMaps>
   <MessageTable>
     <x800F0806>Ein oder mehrere Updates stehen noch aus. Um fortzufahren, bitte das Programm neu starten.</x800F0806>
