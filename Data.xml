@@ -3289,6 +3289,31 @@
           </False>
         </System>
       </Item>
+
+      <Item Type="CheckBox" Name="#将“右键菜单”调整为Windows 7模式（by Silence）">
+        <Applicable>
+          <OSVersion Compare=">=">10.0.14393</OSVersion>
+        </Applicable>
+        <System>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\FlightedFeatures" Value="ImmersiveContextMenu" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\FlightedFeatures" Value="ImmersiveContextMenu" Type="REG_DWORD" Data="0"/>
+              <ExplorerNotify Type="Restart"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\FlightedFeatures" Value="ImmersiveContextMenu"/>
+              <ExplorerNotify Type="Restart"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
     </Group>
     
     <Group Name="#桌面图标管理">
