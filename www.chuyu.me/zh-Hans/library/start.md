@@ -43,8 +43,6 @@ Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更
 |Config\x86\bcdboot.exe|提供引导修复功能，原版系统自带此文件，删除没有影响。原版系统用户以及64位系统用户可以删除此文件。
 |Config\amd64\CBSHost.dll|Dism++API支持模块，删除后64位系统将无法使用Dism++。32位用户可以删除此文件。
 |Config\x86\CBSHost.dll|Dism++API支持模块，删除后32位系统将无法使用Dism++，64位系统无法脱机处理32位系统。不需要脱机处理32位系统的64位用户可以考虑删除。
-|Config\amd64\DuiLib.dll|Duilib支持库，为Dism++x64.exe提供UI支持。32位用户可以删除此文件。
-|Config\x86\DuiLib.dll|Duilib支持库，为Dism++x86.exe提供UI支持。64位用户可以删除此文件。
 |Config\amd64\NCleaner.dll|64位NCleaner清理引擎，缺少此文件后某些高级清理功能将无法使用，32位用户可以考虑删除此文件。
 |Config\x86\NCleaner.dl|32位NCleaner清理引擎，缺少此文件后某些高级清理功能将无法使用，64位用户可以考虑删除此文件。
 |Config\amd64\wimgapi.dll|WIM文件操作支持模块，Win10用户、32位用户或者不需要任何WIM相关功能的用户，那么可以考虑删除。
