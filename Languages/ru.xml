@@ -354,7 +354,7 @@ Thanks: Vasiliy Nasonov, 4epHRk, virus, Vladimir, ZT
     <String Target="大约压缩38%" Link="Сжатие 38%"/>
     <String Target="大约压缩44%（更小体积）" Link="Сжатие 44% (меньший размер)"/>
     <String Target="加载WofAdk驱动（可能导致蓝屏！）" Link="Загрузить WofAdk драйвер (может вызвать BSOD!)"/>
-    <String Target="更新差异传输引擎：" Link="Сравнениеобновлений:"/>
+    <String Target="更新差异传输引擎：" Link="Сравнение обновлений:"/>
     <String Target="关闭" Link="Выключено"/>
     <String Target="快速" Link="Быстрое"/>
     <String Target="完整" Link="Полное"/>
