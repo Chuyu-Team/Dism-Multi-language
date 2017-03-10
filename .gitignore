@@ -1,2 +1,7 @@
 chuyu-analysis/*.sql
 chuyu-analysis/config.php
+*.opendb
+/RCMake/Debug
+/Debug
+*.db
+*.ipch
