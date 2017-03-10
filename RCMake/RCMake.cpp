@@ -17,21 +17,32 @@ DWORD Alignment(DWORD Size,DWORD dwAlignment)
 	}
 }
 
+struct STRINGRESOURCEIMAGE
+{
+	WORD nLength;
+	WCHAR achString[];
+};
+
+
 #define PEFileAlignment 0x200
 #define PESectionAlignment 0x00001000
 
 BOOL BuildMessageTable(std::map<DWORD, rapidxml::xml_node<wchar_t>*>& MessageTableMap, CStringA& RsrcData, DWORD EntryIndex);
+BOOL BuildStringTable(std::map<WORD, rapidxml::xml_attribute<wchar_t>*>& StringTableMap, CStringA& RsrcData, DWORD EntryIndex);
 
 int _tmain(int argc, _TCHAR* argv[])
 {
 #ifdef _DEBUG
 	auto hFile = CreateFile(/*L"C:\\Windows\\SysWOW64\\zh-CN\\wimgapi.dll.mui"*/
 		L"F:\\用户数据\\桌面\\Dism++10.1.17.5B\\Config\\Languages\\zh-Hans.dll", GENERIC_READ, FILE_SHARE_READ|FILE_SHARE_DELETE, NULL, OPEN_EXISTING, 0, 0);
-	auto cdFile= GetFileSize(hFile, NULL);
-	auto pData = new byte[cdFile];
+	if (hFile != INVALID_HANDLE_VALUE)
+	{
+		auto cdFile = GetFileSize(hFile, NULL);
+		auto pData = new byte[cdFile];
 
-	ReadFile(hFile, pData, cdFile, &cdFile, NULL);
-	CloseHandle(hFile);
+		ReadFile(hFile, pData, cdFile, &cdFile, NULL);
+		CloseHandle(hFile);
+	}
 #endif
 	--argc;
 	++argv;
@@ -85,13 +96,16 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	//建立字符串缓存
 	std::map<WORD, rapidxml::xml_attribute<wchar_t>*> StringTableMap;
-	for (auto pStringMaps=pXMLData->first_node(L"StringMaps",StaticStrLen(L"StringMaps")); pStringMaps; pStringMaps= pStringMaps->next_sibling(L"StringMaps", StaticStrLen(L"StringMaps")))
+	if (auto pStringMaps = pXMLData->first_node(L"StringMaps", StaticStrLen(L"StringMaps")))
 	{
-		auto pLink = pStringMaps->first_attribute(L"Link", StaticStrLen(L"Link"));
-		if (!pLink)
-			continue;
+		for (auto pString = pStringMaps->first_node(L"String", StaticStrLen(L"String")); pString; pString = pString->next_sibling(L"String", StaticStrLen(L"String")))
+		{
+			auto pLink = pString->first_attribute(L"Link", StaticStrLen(L"Link"));
+			if (!pLink)
+				continue;
 
-		StringTableMap.insert(std::pair<const WORD, rapidxml::xml_attribute<wchar_t>*>(StringTableMap.size(), pLink));
+			StringTableMap.insert(std::pair<const WORD, rapidxml::xml_attribute<wchar_t>*>(StringTableMap.size(), pLink));
+		}
 	}
 
 	//建立消息表缓存
@@ -125,8 +139,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	pResourceDir->NumberOfIdEntries = NumberOfIdEntries;
 	//DWORD LastDataOffset = sizeof(IMAGE_RESOURCE_DIRECTORY) + sizeof(IMAGE_RESOURCE_DIRECTORY_ENTRY);
 
+	BuildStringTable(StringTableMap, RsrcData,0);
+
 	//构建消息表
-	BuildMessageTable(MessageTableMap, RsrcData, 0);
+	BuildMessageTable(MessageTableMap, RsrcData, 1);
 
 
 	//更新文件头
@@ -176,6 +192,106 @@ BOOL BuildStringTable(std::map<WORD, rapidxml::xml_attribute<wchar_t>*>& StringT
 	pResourceDirEntry->OffsetToDirectory = Length;
 	pResourceDirEntry->DataIsDirectory = 1;
 
+
+	auto pResourceDir = (IMAGE_RESOURCE_DIRECTORY*)(RsrcData.GetBufferSetLength(Length + sizeof(IMAGE_RESOURCE_DIRECTORY)) + Length);
+	Length = RsrcData.GetLength();
+
+	pResourceDir->Characteristics = 0;
+	pResourceDir->MajorVersion = 0;
+	pResourceDir->MinorVersion = 0;
+	pResourceDir->TimeDateStamp = 0;
+	pResourceDir->NumberOfNamedEntries = 0;
+
+
+	CStringA StringResourceEntry;
+	DWORD NumberOfIdEntries = 0;
+
+	for (auto pString = StringTableMap.begin();pString != StringTableMap.end();)
+	{
+		++NumberOfIdEntries;
+
+		auto cbStringResourceEntry = StringResourceEntry.GetLength();
+
+		//插入ID节
+		auto pResourceDirEntry = (IMAGE_RESOURCE_DIRECTORY_ENTRY*)(RsrcData.GetBufferSetLength(Length + sizeof(IMAGE_RESOURCE_DIRECTORY_ENTRY)) + Length);
+		Length = RsrcData.GetLength();
+		pResourceDirEntry->Name = (pString->first >> 4) + 1;
+		pResourceDirEntry->OffsetToDirectory = cbStringResourceEntry;
+		pResourceDirEntry->DataIsDirectory = 1;
+
+
+		
+		//插入语言节点
+		auto pResourceDirEntrLanguage = (IMAGE_RESOURCE_DIRECTORY*)(StringResourceEntry.GetBufferSetLength(cbStringResourceEntry + sizeof(IMAGE_RESOURCE_DIRECTORY) + sizeof(IMAGE_RESOURCE_DIRECTORY_ENTRY)) + cbStringResourceEntry);
+		cbStringResourceEntry = StringResourceEntry.GetLength();
+
+		pResourceDirEntrLanguage->Characteristics = 0;
+		pResourceDirEntrLanguage->MajorVersion = 0;
+		pResourceDirEntrLanguage->MinorVersion = 0;
+		pResourceDirEntrLanguage->TimeDateStamp = 0;
+		pResourceDirEntrLanguage->NumberOfNamedEntries = 0;
+		pResourceDirEntrLanguage->NumberOfIdEntries = 1;
+
+
+		auto pResourceDirEntryLanguage = (IMAGE_RESOURCE_DIRECTORY_ENTRY*)((byte*)pResourceDirEntrLanguage + sizeof(*pResourceDirEntrLanguage));
+
+		//暂时显示指定为中国
+		pResourceDirEntryLanguage->Name = 0x0804;
+		pResourceDirEntryLanguage->OffsetToData = cbStringResourceEntry;
+
+
+		//插入数据节点
+		auto pDataEntry = (IMAGE_RESOURCE_DATA_ENTRY*)(StringResourceEntry.GetBufferSetLength(cbStringResourceEntry + sizeof(IMAGE_RESOURCE_DATA_ENTRY)) + cbStringResourceEntry);
+		cbStringResourceEntry = StringResourceEntry.GetLength();
+		pDataEntry->OffsetToData = 0x1000 + cbStringResourceEntry;
+		pDataEntry->CodePage = 0;
+		pDataEntry->Reserved = 0;
+
+
+		CStringA Strings;
+		auto cbStrings = Strings.GetLength();
+
+		for (;;)
+		{
+			auto pStringImage= (STRINGRESOURCEIMAGE*)(Strings.GetBufferSetLength(cbStrings + sizeof(STRINGRESOURCEIMAGE) + (pString->second->value_size() + 1)*sizeof(wchar_t)) + cbStrings);
+			cbStrings= Strings.GetLength();
+
+			pStringImage->nLength = pString->second->value_size() + 1;
+			memcpy(pStringImage->achString, pString->second->value(), pStringImage->nLength*sizeof(wchar_t));
+
+			++pString;
+
+			if (pString == StringTableMap.end())
+				break;
+
+			if (pResourceDirEntry->Id != (pString->first >> 4) + 1)
+				break;
+		}
+
+		pDataEntry->Size = cbStrings;
+
+		memcpy(StringResourceEntry.GetBufferSetLength(cbStringResourceEntry + cbStrings) + cbStringResourceEntry, Strings, cbStrings);
+	}
+
+
+	//拼接数据
+	pResourceDirEntry = (IMAGE_RESOURCE_DIRECTORY_ENTRY*)(RsrcData.GetBuffer() + sizeof(IMAGE_RESOURCE_DIRECTORY)) + EntryIndex;
+	pResourceDir = (IMAGE_RESOURCE_DIRECTORY*)(RsrcData.GetBuffer() + pResourceDirEntry->OffsetToDirectory);
+	pResourceDir->NumberOfIdEntries = NumberOfIdEntries;
+
+	for (DWORD i = 0;i != NumberOfIdEntries;++i)
+	{
+		auto pResourceDirEntry = (IMAGE_RESOURCE_DIRECTORY_ENTRY*)((byte*)pResourceDir + sizeof(*pResourceDir) + i*sizeof(IMAGE_RESOURCE_DIRECTORY_ENTRY));
+
+		auto pResourceDirEntryLanguage = (IMAGE_RESOURCE_DIRECTORY_ENTRY*)(StringResourceEntry.GetBuffer() + pResourceDirEntry->OffsetToDirectory+sizeof(IMAGE_RESOURCE_DIRECTORY));
+		auto pDataEntry = (IMAGE_RESOURCE_DATA_ENTRY*)(StringResourceEntry.GetBuffer() + pResourceDirEntryLanguage->OffsetToData);
+
+		pDataEntry->OffsetToData += Length;
+		pResourceDirEntryLanguage->OffsetToData += Length;
+		pResourceDirEntry->OffsetToDirectory += Length;
+	}
+
+	memcpy(RsrcData.GetBufferSetLength(Length + StringResourceEntry.GetLength()) + Length, StringResourceEntry, StringResourceEntry.GetLength());
 
 	return TRUE;
 }
@@ -275,7 +391,7 @@ BOOL BuildMessageTable(std::map<DWORD, rapidxml::xml_node<wchar_t>*>& MessageTab
 		}
 		--(pBlock->HighId);
 	}
-
+	pDataEntry->Size = MessageResourceData.GetLength() + MessageResourceEntry.GetLength();
 	//修正偏移
 	for (int i = 0; i != pData->NumberOfBlocks; ++i)
 	{
