@@ -5,13 +5,3 @@ chuyu-analysis/config.php
 /Debug
 *.db
 *.ipch
-*.suo
-*.suo
-*.user
-/www.chuyu.me/zh-Hans/index.html
-/www.chuyu.me/zh-Hant/index.html
-*.db-shm
-*.db-wal
-/.vs/Languages/v15
-/www.chuyu.me/en/index.html
-/www.chuyu.me/ja/index.html

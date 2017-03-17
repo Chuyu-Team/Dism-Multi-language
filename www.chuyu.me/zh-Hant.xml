@@ -30,5 +30,5 @@
   <String Src="%WinOS%" Dst="WINOS精簡系統"/>
   <String Src="%ChuyuTream%" Dst="&amp;nbsp;2017&amp;nbsp;初雨團隊"/>
   <String Src="%ICP%" Dst=""/>
-  <String Src="%Document%" Dst="説明文件"/><String Src="%logs%" Dst="更新日志"/>
+  <String Src="%Document%" Dst="説明文件"/>
 </Strings>

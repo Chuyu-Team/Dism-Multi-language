@@ -12,7 +12,7 @@ There are 5 special symbols need special representation in XML.
    ‘       Single quotation marks		&apos;
    “       Double quotation marks		&quot;  
 
-Special Thanks to Pavel Belivakov <belivakov@gmail.com>, Мартин Тайна <mxk@abv.bg>
+Special Thanks to Мартин Тайна <mxk@abv.bg>, Pavel Belivakov <belivakov@gmail.com>
  -->
 <Data>
  <DefaultControl>
@@ -1293,7 +1293,7 @@ Command:
     <String Target="使用Visual Studio所产生的日志" Link="The Visual Studio's log files"/>
 
     <String Target="Installer目录" Link="Installer Folder"/>
-    <String q="" Target="(这是一个实验性功能)清理后将无法卸载被取代的msp更新，如果有卸载更新需求请勿使用此选项。" Link="(Experimental) After cleaning, replaced msp updates cannot be uninstalled. If you may need to uninstall updates plese do not use this option."/>
+    <String Target="这是基本的Installer目录清理功能，类似WICleanup小工具" Link="It is a basic Installer folder cleanup feature, similar to the WICleanup Tool"/>
 
     <String Target="零售演示离线内容" Link="Retail Demo Offline Content"/>
     <String Target="为Windows10零售演示模式所缓存的离线内容" Link="It contains the offline temporary content for Windows 10 Retail Demo Mode"/>
