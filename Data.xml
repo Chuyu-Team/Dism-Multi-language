@@ -58,6 +58,7 @@
           <General RootPath="%0%Config\">
             <Query>wsusscn2.cab.Session</Query>
             <Query>DismRule.xml</Query>
+            <Query>Dism.xml</Query>
             <Query>Config*</Query>
             <Excluded>Config.ini</Excluded>
           </General>
@@ -76,7 +77,7 @@
             <Query>Dism</Query>
           </General>
           <General RootPath="%0%Config\Languages">
-            <Excluded>?GetLocaleName().xml</Excluded>
+            <Excluded>?GetLocaleName().zip</Excluded>
           </General>
           <General RootPath="%0%Config\Plugins" Flags="Directory">
             <Query>{*}</Query>
