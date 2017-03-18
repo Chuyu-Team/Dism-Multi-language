@@ -2,7 +2,8 @@
 #### [关于Dism++](?file=start.md "返回")
 
 ##### 1. 快速入门
-- [1. 快速入门](?file=Quickstart.md "快速入门")
+- [1.1 快速入门](?file=Quickstart.md "快速入门")
+- [1.2 Dism转Dism++入门](?file=Dism2Dism++.md "Dism转Dism++入门")
 
 ##### 2. 高级进阶
 - [2.1. Dism++术语](?file=Dism++Library/术语.md "Dism++术语")

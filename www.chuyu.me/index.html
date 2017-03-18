@@ -8,17 +8,17 @@ if(la.indexOf('zh-')==0)
     {
         case 'zh-cn':
         case 'zh-sg':
-            la='./zh-Hans';
+            la='./zh-Hans/index.html';
             break;
         default:
-            la='./zh-Hant';
+            la='./zh-Hant/index.html';
             break;
     }
 }
 else if(la.indexOf('ja-')==0)
-    la = './ja';
+    la = './ja/index.html';
 else
-    la='./en';
+    la='./en/index.html';
 
 document.location = la;
 </script>

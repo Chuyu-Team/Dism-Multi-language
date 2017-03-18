@@ -167,6 +167,9 @@
     <None Include="www.chuyu.me\zh-Hans\library\Dism++Library\自定义规则.md">
       <Filter>资源文件\www.chuyu.me\zh-Hans\library\Dism++Library</Filter>
     </None>
+    <None Include="www.chuyu.me\zh-Hans\library\Dism2Dism++.md">
+      <Filter>资源文件\www.chuyu.me\zh-Hans\library</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Text Include="www\robots.txt">
