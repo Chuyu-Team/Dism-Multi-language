@@ -46,6 +46,9 @@
     <Filter Include="资源文件\www.chuyu.me\zh-Hans\library\Dism++Library">
       <UniqueIdentifier>{aa97195b-6573-4324-8e5a-09aaf5458958}</UniqueIdentifier>
     </Filter>
+    <Filter Include="资源文件\www.chuyu.me\zh-Hans\library\最佳实践">
+      <UniqueIdentifier>{004aeda6-08c8-4520-9d6d-387eeea2dae2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Xml Include="Languages\cs.xml">
@@ -169,6 +172,12 @@
     </None>
     <None Include="www.chuyu.me\zh-Hans\library\Dism2Dism++.md">
       <Filter>资源文件\www.chuyu.me\zh-Hans\library</Filter>
+    </None>
+    <None Include="www.chuyu.me\zh-Hans\library\Best\使用Dism++安装系统.md">
+      <Filter>资源文件\www.chuyu.me\zh-Hans\library\最佳实践</Filter>
+    </None>
+    <None Include="www.chuyu.me\zh-Hans\library\Best\给ISO离线集成补丁.md">
+      <Filter>资源文件\www.chuyu.me\zh-Hans\library\最佳实践</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
