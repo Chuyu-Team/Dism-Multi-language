@@ -528,6 +528,7 @@
           </Applicable>
           <Activate>
             <Custom ProcName="NCThumbCacheOnlineCleanup"/>
+            <ExplorerNotify Type="Restart"/>
           </Activate>
         </Scan>
         <Scan>
