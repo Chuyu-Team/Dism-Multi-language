@@ -6562,6 +6562,55 @@
           </False>
         </System>
       </Item>
+      
+      <Item Type="CheckBox" Name="#登陆界面默认打开小键盘（by IT之家）">
+        <Applicable>
+          <Applicable>
+            <OSVersion Compare="&lt;=">6.1</OSVersion>
+          </Applicable>
+        </Applicable>
+        <System>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\.DEFAULT\Control Panel\Keyboard" Value="InitialKeyboardIndicators" Type="REG_SZ" Data="2"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\.DEFAULT\Control Panel\Keyboard" Value="InitialKeyboardIndicators" Type="REG_SZ" Data="2"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\.DEFAULT\Control Panel\Keyboard" Value="InitialKeyboardIndicators" Type="REG_SZ" Data="2147483648"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
+      <Item Type="CheckBox" Name="#登陆界面默认打开小键盘（by IT之家）">
+        <Applicable>
+          <Applicable>
+            <OSVersion Compare=">=">6.2</OSVersion>
+          </Applicable>
+        </Applicable>
+        <System>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\.DEFAULT\Control Panel\Keyboard" Value="InitialKeyboardIndicators" Type="REG_SZ" Data="80000002"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\.DEFAULT\Control Panel\Keyboard" Value="InitialKeyboardIndicators" Type="REG_SZ" Data="80000002"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\.DEFAULT\Control Panel\Keyboard" Value="InitialKeyboardIndicators" Type="REG_SZ" Data="2147483648"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
     </Group>
   </SystemOptimization>
   <ESDDecryptKey>
