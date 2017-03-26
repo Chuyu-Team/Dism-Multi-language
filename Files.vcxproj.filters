@@ -179,6 +179,9 @@
     <None Include="www.chuyu.me\zh-Hans\library\Best\给ISO离线集成补丁.md">
       <Filter>资源文件\www.chuyu.me\zh-Hans\library\最佳实践</Filter>
     </None>
+    <None Include="www.chuyu.me\zh-Hans\library\Dism++Library\规则结构参考.md">
+      <Filter>资源文件\www.chuyu.me\zh-Hans\library\Dism++Library</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Text Include="www\robots.txt">

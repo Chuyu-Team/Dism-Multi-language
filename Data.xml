@@ -526,16 +526,21 @@
           <Applicable>
             <ImageFlags>1</ImageFlags>
           </Applicable>
-          <Activate>
-            <Custom ProcName="NCThumbCacheOnlineCleanup"/>
-            <ExplorerNotify Type="Restart"/>
+          <Activate Restart="Explorer">
+            <General RootPath="%LocalAppData%">
+              <Query>Microsoft\Windows\Explorer\*</Query>
+              <Query>IconCache.db</Query>
+            </General>
+            <ExplorerNotify Type="AssocChanged"/>
           </Activate>
         </Scan>
         <Scan>
           <Description>#缩略图缓存（所有用户）</Description>
           <Activate>
-            <General RootPath="%SystemDrive%\Users\*\AppData\Local\Microsoft\Windows\Explorer\"/>
-            <General RootPath="%SystemDrive%\Users\*\AppData\Local\IconCache.db"/>
+            <General RootPath="%SystemDrive%\Users\*\AppData\Local">
+              <Query>Microsoft\Windows\Explorer\*</Query>
+              <Query>IconCache.db</Query>
+            </General>
           </Activate>
         </Scan>
       </ScanCollection>
@@ -1485,15 +1490,13 @@
             </Applicable>
           </State>
           <True>
-            <Activate>
+            <Activate Restart="Explorer">
               <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" Value="HideSCAHealth" Type="REG_DWORD" Data="1"/>
-              <ExplorerNotify Type="Restart"/>
             </Activate>
           </True>
           <False>
-            <Activate>
+            <Activate Restart="Explorer">
               <RegDelete Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" Value="HideSCAHealth"/>
-              <ExplorerNotify Type="Restart"/>
             </Activate>
           </False>
         </Current>
@@ -1529,15 +1532,13 @@
           </State>
           <True>
             <Warning>#开启此功能将导致平板模式下无法使用手势调出操作中心。</Warning>
-            <Activate>
+            <Activate Restart="Explorer">
               <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer" Value="DisableNotificationCenter" Type="REG_DWORD" Data="1"/>
-              <ExplorerNotify Type="Restart"/>
             </Activate>
           </True>
           <False>
-            <Activate>
+            <Activate Restart="Explorer">
               <RegDelete Key="HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer" Value="DisableNotificationCenter"/>
-              <ExplorerNotify Type="Restart"/>
             </Activate>
           </False>
         </Current>
@@ -1835,15 +1836,13 @@
             </Applicable>
           </State>
           <True>
-            <Activate>
+            <Activate Restart="Explorer">
               <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize" Value="EnableTransparency" Type="REG_DWORD" Data="1"/>
-              <ExplorerNotify Type="Restart"/>
             </Activate>
           </True>
           <False>
-            <Activate>
+            <Activate Restart="Explorer">
               <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize" Value="EnableTransparency"  Type="REG_DWORD" Data="0"/>
-              <ExplorerNotify Type="Restart"/>
             </Activate>
           </False>
         </Current>
@@ -2280,16 +2279,14 @@
             </Applicable>
           </State>
           <True>
-            <Activate>
+            <Activate Restart="Explorer">
               <FileCreateByZIP Path="%systemroot%\Blank.ico" ZIPFile="Config\default.ui.zip/Data/Blank.ico"/>
               <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons" Value="29" Type="REG_EXPAND_SZ" Data="%systemroot%\Blank.ico"/>
-              <ExplorerNotify Type="Restart"/>
             </Activate>
           </True>
           <False>
-            <Activate>
+            <Activate Restart="Explorer">
               <RegDelete Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons" Value="29"/>
-              <ExplorerNotify Type="Restart"/>
             </Activate>
           </False>
         </System>
@@ -2303,19 +2300,16 @@
             </Applicable>
           </State>
           <True>
-            <Activate>
+            <Activate Restart="Explorer">
               <FileCreateByZIP Path="%systemroot%\Blank.ico" ZIPFile="Config\default.ui.zip/Data/Blank.ico"/>
               <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons" Value="77" Type="REG_EXPAND_SZ" Data="%systemroot%\Blank.ico"/>
               <ExplorerNotify Type="AssocChanged"/>
-              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
-              <ExplorerNotify Type="Restart"/>
             </Activate>
           </True>
           <False>
-            <Activate>
+            <Activate Restart="Explorer">
               <RegDelete Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons" Value="77"/>
               <ExplorerNotify Type="AssocChanged"/>
-              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
             </Activate>
           </False>
         </System>
@@ -2332,10 +2326,9 @@
             </Applicable>
           </State>
           <True>
-            <Activate>
+            <Activate Restart="Explorer">
               <FileCreateByZIP Path="%systemroot%\Blank.ico" ZIPFile="Config\default.ui.zip/Data/Blank.ico"/>
               <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons" Value="179" Type="REG_EXPAND_SZ" Data="%systemroot%\Blank.ico"/>
-              <ExplorerNotify Type="Restart"/>
             </Activate>
           </True>
           <False>
@@ -2356,15 +2349,13 @@
             </Applicable>
           </State>
           <True>
-            <Activate>
+            <Activate Restart="Explorer">
               <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer" Value="Link" Type="REG_BINARY" Data="00000000"/>
-              <ExplorerNotify Type="Restart"/>
             </Activate>
           </True>
           <False>
-            <Activate>
+            <Activate Restart="Explorer">
               <RegDelete Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer" Value="Link"/>
-              <ExplorerNotify Type="Restart"/>
             </Activate>
           </False>
         </Current>
@@ -2667,15 +2658,13 @@
             </Applicable>
           </State>
           <True>
-            <Activate>
+            <Activate Restart="Explorer">
               <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="SeparateProcess" Type="REG_DWORD" Data="1"/>
-              <ExplorerNotify Type="Restart"/>
             </Activate>
           </True>
           <False>
-            <Activate>
+            <Activate Restart="Explorer">
               <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="SeparateProcess" Type="REG_DWORD" Data="0"/>
-              <ExplorerNotify Type="Restart"/>
             </Activate>
           </False>
         </Current>
@@ -2750,15 +2739,13 @@
             </Applicable>
           </State>
           <True>
-            <Activate>
+            <Activate Restart="Explorer">
               <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\CabinetState" Value="FullPath" Type="REG_DWORD" Data="1"/>
-              <ExplorerNotify Type="Restart"/>
             </Activate>
           </True>
           <False>
-            <Activate>
+            <Activate Restart="Explorer">
               <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\CabinetState" Value="FullPath" Type="REG_DWORD" Data="0"/>
-              <ExplorerNotify Type="Restart"/>
             </Activate>
           </False>
         </Current>
@@ -2793,15 +2780,13 @@
             </Applicable>
           </State>
           <True>
-            <Activate>
+            <Activate Restart="Explorer">
               <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled" Type="REG_DWORD" Data="1"/>
-              <ExplorerNotify Type="Restart"/>
             </Activate>
           </True>
           <False>
-            <Activate>
+            <Activate Restart="Explorer">
               <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled"  Type="REG_DWORD" Data="0"/>
-              <ExplorerNotify Type="Restart"/>
             </Activate>
           </False>
         </Current>
@@ -3303,15 +3288,13 @@
             </Applicable>
           </State>
           <True>
-            <Activate>
+            <Activate Restart="Explorer">
               <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\FlightedFeatures" Value="ImmersiveContextMenu" Type="REG_DWORD" Data="0"/>
-              <ExplorerNotify Type="Restart"/>
             </Activate>
           </True>
           <False>
-            <Activate>
+            <Activate Restart="Explorer">
               <RegDelete Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\FlightedFeatures" Value="ImmersiveContextMenu"/>
-              <ExplorerNotify Type="Restart"/>
             </Activate>
           </False>
         </System>
@@ -3839,17 +3822,15 @@
             </Applicable>
           </State>
           <True>
-            <Activate>
+            <Activate Restart="Explorer">
               <RegWrite Key="HKEY_CLASSES_ROOT\CLSID\{031E4825-7B94-4dc3-B131-E946B44C8DD5}\ShellFolder" Value="Attributes" Type="REG_DWORD" Operator="|" Data="100000"/>
               <RegWrite Key="HKEY_CLASSES_ROOT\CLSID\{031E4825-7B94-4dc3-B131-E946B44C8DD5}\ShellFolder" Value="Attributes" Type="REG_DWORD" Operator="|" Data="100000" Wow64="True"/>
-              <ExplorerNotify Type="Restart"/>
             </Activate>
           </True>
           <False>
-            <Activate>
+            <Activate Restart="Explorer">
               <RegWrite Key="HKEY_CLASSES_ROOT\CLSID\{031E4825-7B94-4dc3-B131-E946B44C8DD5}\ShellFolder" Value="Attributes" Type="REG_DWORD" Operator="&amp;" Data="FFEFFFFF"/>
               <RegWrite Key="HKEY_CLASSES_ROOT\CLSID\{031E4825-7B94-4dc3-B131-E946B44C8DD5}\ShellFolder" Value="Attributes" Type="REG_DWORD" Operator="&amp;" Data="FFEFFFFF" Wow64="True"/>
-              <ExplorerNotify Type="Restart"/>
             </Activate>
           </False>
         </System>
@@ -3869,17 +3850,15 @@
             </Applicable>
           </State>
           <True>
-            <Activate>
+            <Activate Restart="Explorer">
               <RegWrite Key="HKEY_CLASSES_ROOT\CLSID\{323CA680-C24D-4099-B94D-446DD2D7249E}\ShellFolder" Value="Attributes" Type="REG_DWORD" Operator="|" Data="400000"/>
               <RegWrite Key="HKEY_CLASSES_ROOT\CLSID\{323CA680-C24D-4099-B94D-446DD2D7249E}\ShellFolder" Value="Attributes" Type="REG_DWORD" Operator="|" Data="400000" Wow64="True"/>
-              <ExplorerNotify Type="Restart"/>
             </Activate>
           </True>
           <False>
-            <Activate>
+            <Activate Restart="Explorer">
               <RegWrite Key="HKEY_CLASSES_ROOT\CLSID\{323CA680-C24D-4099-B94D-446DD2D7249E}\ShellFolder" Value="Attributes" Type="REG_DWORD" Operator="&amp;" Data="FFBFFFFF"/>
               <RegWrite Key="HKEY_CLASSES_ROOT\CLSID\{323CA680-C24D-4099-B94D-446DD2D7249E}\ShellFolder" Value="Attributes" Type="REG_DWORD" Operator="&amp;" Data="FFBFFFFF" Wow64="True"/>
-              <ExplorerNotify Type="Restart"/>
             </Activate>
           </False>
         </System>
@@ -3899,17 +3878,15 @@
             </Applicable>
           </State>
           <True>
-            <Activate>
+            <Activate Restart="Explorer">
               <RegWrite Key="HKEY_CLASSES_ROOT\CLSID\{B4FB3F98-C1EA-428d-A78A-D1F5659CBA93}\ShellFolder" Value="Attributes" Type="REG_DWORD" Operator="|" Data="100000"/>
               <RegWrite Key="HKEY_CLASSES_ROOT\CLSID\{B4FB3F98-C1EA-428d-A78A-D1F5659CBA93}\ShellFolder" Value="Attributes" Type="REG_DWORD" Operator="|" Data="100000" Wow64="True"/>
-              <ExplorerNotify Type="Restart"/>
             </Activate>
           </True>
           <False>
-            <Activate>
+            <Activate Restart="Explorer">
               <RegWrite Key="HKEY_CLASSES_ROOT\CLSID\{B4FB3F98-C1EA-428d-A78A-D1F5659CBA93}\ShellFolder" Value="Attributes" Type="REG_DWORD" Operator="&amp;" Data="FFEFFFFF"/>
               <RegWrite Key="HKEY_CLASSES_ROOT\CLSID\{B4FB3F98-C1EA-428d-A78A-D1F5659CBA93}\ShellFolder" Value="Attributes" Type="REG_DWORD" Operator="&amp;" Data="FFEFFFFF" Wow64="True"/>
-              <ExplorerNotify Type="Restart"/>
             </Activate>
           </False>
         </System>
@@ -3929,17 +3906,15 @@
             </Applicable>
           </State>
           <True>
-            <Activate>
+            <Activate Restart="Explorer">
               <RegWrite Key="HKEY_CLASSES_ROOT\CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\ShellFolder" Value="Attributes" Type="REG_DWORD" Operator="|" Data="100000"/>
               <RegWrite Key="HKEY_CLASSES_ROOT\CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\ShellFolder" Value="Attributes" Type="REG_DWORD" Operator="|" Data="100000" Wow64="True"/>
-              <ExplorerNotify Type="Restart"/>
             </Activate>
           </True>
           <False>
-            <Activate>
+            <Activate Restart="Explorer">
               <RegWrite Key="HKEY_CLASSES_ROOT\CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\ShellFolder" Value="Attributes" Type="REG_DWORD" Operator="&amp;" Data="FFEFFFFF"/>
               <RegWrite Key="HKEY_CLASSES_ROOT\CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\ShellFolder" Value="Attributes" Type="REG_DWORD" Operator="&amp;" Data="FFEFFFFF" Wow64="True"/>
-              <ExplorerNotify Type="Restart"/>
             </Activate>
           </False>
         </System>
@@ -3959,17 +3934,15 @@
             </Applicable>
           </State>
           <True>
-            <Activate>
+            <Activate Restart="Explorer">
               <RegWrite Key="HKEY_CLASSES_ROOT\CLSID\{F5FB2C77-0E2F-4A16-A381-3E560C68BC83}\ShellFolder" Value="Attributes" Type="REG_DWORD" Operator="|" Data="100000"/>
               <RegWrite Key="HKEY_CLASSES_ROOT\CLSID\{F5FB2C77-0E2F-4A16-A381-3E560C68BC83}\ShellFolder" Value="Attributes" Type="REG_DWORD" Operator="|" Data="100000" Wow64="True"/>
-              <ExplorerNotify Type="Restart"/>
             </Activate>
           </True>
           <False>
-            <Activate>
+            <Activate Restart="Explorer">
               <RegWrite Key="HKEY_CLASSES_ROOT\CLSID\{F5FB2C77-0E2F-4A16-A381-3E560C68BC83}\ShellFolder" Value="Attributes" Type="REG_DWORD" Operator="&amp;" Data="FFEFFFFF"/>
               <RegWrite Key="HKEY_CLASSES_ROOT\CLSID\{F5FB2C77-0E2F-4A16-A381-3E560C68BC83}\ShellFolder" Value="Attributes" Type="REG_DWORD" Operator="&amp;" Data="FFEFFFFF" Wow64="True"/>
-              <ExplorerNotify Type="Restart"/>
             </Activate>
           </False>
         </System>
@@ -3989,17 +3962,15 @@
             </Applicable>
           </State>
           <True>
-            <Activate>
+            <Activate Restart="Explorer">
               <RegWrite Key="HKEY_CLASSES_ROOT\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}\ShellFolder" Value="Attributes" Type="REG_DWORD" Operator="|" Data="100000"/>
               <RegWrite Key="HKEY_CLASSES_ROOT\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}\ShellFolder" Value="Attributes" Type="REG_DWORD" Operator="|" Data="100000" Wow64="True"/>
-              <ExplorerNotify Type="Restart"/>
             </Activate>
           </True>
           <False>
-            <Activate>
+            <Activate Restart="Explorer">
               <RegWrite Key="HKEY_CLASSES_ROOT\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}\ShellFolder" Value="Attributes" Type="REG_DWORD" Operator="&amp;" Data="FFEFFFFF"/>
               <RegWrite Key="HKEY_CLASSES_ROOT\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}\ShellFolder" Value="Attributes" Type="REG_DWORD" Operator="&amp;" Data="FFEFFFFF" Wow64="True"/>
-              <ExplorerNotify Type="Restart"/>
             </Activate>
           </False>
         </System>
@@ -4019,18 +3990,16 @@
             </Applicable>
           </State>
           <True>
-            <Activate>
+            <Activate Restart="Explorer">
               <RegWrite Key="HKEY_CLASSES_ROOT\CLSID\{679f85cb-0220-4080-b29b-5540cc05aab6}\ShellFolder" Value="Attributes" Type="REG_DWORD" Operator="|" Data="400000"/>
               <RegWrite Key="HKEY_CLASSES_ROOT\CLSID\{679f85cb-0220-4080-b29b-5540cc05aab6}\ShellFolder" Value="Attributes" Type="REG_DWORD" Operator="|" Data="400000" Wow64="True"/>
               <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="LaunchTo" Type="REG_DWORD" Data="1"/>
-              <ExplorerNotify Type="Restart"/>
             </Activate>
           </True>
           <False>
-            <Activate>
+            <Activate Restart="Explorer">
               <RegWrite Key="HKEY_CLASSES_ROOT\CLSID\{679f85cb-0220-4080-b29b-5540cc05aab6}\ShellFolder" Value="Attributes" Type="REG_DWORD" Operator="&amp;" Data="FFBFFFFF"/>
               <RegWrite Key="HKEY_CLASSES_ROOT\CLSID\{679f85cb-0220-4080-b29b-5540cc05aab6}\ShellFolder" Value="Attributes" Type="REG_DWORD" Operator="&amp;" Data="FFBFFFFF" Wow64="True"/>
-              <ExplorerNotify Type="Restart"/>
             </Activate>
           </False>
         </System>
