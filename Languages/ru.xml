@@ -849,7 +849,7 @@ Thanks: Vasiliy Nasonov, 4epHRk, virus, Vladimir, ZT
     
     <String Target="更新挂起时如果有用户登录不自动重启计算机（by Rambin）" Link="При обновлении выводится уведомление о необходимости перезагрузки (by Rambin)"/>
 
-    <String Target="Windows更新不包括驱动程序" Link="Обновления Windows не включают в себя драйверы"/>
+    <String Target="Windows更新不包括驱动程序" Link="Windows Update не включает в себя драйверы"/>
     
     <String Target="*将Windows Update自动更新调整为" Link="*Настройка проверки обновлений в Центре обновлений"/>
       <String Target="从不检查（不推荐）" Link="Не проверять (не рекомендуется)"/>
