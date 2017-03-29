@@ -6753,4 +6753,257 @@
     <Item>Users\*\AppData\Local\Microsoft\Windows\Caches\</Item>
     <Item>Users\*\AppData\Local\Microsoft\Windows\INetCache\</Item>
   </DefaultFilterList>
+  <TimeZoneMap>
+    <x2>SA Western Standard Time</x2>
+    <x3>Afghanistan Standard Time</x3>
+    <x4>W. Central Africa Standard Time</x4>
+    <x5>Azerbaijan Standard Time</x5>
+    <x6>Central Europe Standard Time</x6>
+    <x7>Caucasus Standard Time</x7>
+    <x8>W. Europe Standard Time</x8>
+    <x9>W. Central Africa Standard Time</x9>
+    <xA>UTC-11</xA>
+    <xB>Argentina Standard Time</xB>
+    <xC>AUS Eastern Standard Time</xC>
+    <xE>W. Europe Standard Time</xE>
+    <x11>Arab Standard Time</x11>
+    <x12>SA Western Standard Time</x12>
+    <x13>South Africa Standard Time</x13>
+    <x14>Atlantic Standard Time</x14>
+    <x15>Romance Standard Time</x15>
+    <x16>Eastern Standard Time</x16>
+    <x17>Bangladesh Standard Time</x17>
+    <x18>Central America Standard Time</x18>
+    <x19>Central European Standard Time</x19>
+    <x1A>SA Western Standard Time</x1A>
+    <x1B>Myanmar Standard Time</x1B>
+    <x1C>W. Central Africa Standard Time</x1C>
+    <x1D>Belarus Standard Time</x1D>
+    <x1E>Central Pacific Standard Time</x1E>
+    <x20>E. South America Standard Time</x20>
+    <x22>Bangladesh Standard Time</x22>
+    <x23>FLE Standard Time</x23>
+    <x25>Singapore Standard Time</x25>
+    <x26>South Africa Standard Time</x26>
+    <x27>Eastern Standard Time</x27>
+    <x28>SE Asia Standard Time</x28>
+    <x29>W. Central Africa Standard Time</x29>
+    <x2A>Sri Lanka Standard Time</x2A>
+    <x2B>W. Central Africa Standard Time</x2B>
+    <x2C>W. Central Africa Standard Time</x2C>
+    <x2D>China Standard Time</x2D>
+    <x2E>Pacific SA Standard Time</x2E>
+    <x31>W. Central Africa Standard Time</x31>
+    <x32>E. Africa Standard Time</x32>
+    <x33>SA Pacific Standard Time</x33>
+    <x36>Central America Standard Time</x36>
+    <x37>W. Central Africa Standard Time</x37>
+    <x38>Eastern Standard Time</x38>
+    <x39>Cape Verde Standard Time</x39>
+    <x3B>E. Europe Standard Time</x3B>
+    <x3D>Romance Standard Time</x3D>
+    <x3E>E. Africa Standard Time</x3E>
+    <x3F>SA Western Standard Time</x3F>
+    <x41>SA Western Standard Time</x41>
+    <x42>SA Pacific Standard Time</x42>
+    <x43>Egypt Standard Time</x43>
+    <x44>GMT Standard Time</x44>
+    <x45>W. Central Africa Standard Time</x45>
+    <x46>FLE Standard Time</x46>
+    <x47>E. Africa Standard Time</x47>
+    <x48>Central America Standard Time</x48>
+    <x49>E. Africa Standard Time</x49>
+    <x4B>Central Europe Standard Time</x4B>
+    <x4D>FLE Standard Time</x4D>
+    <x4E>Fiji Standard Time</x4E>
+    <x50>West Pacific Standard Time</x50>
+    <x51>GMT Standard Time</x51>
+    <x54>Romance Standard Time</x54>
+    <x56>Greenwich Standard Time</x56>
+    <x57>W. Central Africa Standard Time</x57>
+    <x58>Georgian Standard Time</x58>
+    <x59>Greenwich Standard Time</x59>
+    <x5A>W. Europe Standard Time</x5A>
+    <x5B>SA Western Standard Time</x5B>
+    <x5D>Greenland Standard Time</x5D>
+    <x5E>W. Europe Standard Time</x5E>
+    <x62>GTB Standard Time</x62>
+    <x63>Central America Standard Time</x63>
+    <x64>Greenwich Standard Time</x64>
+    <x65>SA Western Standard Time</x65>
+    <x67>Eastern Standard Time</x67>
+    <x68>China Standard Time</x68>
+    <x6A>Central America Standard Time</x6A>
+    <x6C>Central European Standard Time</x6C>
+    <x6D>Central Europe Standard Time</x6D>
+    <x6E>Greenwich Standard Time</x6E>
+    <x6F>SE Asia Standard Time</x6F>
+    <x71>India Standard Time</x71>
+    <x72>Central Asia Standard Time</x72>
+    <x74>Iran Standard Time</x74>
+    <x75>Israel Standard Time</x75>
+    <x76>W. Europe Standard Time</x76>
+    <x77>Greenwich Standard Time</x77>
+    <x79>Arabic Standard Time</x79>
+    <x7A>Tokyo Standard Time</x7A>
+    <x7C>SA Pacific Standard Time</x7C>
+    <x7D>W. Europe Standard Time</x7D>
+    <x7E>Jordan Standard Time</x7E>
+    <x81>E. Africa Standard Time</x81>
+    <x82>Central Asia Standard Time</x82>
+    <x83>Korea Standard Time</x83>
+    <x85>UTC+12</x85>
+    <x86>Korea Standard Time</x86>
+    <x88>Arab Standard Time</x88>
+    <x89>Central Asia Standard Time</x89>
+    <x8A>SE Asia Standard Time</x8A>
+    <x8B>Middle East Standard Time</x8B>
+    <x8C>FLE Standard Time</x8C>
+    <x8D>FLE Standard Time</x8D>
+    <x8E>Greenwich Standard Time</x8E>
+    <x8F>Central Europe Standard Time</x8F>
+    <x91>W. Europe Standard Time</x91>
+    <x92>South Africa Standard Time</x92>
+    <x93>W. Europe Standard Time</x93>
+    <x94>E. Europe Standard Time</x94>
+    <x95>E. Africa Standard Time</x95>
+    <x97>China Standard Time</x97>
+    <x98>GTB Standard Time</x98>
+    <x9A>Ulaanbaatar Standard Time</x9A>
+    <x9C>South Africa Standard Time</x9C>
+    <x9D>Greenwich Standard Time</x9D>
+    <x9E>W. Europe Standard Time</x9E>
+    <x9F>Morocco Standard Time</x9F>
+    <xA0>Mauritius Standard Time</xA0>
+    <xA2>Greenwich Standard Time</xA2>
+    <xA3>W. Europe Standard Time</xA3>
+    <xA4>Arabian Standard Time</xA4>
+    <xA5>West Asia Standard Time</xA5>
+    <xA6>Central Standard Time (Mexico)</xA6>
+    <xA7>Singapore Standard Time</xA7>
+    <xA8>South Africa Standard Time</xA8>
+    <xAD>W. Central Africa Standard Time</xAD>
+    <xAE>Central Pacific Standard Time</xAE>
+    <xAF>W. Central Africa Standard Time</xAF>
+    <xB0>W. Europe Standard Time</xB0>
+    <xB1>W. Europe Standard Time</xB1>
+    <xB2>Nepal Standard Time</xB2>
+    <xB4>UTC+12</xB4>
+    <xB5>SA Eastern Standard Time</xB5>
+    <xB6>Central America Standard Time</xB6>
+    <xB7>New Zealand Standard Time</xB7>
+    <xB8>Egypt Standard Time</xB8>
+    <xB9>Paraguay Standard Time</xB9>
+    <xBB>SA Pacific Standard Time</xBB>
+    <xBE>Pakistan Standard Time</xBE>
+    <xBF>Central European Standard Time</xBF>
+    <xC0>SA Pacific Standard Time</xC0>
+    <xC1>GMT Standard Time</xC1>
+    <xC2>West Pacific Standard Time</xC2>
+    <xC3>Tokyo Standard Time</xC3>
+    <xC4>Greenwich Standard Time</xC4>
+    <xC5>Arab Standard Time</xC5>
+    <xC6>Mauritius Standard Time</xC6>
+    <xC7>UTC+12</xC7>
+    <xC8>GTB Standard Time</xC8>
+    <xC9>Singapore Standard Time</xC9>
+    <xCA>SA Western Standard Time</xCA>
+    <xCB>Russian Standard Time</xCB>
+    <xCC>South Africa Standard Time</xCC>
+    <xCD>Arab Standard Time</xCD>
+    <xCE>Greenland Standard Time</xCE>
+    <xCF>SA Western Standard Time</xCF>
+    <xD0>Mauritius Standard Time</xD0>
+    <xD1>South Africa Standard Time</xD1>
+    <xD2>Greenwich Standard Time</xD2>
+    <xD4>Central Europe Standard Time</xD4>
+    <xD5>Greenwich Standard Time</xD5>
+    <xD6>W. Europe Standard Time</xD6>
+    <xD7>Singapore Standard Time</xD7>
+    <xD8>E. Africa Standard Time</xD8>
+    <xD9>Romance Standard Time</xD9>
+    <xDA>SA Western Standard Time</xDA>
+    <xDB>E. Africa Standard Time</xDB>
+    <xDC>W. Europe Standard Time</xDC>
+    <xDD>W. Europe Standard Time</xDD>
+    <xDE>Syria Standard Time</xDE>
+    <xDF>W. Europe Standard Time</xDF>
+    <xE0>Arabian Standard Time</xE0>
+    <xE1>SA Western Standard Time</xE1>
+    <xE3>SE Asia Standard Time</xE3>
+    <xE4>West Asia Standard Time</xE4>
+    <xE7>Tonga Standard Time</xE7>
+    <xE8>Greenwich Standard Time</xE8>
+    <xE9>Greenwich Standard Time</xE9>
+    <xEA>W. Central Africa Standard Time</xEA>
+    <xEB>Turkey Standard Time</xEB>
+    <xEC>UTC+12</xEC>
+    <xED>Taipei Standard Time</xED>
+    <xEE>West Asia Standard Time</xEE>
+    <xEF>E. Africa Standard Time</xEF>
+    <xF0>E. Africa Standard Time</xF0>
+    <xF1>FLE Standard Time</xF1>
+    <xF2>GMT Standard Time</xF2>
+    <xF4>Pacific Standard Time</xF4>
+    <xF5>Greenwich Standard Time</xF5>
+    <xF6>Montevideo Standard Time</xF6>
+    <xF7>West Asia Standard Time</xF7>
+    <xF8>SA Western Standard Time</xF8>
+    <xF9>Venezuela Standard Time</xF9>
+    <xFB>SE Asia Standard Time</xFB>
+    <xFC>SA Western Standard Time</xFC>
+    <xFD>W. Europe Standard Time</xFD>
+    <xFE>Namibia Standard Time</xFE>
+    <x103>Samoa Standard Time</x103>
+    <x104>South Africa Standard Time</x104>
+    <x105>Arab Standard Time</x105>
+    <x107>South Africa Standard Time</x107>
+    <x108>South Africa Standard Time</x108>
+    <x10D>Central Europe Standard Time</x10D>
+    <x10E>Central European Standard Time</x10E>
+    <x10F>Central Europe Standard Time</x10F>
+    <x111>SA Western Standard Time</x111>
+    <x114>E. Africa Standard Time</x114>
+    <x12C>SA Western Standard Time</x12C>
+    <x12D>Pacific SA Standard Time</x12D>
+    <x12E>SA Western Standard Time</x12E>
+    <x132>UTC</x132>
+    <x133>SA Pacific Standard Time</x133>
+    <x135>SE Asia Standard Time</x135>
+    <x137>Myanmar Standard Time</x137>
+    <x138>Hawaiian Standard Time</x138>
+    <x13B>SA Eastern Standard Time</x13B>
+    <x13D>SA Eastern Standard Time</x13D>
+    <x13E>Hawaiian Standard Time</x13E>
+    <x13F>West Asia Standard Time</x13F>
+    <x141>SA Western Standard Time</x141>
+    <x142>West Pacific Standard Time</x142>
+    <x144>GMT Standard Time</x144>
+    <x145>Mauritius Standard Time</x145>
+    <x148>GMT Standard Time</x148>
+    <x14A>SA Western Standard Time</x14A>
+    <x14B>E. Africa Standard Time</x14B>
+    <x14C>SA Western Standard Time</x14C>
+    <x14E>Central Pacific Standard Time</x14E>
+    <x14F>UTC-11</x14F>
+    <x150>Central Pacific Standard Time</x150>
+    <x151>West Pacific Standard Time</x151>
+    <x153>Pacific Standard Time</x153>
+    <x156>UTC-02</x156>
+    <x157>Greenwich Standard Time</x157>
+    <x15B>Tonga Standard Time</x15B>
+    <x15D>Eastern Standard Time</x15D>
+    <x15F>SA Western Standard Time</x15F>
+    <x160>UTC+12</x160>
+    <x3B16>GMT Standard Time</x3B16>
+    <x4CA2>Central European Standard Time</x4CA2>
+    <x78F7>SA Western Standard Time</x78F7>
+    <x7BDA>SA Western Standard Time</x7BDA>
+    <x6F60E7>Tokyo Standard Time</x6F60E7>
+    <x974941>Central European Standard Time</x974941>
+    <x9906F5>FLE Standard Time</x9906F5>
+    <x9A55D40>UTC-11</x9A55D40>
+    <x9A55D42>SA Western Standard Time</x9A55D42>
+    <x9A55C4F>SA Western Standard Time</x9A55C4F>
+  </TimeZoneMap>
 </Data>
