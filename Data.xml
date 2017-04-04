@@ -343,47 +343,41 @@
       <Description>#清理被取代的msp补丁并减少Installer目录的大小。</Description>
       <Warning>#(这是一个实验性功能)清理后将无法卸载被取代的msp更新，如果有卸载更新需求请勿使用此选项。</Warning>
       <Group>#系统相关</Group>
-      <ScanCollection>
-        <Scan>
-          <Applicable>
-            <FileExist FilePath="%SystemDrive%\Windows\Installer"/>
-          </Applicable>
-          <Activate>
-            <Custom ProcName="NCInstallerFolderCleanup"/>
-          </Activate>
-        </Scan>
-      </ScanCollection>
+      <Scan>
+        <Applicable>
+          <FileExist FilePath="%SystemDrive%\Windows\Installer"/>
+        </Applicable>
+        <Activate>
+          <Custom ProcName="NCInstallerFolderCleanup"/>
+        </Activate>
+      </Scan>
     </Item>
 
     <Item Name="#系统还原点" Level="2">
       <Description>#先删除全部还原点，再创建一个新的还原点(当系统还原已启用时)</Description>
       <Warning>#清理后将无法使用之前创建的还原点，如果有使用之前的还原点的需求请勿使用此选项。</Warning>
       <Group>#系统相关</Group>
-      <ScanCollection>
-        <Scan Type="Custom">
-          <Applicable>
-            <ImageFlags>1</ImageFlags>
-          </Applicable>
-          <Activate>
-            <Custom ProcName="NCSRPointOnlineCleanup"/>
-          </Activate>
-        </Scan>
-      </ScanCollection>
+      <Scan Type="Custom">
+        <Applicable>
+          <ImageFlags>1</ImageFlags>
+        </Applicable>
+        <Activate>
+          <Custom ProcName="NCSRPointOnlineCleanup"/>
+        </Activate>
+      </Scan>
     </Item>
 
     <Item Name="#零售演示离线内容" Level="2">
       <Description>#为Windows10零售演示模式所缓存的离线内容</Description>
       <Group>#系统相关</Group>
-      <ScanCollection>
-        <Scan>
-          <Applicable>
-            <FileExist FilePath="%ProgramData%\Microsoft\Windows\RetailDemo"/>
-          </Applicable>
-          <Activate>
-            <General RootPath="%ProgramData%\Microsoft\Windows\RetailDemo\"/>
-          </Activate>
-        </Scan>
-      </ScanCollection>
+      <Scan>
+        <Applicable>
+          <FileExist FilePath="%ProgramData%\Microsoft\Windows\RetailDemo"/>
+        </Applicable>
+        <Activate>
+          <General RootPath="%ProgramData%\Microsoft\Windows\RetailDemo\"/>
+        </Activate>
+      </Scan>
     </Item>
 
     <!--缓存文件-->
@@ -549,74 +543,68 @@
     <Item Name="#WinINet网页缓存" Level="3">
       <Description>#清理每个用户账户和应用容器下的Windows网络组件（例如IE，Edge）的网页缓存（仅支持默认目录）</Description>
       <Group>#缓存文件</Group>
-      <ScanCollection>
-        <Scan>
-          <Applicable>
-            <Or>
-              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer"/>
-              <FileExist FilePath="%SystemRoot%\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe"/>
-            </Or>
-          </Applicable>
-          <Activate>
-            <General RootPath="%SystemDrive%\Users\*\AppData\Local\Microsoft\Windows\INetCache\"/>
-            <General RootPath="%SystemDrive%\Users\*\AppData\Local\Microsoft\Windows\Temporary Internet Files\"/>
-            <General RootPath="%SystemRoot%\ServiceProfiles\*\AppData\Local\Microsoft\Windows\INetCache\"/>
-            <General RootPath="%SystemRoot%\ServiceProfiles\*\AppData\Local\Microsoft\Windows\Temporary Internet Files\"/>
-            <General RootPath="%System%\config\systemprofile\AppData\Local\Microsoft\Windows\INetCache\"/>
-            <General RootPath="%System%\config\systemprofile\AppData\Local\Microsoft\Windows\Temporary Internet Files\"/>
-            <General RootPath="%SystemDrive%\Windows\SysWOW64\config\systemprofile\AppData\Local\Microsoft\Windows\INetCache\"/>
-            <General RootPath="%SystemDrive%\Windows\SysWOW64\config\systemprofile\AppData\Local\Microsoft\Windows\Temporary Internet Files\"/>
-            <General RootPath="%SystemDrive%\Users\*\AppData\Local\Packages\*\AC\INetCache\"/>
-            <General RootPath="%SystemDrive%\Users\*\AppData\Local\Packages\*\AC\#!*\INetCache\"/>
-            <General RootPath="%SystemDrive%\Users\*\AppData\Local\Packages\*\AC\MicrosoftEdge\Cache\"/>
-            <General RootPath="%SystemDrive%\Users\*\AppData\Local\Packages\*\AC\#!*\MicrosoftEdge\Cache\"/>
-          </Activate>
-        </Scan>
-      </ScanCollection>
+      <Scan>
+        <Applicable>
+          <Or>
+            <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer"/>
+            <FileExist FilePath="%SystemRoot%\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe"/>
+          </Or>
+        </Applicable>
+        <Activate>
+          <General RootPath="%SystemDrive%\Users\*\AppData\Local\Microsoft\Windows\INetCache\"/>
+          <General RootPath="%SystemDrive%\Users\*\AppData\Local\Microsoft\Windows\Temporary Internet Files\"/>
+          <General RootPath="%SystemRoot%\ServiceProfiles\*\AppData\Local\Microsoft\Windows\INetCache\"/>
+          <General RootPath="%SystemRoot%\ServiceProfiles\*\AppData\Local\Microsoft\Windows\Temporary Internet Files\"/>
+          <General RootPath="%System%\config\systemprofile\AppData\Local\Microsoft\Windows\INetCache\"/>
+          <General RootPath="%System%\config\systemprofile\AppData\Local\Microsoft\Windows\Temporary Internet Files\"/>
+          <General RootPath="%SystemDrive%\Windows\SysWOW64\config\systemprofile\AppData\Local\Microsoft\Windows\INetCache\"/>
+          <General RootPath="%SystemDrive%\Windows\SysWOW64\config\systemprofile\AppData\Local\Microsoft\Windows\Temporary Internet Files\"/>
+          <General RootPath="%SystemDrive%\Users\*\AppData\Local\Packages\*\AC\INetCache\"/>
+          <General RootPath="%SystemDrive%\Users\*\AppData\Local\Packages\*\AC\#!*\INetCache\"/>
+          <General RootPath="%SystemDrive%\Users\*\AppData\Local\Packages\*\AC\MicrosoftEdge\Cache\"/>
+          <General RootPath="%SystemDrive%\Users\*\AppData\Local\Packages\*\AC\#!*\MicrosoftEdge\Cache\"/>
+        </Activate>
+      </Scan>
     </Item>
 
     <Item Name="#WinINet Cookies" Level="2">
       <Description>#清理每个用户账户和应用容器下的Windows网络组件（例如IE，Edge）的Cookies（仅支持默认目录）</Description>
       <Group>#缓存文件</Group>
-      <ScanCollection>
-        <Scan>
-          <Applicable>
-            <Or>
-              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer"/>
-              <FileExist FilePath="%SystemRoot%\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe"/>
-            </Or>
-          </Applicable>
-          <Activate>
-            <General RootPath="%SystemDrive%\Users\*\AppData\Local\Microsoft\Windows\INetCookies\"/>
-            <General RootPath="%SystemDrive%\Users\*\AppData\Roaming\Microsoft\Windows\Cookies\"/>
-            <General RootPath="%SystemRoot%\ServiceProfiles\*\AppData\Local\Microsoft\Windows\INetCookies\"/>
-            <General RootPath="%SystemRoot%\ServiceProfiles\*\AppData\Roaming\Microsoft\Windows\Cookies\"/>
-            <General RootPath="%System%\config\systemprofile\AppData\Local\Microsoft\Windows\INetCookies\"/>
-            <General RootPath="%System%\config\systemprofile\AppData\Roaming\Microsoft\Windows\Cookies\"/>
-            <General RootPath="%SystemDrive%\Windows\SysWOW64\config\systemprofile\AppData\Local\Microsoft\Windows\INetCookies\"/>
-            <General RootPath="%SystemDrive%\Windows\SysWOW64\config\systemprofile\AppData\Roaming\Microsoft\Windows\Cookies\"/>
-            <General RootPath="%SystemDrive%\Users\*\AppData\Local\Packages\*\AC\INetCookies\"/>
-            <General RootPath="%SystemDrive%\Users\*\AppData\Local\Packages\*\AC\#!*\INetCookies\"/>
-            <General RootPath="%SystemDrive%\Users\*\AppData\Local\Packages\*\AC\MicrosoftEdge\Cookies\"/>
-            <General RootPath="%SystemDrive%\Users\*\AppData\Local\Packages\*\AC\#!*\MicrosoftEdge\Cookies\"/>
-          </Activate>
-        </Scan>
-      </ScanCollection>
+      <Scan>
+        <Applicable>
+          <Or>
+            <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer"/>
+            <FileExist FilePath="%SystemRoot%\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe"/>
+          </Or>
+        </Applicable>
+        <Activate>
+          <General RootPath="%SystemDrive%\Users\*\AppData\Local\Microsoft\Windows\INetCookies\"/>
+          <General RootPath="%SystemDrive%\Users\*\AppData\Roaming\Microsoft\Windows\Cookies\"/>
+          <General RootPath="%SystemRoot%\ServiceProfiles\*\AppData\Local\Microsoft\Windows\INetCookies\"/>
+          <General RootPath="%SystemRoot%\ServiceProfiles\*\AppData\Roaming\Microsoft\Windows\Cookies\"/>
+          <General RootPath="%System%\config\systemprofile\AppData\Local\Microsoft\Windows\INetCookies\"/>
+          <General RootPath="%System%\config\systemprofile\AppData\Roaming\Microsoft\Windows\Cookies\"/>
+          <General RootPath="%SystemDrive%\Windows\SysWOW64\config\systemprofile\AppData\Local\Microsoft\Windows\INetCookies\"/>
+          <General RootPath="%SystemDrive%\Windows\SysWOW64\config\systemprofile\AppData\Roaming\Microsoft\Windows\Cookies\"/>
+          <General RootPath="%SystemDrive%\Users\*\AppData\Local\Packages\*\AC\INetCookies\"/>
+          <General RootPath="%SystemDrive%\Users\*\AppData\Local\Packages\*\AC\#!*\INetCookies\"/>
+          <General RootPath="%SystemDrive%\Users\*\AppData\Local\Packages\*\AC\MicrosoftEdge\Cookies\"/>
+          <General RootPath="%SystemDrive%\Users\*\AppData\Local\Packages\*\AC\#!*\MicrosoftEdge\Cookies\"/>
+        </Activate>
+      </Scan>
     </Item>
 
     <Item Name="#Appx缓存文件-可解决Appx闪退" Level="2">
       <Description>#Appx运行时产生的缓存文件，当应用闪退时可尝试清理此选项，可解决大多数闪退问题。</Description>
       <Group>#缓存文件</Group>
-      <ScanCollection>
-        <Scan>
-          <Applicable>
-            <OSVersion Compare=">=">6.2</OSVersion>
-          </Applicable>
-          <Activate>
-            <General RootPath="%SystemDrive%\Users\*\AppData\Local\Packages\*\LocalCache"/>
-          </Activate>
-        </Scan>
-      </ScanCollection>
+      <Scan>
+        <Applicable>
+          <OSVersion Compare=">=">6.2</OSVersion>
+        </Applicable>
+        <Activate>
+          <General RootPath="%SystemDrive%\Users\*\AppData\Local\Packages\*\LocalCache"/>
+        </Activate>
+      </Scan>
     </Item>
     <!--应用程序-->
 
@@ -624,47 +612,42 @@
       <Description>#Package Cache目录存放以WIX为基础的安装程序的安装源</Description>
       <Warning>#清理后基于WIX的安装程序例如VS可以正常卸载；但升级、修复、增添组件需要联网或者备好安装镜像</Warning>
       <Group>#应用程序</Group>
-      <ScanCollection>
-        <Scan>
-          <Applicable>
-            <FileExist FilePath="%ProgramData%\Package Cache"/>
-          </Applicable>
-          <Activate>
-            <Custom ProcName="NCPackageCacheFolderCleanup"/>
-          </Activate>
-        </Scan>
-      </ScanCollection>
+      <Scan>
+        <Applicable>
+          <FileExist FilePath="%ProgramData%\Package Cache"/>
+        </Applicable>
+        <Activate>
+          <Custom ProcName="NCPackageCacheFolderCleanup"/>
+        </Activate>
+      </Scan>
     </Item>
 
     <Item Name="#WebPI缓存" Level="2">
       <Description>#Web平台安装程序的缓存</Description>
       <Group>#应用程序</Group>
-      <ScanCollection>
-        <Scan>
-          <Applicable>
-            <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\WebPlatformInstaller"/>
-          </Applicable>
-          <Activate>
-            <General RootPath="%SystemDrive%\Users\*\AppData\Local\Microsoft\Web Platform Installer\"/>
-          </Activate>
-        </Scan>
-      </ScanCollection>
+      <Scan>
+        <Applicable>
+          <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\WebPlatformInstaller"/>
+        </Applicable>
+        <Activate>
+          <General RootPath="%SystemDrive%\Users\*\AppData\Local\Microsoft\Web Platform Installer\"/>
+        </Activate>
+      </Scan>
     </Item>
 
     <Item Name="#新版Visual Studio安装源缓存" Level="2">
       <Description>#该项目清理Visual Studio 2017及以后版本的安装源</Description>
       <Warning>#清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网</Warning>
       <Group>#应用程序</Group>
-      <ScanCollection>
-        <Scan>
-          <Applicable>
-            <FileExist FilePath="%ProgramData%\Microsoft\VisualStudio\Packages"/>
-          </Applicable>
-          <Activate>
-            <Custom ProcName="NCVSPackageCacheCleanup"/>
-          </Activate>
-        </Scan>
-      </ScanCollection>
+      <Scan>
+        <Applicable>
+          <IsBeta/>
+          <FileExist FilePath="%ProgramData%\Microsoft\VisualStudio\Packages"/>
+        </Applicable>
+        <Activate>
+          <Custom ProcName="NCVSPackageCacheCleanup"/>
+        </Activate>
+      </Scan>
     </Item>
 
     <!--备份文件-->
