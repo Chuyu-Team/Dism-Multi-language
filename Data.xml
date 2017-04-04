@@ -651,6 +651,22 @@
       </ScanCollection>
     </Item>
 
+    <Item Name="#新版Visual Studio安装源缓存" Level="2">
+      <Description>#该项目清理Visual Studio 2017及以后版本的安装源</Description>
+      <Warning>#清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网</Warning>
+      <Group>#应用程序</Group>
+      <ScanCollection>
+        <Scan>
+          <Applicable>
+            <FileExist FilePath="%ProgramData%\Microsoft\VisualStudio\Packages"/>
+          </Applicable>
+          <Activate>
+            <Custom ProcName="NCVSPackageCacheCleanup"/>
+          </Activate>
+        </Scan>
+      </ScanCollection>
+    </Item>
+
     <!--备份文件-->
 
     <Item Name="#Boot备份信息" Level="3">
