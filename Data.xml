@@ -6635,6 +6635,7 @@
   <WSUS>
     <Warning ID="KB3000483">
       <en>Some games will not run properly.</en>
+      <es>Algunos juegos no se ejecutarán correctamente.</es>
       <zh-Hans>将导致某些游戏无法正常运行。</zh-Hans>
       <zh-Hant>將導致某些遊戲無法正常運行。</zh-Hant>
       <fr>Certains jeux ne fonctionnent pas correctement.</fr>
@@ -6643,6 +6644,7 @@
     </Warning>
     <Warning ID="KB3126587">
       <en>VideoStudio 9 will not run properly. We do not recommend this update, unless you do not ue VideoStudio 9.</en>
+      <es>VideoStudio 9 no se ejecutará correctamente. No recomendamos esta actualización, a menos que no se use VideoStudio 9.</es>
       <zh-Hans>将导致 会声会影9 无法正常使用。我们不推荐安装此更新，除非你不需要使用 会声会影9。</zh-Hans>
       <zh-Hant>將導致 會聲會影9 無法正常使用。我們不推薦安裝此更新，除非你不需要使用 會聲會影9。</zh-Hant>
       <fr>Video Studio 9 ne fonctionnera pas correctement. Nous ne recommandons pas cette mise à jour, à moins que vous n'utilisiez pas Video Studio 9.</fr>
@@ -6651,6 +6653,7 @@
     </Warning>
     <Warning ID="KB3044374">
       <en>For updating WUA API in order to support Windows Update scanning Windows 10 system update patches. We do not recommend this update as Windows has stopped upgrade.</en>
+      <es>Para actualizar la API WUA con el fin de admitir Windows Update que analiza los parches de actualización del sistema de Windows 10. No recomendamos esta actualización ya que Windows ha detenido la actualización.</es>
       <zh-Hans>用于更新Wua API，以便支持Windows Update能够扫描Windows 10系统升级补丁。我们不推荐安装此更新，因为Windows 10已经停止升级。</zh-Hans>
       <zh-Hant>用於更新Wua API，以便支援Windows Update能夠掃描Windows 10系統升級補丁。我們不推薦安裝此更新，因為Windows 10已經停止升級。</zh-Hant>
       <fr>Pour la mise à jour WUA API, afin d'aider les mises à jour Windows qui peuvent analyser des patchs de mise à niveau du système Windows 10. Nous ne recommandons pas d'installer cette mise à jour car la mise à niveau Windows 10 est arrêtée.</fr>
@@ -6659,6 +6662,7 @@
     </Warning>
     <Warning ID="KB3068708|KB3080149">
       <en>Customer experience and remote diagnostics update, to collect Windows diagnostic data.</en>
+      <es>Experiencia del cliente y actualización de diagnósticos remotos, para recopilar datos de diagnóstico de Windows.</es>
       <zh-Hans>客户体验和诊断遥测更新，用于收集Windows诊断信息。</zh-Hans>
       <zh-Hant>客戶體驗和診斷遙測更新，用於收集Windows診斷資訊。</zh-Hant>
       <fr>Expérience client et mise à jour de diagnostic à distance, afin de recueillir des données de diagnostic de Windows.</fr>
@@ -6667,6 +6671,7 @@
     </Warning>
     <Warning ID="KB3075249">
       <en>This update will adjust UAC default logic to esclate customer experience and remote diagnostics program (Windows diagnostics information collection program) to silent elevated privileges.</en>
+      <es>Esta actualización ajustará la lógica predeterminada de UAC para anular la experiencia del cliente y el programa de diagnóstico remoto (programa de recopilación de información de diagnósticos de Windows) con privilegios elevados silenciosos.</es>
       <zh-Hans>此更新将调整UAC默认逻辑，将客户体验和诊断遥测程序（Windows诊断信息收集程序）调整为静默提升权限。</zh-Hans>
       <zh-Hant>此更新將調整UAC預設邏輯，將客戶體驗和診斷遙測程式（Windows診斷資訊收集程式）調整為靜默提升許可權。</zh-Hant>
       <fr>Cette mise à jour va ajuster la logique par défaut UAC pour intensifier l'expérience client et à distance le programme de diagnostic (programme de collecte d'informations de diagnostic Windows) à des privilèges élevés discrets.</fr>
@@ -6675,6 +6680,7 @@
     </Warning>
     <Warning ID="KB3021917">
       <en>This update improves the performance of customer experience and remote diagnostics program (Windows diagnostics information collection program).</en>
+      <es>Esta actualización mejora el rendimiento de la experiencia del cliente y el programa de diagnóstico remoto (programa de recopilación de información de diagnóstico de Windows).</es>
       <zh-Hans>此更新用于改进客户体验和诊断遥测程序（Windows诊断信息收集程序）运行性能。</zh-Hans>
       <zh-Hant>此更新用於改進客戶體驗和診斷遙測程式（Windows診斷資訊收集程式）運行性能。</zh-Hant>
       <fr>Cette mise à jour améliore les performances de l'expérience client et à distance le programme de diagnostic (programme de collecte d'informations de diagnostic Windows).</fr>
@@ -6683,6 +6689,7 @@
     </Warning>
     <Warning ID="KB3081954">
       <en>This update adds remote diagnostics program to work folder and solves the problem that the configuration of work folder gets lost when Windows 7 is upgraded to Windows 10. We recommend this update if you plan to upgrade to Windows 10.</en>
+      <es>Esta actualización agrega el programa de diagnóstico remoto a la carpeta de trabajo y resuelve el problema de que la configuración de la carpeta de trabajo se pierde cuando Windows 7, se actualiza a Windows 10. Recomendamos esta actualización si planea actualizar a Windows 10.</es>
       <zh-Hans>此更新将为工作文件夹添加添加诊断遥测程序，同时解决了Windows 7升级到Windows 10后丢失工作文件夹配置问题。如果你打算升级到Windows 10则建议你安装此更新。</zh-Hans>
       <zh-Hant>此更新將為工作資料夾添加添加診斷遙測程式，同時解決了Windows 7升級到Windows 10後丟失工作資料夾配置問題。如果你打算升級到Windows 10則建議你安裝此更新。</zh-Hant>
       <fr>Cette mise à jour ajoute des diagnostics à distance concernant le dossier de travail et résout le problème qu'on perd la configuration du dossier de travail lorsque Windows 7 est mis à niveau vers Windows 10. Nous recommandons cette mise à jour si vous prévoyez de mettre à niveau vers Windows 10.</fr>
@@ -6691,6 +6698,7 @@
     </Warning>
     <Warning ID="KB3133977">
       <en>Some ASUS PCs with UEFI boot option will not start when this update is applied. We do not recommend this update unless you do not use ASUS PCs.</en>
+      <es>Algunas PC de ASUS con la opción de arranque UEFI no se iniciarán cuando se aplique esta actualización. No recomendamos esta actualización a menos que no utilices ASUS PCs.</es>
       <zh-Hans>此更新可能导致某些UEFI启动的华硕电脑无法启动。我们不推荐安装此更新，除非你不使用华硕电脑。</zh-Hans>
       <zh-Hant>此更新可能導致某些UEFI啟動的華碩電腦無法啟動。我們不推薦安裝此更新，除非你不使用華碩電腦。</zh-Hant>
       <fr>Certains PC ASUS avec option de démarrage UEFI ne démarrent pas lorsque cette mise à jour est appliquée. Nous ne recommandons pas cette mise à jour si vous utilisez un PC ASUS.</fr>
@@ -6699,6 +6707,7 @@
     </Warning>
     <Warning ID="KB3020369" Type="Replaced">
       <en>This update is expired, and is replaced by Windows stack update in October 2016. We do not recommend this update if you do not want to introduce expired updates. But some updates will not be integrated off-line if you do not install this update. If you want to apply all Windows updates off-line, you have to install this update, then install other updates.</en>
+      <es>Esta actualización ha expirado y se sustituye por la actualización de la pila de Windows de octubre del 2016. No recomendamos esta actualización si no desea introducir actualizaciones caducadas. Pero algunas actualizaciones no se integrarán fuera de línea si no instala esta actualización. Si desea aplicar todas las actualizaciones de Windows fuera de línea, debe instalar esta actualización e instalar otras actualizaciones.</es>
       <zh-Hans>此更新已经过期，已经被Windows 2016-10月堆栈更新取代。如果你不希望引入过期更新，则不建议安装此更新，但是这将导致某些更新无法离线集成。如果你希望能离线添加所有Windows更新，则你必须安装此更新，然后再安装其他更新。</zh-Hans>
       <zh-Hant>此更新已經過期，已經被Windows 2016-10月堆疊更新取代。如果你不希望引入過期更新，則不建議安裝此更新，但是這將導致某些更新無法離線集成。如果你希望能離線添加所有Windows更新，則你必須安裝此更新，然後再安裝其他更新。</zh-Hant>
       <fr>Cette mise à jour a expiré, et est remplacée par toutes les mises à jour Windows en Octobre 2016. Nous ne recommandons pas cette mise à jour si vous ne voulez pas entrainer des mises à jour expirées. Mais certaines mises à jour ne pourront pas installées hors ligne si vous n'avez pas installer cette mise à jour. Si vous souhaitez installer toutes les mises à jour Windows hors ligne, vous devez installer cette mise à jour, puis ensuite installer d'autres mises à jour.</fr>
