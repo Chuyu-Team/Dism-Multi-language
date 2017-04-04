@@ -967,6 +967,9 @@ Thanks: Vasiliy Nasonov, 4epHRk, virus, Vladimir, ZT
     <String Target="隐藏NTFS蓝色双箭头压缩标识（by IT之家）" Link="HСкрыть значок двойной стрелки NTFS-сжатия ( by IT Home )"/>
     <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="Скрыть кнопку помощи на Панели языка ( by Hell Cabrite )"/>
     <String Target="Windows 7体验" Link="Windows 7 Experience"/>
+    <String Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Обновление Windows не включает в себя средство удаления вредоносных программ (by Winaero)"/>
+    <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Настройки меню правой кнопки мыши для режима Windows 7 (by Silence)"/>
+    <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Отключение стека компонентов (Component Based Servicing) резервное копирование файлов"/>
     <!--系统优化已经结束-->
       
     <!--Dism++更新程序-->
