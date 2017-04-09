@@ -215,6 +215,8 @@
     <None Include="www\json\zh-Hant.json" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="HeplerDism.txt" />
+    <Text Include="ThirdParty.txt" />
     <Text Include="www\robots.txt" />
   </ItemGroup>
   <ItemGroup>
