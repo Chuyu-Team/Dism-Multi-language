@@ -99,7 +99,7 @@ Thanks: Vasiliy Nasonov, 4epHRk, virus, Vladimir, ZT
     <String Target="修复映像中存在的组件存储损坏" Link="Исправить образ"/>
     <String Target="从现有映像文件（WIM、ESD）恢复系统。" Link="Восстановить операционную систему из существующего файла образа (WIM, ESD)."/>
     <String Target="调整Dism++的设置" Link="Настройка параметров Dism++"/>
-    <String Target="专家模式" Link="режим эксперта"/>
+    <String Target="专家模式" Link="Режим эксперта"/>
 
     <!--右键菜单-->
     <String Target="Xpress4k（推荐）" Link="Xpress4k (рекомендуется)"/>
@@ -491,7 +491,7 @@ Thanks: Vasiliy Nasonov, 4epHRk, virus, Vladimir, ZT
     <String Target="全部启用" Link="Включен"/>
     <String Target="删除功能" Link="Удален"/>
     <String Target="正在应用" Link="Применение"/>
-    <String Target="本地源：" Link="локальный источник:"/>
+    <String Target="本地源：" Link="Локальный источник:"/>
     <String Target="请在此输入本地源" Link="Укажите здесь локальный источник"/>
     
 	  <!--添加删除更新-->
@@ -831,7 +831,7 @@ Thanks: Vasiliy Nasonov, 4epHRk, virus, Vladimir, ZT
 
     <String Target="关闭建议的网站（by 原罪）" Link="Отключить рекомендуемые веб-сайты (by YZ)"/>
 
-    <String Target="跳过IE首次运行自定义设置（by 原罪、恋人の共鸣）" Link="Пропустить настройку IE при первом запуске (by YZ,  Lovers vibes)"/>
+    <String Target="跳过IE首次运行自定义设置（by 原罪、恋人の共鸣）" Link="Пропустить настройку IE при первом запуске (by YZ, Lovers vibes)"/>
 
     <String Target="不保存附件的区域信息（by 古畑任三郎）" Link="Не сохранять региональную информацию (by niphor)"/>
 
@@ -941,35 +941,35 @@ Thanks: Vasiliy Nasonov, 4epHRk, virus, Vladimir, ZT
     <String Target="Windows 照片查看器" Link="Windows Photo Viewer"/>
     <String Target="Windows主题相关设置" Link="Настройка тем Windows"/>
     <String Target="任务栏以及小娜相关设置" Link="Настройка панели задач и Кортана"/>
-    <String Target="关闭商店应用推广（by 、Cloud.）" Link="Отключить продвижение приложений Магазина Windows ( by 、Cloud.)"/>
-    <String Target="关闭多嘴的小娜（by 朽木）" Link="Отключить Кортана ( by XiuMu )"/>
-    <String Target="关闭游戏录制工具（by 、Cloud.）" Link="Отключить инструмент записи игр ( by 、Cloud.)"/>
-    <String Target="启用 Windows 照片查看器（by 心之所向）" Link="Включить Windows Photo Viewer ( by XingZhiSuoXiang)"/>
+    <String Target="关闭商店应用推广（by 、Cloud.）" Link="Отключить продвижение приложений Магазина Windows (by 、Cloud.)"/>
+    <String Target="关闭多嘴的小娜（by 朽木）" Link="Отключить Кортана (by XiuMu)"/>
+    <String Target="关闭游戏录制工具（by 、Cloud.）" Link="Отключить инструмент записи игр (by 、Cloud.)"/>
+    <String Target="启用 Windows 照片查看器（by 心之所向）" Link="Включить Windows Photo Viewer (by XingZhiSuoXiang)"/>
     <String Target="安全相关设置" Link="Настройки безопасности"/>
-    <String Target="开启模糊音（by 朽木）" Link="Включить поддержку Fuzzy Pinyin( by XiuMu )"/>
+    <String Target="开启模糊音（by 朽木）" Link="Включить поддержку Fuzzy Pinyin (by XiuMu)"/>
     <String Target="开启此功能将导致平板模式下无法使用手势调出操作中心。" Link="Вы не сможете вызвать Центр уведомлений с помощью жеста, если выключите эту функцию."/>
     <String Target="禁用文件、目录、桌面、所有对象的“工作文件夹”右键菜单" Link="Отключить 'Рабочая папка' в контекстном меню файла, папки, Рабочего стола  и всех объектов"/>
     <String Target="禁用文件夹的“固定到快速访问”右键菜单" Link="Отключить 'Закрепить на панели быстого доступа' в контекстном меню папки"/>
     <String Target="禁用文件的“OneDrive文件同步”右键菜单" Link="Отключить 'Синхронизация файлов с OneDrive' в контекстном меню"/>
-    <String Target="关闭“突出显示新安装的程序”（by 溯汐潮）" Link="Отключить ‘Выделять недавно установленные программы’ ( by Hell Cabrite )"/>
-    <String Target="关闭自动更新（by 溯汐潮）" Link="Отключить автоматические обновления( by Hell Cabrite )"/>
-    <String Target="将“音量调节”调整为Windows 7模式（by 溯汐潮）" Link="Изменить ‘Регулировка громкости’ в режим Windows 7 ( by Hell Cabrite )"/>
-    <String Target="将同时可用下载数目调整到 10（by 溯汐潮）" Link="Установить количество одновременных загрузок до 10 ( by Hell Cabrite )"/>
-    <String Target="将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）" Link="Изменить меню ПКМ Рабочего стола ‘Персонализация’ в режим Windows 7 ( by dpzjsy )"/>
-    <String Target="将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）" Link="Изменить меню ПКМ Рабочего стола ‘Настройки дисплея’ в режим Windows 7 ( by dpzjsy )"/>
-    <String Target="将语言栏隐藏到任务拦（by 溯汐潮）" Link="Скрыть Панель языка на Панели задач ( by Hell Cabrite)"/>
-    <String Target="快速访问不显示常用文件夹（by 溯汐潮）" Link="Не показывать часто используемые папки в Быстром доступе ( by Hell Cabrite )"/>
-    <String Target="快速访问不显示最近使用的文件（by 溯汐潮）" Link="Не показывать недавно используемые файлы в Быстром доступе ( by Hell Cabrite )"/>
-    <String Target="清理被取代的msp补丁并减少Installer目录的大小。" Link="Очистить замещенные файлы патча MSP и уменьшить размер папки Installer"/>
-    <String Target="禁用账号登录日志报告（by 溯汐潮）" Link="Отключить журналирование входа учетных записей ( by Hell Cabrite )"/>
-    <String Target="遇到弹出窗口时始终在新选项卡中打开弹出窗口（by 溯汐潮）" Link="Всегда отображать всплывающие окна на новой вкладке ( by Hell Cabrite )"/>
-    <String Target="锁定Internet Explorer工具栏（by 溯汐潮）" Link="Закрепить панель инструментов Internet Explorer ( by Hell Cabrite )"/>
-    <String Target="隐藏NTFS蓝色双箭头压缩标识（by IT之家）" Link="HСкрыть значок двойной стрелки NTFS-сжатия ( by IT Home )"/>
-    <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="Скрыть кнопку помощи на Панели языка ( by Hell Cabrite )"/>
+    <String Target="关闭“突出显示新安装的程序”（by 溯汐潮）" Link="Отключить 'Выделять недавно установленные программы' (by Hell Cabrite)"/>
+    <String Target="关闭自动更新（by 溯汐潮）" Link="Отключить автоматические обновления (by Hell Cabrite)"/>
+    <String Target="将“音量调节”调整为Windows 7模式（by 溯汐潮）" Link="Изменить 'Регулировка громкости' в режим Windows 7 (by Hell Cabrite)"/>
+    <String Target="将同时可用下载数目调整到 10（by 溯汐潮）" Link="Установить количество одновременных загрузок до 10 (by Hell Cabrite)"/>
+    <String Target="将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）" Link="Изменить меню ПКМ Рабочего стола 'Персонализация' в режим Windows 7 (by dpzjsy)"/>
+    <String Target="将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）" Link="Изменить меню ПКМ Рабочего стола 'Настройки дисплея' в режим Windows 7 (by dpzjsy)"/>
+    <String Target="将语言栏隐藏到任务拦（by 溯汐潮）" Link="Скрыть Панель языка на Панели задач (by Hell Cabrite)"/>
+    <String Target="快速访问不显示常用文件夹（by 溯汐潮）" Link="Не показывать часто используемые папки в Быстром доступе (by Hell Cabrite)"/>
+    <String Target="快速访问不显示最近使用的文件（by 溯汐潮）" Link="Не показывать недавно используемые файлы в Быстром доступе (by Hell Cabrite)"/>
+    <String Target="清理被取代的msp补丁并减少Installer目录的大小。" Link="Очистка замененных msp-исправлений и уменьшение размера папки Installer"/>
+    <String Target="禁用账号登录日志报告（by 溯汐潮）" Link="Отключить журналирование входа учетных записей (by Hell Cabrite)"/>
+    <String Target="遇到弹出窗口时始终在新选项卡中打开弹出窗口（by 溯汐潮）" Link="Всегда отображать всплывающие окна на новой вкладке (by Hell Cabrite)"/>
+    <String Target="锁定Internet Explorer工具栏（by 溯汐潮）" Link="Закрепить панель инструментов Internet Explorer (by Hell Cabrite)"/>
+    <String Target="隐藏NTFS蓝色双箭头压缩标识（by IT之家）" Link="Скрыть значок двойной стрелки NTFS-сжатия (by IT Home)"/>
+    <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="Скрыть кнопку помощи на Панели языка (by Hell Cabrite)"/>
     <String Target="Windows 7体验" Link="Windows 7 Experience"/>
     <String Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Обновление Windows не включает в себя средство удаления вредоносных программ (by Winaero)"/>
-    <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Настройки меню правой кнопки мыши для режима Windows 7 (by Silence)"/>
-    <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Отключение стека компонентов (Component Based Servicing) резервное копирование файлов"/>
+    <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Настройка меню ПКМ для режима Windows 7 (by Silence)"/>
+    <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Отключить создание файла резервной копии менеджера пакетов CBS"/>
     <!--系统优化已经结束-->
       
     <!--Dism++更新程序-->
@@ -1196,7 +1196,7 @@ Compact支持命令：
     <String Target="迅雷游戏" Link="Игра Thunder"/>
     <String Target="迅雷游戏安装后所在目录，一般人不需要此程序，可以考虑删除。" Link="Каталог установки игры Thunder. Большинству людей не нужна эта программа, можно смело удалять."/>
 
-    <String Target="NET程序集缓存（by 大胖子技术员）" Link="Кэш .NET сборок ( by dpzsjy )"/>
+    <String Target="NET程序集缓存（by 大胖子技术员）" Link="Кэш .NET сборок (by dpzsjy)"/>
     <String Target="NET程序运行过程中产生的机器代码缓存文件，不建议频繁清理此条目。" Link="Кэш-файлы .NET программ, которые создаются в процессе выполнения машинного кода. Не рекомендуется часто удалять эту запись."/>
 
     <String Target="以前的Dism++组件" Link="Предыдущие компоненты Dism++"/>
