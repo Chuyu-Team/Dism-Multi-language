@@ -173,6 +173,7 @@
     <Xml Include="Languages\pl-PL.xml">
       <SubType>Designer</SubType>
     </Xml>
+    <Xml Include="Languages\pt.xml" />
     <Xml Include="Languages\ru.xml">
       <SubType>Designer</SubType>
     </Xml>

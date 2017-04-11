@@ -105,6 +105,9 @@
     <Xml Include="www.chuyu.me\zh-Hant.xml">
       <Filter>资源文件\www.chuyu.me</Filter>
     </Xml>
+    <Xml Include="Languages\pt.xml">
+      <Filter>资源文件\Languages</Filter>
+    </Xml>
   </ItemGroup>
   <ItemGroup>
     <None Include="www\index.html">
