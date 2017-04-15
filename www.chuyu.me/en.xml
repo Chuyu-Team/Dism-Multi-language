@@ -3,7 +3,7 @@
   <String Src="%description%" Dst="Dism++ can be considered as an GUI version of DISM, WinSxS Clean, Installer Clean, Add Update and Drive..."/>
   <String Src="%keywords%" Dst="Dism++,Dism GUI,WinSxS Cleanup,Windows Update Cleanup Tool,System Cleanup,Windows Update Clean,vista,win7,win8,win8.1,win10,Chuyu,dism,Add Update"/>
   <String Src="%title%" Dst="Dism++ | New Windows Utility"/>
-  <String Src="%String1%" Dst="Dism++, a most powerful utility"/>
+  <String Src="%String1%" Dst="Dism++, the most powerful utility"/>
   <String Src="%String2%" Dst="The first Dism GUI implementation based on CBS in the world!"/>
   <String Src="%64Bit%" Dst="Dism++ 64Bit"/>
   <String Src="%32Bit%" Dst="Dism++ 32Bit"/>
@@ -32,4 +32,5 @@
   <String Src="%ICP%" Dst=""/>
   <String Src="%Document%" Dst="Dism++ Doc"/>
   <String Src="%logs%" Dst="Change log"/>
+  <String Src="%wsuscan2%" Dst="wsusscn2.cab is the Dism++ Windows Update Database, you can overwrite &quot;Config\wsusscn2.cab&quot; with it."/>
 </Strings>

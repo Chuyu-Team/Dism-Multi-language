@@ -32,4 +32,5 @@
   <String Src="%ICP%" Dst=""/>
   <String Src="%Document%" Dst="説明書"/>
   <String Src="%logs%" Dst="Change log"/>
+  <String Src="%wsuscan2%" Dst="wsusscn2.cab はオフライン更新のデータベースです。このファイルを利用し、&quot;Config\wsusscn2.cab&quot;を上書きする。"/>
 </Strings>

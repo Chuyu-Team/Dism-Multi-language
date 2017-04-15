@@ -242,6 +242,23 @@ Special Thanks to 山形まり花、奎宁
     <String Target="即将重启以下程序 %s，你确定要继续吗？" Link="プログラム %s は再起動待ちです、続行しますか？"/>
     <String Target="资源管理器" Link="エクスプローラー"/>
 
+    <!--欢迎页-->
+    <String Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。"
+            Link="世界で最初の CBS に基づいて Dism Gui 実装。"/>
+
+    <String Target="官方网站" Link="公式サイト"/>
+    <String Target="QQ群" Link="QQ グループ"/>
+
+    <String Target="帮助与支持" Link="ヘルプとサポート"/>
+    <String Target="初雨开源" Link="オープン ソース"/>
+    <String Target="问题反馈" Link="フィードバック"/>
+    <String Target="帮助文档" Link="ヘルプ ドキュメント"/>
+
+    <String Target="致谢" Link="謝辞"/>
+    <String Target="翻译人员" Link="翻訳者"/>
+    <String Target="赞助名单" Link="寄付者"/>
+    <String Target="第三方库" Link="サード パーティ"/>
+
     <!--添加映像-->
     <String Target="请输入映像存放目录" Link="イメージのパスを入力してください"/>
 	  <String Target="请在此输入安装路径，比如C:\" Link="インストール先を入力してください、例：C:\"/>
@@ -1320,6 +1337,10 @@ Examples:
 
     <String Target="英伟达驱动安装包（by Ailick）" Link="Nvidia ドライバーのインストール パッケージ（by Ailick）"/>
     <String Target="Nvidia Geforce Experience更新程序时产生的安装包。" Link="Nvidia Geforce Experience 更新時自動的に生成のインストール パッケージ。"/>
+
+    <String Target="新版Visual Studio安装源缓存" Link="新しいパーションの Visual Studio インストール元キャッシュ"/>
+    <String Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="この機能は Visual Studio 2017（将来のバージョン含む）のインストール元をクリーンアップします。"/>
+    <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="クリーンアップし、Visual Studio 2017（将来のバージョン含む） の 更新、修復、コンポーネントを変更及びアンインストール操作はインターネット接続必要です。"/>
   </StringMaps>
   <MessageTable>
     <x800F0806>1 つ以上の更新待ち、再起動後に続行してください。</x800F0806>
