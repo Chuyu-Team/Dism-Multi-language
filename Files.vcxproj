@@ -217,7 +217,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="HeplerDism.txt" />
-    <Text Include="ThirdParty.txt" />
+    <Text Include="ThirdParty.md" />
     <Text Include="www\robots.txt" />
   </ItemGroup>
   <ItemGroup>
