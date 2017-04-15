@@ -47,8 +47,11 @@ Thanks to OldMac, 阿泽西
 
 ## [Languages/pl-PL.xml]
 Polish Resource
-Thanks to WinClub.pl
-romuald68@gmail.com
+Thanks to WinClub.pl(romuald68@gmail.com)
+
+## [Languages/pt.xml]
+Portuguese Resource
+Thanks to JNylson
 
 ## [Languages/ru.xml]
 Russian Resource

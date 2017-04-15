@@ -239,6 +239,25 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="正在修复挂载映像" Link="Remounting image"/>
     <String Target="正在取消现有任务，请稍等……" Link="Canceling current tasks, please wait…"/>
     <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="Mounted image %s is damaged, must be repaired before continuing. Do you want to repair the image now?"/>
+    <String Target="即将重启以下程序 %s，你确定要继续吗？" Link="About to restart the following program %s, Sure to proceed?"/>
+    <String Target="资源管理器" Link="Explorer"/>
+
+    <!--欢迎页-->
+    <String Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。"
+            Link="The first Dism GUI implementation based on CBS in the world!"/>
+
+    <String Target="官方网站" Link="Official Site"/>
+    <String Target="QQ群" Link="QQ Group"/>
+    
+    <String Target="帮助与支持" Link="Support"/>
+    <String Target="初雨开源" Link="Open Source"/>
+    <String Target="问题反馈" Link="Feedback"/>
+    <String Target="帮助文档" Link="Document"/>
+    
+    <String Target="致谢" Link="Thanks"/>
+    <String Target="翻译人员" Link="Translator"/>
+    <String Target="赞助名单" Link="Sponsor"/>
+    <String Target="第三方库" Link="Third Party"/>
 
     <!--添加映像-->
     <String Target="请输入映像存放目录" Link="Please enter the path of the image"/>
@@ -965,6 +984,10 @@ Examples:
     <String Target="隐藏NTFS蓝色双箭头压缩标识（by IT之家）" Link="Hide NTFS compression blue double arrow icon overlay ( by IT Home )"/>
     <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="Hide Help button on Language Bar ( by Hell Cabrite )"/>
     <String Target="Windows 7体验" Link="Windows 7 Experience"/>
+    <String Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Windows Update doesn't include malware removal tools (by ‍Winaero)"/>
+    <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Change &quot;right click menu&quot; to Windows 7 mode (by Silence)"/>
+    <String Target="登陆界面默认打开小键盘（by IT之家）" Link="Enable keypad when login (by ITHome)"/>
+    <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Disable Component Based Servicing Backup"/>
     <!--系统优化已经结束-->
 
     <!--Dism++更新程序-->
@@ -1314,6 +1337,10 @@ Command:
 
     <String Target="英伟达驱动安装包（by Ailick）" Link="nVidia driver installation package (by Ailick)"/>
     <String Target="Nvidia Geforce Experience更新程序时产生的安装包。" Link="nVidia Geforce Experience generates this installation package when updating programs."/>
+    
+    <String Target="新版Visual Studio安装源缓存" Link="New Visual Studio installation source cache"/>
+    <String Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="Cleans up Visual Studio 2017 and later versions of the installation source."/>
+    <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="After cleaning up, upgrade, fix, add components and uninstall need to be networked (Visual Studio 2017 and later versions)."/>
   </StringMaps>
   <MessageTable>
     <x800F0806>One or more updates are pending, please restart before continuing.</x800F0806>
@@ -1338,6 +1365,7 @@ Command:
 
     <x20020001>No default file association configuration in current image. Cannot export.</x20020001>
     <x20020002>Known compatibility problem found. Host Virson should be at least Windows 8/2012. If you continue in host of a lower version, functions like open, close, add, delete, update may not work properly.</x20020002>
+    <x20020003>Dism++ found a compatibility problem, the image path exists non-ASCII characters may cause the install update to fail, please reload the image in full ASCII path, such as "D:\Mount".</x20020003>
 
     <xC1440136>Driver (Wofadk.sys) not loaded. Please tick "Load wofadk" in Options - More settings.</xC1440136>
     <xC144013B>Driver (Wofadk.sys) not loaded. Please tick "Load wofadk" in Options - More settings.</xC144013B>
