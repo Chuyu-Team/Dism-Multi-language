@@ -190,10 +190,10 @@
     <Text Include="www\robots.txt">
       <Filter>资源文件\www</Filter>
     </Text>
-    <Text Include="HeplerDism.txt">
+    <Text Include="ThirdParty.md">
       <Filter>资源文件</Filter>
     </Text>
-    <Text Include="ThirdParty.md">
+    <Text Include="HeplerDism.md">
       <Filter>资源文件</Filter>
     </Text>
   </ItemGroup>
