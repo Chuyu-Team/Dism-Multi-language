@@ -1778,6 +1778,8 @@
       <Item Type="CheckBox" Name="#显示开始菜单、任务栏、操作中心和标题栏的颜色（by Rambin）">
         <Applicable>
           <OSVersion Compare=">=">10.0</OSVersion>
+          <!--2017-04-13 q1953555067 反馈，1703此功能打开后颜色直接变成黑色-->
+          <OSVersion Compare="&lt;">10.0.15063</OSVersion>
         </Applicable>
         <Current>
           <State>
