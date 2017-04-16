@@ -239,6 +239,25 @@ Special Thanks to Massimiliano F.
     <String Target="正在修复挂载映像" Link="Rimontaggio Immagine"/>
     <String Target="正在取消现有任务，请稍等……" Link="Annullamento"/>
     <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="L'immagine montata %s è danneggiata, deve essere riparata prima di continuare. Vuoi riparare l'immagine adesso?"/>
+    <String Target="即将重启以下程序 %s，你确定要继续吗？" Link="Il seguente programma %s sta per essere riavviato. Sei sicuro di  voler continuare?"/>
+    <String Target="资源管理器" Link="Explorer"/>
+
+    <!--欢迎页-->
+    <String Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。"
+            Link="Dism++ è la prima GUI per Dism, basata su CBS, pertanto Dism ++ ha una migliore compatibilità ed è più compatto rispetto a Dism."/>
+
+    <String Target="官方网站" Link="Sito web ufficiale"/>
+    <String Target="QQ群" Link="Gruppo QQ"/>
+
+    <String Target="帮助与支持" Link="Supporto"/>
+    <String Target="初雨开源" Link="Open Source"/>
+    <String Target="问题反馈" Link="Feedback"/>
+    <String Target="帮助文档" Link="Document"/>
+
+    <String Target="致谢" Link="Ringraziamenti"/>
+    <String Target="翻译人员" Link="Traduttore"/>
+    <String Target="赞助名单" Link="Sponsor"/>
+    <String Target="第三方库" Link="Terze Parti"/>
 
     <!--添加映像-->
     <String Target="请输入映像存放目录" Link="Inserire il percorso dell'immagine"/>
@@ -965,6 +984,10 @@ Esempi:
     <String Target="隐藏NTFS蓝色双箭头压缩标识（by IT之家）" Link="Nscondi la doppia freccia sui file NTFS compressi ( by IT Home )"/>
     <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="Nascondi tasto Aiuto nella Barra della Lingua ( by Hell Cabrite )"/>
     <String Target="Windows 7体验" Link="Windows 7 Experience"/>
+    <String Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Windows Update non include Strumenti di rimozione malware (by Winaero)"/>
+    <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Cambia &quot;Click destro del mouse&quot; con Windows 7 (by Silence)"/>
+    <String Target="登陆界面默认打开小键盘（by IT之家）" Link="EAttiva la tastiera virtuale durante l'accesso (by IT House)"/>
+    <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Disattiva Backup CBS (Component Based Servicing)"/>
     <!--系统优化已经结束-->
   
     <!--Dism++更新程序-->
@@ -1314,6 +1337,10 @@ Comando:
 
     <String Target="英伟达驱动安装包（by Ailick）" Link="Pacchetto installazione driver nVidia (by Ailick)"/>
     <String Target="Nvidia Geforce Experience更新程序时产生的安装包。" Link="nVidia Geforce Experience genera questi pacchetti di installazione quando si aggiorna il programma."/>
+
+    <String Target="新版Visual Studio安装源缓存" Link="Cache installazione nuovo Visual Studio"/>
+    <String Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="Cancella sorgente installazione Visual Studio 2017 e successivi"/>
+    <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="Dopo la pulitura, aggiornamento, riparazione, la disinstallazione di Visual Studio 2017 richiede una connessione ad Internet."/>
   </StringMaps>
   <MessageTable>
     <x800F0806>Uno o più aggiornamenti sono in sospeso, si prega di riavviare e quindi continuare.</x800F0806>
@@ -1338,6 +1365,7 @@ Comando:
     
     <x20020001>Nessuna configurazione predefinita nell'immagine attuale. Imposibile esportare.</x20020001>
     <x20020002>Trovati problemi noti di compatibilità. Il computer deve avere almeno Windows 8/2012. se vuoi continuare a lavoarare in una versione precedente, funzioni come apri, chiudi, aggiungi, aggiorna potrebbero non funzionare correttamente.</x20020002>
+    <x20020003>Dism++ ha rilevato dei noti problemi di compatibilità con i percorsi in caratteri non-ASCII, quindi l’installazione degli aggiornamenti potrebbe fallire. Ricarica l’immagine in un  percorso ASCII come ad esempio: "D:\Mount".</x20020003>
 
     <xC1440136>Driver (Wofadk.sys) non caricato. Rimuovere la spunta da "Carica wofadk" in Opzioni - Altre impostazioni.</xC1440136>
     <xC144013B>Driver (Wofadk.sys) non caricato. Rimuovere la spunta da "Carica wofadk" in Opzioni - Altre impostazioni.</xC144013B>

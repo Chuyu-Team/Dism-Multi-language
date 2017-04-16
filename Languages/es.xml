@@ -240,6 +240,25 @@ Thanks: Oleada, translation for version 10.1.25.1
     <String Target="正在修复挂载映像" Link="Volver a montar imagen"/>
     <String Target="正在取消现有任务，请稍等……" Link="Cancelando tareas actuales, por favor espere..."/>
     <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="La imagen montada %s está dañada, debe repararse antes de continuar. ¿Quieres reparar la imagen ahora?"/>
+    <String Target="即将重启以下程序 %s，你确定要继续吗？" Link="A punto de reiniciar el siguiente programa %s, ¿Continuar?"/>
+    <String Target="资源管理器" Link="Explorer"/>
+
+    <!--欢迎页-->
+    <String Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。"
+            Link="La primera aplicación basada en GUI Dism CBS en el mundo!"/>
+
+    <String Target="官方网站" Link="Sitio oficial"/>
+    <String Target="QQ群" Link="Grupo QQ"/>
+    
+    <String Target="帮助与支持" Link="Soporte"/>
+    <String Target="初雨开源" Link="Open Source"/>
+    <String Target="问题反馈" Link="Comentarios"/>
+    <String Target="帮助文档" Link="Documento"/>
+    
+    <String Target="致谢" Link="Gracias"/>
+    <String Target="翻译人员" Link="Traductor"/>
+    <String Target="赞助名单" Link="Patrocinador"/>
+    <String Target="第三方库" Link="Terceras partes"/>
 
     <!--添加映像-->
     <String Target="请输入映像存放目录" Link="Introducir la ruta de la imagen"/>
@@ -681,7 +700,7 @@ Ejemplos:
     <!--系统优化开始-->
     <String Target="系统优化" Link="Optimizador del sistema"/>
     <String Target="当前用户" Link="Usuario actual"/>
-    <String Target="新用户" Link="Nuevo Usuario"/>
+    <String Target="新用户" Link="Nuevo usuario"/>
     <String Target="系统" Link="Sistema"/>
     <String Target="仅针对当前用户，即 HKEY_CURRENT_USER。" Link="Sólo para el usuario actual (HKEY_CURRENT_USER)"/>
     <String Target="针对未来新建的用户，即 HKEY_USERS\DEFAULT。" Link="Para los usuarios que se van a crear (HKEY_USERS\default)"/>
@@ -839,7 +858,7 @@ Ejemplos:
     <String Target="针对增强保护模式启用64位进程" Link="Habilitar procesos de 64 bits para mejorar el modo protegido"/>
 
     <!--微软拼音输入法--><String Target="微软拼音输入法" Link="Microsoft Pinyin IME"/>
-    <String Target="微软拼音默认为英语输入（by Rambin）" Link="modo predeterminado en inglés IME(Rambin)"/>
+    <String Target="微软拼音默认为英语输入（by Rambin）" Link="Modo predeterminado en inglés IME(Rambin)"/>
 
     <String Target="关闭微软拼音云计算（by Rambin）" Link="Desactivar el método de entrada en Cloud (Rambin)"/>
 
@@ -928,7 +947,7 @@ Ejemplos:
 
     <String Target="禁用组件堆栈（Component Based Servicing）日志" Link="Desactivar lo del servicio basado en componentes"/>
 
-     <String Target="禁用更新解压模块（Delta Package Expander）日志" Link="Desactivar el paquete delta Expander log"/>
+    <String Target="禁用更新解压模块（Delta Package Expander）日志" Link="Desactivar el paquete delta Expander log"/>
 
     <String Target="禁用系统日志（by Windows 10优化辅助工具）" Link="Desactivar log del sistema (Optimización Windows 10)"/>
 
@@ -966,6 +985,10 @@ Ejemplos:
     <String Target="隐藏NTFS蓝色双箭头压缩标识（by IT之家）" Link="Ocultar icono azul de la compresión NTFS (IT Home )"/>
     <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="Ocultar botón Ayuda en barra de idioma ( por Hell Cabrite )"/>
     <String Target="Windows 7体验" Link="Experiencia de Windows 7"/>
+    <String Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Windows Update no incluyen herramientas de eliminación de malware (‍Winaero)"/>
+    <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Cambiar &quot;menú de clic derecho&quot; a Windows 7 (Silence)"/>
+    <String Target="登陆界面默认打开小键盘（by IT之家）" Link="Activar teclado numérico al inicio de sesión (ITHome)"/>
+    <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Desactivar el servicio de copia basada en componentes"/>
     <!--系统优化已经结束-->
 
     <!--Dism++更新程序-->
@@ -1017,14 +1040,14 @@ Compact支持命令：
  Dism++x86.exe /C /?"
             Link="Comando de administración de imágenes:
  /All	- Abrir la sesión global
- /Image	- Designa el directorio raíz de la imagen de Windows
+ /Image	- Designar el directorio raíz de la imagen de Windows
 
 
-Comando compacto soportado
- /C	- Utilice los archivos comprimidos/carpetas (comprimido con compacto)
- /U	- Revoca los archivos/carpetas comprimidos (comprimidos con compacto)
+Comandos compactar admitidos
+ /C	- Utilice los archivos/carpetas comprimidas(comprimido con compact)
+ /U	-Revocar los archivos/carpetas comprimidas(comprimido con compact)
 
-Para obtener más información acerca de estas opciones Dism++ y sus argumentos, \nespecificar una opción inmediatamente antes /?.
+Para obtener más información acerca de estas opciones de Dism++ y sus argumentos, especifique una\nopción inmediatamente antes /?.
 Ejemplos:
  Dism++x86.exe /Image /?
  Dism++x86.exe /C /?"/>
@@ -1032,7 +1055,7 @@ Ejemplos:
 
 示例：
  Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"
-            Link="/Plugin:&lt;Plugin_ID&gt;	- Para ejecutar los comandos compatibles con un complemento.
+            Link="/Plugin:&lt;Plugin_ID&gt;	- Para ejecutar los comandos compatibles con el plug-in.
 
 Ejemplos:
  Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"/>
@@ -1184,7 +1207,7 @@ Comando:
     <String Target="Dism++非必需文件" Link="Dism++ archivos innecesarios"/>
     <String Target="Dism++为了兼容各个环境，在完整包中存放了大量兼容性文件，以兼容各个平台。此功能可以根据当前环境自动删除不需要的文件。" Link="Para Compatibilidad con cada ambiente, el desarrollador pone un montón de archivos de compatibilidad. Esta función puede borrar archivos innecesarios según el entorno automáticamente"/>
 
-    <String Target="软媒PC管家" Link="PC Master"/>
+    <String Target="软媒PC管家" Link="PC Principal"/>
     <String Target="魔方守护以及魔方更新暂存目录，如果你不喜欢魔方守护可以考虑删除。" Link="El directorio temp del PC Master Guard y la actualización del PC Master. Si no te gusta PC Master Guard puede borrarlo."/>
 
     <String Target="给力助手" Link="Asistente GeiLi"/>
@@ -1315,7 +1338,11 @@ Comando:
 
     <String Target="英伟达驱动安装包（by Ailick）" Link="Paquete instalación controladores de nVidia (Ailick)"/>
     <String Target="Nvidia Geforce Experience更新程序时产生的安装包。" Link="NVidia Geforce Experience genera este paquete de instalación al actualizar programas."/>
-     </StringMaps>
+
+    <String Target="新版Visual Studio安装源缓存" Link="Nuevo caché Origen de instalación de Visual Studio"/>
+    <String Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="Limpiar Visual Studio 2017 y versiones posteriores de instalación."/>
+    <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="Después de la limpieza, actualizar, corrección, agregar componentes y desinstalar necesitan estar conectados (Visual Studio 2017 y versiones posteriores)."/>
+  </StringMaps>
   <MessageTable>
     <x800F0806>Hay una o más actualizaciones pendientes, por favor reinicie antes de continuar.</x800F0806>
     <x800F081F>Dism++ no puede encontrar el origen de la instalación, si necesita habilitar NET3.5 monte la ISO y luego continuar. Si necesita reparar Windows, pruebe con las opciones - para poner el origen local detallado. Si eso falla, se recomienda utilizar una instalación de reparación.</x800F081F>
@@ -1339,6 +1366,7 @@ Comando:
 
     <x20020001>No hay configuración predeterminada de asociación de archivos en la imagen actual. No se puede exportar.</x20020001>
     <x20020002>Se ha encontrado un problema de compatibilidad conocido. Host Virson debe ser al menos Windows 8/2012. Si continúa en el host de una versión inferior, las funciones como abrir, cerrar, agregar, eliminar o actualizar pueden no funcionar correctamente.</x20020002>
+    <x20020003>Dism++ encontró un problema de compatibilidad, existe la ruta de imagen caracteres no ASCII pueden causar errores en la actualización de la instalación, vuelva a cargar la imagen en desde ruta de ASCII, tales como "D:\mount".</x20020003>
 
     <xC1440136>Controlador (Wofadk.sys) no cargado. Por favor, marque la casilla "Cargar wofadk" en Opciones - Más opciones.</xC1440136>
     <xC144013B>Controlador (Wofadk.sys) no cargado. Por favor, marque la casilla "Cargar wofadk" en Opciones - Más opciones.</xC144013B>
