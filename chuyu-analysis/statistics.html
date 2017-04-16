@@ -7,6 +7,7 @@
 <div id="container3" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 <div id="container4" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 <script>
+    'use strict';
     let data0 = new Array();
     let modulename = new Array();
     fetch('statistics.php?type=module').then(
@@ -26,7 +27,6 @@
             data.forEach((element) => {
                 let tmodulename = element.crashmodule.split('\\').pop();
                 let tidx = modulename.indexOf(tmodulename);
-                console.log(tmodulename, tidx, element.count);
                 data0[tidx] += parseInt(element.count);
             });
         }
@@ -105,6 +105,25 @@
         }
     ).then(
         (data) => {
+            data.forEach((rele) => {
+                let ele = JSON.parse(JSON.stringify(rele));
+                let tosver = (ele.osversion % 65536).toString();
+                ele.osversion /= 65536;
+                ele.osversion = Math.floor(ele.osversion);
+                tosver = (ele.osversion % 65536).toString() + "." + tosver;
+                ele.osversion /= 65536;
+                ele.osversion = Math.floor(ele.osversion);
+                tosver = (ele.osversion % 65536).toString() + "." + tosver;
+                ele.osversion /= 65536;
+                ele.osversion = Math.floor(ele.osversion);
+                tosver = (ele.osversion % 65536).toString() + "." + tosver;
+                tosver = tosver.match(/^\d+\.\d+\.\d+/)[0];
+                if (osver.indexOf(tosver) < 0)
+                    osver.push(tosver);
+            });
+            for (let i in osver) {
+                data1.push(0);
+            }
             data.forEach((ele) => {
                 let tosver = (ele.osversion % 65536).toString();
                 ele.osversion /= 65536;
@@ -116,8 +135,9 @@
                 ele.osversion /= 65536;
                 ele.osversion = Math.floor(ele.osversion);
                 tosver = (ele.osversion % 65536).toString() + "." + tosver;
-                osver.push(tosver);
-                data1.push(parseInt(ele.count));
+                tosver = tosver.match(/^\d+\.\d+\.\d+/)[0];
+                let tidx = osver.indexOf(tosver);
+                data1[tidx] += parseInt(ele.count);
             });
         }
         ).then(
