@@ -18,7 +18,7 @@
   <String Src="%EsdSupport%" Dst="完整 ESD 支援"/>
   <String Src="%EsdSupportDes%" Dst="再也不用擔心 ESD 轉 ISO了。"/>
   <String Src="%WindowsUpdateDes%" Dst="我的更新我做主~~安心更新。"/>
-  <String Src="%SystemRecover%" Dst="系統恢復"/>
+  <String Src="%SystemRecover%" Dst="系統還原"/>
   <String Src="%SystemRecoverDes%" Dst="系統熱備份、熱還原無需 PE！"/>
   <String Src="%Green%" Dst="真正綠色"/>
   <String Src="%GreenDes%" Dst="即下即用，無廣告、後門，安心用。"/>
