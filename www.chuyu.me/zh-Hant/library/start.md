@@ -44,11 +44,11 @@ Dism++ 可以說是一個 Dism 的 GUI 版，但是並不依賴 Dism，直接基
 |Config\amd64\CBSHost.dll|Dism++API 支援模組，刪除後 64 位元系統將無法使用 Dism++。32 位元使用者可以刪除此檔案。
 |Config\x86\CBSHost.dll|Dism++API 支援模組，刪除後 32 位元系統將無法使用 Dism++，64 位元系統無法離線處理 32 位元系統。不需要離線處理 32 位元系統的 64 位元使用者可以考慮刪除。
 |Config\amd64\NCleaner.dll|64 位元 NCleaner 清理引擎，缺少此檔案後某些進階清理功能將無法使用，32 位元使用者可以考慮刪除此檔案。
-|Config\x86\NCleaner.dl|32位元NCleaner清理引擎，缺少此檔案後某些進階清理功能將無法使用，64 位元使用者可以考慮刪除此檔案。
+|Config\x86\NCleaner.dl|32 位元 NCleaner 清理引擎，缺少此檔案後某些進階清理功能將無法使用，64 位元使用者可以考慮刪除此檔案。
 |Config\amd64\wimgapi.dll|WIM 檔案操作支援模組，Win10 使用者、32 位元使用者或者不需要任何 WIM 相關功能的使用者，那麼可以考慮刪除。
 |Config\x86\wimgapi.dll|WIM 檔案操作支援模組，Win10 使用者、64 位元使用者或者不需要任何 WIM 相關功能的使用者，那麼可以考慮刪除。
 |Config\amd64\wofadk.sys<br>Config\x86\wofadk.sys|提供 Compact 功能相關支援，不需要離線處理的 Win10 使用者可以考慮刪除此檔案。強烈建議不要刪除這些檔案。
-|Config\Plugins|Dism++ 插件支援，不需要插件的使用者可以刪除此檔案。
+|Config\Plugins|Dism++ 外掛支援，不需要外掛的使用者可以刪除此檔案。
 |Config\Languages|Dism++ 的語言檔案，以簡體中文為例，只保留 zh-Hans.zip 即可。
 |Config\Data.zip|此檔案存放了清理規則，ESD 解密 KEY 等。此檔案不允許刪除。
 |Config\winapp1.ini|此檔案存放了 CCleaner 的清理規則，刪除此檔案後 Dism++ 將無法使用 CCleaner 的規則。可以考慮刪除。
