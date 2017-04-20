@@ -14,7 +14,7 @@
    “	雙引號		&quot;
    
    &#x000D;&#x000A;  ENTER+換行
-感謝：iliGPU、jamesfuh、月下独酌
+感谢：iliGPU、jamesfuh、月下独酌
  -->
 <Data>
   <DefaultControl>
@@ -40,7 +40,7 @@
           <String Target="释放映像	Ctrl+N" Link="套用映像	Ctrl+N"/>
           <String Target="挂载映像	Ctrl+Shift+N" Link="掛接映像	Ctrl+Shift+N"/>
           <String Target="添加路径" Link="新增路徑"/>
-		  <String Target="卸载映像	Delete" Link="移除映像	Delete"/>
+		  <String Target="卸载映像	Delete" Link="卸載映像	Delete"/>
 		  <String Target="保存映像	Ctrl+S" Link="儲存映像	Ctrl+S"/>
 		  <String Target="另存为映像	Ctrl+Shift+S" Link="另存為映像	Ctrl+Shift+S"/>
 		  <String Target="打开映像文件	Ctrl+O" Link="開啟映像檔	Ctrl+O"/>
@@ -80,7 +80,7 @@
     
     <String Target="应用一个WIM、ESD、SWM或者ISO映像。" Link="套用一個 WIM、ESD、SWM 或者 ISO 映像。"/>
     <String Target="从 WIM 文件安装映像。" Link="從 WIM 檔案掛接映像。"/>
-	  <String Target="卸载安装的 WIM 映像" Link="移除安裝的 WIM 映像"/>
+	  <String Target="卸载安装的 WIM 映像" Link="卸載安裝的 WIM 映像"/>
 	  <String Target="保存对安装的 WIM 映像的更改" Link="儲存對安裝的 WIM 映像的更改"/>
 	  <String Target="保存更改到另一个WIM文件中" Link="儲存到另一個 WIM 檔案中"/>
 	  <String Target="打开并编辑现有的WIM文件" Link="開啟並編輯現有的 WIM 檔"/>
@@ -90,7 +90,7 @@
 	  <String Target="重启进入RE并为我启动Dism++" Link="重啟進入RE並再次啟動 Dism++"/>
 	  <String Target="启动RE环境" Link="啟動 RE 環境"/>
 	  <String Target="添加删除Dism插件" Link="新增或刪除 Dism 外掛程式"/>
-	  <String Target="在官方网站可以获取帮助文档，并提出你的宝贵意见" Link="在官方網站可以取得說明文件，並提出您的寶貴意見"/>
+	  <String Target="在官方网站可以获取帮助文档，并提出你的宝贵意见" Link="在官方網站可以取得説明文件，並提出您的寶貴意見"/>
     <String Target="为映像重新添加引导。" Link="為映像重新新增引導。"/>
     <String Target="只添加指定文件夹路径到映像列表。" Link="只新增指定資料夾路徑到映像清單。"/>
     <String Target="重新扫描系统" Link="重新掃描系統"/>
@@ -129,11 +129,11 @@
 	  <String Target="温馨提示" Link="溫馨提示"/>
 	
 	  <String Target="正在挂载" Link="正在掛載"/>
-    <String Target="正在卸载映像" Link="正在移除映像"/>
+    <String Target="正在卸载映像" Link="正在卸載映像"/>
 	  <String Target="正在释放" Link="正在釋放"/>
 	  <String Target="正在还原" Link="正在還原"/>
 	  <String Target="%s 位置的映像正在进行其他事情，请稍后再试。" Link="%s 位置的映像正在執行中，請稍後再試。"/>
-    <String Target="无法移动文件 %s，Dism++已回滚对系统的更改。" Link="無法移動檔 %s，Dism++ 已復原對系統的更改。"/>
+    <String Target="无法移动文件 %s，Dism++已回滚对系统的更改。" Link="無法移動檔 %s，Dism++ 已回滾對系統的更改。"/>
 
     <String Target="正在配置WinRE" Link="正在配置 WinRE"/>
 	  <String Target="正在进行第 %d 阶段（共 %d ）" Link="正在進行第 %d 階段（共 %d ）"/>
@@ -179,7 +179,7 @@
 	  <String Target="请稍等" Link="請稍等"/>
 	
 	
-	  <String Target="本地硬盘" Link="本機硬碟"/>
+	  <String Target="本地硬盘" Link="本地硬碟"/>
 	  <String Target="挂载映像" Link="掛載映像"/>
     <String Target="VHD装载" Link="掛載 VHD"/>
     
@@ -301,10 +301,10 @@
     <String Target="恭喜映像已经修复成功！" Link="恭喜映像檔已經修復成功！"/>
     <String Target="致命错误，会话无应答。" Link="嚴重錯誤，對話無回應。"/>
   
-	  <!--本機來源-->
-	  <String Target="本地源可以大幅度加速功能打开以及系统修复。" Link="本機來源可以大幅度加速功能開啟以及系統修復。"/>
-	  <String Target="什么是本地源" Link="什麼是本機來源"/>
-	  <String Target="本地源" Link="本機來源"/>
+	  <!--本地來源-->
+	  <String Target="本地源可以大幅度加速功能打开以及系统修复。" Link="本地來源可以大幅度加速功能開啟以及系統修復。"/>
+	  <String Target="什么是本地源" Link="什麼是本地來源"/>
+	  <String Target="本地源" Link="本地來源"/>
 	
 	  <!-- 格式转换-->
 	  <String Target="请在此输入源文件路径" Link="請在此輸入原始檔案路徑"/>
@@ -365,7 +365,7 @@
     <String Target="确定" Link="確定"/>
     <String Target="启用专家模式*" Link="啟用專家模式*"/>
     <String Target="整合右键菜单" Link="整合右鍵功能表"/>
-    <String Target="整合引导菜单" Link="整合引導選單"/>
+    <String Target="整合引导菜单" Link="整合引導菜單"/>
     <String Target="排除列表" Link="排除清單"/>
     <String Target="减少映像文件（WIM、ESD）保存时间" Link="減少映像檔（WIM、ESD）儲存時間"/>
     <String Target="CompactOS压缩率" Link="CompactOS 壓縮率"/>
@@ -374,7 +374,7 @@
     <String Target="大约压缩36%" Link="大約壓縮 36%"/>
     <String Target="大约压缩38%" Link="大約壓縮 38%"/>
     <String Target="大约压缩44%（更小体积）" Link="大約壓縮 44%（更小體積）"/>
-    <String Target="加载WofAdk驱动（可能导致蓝屏！）" Link="載入 WofAdk 驅動（可能導致藍色畫面！）"/>
+    <String Target="加载WofAdk驱动（可能导致蓝屏！）" Link="載入 WofAdk 驅動（可能導致藍屏！）"/>
     <String Target="更新差异传输引擎：" Link="更新差異傳輸引擎："/>
     <String Target="关闭" Link="關閉"/>
     <String Target="快速" Link="快速"/>
@@ -434,11 +434,11 @@
     <String Target="无效的启动程序" Link="無效的啟動程序"/>
     <String Target="用户访问历史记录" Link="使用者訪問歷史記錄"/>
     <String Target="无效的防火墙设置" Link="無效的防火牆設定"/>
-    <String Target="无效的卸载信息" Link="無效的移除信息"/>
+    <String Target="无效的卸载信息" Link="無效的卸載信息"/>
     <String Target="无效的MUI缓存" Link="無效的MUI快取"/>
     <String Target="无效的文件类型" Link="無效的文件類型"/>
     <String Target="无效的COM组件" Link="無效的 COM 組件"/>
-    <String Target="蓝屏记录" Link="藍色畫面記錄"/>
+    <String Target="蓝屏记录" Link="藍屏記錄"/>
     <String Target="注册表还原" Link="登錄檔還原"/>
     <String Target="清理时间" Link="清理時間"/>
     
@@ -502,7 +502,7 @@
     <String Target="驱动程序" Link="驅動"/>
     
 	  <!--功能-->
-	  <String Target="指定本地源" Link="指定本機來源"/>
+	  <String Target="指定本地源" Link="指定本地來源"/>
 	  <String Target="应用" Link="應用"/>
 	  <String Target="正在加载Windows功能" Link="正在載入 Windows 功能"/>
     <String Target="关闭功能" Link="關閉功能"/>
@@ -510,13 +510,13 @@
     <String Target="全部启用" Link="全部啟用"/>
     <String Target="删除功能" Link="刪除功能"/>
     <String Target="正在应用" Link="正在套用"/>
-    <String Target="本地源：" Link="本機來源："/>
-    <String Target="请在此输入本地源" Link="請在此輸入本機來源"/>
+    <String Target="本地源：" Link="本地來源："/>
+    <String Target="请在此输入本地源" Link="請在此輸入本地來源"/>
     
 	  <!--添加删除更新-->
 	  <String Target="未知" Link="未知"/>
 	  <String Target="不适用" Link="不適用"/>
-	  <String Target="卸载挂起" Link="移除掛起"/>
+	  <String Target="卸载挂起" Link="卸載掛起"/>
 	  <String Target="已暂存" Link="已暫存"/>
 	  <String Target="正在暂存" Link="正在暫存"/>
 	  <String Target="已安装" Link="已安裝"/>
@@ -578,7 +578,7 @@
     <String Target="项目" Link="項目"/>
     <String Target="Windows Update数据库已经存在新版本，你需要更新吗？" Link="Windows Update 資料庫已經存在新版本，您需要更新嗎？"/>
     <String Target="下载%d%%" Link="下載 %d%%"/>
-    <String Target="将现有的本地补丁包添加至系统。" Link="將現有的本機補丁包新增至系統。"/>
+    <String Target="将现有的本地补丁包添加至系统。" Link="將現有的本地補丁包新增至系統。"/>
     <String Target="使用Dism++数据库扫描当前系统需要的更新列表。" Link="使用 Dism++ 數據庫掃描目前系統需要的更新列表。"/>
     <String Target="自动下载并安装更新列表中选中的更新。" Link="自動下載並安裝更新列表中選中的更新。"/>
     <String Target="计算机已经安装最新更新。" Link="電腦已經安裝最新更新。"/>
@@ -809,20 +809,20 @@
 
     <!--右键菜单管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="右鍵功能表管理 - 停用不需要的功能表提高反應速度"/>
-    <String Target="禁用可执行文件的“兼容性疑难解答”右键菜单（by 莫失莫忘）" Link="停用可執行檔的「相容性疑難排解」右鍵選單（by 莫失莫忘）"/>
+    <String Target="禁用可执行文件的“兼容性疑难解答”右键菜单（by 莫失莫忘）" Link="停用可執行檔的「相容性疑難排解」右鍵菜單（by 莫失莫忘）"/>
     <String Target="禁用文件、文件夹以及磁盘的“使用Windows Defender扫描”右键菜单（by 莫失莫忘）" Link="停用檔、資料夾以及磁片的「使用Windows Defender掃描」右鍵功能表（by 莫失莫忘）"/>
     <String Target="禁用文件、磁盘以及属性的“还原以前版本”右键菜单（by 莫失莫忘）" Link="停用檔、磁片以及屬性的「還原以前版本」右鍵功能表（by 莫失莫忘）"/>
-    <String Target="禁用文件、文件夹、桌面以及所有对象的“共享文件夹同步”右键菜单" Link="停用檔、資料夾、桌面以及所有物件的「共用資料夾同步」右鍵選單"/>
-    <String Target="禁用新建“ZIP/RAR文件”右键菜单（by 莫失莫忘）" Link="停用新建「ZIP/RAR檔」右鍵選單（by 莫失莫忘）"/>
-    <String Target="禁用新建、文件以及文件夹的“公文包”右键菜单" Link="停用新建、檔以及資料夾的「公事包」右鍵選單"/>
-    <String Target="禁用新建的“联系人”右键菜单（by 莫失莫忘）" Link="停用新建的「連絡人」右鍵選單（by 莫失莫忘）"/>
-    <String Target="禁用桌面的英特尔集显右键菜单（by 莫失莫忘）" Link="停用桌面的英特爾集顯右鍵選單（by 莫失莫忘）"/>
-    <String Target="禁用目录、文件夹、所有对象、的“始终脱机可用”右键菜单" Link="停用目錄、資料夾、所有物件、的「始終離線可用」右鍵選單"/>
+    <String Target="禁用文件、文件夹、桌面以及所有对象的“共享文件夹同步”右键菜单" Link="停用檔、資料夾、桌面以及所有物件的「共用資料夾同步」右鍵菜單"/>
+    <String Target="禁用新建“ZIP/RAR文件”右键菜单（by 莫失莫忘）" Link="停用新建「ZIP/RAR檔」右鍵菜單（by 莫失莫忘）"/>
+    <String Target="禁用新建、文件以及文件夹的“公文包”右键菜单" Link="停用新建、檔以及資料夾的「公事包」右鍵菜單"/>
+    <String Target="禁用新建的“联系人”右键菜单（by 莫失莫忘）" Link="停用新建的「連絡人」右鍵菜單（by 莫失莫忘）"/>
+    <String Target="禁用桌面的英特尔集显右键菜单（by 莫失莫忘）" Link="停用桌面的英特爾集顯右鍵菜單（by 莫失莫忘）"/>
+    <String Target="禁用目录、文件夹、所有对象、的“始终脱机可用”右键菜单" Link="停用目錄、資料夾、所有物件、的「始終離線可用」右鍵菜單"/>
     <String Target="禁用磁盘的“以便携式方式打开”右键菜单（by 莫失莫忘）" Link="停用磁片的「以可擕式方式開啟」右鍵功能表（by 莫失莫忘）"/>
     <String Target="禁用磁盘的“刻录到光盘”右键菜单" Link="停用磁片的「燒錄到光碟」右鍵功能表"/>
-    <String Target="禁用磁盘的“启用Bitlocker”右键菜单（by 莫失莫忘）" Link="停用磁片的「啟用 Bitlocker」右鍵選單（by 莫失莫忘）"/>
+    <String Target="禁用磁盘的“启用Bitlocker”右键菜单（by 莫失莫忘）" Link="停用磁片的「啟用 Bitlocker」右鍵菜單（by 莫失莫忘）"/>
     <String Target="禁用磁盘的“复制磁盘”右键菜单" Link="停用磁片的「複製磁片」右鍵功能表"/>
-    <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="停用檔、目錄、桌面、磁片以及庫的「共用」右鍵選單"/>
+    <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="停用檔、目錄、桌面、磁片以及庫的「共用」右鍵菜單"/>
     <String Target="禁用桌面的“小工具”右键菜单" Link="停用桌面的「小工具」右鍵功能表"/>
 
     <!--桌面图示管理-->
@@ -831,7 +831,7 @@
     <!--资源管理器导航窗口图标管理-->
     <String Target="资源管理器导航窗口图标管理" Link="資源管理器導航視窗圖示管理"/>
     <String Target="隐藏资源管理器导航窗口中的OneDrive（by 莫失莫忘）" Link="隱藏資源管理器導航視窗中的 OneDrive（by 莫失莫忘）"/>
-    <String Target="隐藏资源管理器导航窗口中的可移动设备（by 莫失莫忘）" Link="隱藏資源管理器導航視窗中的可移動裝置（by 莫失莫忘）"/>
+    <String Target="隐藏资源管理器导航窗口中的可移动设备（by 莫失莫忘）" Link="隱藏資源管理器導航視窗中的可移動設備（by 莫失莫忘）"/>
     <String Target="隐藏资源管理器导航窗口中的快速访问（by starP）" Link="隱藏資源管理器導航視窗中的快速訪問（by starP）"/>
 
     <!--Internet Explorer-->
@@ -938,7 +938,7 @@
     
     <String Target="*隐藏某些SATA硬盘任务栏图标（by 原罪）" Link="*隱藏某些 SATA 硬碟任務列圖示（by 原罪）"/>
     
-    <String Target="蓝屏时自动重启（by 原罪）" Link="藍色畫面當機時自動重啟 (by 原罪)"/>
+    <String Target="蓝屏时自动重启（by 原罪）" Link="藍屏當機時自動重啟 (by 原罪)"/>
 
     <String Target="关闭快速启动" Link="關閉快速啟動"/>
     <String Target="关闭快速启动将导致系统启动速度变慢！" Link="關閉快速啟動將導致系統啟動速度變慢！"/>
@@ -949,7 +949,7 @@
 
     <String Target="禁用系统日志（by Windows 10优化辅助工具）" Link="停用系統日誌（by Windows 10優化輔助工具）"/>
     
-    <String Target="崩溃时写入调试信息" Link="當機時寫入調試資訊"/>
+    <String Target="崩溃时写入调试信息" Link="崩潰時寫入調試資訊"/>
       <String Target="无" Link="無"/>
       <String Target="小内存转储（256KB）" Link="小記憶體傾印（256KB）"/>
       <String Target="核心内存转储" Link="核心記憶體傾印"/>
@@ -964,34 +964,34 @@
     <String Target="安全相关设置" Link="安全相關設定"/>
     <String Target="开启模糊音（by 朽木）" Link="開啟模糊音（by 朽木）"/>
     <String Target="开启此功能将导致平板模式下无法使用手势调出操作中心。" Link="開啟此功能將導致平台模式下無法使用手勢調出操作中心。"/>
-    <String Target="禁用文件、目录、桌面、所有对象的“工作文件夹”右键菜单" Link="停用檔、目錄、桌面、所有物件的「工作資料夾」右鍵選單"/>
-    <String Target="禁用文件夹的“固定到快速访问”右键菜单" Link="停用資料夾的「固定到快速訪問」右鍵選單"/>
-    <String Target="禁用文件的“OneDrive文件同步”右键菜单" Link="停用文件的「OneDrive 檔案同步」右鍵選單"/>
-    <String Target="关闭“突出显示新安装的程序”（by 溯汐潮）" Link="關閉「突顯出新安裝的程式」（by 溯汐潮）"/>
+    <String Target="禁用文件、目录、桌面、所有对象的“工作文件夹”右键菜单" Link="停用檔、目錄、桌面、所有物件的「工作資料夾」右鍵菜單"/>
+    <String Target="禁用文件夹的“固定到快速访问”右键菜单" Link="停用資料夾的「固定到快速訪問」右鍵菜單"/>
+    <String Target="禁用文件的“OneDrive文件同步”右键菜单" Link="停用文件的「OneDrive 檔同步」右鍵菜單"/>
+    <String Target="关闭“突出显示新安装的程序”（by 溯汐潮）" Link="關閉「突出顯示新安裝的程式」（by 溯汐潮）"/>
     <String Target="关闭自动更新（by 溯汐潮）" Link="關閉自動更新（by 溯汐潮）"/>
-    <String Target="将“音量调节”调整为Windows 7模式（by 溯汐潮）" Link="將「音量調節」調整為 Windows 7 模式（by 溯汐潮）"/>
+    <String Target="将“音量调节”调整为Windows 7模式（by 溯汐潮）" Link="將「音量調節」調整為Windows 7模式（by 溯汐潮）"/>
     <String Target="将同时可用下载数目调整到 10（by 溯汐潮）" Link="將同時可用下載數目調整到 10（by 溯汐潮）"/>
-    <String Target="将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）" Link="將桌面右鍵選單「個人化」調整為 Windows 7 模式（by 大胖子技術員）"/>
-    <String Target="将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）" Link="將桌面右鍵選單「顯示設定」調整為 Windows 7 模式（by 大胖子技術員）"/>
-    <String Target="将语言栏隐藏到任务拦（by 溯汐潮）" Link="將語言列隱藏到工作列（by 溯汐潮）"/>
+    <String Target="将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）" Link="將桌面右鍵菜單「個人化」調整為 Windows 7 模式（by 大胖子技術員）"/>
+    <String Target="将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）" Link="將桌面右鍵菜單「顯示設定」調整為 Windows 7 模式（by 大胖子技術員）"/>
+    <String Target="将语言栏隐藏到任务拦（by 溯汐潮）" Link="將語言欄隱藏到任務攔（by 溯汐潮）"/>
     <String Target="快速访问不显示常用文件夹（by 溯汐潮）" Link="快速訪問不顯示常用資料夾（by 溯汐潮）"/>
-    <String Target="快速访问不显示最近使用的文件（by 溯汐潮）" Link="快速訪問不顯示最近使用的檔案（by 溯汐潮）"/>
-    <String Target="清理被取代的msp补丁并减少Installer目录的大小。" Link="清理被取代的 msp 更新檔並減少 Installer 目錄的大小。"/>
-    <String Target="禁用账号登录日志报告（by 溯汐潮）" Link="停用帳號登入日誌報告（by 溯汐潮）"/>
+    <String Target="快速访问不显示最近使用的文件（by 溯汐潮）" Link="快速訪問不顯示最近使用的檔（by 溯汐潮）"/>
+    <String Target="清理被取代的msp补丁并减少Installer目录的大小。" Link="清理被取代的 msp 補丁並減少 Installer 目錄的大小。"/>
+    <String Target="禁用账号登录日志报告（by 溯汐潮）" Link="停用帳號登錄日誌報告（by 溯汐潮）"/>
     <String Target="遇到弹出窗口时始终在新选项卡中打开弹出窗口（by 溯汐潮）" Link="遇到快顯視窗時始終在新選項卡中開啟快顯視窗（by 溯汐潮）"/>
     <String Target="锁定Internet Explorer工具栏（by 溯汐潮）" Link="鎖定 Internet Explorer 工具列（by 溯汐潮）"/>
     <String Target="隐藏NTFS蓝色双箭头压缩标识（by IT之家）" Link="隱藏 NTFS 藍色雙箭頭壓縮標識（by IT之家）"/>
-    <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="隱藏語言列上的說明按鈕（by 溯汐潮）"/>
+    <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="隱藏語言欄上的説明按鈕（by 溯汐潮）"/>
     <String Target="Windows 7体验" Link="Windows 7 體驗"/>
     <String Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Windows 更新不包括惡意軟體刪除工具（by Winaero）"/>
     <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="將「右鍵功能表」調整為 Windows 7 模式（by Silence）"/>
-    <String Target="登陆界面默认打开小键盘（by IT之家）" Link="登入介面預設開啟小鍵盤（by IT之家）"/>
+    <String Target="登陆界面默认打开小键盘（by IT之家）" Link="登入介面預設打開小鍵盤（by IT之家）"/>
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="禁用元件堆疊（Component Based Servicing）檔案備份"/>
-    <!--系統優化已經結束-->
+    <!--系统优化已经结束-->
 
-    <!--Dism++ 更新程序-->
+    <!--Dism++更新程序-->
     <String Target="发现新版本，需要更新 %d 个文件，约%s。&#x000D;&#x000A;&#x000D;&#x000A;更新日志：&#x000D;&#x000A;&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;确定要升级吗？"
-            Link="發現新版本，需要更新 %d 個檔案，約 %s。&#x000D;&#x000A;&#x000D;&#x000A;更新日誌：&#x000D;&#x000A;&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;您確定要更新嗎？"/>
+            Link="發現新版本，需要更新 %d 個文件，約 %s。&#x000D;&#x000A;&#x000D;&#x000A;更新日誌：&#x000D;&#x000A;&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;您確定要更新嗎？"/>
     <String Target="Dism++更新程序" Link="Dism++ 更新程式"/>
     <String Target="准备启动下载模块……&#x000D;&#x000A;" Link="準備下載模組……&#x000D;&#x000A;"/>
     <String Target="正在下载 - %d/%d" Link="正在下載 - %d/%d"/>
@@ -1008,17 +1008,17 @@
     <String Target="无法识别参数：%s" Link="無法識別參數：%s"/>
     <String Target="至少输入一个路径" Link="至少輸入一個路徑"/>
     <String Target="%s 路径无效" Link="%s 路徑無效"/>
-    <String Target="未正确识别到命令，以下是程序支持的所有命令：" Link="未正確識別命令，以下是程式支援的所有命令："/>
+    <String Target="未正确识别到命令，以下是程序支持的所有命令：" Link="未正確識別命令，以下是程式所支持的命令："/>
     <String Target="将一个文件夹或者文件进行Compact压缩：&#x000D;&#x000A;/C  { /exe [ xpress4k（默认、更佳性能） | xpress8k | xpress16k | lzx（更小体积） ] } Path"
-              Link="將一個資料夾或檔案進行 Compact 壓縮：&#x000D;&#x000A;/C  { /exe [ xpress4k（預設、較快） | xpress8k | xpress16k | lzx（最小體積） ] } Path"/>
+              Link="將一個資料夾或檔案進行Compact壓縮：&#x000D;&#x000A;/C  { /exe [ xpress4k（預設、較快） | xpress8k | xpress16k | lzx（最小體積） ] } Path"/>
     <String Target="将一个文件夹或者文件进行Compact解压缩&#x000D;&#x000A;/U Path"
-              Link="將一個資料夾或檔案進行 Compact 解壓縮&#x000D;&#x000A;/U Path"/>
+              Link="將一個資料夾或檔案進行Compact解壓縮&#x000D;&#x000A;/U Path"/>
     <String Target="/Image:&lt;path_to_image&gt;	- 指定特定 Windows 映像的根目录的路径。
 
 示例：
  Dism++x86.exe /Image:C:\ /?
  Dism++x86.exe /Image:&quot;D:\1213\&quot; /?"
-                Link="/Image:&lt;path_to_image&gt;	- 指定特定 Windows 映像的根目錄路徑。
+                Link="/Image:&lt;path_to_image&gt;	- 指定特定Windows映像的根目錄路徑。
 
 範例：
  Dism++x86.exe /Image:C:\ /?
@@ -1038,7 +1038,7 @@ Compact支持命令：
  Dism++x86.exe /C /?"
             Link="映像檔管理命令：
  /All	- 開啟全局對話
- /Image	- 指定特定 Windows 映像的根目錄路徑。
+ /Image	- 指定特定Windows映像的根目錄路徑。
 
 
 Compact supported command
@@ -1053,28 +1053,28 @@ Compact supported command
 
 示例：
  Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"
-            Link="/Plugin:&lt;Plugin_ID&gt;	- 此功能用於開啟某些插件支援的命令
+            Link="/Plugin:&lt;Plugin_ID&gt;	- 此功能用於開啟某些插件支持的命令
 
 例如:
  Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"/>
-    <String Target="可以使用以下命令来操作此映像：
+    <String Target="可以使用以下命令来操作此映：
 
 插件命令：
  /Plugin	- 启动特定插件（需要插件支持命令参数）"
-            Link="可以使用以下命令來操作此映像：
+            Link="可以使用以下命令來操作映像：
 
 Command:
- /Plugin	- 啟動特定插件 (需要插件支援命令參數)"/>
+ /Plugin	- 啟動特定插件 (需插件支持命令參數)"/>
     <String Target="正在压缩" Link="正在壓縮"/>
     <String Target="正在解压" Link="正在解壓縮"/>
     <String Target="操作完成！" Link="操作完成！"/>
     
     <!--系统还原-->
-    <String Target="当前模式不支持引导修复以及格式化分区，你需要重启并进入RE进行恢复么？" Link="目前模式不支持引導修復及格式化分區，您需要重啟並進入 RE，進行恢復嗎？"/>
+    <String Target="当前模式不支持引导修复以及格式化分区，你需要重启并进入RE进行恢复么？" Link="目前模式不支持引導修復及格式化分區，您需要重啟並進入RE，進行恢復嗎？"/>
     <String Target="正在格式化" Link="正在格式化"/>
     <String Target="格式化分区 %s 失败，错误代码：%d。" Link="格式化分區 %s 失敗，錯誤代碼：%d。"/>
     <String Target="正在刷新" Link="正在刷新"/>
-    <String Target="Dism++与此操作系统处于同一分区，无法进行格式化。" Link="Dism++ 與此作業系統處於同一分區，無法進行格式化。"/>
+    <String Target="Dism++与此操作系统处于同一分区，无法进行格式化。" Link="Dism++與此作業系統處於同一分區，無法進行格式化。"/>
 
     <!--重新载入-->
     <String Target="当前其他任务正在进行，请稍等……" Link="目前其他任務正在進行中，請稍後……"/>
@@ -1084,7 +1084,7 @@ Command:
     <String Target="分卷大小（MB）" Link="分區大小（MB）"/>
 
     <!--用户协议-->
-    <String Target="Dism++用户协议" Link="Dism++ 使用者協議"/>
+    <String Target="Dism++用户协议" Link="Dism++用戶協議"/>
     <String Target="这是一份法律性资料。" Link="這是一份法律性資料。"/>
     <String Target="接受" Link="接受"/>
     <String Target="不接受" Link="不接受"/>
@@ -1094,7 +1094,7 @@ Command:
     <!--清理项目条目映射-->
     <String Target="被取代的WinSxS组件" Link="被取代的 WinSxS 組件"/>
     <String Target="清理被取代的组件并减少组件存储的大小。" Link="清理被取代的元件並減少元件儲存的大小。"/>
-    <String Target="清理后将无法卸载更新，如果有卸载更新需求请勿使用此选项。" Link="清理後將無法移除更新，如果有移除更新需求請勿使用此選項。"/>
+    <String Target="清理后将无法卸载更新，如果有卸载更新需求请勿使用此选项。" Link="清理后将无法卸载更新，如果有卸载更新需求请勿使用此选项。"/>
 
     <String Target="被取代的WinSxS组件（非常慢）" Link="被取代的 WinSxS 組件（非常慢）"/>
 
@@ -1107,22 +1107,22 @@ Command:
     <String Target="某些文件被硬链接合并后可能导致相关功能无法正常使用。" Link="某些檔案被硬連結合併後，可能導致某些功能無法正常使用。"/>
 
     <String Target="CompactOs（较慢）" Link="CompactOs（較慢）"/>
-    <String Target="对单纯读取的文件进行哈夫曼压缩，在不影响性能的情况下，显著减少系统体积。特别感谢矿工以及所有Compact团队成员无私的支持与帮助。" Link="對單純讀取的檔案進行霍夫曼壓縮，在不影響效能的情況下，顯著減少系統容量。 特別感謝礦工以及所有 Compact 團隊成員無私的支援與幫助。"/>
+    <String Target="对单纯读取的文件进行哈夫曼压缩，在不影响性能的情况下，显著减少系统体积。特别感谢矿工以及所有Compact团队成员无私的支持与帮助。" Link="對單純讀取的檔案進行哈夫曼壓縮，在不影響效能的情況下，顯著減少系統體積。 特別感謝礦工以及所有 Compact 團隊成員無私的支援與幫助。"/>
     <String Target="使用后可能导致某些程序无法正常运行甚至让系统无法启动，如果使用后出现问题，可以在PE中点击 恢复功能-->撤销Compact。" Link="目前該功能僅供測試，使用後可能導致系統無法啟動，如果使用後無法啟動系統，可以在 PE 中點擊恢復功能，選擇撤銷 Compact。"/>
     <String Target="此功能与某些硬盘备份软件不兼容。如果使用后出现问题，可以点击 恢复功能-->撤销Compact。" Link="此功能與某些硬碟備份軟體不相容。如果使用後出現問題，可以點擊 恢復功能-->撤銷 Compact。"/>
 
     <String Target="过期Appx应用" Link="過期 Appx 應用"/>
-    <String Target="在Appx应用升级时，会留下老版本应用，该功能将删除那些不使用的老版本。" Link="在 Appx 應用升級時，會留下舊版本應用，該功能將刪除那些不使用的舊版本。"/>
+    <String Target="在Appx应用升级时，会留下老版本应用，该功能将删除那些不使用的老版本。" Link="在 Appx 應用升級時，會留下老版本應用，該功能將刪除那些不使用的老版本。"/>
     <String Target="少数用户报告称使用后无法打开Appx应用，需要重新安装Appx应用。" Link="少數使用者報告稱使用後無法開啟 Metro 應用，需要重新安裝 Appx 應用。"/>
 
     <String Target="系统自带Appx应用" Link="系統自帶 Appx 應用"/>
-    <String Target="此功能将移除所有系统自带Appx应用，移除后可以在Windows应用商店重新下载他们。" Link="此功能將移除所有系統自帶 Appx 應用，移除後可以在 Windows 應用商店重新下載他們。"/>
+    <String Target="此功能将移除所有系统自带Appx应用，移除后可以在Windows应用商店重新下载他们。" Link="此功能將移除所有系統自帶Appx應用，移除後可以在Windows應用商店重新下載他們。"/>
 
     <String Target="WinSxS临时文件" Link="WinSxS 暫存檔案"/>
-    <String Target="系统更新时在WinSxS里面产生的临时文件。" Link="系統更新時在 WinSxS 裡面產生的暫存檔案。"/>
+    <String Target="系统更新时在WinSxS里面产生的临时文件。" Link="系統更新時在WinSxS裡面產生的暫存檔案。"/>
 
-    <String Target="Windows日志（by chenyu、YukiSakura）" Link="Windows 日誌（by chenyu、YukiSakura）"/>
-    <String Target="Windows在运行时产生的日志。" Link="Windows 在執行時產生的日誌。"/>
+    <String Target="Windows日志（by chenyu、YukiSakura）" Link="Windows日誌（by chenyu、YukiSakura）"/>
+    <String Target="Windows在运行时产生的日志。" Link="Windows在執行時產生的日誌。"/>
 
     <String Target="Windows下载缓存" Link="Windows 下載快取"/>
     <String Target="Windows在下载更新以及更新Metro应用时会在这里产生临时安装包。" Link="Windows在下載更新以及更新Metro應用時會在這裡產生臨時安裝包。"/>
@@ -1153,16 +1153,16 @@ Command:
     <String Target="YY运行时产生的一些临时文件以及日志，建议定期删除。" Link="YY執行時產生的一些暫存檔案以及日誌，建議定期刪除。"/>
 
     <String Target="Installer基线缓存" Link="Installer基線快取"/>
-    <String Target="使用Installer技术的安装程序产生的缓存。" Link="使用 Installer 技術的安裝程式產生的快取。"/>
-    <String Target="可能导致卸载Office、VM等应用程序需要安装包。" Link="可能導致移除 Office、VM 等應用程式時，缺乏安裝包。"/>
+    <String Target="使用Installer技术的安装程序产生的缓存。" Link="使用Installer技術的安裝程式產生的快取。"/>
+    <String Target="可能导致卸载Office、VM等应用程序需要安装包。" Link="可能導致卸載Office、VM等應用程式時，缺乏安裝包。"/>
 
-    <String Target="Visual Studio安装源" Link="Visual Studio 安裝來源"/>
-    <String Target="安装Visual Studio后产生的安装源，如果不需要卸载VS可以考虑删除。" Link="安裝 Visual Studio 後產生的安裝來源，如果不需要移除VS可以考慮刪除。"/>
-    <String Target="清理后将无法卸载只能升级安装或者强行删除。" Link="清理後將無法移除只能升級安裝或者強行刪除。"/>
+    <String Target="Visual Studio安装源" Link="Visual Studio 安裝源"/>
+    <String Target="安装Visual Studio后产生的安装源，如果不需要卸载VS可以考虑删除。" Link="安裝 Visual Studio 後產生的安裝源，如果不需要卸載VS可以考慮刪除。"/>
+    <String Target="清理后将无法卸载只能升级安装或者强行删除。" Link="清理後將無法卸載只能升級安裝或者強行刪除。"/>
 
-    <String Target="Office安装源" Link="Office 安裝來源"/>
-    <String Target="安装Office后产生的安装源，如果不需要卸载Office可以考虑删除，删除后能正常安装Office更新。" Link="安裝 Office 後產生的安裝來源，如果不需要移除 Office 可以考慮刪除，刪除後能正常安裝Office更新。"/>
-    <String Target="清理后将无法卸载只能升级安装或者强行删除，Office 2007以下版本（包含）删除后还影响安装更新。" Link="清理後將無法移除，只能升級安裝或者強行刪除，Office 2007 以下版本（包含）刪除後還影響安裝更新。"/>
+    <String Target="Office安装源" Link="Office 安裝源"/>
+    <String Target="安装Office后产生的安装源，如果不需要卸载Office可以考虑删除，删除后能正常安装Office更新。" Link="安裝 Office 後產生的安裝源，如果不需要卸載 Office 可以考慮刪除，刪除後能正常安裝Office更新。"/>
+    <String Target="清理后将无法卸载只能升级安装或者强行删除，Office 2007以下版本（包含）删除后还影响安装更新。" Link="清理後將無法卸載，只能升級安裝或者強行刪除，Office 2007 以下版本（包含）刪除後還影響安裝更新。"/>
 
     <String Target="腾讯相关软件下载目录" Link="騰訊相關軟體下載目錄"/>
     <String Target="腾讯相关软件更新时会在此留下残留。" Link="騰訊相關軟體更新時會在此留下殘留。"/>
@@ -1188,25 +1188,25 @@ Command:
     <String Target="回收站" Link="資源回收筒"/>
     <String Target="用于存放用户手动删除的文件目录。" Link="用於存放使用者手動刪除的檔案目錄。"/>
 
-    <String Target="Office 365/2016安装源" Link="Office 365/2016 安裝來源"/>
-    <String Target="安装Office 365/2016后产生的安装源。" Link="安裝 Office 365/2016 後產生的安裝來源。"/>
-    <String Target="清理可能导致无法正常卸载Office。" Link="清理可能導致無法正常移除 Office。"/>
+    <String Target="Office 365/2016安装源" Link="Office 365/2016 安裝源"/>
+    <String Target="安装Office 365/2016后产生的安装源。" Link="安裝 Office 365/2016 後產生的安裝源。"/>
+    <String Target="清理可能导致无法正常卸载Office。" Link="清理可能導致無法正常卸載 Office。"/>
 
-    <String Target="苹果iTunes备份" Link="Apple iTunes 備份"/>
-    <String Target="苹果相关设备备份文件，比如通讯录、照片、视频等。" Link="Apple 相關裝置檔案備份，如通訊錄、照片、影片等。"/>
-    <String Target="请你确保暂时不需要使用恢复功能，如果你现在需要恢复苹果设备，请勿勾选此项目！" Link="請確認您不需要復原功能，如果您仍有需要復原 Apple 裝置，請勿勾選此項目！！"/>
+    <String Target="苹果iTunes备份" Link="蘋果Apple iTunes備份"/>
+    <String Target="苹果相关设备备份文件，比如通讯录、照片、视频等。" Link="蘋果相關設備文件備份，如通訊錄、照片、影片等。"/>
+    <String Target="请你确保暂时不需要使用恢复功能，如果你现在需要恢复苹果设备，请勿勾选此项目！" Link="請確認您不需要復原功能，如果您仍有需要復原蘋果設備，請勿勾選此項目！！"/>
 
     <String Target="硬链接备份" Link="硬連結備份"/>
     <String Target="硬链接合并功能留下的备份文件。" Link="硬連結合併留下的備份檔案。"/>
-    <String Target="请你确保硬链接合并后系统正常，删除此文件将导致硬链接合并操作无法回滚！" Link="請您確認硬連結合併後系統正常，若刪除此檔案，將導致硬連結合併無法復原操作！"/>
+    <String Target="请你确保硬链接合并后系统正常，删除此文件将导致硬链接合并操作无法回滚！" Link="請您確認硬連結合併後系統正常，若刪除此文件，將導致硬鏈合併無法回滾操作！"/>
 
-    <String Target="Windows事件" Link="Windows 事件"/>
+    <String Target="Windows事件" Link="Windows事件"/>
     <String Target="Windows在运行过程中产生的事件。" Link="Windows 在執行過程中產生的項目紀錄。"/>
 
-    <String Target="Dism++非必需文件" Link="Dism++ 非必須檔案"/>
-    <String Target="Dism++为了兼容各个环境，在完整包中存放了大量兼容性文件，以兼容各个平台。此功能可以根据当前环境自动删除不需要的文件。" Link="Dism++ 為了相容各式環境，在完整包中存放了大量相容性檔案，以相容各平台。此功能可以根據目前系統環境，自動刪除不必要檔案。"/>
+    <String Target="Dism++非必需文件" Link="Dism++非必須文件"/>
+    <String Target="Dism++为了兼容各个环境，在完整包中存放了大量兼容性文件，以兼容各个平台。此功能可以根据当前环境自动删除不需要的文件。" Link="Dism++為了相容各式環境，在完整包中存放了大量相容性文件檔案，以相容各平台。此功能可以根據目前系統環境，自動刪除不必要檔案。"/>
 
-    <String Target="软媒PC管家" Link="軟媒 PC 管家"/>
+    <String Target="软媒PC管家" Link="軟媒PC管家"/>
     <String Target="魔方守护以及魔方更新暂存目录，如果你不喜欢魔方守护可以考虑删除。" Link="魔方守護及其更新暫存目錄檔案，如果您不需要可以考慮刪除。"/>
 
     <String Target="给力助手" Link="給力助手"/>
@@ -1215,48 +1215,48 @@ Command:
     <String Target="迅雷游戏" Link="迅雷遊戲"/>
     <String Target="迅雷游戏安装后所在目录，一般人不需要此程序，可以考虑删除。" Link="迅雷遊戲安裝後所在目錄，一般人不需要程式，可以考慮刪除。"/>
 
-    <String Target="NET程序集缓存（by 大胖子技术员）" Link="NET 程式組件快取（by 大胖子技術員）"/>
-    <String Target="NET程序运行过程中产生的机器代码缓存文件，不建议频繁清理此条目。" Link="NET 程式執行過程中產生的機器代碼快取檔案，不建議頻繁清理此項目。"/>
+    <String Target="NET程序集缓存（by 大胖子技术员）" Link="NET程式組件快取（by 大胖子技术员）"/>
+    <String Target="NET程序运行过程中产生的机器代码缓存文件，不建议频繁清理此条目。" Link="NET程式執行過程中產生的機器代碼快取檔案，不建議頻繁清理此項目。"/>
 
-    <String Target="以前的Dism++组件" Link="以前的 Dism++ 元件"/>
-    <String Target="以前版本的Dism++使用的文件。" Link="以前版本的 Dism++ 使用的檔案。"/>
+    <String Target="以前的Dism++组件" Link="以前的Dism++元件"/>
+    <String Target="以前版本的Dism++使用的文件。" Link="以前版本的Dism++使用的檔。"/>
 
-    <String Target="360浏览器老版本备份" Link="360 瀏覽器舊版本備份"/>
-    <String Target="360浏览器在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="360瀏覽器在升級到新版本後留下的備份檔案，在故障時復原到舊版本。"/>
+    <String Target="360浏览器老版本备份" Link="360瀏覽器舊版本備份"/>
+    <String Target="360浏览器在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="360瀏覽器在升級到新版本後留下的備份檔案，在故障時回滾到老版本。"/>
 
     <String Target="阿里旺旺老版本备份" Link="阿里旺旺舊版本備份"/>
-    <String Target="阿里旺旺在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="阿里旺旺在升級到新版本後留下的備份檔案，在故障時復原到舊版本。"/>
+    <String Target="阿里旺旺在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="阿里旺旺在升級到新版本後留下的備份檔案，在故障時回滾到老版本。"/>
 
     <String Target="阿里亲淘老版本备份" Link="阿里親淘舊版本備份"/>
-    <String Target="阿里亲淘在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="阿里親淘升级到新版本后留下的备份文件，在故障时回滚到舊版本。"/>
+    <String Target="阿里亲淘在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="阿里親淘升级到新版本后留下的备份文件，在故障时回滚到老版本。"/>
 
     <String Target="会声会影素材存档" Link="會聲會影素材存檔"/>
     <String Target="会声会影使用过程中会在此目录产生存档，在不需要后可以删除。" Link="繪聲繪影使用過程中會在此目錄產生存檔，在不需要後可以刪除。"/>
-    <String Target="请确保所有编辑的视频已经保存！" Link="請確保所有編輯的視訊已經儲存！"/>
+    <String Target="请确保所有编辑的视频已经保存！" Link="請確保所有編輯的視頻已經儲存！"/>
 
     <String Target="Visual Studio智能跟踪（by LP）" Link="Visual Studio 智慧跟蹤（by LP）"/>
     <String Target="Visual Studio调试程序时留下的智能跟踪缓存。" Link="Visual Studio 偵錯工具時留下的智慧跟蹤快取。"/>
 
-    <String Target="系统以及程序崩溃dmp文件（by YukiSakura）" Link="系統以及程式當機 dmp 檔（by YukiSakura）"/>
-    <String Target="当系统蓝屏或者应用程序崩溃时产生的dmp文件。" Link="當系統藍色畫面或者應用程式當機時產生的 dmp 檔。"/>
+    <String Target="系统以及程序崩溃dmp文件（by YukiSakura）" Link="系統以及程式崩潰 dmp 檔（by YukiSakura）"/>
+    <String Target="当系统蓝屏或者应用程序崩溃时产生的dmp文件。" Link="當系統藍屏或者應用程式崩潰時產生的dmp檔。"/>
 
-    <String Target="瑞昱声卡驱动安装源缓存（by YukiSakura）" Link="瑞昱音效卡驅動安裝來源快取（by YukiSakura）"/>
-    <String Target="瑞昱声卡安装后留下的安装源缓存。" Link="瑞昱音效卡安裝後留下的安裝來源快取。"/>
-    <String Target="此条目可能影响瑞昱声卡驱动的卸载。" Link="此項目可能影響瑞昱音效卡驅動的移除。"/>
+    <String Target="瑞昱声卡驱动安装源缓存（by YukiSakura）" Link="瑞昱音效卡驅動安裝源快取（by YukiSakura）"/>
+    <String Target="瑞昱声卡安装后留下的安装源缓存。" Link="瑞昱音效卡安裝後留下的安裝源快取。"/>
+    <String Target="此条目可能影响瑞昱声卡驱动的卸载。" Link="此項目可能影響瑞昱音效卡驅動的卸載。"/>
 
-    <String Target="Java安装源缓存（by YukiSakura）" Link="Java 安裝來源快取（by YukiSakura）"/>
-    <String Target="Java安装后留下的安装源缓存。" Link="Java 安裝後留下的安裝來源快取。"/>
-    <String Target="此条目可能影响Java的卸载。" Link="此項目可能影響 Java 的移除。"/>
+    <String Target="Java安装源缓存（by YukiSakura）" Link="Java 安裝源快取（by YukiSakura）"/>
+    <String Target="Java安装后留下的安装源缓存。" Link="Java 安裝後留下的安裝源快取。"/>
+    <String Target="此条目可能影响Java的卸载。" Link="此項目可能影響 Java 的卸載。"/>
 
-    <String Target="Intel驱动安装源缓存（by YukiSakura）" Link="Intel 驅動安裝來源快取（by YukiSakura）"/>
-    <String Target="Intel驱动安装后留下的安装源缓存。" Link="Intel 驅動安裝後留下的安裝來源快取。"/>
-    <String Target="此条目可能影响Intel驱动的卸载。" Link="此項目可能影響 Intel 驅動的移除。"/>
+    <String Target="Intel驱动安装源缓存（by YukiSakura）" Link="Intel 驅動安裝源快取（by YukiSakura）"/>
+    <String Target="Intel驱动安装后留下的安装源缓存。" Link="Intel 驅動安裝後留下的安裝源快取。"/>
+    <String Target="此条目可能影响Intel驱动的卸载。" Link="此項目可能影響 Intel 驅動的卸載。"/>
 
-    <String Target="英伟达驱动安装源缓存（by YukiSakura）" Link="Nvidia 驅動安裝來源快取（by YukiSakura）"/>
-    <String Target="英伟达驱动安装后留下的安装源缓存。" Link="Nvidia 驅動安裝後留下的安裝來源快取。"/>
-    <String Target="此条目可能影响英伟达驱动的卸载。" Link="此項目可能影響 Nvidia 驅動的移除。"/>
+    <String Target="英伟达驱动安装源缓存（by YukiSakura）" Link="Nvidia 驅動安裝源快取（by YukiSakura）"/>
+    <String Target="英伟达驱动安装后留下的安装源缓存。" Link="Nvidia 驅動安裝後留下的安裝源快取。"/>
+    <String Target="此条目可能影响英伟达驱动的卸载。" Link="此項目可能影響 Nvidia 驅動的卸載。"/>
 
-    <String Target="Windows预读取文件（by 辰g.）" Link="Windows 預讀取檔（by 辰g.）"/>
+    <String Target="Windows预读取文件（by 辰g.）" Link="Windows預讀取檔（by 辰g.）"/>
     <String Target="用于加速下次程序启动速度，不建议频繁清理此条目。" Link="用於加速下次程式啟動速度，不建議頻繁清理此項目。"/>
 
     <String Target="Windows更新安装记录" Link="Windows 更新安裝記錄"/>
@@ -1264,33 +1264,33 @@ Command:
     <String Target="删除后更新历史记录将被清空。" Link="刪除後更新歷史記錄將被清空。"/>
 
     <String Target="Microsoft SQL Server更新缓存（by Honry、撕裂五维空间）" Link="Microsoft SQL Server 更新快取（by Honry、撕裂五维空间）"/>
-    <String Target="安装Microsoft SQL Server补丁残留的安装缓存。" Link="安裝 Microsoft SQL Server 更新檔殘留的安裝快取。"/>
+    <String Target="安装Microsoft SQL Server补丁残留的安装缓存。" Link="安裝 Microsoft SQL Server 補丁殘留的安裝快取。"/>
     <String Target="此条目最新添加，可能引发意外问题！" Link="此項目最新新增，可能引發意外問題！"/>
 
-    <String Target="Adobe Acrobat安装源缓存（by Honry）" Link="Adobe Acrobat 安裝來源快取（by Honry）"/>
+    <String Target="Adobe Acrobat安装源缓存（by Honry）" Link="Adobe Acrobat 安裝源快取（by Honry）"/>
     <String Target="安装Adobe Acrobat后留下的安装缓存。" Link="安裝 Adobe Acrobat 後留下的安裝快取。"/>
-    <String Target="删除此条目可能导致Adobe Acrobat无法正常卸载！" Link="刪除此項目可能導致 Adobe Acrobat 無法正常移除！"/>
+    <String Target="删除此条目可能导致Adobe Acrobat无法正常卸载！" Link="刪除此項目可能導致 Adobe Acrobat 無法正常卸載！"/>
 
     <String Target="小红伞临时文件" Link="Avira 小紅傘暫存檔案"/>
     <String Target="小红伞在自动升级过程中残留的临时文件。" Link="Avira 小紅傘在自動升級過程中殘留的暫存檔案。"/>
 
     <String Target="Chrome浏览器老版本备份（by Honry）" Link="Chrome 瀏覽器舊版本備份（by Honry）"/>
-    <String Target="Chrome浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Chrome 瀏覽器升級到新版本後留下的備份檔案，在故障時復原到舊版本。"/>
+    <String Target="Chrome浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Chrome 瀏覽器升級到新版本後留下的備份檔案，在故障時回滾到老版本。"/>
 
     <String Target="Microsoft .NET安装缓存（by 撕裂五维空间）" Link="Microsoft .NET 安裝快取（by 撕裂五维空间）"/>
-    <String Target="安装Microsoft .NET补丁残留的安装缓存。" Link="安裝 Microsoft .NET 更新後，殘留的暫存檔案。"/>
+    <String Target="安装Microsoft .NET补丁残留的安装缓存。" Link="安裝Microsoft .NET 更新後，殘留的暫存檔案。"/>
 
     <String Target="PPLive老版本备份（by 何超）" Link="PPlive 舊版本備份（by 何超）"/>
-    <String Target="PPLive在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="PPlive 在升級到新版本後留下的備份檔案，在故障時復原到舊版本。"/>
+    <String Target="PPLive在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="PPlive 在升级到新版本后留下的备份文件，在故障時回滾到舊版本。"/>
 
     <String Target="酷狗音乐老版本备份（by 何超）" Link="酷狗音樂舊版本備份（by 何超）"/>
-    <String Target="酷狗音乐在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="酷狗音樂在升級到新版本後留下的備份檔案，在故障時復原到舊版本（by 何超）"/>
+    <String Target="酷狗音乐在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="酷狗音樂在升级到新版本后留下的备份文件，在故障時回滾到舊版本（by 何超）"/>
 
     <String Target="2345拼音输入法老版本备份（by 何超）" Link="2345拼音輸入法舊版本備份（by 何超）"/>
-    <String Target="2345拼音输入法在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="2345拼音輸入法在升級到新版本後留下的備份檔案，在故障時復原到舊版本。"/>
+    <String Target="2345拼音输入法在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="2345拼音輸入法在升級到新版本後留下的備份檔案，在故障時回滾到舊版本。"/>
 
     <String Target="WPS老版本备份（by Rambin）" Link="WPS 舊版本備份（by Rambin）"/>
-    <String Target="WPS在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="WPS 在升級到新版本後留下的備份檔案，在故障時復原到舊版本。"/>
+    <String Target="WPS在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="WPS 在升級到新版本後留下的備份檔案，在故障時回滾到舊版本。"/>
 
     <String Target="系统还原点" Link="系統還原點"/>
     <String Target="先删除全部还原点，再创建一个新的还原点(当系统还原已启用时)" Link="先删除全部還原點，再建立一個新的還原點（當系統還原已啟用時）"/>
@@ -1305,8 +1305,8 @@ Command:
     <String Target="该项目清理WD，MSE，SCEP等微软系安软的无用文件" Link="該項目清理 WD，MSE，SCEP 等微軟系安軟的無用檔案"/>
 
     <String Target="Package Cache目录" Link="Package Cache 目錄"/>
-    <String Target="Package Cache目录存放以WIX为基础的安装程序的安装源" Link="Package Cache 目錄存放以 WIX 為基礎的安裝程式的安裝來源"/>
-    <String Target="清理后基于WIX的安装程序例如VS可以正常卸载；但升级、修复、增添组件需要联网或者备好安装镜像" Link="清理後基於 WIX 的安裝程式例如 VS 可以正常移除；但升級、修復、增添組件需要聯網或者備好安裝鏡像"/>
+    <String Target="Package Cache目录存放以WIX为基础的安装程序的安装源" Link="Package Cache 目錄存放以 WIX 為基礎的安裝程式的安裝源"/>
+    <String Target="清理后基于WIX的安装程序例如VS可以正常卸载；但升级、修复、增添组件需要联网或者备好安装镜像" Link="清理後基於 WIX 的安裝程式例如 VS 可以正常卸載；但升級、修復、增添組件需要聯網或者備好安裝鏡像"/>
 
     <String Target="WebPI缓存" Link="WebPI 快取"/>
     <String Target="Web平台安装程序的缓存" Link="Web 平台安裝程式的快取"/>
@@ -1338,19 +1338,19 @@ Command:
     <String Target="英伟达驱动安装包（by Ailick）" Link="Nvidia 驅動安裝程式（by Ailick）"/>
     <String Target="Nvidia Geforce Experience更新程序时产生的安装包。" Link="Nvidia Geforce Experience 更新程式時產生的安裝包。"/>
     
-    <String Target="新版Visual Studio安装源缓存" Link="新版 Visual Studio 安裝來源緩存"/>
-    <String Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="該專案清理 Visual Studio 2017 及以後版本的安裝來源"/>
+    <String Target="新版Visual Studio安装源缓存" Link="新版 Visual Studio 安裝源緩存"/>
+    <String Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="該專案清理 Visual Studio 2017 及以後版本的安裝源"/>
     <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="清理後升級、修復、增添組件、解除安裝 Visual Studio 2017 及之後的版本需要連網"/>
   </StringMaps>
   <MessageTable>
     <x800F0806>一個或多個更新執行中，請重啟後繼續。</x800F0806>
-    <x800F081F>Dism++ 找不到安裝來源，如果您需要開啟 NET 3.5，請掛載 ISO 然後繼續。如果您需要修復 Windows，建議您嘗試在選項-詳細設定中，設定好本機來源。如果還是失敗，建議您使用修復安裝。</x800F081F>
+    <x800F081F>Dism++ 找不到安裝源，如果您需要開啟 NET 3.5，請掛載 ISO 然後繼續。如果您需要修復 Windows，建議您嘗試在選項-詳細設定中，設定好本地來源。如果還是失敗，建議您使用修復安裝。</x800F081F>
     <x80073703>作業系統被嚴重精簡，Dism++ 無法繼續操作。</x80073703>
     <x800F0830>作業系統被嚴重精簡，請放棄此系統，重新選擇或重新安裝。</x800F0830>
-    <x800F0825>此更新已經被固化。因此無法移除此套裝程式。</x800F0825>
+    <x800F0825>此更新已經被固化。因此無法卸載此套裝程式。</x800F0825>
     <x800F082E>此更新不支援添加到離線系統，請啟動目標系統，進行線上新增。</x800F082E>
     <x800F082F>目前系統存在獨佔的掛起操作，請啓動系統，應用掛起後再進行其他操作。</x800F082F>
-    <x000F0801>Dism++ 處於繁忙狀態，可能是其他程式正在執行任務，請稍後再試。</x000F0801>
+    <x000F0801>Dism++處於繁忙狀態，可能是其他程式正在執行任務，請稍後再試。</x000F0801>
 
     <xA0020001>僅支援微軟線上提供的 ESD 檔轉換為 ISO 檔案。</xA0020001>
     <xA0020002>已經清理部分，如需完整清理請升級到 Windows 8.1 然後繼續。</xA0020002>
@@ -1360,12 +1360,12 @@ Command:
     <xA0020006>目前系統不包含 Wow64 支援，無法離線處理非 x64 系統。</xA0020006>
     <xA0020007>指定體系的 CBSHost.dll 不存在，請確保 Dism++ 的完整性。</xA0020007>
     <xA0020008>作業系統遺失 rundll32.exe，Dism++ 無法正常執行。</xA0020008>
-    <xA0020009>Dism++ 對話當機，建議將程式目錄的 "CBSHost_*.dmp" 壓縮後發送給小鴨子（mingkuang@live.com）協助解決此問題。</xA0020009>
-    <xA002000A>Dism++ 發現一些相容性問題，請先為目前系統安裝更新 KB960037，然後繼續。</xA002000A>
+    <xA0020009>Dism++會話崩潰，建議將程式目錄的 "CBSHost_*.dmp" 壓縮後發送給小鴨子（mingkuang@live.com）協助解決此問題。</xA0020009>
+    <xA002000A>Dism++發現一些相容性問題，請先為目前系統安裝更新KB960037，然後繼續。</xA002000A>
 
     <x20020001>目前映射不存在預設檔關聯配置，無法匯出。</x20020001>
-    <x20020002>Dism++ 發現已知相容性問題，Host 至少為 Windows 8/2012 才能正常處理此系統。如果你繼續在低版本 Host 中處理，打開關閉功能、添加刪除更新均可能出現意外失敗。</x20020002>
-    <x20020003>Dism++ 發現已知相容性問題，映射路徑存在非英文字元可能導致安裝更新失敗，請在全英文路徑重新掛載此映射，比如“D:\Mount”。</x20020003>
+    <x20020002>Dism++發現已知相容性問題，Host至少為Windows 8/2012才能正常處理此系統。如果你繼續在低版本Host中處理，打開關閉功能、添加刪除更新均可能出現意外失敗。</x20020002>
+    <x20020003>Dism++發現已知相容性問題，映射路徑存在非英文字元可能導致安裝更新失敗，請在全英文路徑重新掛載此映射，比如“D:\Mount”。</x20020003>
 
     <xC1440136>未載入 wofadk 驅動程式，請在選項 - 詳細設定 中勾選 載入wofadk驅動程式，然後繼續。</xC1440136>
     <xC144013B>未載入 wofadk 驅動程式，請在選項 - 詳細設定 中勾選 載入wofadk驅動程式，然後繼續。</xC144013B>
@@ -1391,32 +1391,32 @@ Command:
     <xC1420108>檔案系統容器嘗試插入檔名兩次。這是不正確的，WIM 服務在每個檔名只會接收一個通知。</xC1420108>
     <xC1420109>服務收到來自篩選器的不正確訊息。將不會處理這個訊息。</xC1420109>
     <xC142010A>服務收到解壓縮的檔案，但該檔案不在掛接的映像中。將會略過此解壓縮檔案。</xC142010A>
-    <xC142010B>嘗試移除未掛接的目錄。</xC142010B>
+    <xC142010B>嘗試卸載未掛接的目錄。</xC142010B>
     <xC142010C>嘗試認可具有唯讀權限的掛接映像。這是不正確的。若要認可映像，則掛接映像時不可設定唯讀旗標。</xC142010C>
     <xC142010E>對解壓縮處理程序指定了不存在的掛接目錄。解壓縮處理程序開始之前，映像必須已完成虛設常式操作。</xC142010E>
     <xC142010F>傳遞了不正確的控制代碼給映像管理員。這是程式設計錯誤。</xC142010F>
-    <xC1420110>未使用指定的映像控制代碼來掛接映像，因而無法使用此控制代碼來移除。請搭配掛接目錄的名稱來呼叫 WIMUnmountImage，以移除您的映像。</xC1420110>
+    <xC1420110>未使用指定的映像控制代碼來掛接映像，因而無法使用此控制代碼來卸載。請搭配掛接目錄的名稱來呼叫 WIMUnmountImage，以卸載您的映像。</xC1420110>
     <xC1420111>找不到符合指定掛接資料的映像。</xC1420111>
-    <xC1420112>無法移除映像，因為掛接目錄中的檔案仍在使用中。</xC1420112>
+    <xC1420112>無法卸載映像，因為掛接目錄中的檔案仍在使用中。</xC1420112>
     <xC1420113>使用者嘗試掛接到已包含掛接映像的目錄。不支援此操作。</xC1420113>
     <xC1420114>使用者嘗試掛接的目錄不是空的。不支援此操作。</xC1420114>
     <xC1420115>使用者嘗試掛接的目錄不存在。不支援此操作。</xC1420115>
     <xC1420116>已傳遞不正確的映像控制代碼給 WIMUnmountImageHandle。只有傳遞給 WIMMountImageHandle 的映像控制代碼或從 WIMGetMountedImageHandle 抓取的映像控制代碼可以用於 WIMUnmountImageHandle。</xC1420116>
-    <xC1420117>無法完全移除目錄。這通常是因為掛接目錄內仍有應用程式開啟的檔案。請關閉這些檔案，然後再次移除以完成移除處理程序。</xC1420117>
+    <xC1420117>無法完全卸載目錄。這通常是因為掛接目錄內仍有應用程式開啟的檔案。請關閉這些檔案，然後再次卸載以完成卸載處理程序。</xC1420117>
     <xC1420118>掛接的映像已在使用中。請確定該映像並非由其他處理程序所掛接。</xC1420118>
     <xC1420119>找不到 wimserv.exe 二進位檔。請確定該檔案位於系統搜尋路徑中。</xC1420119>
     <xC142011A>等候初始化 wimmount 解壓縮器處理程序時，Imagex 逾時。</xC142011A>
     <xC142011B>wimmount 服務關閉，但沒有傳回狀態。</xC142011B>
     <xC142011C>指定的目錄不是正確的掛接目錄。</xC142011C>
-    <xC142011D>無法認可指定的掛接映像以回復至 WIM。當您移除部分映像或映像仍處於掛接狀態時，就會發生這種情況。如果先前已認可移除此映像，則該認可應該會成功。請確認是這種情況，然後在沒有認可的情況下移除映像。</xC142011D>
+    <xC142011D>無法認可指定的掛接映像以回復至 WIM。當您卸載部分映像或映像仍處於掛接狀態時，就會發生這種情況。如果先前已認可卸載此映像，則該認可應該會成功。請確認是這種情況，然後在沒有認可的情況下卸載映像。</xC142011D>
     <xC142011E>指定映像的掛接目錄已經變更。會解壓縮此映像中的所有檔案，但無法認可此映像。</xC142011E>
     <xC142011F>指定掛接路徑的磁碟區不支援重新分析點。請掛接至支援重新分析點的磁碟區。</xC142011F>
     <xC1420120>指定的目錄包含損毀的掛接映像。無法在此目錄執行任何掛接操作。</xC1420120>
     <xC1420121>無法掛接映像，因為這部電腦上未安裝 wimmount.sys 驅動程式。若要修正此錯誤，請安裝 wimmount.sys 驅動程式。</xC1420121>
     <xC1420122>無法認可掛接的映像，因為 wim 中的映像在掛接後已被修改。</xC1420122>
-    <xC1420123>無法重新掛接指定的目錄，因為該目錄不是正確的重新掛接目標。最可能造成目錄不正確的原因是該目錄已被移除。</xC1420123>
+    <xC1420123>無法重新掛接指定的目錄，因為該目錄不是正確的重新掛接目標。最可能造成目錄不正確的原因是該目錄已被卸載。</xC1420123>
     <xC1420124>無法重新掛接指定的目錄，因為 wim 中的映像在掛接後已被修改。</xC1420124>
-    <xC1420125>無法重新掛接指定的目錄，因為正在移除該目錄。</xC1420125>
+    <xC1420125>無法重新掛接指定的目錄，因為正在卸載該目錄。</xC1420125>
     <xC1420126>指定的映像已掛接，且無法重新掛接。</xC1420126>
     <xC1420127>已掛接指定 wim 中的指定映像以提供讀取/寫入權限。</xC1420127>
     <xC1420128>未以正確的存取層級開啟指定的映像控制代碼。為了掛接映像控制代碼，控制代碼必須具有 WIM_GENERIC_MOUNT 存取權。</xC1420128>
