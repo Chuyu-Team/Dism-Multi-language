@@ -234,7 +234,7 @@ Thanks: Vasiliy Nasonov, 4epHRk, virus, Vladimir, ZT
     <String Target="关于Dism++" Link="О Dism++"/>
     <String Target="Dism++正在执行任务，你确定要关闭程序么？" Link="Выполняется ранее выбранное задание. Вы уверены, что хотите закрыть программу?"/>
     <String Target="正在检查更新" Link="Проверка обновления"/>
-    <String Target="正在加载插件" Link="загрузка дополнения"/>
+    <String Target="正在加载插件" Link="Загрузка дополнения"/>
     <String Target="正在扫描已安装的系统" Link="Анализ установленной системы"/>
     <String Target="已经是最新版本，无需更新！" Link="Вы используете последнюю версию, обновление не требуется."/>
     <String Target="正在修复挂载映像" Link="Переподключение образа"/>
