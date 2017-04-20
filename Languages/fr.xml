@@ -240,6 +240,25 @@ Special Thanks to JP.Sudrets(jp.sudret@wanadoo.fr)
     <String Target="正在修复挂载映像" Link="Image remontée"/>
     <String Target="正在取消现有任务，请稍等……" Link="Annulation des tâches en cours, veuillez patienter …"/>
     <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="L'image montée de %s est endommagée, elle doit être réparée avant de continuer. Voulez-vous réparer l'image maintenant?"/>
+    <String Target="即将重启以下程序 %s，你确定要继续吗？" Link="Pour redémarrer le programme suivant% s, Etre sûr pour le faire?"/>
+    <String Target="资源管理器" Link="Explorateur"/>
+
+    <!--欢迎页-->
+    <String Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。"
+            Link="Le premier développement dans le monde de Dism GUI basé sur CBS!"/>
+
+    <String Target="官方网站" Link="Site Officiel"/>
+    <String Target="QQ群" Link="QQ Groupe"/>
+
+    <String Target="帮助与支持" Link="Support"/>
+    <String Target="初雨开源" Link="Sources ouvertes"/>
+    <String Target="问题反馈" Link="Retour d'information"/>
+    <String Target="帮助文档" Link="Document"/>
+
+    <String Target="致谢" Link="Merci"/>
+    <String Target="翻译人员" Link="Traducteur"/>
+    <String Target="赞助名单" Link="Parrainer"/>
+    <String Target="第三方库" Link="Bibliothèque Tierce"/>
 
     <!--添加映像-->
     <String Target="请输入映像存放目录" Link="Veuiller entrer le chemin d’accès de l’image"/>
@@ -967,6 +986,10 @@ Examples:
     <String Target="隐藏NTFS蓝色双箭头压缩标识（by IT之家）" Link="Cacher la compression NTFS icône double flèche bleue (par IT Home)"/>
     <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="Masquer le bouton Aide sur la barre de langues ( par Hell Cabrite )"/>
     <String Target="Windows 7体验" Link="Expérience de Windows 7"/>
+    <String Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="La mise à jour de Windows ne comprend pas les outils de suppression de logiciels malveillants (par Winaero)"/>
+    <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Changer &quot;menu click droit&quot; en mode Windows 7 (par Silence)"/>
+    <String Target="登陆界面默认打开小键盘（by IT之家）" Link="Activer le clavier lors de la connexion (par ITHome)"/>
+    <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Désactiver la sauvegarde de CBS (Component Based Servicing)"/>
     <!--系统优化已经结束-->
   
     <!--Dism++更新程序-->
@@ -1316,6 +1339,10 @@ Command:
 
     <String Target="英伟达驱动安装包（by Ailick）" Link="package d'installation du pilote nVidia (par Ailick)"/>
     <String Target="Nvidia Geforce Experience更新程序时产生的安装包。" Link="nVidia Geforce Expérience génère ce package d'installation lors de la mise à jour des programmes."/>
+
+    <String Target="新版Visual Studio安装源缓存" Link="Nouveau cache d'installation source de Visual Studio"/>
+    <String Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="Nettoyer Visual Studio 2017 et versions ultérieures de l'installation source."/>
+    <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="Après le nettoyage, la mise à niveau, la correction, l'ajout de composants et la désinstallation doivent être en réseau (Visual Studio 2017 et versions ultérieures)."/>
   </StringMaps>
   <MessageTable>
     <x800F0806>One or more updates are pending, please restart and then continue.</x800F0806>
@@ -1340,6 +1367,7 @@ Command:
 
     <x20020001>No default file association configuration in current image. Cannot export.</x20020001>
     <x20020002>Known compatibility problem found. Host should be at least Windows 8/2012 to handle this. If you continue working in lower versions' host, functions like open, close, add, delete, update may not work properly.</x20020002>
+    <x20020003>Dism++ a trouvé un problème de compatibilité, le chemin de l'image existe mais les caractères non ASCII peuvent provoquer l'échec de l'installation de la mise à jour , veuillez recharger l'image dans le chemin ASCII complet, tel que "D:\Mount".</x20020003>
 
     <xC1440136>Driver (Wofadk.sys) not loaded. Please tick "Load wofadk" in Options - More settings to continue.</xC1440136>
     <xC144013B>Driver (Wofadk.sys) not loaded. Please tick "Load wofadk" in Options - More settings to continue.</xC144013B>

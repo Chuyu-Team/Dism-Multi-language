@@ -190,7 +190,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
+    <None Include="www.chuyu.me\404.html" />
     <None Include="www.chuyu.me\Base.html" />
+    <None Include="www.chuyu.me\Document\index.html" />
     <None Include="www.chuyu.me\index.html" />
     <None Include="www.chuyu.me\zh-Hans\Document.html" />
     <None Include="www.chuyu.me\zh-Hans\library\$navigation.md" />
@@ -203,41 +205,34 @@
     <None Include="www.chuyu.me\zh-Hans\library\Dism2Dism++.md" />
     <None Include="www.chuyu.me\zh-Hans\library\Quickstart.md" />
     <None Include="www.chuyu.me\zh-Hans\library\start.md" />
-    <None Include="www\css\style.css" />
-    <None Include="www\Document\index.html" />
-    <None Include="www\images\COPYRIGHT.svg" />
-    <None Include="www\images\index.html" />
-    <None Include="www\images\windows.svg" />
-    <None Include="www\index.html" />
-    <None Include="www\json\data.json" />
-    <None Include="www\json\en.json" />
-    <None Include="www\json\ja.json" />
-    <None Include="www\json\zh-Hans.json" />
-    <None Include="www\json\zh-Hant.json" />
+    <None Include="www.chuyu.me\zh-Hans\log.html" />
+    <None Include="www.chuyu.me\zh-Hant\Document.html" />
+    <None Include="www.chuyu.me\zh-Hant\library\$navigation.md" />
+    <None Include="www.chuyu.me\zh-Hant\library\Best\使用Dism++安装系统.md" />
+    <None Include="www.chuyu.me\zh-Hant\library\Best\给ISO离线集成补丁.md" />
+    <None Include="www.chuyu.me\zh-Hant\library\Dism++Library\术语.md" />
+    <None Include="www.chuyu.me\zh-Hant\library\Dism++Library\自定义规则.md" />
+    <None Include="www.chuyu.me\zh-Hant\library\Dism++Library\规则结构参考.md" />
+    <None Include="www.chuyu.me\zh-Hant\library\Dism++Library\隐藏功能.md" />
+    <None Include="www.chuyu.me\zh-Hant\library\Dism2Dism++.md" />
+    <None Include="www.chuyu.me\zh-Hant\library\Quickstart.md" />
+    <None Include="www.chuyu.me\zh-Hant\library\start.md" />
+    <None Include="www.chuyu.me\zh-Hant\log.html" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="HeplerDism.md" />
     <Text Include="ThirdParty.md" />
-    <Text Include="www\robots.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="www\images\antivirus-antimalware-large.png" />
-    <Image Include="www\images\avast-software-smaller-white.png" />
-    <Image Include="www\images\blank.gif" />
-    <Image Include="www\images\blank.png" />
-    <Image Include="www\images\browser-cleanup-large.png" />
-    <Image Include="www\images\favicon.ico" />
-    <Image Include="www\images\favicon.old.ico" />
-    <Image Include="www\images\hns-large.png" />
-    <Image Include="www\images\icon-social.png" />
-    <Image Include="www\images\icon-sprite-header-100px.png" />
-    <Image Include="www\images\icons-sprite-nav-orange.png" />
-    <Image Include="www\images\icons-sprite-nav.png" />
-    <Image Include="www\images\logo.png" />
-    <Image Include="www\images\password-manager-large.png" />
-    <Image Include="www\images\remote-assistance-large.png" />
-    <Image Include="www\images\slide-top.png" />
-    <Image Include="www\images\smart-scan-large.png" />
+    <Image Include="www.chuyu.me\zh-Hant\images\ApplyUUPESD.png" />
+    <Image Include="www.chuyu.me\zh-Hant\images\ApplyWIMBoot.png" />
+    <Image Include="www.chuyu.me\zh-Hant\images\CompactOS.png" />
+    <Image Include="www.chuyu.me\zh-Hant\images\ExportWIMBoot.png" />
+    <Image Include="www.chuyu.me\zh-Hant\images\InstallUpdates.png" />
+    <Image Include="www.chuyu.me\zh-Hant\images\ISOInstallOS.png" />
+    <Image Include="www.chuyu.me\zh-Hant\images\OpenSession.png" />
+    <Image Include="www.chuyu.me\zh-Hant\images\SaveISO.png" />
+    <Image Include="www.chuyu.me\zh-Hant\images\ScanUpdates.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

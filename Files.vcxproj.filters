@@ -16,24 +16,6 @@
     <Filter Include="资源文件\Languages">
       <UniqueIdentifier>{cd722528-f49b-457a-aba3-32d4549b07e9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="资源文件\www">
-      <UniqueIdentifier>{edb35472-f934-4a94-a396-87252784ee73}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="资源文件\www\css">
-      <UniqueIdentifier>{0546afa1-646a-4a78-9c3c-53c306a8f70c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="资源文件\www\images">
-      <UniqueIdentifier>{a53560c5-5d05-4711-a445-9495a16db26a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="资源文件\www\json">
-      <UniqueIdentifier>{9e3d05a8-16ad-4dd7-8e1b-7c3f819ea96b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="资源文件\www\Document">
-      <UniqueIdentifier>{d16abd73-9ab4-4ea1-a21b-b9cd19f19dd8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="资源文件\www\Document\library">
-      <UniqueIdentifier>{4ae149dc-7eb8-456b-a6e6-6c424d90d781}</UniqueIdentifier>
-    </Filter>
     <Filter Include="资源文件\www.chuyu.me">
       <UniqueIdentifier>{e83283db-1f15-4b13-bfe7-460eadb82b59}</UniqueIdentifier>
     </Filter>
@@ -48,6 +30,24 @@
     </Filter>
     <Filter Include="资源文件\www.chuyu.me\zh-Hans\library\最佳实践">
       <UniqueIdentifier>{004aeda6-08c8-4520-9d6d-387eeea2dae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\www.chuyu.me\zh-Hant">
+      <UniqueIdentifier>{404c5e48-3deb-4543-9170-206a8fd1e8da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\www.chuyu.me\zh-Hant\images">
+      <UniqueIdentifier>{50116294-e387-4f7f-9fec-09b918857366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\www.chuyu.me\zh-Hant\library">
+      <UniqueIdentifier>{73230ae3-3b62-417f-982a-07753f37425e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\www.chuyu.me\zh-Hant\library\Best">
+      <UniqueIdentifier>{daf2ebbf-23a9-48b1-8d98-cd3160843744}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\www.chuyu.me\zh-Hant\library\Dism++Library">
+      <UniqueIdentifier>{4c117535-4654-4d02-89ec-706c8975472e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\www.chuyu.me\Document">
+      <UniqueIdentifier>{c9d1d6d6-01e6-4270-a0c9-89a742e4561b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -110,41 +110,8 @@
     </Xml>
   </ItemGroup>
   <ItemGroup>
-    <None Include="www\index.html">
-      <Filter>资源文件\www</Filter>
-    </None>
-    <None Include="www\css\style.css">
-      <Filter>资源文件\www\css</Filter>
-    </None>
-    <None Include="www\images\COPYRIGHT.svg">
-      <Filter>资源文件\www\images</Filter>
-    </None>
-    <None Include="www\images\index.html">
-      <Filter>资源文件\www\images</Filter>
-    </None>
-    <None Include="www\images\windows.svg">
-      <Filter>资源文件\www\images</Filter>
-    </None>
-    <None Include="www\json\en.json">
-      <Filter>资源文件\www\json</Filter>
-    </None>
-    <None Include="www\json\ja.json">
-      <Filter>资源文件\www\json</Filter>
-    </None>
-    <None Include="www\json\zh-Hans.json">
-      <Filter>资源文件\www\json</Filter>
-    </None>
-    <None Include="www\json\zh-Hant.json">
-      <Filter>资源文件\www\json</Filter>
-    </None>
     <None Include="README.md">
       <Filter>资源文件</Filter>
-    </None>
-    <None Include="www\Document\index.html">
-      <Filter>资源文件\www\Document</Filter>
-    </None>
-    <None Include="www\json\data.json">
-      <Filter>资源文件\www\json</Filter>
     </None>
     <None Include="www.chuyu.me\Base.html">
       <Filter>资源文件\www.chuyu.me</Filter>
@@ -185,11 +152,53 @@
     <None Include="www.chuyu.me\zh-Hans\library\Dism++Library\规则结构参考.md">
       <Filter>资源文件\www.chuyu.me\zh-Hans\library\Dism++Library</Filter>
     </None>
+    <None Include="www.chuyu.me\zh-Hans\log.html">
+      <Filter>资源文件\www.chuyu.me\zh-Hans</Filter>
+    </None>
+    <None Include="www.chuyu.me\zh-Hant\Document.html">
+      <Filter>资源文件\www.chuyu.me\zh-Hant</Filter>
+    </None>
+    <None Include="www.chuyu.me\zh-Hant\log.html">
+      <Filter>资源文件\www.chuyu.me\zh-Hant</Filter>
+    </None>
+    <None Include="www.chuyu.me\zh-Hant\library\$navigation.md">
+      <Filter>资源文件\www.chuyu.me\zh-Hant\library</Filter>
+    </None>
+    <None Include="www.chuyu.me\zh-Hant\library\Dism2Dism++.md">
+      <Filter>资源文件\www.chuyu.me\zh-Hant\library</Filter>
+    </None>
+    <None Include="www.chuyu.me\zh-Hant\library\Quickstart.md">
+      <Filter>资源文件\www.chuyu.me\zh-Hant\library</Filter>
+    </None>
+    <None Include="www.chuyu.me\zh-Hant\library\start.md">
+      <Filter>资源文件\www.chuyu.me\zh-Hant\library</Filter>
+    </None>
+    <None Include="www.chuyu.me\zh-Hant\library\Best\给ISO离线集成补丁.md">
+      <Filter>资源文件\www.chuyu.me\zh-Hant\library\Best</Filter>
+    </None>
+    <None Include="www.chuyu.me\zh-Hant\library\Best\使用Dism++安装系统.md">
+      <Filter>资源文件\www.chuyu.me\zh-Hant\library\Best</Filter>
+    </None>
+    <None Include="www.chuyu.me\zh-Hant\library\Dism++Library\规则结构参考.md">
+      <Filter>资源文件\www.chuyu.me\zh-Hant\library\Dism++Library</Filter>
+    </None>
+    <None Include="www.chuyu.me\zh-Hant\library\Dism++Library\术语.md">
+      <Filter>资源文件\www.chuyu.me\zh-Hant\library\Dism++Library</Filter>
+    </None>
+    <None Include="www.chuyu.me\zh-Hant\library\Dism++Library\隐藏功能.md">
+      <Filter>资源文件\www.chuyu.me\zh-Hant\library\Dism++Library</Filter>
+    </None>
+    <None Include="www.chuyu.me\zh-Hant\library\Dism++Library\自定义规则.md">
+      <Filter>资源文件\www.chuyu.me\zh-Hant\library\Dism++Library</Filter>
+    </None>
+    <None Include="www.chuyu.me\Document\index.html">
+      <Filter>资源文件\www.chuyu.me\Document</Filter>
+    </None>
+    <None Include="www.chuyu.me\404.html">
+      <Filter>资源文件\www.chuyu.me</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="www\robots.txt">
-      <Filter>资源文件\www</Filter>
-    </Text>
     <Text Include="ThirdParty.md">
       <Filter>资源文件</Filter>
     </Text>
@@ -198,56 +207,32 @@
     </Text>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="www\images\antivirus-antimalware-large.png">
-      <Filter>资源文件\www\images</Filter>
+    <Image Include="www.chuyu.me\zh-Hant\images\ApplyUUPESD.png">
+      <Filter>资源文件\www.chuyu.me\zh-Hant\images</Filter>
     </Image>
-    <Image Include="www\images\avast-software-smaller-white.png">
-      <Filter>资源文件\www\images</Filter>
+    <Image Include="www.chuyu.me\zh-Hant\images\ApplyWIMBoot.png">
+      <Filter>资源文件\www.chuyu.me\zh-Hant\images</Filter>
     </Image>
-    <Image Include="www\images\blank.gif">
-      <Filter>资源文件\www\images</Filter>
+    <Image Include="www.chuyu.me\zh-Hant\images\CompactOS.png">
+      <Filter>资源文件\www.chuyu.me\zh-Hant\images</Filter>
     </Image>
-    <Image Include="www\images\blank.png">
-      <Filter>资源文件\www\images</Filter>
+    <Image Include="www.chuyu.me\zh-Hant\images\ExportWIMBoot.png">
+      <Filter>资源文件\www.chuyu.me\zh-Hant\images</Filter>
     </Image>
-    <Image Include="www\images\browser-cleanup-large.png">
-      <Filter>资源文件\www\images</Filter>
+    <Image Include="www.chuyu.me\zh-Hant\images\InstallUpdates.png">
+      <Filter>资源文件\www.chuyu.me\zh-Hant\images</Filter>
     </Image>
-    <Image Include="www\images\favicon.ico">
-      <Filter>资源文件\www\images</Filter>
+    <Image Include="www.chuyu.me\zh-Hant\images\ISOInstallOS.png">
+      <Filter>资源文件\www.chuyu.me\zh-Hant\images</Filter>
     </Image>
-    <Image Include="www\images\favicon.old.ico">
-      <Filter>资源文件\www\images</Filter>
+    <Image Include="www.chuyu.me\zh-Hant\images\OpenSession.png">
+      <Filter>资源文件\www.chuyu.me\zh-Hant\images</Filter>
     </Image>
-    <Image Include="www\images\hns-large.png">
-      <Filter>资源文件\www\images</Filter>
+    <Image Include="www.chuyu.me\zh-Hant\images\SaveISO.png">
+      <Filter>资源文件\www.chuyu.me\zh-Hant\images</Filter>
     </Image>
-    <Image Include="www\images\icon-social.png">
-      <Filter>资源文件\www\images</Filter>
-    </Image>
-    <Image Include="www\images\icon-sprite-header-100px.png">
-      <Filter>资源文件\www\images</Filter>
-    </Image>
-    <Image Include="www\images\icons-sprite-nav.png">
-      <Filter>资源文件\www\images</Filter>
-    </Image>
-    <Image Include="www\images\icons-sprite-nav-orange.png">
-      <Filter>资源文件\www\images</Filter>
-    </Image>
-    <Image Include="www\images\logo.png">
-      <Filter>资源文件\www\images</Filter>
-    </Image>
-    <Image Include="www\images\password-manager-large.png">
-      <Filter>资源文件\www\images</Filter>
-    </Image>
-    <Image Include="www\images\remote-assistance-large.png">
-      <Filter>资源文件\www\images</Filter>
-    </Image>
-    <Image Include="www\images\slide-top.png">
-      <Filter>资源文件\www\images</Filter>
-    </Image>
-    <Image Include="www\images\smart-scan-large.png">
-      <Filter>资源文件\www\images</Filter>
+    <Image Include="www.chuyu.me\zh-Hant\images\ScanUpdates.png">
+      <Filter>资源文件\www.chuyu.me\zh-Hant\images</Filter>
     </Image>
   </ItemGroup>
 </Project>

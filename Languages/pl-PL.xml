@@ -235,12 +235,31 @@ Thanks: WinClub.pl(romuald68@gmail.com)
     <String Target="正在检查更新" Link="Sprawdzanie aktualizacji..."/>
     <String Target="正在加载插件" Link="Ładowanie wtyczek"/>
     <String Target="正在扫描已安装的系统" Link="Skanowanie zainstalowanego systemu"/>
-	<String Target="已经是最新版本，无需更新！" Link="Posiadasz najnowszą wersję. Brak aktualizacji."/>
-	<String Target="正在修复挂载映像" Link="Ponowny montaż obrazu"/>
+	  <String Target="已经是最新版本，无需更新！" Link="Posiadasz najnowszą wersję. Brak aktualizacji."/>
+	  <String Target="正在修复挂载映像" Link="Ponowny montaż obrazu"/>
     <String Target="正在取消现有任务，请稍等……" Link="Anulowanie bieżących zadań, proszę czekać..."/>
     <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="Zamontowany obraz %s jest uszkodzony, musi być naprawiony przed kontynuowaniem. Czy chceszteraz naprawić teraz?"/>
-    
-	  <!--Dodawanie obrazu-->
+    <String Target="即将重启以下程序 %s，你确定要继续吗？" Link="Ponowne uruchomienie następującego programu %s, Czy chcesz kontynuować?"/>
+    <String Target="资源管理器" Link="Explorer"/>
+
+    <!--欢迎页-->
+    <String Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。"
+            Link="Pierwsze wdrożenie interfejsu Dism GUI na bazie CBS na świecie!"/>
+
+    <String Target="官方网站" Link="Oficjalna strona"/>
+    <String Target="QQ群" Link="Grupa QQ"/>
+
+    <String Target="帮助与支持" Link="Wsparcie"/>
+    <String Target="初雨开源" Link="Otwarte źródło"/>
+    <String Target="问题反馈" Link="Informacje zwrotne"/>
+    <String Target="帮助文档" Link="Dokument"/>
+
+    <String Target="致谢" Link="Dzięki"/>
+    <String Target="翻译人员" Link="Tłumacz"/>
+    <String Target="赞助名单" Link="Sponsor"/>
+    <String Target="第三方库" Link="Strona trzecia"/>
+
+    <!--Dodawanie obrazu-->
     <String Target="请输入映像存放目录" Link="Wprowadź ścieżkę obrazu"/>
 	  <String Target="请在此输入安装路径，比如C:\" Link="Ścieżka do obrazu, na przykład C:\"/>
     <String Target="请在此输入挂载路径，比如D:\1" Link="Ścieżka do zamontowania , na przykład D:\1"/>
@@ -965,6 +984,10 @@ Przykłady:
     <String Target="隐藏NTFS蓝色双箭头压缩标识（by IT之家）" Link="Ukryj niebiesk¹ podwójn¹ strza³kê kompresji NTFS ( by IT Home )"/>
     <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="Ukryj przycisk Pomoc paska jêzyka ( by Hell Cabrite )"/>
     <String Target="Windows 7体验" Link="Windows 7 Experience"/>
+    <String Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Witryna Windows Update nie obejmuje narzędzi do usuwania złośliwego oprogramowania (by ‍Winaero)"/>
+    <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Zmień &quot;prawym przyciskiem myszy menu&quot; na tryb Windows 7 (by Silence)"/>
+    <String Target="登陆界面默认打开小键盘（by IT之家）" Link="Włącz klawiaturę podczas logowania (by ITHome)"/>
+    <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Wyłącz składowanie kopii zapasowej składników"/>
     <!--系统优化已经结束-->
 
     <!--Dism++更新程序-->
@@ -1314,6 +1337,10 @@ Komenda:
 
     <String Target="英伟达驱动安装包（by Ailick）" Link="Pakiet instalacyjny sterownika nVidia (by Ailick)"/>
     <String Target="Nvidia Geforce Experience更新程序时产生的安装包。" Link="NVIDIA GeForce Experience generuje ten pakiet instalacyjny przy aktualizacji programów."/>
+
+    <String Target="新版Visual Studio安装源缓存" Link="Pamięć podręczna źródła instalacji New Visual Studio"/>
+    <String Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="Czyści Visual Studio 2017 i w późniejszych wersjach źródła instalacji."/>
+    <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="Po oczyszczeniu aktualizacji, naprawie, dodaniu składników i odinstalowaniu należy połączyć się z siecią (Visual Studio 2017 i nowsze wersje)."/>
   </StringMaps>
   <MessageTable>
     <x800F0806>Jedna lub więcej aktualizacji jest w toku, proszę wykonać restart i spróbować ponownie.</x800F0806>
@@ -1334,10 +1361,11 @@ Komenda:
     <xA0020007>Wymagane CBSHost.dll nie istnieje. Należy zapewnić integralność Dism++.</xA0020007>
     <xA0020008>rundll32.exe brakujący. Dism++ nie można uruchomić.</xA0020008>
     <xA0020009>Awaria ism++ sesji. Sugerują kompresję i wysłać "CBSHost _ *. DMP" do mingkunag@live.com aby móc rozwiązać ten problem.</xA0020009>
-	<xA002000A>Dism++ wykrył jakiś problem ze zgodnością. Proszę zainstalować poprawkę KB960037, a następnie kontynuować.</xA002000A>
+	  <xA002000A>Dism++ wykrył jakiś problem ze zgodnością. Proszę zainstalować poprawkę KB960037, a następnie kontynuować.</xA002000A>
 
     <x20020001>Brak domyślnego pliku konfiguracji skojarzenie w tym obrazie. Nie można wyeksportować.</x20020001>
     <x20020002>Znaleziono znany problem ze zgodnością. Host ten powinien być co najmniej system Windows 8/2012 sobie z tym poradzić. Jeśli będziesz kontynuować praca w starszej wersji, funkcje takie jak otwieranie, zamykanie, dodawanie, usuwanie, aktualizacja może nie działać prawidłowo.</x20020002>
+    <x20020003>Dism++ znalezł problem z kompatybilnością, ścieżka obrazu zawiera znaki inne niż ASCII, które mogą spowodować niepowodzenie aktualizacji instalacji, należy ponownie załadować obraz w pełnej ścieżce ASCII, na przykład "D: \ Mount".</x20020003>
 
     <xC1440136>Sterownik (Wofadk.sys) nie został załadowany. Proszę zaznaczyć "pracę Load" w Opcje - Więcej ustawień, aby kontynuować.</xC1440136>
     <xC144013B>Sterownik (Wofadk.sys) nie został załadowany. Proszę zaznaczyć "pracę Load" w Opcje - Więcej ustawień, aby kontynuować.</xC144013B>

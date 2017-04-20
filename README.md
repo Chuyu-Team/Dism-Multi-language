@@ -39,7 +39,7 @@ Thanks to JP.Sudret
 
 ## [Languages/ja.xml]
 Japanese Resource
-Thanks to 山形まり花, 奎宁
+Thanks to 山形まり花
 
 ## [Languages/ko.xml]
 Korean Resource
@@ -68,6 +68,24 @@ Thanks to Vasiliy Nasonov, virus, Vladimir, ZT
 感谢 iliGPU、jamesfuh、月下独酌
 
 
-## [www]
-Dism++官网
+## [chuyu-analysis]
+Dism++崩溃统计后台
 感谢 Reinforce-II
+
+## [www.chuyu.me]
+Dism++官方网站以及帮助文档
+### www.chuyu.me\zh-Hant.xml
+Dism++官方网站繁体资源
+感谢 iliGPU
+
+### www.chuyu.me\ja.xml
+Dism++官方网站日语资源
+感谢 山形まり花
+
+### www.chuyu.me\en.xml
+Dism++官方网站英语资源
+感谢 Frag, Hexhu
+
+### www.chuyu.me\zh-Hant
+Dism++繁体帮助文档
+感谢 iliGPU

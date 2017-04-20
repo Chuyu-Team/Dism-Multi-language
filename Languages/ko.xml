@@ -239,6 +239,25 @@ Thanks: OldMac, Schooli, 阿泽西
     <String Target="正在修复挂载映像" Link="이미지을 다시 탑재 중입니다"/>
     <String Target="正在取消现有任务，请稍等……" Link="작업을 취소 중입니다. 잠시 기다려 주십시오..."/>
     <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="장착된 이미지%s가 손상되어 계속 하기전에 수리해야 합니다. 지금 이미지를 복구하시겠습니까?"/>
+    <String Target="即将重启以下程序 %s，你确定要继续吗？" Link="%s 프로그램을 다시 시작하려고 합니다. 계속 하시겠습니까?"/>
+    <String Target="资源管理器" Link="탐색기"/>
+
+    <!--欢迎页-->
+    <String Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。"
+            Link="세계 최초의 CBS(Component-Based Servicing) 기반 Dism GUI 구현!"/>
+
+    <String Target="官方网站" Link="공식 사이트"/>
+    <String Target="QQ群" Link="QQ 그룹"/>
+
+    <String Target="帮助与支持" Link="지원"/>
+    <String Target="初雨开源" Link="소스 열기"/>
+    <String Target="问题反馈" Link="피드백"/>
+    <String Target="帮助文档" Link="문서"/>
+
+    <String Target="致谢" Link="감사"/>
+    <String Target="翻译人员" Link="번역"/>
+    <String Target="赞助名单" Link="스폰서"/>
+    <String Target="第三方库" Link="제3자"/>
 
     <!--添加映像-->
     <String Target="请输入映像存放目录" Link="저장할 이미지 경로를 입력해 주시기 바랍니다"/>
@@ -964,6 +983,10 @@ Thanks: OldMac, Schooli, 阿泽西
     <String Target="隐藏NTFS蓝色双箭头压缩标识（by IT之家）" Link="NTFS압축 파란색 이중화살표 숨기기 ( by IT Home )"/>
     <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="알림영역에 언어아이콘 숨김 ( by Hell Cabrite )"/>
     <String Target="Windows 7体验" Link="Windows 7 스타일로 변경"/>
+    <String Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Windows Update에 멀웨어 제거 도구가 포함되어 있지 않음 (by Winaero)"/>
+    <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="&quot;우클릭 메뉴&quot;를 Windows 7 모드로 변경 (by Silence)"/>
+    <String Target="登陆界面默认打开小键盘（by IT之家）" Link="로그인 시 키패드 사용 (by ITHome)"/>
+    <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="구성요소 기반 서비스 백업 사용 안함"/>
     <!--系统优化已经结束-->
   
     <!--Dism++更新程序-->
@@ -1313,6 +1336,10 @@ Command:
 
     <String Target="英伟达驱动安装包（by Ailick）" Link="nVidia 드라이버 설치 패키지 (by Ailick)"/>
     <String Target="Nvidia Geforce Experience更新程序时产生的安装包。" Link="nVidia Geforce Experience는 프로그램을 업데이트 시 이 설치 패키지를 생성합니다."/>
+
+    <String Target="新版Visual Studio安装源缓存" Link="새로운 Visual Studio 설치 원본 캐시"/>
+    <String Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="Visual Studio 2017 및 이상 버전의 설치 원본을 정리합니다."/>
+    <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="청소, 업그레이드, 수정, 구성 요소 추가 및 제거는 네트워크로 연결해야 함 (Visual Studio 2017 이상 버전)"/>
   </StringMaps>
   <MessageTable>
     <x800F0806>하나 이상의 업데이트가 절전 행위로 존재하고 있습니다.시스템을 다시 시작하시고 계속 사용하시기 바랍니다.</x800F0806>
@@ -1337,6 +1364,7 @@ Command:
 
     <x20020001>기본 파일 관련 설정에 현재 이미지가 존재하지 않아 내보내기 할수 없습니다.</x20020001>
     <x20020002>Dism++에서 알려진 호환성 문제를 발견하였습니다.Host적어도Windows 8/2012에서만 이 시스템을 정상 처리 할수 있습니다.만약 이전 버전에서 Host처리를 계속 하신다면 열기/닫기기능,추가/삭제 업데이트등 에러가 발생할수 있습니다.</x20020002>
+    <x20020003>Dism++에서 호환성 문제가 발견, 이미지 경로에 비 ASCII 문자로 인해 업데이트가 실패할 수 있습니다, 전체 ASCII 경로로 이미지를 다시 로드하세요. (예: "D:\Mount")</x20020003>
 
     <xC1440136>wof 드라이버를 불러오지 못했습니다.옵션 - 상세설정에서 wofadk 드라이버 불러오기에 체크하시고 실행해주세요.</xC1440136>
     <xC144013B>wof 드라이버를 불러오지 못했습니다.옵션 - 상세설정에서 wofadk 드라이버 불러오기에 체크하시고 실행해주세요.</xC144013B>
