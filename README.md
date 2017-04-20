@@ -65,7 +65,7 @@ Thanks to Vasiliy Nasonov, virus, Vladimir, ZT
 
 ## [Languages/zh-Hant.xml]
 繁体资源文件
-感谢 jamesfuh, 月下独酌
+感谢 iliGPU、jamesfuh、月下独酌
 
 
 ## [www]
