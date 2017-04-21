@@ -71,7 +71,7 @@ Special Thanks to franz@drwindows.de
 	  <String Target="帮助(&amp;H)" Link="&amp;Hilfe"/>
       <String Target="查看帮助(&amp;V)" Link="&amp;Hilfe aufrufen"/>
 		  <String Target="官方网站(&amp;O)" Link="&amp;Offizielle Homepage"/>
-      <String Target="官方群(&amp;G)" Link="Offiziell &amp;Gruppe"/>
+      <String Target="官方群(&amp;G)" Link="Offizielle &amp;Gruppe"/>
 		  <String Target="问题反馈(&amp;B)" Link="Feed&amp;back"/>
       <String Target="关于Dism++(&amp;A)" Link="&amp;Über Dism++"/>
       <String Target="检查更新(&amp;U)" Link="Nach &amp;Updates suchen"/>
@@ -1218,7 +1218,7 @@ Command:
 
     <String Target="瑞昱声卡驱动安装源缓存（by YukiSakura）" Link="Installationsdateien des Realtek Soundkarten-Treiber (by YukiSakura)"/>
     <String Target="瑞昱声卡安装后留下的安装源缓存。" Link="Bei der Installation von Realtek  werden diese Dateien abgespeichert."/>
-    <String Target="此条目可能影响瑞昱声卡驱动的卸载。" Link="Nach Bereinung der Dateien kann eine Deinstallation des Treibers abstürzen."/>
+    <String Target="此条目可能影响瑞昱声卡驱动的卸载。" Link="Nach Bereinigung der Dateien kann eine Deinstallation des Treibers abstürzen."/>
 
     <String Target="Java安装源缓存（by YukiSakura）" Link="Java Installationsdateien (by YukiSakura)"/>
     <String Target="Java安装后留下的安装源缓存。" Link="Bei der Installation von Java werden diese Dateien abgespeichert."/>
@@ -1379,8 +1379,8 @@ Command:
     <xC142011A>ImageX beendete sich während auf den Start des Entpackungsvorgangs von wimmount gewartet wurde.</xC142011A>
     <xC142011B>Der wimmount-Dienst wurde ohne Statusmeldung beendet.</xC142011B>
     <xC142011C>Das angegeben Verzeichnis ist kein gültiges Verzeichnis.</xC142011C>
-    <xC142011D>Das angegebene Image kann nicht mehr als WIM-Datei vearbeitet werden. Der Fehler tritt auf, wenn ein Image unvollständig ausgeworfen wurde oder das Image noch eingebunden ist. If this image was unmounted with commit earlier, then the commit probably succeeded.  Please validate that this is the case and then unmount without commit.</xC142011D>
-    <xC142011E>as Verzeichnis des angegebenen Images wurde geändert. Alle Dateien in diesem Image werden entpackt, das Image kann nicht mehr eingebunden werden.</xC142011E>
+    <xC142011D>Das angegebene Image kann nicht mehr als WIM-Datei vearbeitet werden. Der Fehler tritt auf, wenn ein Image unvollständig ausgeworfen oder das Image erneut eingebunden wurde. Wenn das Image vorab mit Bestätigung ausgeworfen wurde, war der Vorgang erfolgreich. Bitte überprüfen Sie es in diesem Fall und entfernen das Image ohne Bestätigung.</xC142011D>
+    <xC142011E>Das Verzeichnis des angegebenen Images wurde geändert. Alle Dateien in diesem Image werden entpackt, das Image kann nicht mehr eingebunden werden.</xC142011E>
     <xC142011F>Das logische Laufwerk im angegebenen Pfad unterstützt keine Knotenpunkte. Bitte verweisen Sie auf ein logisches Laufwerk, das Knotenpunkte unterstützt.</xC142011F>
     <xC1420120>Das angegebene Verzeichnis enthält ein defektes Abbild. Es können keine Mount-Operationen in diesem Verzeichnis durchgeführt werden.</xC1420120>
     <xC1420121>Das Image kann nicht eingebunden werden, weil der wimmount.sys-Treiber auf diesem Gerät nicht installiert wurde. Um den Fehler zu beheben, installieren Sie den wimmount.sys-Treiber.</xC1420121>
@@ -1390,7 +1390,7 @@ Command:
     <xC1420125>Das angegebene Verzeichnis kann nicht erneut eingebunden werden, da das Verzeichnis gerade ausgeworfen wird.</xC1420125>
     <xC1420126>Das angegebene Image ist bereits eingebunden und kann nicht erneut eingebunden werden.</xC1420126>
     <xC1420127>Das ausgewählte Image in der angegebene WIM ist bereits für den Lese/Schreib-Zugriff eingebunden</xC1420127>
-    <xC1420128>Das angegebene Imgae-Handle wurde nicht mit der richtigen Zugriffsebene geöffnet. Um ein Image-Handle einzubinden, muss das Handle WIM_GENERIC_MOUNT Zugriffsberechtigt sein.</xC1420128>
+    <xC1420128>Das angegebene Image-Handle wurde nicht mit der richtigen Zugriffsebene geöffnet. Um ein Image-Handle einzubinden, muss das Handle WIM_GENERIC_MOUNT Zugriffsberechtigt sein.</xC1420128>
     <xC1420130>Es wurde versucht, ein aufgeteiltes Imageformt einzubinden. Der Vorgang wird nicht unterstützt.</xC1420130>
     <xC1420131>Es wurde versucht, auf ein Wurzelverzeichnis eines Laufwerkes zu verweisen. Der Vorgang wird nicht unterstützt.</xC1420131>
     <xC1420132>Die Version von WIMGAPI (Windows Imaging Application Platform Interface), um dieses eingebundene Verzeichnis zu erstellen entspricht nicht der aktuellen Version. Stellen Sie sicher, dass wimserv.exe, wimmount.sys und imagex.exe/wimgapi.dll in der gleichen Version vorliegen.</xC1420132>
