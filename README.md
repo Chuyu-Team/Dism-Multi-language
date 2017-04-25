@@ -55,7 +55,7 @@ Thanks to JNylson
 
 ## [Languages/ru.xml]
 Russian Resource
-Thanks to Vasiliy Nasonov, virus, Vladimir, ZT
+Thanks to Black Alex, Vasiliy Nasonov, virus, Vladimir, ZT
 
 
 ## [Languages/zh-Hans.xml]

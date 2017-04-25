@@ -12,7 +12,7 @@ There are 5 special symbols need special representation in XML.
    ‘       Single quotation marks		&apos;
    “       Double quotation marks		&quot;
 
-Thanks: Vasiliy Nasonov, 4epHRk, virus, Vladimir, ZT
+Thanks: Black Alex, Vasiliy Nasonov, virus, Vladimir, ZT
  -->
 
 <Data>
@@ -240,24 +240,27 @@ Thanks: Vasiliy Nasonov, 4epHRk, virus, Vladimir, ZT
     <String Target="正在修复挂载映像" Link="Переподключение образа"/>
     <String Target="正在取消现有任务，请稍等……" Link="Отмена текущего задания, подождите..."/>
     <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="Смонтированный образ %s повреждён и должен быть восстановлен перед продолжением. Вы хотите выполнить восстановление сейчас?"/>
-    <String Target="即将重启以下程序 %s，你确定要继续吗？" Link="О перезагрузке следующей программы '%s'. Вы уверены, что хотите продолжить?"/>
-    <String Target="资源管理器" Link="Менеджер ресурсов"/>
+    <String Target="即将重启以下程序 %s，你确定要继续吗？" Link="Следующая программа собирается перезапустить %s，Вы уверены, что хотите продолжить?"/>
+    <String Target="资源管理器" Link="Диспетчер ресурсов"/>
+    <String Target="操作完成" Link="Операция завершена"/>
 
     <!--欢迎页-->
     <String Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。"
             Link="Первая реализация Dism GUI на основе CBS в мире!"/>
 
+    <String Target="联系方式" Link="Контактная информация"/>
     <String Target="官方网站" Link="Официальный сайт"/>
     <String Target="QQ群" Link="Группа QQ"/>
+    <String Target="邮箱" Link="Электронная почта"/>
 
-    <String Target="帮助与支持" Link="Помощь и поддержка"/>
-    <String Target="初雨开源" Link="Открыть исходный код"/>
+    <String Target="帮助与支持" Link="Справка и поддержка"/>
+    <String Target="初雨开源" Link="Открытый исходный код"/>
     <String Target="问题反馈" Link="Обратная связь"/>
-    <String Target="帮助文档" Link="Справочная документация"/>
+    <String Target="帮助文档" Link="Справка"/>
 
     <String Target="致谢" Link="Благодарности"/>
-    <String Target="翻译人员" Link="Переводчики"/>
-    <String Target="赞助名单" Link="Список спонсоров"/>
+    <String Target="翻译人员" Link="Перевод"/>
+    <String Target="赞助名单" Link="Авторы"/>
     <String Target="第三方库" Link="Сторонние библиотеки"/>
     
     <!--添加映像-->

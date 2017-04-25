@@ -248,6 +248,7 @@
     <String Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。"
             Link="Dism++ 由大學時期幾個強迫症晚期患者打造，追求最強功能、極致綠色、極小身材。Dism++ 可以說是一個 Dism 的 GUI 版，但是並不依賴 Dism，直接基於更底層的 CBS (Component Based Servicing Reference)。因此 Dism++ 往往比微軟自帶的 Dism 擁有更好的相容性以及更加輕巧的容量。"/>
 
+    <String Target="联系方式" Link="聯絡方式"/>
     <String Target="官方网站" Link="官方網站"/>
     <String Target="QQ群" Link="QQ群"/>
 
