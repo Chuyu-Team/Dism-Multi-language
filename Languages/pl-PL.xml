@@ -241,13 +241,16 @@ Thanks: WinClub.pl(romuald68@gmail.com)
     <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="Zamontowany obraz %s jest uszkodzony, musi być naprawiony przed kontynuowaniem. Czy chceszteraz naprawić teraz?"/>
     <String Target="即将重启以下程序 %s，你确定要继续吗？" Link="Ponowne uruchomienie następującego programu %s, Czy chcesz kontynuować?"/>
     <String Target="资源管理器" Link="Explorer"/>
+    <String Target="操作完成" Link="Gotowy"/>
 
     <!--欢迎页-->
     <String Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。"
             Link="Pierwsze wdrożenie interfejsu Dism GUI na bazie CBS na świecie!"/>
 
+    <String q="" Target="联系方式" Link="Contact"/>
     <String Target="官方网站" Link="Oficjalna strona"/>
     <String Target="QQ群" Link="Grupa QQ"/>
+    <String Target="邮箱" Link="mailowy"/>
 
     <String Target="帮助与支持" Link="Wsparcie"/>
     <String Target="初雨开源" Link="Otwarte źródło"/>
@@ -406,16 +409,13 @@ Thanks: WinClub.pl(romuald68@gmail.com)
 	  <String Target="正在清理%s" Link="Oczyszczanie %s "/>
 	  <String Target="本次共释放了%s 的空间。" Link="%s zostało zwolnione."/>
 
-    <String Target="软件Q群：200783396、282276394（敲门砖：临安初雨 一夜落红）&#x000D;&#x000A;官方网站：www.chuyu.me&#x000D;&#x000A;&#x000D;&#x000A;如果发现BUG或者意见可以通过邮箱（mingkuang@live.com）或者在QQ群联系我&#x000D;&#x000A;&#x000D;&#x000A;诚请五湖四海的朋友为Dism++国际化支持添砖加瓦！&#x000D;&#x000A;——感谢以下热心用户背后默默的付出，排名仅根据首字母，不分重次先后——"
-          Link="Oficjalna strona programu: www.chuyu.me&#x000D;&#x000A;&#x000D;&#x000A;Jeśli znajdziesz błąd prosimy o kontakt mailowy (mingkuang@live.com)&#x000A;Wiekie podziękowania dla wszystkich entuzjastów programu.&#x000D;&#x000A;&#x000D;&#x000A;Polish: WinClub.pl"/>
-
-	<String Target="该规则来自CCleaner解析引擎，因此不能提供说明。" Link="Pozostałości, śmieci, logi"/>
-	<String Target="默认" Link="Domyślnie"/>
-	<String Target="关于 %s 的详细处理信息" Link="Szczegółowe informacje o %s"/>
-	<String Target="以下文件即将被处理，你可以点击 清理 处理他们" Link="Pliki będą przetwarzane, możesz kliknąć przycisk Czyść"/>
-	<String Target="关于 %s 的警告：&#x000D;&#x000A;&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;您确定要清理么？" Link="Informacje %s ostrzeżenia:&#x000D;&#x000A;&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;Chcesz kontynuować?"/>
-	<String Target="全不选" Link="Odznacz"/>
-	<String Target="已经清理" Link="Oczyszczanie"/>
+	  <String Target="该规则来自CCleaner解析引擎，因此不能提供说明。" Link="Pozostałości, śmieci, logi"/>
+	  <String Target="默认" Link="Domyślnie"/>
+	  <String Target="关于 %s 的详细处理信息" Link="Szczegółowe informacje o %s"/>
+	  <String Target="以下文件即将被处理，你可以点击 清理 处理他们" Link="Pliki będą przetwarzane, możesz kliknąć przycisk Czyść"/>
+	  <String Target="关于 %s 的警告：&#x000D;&#x000A;&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;您确定要清理么？" Link="Informacje %s ostrzeżenia:&#x000D;&#x000A;&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;Chcesz kontynuować?"/>
+	  <String Target="全不选" Link="Odznacz"/>
+	  <String Target="已经清理" Link="Oczyszczanie"/>
     <String Target="清理失败" Link="Niepowodzenie"/>
     <String Target="等待扫描" Link="Skanuj"/>
     <String Target="过期文件" Link="Przestarzałe pliki"/>
@@ -677,7 +677,7 @@ Przykłady:
  Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode regedit.exe
  Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode &quot;\&quot;C:\Windows\notepad.exe\&quot; \&quot;C:\123.txt\&quot;&quot;"/>
     <String Target="即将以无视权限方式执行此命令：&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;为了避免让恶意软件利用，Dism++需要你的允许才能继续，你确定要继续吗？" Link="Dism++ będzie uruchomiał polecenia &#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;pominąć sprawdzania praw. Aby uniknąć malwares używania, proszę pozwolić Dism++. Kontynuować czy nie?"/>
-    <String Target="可以使用以下命令来操作此映：&#x000D;&#x000A;&#x000D;&#x000A;/GodMode	- 使用春哥附体启动应用程序" Link="Można użyć tych komend do obsługi obrazu:&#x000D;&#x000A;&#x000D;&#x000A;/GodMode	- uruchamianie programów z God Mode"/>
+    <String Target="可以使用以下命令来操作此映像：&#x000D;&#x000A;&#x000D;&#x000A;/GodMode	- 使用春哥附体启动应用程序" Link="Można użyć tych komend do obsługi obrazu:&#x000D;&#x000A;&#x000D;&#x000A;/GodMode	- uruchamianie programów z God Mode"/>
     
     <String Target="ESD转ISO" Link="ESD do ISO"/>
     <String Target="允许将WIM、SWM以及ESD之间格式自由转换。" Link="Umożliwia swobodną konwersję pomiędzy formatami WIM, SWM i ESD."/>
@@ -1058,7 +1058,7 @@ Przykłady:
 
 Przykłady:
  Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"/>
-    <String Target="可以使用以下命令来操作此映：
+    <String Target="可以使用以下命令来操作此映像：
 
 插件命令：
  /Plugin	- 启动特定插件（需要插件支持命令参数）"

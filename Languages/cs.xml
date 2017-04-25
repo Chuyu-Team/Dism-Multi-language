@@ -241,13 +241,16 @@ Special Thanks to Richard Kahl(Richard.Kahl@seznam.cz)
     <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="Připojený obraz %s je poškozen, musí být opraven než budete pokračovat. Chcete opravit obraz teď?"/>
     <String Target="即将重启以下程序 %s，你确定要继续吗？" Link="O Programu restartujte následující program %s, Chcete pokračovat?"/>
     <String Target="资源管理器" Link="Průzkumník"/>
+    <String q="" Target="操作完成" Link="Success"/>
 
     <!--欢迎页-->
     <String Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。"
             Link="První implementace dism GUI založené na CBS na světě!"/>
 
+    <String q="" Target="联系方式" Link="Contact"/>
     <String Target="官方网站" Link="Oficiální stránky"/>
     <String Target="QQ群" Link="QQ skupina"/>
+    <String Target="邮箱" Link="e-mailem"/>
 
     <String Target="帮助与支持" Link="Podpora"/>
     <String Target="初雨开源" Link="Otevřený zdroj"/>
@@ -405,9 +408,6 @@ Special Thanks to Richard Kahl(Richard.Kahl@seznam.cz)
 	  <String Target="出错" Link="Chyba"/>
 	  <String Target="正在清理%s" Link="Čištění %s "/>
 	  <String Target="本次共释放了%s 的空间。" Link="%s spuštěno."/>
-
-    <String Target="软件Q群：200783396、282276394（敲门砖：临安初雨 一夜落红）&#x000D;&#x000A;官方网站：www.chuyu.me&#x000D;&#x000A;&#x000D;&#x000A;如果发现BUG或者意见可以通过邮箱（mingkuang@live.com）或者在QQ群联系我&#x000D;&#x000A;&#x000D;&#x000A;诚请五湖四海的朋友为Dism++国际化支持添砖加瓦！&#x000D;&#x000A;——感谢以下热心用户背后默默的付出，排名仅根据首字母，不分重次先后——"
-          Link="Oficiální web: www.chuyu.me&#x000D;&#x000A;&#x000D;&#x000A;Pokud jste našli chybu nebo chcete poskytnout zpětnou vazbu kontaktujte autora e-mailem (mingkuang@live.com)&#x000D;&#x000A;&#x000D;&#x000A;Pozvěte své přátelé k pomoci s vícejazyčnou podporou Dism ++!&#x000D;&#x000A;—— Mnoho poděkování patří těmto lidem, kteří pomohli s překladem do jiných jazyků: ——"/>
 
     <String Target="该规则来自CCleaner解析引擎，因此不能提供说明。" Link="Pravidlo je z CCleaner pravidel, proto Dism++ není schopen zobrazit označení."/>
     <String Target="默认" Link="Výchozí"/>
@@ -677,7 +677,7 @@ Examples:
  Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode regedit.exe
  Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode &quot;\&quot;C:\Windows\notepad.exe\&quot; \&quot;C:\123.txt\&quot;&quot;"/>
     <String Target="即将以无视权限方式执行此命令：&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;为了避免让恶意软件利用，Dism++需要你的允许才能继续，你确定要继续吗？" Link="Dism ++ spustí příkazy &#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;obejít kontrolu práv. Chcete-li zabránit použití malwares, dovolte Dism++. Pokračovat, nebo ne?"/>
-    <String Target="可以使用以下命令来操作此映：&#x000D;&#x000A;&#x000D;&#x000A;/GodMode	- 使用春哥附体启动应用程序" Link="Tyto příkazy slouží k práci s obrazy:#x000D;&#x000A;&#x000D;&#x000A;/GodMode	- spuštění programů v režim GodMode"/>
+    <String Target="可以使用以下命令来操作此映像：&#x000D;&#x000A;&#x000D;&#x000A;/GodMode	- 使用春哥附体启动应用程序" Link="Tyto příkazy slouží k práci s obrazy:#x000D;&#x000A;&#x000D;&#x000A;/GodMode	- spuštění programů v režim GodMode"/>
     
     <String Target="ESD转ISO" Link="ESD na ISO"/>
     <String Target="允许将WIM、SWM以及ESD之间格式自由转换。" Link="Umožňuje volnou konverze mezi WIM, SWM a ESD."/>
@@ -1058,7 +1058,7 @@ Příklady:
 
 Příklady:
  Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"/>
-    <String Target="可以使用以下命令来操作此映：
+    <String Target="可以使用以下命令来操作此映像：
 
 插件命令：
  /Plugin	- 启动特定插件（需要插件支持命令参数）"

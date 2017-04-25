@@ -409,9 +409,6 @@ Thanks: Black Alex, Vasiliy Nasonov, virus, Vladimir, ZT
 	  <String Target="正在清理%s" Link="Очистка %s"/>
 	  <String Target="本次共释放了%s 的空间。" Link="Было освобождено %s"/>
 
-    <String Target="软件Q群：200783396、282276394（敲门砖：临安初雨 一夜落红）&#x000D;&#x000A;官方网站：www.chuyu.me&#x000D;&#x000A;&#x000D;&#x000A;如果发现BUG或者意见可以通过邮箱（mingkuang@live.com）或者在QQ群联系我&#x000D;&#x000A;&#x000D;&#x000A;诚请五湖四海的朋友为Dism++国际化支持添砖加瓦！&#x000D;&#x000A;——感谢以下热心用户背后默默的付出，排名仅根据首字母，不分重次先后——"
-          Link="Веб-сайт: www.chuyu.me&#x000D;&#x000A;&#x000D;&#x000A;Если Вы нашли ошибку или хотите оставить отзыв о программе - свяжитесь с автором по электронной почте (mingkuang@live.com)&#x000D;&#x000A;&#x000D;&#x000A;Приглашайте своих друзей для добавления мультиязычной поддержки в Dism++!&#x000D;&#x000A;Большое спасибо следующим людям, которые помогли с переводом на другие языки:"/>
-
     <String Target="该规则来自CCleaner解析引擎，因此不能提供说明。" Link="Правила очистки CCleaner. Описания нет."/>
     <String Target="默认" Link="Сброс"/>
     <String Target="关于 %s 的详细处理信息" Link="Подробная информация о %s"/>
@@ -682,7 +679,7 @@ Thanks: Black Alex, Vasiliy Nasonov, virus, Vladimir, ZT
  Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode &quot;\&quot;C:\Windows\notepad.exe\&quot; \&quot;C:\123.txt\&quot;&quot;"/>
 
     <String Target="即将以无视权限方式执行此命令：&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;为了避免让恶意软件利用，Dism++需要你的允许才能继续，你确定要继续吗？" Link="Dism++ выполняет данные команды &#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;без проверки прав. Для предотвращения использования Dism++ вредоносными программами требуется Ваше подтверждение. Продолжить?"/>
-    <String Target="可以使用以下命令来操作此映：&#x000D;&#x000A;&#x000D;&#x000A;/GodMode	- 使用春哥附体启动应用程序" Link="Вы можете использовать эти команды для работы с образом:&#x000D;&#x000A;&#x000D;&#x000A;/GodMode	- запуск программ в режиме GodMode"/>
+    <String Target="可以使用以下命令来操作此映像：&#x000D;&#x000A;&#x000D;&#x000A;/GodMode	- 使用春哥附体启动应用程序" Link="Вы можете использовать эти команды для работы с образом:&#x000D;&#x000A;&#x000D;&#x000A;/GodMode	- запуск программ в режиме GodMode"/>
     
     <String Target="ESD转ISO" Link="ESD в ISO"/>
     <String Target="允许将WIM、SWM以及ESD之间格式自由转换。" Link="Преобразование WIM, SWM и ESD."/>
@@ -1061,7 +1058,7 @@ Compact支持命令：
 Примеры:
  Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"/>
 
-    <String Target="可以使用以下命令来操作此映：
+    <String Target="可以使用以下命令来操作此映像：
 
 插件命令：
  /Plugin	- 启动特定插件（需要插件支持命令参数）"

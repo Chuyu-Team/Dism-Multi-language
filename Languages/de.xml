@@ -239,6 +239,28 @@ Special Thanks to franz@drwindows.de
     <String Target="正在修复挂载映像" Link="Image wird neu eingebunden"/>
     <String Target="正在取消现有任务，请稍等……" Link="Der Vorgang wird abgebrochen, bitte warten ..."/>
     <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="Das eingebundene Image %s  ist beschädigt und muß zuerst repariert werden. Wollen Sie das Image jetzt reparieren?"/>
+    <String q="" Target="即将重启以下程序 %s，你确定要继续吗？" Link="About to restart the following program %s, Sure to proceed?"/>
+    <String q="" Target="资源管理器" Link="Explorer"/>
+    <String Target="操作完成" Link="Beendet"/>
+
+    <!--欢迎页-->
+    <String q="" Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。"
+            Link="The first Dism GUI implementation based on CBS in the world!"/>
+
+    <String q="" Target="联系方式" Link="Contact"/>
+    <String Target="官方网站" Link="Homepage"/>
+    <String q="" Target="QQ群" Link="QQ Group"/>
+    <String Target="邮箱" Link="E-Mail"/>
+
+    <String Target="帮助与支持" Link="Support"/>
+    <String q="" Target="初雨开源" Link="Open Source"/>
+    <String Target="问题反馈" Link="Feedback"/>
+    <String q="" Target="帮助文档" Link="Document"/>
+
+    <String q="" Target="致谢" Link="Thanks"/>
+    <String q="" Target="翻译人员" Link="Translator"/>
+    <String q="" Target="赞助名单" Link="Sponsor"/>
+    <String q="" Target="第三方库" Link="Third Party"/>
 
     <!--添加映像-->
     <String Target="请输入映像存放目录" Link="Bitte geben Sie den Pfad zum Abbild ein"/>
@@ -386,9 +408,6 @@ Special Thanks to franz@drwindows.de
 	  <String Target="出错" Link="Fehler"/>
 	  <String Target="正在清理%s" Link="Bereinigung: %s "/>
 	  <String Target="本次共释放了%s 的空间。" Link="%s sind fertiggestellt."/>
-
-    <String Target="软件Q群：200783396、282276394（敲门砖：临安初雨 一夜落红）&#x000D;&#x000A;官方网站：www.chuyu.me&#x000D;&#x000A;&#x000D;&#x000A;如果发现BUG或者意见可以通过邮箱（mingkuang@live.com）或者在QQ群联系我&#x000D;&#x000A;&#x000D;&#x000A;诚请五湖四海的朋友为Dism++国际化支持添砖加瓦！&#x000D;&#x000A;——感谢以下热心用户背后默默的付出，排名仅根据首字母，不分重次先后——"
-          Link="Homepage: www.chuyu.me&#x000D;&#x000A;&#x000D;&#x000A;Wenn Sie Fehler finden oder Verbesserungsvorschläge machen wollen, kontaktieren Sie mich bitte über e-Mail (mingkuang@live.com)&#x000D;&#x000A;&#x000D;&#x000A;Laden Sie Freunde und Bekannte in aller Welt ein, um Dism++ mehrsprachig zu unterstützen.&#x000D;&#x000A;— Vielen Dank an alle treuen und begeisterten User.&#x000D;&#x000A;Die Sprachenliste ist nach dem Alphabet sortiert, nicht nach Verbreitung der Sprache.—"/>
 
     <String Target="该规则来自CCleaner解析引擎，因此不能提供说明。" Link="Diese Regelung wurde von CCleaner erstellt, daher kann Dism++ keine Beschreibungen anzeigen."/>
     <String Target="默认" Link="Standard"/>
@@ -659,7 +678,7 @@ Examples:
  Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode regedit.exe
  Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode &quot;\&quot;C:\Windows\notepad.exe\&quot; \&quot;C:\123.txt\&quot;&quot;"/>
     <String Target="即将以无视权限方式执行此命令：&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;为了避免让恶意软件利用，Dism++需要你的允许才能继续，你确定要继续吗？" Link="Dism++ führt die Befehle &#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A; ohne Berechtigungsprüfung aus. Um Malware-Schaden zu vermeiden, bitte Dism++ zulassen. Fortfahren oder Abbrechen?"/>
-    <String Target="可以使用以下命令来操作此映：&#x000D;&#x000A;&#x000D;&#x000A;/GodMode	- 使用春哥附体启动应用程序" Link="Folgende Befehle können für die Bearbeitung der Image-Datei verwendet werden image:&#x000D;&#x000A;&#x000D;&#x000A;/GodMode	- startet Programme im God mode"/>
+    <String Target="可以使用以下命令来操作此映像：&#x000D;&#x000A;&#x000D;&#x000A;/GodMode	- 使用春哥附体启动应用程序" Link="Folgende Befehle können für die Bearbeitung der Image-Datei verwendet werden image:&#x000D;&#x000A;&#x000D;&#x000A;/GodMode	- startet Programme im God mode"/>
     
     <String Target="ESD转ISO" Link="ESD zu ISO"/>
     <String Target="允许将WIM、SWM以及ESD之间格式自由转换。" Link="Konvertierung für WIM, SWM und ESD zulassen"/>
@@ -1035,7 +1054,7 @@ Bsp:
 
 Bsp:
  Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"/>
-    <String Target="可以使用以下命令来操作此映：
+    <String Target="可以使用以下命令来操作此映像：
 
 插件命令：
  /Plugin	- 启动特定插件（需要插件支持命令参数）"
@@ -1313,6 +1332,10 @@ Command:
 
     <String Target="英伟达驱动安装包（by Ailick）" Link="nVidia Treiber Installationspaket (by Ailick)"/>
     <String Target="Nvidia Geforce Experience更新程序时产生的安装包。" Link="nVidia Geforce Experience erstellt dieses Installationspaket bei Programm-Updates."/>
+
+    <String q="" Target="新版Visual Studio安装源缓存" Link="New Visual Studio installation source cache"/>
+    <String q="" Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="Cleans up Visual Studio 2017 and later versions of the installation source."/>
+    <String q="" Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="After cleaning up, upgrade, fix, add components and uninstall need to be networked (Visual Studio 2017 and later versions)."/>
   </StringMaps>
   <MessageTable>
     <x800F0806>Ein oder mehrere Updates stehen noch aus. Um fortzufahren, bitte das Programm neu starten.</x800F0806>

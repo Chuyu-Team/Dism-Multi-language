@@ -243,6 +243,7 @@
     <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="掛載映射 %s 已經損壞，需要修復才能繼續。你需要執行修復操作嗎？"/>
     <String Target="即将重启以下程序 %s，你确定要继续吗？" Link="即將重新啟動以下程式 %s，你確定要繼續嗎？"/>
     <String Target="资源管理器" Link="檔案總管"/>
+    <String Target="操作完成" Link="操作完成"/>
 
     <!--欢迎页-->
     <String Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。"
@@ -251,6 +252,7 @@
     <String Target="联系方式" Link="聯絡方式"/>
     <String Target="官方网站" Link="官方網站"/>
     <String Target="QQ群" Link="QQ群"/>
+    <String Target="邮箱" Link="E-Mail"/>
 
     <String Target="帮助与支持" Link="說明與支援"/>
     <String Target="初雨开源" Link="初雨開源"/>
@@ -408,9 +410,6 @@
 	  <String Target="出错" Link="發生錯誤"/>
 	  <String Target="正在清理%s" Link="正在清理 %s"/>
 	  <String Target="本次共释放了%s 的空间。" Link="本次共釋放了 %s 的空間。"/>
-
-    <String Target="软件Q群：200783396、282276394（敲门砖：临安初雨 一夜落红）&#x000D;&#x000A;官方网站：www.chuyu.me&#x000D;&#x000A;&#x000D;&#x000A;如果发现BUG或者意见可以通过邮箱（mingkuang@live.com）或者在QQ群联系我&#x000D;&#x000A;&#x000D;&#x000A;诚请五湖四海的朋友为Dism++国际化支持添砖加瓦！&#x000D;&#x000A;——感谢以下热心用户背后默默的付出，排名仅根据首字母，不分重次先后——"
-          Link="軟體Q群：200783396、282276394（敲門磚：臨安初雨 一葉落紅）&#x000D;&#x000A;官方網站：www.chuyu.me&#x000D;&#x000A;&#x000D;&#x000A;如果發現任何BUG或有寶貴意見，您可以透過 email（mingkuang@live.com）或在QQ群聯繫我&#x000D;&#x000A;&#x000D;&#x000A;誠請五湖四海的朋友為Dism++國際化支持添磚加瓦！&#x000D;&#x000A;——感謝以下熱心使用者背後默默的付出，排名僅根據首字母，不分重次先後——"/>
 
     <String Target="该规则来自CCleaner解析引擎，因此不能提供说明。" Link="該規則來自 CCleaner 的解析引擎，無法提供細節說明。"/>
     <String Target="默认" Link="預設"/>
@@ -677,7 +676,7 @@
  Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode regedit.exe
  Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode &quot;\&quot;C:\Windows\notepad.exe\&quot; \&quot;C:\123.txt\&quot;&quot;"/>
     <String Target="即将以无视权限方式执行此命令：&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;为了避免让恶意软件利用，Dism++需要你的允许才能继续，你确定要继续吗？" Link="即將以忽略權限方式執行此命令：&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;為避免惡意程式利用，Dism++需要您的允許才能繼續，您確定要繼續嗎？"/>
-    <String Target="可以使用以下命令来操作此映：&#x000D;&#x000A;&#x000D;&#x000A;/GodMode	- 使用春哥附体启动应用程序" Link="可以使用以下命令來操作映像檔：&#x000D;&#x000A;&#x000D;&#x000A;/GodMode	- 使用上帝模式啟動應用程式"/>
+    <String Target="可以使用以下命令来操作此映像：&#x000D;&#x000A;&#x000D;&#x000A;/GodMode	- 使用春哥附体启动应用程序" Link="可以使用以下命令來操作映像檔：&#x000D;&#x000A;&#x000D;&#x000A;/GodMode	- 使用上帝模式啟動應用程式"/>
 
     <String Target="ESD转ISO" Link="ESD 轉 ISO"/>
     <String Target="允许将WIM、SWM以及ESD之间格式自由转换。" Link="允許將 WIM、SWM 以及 EDS 之格式自由轉換。"/>
