@@ -239,28 +239,28 @@ Special Thanks to franz@drwindows.de
     <String Target="正在修复挂载映像" Link="Image wird neu eingebunden"/>
     <String Target="正在取消现有任务，请稍等……" Link="Der Vorgang wird abgebrochen, bitte warten ..."/>
     <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="Das eingebundene Image %s  ist beschädigt und muß zuerst repariert werden. Wollen Sie das Image jetzt reparieren?"/>
-    <String q="" Target="即将重启以下程序 %s，你确定要继续吗？" Link="About to restart the following program %s, Sure to proceed?"/>
-    <String q="" Target="资源管理器" Link="Explorer"/>
+    <String Target="即将重启以下程序 %s，你确定要继续吗？" Link="Das folgende Programm soll gestartet werden. Wollen Sie fortfahren?"/>
+    <String Target="资源管理器" Link="Explorer"/>
     <String Target="操作完成" Link="Beendet"/>
 
     <!--欢迎页-->
-    <String q="" Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。"
-            Link="The first Dism GUI implementation based on CBS in the world!"/>
+    <String Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。"
+            Link="Die erste Dism GUI Anwendung der Welt, basierend auf CBS!"/>
 
     <String q="" Target="联系方式" Link="Contact"/>
-    <String Target="官方网站" Link="Homepage"/>
-    <String q="" Target="QQ群" Link="QQ Group"/>
+    <String Target="官方网站" Link="Official Site"/>
+    <String Target="QQ群" Link="QQ Group"/>
     <String Target="邮箱" Link="E-Mail"/>
 
     <String Target="帮助与支持" Link="Support"/>
-    <String q="" Target="初雨开源" Link="Open Source"/>
+    <String Target="初雨开源" Link="Open Source"/>
     <String Target="问题反馈" Link="Feedback"/>
-    <String q="" Target="帮助文档" Link="Document"/>
+    <String Target="帮助文档" Link="Document"/>
 
-    <String q="" Target="致谢" Link="Thanks"/>
-    <String q="" Target="翻译人员" Link="Translator"/>
-    <String q="" Target="赞助名单" Link="Sponsor"/>
-    <String q="" Target="第三方库" Link="Third Party"/>
+    <String Target="致谢" Link="Thanks"/>
+    <String Target="翻译人员" Link="Translator"/>
+    <String Target="赞助名单" Link="Sponsor"/>
+    <String Target="第三方库" Link="Third Party"/>
 
     <!--添加映像-->
     <String Target="请输入映像存放目录" Link="Bitte geben Sie den Pfad zum Abbild ein"/>
@@ -984,6 +984,10 @@ Examples:
     <String Target="隐藏NTFS蓝色双箭头压缩标识（by IT之家）" Link="Blauer-Doppelpfeil für NTFS-Komprimierung im Icon verstecken (by IT Home)"/>
     <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="Hilfe-Button in der Sprach-Anzeige verstecken (by Hell Cabrite)"/>
     <String Target="Windows 7体验" Link="Windows 7 Leistungsindex"/>
+    <String Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Das Windows Update enthält keine Anwendung zum Entfernen bösartiger Software (by Winero)"/>
+    <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Das Kontextmenü im Windows 7 - Modus anzeigen (by Silence)"/>
+    <String Target="登陆界面默认打开小键盘（by IT之家）" Link="Tastatur bei der Anmeldung aktivieren (by ITHome)"/>
+    <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Backup von Component Based Servicing (CBS) deaktivieren."/>
     <!--系统优化已经结束-->
   
     <!--Dism++更新程序-->
@@ -1333,9 +1337,9 @@ Command:
     <String Target="英伟达驱动安装包（by Ailick）" Link="nVidia Treiber Installationspaket (by Ailick)"/>
     <String Target="Nvidia Geforce Experience更新程序时产生的安装包。" Link="nVidia Geforce Experience erstellt dieses Installationspaket bei Programm-Updates."/>
 
-    <String q="" Target="新版Visual Studio安装源缓存" Link="New Visual Studio installation source cache"/>
-    <String q="" Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="Cleans up Visual Studio 2017 and later versions of the installation source."/>
-    <String q="" Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="After cleaning up, upgrade, fix, add components and uninstall need to be networked (Visual Studio 2017 and later versions)."/>
+    <String Target="新版Visual Studio安装源缓存" Link="Installations- Cache des New Visual Studio"/>
+    <String Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="Löscht den Installations-Cache von Visual Studio 2017 (und späteren Versionen)."/>
+    <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="Nach Bereinungen, Reparaturen, Installationen von Upgrades oder Komponenten und Deinstallationen ist eine Netzwerkverbindung notwendig (Visual Studio 2017 und spätere Versionen)."/>
   </StringMaps>
   <MessageTable>
     <x800F0806>Ein oder mehrere Updates stehen noch aus. Um fortzufahren, bitte das Programm neu starten.</x800F0806>
@@ -1360,6 +1364,7 @@ Command:
     
     <x20020001>Keine Konfiguration der vorgegebenen Dateizuordnungen (OEMDefaultAssociations.xml) im aktuellen Image gefunden. Export der Datei nicht möglich.</x20020001>
     <x20020002>Bekanntes Kompatibilitätsproblem entdeckt. Es wird mindestens Windows 8/2012 benötigt, um den Fehler zu beheben. Wird mit einer niedrigeren Version weitergearbeitet, können Funktionen wie Öffnen, Schließen, Hinzufügen, Löschen, Aktualisieren nicht mehr richtig ausgeführt werden.</x20020002>
+    <x20020003>Dism++ hat ein Problem festgestellt. Der Image-Pfad enthält non-ASCII Zeichen. Dadurch kann die Update-Installation fehlschlagen. Bitte starten Sie das Image erneut in einem vollständigen ASCII-Pfad, wie z.B. "D:\Imagename".</x20020003>
 
     <xC1440136>Der Treiber (Wofadk.sys) konnte nicht gestartet werden. Bitte die Option "wofadk laden" in den Einstellungen - Weitere Einstellungen auswählen um forzufahren.</xC1440136>
     <xC144013B>Der Treiber (Wofadk.sys) konnte nicht gestartet werden. Bitte die Option "wofadk laden" in den Einstellungen - Weitere Einstellungen auswählen um forzufahren.</xC144013B>

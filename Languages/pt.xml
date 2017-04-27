@@ -1365,6 +1365,7 @@ Command:
 
     <x20020001>Nenhuma configuração de associação de arquivo padrão na imagem atual. Não é possível exportar.</x20020001>
     <x20020002>Known compatibility problem found. Host Virson should be at least Windows 8/2012. If you continue in host of a lower version, functions like open, close, add, delete, update may not work properly.</x20020002>
+    <x20020003 q="">Dism++ found a compatibility problem, the image path exists non-ASCII characters may cause the install update to fail, please reload the image in full ASCII path, such as "D:\Mount".</x20020003>
 
     <xC1440136>Driver (Wofadk.sys) not loaded. Please tick "Load wofadk" in Options - More settings.</xC1440136>
     <xC144013B>Driver (Wofadk.sys) not loaded. Please tick "Load wofadk" in Options - More settings.</xC144013B>

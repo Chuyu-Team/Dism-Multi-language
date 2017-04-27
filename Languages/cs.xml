@@ -241,7 +241,7 @@ Special Thanks to Richard Kahl(Richard.Kahl@seznam.cz)
     <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="Připojený obraz %s je poškozen, musí být opraven než budete pokračovat. Chcete opravit obraz teď?"/>
     <String Target="即将重启以下程序 %s，你确定要继续吗？" Link="O Programu restartujte následující program %s, Chcete pokračovat?"/>
     <String Target="资源管理器" Link="Průzkumník"/>
-    <String q="" Target="操作完成" Link="Success"/>
+    <String Target="操作完成" Link="Dokončeno"/>
 
     <!--欢迎页-->
     <String Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。"
