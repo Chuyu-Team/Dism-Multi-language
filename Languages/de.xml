@@ -152,14 +152,14 @@ Special Thanks to franz@drwindows.de
 	  <String Target="重启后，系统自动将启动RE，你确定要重启么？" Link="Das System wird im WinRE-Modus neu gestartet. Soll jetzt neu gestartet werden?"/>
 	  <String Target="此功能可以将ESD、WIM格式相互转换。" Link="Diese Funktion konvertiert ESD zu WIM &amp; WIM zu ESD"/>
 	  <String Target="Dism++将会在RE中启动，你现在需要重启电脑么？" Link="Dism++ wird in WinRE gestartet. Soll jetzt neu gestartet werden?"/>
-	  <String Target="%s 位置的映像正繁忙，请稍后再试。" Link="Der Speicherort von %s Image wird gerade benötigt, bitte versuchen Sie es später noch einmal."/>
+	  <String Target="%s 位置的映像正繁忙，请稍后再试。" Link="Der Speicherplatz von %s Image ist gerade belegt, bitte versuchen Sie es später noch einmal."/>
 	  <String Target="正在验证受损" Link="Status wird überprüft"/>
 	  <String Target="正在修复受损" Link="Status wiederhergestellt"/>
     <String Target="%d 秒后将关闭计算机，点击取消可以撤销此任务。" Link="In %d Sekunden wird der Computer heruntergefahren. Klicken Sie auf 'Abbrechen' um den PC nicht herunterzufahren."/>
     <String Target="%d 秒后将重启计算机，点击取消可以撤销此任务。" Link="In %d Sekunden wird der Computer neu gestartet. Klicken Sie auf 'Abbrechen' um nicht neu zu starten."/>
     
     <String Target="正在清理临时数据" Link="Temporäre Dateien werden gelöscht"/>
-    <String Target="Sorry，无法配置环境，请在PE中使用此功能。" Link="Entschuldigung, die Umgebung nicht eingerichtet werden, bitte führen Sie die Aufgabe in WinPE durch."/>
+    <String Target="Sorry，无法配置环境，请在PE中使用此功能。" Link="Entschuldigung, die Umgebung konnte nicht eingerichtet werden, bitte führen Sie die Aufgabe in WinPE durch."/>
     <String Target="Sorry，无法清理临时文件！" Link="Entschuldigung, die temporären Dateien konnten nicht gelöscht werden"/>
     <String Target="当前硬盘可用空间不足，你需要重启并进入RE进行恢复么？" Link="Auf dem angegebenen Datenträger gibt es nicht ausreichend Speicherplatz, möchten Sie WinRE starten und wiederherstellen?"/>
     <String Target="在还原前你需要格式化分区：%s ?" Link="Soll die Partition %s vor der Wiederherstellung formatiert werden?"/>
@@ -239,26 +239,26 @@ Special Thanks to franz@drwindows.de
     <String Target="正在修复挂载映像" Link="Image wird neu eingebunden"/>
     <String Target="正在取消现有任务，请稍等……" Link="Der Vorgang wird abgebrochen, bitte warten ..."/>
     <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="Das eingebundene Image %s  ist beschädigt und muß zuerst repariert werden. Wollen Sie das Image jetzt reparieren?"/>
-    <String Target="即将重启以下程序 %s，你确定要继续吗？" Link="Das folgende Programm soll gestartet werden. Wollen Sie fortfahren?"/>
+    <String Target="即将重启以下程序 %s，你确定要继续吗？" Link="Das folgende Programm soll neu gestartet werden. Wollen Sie wirklich fortfahren?"/>
     <String Target="资源管理器" Link="Explorer"/>
     <String Target="操作完成" Link="Beendet"/>
 
     <!--欢迎页-->
     <String Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。"
-            Link="Die erste Dism GUI Anwendung der Welt, basierend auf CBS!"/>
+            Link="Die weltweit erste Dism GUI Anwendung basierend auf CBS!"/>
 
-    <String q="" Target="联系方式" Link="Contact"/>
-    <String Target="官方网站" Link="Official Site"/>
+    <String q="" Target="联系方式" Link="Kontakt"/>
+    <String Target="官方网站" Link="Offizielle Site"/>
     <String Target="QQ群" Link="QQ Group"/>
     <String Target="邮箱" Link="E-Mail"/>
 
     <String Target="帮助与支持" Link="Support"/>
     <String Target="初雨开源" Link="Open Source"/>
     <String Target="问题反馈" Link="Feedback"/>
-    <String Target="帮助文档" Link="Document"/>
+    <String Target="帮助文档" Link="Dokument"/>
 
-    <String Target="致谢" Link="Thanks"/>
-    <String Target="翻译人员" Link="Translator"/>
+    <String Target="致谢" Link="Danke"/>
+    <String Target="翻译人员" Link="Übersetzung"/>
     <String Target="赞助名单" Link="Sponsor"/>
     <String Target="第三方库" Link="Third Party"/>
 
@@ -935,7 +935,7 @@ Examples:
       <String Target="禁用OneDrive将导致某些Windows Store应用无法使用OneDrive存储。" Link="Wird OneDrive deaktiviert, können Windows Store Appxs den OneDrive-Speicher nicht mehr nutzen."/>
 
     <String Target="*VHD启动时不要将VHD动态文件扩展到最大（以节省空间）" Link="*Maximale Dateigröße verhindern, wenn von einem virtuellen dynamischen Datenträger gestartet wird (Speicherplatz wird gespart)"/>
-      <String Target="此选项可能降低VHD文件性能。" Link="Das Deaktivieren verursacht einen langsameren Start des virtuellen Datenträgers."/>
+      <String Target="此选项可能降低VHD文件性能。" Link="Die Deaktivierung verursacht einen langsameren Start des virtuellen Datenträgers."/>
     
     <String Target="*隐藏某些SATA硬盘任务栏图标（by 原罪）" Link="*Taskleisten-Symbol für SATA-Festplatten verstecken (by YZ)"/>
 
@@ -1339,7 +1339,7 @@ Command:
 
     <String Target="新版Visual Studio安装源缓存" Link="Installations- Cache des New Visual Studio"/>
     <String Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="Löscht den Installations-Cache von Visual Studio 2017 (und späteren Versionen)."/>
-    <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="Nach Bereinungen, Reparaturen, Installationen von Upgrades oder Komponenten und Deinstallationen ist eine Netzwerkverbindung notwendig (Visual Studio 2017 und spätere Versionen)."/>
+    <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="Nach Bereinigungen, Reparaturen, Installationen von Upgrades oder Komponenten und Deinstallationen ist eine Netzwerkverbindung notwendig (Visual Studio 2017 und spätere Versionen)."/>
   </StringMaps>
   <MessageTable>
     <x800F0806>Ein oder mehrere Updates stehen noch aus. Um fortzufahren, bitte das Programm neu starten.</x800F0806>
