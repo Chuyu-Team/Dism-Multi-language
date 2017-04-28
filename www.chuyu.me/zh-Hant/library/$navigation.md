@@ -1,17 +1,17 @@
 ﻿
-#### [关于Dism++](?file=start.md "返回")
+#### [關於 Dism++](?file=start.md "返回")
 
-##### 1. 快速入门
-- [1.1 快速入门](?file=Quickstart.md "快速入门")
-- [1.2 Dism转Dism++入门](?file=Dism2Dism++.md "Dism转Dism++入门")
+##### 1. 快速入門
+- [1.1 快速入門](?file=Quickstart.md "快速入門")
+- [1.2 Dism 轉 Dism++ 入門](?file=Dism2Dism++.md "Dism轉Dism++入門")
 
-##### 2. 高级进阶
-- [2.1. Dism++术语](?file=Dism++Library/术语.md "Dism++术语")
-- [2.2. Dism++隐藏设置](?file=Dism++Library/隐藏功能.md "Dism++隐藏设置")
-- [2.3. 自定义规则](?file=Dism++Library/自定义规则.md "自定义规则")
-- [2.3. 规则结构参考](?file=Dism++Library/规则结构参考.md "规则结构参考")
+##### 2. 高級進階
+- [2.1. Dism++ 術語](?file=Dism++Library/術語.md "Dism++術語")
+- [2.2. Dism++ 隱藏設定](?file=Dism++Library/隱藏功能.md "Dism++隱藏設置")
+- [2.3. 自訂規則](?file=Dism++Library/自定義規則.md "自定義規則")
+- [2.3. 規則結構參考](?file=Dism++Library/規則結構參考.md "規則結構參考")
 
-##### 3. Dism++最佳实践
-- [3.1. 使用Dism++安装系统](?file=Best/使用Dism++安装系统.md "使用Dism++安装系统")
-- [3.2. 给ISO离线集成补丁](?file=Best/给ISO离线集成补丁.md "给ISO离线集成补丁")
+##### 3. Dism++ 最佳實踐
+- [3.1. 使用 Dism++ 安裝系統](?file=Best/使用Dism++安裝系統.md "使用Dism++安裝系統")
+- [3.2. 給 ISO 離線整合更新檔](?file=Best/給ISO離線集成補丁.md "給ISO離線集成補丁")
 
