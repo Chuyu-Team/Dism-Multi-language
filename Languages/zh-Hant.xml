@@ -108,7 +108,7 @@
 
     <!-- 主框架  -->
 	  <String Target="正在删除" Link="正在刪除"/>
-	  <String Target="错误提示" Link="錯誤提示"/>
+	  <String Target="错误提示" Link="錯誤提醒"/>
 	  <String Target="正在保存" Link="正在儲存"/>
 	  <String Target="保存映像" Link="儲存映像"/>
 	  <String Target="正在准备" Link="正在準備"/>
@@ -718,9 +718,9 @@
     <String Target="将用户账号控制程序（UAC）调整为" Link="將使用者帳戶控制設定(UAC)調整為"/>
       <String Target="从不通知（不推荐）" Link="從不通知(不推薦)"/>
         <String Target="此选项将导致计算机面临安全风险！" Link="此選項將導致電腦面臨安全性風險！"/>
-      <String Target="提示我但不降低亮度" Link="提示我，但不降低亮度"/>
-      <String Target="提示我（推荐）" Link="提示我(推薦)"/>
-      <String Target="总是提示我" Link="總是提示我"/>
+      <String Target="提示我但不降低亮度" Link="提醒我，但不降低亮度"/>
+      <String Target="提示我（推荐）" Link="提醒我(推薦)"/>
+      <String Target="总是提示我" Link="總是提醒我"/>
 
     <String Target="用于内置管理员帐户的管理员批准模式 (by 坏坏小生)" Link="用於內建管理員帳戶的管理員批准模式 (by 壞壞小生)"/>
 
@@ -1436,7 +1436,7 @@ Command:
     <xC144013A>不支援的操作。請檢查位於要擷取之指定路徑的 OS 映像是否為 WIMBoot 所支援。</xC144013A>
     <xC144013B>不支援的操作。請檢查您執行的 OS 是否包含 wof 驅動程式 (wof.sys)。</xC144013B>
   </MessageTable>
-  <UserAgreement>特别提示
+  <UserAgreement>特别提醒
 
     初雨團隊在此特別提醒您（使用者）在使用 Dism++ 之前，請認真閱讀本《使用者協議》（以下簡稱「協議」），確保您充分理解本協議中各條款。請您審慎閱讀並選擇接受或不接受本協議。除非您接受本協議所有條款，否則您無權使用 Dism++。如果您使用 Dism++ 則將視為接受本協議，並同意接受本協議各項條款的約束。
 
