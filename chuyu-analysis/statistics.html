@@ -298,25 +298,15 @@
         }
         )
     let data3 = new Array();
-    let modulever = new Array();
-    fetch('statistics.php?type=modulever').then(
+    let day = new Array();
+    fetch('statistics.php?type=day').then(
         (response) => {
             return response.json();
         }
     ).then(
         (data) => {
             data.forEach((ele) => {
-                let tmodulever = (ele.crashmoduleversion % 65536).toString();
-                ele.crashmoduleversion /= 65536;
-                ele.crashmoduleversion = Math.floor(ele.crashmoduleversion);
-                tmodulever = (ele.crashmoduleversion % 65536).toString() + "." + tmodulever;
-                ele.crashmoduleversion /= 65536;
-                ele.crashmoduleversion = Math.floor(ele.crashmoduleversion);
-                tmodulever = (ele.crashmoduleversion % 65536).toString() + "." + tmodulever;
-                ele.crashmoduleversion /= 65536;
-                ele.crashmoduleversion = Math.floor(ele.crashmoduleversion);
-                tmodulever = (ele.crashmoduleversion % 65536).toString() + "." + tmodulever;
-                modulever.push(tmodulever);
+                day.push(ele.time);
                 data3.push(parseInt(ele.count));
             });
         }
@@ -332,17 +322,16 @@
                     zoomType: 'y'
                 },
                 title: {
-                    text: 'By Module Version'
+                    text: 'By Date'
                 },
                 subtitle: {
                     text: document.ontouchstart === undefined ?
                         'Click and drag in the plot area to zoom in' : 'Pinch the chart to zoom in'
                 },
                 xAxis: {
-                    categories: modulever,
-                    // type: 'datetime',
+                    categories: day,
                     title: {
-                        text: 'Module Version'
+                        text: 'Date'
                     }
                 },
                 yAxis: {
@@ -396,7 +385,7 @@
     ).then(
         (data) => {
             data.forEach((ele) => {
-                ec.push(ele.exceptioncode);
+                ec.push('0x' + parseInt(ele.exceptioncode).toString(16));
                 data4.push(parseInt(ele.count));
             });
         }

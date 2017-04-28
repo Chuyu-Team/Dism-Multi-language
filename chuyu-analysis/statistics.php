@@ -4,6 +4,7 @@ $byosver = "SELECT `osversion`, count(`id`) as count FROM `crash_info` where `ti
 $bydismver = "SELECT `dismversion`, count(`id`) as count FROM `crash_info` where `time` BETWEEN NOW() - INTERVAL 30 DAY AND NOW() group by `dismversion`";
 $bymodulever = "SELECT `crashmoduleversion`, count(`id`) as count FROM `crash_info` where `crashmoduleversion` <> 0 AND `time` BETWEEN NOW() - INTERVAL 30 DAY AND NOW() group by `crashmoduleversion`";
 $byec = "SELECT `exceptioncode`, count(`id`) as count FROM `crash_info` where `exceptioncode` <> 0 AND `time` BETWEEN NOW() - INTERVAL 30 DAY AND NOW() group by `exceptioncode`";
+$byday = "SELECT DATE_FORMAT(time, '%Y-%m-%d') as time, count(`id`) as count FROM `crash_info` where `time` BETWEEN NOW() - INTERVAL 30 DAY AND NOW() group by DATE(time)";
 
 require_once('./config.php');
 try {
@@ -34,6 +35,9 @@ try{
     $sth=null;
     switch($_GET['type'])
     {
+        case 'day':
+            $sth = $pdo->prepare($byday);
+            break;
         case 'module':
             $sth = $pdo->prepare($bymodule);
             break;
