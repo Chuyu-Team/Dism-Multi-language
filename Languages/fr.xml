@@ -248,10 +248,10 @@ Special Thanks to JP.Sudrets(jp.sudret@wanadoo.fr)
     <String Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。"
             Link="Le premier développement dans le monde de Dism GUI basé sur CBS!"/>
 
-    <String q="" Target="联系方式" Link="Contact"/>
+    <String Target="联系方式" Link="Contact"/>
     <String Target="官方网站" Link="Site Officiel"/>
     <String Target="QQ群" Link="QQ Groupe"/>
-    <String Target="邮箱" Link="courriel"/>
+    <String Target="邮箱" Link="Courriel"/>
 
     <String Target="帮助与支持" Link="Support"/>
     <String Target="初雨开源" Link="Sources ouvertes"/>
@@ -260,7 +260,7 @@ Special Thanks to JP.Sudrets(jp.sudret@wanadoo.fr)
 
     <String Target="致谢" Link="Merci"/>
     <String Target="翻译人员" Link="Traducteur"/>
-    <String Target="赞助名单" Link="Parrainer"/>
+    <String Target="赞助名单" Link="Sponsor"/>
     <String Target="第三方库" Link="Bibliothèque Tierce"/>
 
     <!--添加映像-->
