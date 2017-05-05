@@ -352,6 +352,20 @@
         </Activate>
       </Scan>
     </Item>
+    
+    <Item Name="#损坏的AppX" Level="2">
+      <Description>#清理损坏的AppX。例如Visual Studio的通用应用XAML设计器暴力删除临时生成的设计器应用，于是会出现大量损坏的AppX。</Description>
+      <Group>#系统相关</Group>
+      <Scan>
+        <Applicable>
+          <ImageFlags>1</ImageFlags>
+          <FileExist FilePath="%SystemDrive%\Program Files\WindowsApps"/>
+        </Applicable>
+        <Activate>
+          <Custom ProcName="NCCorruptedAppXOnlineCleanup"/>
+        </Activate>
+      </Scan>
+    </Item>
 
     <Item Name="#系统还原点" Level="2">
       <Description>#先删除全部还原点，再创建一个新的还原点(当系统还原已启用时)</Description>
