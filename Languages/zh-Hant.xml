@@ -660,7 +660,7 @@
     <String Target="让其他程序以无视权限方式运行。" Link="使其他程式以忽略權限方式執行。"/>
     <String Target="请在此输入命令或者程序路径，比如regedit" Link="請在此輸入指令或者程式執行路徑，例如 regedit"/>
     <String Target="说明" Link="說明"/>
-    <String Target="本工具可以让其他程序以无视权限形式运行，本功能可以通过命令行参数调用，详情请参考帮助文档了解具体用法。" Link="本工具可以讓其他程式以忽略權限方式執行，亦可以透過命令列參數調用，詳情請參考說明文件，了解具體用法。"/>
+    <String Target="本工具可以让其他程序以无视权限形式运行，本功能可以通过命令行参数调用，详情请参考帮助文档了解具体用法。" Link="本工具可以讓其他程式以忽略權限方式執行，亦可以透過命令列參數呼叫，詳情請參考說明文件，了解具體用法。"/>
     <String Target="/GodMode {Commendline}
  春哥附体执行Cmd命令，其命令格式与Cmd用法一致
 
@@ -675,7 +675,7 @@
  Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode cmd
  Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode regedit.exe
  Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode &quot;\&quot;C:\Windows\notepad.exe\&quot; \&quot;C:\123.txt\&quot;&quot;"/>
-    <String Target="即将以无视权限方式执行此命令：&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;为了避免让恶意软件利用，Dism++需要你的允许才能继续，你确定要继续吗？" Link="即將以忽略權限方式執行此指令：&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;為避免惡意程式利用，Dism++需要您的允許才能繼續，您確定要繼續嗎？"/>
+    <String Target="即将以无视权限方式执行此命令：&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;为了避免让恶意软件利用，Dism++需要你的允许才能继续，你确定要继续吗？" Link="即將以忽略權限方式執行此指令：&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;為避免惡意程式利用，Dism++ 需要您的允許才能繼續，您確定要繼續嗎？"/>
     <String Target="可以使用以下命令来操作此映像：&#x000D;&#x000A;&#x000D;&#x000A;/GodMode	- 使用春哥附体启动应用程序" Link="可以使用以下命令來操作映像檔：&#x000D;&#x000A;&#x000D;&#x000A;/GodMode	- 使用上帝模式啟動應用程式"/>
 
     <String Target="ESD转ISO" Link="ESD 轉 ISO"/>
@@ -698,16 +698,16 @@
     <!--系統最佳化開始-->
     <String Target="系统优化" Link="系統最佳化"/>
     <String Target="当前用户" Link="目前使用者"/>
-    <String Target="新用户" Link="新使用者"/>
+    <String Target="新用户" Link="新的使用者"/>
     <String Target="系统" Link="系統"/>
-    <String Target="仅针对当前用户，即 HKEY_CURRENT_USER。" Link="針對目前用戶，即 HKEY_CURRENT_USER。"/>
-    <String Target="针对未来新建的用户，即 HKEY_USERS\DEFAULT。" Link="針對未來新增的用戶，即 HKEY_USERS\DEFAULT。"/>
+    <String Target="仅针对当前用户，即 HKEY_CURRENT_USER。" Link="針對目前使用者，即 HKEY_CURRENT_USER。"/>
+    <String Target="针对未来新建的用户，即 HKEY_USERS\DEFAULT。" Link="針對未來新增的使用者，即 HKEY_USERS\DEFAULT。"/>
     <String Target="针对系统，即 HKEY_LOCAL_MACHINE。" Link="針對系統，即 HKEY_LOCAL_MACHINE。"/>
     <String Target="导入配置" Link="匯入設定"/>
     <String Target="导入注册表文件过程中遇到问题，具体错误信息请参考 Dism++.log。" Link="匯入登錄檔過程中遇到問題，詳細錯誤訊息請參考 Dism++.log。"/>
     <String Target="注册表文件" Link="登錄檔"/>
     <String Target="操作成功，但是导入注册表文件过程遇到一些非致命性错误，具体错误信息请参考 Dism++.log。" Link="操作成功，但是匯入登錄檔檔過程遇到一些非致命性錯誤，具體錯誤資訊請參考 Dism++.log。"/>
-    <String Target="提交规则" Link="提交規則"/>
+    <String Target="提交规则" Link="提供規則"/>
 
     <!--Explorer-->
     <String Target="将任务栏中的Cortana调整为" Link="將工作列中的 Cortana 調整為"/>
@@ -722,11 +722,11 @@
       <String Target="提示我（推荐）" Link="通知我 (預設值)"/>
       <String Target="总是提示我" Link="一律通知"/>
 
-    <String Target="用于内置管理员帐户的管理员批准模式 (by 坏坏小生)" Link="用於內建管理員帳戶的管理員批准模式 (by 壞壞小生)"/>
+    <String Target="用于内置管理员帐户的管理员批准模式 (by 坏坏小生)" Link="用於內建管理員帳戶的管理員批准模式（by 壞壞小生）"/>
 
     <String Target="隐藏“任务视图”按钮" Link="隱藏「任務檢視」按鈕"/>
 
-    <String Target="打开资源管理器时显示此电脑" Link="開啟檔案總管時顯示此電腦"/>
+    <String Target="打开资源管理器时显示此电脑" Link="開啟檔案總管時顯示本機"/>
 
     <String Target="显示所有文件扩展名" Link="顯示所有檔案副檔名"/>
 
@@ -756,9 +756,9 @@
 
     <String Target="使开始菜单、任务栏、操作中心透明" Link="使開始選單、工作列、重要訊息中心透明"/>
 
-    <String Target="使任务栏更透明（by 518516.net）" Link="使工作列更透明 (by 518516.net)"/>
+    <String Target="使任务栏更透明（by 518516.net）" Link="使工作列更透明（by 518516.net）"/>
 
-    <String Target="偶尔在开始菜单中显示建议" Link="偶爾在[開始]中顯示建議"/>
+    <String Target="偶尔在开始菜单中显示建议" Link="偶爾在 [開始] 中顯示建議"/>
 
     <String Target="在桌面显示我的电脑（by Rambin）" Link="在桌面顯示我的電腦（by Rambin）"/>
       <String Target="跟随系统" Link="隨著系統"/>
@@ -847,9 +847,9 @@
 
     <String Target="关闭建议的网站（by 原罪）" Link="關閉建議的網站（by 原罪）"/>
 
-    <String Target="跳过IE首次运行自定义设置（by 原罪、恋人の共鸣）" Link="跳過 IE 首次執行之自訂設定 (by 原罪、恋人の共鸣)"/>
+    <String Target="跳过IE首次运行自定义设置（by 原罪、恋人の共鸣）" Link="跳過 IE 首次執行之自訂設定（by 原罪、恋人の共鸣）"/>
     
-    <String Target="不保存附件的区域信息（by 古畑任三郎）" Link="不儲存附件的區域訊息 (by 古畑任三郎)"/>
+    <String Target="不保存附件的区域信息（by 古畑任三郎）" Link="不儲存附件的區域訊息（by 古畑任三郎）"/>
 
     <String Target="启用增强保护模式" Link="啟用增強保護模式"/>
 
@@ -890,7 +890,7 @@
     <String Target="*关闭防火墙（by 一叶微风TM）" Link="*關閉防火牆（by 一葉微風TM）"/>
       <String Target="此选项将降低计算机安全性，请确保你已经安装第三方防火墙软件！" Link="此選項將降低電腦安全性，請確認您已經安裝第三方防火牆軟體！"/>
 
-    <String Target="*关闭远程协助（by 原罪）" Link="*關閉遠端協助 (by 原罪)"/>
+    <String Target="*关闭远程协助（by 原罪）" Link="*關閉遠端協助（by 原罪）"/>
     
     <!--服務最佳化--><String Target="服务优化" Link="服務最佳化"/>
     <String Target="禁用程序兼容性助手（by 一叶微风TM）" Link="停用程式相容性排解員（by 一葉微風TM）"/>
@@ -925,7 +925,7 @@
     <String Target="隐藏WinRAR 在右键菜单中添加的&quot;压缩并 E-mail...&quot;（by 原罪）" Link="隱藏 WinRAR 在右鍵選單中新增的「壓縮並發郵件...」（by 原罪）"/>
 
     <!--Windows Media Player-->
-    <String Target="不显示首次使用对话框（by 原罪）" Link="不顯示首次使用之對話視窗 (by 原罪)"/>
+    <String Target="不显示首次使用对话框（by 原罪）" Link="不顯示首次使用之對話視窗（by 原罪）"/>
 
     <!--其他-->
     <String Target="*隐藏Windows 10升级助手GWX" Link="*隱藏 Windows 10 更新小幫手 (GWX)"/>
@@ -938,7 +938,7 @@
     
     <String Target="*隐藏某些SATA硬盘任务栏图标（by 原罪）" Link="*隱藏某些 SATA 硬碟工具列圖示（by 原罪）"/>
     
-    <String Target="蓝屏时自动重启（by 原罪）" Link="藍色畫面當機時自動重新啟動 (by 原罪)"/>
+    <String Target="蓝屏时自动重启（by 原罪）" Link="藍色畫面當機時自動重新啟動（by 原罪）"/>
 
     <String Target="关闭快速启动" Link="關閉快速啟動"/>
     <String Target="关闭快速启动将导致系统启动速度变慢！" Link="關閉快速啟動將導致系統啟動速度變慢！"/>
@@ -1499,7 +1499,7 @@ Command:
 六、其他
 1、初雨團隊鄭重提醒使用者注意本協議中免除初雨團隊責任和限制使用者權利的條款，請使用者仔細閱讀，自主考慮風險。未成年人應在法定監護人的陪同下閱讀本協議。
 
-2、本協議的效力、解釋及糾紛的解決，適用於中華人民共和國法律。若使用者和初雨團隊之間發生任何糾紛或爭議，首先應友好協商解決，協商不成的，使用者同意將糾紛或爭議提交初雨團隊住所地有管轄權的人民法院管轄。
+2、本協議的效力、解釋及糾紛的解決，適用於中華人民共和國法律。若使用者和初雨團隊之間發生任何糾紛或爭議，首先應友好協商解決，協商不成的，使用者同意將糾紛或爭議提供初雨團隊住所地有管轄權的人民法院管轄。
 
 3、本協議的任何條款無論因何種原因無效或不具可執行性，其餘條款仍有效，對雙方具有約束力。
 
