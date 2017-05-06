@@ -53,7 +53,7 @@
       <String Target="健康扫描" Link="健康掃描"/>
         <String Target="验证受损" Link="檢驗受損"/>
         <String Target="修复受损" Link="修復受損"/>
-      <String Target="引导修复" Link="啟動修復"/>
+      <String Target="引导修复" Link="Boot 修復"/>
       <String Target="系统备份" Link="系統備份"/>
       <String Target="系统还原" Link="系統還原"/>
 		  <String Target="在RE中运行" Link="在 RE 中執行"/>
@@ -91,7 +91,7 @@
 	  <String Target="启动RE环境" Link="啟動 RE 環境"/>
 	  <String Target="添加删除Dism插件" Link="新增或刪除 Dism 外掛程式"/>
 	  <String Target="在官方网站可以获取帮助文档，并提出你的宝贵意见" Link="在官方網站可以取得說明文件，並提出您的寶貴意見"/>
-    <String Target="为映像重新添加引导。" Link="為映像重新新增引導。"/>
+    <String Target="为映像重新添加引导。" Link="為映像重新新增 Boot。"/>
     <String Target="只添加指定文件夹路径到映像列表。" Link="只新增指定資料夾路徑到映像清單。"/>
     <String Target="重新扫描系统" Link="重新掃描系統"/>
     <String Target="取消所有Compact压缩的文件（存在兼容性问题时使用）" Link="取消所有 Compact 壓縮檔案 (存在相容性問題時使用)"/>
@@ -117,7 +117,7 @@
     <String Target="无法启动Dism++x64.exe，请确保该Dism++组件的完整性。" Link="無法啟動 Dism++ x64.exe，請確保該 Dism++ 組件的完整性。"/>
     <String Target="Dism++关键组件丢失，请从 www.chuyu.me 重新下载Dism++。" Link="Dism++ 關鍵組件遺失，請從 www.chuyu.me 重新下載 Dism++。"/>
     <String Target="临时目录可用空间不足5GB，这可能导致Dism++无法正常运行，推荐将Dism++复制到可用空间大于5GB的驱动器，然后继续。" Link="暫存目錄可用空間不足 5GB，這可能導致 Dism++ 無法正常執行，建議將 Dism++ 複製到可用空間大於 5GB 的磁碟機，再繼續。"/>
-    <String Target="基础支撑库缺失，引导修复相关功能无法使用。" Link="基礎支援程式庫缺失，啟動修復相關功能無法使用。"/>
+    <String Target="基础支撑库缺失，引导修复相关功能无法使用。" Link="基礎支援程式庫缺失，Boot 修復相關功能無法使用。"/>
     <String Target="Dism++需要管理员权限才能运行，请右键 以管理员身份运行 然后继续。" Link="Dism++ 需要管理員權限才可執行，請右鍵 以管理員身份執行 然後繼續。"/>
 
     <String Target="你需要增量保存还是直接保存？" Link="您需要增量儲存還是直接儲存？"/>
@@ -164,10 +164,10 @@
 	  <String Target="Sorry，无法配置环境，请在PE中使用此功能。" Link="Sorry，無法配置環境，請在 PE 中使用此功能。"/>
 	  <String Target="Sorry，无法清理临时文件！" Link="Sorry，無法清理暫存檔案！"/>
 	  <String Target="当前硬盘可用空间不足，你需要重启并进入RE进行恢复么？" Link="目前硬碟可用空間不足，您需要重新啟動並進入 RE 中進行恢復嗎？"/>
-	  <String Target="在还原前你需要格式化分区：%s ?" Link="在還原前您需要格式化分區：%s ?"/>
+	  <String Target="在还原前你需要格式化分区：%s ?" Link="在還原前您需要格式化磁碟：%s ?"/>
 	
-	  <String Target="温馨提示：格式化分区该分区所有数据将丢失！" Link="貼心提醒：格式化分區，該分區所有資料將遺失！"/>
-	  <String Target="格式化分区（推荐）&#x000A;有助于系统分区整洁，消除文件残留。" Link="格式化分區（推薦）&#x000A;有助於系統分區整潔，消除檔案殘留。"/>
+	  <String Target="温馨提示：格式化分区该分区所有数据将丢失！" Link="貼心提醒：格式化磁碟，該磁碟所有資料將會消除！"/>
+	  <String Target="格式化分区（推荐）&#x000A;有助于系统分区整洁，消除文件残留。" Link="格式化磁碟（推薦）&#x000A;有助於系統磁碟區整潔，消除檔案殘留。"/>
 
 	  <String Target="%s 映像已经还原成功。" Link="%s 映像已經還原成功。"/>
 	  <String Target="你需要重启并立即生效么？" Link="您需要重新啟動並立即生效嗎？"/>
@@ -228,7 +228,7 @@
     <String Target="正在初始化" Link="正在初始化"/>
     <String Target="类别" Link="類別"/>
     <String Target="大小" Link="大小"/>
-    <String Target="正在关闭会话" Link="正在關閉對話"/>
+    <String Target="正在关闭会话" Link="正在關閉工作階段"/>
     <String Target="值" Link="值"/>
     <String Target="控制面板" Link="控制台"/>
     <String Target="删除" Link="刪除"/>
@@ -284,7 +284,7 @@
 	  <String Target="目标映像：" Link="目標映像："/>
     <String Target="请选择其中一个映像" Link="請選擇其中一個映像"/>
     <String Target="请在此输入映像文件路径，比如 D:\Backup.wim" Link="請在此輸入映像檔路徑，例如 D:\Backup.wim"/>
-    <String Target="添加引导" Link="新增引導"/>
+    <String Target="添加引导" Link="新增 Boot"/>
     <String Target="格式化" Link="格式化"/>
     <String Target="释放映像" Link="套用映像"/>
     <String Target="挂载映像 " Link="掛接映像"/>
@@ -302,7 +302,7 @@
 	  <String Target="映像已经受到致命问题，已经无法修复，请修复安装。" Link="映像已經受到致命問題，無法修復，請修復安裝。"/>
     <String Target="系统修复向导" Link="系統修復精靈"/>
     <String Target="恭喜映像已经修复成功！" Link="恭喜映像檔已經修復成功！"/>
-    <String Target="致命错误，会话无应答。" Link="嚴重錯誤，對話無回應。"/>
+    <String Target="致命错误，会话无应答。" Link="嚴重錯誤，工作階段無回應。"/>
   
 	  <!--本機來源-->
 	  <String Target="本地源可以大幅度加速功能打开以及系统修复。" Link="本機來源可以大幅度加速功能開啟以及系統修復。"/>
@@ -338,29 +338,29 @@
     <String Target="编辑映像" Link="編輯映像"/>
 
     <!--引导修复-->
-    <String Target="此映像并不在分区根目录，所以无法执行修复操作。" Link="此映像並不在分區根目錄，所以無法執行修復操作。"/>
+    <String Target="此映像并不在分区根目录，所以无法执行修复操作。" Link="此映像並不在磁碟區根目錄，所以無法執行修復操作。"/>
     <String Target="当前映像正在运行，所以无法执行修复操作。" Link="目前映像正在執行，所以無法執行修復操作。"/>
-    <String Target="正在修复引导" Link="正在修復引導"/>
-    <String Target="恭喜已经成功修复引导。" Link="恭喜已經成功修復引導。"/>
+    <String Target="正在修复引导" Link="正在修復 Boot"/>
+    <String Target="恭喜已经成功修复引导。" Link="恭喜已經成功修復 Boot。"/>
     <String Target="启动修复失败，错误代码：%d" Link="啟動修復失敗，錯誤代碼：%d"/>
-    <String Target="无法对PE进行引导修复。" Link="無法對 PE 進行啟動修復。"/>
+    <String Target="无法对PE进行引导修复。" Link="無法對 PE 進行 Boot 修復。"/>
     <String Target="类型" Link="類型"/>
 
     <!--引导修复-启动分区选择-->
     <String Target="位置" Link="位置"/>
     <String Target="基本" Link="基本"/>
-    <String Target="更多" Link="更多"/>
-    <String Target="启动分区：" Link="啟動磁碟分區："/>
+    <String Target="更多" Link="進階"/>
+    <String Target="启动分区：" Link="開機磁碟分割："/>
     <String Target="你必须点击更多进行手动指定！" Link="您必須點擊更多，進行手動指定！"/>
-    <String Target="硬盘%d 分区%d（%s）" Link="硬碟 %d 分區%d（%s）"/>
-    <String Target="硬盘%d 分区%d" Link="硬碟 %d 分區%d"/>
-    <String Target="即将把启动信息写入启动分区- %s" Link="即將把啟動資訊寫入開機磁碟分區- %s"/>
-    <String Target="没有异议或者看不懂的请点击 %s 。" Link="沒有其他異議或者看不懂的，請點擊 %s 。"/>
-    <String Target="无法获取该分区的详细信息。" Link="無法取得該分區的詳細資訊。"/>
-    <String Target="目标系统需要以UEFI方式启动，请选择一个GPT分区。" Link="目標系統需要以 UEFI 方式啟動，請選擇一個 GPT 分區。"/>
-    <String Target="UEFI启动需要FAT16/FAT32分区。" Link="UEFI 啟動需要 FAT16/FAT32 分區。"/>
-    <String Target="目标系统需要以BIOS方式启动，请选择一个MBR分区。" Link="目標系統需要以 BIOS 方式啟動，請選擇一個 MBR 分區。"/>
-    <String Target="BIOS启动分区必须是个主分区。" Link="BIOS 啟動分區必須是主分區。"/>
+    <String Target="硬盘%d 分区%d（%s）" Link="硬碟 %d 分割 %d（%s）"/>
+    <String Target="硬盘%d 分区%d" Link="硬碟 %d 分割 %d"/>
+    <String Target="即将把启动信息写入启动分区- %s" Link="即將把啟動資訊寫入開機磁碟分割- %s"/>
+    <String Target="没有异议或者看不懂的请点击 %s 。" Link="沒有其他異議或者看不懂的，請按下 %s 。"/>
+    <String Target="无法获取该分区的详细信息。" Link="無法取得該磁碟分割的詳細資訊。"/>
+    <String Target="目标系统需要以UEFI方式启动，请选择一个GPT分区。" Link="目標系統需要以 UEFI 方式啟動，請選擇一個 GPT 磁碟分割。"/>
+    <String Target="UEFI启动需要FAT16/FAT32分区。" Link="UEFI 啟動需要 FAT16/FAT32 磁碟分割。"/>
+    <String Target="目标系统需要以BIOS方式启动，请选择一个MBR分区。" Link="目標系統需要以 BIOS 方式啟動，請選擇一個 MBR 磁碟分割。"/>
+    <String Target="BIOS启动分区必须是个主分区。" Link="BIOS 開機磁碟分割必須是主要磁碟分割。"/>
 
     <!--詳細設置-->
     <String Target="体验" Link="體驗"/>
@@ -368,7 +368,7 @@
     <String Target="确定" Link="確定"/>
     <String Target="启用专家模式*" Link="啟用專家模式*"/>
     <String Target="整合右键菜单" Link="整合右鍵功能表"/>
-    <String Target="整合引导菜单" Link="整合引導選單"/>
+    <String Target="整合引导菜单" Link="整合 BCD boot 選單"/>
     <String Target="排除列表" Link="排除清單"/>
     <String Target="减少映像文件（WIM、ESD）保存时间" Link="減少映像檔（WIM、ESD）儲存時間"/>
     <String Target="CompactOS压缩率" Link="CompactOS 壓縮率"/>
@@ -384,10 +384,10 @@
     <String Target="完整" Link="完整"/>
 
     <!--Tab-->
-	  <String Target="Dism++正在执行其他任务，你可以稍后打开会话。" Link="Dism++ 正在執行其他任務，您可以稍後開啟對話。"/>
-	  <String Target="为了优化性能，你需要手动打开会话。" Link="為了最佳化效能，您需要手動開啟對話。"/>
-	  <String Target="打开会话" Link="開啟對話"/>
-	  <String Target="正在打开会话" Link="正在開啟對話"/>
+	  <String Target="Dism++正在执行其他任务，你可以稍后打开会话。" Link="Dism++ 正在執行其他任務，您可以稍後開啟工作階段。"/>
+	  <String Target="为了优化性能，你需要手动打开会话。" Link="為了最佳化效能，您需要手動開啟工作階段。"/>
+	  <String Target="打开会话" Link="開啟工作階段"/>
+	  <String Target="正在打开会话" Link="正在開啟工作階段"/>
   
     <String Target="常用工具" Link="工具程式"/>
       <String Target="空间回收" Link="空間回收"/>
@@ -404,14 +404,14 @@
     <String Target="部署功能" Link="部署功能"/>
 
 	  <!--空間回收-->
-	  <String Target="推荐操作" Link="推薦操作"/>
+	  <String Target="推荐操作" Link="操作建議"/>
 	  <String Target="需要扫描" Link="需要掃描"/>
 	  <String Target="正在扫描%s" Link="正在掃描 %s"/>
 	  <String Target="出错" Link="發生錯誤"/>
 	  <String Target="正在清理%s" Link="正在清理 %s"/>
 	  <String Target="本次共释放了%s 的空间。" Link="本次共釋放了 %s 的空間。"/>
 
-    <String Target="该规则来自CCleaner解析引擎，因此不能提供说明。" Link="該規則來自 CCleaner 的解析引擎，無法提供細節說明。"/>
+    <String Target="该规则来自CCleaner解析引擎，因此不能提供说明。" Link="該規則來自 CCleaner 的解析引擎，無法提供詳細說明。"/>
     <String Target="默认" Link="預設"/>
     <String Target="关于 %s 的详细处理信息" Link="關於 %s 的詳細資訊"/>
     <String Target="以下文件即将被处理，你可以点击 清理 处理他们" Link="以下檔案即將被處理，您可以點擊 清理 處理他們"/>
@@ -432,7 +432,7 @@
     <String Target="无效动态链接库" Link="無效動態連結程式庫(DLL)"/>
     <String Target="无效的应用程序路径" Link="無效的應用程式路徑"/>
     <String Target="无效的启动程序" Link="無效的啟動程序"/>
-    <String Target="用户访问历史记录" Link="使用者訪問歷史記錄"/>
+    <String Target="用户访问历史记录" Link="使用者存取的歷史記錄"/>
     <String Target="无效的防火墙设置" Link="無效的防火牆設定"/>
     <String Target="无效的卸载信息" Link="無效的移除資訊"/>
     <String Target="无效的MUI缓存" Link="無效的 MUI 快取"/>
@@ -558,7 +558,7 @@
     <String Target="%s 无法获取Appx关联的账号信息，错误代码：0x%.8X" Link="%s 無法取得 Appx 關聯的帳號資訊，錯誤代碼: 0x%.8X"/>
     <String Target="%s 无法获取账号SID，错误代码：0x%.8X" Link="%s 無法取得帳號 SID，錯誤代碼：0x%.8X"/>
     <String Target="%s 所关联的用户（%s）无法删除，错误代码：0x%.8X" Link="%s 所關聯的使用者 (%s) 無法刪除，錯誤代碼：0x%.8X"/>
-    <String Target="%s 未关联任何用户。" Link="%s 為關聯任何使用者。"/>
+    <String Target="%s 未关联任何用户。" Link="%s 未關聯任何使用者。"/>
     <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="恭喜你刪除成功！但是某些應用程式可能屬於 Provisioned Appx，如果你遇到某個 App 所有者是 SYSTEM，而且一直刪不掉，那麼你需要使用 Provisioned Appx 刪除它們。"/>
 
     <!--Windows Update-->
@@ -578,7 +578,7 @@
     <String Target="项目" Link="項目"/>
     <String Target="Windows Update数据库已经存在新版本，你需要更新吗？" Link="Windows Update 資料庫已經存在新版本，您需要更新嗎？"/>
     <String Target="下载%d%%" Link="下載 %d%%"/>
-    <String Target="将现有的本地补丁包添加至系统。" Link="將現有的本機補丁包新增至系統。"/>
+    <String Target="将现有的本地补丁包添加至系统。" Link="將現有的本機更新包新增至系統。"/>
     <String Target="使用Dism++数据库扫描当前系统需要的更新列表。" Link="使用 Dism++ 資料庫掃描目前系統需要的更新清單。"/>
     <String Target="自动下载并安装更新列表中选中的更新。" Link="自動下載並安裝更新清單中已選取的更新。"/>
     <String Target="计算机已经安装最新更新。" Link="電腦已經安裝最新更新。"/>
@@ -596,11 +596,11 @@
     <String Target="区域和语言" Link="地區與語言"/>
     <String Target="调整映像中的指定 SKU 语言的所有国际设置都设置为默认值：" Link="調整映像中的指定 SKU 語言的所有國際設定都設定為預設值："/>
     <String Target="将系统默认语言调整为指定区域：" Link="將系統預設語言調整為指定區域："/>
-    <String Target="将用户配置（格式、键盘布局等）为指定区域：" Link="將使用者配置（格式、鍵盤配置等）為指定區域："/>
+    <String Target="将用户配置（格式、键盘布局等）为指定区域：" Link="將使用者配置 (格式、鍵盤配置等) 為指定區域："/>
     <String Target="将时区设置调整为以下时区：" Link="將時區設定調整為以下時區："/>
     <String Target="将非 Unicode 程序的代码页以及字体设置为指定区域：" Link="將非 Unicode 程式的內碼表以及字型設定為指定區域："/>
     <String Target="欢迎屏幕（系统账号）" Link="歡迎畫面 (系統帳號)"/>
-    <String Target="新用户账号" Link="新用戶帳號"/>
+    <String Target="新用户账号" Link="新的使用者帳戶"/>
     
     <!--檔案關聯-->
     <String Target="文件关联" Link="檔案關聯"/>
@@ -1070,18 +1070,18 @@ Command:
     <String Target="操作完成！" Link="完成操作！"/>
     
     <!--系統還原-->
-    <String Target="当前模式不支持引导修复以及格式化分区，你需要重启并进入RE进行恢复么？" Link="目前模式不支援啟動修復及格式化分區，您需要重新啟動並進入 RE，進行恢復嗎？"/>
+    <String Target="当前模式不支持引导修复以及格式化分区，你需要重启并进入RE进行恢复么？" Link="目前模式不支援 Boot 修復及格式化磁碟，您需要重新啟動並進入 RE，進行恢復嗎？"/>
     <String Target="正在格式化" Link="正在格式化"/>
-    <String Target="格式化分区 %s 失败，错误代码：%d。" Link="格式化分區 %s 失敗，錯誤代碼：%d。"/>
-    <String Target="正在刷新" Link="正在刷新"/>
-    <String Target="Dism++与此操作系统处于同一分区，无法进行格式化。" Link="Dism++ 與此作業系統處於同一分區，無法進行格式化。"/>
+    <String Target="格式化分区 %s 失败，错误代码：%d。" Link="格式化磁碟 %s 失敗，錯誤代碼：%d。"/>
+    <String Target="正在刷新" Link="正在重新整理"/>
+    <String Target="Dism++与此操作系统处于同一分区，无法进行格式化。" Link="Dism++ 與此作業系統處於同一磁碟區，無法進行格式化。"/>
 
     <!--重新载入-->
     <String Target="当前其他任务正在进行，请稍等……" Link="目前其他任務正在進行中，請稍後……"/>
 
     <!--檔案拆分設定-->
     <String Target="文件拆分" Link="檔案拆分"/>
-    <String Target="分卷大小（MB）" Link="分區大小（MB）"/>
+    <String Target="分卷大小（MB）" Link="磁碟區大小 (MB)"/>
 
     <!--用户协议-->
     <String Target="Dism++用户协议" Link="Dism++ 使用者協議"/>
@@ -1096,7 +1096,7 @@ Command:
     <String Target="清理被取代的组件并减少组件存储的大小。" Link="清理被取代的元件並減少元件儲存的大小。"/>
     <String Target="清理后将无法卸载更新，如果有卸载更新需求请勿使用此选项。" Link="清理後將無法移除更新，如果有移除更新需求請勿使用此選項。"/>
 
-    <String Target="被取代的WinSxS组件（非常慢）" Link="被取代的 WinSxS 組件（非常慢）"/>
+    <String Target="被取代的WinSxS组件（非常慢）" Link="被取代的 WinSxS 組件 (非常慢)"/>
 
     <String Target="过期驱动" Link="過期驅動"/>
     <String Target="删除计算机中不使用的驱动程序以节省驱动存储池空间。" Link="刪除電腦中不使用的驅動程式以節省驅動儲存池空間。"/>
@@ -1152,7 +1152,7 @@ Command:
     <String Target="YY临时文件" Link="YY暫存檔案"/>
     <String Target="YY运行时产生的一些临时文件以及日志，建议定期删除。" Link="YY執行時產生的一些暫存檔案以及日誌，建議定期刪除。"/>
 
-    <String Target="Installer基线缓存" Link="Installer基線快取"/>
+    <String Target="Installer基线缓存" Link="Installer 快取"/>
     <String Target="使用Installer技术的安装程序产生的缓存。" Link="使用 Installer 技術的安裝程式產生的快取。"/>
     <String Target="可能导致卸载Office、VM等应用程序需要安装包。" Link="可能導致移除 Office、VM 等應用程式時，缺乏安裝包。"/>
 
@@ -1203,7 +1203,7 @@ Command:
     <String Target="Windows事件" Link="Windows 事件"/>
     <String Target="Windows在运行过程中产生的事件。" Link="Windows 在執行過程中產生的項目紀錄。"/>
 
-    <String Target="Dism++非必需文件" Link="Dism++ 非必須檔案"/>
+    <String Target="Dism++非必需文件" Link="Dism++ 非必要檔案"/>
     <String Target="Dism++为了兼容各个环境，在完整包中存放了大量兼容性文件，以兼容各个平台。此功能可以根据当前环境自动删除不需要的文件。" Link="Dism++ 為了相容各式環境，在完整包中存放了大量相容性檔案，以相容各平台。此功能可以根據目前系統環境，自動刪除不必要檔案。"/>
 
     <String Target="软媒PC管家" Link="軟媒 PC 管家"/>
@@ -1234,8 +1234,8 @@ Command:
     <String Target="会声会影使用过程中会在此目录产生存档，在不需要后可以删除。" Link="繪聲繪影使用過程中會在此目錄產生存檔，在不需要後可以刪除。"/>
     <String Target="请确保所有编辑的视频已经保存！" Link="請確保所有編輯的視訊已經儲存！"/>
 
-    <String Target="Visual Studio智能跟踪（by LP）" Link="Visual Studio 智慧跟蹤（by LP）"/>
-    <String Target="Visual Studio调试程序时留下的智能跟踪缓存。" Link="Visual Studio 偵錯工具時留下的智慧跟蹤快取。"/>
+    <String Target="Visual Studio智能跟踪（by LP）" Link="Visual Studio IntelliTrace（by LP）"/>
+    <String Target="Visual Studio调试程序时留下的智能跟踪缓存。" Link="Visual Studio 偵錯工具時留下的 IntelliTrace 快取。"/>
 
     <String Target="系统以及程序崩溃dmp文件（by YukiSakura）" Link="系統以及程式當機 dmp 檔（by YukiSakura）"/>
     <String Target="当系统蓝屏或者应用程序崩溃时产生的dmp文件。" Link="當系統藍色畫面或者應用程式當機時產生的 dmp 檔。"/>
@@ -1256,7 +1256,7 @@ Command:
     <String Target="英伟达驱动安装后留下的安装源缓存。" Link="Nvidia 驅動安裝後留下的安裝來源快取。"/>
     <String Target="此条目可能影响英伟达驱动的卸载。" Link="此項目可能影響 Nvidia 驅動的移除。"/>
 
-    <String Target="Windows预读取文件（by 辰g.）" Link="Windows 預讀取檔（by 辰g.）"/>
+    <String Target="Windows预读取文件（by 辰g.）" Link="Windows prefetch (預先擷取)檔案（by 辰g.）"/>
     <String Target="用于加速下次程序启动速度，不建议频繁清理此条目。" Link="用於加速下次程式啟動速度，不建議經常清理此項目。"/>
 
     <String Target="Windows更新安装记录" Link="Windows 更新安裝記錄"/>
@@ -1338,9 +1338,9 @@ Command:
     <String Target="英伟达驱动安装包（by Ailick）" Link="Nvidia 驅動安裝程式（by Ailick）"/>
     <String Target="Nvidia Geforce Experience更新程序时产生的安装包。" Link="Nvidia Geforce Experience 更新程式時產生的安裝包。"/>
     
-    <String Target="新版Visual Studio安装源缓存" Link="新版 Visual Studio 安裝來源緩存"/>
+    <String Target="新版Visual Studio安装源缓存" Link="新版 Visual Studio 安裝來源快取"/>
     <String Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="該專案清理 Visual Studio 2017 及以後版本的安裝來源"/>
-    <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="清理後升級、修復、增加組件、解除安裝 Visual Studio 2017 及之後的版本需要有網路的環境"/>
+    <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="清理後升級、修復、新增組件、解除安裝 Visual Studio 2017 及之後的版本需要有網路的環境"/>
   </StringMaps>
   <MessageTable>
     <x800F0806>一個或多個更新執行中，請重新啟動後繼續。</x800F0806>
@@ -1360,12 +1360,12 @@ Command:
     <xA0020006>目前系統不包含 Wow64 支援，無法離線處理非 x64 系統。</xA0020006>
     <xA0020007>所需要的 CBSHost.dll 不存在，請確保 Dism++ 的完整性。</xA0020007>
     <xA0020008>作業系統遺失 rundll32.exe，Dism++ 無法正常執行。</xA0020008>
-    <xA0020009>Dism++ 對話當機，建議將程式目錄的 "CBSHost_*.dmp" 壓縮後寄給小鴨子（mingkuang@live.com）協助解決此問題。</xA0020009>
+    <xA0020009>Dism++ 對話當機，建議將程式目錄的 "CBSHost_*.dmp" 壓縮後寄給小鴨子 (mingkuang@live.com) 協助解決此問題。</xA0020009>
     <xA002000A>Dism++ 發現一些相容性問題，請先為目前系統安裝更新 KB960037，然後繼續。</xA002000A>
 
     <x20020001>目前映像不存在預設檔關聯配置，無法匯出。</x20020001>
     <x20020002>Dism++ 發現已知相容性問題，Host 至少為 Windows 8/2012 才能正常處理此系統。如果你繼續在舊版本 Host 中處理，開啟關閉功能、添加刪除更新均可能出現意外失敗。</x20020002>
-    <x20020003>Dism++ 發現已知相容性問題，映像路徑存在非英文字元可能導致安裝更新失敗，請在全英文路徑重新掛載此映像，比如“D:\Mount”。</x20020003>
+    <x20020003>Dism++ 發現已知相容性問題，映像路徑存在非英文字元可能導致安裝更新失敗，請在全英文路徑重新掛載此映像，比如「D:\Mount」。</x20020003>
 
     <xC1440136>未載入 wofadk 驅動程式，請在選項 - 詳細設定 中勾選 載入 wofadk 驅動程式，然後繼續。</xC1440136>
     <xC144013B>未載入 wofadk 驅動程式，請在選項 - 詳細設定 中勾選 載入 wofadk 驅動程式，然後繼續。</xC144013B>
