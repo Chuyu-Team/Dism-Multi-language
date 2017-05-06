@@ -98,7 +98,7 @@
     <String Target="将现有的系统备份为WIM或者ESD（如果文件存在则自动增量到原有文件）。" Link="將現有的系統備份為 WIM 或者 ESD (如果檔案存在則自動增量到原有檔案中)。"/>
     <String Target="扫描映像是否存在组件存储损坏" Link="掃瞄映像是否存在元件儲存損壞"/>
     <String Target="修复映像中存在的组件存储损坏" Link="修復映像中存在的元件儲存損壞"/>
-    <String Target="从现有映像文件（WIM、ESD）恢复系统。" Link="從現有映像檔（WIM、ESD）恢復系統。"/>
+    <String Target="从现有映像文件（WIM、ESD）恢复系统。" Link="從現有映像檔 (WIM、ESD) 恢復系統。"/>
     <String Target="调整Dism++的设置" Link="調整 Dism++ 的設定"/>
     <String Target="专家模式" Link="專家模式"/>
 
@@ -122,7 +122,7 @@
 
     <String Target="你需要增量保存还是直接保存？" Link="您需要增量儲存還是直接儲存？"/>
 	  <String Target="温馨提示：保存映像后空间不会减少，如果需要减少空间请重新编译目标文件。" Link="貼心提醒：儲存映像後空間不會減少，如果需要減少空間請重新編輯目的檔案。"/>
-	  <String Target="增量保存（推荐）&#x000A;创建一个新的映像，不会覆盖原有数据。" Link="增量儲存（推薦）&#x000A;建立一個新的映像，不會覆蓋原有資料。"/>
+	  <String Target="增量保存（推荐）&#x000A;创建一个新的映像，不会覆盖原有数据。" Link="增量儲存 (推薦) &#x000A;建立一個新的映像，不會覆蓋原有資料。"/>
 	
 	  <String Target="直接保存&#x000A;将覆盖当前映像的数据。" Link="直接儲存&#x000A;將覆蓋目前映像的資料。"/>
   
@@ -136,7 +136,7 @@
     <String Target="无法移动文件 %s，Dism++已回滚对系统的更改。" Link="無法移動檔案 %s，Dism++ 已復原對系統的更改。"/>
 
     <String Target="正在配置WinRE" Link="正在配置 WinRE"/>
-	  <String Target="正在进行第 %d 阶段（共 %d ）" Link="正在進行第 %d 階段（共 %d ）"/>
+	  <String Target="正在进行第 %d 阶段（共 %d ）" Link="正在進行第 %d 階段 (共 %d )"/>
 	  <String Target="格式转换向导" Link="格式轉換精靈"/>
 	  <String Target="此功能可以将微软发布的ESD转换为ISO，还支持加密的ESD哦。" Link="此功能可以將微軟發佈的 ESD 轉換為 ISO，還支援加密的 ESD。"/>
 	  <String Target="ESD映像文件" Link="ESD 映像檔"/>
@@ -167,7 +167,7 @@
 	  <String Target="在还原前你需要格式化分区：%s ?" Link="在還原前您需要格式化磁碟：%s ?"/>
 	
 	  <String Target="温馨提示：格式化分区该分区所有数据将丢失！" Link="貼心提醒：格式化磁碟，該磁碟所有資料將會消除！"/>
-	  <String Target="格式化分区（推荐）&#x000A;有助于系统分区整洁，消除文件残留。" Link="格式化磁碟（推薦）&#x000A;有助於系統磁碟區整潔，消除檔案殘留。"/>
+	  <String Target="格式化分区（推荐）&#x000A;有助于系统分区整洁，消除文件残留。" Link="格式化磁碟 (推薦) &#x000A;有助於系統磁碟區整潔，消除檔案殘留。"/>
 
 	  <String Target="%s 映像已经还原成功。" Link="%s 映像已經還原成功。"/>
 	  <String Target="你需要重启并立即生效么？" Link="您需要重新啟動並立即生效嗎？"/>
@@ -272,13 +272,13 @@
 	  <String Target="镜像文件" Link="鏡像檔案"/>
 	  <String Target="只读模式" Link="唯讀模式"/>
 	  <String Target="快速挂载" Link="快速掛載"/>
-	  <String Target="（可启动）" Link="（可開機）"/>
+	  <String Target="（可启动）" Link="(可開機)"/>
 	  <String Target="添加映像向导" Link="新增映像精靈"/>
 	  <String Target="此功能可以将其他文件（WIM、ESD、VHD、VHDX）或者文件夹的包含的映像添加至映像列表。"
-	  Link="此功能可以將其他檔案（WIM、ESD、VHD、VHDX）或者資料夾中包含的映像新增至映像清單。"/>
+	  Link="此功能可以將其他檔案 (WIM、ESD、VHD、VHDX) 或者資料夾中包含的映像新增至映像清單。"/>
 	
-	  <String Target="挂载映像文件（WIM、VHD、VHDX）中的映像到指定目录" Link="掛載映像檔（WIM、VHD、VHDX）到指定目錄"/>
-	  <String Target="释放映像文件（WIM、ESD）中的映像到指定目录" Link="釋放映像檔（WIM、ESD）到指定目錄"/>
+	  <String Target="挂载映像文件（WIM、VHD、VHDX）中的映像到指定目录" Link="掛載映像檔 (WIM、VHD、VHDX) 到指定目錄"/>
+	  <String Target="释放映像文件（WIM、ESD）中的映像到指定目录" Link="釋放映像檔 (WIM、ESD) 到指定目錄"/>
 	  <String Target="谢谢，我只需要添加指定文件夹路径到映像列表" Link="謝謝，我只需要新增指定資料夾路徑到映像清單"/>
 	  <String Target="浏览" Link="瀏覽"/>
 	  <String Target="目标映像：" Link="目標映像："/>
@@ -290,7 +290,7 @@
     <String Target="挂载映像 " Link="掛接映像"/>
 
     <!--另存为映像 -->
-	  <String Target="你可以在此处修改映像文件信息（支持双击修改）" Link="您可以在此處修改映像檔資訊（支援按兩下修改）"/>
+	  <String Target="你可以在此处修改映像文件信息（支持双击修改）" Link="您可以在此處修改映像檔資訊 (支援按兩下修改)"/>
 	  <String Target="在此处设置捕获映像的文件豁免列表加快捕获速度，每个条目用回车分割。" Link="在此處設定捕捉映像檔案的豁免清單，加快捕捉速度，每個項目以 Enter 鍵隔開。"/>
 	  <String Target="如何配置豁免列表" Link="如何配置豁免清單"/>
 	  <String Target="另存为映像" Link="另存為映像"/>
@@ -331,7 +331,7 @@
 	  <String Target="导出" Link="匯出"/>
 	  <String Target="保存更改" Link="儲存更改"/>
 	  <String Target="导出映像" Link="匯出映像"/>
-	  <String Target="正在导出第%d个映像（共 %d ）" Link="正在匯出第 %d 個映像（共 %d ）"/>
+	  <String Target="正在导出第%d个映像（共 %d ）" Link="正在匯出第 %d 個映像 (共 %d )"/>
     <String Target="正在添加映像，请耐心等待……" Link="正在新增映像，請耐心等候..."/>
     <String Target="操作成功！" Link="操作成功！"/>
     <String Target="删除映像" Link="刪除映像"/>
@@ -352,7 +352,7 @@
     <String Target="更多" Link="進階"/>
     <String Target="启动分区：" Link="開機磁碟分割："/>
     <String Target="你必须点击更多进行手动指定！" Link="您必須點擊更多，進行手動指定！"/>
-    <String Target="硬盘%d 分区%d（%s）" Link="硬碟 %d 分割 %d（%s）"/>
+    <String Target="硬盘%d 分区%d（%s）" Link="硬碟 %d 分割 %d (%s)"/>
     <String Target="硬盘%d 分区%d" Link="硬碟 %d 分割 %d"/>
     <String Target="即将把启动信息写入启动分区- %s" Link="即將把啟動資訊寫入開機磁碟分割- %s"/>
     <String Target="没有异议或者看不懂的请点击 %s 。" Link="沒有其他異議或者看不懂的，請按下 %s 。"/>
@@ -370,14 +370,14 @@
     <String Target="整合右键菜单" Link="整合右鍵功能表"/>
     <String Target="整合引导菜单" Link="整合 BCD boot 選單"/>
     <String Target="排除列表" Link="排除清單"/>
-    <String Target="减少映像文件（WIM、ESD）保存时间" Link="減少映像檔（WIM、ESD）儲存時間"/>
+    <String Target="减少映像文件（WIM、ESD）保存时间" Link="減少映像檔 (WIM、ESD)儲存時間"/>
     <String Target="CompactOS压缩率" Link="CompactOS 壓縮率"/>
-    <String Target="压缩率越小性能越好（仅影响选中系统）" Link="壓縮率越小效能越好（僅影響已選取的系統）"/>
-    <String Target="大约压缩33%（更佳性能）" Link="大約壓縮 33%（更佳效能）"/>
+    <String Target="压缩率越小性能越好（仅影响选中系统）" Link="壓縮率越小效能越好 (僅影響已選取的系統)"/>
+    <String Target="大约压缩33%（更佳性能）" Link="大約壓縮 33% (更佳效能)"/>
     <String Target="大约压缩36%" Link="大約壓縮 36%"/>
     <String Target="大约压缩38%" Link="大約壓縮 38%"/>
-    <String Target="大约压缩44%（更小体积）" Link="大約壓縮 44%（更小體積）"/>
-    <String Target="加载WofAdk驱动（可能导致蓝屏！）" Link="載入 WofAdk 驅動（可能導致藍色畫面！）"/>
+    <String Target="大约压缩44%（更小体积）" Link="大約壓縮 44% (更小體積)"/>
+    <String Target="加载WofAdk驱动（可能导致蓝屏！）" Link="載入 WofAdk 驅動 (可能導致藍色畫面！)"/>
     <String Target="更新差异传输引擎：" Link="更新差異傳輸引擎："/>
     <String Target="关闭" Link="關閉"/>
     <String Target="快速" Link="快速"/>
@@ -476,17 +476,17 @@
     <String Target="开机启动项" Link="開機啟動項目"/>
     <String Target="系统启动项 —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="系統啟動項目 —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
     <String Target="系统启动项32位 —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run" Link="系統啟動項目 32 位元 —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run"/>
-    <String Target="系统启动项（仅启动一次） —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="系統啟動項目（僅啟動一次） —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
-    <String Target="系统启动项32位（仅启动一次） —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce" Link="系統啟動項目 32 位元（僅啟動一次） —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce"/>
+    <String Target="系统启动项（仅启动一次） —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="系統啟動項目 (僅啟動一次) —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
+    <String Target="系统启动项32位（仅启动一次） —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce" Link="系統啟動項目 32 位元 (僅啟動一次) —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce"/>
     <String Target="用户启动项 —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="使用者啟動項目 —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
-    <String Target="用户启动项（仅启动一次） —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="使用者啟動項目（僅啟動一次） —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
-    <String Target="启动（所有用户） —— %SystemDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup" Link="啟動（所有使用者） —— %SystemDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup"/>
-    <String Target="启动（当前用户） —— %UserProfile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup" Link="啟動（目前使用者） —— %UserProfile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"/>
+    <String Target="用户启动项（仅启动一次） —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="使用者啟動項目 (僅啟動一次) —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
+    <String Target="启动（所有用户） —— %SystemDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup" Link="啟動 (所有使用者) —— %SystemDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup"/>
+    <String Target="启动（当前用户） —— %UserProfile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup" Link="啟動 (目前使用者) —— %UserProfile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"/>
     <String Target="本机启动项 —— HKLM\SYSTEM\CurrentControlSet\Control\Session Manager" Link="本機啟動項目 —— HKLM\SYSTEM\CurrentControlSet\Control\Session Manager"/>
     <String Target="隐藏禁用项" Link="隱藏停用項目"/>
     <String Target="查找" Link="尋找"/>
     <String Target="新用户启动项 —— HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="新用戶啟動項目 —— HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
-    <String Target="新用户启动项（仅启动一次） —— HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="新用戶啟動項目（僅啟動一次） —— HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
+    <String Target="新用户启动项（仅启动一次） —— HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="新用戶啟動項目 (僅啟動一次) —— HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
 
     <!--服務-->
     <String Target="服务项" Link="服務項目"/>
@@ -524,7 +524,7 @@
 	  <String Target="被取代" Link="被取代"/>
 	  <String Target="部分安装" Link="部分安裝"/>
 	  <String Target="已删除" Link="已刪除"/>
-	  <String Target="已固化" Link="已固化"/>
+	  <String Target="已固化" Link="已固定"/>
 	  <String Target="更新描述" Link="更新描述"/>
 	  <String Target="产品名称" Link="產品名稱"/>
 	  <String Target="产品版本" Link="產品版本"/>
@@ -532,10 +532,10 @@
 	  <String Target="状态" Link="狀態"/>
 	  <String Target="正在获取更新信息" Link="正在取得更新資訊"/>
 	  <String Target="正在删除更新" Link="正在刪除更新"/>
-	  <String Target="正在删除第 %d 个更新（共 %d ）" Link="正在刪除第 %d 個更新（共 %d ）"/>
+	  <String Target="正在删除第 %d 个更新（共 %d ）" Link="正在刪除第 %d 個更新 (共 %d )"/>
 	  <String Target="补丁包" Link="更新包"/>
 	  <String Target="正在安装更新" Link="正在安裝更新"/>
-	  <String Target="正在安装第 %d 个更新（共 %d ）" Link="正在安裝第 %d 個更新（共 %d ）"/>
+	  <String Target="正在安装第 %d 个更新（共 %d ）" Link="正在安裝第 %d 個更新 (共 %d )"/>
 	  <String Target="刷新" Link="重新整理"/>
 	  <String Target="添加" Link="新增"/>
     <String Target="语言" Link="語言"/>
@@ -586,7 +586,7 @@
     <String Target="分析%d%%" Link="解析 %d%%"/>
     <String Target="%s 将引入独占请求，请在 %d 秒内做出选择。" Link="%s 將引入獨佔請求，請在 %d 秒內做出選擇。"/>
     <String Target="温馨提示：引入独占请求后，你将无法安装其他更新，直到你重启系统。建议你先安装其他更新，最后安装此更新。" Link="貼心提醒：引入獨佔請求後，你將無法安裝其他更新，直到你重新啟動系統。建議你先安裝其他更新，最後安裝此更新。"/>
-    <String Target="暂不安装（推荐）&#x000A;我暂时还需要添加其他更新。" Link="暫不安裝（推薦）&#x000A;我暫時還需要新增其他更新。"/>
+    <String Target="暂不安装（推荐）&#x000A;我暂时还需要添加其他更新。" Link="暫不安裝 (推薦)&#x000A;我暫時還需要新增其他更新。"/>
     <String Target="继续安装&#x000A;我已确保我需要的更新均已安装。" Link="繼續安裝&#x000A;我已確保我需要的更新均已安裝。"/>
     <String Target="关于 %s 的警告：&#x000D;&#x000A;&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;你确定要继续吗？" Link="關於 %s 的警告：&#x000D;&#x000A;&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;您確定要繼續嗎？"/>
     <String Target="导出地址" Link="匯出地址"/>
@@ -951,7 +951,7 @@
     
     <String Target="崩溃时写入调试信息" Link="當機時寫入偵錯資訊"/>
       <String Target="无" Link="無"/>
-      <String Target="小内存转储（256KB）" Link="小記憶體傾印（256KB）"/>
+      <String Target="小内存转储（256KB）" Link="小記憶體傾印 (256KB)"/>
       <String Target="核心内存转储" Link="核心記憶體傾印"/>
 
     <String Target="Windows 照片查看器" Link="Windows 照片檢視器"/>
@@ -986,7 +986,7 @@
     <String Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Windows 更新不包括惡意軟體移除工具（by Winaero）"/>
     <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="將「右鍵功能表」調整為 Windows 7 模式（by Silence）"/>
     <String Target="登陆界面默认打开小键盘（by IT之家）" Link="登入介面預設開啟小鍵盤（by IT之家）"/>
-    <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="禁用元件堆疊（Component Based Servicing）檔案備份"/>
+    <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="禁用元件堆疊 (Component Based Servicing) 檔案備份"/>
     <!--系統最佳化已經結束-->
 
     <!--Dism++ 更新程序-->
@@ -1009,8 +1009,8 @@
     <String Target="至少输入一个路径" Link="至少輸入一個路徑"/>
     <String Target="%s 路径无效" Link="%s 路徑無效"/>
     <String Target="未正确识别到命令，以下是程序支持的所有命令：" Link="未正確識別指令，以下是程式支援的所有指令："/>
-    <String Target="将一个文件夹或者文件进行Compact压缩：&#x000D;&#x000A;/C  { /exe [ xpress4k（默认、更佳性能） | xpress8k | xpress16k | lzx（更小体积） ] } Path"
-              Link="將一個資料夾或檔案進行 Compact 壓縮：&#x000D;&#x000A;/C  { /exe [ xpress4k（預設、較快） | xpress8k | xpress16k | lzx（最小體積） ] } Path"/>
+    <String Target="将一个文件夹或者文件进行Compact压缩：&#x000D;&#x000A;/C  { /exe [ xpress4k（默认、更佳性能) | xpress8k | xpress16k | lzx（更小体积) ] } Path"
+              Link="將一個資料夾或檔案進行 Compact 壓縮：&#x000D;&#x000A;/C  { /exe [ xpress4k (預設、較快) | xpress8k | xpress16k | lzx (最小體積) ] } Path"/>
     <String Target="将一个文件夹或者文件进行Compact解压缩&#x000D;&#x000A;/U Path"
               Link="將一個資料夾或檔案進行 Compact 解壓縮&#x000D;&#x000A;/U Path"/>
     <String Target="/Image:&lt;path_to_image&gt;	- 指定特定 Windows 映像的根目录的路径。
@@ -1106,7 +1106,7 @@ Command:
     <String Target="使用利用NTFS硬链接特性合并所有文件内容相同的文件。" Link="NTFS 檔案系統下，對相同的檔案作永久連結合併，此過程速度較慢。"/>
     <String Target="某些文件被硬链接合并后可能导致相关功能无法正常使用。" Link="某些檔案被永久連結合併後，可能導致某些功能無法正常使用。"/>
 
-    <String Target="CompactOs（较慢）" Link="CompactOs（較慢）"/>
+    <String Target="CompactOs（较慢）" Link="CompactOs (較慢)"/>
     <String Target="对单纯读取的文件进行哈夫曼压缩，在不影响性能的情况下，显著减少系统体积。特别感谢矿工以及所有Compact团队成员无私的支持与帮助。" Link="對單純讀取的檔案進行霍夫曼壓縮，在不影響效能的情況下，顯著減少系統容量。 特別感謝礦工以及所有 Compact 團隊成員無私的支援與幫助。"/>
     <String Target="使用后可能导致某些程序无法正常运行甚至让系统无法启动，如果使用后出现问题，可以在PE中点击 恢复功能-->撤销Compact。" Link="目前該功能僅供測試，使用後可能導致系統無法啟動，如果使用後無法啟動系統，可以在 PE 中點擊恢復功能，選擇撤銷 Compact。"/>
     <String Target="此功能与某些硬盘备份软件不兼容。如果使用后出现问题，可以点击 恢复功能-->撤销Compact。" Link="此功能與某些硬碟備份軟體不相容。如果使用後出現問題，可以點擊 恢復功能-->撤銷 Compact。"/>
@@ -1162,7 +1162,7 @@ Command:
 
     <String Target="Office安装源" Link="Office 安裝來源"/>
     <String Target="安装Office后产生的安装源，如果不需要卸载Office可以考虑删除，删除后能正常安装Office更新。" Link="安裝 Office 後產生的安裝來源，如果不需要移除 Office 可以考慮刪除，刪除後能正常安裝Office更新。"/>
-    <String Target="清理后将无法卸载只能升级安装或者强行删除，Office 2007以下版本（包含）删除后还影响安装更新。" Link="清理後將無法移除，只能升級安裝或者強行刪除，Office 2007 以下版本（包含）刪除後還影響安裝更新。"/>
+    <String Target="清理后将无法卸载只能升级安装或者强行删除，Office 2007以下版本（包含）删除后还影响安装更新。" Link="清理後將無法移除，只能升級安裝或者強行刪除，Office 2007 以下版本 (包含刪除後還影響安裝更新。"/>
 
     <String Target="腾讯相关软件下载目录" Link="騰訊相關軟體下載目錄"/>
     <String Target="腾讯相关软件更新时会在此留下残留。" Link="騰訊相關軟體更新時會在此留下殘留。"/>
@@ -1293,13 +1293,13 @@ Command:
     <String Target="WPS在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="WPS 在升級到新版本後留下的備份檔案，在故障時復原到舊版本。"/>
 
     <String Target="系统还原点" Link="系統還原點"/>
-    <String Target="先删除全部还原点，再创建一个新的还原点(当系统还原已启用时)" Link="先刪除所有還原點，再建立一個新的還原點（當系統還原已啟用時）"/>
+    <String Target="先删除全部还原点，再创建一个新的还原点(当系统还原已启用时)" Link="先刪除所有還原點，再建立一個新的還原點 (當系統還原已啟用時)"/>
     <String Target="清理后将无法使用之前创建的还原点，如果有使用之前的还原点的需求请勿使用此选项。" Link="清理後將無法使用之前建立的還原點，如果有使用之前的還原點的需求請勿使用此選項。"/>
 
     <String Target="缩略图缓存" Link="縮圖快取"/>
-    <String Target="缩略图缓存（所有用户）" Link="縮圖快取（所有使用者）"/>
-    <String Target="缩略图缓存(需重启explorer)" Link="縮圖快取（需重新啟動 explorer）"/>
-    <String Target="缩略图缓存（当前用户）" Link="縮圖快取（目前使用者）"/>
+    <String Target="缩略图缓存（所有用户）" Link="縮圖快取（所有使用者)"/>
+    <String Target="缩略图缓存(需重启explorer)" Link="縮圖快取 (需重新啟動 explorer)"/>
+    <String Target="缩略图缓存（当前用户）" Link="縮圖快取 (目前使用者)"/>
 
     <String Target="微软系安软无用文件" Link="Microsoft 反惡意程式碼的無用檔案"/>
     <String Target="该项目清理WD，MSE，SCEP等微软系安软的无用文件" Link="該項目清理 WD，MSE，SCEP 等 Microsoft 反惡意程式碼的無用檔案"/>
@@ -1321,10 +1321,10 @@ Command:
     <String Target="为Windows10零售演示模式所缓存的离线内容" Link="為 Windows10 零售演示模式所快取的離線內容"/>
 
     <String Target="WinINet网页缓存" Link="WinINet 網頁快取"/>
-    <String Target="清理每个用户账户和应用容器下的Windows网络组件（例如IE，Edge）的网页缓存（仅支持默认目录）" Link="清理每個使用者帳戶和應用容器下的 Windows 網路組件（例如IE，Edge）的網頁快取（僅支援預設目錄）"/>
+    <String Target="清理每个用户账户和应用容器下的Windows网络组件（例如IE，Edge）的网页缓存（仅支持默认目录）" Link="清理每個使用者帳戶和應用容器下的 Windows 網路組件 (例如IE，Edge) 的網頁快取 (僅支援預設目錄)"/>
 
     <String Target="WinINet Cookies" Link="WinINet Cookies"/>
-    <String Target="清理每个用户账户和应用容器下的Windows网络组件（例如IE，Edge）的Cookies（仅支持默认目录）" Link="清理每個使用者帳戶和應用容器下的 Windows 網路組件（例如 IE，Edge）的Cookies（僅支援預設目錄）"/>
+    <String Target="清理每个用户账户和应用容器下的Windows网络组件（例如IE，Edge）的Cookies（仅支持默认目录）" Link="清理每個使用者帳戶和應用容器下的 Windows 網路組件 (例如 IE，Edge) 的Cookies (僅支援預設目錄)"/>
 
     <String Target="最后一次正确配置（by Stanlazy）" Link="最後一次正確配置（by Stanlazy）"/>
     <String Target="最近能正常启动计算机的配置备份。" Link="最近能正常啟動電腦的配置備份。"/>
@@ -1347,7 +1347,7 @@ Command:
     <x800F081F>Dism++ 找不到安裝來源，如果您需要開啟 NET 3.5，請掛載 ISO 然後繼續。如果您需要修復 Windows，建議您嘗試在選項-詳細設定中，設定好本機來源。如果還是失敗，建議您使用修復安裝。</x800F081F>
     <x80073703>作業系統被嚴重精簡，Dism++ 無法繼續操作。</x80073703>
     <x800F0830>作業系統被嚴重精簡，請放棄此系統，重新選擇或重新安裝。</x800F0830>
-    <x800F0825>此更新已經被固化。因此無法移除此套裝程式。</x800F0825>
+    <x800F0825>此更新已經被固定。因此無法移除此套裝程式。</x800F0825>
     <x800F082E>此更新不支援添加到離線系統，請啟動目標系統，進行線上新增。</x800F082E>
     <x800F082F>目前系統存在獨佔的掛起操作，請啓動系統，應用掛起後再進行其他操作。</x800F082F>
     <x000F0801>Dism++ 處於繁忙狀態，可能是其他程式正在執行任務，請稍後再試。</x000F0801>
