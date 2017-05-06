@@ -32,7 +32,7 @@
     <LangSecRef ID="3028">瀏覽器</LangSecRef>
     <LangSecRef ID="3029">瀏覽器</LangSecRef>
     <LangSecRef ID="3030">應用程式</LangSecRef>
-    <LangSecRef ID="3031">Windows Store</LangSecRef>
+    <LangSecRef ID="3031">Windows 市集</LangSecRef>
   </CCleanLangSecRefMap>
   <StringMaps>
 	  <String Target="文件(&amp;F)" Link="檔案(&amp;F)"/>
@@ -64,7 +64,7 @@
 		  <String Target="插件管理" Link="外掛程式管理"/>
       <String Target="新手模式" Link="新手模式"/>
       <String Target="详细设置" Link="詳細設定"/>
-      <String Target="操作完成后" Link="操作完成後..."/>
+      <String Target="操作完成后" Link="完成操作後..."/>
       <String Target="未定义" Link="未定義"/>
       <String Target="关机" Link="關機"/>
       <String Target="重启" Link="重新啟動"/>
@@ -83,9 +83,9 @@
 	  <String Target="卸载安装的 WIM 映像" Link="移除安裝的 WIM 映像"/>
 	  <String Target="保存对安装的 WIM 映像的更改" Link="儲存對安裝的 WIM 映像的更改"/>
 	  <String Target="保存更改到另一个WIM文件中" Link="儲存到另一個 WIM 檔案中"/>
-	  <String Target="打开并编辑现有的WIM文件" Link="開啟並編輯現有的 WIM 檔"/>
-	  <String Target="WIM、ESD互转" Link="ESD、WIM 互轉"/>
-	  <String Target="将ESD文件（支持加密）转换为ISO。" Link="將 ESD 檔（支持加密）轉換為 ISO。"/>
+	  <String Target="打开并编辑现有的WIM文件" Link="開啟並編輯現有的 WIM 檔案"/>
+	  <String Target="WIM、ESD互转" Link="ESD、WIM 互相轉換"/>
+	  <String Target="将ESD文件（支持加密）转换为ISO。" Link="將 ESD 檔案 (支援加密) 轉換為 ISO。"/>
 	  <String Target="解密微软在线提供的ESD文件" Link="解密微軟線上提供的 ESD 檔案"/>
 	  <String Target="重启进入RE并为我启动Dism++" Link="重新啟動進入 RE 並再次啟動 Dism++"/>
 	  <String Target="启动RE环境" Link="啟動 RE 環境"/>
@@ -94,8 +94,8 @@
     <String Target="为映像重新添加引导。" Link="為映像重新新增引導。"/>
     <String Target="只添加指定文件夹路径到映像列表。" Link="只新增指定資料夾路徑到映像清單。"/>
     <String Target="重新扫描系统" Link="重新掃描系統"/>
-    <String Target="取消所有Compact压缩的文件（存在兼容性问题时使用）" Link="取消所有 Compact 壓縮文件（存在相容性問題時使用）"/>
-    <String Target="将现有的系统备份为WIM或者ESD（如果文件存在则自动增量到原有文件）。" Link="將現有的系統備份為 WIM 或者 ESD（如果檔案存在則自動增量到原有檔案中）。"/>
+    <String Target="取消所有Compact压缩的文件（存在兼容性问题时使用）" Link="取消所有 Compact 壓縮檔案 (存在相容性問題時使用)"/>
+    <String Target="将现有的系统备份为WIM或者ESD（如果文件存在则自动增量到原有文件）。" Link="將現有的系統備份為 WIM 或者 ESD (如果檔案存在則自動增量到原有檔案中)。"/>
     <String Target="扫描映像是否存在组件存储损坏" Link="掃瞄映像是否存在元件儲存損壞"/>
     <String Target="修复映像中存在的组件存储损坏" Link="修復映像中存在的元件儲存損壞"/>
     <String Target="从现有映像文件（WIM、ESD）恢复系统。" Link="從現有映像檔（WIM、ESD）恢復系統。"/>
@@ -116,7 +116,7 @@
     <String Target="Dism++不允许修改文件名，这将导致插件无法正常加载。" Link="Dism++ 不允許修改檔案名稱，這將導致插件無法正常載入。"/>
     <String Target="无法启动Dism++x64.exe，请确保该Dism++组件的完整性。" Link="無法啟動 Dism++ x64.exe，請確保該 Dism++ 組件的完整性。"/>
     <String Target="Dism++关键组件丢失，请从 www.chuyu.me 重新下载Dism++。" Link="Dism++ 關鍵組件遺失，請從 www.chuyu.me 重新下載 Dism++。"/>
-    <String Target="临时目录可用空间不足5GB，这可能导致Dism++无法正常运行，推荐将Dism++复制到可用空间大于5GB的驱动器，然后继续。" Link="暫存目錄可用空間不足 5GB，這可能導致 Dism++ 無法正常執行，推薦將 Dism++ 複製到可用空間大於 5GB 的驅動器，然後繼續。"/>
+    <String Target="临时目录可用空间不足5GB，这可能导致Dism++无法正常运行，推荐将Dism++复制到可用空间大于5GB的驱动器，然后继续。" Link="暫存目錄可用空間不足 5GB，這可能導致 Dism++ 無法正常執行，建議將 Dism++ 複製到可用空間大於 5GB 的磁碟機，再繼續。"/>
     <String Target="基础支撑库缺失，引导修复相关功能无法使用。" Link="基礎支援程式庫缺失，啟動修復相關功能無法使用。"/>
     <String Target="Dism++需要管理员权限才能运行，请右键 以管理员身份运行 然后继续。" Link="Dism++ 需要管理員權限才可執行，請右鍵 以管理員身份執行 然後繼續。"/>
 
@@ -130,7 +130,7 @@
 	
 	  <String Target="正在挂载" Link="正在掛載"/>
     <String Target="正在卸载映像" Link="正在移除映像"/>
-	  <String Target="正在释放" Link="正在釋放"/>
+	  <String Target="正在释放" Link="正在套用"/>
 	  <String Target="正在还原" Link="正在還原"/>
 	  <String Target="%s 位置的映像正在进行其他事情，请稍后再试。" Link="%s 位置的映像正在執行中，請稍後再試。"/>
     <String Target="无法移动文件 %s，Dism++已回滚对系统的更改。" Link="無法移動檔案 %s，Dism++ 已復原對系統的更改。"/>
@@ -138,7 +138,7 @@
     <String Target="正在配置WinRE" Link="正在配置 WinRE"/>
 	  <String Target="正在进行第 %d 阶段（共 %d ）" Link="正在進行第 %d 階段（共 %d ）"/>
 	  <String Target="格式转换向导" Link="格式轉換精靈"/>
-	  <String Target="此功能可以将微软发布的ESD转换为ISO，还支持加密的ESD哦。" Link="此功能可以將微軟發佈的 ESD 轉換為 ISO，還支援加密的 ESD 哦。"/>
+	  <String Target="此功能可以将微软发布的ESD转换为ISO，还支持加密的ESD哦。" Link="此功能可以將微軟發佈的 ESD 轉換為 ISO，還支援加密的 ESD。"/>
 	  <String Target="ESD映像文件" Link="ESD 映像檔"/>
 	  <String Target="ISO映像文件" Link="ISO 映像檔"/>
     <String Target="ISO映像文件-高压版" Link="ISO 映像檔案-高壓版"/>
@@ -187,7 +187,7 @@
 	  <String Target="WIMBoot压缩" Link="WIMBoot 壓縮"/>
 	  <String Target="快速压缩" Link="快速壓縮"/>
 	  <String Target="最大压缩" Link="最大壓縮"/>
-	  <String Target="极限压缩" Link="極限壓縮"/>
+	  <String Target="极限压缩" Link="極致壓縮"/>
 	
 	  <String Target="映像名称" Link="映像名稱"/>
 	  <String Target="映像说明" Link="映像說明"/>
@@ -238,12 +238,12 @@
     <String Target="正在加载插件" Link="正在載入插件"/>
     <String Target="正在扫描已安装的系统" Link="正在掃描已安裝的系統"/>
     <String Target="已经是最新版本，无需更新！" Link="已經是最新版本，無需更新！"/>
-    <String Target="正在修复挂载映像" Link="正在修復掛載映射"/>
+    <String Target="正在修复挂载映像" Link="正在修復掛載映像"/>
     <String Target="正在取消现有任务，请稍等……" Link="正在取消現有任務，請稍等……"/>
-    <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="掛載映射 %s 已經損壞，需要修復才能繼續。你需要執行修復操作嗎？"/>
+    <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="掛載映像 %s 已經損壞，需要修復才能繼續。你需要執行修復操作嗎？"/>
     <String Target="即将重启以下程序 %s，你确定要继续吗？" Link="即將重新啟動以下程式 %s，你確定要繼續嗎？"/>
     <String Target="资源管理器" Link="檔案總管"/>
-    <String Target="操作完成" Link="操作完成"/>
+    <String Target="操作完成" Link="完成操作"/>
 
     <!--欢迎页-->
     <String Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。"
@@ -594,7 +594,7 @@
 
     <!--區域和語言-->
     <String Target="区域和语言" Link="地區與語言"/>
-    <String Target="调整映像中的指定 SKU 语言的所有国际设置都设置为默认值：" Link="調整映射中的指定 SKU 語言的所有國際設定都設定為預設值："/>
+    <String Target="调整映像中的指定 SKU 语言的所有国际设置都设置为默认值：" Link="調整映像中的指定 SKU 語言的所有國際設定都設定為預設值："/>
     <String Target="将系统默认语言调整为指定区域：" Link="將系統預設語言調整為指定區域："/>
     <String Target="将用户配置（格式、键盘布局等）为指定区域：" Link="將使用者配置（格式、鍵盤配置等）為指定區域："/>
     <String Target="将时区设置调整为以下时区：" Link="將時區設定調整為以下時區："/>
@@ -605,9 +605,9 @@
     <!--檔案關聯-->
     <String Target="文件关联" Link="檔案關聯"/>
     <String Target="关联文件" Link="關聯檔案"/>
-    <String Target="Windows映像默认应用程序关联" Link="Windows 映射預設應用程式關聯"/>
+    <String Target="Windows映像默认应用程序关联" Link="Windows 映像預設應用程式關聯"/>
     <String Target="这些设置将在首次启动计算机的OOBE阶段生效" Link="這些設定將在首次啟動電腦的 OOBE 階段生效"/>
-    <String Target="Windows联机映像默认应用程序关联" Link="Windows 連線映射預設應用程式關聯"/>
+    <String Target="Windows联机映像默认应用程序关联" Link="Windows 連線映像預設應用程式關聯"/>
     <String Target="这些设置直接影响当前计算机" Link="這些設定直接影響目前電腦"/>
     <String Target="导入" Link="匯入"/>
     <String Target="重置" Link="重置"/>
@@ -625,8 +625,8 @@
 
     <!--WinPE 命令-->
     <String Target="WinPE命令" Link="WinPE 指令"/>
-    <String Target="设置 Windows PE 映像的暂存空间（MB）：" Link="設定 Windows PE 映射的暫存空間 (MB)："/>
-    <String Target="设置 Windows PE 映像的目标路径：" Link="設定 Windows PE 映射的目標路徑："/>
+    <String Target="设置 Windows PE 映像的暂存空间（MB）：" Link="設定 Windows PE 映像的暫存空間 (MB)："/>
+    <String Target="设置 Windows PE 映像的目标路径：" Link="設定 Windows PE 映像的目標路徑："/>
     
     <!--工具箱-->
     <String Target="激活备份" Link="啟用資訊備份"/>
@@ -1067,7 +1067,7 @@ Command:
  /Plugin	- 啟動特定插件 (需要插件支援命令參數)"/>
     <String Target="正在压缩" Link="正在壓縮"/>
     <String Target="正在解压" Link="正在解壓縮"/>
-    <String Target="操作完成！" Link="操作完成！"/>
+    <String Target="操作完成！" Link="完成操作！"/>
     
     <!--系統還原-->
     <String Target="当前模式不支持引导修复以及格式化分区，你需要重启并进入RE进行恢复么？" Link="目前模式不支援啟動修復及格式化分區，您需要重新啟動並進入 RE，進行恢復嗎？"/>
@@ -1363,9 +1363,9 @@ Command:
     <xA0020009>Dism++ 對話當機，建議將程式目錄的 "CBSHost_*.dmp" 壓縮後寄給小鴨子（mingkuang@live.com）協助解決此問題。</xA0020009>
     <xA002000A>Dism++ 發現一些相容性問題，請先為目前系統安裝更新 KB960037，然後繼續。</xA002000A>
 
-    <x20020001>目前映射不存在預設檔關聯配置，無法匯出。</x20020001>
+    <x20020001>目前映像不存在預設檔關聯配置，無法匯出。</x20020001>
     <x20020002>Dism++ 發現已知相容性問題，Host 至少為 Windows 8/2012 才能正常處理此系統。如果你繼續在舊版本 Host 中處理，開啟關閉功能、添加刪除更新均可能出現意外失敗。</x20020002>
-    <x20020003>Dism++ 發現已知相容性問題，映射路徑存在非英文字元可能導致安裝更新失敗，請在全英文路徑重新掛載此映射，比如“D:\Mount”。</x20020003>
+    <x20020003>Dism++ 發現已知相容性問題，映像路徑存在非英文字元可能導致安裝更新失敗，請在全英文路徑重新掛載此映像，比如“D:\Mount”。</x20020003>
 
     <xC1440136>未載入 wofadk 驅動程式，請在選項 - 詳細設定 中勾選 載入 wofadk 驅動程式，然後繼續。</xC1440136>
     <xC144013B>未載入 wofadk 驅動程式，請在選項 - 詳細設定 中勾選 載入 wofadk 驅動程式，然後繼續。</xC144013B>
