@@ -710,13 +710,13 @@
     <String Target="提交规则" Link="提供規則"/>
 
     <!--Explorer-->
-    <String Target="将任务栏中的Cortana调整为" Link="將工作列中的 Cortana 調整為"/>
+    <String Target="将任务栏中的Cortana调整为" Link="將工作列中的 Cortana(小娜) 調整為"/>
       <String Target="隐藏" Link="隱藏"/>
       <String Target="仅显示图标" Link="僅顯示搜尋圖示"/>
       <String Target="显示搜索框" Link="顯示搜尋方塊"/>
 
     <String Target="将用户账号控制程序（UAC）调整为" Link="將使用者帳戶控制設定(UAC)調整為"/>
-      <String Target="从不通知（不推荐）" Link="一律不通知 (不建議)"/>
+      <String Target="从不通知（不推荐）" Link="始終不通知 (不建議)"/>
         <String Target="此选项将导致计算机面临安全风险！" Link="此選項將導致電腦面臨安全性風險！"/>
       <String Target="提示我但不降低亮度" Link="通知我，但不變暗"/>
       <String Target="提示我（推荐）" Link="通知我 (預設值)"/>
@@ -738,7 +738,7 @@
 
     <String Target="创建快捷方式时不添&quot;快捷方式&quot;文字（by 518516.net）" Link="建立捷徑時不增加「捷徑」文字 (by 518516.net)"/>
 
-    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹" Link="隱藏此電腦中影片、圖片、文件、下載、音樂、桌面六個資料夾"/>
+    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹" Link="隱藏本機中影片、圖片、文件、下載、音樂、桌面六個資料夾"/>
 
     <String Target="*隐藏桌面右下角教育版水印" Link="*隱藏桌面右下角教育版浮水印"/>
 
@@ -786,7 +786,7 @@
     <String Target="当任务栏被占满时" Link="當工作列滿時"/>
       <String Target="始终合并" Link="一律合併"/>
       <String Target="被占满时合并" Link="滿的時候合併"/>
-      <String Target="从不合并" Link="一律不合併"/>
+      <String Target="从不合并" Link="始終不合併"/>
 
     <String Target="锁定任务栏" Link="鎖定工作列"/>
 
@@ -803,7 +803,7 @@
     <String Target="优化非活动窗口标题栏颜色（by IT之家）" Link="最佳化非使用中視窗標題列顏色 (by IT之家)"/>
     
     <String Target="关闭视频文件预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="關閉視訊檔案預覽，提高檔案總管反應能力 (by ‍莫失莫忘)"/>
-    <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="關閉音樂檔案圖片預覽，提高檔案總管反應能力 (by ‍莫失莫忘)"/>
+    <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="關閉音樂檔的圖片預覽，提高檔案總管反應能力 (by ‍莫失莫忘)"/>
     <String Target="关闭打开程序的“安全警告”（by 莫失莫忘）" Link="關閉開啟程式的「安全性警告」 (by 莫失莫忘)"/>
     <String Target="关闭在应用商店中查找关联应用（by Asoft）" Link="關閉在市集中尋找關聯 App (by Asoft)"/>
 
@@ -917,7 +917,7 @@
     <String Target="禁用NTFS链接跟踪服务（by 某宅）" Link="停用 NTFS 連結跟蹤服務 (by 某宅)"/>
 
     <String Target="禁止自动维护计划（by Lux ferre）" Link="禁止自動維護計畫 (by Lux ferre)"/>
-      <String Target="禁用后系统将无法使用文件预读等功能，这可能导致系统性能下降！" Link="停用後系統將無法使用檔預讀等功能，這可能導致系統效能下降！"/>
+      <String Target="禁用后系统将无法使用文件预读等功能，这可能导致系统性能下降！" Link="停用後系統將無法使用 prefetch (預先擷取)檔案等功能，這可能導致系統效能下降！"/>
 
     <!--WinRAR-->
     <String Target="锁定WinRAR工具栏（by 原罪）" Link="鎖定 WinRAR 工具列 (by 原罪)"/>
@@ -980,7 +980,7 @@
     <String Target="禁用账号登录日志报告（by 溯汐潮）" Link="停用帳號登入日誌報告 (by 溯汐潮)"/>
     <String Target="遇到弹出窗口时始终在新选项卡中打开弹出窗口（by 溯汐潮）" Link="遇到快顯視窗時始終在新選項卡中開啟快顯視窗 (by 溯汐潮)"/>
     <String Target="锁定Internet Explorer工具栏（by 溯汐潮）" Link="鎖定 Internet Explorer 工具列 (by 溯汐潮)"/>
-    <String Target="隐藏NTFS蓝色双箭头压缩标识（by IT之家）" Link="隱藏 NTFS 藍色雙箭頭壓縮標識 (by IT之家)"/>
+    <String Target="隐藏NTFS蓝色双箭头压缩标识（by IT之家）" Link="隱藏 NTFS 藍色雙箭頭壓縮標示 (by IT之家)"/>
     <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="隱藏語言列上的說明按鈕 (by 溯汐潮)"/>
     <String Target="Windows 7体验" Link="Windows 7 體驗"/>
     <String Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Windows 更新不包括惡意軟體移除工具 (by Winaero)"/>
@@ -998,17 +998,17 @@
     <String Target="更新文件过程中遇到错误，Orz……" Link="更新檔案過程中遇到錯誤，Orz……"/>
 
     <!--命令列-->
-    <String Target="退出" Link="退出"/>
+    <String Target="退出" Link="結束"/>
     <String Target="%s 解压失败，错误代码：%d" Link="%s 解壓縮失敗，錯誤代碼：%d"/>
     <String Target="%s 解压成功" Link="%s 解壓縮成功"/>
     <String Target="%s 压缩失败，错误代码：%d" Link="%s 壓縮失敗，錯誤代碼：%d"/>
     <String Target="%s 跳过" Link="%s 跳過"/>
     <String Target="%s 压缩成功" Link="%s 壓縮成功"/>
     <String Target="Dism++初始化成功，开始执行命令：%s" Link="Dism++ 初始化成功，開始執行指令：%s"/>
-    <String Target="无法识别参数：%s" Link="無法識別參數：%s"/>
+    <String Target="无法识别参数：%s" Link="無法辨識參數：%s"/>
     <String Target="至少输入一个路径" Link="至少輸入一個路徑"/>
     <String Target="%s 路径无效" Link="%s 路徑無效"/>
-    <String Target="未正确识别到命令，以下是程序支持的所有命令：" Link="未正確識別指令，以下是程式支援的所有指令："/>
+    <String Target="未正确识别到命令，以下是程序支持的所有命令：" Link="未正確辨識指令，以下是程式支援的所有指令："/>
     <String Target="将一个文件夹或者文件进行Compact压缩：&#x000D;&#x000A;/C  { /exe [ xpress4k（默认、更佳性能) | xpress8k | xpress16k | lzx（更小体积) ] } Path"
               Link="將一個資料夾或檔案進行 Compact 壓縮：&#x000D;&#x000A;/C  { /exe [ xpress4k (預設、較快) | xpress8k | xpress16k | lzx (最小體積) ] } Path"/>
     <String Target="将一个文件夹或者文件进行Compact解压缩&#x000D;&#x000A;/U Path"
