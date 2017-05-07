@@ -248,19 +248,19 @@ Special Thanks to franz@drwindows.de
             Link="Die weltweit erste Dism GUI Anwendung basierend auf CBS!"/>
 
     <String q="" Target="联系方式" Link="Kontakt"/>
-    <String Target="官方网站" Link="Offizielle Site"/>
+    <String Target="官方网站" Link="Homepage"/>
     <String Target="QQ群" Link="QQ Group"/>
     <String Target="邮箱" Link="E-Mail"/>
 
     <String Target="帮助与支持" Link="Support"/>
     <String Target="初雨开源" Link="Open Source"/>
     <String Target="问题反馈" Link="Feedback"/>
-    <String Target="帮助文档" Link="Dokument"/>
+    <String Target="帮助文档" Link="Dokumente"/>
 
     <String Target="致谢" Link="Danke"/>
     <String Target="翻译人员" Link="Übersetzung"/>
     <String Target="赞助名单" Link="Sponsor"/>
-    <String Target="第三方库" Link="Third Party"/>
+    <String Target="第三方库" Link="Nutzung durch Dritte"/>
 
     <!--添加映像-->
     <String Target="请输入映像存放目录" Link="Bitte geben Sie den Pfad zum Abbild ein"/>
@@ -376,7 +376,7 @@ Special Thanks to franz@drwindows.de
     <String Target="大约压缩38%" Link="Kompression 38%"/>
     <String Target="大约压缩44%（更小体积）" Link="Kompression 44% (kleiner)"/>
     <String Target="加载WofAdk驱动（可能导致蓝屏！）" Link="WofAdk Treiber laden (kann BSOD verursachen!)"/>
-    <String Target="更新差异传输引擎：" Link="Windows Update Differ Engine:"/>
+    <String Target="更新差异传输引擎：" Link="Erkennung von Unterschieden des Windows Updates:"/>
     <String Target="关闭" Link="Aus"/>
     <String Target="快速" Link="Schnell"/>
     <String Target="完整" Link="Vollständig"/>
@@ -529,7 +529,7 @@ Special Thanks to franz@drwindows.de
 	  <String Target="更新描述" Link="Beschreibung"/>
 	  <String Target="产品名称" Link="Produktname"/>
 	  <String Target="产品版本" Link="Produktversion"/>
-	  <String Target="发行类型" Link="Release Typ"/>
+	  <String Target="发行类型" Link="Versionstyp"/>
 	  <String Target="状态" Link="Systemstatus"/>
 	  <String Target="正在获取更新信息" Link="Update-Informationen abrufen"/>
 	  <String Target="正在删除更新" Link="Updates werden entfernt"/>
@@ -583,7 +583,7 @@ Da einige der Programme 'Provisioned Apps' sind, können noch systemeigene Apps,
     <String Target="将现有的本地补丁包添加至系统。" Link="Fügt Update-Pakete der Image-Datei hinzu."/>
     <String Target="使用Dism++数据库扫描当前系统需要的更新列表。" Link="Benutze die Dism++ Datenbank um nach benötigten Updates für die aktuelle Image-Datei zu suchen."/>
     <String Target="自动下载并安装更新列表中选中的更新。" Link="Updates automatisch herunterladen und installieren."/>
-    <String Target="计算机已经安装最新更新。" Link="Der Computer hat bereits die neuesten Updates installiert."/>
+    <String Target="计算机已经安装最新更新。" Link="Die neuesten Updates sind bereits installiert."/>
     <String Target="正在删除过期补丁缓存" Link="Speicher abgelaufener Patches löschen"/>
     <String Target="分析%d%%" Link="Analysiere %d%%"/>
     <String Target="%s 将引入独占请求，请在 %d 秒内做出选择。" Link="%s benötigt exklusive Berechtigungen, bitte in %d Sekunden bestätigen."/>
@@ -824,7 +824,7 @@ Examples:
     <String Target="禁用磁盘的“刻录到光盘”右键菜单" Link="'Auf CD brennen' im Kontextmenü bei Laufwerken ausblenden"/>
     <String Target="禁用磁盘的“启用Bitlocker”右键菜单（by 莫失莫忘）" Link="'BitLocker aktivieren' im Kontextmenü bei Laufwerken ausblenden (by MoWangMoShi)"/>
     <String Target="禁用磁盘的“复制磁盘”右键菜单" Link="'CD kopieren' im Kontextmenü bei Laufwerken ausblenden"/>
-    <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="'Freigeben für 'bei Dateien, Laufwerken, Bibliotheken und in den Eigenschaften ausblenden"/>
+    <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="Den Eintrag 'Freigeben für ' bei Dateien, Laufwerken, Bibliotheken und in den Eigenschaften ausblenden"/>
     <String Target="禁用桌面的“小工具”右键菜单" Link="'Widget' im Kontextmenü ausblenden"/>
 
     <!--桌面图示管理-->
@@ -1037,14 +1037,14 @@ Compact支持命令：
 示例：
  Dism++x86.exe /Image /?
  Dism++x86.exe /C /?"
-            Link="Image Management Command:
- /All	- Öffnet die globale Session
+            Link="Kommandozeile für das Image Management:
+ /All	- Öffnet globale Sitzungen
  /Image	- Bezeichnet das Wurzelverzeichnis des Windows Abbilds
 
 
 Compact unterstützte Befehle
- /C	- Use the compressed files/folders(compressed with compact)
- /U	- Revoke the compressed files/folders(compressed with compact)
+ /C	- benutzt komprimierte Dateien/Verzeichnisse (mit Compact gepackt)
+ /U	- komprimierte Dateien/Verzeichnisse (mit Compact gepackt) werden nicht benutzt
 
 Für weitere Informationen über diese Dism++ Optionen und ihren Parametern benutzen Sie an\noption direkt davor  /?.
 Bsp:
@@ -1054,7 +1054,7 @@ Bsp:
 
 示例：
  Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"
-            Link="/Plugin:&lt;Plugin_ID&gt;	- Um Befehle auszuführen, die von dem PlugIn uterstützt werden.
+            Link="/Plugin:&lt;Plugin_ID&gt;	- Um Befehle auszuführen, die von dem PlugIn unterstützt werden.
 
 Bsp:
  Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"/>
@@ -1193,7 +1193,7 @@ Command:
 
     <String Target="苹果iTunes备份" Link="Apple iTunes Sicherung"/>
     <String Target="苹果相关设备备份文件，比如通讯录、照片、视频等。" Link="Sicherung von iOS. (Kontakte, Fotos, Videos,...)"/>
-    <String Target="请你确保暂时不需要使用恢复功能，如果你现在需要恢复苹果设备，请勿勾选此项目！" Link="Muss ein iOS-Gerät ab und zu wiederhergestellt werden, bitte diese Funktion nicht auswählen!"/>
+    <String Target="请你确保暂时不需要使用恢复功能，如果你现在需要恢复苹果设备，请勿勾选此项目！" Link="Muss ein iOS-Gerät öfter wiederhergestellt werden, bitte diese Funktion nicht auswählen!"/>
 
     <String Target="硬链接备份" Link="Hardlink Backup"/>
     <String Target="硬链接合并功能留下的备份文件。" Link="Wurden Hardlinks gruppiert, ist eine Sicherung erstellt worden."/>
@@ -1337,7 +1337,7 @@ Command:
     <String Target="英伟达驱动安装包（by Ailick）" Link="nVidia Treiber Installationspaket (by Ailick)"/>
     <String Target="Nvidia Geforce Experience更新程序时产生的安装包。" Link="nVidia Geforce Experience erstellt dieses Installationspaket bei Programm-Updates."/>
 
-    <String Target="新版Visual Studio安装源缓存" Link="Installations- Cache des New Visual Studio"/>
+    <String Target="新版Visual Studio安装源缓存" Link="Installations-Cache des New Visual Studio"/>
     <String Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="Löscht den Installations-Cache von Visual Studio 2017 (und späteren Versionen)."/>
     <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="Nach Bereinigungen, Reparaturen, Installationen von Upgrades oder Komponenten und Deinstallationen ist eine Netzwerkverbindung notwendig (Visual Studio 2017 und spätere Versionen)."/>
   </StringMaps>
