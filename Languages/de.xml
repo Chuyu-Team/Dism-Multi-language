@@ -1013,7 +1013,7 @@ Examples:
     <String Target="将一个文件夹或者文件进行Compact压缩：&#x000D;&#x000A;/C  { /exe [ xpress4k（默认、更佳性能） | xpress8k | xpress16k | lzx（更小体积） ] } Path"
               Link="Dateien oder Verzeichnisse packen:&#x000D;&#x000A;/C  { /exe [ xpress4k (standard, schneller) | xpress8k | xpress16k | lzx (kleiner) ] } Path"/>
     <String Target="将一个文件夹或者文件进行Compact解压缩&#x000D;&#x000A;/U Path"
-              Link="Dateien oder Verzeichnisse entpacken&#x000D;&#x000A;/U Path"/>
+              Link="Dateien oder Verzeichnisse entpacken&#x000D;&#x000A;/U Pfad"/>
     <String Target="/Image:&lt;path_to_image&gt;	- 指定特定 Windows 映像的根目录的路径。
 
 示例：
