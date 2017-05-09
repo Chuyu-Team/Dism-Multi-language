@@ -114,7 +114,7 @@
 	  <String Target="正在准备" Link="正在準備"/>
     <String Target="正在加载规则" Link="正在載入規則"/>
     <String Target="Dism++不允许修改文件名，这将导致插件无法正常加载。" Link="Dism++ 不允許修改檔案名稱，這將導致插件無法正常載入。"/>
-    <String Target="无法启动Dism++x64.exe，请确保该Dism++组件的完整性。" Link="無法啟動 Dism++ x64.exe，請確保該 Dism++ 組件的完整性。"/>
+    <String Target="无法启动Dism++x64.exe，请确保该Dism++组件的完整性。" Link="無法啟動 Dism++x64.exe，請確保該 Dism++ 組件的完整性。"/>
     <String Target="Dism++关键组件丢失，请从 www.chuyu.me 重新下载Dism++。" Link="Dism++ 關鍵組件遺失，請從 www.chuyu.me 重新下載 Dism++。"/>
     <String Target="临时目录可用空间不足5GB，这可能导致Dism++无法正常运行，推荐将Dism++复制到可用空间大于5GB的驱动器，然后继续。" Link="暫存目錄可用空間不足 5GB，這可能導致 Dism++ 無法正常執行，建議將 Dism++ 複製到可用空間大於 5GB 的磁碟機，再繼續。"/>
     <String Target="基础支撑库缺失，引导修复相关功能无法使用。" Link="基礎支援程式庫缺失，Boot 修復相關功能無法使用。"/>
