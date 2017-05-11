@@ -10,10 +10,10 @@ Dism++ 支援 Vista~Windows 10 所有系統（包括伺服器、平板、手機�
 跟 Dism 不同的是，Dism++ 支援的映像格式有 WIM、SWM、ESD、UUP、ESD 以及 ISO。需要注意的是 Dism++ 不支援 VHD、VHDX、FFU 以及 SFU。Dism 不完整支援 ESD，但是 Dism++ 提供了完整的 ESD 支援。在 Dism++ 中，ESD 轉 WIM 或者直接儲存 ESD 也是允許的，下面詳細的介紹下操作方式。
 
 ### /Apply-CustomDataImage 應用自訂 Wimboot 資料怎麼做
-根據評估，用不到此功能，因此 Dism++ 不尚未添加此功能。如果需要此功能，請反映。
+根據評估，用不到此功能，因此 Dism++ 不尚未新增此功能。如果需要此功能，請反映。
 
 ### /Capture-CustomImage 捕獲自訂 WimBoot 資料怎麼做
-根據評估，用不到此功能，因此 Dism++ 不尚未添加此功能。如果需要此功能，請反映。
+根據評估，用不到此功能，因此 Dism++ 不尚未新增此功能。如果需要此功能，請反映。
 
 ### /Get-WIMBootEntry 取得 WimBoot 資訊怎麼做
 將滑鼠游標移動到對應系統 Tab 上方，程式會顯示此系統的 WIMBootEntry 配置。
@@ -157,14 +157,14 @@ Dism++ 暫不支援此功能。
 ### /Remove-Driver 刪除驅動怎麼做
 Dism++ 預設不再新手模式中顯示此功能，開啟專家模式後，選中需要刪除的驅動點擊刪除即可。
 
-### /Add-Driver 添加驅動怎麼做
-可以點擊添加按鈕，與 Dism 不同的是，Dism++ 只允許選擇資料夾。在選擇後，Dism++ 會自動把這個資料夾下方的驅動全部添加到系統中。
+### /Add-Driver 新增驅動怎麼做
+可以點擊新增按鈕，與 Dism 不同的是，Dism++ 只允許選擇資料夾。在選擇後，Dism++ 會自動把這個資料夾下方的驅動全部新增到系統中。
 
 /recurse 參數自動使用，所以 Dism++ 只能選擇資料夾。
 
-/ForceUnsigned 參數自動使用，添加未簽名的驅動不返回失敗。
+/ForceUnsigned 參數自動使用，新增未簽名的驅動不返回失敗。
 
-值得注意的是，Dism++ 會檢查驅動體系，比如你向 64 位元系統添加 32 位元驅動則直接返回失敗，這點跟 Dism 所有不同。
+值得注意的是，Dism++ 會檢查驅動體系，比如你向 64 位元系統新增 32 位元驅動則直接返回失敗，這點跟 Dism 所有不同。
 
 ### /Get-DriverInfo 檢視驅動信息怎麼做
 在左側點擊驅動後，自動會在右側顯示驅動詳細信息。
@@ -214,8 +214,8 @@ Dism++ 預設不再新手模式中顯示此功能，開啟專家模式後，選�
 在已安裝的更新列表中 自動展示所有更新信息。
 
 
-### /Add-Package 添加更新怎麼做
-可以直接點擊`添加`，然後選擇你本地的更新即可（按住 Shift 可以選擇多個更新檔案）。其中：
+### /Add-Package 新增更新怎麼做
+可以直接點擊`新增`，然後選擇你本機的更新即可（按住 Shift 可以選擇多個更新檔案）。其中：
 
 /PackagePath 更新檔案路徑，支援多個檔案，可以按 Shift 選擇多個更新，支援 cab、msu 以及 exe（部分）更新。
 
@@ -235,16 +235,16 @@ Dism++ 預設不再新手模式中顯示此功能，開啟專家模式後，選�
 點擊 Windows 功能後，自動展示所有功能的狀態。
 
 ### /Enable-Feature 啟用特定功能怎麼做
-在功能列表，選擇需要開啟的功能，然後點擊應用即可，其中：
+在功能列表，選擇需要開啟的功能，然後點擊套用即可，其中：
 
 /LimitAccess 參數，不支援。
 
-/Source 參數，支援，在本地源設定一個路徑即可，一般是`D:\Sources\sxs`。如果不知道怎麼用，可以掛載一個 ISO，Dism++ 能自動感知。
+/Source 參數，支援，在本機來源設定一個路徑即可，一般是`D:\Sources\sxs`。如果不知道怎麼用，可以掛載一個 ISO，Dism++ 能自動感知。
 
 /All 參數，支援，自動使用。
 
 ### /Disable-Feature 關閉特定功能怎麼用
-在功能列表，選擇需要關閉的功能，然後點擊應用即可，其中：
+在功能列表，選擇需要關閉的功能，然後點擊套用即可，其中：
 
 /Remove 參數，支援，將更新狀態調整為 X 即可。
 
@@ -259,7 +259,7 @@ Dism++ 預設不再新手模式中顯示此功能，開啟專家模式後，選�
 ### /Add-Capability 添加添加功能怎麼用
 如需使用此功能，首先在選用功能介面點擊`檢視所有功能`，然後點擊啟用即可。其中：
 
-/Source 以及 /LimitAccess 均不支援，如需添加本地功能，請在`更新管理` 點擊 `添加`，手動選擇 cab 檔案即可。
+/Source 以及 /LimitAccess 均不支援，如需新增本機功能，請在`更新管理` 點擊 `新增`，手動選擇 cab 檔案即可。
 
 ### /Remove-Capability 刪除功能怎麼用
 在選用功能介面，在你需要刪除的功能上點擊刪除即可。
@@ -292,17 +292,17 @@ Dism++ 不支援此功能。
 ### /Cleanup-Image /RestoreHealth 恢復系統受損怎麼用
 在選單點擊恢復功能 - 修復受損，即可。其中：
 
-/Source 不支援自訂本地源，然並軟的參數。
+/Source 不支援自訂本機來源，然並軟的參數。
 
-/LimitAccess參數，阻止網路訪問，不支援。
+/LimitAccess 參數，阻止網路訪問，不支援。
 > 恢復受損是然並軟的功能，基本都是修復失敗，大家就別抱什麼希望了。
 
 
 ## APPX 服務命令
-點擊 Appx管理 ，並 點擊 Provisioned Appx即可。
+點擊 Appx 管理 ，並 點擊 Provisioned Appx即可。
 
 ### /Get-ProvisionedAppxPackages 檢視所有預裝應用怎麼用
-啟動UI時自動展示相關Appx信息。
+啟動 UI 時自動展示相關 Appx 信息。
 
 ### /Set-ProvisionedAppxDataFile 設定自訂資料怎麼用
 不支援此功能。
@@ -310,38 +310,38 @@ Dism++ 不支援此功能。
 ### /Remove-ProvisionedAppxPackage 刪除預裝應用怎麼用
 勾選需要刪除的應用，在點擊刪除即可。
 
-### /Add-ProvisionedAppxPackage 添加Appx怎麼用
-不支援此功能。Dism++主要側重於刪除，等微軟的Appx成氣候了在添加此功能。
+### /Add-ProvisionedAppxPackage 新增Appx怎麼用
+不支援此功能。Dism++ 主要側重於刪除，等微軟的 Appx 成氣候了在新增此功能。
 
 ## PROVISIONING PACKAGE SERVICING COMMANDS
 不支援此功能。
 
 ## 預設關聯命令
-點擊`檔案關聯`即可檢視相關功能。與Dism不同的是，在Dism++中，Vista以及Windows 7也能使用此功能。
+點擊`檔案關聯`即可檢視相關功能。與 Dism 不同的是，在 Dism++ 中，Vista 以及 Windows 7 也能使用此功能。
 
 ### /Remove-DefaultAppAssociations 刪除預設程序關聯怎麼用
-點擊 `Windows映像預設應用程序關聯` 下方的刪除按鈕即可。
+點擊 `Windows 映像預設應用程序關聯` 下方的刪除按鈕即可。
 
-### /Import-DefaultAppAssociations 導入預設程序關聯怎麼用
-點擊 `Windows映像預設應用程序關聯` 下方的導入按鈕即可。
+### /Import-DefaultAppAssociations 匯入預設程序關聯怎麼用
+點擊 `Windows 映像預設應用程序關聯` 下方的匯入按鈕即可。
 
 ### /Get-DefaultAppAssociations 怎麼檢視預設程序關聯
-點擊 `Windows映像預設應用程序關聯` 下方的匯出按鈕，然後在使用文本檢視器，檢視剛才匯出的配置檔案。
+點擊 `Windows 映像預設應用程序關聯` 下方的匯出按鈕，然後在使用文本檢視器，檢視剛才匯出的配置檔案。
 
 ### /Export-DefaultAppAssociations 怎麼匯出目前用戶的程序關聯配置
-點擊 `Windows聯機映像預設應用程序關聯` 下方的匯出按鈕即可。
+點擊 `Windows 聯機映像預設應用程序關聯` 下方的匯出按鈕即可。
 
 ## WINDOWS PE 命令
-點擊`WinPE命令`即可檢視相關功能。
+點擊`WinPE 命令`即可檢視相關功能。
 
-### /Get-ScratchSpace 或者 /Get-TargetPath 或者 /Get-PESettings 怎麼檢視PE相關設定
+### /Get-ScratchSpace 或者 /Get-TargetPath 或者 /Get-PESettings 怎麼檢視 PE 相關設定
 開啟此功能時自動顯示相關設定。
 
 ### /Set-ScratchSpace 怎麼調整暫存空間
-調整 `設定 Windows PE 映像的暫存空間（MB）`此設定，然後點擊應用即可。
+調整 `設定 Windows PE 映像的暫存空間（MB）`此設定，然後點擊套用即可。
 
 ### /Set-TargetPath 怎麼調整目標PE路徑
-調整 `設定 Windows PE 映像的目標路徑`此設定，然後點擊應用即可。
+調整 `設定 Windows PE 映像的目標路徑`此設定，然後點擊套用即可。
 
 ### /Get-Profiling 怎麼檢視配置檔案
 不支援此功能。
@@ -349,7 +349,7 @@ Dism++ 不支援此功能。
 ### /Apply-Profiles 應用配置檔案怎麼用
 不支援此功能。
 
-### /Disable-Profiling 禁用配置檔案怎麼用
+### /Disable-Profiling 停用配置檔案怎麼用
 不支援此功能。
 
 ### /Enable-Profiling 啟用配置檔案怎麼用
