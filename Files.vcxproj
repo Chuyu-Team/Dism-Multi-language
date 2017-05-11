@@ -209,7 +209,7 @@
     <None Include="www.chuyu.me\zh-Hant\Document.html" />
     <None Include="www.chuyu.me\zh-Hant\library\$navigation.md" />
     <None Include="www.chuyu.me\zh-Hant\library\Best\使用Dism++安裝系統.md" />
-    <None Include="www.chuyu.me\zh-Hant\library\Best\給ISO離線集成補丁.md" />
+    <None Include="www.chuyu.me\zh-Hant\library\Best\給ISO離線整合更新.md" />
     <None Include="www.chuyu.me\zh-Hant\library\Dism++Library\自訂規則.md" />
     <None Include="www.chuyu.me\zh-Hant\library\Dism++Library\術語.md" />
     <None Include="www.chuyu.me\zh-Hant\library\Dism++Library\規則結構參考.md" />
