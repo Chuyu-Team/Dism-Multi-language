@@ -173,29 +173,29 @@
     <None Include="www.chuyu.me\zh-Hant\library\start.md">
       <Filter>资源文件\www.chuyu.me\zh-Hant\library</Filter>
     </None>
-    <None Include="www.chuyu.me\zh-Hant\library\Best\给ISO离线集成补丁.md">
-      <Filter>资源文件\www.chuyu.me\zh-Hant\library\Best</Filter>
-    </None>
-    <None Include="www.chuyu.me\zh-Hant\library\Best\使用Dism++安装系统.md">
-      <Filter>资源文件\www.chuyu.me\zh-Hant\library\Best</Filter>
-    </None>
-    <None Include="www.chuyu.me\zh-Hant\library\Dism++Library\规则结构参考.md">
-      <Filter>资源文件\www.chuyu.me\zh-Hant\library\Dism++Library</Filter>
-    </None>
-    <None Include="www.chuyu.me\zh-Hant\library\Dism++Library\术语.md">
-      <Filter>资源文件\www.chuyu.me\zh-Hant\library\Dism++Library</Filter>
-    </None>
-    <None Include="www.chuyu.me\zh-Hant\library\Dism++Library\隐藏功能.md">
-      <Filter>资源文件\www.chuyu.me\zh-Hant\library\Dism++Library</Filter>
-    </None>
-    <None Include="www.chuyu.me\zh-Hant\library\Dism++Library\自定义规则.md">
-      <Filter>资源文件\www.chuyu.me\zh-Hant\library\Dism++Library</Filter>
-    </None>
     <None Include="www.chuyu.me\Document\index.html">
       <Filter>资源文件\www.chuyu.me\Document</Filter>
     </None>
     <None Include="www.chuyu.me\404.html">
       <Filter>资源文件\www.chuyu.me</Filter>
+    </None>
+    <None Include="www.chuyu.me\zh-Hant\library\Dism++Library\規則結構參考.md">
+      <Filter>资源文件\www.chuyu.me\zh-Hant\library\Dism++Library</Filter>
+    </None>
+    <None Include="www.chuyu.me\zh-Hant\library\Dism++Library\術語.md">
+      <Filter>资源文件\www.chuyu.me\zh-Hant\library\Dism++Library</Filter>
+    </None>
+    <None Include="www.chuyu.me\zh-Hant\library\Dism++Library\隱藏功能.md">
+      <Filter>资源文件\www.chuyu.me\zh-Hant\library\Dism++Library</Filter>
+    </None>
+    <None Include="www.chuyu.me\zh-Hant\library\Dism++Library\自訂規則.md">
+      <Filter>资源文件\www.chuyu.me\zh-Hant\library\Dism++Library</Filter>
+    </None>
+    <None Include="www.chuyu.me\zh-Hant\library\Best\給ISO離線集成補丁.md">
+      <Filter>资源文件\www.chuyu.me\zh-Hant\library\Best</Filter>
+    </None>
+    <None Include="www.chuyu.me\zh-Hant\library\Best\使用Dism++安裝系統.md">
+      <Filter>资源文件\www.chuyu.me\zh-Hant\library\Best</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
