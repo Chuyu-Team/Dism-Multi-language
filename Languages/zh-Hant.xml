@@ -1009,7 +1009,7 @@
     <String Target="至少输入一个路径" Link="至少輸入一個路徑"/>
     <String Target="%s 路径无效" Link="%s 路徑無效"/>
     <String Target="未正确识别到命令，以下是程序支持的所有命令：" Link="未正確辨識指令，以下是程式支援的所有指令："/>
-    <String Target="将一个文件夹或者文件进行Compact压缩：&#x000D;&#x000A;/C  { /exe [ xpress4k（默认、更佳性能) | xpress8k | xpress16k | lzx（更小体积) ] } Path"
+    <String Target="将一个文件夹或者文件进行Compact压缩：&#x000D;&#x000A;/C  { /exe [ xpress4k（默认、更佳性能） | xpress8k | xpress16k | lzx（更小体积） ] } Path"
               Link="將一個資料夾或檔案進行 Compact 壓縮：&#x000D;&#x000A;/C  { /exe [ xpress4k (預設、較快) | xpress8k | xpress16k | lzx (最小體積) ] } Path"/>
     <String Target="将一个文件夹或者文件进行Compact解压缩&#x000D;&#x000A;/U Path"
               Link="將一個資料夾或檔案進行 Compact 解壓縮&#x000D;&#x000A;/U Path"/>
@@ -1023,7 +1023,7 @@
 範例：
  Dism++x86.exe /Image:C:\ /?
  Dism++x86.exe /Image:&quot;D:\1213\&quot; /?"/>
-    <String Target="映像管理指令：
+    <String Target="映像管理命令：
  /All	- 打开全局会话
  /Image	- 指定特定 Windows 映像的根目录的路径。
 
