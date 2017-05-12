@@ -34,7 +34,7 @@ Thanks to Massimiliano F.
 
 ## [Languages/fr.xml]
 French Resource
-Thanks to JP.Sudret
+Thanks to JP.Sudret, P.Verdy
 
 
 ## [Languages/ja.xml]
@@ -85,6 +85,10 @@ Dism++官方网站日语资源
 ### www.chuyu.me\en.xml
 Dism++官方网站英语资源
 感谢 Frag, Hexhu
+
+### www.chuyu.me\fr.xml
+Dism++ website French resource
+Thanks to P.Verdy
 
 ### www.chuyu.me\zh-Hant
 Dism++繁体帮助文档

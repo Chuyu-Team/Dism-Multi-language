@@ -184,6 +184,7 @@
       <SubType>Designer</SubType>
     </Xml>
     <Xml Include="www.chuyu.me\en.xml" />
+    <Xml Include="www.chuyu.me\fr.xml" />
     <Xml Include="www.chuyu.me\ja.xml" />
     <Xml Include="www.chuyu.me\zh-Hans.xml" />
     <Xml Include="www.chuyu.me\zh-Hant.xml" />

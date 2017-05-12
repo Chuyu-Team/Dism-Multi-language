@@ -108,6 +108,9 @@
     <Xml Include="Languages\pt.xml">
       <Filter>资源文件\Languages</Filter>
     </Xml>
+    <Xml Include="www.chuyu.me\fr.xml">
+      <Filter>资源文件\www.chuyu.me</Filter>
+    </Xml>
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md">
