@@ -200,6 +200,9 @@
     <None Include="www.chuyu.me\zh-Hant\library\Best\使用Dism++安裝系統.md">
       <Filter>资源文件\www.chuyu.me\zh-Hant\library\Best</Filter>
     </None>
+    <None Include="www.chuyu.me\Document\log.html">
+      <Filter>资源文件\www.chuyu.me\Document</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ThirdParty.md">

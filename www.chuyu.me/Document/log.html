@@ -1,0 +1,15 @@
+﻿<script language="JavaScript">
+    var la = (navigator.language || navigator.browserLanguage).toLowerCase();
+
+    switch (la)
+    {
+        case 'zh-cn':
+        case 'zh-sg':
+            la = '../zh-Hans/log.html';
+            break;
+        default:
+            la = '../zh-Hant/log.html';
+            break;
+    }
+    document.location = la;
+</script>
