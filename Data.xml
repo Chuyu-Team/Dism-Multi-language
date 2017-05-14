@@ -5,7 +5,6 @@
     <!--过期文件-->
     <Item Name="#被取代的WinSxS组件" Level="2">
       <Description>#清理被取代的组件并减少组件存储的大小。</Description>
-      <Warning>#清理后将无法卸载更新，如果有卸载更新需求请勿使用此选项。</Warning>
       <Group>#过期文件</Group>
       <ScanCollection>
         <!--在这里填写扫描规则，Dism++将自动匹配第一条命中的规则-->
@@ -13,16 +12,18 @@
           <Applicable>
             <OSVersion Compare="&lt;">10.0</OSVersion>
           </Applicable>
+          <Warning>#清理后将无法卸载更新，如果有卸载更新需求请勿使用此选项。</Warning>
+
           <!--不编写条件表示总是命中,CustomCall表示执行指定函数 -->
           <Activate>
             <Custom ProcName="DismComponentCleanup"/>
           </Activate>
         </Scan>
         <Scan Work="50">
-          <Name>#被取代的WinSxS组件（非常慢）</Name>
           <Applicable>
             <OSVersion Compare=">=">10.0</OSVersion>
           </Applicable>
+          <Warning>#清理后将无法卸载更新，此外ResetBase模式跟系统重置功能有冲突，如果有卸载更新或者系统重置需求请勿使用此选项。</Warning>
           <Activate>
             <Custom ProcName="DismComponentCleanup"/>
           </Activate>
@@ -4005,6 +4006,7 @@
             </Applicable>
           </State>
           <True>
+            <Warning>#启用此选项将导致导航窗口拖拽功能无法使用。</Warning>
             <Activate Restart="Explorer">
               <RegWrite Key="HKEY_CLASSES_ROOT\CLSID\{679f85cb-0220-4080-b29b-5540cc05aab6}\ShellFolder" Value="Attributes" Type="REG_DWORD" Operator="|" Data="400000"/>
               <RegWrite Key="HKEY_CLASSES_ROOT\CLSID\{679f85cb-0220-4080-b29b-5540cc05aab6}\ShellFolder" Value="Attributes" Type="REG_DWORD" Operator="|" Data="400000" Wow64="True"/>
