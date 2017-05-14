@@ -216,49 +216,51 @@ Special Thanks to Pavel Belivakov <belivakov@gmail.com>
 	 <String Target="建议删除" Link="Изтрий"/>
 	 <String Target="自定义" Link="Персонализирано"/>
 
-   <String Target="正在载入清理规则" Link="Зареждане на правилата за почистване…"/>
-   <String Target="正在撤销Compact" Link="Отмяна на Compact"/>
-   <String Target="名称" Link="Име"/>
-   <String Target="保存" Link="Запази"/>
-   <String Target="取消" Link="Отказ"/>
-   <String Target="详细信息" Link="Детайли"/>
-   <String Target="其他" Link="Други"/>
-   <String Target="正在初始化" Link="Инициализиране…"/>
-   <String Target="类别" Link="Категория"/>
-   <String Target="大小" Link="Размер"/>
-   <String Target="正在关闭会话" Link="Затваряне на сесията"/>
-   <String Target="值" Link="Стойност"/>
-   <String Target="控制面板" Link="Контролен панел"/>
-   <String Target="删除" Link="Премахни"/>
-   <String Target="关于Dism++" Link="Относно Dism++"/>
-   <String Target="Dism++正在执行任务，你确定要关闭程序么？" Link="Dism++ работи, да спре ли сега принудително Dism++?"/>
-   <String Target="正在检查更新" Link="Проверка за актуализации…"/>
-   <String Target="正在加载插件" Link="Зареждане на приставка"/>
-   <String Target="正在扫描已安装的系统" Link="Сканиране на инсталираната система"/>
-   <String Target="已经是最新版本，无需更新！" Link="Вече сте с най-новата версия. Няма друга актуализация."/>
-   <String Target="正在修复挂载映像" Link="Remounting image"/>
-   <String Target="正在取消现有任务，请稍等……" Link="Canceling current tasks, please wait…"/>
-   <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="Mounted image %s is damaged, must be repaired before continuing. Do you want to repair the image now?"/>
-   <String Target="即将重启以下程序 %s，你确定要继续吗？" Link="About to restart the following program %s, Sure to proceed?"/>
-   <String Target="资源管理器" Link="Explorer"/>
-   <String Target="操作完成" Link="Завършено"/>
+  <String Target="正在载入清理规则" Link="Зареждане на правилата за почистване…"/>
+  <String Target="正在撤销Compact" Link="Отмяна на Compact"/>
+  <String Target="名称" Link="Име"/>
+  <String Target="保存" Link="Запази"/>
+  <String Target="取消" Link="Отказ"/>
+  <String Target="详细信息" Link="Детайли"/>
+  <String Target="其他" Link="Други"/>
+  <String Target="正在初始化" Link="Инициализиране…"/>
+  <String Target="类别" Link="Категория"/>
+  <String Target="大小" Link="Размер"/>
+  <String Target="正在关闭会话" Link="Затваряне на сесията"/>
+  <String Target="值" Link="Стойност"/>
+  <String Target="控制面板" Link="Контролен панел"/>
+  <String Target="删除" Link="Премахни"/>
+  <String Target="关于Dism++" Link="Относно Dism++"/>
+  <String Target="Dism++正在执行任务，你确定要关闭程序么？" Link="Dism++ работи, да спре ли сега принудително Dism++?"/>
+  <String Target="正在检查更新" Link="Проверка за актуализации…"/>
+  <String Target="正在加载插件" Link="Зареждане на приставка"/>
+  <String Target="正在扫描已安装的系统" Link="Сканиране на инсталираната система"/>
+  <String Target="已经是最新版本，无需更新！" Link="Вече сте с най-новата версия. Няма друга актуализация."/>
+  <String Target="正在修复挂载映像" Link="Remounting image"/>
+  <String Target="正在取消现有任务，请稍等……" Link="Canceling current tasks, please wait…"/>
+  <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="Монтираният имидж %s е повреден - трябва да бъде поправен, преди да продължите. Искате ли сега да поправите имиджа?"/>
+  <String Target="即将重启以下程序 %s，你确定要继续吗？" Link="Предстои рестартиране на следната програма %s, Ще продължите ли?"/>
+  <String Target="资源管理器" Link="Explorer"/>
+  <String Target="操作完成" Link="Завършено"/>
 
    <!--欢迎页-->
     <String Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。"
-            Link="The first Dism GUI implementation based on CBS in the world!"/>
+            Link="Първото в света графично изпълнение на Dism базирано на CBS!"/>
 
-    <String Target="官方网站" Link="Official Site"/>
-    <String Target="QQ群" Link="QQ Group"/>
+   <String q="" Target="联系方式" Link="Contact"/>
+   <String Target="官方网站" Link="Офиц. сайт"/>
+   <String Target="QQ群" Link="QQ Group"/>
+   <String q="" Target="邮箱" Link="E-Mail"/>
+
+   <String Target="帮助与支持" Link="Поддръжка"/>
+    <String Target="初雨开源" Link="Отворен код"/>
+    <String Target="问题反馈" Link="Отзив"/>
+    <String Target="帮助文档" Link="Документ"/>
     
-    <String Target="帮助与支持" Link="Support"/>
-    <String Target="初雨开源" Link="Open Source"/>
-    <String Target="问题反馈" Link="Feedback"/>
-    <String Target="帮助文档" Link="Document"/>
-    
-    <String Target="致谢" Link="Thanks"/>
-    <String Target="翻译人员" Link="Translator"/>
-    <String Target="赞助名单" Link="Sponsor"/>
-    <String Target="第三方库" Link="Third Party"/>
+    <String Target="致谢" Link="Благодарности"/>
+    <String Target="翻译人员" Link="Преводач"/>
+    <String Target="赞助名单" Link="Спонсор"/>
+    <String Target="第三方库" Link="Трети страни"/>
 
 	 <!--添加映像-->
   <String Target="请输入映像存放目录" Link="Моля, въведете пътя до изображението"/>
@@ -808,7 +810,7 @@ Special Thanks to Pavel Belivakov <belivakov@gmail.com>
 
     <!--右键菜单管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="Управление на контекстното меню: Изключване на ненужните елементи от контекстното меню за подобряване реакцията на Widnows Explorer"/>
-    <String Target="禁用可执行文件的“兼容性疑难解答”右键菜单（by 莫失莫忘）" Link="Изключи 'Compatibility troubleshooting' от контекстното меню на execuables (от MoWangMoShi)"/>
+    <String Target="禁用可执行文件的“兼容性疑难解答”右键菜单（by 莫失莫忘）" Link="Изключи 'Compatibility troubleshooting' от контекстното меню на изпълнимите файлове (от MoWangMoShi)"/>
     <String Target="禁用文件、文件夹以及磁盘的“使用Windows Defender扫描”右键菜单（by 莫失莫忘）" Link="Изключи 'Scan by Windows Defender' от контекстното меню на файловете, папките и дисковете (от MoWangMoShi)"/>
     <String Target="禁用文件、磁盘以及属性的“还原以前版本”右键菜单（by 莫失莫忘）" Link="Изключи 'Revert to previous version' от контекстното меню на файловете, дисковете and properties (от MoWangMoShi)"/>
     <String Target="禁用文件、文件夹、桌面以及所有对象的“共享文件夹同步”右键菜单" Link="Изключи 'Sync shared folders' от контекстното меню на файловете, папките, desktop и всички обекти"/>
@@ -915,8 +917,8 @@ Special Thanks to Pavel Belivakov <belivakov@gmail.com>
     
     <String Target="禁用NTFS链接跟踪服务（by 某宅）" Link="Изключи Homegroup NTFS Link Tracking Service (от Stotaku)"/>
 
-    <String Target="禁止自动维护计划（by Lux ferre）" Link="Изключи Auto Maintenance Task (от Lux ferre)"/>
-      <String Target="禁用后系统将无法使用文件预读等功能，这可能导致系统性能下降！" Link="System cannot use functions like file prefetching if you disable this, it may degrade the system performance."/>
+    <String Target="禁止自动维护计划（by Lux ferre）" Link="Изключи задачата за автоматично обслужване (от Lux ferre)"/>
+      <String Target="禁用后系统将无法使用文件预读等功能，这可能导致系统性能下降！" Link="Системата няма да може да използва функции като предварителното зареждане на файлове, ако деактивирате това и може да влоши производителността на системата."/>
 
   <!--WinRAR-->
   <String Target="锁定WinRAR工具栏（by 原罪）" Link="Заключи лентата с инструменти на WinRAR (от YZ)"/>
@@ -982,7 +984,7 @@ Special Thanks to Pavel Belivakov <belivakov@gmail.com>
     <String Target="隐藏NTFS蓝色双箭头压缩标识（by IT之家）" Link="Скрий синята двупосочна стрелка указваща компресиране под NTFS (от IT Home)"/>
     <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="Скрий описателния бутон от езиковата лента (от back tidal wave)"/>
     <String Target="Windows 7体验" Link="Windows 7 Experience"/>
-    <String Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Windows Update doesn't include malware removal tools (by ‍Winaero)"/>
+    <String Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Windows Update не включва инструментите за премахване на зловреден софтуер (от Winaero)"/>
     <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Change &quot;right click menu&quot; to Windows 7 mode (by Silence)"/>
     <String Target="登陆界面默认打开小键盘（by IT之家）" Link="Enable keypad when login (by ITHome)"/>
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Disable Component Based Servicing Backup"/>
@@ -1052,15 +1054,15 @@ Examples:
 
 示例：
  Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"
-      Link="/Plugin:&lt;Plugin_ID&gt;	- To run the commands supported with a plug-in.
+      Link="/Plugin:&lt;Plugin_ID&gt;	- Тази функция се използва за отваряне на командния поддържанa от приставката
 
-Examples:
+Пример:
  Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"/>
    <String Target="可以使用以下命令来操作此映像：
 
 插件命令：
  /Plugin	- 启动特定插件（需要插件支持命令参数）"
-       Link="Можете да използвате тези команди за работа с този имидж:
+      Link="Можете да използвате тези команди за работа с този имидж:
 
 Command:
  /Plugin	- Run the designated plug-in (Need plugin support)"/>
@@ -1314,16 +1316,16 @@ Command:
     <String Target="使用Visual Studio所产生的日志" Link="The Visual Studio's log files"/>
 
     <String Target="Installer目录" Link="Installer Folder"/>
-    <String q="" Target="(这是一个实验性功能)清理后将无法卸载被取代的msp更新，如果有卸载更新需求请勿使用此选项。" Link="(Experimental) After cleaning, replaced msp updates cannot be uninstalled. If you may need to uninstall updates plese do not use this option."/>
+    <String Target="(这是一个实验性功能)清理后将无法卸载被取代的msp更新，如果有卸载更新需求请勿使用此选项。" Link="(Експериментално) След почистване, заменените msp актуализации не могат да бъдат деинсталирани. Не използвайте тази опция, ако смятате, че може да се наложи да деинсталирате актуализациите."/>
 
     <String Target="零售演示离线内容" Link="Retail Demo Offline Content"/>
     <String Target="为Windows10零售演示模式所缓存的离线内容" Link="It contains the offline temporary content for Windows 10 Retail Demo Mode"/>
 
     <String Target="WinINet网页缓存" Link="WinINet Web Cache"/>
-    <String Target="清理每个用户账户和应用容器下的Windows网络组件（例如IE，Edge）的网页缓存（仅支持默认目录）" Link="Clean up Web Cache from WinINet components (I.e. IE, Edge) for each User and AppContainer (Default Folder only)"/>
+    <String Target="清理每个用户账户和应用容器下的Windows网络组件（例如IE，Edge）的网页缓存（仅支持默认目录）" Link="Clean up Web Cache from WinINet components (I.e. IE, Edge) for each User and AppContainer (Само папката по подразбиране)"/>
 
     <String Target="WinINet Cookies" Link="WinINet Cookies"/>
-    <String Target="清理每个用户账户和应用容器下的Windows网络组件（例如IE，Edge）的Cookies（仅支持默认目录）" Link="Clean up Cookies from WinINet components (I.e. IE, Edge) for each User and AppContainer (Default Folder only)"/>
+    <String Target="清理每个用户账户和应用容器下的Windows网络组件（例如IE，Edge）的Cookies（仅支持默认目录）" Link="Clean up Cookies from WinINet components (I.e. IE, Edge) for each User and AppContainer (Само папката по подразбиране)"/>
 
     <String Target="最后一次正确配置（by Stanlazy）" Link="Last working configuration (от Stanlazy)"/>
     <String Target="最近能正常启动计算机的配置备份。" Link="Backup of the most recent configuration that could start up the PC."/>
@@ -1336,10 +1338,10 @@ Command:
 
     <String Target="英伟达驱动安装包（by Ailick）" Link="nVidia driver installation package (by Ailick)"/>
     <String Target="Nvidia Geforce Experience更新程序时产生的安装包。" Link="nVidia Geforce Experience generates this installation package when updating programs."/>
-
-    <String q="" Target="新版Visual Studio安装源缓存" Link="New Visual Studio installation source cache"/>
-    <String q="" Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="Cleans up Visual Studio 2017 and later versions of the installation source."/>
-    <String q="" Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="After cleaning up, upgrade, fix, add components and uninstall need to be networked (Visual Studio 2017 and later versions)."/>
+      
+    <String Target="新版Visual Studio安装源缓存" Link="Кеш на инсталацията на новото Visual Studio"/>
+    <String Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="Почиства източника за инсталиране на Visual Studio 2017 и по-новите версии."/>
+    <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="След почистване, надстройване, поправяне, добавяне на компоненти и деинсталиране трябва да бъде свързан с мрежа (Visual Studio 2017 и по-нови версии)."/>
   </StringMaps>
   <MessageTable>
     <x800F0806>Една или повече актуализации са висящи. Моля, рестартирайте и след това продължете.</x800F0806>
@@ -1364,8 +1366,8 @@ Command:
     
     <x20020001>Няма конфигурационен файл с асоциации по подразбиране в текущия имидж. Не може да се експортира..</x20020001>
     <x20020002>Открит е известен проблем със съвместимостта. Хостът трябва да бъде най-малко Windows 8/2012 да се справим с това. Ако продължите да работите в по-ниски версии на хоста, функции като отваряне, затваряне, добавяне, изтриване, обновяване може да не работят правилно.</x20020002>
-    <x20020003 q="">Dism++ found a compatibility problem, the image path exists non-ASCII characters may cause the install update to fail, please reload the image in full ASCII path, such as "D:\Mount".</x20020003>
-
+    <x20020003>Dism ++ намери проблем със съвместимостта, в пътя до иимиджа има не-ASCII символи, което може да доведе до неуспешно инсталиране на актуализацията. Моля, презаредете иимиджа с пълен ASCII път, като "D:\Mount".</x20020003>
+    
     <xC1440136>Драйвърът (Wofadk.sys) не е зареден. Моля, поставете отметка на "Зареди wofadk" в Опции - Още настройки, за да продължите.</xC1440136>
     <xC144013B>Драйвърът (Wofadk.sys) не е зареден. Моля, поставете отметка на "Зареди wofadk" в Опции - Още настройки, за да продължите.</xC144013B>
   
