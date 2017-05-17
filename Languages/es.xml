@@ -13,7 +13,7 @@ There are 5 special symbols need special representation in XML.
    ‘       Single quotation marks		&apos;
    “       Double quotation marks		&quot;
 
-Thanks: Oleada, translation for version 10.1.25.1
+Thanks: Oleada for translation
  -->
 <Data>
   <DefaultControl>
@@ -232,7 +232,7 @@ Thanks: Oleada, translation for version 10.1.25.1
     <String Target="控制面板" Link="Panel de control"/>
     <String Target="删除" Link="Eliminar"/>
     <String Target="关于Dism++" Link="Acerca de Dism++ - Traducido por Oleada"/>
-    <String Target="Dism++正在执行任务，你确定要关闭程序么？" Link="Dism++, está trabajo. ¿cerrar Dism++ ahora?"/>
+    <String Target="Dism++正在执行任务，你确定要关闭程序么？" Link="Dism++, está trabajando. ¿cerrar Dism++ ahora?"/>
     <String Target="正在检查更新" Link="Comprobando actualizaciones..."/>
     <String Target="正在加载插件" Link="Cargando complemento"/>
     <String Target="正在扫描已安装的系统" Link="Analizando sistema instalado"/>
@@ -242,16 +242,16 @@ Thanks: Oleada, translation for version 10.1.25.1
     <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="La imagen montada %s está dañada, debe repararse antes de continuar. ¿Quieres reparar la imagen ahora?"/>
     <String Target="即将重启以下程序 %s，你确定要继续吗？" Link="A punto de reiniciar el siguiente programa %s, ¿Continuar?"/>
     <String Target="资源管理器" Link="Explorer"/>
-    <String Target="操作完成" Link="Finalizado"/>
+    <String Target="操作完成" Link="Correcto"/>
 
     <!--欢迎页-->
     <String Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。"
             Link="La primera aplicación basada en GUI Dism CBS en el mundo!"/>
 
-    <String q="" Target="联系方式" Link="Contact"/>
+    <String Target="联系方式" Link="Contacto"/>
     <String Target="官方网站" Link="Sitio oficial"/>
     <String Target="QQ群" Link="Grupo QQ"/>
-    <String Target="邮箱" Link="electrónico"/>
+    <String Target="邮箱" Link="Correo"/>
 
     <String Target="帮助与支持" Link="Soporte"/>
     <String Target="初雨开源" Link="Open Source"/>
@@ -960,7 +960,7 @@ Ejemplos:
     <String Target="Windows主题相关设置" Link="Configuración del tema de Windows"/>
     <String Target="任务栏以及小娜相关设置" Link="Ajustes barra tareas y Cortana"/>
     <String Target="关闭商店应用推广（by 、Cloud.）" Link="Desactivar desde Windows Store (Cloud)."/>
-    <String Target="关闭多嘴的小娜（by 朽木）" Link="Desactivar Cortana ( por XiuMu )"/>
+    <String Target="关闭多嘴的小娜（by 朽木）" Link="Desactivar Cortana (XiuMu)"/>
     <String Target="关闭游戏录制工具（by 、Cloud.）" Link="Desactivar grabador de juegos (Cloud)."/>
     <String Target="启用 Windows 照片查看器（by 心之所向）" Link="Activar Visualizador de fotos de Windows (XingZhiSuoXiang) "/>
     <String Target="安全相关设置" Link="Ajustes de seguridad"/>
@@ -970,12 +970,12 @@ Ejemplos:
     <String Target="禁用文件夹的“固定到快速访问”右键菜单" Link="Desactivar &quot;Pin de acceso rápido&quot; del menú en el directorio"/>
     <String Target="禁用文件的“OneDrive文件同步”右键菜单" Link="Desactivar &quot;Sincronizar archivos OneDrive&quot; del menú de archivo"/>
     <String Target="关闭“突出显示新安装的程序”（by 溯汐潮）" Link="Desactivar &quot;Resaltar programas recién instalados&quot; (Hell Cabrite)"/>
-    <String Target="关闭自动更新（by 溯汐潮）" Link="Desactivar actualizaciones automáticas( por Hell Cabrite )"/>
+    <String Target="关闭自动更新（by 溯汐潮）" Link="Desactivar actualizaciones automáticas(Hell Cabrite)"/>
     <String Target="将“音量调节”调整为Windows 7模式（by 溯汐潮）" Link="Cambiar &quot;Ajustar volumen&quot; a modo Windows 7 (Hell Cabrite)"/>
     <String Target="将同时可用下载数目调整到 10（by 溯汐潮）" Link="Ajustar el número de descargas simultáneas a 10(Hell Cabrite )"/>
     <String Target="将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）" Link="Cambiar &quot;Personalizar&quot; en menú clic derecho del escritorio a modo Windows (dpzjsy )"/>
     <String Target="将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）" Link="Cambiar &quot;Ajsutes pantalla&quot; en menú clic derecho en escritorio a modo Windows 7 (dpzjsy )"/>
-    <String Target="将语言栏隐藏到任务拦（by 溯汐潮）" Link="Ocultar barra de idioma en barra de tareas( por Hell Cabrite)"/>
+    <String Target="将语言栏隐藏到任务拦（by 溯汐潮）" Link="Ocultar barra de idioma en barra de tareas(Hell Cabrite)"/>
     <String Target="快速访问不显示常用文件夹（by 溯汐潮）" Link="No mostrar carpetas de uso frecuente en Acceso rápido(Hell Cabrite )"/>
     <String Target="快速访问不显示最近使用的文件（by 溯汐潮）" Link="No mostrar archivos usados recientemente en acceso rápido(Hell Cabrite )"/>
     <String Target="清理被取代的msp补丁并减少Installer目录的大小。" Link="Limpiar parches MSP sustituidos y reducir el tamaño de la carpeta de instalación."/>
@@ -983,7 +983,7 @@ Ejemplos:
     <String Target="遇到弹出窗口时始终在新选项卡中打开弹出窗口（by 溯汐潮）" Link="Mostrar ventanas emergentes en una pestaña nueva( Hell Cabrite )"/>
     <String Target="锁定Internet Explorer工具栏（by 溯汐潮）" Link="Bloquear barra de herramientas de Internet Explorer(Hell Cabrite )"/>
     <String Target="隐藏NTFS蓝色双箭头压缩标识（by IT之家）" Link="Ocultar icono azul de la compresión NTFS (IT Home )"/>
-    <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="Ocultar botón Ayuda en barra de idioma ( por Hell Cabrite )"/>
+    <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="Ocultar botón Ayuda en barra de idioma (Hell Cabrite)"/>
     <String Target="Windows 7体验" Link="Experiencia de Windows 7"/>
     <String Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Windows Update no incluyen herramientas de eliminación de malware (‍Winaero)"/>
     <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Cambiar &quot;menú de clic derecho&quot; a Windows 7 (Silence)"/>
@@ -1108,7 +1108,7 @@ Comando:
     <String Target="某些文件被硬链接合并后可能导致相关功能无法正常使用。" Link="Algunos archivos fusionados no funcionarán correctamente."/>
 
     <String Target="CompactOs（较慢）" Link="CompactOs(muy lento)"/>
-    <String Target="对单纯读取的文件进行哈夫曼压缩，在不影响性能的情况下，显著减少系统体积。特别感谢矿工以及所有Compact团队成员无私的支持与帮助。" Link="Archivo de sólo lectura con compresión Huffman, no tendrá ningún impacto en el rendimiento, reducir el volumen del sistema, evidentemente. Un agradecimiento especial a los mineros y el apoyo desinteresado y la ayuda de los miembros del equipo."/>
+    <String Target="对单纯读取的文件进行哈夫曼压缩，在不影响性能的情况下，显著减少系统体积。特别感谢矿工以及所有Compact团队成员无私的支持与帮助。" Link="Archivo de sólo lectura con compresión Huffman, no tendrá ningún impacto en el rendimiento, reduce el volumen del sistema. Un agradecimiento especial y el apoyo desinteresado a los miembros del equipo."/>
     <String Target="使用后可能导致某些程序无法正常运行甚至让系统无法启动，如果使用后出现问题，可以在PE中点击 恢复功能-->撤销Compact。" Link="Después de aplicar esto, algunos programas funcionarán mal y el sistema podría fallar al iniciar. Más adelante puede solucionarlo usando Revovery -> No compactar en WinPE"/>
     <String Target="此功能与某些硬盘备份软件不兼容。如果使用后出现问题，可以点击 恢复功能-->撤销Compact。" Link="Esta función no es compatible con algún software de copia de seguridad. Si tiene problemas, haga clic en Recuperación -> No compactar."/>
 
@@ -1216,7 +1216,7 @@ Comando:
     <String Target="迅雷游戏" Link="Juegos Thunder"/>
     <String Target="迅雷游戏安装后所在目录，一般人不需要此程序，可以考虑删除。" Link="Directorio de juegos Thunder (después de la instalación), la mayoría de las personas no necesitan este programa, puede borrarlo."/>
 
-    <String Target="NET程序集缓存（by 大胖子技术员）" Link="Caché ensamblado NET ( por dpzjsy )"/>
+    <String Target="NET程序集缓存（by 大胖子技术员）" Link="Caché ensamblado NET (dpzjsy)"/>
     <String Target="NET程序运行过程中产生的机器代码缓存文件，不建议频繁清理此条目。" Link="Al ejecutar el programa NET, crea archivos de caché con códigos, no se recomienda limpiar los archivos de caché con frecuencia."/>
 
     <String Target="以前的Dism++组件" Link="Archivos residuales versión anterior de Dism++"/>
@@ -1437,71 +1437,71 @@ Comando:
     <xC144013A>Operación no admitida. Compruebe que la imagen del SO en la ruta especificada para ser capturado es WIMBoot compatible.</xC144013A>
     <xC144013B>Operación no compatible. Compruebe que el sistema operativo está ejecutando un controlador de wof (wof.sys).</xC144013B>
   </MessageTable>
-  <UserAgreement>User Agreement
+  <UserAgreement>Acuerdo de usuario
 
-    Chuyu team strongly recommand every user to read the following user agreement (hereinafter referred to as 'agreement', or 'this agreement') carefully before using Dism++. Anyone chooses not to comply with or fail to understand the intended meaning of the agreement should not be allowed, nor be granted the right granted by Chuyu team to use Dism++. Anyone who uses Dism++ is considered to agree with the following agreement, and to comply with the content of this agreement.
+    Se recomienda encarecidamente que todos los usuarios lea el siguiente acuerdo de usuario (denominado en lo sucesivo "acuerdo", o "este acuerdo") detenidamente antes de usar Dism++. Si decide no cumplir o no comprender el significado del acuerdo no se le permite, ni concede el derecho otorgado por el equipo de Chuyu a usar Dism++. Cualquiera que use DISM++ es porque está de acuerdo, y cumple con el contenido del presente acuerdo.
 
-    This agreement defines the rights and obligations between Dism++ users of 'Dism++' software service (hereinafter referred to as 'service', or 'this service') and Chuyu team. 'Users', and 'Dism++ users' refer to individuals who register, login, or utilize this service. This agreement is subject to updates from Chuyu team at any possible moment. Updated agreement, once published in any format, replaces the original agreement. Dism++ should display the updated agreement when the software properly initiates. Dism++ users must stop using this software and the services fom Chuyu team immediately if they choose not to comply with the updated agreement.
-
-
-One: Rights and Obligations
-
-1. Dism++ users can only use Dism++ for personal use in their PC(s). Any non-personal use (including but not limited to commercial or occupational use) without written approval from Chuyu team is not allowed.
-
-2. Dism++ users must read this agreement and other content in the document of Dism++ carefully before using Dism++.
-
-3. Dism++ users have the obligation to report bugs and possible improvements to Chuyu team. Anyone who uses Dism++ for over 30 days should send mingkuang a 'Dism++ usage report' that is no less than 345 words. Anyone who uses Dism++ for 8 mounths or longer should send mingkuang an annual report (at least 520 words) on the topic 'the suggestion and possible improvement on Dism++' on November 11th (local time). Email of mingkuang: mingkuang@live.com.
-
-4. Dism++ users should retain the love for peace, for group work, and of helping others.
-
-5. Dism++ users should comply with the Basic Law (or local equivalents). Any action that violates copyright of Chuyu team or this agreement (including but not limited to inappropriately copy, propagate, display, mirror, upload, download, modify), and those that negatively impact Chuyu team's operation or services will be subject to serious legal actions.
-
-6. Anyone who fail to comply with this agreement automatically loses any right granted by Chuyu team. Chuyu team retain right to stop all software of Chuyu team in their PC(s), to reject any of their proposal(s), and to persue legal actions gainst them.
-
-7. Chuyu team will try their best to provide technical support for those who comply with this agreement, when all of the following factors permit: the complexity of issue, the availability of Chuyu team, and the other users' vote.
+    Este acuerdo define los derechos y obligaciones entre Dism++ y los usuarios de 'Dism++' del servicio de software (en lo sucesivo denominado 'servicio', o 'este servicio") y Chuyu team. 'Usuarios' y 'usuarios Dism++" se refieren a las personas que se inscriban, incien sesión, o utilicen este servicio. Este acuerdo está sujeto a actualizaciones por el equipo Chuyu en cualquier momento. Actualizado acuerdo, una vez publicada en cualquier formato, sustituye al acuerdo original. Dism+ debería mostrar el acuerdo actualizado cuando el software se inicia correctamente. Los usuarios de Dism++ deben dejar de usar el software y los servicios del equipo Chuyu inmediatamente si se opta por no cumplir con el acuerdo actualizado.
 
 
+Uno: Derechos y Obligaciones
 
-Two: Privacy Issues
-1. After initiation, Dism++ will collect Dism++ users' system information (including but not restricted to the system version, system structure, system language, CPU information, RAM information), and Dism++'s own report (including but not restricted to the system crash dump and log files) to improve the service. Dism++ will not collect user identification information nor user's contact information.
+1. Los usuarios de Dism ++ solo pueden usar Dism ++ para uso personal en su PC (s). Cualquier uso no personal (incluyendo pero no limitado a uso comercial o ocupacional) sin la aprobación por escrito del equipo de Chuyu no está permitido.
 
-2. Chuyu team may send users invitations for testing Dism++, invitations for voting to help Chuyu team's decisioning, and software updates, but Chuyu team will never send messages that include but not limited to advertisements, promotions, frauds, or request for payment.
+2. Los usuarios de Dism ++ deben leer este acuerdo y otro contenido en el documento de Dism ++ cuidadosamente antes de usar Dism ++.
+
+3. Los usuarios de Dism ++ tienen la obligación de informar de errores y posibles mejoras al equipo de Chuyu. Cualquier persona que use Dism ++ durante más de 30 días debe enviar mingkuang un informe de uso Dism ++ con no menos de 345 palabras. Cualquier persona que use Dism ++ durante 8 meses o más debe enviar a mingkuang un informe anual (al menos 520 palabras) sobre el tema 'sugerencia y posible mejora en Dism ++' el 11 de noviembre (hora local). Correo electrónico de mingkuang: mingkuang@live.com.
+
+4. Los usuarios de Dism ++ deben conservar el amor por la paz, por el trabajo en grupo y por ayudar a los demás.
+
+5. Los usuarios de Dism ++ deben cumplir con la Ley Fundamental (o equivalentes locales). Cualquier acción que viole los derechos de autor del equipo de Chuyu o de este acuerdo (incluyendo, pero no limitado a copiar, propagar, mostrar, reflejar, cargar, descargar, modificar) de manera inapropiada, y aquellos que afectan negativamente el funcionamiento del equipo de Chuyu serán objeto de graves acciones legales .
+
+6. Cualquier persona que no cumpla con este acuerdo pierde automáticamente cualquier derecho otorgado por el equipo de Chuyu. El equipo de Chuyu conserva el derecho de detener todo el software del equipo de Chuyu en su PC (s), rechazar cualquiera de sus propuestas y perseguir acciones legales contra ellos.
+
+7. Chuyu hará todo lo posible para brindar soporte técnico a aquellos que cumplan con este acuerdo, cuando todos los siguientes factores lo permitan: la complejidad del tema, la disponibilidad del equipo Chuyu y el voto de los demás usuarios.
 
 
 
-Three: Bear The Risks
-1. Chuyu team have an open-type attitude so everyone can let Dism++ better.Some functions may lead unknown aftermath so Chuyu team will remove the possible risk and tell the users.But we didn't solve all the issue.You must bear all the aftermath yourself.Please tell Chuyu team after you find some problems to prevent others have the problems.
+Dos: Cuestiones de privacidad
+1. Después de la iniciación, Dism ++ recopilará la información del sistema de los usuarios de Dism ++ (incluyendo pero no restringida a la versión del sistema, estructura del sistema, lenguaje del sistema, información de CPU, información de RAM) y el propio informe de Dism ++ (incluyendo, pero no restringido, Archivos) para mejorar el servicio. Dism ++ no recopilará la información de identificación del usuario ni la información de contacto del usuario.
 
-2. Please understand and agree because our softwares need to develop.Chuyu team persists the rights to change or pause or end or revoke all or some service.The users need to bear this danger.
-
-
-
-Four: Intellectual Property Rights Statement
-1. Chuyu team has all the intellectual property rights of this-service content(including but not limited to program , webpage , text and so on)
-
-2. If no important clauses,Chuyu team has all the intellectual property rights.
-
-3. If Chuyu team didn't consent in writing,the users cannot process Chuyu softwares anyway.Cannot tell others have the rights to proces Chuyu softwares.
-
-4. Above and other intellectual property rights of Chuyu team are protected by law.If Chuyu team didn't allow you,you cannot disassemble or do others.
+2. El equipo de Chuyu puede enviar a los usuarios invitaciones para probar Dism ++, invitaciones para votar para ayudar al equipo de Chuyu a tomar decisiones y actualizaciones de software, pero el equipo de Chuyu nunca enviará mensajes que incluyan anuncios, promociones, fraudes o solicitud de pago.
 
 
 
-Five: Legal Responsibility
-1. If Chuyu team see someone report some users breached this agreement,Chuyu team have the rights to ban the users to use Chuyu softwares without informing.
+Tres: Soportar los riesgos
+1. Chuyu tiene una actitud de tipo abierto por lo que todo el mundo puede mejorar Dism ++ . Algunas funciones pueden llevar a consecuencias desconocidas por lo que el equipo de Chuyu eliminará el posible riesgo y lo comentara a los usuarios. Pero no hemos resuelto todo el problema. Usted debe soportar todas las secuelas. Comentarle al equipo de Chuyu si encuentra problemas para evitar que otros los tengan.
 
-2. Please understand and agree.Chuyu team have the rights to reasonably penalize the violation behavior with law.
-
-3. Please understand and agree.If the users breach this agreement lead third party arise the claim(including the reasonable money to lawyer).The users must compensate for Chuyu team.
+2. Por favor, comprenda y acepte porque nuestros softwares necesitan desarrollarse. El equipo de Chuyu persiste en los derechos de cambiar o detener o terminar o revocar todo o algún servicio. Los usuarios necesitan soportar este peligro.
 
 
 
-Six: Others
-1. Chuyu team solemnly tell the users notice the clauses of exempt the responsibility of Chuyu team and the rights of limit the users.Minors should read this agreement with the legal guardians.
+Cuatro: Declaración de derechos de propiedad intelectual
+1. El equipo de Chuyu tiene todos los derechos de propiedad intelectual de este contenido de servicio (incluyendo pero no limitado al programa, página web, texto, etc.)
 
-2. The agreement validity and explanation apply in Chinese law.If the users and Chuyu team have disputes,negotiated settlement first.If it's failed,please agree to report the having-jurisdiction people's court to administer.
+2. Si no hay cláusulas importantes, el equipo de Chuyu tiene todos los derechos de propiedad intelectual.
 
-3. If the agreement clauses be invalid or not executable because of whatever reason,the other clauses are still valid.Binding upon Both.
+3. Si el equipo de Chuyu no dio su consentimiento por escrito, los usuarios no pueden procesar los programas de Chuyu. No se puede decir de los demás si tienen los derechos de procesar los programas de Chuyu.
 
-4. The user agreement written in Chinese-simplified should be referred to if the Chinese-simplified version differs from user agreements written in other languages.</UserAgreement>
+4. Arriba y otros derechos de propiedad intelectual del equipo Chuyu están protegidos por la ley. Si el equipo Chuyu no lo permite, no se puede desensamblar o hacer otros.
+
+
+
+Cinco: Responsabilidad Legal
+1. Si el equipo de Chuyu ve que algunos usuarios han violado este acuerdo, el equipo de Chuyu tiene el derecho de prohibir a los usuarios usar los softwares sin informar.
+
+2. Por favor, entiendan y acuerden. El equipo de Chuyu tiene los derechos de penalizar razonablemente el comportamiento de la violación con la ley.
+
+3. Por favor, comprenda y acuerde. Si los usuarios incumplen este acuerdo, y surge una reclamación (incluyendo el dinero razonable para el abogado). Los usuarios deben compensar al equipo de Chuyu.
+
+
+
+Seis: Otros
+1. Solemnemente decirle a los usuarios que miren las cláusulas de eximir la responsabilidad del equipo de Chuyu y los derechos de limitar a los usuarios. Los menores deben leer este acuerdo con los tutores legales.
+
+2. La validez del acuerdo y la explicación se aplican en derecho chino. Si los usuarios y el equipo de Chuyu tienen conflictos, negociar primero. Si no es posible, por favor acepta el Informe de competencia con Tribunal popular.
+
+3. Si las cláusulas del acuerdo no es válida o no ejecutable por cualquier motivo, las demás cláusulas son todavía válidas. Vinculante para ambas.
+
+4. El acuerdo de usuario escrito en chino simplificado debe ser referido a si la versión de chino simplificado difiere de los acuerdos de usuario escritos en otros idiomas.</UserAgreement>
 </Data>
