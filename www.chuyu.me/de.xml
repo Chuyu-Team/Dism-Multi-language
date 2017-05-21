@@ -1,0 +1,35 @@
+<String Src="%lang%" Dst="de"/>
+  <String Src="%description%" Dst="Dism++ kann als grafische Oberfläche von DISM, WinSxS Clean, Installer Clean, Add Update and Drive..., angesehen werden"/>
+  <String Src="%keywords%" Dst="Dism++,Dism GUI,WinSxS Cleanup,Windows Update Cleanup Tool,System Cleanup,Windows Update Clean,vista,win7,win8,win8.1,win10,Chuyu,dism,Add Update"/>
+  <String Src="%title%" Dst="Dism++ | Neues Windows Werkzeug"/>
+  <String Src="%String1%" Dst="Dism++, das Allround-Programm"/>
+  <String Src="%String2%" Dst="Die weltweit erste grafische Oberfläche für Dism-Befehle, basierend auf CBS!"/>
+  <String Src="%64Bit%" Dst="Dism++ 64Bit"/>
+  <String Src="%32Bit%" Dst="Dism++ 32Bit"/>
+  <String Src="%Full%" Dst="Dism++ komplett (32/64)"/>
+  <String Src="%SupportSystem%" Dst="Kompatibel mit Windows Vista/7/8/8.1/10"/>
+  <String Src="%AboutDism++%" Dst="Über Dism++"/>
+  <String Src="%AboutDism++Des%" Dst="Dism++ kann zwar als grafische Oberfläche von DISM angesehen werden, steht aber nicht in Abhängigkeit zum Kommandozeilen-Tool DISM, sondern basiert direkt auf CBS (Component Based Servicing Reference) auf einem tieferem Level."/>
+  <String Src="%OpenSourceStr%" Dst="Open-Source ist nicht nur eine Philosophie, sondern auch ein Zeichen von Leistungsfähigkeit und Teamgeist. Besuchen Sie das Open-Source-Projekt des Chuyu Teams  &lt;span onclick=&quot;window.location.href='https://github.com/Chuyu-Team'&quot; style=&quot;color:blue;cursor:pointer&quot;>Check Me&lt;/span>?"/>
+  <String Src="%SxSClean%" Dst="Windows Update Clean"/>
+  <String Src="%SxSCleanDes%" Dst="Windows Update - Bereinigung, RESTLOS!"/>
+  <String Src="%CompactOSDes%" Dst="Sparen Sie 33% an Speicherplatz ohne Beeinträchtigung der Systemfunktionen."/>
+  <String Src="%EsdSupport%" Dst="ESD Unterstützung"/>
+  <String Src="%EsdSupportDes%" Dst="Keine Probleme mehr bei der Umwandlung von ESD zu ISO."/>
+  <String Src="%WindowsUpdateDes%" Dst="Mein Windows Update, meine Art von ~~ sorgenfreien Updates."/>
+  <String Src="%SystemRecover%" Dst="Systemwiederherstellung"/>
+  <String Src="%SystemRecoverDes%" Dst="Saubere Systemsicherung, saubere Wiederherstellung ohne PE!"/>
+  <String Src="%Green%" Dst="Grün!"/>
+  <String Src="%GreenDes%" Dst="Portabel, GRÜN, FREI, SICHER, ohne WERBUNG."/>
+  <String Src="%AboutChuyu%" Dst="Über Chuyu Team"/>
+  <String Src="%AboutChuyuDes%" Dst="Eigentlich sind wir in letzter Zeit leidenschaftlich darauf aus, ein Tool zu finden, das einfach, praktisch, überschaulich, nützlich, aber ohne Malware und nicht nervend ist. Für einige Zeit gab es keine zufrieden stellenden Resultate, aber wir gaben nicht auf, bevor wir unseren Wunschtraum mit viel Herz und Verstand verwirklichen konnten, indem wir Dism++ entwickelten: ein kleines Non Profit-Programm, ungekünstelt, individuell, entwickelt mit purer Ausdauer und Begeisterung"/>
+  <String Src="%QQ%" Dst="QQ Group"/>
+  <String Src="%E-Mail%" Dst="E-Mail"/>
+  <String Src="%Links%" Dst="Links"/>
+  <String Src="%WinOS%" Dst="WINOS Lite System"/>
+  <String Src="%ChuyuTream%" Dst="&amp;nbsp;2017&amp;nbsp;Chuyu Team"/>
+  <String Src="%ICP%" Dst=""/>
+  <String Src="%Document%" Dst="Dism++ Dokoumente"/>
+  <String Src="%logs%" Dst="Änderungen"/>
+  <String Src="%wsuscan2%" Dst="wsusscn2.cab ist die Dism++ Windows Update-Datenbank, mit dieser Datei kann &quot;Config\wsusscn2.cab&quot; überschrieben werden."/>
+</Strings>
