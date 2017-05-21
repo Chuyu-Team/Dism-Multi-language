@@ -360,6 +360,17 @@
       <Scan>
         <Applicable>
           <ImageFlags>1</ImageFlags>
+          <Or>
+            <And>
+              <Arch>9</Arch>
+              <FileVersion FilePath="%0%Config\amd64\NCleaner.dll" Compare=">=">1.0.3.5</FileVersion>
+            </And>
+            <And>
+              <Arch>0</Arch>
+              <FileVersion FilePath="%0%Config\x86\NCleaner.dll" Compare=">=">1.0.3.5</FileVersion>
+            </And>
+            <False/>
+          </Or>
           <FileExist FilePath="%SystemDrive%\Program Files\WindowsApps"/>
         </Applicable>
         <Activate>
@@ -609,6 +620,7 @@
       </Scan>
     </Item>
 
+    <!--删除此规则，可能导致正常系统Appx顺坏
     <Item Name="#Appx缓存文件-可解决Appx闪退" Level="2">
       <Description>#Appx运行时产生的缓存文件，当应用闪退时可尝试清理此选项，可解决大多数闪退问题。</Description>
       <Group>#缓存文件</Group>
@@ -620,8 +632,8 @@
           <General RootPath="%SystemDrive%\Users\*\AppData\Local\Packages\*\LocalCache"/>
         </Activate>
       </Scan>
-    </Item>
-    <!--应用程序-->
+    </Item>-->
+      <!--应用程序-->
 
     <Item Name="#Package Cache目录" Level="2">
       <Description>#Package Cache目录存放以WIX为基础的安装程序的安装源</Description>
