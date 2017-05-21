@@ -84,7 +84,7 @@
 	  <String Target="保存对安装的 WIM 映像的更改" Link="儲存對安裝的 WIM 映像的更改"/>
 	  <String Target="保存更改到另一个WIM文件中" Link="儲存到另一個 WIM 檔案中"/>
 	  <String Target="打开并编辑现有的WIM文件" Link="開啟並編輯現有的 WIM 檔案"/>
-	  <String Target="WIM、ESD互转" Link="ESD、WIM 互相轉換"/>
+	  <String Target="WIM、ESD互转" Link="ESD、WIM 互轉"/>
 	  <String Target="将ESD文件（支持加密）转换为ISO。" Link="將 ESD 檔案 (支援加密) 轉換為 ISO。"/>
 	  <String Target="解密微软在线提供的ESD文件" Link="解密微軟線上提供的 ESD 檔案"/>
 	  <String Target="重启进入RE并为我启动Dism++" Link="重新啟動進入 RE 並再次啟動 Dism++"/>
