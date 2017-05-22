@@ -74,13 +74,9 @@ Dism++崩溃统计后台
 
 ## [www.chuyu.me]
 Dism++官方网站以及帮助文档
-### www.chuyu.me\zh-Hant.xml
-Dism++官方网站繁体资源
-感谢 iliGPU
-
-### www.chuyu.me\ja.xml
-Dism++官方网站日语资源
-感谢 山形まり花
+### www.chuyu.me\de.xml
+Dism++ website German resource
+Thanks to franz@drwindows.de
 
 ### www.chuyu.me\en.xml
 Dism++官方网站英语资源
@@ -89,6 +85,14 @@ Dism++官方网站英语资源
 ### www.chuyu.me\fr.xml
 Dism++ website French resource
 Thanks to P.Verdy
+
+### www.chuyu.me\ja.xml
+Dism++官方网站日语资源
+感谢 山形まり花
+
+### www.chuyu.me\zh-Hant.xml
+Dism++官方网站繁体资源
+感谢 iliGPU
 
 ### www.chuyu.me\zh-Hant
 Dism++繁体帮助文档
