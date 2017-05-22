@@ -183,6 +183,7 @@
     <Xml Include="Languages\zh-Hant.xml">
       <SubType>Designer</SubType>
     </Xml>
+    <Xml Include="www.chuyu.me\de.xml" />
     <Xml Include="www.chuyu.me\en.xml" />
     <Xml Include="www.chuyu.me\fr.xml" />
     <Xml Include="www.chuyu.me\ja.xml" />

@@ -111,6 +111,9 @@
     <Xml Include="www.chuyu.me\fr.xml">
       <Filter>资源文件\www.chuyu.me</Filter>
     </Xml>
+    <Xml Include="www.chuyu.me\de.xml">
+      <Filter>资源文件\www.chuyu.me</Filter>
+    </Xml>
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md">
