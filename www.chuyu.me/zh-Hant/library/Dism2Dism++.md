@@ -94,9 +94,9 @@ Dism++ 不支援此功能，如果需要檢視，可以使用 7z 開啟 wim/esd 
 
 /ConfirmTrustedFile 參數，不支援。
 
-/WIMBoot 參數，勾選 WimBoot 可選框即可。與 Dism 不同的是 Dism++ 允許快速壓縮、WimBoot 壓縮、最大壓縮的 wim 檔案使用此特性，另外支援 Windows 7 以上（包含）所有系統，Dism++ 自動增加驅動並且解壓核心檔案。
+/WIMBoot 參數，勾選 WimBoot 可選框即可。與 Dism 不同的是 Dism++ 允許快速壓縮、WimBoot 壓縮、最大壓縮的 wim 檔案使用此特性，另外支援 Windows 7 以上（包含）所有系統，Dism++ 自動增加驅動並且解壓縮核心檔案。
 
-/Compact 參數，勾選 Compact 可選框即可。此功能支援 Windows 7 以上（包含）所有系統，Dism++ 自動增加驅動並且解壓核心檔案。
+/Compact 參數，勾選 Compact 可選框即可。此功能支援 Windows 7 以上（包含）所有系統，Dism++ 自動增加驅動並且解壓縮核心檔案。
 
 /EA 參數，自動使用。
 
@@ -151,7 +151,7 @@ Dism++ 暫不支援此功能。
 ## 無人參與服務命令
 Dism++ 暫不支援此功能。
 
-## 驅動程序服務命令
+## 驅動程式服務命令
 選擇 驅動管理，即可處理驅動。與 Dism 不同的是，Dism++ 還可以聯機處理。
 
 ### /Remove-Driver 刪除驅動該怎麼做
@@ -201,10 +201,10 @@ Dism++ 預設不再新手模式中顯示此功能，開啟專家模式後，選�
 ### 其他參數
 其他參數，為了 UI 的實用性以及美觀考慮，就不做了，畢竟對大家來說 支援 /Set-SKUIntlDefaults 或者 /Set-AllIntl 就可以了，沒必要一個個去展示。
 
-## 應用程序服務命令
+## 應用程式服務命令
 考慮到沒啥實際價值，不支援此功能，不過 Dism++ 已經應用於 Windows Update 功能，用於掃瞄 Office 相關更新檔。
 
-## 程序包服務命令
+## 程式包服務命令
 此功能被分佈多個 Dism++ 功能中。
 
 ### /Get-Packages 取得已安裝的更新該怎麼做
@@ -281,7 +281,7 @@ Dism++ 不支援此功能。
 
 
 ### /Cleanup-Image /AnalyzeComponentStore 掃瞄可以清理的空間
-開啟空間回收，裡面有個清理項目叫`被取代的WinSxS組件`，勾選此項目然後按下掃瞄即可，程序將展現可清理的空間。
+開啟空間回收，裡面有個清理項目叫`被取代的WinSxS組件`，勾選此項目然後按下掃瞄即可，程式將展現可清理的空間。
 
 ### /Cleanup-Image /CheckHealth 檢視是否存在受損標記該怎麼用
 不支援此功能。
@@ -301,14 +301,14 @@ Dism++ 不支援此功能。
 ## APPX 服務命令
 按下 Appx 管理 ，並 按下 Provisioned Appx即可。
 
-### /Get-ProvisionedAppxPackages 檢視所有預裝應用該怎麼用
+### /Get-ProvisionedAppxPackages 檢視所有預裝 App 該怎麼用
 啟動 UI 時自動展示相關 Appx 資訊。
 
 ### /Set-ProvisionedAppxDataFile 設定自訂資料該怎麼用
 不支援此功能。
 
-### /Remove-ProvisionedAppxPackage 刪除預裝應用該怎麼用
-勾選需要刪除的應用，在按下刪除即可。
+### /Remove-ProvisionedAppxPackage 刪除預裝 App 該怎麼用
+勾選需要刪除的 App，在按下刪除即可。
 
 ### /Add-ProvisionedAppxPackage 新增 Appx 該怎麼用
 不支援此功能。Dism++ 主要側重於刪除，等微軟的 Appx 成氣候了在新增此功能。
@@ -319,17 +319,17 @@ Dism++ 不支援此功能。
 ## 預設關聯命令
 按下`檔案關聯`即可檢視相關功能。與 Dism 不同的是，在 Dism++ 中，Vista 以及 Windows 7 也能使用此功能。
 
-### /Remove-DefaultAppAssociations 刪除預設程序關聯該怎麼用
-按下 `Windows 映像預設應用程序關聯` 下方的刪除按鈕即可。
+### /Remove-DefaultAppAssociations 刪除預設程式關聯該怎麼用
+按下 `Windows 映像預設應用程式關聯` 下方的刪除按鈕即可。
 
-### /Import-DefaultAppAssociations 匯入預設程序關聯該怎麼用
-按下 `Windows 映像預設應用程序關聯` 下方的匯入按鈕即可。
+### /Import-DefaultAppAssociations 匯入預設程式關聯該怎麼用
+按下 `Windows 映像預設應用程式關聯` 下方的匯入按鈕即可。
 
-### /Get-DefaultAppAssociations 怎麼檢視預設程序關聯
-按下 `Windows 映像預設應用程序關聯` 下方的匯出按鈕，然後在使用文本檢視器，檢視剛才匯出的配置檔案。
+### /Get-DefaultAppAssociations 怎麼檢視預設程式關聯
+按下 `Windows 映像預設應用程式關聯` 下方的匯出按鈕，然後在使用文本檢視器，檢視剛才匯出的配置檔案。
 
-### /Export-DefaultAppAssociations 怎麼匯出目前用戶的程序關聯配置
-按下 `Windows 聯機映像預設應用程序關聯` 下方的匯出按鈕即可。
+### /Export-DefaultAppAssociations 怎麼匯出目前用戶的程式關聯配置
+按下 `Windows 聯機映像預設應用程式關聯` 下方的匯出按鈕即可。
 
 ## WINDOWS PE 命令
 按下`WinPE 命令`即可檢視相關功能。
