@@ -294,7 +294,7 @@
 	  <String Target="在此处设置捕获映像的文件豁免列表加快捕获速度，每个条目用回车分割。" Link="在此處設定捕捉映像檔案的豁免清單，加快捕捉速度，每個項目以 Enter 鍵隔開。"/>
 	  <String Target="如何配置豁免列表" Link="如何配置豁免清單"/>
 	  <String Target="另存为映像" Link="另存為映像"/>
-    <String Target="卷影复制" Link="磁碟區陰影複製 (VSS)"/>
+    <String Target="卷影复制" Link="陰影複製 (VSS)"/>
     
 	  <!--系统修复-->
 	  <String Target="映像十分健康不需要修复。" Link="映像十分健康不需要修復。"/>
