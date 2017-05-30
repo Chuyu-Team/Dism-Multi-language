@@ -1277,7 +1277,7 @@ Command:
     <String Target="Chrome浏览器老版本备份（by Honry）" Link="Chrome 瀏覽器舊版本備份 (by Honry)"/>
     <String Target="Chrome浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Chrome 瀏覽器升級到新版本後留下的備份檔案，在故障時復原到舊版本。"/>
 
-    <String Target="Microsoft .NET安装缓存（by 撕裂五维空间）" Link="Microsoft .NET 安裝快取 (by 撕裂五维空间)"/>
+    <String Target="Microsoft .NET安装缓存（by 撕裂五维空间）" Link="Microsoft .NET 安裝快取 (by 撕裂五維空間)"/>
     <String Target="安装Microsoft .NET补丁残留的安装缓存。" Link="安裝 Microsoft .NET 更新後，殘留的暫存檔案。"/>
 
     <String Target="PPLive老版本备份（by 何超）" Link="PPlive 舊版本備份 (by 何超)"/>
