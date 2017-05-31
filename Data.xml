@@ -354,11 +354,12 @@
       </Scan>
     </Item>
     
-    <Item Name="#损坏的AppX" Level="2">
-      <Description>#清理损坏的AppX。例如Visual Studio的通用应用XAML设计器暴力删除临时生成的设计器应用，于是会出现大量损坏的AppX。</Description>
+    <Item Name="#损坏的Appx" Level="2">
+      <Description>#清理损坏的Appx。例如Visual Studio的通用应用XAML设计器暴力删除临时生成的设计器应用，于是会出现大量损坏的Appx。</Description>
       <Group>#系统相关</Group>
       <Scan>
         <Applicable>
+          <IsBeta/>
           <ImageFlags>1</ImageFlags>
           <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Appx" Value="PackageRoot"/>
           <Or>
