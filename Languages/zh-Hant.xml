@@ -441,7 +441,8 @@
     <String Target="蓝屏记录" Link="藍色畫面記錄"/>
     <String Target="注册表还原" Link="登錄檔還原"/>
     <String Target="清理时间" Link="清理時間"/>
-    
+    <String Target="网络位置" Link="網路位置"/>
+
     <!--驅動管理-->
 	  <String Target="温馨提示：删除关键驱动可能导致计算机无法启动" Link="貼心提醒：刪除關鍵驅動可能導致電腦無法啟動"/>
 	  <String Target="关键驱动：%s" Link="關鍵驅動：%s"/>
@@ -529,7 +530,8 @@
 	  <String Target="产品名称" Link="產品名稱"/>
 	  <String Target="产品版本" Link="產品版本"/>
 	  <String Target="发行类型" Link="發行類型"/>
-	  <String Target="状态" Link="狀態"/>
+    <String Target="安装日期" Link="安裝日期"/>
+    <String Target="状态" Link="狀態"/>
 	  <String Target="正在获取更新信息" Link="正在取得更新資訊"/>
 	  <String Target="正在删除更新" Link="正在刪除更新"/>
 	  <String Target="正在删除第 %d 个更新（共 %d ）" Link="正在刪除第 %d 個更新 (共 %d )"/>
@@ -539,7 +541,8 @@
 	  <String Target="刷新" Link="重新整理"/>
 	  <String Target="添加" Link="新增"/>
     <String Target="语言" Link="語言"/>
-  
+    <String Target="Windows %s 语言包" Link="Windows %s 語言套件"/>
+
 	  <!--選用功能-->
     <String Target="正在删除可选功能" Link="正在刪除選用功能"/>
     <String Target="正在删除第 %d 个可选功能（共 %d ）" Link="正在刪除第 %d 個選用功能 (共 %d)"/>
@@ -833,6 +836,7 @@
     <String Target="隐藏资源管理器导航窗口中的OneDrive（by 莫失莫忘）" Link="隱藏檔案總管導覽視窗中的 OneDrive (by 莫失莫忘)"/>
     <String Target="隐藏资源管理器导航窗口中的可移动设备（by 莫失莫忘）" Link="隱藏檔案總管導覽視窗中的可攜式裝置 (by 莫失莫忘)"/>
     <String Target="隐藏资源管理器导航窗口中的快速访问（by starP）" Link="隱藏檔案總管導覽視窗中的快速存取 (by starP)"/>
+      <String Target="启用此选项将导致导航窗口拖拽功能无法使用。" Link="啟用此選項將導致導覽視窗拖拽功能無法使用。"/>
 
     <!--Internet Explorer-->
     <String Target="关闭多个选项卡时不发出警告（by 一叶微风TM）" Link="關閉多個選項時不發出警告 (by 一葉微風TM)"/>
@@ -1095,6 +1099,7 @@ Command:
     <String Target="被取代的WinSxS组件" Link="被取代的 WinSxS 組件"/>
     <String Target="清理被取代的组件并减少组件存储的大小。" Link="清理被取代的元件並減少元件儲存的大小。"/>
     <String Target="清理后将无法卸载更新，如果有卸载更新需求请勿使用此选项。" Link="清理後將無法移除更新，如果有移除更新需求請勿使用此選項。"/>
+    <String Target="清理后将无法卸载更新，此外ResetBase模式跟系统重置功能有冲突，如果有卸载更新或者系统重置需求请勿使用此选项。" Link="清理後將無法解除安裝更新，此外 ResetBase 模式跟系統重置功能有衝突，如果有解除安裝更新或者系統重置需求請勿使用此選項。"/>
 
     <String Target="被取代的WinSxS组件（非常慢）" Link="被取代的 WinSxS 組件 (非常慢)"/>
 
@@ -1341,6 +1346,9 @@ Command:
     <String Target="新版Visual Studio安装源缓存" Link="新版 Visual Studio 安裝來源快取"/>
     <String Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="該專案清理 Visual Studio 2017 及以後版本的安裝來源"/>
     <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="清理後升級、修復、新增組件、解除安裝 Visual Studio 2017 及之後的版本需要有網路的環境"/>
+
+    <String Target="损坏的Appx" Link="損壞的Appx"/>
+    <String Target="清理损坏的Appx。例如Visual Studio的通用应用XAML设计器暴力删除临时生成的设计器应用，于是会出现大量损坏的Appx。" Link="清理損壞的 Appx。例如 Visual Studio 的通用應用程式 XAML 設計工具暴力刪除臨時產生的設計工具應用程式，於是會出現大量損壞的 Appx。"/>
   </StringMaps>
   <MessageTable>
     <x800F0806>一個或多個更新執行中，請重新啟動後繼續。</x800F0806>

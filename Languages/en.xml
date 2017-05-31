@@ -439,6 +439,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="蓝屏记录" Link="Blue record"/>
     <String Target="注册表还原" Link="Restore"/>
     <String Target="清理时间" Link="Cleanup time"/>
+    <String Target="网络位置" Link="Network Location"/>
 
     <!--驱动管理-->
     <String Target="温馨提示：删除关键驱动可能导致计算机无法启动" Link="Tips: delete important drivers may cause your computer fail to start"/>
@@ -530,7 +531,8 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
 	  <String Target="产品名称" Link="Product Name"/>
 	  <String Target="产品版本" Link="Product Version"/>
 	  <String Target="发行类型" Link="Release Type"/>
-	  <String Target="状态" Link="State"/>
+    <String Target="安装日期" Link="Installed Time"/>
+    <String Target="状态" Link="State"/>
 	  <String Target="正在获取更新信息" Link="Getting updates information"/>
 	  <String Target="正在删除更新" Link="Removing updates"/>
 	  <String Target="正在删除第 %d 个更新（共 %d ）" Link="Removing %d of %d updates"/>
@@ -540,8 +542,9 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
 	  <String Target="刷新" Link="Refresh"/>
 	  <String Target="添加" Link="Add"/>
     <String Target="语言" Link="Language"/>
+    <String Target="Windows %s 语言包" Link="Windows %s Language Pack"/>
 
-	  <!--可选功能-->
+    <!--可选功能-->
     <String Target="正在删除可选功能" Link="Removing capabilities"/>
 	  <String Target="正在删除第 %d 个可选功能（共 %d ）" Link="Removing %d of %d capabilities"/>
 	  <String Target="正在加载可选功能" Link="Loading capabilities"/>
@@ -834,6 +837,7 @@ Examples:
     <String Target="隐藏资源管理器导航窗口中的OneDrive（by 莫失莫忘）" Link="Hide OneDrive in navigation pane of Windows Explorer (by MoWangMoShi)"/>
     <String Target="隐藏资源管理器导航窗口中的可移动设备（by 莫失莫忘）" Link="Hide removable devices in navigation pane of Windows Explorer (by MoWangMoShi)"/>
     <String Target="隐藏资源管理器导航窗口中的快速访问（by starP）" Link="Hide Quick Access in navigation pane of Windows Explorer (by starP)"/>
+      <String Target="启用此选项将导致导航窗口拖拽功能无法使用。" Link="Enabling this option will disable the drag &amp; drop function in navigation pane."/>
 
     <!--Internet Explorer-->
     <String Target="关闭多个选项卡时不发出警告（by 一叶微风TM）" Link="Don't warn me when closing multiple tabs (by YiYieWeiFeng TM)"/>
@@ -1095,6 +1099,7 @@ Command:
     <String Target="被取代的WinSxS组件" Link="Replaced WinSxS assemblies"/>
     <String Target="清理被取代的组件并减少组件存储的大小。" Link="Use it to clean up the superseded components and reduce the size of the component store."/>
     <String Target="清理后将无法卸载更新，如果有卸载更新需求请勿使用此选项。" Link="The installed Windows Updates cannot be uninstalled after the operation is completed."/>
+    <String Target="清理后将无法卸载更新，此外ResetBase模式跟系统重置功能有冲突，如果有卸载更新或者系统重置需求请勿使用此选项。" Link="Updates cannot be uninstalled after cleaning up. In addition, ResetBase mode conflicts with system reset function. Please do not use this option if you have such needs."/>
 
     <String Target="被取代的WinSxS组件（非常慢）" Link="Replaced WinSxS assemblies (very slow)"/>
 
@@ -1341,6 +1346,9 @@ Command:
     <String Target="新版Visual Studio安装源缓存" Link="New Visual Studio installation source cache"/>
     <String Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="Cleans up Visual Studio 2017 and later versions of the installation source."/>
     <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="After cleaning up, upgrade, fix, add components and uninstall need to be networked (Visual Studio 2017 and later versions)."/>
+
+    <String Target="损坏的Appx" Link="Damaged Appx"/>
+    <String Target="清理损坏的Appx。例如Visual Studio的通用应用XAML设计器暴力删除临时生成的设计器应用，于是会出现大量损坏的Appx。" Link="Clean up damaged Appx. For example, the general application XAML designer of Visual Studio violently deletes temporary designer applications will result in many damaged Appx."/>
   </StringMaps>
   <MessageTable>
     <x800F0806>One or more updates are pending, please restart before continuing.</x800F0806>
