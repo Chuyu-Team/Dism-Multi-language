@@ -247,7 +247,7 @@ Special Thanks to Massimiliano F.
     <String Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。"
             Link="Dism++ è la prima GUI per Dism, basata su CBS, pertanto Dism ++ ha una migliore compatibilità ed è più compatto rispetto a Dism."/>
 
-    <String q="" Target="联系方式" Link="Contact"/>
+    <String Target="联系方式" Link="Contatti"/>
     <String Target="官方网站" Link="Sito web ufficiale"/>
     <String Target="QQ群" Link="Gruppo QQ"/>
     <String Target="邮箱" Link="E-Mail"/>
@@ -439,7 +439,8 @@ Special Thanks to Massimiliano F.
     <String Target="蓝屏记录" Link="Blue record"/>
     <String Target="注册表还原" Link="Ripristino"/>
     <String Target="清理时间" Link="Tempo pulitura"/>
-    
+    <String Target="网络位置" Link="Localizzazione Rete"/>
+
     <!--驱动管理-->
     <String Target="温馨提示：删除关键驱动可能导致计算机无法启动" Link="Suggerimento: l'eliminazione di driver importanti può causare l'impossibilità di avviare il computer"/>
     <String Target="关键驱动：%s" Link="Driver Importante: %s"/>
@@ -530,7 +531,8 @@ Special Thanks to Massimiliano F.
 	  <String Target="产品名称" Link="Nome"/>
 	  <String Target="产品版本" Link="Versione"/>
 	  <String Target="发行类型" Link="Tipo Rilascio"/>
-	  <String Target="状态" Link="Stato"/>
+    <String Target="安装日期" Link="Data di installazione"/>
+    <String Target="状态" Link="Stato"/>
 	  <String Target="正在获取更新信息" Link="Ricezione informazioni aggiornamenti"/>
 	  <String Target="正在删除更新" Link="Rimozione aggiornamenti"/>
 	  <String Target="正在删除第 %d 个更新（共 %d ）" Link="Rimossi %d di %d aggiornamenti"/>
@@ -540,8 +542,9 @@ Special Thanks to Massimiliano F.
 	  <String Target="刷新" Link="Aggiorna"/>
 	  <String Target="添加" Link="Aggiungi"/>
     <String Target="语言" Link="Lingua"/>
-  
-	  <!--可选功能-->
+    <String Target="Windows %s 语言包" Link="Pacchetto Lingua Windows %s"/>
+
+    <!--可选功能-->
     <String Target="正在删除可选功能" Link="Rimozione Caratteristiche"/>
 	  <String Target="正在删除第 %d 个可选功能（共 %d ）" Link="Rimossi %d di %d caratteristiche"/>
 	  <String Target="正在加载可选功能" Link="Caricamento caratteristiche opzionali"/>
@@ -834,7 +837,8 @@ Esempi:
     <String Target="隐藏资源管理器导航窗口中的OneDrive（by 莫失莫忘）" Link="Nascondi navigazione in OneDrive (by MoWangMoShi)"/>
     <String Target="隐藏资源管理器导航窗口中的可移动设备（by 莫失莫忘）" Link="Nascondi navigazione in Periferiche removibili (by MoWangMoShi)"/>
     <String Target="隐藏资源管理器导航窗口中的快速访问（by starP）" Link="Nascondi avigazione in Accesso Rapido (by starP)"/>
-    
+      <String Target="启用此选项将导致导航窗口拖拽功能无法使用。" Link="L'attivazione di questa opzione disattiva la funzione di trascinamento e rilascio nel riquadro di spostamento."/>
+
     <!--Internet Explorer-->
     <String Target="关闭多个选项卡时不发出警告（by 一叶微风TM）" Link="Non avvisare quando vengono chiuse più finestre (by YiYieWeiFeng TM)"/>
 
@@ -1095,7 +1099,8 @@ Comando:
     <String Target="被取代的WinSxS组件" Link="WinSxS assemblies Sostituiti"/>
     <String Target="清理被取代的组件并减少组件存储的大小。" Link="Utilizzalo per pulire i componenti sostituiti dagli aggiornamenti e ridurre la dimensione del component store."/>
     <String Target="清理后将无法卸载更新，如果有卸载更新需求请勿使用此选项。" Link="Gli aggiornamenti installati non potranno più essere rimossi dopo il completamento dell'operazione."/>
-    
+    <String Target="清理后将无法卸载更新，此外ResetBase模式跟系统重置功能有冲突，如果有卸载更新或者系统重置需求请勿使用此选项。" Link="Gli aggiornamenti non possono essere disinstallati dopo la pulitura. Inoltre, la modalità ResetBase è in conflitto con la funzione di reset del sistema. Non utilizzare questa opzione se hai tali esigenze."/>
+
     <String Target="被取代的WinSxS组件（非常慢）" Link="WinSxS assemblies Sostituiti (molto lento)"/>
     
     <String Target="过期驱动" Link="Driver vecchi"/>
@@ -1341,6 +1346,9 @@ Comando:
     <String Target="新版Visual Studio安装源缓存" Link="Cache installazione nuovo Visual Studio"/>
     <String Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="Cancella sorgente installazione Visual Studio 2017 e successivi"/>
     <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="Dopo la pulitura, aggiornamento, riparazione, la disinstallazione di Visual Studio 2017 richiede una connessione ad Internet."/>
+
+    <String Target="损坏的Appx" Link="Appx Danneggiata"/>
+    <String Target="清理损坏的Appx。例如Visual Studio的通用应用XAML设计器暴力删除临时生成的设计器应用，于是会出现大量损坏的Appx。" Link="Pulitura Appx danneggiate. Ad esempio, l'applicazione generale di XAML progettata per Visual Studio elimina violentemente le applicazioni di progettazione temporanee e provocherà molte Appx danneggiate."/>
   </StringMaps>
   <MessageTable>
     <x800F0806>Uno o più aggiornamenti sono in sospeso, si prega di riavviare e quindi continuare.</x800F0806>
