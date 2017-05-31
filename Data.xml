@@ -360,6 +360,7 @@
       <Scan>
         <Applicable>
           <ImageFlags>1</ImageFlags>
+          <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Appx" Value="PackageRoot"/>
           <Or>
             <And>
               <Arch>9</Arch>
@@ -371,7 +372,6 @@
             </And>
             <False/>
           </Or>
-          <FileExist FilePath="%SystemDrive%\Program Files\WindowsApps"/>
         </Applicable>
         <Activate>
           <Custom ProcName="NCCorruptedAppXOnlineCleanup"/>
