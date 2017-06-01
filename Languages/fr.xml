@@ -441,6 +441,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="蓝屏记录" Link="Enregistrement des écrans bleus d’arrêt"/>
     <String Target="注册表还原" Link="Restaurer"/>
     <String Target="清理时间" Link="Nettoyage du temps"/>
+    <String Target="网络位置" Link="Emplacement réseau"/>
     
     <!--驱动管理-->
     <String Target="温馨提示：删除关键驱动可能导致计算机无法启动" Link="Conseils : la suppression importante de pilotes peuvent entraîner le non-démarrage de votre ordinateur"/>
@@ -532,6 +533,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="产品名称" Link="Nom de produit"/>
     <String Target="产品版本" Link="Version de produit"/>
     <String Target="发行类型" Link="Type de sortie"/>
+    <String Target="安装日期" Link="Heure installée"/>
     <String Target="状态" Link="État"/>
     <String Target="正在获取更新信息" Link="Obtenir des informations sur les mises à jour"/>
     <String Target="正在删除更新" Link="Supprimer les mises à jour"/>
@@ -542,6 +544,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="刷新" Link="Actualiser"/>
     <String Target="添加" Link="Ajouter"/>
     <String Target="语言" Link="Langue"/>
+    <String Target="Windows %s 语言包" Link="Windows %s Pack de Langages"/>
     
     <!--可选功能-->
     <String Target="正在删除可选功能" Link="Supprimer des fonctionnalités"/>
@@ -821,6 +824,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="隐藏资源管理器导航窗口中的OneDrive（by 莫失莫忘）" Link="Masquer OneDrive dans l’Explorateur Windows (par MoWang Moshi)"/>
     <String Target="隐藏资源管理器导航窗口中的可移动设备（by 莫失莫忘）" Link="Masquer les lecteurs amovibles non montés dans l’Explorateur Windows (par MoWangMoShi)"/>
     <String Target="隐藏资源管理器导航窗口中的快速访问（by starP）" Link="Masquer l’Accès Rapide dans l’Explorateur Windows (par starP)"/>
+      <String Target="启用此选项将导致导航窗口拖拽功能无法使用。" Link="L'activation de cette option désactive la fonction de glisser-déposer dans le volet de navigation."/>
     
     <!--Internet Explorer-->
     <String Target="关闭多个选项卡时不发出警告（by 一叶微风TM）" Link="Ne pas m’avertir lors de la fermeture de plusieurs onglets (par YiYieWeiFeng TM)"/>
@@ -1036,6 +1040,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="被取代的WinSxS组件" Link="Composants WinSxS remplacés"/>
     <String Target="清理被取代的组件并减少组件存储的大小。" Link="Permet de nettoyer les composants remplacés et de réduire la taille du magasin de composants."/>
     <String Target="清理后将无法卸载更新，如果有卸载更新需求请勿使用此选项。" Link="Après ce nettoyage, les mises à jour de Windows déjà installées ne pourront plus être désinstallées, mais seulement remplacées."/>
+    <String Target="清理后将无法卸载更新，此外ResetBase模式跟系统重置功能有冲突，如果有卸载更新或者系统重置需求请勿使用此选项。" Link="Les mises à jour ne peuvent pas être désinstallées après le nettoyage. De plus, le mode ResetBase est en conflit avec la fonction de réinitialisation du système. N'utilisez pas cette option ci."/>
 
     <String Target="被取代的WinSxS组件（非常慢）" Link="Remplacer les anciens composants WinSxS (très lent)"/>
     
@@ -1282,6 +1287,9 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="新版Visual Studio安装源缓存" Link="Nouveau cache d’installation source de Visual Studio"/>
     <String Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="Nettoyer Visual Studio 2017 et versions ultérieures de l’installation source."/>
     <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="Après le nettoyage, la mise à niveau, la correction, l’ajout de composants et la désinstallation doivent être en réseau (Visual Studio 2017 et versions ultérieures)."/>
+
+    <String Target="损坏的Appx" Link="Appx endommagé"/>
+    <String Target="清理损坏的Appx。例如Visual Studio的通用应用XAML设计器暴力删除临时生成的设计器应用，于是会出现大量损坏的Appx。" Link="Nettoyer Appx. Par exemple, l'application générale XAML conception de Visual Studio supprime brutalement les applications de conception temporaire."/>
   </StringMaps>
   <MessageTable>
     <x800F0806>Une ou plusieurs mise à jour sont en attente, veuillez redémarrer avant de continuer.</x800F0806>
