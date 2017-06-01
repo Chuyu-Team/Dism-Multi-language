@@ -440,6 +440,7 @@ Thanks: Oleada for translation
     <String Target="蓝屏记录" Link="Registro azul"/>
     <String Target="注册表还原" Link="Restaurar"/>
     <String Target="清理时间" Link="Tiempo de limpieza"/>
+    <String Target="网络位置" Link="Ubicación de red"/>
 
     <!--驱动管理-->
     <String Target="温馨提示：删除关键驱动可能导致计算机无法启动" Link="Consejo: El borrar controladores pueden causar errores al iniciar su equipo"/>
@@ -531,6 +532,7 @@ Thanks: Oleada for translation
 	  <String Target="产品名称" Link="Nombre del producto"/>
 	  <String Target="产品版本" Link="Versión del producto"/>
 	  <String Target="发行类型" Link="Tipo de versión"/>
+    <String Target="安装日期" Link="Tiempo instalado"/>
 	  <String Target="状态" Link="Estado"/>
 	  <String Target="正在获取更新信息" Link="Obteniendo información de actualizaciones"/>
 	  <String Target="正在删除更新" Link="Eliminando actualizaciones"/>
@@ -541,6 +543,7 @@ Thanks: Oleada for translation
 	  <String Target="刷新" Link="Actualizar"/>
 	  <String Target="添加" Link="Añadir"/>
     <String Target="语言" Link="Idioma"/>
+    <String Target="Windows %s 语言包" Link="Paquete idioma %s Windows"/>
 
 	  <!--可选功能-->
     <String Target="正在删除可选功能" Link="Eliminando capacidades"/>
@@ -835,6 +838,7 @@ Ejemplos:
     <String Target="隐藏资源管理器导航窗口中的OneDrive（by 莫失莫忘）" Link="Ocultar OneDrive en panel de navegación del Explorador(MoWangMoShi)"/>
     <String Target="隐藏资源管理器导航窗口中的可移动设备（by 莫失莫忘）" Link="Ocultar dispositivos extraíbles en panel de navegación del Explorador (MoWangMoShi)"/>
     <String Target="隐藏资源管理器导航窗口中的快速访问（by starP）" Link="Ocultar acceso rápido en panel de navegación del Explorador(starP)"/>
+      <String Target="启用此选项将导致导航窗口拖拽功能无法使用。" Link="Si activa esta opción, se desactivará la función de arrastrar y soltar en el panel de navegación."/>
 
     <!--Internet Explorer-->
     <String Target="关闭多个选项卡时不发出警告（by 一叶微风TM）" Link="No avisarme cuando se cierran varias pestañas (YiYieWeiFeng TM)"/>
@@ -1096,6 +1100,7 @@ Comando:
     <String Target="被取代的WinSxS组件" Link="Ensamblados WinSxS sustituidos"/>
     <String Target="清理被取代的组件并减少组件存储的大小。" Link="Se usa para limpiar los componentes reemplazados y reducir el tamaño del almacén de componentes."/>
     <String Target="清理后将无法卸载更新，如果有卸载更新需求请勿使用此选项。" Link="Las actualizaciones de Windows instaladas no se pueden desinstalar una vez finalizada la operación."/>
+    <String Target="清理后将无法卸载更新，此外ResetBase模式跟系统重置功能有冲突，如果有卸载更新或者系统重置需求请勿使用此选项。" Link="Las actualizaciones no se pueden desinstalar después de limpiar. Además, el modo ResetBase está en conflicto con la función de reinicio del sistema. No utilice esta opción si tiene tales necesidades."/>
 
     <String Target="被取代的WinSxS组件（非常慢）" Link="Ensamblados WinSxS sustituidos(muy lento)"/>
 
@@ -1342,6 +1347,9 @@ Comando:
     <String Target="新版Visual Studio安装源缓存" Link="Nuevo caché Origen de instalación de Visual Studio"/>
     <String Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="Limpiar Visual Studio 2017 y versiones posteriores de instalación."/>
     <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="Después de la limpieza, actualizar, corrección, agregar componentes y desinstalar necesitan estar conectados (Visual Studio 2017 y versiones posteriores)."/>
+    
+    <String Target="损坏的Appx" Link="Appx dañada"/>
+    <String Target="清理损坏的Appx。例如Visual Studio的通用应用XAML设计器暴力删除临时生成的设计器应用，于是会出现大量损坏的Appx。" Link="Limpiar el Appx dañado. Por ejemplo, el diseñador de XAML de la aplicación general de Visual Studio elimina de forma violenta las aplicaciones temporales con el resultado de muchas Appx dañadas.."/>
   </StringMaps>
   <MessageTable>
     <x800F0806>Hay una o más actualizaciones pendientes, por favor reinicie antes de continuar.</x800F0806>
