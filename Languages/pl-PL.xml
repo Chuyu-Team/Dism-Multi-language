@@ -439,10 +439,11 @@ Thanks: WinClub.pl(romuald68@gmail.com)
     <String Target="蓝屏记录" Link="Niebieski zapis"/>
     <String Target="注册表还原" Link="Przywracanie"/>
     <String Target="清理时间" Link="Czas oczyszczania"/>
-    
+    <String Target="网络位置" Link="Lokalizacja sieci"/>
+
     <!--Sterowniki-->
-	<String Target="温馨提示：删除关键驱动可能导致计算机无法启动" Link="UWAGA: Jeżeli usuniesz nieodpowiedni sterownik, komputer się nie uruchomi"/>
-	<String Target="关键驱动：%s" Link="Ważny sterownik: %s"/>
+	  <String Target="温馨提示：删除关键驱动可能导致计算机无法启动" Link="UWAGA: Jeżeli usuniesz nieodpowiedni sterownik, komputer się nie uruchomi"/>
+	  <String Target="关键驱动：%s" Link="Ważny sterownik: %s"/>
 	  <String Target="类别标识：%s" Link="Klasa: %s"/>
 	  <String Target="驱动版本：%hu.%hu.%hu.%hu" Link="Wersja: %hu.%hu.%hu.%hu"/>
 	  <String Target="发布日期：%s" Link="Data wydania: %s"/>
@@ -530,7 +531,8 @@ Thanks: WinClub.pl(romuald68@gmail.com)
 	  <String Target="产品名称" Link="Nazwa produktu"/>
 	  <String Target="产品版本" Link="Wersja produktu"/>
 	  <String Target="发行类型" Link="Typ"/>
-	  <String Target="状态" Link="Status"/>
+    <String Target="安装日期" Link="Data instalacji"/>
+    <String Target="状态" Link="Status"/>
 	  <String Target="正在获取更新信息" Link="Pobieranie informacji o aktualizacjach"/>
 	  <String Target="正在删除更新" Link="Usuwanie aktualizacji"/>
 	  <String Target="正在删除第 %d 个更新（共 %d ）" Link="Usunięto %d z %d aktualizacji"/>
@@ -540,8 +542,9 @@ Thanks: WinClub.pl(romuald68@gmail.com)
 	  <String Target="刷新" Link="Odśwież"/>
 	  <String Target="添加" Link="Dodaj"/>
     <String Target="语言" Link="Język"/>
-  
-	  <!--Funkcje opcjonalne-->
+    <String Target="Windows %s 语言包" Link="Windows %s pakiet językowy"/>
+
+    <!--Funkcje opcjonalne-->
 	<String Target="正在删除可选功能" Link="Usuwanie opcjonalnej funkcji"/>
 	  <String Target="正在删除第 %d 个可选功能（共 %d ）" Link="Usunięto %d z %d opcjonalne funkcje"/>
 	  <String Target="正在加载可选功能" Link="Załalduj opcjonalne funkcje"/>
@@ -833,10 +836,11 @@ Przykłady:
     <String Target="资源管理器导航窗口图标管理" Link="Zarządzanie ikonami w okienku nawigacji w Eksploratora Windows"/>
     <String Target="隐藏资源管理器导航窗口中的OneDrive（by 莫失莫忘）" Link="Ukryj OneDrive w okienku nawigacji w Eksploratorze Windows"/>
     <String Target="隐藏资源管理器导航窗口中的可移动设备（by 莫失莫忘）" Link="Ukryj urządzenia wymienne w okienku nawigacji w Eksploratorze Windows"/>
-	<String Target="隐藏资源管理器导航窗口中的快速访问（by starP）" Link="Ukryj Szybki dostęp w okienku nawigacji w Eksploratorze Windows"/>
-	
+	  <String Target="隐藏资源管理器导航窗口中的快速访问（by starP）" Link="Ukryj Szybki dostęp w okienku nawigacji w Eksploratorze Windows"/>
+      <String Target="启用此选项将导致导航窗口拖拽功能无法使用。" Link="Włączenie tej opcji spowoduje wyłączenie funkcji przeciągania i upuszczania w okienku nawigacyjnym."/>
+
     <!--Internet Explorer-->
-	<String Target="关闭多个选项卡时不发出警告（by 一叶微风TM）" Link="Ostrzegaj mnie przy zamykaniu wielu kart"/>
+	  <String Target="关闭多个选项卡时不发出警告（by 一叶微风TM）" Link="Ostrzegaj mnie przy zamykaniu wielu kart"/>
 
     <String Target="当创建新选项卡时，始终切换到新选项卡（by 一叶微风TM）" Link="Zawsze przełączaj na nowe karty po ich utworzeniu."/>
 
@@ -1095,7 +1099,8 @@ Komenda:
     <String Target="被取代的WinSxS组件" Link="Elementy WinSxS"/>
     <String Target="清理被取代的组件并减少组件存储的大小。" Link="Usuwa zastąpione elementy i zmniejsza rozmiar folderu WinSxS"/>
     <String Target="清理后将无法卸载更新，如果有卸载更新需求请勿使用此选项。" Link="Po użyciu tej opcji nie będzie można odinstalować aktualizaji."/>
-    
+    <String Target="清理后将无法卸载更新，此外ResetBase模式跟系统重置功能有冲突，如果有卸载更新或者系统重置需求请勿使用此选项。" Link="Po oczyszczeniu nie będzie można odinstalować aktualizacji. Ponadto tryb ResetBase jest sprzeczny z funkcją resetowania systemu. Proszę nie używać tej opcji, jeśli nie musisz."/>
+
     <String Target="被取代的WinSxS组件（非常慢）" Link="Elementy WinSxS (b.wolny proces)"/>
     
     <String Target="过期驱动" Link="Nieaktualne sterowniki"/>
@@ -1341,15 +1346,18 @@ Komenda:
     <String Target="新版Visual Studio安装源缓存" Link="Pamięć podręczna źródła instalacji New Visual Studio"/>
     <String Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="Czyści Visual Studio 2017 i w późniejszych wersjach źródła instalacji."/>
     <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="Po oczyszczeniu aktualizacji, naprawie, dodaniu składników i odinstalowaniu należy połączyć się z siecią (Visual Studio 2017 i nowsze wersje)."/>
+
+    <String Target="损坏的Appx" Link="Uszkodzony Appx"/>
+    <String Target="清理损坏的Appx。例如Visual Studio的通用应用XAML设计器暴力删除临时生成的设计器应用，于是会出现大量损坏的Appx。" Link="Oczyszcza uszkodzone Appx. Aplikacja ogólnego przeznaczenia usuwa pliki tymczasowe."/>
   </StringMaps>
   <MessageTable>
     <x800F0806>Jedna lub więcej aktualizacji jest w toku, proszę wykonać restart i spróbować ponownie.</x800F0806>
     <x800F081F>Dism++ nie może znaleźć źródła instalacji, jeśli trzeba, aby umożliwić NET3.5 Proszę zamontować ISO, a następnie kontynuować. Jeśli potrzebujesz, aby naprawić system Windows, spróbuj opcje - aby ustawić szczegóły lokalnego źródła. jeśli to się nie powiedzie, to zaleca się stosowanie instalaci naprawczej.</x800F081F>
     <x80073703>System operacyjny jest mocno uproszczone, Dism++ nie może kontynuować.</x80073703>
     <x800F0830>System operacyjny jest mocno uproszczone, należy zrezygnować niniejszego systemu, a następnie uruchom ponownie.</x800F0830>
-	<x800F0825>Próbujesz odinstalować pakiet, który został zainstalowany na komputerze i jest teraz na stałe. W związku z tym, ten pakiet nie może zostać odinstalowany.</x800F0825>
-	<x800F082E>Określony pakiet nie może być dodany do obrazu w trybie offline.</x800F082E>
-	<x800F082F>Nie można zakończyć sesji, ponieważ sesja jest aktywna.</x800F082F>
+	  <x800F0825>Próbujesz odinstalować pakiet, który został zainstalowany na komputerze i jest teraz na stałe. W związku z tym, ten pakiet nie może zostać odinstalowany.</x800F0825>
+	  <x800F082E>Określony pakiet nie może być dodany do obrazu w trybie offline.</x800F082E>
+	  <x800F082F>Nie można zakończyć sesji, ponieważ sesja jest aktywna.</x800F082F>
     <x000F0801>Dism++ jest zajęty, prawdopodobnie dlatego, że inne programy są uruchomione. Spróbuj ponownie później.</x000F0801>
 
     <xA0020001>Obsługuje tylko plik ESD Microsoft Online do pliku ISO.</xA0020001>
