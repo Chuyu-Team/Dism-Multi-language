@@ -44,17 +44,16 @@ Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更
 |Config\amd64\CBSHost.dll|Dism++API支持模块，删除后64位系统将无法使用Dism++。32位用户可以删除此文件。
 |Config\x86\CBSHost.dll|Dism++API支持模块，删除后32位系统将无法使用Dism++，64位系统无法脱机处理32位系统。不需要脱机处理32位系统的64位用户可以考虑删除。
 |Config\amd64\NCleaner.dll|64位NCleaner清理引擎，缺少此文件后某些高级清理功能将无法使用，32位用户可以考虑删除此文件。
-|Config\x86\NCleaner.dl|32位NCleaner清理引擎，缺少此文件后某些高级清理功能将无法使用，64位用户可以考虑删除此文件。
+|Config\x86\NCleaner.dll|32位NCleaner清理引擎，缺少此文件后某些高级清理功能将无法使用，64位用户可以考虑删除此文件。
 |Config\amd64\wimgapi.dll|WIM文件操作支持模块，Win10用户、32位用户或者不需要任何WIM相关功能的用户，那么可以考虑删除。
 |Config\x86\wimgapi.dll|WIM文件操作支持模块，Win10用户、64位用户或者不需要任何WIM相关功能的用户，那么可以考虑删除。
 |Config\amd64\wofadk.sys<br>Config\x86\wofadk.sys|提供Compact功能相关支持，不需要脱机处理的Win10用户可以考虑删除此文件。强烈建议不要删除这些文件。
 |Config\Plugins|Dism++插件支持，不需要插件的用户可以删除此文件。
 |Config\Languages|Dism++的语言文件，以中国为例，只保留zh-Hans.zip即可。
 |Config\Data.zip|此文件保存了清理规则，ESD解密KEY等。此文件不允许删除。
-|Config\winapp1.ini|此文件保存了CCleaner的清理规则，删除此文件后Dism++将无法使用CCleaner的规则。可以考虑删除。
 |Config\UpdateInfo.zip<br>Config\UpdateInfoBeta.zip|Dism++更新元数据，用于判断是否存在新版本，以及防止用户新版本降级为老版本。推荐保留，删除后将重新下载。
 |Config\default.ui.zip|此文件保存了Dism++的UI。此文件不允许删除。
 |Config\wsusscn2.cab|Windows Update数据库文件，用于扫描更新。可以考虑删除。
 |Config\include\Dism++.h|仅测试版存在此文件，C Script脚本支持头文件，缺少此文件后C Script脚本将无法使用。
 |Config\amd64\CScript.dll|仅测试版存在此文件，64位C Script脚本解析引擎，缺少此文件后C Script脚本将无法使用，32位用户可以考虑删除此文件。
-|Config\x86\CScript.dl|仅测试版存在此文件，32位C Script脚本解析引擎，缺少此文件后C Script脚本将无法使用，64位用户可以考虑删除此文件。
+|Config\x86\CScript.dll|仅测试版存在此文件，32位C Script脚本解析引擎，缺少此文件后C Script脚本将无法使用，64位用户可以考虑删除此文件。
