@@ -18,8 +18,8 @@
  -->
 <Data>
   <DefaultControl>
-    <Font shared="true" id="0" name="Microsoft Jhenghei" size="13" />
-    <Font shared="true" id="1" name="Microsoft Jhenghei" size="16" />
+    <Font shared="true" id="0" name="Microsoft JhengHei UI;Microsoft Jhenghei" size="13" />
+    <Font shared="true" id="1" name="Microsoft JhengHei UI;Microsoft Jhenghei" size="16" />
   </DefaultControl>
   <CCleanLangSecRefMap>
     <LangSecRef ID="3021">應用程式</LangSecRef>
