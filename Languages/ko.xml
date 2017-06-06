@@ -247,7 +247,7 @@ Thanks: OldMac, Schooli, 阿泽西
     <String Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。"
             Link="세계 최초의 CBS(Component-Based Servicing) 기반 Dism GUI 구현!"/>
 
-    <String q="" Target="联系方式" Link="Contact"/>
+    <String Target="联系方式" Link="연락"/>
     <String Target="官方网站" Link="공식 사이트"/>
     <String Target="QQ群" Link="QQ 그룹"/>
     <String Target="邮箱" Link="메일"/>
@@ -439,7 +439,8 @@ Thanks: OldMac, Schooli, 阿泽西
     <String Target="蓝屏记录" Link="시스템 충돌 기록"/>
     <String Target="注册表还原" Link="레지스트리 복원"/>
     <String Target="清理时间" Link="정리 시간"/>
-    
+    <String Target="网络位置" Link="네트워크 위치"/>
+
     <!--驱动管理-->
 	  <String Target="温馨提示：删除关键驱动可能导致计算机无法启动" Link="주의: 중요한 드라이버를 삭제하면 컴퓨터가 제대로 작동하지 않을 수 있습니다."/>
 	  <String Target="关键驱动：%s" Link="중요 드라이버: %s"/>
@@ -530,7 +531,8 @@ Thanks: OldMac, Schooli, 阿泽西
 	  <String Target="产品名称" Link="제품 이름"/>
 	  <String Target="产品版本" Link="제품 버전"/>
 	  <String Target="发行类型" Link="출시 형식"/>
-	  <String Target="状态" Link="상태"/>
+    <String Target="安装日期" Link="설치 날짜"/>
+    <String Target="状态" Link="상태"/>
 	  <String Target="正在获取更新信息" Link="업데이트 정보 가져오는 중"/>
 	  <String Target="正在删除更新" Link="업데이트 삭제 중"/>
 	  <String Target="正在删除第 %d 个更新（共 %d ）" Link="%d 번째 업데이트 삭제 중 (총 %d)"/>
@@ -540,8 +542,9 @@ Thanks: OldMac, Schooli, 阿泽西
 	  <String Target="刷新" Link="새로 고침"/>
 	  <String Target="添加" Link="추가"/>
     <String Target="语言" Link="언어"/>
-  
-	  <!--可选功能-->
+    <String Target="Windows %s 语言包" Link="Windows %s 언어팩"/>
+
+    <!--可选功能-->
     <String Target="正在删除可选功能" Link="선택기능 삭제 중"/>
 	  <String Target="正在删除第 %d 个可选功能（共 %d ）" Link="%d 번째 선택기능 삭제 중 (총 %d)"/>
 	  <String Target="正在加载可选功能" Link="선택기능 로드 중"/>
@@ -833,6 +836,7 @@ Thanks: OldMac, Schooli, 阿泽西
     <String Target="隐藏资源管理器导航窗口中的OneDrive（by 莫失莫忘）" Link="Windows 탐색기 탐색창에 OneDrive 숨기기 (by MoWangMoShi)"/>
     <String Target="隐藏资源管理器导航窗口中的可移动设备（by 莫失莫忘）" Link="Windows 탐색기 탐색창에 이동식장치 숨기기 (by MoWangMoShi)"/>
     <String Target="隐藏资源管理器导航窗口中的快速访问（by starP）" Link="Windows 탐색기 탐색창에 바로가기 숨기기 (by starP)"/>
+      <String Target="启用此选项将导致导航窗口拖拽功能无法使用。" Link="이 옵션을 사용하면 탐색창의 드래그&amp;드롭 기능이 비활성화됩니다."/>
 
     <!--Internet Explorer-->
     <String Target="关闭多个选项卡时不发出警告（by 一叶微风TM）" Link="경고 메세지없이 멜티탭 닫기 (by YiYieWeiFeng TM)"/>
@@ -1094,6 +1098,7 @@ Command:
     <String Target="被取代的WinSxS组件" Link="대체된 WinSxS 구성요소"/>
     <String Target="清理被取代的组件并减少组件存储的大小。" Link="교체된 구성요소 제거 및 각 구성요소의 크기 줄이기."/>
     <String Target="清理后将无法卸载更新，如果有卸载更新需求请勿使用此选项。" Link="작업이 완료된 후에는 설치된 Update를 제거할 수 없습니다."/>
+    <String Target="清理后将无法卸载更新，此外ResetBase模式跟系统重置功能有冲突，如果有卸载更新或者系统重置需求请勿使用此选项。" Link="업데이트를 정리한 후에는 업데이트를 제거할 수 없으며, ResetBase 모드는 시스템 재설정 기능과 충돌할 수 있습니다. 필요한 경우 이 옵션을 사용하지 마십시오."/>
 
     <String Target="被取代的WinSxS组件（非常慢）" Link="대체된 WinSxS 구성요소(매우느림)"/>
 
@@ -1340,6 +1345,9 @@ Command:
     <String Target="新版Visual Studio安装源缓存" Link="새로운 Visual Studio 설치 원본 캐시"/>
     <String Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="Visual Studio 2017 및 이상 버전의 설치 원본을 정리합니다."/>
     <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="청소, 업그레이드, 수정, 구성 요소 추가 및 제거는 네트워크로 연결해야 함 (Visual Studio 2017 이상 버전)"/>
+
+    <String Target="损坏的Appx" Link="손상된 Appx"/>
+    <String Target="清理损坏的Appx。例如Visual Studio的通用应用XAML设计器暴力删除临时生成的设计器应用，于是会出现大量损坏的Appx。" Link="손상된 Appx를 정리하십시오. 예를 들어, Visual Studio의 일반 응용프로그램인 XAML 디자이너는 임시로 생성된 응용프로그램을 삭제하면 Appx가 손상될 수 있습니다."/>
   </StringMaps>
   <MessageTable>
     <x800F0806>하나 이상의 업데이트가 절전 행위로 존재하고 있습니다.시스템을 다시 시작하시고 계속 사용하시기 바랍니다.</x800F0806>
