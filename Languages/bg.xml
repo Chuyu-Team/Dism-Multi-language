@@ -247,7 +247,7 @@ Special Thanks to Pavel Belivakov <belivakov@gmail.com>
     <String Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。"
             Link="Първото в света графично изпълнение на Dism базирано на CBS!"/>
 
-   <String q="" Target="联系方式" Link="Contact"/>
+   <String Target="联系方式" Link="Контакт"/>
    <String Target="官方网站" Link="Офиц. сайт"/>
    <String Target="QQ群" Link="QQ Group"/>
    <String q="" Target="邮箱" Link="E-Mail"/>
@@ -439,7 +439,8 @@ Special Thanks to Pavel Belivakov <belivakov@gmail.com>
   <String Target="蓝屏记录" Link="Син запис"/>
   <String Target="注册表还原" Link="Възстанови"/>
   <String Target="清理时间" Link="Време за почистване"/>
-  
+  <String Target="网络位置" Link="Местоположение в мрежата"/>
+
 	  <!--驱动管理-->
 	  <String Target="温馨提示：删除关键驱动可能导致计算机无法启动" Link="Съвети: Изтриването на важни драйвъри може да доведе до невъзможност за стартиране на вашия компютър."/>
 	  <String Target="关键驱动：%s" Link="Важен драйвър: %s"/>
@@ -530,7 +531,8 @@ Special Thanks to Pavel Belivakov <belivakov@gmail.com>
 	 <String Target="产品名称" Link="Име на продукта"/>
 	 <String Target="产品版本" Link="Версия на продукта"/>
 	 <String Target="发行类型" Link="Вид на изданието"/>
-	 <String Target="状态" Link="State"/>
+   <String Target="安装日期" Link="Време на инсталиране"/>
+   <String Target="状态" Link="State"/>
 	 <String Target="正在获取更新信息" Link="Получаване на информация за актуализациите"/>
 	 <String Target="正在删除更新" Link="Премахване на актуализации"/>
 	 <String Target="正在删除第 %d 个更新（共 %d ）" Link="Премахване на %d от %d актуализации"/>
@@ -539,9 +541,10 @@ Special Thanks to Pavel Belivakov <belivakov@gmail.com>
 	 <String Target="正在安装第 %d 个更新（共 %d ）" Link="Инсталирани %d от %d актуализации"/>
 	 <String Target="刷新" Link="Обновяване"/>
 	 <String Target="添加" Link="Добави"/>
-  <String Target="语言" Link="Език"/>
- 
-	  <!--可选功能-->
+   <String Target="语言" Link="Език"/>
+   <String Target="Windows %s 语言包" Link="Езиков пакет за Windows %s"/>
+
+   <!--可选功能-->
 	  <String Target="正在删除可选功能" Link="Премахване на capabilities"/>
 	  <String Target="正在删除第 %d 个可选功能（共 %d ）" Link="Премахване на %d от %d възможности"/>
 	  <String Target="正在加载可选功能" Link="Зареждане на възможностите"/>
@@ -834,6 +837,7 @@ Special Thanks to Pavel Belivakov <belivakov@gmail.com>
     <String Target="隐藏资源管理器导航窗口中的OneDrive（by 莫失莫忘）" Link="Скрий OneDrive in navigation pane of Windows Explorer (от MoWangMoShi)"/>
     <String Target="隐藏资源管理器导航窗口中的可移动设备（by 莫失莫忘）" Link="Скрий removable devices in navigation pane of Windows Explorer (от MoWangMoShi)"/>
     <String Target="隐藏资源管理器导航窗口中的快速访问（by starP）" Link="Скрий Quick Access in navigation pane of Windows Explorer (от starP)"/>
+      <String Target="启用此选项将导致导航窗口拖拽功能无法使用。" Link="Включването на тази опция ще изключи функцията за влачене и пускане е навигационния панел"/>
 
   <!--Internet Explorer-->
   <String Target="关闭多个选项卡时不发出警告（by 一叶微风TM）" Link="Не ме предупреждавай при затваряне на няколко раздела (от YiYieWeiFeng TM)"/>
@@ -1096,7 +1100,8 @@ Command:
     <String Target="被取代的WinSxS组件" Link="Заменените WinSxS възли"/>
     <String Target="清理被取代的组件并减少组件存储的大小。" Link="Използвайте го, за да почистите заменените компоненти и да намалите размера на магазина за компоненти."/>
     <String Target="清理后将无法卸载更新，如果有卸载更新需求请勿使用此选项。" Link="След като приключи операцията, инсталираните актуализации на Windows не могат да се деинсталират."/>
-    
+    <String Target="清理后将无法卸载更新，此外ResetBase模式跟系统重置功能有冲突，如果有卸载更新或者系统重置需求请勿使用此选项。" Link="Актуализациите не могат да бъдат деинсталирани след почистване. В допълнение, режимът ResetBase е в конфликт с функцията за нулиране на системата. Моля, не използвайте тази опция, ако имате такива нужди."/>
+
     <String Target="被取代的WinSxS组件（非常慢）" Link="Заменените WinSxS възли (много бавно)"/>
     
     <String Target="过期驱动" Link="Остарели драйвъри"/>
@@ -1342,6 +1347,9 @@ Command:
     <String Target="新版Visual Studio安装源缓存" Link="Кеш на инсталацията на новото Visual Studio"/>
     <String Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="Почиства източника за инсталиране на Visual Studio 2017 и по-новите версии."/>
     <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="След почистване, надстройване, поправяне, добавяне на компоненти и деинсталиране трябва да бъде свързан с мрежа (Visual Studio 2017 и по-нови версии)."/>
+
+    <String Target="损坏的Appx" Link="Повреден Appx"/>
+    <String Target="清理损坏的Appx。例如Visual Studio的通用应用XAML设计器暴力删除临时生成的设计器应用，于是会出现大量损坏的Appx。" Link="Почиства повредените Appx. Например, общото приложение XAML дизайнер на Visual Studio насилствено изтриване на временните приложения на дизайнера ще доведе до много повредени Appx."/>
   </StringMaps>
   <MessageTable>
     <x800F0806>Една или повече актуализации са висящи. Моля, рестартирайте и след това продължете.</x800F0806>
