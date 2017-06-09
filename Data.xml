@@ -8,22 +8,40 @@
       <Group>#过期文件</Group>
       <ScanCollection>
         <!--在这里填写扫描规则，Dism++将自动匹配第一条命中的规则-->
+        
+        <!--Vista~Windows 8.1-->
         <Scan Work="15">
           <Applicable>
             <OSVersion Compare="&lt;">10.0</OSVersion>
           </Applicable>
           <Warning>#清理后将无法卸载更新，如果有卸载更新需求请勿使用此选项。</Warning>
-
-          <!--不编写条件表示总是命中,CustomCall表示执行指定函数 -->
           <Activate>
-            <Custom ProcName="DismComponentCleanup"/>
+            <Custom ProcName="DismComponentCleanup" Flags="#1"/>
           </Activate>
         </Scan>
-        <Scan Work="50">
+        
+        <!--Windows 10在线-->
+        <Scan Work="15">
           <Applicable>
             <OSVersion Compare=">=">10.0</OSVersion>
+            <ImageFlags>1</ImageFlags>
           </Applicable>
           <Warning>#清理后将无法卸载更新，此外ResetBase模式跟系统重置功能有冲突，如果有卸载更新或者系统重置需求请勿使用此选项。</Warning>
+          <Activate>
+            <Custom ProcName="DismComponentCleanup" Flags="#1"/>
+          </Activate>
+        </Scan>
+        
+        <!--Windows 10离线，因为离线不能重启避免一些麻烦，离线下关闭Resetbase-->
+        <Scan Work="50">
+          <Name>#被取代的WinSxS组件（非常慢）</Name>
+          <Applicable>
+            <OSVersion Compare=">=">10.0</OSVersion>
+            <Not>
+              <ImageFlags>1</ImageFlags>
+            </Not>
+          </Applicable>
+          <Warning>#清理后将无法卸载更新，如果有卸载更新需求请勿使用此选项。</Warning>
           <Activate>
             <Custom ProcName="DismComponentCleanup"/>
           </Activate>
