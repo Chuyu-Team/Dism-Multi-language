@@ -439,7 +439,7 @@ Special Thanks to 山形まり花、奎宁
     <String Target="蓝屏记录" Link="BSOD レコード"/>
     <String Target="注册表还原" Link="復元"/>
     <String Target="清理时间" Link="クリーンアップの使用時間"/>
-    <String Target="网络位置" Link="ネットワークの場所">
+    <String Target="网络位置" Link="ネットワークの場所"/>
     
     <!--驱动管理-->
     <String Target="温馨提示：删除关键驱动可能导致计算机无法启动" Link="ヒント：重要なドライバーの削除はコンピューターの起動できませんが生じる可能性があります。"/>
