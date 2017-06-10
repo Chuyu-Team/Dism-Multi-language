@@ -139,7 +139,7 @@ Special Thanks to 山形まり花、奎宁
     <String Target="此功能可以将微软发布的ESD转换为ISO，还支持加密的ESD哦。" Link="この機能は ESD から ISO への変換、また、暗号化 ESD から変換もサポートします。"/>
     <String Target="ESD映像文件" Link="ESD ファイル"/>
 	  <String Target="ISO映像文件" Link="ISO ファイル"/>
-    <String Target="ISO映像文件-高压版" Link="ISO ファイル - 超高い圧縮"/>
+    <String Target="ISO映像文件-高压版" Link="ISO ファイル - 超圧縮"/>
 	  <String Target="WIM映像文件" Link="WIM ファイル"/>
 	  <String Target="WIM拆分映像" Link="SWM ファイル"/>
     <String Target="所有文件" Link="すべてのファイル"/>
@@ -185,7 +185,7 @@ Special Thanks to 山形まり花、奎宁
 	  <String Target="WIMBoot压缩" Link="WIMBoot圧縮"/>
 	  <String Target="快速压缩" Link="高速圧縮"/>
 	  <String Target="最大压缩" Link="最大圧縮"/>
-	  <String Target="极限压缩" Link="極度圧縮"/>
+	  <String Target="极限压缩" Link="超圧縮"/>
 	
 	  <String Target="映像名称" Link="イメージ名"/>
 	  <String Target="映像说明" Link="イメージの説明"/>
@@ -202,7 +202,7 @@ Special Thanks to 山形まり花、奎宁
 	  <String Target="WIMBoot压缩映像" Link="WIMBoot圧縮"/>
 	  <String Target="快速压缩映像" Link="高速圧縮"/>
 	  <String Target="最大压缩映像" Link="最大圧縮"/>
-	  <String Target="极限压缩映像" Link="極度圧縮"/>
+	  <String Target="极限压缩映像" Link="超圧縮"/>
 	  <String Target="全选" Link="すべて選択"/>
 	  <String Target="反选" Link="反転選択"/>
 	  <String Target="自定义规则" Link="カスタム ルール"/>
@@ -216,14 +216,14 @@ Special Thanks to 山形まり花、奎宁
 	  <String Target="建议删除" Link="削除"/>
 	  <String Target="自定义" Link="カスタム"/>
 
-    <String Target="正在载入清理规则" Link="クリーンアップのルールを読み込み中……"/>
+    <String Target="正在载入清理规则" Link="クリーンアップのルールを読み込み中..."/>
     <String Target="正在撤销Compact" Link="Compact 解除中"/>
     <String Target="名称" Link="名前"/>
     <String Target="保存" Link="保存"/>
     <String Target="取消" Link="キャンセル"/>
     <String Target="详细信息" Link="情報"/>
     <String Target="其他" Link="その他"/>
-    <String Target="正在初始化" Link="初期化中……"/>
+    <String Target="正在初始化" Link="初期化中..."/>
     <String Target="类别" Link="カテゴリ"/>
     <String Target="大小" Link="サイズ"/>
     <String Target="正在关闭会话" Link="セッション終了中"/>
@@ -237,17 +237,17 @@ Special Thanks to 山形まり花、奎宁
     <String Target="正在扫描已安装的系统" Link="インストール済みのシステムをスキャン中"/>
     <String Target="已经是最新版本，无需更新！" Link="最新バージョンです、更新必要がありません。"/>
     <String Target="正在修复挂载映像" Link="マウントしたイメージを修復中"/>
-    <String Target="正在取消现有任务，请稍等……" Link="既存の任務をキャンセル中、しばらくお待ちください…"/>
+    <String Target="正在取消现有任务，请稍等..." Link="既存の任務をキャンセル中、しばらくお待ちください..."/>
     <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="マウントしたのイメージ %s はおそらく壊れだ、続行して修復必要です。修復を実行ですか？"/>
     <String Target="即将重启以下程序 %s，你确定要继续吗？" Link="プログラム %s は再起動待ちです、続行しますか？"/>
     <String Target="资源管理器" Link="エクスプローラー"/>
-    <String Target="操作完成" Link="Finished"/>
+    <String Target="操作完成" Link="完了"/>
 
     <!--欢迎页-->
     <String Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。"
             Link="世界で最初の CBS に基づいて Dism Gui 実装。"/>
 
-    <String Target="联系方式" qLink=""/>
+    <String Target="联系方式" Link="お問い合わせ"/>
     <String Target="官方网站" Link="公式サイト"/>
     <String Target="QQ群" Link="QQ グループ"/>
     <String Target="邮箱" Link="E-Mail"/>
@@ -330,7 +330,7 @@ Special Thanks to 山形まり花、奎宁
 	  <String Target="保存更改" Link="変更の保存"/>
 	  <String Target="导出映像" Link="イメージをエクスポート"/>
 	  <String Target="正在导出第%d个映像（共 %d ）" Link="イメージをエクスポート中（%d / %d）"/>
-    <String Target="正在添加映像，请耐心等待……" Link="イメージを追加中、お待ちください……"/>
+    <String Target="正在添加映像，请耐心等待..." Link="イメージを追加中、お待ちください..."/>
     <String Target="操作成功！" Link="成功しました!"/>
     <String Target="删除映像" Link="イメージを削除"/>
     <String Target="编辑映像" Link="イメージを編集"/>
@@ -338,7 +338,7 @@ Special Thanks to 山形まり花、奎宁
     <!--引导修复-->
     <String Target="此映像并不在分区根目录，所以无法执行修复操作。" Link="このイメージはパーティションのルート ディレクトリに存在しません、修復できません。"/>
     <String Target="当前映像正在运行，所以无法执行修复操作。" Link="このイメージは使用中です、修復できません。"/>
-    <String Target="正在修复引导" Link="修復中……"/>
+    <String Target="正在修复引导" Link="修復中..."/>
     <String Target="恭喜已经成功修复引导。" Link="ブート修復完了しました。"/>
     <String Target="启动修复失败，错误代码：%d" Link="ブート修復失敗しました、エラー コード：%d"/>
     <String Target="无法对PE进行引导修复。" Link="Windows PE のブート修復できません。"/>
@@ -998,9 +998,9 @@ Examples:
     <String Target="发现新版本，需要更新 %d 个文件，约%s。&#x000D;&#x000A;&#x000D;&#x000A;更新日志：&#x000D;&#x000A;&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;确定要升级吗？"
             Link="新しいのバージョンは検出されました。%d つのファイルを更新する必要があります（%s の空き領域か必要です）。&#x000D;&#x000A;&#x000D;&#x000A;変更ログ：&#x000D;&#x000A;&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;更新はよろしいでしょうか？"/>
     <String Target="Dism++更新程序" Link="Dism++更新プログラム"/>
-    <String Target="准备启动下载模块……&#x000D;&#x000A;" Link="ダウンロード待ち……&#x000D;&#x000A;"/>
+    <String Target="准备启动下载模块...&#x000D;&#x000A;" Link="ダウンロード待ち...&#x000D;&#x000A;"/>
     <String Target="正在下载 - %d/%d" Link="ダウンロード中 - %d / %d"/>
-    <String Target="更新文件过程中遇到错误，Orz……" Link="問題が発生しました、Orz……"/>
+    <String Target="更新文件过程中遇到错误，Orz..." Link="問題が発生しました、Orz..."/>
   
     <!--命令行-->
     <String Target="退出" Link="終了"/>
@@ -1081,7 +1081,7 @@ Examples:
     <String Target="Dism++与此操作系统处于同一分区，无法进行格式化。" Link="Dism++ はこのシステムを同じパーティション存在します。このパーティションをフォマードできません。"/>
 
     <!--重新载入-->
-    <String Target="当前其他任务正在进行，请稍等……" Link="他の任務遂行中です、しばらくお待ちください……"/>
+    <String Target="当前其他任务正在进行，请稍等..." Link="他の任務遂行中です、しばらくお待ちください..."/>
   
     <!--文件拆分设置-->
     <String Target="文件拆分" Link="ファイルを分割"/>
