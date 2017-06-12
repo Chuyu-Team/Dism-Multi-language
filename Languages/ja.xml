@@ -116,7 +116,7 @@ Special Thanks to 山形まり花、奎宁
     <String Target="Dism++关键组件丢失，请从 www.chuyu.me 重新下载Dism++。" Link="Dism++ は重要なファイルは見つかりません、www.chuyu.me から Dism++ を再ダウンロードください。"/>
     <String Target="临时目录可用空间不足5GB，这可能导致Dism++无法正常运行，推荐将Dism++复制到可用空间大于5GB的驱动器，然后继续。" Link="一時ディレクトリの空き領域は 5 GB 未満です、Dism++ may not work properly. It is recommended to copy Dism++ to drive with more than 5GB of free space, and then continue."/>
     <String Target="基础支撑库缺失，引导修复相关功能无法使用。" Link="基本ライブラリは存在しません、ブート修復関するの機能は利用できません。"/>
-    <String Target="Dism++需要管理员权限才能运行，请右键 以管理员身份运行 然后继续。" Link="Dism++ は管理者アクセス許可が必要です、続行して、右クリックし、「管理者として実行」でください。"/>
+    <String Target="Dism++需要管理员权限才能运行，请右键 以管理员身份运行 然后继续。" Link="Dism++ は管理者アクセス許可が必要です、続行して、右クリックし、[管理者として実行] でください。"/>
 
     <String Target="你需要增量保存还是直接保存？" Link="上書き保存または増分保存ですか？"/>
     <String Target="温馨提示：保存映像后空间不会减少，如果需要减少空间请重新编译目标文件。" Link="Tips: Space won't reduce if you save this image;  recompile target file if you need to reduce the space"/>
@@ -139,7 +139,7 @@ Special Thanks to 山形まり花、奎宁
     <String Target="此功能可以将微软发布的ESD转换为ISO，还支持加密的ESD哦。" Link="この機能は ESD から ISO への変換、また、暗号化 ESD から変換もサポートします。"/>
     <String Target="ESD映像文件" Link="ESD ファイル"/>
 	  <String Target="ISO映像文件" Link="ISO ファイル"/>
-    <String Target="ISO映像文件-高压版" Link="ISO ファイル - 超高い圧縮"/>
+    <String Target="ISO映像文件-高压版" Link="ISO ファイル - 超圧縮"/>
 	  <String Target="WIM映像文件" Link="WIM ファイル"/>
 	  <String Target="WIM拆分映像" Link="SWM ファイル"/>
     <String Target="所有文件" Link="すべてのファイル"/>
@@ -155,8 +155,8 @@ Special Thanks to 山形まり花、奎宁
 	  <String Target="%s 位置的映像正繁忙，请稍后再试。" Link="場所 %s のイメージは混雑中です、後で再実行してください。"/>
 	  <String Target="正在验证受损" Link="正常性チャック中"/>
 	  <String Target="正在修复受损" Link="正常性復元中"/>
-    <String Target="%d 秒后将关闭计算机，点击取消可以撤销此任务。" Link="%d 秒でシャットダウンされます、[キャンセル]をクリックして取り消す。"/>
-    <String Target="%d 秒后将重启计算机，点击取消可以撤销此任务。" Link="%d 秒で再起動されます、[キャンセル]をクリックして取り消す。"/>
+    <String Target="%d 秒后将关闭计算机，点击取消可以撤销此任务。" Link="%d 秒でシャットダウンされます、[キャンセル] をクリックして取り消す。"/>
+    <String Target="%d 秒后将重启计算机，点击取消可以撤销此任务。" Link="%d 秒で再起動されます、[キャンセル] をクリックして取り消す。"/>
     
     <String Target="正在清理临时数据" Link="一時データをクリーン中"/>
     <String Target="Sorry，无法配置环境，请在PE中使用此功能。" Link="残念だ、環境設定に失敗しました、この機能は WinPE で利用してください。"/>
@@ -185,7 +185,7 @@ Special Thanks to 山形まり花、奎宁
 	  <String Target="WIMBoot压缩" Link="WIMBoot圧縮"/>
 	  <String Target="快速压缩" Link="高速圧縮"/>
 	  <String Target="最大压缩" Link="最大圧縮"/>
-	  <String Target="极限压缩" Link="極度圧縮"/>
+	  <String Target="极限压缩" Link="超圧縮"/>
 	
 	  <String Target="映像名称" Link="イメージ名"/>
 	  <String Target="映像说明" Link="イメージの説明"/>
@@ -202,7 +202,7 @@ Special Thanks to 山形まり花、奎宁
 	  <String Target="WIMBoot压缩映像" Link="WIMBoot圧縮"/>
 	  <String Target="快速压缩映像" Link="高速圧縮"/>
 	  <String Target="最大压缩映像" Link="最大圧縮"/>
-	  <String Target="极限压缩映像" Link="極度圧縮"/>
+	  <String Target="极限压缩映像" Link="超圧縮"/>
 	  <String Target="全选" Link="すべて選択"/>
 	  <String Target="反选" Link="反転選択"/>
 	  <String Target="自定义规则" Link="カスタム ルール"/>
@@ -216,14 +216,14 @@ Special Thanks to 山形まり花、奎宁
 	  <String Target="建议删除" Link="削除"/>
 	  <String Target="自定义" Link="カスタム"/>
 
-    <String Target="正在载入清理规则" Link="クリーンアップのルールを読み込み中……"/>
+    <String Target="正在载入清理规则" Link="クリーンアップのルールを読み込み中..."/>
     <String Target="正在撤销Compact" Link="Compact 解除中"/>
     <String Target="名称" Link="名前"/>
     <String Target="保存" Link="保存"/>
     <String Target="取消" Link="キャンセル"/>
     <String Target="详细信息" Link="情報"/>
     <String Target="其他" Link="その他"/>
-    <String Target="正在初始化" Link="初期化中……"/>
+    <String Target="正在初始化" Link="初期化中..."/>
     <String Target="类别" Link="カテゴリ"/>
     <String Target="大小" Link="サイズ"/>
     <String Target="正在关闭会话" Link="セッション終了中"/>
@@ -237,17 +237,17 @@ Special Thanks to 山形まり花、奎宁
     <String Target="正在扫描已安装的系统" Link="インストール済みのシステムをスキャン中"/>
     <String Target="已经是最新版本，无需更新！" Link="最新バージョンです、更新必要がありません。"/>
     <String Target="正在修复挂载映像" Link="マウントしたイメージを修復中"/>
-    <String Target="正在取消现有任务，请稍等……" Link="既存の任務をキャンセル中、しばらくお待ちください…"/>
+    <String Target="正在取消现有任务，请稍等……" Link="既存の任務をキャンセル中、しばらくお待ちください..."/>
     <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="マウントしたのイメージ %s はおそらく壊れだ、続行して修復必要です。修復を実行ですか？"/>
     <String Target="即将重启以下程序 %s，你确定要继续吗？" Link="プログラム %s は再起動待ちです、続行しますか？"/>
     <String Target="资源管理器" Link="エクスプローラー"/>
-    <String Target="操作完成" Link="Finished"/>
+    <String Target="操作完成" Link="完了"/>
 
     <!--欢迎页-->
     <String Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。"
             Link="世界で最初の CBS に基づいて Dism Gui 実装。"/>
 
-    <String Target="联系方式" qLink=""/>
+    <String Target="联系方式" Link="お問い合わせ"/>
     <String Target="官方网站" Link="公式サイト"/>
     <String Target="QQ群" Link="QQ グループ"/>
     <String Target="邮箱" Link="E-Mail"/>
@@ -330,7 +330,7 @@ Special Thanks to 山形まり花、奎宁
 	  <String Target="保存更改" Link="変更の保存"/>
 	  <String Target="导出映像" Link="イメージをエクスポート"/>
 	  <String Target="正在导出第%d个映像（共 %d ）" Link="イメージをエクスポート中（%d / %d）"/>
-    <String Target="正在添加映像，请耐心等待……" Link="イメージを追加中、お待ちください……"/>
+    <String Target="正在添加映像，请耐心等待……" Link="イメージを追加中、お待ちください..."/>
     <String Target="操作成功！" Link="成功しました!"/>
     <String Target="删除映像" Link="イメージを削除"/>
     <String Target="编辑映像" Link="イメージを編集"/>
@@ -338,7 +338,7 @@ Special Thanks to 山形まり花、奎宁
     <!--引导修复-->
     <String Target="此映像并不在分区根目录，所以无法执行修复操作。" Link="このイメージはパーティションのルート ディレクトリに存在しません、修復できません。"/>
     <String Target="当前映像正在运行，所以无法执行修复操作。" Link="このイメージは使用中です、修復できません。"/>
-    <String Target="正在修复引导" Link="修復中……"/>
+    <String Target="正在修复引导" Link="修復中..."/>
     <String Target="恭喜已经成功修复引导。" Link="ブート修復完了しました。"/>
     <String Target="启动修复失败，错误代码：%d" Link="ブート修復失敗しました、エラー コード：%d"/>
     <String Target="无法对PE进行引导修复。" Link="Windows PE のブート修復できません。"/>
@@ -349,11 +349,11 @@ Special Thanks to 山形まり花、奎宁
     <String Target="基本" Link="基本"/>
     <String Target="更多" Link="詳細"/>
     <String Target="启动分区：" Link="ブート パーティション："/>
-    <String Target="你必须点击更多进行手动指定！" Link="[詳細]をクリックし、手動指定してください。"/>
+    <String Target="你必须点击更多进行手动指定！" Link="[詳細] をクリックし、手動指定してください。"/>
     <String Target="硬盘%d 分区%d（%s）" Link="ディスク %d パーティション %d（%s）"/>
     <String Target="硬盘%d 分区%d" Link="ディスク %d パーティション %d"/>
     <String Target="即将把启动信息写入启动分区- %s" Link="ブート情報は次のパーティションを書きます - %s"/>
-    <String Target="没有异议或者看不懂的请点击 %s 。" Link="問題なし、また理解できないで、[%s]をクリックします。"/>
+    <String Target="没有异议或者看不懂的请点击 %s 。" Link="問題なし、また理解できないで、[%s] をクリックします。"/>
     <String Target="无法获取该分区的详细信息。" Link="このパーティションを状態取得できません。"/>
     <String Target="目标系统需要以UEFI方式启动，请选择一个GPT分区。" Link="このシステムは UEFI で起動です、GPT パーティションを選択してください。"/>
     <String Target="UEFI启动需要FAT16/FAT32分区。" Link="UEFI を起動し、FAT16/FAT32 パーティションが必要です。"/>
@@ -412,7 +412,7 @@ Special Thanks to 山形まり花、奎宁
     <String Target="该规则来自CCleaner解析引擎，因此不能提供说明。" Link="このクリーンアップ ルールは CCleaner からのクリーンアップ ルールです、Dism++ は説明を表示できません。"/>
     <String Target="默认" Link="既定値"/>
     <String Target="关于 %s 的详细处理信息" Link="%s に関するの詳細な情報"/>
-    <String Target="以下文件即将被处理，你可以点击 清理 处理他们" Link="こちらのファイルを処理待ちです、「クリーンアップ」をクリックして処理する"/>
+    <String Target="以下文件即将被处理，你可以点击 清理 处理他们" Link="こちらのファイルを処理待ちです、[クリーンアップ] をクリックして処理する"/>
     <String Target="关于 %s 的警告：&#x000D;&#x000A;&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;您确定要清理么？" Link="%s に関するの警告：&#x000D;&#x000A;&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;クリーンアップをよろしいでしょうか？"/>
     <String Target="全不选" Link="なし"/>
     <String Target="已经清理" Link="クリーンしました"/>
@@ -439,6 +439,7 @@ Special Thanks to 山形まり花、奎宁
     <String Target="蓝屏记录" Link="BSOD レコード"/>
     <String Target="注册表还原" Link="復元"/>
     <String Target="清理时间" Link="クリーンアップの使用時間"/>
+    <String Target="网络位置" Link="ネットワークの場所"/>
     
     <!--驱动管理-->
     <String Target="温馨提示：删除关键驱动可能导致计算机无法启动" Link="ヒント：重要なドライバーの削除はコンピューターの起動できませんが生じる可能性があります。"/>
@@ -530,6 +531,7 @@ Special Thanks to 山形まり花、奎宁
 	  <String Target="产品名称" Link="製品名"/>
 	  <String Target="产品版本" Link="製品バージョン"/>
 	  <String Target="发行类型" Link="リリースの種類"/>
+    <String Target="安装日期" Link="インストール日"/> 
 	  <String Target="状态" Link="状態"/>
 	  <String Target="正在获取更新信息" Link="更新情報を取得中"/>
 	  <String Target="正在删除更新" Link="更新を削除中"/>
@@ -540,6 +542,7 @@ Special Thanks to 山形まり花、奎宁
 	  <String Target="刷新" Link="リフレッシュ"/>
 	  <String Target="添加" Link="追加"/>
     <String Target="语言" Link="言語"/>
+    <String Target="Windows %s 语言包" Link="Windows %s 言語パック"/> 
   
 	  <!--可选功能-->
     <String Target="正在删除可选功能" Link="機能を削除中"/>
@@ -554,7 +557,7 @@ Special Thanks to 山形まり花、奎宁
     <String Target="正在删除Appx" Link="Appx を削除中"/>
     <String Target="删除Windows Store可能导致你未来无法下载或更新Appx，你确定要继续么？" Link="Windows Store を削除されで、Appx をダウンロードまた更新は利用できません、よろしいでしょうか？"/>
     <String Target="删除Microsoft.XboxIdentityProvider可能导致Windows Store无法使用，你确定要继续么？" Link="Microsoft.XboxIdentityProvider を削除して、Windows Store 利用できませんを起こす可能性があります、よろしいでしょうか？"/>
-    <String Target="%s 等待超时，请尝试使用空间回收 - 过期Appx清理。" Link="%s はタイムアウトしました、[クリーンアップ] - [期限切れの Appx アプリケーション]を利用お試しください。"/>
+    <String Target="%s 等待超时，请尝试使用空间回收 - 过期Appx清理。" Link="%s はタイムアウトしました、[クリーンアップ] - [期限切れの Appx アプリケーション] を利用お試しください。"/>
     <String Target="无法初始化Appx管理接口。" Link="Appx の管理インタフェースは初期化できません。"/>
     <String Target="%s 无法获取Appx关联的账号信息，错误代码：0x%.8X" Link="%s は Appx 関連付けてアカウント情報取得できません、エラー コード：0x%.8X"/>
     <String Target="%s 无法获取账号SID，错误代码：0x%.8X" Link="%s は アカウントの SID 取得できません、エラー コード：0x%.8X"/>
@@ -737,7 +740,7 @@ Examples:
     
     <String Target="隐藏可执行文件小盾牌" Link="UAC の盾アイコンを隠す"/>
 
-    <String Target="创建快捷方式时不添&quot;快捷方式&quot;文字（by 518516.net）" Link="新しいショートカットの名に「ショートカット」追加しない (by 518516.net)"/>
+    <String Target="创建快捷方式时不添&quot;快捷方式&quot;文字（by 518516.net）" Link="新しいショートカットの名に [ショートカット] 追加しない (by 518516.net)"/>
     
     <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹" Link="ビデオ、ピクチャー、ドキュメント、ダウンロード、ミュージック、デスクトップ フォルダーを PC に隠す"/>
 
@@ -805,26 +808,26 @@ Examples:
 
     <String Target="关闭视频文件预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="ビデオ プレビューを無効し、エクスプローラーのパフォーマンスを改善する（by 莫失莫忘）"/>
     <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="ミュージックと写真のプレビューを無効し、エクスプローラーのパフォーマンスを改善する（by 莫失莫忘）"/>
-    <String Target="关闭打开程序的“安全警告”（by 莫失莫忘）" Link="プログラム開くの「セキュリティの警告」を閉じる（by 莫失莫忘）"/>
+    <String Target="关闭打开程序的“安全警告”（by 莫失莫忘）" Link="プログラム開くの [セキュリティの警告] を閉じる（by 莫失莫忘）"/>
     <String Target="关闭在应用商店中查找关联应用（by Asoft）" Link="ストアからの関連アプリの探しを閉じる（By Asoft）"/>
 
     <!--右键菜单管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="右クリック メニューの管理 - 非必要メニューを無効し、パフォーマンスを改善する"/>
-    <String Target="禁用可执行文件的“兼容性疑难解答”右键菜单（by 莫失莫忘）" Link="アプリケーションから右クリック メニューの「互換性トラブルシューティング」を無効化（by 莫失莫忘）"/>
-    <String Target="禁用文件、文件夹以及磁盘的“使用Windows Defender扫描”右键菜单（by 莫失莫忘）" Link="右クリック メニューのファイル、フォルダーおよびディスクの「Windows Defenderでスキャンする」を無効化（by 莫失莫忘）"/>
-    <String Target="禁用文件、磁盘以及属性的“还原以前版本”右键菜单（by 莫失莫忘）" Link="右クリック メニューのファイル、ディスクおよびプロパティの「以前のパーション」を無効化（by 莫失莫忘）"/>
-    <String Target="禁用文件、文件夹、桌面以及所有对象的“共享文件夹同步”右键菜单" Link="右クリック メニューのファイル、フォルダー、デスクトップおよびすべて対象の「共有フォルダの同期」を無効化"/>
-    <String Target="禁用新建“ZIP/RAR文件”右键菜单（by 莫失莫忘）" Link="右クリック メニューの新規作成の「ZIP/RAR ファイル」を無効化（by 莫失莫忘）"/>
-    <String Target="禁用新建、文件以及文件夹的“公文包”右键菜单" Link="右クリック メニューの新規作成、ファイルおよびフォルダーの「ブリーフケース」を無効化"/>
-    <String Target="禁用新建的“联系人”右键菜单（by 莫失莫忘）" Link="右クリック メニューの新規作成の「連絡先」を無効化（by 莫失莫忘）"/>
+    <String Target="禁用可执行文件的“兼容性疑难解答”右键菜单（by 莫失莫忘）" Link="アプリケーションから右クリック メニューの [互換性トラブルシューティング] を無効化（by 莫失莫忘）"/>
+    <String Target="禁用文件、文件夹以及磁盘的“使用Windows Defender扫描”右键菜单（by 莫失莫忘）" Link="右クリック メニューのファイル、フォルダーおよびディスクの [Windows Defenderでスキャンする] を無効化（by 莫失莫忘）"/>
+    <String Target="禁用文件、磁盘以及属性的“还原以前版本”右键菜单（by 莫失莫忘）" Link="右クリック メニューのファイル、ディスクおよびプロパティの [以前のパーション] を無効化（by 莫失莫忘）"/>
+    <String Target="禁用文件、文件夹、桌面以及所有对象的“共享文件夹同步”右键菜单" Link="右クリック メニューのファイル、フォルダー、デスクトップおよびすべて対象の [共有フォルダの同期] を無効化"/>
+    <String Target="禁用新建“ZIP/RAR文件”右键菜单（by 莫失莫忘）" Link="右クリック メニューの新規作成の [ZIP/RAR ファイル] を無効化（by 莫失莫忘）"/>
+    <String Target="禁用新建、文件以及文件夹的“公文包”右键菜单" Link="右クリック メニューの新規作成、ファイルおよびフォルダーの [ブリーフケース] を無効化"/>
+    <String Target="禁用新建的“联系人”右键菜单（by 莫失莫忘）" Link="右クリック メニューの新規作成の [連絡先] を無効化（by 莫失莫忘）"/>
     <String Target="禁用桌面的英特尔集显右键菜单（by 莫失莫忘）" Link="インテル グラフィックス関するの右クリック メニューを無効化（by 莫失莫忘）"/>
-    <String Target="禁用目录、文件夹、所有对象、的“始终脱机可用”右键菜单" Link="右クリック メニューのディレクトリ、フォルダー、すべて対象の「常にオフラインで利用可能」を無効化"/>
-    <String Target="禁用磁盘的“以便携式方式打开”右键菜单（by 莫失莫忘）" Link="右クリック メニューのディスクの「ポータブル デバイスとして開く」を無効化（by 莫失莫忘）"/>
-    <String Target="禁用磁盘的“刻录到光盘”右键菜单" Link="右クリック メニューの「ディスクに書き込む」を非表示"/>
-    <String Target="禁用磁盘的“启用Bitlocker”右键菜单（by 莫失莫忘）" Link="右クリック メニューの「Bitlockerを有効にする」を非表示（by 莫失莫忘）"/>
-    <String Target="禁用磁盘的“复制磁盘”右键菜单" Link="右クリック メニューの「ディスクのコピー」を非表示"/>
-    <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="右クリック メニューのファイル、フォルダー、デスクトップ、ディスクおよびライブラリの「共有」を無効化"/>
-    <String Target="禁用桌面的“小工具”右键菜单" Link="右クリック メニューのデスクトップの「ウィジェット」を無効化"/>
+    <String Target="禁用目录、文件夹、所有对象、的“始终脱机可用”右键菜单" Link="右クリック メニューのディレクトリ、フォルダー、すべて対象の [常にオフラインで利用可能] を無効化"/>
+    <String Target="禁用磁盘的“以便携式方式打开”右键菜单（by 莫失莫忘）" Link="右クリック メニューのディスクの [ポータブル デバイスとして開く] を無効化（by 莫失莫忘）"/>
+    <String Target="禁用磁盘的“刻录到光盘”右键菜单" Link="右クリック メニューの [ディスクに書き込む] を非表示"/>
+    <String Target="禁用磁盘的“启用Bitlocker”右键菜单（by 莫失莫忘）" Link="右クリック メニューの [Bitlockerを有効にする] を非表示（by 莫失莫忘）"/>
+    <String Target="禁用磁盘的“复制磁盘”右键菜单" Link="右クリック メニューの [ディスクのコピー] を非表示"/>
+    <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="右クリック メニューのファイル、フォルダー、デスクトップ、ディスクおよびライブラリの [共有] を無効化"/>
+    <String Target="禁用桌面的“小工具”右键菜单" Link="右クリック メニューのデスクトップの [ウィジェット] を無効化"/>
 
     <!--桌面图示管理-->
     <String Target="桌面图标管理" Link="デスクトップ アイコンの設定"/>
@@ -834,6 +837,7 @@ Examples:
     <String Target="隐藏资源管理器导航窗口中的OneDrive（by 莫失莫忘）" Link="ナビゲーション ウィンドウの Onedrive を非表示（by 莫失莫忘）"/>
     <String Target="隐藏资源管理器导航窗口中的可移动设备（by 莫失莫忘）" Link="ナビゲーション ウィンドウの リムーバブル デバイス を非表示（by 莫失莫忘）"/>
     <String Target="隐藏资源管理器导航窗口中的快速访问（by starP）" Link="エクスプローラーのナビゲーション ウィンドウのクイック アクセスを隠す（by starP）"/>
+    <String Target="启用此选项将导致导航窗口拖拽功能无法使用。" Link="この機能を有効すると、ナビゲーション ウィンドウのドラッグ/ドロップ機能は利用できません。"/> 
 
     <!--Internet Explorer-->
     <String Target="关闭多个选项卡时不发出警告（by 一叶微风TM）" Link="複数のタブを閉じるときにメッセージを表示しない (by YiYieWeiFeng TM)"/>
@@ -846,27 +850,27 @@ Examples:
 
     <String Target="启用表单的自动完成功能（by 原罪）" Link="オートコンプリートを有効にする (by YZ)"/>
 
-    <String Target="关闭建议的网站（by 原罪）" Link="おすすめサイト無効化Turn off Suggested Sites (by YZ)"/>
+    <String Target="关闭建议的网站（by 原罪）" Link="おすすめサイト無効化 (by YZ)"/>
 
     <String Target="跳过IE首次运行自定义设置（by 原罪、恋人の共鸣）" Link="初回実行ウィザードを実行しないようにする (by YZ, Lovers vibes)"/>
 
-    <String Target="不保存附件的区域信息（by 古畑任三郎）" Link="Regional information does not save attachments (by niphor)"/>
+    <String Target="不保存附件的区域信息（by 古畑任三郎）" Link="地域情報は保存しない (by niphor)"/>
     
     <String Target="启用增强保护模式" Link="Enable Enhanced Protected Mode"/>
 
     <String Target="针对增强保护模式启用64位进程" Link="Enable 64-bit processes for Enhanced Protected Mode"/>
     
     <!--微软拼音输入法--><String Target="微软拼音输入法" Link="Microsoft Pinyin IME"/>
-    <String Target="微软拼音默认为英语输入（by Rambin）" Link="Make IME default mode English (by Rambin)"/>
+    <String Target="微软拼音默认为英语输入（by Rambin）" Link="英語は既定の入力モード (by Rambin)"/>
     
-    <String Target="关闭微软拼音云计算（by Rambin）" Link="Disable Cloud input method (by Rambin)"/>
+    <String Target="关闭微软拼音云计算（by Rambin）" Link="クラウド入力無効化 (by Rambin)"/>
 
     <!--Windows Update-->
     <String Target="自动安装无需重启的更新（by Rambin）" Link="Allow Automatic Updates immediate installation (by Rambin)"/>
     
     <String Target="更新挂起时如果有用户登录不自动重启计算机（by Rambin）" Link="No auto-restart when logged on users for scheduled automatic updates installations (by Rambin)"/>
 
-    <String Target="Windows更新不包括驱动程序" Link="Windows Update don't include the drivers"/>
+    <String Target="Windows更新不包括驱动程序" Link="Windows Update からドライバーを除外する"/>
 
     <String Target="*将Windows Update自动更新调整为" Link="*Windows Update will automatically adjust the update"/>
       <String Target="从不检查（不推荐）" Link="Never check (not recommended)"/>
@@ -874,11 +878,11 @@ Examples:
       <String Target="检查并下载更新" Link="Check&amp;Download updates"/>
       <String Target="自动安装更新（推荐）" Link="Auto Install(recommended)"/>
 
-    <String Target="禁止自动更新到Internet Explorer 9" Link="Disable the automatic update to Internet Explorer 9"/>
+    <String Target="禁止自动更新到Internet Explorer 9" Link="Internet Explorer 9 に自動アップグレード無効化"/>
 
-    <String Target="禁止自动更新到Internet Explorer 10" Link="Disable the automatic update to Internet Explorer 10"/>
+    <String Target="禁止自动更新到Internet Explorer 10" Link="Internet Explorer 10 に自動アップグレード無効化"/>
 
-    <String Target="禁止自动更新到Internet Explorer 11（by Rambin）" Link="Disable the automatic update to Internet Explorer 11 (by Rambin)"/>
+    <String Target="禁止自动更新到Internet Explorer 11（by Rambin）" Link="Internet Explorer 11 に自動アップグレード無効化 (by Rambin)"/>
 
     <!--记事本--><String Target="记事本" Link="メモ帳"/>
     <String Target="启用自动换行（by 一叶微风TM）" Link="折り返す有効化 (by YiYieWeiFeng TM)"/>
@@ -965,9 +969,9 @@ Examples:
     <String Target="安全相关设置" Link="セキュリティ設定"/>
     <String Target="开启模糊音（by 朽木）" Link="Fuzzy Pinyin 有効化 ( by XiuMu )"/>
     <String Target="开启此功能将导致平板模式下无法使用手势调出操作中心。" Link="有効して、タブレット モードのジェスチャでアクション センターを開くは利用できません。"/>
-    <String Target="禁用文件、目录、桌面、所有对象的“工作文件夹”右键菜单" Link="ファイル、ディレクトリ、デスクトップおよびすべて対象のコンテキスト メニューの[作業フォルダー]を無効化"/>
-    <String Target="禁用文件夹的“固定到快速访问”右键菜单" Link="ディレクトリのコンテキスト メニューの[クイック アクセスにピン留め]を無効化"/>
-    <String Target="禁用文件的“OneDrive文件同步”右键菜单" Link="ファイルのコンテキスト メニューの[Onedrive でファイルを同期]を無効化"/>
+    <String Target="禁用文件、目录、桌面、所有对象的“工作文件夹”右键菜单" Link="ファイル、ディレクトリ、デスクトップおよびすべて対象のコンテキスト メニューの[作業フォルダー] を無効化"/>
+    <String Target="禁用文件夹的“固定到快速访问”右键菜单" Link="ディレクトリのコンテキスト メニューの[クイック アクセスにピン留め] を無効化"/>
+    <String Target="禁用文件的“OneDrive文件同步”右键菜单" Link="ファイルのコンテキスト メニューの[Onedrive でファイルを同期] を無効化"/>
     <String Target="关闭“突出显示新安装的程序”（by 溯汐潮）" Link="最近追加したアプリを表示しない（by 溯汐潮）"/>
     <String Target="关闭自动更新（by 溯汐潮）" Link="自動更新を閉じる（by 溯汐潮）"/>
     <String Target="将“音量调节”调整为Windows 7模式（by 溯汐潮）" Link="Windows 7 音量調整を利用する（by 溯汐潮）"/>
@@ -985,7 +989,7 @@ Examples:
     <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="言語バーのヘルプ ボタンを隠す（by 溯汐潮）"/>
     <String Target="Windows 7体验" Link="Windows 7体験"/>
     <String Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Windows 更新は悪意のあるソフトウェアの削除ツールを除く（by ‍Winaero）"/>
-    <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="[右クリック メニュー]を Windows 7 のスタイルに調整する（by Silence）"/>
+    <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="[右クリック メニュー] を Windows 7 のスタイルに調整する（by Silence）"/>
     <String Target="登陆界面默认打开小键盘（by IT之家）" Link="ログイン画面で NumLock キーをオンする。（by ITHome）"/>
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Component Based Servicing ファイル バックアップ無効化"/>
     <!--系统优化已经结束-->
@@ -994,9 +998,9 @@ Examples:
     <String Target="发现新版本，需要更新 %d 个文件，约%s。&#x000D;&#x000A;&#x000D;&#x000A;更新日志：&#x000D;&#x000A;&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;确定要升级吗？"
             Link="新しいのバージョンは検出されました。%d つのファイルを更新する必要があります（%s の空き領域か必要です）。&#x000D;&#x000A;&#x000D;&#x000A;変更ログ：&#x000D;&#x000A;&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;更新はよろしいでしょうか？"/>
     <String Target="Dism++更新程序" Link="Dism++更新プログラム"/>
-    <String Target="准备启动下载模块……&#x000D;&#x000A;" Link="ダウンロード待ち……&#x000D;&#x000A;"/>
+    <String Target="准备启动下载模块……&#x000D;&#x000A;" Link="ダウンロード待ち...&#x000D;&#x000A;"/>
     <String Target="正在下载 - %d/%d" Link="ダウンロード中 - %d / %d"/>
-    <String Target="更新文件过程中遇到错误，Orz……" Link="問題が発生しました、Orz……"/>
+    <String Target="更新文件过程中遇到错误，Orz……" Link="問題が発生しました、Orz..."/>
   
     <!--命令行-->
     <String Target="退出" Link="終了"/>
@@ -1065,9 +1069,9 @@ Examples:
             Link="You can use these commands to operate this image:
 コマンド：
  /Plugin	- Run the designated plug-in (Need plugin support)"/>
-    <String Target="正在压缩" Link="Compressing"/>
-    <String Target="正在解压" Link="Decompressing"/>
-    <String Target="操作完成！" Link="Finished."/>
+    <String Target="正在压缩" Link="圧縮中"/>
+    <String Target="正在解压" Link="展開中"/>
+    <String Target="操作完成！" Link="完了しました！"/>
     
     <!--系统还原-->
     <String Target="当前模式不支持引导修复以及格式化分区，你需要重启并进入RE进行恢复么？" Link="このモードはブート修復およびフォーマット利用できません、RE に再起動で復元しますか？"/>
@@ -1077,7 +1081,7 @@ Examples:
     <String Target="Dism++与此操作系统处于同一分区，无法进行格式化。" Link="Dism++ はこのシステムを同じパーティション存在します。このパーティションをフォマードできません。"/>
 
     <!--重新载入-->
-    <String Target="当前其他任务正在进行，请稍等……" Link="他の任務遂行中です、しばらくお待ちください……"/>
+    <String Target="当前其他任务正在进行，请稍等……" Link="他の任務遂行中です、しばらくお待ちください..."/>
   
     <!--文件拆分设置-->
     <String Target="文件拆分" Link="ファイルを分割"/>
@@ -1094,8 +1098,9 @@ Examples:
     <!--清理项目条目映射-->
     <String Target="被取代的WinSxS组件" Link="置換済みの WinSxS アセンブリ"/>
     <String Target="清理被取代的组件并减少组件存储的大小。" Link="Use it to clean up the superseded components and reduce the size of the component store."/>
-    <String Target="清理后将无法卸载更新，如果有卸载更新需求请勿使用此选项。" Link="The installed Windows Updates cannot be uninstalled after the operation is completed."/>
-    
+    <String Target="清理后将无法卸载更新，如果有卸载更新需求请勿使用此选项。" Link="クリーンアップされて、更新をアンインストールできません。"/>
+    <String Target="清理后将无法卸载更新，此外ResetBase模式跟系统重置功能有冲突，如果有卸载更新或者系统重置需求请勿使用此选项。" Link="クリーンアップされて、更新をアンインストールできません。そして、[ResetBase] がシステム リセットと競合しています。必要でない場合は、利用しないください。"/> 
+
     <String Target="被取代的WinSxS组件（非常慢）" Link="置換済みの WinSxS アセンブリ （非常に遅い）"/>
     
     <String Target="过期驱动" Link="期限切れのドライバー"/>
@@ -1109,7 +1114,7 @@ Examples:
     <String Target="CompactOs（较慢）" Link="CompactOs（遅い）"/>
     <String Target="对单纯读取的文件进行哈夫曼压缩，在不影响性能的情况下，显著减少系统体积。特别感谢矿工以及所有Compact团队成员无私的支持与帮助。" Link="Compree the read-only file with Huffman compression, it will not impact the performance, reduce the volume of the system evidently. Special thanks to the miners and the selfless support and aid of the member of compact team."/>
     <String Target="使用后可能导致某些程序无法正常运行甚至让系统无法启动，如果使用后出现问题，可以在PE中点击 恢复功能-->撤销Compact。" Link="After applying this, some programs will malfunction, and the system might fail to start.  You can later fix this by using Revovery --> Never Compact in WinPE"/>
-    <String Target="此功能与某些硬盘备份软件不兼容。如果使用后出现问题，可以点击 恢复功能-->撤销Compact。" Link="この機能はいくつかのディスク バックアップ ソフトウェアと互換性がありません。問題が発見したため、「復元機能」-->「Compact を解除」をクリックしてください。"/>
+    <String Target="此功能与某些硬盘备份软件不兼容。如果使用后出现问题，可以点击 恢复功能-->撤销Compact。" Link="この機能はいくつかのディスク バックアップ ソフトウェアと互換性がありません。問題が発見したため、[復元機能] --> [Compact を解除] をクリックしてください。"/>
 
     <String Target="过期Appx应用" Link="期限切れの Appx アプリケーション"/>
     <String Target="在Appx应用升级时，会留下老版本应用，该功能将删除那些不使用的老版本。" Link="When updating an Appx, it will not delete the older versions. This function can delete the unused older versions(Beta feature, may lead metro app unstartable."/>
@@ -1341,6 +1346,8 @@ Examples:
     <String Target="新版Visual Studio安装源缓存" Link="新しいパーションの Visual Studio インストール元キャッシュ"/>
     <String Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="この機能は Visual Studio 2017（将来のバージョン含む）のインストール元をクリーンアップします。"/>
     <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="クリーンアップし、Visual Studio 2017（将来のバージョン含む） の 更新、修復、コンポーネントを変更及びアンインストール操作はインターネット接続必要です。"/>
+    <String Target="损坏的Appx" Link="壊れたの Appx"/> 
+    <String Target="清理损坏的Appx。例如Visual Studio的通用应用XAML设计器暴力删除临时生成的设计器应用，于是会出现大量损坏的Appx。" Link="壊れたの Appx をクリーンアップします。例えば、Visual Studio の XAML デザイナーは一時ファイルを暴力的削除されます。これら壊れたの Appx の原因。"/> 
   </StringMaps>
   <MessageTable>
     <x800F0806>1 つ以上の更新待ち、再起動後に続行してください。</x800F0806>
@@ -1360,18 +1367,18 @@ Examples:
     <xA0020006>このシステムは Wow64 のサポートしません、非 64 ビット システムはオフライン ハンドルできません。</xA0020006>
     <xA0020007>必要なファイル CBSHost.dll は存在しません。Dism++ の整合性を確認ください。</xA0020007>
     <xA0020008>rundll32.exe は存在しません。Dism++ は実行できません。</xA0020008>
-    <xA0020009>Dism++ のセッションはクラッシュしました。解決策ために、「CBSHost_*.dmp」を圧縮と添付して、mingkuang@live.com へ送信するください。</xA0020009>
+    <xA0020009>Dism++ のセッションはクラッシュしました。解決策ために、[CBSHost_*.dmp] を圧縮と添付して、mingkuang@live.com へ送信するください。</xA0020009>
     <xA002000A>Dism++ は既知の互換性の問題が検出されました、続行して、KB960037をインストールしてください。</xA002000A>
 
     <x20020001>このイメージの既定の関連付けは存在しません、エクスポートは利用できません。</x20020001>
-    <x20020002>Dism++は以下の問題が見つかりました:正常にシステムを操作するために、hostはWindows 8/2012と以上の必要があります。もし低バージョンのhostを使用し続ければ、「オン／オフ 機能」と「インストール／アップデート／アンインストール」には意外の問題が発生の可能性があります。</x20020002>
+    <x20020002>Dism++は以下の問題が見つかりました:正常にシステムを操作するために、hostはWindows 8/2012と以上の必要があります。もし低バージョンのhostを使用し続ければ、[オン / オフ 機能] と [インストール / アップデート / アンインストール] には意外の問題が発生の可能性があります。</x20020002>
     <x20020003>Dism++ は既知の互換性問題を発見された、イメージのパスは英字以外を含むで更新をインストール失敗可能性があります、英字のみパスにこのイメージを再マウントください。（例：D:\Mount）</x20020003>
 
-    <xC1440136>wof ドライバーはロードしません、続行して、「オプション」－「もっと設定」－「WofAdk ドライバーの読み込み」を「オン」してください。</xC1440136>
-    <xC144013B>wof ドライバーはロードしません、続行して、「オプション」－「もっと設定」－「WofAdk ドライバーの読み込み」を「オン」してください。</xC144013B>
+    <xC1440136>wof ドライバーはロードしません、続行して、[オプション] - [もっと設定] - [WofAdk ドライバーの読み込み] を[オン] してください。</xC1440136>
+    <xC144013B>wof ドライバーはロードしません、続行して、[オプション] - [もっと設定] - [WofAdk ドライバーの読み込み] を [オン] してください。</xC144013B>
     
     <!--VSS-->
-    <x80042302>Volume Shadow Copy サービスは無効です、続行して、Volume Shadow Copy サービスのスタートアップ種類を「手動」してください。</x80042302>
+    <x80042302>Volume Shadow Copy サービスは無効です、続行して、Volume Shadow Copy サービスのスタートアップ種類を [手動] してください。</x80042302>
 
     <xA0010001>Microsoft アカウントのパスワードの再設定は利用できません。再設定して、公式サイトへください。</xA0010001>
 
