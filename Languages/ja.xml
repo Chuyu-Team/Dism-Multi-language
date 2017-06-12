@@ -1346,6 +1346,7 @@ Examples:
     <String Target="新版Visual Studio安装源缓存" Link="新しいパーションの Visual Studio インストール元キャッシュ"/>
     <String Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="この機能は Visual Studio 2017（将来のバージョン含む）のインストール元をクリーンアップします。"/>
     <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="クリーンアップし、Visual Studio 2017（将来のバージョン含む） の 更新、修復、コンポーネントを変更及びアンインストール操作はインターネット接続必要です。"/>
+
     <String Target="损坏的Appx" Link="壊れたの Appx"/> 
     <String Target="清理损坏的Appx。例如Visual Studio的通用应用XAML设计器暴力删除临时生成的设计器应用，于是会出现大量损坏的Appx。" Link="壊れたの Appx をクリーンアップします。例えば、Visual Studio の XAML デザイナーは一時ファイルを暴力的削除されます。これら壊れたの Appx の原因。"/> 
   </StringMaps>
