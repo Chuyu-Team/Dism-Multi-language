@@ -181,7 +181,7 @@
 	
 	  <String Target="本地硬盘" Link="本機磁碟"/>
 	  <String Target="挂载映像" Link="掛載映像"/>
-    <String Target="VHD装载" Link="掛載 VHD"/>
+    <String Target="VHD装载" Link="VHD 掛載"/>
     
 	  <String Target="不压缩" Link="不壓縮"/>
 	  <String Target="WIMBoot压缩" Link="WIMBoot 壓縮"/>
