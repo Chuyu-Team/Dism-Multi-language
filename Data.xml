@@ -377,7 +377,6 @@
       <Group>#系统相关</Group>
       <Scan>
         <Applicable>
-          <IsBeta/>
           <ImageFlags>1</ImageFlags>
           <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Appx" Value="PackageRoot"/>
           <Or>
