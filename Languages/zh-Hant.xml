@@ -37,7 +37,7 @@
   <StringMaps>
 	  <String Target="文件(&amp;F)" Link="檔案(&amp;F)"/>
 		  <String Target="添加映像" Link="新增映像"/>
-          <String Target="释放映像	Ctrl+N" Link="套用映像	Ctrl+N"/>
+          <String Target="释放映像	Ctrl+N" Link="釋放映像	Ctrl+N"/>
           <String Target="挂载映像	Ctrl+Shift+N" Link="掛接映像	Ctrl+Shift+N"/>
           <String Target="添加路径" Link="新增路徑"/>
 		  <String Target="卸载映像	Delete" Link="移除映像	Delete"/>
