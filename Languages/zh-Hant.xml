@@ -42,7 +42,7 @@
           <String Target="添加路径" Link="新增路徑"/>
 		  <String Target="卸载映像	Delete" Link="移除映像	Delete"/>
 		  <String Target="保存映像	Ctrl+S" Link="儲存映像	Ctrl+S"/>
-		  <String Target="另存为映像	Ctrl+Shift+S" Link="另存為映像	Ctrl+Shift+S"/>
+		  <String Target="另存为映像	Ctrl+Shift+S" Link="另存映像為	Ctrl+Shift+S"/>
 		  <String Target="打开映像文件	Ctrl+O" Link="開啟映像檔	Ctrl+O"/>
       <String Target="重新载入" Link="重新載入"/>
 		  <String Target="格式转换" Link="格式轉換"/>
@@ -557,8 +557,8 @@
     <String Target="删除Windows Store可能导致你未来无法下载或更新Appx，你确定要继续么？" Link="刪除 Windows Store 可能導致您未來無法下載或更新 Appx，您確定要繼續嗎？"/>
     <String Target="删除Microsoft.XboxIdentityProvider可能导致Windows Store无法使用，你确定要继续么？" Link="刪除 Microsoft.XboxIdentityProvider 可能導致 Windows Store 無法使用，你確定要繼續嗎？"/>
     <String Target="%s 等待超时，请尝试使用空间回收 - 过期Appx清理。" Link="%s 等待超時，請嘗試使用空間回收功能，清理過期 Appx。"/>
-    <String Target="无法初始化Appx管理接口。" Link="無法初始化 Appx 管理接口。"/>
-    <String Target="%s 无法获取Appx关联的账号信息，错误代码：0x%.8X" Link="%s 無法取得 Appx 關聯的帳號資訊，錯誤代碼: 0x%.8X"/>
+    <String Target="无法初始化Appx管理接口。" Link="無法初始化 Appx 管理介面。"/>
+    <String Target="%s 无法获取Appx关联的账号信息，错误代码：0x%.8X" Link="%s 無法取得 Appx 關聯的帳號資訊，錯誤代碼：0x%.8X"/>
     <String Target="%s 无法获取账号SID，错误代码：0x%.8X" Link="%s 無法取得帳號 SID，錯誤代碼：0x%.8X"/>
     <String Target="%s 所关联的用户（%s）无法删除，错误代码：0x%.8X" Link="%s 所關聯的使用者 (%s) 無法刪除，錯誤代碼：0x%.8X"/>
     <String Target="%s 未关联任何用户。" Link="%s 未關聯任何使用者。"/>
@@ -1347,7 +1347,7 @@ Command:
     <String Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="該專案清理 Visual Studio 2017 及以後版本的安裝來源"/>
     <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="清理後升級、修復、新增組件、解除安裝 Visual Studio 2017 及之後的版本需要有網路的環境"/>
 
-    <String Target="损坏的Appx" Link="損壞的Appx"/>
+    <String Target="损坏的Appx" Link="損壞的 Appx"/>
     <String Target="清理损坏的Appx。例如Visual Studio的通用应用XAML设计器暴力删除临时生成的设计器应用，于是会出现大量损坏的Appx。" Link="清理損壞的 Appx。例如 Visual Studio 的通用應用程式 XAML 設計工具暴力刪除臨時產生的設計工具應用程式，於是會出現大量損壞的 Appx。"/>
   </StringMaps>
   <MessageTable>
@@ -1357,7 +1357,7 @@ Command:
     <x800F0830>作業系統被嚴重精簡，請放棄此系統，重新選擇或重新安裝。</x800F0830>
     <x800F0825>此更新已經被固定。因此無法移除此套裝程式。</x800F0825>
     <x800F082E>此更新不支援添加到離線系統，請啟動目標系統，進行線上新增。</x800F082E>
-    <x800F082F>目前系統存在獨佔的掛起操作，請啓動系統，應用掛起後再進行其他操作。</x800F082F>
+    <x800F082F>目前系統存在獨佔的掛起操作，請啟動系統，應用掛起後再進行其他操作。</x800F082F>
     <x000F0801>Dism++ 處於繁忙狀態，可能是其他程式正在執行任務，請稍後再試。</x000F0801>
 
     <xA0020001>僅支援微軟線上提供的 ESD 檔轉換為 ISO 檔案。</xA0020001>
@@ -1368,7 +1368,7 @@ Command:
     <xA0020006>目前系統不包含 Wow64 支援，無法離線處理非 x64 系統。</xA0020006>
     <xA0020007>所需要的 CBSHost.dll 不存在，請確保 Dism++ 的完整性。</xA0020007>
     <xA0020008>作業系統遺失 rundll32.exe，Dism++ 無法正常執行。</xA0020008>
-    <xA0020009>Dism++ 對話當機，建議將程式目錄的 "CBSHost_*.dmp" 壓縮後寄給小鴨子 (mingkuang@live.com) 協助解決此問題。</xA0020009>
+    <xA0020009>Dism++ 工作階段當機，建議將程式目錄的 "CBSHost_*.dmp" 壓縮後寄給小鴨子 (mingkuang@live.com) 協助解決此問題。</xA0020009>
     <xA002000A>Dism++ 發現一些相容性問題，請先為目前系統安裝更新 KB960037，然後繼續。</xA002000A>
 
     <x20020001>目前映像不存在預設檔關聯配置，無法匯出。</x20020001>
