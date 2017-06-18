@@ -167,7 +167,7 @@ Special Thanks to 山形まり花、奎宁
     <String Target="温馨提示：格式化分区该分区所有数据将丢失！" Link="警告：パーティションをフォーマットで、すべてのデータは失われます！"/>
     <String Target="格式化分区（推荐）&#x000A;有助于系统分区整洁，消除文件残留。" Link="フォーマット（おすすめ）&#x000A;パーティションをクリーンし、残余ファイルを削除します。"/>
 
-    <String Target="%s 映像已经还原成功。" Link="イメージ %s を復元完了しました。"/>
+    <String Target="%s 映像已经还原成功。" Link="%s にイメージを復元完了しました。"/>
     <String Target="你需要重启并立即生效么？" Link="変更を保存して、今すぐ再起動しますか？"/>
 
     <String Target="准备就绪" Link="準備完了"/>
@@ -375,7 +375,7 @@ Special Thanks to 山形まり花、奎宁
     <String Target="大约压缩36%" Link="たぶん圧縮 36%"/>
     <String Target="大约压缩38%" Link="たぶん圧縮 38%"/>
     <String Target="大约压缩44%（更小体积）" Link="たぶん圧縮 44%（より小さく）"/>
-    <String Target="加载WofAdk驱动（可能导致蓝屏！）" Link="WofAdk ドライバーの読み込み （BSODの問題が生じる可能性があります！）"/>
+    <String Target="加载WofAdk驱动（可能导致蓝屏！）" Link="WofAdk ドライバーの読込（BSOD 発生可能がある！）"/>
     <String Target="更新差异传输引擎：" Link="差分更新エンジン："/>
     <String Target="关闭" Link="オフ"/>
     <String Target="快速" Link="速い"/>
@@ -539,7 +539,7 @@ Special Thanks to 山形まり花、奎宁
 	  <String Target="补丁包" Link="更新パック"/>
 	  <String Target="正在安装更新" Link="更新をインストール中"/>
 	  <String Target="正在安装第 %d 个更新（共 %d ）" Link="更新をインストール中（%d / %d）"/>
-	  <String Target="刷新" Link="リフレッシュ"/>
+	  <String Target="刷新" Link="再読込"/>
 	  <String Target="添加" Link="追加"/>
     <String Target="语言" Link="言語"/>
     <String Target="Windows %s 语言包" Link="Windows %s 言語パック"/> 
@@ -572,10 +572,10 @@ Special Thanks to 山形まり花、奎宁
     <String Target="正在扫描更新" Link="更新をスキャン中"/>
     <String Target="等待安装" Link="インストール待ち"/>
     <String Target="等待下载" Link="ダウンロード待ち"/>
-    <String Target="下载失败" Link="ダウンロード失敗しました"/>
-    <String Target="安装失败" Link="失敗しました"/>
+    <String Target="下载失败" Link="ダウンロード失敗"/>
+    <String Target="安装失败" Link="インストール失敗"/>
     <String Target="部分成功" Link="部分的に成功"/>
-    <String Target="安装成功" Link="インストール成功しました"/>
+    <String Target="安装成功" Link="インストール成功"/>
     <String Target="一个或者多个更新安装失败，错误代码：0x%.8X" Link="1 つ以上に更新をインストール失敗しました、エラー コード：0x%.8X"/>
     <String Target="正在下载" Link="ダウンロード中"/>
     <String Target="正在安装" Link="インストール中"/>
@@ -866,17 +866,17 @@ Examples:
     <String Target="关闭微软拼音云计算（by Rambin）" Link="クラウド入力無効化 (by Rambin)"/>
 
     <!--Windows Update-->
-    <String Target="自动安装无需重启的更新（by Rambin）" Link="Allow Automatic Updates immediate installation (by Rambin)"/>
+    <String Target="自动安装无需重启的更新（by Rambin）" Link="再起動必要ないの更新は自動的にインストールする (by Rambin)"/>
     
-    <String Target="更新挂起时如果有用户登录不自动重启计算机（by Rambin）" Link="No auto-restart when logged on users for scheduled automatic updates installations (by Rambin)"/>
+    <String Target="更新挂起时如果有用户登录不自动重启计算机（by Rambin）" Link="ログオンしたユーザーは存在すると、スケジュール済の更新をインストールしない (by Rambin)"/>
 
     <String Target="Windows更新不包括驱动程序" Link="Windows Update からドライバーを除外する"/>
 
-    <String Target="*将Windows Update自动更新调整为" Link="*Windows Update will automatically adjust the update"/>
-      <String Target="从不检查（不推荐）" Link="Never check (not recommended)"/>
-      <String Target="仅检查更新" Link="Check update only"/>
-      <String Target="检查并下载更新" Link="Check&amp;Download updates"/>
-      <String Target="自动安装更新（推荐）" Link="Auto Install(recommended)"/>
+    <String Target="*将Windows Update自动更新调整为" Link="*Windows Update のインストール方法"/>
+      <String Target="从不检查（不推荐）" Link="確認しない（推奨しません）"/>
+      <String Target="仅检查更新" Link="確認のみ"/>
+      <String Target="检查并下载更新" Link="確認とダウンロードのみ"/>
+      <String Target="自动安装更新（推荐）" Link="自動的にインストール（推奨）"/>
 
     <String Target="禁止自动更新到Internet Explorer 9" Link="Internet Explorer 9 に自動アップグレード無効化"/>
 
@@ -925,7 +925,7 @@ Examples:
       <String Target="禁用后系统将无法使用文件预读等功能，这可能导致系统性能下降！" Link="無効して、いくつかのシステム機能は利用できません（プリフェッチなど）、それは、パフォーマンスの低下を引き起こす可能性があります！"/>
 
     <!--WinRAR-->
-    <String Target="锁定WinRAR工具栏（by 原罪）" Link="Lock WinRAR's toolbar (by YZ)"/>
+    <String Target="锁定WinRAR工具栏（by 原罪）" Link="WinRAR のツールバーを固定する (by YZ)"/>
 
     <String Target="隐藏WinRAR 在右键菜单中添加的&quot;压缩并 E-mail...&quot;（by 原罪）" Link="Hide &quot;Compression and E-mail...&quot; context menu which added by WinRAR (by YZ)"/>
     
@@ -935,7 +935,7 @@ Examples:
     <!--其他-->
     <String Target="*隐藏Windows 10升级助手GWX" Link="*Hide Windows 10 Upgrade Assistant (GWX)"/>
 
-    <String Target="关闭OneDrive（by Rambin）" Link="Disable OneDrive (by Rambin)"/>
+    <String Target="关闭OneDrive（by Rambin）" Link="OneDrive 無効化 (by Rambin)"/>
       <String Target="禁用OneDrive将导致某些Windows Store应用无法使用OneDrive存储。" Link="Disable OneDrive will cause Windows Store applications can not use OneDrive storage."/>
 
     <String Target="*VHD启动时不要将VHD动态文件扩展到最大（以节省空间）" Link="*Prevent expanded file size to the maximum when booting by dynamic VHD file (To save space)"/>
@@ -1060,15 +1060,15 @@ Examples:
  Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"
             Link="/Plugin:&lt;Plugin_ID&gt;	- To run the commands supported with a plug-in.
 
-Examples:
+例：
  Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"/>
     <String Target="可以使用以下命令来操作此映像：
 
 插件命令：
  /Plugin	- 启动特定插件（需要插件支持命令参数）"
-            Link="You can use these commands to operate this image:
+            Link="以下のコマンドはこのイメージを操作します：
 コマンド：
- /Plugin	- Run the designated plug-in (Need plugin support)"/>
+ /Plugin	- 特定のプラグインを実行（プラグインをサポートのみ）"/>
     <String Target="正在压缩" Link="圧縮中"/>
     <String Target="正在解压" Link="展開中"/>
     <String Target="操作完成！" Link="完了しました！"/>
@@ -1375,8 +1375,8 @@ Examples:
     <x20020002>Dism++は以下の問題が見つかりました:正常にシステムを操作するために、hostはWindows 8/2012と以上の必要があります。もし低バージョンのhostを使用し続ければ、[オン / オフ 機能] と [インストール / アップデート / アンインストール] には意外の問題が発生の可能性があります。</x20020002>
     <x20020003>Dism++ は既知の互換性問題を発見された、イメージのパスは英字以外を含むで更新をインストール失敗可能性があります、英字のみパスにこのイメージを再マウントください。（例：D:\Mount）</x20020003>
 
-    <xC1440136>wof ドライバーはロードしません、続行して、[オプション] - [もっと設定] - [WofAdk ドライバーの読み込み] を[オン] してください。</xC1440136>
-    <xC144013B>wof ドライバーはロードしません、続行して、[オプション] - [もっと設定] - [WofAdk ドライバーの読み込み] を [オン] してください。</xC144013B>
+    <xC1440136>wof ドライバーはロードしません、続行して、[オプション] - [もっと設定] - [WofAdk ドライバーの読込] を [オン] してください。</xC1440136>
+    <xC144013B>wof ドライバーはロードしません、続行して、[オプション] - [もっと設定] - [WofAdk ドライバーの読込] を [オン] してください。</xC144013B>
     
     <!--VSS-->
     <x80042302>Volume Shadow Copy サービスは無効です、続行して、Volume Shadow Copy サービスのスタートアップ種類を [手動] してください。</x80042302>
