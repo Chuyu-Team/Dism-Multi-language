@@ -199,7 +199,7 @@ Special Thanks to 山形まり花、奎宁
 	  <String Target="系统版本" Link="OS バージョン"/>
 	
 	  <String Target="不压缩映像" Link="圧縮なし"/>
-	  <String Target="WIMBoot压缩映像" Link="WIMBoot圧縮"/>
+	  <String Target="WIMBoot压缩映像" Link="WIMBoot 圧縮"/>
 	  <String Target="快速压缩映像" Link="高速圧縮"/>
 	  <String Target="最大压缩映像" Link="最大圧縮"/>
 	  <String Target="极限压缩映像" Link="超圧縮"/>
@@ -664,7 +664,7 @@ Special Thanks to 山形まり花、奎宁
     <String Target="让其他程序以无视权限方式运行。" Link="その他のプログラムはアクセス許可を無視で実行する。"/>
     <String Target="请在此输入命令或者程序路径，比如regedit" Link="コマンドあるいはプログラム パスを入力ください、例：regedit"/>
     <String Target="说明" Link="ヒント"/>
-    <String Target="本工具可以让其他程序以无视权限形式运行，本功能可以通过命令行参数调用，详情请参考帮助文档了解具体用法。" Link="This tool can run some programs without rights checking. You can invoke this function with command line. Please refer to the document."/>
+    <String Target="本工具可以让其他程序以无视权限形式运行，本功能可以通过命令行参数调用，详情请参考帮助文档了解具体用法。" Link="このツールは他のプログラムのアクセス許可を確認せず、直接的に実行する。コマンドで呼び出すことかできます。使い方は、ドキュメントを参照してください。"/>
     <String Target="/GodMode {Commendline}
  春哥附体执行Cmd命令，其命令格式与Cmd用法一致
 
@@ -673,9 +673,9 @@ Special Thanks to 山形まり花、奎宁
  Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode regedit.exe
  Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode &quot;\&quot;C:\Windows\notepad.exe\&quot; \&quot;C:\123.txt\&quot;&quot;"
             Link="/GodMode {Commandline}
- God mode uses cmd. The usage is the same as cmd usage.
+ God mode は cmd コマンドを実行します。同じような cmd コマンド。
 
-Examples:
+例：
  Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode cmd
  Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode regedit.exe
  Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode &quot;\&quot;C:\Windows\notepad.exe\&quot; \&quot;C:\123.txt\&quot;&quot;"/>
@@ -721,7 +721,7 @@ Examples:
 
     <String Target="将用户账号控制程序（UAC）调整为" Link="コンピューターに対する変更の通知を受け取るタイミングの選択（ユーザー アカウント制御の設定）"/>
       <String Target="从不通知（不推荐）" Link="通知しない(推奨されていません)"/>
-        <String Target="此选项将导致计算机面临安全风险！" Link="This item will make the computer into security risk!"/>
+        <String Target="此选项将导致计算机面临安全风险！" Link="このアイテムはお使いのデバイスは脆弱な状態にある！"/>
       <String Target="提示我但不降低亮度" Link="通知する(暗転しない)"/>
       <String Target="提示我（推荐）" Link="通知する(既定)"/>
       <String Target="总是提示我" Link="常に通知する"/>
@@ -856,11 +856,11 @@ Examples:
 
     <String Target="不保存附件的区域信息（by 古畑任三郎）" Link="地域情報は保存しない (by niphor)"/>
     
-    <String Target="启用增强保护模式" Link="Enable Enhanced Protected Mode"/>
+    <String Target="启用增强保护模式" Link="拡張保護モード有効化"/>
 
-    <String Target="针对增强保护模式启用64位进程" Link="Enable 64-bit processes for Enhanced Protected Mode"/>
+    <String Target="针对增强保护模式启用64位进程" Link="拡張保護モードで 64 ビット プロセス有効化"/>
     
-    <!--微软拼音输入法--><String Target="微软拼音输入法" Link="Microsoft Pinyin IME"/>
+    <!--微软拼音输入法--><String Target="微软拼音输入法" Link="Microsoft Pinyin 入力方法"/>
     <String Target="微软拼音默认为英语输入（by Rambin）" Link="英語は既定の入力モード (by Rambin)"/>
     
     <String Target="关闭微软拼音云计算（by Rambin）" Link="クラウド入力無効化 (by Rambin)"/>
@@ -893,7 +893,7 @@ Examples:
     <String Target="*关闭默认共享（by 518516.net）" Link="*既定の共有が閉じる (by 518516.net)"/>
 
     <String Target="*关闭防火墙（by 一叶微风TM）" Link="*Windows ファイアウォールが閉じる (by YiYieWeiFeng TM)"/>
-      <String Target="此选项将降低计算机安全性，请确保你已经安装第三方防火墙软件！" Link="This item will reduce the computer security. Please make sure you have the third-party firewall!"/>
+      <String Target="此选项将降低计算机安全性，请确保你已经安装第三方防火墙软件！" Link="このアイテムは PC のセキュリティを低下する、サード パーティのファイアウォールを有効確認してください！"/>
 
     <String Target="*关闭远程协助（by 原罪）" Link="*リモート アシスタンスの接続無効化 (by YZ)"/>
     
@@ -1127,7 +1127,7 @@ Examples:
     <String Target="系统更新时在WinSxS里面产生的临时文件。" Link="When system updating, system make the temp files."/>
     
     <String Target="Windows日志（by chenyu、YukiSakura）" Link="Windows ログ（by chenyu, YukiSakura）"/>
-    <String Target="Windows在运行时产生的日志。" Link="Windows log files."/>
+    <String Target="Windows在运行时产生的日志。" Link="Windows のログ ファイル。"/>
 
     <String Target="Windows下载缓存" Link="Windows ダウンロード キャッシュ"/>
     <String Target="Windows在下载更新以及更新Metro应用时会在这里产生临时安装包。" Link="When windows downloading updates or updating metro apps, system make temp installation packages in here"/>
@@ -1201,7 +1201,7 @@ Examples:
     <String Target="苹果相关设备备份文件，比如通讯录、照片、视频等。" Link="The backup of iOS(or MAC). For example, contacts, photos, videos..."/>
     <String Target="请你确保暂时不需要使用恢复功能，如果你现在需要恢复苹果设备，请勿勾选此项目！" Link="Please ensure you will not use the recovery function temporary. If you need to restore the iOS(or MAC)device, do not select this item!"/>
 
-    <String Target="硬链接备份" Link="HardLink Backup"/>
+    <String Target="硬链接备份" Link="ハード リンクのバックアップ"/>
     <String Target="硬链接合并功能留下的备份文件。" Link="Hardlink merge feature left the backup."/>
     <String Target="请你确保硬链接合并后系统正常，删除此文件将导致硬链接合并操作无法回滚！" Link="Please ensure the system is normal if the hardlink is merged, delete the file will lead the hardlink cannot recovery!"/>
 
@@ -1294,7 +1294,7 @@ Examples:
     <String Target="2345拼音输入法老版本备份（by 何超）" Link="以前バージョンの 2345 Pinyin IME バックアップ (by HeChao)"/>
     <String Target="2345拼音输入法在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Backup files of 2345 Pinyin IME after upgrade, for rollback in case of problems."/>
 
-    <String Target="WPS老版本备份（by Rambin）" Link="Backup files of WPS old version (by Rambin)"/>
+    <String Target="WPS老版本备份（by Rambin）" Link="以前バージョンの WPS バックアップ (by Rambin)"/>
     <String Target="WPS在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Backup files of WPS after upgrade, for rollback in case of problems."/>
 
     <String Target="系统还原点" Link="システムの復元ポイント"/>
