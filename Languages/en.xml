@@ -583,7 +583,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="Windows Update数据库已经存在新版本，你需要更新吗？" Link="Your database for Windows Update is out-of-date. Update now?"/>
     <String Target="下载%d%%" Link="Down. %d%%"/>
     <String Target="将现有的本地补丁包添加至系统。" Link="Adding available local patches to the image."/>
-    <String Target="使用Dism++数据库扫描当前系统需要的更新列表。" Link="Use Dism++ database to detect updates needed by the current image."/>
+    <String Target="使用Dism++数据库扫描当前系统需要的更新。" Link="Use Dism++ database to detect updates needed by the current image."/>
     <String Target="自动下载并安装更新列表中选中的更新。" Link="Automatically download and install selected updates."/>
     <String Target="计算机已经安装最新更新。" Link="Already installed latest updates."/>
     <String Target="正在删除过期补丁缓存" Link="Deleting outdated patch cache"/>
