@@ -275,25 +275,6 @@
     </Item>
 
     <!--系统相关-->
-
-    <Item Name="#CompactOs（较慢）" Level="2">
-      <Description>#对单纯读取的文件进行哈夫曼压缩，在不影响性能的情况下，显著减少系统体积。特别感谢矿工以及所有Compact团队成员无私的支持与帮助。</Description>
-      <Warning>#此功能与某些硬盘备份软件不兼容。如果使用后出现问题，可以点击 恢复功能-->撤销Compact。</Warning>
-      <Group>#系统相关</Group>
-      <Scan Work="30">
-        <Applicable>
-          <Not>
-            <ImageFlags>4</ImageFlags>
-          </Not>
-          <OSVersion Compare=">=">6.3</OSVersion>
-          <FileExist FilePath="%System%\drivers\wof.sys"/>
-        </Applicable>
-        <Activate>
-          <Custom ProcName="DismCompactOs"/>
-        </Activate>
-      </Scan>
-    </Item>
-
     <Item Name="#系统自带Appx应用" Level="2">
       <Description>#此功能将移除所有系统自带Appx应用，移除后可以在Windows应用商店重新下载他们。</Description>
       <Group>#系统相关</Group>
@@ -1064,7 +1045,6 @@
     </Item>
 
     <!--存在风险-->
-
     <Item Name="#CompactOs（较慢）" Level="0">
       <Description>#对单纯读取的文件进行哈夫曼压缩，在不影响性能的情况下，显著减少系统体积。特别感谢矿工以及所有Compact团队成员无私的支持与帮助。</Description>
       <Warning>#使用后可能导致某些程序无法正常运行甚至让系统无法启动，如果使用后出现问题，可以在PE中点击 恢复功能-->撤销Compact。</Warning>
@@ -1075,12 +1055,15 @@
             <ImageFlags>4</ImageFlags>
           </Not>
           <Or>
-            <OSVersion Compare="&lt;">6.3</OSVersion>
+            <Or>
+              <!--Windows 7/8直接显示-->
+              <OSVersion>6.1</OSVersion>
+              <OSVersion>6.2</OSVersion>
+            </Or>
             <And>
-              <OSVersion>6.3</OSVersion>
-              <Not>
-                <FileExist FilePath="%System%\drivers\wof.sys"/>
-              </Not>
+              <!--6.3以上平台必须存在Wof.sys不然不工作-->
+              <OSVersion  Compare=">=">6.3</OSVersion>
+              <FileExist FilePath="%System%\drivers\wof.sys"/>
             </And>
           </Or>
         </Applicable>
