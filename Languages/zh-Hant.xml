@@ -42,7 +42,7 @@
           <String Target="添加路径" Link="新增路徑"/>
 		  <String Target="卸载映像	Delete" Link="移除映像	Delete"/>
 		  <String Target="保存映像	Ctrl+S" Link="儲存映像	Ctrl+S"/>
-		  <String Target="另存为映像	Ctrl+Shift+S" Link="另存映像為	Ctrl+Shift+S"/>
+		  <String Target="另存为映像	Ctrl+Shift+S" Link="另存映像	Ctrl+Shift+S"/>
 		  <String Target="打开映像文件	Ctrl+O" Link="開啟映像檔	Ctrl+O"/>
       <String Target="重新载入" Link="重新載入"/>
 		  <String Target="格式转换" Link="格式轉換"/>
@@ -293,7 +293,7 @@
 	  <String Target="你可以在此处修改映像文件信息（支持双击修改）" Link="您可以在此處修改映像檔資訊 (支援按兩下修改)"/>
 	  <String Target="在此处设置捕获映像的文件豁免列表加快捕获速度，每个条目用回车分割。" Link="在此處設定捕捉映像檔案的豁免清單，加快捕捉速度，每個項目以 Enter 鍵隔開。"/>
 	  <String Target="如何配置豁免列表" Link="如何配置豁免清單"/>
-	  <String Target="另存为映像" Link="另存為映像"/>
+	  <String Target="另存为映像" Link="另存映像"/>
     <String Target="卷影复制" Link="陰影複製 (VSS)"/>
     
 	  <!--系统修复-->
