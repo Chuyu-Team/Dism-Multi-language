@@ -130,7 +130,7 @@
 	
 	  <String Target="正在挂载" Link="正在掛載"/>
     <String Target="正在卸载映像" Link="正在移除映像"/>
-	  <String Target="正在释放" Link="正在套用"/>
+	  <String Target="正在释放" Link="正在釋放"/>
 	  <String Target="正在还原" Link="正在還原"/>
 	  <String Target="%s 位置的映像正在进行其他事情，请稍后再试。" Link="%s 位置的映像正在執行中，請稍後再試。"/>
     <String Target="无法移动文件 %s，Dism++已回滚对系统的更改。" Link="無法移動檔案 %s，Dism++ 已復原對系統的更改。"/>
@@ -286,7 +286,7 @@
     <String Target="请在此输入映像文件路径，比如 D:\Backup.wim" Link="請在此輸入映像檔路徑，例如 D:\Backup.wim"/>
     <String Target="添加引导" Link="新增 Boot"/>
     <String Target="格式化" Link="格式化"/>
-    <String Target="释放映像" Link="套用映像"/>
+    <String Target="释放映像" Link="釋放映像"/>
     <String Target="挂载映像 " Link="掛接映像"/>
 
     <!--另存为映像 -->
@@ -370,7 +370,7 @@
     <String Target="整合右键菜单" Link="整合至右鍵功能表"/>
     <String Target="整合引导菜单" Link="整合 BCD boot 選單"/>
     <String Target="排除列表" Link="排除清單"/>
-    <String Target="减少映像文件（WIM、ESD）保存时间" Link="減少映像檔 (WIM、ESD)儲存時間"/>
+    <String Target="减少映像文件（WIM、ESD）保存时间" Link="減少映像檔 (WIM、ESD) 儲存時間"/>
     <String Target="CompactOS压缩率" Link="CompactOS 壓縮率"/>
     <String Target="压缩率越小性能越好（仅影响选中系统）" Link="壓縮率越小效能越好 (僅影響已選取的系統)"/>
     <String Target="大约压缩33%（更佳性能）" Link="大約壓縮 33% (更佳效能)"/>
