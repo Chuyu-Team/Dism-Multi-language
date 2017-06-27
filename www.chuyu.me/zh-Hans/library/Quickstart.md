@@ -4,13 +4,13 @@
 ## 界面布局
 如图所示，顶端的标签可以切换不同的系统`（如果你有多个操作系统）`。左侧为功能列表，可以选择你所需要的功能。对于一般用户来说，直接点击`空间回收`就可以啦。
 
-![MainUI](../amWiki/images/MainUI.png)
+![MainUI](./images/MainUI.png)
 
 ## 清理系统垃圾
 <br>
 >建议你不要过于频繁的清理垃圾，尤其是SSD！一般建议一个月清理一次即可。
 
-![CleanupUI](../amWiki/images/CleanupUI.png)
+![CleanupUI](./images/CleanupUI.png)
 
 <br>
 程序启动后，点击`空间回收`，即可看到此界面。然后选中你需要清理的项目，在点击`扫描`（预计可以释放的空间）或者直接点击`清理`（不预估大小，立即删除）。最后如果你有更好的清理项目，点击 `帮助 - 反馈BUG`，提交你的规则。
@@ -21,9 +21,9 @@
 ## 备份系统
 俗话说有“备”无患，现在Dism++ 能够直接将当前系统备份为WIM、ESD，无需进入PE。使用方法很简单，选中当前系统，点击恢复功能 —— 系统备份即可。
 
-![BackupImage](../amWiki/images/BackupImage.png)
+![BackupImage](./images/BackupImage.png)
 
-![BackupImage-WimPath](../amWiki/images/BackupImage-WimPath.png)
+![BackupImage-WimPath](./images/BackupImage-WimPath.png)
 <br>然后输入WIM文件路径，最后点击确定即可。
 >如果WIM文件已经存在，则自动增量到现有的WIM文件，执行增量备份。
 
@@ -33,7 +33,7 @@
 当系统出问题时，你可以使用之前备份的系统进行还原，快速恢复计算机环境。Dism++为了降低恢复系统的难度，程序支持热还原模式。即用户无需启动PE直接在本机就能还原。如果你的电脑出问题了，你可以启动Dism++，点击恢复功能 -
 系统还原。选择WIM文件路径后，点击确定即可，如下图所示。
 
-![RecoveryImage](../amWiki/images/RecoveryImage.png)
+![RecoveryImage](./images/RecoveryImage.png)
 
 >温馨提示：如果你的系统已经无法启动，那么可以通过BCD菜单中的Dism++`（需要开启 整合引导菜单）`或者启动PE进行上述步骤。
 

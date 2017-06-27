@@ -19,7 +19,7 @@ Dism++ 可以說是一個 Dism 的 GUI 版，但是並不依賴 Dism，直接基
 
 `貼心提醒：贊助並不是等於付費支援，此軟體為個人愛好業餘維護。BUG 反映以及改進意見並不能保證 100% 及時回應並處理。因此請勿僅僅為了後期服務支援而贊助 Dism++。`
 
-![WeiXin](../amWiki/images/weixin.png)  ![zhifubao](../amWiki/images/1487498940074.jpg)
+![WeiXin](../images/weixin.png)  ![zhifubao](../images/1487498940074.jpg)
 
 ## Dism++ 執行要求
 
