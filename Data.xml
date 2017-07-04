@@ -6525,9 +6525,7 @@
 
       <Item Type="Combo" Name="#关闭游戏录制工具（by 、Cloud.）">
         <Applicable>
-          <Applicable>
-            <OSVersion Compare=">=">6.4</OSVersion>
-          </Applicable>
+          <OSVersion Compare=">=">6.4</OSVersion>
         </Applicable>
         <Current>
           <State>
@@ -6593,9 +6591,7 @@
       
       <Item Type="CheckBox" Name="#登陆界面默认打开小键盘（by IT之家）">
         <Applicable>
-          <Applicable>
-            <OSVersion Compare="&lt;=">6.1</OSVersion>
-          </Applicable>
+          <OSVersion Compare="&lt;=">6.1</OSVersion>
         </Applicable>
         <System>
           <State>
@@ -6617,9 +6613,7 @@
       </Item>
       <Item Type="CheckBox" Name="#登陆界面默认打开小键盘（by IT之家）">
         <Applicable>
-          <Applicable>
-            <OSVersion Compare=">=">6.2</OSVersion>
-          </Applicable>
+          <OSVersion Compare=">=">6.2</OSVersion>
         </Applicable>
         <System>
           <State>
