@@ -2491,6 +2491,11 @@
           <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{35286a68-3c57-41a1-bbb1-0eae73d76c95}"/>
           <!--音乐-->
           <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{a0c69a99-21c8-4671-8703-7934162fcf1d}"/>
+
+          <Not>
+            <!--3D对象-->
+            <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{31C0DD25-9439-4F12-BF41-7FF4EDA38722}"/>
+          </Not>
         </Applicable>
         <System>
           <State>
@@ -2550,6 +2555,86 @@
         </System>
       </Item>
 
+      <Item Type="CheckBox" Name="#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by Cloud）">
+        <Applicable>
+          <OSVersion>10.0</OSVersion>
+          <!--下载-->
+          <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{7d83ee9b-2244-4e70-b1f5-5393042af1e4}"/>
+          <!--桌面-->
+          <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}"/>
+          <!--我的文档-->
+          <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{f42ee2d3-909f-4907-8871-4c22fc0bf756}"/>
+          <!--图片-->
+          <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{0ddd015d-b06c-45d5-8c4c-f59713854639}"/>
+          <!--视频-->
+          <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{35286a68-3c57-41a1-bbb1-0eae73d76c95}"/>
+          <!--音乐-->
+          <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{a0c69a99-21c8-4671-8703-7934162fcf1d}"/>
+          <!--3D对象-->
+          <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{31C0DD25-9439-4F12-BF41-7FF4EDA38722}"/>
+        </Applicable>
+        <System>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{7d83ee9b-2244-4e70-b1f5-5393042af1e4}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide"/>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide"/>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{f42ee2d3-909f-4907-8871-4c22fc0bf756}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide"/>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{0ddd015d-b06c-45d5-8c4c-f59713854639}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide"/>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{35286a68-3c57-41a1-bbb1-0eae73d76c95}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide"/>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{a0c69a99-21c8-4671-8703-7934162fcf1d}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide"/>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{31C0DD25-9439-4F12-BF41-7FF4EDA38722}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide"/>
+
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{7d83ee9b-2244-4e70-b1f5-5393042af1e4}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide" Wow64="True"/>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide" Wow64="True"/>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{f42ee2d3-909f-4907-8871-4c22fc0bf756}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide" Wow64="True"/>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{0ddd015d-b06c-45d5-8c4c-f59713854639}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide" Wow64="True"/>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{35286a68-3c57-41a1-bbb1-0eae73d76c95}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide" Wow64="True"/>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{a0c69a99-21c8-4671-8703-7934162fcf1d}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide" Wow64="True"/>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{31C0DD25-9439-4F12-BF41-7FF4EDA38722}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide" Wow64="True"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{7d83ee9b-2244-4e70-b1f5-5393042af1e4}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{f42ee2d3-909f-4907-8871-4c22fc0bf756}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{0ddd015d-b06c-45d5-8c4c-f59713854639}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{35286a68-3c57-41a1-bbb1-0eae73d76c95}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{a0c69a99-21c8-4671-8703-7934162fcf1d}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{31C0DD25-9439-4F12-BF41-7FF4EDA38722}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide"/>
+
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{7d83ee9b-2244-4e70-b1f5-5393042af1e4}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide" Wow64="True"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide" Wow64="True"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{f42ee2d3-909f-4907-8871-4c22fc0bf756}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide" Wow64="True"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{0ddd015d-b06c-45d5-8c4c-f59713854639}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide" Wow64="True"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{35286a68-3c57-41a1-bbb1-0eae73d76c95}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide" Wow64="True"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{a0c69a99-21c8-4671-8703-7934162fcf1d}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide" Wow64="True"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{31C0DD25-9439-4F12-BF41-7FF4EDA38722}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide" Wow64="True"/>
+
+              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{7d83ee9b-2244-4e70-b1f5-5393042af1e4}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Show"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Show"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{f42ee2d3-909f-4907-8871-4c22fc0bf756}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Show"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{0ddd015d-b06c-45d5-8c4c-f59713854639}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Show"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{35286a68-3c57-41a1-bbb1-0eae73d76c95}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Show"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{a0c69a99-21c8-4671-8703-7934162fcf1d}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Show"/>
+
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{7d83ee9b-2244-4e70-b1f5-5393042af1e4}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Show" Wow64="True"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Show" Wow64="True"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{f42ee2d3-909f-4907-8871-4c22fc0bf756}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Show" Wow64="True"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{0ddd015d-b06c-45d5-8c4c-f59713854639}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Show" Wow64="True"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{35286a68-3c57-41a1-bbb1-0eae73d76c95}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Show" Wow64="True"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{a0c69a99-21c8-4671-8703-7934162fcf1d}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Show" Wow64="True"/>
+              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
+      
       <Item Type="CheckBox" Name="#*隐藏桌面右下角教育版水印">
         <Applicable>
           <OSVersion>10.0</OSVersion>
@@ -3215,6 +3300,57 @@
           <False>
             <Activate>
               <RegDelete Key="HKEY_USERS\DEFAULT\Software\Microsoft\CTF\LangBar\ItemState\{ED9D5450-EBE6-4255-8289-F8A31E687228}" Value="DemoteLevel"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
+    
+      <Item Type="CheckBox" Name="#禁止自动安装推荐的应用程序（by IT之家）">
+        <Applicable>
+          <OSVersion Compare=">=">10.0</OSVersion>
+        </Applicable>
+        <Current>
+            <State>
+              <Applicable>
+                <Or>
+                  <Not>
+                    <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled"/>
+                  </Not>
+                  <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
+                </Or>
+              </Applicable>
+            </State>
+            <True>
+              <Activate>
+                <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
+              </Activate>
+            </True>
+            <False>
+              <Activate>
+                <RegDelete Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled"/>
+              </Activate>
+            </False>
+        </Current>
+
+        <Default>
+          <State>
+            <Applicable>
+              <Or>
+                <Not>
+                  <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled"/>
+                </Not>
+                <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
+              </Or>
+          </Applicable>
+          </State>
+          <True>
+              <Activate>
+                <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
+              </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled"/>
             </Activate>
           </False>
         </Default>
@@ -4740,6 +4876,128 @@
               <RegMove NewKey="HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\WorkFolders" Key="HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\WorkFolders" SkipError="2"/>
               <RegMove NewKey="HKEY_CLASSES_ROOT\Directory\background\shellex\ContextMenuHandlers\WorkFolders" Key="HKEY_CLASSES_ROOT\Directory\background\-shellex\ContextMenuHandlers\WorkFolders" SkipError="2"/>
               <RegMove NewKey="HKEY_CLASSES_ROOT\AllFilesystemObjects\shell\LaunchWorkfoldersControl" Key="HKEY_CLASSES_ROOT\AllFilesystemObjects\-shell\LaunchWorkfoldersControl" SkipError="2"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
+
+      <Item Type="CheckBox" Name="#禁用文件的“View 3D”右键菜单（by Cloud）">
+        <Applicable>
+          <Or>
+            <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\Shell\T3D Print"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\Shell\T3D Print"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.png\Shell\T3D Print"/>
+
+            <RegExist Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.bmp\Shell\T3D Print"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.jpg\Shell\T3D Print"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.png\Shell\T3D Print"/>
+          </Or>
+        </Applicable>
+        <System>
+          <State>
+            <Applicable>
+              <Not>
+                <Or>
+                  <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\Shell\T3D Print"/>
+                  <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\Shell\T3D Print"/>
+                  <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.png\Shell\T3D Print"/>
+                </Or>
+              </Not>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegMove Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\Shell\T3D Print" NewKey="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.bmp\Shell\T3D Print" SkipError="2"/>
+              <RegMove Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\Shell\T3D Print" NewKey="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.jpg\Shell\T3D Print" SkipError="2"/>
+              <RegMove Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.png\Shell\T3D Print" NewKey="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.png\Shell\T3D Print" SkipError="2"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\Shell\T3D Print" Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.bmp\Shell\T3D Print" SkipError="2"/>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\Shell\T3D Print" Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.jpg\Shell\T3D Print" SkipError="2"/>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\SystemFileAssociations\.png\Shell\T3D Print" Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.png\Shell\T3D Print" SkipError="2"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
+
+      <Item Type="CheckBox" Name="#禁用文件的“画图 3D”右键菜单（by Cloud）">
+        <Applicable>
+          <Or>
+            <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.tif\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.png\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpeg\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpe\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.jfif\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.fbx\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.3mf\Shell\3D Edit"/>
+
+            <RegExist Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.tiff\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.tif\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.png\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.jpg\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.jpeg\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.jpe\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.jfif\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.gif\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.fbx\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.bmp\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.3mf\Shell\3D Edit"/>
+          </Or>
+        </Applicable>
+        <System>
+          <State>
+            <Applicable>
+              <Not>
+                <Or>
+                  <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff\Shell\3D Edit"/>
+                  <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.tif\Shell\3D Edit"/>
+                  <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.png\Shell\3D Edit"/>
+                  <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\Shell\3D Edit"/>
+                  <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpeg\Shell\3D Edit"/>
+                  <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpe\Shell\3D Edit"/>
+                  <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.jfif\Shell\3D Edit"/>
+                  <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\Shell\3D Edit"/>
+                  <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.fbx\Shell\3D Edit"/>
+                  <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\Shell\3D Edit"/>
+                  <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.3mf\Shell\3D Edit"/>
+                </Or>
+              </Not>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegMove Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff\Shell\3D Edit" NewKey="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.tiff\Shell\3D Edit" SkipError="2"/>
+              <RegMove Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.tif\Shell\3D Edit" NewKey="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.tif\Shell\3D Edit" SkipError="2"/>
+              <RegMove Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.png\Shell\3D Edit" NewKey="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.png\Shell\3D Edit" SkipError="2"/>
+              <RegMove Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\Shell\3D Edit" NewKey="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.jpg\Shell\3D Edit" SkipError="2"/>
+              <RegMove Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpeg\Shell\3D Edit" NewKey="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.jpeg\Shell\3D Edit" SkipError="2"/>
+              <RegMove Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpe\Shell\3D Edit" NewKey="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.jpe\Shell\3D Edit" SkipError="2"/>
+              <RegMove Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.jfif\Shell\3D Edit" NewKey="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.jfif\Shell\3D Edit" SkipError="2"/>
+              <RegMove Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\Shell\3D Edit" NewKey="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.gif\Shell\3D Edit" SkipError="2"/>
+              <RegMove Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.fbx\Shell\3D Edit" NewKey="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.fbx\Shell\3D Edit" SkipError="2"/>
+              <RegMove Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\Shell\3D Edit" NewKey="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.bmp\Shell\3D Edit" SkipError="2"/>
+              <RegMove Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.3mf\Shell\3D Edit" NewKey="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.3mf\Shell\3D Edit" SkipError="2"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff\Shell\3D Edit" Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.tiff\Shell\3D Edit" SkipError="2"/>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\SystemFileAssociations\.tif\Shell\3D Edit" Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.tif\Shell\3D Edit" SkipError="2"/>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\SystemFileAssociations\.png\Shell\3D Edit" Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.png\Shell\3D Edit" SkipError="2"/>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\Shell\3D Edit" Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.jpg\Shell\3D Edit" SkipError="2"/>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpeg\Shell\3D Edit" Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.jpeg\Shell\3D Edit" SkipError="2"/>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpe\Shell\3D Edit" Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.jpe\Shell\3D Edit" SkipError="2"/>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\SystemFileAssociations\.jfif\Shell\3D Edit" Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.jfif\Shell\3D Edit" SkipError="2"/>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\Shell\3D Edit" Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.gif\Shell\3D Edit" SkipError="2"/>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\SystemFileAssociations\.fbx\Shell\3D Edit" Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.fbx\Shell\3D Edit" SkipError="2"/>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\Shell\3D Edit" Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.bmp\Shell\3D Edit" SkipError="2"/>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\SystemFileAssociations\.3mf\Shell\3D Edit" Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.3mf\Shell\3D Edit" SkipError="2"/>
             </Activate>
           </False>
         </System>
