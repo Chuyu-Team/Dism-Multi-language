@@ -824,7 +824,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="隐藏资源管理器导航窗口中的OneDrive（by 莫失莫忘）" Link="Masquer OneDrive dans l’Explorateur Windows (par MoWang Moshi)"/>
     <String Target="隐藏资源管理器导航窗口中的可移动设备（by 莫失莫忘）" Link="Masquer les lecteurs amovibles non montés dans l’Explorateur Windows (par MoWangMoShi)"/>
     <String Target="隐藏资源管理器导航窗口中的快速访问（by starP）" Link="Masquer l’Accès Rapide dans l’Explorateur Windows (par starP)"/>
-      <String Target="启用此选项将导致导航窗口拖拽功能无法使用。" Link="L'activation de cette option désactive la fonction de glisser-déposer dans le volet de navigation."/>
+      <String Target="启用此选项将导致导航窗口拖拽功能无法使用。" Link="L’activation de cette option désactive la fonction de glisser-déposer dans le volet de navigation."/>
     
     <!--Internet Explorer-->
     <String Target="关闭多个选项卡时不发出警告（by 一叶微风TM）" Link="Ne pas m’avertir lors de la fermeture de plusieurs onglets (par YiYieWeiFeng TM)"/>
@@ -1040,7 +1040,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="被取代的WinSxS组件" Link="Composants WinSxS remplacés"/>
     <String Target="清理被取代的组件并减少组件存储的大小。" Link="Permet de nettoyer les composants remplacés et de réduire la taille du magasin de composants."/>
     <String Target="清理后将无法卸载更新，如果有卸载更新需求请勿使用此选项。" Link="Après ce nettoyage, les mises à jour de Windows déjà installées ne pourront plus être désinstallées, mais seulement remplacées."/>
-    <String Target="清理后将无法卸载更新，此外ResetBase模式跟系统重置功能有冲突，如果有卸载更新或者系统重置需求请勿使用此选项。" Link="Les mises à jour ne peuvent pas être désinstallées après le nettoyage. De plus, le mode ResetBase est en conflit avec la fonction de réinitialisation du système. N'utilisez pas cette option ci."/>
+    <String Target="清理后将无法卸载更新，此外ResetBase模式跟系统重置功能有冲突，如果有卸载更新或者系统重置需求请勿使用此选项。" Link="Les mises à jour ne peuvent pas être désinstallées après le nettoyage. De plus, le mode ResetBase empêchera la fonction de réinitialisation du système. N’utilisez pas cette option."/>
 
     <String Target="被取代的WinSxS组件（非常慢）" Link="Remplacer les anciens composants WinSxS (très lent)"/>
     
@@ -1156,7 +1156,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="魔方守护以及魔方更新暂存目录，如果你不喜欢魔方守护可以考虑删除。" Link="Dossier temporaire utilisé par PC Master Guard et les mises à jour de PC Master. Si vous n’aimez pas PC Master Guard, vous pouvez le supprimer."/>
 
     <String Target="给力助手" Link="Assistant de GeiLi"/>
-    <String Target="安装蓝手指时留下的给力助手。" Link="Lorsque vous installez des bluestacks, le programme a laissé l'assistant GeiLi."/>
+    <String Target="安装蓝手指时留下的给力助手。" Link="Lorsque vous installez des bluestacks, le programme a laissé l’assistant GeiLi."/>
 
     <String Target="迅雷游戏" Link="Dossier des jeux Thunder"/>
     <String Target="迅雷游戏安装后所在目录，一般人不需要此程序，可以考虑删除。" Link="Dossier des jeux Thunder installés. La plupart des utilisateurs n’ont pas besoin de ce programme, vous pouvez décider de les supprimer."/>
@@ -1288,8 +1288,8 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="Nettoyer Visual Studio 2017 et versions ultérieures de l’installation source."/>
     <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="Après le nettoyage, la mise à niveau, la correction, l’ajout de composants et la désinstallation doivent être en réseau (Visual Studio 2017 et versions ultérieures)."/>
 
-    <String Target="损坏的Appx" Link="Appx endommagé"/>
-    <String Target="清理损坏的Appx。例如Visual Studio的通用应用XAML设计器暴力删除临时生成的设计器应用，于是会出现大量损坏的Appx。" Link="Nettoyer Appx. Par exemple, l'application générale XAML conception de Visual Studio supprime brutalement les applications de conception temporaire."/>
+    <String Target="损坏的Appx" Link="Appx endommagés"/>
+    <String Target="清理损坏的Appx。例如Visual Studio的通用应用XAML设计器暴力删除临时生成的设计器应用，于是会出现大量损坏的Appx。" Link="Nettoyer les Appx. Par exemple, l’application générale XAML conception de Visual Studio supprime les applications de conception temporaire sans les désinscrire."/>
   </StringMaps>
   <MessageTable>
     <x800F0806>Une ou plusieurs mise à jour sont en attente, veuillez redémarrer avant de continuer.</x800F0806>
