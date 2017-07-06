@@ -810,6 +810,8 @@ Special Thanks to 山形まり花、奎宁
     <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="ミュージックと写真のプレビューを無効し、エクスプローラーのパフォーマンスを改善する（by 莫失莫忘）"/>
     <String Target="关闭打开程序的“安全警告”（by 莫失莫忘）" Link="プログラム開くの [セキュリティの警告] を閉じる（by 莫失莫忘）"/>
     <String Target="关闭在应用商店中查找关联应用（by Asoft）" Link="ストアからの関連アプリの探しを閉じる（By Asoft）"/>
+    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by Cloud）" Link="PC のビデオ、ピクチャ、ドキュメント、ダウンロード、ミュージック、デスクトップ、3D オブジェクト フォルダーを隠す（by Cloud）"/>
+    <String Target="禁止自动安装推荐的应用程序（by IT之家）" Link="お勧めアプリ自動的にインストールを禁止（by ITHome）"/>
 
     <!--右键菜单管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="右クリック メニューの管理 - 非必要メニューを無効し、パフォーマンスを改善する"/>
@@ -828,6 +830,8 @@ Special Thanks to 山形まり花、奎宁
     <String Target="禁用磁盘的“复制磁盘”右键菜单" Link="右クリック メニューの [ディスクのコピー] を非表示"/>
     <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="右クリック メニューのファイル、フォルダー、デスクトップ、ディスクおよびライブラリの [共有] を無効化"/>
     <String Target="禁用桌面的“小工具”右键菜单" Link="右クリック メニューのデスクトップの [ウィジェット] を無効化"/>
+    <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="右クリック メニューのファイルの [View 3D] を無効化"/>
+    <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="右クリック メニューのファイルの [ペイント 3D] を無効化"/>
 
     <!--桌面图示管理-->
     <String Target="桌面图标管理" Link="デスクトップ アイコンの設定"/>
@@ -842,9 +846,9 @@ Special Thanks to 山形まり花、奎宁
     <!--Internet Explorer-->
     <String Target="关闭多个选项卡时不发出警告（by 一叶微风TM）" Link="複数のタブを閉じるときにメッセージを表示しない (by YiYieWeiFeng TM)"/>
 
-    <String Target="当创建新选项卡时，始终切换到新选项卡（by 一叶微风TM）" Link="新しいタブの作成時には常に新しいタブへ移動する (by YiYieWeiFeng TM)"/>
+    <String Target="当创建新选项卡时，始终切换到新选项卡（by 一叶微风TM）" Link="新しいタブの作成時には常に新しいタブへ移動する（by YiYieWeiFeng TM）"/>
 
-    <String Target="其他程序从当前窗口的新选项卡打开连接（by 一叶微风TM）" Link="Open links from other programs in a new tab in the current window (by YiYieWeiFeng TM)"/>
+    <String Target="其他程序从当前窗口的新选项卡打开连接（by 一叶微风TM）" Link="他のプログラムからのリンクを現在のウインドウの新しいタブで開く（by YiYieWeiFeng TM）"/>
 
     <String Target="以兼容性视图中显示所有网站（by 一叶微风TM）" Link="すべての Web サイトを互換表示で表示する (by YiYieWeiFeng TM)"/>
 
@@ -905,10 +909,10 @@ Special Thanks to 山形まり花、奎宁
     <String Target="禁用诊断服务" Link="診断サービス無効化"/>
 
     <String Target="禁用IPv6转换服务" Link="IP Helper サービス無効化"/>
-      <String Target="禁用此服务将导致IPv6无法正常使用，请确保你不需要使用IPv6！" Link="Disable the service makes IPv6 cannot normal work. Please make sure you won't use IPv6!"/>
+      <String Target="禁用此服务将导致IPv6无法正常使用，请确保你不需要使用IPv6！" Link="このサービスを無効して、IPv6 ネットワークを利用できません、IPv6 利用不要を確認ください！"/>
 
     <String Target="禁用Windows Search" Link="Windows Search 無効化"/>
-      <String Target="禁用此服务将导致搜索文件变慢，并且某些Windows Store应用可能无法正常使用！" Link="Disable the service, will be slower when you search files. And some Windows Store Apps may be not run properly!"/>
+      <String Target="禁用此服务将导致搜索文件变慢，并且某些Windows Store应用可能无法正常使用！" Link="このサービスを無効して、検索機能は低下する、そして、一部のストア アプリの機能は影響する！"/>
 
     <String Target="禁用错误报告" Link="Windows エラー報告無効化"/>
 
@@ -1104,7 +1108,7 @@ Examples:
     <String Target="被取代的WinSxS组件（非常慢）" Link="置換済みの WinSxS アセンブリ （非常に遅い）"/>
     
     <String Target="过期驱动" Link="期限切れのドライバー"/>
-    <String Target="删除计算机中不使用的驱动程序以节省驱动存储池空间。" Link="Delete unused drivers to save spaces."/>
+    <String Target="删除计算机中不使用的驱动程序以节省驱动存储池空间。" Link="非利用のドライバーを削除し、ディスク領域を解放する。"/>
     <String Target="该功能对于某些精简系统或者手动处理过驱动的系统可能发生驱动签名问题。" Link="Perhaps this function will lead driver signature problem in some simplified systems or manual-processed-driver systems."/>
     
     <String Target="硬链接合并（较慢）" Link="ハード リンクのマージ（遅い）"/>
