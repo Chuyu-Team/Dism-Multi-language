@@ -5,6 +5,7 @@
   <String Src="%title%" Dst="Dism++ | New Windows Utility"/>
   <String Src="%String1%" Dst="Dism++ 、たぶん最強のユーティリティです"/>
   <String Src="%String2%" Dst="世界で最初の CBS に基づいて Dism GUI 実装。"/>
+  <String Src="%WhatsnewVersion%" Dst="新機能 〜 バージョン"/>
   <String Src="%64Bit%" Dst="64 ビット版"/>
   <String Src="%32Bit%" Dst="32 ビット版"/>
   <String Src="%Full%" Dst="64/32 ビット版"/>
