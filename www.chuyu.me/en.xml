@@ -3,34 +3,34 @@
   <String Src="%description%" Dst="Integrate updates and drivers etc, cleanup WinSxS and Package Cache etc, customize your OS Image, speedup your Windows deployment process."/>
   <String Src="%keywords%" Dst="Dism++,Dism GUI,WinSxS Cleanup,Windows Update Cleanup Tool,System Cleanup,Windows Update Clean,vista,win7,win8,win8.1,win10,Chuyu,dism,Add Updates,Windows"/>
   <String Src="%title%" Dst="Dism++ | New Windows Utility"/>
-  <String Src="%String1%" Dst="Dism++, the most powerful utility"/>
-  <String Src="%String2%" Dst="The first DISM GUI implementation based on CBS in the world!"/>
+  <String Src="%String1%" Dst="Dism++, probably the most powerful utility"/>
+  <String Src="%String2%" Dst="The world's first DISM GUI implementation based on CBS!"/>
   <String Src="%64Bit%" Dst="Dism++ x64"/>
   <String Src="%32Bit%" Dst="Dism++ x86"/>
   <String Src="%Full%" Dst="Dism++ Full(x86/x64)"/>
   <String Src="%SupportSystem%" Dst="Compatible with Windows Vista/7/8/8.1/10"/>
   <String Src="%AboutDism++%" Dst="About Dism++"/>
-  <String Src="%AboutDism++Des%" Dst="Dism++ can be considered as a GUI frontend of DISM, but it based on Component Based Servicing (CBS) Interface instead of DISM API or DISM Core API."/>
-  <String Src="%OpenSourceStr%" Dst="Open source is not only a spirit, but also a symbol of strength. &lt;span onclick=&quot;window.location.href='https://github.com/Chuyu-Team'&quot; style=&quot;color:blue;cursor:pointer&quot;>Check here&lt;/span> for viewing the Chuyu Team's Github repositories."/>
+  <String Src="%AboutDism++Des%" Dst="Dism++ can be considered as a GUI frontend of DISM, but it is based on low-level Component Based Servicing (CBS) interface instead of DISM API or DISM Core API."/>
+  <String Src="%OpenSourceStr%" Dst="Open source is not only a spirit, but also a symbol of strength. &lt;span onclick=&quot;window.location.href='https://github.com/Chuyu-Team'&quot; style=&quot;color:blue;cursor:pointer&quot;>Check here&lt;/span> to view Chuyu Team's Github."/>
   <String Src="%SxSClean%" Dst="WinSxS Cleanup"/>
-  <String Src="%SxSCleanDes%" Dst="You don't need to worry about disk free space any more while installing updates."/>
-  <String Src="%CompactOSDes%" Dst="It can save at least 33% of used space without streamlining your OS Image."/>
+  <String Src="%SxSCleanDes%" Dst="No need to worry about disk free space anymore while installing updates."/>
+  <String Src="%CompactOSDes%" Dst="At least 33% used space reduction without streamlining your OS Image."/>
   <String Src="%EsdSupport%" Dst="ESD Support"/>
-  <String Src="%EsdSupportDes%" Dst="Everyone can easily convert ESD to ISO ."/>
-  <String Src="%WindowsUpdateDes%" Dst="The best Windows Update implementation except Microsoft's."/>
+  <String Src="%EsdSupportDes%" Dst="ESD to ISO conversion is never easy like now."/>
+  <String Src="%WindowsUpdateDes%" Dst="Choose your updates -- and no worries"/>
   <String Src="%SystemRecover%" Dst="Backup and Recovery"/>
-  <String Src="%SystemRecoverDes%" Dst="Backup or restore your OS image WITHOUT Windows PE"/>  
-  <String Src="%Green%" Dst="Ture Green Software"/>
-  <String Src="%GreenDes%" Dst="FREE, PROTABLE and PURE."/>
+  <String Src="%SystemRecoverDes%" Dst="Backup or restore your system WITHOUT using Windows PE"/>  
+  <String Src="%Green%" Dst="Turely Portable"/>
+  <String Src="%GreenDes%" Dst="FREE, NO ADS AND SPYWARE."/>
   <String Src="%AboutChuyu%" Dst="About Chuyu Team"/>
-  <String Src="%AboutChuyuDes%" Dst="Actually we are all some obsessive in late period, simply requesting a tool that is light, practical, straightforward, not malwaring, not pretending pity and not nagging. No result for some time but we didn’t give up as we realize such a dream with our own hands by building up Dism++: a small tool non-profit, not artificial, not herd-following, built with purely persistence and enthusiasts."/>
+  <String Src="%AboutChuyuDes%" Dst="In fact, we are all quite obsessive to look for a tool that is lightweight, easy-to-use, straightforward, without gabbage and annoyance. We cannot find it, but we didn’t give up as we realize such a dream with our own hands by making Dism++: a small tool that is non-profit and built with pure persistence and enthusiasm."/>
   <String Src="%QQ%" Dst="QQ Group"/>
   <String Src="%E-Mail%" Dst="E-mail"/>
   <String Src="%Links%" Dst="Links"/>
   <String Src="%WinOS%" Dst="WINOS Lite System"/>
   <String Src="%ChuyuTream%" Dst="&amp;nbsp;2017&amp;nbsp;Chuyu Team"/>
   <String Src="%ICP%" Dst=""/>
-  <String Src="%Document%" Dst="Dism++ Doc"/>
-  <String Src="%logs%" Dst="Change log"/>
-  <String Src="%wsuscan2%" Dst="wsusscn2.cab is the Dism++ Windows Update Database, you can overwrite &quot;Config\wsusscn2.cab&quot; with it."/>
+  <String Src="%Document%" Dst="Dism++ Documentation"/>
+  <String Src="%logs%" Dst="Changelog"/>
+  <String Src="%wsuscan2%" Dst="wsusscn2.cab is Dism++ Windows Update database. You can use it by overwriting &quot;Config\wsusscn2.cab&quot;."/>
 </Strings>
