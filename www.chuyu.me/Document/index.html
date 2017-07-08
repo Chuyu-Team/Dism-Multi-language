@@ -21,5 +21,5 @@ var lang = (function(languages) {
     }
     return 'zh-Hans' /* should be 'en', but missing */;
 })(navigator.languages || [navigator.language || navigator.browserLanguage]);
-document.location = './' + lang + '/Document.html';
+document.location = '../' + lang + '/Document.html';
 </script>
