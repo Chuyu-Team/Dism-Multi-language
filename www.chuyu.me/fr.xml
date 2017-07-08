@@ -5,6 +5,7 @@
   <String Src="%title%" Dst="Dism++ | Nouvel utilitaire Windows"/>
   <String Src="%String1%" Dst="Dism++, l'utilitaire le plus puissant"/>
   <String Src="%String2%" Dst="La première interface graphique pour Dism basée sur CBS dans le monde !"/>
+  <String Src="%WhatsnewVersion%" Dst="Quoi de neuf ‒ Version"/>
   <String Src="%64Bit%" Dst="Dism++ 64 bits"/>
   <String Src="%32Bit%" Dst="Dism++ 32 bits"/>
   <String Src="%Full%" Dst="Dism++ complet (32/64)"/>
