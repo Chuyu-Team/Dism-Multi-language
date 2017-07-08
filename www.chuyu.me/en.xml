@@ -5,6 +5,7 @@
   <String Src="%title%" Dst="Dism++ | New Windows Utility"/>
   <String Src="%String1%" Dst="Dism++, probably the most powerful utility"/>
   <String Src="%String2%" Dst="The world's first DISM GUI implementation based on CBS!"/>
+  <String Src="%WhatsnewVersion%" Dst="What's new ‒ version"/>
   <String Src="%64Bit%" Dst="Dism++ x64"/>
   <String Src="%32Bit%" Dst="Dism++ x86"/>
   <String Src="%Full%" Dst="Dism++ Full(x86/x64)"/>
