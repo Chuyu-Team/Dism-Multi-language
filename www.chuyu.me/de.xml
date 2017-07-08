@@ -5,6 +5,7 @@
   <String Src="%title%" Dst="Dism++ | Ein neues Windows Tool"/>
   <String Src="%String1%" Dst="Dism++, das Allround-Programm"/>
   <String Src="%String2%" Dst="Die weltweit erste grafische Oberfläche für Dism-Befehle, basierend auf CBS!"/>
+  <String Src="%WhatsnewVersion%" Dst="Was gibt's Neues ‒ Version"/>
   <String Src="%64Bit%" Dst="Dism++ 64Bit"/>
   <String Src="%32Bit%" Dst="Dism++ 32Bit"/>
   <String Src="%Full%" Dst="Dism++ komplett (32/64)"/>
