@@ -5,7 +5,7 @@
   <String Src="%title%" Dst="Dism++ | 全新的 Windows 實用工具"/>
   <String Src="%String1%" Dst="Dism++，也許是最強的實用工具"/>
   <String Src="%String2%" Dst="全球第一款基於 CBS 的 Dism GUI 實現。"/>
-  <String Src="%WhatsnewVersion%" Dst="新功能 〜 版本"/>
+  <String Src="%WhatsnewVersion%" Dst="What's new ‒ version"/>
   <String Src="%64Bit%" Dst="64 位元版"/>
   <String Src="%32Bit%" Dst="32 位元版"/>
   <String Src="%Full%" Dst="64/32 完整版"/>
