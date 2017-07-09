@@ -1,23 +1,23 @@
 <script language="javascript">
 var lang = (function(languages) {
-    for (var la of languages) {
-        la = la.toLowerCase().split('-');
-        switch (la[0]) {
-        case 'de':
-        case 'en':
-        case 'fr':
-        case 'ja':
-            return la[0];
-        case 'zh':
-            switch (la[1]) {
-            case 'hant': case 'hk': case 'mo': case 'tw':
-                return 'zh-Hant';
-            default:
-                return 'zh-Hans';
-            }
-        }
-    }
-    return 'en';
-})(navigator.languages || [navigator.language || navigator.browserLanguage]);
+	for (var la of languages) {
+		la = la.toLowerCase().split('-');
+		switch (la[0]) {
+		case 'de':
+		case 'en':
+		case 'fr':
+		case 'ja':
+			return la[0];
+		case 'zh':
+			switch (la[1]) {
+			case 'hant': case 'hk': case 'mo': case 'tw':
+				return 'zh-Hant';
+			default:
+				return 'zh-Hans'
+			}
+		}
+	}
+	return 'en';
+})(navigator.languages || [navigator.language || navigator.browserLanguage || '']);
 document.location = './' + lang + '/index.html';
 </script>
