@@ -1,4 +1,4 @@
-﻿<script language="javascript">
+<script language="javascript">
 var lang = (function(languages) {
     for (var la of languages) {
         la = la.toLowerCase().split('-');
@@ -20,6 +20,6 @@ var lang = (function(languages) {
         }
     }
     return 'zh-Hans' /* should be 'en', but missing */;
-})(navigator.languages || [navigator.language || navigator.browserLanguage]);
+})(navigator.languages || [navigator.language || navigator.browserLanguage || '']);
 document.location = '../' + lang + '/log.html';
 </script>
