@@ -49,6 +49,21 @@
     <Filter Include="资源文件\www.chuyu.me\Document">
       <UniqueIdentifier>{c9d1d6d6-01e6-4270-a0c9-89a742e4561b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="资源文件\www.chuyu.me\en">
+      <UniqueIdentifier>{997c1b2e-8ed4-4cb1-b9d9-74a1953a3333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\www.chuyu.me\en\library">
+      <UniqueIdentifier>{505c2400-34e5-4de4-9657-4f5e021c4dce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\www.chuyu.me\en\library\reference">
+      <UniqueIdentifier>{5bcc5c2f-0cca-4dea-8e28-c2aa48fe1479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\www.chuyu.me\en\library\bestpractice">
+      <UniqueIdentifier>{87944b26-2122-4880-b95d-fdd8cb8b4075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\www.chuyu.me\en\images">
+      <UniqueIdentifier>{46bf5e32-09c7-4e85-9202-4052419009bb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Xml Include="Languages\cs.xml">
@@ -206,6 +221,42 @@
     <None Include="www.chuyu.me\Document\log.html">
       <Filter>资源文件\www.chuyu.me\Document</Filter>
     </None>
+    <None Include="www.chuyu.me\en\library\bestpractice\给ISO离线集成补丁.md">
+      <Filter>资源文件\www.chuyu.me\en\library\bestpractice</Filter>
+    </None>
+    <None Include="www.chuyu.me\en\library\bestpractice\使用Dism++安装系统.md">
+      <Filter>资源文件\www.chuyu.me\en\library\bestpractice</Filter>
+    </None>
+    <None Include="www.chuyu.me\en\library\reference\规则结构参考.md">
+      <Filter>资源文件\www.chuyu.me\en\library\reference</Filter>
+    </None>
+    <None Include="www.chuyu.me\en\library\reference\术语.md">
+      <Filter>资源文件\www.chuyu.me\en\library\reference</Filter>
+    </None>
+    <None Include="www.chuyu.me\en\library\reference\隐藏功能.md">
+      <Filter>资源文件\www.chuyu.me\en\library\reference</Filter>
+    </None>
+    <None Include="www.chuyu.me\en\library\reference\自定义规则.md">
+      <Filter>资源文件\www.chuyu.me\en\library\reference</Filter>
+    </None>
+    <None Include="www.chuyu.me\en\library\$navigation.md">
+      <Filter>资源文件\www.chuyu.me\en\library</Filter>
+    </None>
+    <None Include="www.chuyu.me\en\library\Dism2Dism++.md">
+      <Filter>资源文件\www.chuyu.me\en\library</Filter>
+    </None>
+    <None Include="www.chuyu.me\en\library\Quickstart.md">
+      <Filter>资源文件\www.chuyu.me\en\library</Filter>
+    </None>
+    <None Include="www.chuyu.me\en\library\start.md">
+      <Filter>资源文件\www.chuyu.me\en\library</Filter>
+    </None>
+    <None Include="www.chuyu.me\en\Document.html">
+      <Filter>资源文件\www.chuyu.me\en</Filter>
+    </None>
+    <None Include="www.chuyu.me\en\log.html">
+      <Filter>资源文件\www.chuyu.me\en</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ThirdParty.md">
@@ -242,6 +293,48 @@
     </Image>
     <Image Include="www.chuyu.me\zh-Hant\images\ScanUpdates.png">
       <Filter>资源文件\www.chuyu.me\zh-Hant\images</Filter>
+    </Image>
+    <Image Include="www.chuyu.me\en\images\ApplyUUPESD.png">
+      <Filter>资源文件\www.chuyu.me\en\images</Filter>
+    </Image>
+    <Image Include="www.chuyu.me\en\images\ApplyWIMBoot.png">
+      <Filter>资源文件\www.chuyu.me\en\images</Filter>
+    </Image>
+    <Image Include="www.chuyu.me\en\images\BackupImage.png">
+      <Filter>资源文件\www.chuyu.me\en\images</Filter>
+    </Image>
+    <Image Include="www.chuyu.me\en\images\BackupImage-WimPath.png">
+      <Filter>资源文件\www.chuyu.me\en\images</Filter>
+    </Image>
+    <Image Include="www.chuyu.me\en\images\CleanupUI.png">
+      <Filter>资源文件\www.chuyu.me\en\images</Filter>
+    </Image>
+    <Image Include="www.chuyu.me\en\images\CompactOS.png">
+      <Filter>资源文件\www.chuyu.me\en\images</Filter>
+    </Image>
+    <Image Include="www.chuyu.me\en\images\ExportWIMBoot.png">
+      <Filter>资源文件\www.chuyu.me\en\images</Filter>
+    </Image>
+    <Image Include="www.chuyu.me\en\images\InstallUpdates.png">
+      <Filter>资源文件\www.chuyu.me\en\images</Filter>
+    </Image>
+    <Image Include="www.chuyu.me\en\images\ISOInstallOS.png">
+      <Filter>资源文件\www.chuyu.me\en\images</Filter>
+    </Image>
+    <Image Include="www.chuyu.me\en\images\MainUI.png">
+      <Filter>资源文件\www.chuyu.me\en\images</Filter>
+    </Image>
+    <Image Include="www.chuyu.me\en\images\OpenSession.png">
+      <Filter>资源文件\www.chuyu.me\en\images</Filter>
+    </Image>
+    <Image Include="www.chuyu.me\en\images\RecoveryImage.png">
+      <Filter>资源文件\www.chuyu.me\en\images</Filter>
+    </Image>
+    <Image Include="www.chuyu.me\en\images\SaveISO.png">
+      <Filter>资源文件\www.chuyu.me\en\images</Filter>
+    </Image>
+    <Image Include="www.chuyu.me\en\images\ScanUpdates.png">
+      <Filter>资源文件\www.chuyu.me\en\images</Filter>
     </Image>
   </ItemGroup>
 </Project>

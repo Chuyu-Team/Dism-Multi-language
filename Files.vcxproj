@@ -196,6 +196,18 @@
     <None Include="www.chuyu.me\Base.html" />
     <None Include="www.chuyu.me\Document\index.html" />
     <None Include="www.chuyu.me\Document\log.html" />
+    <None Include="www.chuyu.me\en\Document.html" />
+    <None Include="www.chuyu.me\en\library\$navigation.md" />
+    <None Include="www.chuyu.me\en\library\bestpractice\使用Dism++安装系统.md" />
+    <None Include="www.chuyu.me\en\library\bestpractice\给ISO离线集成补丁.md" />
+    <None Include="www.chuyu.me\en\library\Dism2Dism++.md" />
+    <None Include="www.chuyu.me\en\library\Quickstart.md" />
+    <None Include="www.chuyu.me\en\library\reference\术语.md" />
+    <None Include="www.chuyu.me\en\library\reference\自定义规则.md" />
+    <None Include="www.chuyu.me\en\library\reference\规则结构参考.md" />
+    <None Include="www.chuyu.me\en\library\reference\隐藏功能.md" />
+    <None Include="www.chuyu.me\en\library\start.md" />
+    <None Include="www.chuyu.me\en\log.html" />
     <None Include="www.chuyu.me\index.html" />
     <None Include="www.chuyu.me\zh-Hans\Document.html" />
     <None Include="www.chuyu.me\zh-Hans\library\$navigation.md" />
@@ -227,6 +239,20 @@
     <Text Include="ThirdParty.md" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="www.chuyu.me\en\images\ApplyUUPESD.png" />
+    <Image Include="www.chuyu.me\en\images\ApplyWIMBoot.png" />
+    <Image Include="www.chuyu.me\en\images\BackupImage-WimPath.png" />
+    <Image Include="www.chuyu.me\en\images\BackupImage.png" />
+    <Image Include="www.chuyu.me\en\images\CleanupUI.png" />
+    <Image Include="www.chuyu.me\en\images\CompactOS.png" />
+    <Image Include="www.chuyu.me\en\images\ExportWIMBoot.png" />
+    <Image Include="www.chuyu.me\en\images\InstallUpdates.png" />
+    <Image Include="www.chuyu.me\en\images\ISOInstallOS.png" />
+    <Image Include="www.chuyu.me\en\images\MainUI.png" />
+    <Image Include="www.chuyu.me\en\images\OpenSession.png" />
+    <Image Include="www.chuyu.me\en\images\RecoveryImage.png" />
+    <Image Include="www.chuyu.me\en\images\SaveISO.png" />
+    <Image Include="www.chuyu.me\en\images\ScanUpdates.png" />
     <Image Include="www.chuyu.me\zh-Hant\images\ApplyUUPESD.png" />
     <Image Include="www.chuyu.me\zh-Hant\images\ApplyWIMBoot.png" />
     <Image Include="www.chuyu.me\zh-Hant\images\CompactOS.png" />
