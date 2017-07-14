@@ -1,25 +1,15 @@
-﻿<script language="javascript">
-var lang = (function(languages) {
-    for (var la of languages) {
-        la = la.toLowerCase().split('-');
-        switch (la[0]) {
-        /*
-        case 'de':
-        case 'en':
-        case 'fr':
-        case 'ja':
-            return la[0];
-        */
-        case 'zh':
-            switch (la[1]) {
-            case 'hant': case 'hk': case 'mo': case 'tw':
-                return 'zh-Hant';
-            default:
-                return 'zh-Hans';
-            }
-        }
+﻿<script language="JavaScript">
+    var la = (navigator.language || navigator.browserLanguage).toLowerCase();
+
+    switch (la)
+    {
+        case 'zh-cn':
+        case 'zh-sg':
+            la = '../zh-Hans/Document.html';
+            break;
+        default:
+            la = '../zh-Hant/Document.html';
+            break;
     }
-    return 'zh-Hans' /* should be 'en', but missing */;
-})(navigator.languages || [navigator.language || navigator.browserLanguage || '']);
-document.location = '../' + lang + '/Document.html';
+    document.location = la;
 </script>
