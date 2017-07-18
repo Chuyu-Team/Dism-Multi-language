@@ -117,6 +117,7 @@ Special Thanks to 山形まり花、奎宁
     <String Target="临时目录可用空间不足5GB，这可能导致Dism++无法正常运行，推荐将Dism++复制到可用空间大于5GB的驱动器，然后继续。" Link="一時ディレクトリの空き領域は 5 GB 未満です、Dism++ may not work properly. It is recommended to copy Dism++ to drive with more than 5GB of free space, and then continue."/>
     <String Target="基础支撑库缺失，引导修复相关功能无法使用。" Link="基本ライブラリは存在しません、ブート修復関するの機能は利用できません。"/>
     <String Target="Dism++需要管理员权限才能运行，请右键 以管理员身份运行 然后继续。" Link="Dism++ は管理者アクセス許可が必要です、続行して、右クリックし、[管理者として実行] でください。"/>
+    <String Target="Dism++不允许以兼容模式启动，请去除兼容模式，然后再启动Dism++。" Link="Dism++ は互換モードで実行を禁止する、互換モードを取り消して、Dism++ を再実行ください。"/>
 
     <String Target="你需要增量保存还是直接保存？" Link="上書き保存または増分保存ですか？"/>
     <String Target="温馨提示：保存映像后空间不会减少，如果需要减少空间请重新编译目标文件。" Link="Tips: Space won't reduce if you save this image;  recompile target file if you need to reduce the space"/>
@@ -440,6 +441,7 @@ Special Thanks to 山形まり花、奎宁
     <String Target="注册表还原" Link="復元"/>
     <String Target="清理时间" Link="クリーンアップの使用時間"/>
     <String Target="网络位置" Link="ネットワークの場所"/>
+    <String Target="正在扫描第%d个可清理的注册表项。。。" Link="レジストリのクリーンアップ可能アイテム（その %d）をスキャン中..." />
     
     <!--驱动管理-->
     <String Target="温馨提示：删除关键驱动可能导致计算机无法启动" Link="ヒント：重要なドライバーの削除はコンピューターの起動できませんが生じる可能性があります。"/>
@@ -1045,9 +1047,9 @@ Compact支持命令：
 示例：
  Dism++x86.exe /Image /?
  Dism++x86.exe /C /?"
-            Link="Image Management Command:
- /All	- Open the global session
- /Image	- Designate the root directory of windows image
+            Link="イメージを管理コマンド：
+ /All	- グローバル セッションを開く
+ /Image	- Windows イメージのルート ディレクトリを指定する
 
 
 Compact supported command
@@ -1062,7 +1064,7 @@ Examples:
 
 示例：
  Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"
-            Link="/Plugin:&lt;Plugin_ID&gt;	- To run the commands supported with a plug-in.
+            Link="/Plugin:&lt;Plugin_ID&gt;	- サポートされのプラグインを実行する。
 
 例：
  Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"/>
@@ -1109,10 +1111,10 @@ Examples:
     
     <String Target="过期驱动" Link="期限切れのドライバー"/>
     <String Target="删除计算机中不使用的驱动程序以节省驱动存储池空间。" Link="非利用のドライバーを削除し、ディスク領域を解放する。"/>
-    <String Target="该功能对于某些精简系统或者手动处理过驱动的系统可能发生驱动签名问题。" Link="Perhaps this function will lead driver signature problem in some simplified systems or manual-processed-driver systems."/>
+    <String Target="该功能对于某些精简系统或者手动处理过驱动的系统可能发生驱动签名问题。" Link="この機能を利用しで、一部のカスタム システム（スリム化、カスタム変更など）、またドライバーを手動的処理するは、ドライバー署名問題を発生可能性があります。"/>
     
     <String Target="硬链接合并（较慢）" Link="ハード リンクのマージ（遅い）"/>
-    <String Target="使用利用NTFS硬链接特性合并所有文件内容相同的文件。" Link="Use NTFS hard link to merge all the same-content-file."/>
+    <String Target="使用利用NTFS硬链接特性合并所有文件内容相同的文件。" Link="NTFS のハード リンクを利用し、同じファイルを結合する。"/>
     <String Target="某些文件被硬链接合并后可能导致相关功能无法正常使用。" Link="Some files merged will not work normally properly."/>
     
     <String Target="CompactOs（较慢）" Link="CompactOs（遅い）"/>
