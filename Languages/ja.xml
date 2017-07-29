@@ -812,8 +812,10 @@ Special Thanks to 山形まり花、奎宁
     <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="ミュージックと写真のプレビューを無効し、エクスプローラーのパフォーマンスを改善する（by 莫失莫忘）"/>
     <String Target="关闭打开程序的“安全警告”（by 莫失莫忘）" Link="プログラム開くの [セキュリティの警告] を閉じる（by 莫失莫忘）"/>
     <String Target="关闭在应用商店中查找关联应用（by Asoft）" Link="ストアからの関連アプリの探しを閉じる（By Asoft）"/>
-    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by Cloud）" Link="PC のビデオ、ピクチャ、ドキュメント、ダウンロード、ミュージック、デスクトップ、3D オブジェクト フォルダーを隠す（by Cloud）"/>
+    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="PC のビデオ、ピクチャ、ドキュメント、ダウンロード、ミュージック、デスクトップ、3D オブジェクト フォルダーを隠す（by 、Cloud.）"/>
     <String Target="禁止自动安装推荐的应用程序（by IT之家）" Link="お勧めアプリ自動的にインストールを禁止（by ITHome）"/>
+    <String Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="ロック画面で Windows スポットライトの広告を閉じる（by 、Cloud.）"/>
+    <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="[Windows を使用するためのヒントやおすすめの方法を取得] を閉じる"/>
 
     <!--右键菜单管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="右クリック メニューの管理 - 非必要メニューを無効し、パフォーマンスを改善する"/>
@@ -939,7 +941,7 @@ Special Thanks to 山形まり花、奎宁
     <String Target="不显示首次使用对话框（by 原罪）" Link="Prevent running First Run wizard (by YZ)"/>
     
     <!--其他-->
-    <String Target="*隐藏Windows 10升级助手GWX" Link="*Hide Windows 10 Upgrade Assistant (GWX)"/>
+    <String Target="*隐藏Windows 10升级助手GWX" Link="*Windows 10 アップグレード アシスタント (GWX) を隠す"/>
 
     <String Target="关闭OneDrive（by Rambin）" Link="OneDrive 無効化 (by Rambin)"/>
       <String Target="禁用OneDrive将导致某些Windows Store应用无法使用OneDrive存储。" Link="Disable OneDrive will cause Windows Store applications can not use OneDrive storage."/>
@@ -952,7 +954,7 @@ Special Thanks to 山形まり花、奎宁
     <String Target="蓝屏时自动重启（by 原罪）" Link="BSOD が自動再起動 (by YZ)"/>
 
     <String Target="关闭快速启动" Link="クイック スタート無効化"/>
-      <String Target="关闭快速启动将导致系统启动速度变慢！" Link="Disable quick start may cause startup time becomes longer."/>
+      <String Target="关闭快速启动将导致系统启动速度变慢！" Link="無効して、より長いのシステム起動時間が必要です。"/>
     
     <String Target="禁用组件堆栈（Component Based Servicing）日志" Link="コンポーネント ベース サービスのログ無効化"/>
 
@@ -1052,12 +1054,12 @@ Compact支持命令：
  /Image	- Windows イメージのルート ディレクトリを指定する
 
 
-Compact supported command
- /C	- Use the compressed files/folders(compressed with compact)
- /U	- Revoke the compressed files/folders(compressed with compact)
+Compact サポートされてコマンド：
+ /C	- ファイル / フォルダーで Compact 圧縮を利用する
+ /U	- ファイル / フォルダーで Compact 圧縮を利用しない
 
 For more information about these Dism++ options and their arguments, specify an\noption immediately before /?.
-Examples:
+例：
  Dism++x86.exe /Image /?
  Dism++x86.exe /C /?"/>
     <String Target="/Plugin:&lt;Plugin_ID&gt;	- 此功能用于打开某插件支持的命令
