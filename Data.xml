@@ -2555,7 +2555,7 @@
         </System>
       </Item>
 
-      <Item Type="CheckBox" Name="#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by Cloud）">
+      <Item Type="CheckBox" Name="#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）">
         <Applicable>
           <OSVersion>10.0</OSVersion>
           <!--下载-->
@@ -3073,27 +3073,173 @@
 
       <Item Type="CheckBox" Name="#关闭商店应用推广（by 、Cloud.）">
         <Applicable>
-          <Or>
-            <FileExist FilePath="%SystemDrive%\Users\Default\AppData\Local\Microsoft\Windows\Shell\DefaultLayouts.xml"/>
-            <FileExist FilePath="%SystemDrive%\Users\Default\AppData\Local\Microsoft\Windows\Shell\DefaultLayouts.xml.bak"/>
-          </Or>
+          <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="PreInstalledAppsEnabled"/>
         </Applicable>
-        <Default>
+        <Current>
           <State>
             <Applicable>
-              <Not>
-                <FileExist FilePath="%SystemDrive%\Users\Default\AppData\Local\Microsoft\Windows\Shell\DefaultLayouts.xml"/>
-              </Not>
+               <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="PreInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
             </Applicable>
           </State>
           <True>
             <Activate>
-              <FileMove Src="%SystemDrive%\Users\Default\AppData\Local\Microsoft\Windows\Shell\DefaultLayouts.xml" Dst="%SystemDrive%\Users\Default\AppData\Local\Microsoft\Windows\Shell\DefaultLayouts.xml.bak"/>
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="PreInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
             </Activate>
           </True>
           <False>
             <Activate>
-              <FileMove Dst="%SystemDrive%\Users\Default\AppData\Local\Microsoft\Windows\Shell\DefaultLayouts.xml" Src="%SystemDrive%\Users\Default\AppData\Local\Microsoft\Windows\Shell\DefaultLayouts.xml.bak"/>
+              <RegDelete Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="PreInstalledAppsEnabled" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </False>
+        </Current>
+
+        <Default>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="PreInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="PreInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="PreInstalledAppsEnabled" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
+
+      <Item Type="CheckBox" Name="#关闭锁屏时的Windows 聚焦推广（by 、Cloud.）">
+        <Applicable>
+          <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable"/>
+        </Applicable>
+        <Current>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </False>
+        </Current>
+
+        <Default>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
+
+      <Item Type="CheckBox" Name="#关闭“使用Windows时获取技巧和建议”（by 、Cloud.）">
+        <Applicable>
+          <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SoftLandingEnabled"/>
+        </Applicable>
+        <Current>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SoftLandingEnabled" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SoftLandingEnabled" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SoftLandingEnabled" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </False>
+        </Current>
+
+        <Default>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SoftLandingEnabled" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SoftLandingEnabled" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SoftLandingEnabled" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
+      
+      <Item Type="CheckBox" Name="#禁止自动安装推荐的应用程序（by IT之家）">
+        <Applicable>
+          <OSVersion Compare=">=">10.0</OSVersion>
+        </Applicable>
+        <Current>
+          <State>
+            <Applicable>
+              <Or>
+                <Not>
+                  <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled"/>
+                </Not>
+                <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
+              </Or>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </False>
+        </Current>
+
+        <Default>
+          <State>
+            <Applicable>
+              <Or>
+                <Not>
+                  <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled"/>
+                </Not>
+                <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
+              </Or>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled" Type="REG_DWORD" Data="1"/>
             </Activate>
           </False>
         </Default>
@@ -3305,56 +3451,6 @@
         </Default>
       </Item>
     
-      <Item Type="CheckBox" Name="#禁止自动安装推荐的应用程序（by IT之家）">
-        <Applicable>
-          <OSVersion Compare=">=">10.0</OSVersion>
-        </Applicable>
-        <Current>
-            <State>
-              <Applicable>
-                <Or>
-                  <Not>
-                    <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled"/>
-                  </Not>
-                  <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
-                </Or>
-              </Applicable>
-            </State>
-            <True>
-              <Activate>
-                <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
-              </Activate>
-            </True>
-            <False>
-              <Activate>
-                <RegDelete Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled"/>
-              </Activate>
-            </False>
-        </Current>
-
-        <Default>
-          <State>
-            <Applicable>
-              <Or>
-                <Not>
-                  <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled"/>
-                </Not>
-                <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
-              </Or>
-          </Applicable>
-          </State>
-          <True>
-              <Activate>
-                <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
-              </Activate>
-          </True>
-          <False>
-            <Activate>
-              <RegDelete Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled"/>
-            </Activate>
-          </False>
-        </Default>
-      </Item>
     </Group>
 
     <Group Name="#Windows 7体验">
@@ -5004,7 +5100,7 @@
       </Item>
     </Group>
     
-    <Group Name="Internet Explorer">
+    <Group Name="Internet Explorer">      
       <Item Type="CheckBox" Name="#关闭多个选项卡时不发出警告（by 一叶微风TM）">
         <Current>
           <State>
