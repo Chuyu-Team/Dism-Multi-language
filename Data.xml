@@ -3450,7 +3450,48 @@
           </False>
         </Default>
       </Item>
-    
+
+      <Item Type="CheckBox" Name="#隐藏任务栏上的人脉（by 、Cloud.）">
+        <Applicable>
+          <OSVersion Compare=">=">10.0.16199</OSVersion>
+        </Applicable>
+        <Current>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People" Value="PeopleBand" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate Restart="Explorer">
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People" Value="PeopleBand" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate Restart="Explorer">
+              <RegDelete Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People" Value="PeopleBand"/>
+            </Activate>
+          </False>
+        </Current>
+
+        <Default>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People" Value="PeopleBand" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People" Value="PeopleBand" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People" Value="PeopleBand"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
+
     </Group>
 
     <Group Name="#Windows 7体验">
@@ -5099,6 +5140,33 @@
         </System>
       </Item>
     </Group>
+
+    <Group Name="#Microsoft Edge">
+      <Applicable>
+        <OSVersion Compare=">=">10.0</OSVersion>
+        <FileExist FilePath="%SystemRoot%\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\AppxManifest.xml"/>
+      </Applicable>
+
+      <Item Type="CheckBox" Name="#阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）">
+        <System>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MicrosoftEdge" Value="PreventFirstRunPage" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MicrosoftEdge" Value="PreventFirstRunPage" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MicrosoftEdge" Value="PreventFirstRunPage"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
+    </Group>
     
     <Group Name="Internet Explorer">      
       <Item Type="CheckBox" Name="#关闭多个选项卡时不发出警告（by 一叶微风TM）">
@@ -5652,6 +5720,47 @@
           <False>
             <Activate>
               <RegDelete Key="HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\Main" Value="NoUpdateCheck"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
+
+      <Item Type="CheckBox" Name="#隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）">
+        <Applicable>
+          <OSVersion Compare=">=">10.0</OSVersion>
+        </Applicable>
+        <Current>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_CURRENT_USER\Software\Policies\Microsoft\Internet Explorer\Restrictions" Value="NoHelpItemSendFeedback" Type="REG_DWORD" Data="1"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Policies\Microsoft\Internet Explorer\Restrictions" Value="NoHelpItemSendFeedback" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_CURRENT_USER\Software\Policies\Microsoft\Internet Explorer\Restrictions" Value="NoHelpItemSendFeedback"/>
+            </Activate>
+          </False>
+        </Current>
+
+        <Default>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\Software\Policies\Microsoft\Internet Explorer\Restrictions" Value="NoHelpItemSendFeedback" Type="REG_DWORD" Data="1"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Policies\Microsoft\Internet Explorer\Restrictions" Value="NoHelpItemSendFeedback" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_USERS\DEFAULT\Software\Policies\Microsoft\Internet Explorer\Restrictions" Value="NoHelpItemSendFeedback"/>
             </Activate>
           </False>
         </Default>
