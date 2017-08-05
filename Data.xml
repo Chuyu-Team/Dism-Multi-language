@@ -2881,7 +2881,7 @@
         </Default>
       </Item>
       
-      <Item Type="CheckBox" Name="#偶尔在开始菜单中显示建议">
+      <Item Type="CheckBox" Name="#不允许在开始菜单显示建议">
         <Applicable>
           <OSVersion Compare=">=">10.0</OSVersion>
         </Applicable>
