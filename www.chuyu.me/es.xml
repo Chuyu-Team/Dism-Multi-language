@@ -16,7 +16,7 @@
   <String Src="%SxSClean%" Dst="Limpieza de WinSxS"/>
   <String Src="%SxSCleanDes%" Dst="No hay necesidad de preocuparse por el espacio libre de disco durante la instalación de las actualizaciones."/>
   <String Src="%CompactOS%" Dst="Sistema operativo compacto"/>
-  <String Src="%CompactOSDes%" Dst="No es necesario racionalizar, puede liberar hasta el 33% de espacio en disco."/>
+  <String Src="%CompactOSDes%" Dst="No es necesario racionalizar, puedes liberar hasta el 33% de espacio en disco."/>
   <String Src="%EsdSupport%" Dst="Soporte ESD"/>
   <String Src="%EsdSupportDes%" Dst="La conversión de ESD → ISO nunca fue tan fácil como ahora."/>
   <String Src="%WindowsUpdateDes%" Dst="Las actualizaciones las eliges tu mismo - y no te preocupes."/>
