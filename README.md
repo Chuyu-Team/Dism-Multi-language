@@ -82,6 +82,10 @@ Thanks to franz@drwindows.de
 Dism++官方网站英语资源
 感谢 Frag, Hexhu
 
+### www.chuyu.me\es.xml
+Dism++ website Spanish resource
+Thanks to Jhovany200
+
 ### www.chuyu.me\fr.xml
 Dism++ website French resource
 Thanks to P.Verdy
