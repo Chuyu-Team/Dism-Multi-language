@@ -119,7 +119,7 @@ Thanks: Oleada, nomemolesteis@gmail.com for translation
     <String Target="基础支撑库缺失，引导修复相关功能无法使用。" Link="Falta soporte fundamental de la biblioteca. No se pueden usar las funciones relacionadas con boot-fix."/>
     <String Target="Dism++需要管理员权限才能运行，请右键 以管理员身份运行 然后继续。" Link="Dism++ necesita derechos administrativos para ejecutarse. Clic botón derecho y seleccione Ejecutar como administrador para ejecutarlo."/>
 
-    <String Target="你需要增量保存还是直接保存？" Link="¿Guardar directamente o realizar una imcremental guardar?"/>
+    <String Target="你需要增量保存还是直接保存？" Link="¿Desea guardar de forma directa o incremental?"/>
     <String Target="温馨提示：保存映像后空间不会减少，如果需要减少空间请重新编译目标文件。" Link="Consejos: No se va a reducir espacio si guarda esta imagen;  compilar el archivo de destino si necesita reducir el espacio"/>
     <String Target="增量保存（推荐）&#x0A;创建一个新的映像，不会覆盖原有数据。" Link="Guardar incremental (recomendado)&#x0A;Crea una nueva imagen; los datos originales no se modificarán."/>
 
@@ -246,17 +246,17 @@ Thanks: Oleada, nomemolesteis@gmail.com for translation
 
     <!--欢迎页-->
     <String Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。"
-            Link="La primera aplicación basada en GUI Dism CBS en el mundo!"/>
+            Link="¡La primera implementación con interfaz gráfica en el mundo de DISM basada en CBS!"/>
 
     <String Target="联系方式" Link="Contacto"/>
     <String Target="官方网站" Link="Sitio oficial"/>
     <String Target="QQ群" Link="Grupo QQ"/>
-    <String Target="邮箱" Link="Correo"/>
+    <String Target="邮箱" Link="Correo electrónico"/>
 
     <String Target="帮助与支持" Link="Soporte"/>
-    <String Target="初雨开源" Link="Open Source"/>
+    <String Target="初雨开源" Link="Código abierto"/>
     <String Target="问题反馈" Link="Comentarios"/>
-    <String Target="帮助文档" Link="Documento"/>
+    <String Target="帮助文档" Link="Documentación"/>
     
     <String Target="致谢" Link="Gracias"/>
     <String Target="翻译人员" Link="Traductor"/>
