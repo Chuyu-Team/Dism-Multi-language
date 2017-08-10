@@ -26,7 +26,7 @@ Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wondersnefu
 
 ## [Languages/es.xml]
 Spanish Resource
-Thanks to Oleada, nomemolesteis@gmail.com
+Thanks to Jhovany200, Oleada, nomemolesteis@gmail.com
 
 ## [Languages/fr.xml]
 French Resource
