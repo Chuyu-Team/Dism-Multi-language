@@ -1,5 +1,5 @@
 <script language="JavaScript">
-var la = (navigator.language || navigator.browserLanguage).toLowerCase().split('-');
+var la = (navigator.language || navigator.browserLanguage || '').toLowerCase().split('-');
 switch (la[0]) {
     case 'es': case 'an': case 'ast': case 'ca': case 'gl':
         la = 'es'; break;
