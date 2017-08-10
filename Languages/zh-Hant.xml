@@ -64,7 +64,7 @@
 		  <String Target="插件管理" Link="外掛程式管理"/>
       <String Target="新手模式" Link="新手模式"/>
       <String Target="详细设置" Link="詳細設定"/>
-      <String Target="操作完成后" Link="完成操作後..."/>
+      <String Target="操作完成后" Link="操作完成後..."/>
       <String Target="未定义" Link="未定義"/>
       <String Target="关机" Link="關機"/>
       <String Target="重启" Link="重新啟動"/>
@@ -291,7 +291,7 @@
 
     <!--另存为映像 -->
 	  <String Target="你可以在此处修改映像文件信息（支持双击修改）" Link="您可以在此處修改映像檔資訊 (支援按兩下修改)"/>
-	  <String Target="在此处设置捕获映像的文件豁免列表加快捕获速度，每个条目用回车分割。" Link="在此處設定捕捉映像檔案的豁免清單，加快捕捉速度，每個項目以 Enter 鍵隔開。"/>
+	  <String Target="在此处设置捕获映像的文件豁免列表加快捕获速度，每个条目用回车分割。" Link="在此處設定擷取映像檔案的豁免清單，加快擷取速度，每個項目以 Enter 鍵隔開。"/>
 	  <String Target="如何配置豁免列表" Link="如何配置豁免清單"/>
 	  <String Target="另存为映像" Link="另存映像"/>
     <String Target="卷影复制" Link="陰影複製 (VSS)"/>
