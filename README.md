@@ -97,7 +97,3 @@ Dism++官方网站日语资源
 ### www.chuyu.me\zh-Hant.xml
 Dism++官方网站繁体资源
 感谢 iliGPU
-
-### www.chuyu.me\zh-Hant
-Dism++繁体帮助文档
-感谢 iliGPU
