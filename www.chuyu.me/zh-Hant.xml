@@ -15,9 +15,11 @@
   <String Src="%OpenSourceStr%" Dst="開源是一種美德，也是一種實力的象徵，查看初雨團隊的開源專案&lt;span onclick=&quot;window.location.href='https://github.com/Chuyu-Team'&quot; style=&quot;color:blue;cursor:pointer&quot;>點我&lt;/span>。"/>
   <String Src="%SxSClean%" Dst="更新清理"/>
   <String Src="%SxSCleanDes%" Dst="更新清理，安裝更新不再糾結容量！"/>
+  <String Src="%CompactOS%" Dst="CompactOS"/>
   <String Src="%CompactOSDes%" Dst="不精簡系統也能節省 33% 空間。"/>
   <String Src="%EsdSupport%" Dst="完整 ESD 支援"/>
   <String Src="%EsdSupportDes%" Dst="再也不用擔心 ESD 轉 ISO 了。"/>
+  <String Src="%WindowsUpdate%" Dst="Windows Update"/>
   <String Src="%WindowsUpdateDes%" Dst="我的更新我做主~~安心更新。"/>
   <String Src="%SystemRecover%" Dst="系統還原"/>
   <String Src="%SystemRecoverDes%" Dst="系統熱備份、熱還原無需 PE！"/>
