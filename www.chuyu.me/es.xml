@@ -19,6 +19,7 @@
   <String Src="%CompactOSDes%" Dst="No es necesario racionalizar, puedes liberar hasta el 33% de espacio en disco."/>
   <String Src="%EsdSupport%" Dst="Soporte ESD"/>
   <String Src="%EsdSupportDes%" Dst="La conversión de ESD → ISO nunca fue tan fácil como ahora."/>
+  <String Src="%WindowsUpdate%" Dst="Windows Update"/>
   <String Src="%WindowsUpdateDes%" Dst="Las actualizaciones las eliges tu mismo - y no te preocupes."/>
   <String Src="%SystemRecover%" Dst="Recuperación del sistema"/>
   <String Src="%SystemRecoverDes%" Dst="No es necesario el uso de Windows PE para el sistema de copia de seguridad o restauración."/>  
