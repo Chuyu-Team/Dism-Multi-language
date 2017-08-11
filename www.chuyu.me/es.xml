@@ -2,14 +2,14 @@
   <String Src="%lang%" Dst="es"/>
   <String Src="%description%" Dst="Dism++ puede considerarse como una versión con interfaz gráfica de DISM, limpieza de WinSxS, personalización de su imagen de sistema operativo, integración de actualizaciones y controladores."/>
   <String Src="%keywords%" Dst="Dism++, Dism GUI, Limpieza de WinSxS, Herramienta de limpieza de Windows Update, Limpieza de sistema, Limpieza de Windows Update, Windows Vista, Win7, Win8, Win8.1, Win10, Chuyu, dism, integración de actualizaciones, Windows"/>
-  <String Src="%title%" Dst="Dism++ | Nueva herramienta de Windows"/>
+  <String Src="%title%" Dst="Dism++ | Nueva herramienta para Windows"/>
   <String Src="%String1%" Dst="Dism++, probablemente la mejor herramienta"/>
   <String Src="%String2%" Dst="¡La primera implementación con interfaz gráfica en el mundo de DISM basada en CBS!"/>
   <String Src="%WhatsnewVersion%" Dst="Novedades - versión"/>
   <String Src="%64Bit%" Dst="Versión de 64 bits"/>
   <String Src="%32Bit%" Dst="Versión de 32 bits"/>
   <String Src="%Full%" Dst="Versión de 32/64 bits"/>
-  <String Src="%SupportSystem%" Dst="Compatible con Vista/7/8/8.1/10"/>
+  <String Src="%SupportSystem%" Dst="Compatible con Windows Vista/7/8/8.1/10"/>
   <String Src="%AboutDism++%" Dst="Acerca de Dism++"/>
   <String Src="%AboutDism++Des%" Dst="Dism++ puede considerarse como un interfaz gráfica de DISM, pero se basa en la interfaz de servicios basados en componentes (CBS) de bajo nivel en lugar de DISM API o DISM Core API."/>
   <String Src="%OpenSourceStr%" Dst="¡El código abierto no es sólo la virtud, sino también un símbolo de fuerza!. &lt;span onclick=&quot;window.location.href='https://github.com/Chuyu-Team'&quot; style=&quot;color:blue;cursor:pointer&quot;>Haga clic aquí&lt;/span> para ver Github del equipo de Chuyu."/>
