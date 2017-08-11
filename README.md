@@ -77,30 +77,30 @@ Dism++官方网站以及帮助文档
 
 ---
 
-### www.chuyu.me\de.xml
+### [www.chuyu.me/de.xml]
 Dism++ website German resource
 Thanks to franz@drwindows.de
 
-### www.chuyu.me\en.xml
+### [www.chuyu.me/en.xml]
 Dism++官方网站英语资源
 感谢 Frag, Hexhu
 
-### www.chuyu.me\es.xml
+### [www.chuyu.me/es.xml]
 Dism++ website Spanish resource
 Thanks to Jhovany200
 
-### www.chuyu.me\fr.xml
+### [www.chuyu.me/fr.xml]
 Dism++ website French resource
 Thanks to P.Verdy
 
-### www.chuyu.me\ja.xml
+### [www.chuyu.me/ja.xml]
 Dism++官方网站日语资源
 感谢 山形まり花
 
-### www.chuyu.me\zh-Hans.xml
+### [www.chuyu.me/zh-Hans.xml]
 Dism++官方网站繁体资源
 感谢 mingkuang
 
-### www.chuyu.me\zh-Hant.xml
+### [www.chuyu.me/zh-Hant.xml]
 Dism++官方网站繁体资源
 感谢 iliGPU
