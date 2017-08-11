@@ -15,9 +15,11 @@
   <String Src="%OpenSourceStr%" Dst="Open source is not only a spirit, but also a symbol of strength. &lt;span onclick=&quot;window.location.href='https://github.com/Chuyu-Team'&quot; style=&quot;color:blue;cursor:pointer&quot;>Check here&lt;/span> to view Chuyu Team's Github."/>
   <String Src="%SxSClean%" Dst="WinSxS Cleanup"/>
   <String Src="%SxSCleanDes%" Dst="No need to worry about disk free space anymore while installing updates."/>
+  <String Src="%CompactOS%" Dst="CompactOS"/>
   <String Src="%CompactOSDes%" Dst="At least 33% used space reduction without streamlining your OS Image."/>
   <String Src="%EsdSupport%" Dst="ESD Support"/>
   <String Src="%EsdSupportDes%" Dst="ESD to ISO conversion is never easy like now."/>
+  <String Src="%WindowsUpdate%" Dst="Windows Update"/>
   <String Src="%WindowsUpdateDes%" Dst="Choose your updates -- and no worries"/>
   <String Src="%SystemRecover%" Dst="Backup and Recovery"/>
   <String Src="%SystemRecoverDes%" Dst="Backup or restore your system WITHOUT using Windows PE"/>  
