@@ -762,7 +762,7 @@ Special Thanks to Pavel Belivakov <belivakov@gmail.com>
 
   <String Target="使任务栏更透明（by 518516.net）" Link="Направи лентата със задачите по-прозрачна (от 518516.net)"/>
 
-  <String Target="偶尔在开始菜单中显示建议" Link="Понякога показвай предложения в Старт менюто"/>
+  <String Target="不允许在开始菜单显示建议" qLink=""/>
 
     <String Target="在桌面显示我的电脑（by Rambin）" Link="Показвай This PC на работния плот (от Rambin)"/>
       <String Target="跟随系统" Link="Следвай системата"/>
@@ -1353,7 +1353,7 @@ Command:
   </StringMaps>
   <MessageTable>
     <x800F0806>Една или повече актуализации са висящи. Моля, рестартирайте и след това продължете.</x800F0806>
-    <x800F081F>Dism++ can not find the installation source, if you need to enable NET3.5 Please mount the ISO and then continue. If you need to fix Windows, please try the options - to set the detailed local source. if that fails, it is recommended that you use a repair installation.</x800F081F>
+    <x800F081F>Dism++ can not find the installation source, if you need to enable NET3.5 Please mount the ISO and then continue.</x800F081F>
     <x80073703>Операционната система е силно опростена. Dism ++ не може да продължи.</x80073703>
     <x800F0830>The operating system is severely streamlined, please give up this system, and then start again.</x800F0830>
     <x800F0825>You are trying to uninstall a package that was installed on the computer and is now permanent. Therefore, this package cannot be uninstalled.</x800F0825>
@@ -1379,71 +1379,71 @@ Command:
     <xC1440136>Драйвърът (Wofadk.sys) не е зареден. Моля, поставете отметка на "Зареди wofadk" в Опции - Още настройки, за да продължите.</xC1440136>
     <xC144013B>Драйвърът (Wofadk.sys) не е зареден. Моля, поставете отметка на "Зареди wofadk" в Опции - Още настройки, за да продължите.</xC144013B>
   
-  <!--VSS-->
-  <x80042302>Услугата Volume Shadow Copy е деактивирана. Моля, задайте услугата Volume Shadow Copy да е Ръчно и тогава продължете.</x80042302>
+    <!--VSS-->
+    <x80042302>Услугата Volume Shadow Copy е деактивирана. Моля, задайте услугата Volume Shadow Copy да е Ръчно и тогава продължете.</x80042302>
   
-  <xA0010001>Does not support Microsoft's online account password reset, please reset your password through Microsoft's official website.</xA0010001>
+    <xA0010001>Does not support Microsoft's online account password reset, please reset your password through Microsoft's official website.</xA0010001>
 
-  <!--WimgAPI Message-->
-  <x4144012B>Това е текстово съобщение, което не изисква никакво действие. Код на съобщението %1.</x4144012B>
-  <x4144012C>[ ИНФО ] %1</x4144012C>
-  <x8144012A>Получено неразпознато съобщение ID: %1.</x8144012A>
-  <x8144012D>[ WARN ] %1</x8144012D>
-  <x81440133>[ НОВ ОПИТ ] %1</x81440133>
-  <xC1420100>Посочената библиотека не е валиден контейнер на файловата система.</xC1420100>
-  <xC1420101>Потребителят се опитва да монтира имиджа for read/write access using a container library that is read only.</xC1420101>
-  <xC1420103>Потребителят се опитва да монтира имиджа към директория, която вече съществува. This is not supported.</xC1420103>
-  <xC1420104>Получена е заявка за извличане за файл, който не се съдържа в този имидж. This file will not be extracted.</xC1420104>
-  <xC1420105>Получена е заявка за извличане за файл, който не съществува. This condition may occur as a result of bad operation with other file system filters. Ensure that no antivirus or backup software is running on the mount directory.</xC1420105>
-  <xC1420106>Получена е заявка за извличане за файл, който вече е извлечен. This request will not be honored.</xC1420106>
-  <xC1420107>The service was notified of two different files with the same file id. These files had incompatable flags set. The mount operation will be aborted.</xC1420107>
-  <xC1420108>The file system container attempted to insert a file name twice. This is invalid, the wim service should only receive one notification per file name.</xC1420108>
-  <xC1420109>The service received a bad message from the filter. This message will not be processed.</xC1420109>
-  <xC142010A>The service received an extract for a file that is not in a mounted image. This extract will be ignored.</xC142010A>
-  <xC142010B>An attempt was made to unmount a directory that is not mounted.</xC142010B>
-  <xC142010C>An attempt was made to commit an image that was mounted for read only access. This is not valid. To commit an image, mount it without the read only flag set.</xC142010C>
-  <xC142010E>A nonexistant mount directory was given to the extraction process. The extraction process requires that the image be stubbed before it starts.</xC142010E>
-  <xC142010F>An invalid handle was passed to the image manager. This is a programming error.</xC142010F>
-  <xC1420110>Посоченият имидж handle was not used to mount an image, and cannot be used to unmount. Please call WIMUnmountImage with the name of the mount directory to unmount your image.</xC1420110>
-  <xC1420111>An image matching the specified mount data could not be found.</xC1420111>
-  <xC1420112>The image cannot be unmounted because a file in the mount directory is still in use.</xC1420112>
-  <xC1420113>Потребителят се опитва да монтира към директория, която вече съдържа монтиран имидж. Това не се поддържа.</xC1420113>
-  <xC1420114>Потребителят се опитва да монтира към директория, която не е празна. Това не се поддържа.</xC1420114>
-  <xC1420115>Потребителят се опитва да монтира към директория, която не съществува. Това не се поддържа.</xC1420115>
-  <xC1420116>A bad image handle was passed to WIMUnmountImageHandle. Only the image handle passed to WIMMountImageHandle or an image handle retrieved from WIMGetMountedImageHandle may be used in WIMUnmountImageHandle.</xC1420116>
-  <xC1420117>The directory could not be completely unmounted. This is usually due to applications that still have files opened within the mount directory. Close these files and unmount again to complete the unmount process.</xC1420117>
-  <xC1420118>The mounted image is already in use. Please ensure that it was not mounted by another process.</xC1420118>
-  <xC1420119>The wimserv.exe binary could not be found. Please ensure that it is available in the system search path.</xC1420119>
-  <xC142011A>Imagex timed out while waiting for the wimmount extractor process to initialize.</xC142011A>
-  <xC142011B>The wimmount service shutdown without returning a status.</xC142011B>
-  <xC142011C>The specified directory is not a valid mounted directory.</xC142011C>
-  <xC142011D>The specified mounted image cannot be committed back into the WIM. This occurs when an image has been through a partial unmount or when an image is still being mounted. If this image was unmounted with commit earlier, then the commit probably succeeded. Please validate that this is the case and then unmount without commit.</xC142011D>
-  <xC142011E>The mount directory of the specified image has changed. All the files in this image will be extracted, and this image cannot be commited.</xC142011E>
-  <xC142011F>The volume of the specified mount path does not support reparse points. Please mount to a volume that supports reparse points.</xC142011F>
-  <xC1420120>The specified directory contains a corrupted mount image. No mount operations can be performed on this directory.</xC1420120>
-  <xC1420121>The image could not be mounted because the wimmount.sys driver is not installed on this machine. To fix this error, install the wimmount.sys driver.</xC1420121>
-  <xC1420122>The mounted image could not be committed because the image in the wim was modified after it was mounted.</xC1420122>
-  <xC1420123>Посочената директория не може да бъде монтирана отново, защото it is not a valid remount target. The most likely reason that it is not valid is that the directory has already been unmounted.</xC1420123>
-  <xC1420124>Посочената директория не може да бъде монтирана отново, защото имиджът е бил променен, след като е бил монтиран.</xC1420124>
-  <xC1420125>Посочената директория не може да бъде монтирана отново, защото е в ход демонтиране на тази директория.</xC1420125>
-  <xC1420126>Посоченият имидж вече е монтиран и не може да бъде монтиран отново.</xC1420126>
-  <xC1420127>Посоченият имидж в указания wim вече е монтиран за достъп за четене/запис .</xC1420127>
-  <xC1420128>Манипулаторът на посоченият имидж не беше отворен с правилното ниво на достъп. За да се монтира манипулаторът на имиджа, манипулаторът трябва да има достъп WIM_GENERIC_MOUNT .</xC1420128>
-  <xC1420130>Потребителят се опитва да монтира разделен wim. Това не се поддържа.</xC1420130>
-  <xC1420131>Потребителят се опитва да монтира в основната директория на тома. Това не се поддържа.</xC1420131>
-  <xC1420132>The version of wimgapi used to create this mount directory does not match the current version. Ensure that wimserv.exe, wimmount.sys and imagex.exe/wimgapi.dll are of matching version.</xC1420132>
-  <xC1420134>The drive of the specified mount path is not supported. Please mount to a volume on a fixed drive.</xC1420134>
-  <xC1420135>The mount operation failed. When mounting, you must disable any software (for example, antivirus or search indexer) that accesses files under that specified mount path.</xC1420135>
-  <xC143010D>An invalid image index was specified to the wim container wrapper. The wrapper cannot open an image.</xC143010D>
-  <xC1440129>Посоченият файл на дневника съществува и не е Unicode кодиран текстов файл. Поддържат се само Unicode кодирани текстови файлове.</xC1440129>
-  <xC144012E>[ ГРЕШКА ] %1</xC144012E>
-  <xC144012F>[ ПРЕДУПРЕЖДЕНИЕ ] Разширение атрибути на файла %1 бяха подмината.</xC144012F>
-  <xC1440136>Неподдържана операция. Проверете дали ОС, която сте стартирали, съдържа wof драйвъра (wof.sys/wofadk.sys).</xC1440136>
-  <xC1440137>Неподдържана операция, Проверете дали the WIMBoot applied image е WIMBoot съвместим.</xC1440137>
-  <xC1440138>Неподдържана операция, Проверете дали the WIMBoot applied image е записан локално, а не на мрежово споделяне.</xC1440138>
-  <xC1440139>Неподдържана операция, Проверете дали existing OS images contained in the specified WIM file are in WIMBoot supported format.</xC1440139>
-  <xC144013A>Неподдържана операция, Проверете дали the OS image at the specified path to be captured is WIMBoot supported.</xC144013A>
-  <xC144013B>Неподдържана операция, Проверете дали the OS you are running contains a wof driver (wof.sys).</xC144013B>
+    <!--WimgAPI Message-->
+    <x4144012B>Това е текстово съобщение, което не изисква никакво действие. Код на съобщението %1.</x4144012B>
+    <x4144012C>[ ИНФО ] %1</x4144012C>
+    <x8144012A>Получено неразпознато съобщение ID: %1.</x8144012A>
+    <x8144012D>[ WARN ] %1</x8144012D>
+    <x81440133>[ НОВ ОПИТ ] %1</x81440133>
+    <xC1420100>Посочената библиотека не е валиден контейнер на файловата система.</xC1420100>
+    <xC1420101>Потребителят се опитва да монтира имиджа for read/write access using a container library that is read only.</xC1420101>
+    <xC1420103>Потребителят се опитва да монтира имиджа към директория, която вече съществува. This is not supported.</xC1420103>
+    <xC1420104>Получена е заявка за извличане за файл, който не се съдържа в този имидж. This file will not be extracted.</xC1420104>
+    <xC1420105>Получена е заявка за извличане за файл, който не съществува. This condition may occur as a result of bad operation with other file system filters. Ensure that no antivirus or backup software is running on the mount directory.</xC1420105>
+    <xC1420106>Получена е заявка за извличане за файл, който вече е извлечен. This request will not be honored.</xC1420106>
+    <xC1420107>The service was notified of two different files with the same file id. These files had incompatable flags set. The mount operation will be aborted.</xC1420107>
+    <xC1420108>The file system container attempted to insert a file name twice. This is invalid, the wim service should only receive one notification per file name.</xC1420108>
+    <xC1420109>The service received a bad message from the filter. This message will not be processed.</xC1420109>
+    <xC142010A>The service received an extract for a file that is not in a mounted image. This extract will be ignored.</xC142010A>
+    <xC142010B>An attempt was made to unmount a directory that is not mounted.</xC142010B>
+    <xC142010C>An attempt was made to commit an image that was mounted for read only access. This is not valid. To commit an image, mount it without the read only flag set.</xC142010C>
+    <xC142010E>A nonexistant mount directory was given to the extraction process. The extraction process requires that the image be stubbed before it starts.</xC142010E>
+    <xC142010F>An invalid handle was passed to the image manager. This is a programming error.</xC142010F>
+    <xC1420110>Посоченият имидж handle was not used to mount an image, and cannot be used to unmount. Please call WIMUnmountImage with the name of the mount directory to unmount your image.</xC1420110>
+    <xC1420111>An image matching the specified mount data could not be found.</xC1420111>
+    <xC1420112>The image cannot be unmounted because a file in the mount directory is still in use.</xC1420112>
+    <xC1420113>Потребителят се опитва да монтира към директория, която вече съдържа монтиран имидж. Това не се поддържа.</xC1420113>
+    <xC1420114>Потребителят се опитва да монтира към директория, която не е празна. Това не се поддържа.</xC1420114>
+    <xC1420115>Потребителят се опитва да монтира към директория, която не съществува. Това не се поддържа.</xC1420115>
+    <xC1420116>A bad image handle was passed to WIMUnmountImageHandle. Only the image handle passed to WIMMountImageHandle or an image handle retrieved from WIMGetMountedImageHandle may be used in WIMUnmountImageHandle.</xC1420116>
+    <xC1420117>The directory could not be completely unmounted. This is usually due to applications that still have files opened within the mount directory. Close these files and unmount again to complete the unmount process.</xC1420117>
+    <xC1420118>The mounted image is already in use. Please ensure that it was not mounted by another process.</xC1420118>
+    <xC1420119>The wimserv.exe binary could not be found. Please ensure that it is available in the system search path.</xC1420119>
+    <xC142011A>Imagex timed out while waiting for the wimmount extractor process to initialize.</xC142011A>
+    <xC142011B>The wimmount service shutdown without returning a status.</xC142011B>
+    <xC142011C>The specified directory is not a valid mounted directory.</xC142011C>
+    <xC142011D>The specified mounted image cannot be committed back into the WIM. This occurs when an image has been through a partial unmount or when an image is still being mounted. If this image was unmounted with commit earlier, then the commit probably succeeded. Please validate that this is the case and then unmount without commit.</xC142011D>
+    <xC142011E>The mount directory of the specified image has changed. All the files in this image will be extracted, and this image cannot be commited.</xC142011E>
+    <xC142011F>The volume of the specified mount path does not support reparse points. Please mount to a volume that supports reparse points.</xC142011F>
+    <xC1420120>The specified directory contains a corrupted mount image. No mount operations can be performed on this directory.</xC1420120>
+    <xC1420121>The image could not be mounted because the wimmount.sys driver is not installed on this machine. To fix this error, install the wimmount.sys driver.</xC1420121>
+    <xC1420122>The mounted image could not be committed because the image in the wim was modified after it was mounted.</xC1420122>
+    <xC1420123>Посочената директория не може да бъде монтирана отново, защото it is not a valid remount target. The most likely reason that it is not valid is that the directory has already been unmounted.</xC1420123>
+    <xC1420124>Посочената директория не може да бъде монтирана отново, защото имиджът е бил променен, след като е бил монтиран.</xC1420124>
+    <xC1420125>Посочената директория не може да бъде монтирана отново, защото е в ход демонтиране на тази директория.</xC1420125>
+    <xC1420126>Посоченият имидж вече е монтиран и не може да бъде монтиран отново.</xC1420126>
+    <xC1420127>Посоченият имидж в указания wim вече е монтиран за достъп за четене/запис .</xC1420127>
+    <xC1420128>Манипулаторът на посоченият имидж не беше отворен с правилното ниво на достъп. За да се монтира манипулаторът на имиджа, манипулаторът трябва да има достъп WIM_GENERIC_MOUNT .</xC1420128>
+    <xC1420130>Потребителят се опитва да монтира разделен wim. Това не се поддържа.</xC1420130>
+    <xC1420131>Потребителят се опитва да монтира в основната директория на тома. Това не се поддържа.</xC1420131>
+    <xC1420132>The version of wimgapi used to create this mount directory does not match the current version. Ensure that wimserv.exe, wimmount.sys and imagex.exe/wimgapi.dll are of matching version.</xC1420132>
+    <xC1420134>The drive of the specified mount path is not supported. Please mount to a volume on a fixed drive.</xC1420134>
+    <xC1420135>The mount operation failed. When mounting, you must disable any software (for example, antivirus or search indexer) that accesses files under that specified mount path.</xC1420135>
+    <xC143010D>An invalid image index was specified to the wim container wrapper. The wrapper cannot open an image.</xC143010D>
+    <xC1440129>Посоченият файл на дневника съществува и не е Unicode кодиран текстов файл. Поддържат се само Unicode кодирани текстови файлове.</xC1440129>
+    <xC144012E>[ ГРЕШКА ] %1</xC144012E>
+    <xC144012F>[ ПРЕДУПРЕЖДЕНИЕ ] Разширение атрибути на файла %1 бяха подмината.</xC144012F>
+    <xC1440136>Неподдържана операция. Проверете дали ОС, която сте стартирали, съдържа wof драйвъра (wof.sys/wofadk.sys).</xC1440136>
+    <xC1440137>Неподдържана операция, Проверете дали the WIMBoot applied image е WIMBoot съвместим.</xC1440137>
+    <xC1440138>Неподдържана операция, Проверете дали the WIMBoot applied image е записан локално, а не на мрежово споделяне.</xC1440138>
+    <xC1440139>Неподдържана операция, Проверете дали existing OS images contained in the specified WIM file are in WIMBoot supported format.</xC1440139>
+    <xC144013A>Неподдържана операция, Проверете дали the OS image at the specified path to be captured is WIMBoot supported.</xC144013A>
+    <xC144013B>Неподдържана операция, Проверете дали the OS you are running contains a wof driver (wof.sys).</xC144013B>
  </MessageTable>
  <UserAgreement>Hot Tip
 

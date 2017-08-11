@@ -441,7 +441,7 @@ Special Thanks to 山形まり花、奎宁
     <String Target="注册表还原" Link="復元"/>
     <String Target="清理时间" Link="クリーンアップの使用時間"/>
     <String Target="网络位置" Link="ネットワークの場所"/>
-    <String Target="正在扫描第%d个可清理的注册表项。。。" Link="レジストリのクリーンアップ可能アイテム（その %d）をスキャン中..." />
+    <String Target="正在扫描第%d个可清理的注册表项。。。" Link="レジストリのクリーンアップ可能アイテム（その %d）をスキャン中..."/>
     
     <!--驱动管理-->
     <String Target="温馨提示：删除关键驱动可能导致计算机无法启动" Link="ヒント：重要なドライバーの削除はコンピューターの起動できませんが生じる可能性があります。"/>
@@ -764,7 +764,7 @@ Special Thanks to 山形まり花、奎宁
 
     <String Target="使任务栏更透明（by 518516.net）" Link="タスク バーをもっと透明による (by 518516.net)"/>
 
-    <String Target="偶尔在开始菜单中显示建议" Link="ときどきスタート画面におすすめを表示する"/>
+    <String Target="不允许在开始菜单显示建议" qLink=""/>
 
     <String Target="在桌面显示我的电脑（by Rambin）" Link="マイ コンピューターをデスクトップに表示する (by Rambin)"/>
       <String Target="跟随系统" Link="システムの設定を継承"/>
@@ -816,6 +816,7 @@ Special Thanks to 山形まり花、奎宁
     <String Target="禁止自动安装推荐的应用程序（by IT之家）" Link="お勧めアプリ自動的にインストールを禁止（by ITHome）"/>
     <String Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="ロック画面で Windows スポットライトの広告を閉じる（by 、Cloud.）"/>
     <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="[Windows を使用するためのヒントやおすすめの方法を取得] を閉じる"/>
+    <String Target="隐藏任务栏上的人脉（by 、Cloud.）" qLink=""/>
 
     <!--右键菜单管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="右クリック メニューの管理 - 非必要メニューを無効し、パフォーマンスを改善する"/>
@@ -867,7 +868,12 @@ Special Thanks to 山形まり花、奎宁
     <String Target="启用增强保护模式" Link="拡張保護モード有効化"/>
 
     <String Target="针对增强保护模式启用64位进程" Link="拡張保護モードで 64 ビット プロセス有効化"/>
-    
+
+    <String Target="隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）" qLink=""/>
+
+    <!--Microsoft Edge-->
+    <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" qLink=""/>
+
     <!--微软拼音输入法--><String Target="微软拼音输入法" Link="Microsoft Pinyin 入力方法"/>
     <String Target="微软拼音默认为英语输入（by Rambin）" Link="英語は既定の入力モード (by Rambin)"/>
     
@@ -1360,7 +1366,7 @@ For more information about these Dism++ options and their arguments, specify an\
   </StringMaps>
   <MessageTable>
     <x800F0806>1 つ以上の更新待ち、再起動後に続行してください。</x800F0806>
-    <x800F081F>Dism++ はインストール元が見つかりません、もし NET3.5 有効化が必要、ISO をマウント後に続行してください。もし Windows を修正する、オプションにローカル ソースの指定ください。それが失敗した場合、インストールの修復はおすすめです。</x800F081F>
+    <x800F081F>Dism++ はインストール元が見つかりません、もし NET3.5 有効化が必要、ISO をマウント後に続行してください。</x800F081F>
     <x80073703>この OS は厳しいのスリム化です、Dism++ は続行できません。</x80073703>
     <x800F0830>この OS は厳しいのスリム化です、システムを放棄して、もう一度始動ください。</x800F0830>
     <x800F0825>これ更新は永続的インストールされました。アンインストールは利用できません。</x800F0825>

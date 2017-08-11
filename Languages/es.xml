@@ -763,7 +763,7 @@ Ejemplos:
 
     <String Target="使任务栏更透明（by 518516.net）" Link="Hacer más transparente la barra de tareas (518516.net)"/>
 
-    <String Target="偶尔在开始菜单中显示建议" Link="Ocasionalmente mostrar sugerencias en el menú de inicio"/>
+    <String Target="不允许在开始菜单显示建议" qLink=""/>
 
     <String Target="在桌面显示我的电脑（by Rambin）" Link="Mostrar Mi PC en el escritorio (Rambin)"/>
       <String Target="跟随系统" Link="Sistema"/>
@@ -1353,7 +1353,7 @@ Comando:
   </StringMaps>
   <MessageTable>
     <x800F0806>Hay una o más actualizaciones pendientes, por favor reinicie antes de continuar.</x800F0806>
-    <x800F081F>Dism++ no puede encontrar el origen de la instalación, si necesita habilitar NET3.5 monte la ISO y luego continuar. Si necesita reparar Windows, pruebe con las opciones - para poner el origen local detallado. Si eso falla, se recomienda utilizar una instalación de reparación.</x800F081F>
+    <x800F081F>Dism++ no puede encontrar el origen de la instalación, si necesita habilitar NET3.5 monte la ISO y luego continuar.</x800F081F>
     <x80073703>El sistema operativo está severamente racionalizado, Dism++ no puede continuar.</x80073703>
     <x800F0830>El sistema operativo está severamente racionalizado, por favor renunciar a este sistema, y empezar de nuevo.</x800F0830>
     <x800F0825>Está intentando desinstalar un paquete que estaba instalado en el ordenador y ahora es permanente. Por lo tanto, este paquete no se puede desinstalar.</x800F0825>
