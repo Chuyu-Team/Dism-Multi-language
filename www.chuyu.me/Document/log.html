@@ -1,15 +1,49 @@
 <script language="JavaScript">
-    var la = (navigator.language || navigator.browserLanguage).toLowerCase();
-
-    switch (la)
-    {
-        case 'zh-cn':
-        case 'zh-sg':
-            la = '../zh-Hans/log.html';
-            break;
-        default:
-            la = '../zh-Hant/log.html';
-            break;
-    }
-    document.location = la;
+var la = (navigator.language || navigator.browserLanguage || '').toLowerCase().split('-');
+switch (la[0]) {
+/*
+    case 'es': case 'an': case 'ast': case 'ca': case 'gl':
+        la = 'es'; break;
+    case 'eu':
+        switch (la[1]) {
+            case 'fr':
+                la = 'fr'; break;
+            default:
+                la = 'es'; break;
+        } break;
+    case 'oc':
+        switch (la[1]) {
+            case 'es':
+                la = 'es'; break;
+            default:
+                la = 'fr'; break;
+        } break;
+    case 'fr': case 'br': case 'co': case 'nrf': case 'pcd': case 'gcf': case 'ty':
+    case 'frc': case 'wa': case 'ht': case 'mg': case 'lb':
+        la = 'fr'; break;
+    case 'gsw':
+        switch (la[1]) {
+            case 'fr':
+                la = 'fr'; break;
+            default:
+                la = 'de'; break;
+        } break;
+    case 'de': case 'bar': case 'nds':
+        la = 'de'; break;
+    case 'ja':
+        la = 'ja'; break;
+*/
+    case 'zh':
+        switch (la[1]) {
+            case 'hant': case 'mo': case 'tw': case 'hk':
+                la = 'zh-Hant'; break;
+            default:
+                la = 'zh-Hans'; break;
+        } break;
+    case 'wuu': case 'yue':
+        la = 'zh-Hans'; break;
+    default:
+        la = 'en'; break;
+}
+document.location = '../' + la + '/log.html';
 </script>

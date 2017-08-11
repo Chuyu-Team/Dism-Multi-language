@@ -15,10 +15,12 @@
   <String Src="%OpenSourceStr%" Dst="Le code source ouvert n'est pas qu’un esprit, mais aussi un symbole de force. Consultez le projet source ouvert de Chuyu Team &lt;span onclick=&quot;window.location.href='https://github.com/Chuyu-Team'&quot; style=&quot;color:blue;cursor:pointer&quot;>Vérifiez-moi&lt;/span>。"/>
   <String Src="%SxSClean%" Dst="Windows Update Clean"/>
   <String Src="%SxSCleanDes%" Dst="Nettoyage de Windows update, plus AUCUN résidus !"/>
+  <String Src="%CompactOS%" Dst="CompactOS"/>
   <String Src="%CompactOSDes%" Dst="Économisez jusqu’à 33 % d’espace sans réduire aucune des fonctionnalités du système."/>
   <String Src="%EsdSupport%" Dst="Prise en charge des ESD"/>
   <String Src="%EsdSupportDes%" Dst="Plus de problème pour transformer un format ESD en ISO."/>
-  <String Src="%WindowsUpdateDes%" Dst="Mon Windows Update, à ma façon ~~ Mises à jour sans inquiétude."/>
+  <String Src="%WindowsUpdate%" Dst="Windows Update"/>
+  <String Src="%WindowsUpdateDes%" Dst="Mon Windows Update, à ma façon ~~ Mises à jour rapides sans inquiétude."/>
   <String Src="%SystemRecover%" Dst="Récupération du système"/>
   <String Src="%SystemRecoverDes%" Dst="Sauvegarde à chaud du système d’exploitation, restauration à chaud sans passer par WinPE !"/>
   <String Src="%Green%" Dst="Vert !"/>

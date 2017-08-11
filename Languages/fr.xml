@@ -749,9 +749,9 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="使开始菜单、任务栏、操作中心透明" Link="Rendre Centre Action Menu Démarrer et Barre des tâches transparents"/>
     
     <String Target="使任务栏更透明（by 518516.net）" Link="Rendre Barre des tâches plus transparente (par 518516.net)"/>
-    
-    <String Target="偶尔在开始菜单中显示建议" Link="Parfois afficher des suggestions dans le menu Démarrer"/>
-    
+
+    <String Target="不允许在开始菜单显示建议" qLink=""/>
+
     <String Target="在桌面显示我的电脑（by Rambin）" Link="Afficher mon ordinateur sur le bureau (par Rambin)"/>
       <String Target="跟随系统" Link="Suivre Système"/>
       <String Target="显示" Link="Afficher"/>
@@ -1293,7 +1293,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
   </StringMaps>
   <MessageTable>
     <x800F0806>Une ou plusieurs mise à jour sont en attente, veuillez redémarrer avant de continuer.</x800F0806>
-    <x800F081F>Dism++ ne peut pas trouver la source d’installation, si vous avez besoin d’activer .NET 3.5. Veuillez monter l’ISO puis continuer. S’il vous faut réparer Windows, veuillez essayer les options pour définir la source locale détaillée ; si cela échoue, il est recommandé d’utiliser une réinstallation de réparation.</x800F081F>
+    <x800F081F>Dism++ ne peut pas trouver la source d’installation, si vous avez besoin d’activer .NET 3.5.</x800F081F>
     <x80073703>Ce système d’exploitation est sévèrement rationalisé, Dism++ ne peut pas continuer.</x80073703>
     <x800F0830>Ce système d’exploitation est sévèrement rationalisé, mieux vaut ne pas y toucher, et recommencer plus tard.</x800F0830>
     <x800F0825>Vous essayez de désinstaller un composant qui a été intégré sur l’ordinateur de façon maintenant permanente. Par conséquent, ce paquet ne peut pas être désinstallé.</x800F0825>

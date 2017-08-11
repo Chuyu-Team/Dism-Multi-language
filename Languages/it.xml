@@ -762,7 +762,7 @@ Esempi:
 
     <String Target="使任务栏更透明（by 518516.net）" Link="Rendi Barra Applicazioni più trasparente (by 518516.net)"/>
 
-    <String Target="偶尔在开始菜单中显示建议" Link="Mostra suggerimenti occasionali nel Menu Avvio"/>
+    <String Target="不允许在开始菜单显示建议" qLink=""/>
 
     <String Target="在桌面显示我的电脑（by Rambin）" Link="Mostra icona Questo PC sul desktop (by Rambin)"/>
       <String Target="跟随系统" Link="Come Sistema"/>
@@ -1352,7 +1352,7 @@ Comando:
   </StringMaps>
   <MessageTable>
     <x800F0806>Uno o più aggiornamenti sono in sospeso, si prega di riavviare e quindi continuare.</x800F0806>
-    <x800F081F>Dism++ non trova la sorgente di installazione, se devi attivare NET3.5, monta il file ISO e quindi continua. Se hai necessità di riparare Windows, prova con le opzioni per impostare la sorgente locale. Se anche questo fallisce, è raccomandato procedere con la riparazione dell'installazione.</x800F081F>
+    <x800F081F>Dism++ non trova la sorgente di installazione, se devi attivare NET3.5, monta il file ISO e quindi continua.</x800F081F>
     <x80073703>Il sistema operativo è fortemente semplificato, Dism ++ non può continuare.</x80073703>
     <x800F0830>Il sistema operativo è fortemente semplificato, si prega di non utilizzare questo sistema.</x800F0830>
     <x800F0825>Stai tentando di rimuovere un pacchetto che è stato installato su questo computer e che ora è permanente. Pertanto questo pacchetto non può essere rimosso.</x800F0825>

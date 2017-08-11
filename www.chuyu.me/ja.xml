@@ -15,9 +15,11 @@
   <String Src="%OpenSourceStr%" Dst="オーペンソースは徳だけではなく、実力の象徴も表せます。初雨チームのオーペンソースプロジェクトをチェックしましょう！ &lt;span onclick=&quot;window.location.href='https://github.com/Chuyu-Team'&quot; style=&quot;color:blue;cursor:pointer&quot;>こちら&lt;/span>!"/>
   <String Src="%SxSClean%" Dst="更新クリーンアップ"/>
   <String Src="%SxSCleanDes%" Dst="更新をクリーンアップし、ディスク領域の心配はありません"/>
+  <String Src="%CompactOS%" Dst="CompactOS"/>
   <String Src="%CompactOSDes%" Dst="スリム化しなくても 33% ディスク領域を解放できます"/>
   <String Src="%EsdSupport%" Dst="完全な ESD サポート"/>
   <String Src="%EsdSupportDes%" Dst="ESD → ISO 変換が心配する必要はありません"/>
+  <String Src="%WindowsUpdate%" Dst="Windows Update"/>
   <String Src="%WindowsUpdateDes%" Dst="自分の更新は自分で決定——ご安心ください"/>
   <String Src="%SystemRecover%" Dst="システム復元"/>
   <String Src="%SystemRecoverDes%" Dst="システムのバックアップまたは復元の際 PE を利用必要はありません"/>

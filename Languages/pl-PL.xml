@@ -762,7 +762,7 @@ Przykłady:
 
     <String Target="使任务栏更透明（by 518516.net）" Link="Pasek zadań bardziej przejrzysty."/>
 
-    <String Target="偶尔在开始菜单中显示建议" Link="Pokaż propozycje w menu Start"/>
+    <String Target="不允许在开始菜单显示建议" qLink=""/>
 
     <String Target="在桌面显示我的电脑（by Rambin）" Link="Pokaż Mój komputer na pulpicie."/>
       <String Target="跟随系统" Link="Systemowe"/>
@@ -1352,7 +1352,7 @@ Komenda:
   </StringMaps>
   <MessageTable>
     <x800F0806>Jedna lub więcej aktualizacji jest w toku, proszę wykonać restart i spróbować ponownie.</x800F0806>
-    <x800F081F>Dism++ nie może znaleźć źródła instalacji, jeśli trzeba, aby umożliwić NET3.5 Proszę zamontować ISO, a następnie kontynuować. Jeśli potrzebujesz, aby naprawić system Windows, spróbuj opcje - aby ustawić szczegóły lokalnego źródła. jeśli to się nie powiedzie, to zaleca się stosowanie instalaci naprawczej.</x800F081F>
+    <x800F081F>Dism++ nie może znaleźć źródła instalacji, jeśli trzeba, aby umożliwić NET3.5 Proszę zamontować ISO, a następnie kontynuować.</x800F081F>
     <x80073703>System operacyjny jest mocno uproszczone, Dism++ nie może kontynuować.</x80073703>
     <x800F0830>System operacyjny jest mocno uproszczone, należy zrezygnować niniejszego systemu, a następnie uruchom ponownie.</x800F0830>
 	  <x800F0825>Próbujesz odinstalować pakiet, który został zainstalowany na komputerze i jest teraz na stałe. W związku z tym, ten pakiet nie może zostać odinstalowany.</x800F0825>

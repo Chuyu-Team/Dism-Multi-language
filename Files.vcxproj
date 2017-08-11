@@ -185,6 +185,7 @@
     </Xml>
     <Xml Include="www.chuyu.me\de.xml" />
     <Xml Include="www.chuyu.me\en.xml" />
+    <Xml Include="www.chuyu.me\es.xml" />
     <Xml Include="www.chuyu.me\fr.xml" />
     <Xml Include="www.chuyu.me\ja.xml" />
     <Xml Include="www.chuyu.me\zh-Hans.xml" />
