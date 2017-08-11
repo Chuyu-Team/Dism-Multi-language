@@ -1,30 +1,46 @@
 <script language="JavaScript">
-
-var la=(navigator.language || navigator.browserLanguage).toLowerCase();
-
-if(la.indexOf('zh-')==0)
-{
-    switch(la)
-    {
-        case 'zh-cn':
-        case 'zh-sg':
-            la='./zh-Hans/index.html';
-            break;
-        default:
-            la='./zh-Hant/index.html';
-            break;
-    }
+var la = (navigator.language || navigator.browserLanguage || '').toLowerCase().split('-');
+switch (la[0]) {
+    case 'es': case 'an': case 'ast': case 'ca': case 'gl':
+        la = 'es'; break;
+    case 'eu':
+        switch (la[1]) {
+            case 'fr':
+                la = 'fr'; break;
+            default: /* case 'es': case 'ad': */
+                la = 'es'; break;
+        } break;
+    case 'oc':
+        switch (la[1]) {
+            case 'es':
+                la = 'es'; break;
+            default: /* case 'fr': case 'it': */
+                la = 'fr'; break;
+        } break;
+    case 'fr': case 'br': case 'co': case 'nrf': case 'pcd': case 'gcf': case 'ty':
+    case 'frc': case 'wa': case 'ht': case 'mg': case 'lb':
+        la = 'fr'; break;
+    case 'gsw':
+        switch (la[1]) {
+            case 'fr':
+                la = 'fr'; break;
+            default: /* case 'de': case 'ch': */
+                la = 'de'; break;
+        } break;
+    case 'de': case 'bar': case 'nds':
+        la = 'de'; break;
+    case 'ja':
+        la = 'ja'; break;
+    case 'zh':
+        switch (la[1]) {
+            case 'hant': case 'mo': case 'tw': case 'hk':
+                la = 'zh-Hant'; break;
+            default: /* case 'hans': case 'cn': case 'sg': */
+                la = 'zh-Hans'; break;
+        } break;
+    case 'wuu': case 'yue':
+        la = 'zh-Hans'; break;
+    default: /* all other languages go to English */
+        la = 'en'; break;
 }
-else if(la.indexOf('ja-')==0)
-    la = './ja/index.html';
-else if(la.indexOf('fr-')==0)
-    la = './fr/index.html';
-else if (la.indexOf('de-') == 0)
-    la = './de/index.html';
-else
-    la='./en/index.html';
-else
-    la='./es/index.html';
-
-document.location = la;
 </script>
