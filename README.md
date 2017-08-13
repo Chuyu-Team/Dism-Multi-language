@@ -46,7 +46,7 @@ Thanks to OldMac, 阿泽西
 
 ## [Languages/pl-PL.xml]
 Polish Resource
-Thanks to WinClub.pl(romuald68@gmail.com)
+Thanks to romuald68@gmail.com, Bladius (KuchtaPC2015@outlook.com)
 
 ## [Languages/pt.xml]
 Portuguese Resource
