@@ -35,5 +35,5 @@
   <String Src="%ICP%" Dst=""/>
   <String Src="%Document%" Dst="說明文件"/>
   <String Src="%logs%" Dst="更新日誌"/>
-  <String Src="%wsuscan2%" Dst="wsusscn2.cab 是更新檔離線資料庫，覆蓋「Config\wsusscn2.cab」即可。"/>
+  <String Src="%wsuscan2%" Dst="wsusscn2.cab 是離線資料庫的更新檔，覆蓋「Config\wsusscn2.cab」即可。"/>
 </Strings>
