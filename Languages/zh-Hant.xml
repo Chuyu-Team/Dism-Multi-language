@@ -1,7 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <!--
-
 這是 Dism++ 繁體中文資源包
 
 在 XML 中的 5 個特殊符號 需要特殊表示
@@ -120,7 +118,7 @@
     <String Target="临时目录可用空间不足5GB，这可能导致Dism++无法正常运行，推荐将Dism++复制到可用空间大于5GB的驱动器，然后继续。" Link="暫存目錄可用空間不足 5GB，這可能導致 Dism++ 無法正常執行，建議將 Dism++ 複製到可用空間大於 5GB 的磁碟機，再繼續。"/>
     <String Target="基础支撑库缺失，引导修复相关功能无法使用。" Link="基礎支援程式庫缺失，Boot 修復相關功能無法使用。"/>
     <String Target="Dism++需要管理员权限才能运行，请右键 以管理员身份运行 然后继续。" Link="Dism++ 需要管理員權限才可執行，請右鍵 以管理員身份執行 然後繼續。"/>
-    <String Target="Dism++不允许以兼容模式启动，请去除兼容模式，然后再启动Dism++。" qLink=""/>
+    <String Target="Dism++不允许以兼容模式启动，请去除兼容模式，然后再启动Dism++。" qLink="Dism++ 不允許以相容模式啟動，請除去相容模式，然後再啟動 Dism++。"/>
 
     <String Target="你需要增量保存还是直接保存？" Link="您需要增量儲存還是直接儲存？"/>
 	  <String Target="温馨提示：保存映像后空间不会减少，如果需要减少空间请重新编译目标文件。" Link="貼心提醒：儲存映像後空間不會減少，如果需要減少空間請重新編輯目的檔案。"/>
@@ -444,7 +442,7 @@
     <String Target="注册表还原" Link="登錄檔還原"/>
     <String Target="清理时间" Link="清理時間"/>
     <String Target="网络位置" Link="網路位置"/>
-    <String Target="正在扫描第%d个可清理的注册表项。。。" qLink=""/>
+    <String Target="正在扫描第%d个可清理的注册表项。。。" qLink="正在掃瞄第 %d 個可清理的登入檔項目..."/>
 
     <!--驅動管理-->
 	  <String Target="温馨提示：删除关键驱动可能导致计算机无法启动" Link="貼心提醒：刪除關鍵驅動可能導致電腦無法啟動"/>
@@ -520,8 +518,8 @@
     <!--应用程序-->
     <String Target="应用程序" Link="應用程式"/>
     <String Target="更改" Link="更改"/>
-    <String Target="通用安装脚本" qLink=""/>
-    <String Target="%s 已经安装，你确定要继续吗？" qLink=""/>
+    <String Target="通用安装脚本" qLink="通用安裝腳本"/>
+    <String Target="%s 已经安装，你确定要继续吗？" qLink="%s 已經安裝，你確定要繼續嗎？"/>
 
     <!--添加删除更新-->
 	  <String Target="未知" Link="未知"/>
@@ -772,7 +770,7 @@
 
     <String Target="使任务栏更透明（by 518516.net）" Link="使工作列更透明 (by 518516.net)"/>
 
-    <String Target="不允许在开始菜单显示建议" qLink=""/>
+    <String Target="不允许在开始菜单显示建议" qLink="不允許在 [開始] 顯示建議"/>
 
     <String Target="在桌面显示我的电脑（by Rambin）" Link="在桌面顯示我的電腦 (by Rambin)"/>
       <String Target="跟随系统" Link="隨著系統"/>
@@ -820,11 +818,11 @@
     <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="關閉音樂檔的圖片預覽，提高檔案總管反應能力 (by ‍莫失莫忘)"/>
     <String Target="关闭打开程序的“安全警告”（by 莫失莫忘）" Link="關閉開啟程式的「安全性警告」 (by 莫失莫忘)"/>
     <String Target="关闭在应用商店中查找关联应用（by Asoft）" Link="關閉在市集中尋找關聯 App (by Asoft)"/>
-    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" qLink=""/>
-    <String Target="禁止自动安装推荐的应用程序（by IT之家）" qLink=""/>
-    <String Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" qLink=""/>
+    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" qLink="隱藏本機中影片、圖片、文件、下載、音樂、桌面、3D對象七個資料夾（by 、Cloud.）"/>
+    <String Target="禁止自动安装推荐的应用程序（by IT之家）" qLink="停用自動安裝建議的應用程式 (by IT之家)"/>
+    <String Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" qLink="關閉鎖屏時的Windows 聚焦推廣（by 、Cloud.）"/>
     <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" qLink=""/>
-    <String Target="隐藏任务栏上的人脉（by 、Cloud.）" qLink=""/>
+    <String Target="隐藏任务栏上的人脉（by 、Cloud.）" qLink="隱藏工具列上的聯絡人(by 、Cloud.)"/>
 
     <!--右鍵選單管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="右鍵功能表管理 - 停用不需要的功能表提高反應能力"/>
@@ -843,8 +841,8 @@
     <String Target="禁用磁盘的“复制磁盘”右键菜单" Link="停用磁片的「複製磁片」右鍵功能表"/>
     <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="停用檔案、目錄、桌面、磁片以及媒體櫃的「共用對象」右鍵功能表"/>
     <String Target="禁用桌面的“小工具”右键菜单" Link="停用桌面的「小工具」右鍵功能表"/>
-    <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" qLink=""/>
-    <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" qLink=""/>
+    <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" qLink="停用檔案的「View 3D」右鍵功能表 (by Cloud)"/>
+    <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" qLink="停用檔案的「畫圖 3D」右鍵功能表 (by Cloud)"/>
 
     <!--桌面圖示管理-->
     <String Target="桌面图标管理" Link="桌面圖示管理"/>
@@ -877,10 +875,10 @@
 
     <String Target="针对增强保护模式启用64位进程" Link="針對增強保護模式啟用 64 位元處理程序"/>
 
-    <String Target="隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）" qLink=""/>
+    <String Target="隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）" qLink="隱藏 Internet Explorer 右上角的表情反應按鈕 (by IT之家)"/>
 
     <!--Microsoft Edge-->
-    <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" qLink=""/>
+    <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" qLink="阻止 Microsoft Edge「首次執行」歡迎頁面（by IT之家）"/>
 
     <!--微軟拼音輸入法--><String Target="微软拼音输入法" Link="微軟拼音輸入法"/>
     <String Target="微软拼音默认为英语输入（by Rambin）" Link="微軟拼音預設為英文輸入 (by Rambin)"/>
