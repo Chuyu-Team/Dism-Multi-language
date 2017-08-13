@@ -47,8 +47,9 @@
       <String Target="重新载入" Link="重新載入"/>
 		  <String Target="格式转换" Link="格式轉換"/>
 			  <String Target="ESD解密" Link="ESD 解密"/>
-	
-	  <String Target="恢复功能(&amp;R)" Link="恢復功能(&amp;R)"/>		
+      <String Target="取消任务	Ctrl+Break" qLink=""/>
+
+    <String Target="恢复功能(&amp;R)" Link="恢復功能(&amp;R)"/>		
 		  <String Target="系统修复" Link="系統修復"/>
       <String Target="健康扫描" Link="健康掃描"/>
         <String Target="验证受损" Link="檢驗受損"/>
@@ -550,6 +551,7 @@
 	  <String Target="添加" Link="新增"/>
     <String Target="语言" Link="語言"/>
     <String Target="Windows %s 语言包" Link="Windows %s 語言套件"/>
+    <String Target="重启生效" qLink=""/>
 
 	  <!--選用功能-->
     <String Target="正在删除可选功能" Link="正在刪除選用功能"/>
