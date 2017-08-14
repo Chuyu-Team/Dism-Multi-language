@@ -9,8 +9,8 @@ Also some control characters should be preferably encoded as numeric character e
     '     Single quotation mark        &apos;      ’ (apostrophe) or ‘English quotes’
     "     Double quotation mark        &quot;      “English quotes”
     \t    Tabulation control           &#9;
-    \r    Line feed (newline) control  &#xA;
-    \n    Carriage return control      &#xD;
+    \n    Line feed (newline) control  &#xA;
+    \r    Carriage return control      &#xD;
 Also please avoid indenting this file using tabulations.
 
 Special Thanks to franz@drwindows.de
