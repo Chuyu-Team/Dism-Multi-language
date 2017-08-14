@@ -13,7 +13,7 @@ Also some control characters should be preferably encoded as numeric character e
     \r    Carriage return control      &#xD;
 Also please avoid indenting this file using tabulations.
 
-Special thanks to Pavel Belivakov <belivakov@gmail.com>
+Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
 -->
 <Data>
   <DefaultControl>
