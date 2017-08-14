@@ -36,17 +36,17 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
   <StringMaps>
     <String Target="文件(&amp;F)" Link="&amp;File"/>
       <String Target="添加映像" Link="Add Image"/>
-        <String Target="释放映像&#x9;Ctrl+N" Link="Apply Image&#x9;Ctrl+N"/>
-        <String Target="挂载映像&#x9;Ctrl+Shift+N" Link="Mount Image&#x9;Ctrl+Shift+N"/>
+        <String Target="释放映像&#9;Ctrl+N" Link="Apply Image&#9;Ctrl+N"/>
+        <String Target="挂载映像&#9;Ctrl+Shift+N" Link="Mount Image&#9;Ctrl+Shift+N"/>
         <String Target="添加路径" Link="Add Path"/>
-      <String Target="卸载映像&#x9;Delete" Link="Unmount Image&#x9;Delete"/>
-      <String Target="保存映像&#x9;Ctrl+S" Link="Save Image&#x9;Ctrl+S"/>
-      <String Target="另存为映像&#x9;Ctrl+Shift+S" Link="Save Image As&#x9;Ctrl+Shift+S"/>
-      <String Target="打开映像文件&#x9;Ctrl+O" Link="Open Image File&#x9;Ctrl+O"/>
+      <String Target="卸载映像&#9;Delete" Link="Unmount Image&#9;Delete"/>
+      <String Target="保存映像&#9;Ctrl+S" Link="Save Image&#9;Ctrl+S"/>
+      <String Target="另存为映像&#9;Ctrl+Shift+S" Link="Save Image As&#9;Ctrl+Shift+S"/>
+      <String Target="打开映像文件&#9;Ctrl+O" Link="Open Image File&#9;Ctrl+O"/>
       <String Target="重新载入" Link="Reload"/>
       <String Target="格式转换" Link="Format Conversion"/>
         <String Target="ESD解密" Link="ESD Decryption"/>
-    <String Target="取消任务&#x9;Ctrl+Break" Link="Cancel Task&#x9;Ctrl+Break"/>
+    <String Target="取消任务&#9;Ctrl+Break" Link="Cancel Task&#9;Ctrl+Break"/>
 
     <String Target="恢复功能(&amp;R)" Link="&amp;Recovery"/>
       <String Target="系统修复" Link="System Recovery"/>
@@ -686,8 +686,8 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
       Target="即将以无视权限方式执行此命令：&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;为了避免让恶意软件利用，Dism++需要你的允许才能继续，你确定要继续吗？"
       Link="Dism++ will run the commands&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;while bypassing rights checking. Malwares may use this to harm your system, so your confirmation is needed. Sure to proceed?"/>
     <String
-      Target="可以使用以下命令来操作此映像：&#xD;&#xA;&#xD;&#xA;/GodMode&#x9;- 使用春哥附体启动应用程序"
-      Link="You can use these commands to operate the image:&#xD;&#xA;&#xD;&#xA;/GodMode&#x9;- run program in GodMode"/>
+      Target="可以使用以下命令来操作此映像：&#xD;&#xA;&#xD;&#xA;/GodMode&#9;- 使用春哥附体启动应用程序"
+      Link="You can use these commands to operate the image:&#xD;&#xA;&#xD;&#xA;/GodMode&#9;- run program in GodMode"/>
 
     <String Target="ESD转ISO" Link="ESD To ISO"/>
     <String Target="允许将WIM、SWM以及ESD之间格式自由转换。" Link="Allow free conversion between WIM, SWM and ESD files."/>
@@ -1047,17 +1047,17 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
       Target="将一个文件夹或者文件进行Compact解压缩&#xD;&#xA;/U Path"
       Link="Decompress the compacted folder or file(s)&#xD;&#xA;/U Path"/>
     <String
-      Target="/Image:&lt;path_to_image&gt;&#x9;- 指定特定 Windows 映像的根目录的路径。&#xD;&#xA;&#xD;&#xA;示例：&#xD;&#xA; Dism++x86.exe /Image:C:\ /?&#xD;&#xA; Dism++x86.exe /Image:&quot;D:\1213\&quot; /?"&#xD;&#xA;
-      Link="/Image:&lt;path_to_image&gt;&#x9;- The path to the root directory of the image.&#xD;&#xA;&#xD;&#xA;Examples:&#xD;&#xA; Dism++x86.exe /Image:C:\ /?&#xD;&#xA; Dism++x86.exe /Image:&quot;D:\1213\&quot; /?"/>
+      Target="/Image:&lt;path_to_image&gt;&#9;- 指定特定 Windows 映像的根目录的路径。&#xD;&#xA;&#xD;&#xA;示例：&#xD;&#xA; Dism++x86.exe /Image:C:\ /?&#xD;&#xA; Dism++x86.exe /Image:&quot;D:\1213\&quot; /?"&#xD;&#xA;
+      Link="/Image:&lt;path_to_image&gt;&#9;- The path to the root directory of the image.&#xD;&#xA;&#xD;&#xA;Examples:&#xD;&#xA; Dism++x86.exe /Image:C:\ /?&#xD;&#xA; Dism++x86.exe /Image:&quot;D:\1213\&quot; /?"/>
     <String
-      Target="映像管理命令：&#xD;&#xA; /All&#x9;- 打开全局会话&#xD;&#xA; /Image&#x9;- 指定特定 Windows 映像的根目录的路径。&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Compact支持命令：&#xD;&#xA; /C&#x9;- 使用Compact压缩文件/文件夹&#xD;&#xA; /U&#x9;- 撤销Compact压缩的文件/文件夹&#xD;&#xA;&#xD;&#xA;若要获得有关这些 Dism++ 选项及其参数的详细信息，请在紧挨着 /? 之前指定一个选项。&#xD;&#xA;示例：&#xD;&#xA; Dism++x86.exe /Image /?&#xD;&#xA; Dism++x86.exe /C /?"
-      Link="Image Management Command:&#xD;&#xA; /All&#x9;- Open the global session&#xD;&#xA; /Image&#x9;- Designate the root directory of windows image&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Compact supported command&#xD;&#xA; /C&#x9;- Use the compressed files/folders (compressed with compact)&#xD;&#xA; /U&#x9;- Revoke the compressed files/folders (compressed with compact)&#xD;&#xA;&#xD;&#xA;For more information about these Dism++ options and their arguments, specify an\noption immediately before /?.&#xD;&#xA;Examples:&#xD;&#xA; Dism++x86.exe /Image /?&#xD;&#xA; Dism++x86.exe /C /?"/>
+      Target="映像管理命令：&#xD;&#xA; /All&#9;- 打开全局会话&#xD;&#xA; /Image&#9;- 指定特定 Windows 映像的根目录的路径。&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Compact支持命令：&#xD;&#xA; /C&#9;- 使用Compact压缩文件/文件夹&#xD;&#xA; /U&#9;- 撤销Compact压缩的文件/文件夹&#xD;&#xA;&#xD;&#xA;若要获得有关这些 Dism++ 选项及其参数的详细信息，请在紧挨着 /? 之前指定一个选项。&#xD;&#xA;示例：&#xD;&#xA; Dism++x86.exe /Image /?&#xD;&#xA; Dism++x86.exe /C /?"
+      Link="Image Management Command:&#xD;&#xA; /All&#9;- Open the global session&#xD;&#xA; /Image&#9;- Designate the root directory of windows image&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Compact supported command&#xD;&#xA; /C&#9;- Use the compressed files/folders (compressed with compact)&#xD;&#xA; /U&#9;- Revoke the compressed files/folders (compressed with compact)&#xD;&#xA;&#xD;&#xA;For more information about these Dism++ options and their arguments, specify an\noption immediately before /?.&#xD;&#xA;Examples:&#xD;&#xA; Dism++x86.exe /Image /?&#xD;&#xA; Dism++x86.exe /C /?"/>
     <String
-      Target="/Plugin:&lt;Plugin_ID&gt;&#x9;- 此功能用于打开某插件支持的命令&#xD;&#xA;&#xD;&#xA;示例：&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"
-      Link="/Plugin:&lt;Plugin_ID&gt;&#x9;- To run the commands supported with a plug-in.&#xD;&#xA;&#xD;&#xA;Examples:&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"/>
+      Target="/Plugin:&lt;Plugin_ID&gt;&#9;- 此功能用于打开某插件支持的命令&#xD;&#xA;&#xD;&#xA;示例：&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"
+      Link="/Plugin:&lt;Plugin_ID&gt;&#9;- To run the commands supported with a plug-in.&#xD;&#xA;&#xD;&#xA;Examples:&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"/>
     <String
-      Target="可以使用以下命令来操作此映像：&#xD;&#xA;&#xD;&#xA;插件命令：&#xD;&#xA; /Plugin&#x9;- 启动特定插件（需要插件支持命令参数）"
-      Link="You can use these commands to operate this image:&#xD;&#xA;Command:&#xD;&#xA; /Plugin&#x9;- Run the designated plug-in (Need plugin support)"/>
+      Target="可以使用以下命令来操作此映像：&#xD;&#xA;&#xD;&#xA;插件命令：&#xD;&#xA; /Plugin&#9;- 启动特定插件（需要插件支持命令参数）"
+      Link="You can use these commands to operate this image:&#xD;&#xA;Command:&#xD;&#xA; /Plugin&#9;- Run the designated plug-in (Need plugin support)"/>
     <String Target="正在压缩" Link="Compressing"/>
     <String Target="正在解压" Link="Decompressing"/>
     <String Target="操作完成！" Link="Finished."/>
