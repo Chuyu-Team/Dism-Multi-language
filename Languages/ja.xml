@@ -824,13 +824,13 @@ Special Thanks to 山形まり花、奎宁
     <String Target="禁止自动安装推荐的应用程序（by IT之家）" Link="お勧めアプリ自動的にインストールを禁止（by ITHome）"/>
     <String Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="ロック画面で Windows スポットライトの広告を閉じる（by 、Cloud.）"/>
     <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="[Windows を使用するためのヒントやおすすめの方法を取得] を閉じる"/>
-    <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="タスク バーの [People] を隠す"/>
+    <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="タスク バーの [People] を隠す（by 、Cloud.）"/>
 
     <!--右键菜单管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="右クリック メニューの管理 - 非必要メニューを無効し、パフォーマンスを改善する"/>
     <String Target="禁用可执行文件的“兼容性疑难解答”右键菜单（by 莫失莫忘）" Link="アプリケーションから右クリック メニューの [互換性トラブルシューティング] を無効化（by 莫失莫忘）"/>
     <String Target="禁用文件、文件夹以及磁盘的“使用Windows Defender扫描”右键菜单（by 莫失莫忘）" Link="右クリック メニューのファイル、フォルダーおよびディスクの [Windows Defenderでスキャンする] を無効化（by 莫失莫忘）"/>
-    <String Target="禁用文件、磁盘以及属性的“还原以前版本”右键菜单（by 莫失莫忘）" Link="右クリック メニューのファイル、ディスクおよびプロパティの [以前のパーション] を無効化（by 莫失莫忘）"/>
+    <String Target="禁用文件、磁盘以及属性的“还原以前版本”右键菜单（by 莫失莫忘）" Link="右クリック メニューのファイル、ディスクおよびプロパティの [以前のバージョン] を無効化（by 莫失莫忘）"/>
     <String Target="禁用文件、文件夹、桌面以及所有对象的“共享文件夹同步”右键菜单" Link="右クリック メニューのファイル、フォルダー、デスクトップおよびすべて対象の [共有フォルダの同期] を無効化"/>
     <String Target="禁用新建“ZIP/RAR文件”右键菜单（by 莫失莫忘）" Link="右クリック メニューの新規作成の [ZIP/RAR ファイル] を無効化（by 莫失莫忘）"/>
     <String Target="禁用新建、文件以及文件夹的“公文包”右键菜单" Link="右クリック メニューの新規作成、ファイルおよびフォルダーの [ブリーフケース] を無効化"/>
@@ -958,10 +958,10 @@ Special Thanks to 山形まり花、奎宁
     <String Target="*隐藏Windows 10升级助手GWX" Link="*Windows 10 アップグレード アシスタント (GWX) を隠す"/>
 
     <String Target="关闭OneDrive（by Rambin）" Link="OneDrive 無効化 (by Rambin)"/>
-      <String Target="禁用OneDrive将导致某些Windows Store应用无法使用OneDrive存储。" Link="Disable OneDrive will cause Windows Store applications can not use OneDrive storage."/>
+      <String Target="禁用OneDrive将导致某些Windows Store应用无法使用OneDrive存储。" Link="無効して、一部のストア アプリは Onedrive ストレージを利用できません。"/>
 
     <String Target="*VHD启动时不要将VHD动态文件扩展到最大（以节省空间）" Link="*Prevent expanded file size to the maximum when booting by dynamic VHD file (To save space)"/>
-      <String Target="此选项可能降低VHD文件性能。" Link="This option may reduce the VHD file performance."/>
+      <String Target="此选项可能降低VHD文件性能。" Link="この機能は VHD ファイルのパフォーマンスは低下する。"/>
     
     <String Target="*隐藏某些SATA硬盘任务栏图标（by 原罪）" Link="*Hide taskbar icon of some SATA hard disks (by YZ)"/>
 
@@ -1168,7 +1168,7 @@ For more information about these Dism++ options and their arguments, specify an\
     
     <String Target="以前的Windows系统" Link="以前バージョンの Windows "/>
     <String Target="在系统升级或者还原后留下的系统备份。" Link="When system upgrading or restoring, system made the backup."/>
-    <String Target="删除后你将无法回滚到以前安装的系统。" Link="After deleting, you cannot restore to the earlier system."/>
+    <String Target="删除后你将无法回滚到以前安装的系统。" Link="削除されて、以前バージョンの Windows に元に戻すできません。"/>
     
     <String Target="Windows临时安装文件" Link="Windows 一時的なのインストール ファイル"/>
     <String Target="在系统升级或者还原后留下的系统临时安装文件，如果你确定当前没有进行系统升级或者还原，那么可以安全删除。" Link="When system upgrading or restoring, system made the backup. If you ensure you did not upgrade or restore system, you can delete the backup."/>
@@ -1365,7 +1365,7 @@ For more information about these Dism++ options and their arguments, specify an\
     <String Target="英伟达驱动安装包（by Ailick）" Link="Nvidia ドライバーのインストール パッケージ（by Ailick）"/>
     <String Target="Nvidia Geforce Experience更新程序时产生的安装包。" Link="Nvidia Geforce Experience 更新時自動的に生成のインストール パッケージ。"/>
 
-    <String Target="新版Visual Studio安装源缓存" Link="新しいパーションの Visual Studio インストール元キャッシュ"/>
+    <String Target="新版Visual Studio安装源缓存" Link="新しいバージョンの Visual Studio インストール元キャッシュ"/>
     <String Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="この機能は Visual Studio 2017（将来のバージョン含む）のインストール元をクリーンアップします。"/>
     <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="クリーンアップし、Visual Studio 2017（将来のバージョン含む） の 更新、修復、コンポーネントを変更及びアンインストール操作はインターネット接続必要です。"/>
 
