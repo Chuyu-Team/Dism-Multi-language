@@ -516,7 +516,6 @@
     <String Target="请在此输入本地源" Link="請在此輸入本機來源"/>
     
     <!--应用程序-->
-    <String Target="应用程序" Link="應用程式"/>
     <String Target="更改" Link="更改"/>
     <String Target="通用安装脚本" Link="通用安裝腳本"/>
     <String Target="%s 已经安装，你确定要继续吗？" Link="%s 已經安裝，你確定要繼續嗎？"/>
