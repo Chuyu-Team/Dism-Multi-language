@@ -1,7 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <!--
-
 這是 Dism++ 繁體中文資源包
 
 在 XML 中的 5 個特殊符號 需要特殊表示
@@ -47,8 +45,9 @@
       <String Target="重新载入" Link="重新載入"/>
 		  <String Target="格式转换" Link="格式轉換"/>
 			  <String Target="ESD解密" Link="ESD 解密"/>
-	
-	  <String Target="恢复功能(&amp;R)" Link="恢復功能(&amp;R)"/>		
+      <String Target="取消任务	Ctrl+Break" Link="取消任務	Ctrl+Break"/>
+
+    <String Target="恢复功能(&amp;R)" Link="恢復功能(&amp;R)"/>		
 		  <String Target="系统修复" Link="系統修復"/>
       <String Target="健康扫描" Link="健康掃描"/>
         <String Target="验证受损" Link="檢驗受損"/>
@@ -119,7 +118,7 @@
     <String Target="临时目录可用空间不足5GB，这可能导致Dism++无法正常运行，推荐将Dism++复制到可用空间大于5GB的驱动器，然后继续。" Link="暫存目錄可用空間不足 5GB，這可能導致 Dism++ 無法正常執行，建議將 Dism++ 複製到可用空間大於 5GB 的磁碟機，再繼續。"/>
     <String Target="基础支撑库缺失，引导修复相关功能无法使用。" Link="基礎支援程式庫缺失，Boot 修復相關功能無法使用。"/>
     <String Target="Dism++需要管理员权限才能运行，请右键 以管理员身份运行 然后继续。" Link="Dism++ 需要管理員權限才可執行，請右鍵 以管理員身份執行 然後繼續。"/>
-    <String Target="Dism++不允许以兼容模式启动，请去除兼容模式，然后再启动Dism++。" qLink=""/>
+    <String Target="Dism++不允许以兼容模式启动，请去除兼容模式，然后再启动Dism++。" Link="Dism++ 不允許以相容模式啟動，請除去相容模式，然後再啟動 Dism++。"/>
 
     <String Target="你需要增量保存还是直接保存？" Link="您需要增量儲存還是直接儲存？"/>
 	  <String Target="温馨提示：保存映像后空间不会减少，如果需要减少空间请重新编译目标文件。" Link="貼心提醒：儲存映像後空間不會減少，如果需要減少空間請重新編輯目的檔案。"/>
@@ -133,7 +132,7 @@
     <String Target="正在卸载映像" Link="正在移除映像"/>
 	  <String Target="正在释放" Link="正在釋放"/>
 	  <String Target="正在还原" Link="正在還原"/>
-	  <String Target="%s 位置的映像正在进行其他事情，请稍后再试。" Link="%s 位置的映像正在執行中，請稍後再試。"/>
+	  <String Target="%s 位置的映像正在进行其他事情，请稍后再试。" Link="%s 位置的映像正在進行其他事情，請稍後再試。"/>
     <String Target="无法移动文件 %s，Dism++已回滚对系统的更改。" Link="無法移動檔案 %s，Dism++ 已復原對系統的更改。"/>
 
     <String Target="正在配置WinRE" Link="正在配置 WinRE"/>
@@ -368,7 +367,7 @@
     <String Target="设置" Link="設定"/>
     <String Target="确定" Link="確定"/>
     <String Target="启用专家模式*" Link="啟用專家模式*"/>
-    <String Target="整合右键菜单" Link="整合至右鍵功能表"/>
+    <String Target="整合右键菜单" Link="整合至右鍵選單"/>
     <String Target="整合引导菜单" Link="整合 BCD boot 選單"/>
     <String Target="排除列表" Link="排除清單"/>
     <String Target="减少映像文件（WIM、ESD）保存时间" Link="減少映像檔 (WIM、ESD) 儲存時間"/>
@@ -443,7 +442,7 @@
     <String Target="注册表还原" Link="登錄檔還原"/>
     <String Target="清理时间" Link="清理時間"/>
     <String Target="网络位置" Link="網路位置"/>
-    <String Target="正在扫描第%d个可清理的注册表项。。。" qLink=""/>
+    <String Target="正在扫描第%d个可清理的注册表项。。。" Link="正在掃瞄第 %d 個可清理的登入檔項目..."/>
 
     <!--驅動管理-->
 	  <String Target="温馨提示：删除关键驱动可能导致计算机无法启动" Link="貼心提醒：刪除關鍵驅動可能導致電腦無法啟動"/>
@@ -517,10 +516,9 @@
     <String Target="请在此输入本地源" Link="請在此輸入本機來源"/>
     
     <!--应用程序-->
-    <String Target="应用程序" Link="應用程式"/>
     <String Target="更改" Link="更改"/>
-    <String Target="通用安装脚本" qLink=""/>
-    <String Target="%s 已经安装，你确定要继续吗？" qLink=""/>
+    <String Target="通用安装脚本" Link="通用安裝腳本"/>
+    <String Target="%s 已经安装，你确定要继续吗？" Link="%s 已經安裝，你確定要繼續嗎？"/>
 
     <!--添加删除更新-->
 	  <String Target="未知" Link="未知"/>
@@ -550,6 +548,7 @@
 	  <String Target="添加" Link="新增"/>
     <String Target="语言" Link="語言"/>
     <String Target="Windows %s 语言包" Link="Windows %s 語言套件"/>
+    <String Target="重启生效" Link="重新啟動後生效"/>
 
 	  <!--選用功能-->
     <String Target="正在删除可选功能" Link="正在刪除選用功能"/>
@@ -756,7 +755,7 @@
 
     <String Target="收起资源管理器功能区（by Rambin）" Link="收起檔案總管功能區 (by Rambin)"/>
 
-    <String Target="显示开始菜单、任务栏、操作中心和标题栏的颜色（by Rambin）" Link="顯示開始功能表、工作列、重要訊息中心和標題列的顏色 (by Rambin)"/>
+    <String Target="显示开始菜单、任务栏、操作中心和标题栏的颜色（by Rambin）" Link="顯示 [開始] 功能表、工作列、重要訊息中心和標題列的顏色 (by Rambin)"/>
 
     <String Target="禁止自动播放（by Rambin）" Link="禁止自動播放 (by Rambin)"/>
 
@@ -766,11 +765,11 @@
 
     <String Target="资源管理器窗口最小化时显示完整路径（by 原罪）" Link="檔案總管視窗最小化時顯示完整路徑 (by 原罪)"/>
 
-    <String Target="使开始菜单、任务栏、操作中心透明" Link="使開始選單、工作列、重要訊息中心透明"/>
+    <String Target="使开始菜单、任务栏、操作中心透明" Link="使 [開始] 選單、工作列、重要訊息中心透明"/>
 
     <String Target="使任务栏更透明（by 518516.net）" Link="使工作列更透明 (by 518516.net)"/>
 
-    <String Target="不允许在开始菜单显示建议" qLink=""/>
+    <String Target="不允许在开始菜单显示建议" Link="不允許在 [開始] 顯示建議"/>
 
     <String Target="在桌面显示我的电脑（by Rambin）" Link="在桌面顯示我的電腦 (by Rambin)"/>
       <String Target="跟随系统" Link="隨著系統"/>
@@ -818,31 +817,31 @@
     <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="關閉音樂檔的圖片預覽，提高檔案總管反應能力 (by ‍莫失莫忘)"/>
     <String Target="关闭打开程序的“安全警告”（by 莫失莫忘）" Link="關閉開啟程式的「安全性警告」 (by 莫失莫忘)"/>
     <String Target="关闭在应用商店中查找关联应用（by Asoft）" Link="關閉在市集中尋找關聯 App (by Asoft)"/>
-    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" qLink=""/>
-    <String Target="禁止自动安装推荐的应用程序（by IT之家）" qLink=""/>
-    <String Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" qLink=""/>
-    <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" qLink=""/>
-    <String Target="隐藏任务栏上的人脉（by 、Cloud.）" qLink=""/>
+    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="隱藏本機中影片、圖片、文件、下載、音樂、桌面、3D 的七個資料夾（by 、Cloud.）"/>
+    <String Target="禁止自动安装推荐的应用程序（by IT之家）" Link="停用自動安裝建議的應用程式 (Apps) (by IT之家)"/>
+    <String Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="關閉鎖定畫面時的 Windows 焦點推薦 (by 、Cloud.)"/>
+    <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="關閉「在使用 Windows 時取得提示、訣竅與建議」 (by 、Cloud.)"/>
+    <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="隱藏工具列上的聯絡人 (by 、Cloud.)"/>
 
     <!--右鍵選單管理-->
-    <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="右鍵功能表管理 - 停用不需要的功能表提高反應能力"/>
-    <String Target="禁用可执行文件的“兼容性疑难解答”右键菜单（by 莫失莫忘）" Link="停用可執行檔的「相容性疑難排解」右鍵功能表 (by 莫失莫忘)"/>
-    <String Target="禁用文件、文件夹以及磁盘的“使用Windows Defender扫描”右键菜单（by 莫失莫忘）" Link="停用檔案、資料夾以及磁片的「使用 Windows Defender 掃描」右鍵功能表 (by 莫失莫忘)"/>
-    <String Target="禁用文件、磁盘以及属性的“还原以前版本”右键菜单（by 莫失莫忘）" Link="停用檔案、磁片以及屬性的「還原舊版」右鍵功能表 (by 莫失莫忘)"/>
-    <String Target="禁用文件、文件夹、桌面以及所有对象的“共享文件夹同步”右键菜单" Link="停用檔案、資料夾、桌面以及所有物件的「共用資料夾同步」右鍵功能表"/>
-    <String Target="禁用新建“ZIP/RAR文件”右键菜单（by 莫失莫忘）" Link="停用新增「ZIP/RAR 檔案」右鍵功能表 (by 莫失莫忘)"/>
-    <String Target="禁用新建、文件以及文件夹的“公文包”右键菜单" Link="停用新增、檔案以及資料夾的「公事包」右鍵功能表"/>
-    <String Target="禁用新建的“联系人”右键菜单（by 莫失莫忘）" Link="停用新增的「連絡人」右鍵功能表 (by 莫失莫忘)"/>
-    <String Target="禁用桌面的英特尔集显右键菜单（by 莫失莫忘）" Link="停用桌面的 Intel 整合顯示右鍵功能表 (by 莫失莫忘)"/>
-    <String Target="禁用目录、文件夹、所有对象、的“始终脱机可用”右键菜单" Link="停用目錄、資料夾、所有物件、的「始終離線可用」右鍵功能表"/>
-    <String Target="禁用磁盘的“以便携式方式打开”右键菜单（by 莫失莫忘）" Link="停用磁片的「以可擕式方式開啟」右鍵功能表 (by 莫失莫忘)"/>
-    <String Target="禁用磁盘的“刻录到光盘”右键菜单" Link="停用磁片的「燒錄到光碟」右鍵功能表"/>
-    <String Target="禁用磁盘的“启用Bitlocker”右键菜单（by 莫失莫忘）" Link="停用磁片的「啟用 Bitlocker」右鍵功能表 (by 莫失莫忘)"/>
-    <String Target="禁用磁盘的“复制磁盘”右键菜单" Link="停用磁片的「複製磁片」右鍵功能表"/>
-    <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="停用檔案、目錄、桌面、磁片以及媒體櫃的「共用對象」右鍵功能表"/>
-    <String Target="禁用桌面的“小工具”右键菜单" Link="停用桌面的「小工具」右鍵功能表"/>
-    <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" qLink=""/>
-    <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" qLink=""/>
+    <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="右鍵選單管理 - 停用不需要的功能表提高反應能力"/>
+    <String Target="禁用可执行文件的“兼容性疑难解答”右键菜单（by 莫失莫忘）" Link="停用可執行檔的「相容性疑難排解」右鍵選單 (by 莫失莫忘)"/>
+    <String Target="禁用文件、文件夹以及磁盘的“使用Windows Defender扫描”右键菜单（by 莫失莫忘）" Link="停用檔案、資料夾以及磁片的「使用 Windows Defender 掃描」右鍵選單 (by 莫失莫忘)"/>
+    <String Target="禁用文件、磁盘以及属性的“还原以前版本”右键菜单（by 莫失莫忘）" Link="停用檔案、磁片以及屬性的「還原舊版」右鍵選單 (by 莫失莫忘)"/>
+    <String Target="禁用文件、文件夹、桌面以及所有对象的“共享文件夹同步”右键菜单" Link="停用檔案、資料夾、桌面以及所有物件的「共用資料夾同步」右鍵選單"/>
+    <String Target="禁用新建“ZIP/RAR文件”右键菜单（by 莫失莫忘）" Link="停用新增「ZIP/RAR 檔案」右鍵選單 (by 莫失莫忘)"/>
+    <String Target="禁用新建、文件以及文件夹的“公文包”右键菜单" Link="停用新增、檔案以及資料夾的「公事包」右鍵選單"/>
+    <String Target="禁用新建的“联系人”右键菜单（by 莫失莫忘）" Link="停用新增的「連絡人」右鍵選單 (by 莫失莫忘)"/>
+    <String Target="禁用桌面的英特尔集显右键菜单（by 莫失莫忘）" Link="停用桌面的 Intel 整合顯示右鍵選單 (by 莫失莫忘)"/>
+    <String Target="禁用目录、文件夹、所有对象、的“始终脱机可用”右键菜单" Link="停用目錄、資料夾、所有物件、的「始終離線可用」右鍵選單"/>
+    <String Target="禁用磁盘的“以便携式方式打开”右键菜单（by 莫失莫忘）" Link="停用磁片的「以可擕式方式開啟」右鍵選單 (by 莫失莫忘)"/>
+    <String Target="禁用磁盘的“刻录到光盘”右键菜单" Link="停用磁片的「燒錄到光碟」右鍵選單"/>
+    <String Target="禁用磁盘的“启用Bitlocker”右键菜单（by 莫失莫忘）" Link="停用磁片的「啟用 Bitlocker」右鍵選單 (by 莫失莫忘)"/>
+    <String Target="禁用磁盘的“复制磁盘”右键菜单" Link="停用磁片的「複製磁片」右鍵選單"/>
+    <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="停用檔案、目錄、桌面、磁片以及媒體櫃的「共用對象」右鍵選單"/>
+    <String Target="禁用桌面的“小工具”右键菜单" Link="停用桌面的「小工具」右鍵選單"/>
+    <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="停用檔案的「View 3D」右鍵選單 (by Cloud)"/>
+    <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="停用檔案的「畫圖 3D」右鍵選單 (by Cloud)"/>
 
     <!--桌面圖示管理-->
     <String Target="桌面图标管理" Link="桌面圖示管理"/>
@@ -875,10 +874,10 @@
 
     <String Target="针对增强保护模式启用64位进程" Link="針對增強保護模式啟用 64 位元處理程序"/>
 
-    <String Target="隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）" qLink=""/>
+    <String Target="隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）" Link="隱藏 Internet Explorer 右上角的表情反應按鈕 (by IT之家)"/>
 
     <!--Microsoft Edge-->
-    <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" qLink=""/>
+    <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="阻止 Microsoft Edge「首次執行」歡迎頁面（by IT之家）"/>
 
     <!--微軟拼音輸入法--><String Target="微软拼音输入法" Link="微軟拼音輸入法"/>
     <String Target="微软拼音默认为英语输入（by Rambin）" Link="微軟拼音預設為英文輸入 (by Rambin)"/>
@@ -947,7 +946,7 @@
     <!--WinRAR-->
     <String Target="锁定WinRAR工具栏（by 原罪）" Link="鎖定 WinRAR 工具列 (by 原罪)"/>
 
-    <String Target="隐藏WinRAR 在右键菜单中添加的&quot;压缩并 E-mail...&quot;（by 原罪）" Link="隱藏 WinRAR 在右鍵功能表中新增的「壓縮並發郵件...」 (by 原罪)"/>
+    <String Target="隐藏WinRAR 在右键菜单中添加的&quot;压缩并 E-mail...&quot;（by 原罪）" Link="隱藏 WinRAR 在右鍵選單中新增的「壓縮並發郵件...」 (by 原罪)"/>
 
     <!--Windows Media Player-->
     <String Target="不显示首次使用对话框（by 原罪）" Link="不顯示首次使用之對話視窗 (by 原罪)"/>
@@ -989,15 +988,15 @@
     <String Target="安全相关设置" Link="安全相關設定"/>
     <String Target="开启模糊音（by 朽木）" Link="開啟模糊音 (by 朽木)"/>
     <String Target="开启此功能将导致平板模式下无法使用手势调出操作中心。" Link="開啟此功能將導致平板模式下無法使用手勢調出重要訊息中心。"/>
-    <String Target="禁用文件、目录、桌面、所有对象的“工作文件夹”右键菜单" Link="停用檔案、目錄、桌面、所有物件的「工作資料夾」右鍵功能表"/>
-    <String Target="禁用文件夹的“固定到快速访问”右键菜单" Link="停用資料夾的「釘選到快速存取」右鍵功能表"/>
-    <String Target="禁用文件的“OneDrive文件同步”右键菜单" Link="停用檔案的「OneDrive 檔案同步」右鍵功能表"/>
+    <String Target="禁用文件、目录、桌面、所有对象的“工作文件夹”右键菜单" Link="停用檔案、目錄、桌面、所有物件的「工作資料夾」右鍵選單"/>
+    <String Target="禁用文件夹的“固定到快速访问”右键菜单" Link="停用資料夾的「釘選到快速存取」右鍵選單"/>
+    <String Target="禁用文件的“OneDrive文件同步”右键菜单" Link="停用檔案的「OneDrive 檔案同步」右鍵選單"/>
     <String Target="关闭“突出显示新安装的程序”（by 溯汐潮）" Link="關閉「突顯出新安裝的程式」 (by 溯汐潮)"/>
     <String Target="关闭自动更新（by 溯汐潮）" Link="關閉自動更新 (by 溯汐潮)"/>
     <String Target="将“音量调节”调整为Windows 7模式（by 溯汐潮）" Link="將「音量控制」調整為 Windows 7 模式 (by 溯汐潮)"/>
     <String Target="将同时可用下载数目调整到 10（by 溯汐潮）" Link="將同時可用下載數目調整到 10 (by 溯汐潮)"/>
-    <String Target="将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）" Link="將桌面右鍵功能表「個人化」調整為 Windows 7 模式 (by 大胖子技術員)"/>
-    <String Target="将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）" Link="將桌面右鍵功能表「顯示設定」調整為 Windows 7 模式 (by 大胖子技術員)"/>
+    <String Target="将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）" Link="將桌面右鍵選單「個人化」調整為 Windows 7 模式 (by 大胖子技術員)"/>
+    <String Target="将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）" Link="將桌面右鍵選單「顯示設定」調整為 Windows 7 模式 (by 大胖子技術員)"/>
     <String Target="将语言栏隐藏到任务拦（by 溯汐潮）" Link="將語言列隱藏到工作列 (by 溯汐潮)"/>
     <String Target="快速访问不显示常用文件夹（by 溯汐潮）" Link="快速存取不顯示常用資料夾 (by 溯汐潮)"/>
     <String Target="快速访问不显示最近使用的文件（by 溯汐潮）" Link="快速存取不顯示最近使用的檔案 (by 溯汐潮)"/>
@@ -1009,7 +1008,7 @@
     <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="隱藏語言列上的說明按鈕 (by 溯汐潮)"/>
     <String Target="Windows 7体验" Link="Windows 7 體驗"/>
     <String Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Windows 更新不包括惡意軟體移除工具 (by Winaero)"/>
-    <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="將「右鍵功能表」調整為 Windows 7 模式 (by Silence)"/>
+    <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="將「右鍵選單」調整為 Windows 7 模式 (by Silence)"/>
     <String Target="登陆界面默认打开小键盘（by IT之家）" Link="登入介面預設開啟小鍵盤 (by IT之家)"/>
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="禁用元件堆疊 (Component Based Servicing) 檔案備份"/>
     <!--系統最佳化已經結束-->

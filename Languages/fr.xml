@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><!--
+<?xml version="1.0" encoding="UTF-8"?><!--
 This is the French translation resource for Dism++.
 There are 5 ASCII punctuation needing special representation in XML.
 Also some control characters should be preferably encoded as numeric character entities.
-  Symbol  Description                  Encoded as   Preferably changed to
+  Symbol  Description                  Encoded as  Preferably changed in plain text to
     <     Less than                    &lt;
     >     More than                    &gt;
     &     And                          &amp;
-    '     Single quotation mark        &apos;       ’ (apostrophe) or ‘English quotes’
-    "     Double quotation mark        &quot;       « French guillemets » or “English quotes”
+    '     Single quotation mark        &apos;      ’ (apostrophe) or ‘English quotes’
+    "     Double quotation mark        &quot;      « French guillemets » or “English quotes”
     \t    Tabulation control           &#9;
-    \r    Line feed (newline) control  &#xA;
-    \n    Carriage return control      &#xD;
+    \n    Line feed (newline) control  &#xA;
+    \r    Carriage return control      &#xD;
 Also please avoid indenting this file using tabulations.
 
 Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
@@ -46,6 +46,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
       <String Target="重新载入" Link="&amp;Relancer l’application"/>
       <String Target="格式转换" Link="Con&amp;version de format"/>
         <String Target="ESD解密" Link="Déc&amp;hiffrer une image ESD/SWM"/>
+    <String Target="取消任务&#9;Ctrl+Break" Link="Annuler la tâche&#9;Ctrl+Break"/>
     
     <String Target="恢复功能(&amp;R)" Link="&amp;Dépannage"/>
       <String Target="系统修复" Link="&amp;Récupération du système"/>
@@ -76,7 +77,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
       <String Target="问题反馈(&amp;B)" Link="&amp;Retour d’expérience"/>
       <String Target="关于Dism++(&amp;A)" Link="&amp;Au sujet de Dism++"/>
       <String Target="检查更新(&amp;U)" Link="&amp;Vérifier les mises à jour"/>
-
+    
     <String Target="应用一个WIM、ESD、SWM或者ISO映像。" Link="Appliquer une image WIM, ESD/SWM ou ISO."/>
     <String Target="从 WIM 文件安装映像。" Link="Monter une image depuis un fichier WIM."/>
     <String Target="卸载安装的 WIM 映像" Link="Démonter une image WIM montée."/>
@@ -118,6 +119,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="临时目录可用空间不足5GB，这可能导致Dism++无法正常运行，推荐将Dism++复制到可用空间大于5GB的驱动器，然后继续。" Link="Répertoire temporaire avec moins de 5 Go d’espace libre, Dism++ peut ne pas fonctionner correctement. Il est recommandé de déplacer Dism++ sur un disque avec plus de 5 Go d’espace libre avant de reprendre"/>
     <String Target="基础支撑库缺失，引导修复相关功能无法使用。" Link="La bibliothèque d’aide fondamentale est manquante. Impossible d’utiliser les fonctions liées de correction de l’amorçage."/>
     <String Target="Dism++需要管理员权限才能运行，请右键 以管理员身份运行 然后继续。" Link="Dism++ a besoin de droits d’administrateur pour s’exécuter. Faites un clic droit et sélectionnez Exécuter en tant qu’Administrateur pour le lancer."/>
+    <String Target="Dism++不允许以兼容模式启动，请去除兼容模式，然后再启动Dism++。" Link="Dism++ ne fonctionne pas en mode de compatibilité. Relancer Dism++ après l’avoir désactivé."/>
     
     <String Target="你需要增量保存还是直接保存？" Link="Enregistrer directement ou effectuer une sauvegarde incrémentielle"/>
     <String Target="温馨提示：保存映像后空间不会减少，如果需要减少空间请重新编译目标文件。" Link="Conseils : ne pas réduire l’espace si vous enregistrez cette image ; recompilez le fichier cible si vous avez besoin de réduire l’espace"/>
@@ -177,7 +179,6 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="已经失效" Link="Déjà expiré"/>
     <String Target="请稍等" Link="Veuiller patienter"/>
     
-    
     <String Target="本地硬盘" Link="Disque local"/>
     <String Target="Compact" Link="compacté"/>
     <String Target="挂载映像" Link="Image montée"/>
@@ -210,7 +211,6 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="自定义规则" Link="Règles personalisées"/>
     <String Target="扫描" Link="Analyser"/>
     <String Target="清理" Link="Nettoyer"/>
-    
     
     <String Target="存在风险" Link="Risque détecté"/>
     <String Target="建议保留" Link="Garder"/>
@@ -297,7 +297,6 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <!--系统修复-->
     <String Target="映像十分健康不需要修复。" Link="L’image est intacte. Aucune réparation nécessaire."/>
     <String Target="映像已经受损，但是可以修复。" Link="L’image a été endommagée, mais la réparation est possible."/>
-    
     <String Target="映像已经受到致命问题，已经无法修复，请修复安装。" Link="L’image a un problème fatal qui est au-delà des capacités de réparation de Dism++. Réparer en réinstallant."/>
     <String Target="系统修复向导" Link="Assistant de récupération du système"/>
     <String Target="恭喜映像已经修复成功！" Link="Réparé avec succès."/>
@@ -305,8 +304,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     
     <!--本地源-->
     <String Target="本地源可以大幅度加速功能打开以及系统修复。" Link="Une source locale peut accélérer pour activer des fonctionnalités et la réparation du système."/>
-    <String Target="什么是本地源" Link="Ce qui est la source locale ?"/>
-    
+    <String Target="什么是本地源" Link="Quelle est la source locale ?"/>
     <String Target="本地源" Link="Source locale"/>
     
     <!--格式转换-->
@@ -352,7 +350,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="更多" Link="Avancé"/>
     <String Target="启动分区：" Link="Partition d’amorçage :"/>
     <String Target="你必须点击更多进行手动指定！" Link="Vous devez Cliquer sur « plus » pour le spécifier manuellement !"/>
-    <String Target="硬盘%d 分区%d（%s）" Link="Disque%d Partition%d(%s)"/>
+    <String Target="硬盘%d 分区%d（%s）" Link="Disque%d Partition%d (%s)"/>
     <String Target="硬盘%d 分区%d" Link="Disque%d Partition%d"/>
     <String Target="即将把启动信息写入启动分区- %s" Link="L’enregistrement d’amorçage sera écrit sur %s"/>
     <String Target="没有异议或者看不懂的请点击 %s 。" Link="Si vous savez pas quelle partition choisir dans les options avancées, cliquez simplement sur %s"/>
@@ -415,7 +413,9 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="默认" Link="Par défaut"/>
     <String Target="关于 %s 的详细处理信息" Link="Informations détaillées sur %s"/>
     <String Target="以下文件即将被处理，你可以点击 清理 处理他们" Link="Les fichiers suivants seront traités et vous pouvez cliquer « Nettoyer » pour les traiter"/>
-    <String Target="关于 %s 的警告：&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;您确定要清理么？" Link="%s Attention :&#xA;&#xA;%s&#xA;&#xA;Êtes-vous sur de vouloir continuer ?"/>
+    <String
+      Target="关于 %s 的警告：&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;您确定要清理么？"
+      Link="%s Attention :&#xA;&#xA;%s&#xA;&#xA;Êtes-vous sur de vouloir continuer ?"/>
     <String Target="全不选" Link="Rien"/>
     <String Target="已经清理" Link="Nettoyé"/>
     <String Target="清理失败" Link="Échec"/>
@@ -442,6 +442,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="注册表还原" Link="Restaurer"/>
     <String Target="清理时间" Link="Nettoyage du temps"/>
     <String Target="网络位置" Link="Emplacement réseau"/>
+    <String Target="正在扫描第%d个可清理的注册表项。。。" Link="Analyse de l’élément n°%d du registre à nettoyer..."/>
     
     <!--驱动管理-->
     <String Target="温馨提示：删除关键驱动可能导致计算机无法启动" Link="Conseils : la suppression importante de pilotes peuvent entraîner le non-démarrage de votre ordinateur"/>
@@ -494,7 +495,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="禁用" Link="Désactivé"/>
     <String Target="手动" Link="Manuel"/>
     <String Target="自动" Link="Auto"/>
-    <String Target="自动（延迟）" Link="Auto(retard)"/>
+    <String Target="自动（延迟）" Link="Auto (retardé)"/>
     
     <String Target="描述" Link="Description"/>
     <String Target="启动类型" Link="Type de démarrage"/>
@@ -515,6 +516,11 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="正在应用" Link="Appliquer"/>
     <String Target="本地源：" Link="Source locale :"/>
     <String Target="请在此输入本地源" Link="Veuillez entrer la source locale ici"/>
+    
+    <!--应用程序-->
+    <String Target="更改" Link="Modifier"/>
+    <String Target="通用安装脚本" Link="Scripts d’installation universelle"/>
+    <String Target="%s 已经安装，你确定要继续吗？" Link="%s est déjà installé. Voulez-vous vraiment continuer ?"/>
     
     <!--添加删除更新-->
     <String Target="未知" Link="Inconnu"/>
@@ -545,6 +551,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="添加" Link="Ajouter"/>
     <String Target="语言" Link="Langue"/>
     <String Target="Windows %s 语言包" Link="Windows %s Pack de Langages"/>
+    <String Target="重启生效" Link="Demande de redémarrage"/>
     
     <!--可选功能-->
     <String Target="正在删除可选功能" Link="Supprimer des fonctionnalités"/>
@@ -583,7 +590,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="正在安装" Link="Installation"/>
     <String Target="项目" Link="Article"/>
     <String Target="Windows Update数据库已经存在新版本，你需要更新吗？" Link="Une nouvelle version de la base de données des mises à jour Windows a été détectée. Souhaitez-vous la mettre à jour ?"/>
-    <String Target="下载%d%%" Link="Télécharger. %d%%"/>
+    <String Target="下载%d%%" Link="Téléchargement en cours : %d%%"/>
     <String Target="将现有的本地补丁包添加至系统。" Link="Ajouter des paquets à l’image."/>
     <String Target="使用Dism++数据库扫描当前系统需要的更新列表。" Link="Utiliser la base de données Dism++ pour analyser les mises à jour dont l’image en cours a besoin."/>
     <String Target="自动下载并安装更新列表中选中的更新。" Link="Télécharger automatiquement et installer les mises à jour sélectionnées."/>
@@ -594,9 +601,12 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="温馨提示：引入独占请求后，你将无法安装其他更新，直到你重启系统。建议你先安装其他更新，最后安装此更新。" Link="Conseil : avec un accès exclusif, vous ne pourrez pas installer d’autres mises à jour, jusqu’à ce que vous redémarriez le système. Nous vous suggérons d’installer d’autres mises à jour, puis d’installer cette installation à la fin."/>
     <String Target="暂不安装（推荐）&#xA;我暂时还需要添加其他更新。" Link="Ne pas installer (recommandé)&#xA;Il faut d’abord installer d’autres mises à jour."/>
     <String Target="继续安装&#xA;我已确保我需要的更新均已安装。" Link="Aller sur l’installation&#xA;D’autres mises à jour ont déjà été installées."/>
-    <String Target="关于 %s 的警告：&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;你确定要继续吗？" Link="%s Attention :&#xA;&#xA;%s&#xA;&#xA;Êtes-vous sûr de vouloir continuer ?"/>
+    <String
+      Target="关于 %s 的警告：&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;你确定要继续吗？"
+      Link="%s Attention :&#xA;&#xA;%s&#xA;&#xA;Êtes-vous sûr de vouloir continuer ?"/>
     <String Target="导出地址" Link="Copier URLs"/>
     <String Target="补丁下载地址已经成功复制到剪切板。" Link="L’adresse de téléchargement du correctif a été copiée dans le presse-papier avec succès."/>
+    <String Target="安装%d%%" Link="Installation en cours : %d%%"/>
     
     <!--区域和语言-->
     <String Target="区域和语言" Link="Paramètres régionaux et linguistiques"/>
@@ -644,7 +654,9 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="备份" Link="Sauvegarde"/>
     <String Target="还原" Link="Restauration"/>
     <String Target="sppsvc关闭失败，有可能导致还原失败，是否继续？" Link="SppSvc n’a pas pu fermer. Peut entraîner l’échec de la restauration. Continuer ou non ?"/>
-    <String Target="当前系统为 %hd.%hd %s，而激活备份信息为  %hd.%hd %s&#xD;&#xA;&#xD;&#xA;信息不匹配，你确定要继续么？" Link="Le système actuel est %hd.%hd %s qui ne correspond pas à l’activation %hd sauvegardée. %hd%s&#xA;&#xA;Continuer ou non ?"/>
+    <String
+      Target="当前系统为 %hd.%hd %s，而激活备份信息为  %hd.%hd %s&#xD;&#xA;&#xD;&#xA;信息不匹配，你确定要继续么？"
+      Link="Le système actuel est %hd.%hd %s qui ne correspond pas à l’activation %hd sauvegardée. %hd%s&#xA;&#xA;Continuer ou non ?"/>
     <String Target="请重新选择你的系统，你当前要还原的系统与本系统不匹配，请重新选择你的系统！" Link="Ce système (pour restaurer) ne correspond pas avec ce système. Svp re-sélectionner votre système !"/>
     <String Target="备份的信息与你所还原的信息版本不同，是否要继续还原？" Link="Les informations sauvées ne correspondent pas aux informations que vous souhaitez restaurer. Continuer à restaurer ou non ?"/>
     <String Target="Sorry暂不支持此系统，请反馈给我。" Link="Désolé, ce système n’est pas pris en charge, svp me contacter."/>
@@ -667,9 +679,15 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="请在此输入命令或者程序路径，比如regedit" Link="Entrer la commande, telle que regedit"/>
     <String Target="说明" Link="Conseils"/>
     <String Target="本工具可以让其他程序以无视权限形式运行，本功能可以通过命令行参数调用，详情请参考帮助文档了解具体用法。" Link="Cet outil peut exécuter certains programmes sans droits de vérification. Vous pouvez appeler cette fonction avec la ligne de commande. Veuillez vous reporter à la documentation."/>
-    <String Target="/GodMode {Commendline}&#xD;&#xA; 春哥附体执行Cmd命令，其命令格式与Cmd用法一致&#xD;&#xA;&#xD;&#xA;示例:&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode cmd&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode regedit.exe&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode &quot;\&quot;C:\Windows\notepad.exe\&quot; \&quot;C:\123.txt\&quot;&quot;" Link="/GodMode {ligne de commande}&#xD;&#xA; Le mode Dieu utilise cmd pour exécuter la ligne de commande indiquée. La syntaxe de la ligne de commande est identique à celle cmd.exe.&#xD;&#xA;&#xD;&#xA;Exemples :&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode cmd&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode regedit.exe&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode &quot;\&quot;C:\Windows\notepad.exe\&quot; \&quot;C:\123.txt\&quot;&quot;"/>
-    <String Target="即将以无视权限方式执行此命令：&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;为了避免让恶意软件利用，Dism++需要你的允许才能继续，你确定要继续吗？" Link="Dism++ exécutera les commandes &#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;en contournant la vérification des droits. Pour prévenir l’action de malwares, autoriser Dism++ ; continuer ou non ?"/>
-    <String Target="可以使用以下命令来操作此映像：&#xD;&#xA;&#xD;&#xA;/GodMode&#9;- 使用春哥附体启动应用程序" Link="Vous pouvez utiliser ces commandes pour utiliser l’image:&#xD;&#xA;&#xD;&#xA;/GodMode - exécuter les programmes en mode God"/>
+    <String
+      Target="/GodMode {Commendline}&#xD;&#xA; 春哥附体执行Cmd命令，其命令格式与Cmd用法一致&#xD;&#xA;&#xD;&#xA;示例:&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode cmd&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode regedit.exe&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode &quot;\&quot;C:\Windows\notepad.exe\&quot; \&quot;C:\123.txt\&quot;&quot;"
+      Link="/GodMode {ligne de commande}&#xD;&#xA; Le mode Dieu utilise cmd pour exécuter la ligne de commande indiquée. La syntaxe de la ligne de commande est identique à celle cmd.exe.&#xD;&#xA;&#xD;&#xA;Exemples :&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode cmd&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode regedit.exe&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode &quot;\&quot;C:\Windows\notepad.exe\&quot; \&quot;C:\123.txt\&quot;&quot;"/>
+    <String
+      Target="即将以无视权限方式执行此命令：&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;为了避免让恶意软件利用，Dism++需要你的允许才能继续，你确定要继续吗？"
+      Link="Dism++ exécutera les commandes &#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;en contournant la vérification des droits. Pour prévenir l’action de malwares, autoriser Dism++ ; continuer ou non ?"/>
+    <String
+      Target="可以使用以下命令来操作此映像：&#xD;&#xA;&#xD;&#xA;/GodMode&#9;- 使用春哥附体启动应用程序"
+      Link="Vous pouvez utiliser ces commandes pour utiliser l’image:&#xD;&#xA;&#xD;&#xA;/GodMode - exécuter les programmes en mode God"/>
     
     <String Target="ESD转ISO" Link="ESD vers ISO"/>
     <String Target="允许将WIM、SWM以及ESD之间格式自由转换。" Link="Permet de convertir les formats WIM et SWM/ESD."/>
@@ -722,6 +740,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="打开资源管理器时显示此电脑" Link="Ouvrir l’Explorateur de Fichiers pour ce PC"/>
     
     <String Target="显示所有文件扩展名" Link="Afficher les extensions pour tous les types de fichiers"/>
+    
     <String Target="显示所有隐藏文件" Link="Afficher tous les fichiers cachés"/>
     
     <String Target="隐藏快捷方式小箭头" Link="Supprimer la flèche sur les icônes des raccourcis"/>
@@ -746,15 +765,16 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     
     <String Target="资源管理器窗口最小化时显示完整路径（by 原罪）" Link="Afficher le chemin complet si l’Explorateur Windows est réduit au minimum (par YZ)"/>
     
-    <String Target="使开始菜单、任务栏、操作中心透明" Link="Rendre Centre Action Menu Démarrer et Barre des tâches transparents"/>
+    <String Target="使开始菜单、任务栏、操作中心透明" Link="Rendre transparents le menu Démarrer, la Barre des tâches et le Centre Action"/>
     
-    <String Target="使任务栏更透明（by 518516.net）" Link="Rendre Barre des tâches plus transparente (par 518516.net)"/>
+    <String Target="使任务栏更透明（by 518516.net）" Link="Rendre plus transparente la barre des tâches (par 518516.net)"/>
 
-    <String Target="不允许在开始菜单显示建议" qLink=""/>
+    <String Target="不允许在开始菜单显示建议" Link="Désactiver les suggestions dans le Menu Démarrer"/>
 
     <String Target="在桌面显示我的电脑（by Rambin）" Link="Afficher mon ordinateur sur le bureau (par Rambin)"/>
       <String Target="跟随系统" Link="Suivre Système"/>
       <String Target="显示" Link="Afficher"/>
+      <String Target="隐藏" Link="Masquer"/>
     
     <String Target="在桌面显示回收站（by Rambin）" Link="Afficher la corbeille sur le bureau (par Rambin)"/>
     
@@ -797,6 +817,11 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Désactiver l’aperçu audio pour améliorer le temps de réponse de l’Explorateur Windows (par MoWangMoShi)"/>
     <String Target="关闭打开程序的“安全警告”（by 莫失莫忘）" Link="Désactiver l’avertissement de sécurité lors de l’ouverture des programmes (par MoWangMoShi)"/>
     <String Target="关闭在应用商店中查找关联应用（by Asoft）" Link="Désactiver la recherche pour les applications associées dans Windows Store (par Asoft)"/>
+    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="Masquer Bureau, Documents, Images, Musique, Objets 3D, Téléchargements, Vidéos dans Ce PC (par Cloud)"/>
+    <String Target="禁止自动安装推荐的应用程序（by IT之家）" Link="Désactiver l’installation automatique des applications recommandées (par ITHome)"/>
+    <String Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="Désactiver Windows Focus sur l’écran de verrouillage (par Cloud)"/>
+    <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="Désactiver &quot;Get suggestions when using Windows&quot; (par Cloud)"/>
+    <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Masquer les Contacts sur la barre des tâches (par Cloud)"/>
     
     <!--右键菜单管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="Menus contextuels : désactiver les éléments de menu inutiles pour améliorer la réponse de l’Explorateur Windows"/>
@@ -815,6 +840,8 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="禁用磁盘的“复制磁盘”右键菜单" Link="Désactiver « Copier » du menu contextuel pour les disques"/>
     <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="Désactiver « Partager » du menu contextuel sur les fichiers, les dossiers, le bureau, les disques et les bibliothèques"/>
     <String Target="禁用桌面的“小工具”右键菜单" Link="Désactiver « Gadgets » du menu contextuel sur le bureau"/>
+    <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Désactiver l’option &quot;View 3D&quot; du menu contextuel de fichier (by Cloud)"/>
+    <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Désactiver l’option &quot;Paint 3D&quot; du menu contextuel de fichier (by Cloud)"/>
     
     <!--桌面图示管理-->
     <String Target="桌面图标管理" Link="Paramètres des icônes du bureau"/>
@@ -846,6 +873,11 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="启用增强保护模式" Link="Activer le mode protégé étendu d’Internet Explorer"/>
     
     <String Target="针对增强保护模式启用64位进程" Link="Activer les processus 64 bits pour le mode protégé étendu d’Internet Explorer"/>
+    
+    <String Target="隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）" Link="Masquer le smiley « Donner votre avis » dans Internet Explorer (par ITHome)"/>
+    
+    <!--Microsoft Edge-->
+    <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Empêcher Microsoft Edge d’ouvrir &quot;Première exécution&quot; (by ITHome)"/>
     
     <!--微软拼音输入法-->
     <String Target="微软拼音输入法" Link="Microsoft Pinyin IME"/>
@@ -986,9 +1018,13 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <!--系统优化已经结束-->
     
     <!--Dism++更新程序-->
-    <String Target="发现新版本，需要更新 %d 个文件，约%s。&#xD;&#xA;&#xD;&#xA;更新日志：&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;确定要升级吗？" Link="Une nouvelle version a été détectée. Elle doit mettre à jour %d fichiers (%s).&#xD;&#xA;&#xD;&#xA;Journal des changements : &#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;Voulez-vous mettre à jour maintenant ?"/>
+    <String
+      Target="发现新版本，需要更新 %d 个文件，约%s。&#xD;&#xA;&#xD;&#xA;更新日志：&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;确定要升级吗？"
+      Link="Une nouvelle version a été détectée. Elle doit mettre à jour %d fichiers (%s).&#xD;&#xA;&#xD;&#xA;Journal des changements : &#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;Voulez-vous mettre à jour maintenant ?"/>
     <String Target="Dism++更新程序" Link="Mettre à jour Dism++"/>
-    <String Target="准备启动下载模块……&#xD;&#xA;" Link="Démarrer pour télécharger le module...&#xD;&#xA;"/>
+    <String
+      Target="准备启动下载模块……&#xD;&#xA;"
+      Link="Démarrer pour télécharger le module...&#xD;&#xA;"/>
     <String Target="正在下载 - %d/%d" Link="Téléchargement en cours - %d sur %d"/>
     <String Target="更新文件过程中遇到错误，Orz……" Link="Une erreur est apparue durant la mise à jour, Orz..."/>
     
@@ -1004,12 +1040,24 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="至少输入一个路径" Link="Entrer au moins un chemin d’accès"/>
     <String Target="%s 路径无效" Link="Chemin non valide : %s"/>
     <String Target="未正确识别到命令，以下是程序支持的所有命令：" Link="Erreur lors du traitement de la commande. Arguments de ligne de commande non valides. La commande suivante est prise en charge:"/>
-    <String Target="将一个文件夹或者文件进行Compact压缩：&#xD;&#xA;/C  { /exe [ xpress4k（默认、更佳性能） | xpress8k | xpress16k | lzx（更小体积） ] } Path" Link="Compact Compresser dossier ou fichier(s):&#xD;&#xA;/C { /exe [ xpress4k (par défaut, plus rapide) | xpress8k | xpress16k | lzx (plus petit) ] } Chemin"/>
-    <String Target="将一个文件夹或者文件进行Compact解压缩&#xD;&#xA;/U Path" Link="Compact Décompresser Dossier ou fichiers(s)&#xD;&#xA;/U Chemin"/>
-    <String Target="/Image:&lt;path_to_image&gt;&#9;- 指定特定 Windows 映像的根目录的路径。&#xD;&#xA;&#xD;&#xA;示例：&#xD;&#xA; Dism++x86.exe /Image:C:\ /?&#xD;&#xA; Dism++x86.exe /Image:&quot;D:\1213\&quot; /?" Link="/Image:&lt;path_to_image&gt;&#9;- The path to the root directory of the image.&#xD;&#xA;&#xD;&#xA;Examples:&#xD;&#xA; Dism++x86.exe /Image:C:\ /?&#xD;&#xA; Dism++x86.exe /Image:&quot;D:\1213\&quot; /?"/>
-    <String Target="映像管理命令：&#xD;&#xA; /All&#9;- 打开全局会话&#xD;&#xA; /Image&#9;- 指定特定 Windows 映像的根目录的路径。&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Compact支持命令：&#xD;&#xA; /C&#9;- 使用Compact压缩文件/文件夹&#xD;&#xA; /U&#9;- 撤销Compact压缩的文件/文件夹&#xD;&#xA;&#xD;&#xA;若要获得有关这些 Dism++ 选项及其参数的详细信息，请在紧挨着 /? 之前指定一个选项。&#xD;&#xA;示例：&#xD;&#xA; Dism++x86.exe /Image /?&#xD;&#xA; Dism++x86.exe /C /?" Link="Commande de gestion d’image :&#xD;&#xA; /All&#9;- Ouvre la session globale&#xD;&#xA; /Image&#9;- Désigne le dossier racine de l’image Windows&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Commande de compactage prise en charge&#xD;&#xA; /C&#9;- Utilise les fichiers/dossiers compressés (compressés avec compact)&#xD;&#xA; /U&#9;- Révoquee les dossier/fichiers compressés (compressés avec compact)&#xD;&#xA;&#xD;&#xA;Pour plus d’informations sur ces options Dism++ et leurs paramètres, spécifiez une option immédiatement avant /?.&#xD;&#xA;Exémples:&#xD;&#xA; Dism++x86.exe /Image /?&#xD;&#xA; Dism++x86.exe /C /?"/>
-    <String Target="/Plugin:&lt;Plugin_ID&gt;&#9;- 此功能用于打开某插件支持的命令&#xD;&#xA;&#xD;&#xA;示例：&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?" Link="/Plugin:&lt;Plugin_ID&gt;&#9;- Pour exécuter les commandes prises en charge par un greffon.&#xD;&#xA;&#xD;&#xA;Exemples:&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"/>
-    <String Target="可以使用以下命令来操作此映像：&#xD;&#xA;&#xD;&#xA;插件命令：&#xD;&#xA; /Plugin&#9;- 启动特定插件（需要插件支持命令参数）" Link="Vous pouvez utiliser ces commandes pour traiter cette image :&#xD;&#xA;&#xD;&#xA;Commande :&#xD;&#xA; /Plugin&#9;- Exécute le greffon désigné (nécessite la prise en charge du greffon)"/>
+    <String
+      Target="将一个文件夹或者文件进行Compact压缩：&#xD;&#xA;/C  { /exe [ xpress4k（默认、更佳性能） | xpress8k | xpress16k | lzx（更小体积） ] } Path"
+      Link="Compact Compresser dossier ou fichier(s) :&#xD;&#xA;/C { /exe [ xpress4k (par défaut, plus rapide) | xpress8k | xpress16k | lzx (plus petit) ] } Chemin"/>
+    <String
+      Target="将一个文件夹或者文件进行Compact解压缩&#xD;&#xA;/U Path"
+      Link="Compact Décompresser dossier ou fichiers(s) :&#xD;&#xA;/U Chemin"/>
+    <String
+      Target="/Image:&lt;path_to_image&gt;&#9;- 指定特定 Windows 映像的根目录的路径。&#xD;&#xA;&#xD;&#xA;示例：&#xD;&#xA; Dism++x86.exe /Image:C:\ /?&#xD;&#xA; Dism++x86.exe /Image:&quot;D:\1213\&quot; /?"
+      Link="/Image:&lt;path_to_image&gt;&#9;- Le chemin vers le dossier racine de l’image.&#xD;&#xA;&#xD;&#xA;Exemples :&#xD;&#xA; Dism++x86.exe /Image:C:\ /?&#xD;&#xA; Dism++x86.exe /Image:&quot;D:\1213\&quot; /?"/>
+    <String
+      Target="映像管理命令：&#xD;&#xA; /All&#9;- 打开全局会话&#xD;&#xA; /Image&#9;- 指定特定 Windows 映像的根目录的路径。&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Compact支持命令：&#xD;&#xA; /C&#9;- 使用Compact压缩文件/文件夹&#xD;&#xA; /U&#9;- 撤销Compact压缩的文件/文件夹&#xD;&#xA;&#xD;&#xA;若要获得有关这些 Dism++ 选项及其参数的详细信息，请在紧挨着 /? 之前指定一个选项。&#xD;&#xA;示例：&#xD;&#xA; Dism++x86.exe /Image /?&#xD;&#xA; Dism++x86.exe /C /?"
+      Link="Commande de gestion d’image :&#xD;&#xA; /All&#9;- Ouvre la session globale&#xD;&#xA; /Image&#9;- Désigne le dossier racine de l’image Windows&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Commande de compactage prise en charge&#xD;&#xA; /C&#9;- Utilise les fichiers/dossiers compressés (compressés avec compact)&#xD;&#xA; /U&#9;- Révoquee les dossier/fichiers compressés (compressés avec compact)&#xD;&#xA;&#xD;&#xA;Pour plus d’informations sur ces options Dism++ et leurs paramètres, spécifiez une option immédiatement avant /?.&#xD;&#xA;Exémples:&#xD;&#xA; Dism++x86.exe /Image /?&#xD;&#xA; Dism++x86.exe /C /?"/>
+    <String
+      Target="/Plugin:&lt;Plugin_ID&gt;&#9;- 此功能用于打开某插件支持的命令&#xD;&#xA;&#xD;&#xA;示例：&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"
+      Link="/Plugin:&lt;Plugin_ID&gt;&#9;- Pour exécuter les commandes prises en charge par un greffon.&#xD;&#xA;&#xD;&#xA;Exemples:&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"/>
+    <String
+      Target="可以使用以下命令来操作此映像：&#xD;&#xA;&#xD;&#xA;插件命令：&#xD;&#xA; /Plugin&#9;- 启动特定插件（需要插件支持命令参数）"
+      Link="Vous pouvez utiliser ces commandes pour traiter cette image :&#xD;&#xA;&#xD;&#xA;Commande :&#xD;&#xA; /Plugin&#9;- Exécute le greffon désigné (nécessite la prise en charge du greffon)"/>
     <String Target="正在压缩" Link="Compression"/>
     <String Target="正在解压" Link="Décompression"/>
     <String Target="操作完成！" Link="Terminé."/>
@@ -1326,7 +1374,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     
     <!--WimgAPI Message-->
     <x4144012B>Ceci est un message test qui ne requiert aucune action. Code de message %1.</x4144012B>
-    <x4144012C>[ INFO ] %1</x4144012C>
+    <x4144012C>[INFO] %1</x4144012C>
     <x8144012A>ID de message inconnu reçu : %1.</x8144012A>
     <x8144012D>[AVERTISSEMENT] %1</x8144012D>
     <x81440133>[RÉESSAYER] %1</x81440133>
@@ -1387,48 +1435,48 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
   </MessageTable>
   <UserAgreement>Accord de licence utilisateur
 
-   Chuyu team recommande fermement à chaque utilisateur de lire attentivement l’accord de licence utilisateur (désigné ci-dessous comme « accord », ou « cet accord ») avant d’utiliser Dism++. Quiconque choisit de ne pas se conformer ou ne parvient pas à comprendre la signification attendue de cet accord ne devrait pas être autorisé, ni ne devrait lui être accordés les droits concédés par Chuyu team lui permettant d’utiliser Dism++. Quiconque utilise Dism++ est considéré comme acceptant les termes de l’accord suivant, et de se conformer à son contenu.
+    Chuyu team recommande fermement à chaque utilisateur de lire attentivement l’accord de licence utilisateur (désigné ci-dessous comme « accord », ou « cet accord ») avant d’utiliser Dism++. Quiconque choisit de ne pas se conformer ou ne parvient pas à comprendre la signification attendue de cet accord ne devrait pas être autorisé, ni ne devrait lui être accordés les droits concédés par Chuyu team lui permettant d’utiliser Dism++. Quiconque utilise Dism++ est considéré comme acceptant les termes de l’accord suivant, et de se conformer à son contenu.
 
-   Cet accord définit les droits et obligations entre les utilisateurs du service logiciel Dism++ (désigné ci-dessous comme « service » ou « ce service ») et Chuyu team. Les « utilisateurs » et « utilisateurs de Dism++ » désignent les individus qui s’enregistrent, se connectent ou utilisent ce service. Cet accord fait l’objet de mises à jour de la part de Chuyu team à tout moment possible. L’accord mis à jour, une fois publié dans tout format, remplace l’accord d’origine. Dism++ devrait afficher l’accord mis à jour lorsque le logiciel s’initialise correctement. Les utilisateurs de Dism++ devraient arrêter d’utiliser ce logiciel et les services de Chuyu team immediatement s’ils choisissent de ne pas se conformer avec l’accord mis à jour.
+    Cet accord définit les droits et obligations entre les utilisateurs du service logiciel Dism++ (désigné ci-dessous comme « service » ou « ce service ») et Chuyu team. Les « utilisateurs » et « utilisateurs de Dism++ » désignent les individus qui s’enregistrent, se connectent ou utilisent ce service. Cet accord fait l’objet de mises à jour de la part de Chuyu team à tout moment possible. L’accord mis à jour, une fois publié dans tout format, remplace l’accord d’origine. Dism++ devrait afficher l’accord mis à jour lorsque le logiciel s’initialise correctement. Les utilisateurs de Dism++ devraient arrêter d’utiliser ce logiciel et les services de Chuyu team immediatement s’ils choisissent de ne pas se conformer avec l’accord mis à jour.
 
 I. Droits et obligations
 
-   1. Dism++ users can only use Dism++ for personal use in their PC(s). Any non-personal use (including but not limited to commercial or occupational use) without written approval from Chuyu team is not allowed.
-   2. Dism++ users must read this agreement and other content in the document of Dism++ carefully before using Dism++.
-   3. Dism++ users have the obligation to report bugs and possible improvements to Chuyu team. Anyone who uses Dism++ for over 30 days should send mingkuang a « Dism++ usage report » that is no less than 345 words. Anyone who uses Dism++ for 8 mounths or longer should send mingkuang an annual report (at least 520 words) on the topic « the suggestion and possible improvement on Dism++ » on November 11th (local time). Email of mingkuang: mingkuang@live.com.
-   4. Dism++ users should retain the love for peace, for group work, and of helping others.
-   5. Dism++ users should comply with the Basic Law (or local equivalents). Any action that violates copyright of Chuyu team or this agreement (including but not limited to inappropriately copy, propagate, display, mirror, upload, download, modify), and those that negatively impact Chuyu team’s operation or services will be subject to serious legal actions.
-   6. Anyone who fail to comply with this agreement automatically loses any right granted by Chuyu team. Chuyu team retain right to stop all software of Chuyu team in their PC(s), to reject any of their proposal(s), and to persue legal actions gainst them.
-   7. Chuyu team will try their best to provide technical support for those who comply with this agreement, when all of the following factors permit: the complexity of issue, the availability of Chuyu team, and the other users’ vote.
+    1. Dism++ users can only use Dism++ for personal use in their PC(s). Any non-personal use (including but not limited to commercial or occupational use) without written approval from Chuyu team is not allowed.
+    2. Dism++ users must read this agreement and other content in the document of Dism++ carefully before using Dism++.
+    3. Dism++ users have the obligation to report bugs and possible improvements to Chuyu team. Anyone who uses Dism++ for over 30 days should send mingkuang a « Dism++ usage report » that is no less than 345 words. Anyone who uses Dism++ for 8 mounths or longer should send mingkuang an annual report (at least 520 words) on the topic « the suggestion and possible improvement on Dism++ » on November 11th (local time). Email of mingkuang: mingkuang@live.com.
+    4. Dism++ users should retain the love for peace, for group work, and of helping others.
+    5. Dism++ users should comply with the Basic Law (or local equivalents). Any action that violates copyright of Chuyu team or this agreement (including but not limited to inappropriately copy, propagate, display, mirror, upload, download, modify), and those that negatively impact Chuyu team’s operation or services will be subject to serious legal actions.
+    6. Anyone who fail to comply with this agreement automatically loses any right granted by Chuyu team. Chuyu team retain right to stop all software of Chuyu team in their PC(s), to reject any of their proposal(s), and to persue legal actions gainst them.
+    7. Chuyu team will try their best to provide technical support for those who comply with this agreement, when all of the following factors permit: the complexity of issue, the availability of Chuyu team, and the other users’ vote.
 
 II. Données de vie privée
 
-   1. After initiation, Dism++ will collect Dism++ users’ system information (including but not restricted to the system version, system structure, system language, CPU information, RAM information), and Dism++’s own report (including but not restricted to the system crash dump and log files) to improve the service. Dism++ will not collect user identification information nor user’s contact information.
-   2. Chuyu team may send users invitations for testing Dism++, invitations for voting to help Chuyu team’s decisioning, and software updates, but Chuyu team will never send messages that include but not limited to advertisements, promotions, frauds, or request for payment.
+    1. After initiation, Dism++ will collect Dism++ users’ system information (including but not restricted to the system version, system structure, system language, CPU information, RAM information), and Dism++’s own report (including but not restricted to the system crash dump and log files) to improve the service. Dism++ will not collect user identification information nor user’s contact information.
+    2. Chuyu team may send users invitations for testing Dism++, invitations for voting to help Chuyu team’s decisioning, and software updates, but Chuyu team will never send messages that include but not limited to advertisements, promotions, frauds, or request for payment.
 
 III. Évaluez les risques
 
-   1. Chuyu team have an open-type attitude so everyone can let Dism++ better. Some functions may lead unknown aftermath so Chuyu team will remove the possible risk and tell the users. But we didn’t solve all the issue. You must bear all the aftermath yourself. Please tell Chuyu team after you find some problems to prevent others have the problems.
-   2. Please understand and agree because our softwares need to develop. Chuyu team persists the rights to change or pause or end or revoke all or some service. The users need to bear this danger.
+    1. Chuyu team have an open-type attitude so everyone can let Dism++ better. Some functions may lead unknown aftermath so Chuyu team will remove the possible risk and tell the users. But we didn’t solve all the issue. You must bear all the aftermath yourself. Please tell Chuyu team after you find some problems to prevent others have the problems.
+    2. Please understand and agree because our softwares need to develop. Chuyu team persists the rights to change or pause or end or revoke all or some service. The users need to bear this danger.
 
 IV. Déclaration des droits de propriété intellectuelle
 
-   1. Chuyu team has all the intellectual property rights of this-service content (including but not limited to program, webpage, text and so on).
-   2. If no important clauses, Chuyu team has all the intellectual property rights.
-   3. If Chuyu team didn’t consent in writing, the users cannot process Chuyu softwares anyway. Cannot tell others have the rights to proces Chuyu softwares.
-   4. Above and other intellectual property rights of Chuyu team are protected by law. If Chuyu team didn’t allow you, you cannot disassemble or do others.
+    1. Chuyu team has all the intellectual property rights of this-service content (including but not limited to program, webpage, text and so on).
+    2. If no important clauses, Chuyu team has all the intellectual property rights.
+    3. If Chuyu team didn’t consent in writing, the users cannot process Chuyu softwares anyway. Cannot tell others have the rights to proces Chuyu softwares.
+    4. Above and other intellectual property rights of Chuyu team are protected by law. If Chuyu team didn’t allow you, you cannot disassemble or do others.
 
 V. Responsibilité légale
 
-   1. If Chuyu team see someone report some users breached this agreement, Chuyu team have the rights to ban the users to use Chuyu softwares without informing.
-   2. Please understand and agree. Chuyu team have the rights to reasonably penalize the violation behavior with law.
-   3. Please understand and agree. If the users breach this agreement lead third party arise the claim (including the reasonable money to lawyer). The users must compensate for Chuyu team.
+    1. If Chuyu team see someone report some users breached this agreement, Chuyu team have the rights to ban the users to use Chuyu softwares without informing.
+    2. Please understand and agree. Chuyu team have the rights to reasonably penalize the violation behavior with law.
+    3. Please understand and agree. If the users breach this agreement lead third party arise the claim (including the reasonable money to lawyer). The users must compensate for Chuyu team.
 
 VI. Autres
 
-   1. Chuyu team solemnly tells the users to notice the clauses of responsibility exemption by the Chuyu team and the rights of limitations by users. Minors should read this agreement with their legal guardians.
-   2. The agreement validity and explanation apply in Chinese law. If the users and Chuyu team have disputes, settlement must be negotiated first. If it failed, please agree to report the having-jurisdiction people’s court to administer.
-   3. If the agreement clauses be invalid or not executable because of whatever reason, the other clauses are still valid. Binding upon Both.
-   4. The user agreement written in Simplified Chinese should be referred to if the Simplified Chinese version differs from user agreements written in other languages.
+    1. Chuyu team solemnly tells the users to notice the clauses of responsibility exemption by the Chuyu team and the rights of limitations by users. Minors should read this agreement with their legal guardians.
+    2. The agreement validity and explanation apply in Chinese law. If the users and Chuyu team have disputes, settlement must be negotiated first. If it failed, please agree to report the having-jurisdiction people’s court to administer.
+    3. If the agreement clauses be invalid or not executable because of whatever reason, the other clauses are still valid. Binding upon Both.
+    4. The user agreement written in Simplified Chinese should be referred to if the Simplified Chinese version differs from user agreements written in other languages.
 </UserAgreement>
 </Data>

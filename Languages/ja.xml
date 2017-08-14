@@ -45,8 +45,9 @@ Special Thanks to 山形まり花、奎宁
       <String Target="重新载入" Link="リロード"/>
 		  <String Target="格式转换" Link="フォーマット変換"/>
 			  <String Target="ESD解密" Link="ESD 暗号化解除"/>
-	
-	  <String Target="恢复功能(&amp;R)" Link="復元(&amp;R)"/>		
+    <String Target="取消任务	Ctrl+Break" Link="任務をキャンセル&#0009;Ctrl+Break"/>
+
+    <String Target="恢复功能(&amp;R)" Link="復元(&amp;R)"/>		
 		  <String Target="系统修复" Link="システム スキャン"/>
       <String Target="健康扫描" Link="正常性検査"/>
         <String Target="验证受损" Link="破損チャック"/>
@@ -515,8 +516,13 @@ Special Thanks to 山形まり花、奎宁
     <String Target="正在应用" Link="適用中"/>
     <String Target="本地源：" Link="ローカル ソース："/>
     <String Target="请在此输入本地源" Link="ローカル ソースをこちら入力してください"/>
-    
-	  <!--添加删除更新-->
+
+    <!--应用程序-->
+    <String Target="更改" Link="変更"/>
+    <String Target="通用安装脚本" Link="汎用インストール スクリプト"/>
+    <String Target="%s 已经安装，你确定要继续吗？" Link="%s は既にインストールされた、続行しますか？"/>
+
+    <!--添加删除更新-->
 	  <String Target="未知" Link="不明"/>
 	  <String Target="不适用" Link="利用不可"/>
 	  <String Target="卸载挂起" Link="アンインストール保留中"/>
@@ -544,9 +550,10 @@ Special Thanks to 山形まり花、奎宁
 	  <String Target="刷新" Link="再読込"/>
 	  <String Target="添加" Link="追加"/>
     <String Target="语言" Link="言語"/>
-    <String Target="Windows %s 语言包" Link="Windows %s 言語パック"/> 
-  
-	  <!--可选功能-->
+    <String Target="Windows %s 语言包" Link="Windows %s 言語パック"/>
+    <String Target="重启生效" Link="再起動で有効"/>
+
+    <!--可选功能-->
     <String Target="正在删除可选功能" Link="機能を削除中"/>
 	  <String Target="正在删除第 %d 个可选功能（共 %d ）" Link="機能を削除中（%d / %d）"/>
 	  <String Target="正在加载可选功能" Link="機能を読み込み中"/>
@@ -597,6 +604,7 @@ Special Thanks to 山形まり花、奎宁
     <String Target="关于 %s 的警告：&#x000D;&#x000A;&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;你确定要继续吗？" Link="%s 関するの警告：&#x000D;&#x000A;&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;よろしいでしょうか？"/>
     <String Target="导出地址" Link="アドレス出力"/>
     <String Target="补丁下载地址已经成功复制到剪切板。" Link="更新プログラムのダウンロード アドレスはクリップボードにコピーされました。"/>
+    <String Target="安装%d%%" Link="インストール %d%%"/>
 
     <!--区域和语言-->
     <String Target="区域和语言" Link="言語と地域"/>
@@ -764,7 +772,7 @@ Special Thanks to 山形まり花、奎宁
 
     <String Target="使任务栏更透明（by 518516.net）" Link="タスク バーをもっと透明による (by 518516.net)"/>
 
-    <String Target="不允许在开始菜单显示建议" qLink=""/>
+    <String Target="不允许在开始菜单显示建议" Link="スタート画面におすすめを表示しない"/>
 
     <String Target="在桌面显示我的电脑（by Rambin）" Link="マイ コンピューターをデスクトップに表示する (by Rambin)"/>
       <String Target="跟随系统" Link="システムの設定を継承"/>
@@ -816,13 +824,13 @@ Special Thanks to 山形まり花、奎宁
     <String Target="禁止自动安装推荐的应用程序（by IT之家）" Link="お勧めアプリ自動的にインストールを禁止（by ITHome）"/>
     <String Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="ロック画面で Windows スポットライトの広告を閉じる（by 、Cloud.）"/>
     <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="[Windows を使用するためのヒントやおすすめの方法を取得] を閉じる"/>
-    <String Target="隐藏任务栏上的人脉（by 、Cloud.）" qLink=""/>
+    <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="タスク バーの [People] を隠す（by 、Cloud.）"/>
 
     <!--右键菜单管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="右クリック メニューの管理 - 非必要メニューを無効し、パフォーマンスを改善する"/>
     <String Target="禁用可执行文件的“兼容性疑难解答”右键菜单（by 莫失莫忘）" Link="アプリケーションから右クリック メニューの [互換性トラブルシューティング] を無効化（by 莫失莫忘）"/>
     <String Target="禁用文件、文件夹以及磁盘的“使用Windows Defender扫描”右键菜单（by 莫失莫忘）" Link="右クリック メニューのファイル、フォルダーおよびディスクの [Windows Defenderでスキャンする] を無効化（by 莫失莫忘）"/>
-    <String Target="禁用文件、磁盘以及属性的“还原以前版本”右键菜单（by 莫失莫忘）" Link="右クリック メニューのファイル、ディスクおよびプロパティの [以前のパーション] を無効化（by 莫失莫忘）"/>
+    <String Target="禁用文件、磁盘以及属性的“还原以前版本”右键菜单（by 莫失莫忘）" Link="右クリック メニューのファイル、ディスクおよびプロパティの [以前のバージョン] を無効化（by 莫失莫忘）"/>
     <String Target="禁用文件、文件夹、桌面以及所有对象的“共享文件夹同步”右键菜单" Link="右クリック メニューのファイル、フォルダー、デスクトップおよびすべて対象の [共有フォルダの同期] を無効化"/>
     <String Target="禁用新建“ZIP/RAR文件”右键菜单（by 莫失莫忘）" Link="右クリック メニューの新規作成の [ZIP/RAR ファイル] を無効化（by 莫失莫忘）"/>
     <String Target="禁用新建、文件以及文件夹的“公文包”右键菜单" Link="右クリック メニューの新規作成、ファイルおよびフォルダーの [ブリーフケース] を無効化"/>
@@ -869,10 +877,10 @@ Special Thanks to 山形まり花、奎宁
 
     <String Target="针对增强保护模式启用64位进程" Link="拡張保護モードで 64 ビット プロセス有効化"/>
 
-    <String Target="隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）" qLink=""/>
+    <String Target="隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）" Link="Internet Explorer のフィードバック ボタンを隠す (by ITHome)"/>
 
     <!--Microsoft Edge-->
-    <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" qLink=""/>
+    <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Microsoft Edge の最初の実行ページを表示しない (by ITHome)"/>
 
     <!--微软拼音输入法--><String Target="微软拼音输入法" Link="Microsoft Pinyin 入力方法"/>
     <String Target="微软拼音默认为英语输入（by Rambin）" Link="英語は既定の入力モード (by Rambin)"/>
@@ -950,10 +958,10 @@ Special Thanks to 山形まり花、奎宁
     <String Target="*隐藏Windows 10升级助手GWX" Link="*Windows 10 アップグレード アシスタント (GWX) を隠す"/>
 
     <String Target="关闭OneDrive（by Rambin）" Link="OneDrive 無効化 (by Rambin)"/>
-      <String Target="禁用OneDrive将导致某些Windows Store应用无法使用OneDrive存储。" Link="Disable OneDrive will cause Windows Store applications can not use OneDrive storage."/>
+      <String Target="禁用OneDrive将导致某些Windows Store应用无法使用OneDrive存储。" Link="無効して、一部のストア アプリは Onedrive ストレージを利用できません。"/>
 
     <String Target="*VHD启动时不要将VHD动态文件扩展到最大（以节省空间）" Link="*Prevent expanded file size to the maximum when booting by dynamic VHD file (To save space)"/>
-      <String Target="此选项可能降低VHD文件性能。" Link="This option may reduce the VHD file performance."/>
+      <String Target="此选项可能降低VHD文件性能。" Link="この機能は VHD ファイルのパフォーマンスは低下する。"/>
     
     <String Target="*隐藏某些SATA硬盘任务栏图标（by 原罪）" Link="*Hide taskbar icon of some SATA hard disks (by YZ)"/>
 
@@ -1160,7 +1168,7 @@ For more information about these Dism++ options and their arguments, specify an\
     
     <String Target="以前的Windows系统" Link="以前バージョンの Windows "/>
     <String Target="在系统升级或者还原后留下的系统备份。" Link="When system upgrading or restoring, system made the backup."/>
-    <String Target="删除后你将无法回滚到以前安装的系统。" Link="After deleting, you cannot restore to the earlier system."/>
+    <String Target="删除后你将无法回滚到以前安装的系统。" Link="削除されて、以前バージョンの Windows に元に戻すできません。"/>
     
     <String Target="Windows临时安装文件" Link="Windows 一時的なのインストール ファイル"/>
     <String Target="在系统升级或者还原后留下的系统临时安装文件，如果你确定当前没有进行系统升级或者还原，那么可以安全删除。" Link="When system upgrading or restoring, system made the backup. If you ensure you did not upgrade or restore system, you can delete the backup."/>
@@ -1357,7 +1365,7 @@ For more information about these Dism++ options and their arguments, specify an\
     <String Target="英伟达驱动安装包（by Ailick）" Link="Nvidia ドライバーのインストール パッケージ（by Ailick）"/>
     <String Target="Nvidia Geforce Experience更新程序时产生的安装包。" Link="Nvidia Geforce Experience 更新時自動的に生成のインストール パッケージ。"/>
 
-    <String Target="新版Visual Studio安装源缓存" Link="新しいパーションの Visual Studio インストール元キャッシュ"/>
+    <String Target="新版Visual Studio安装源缓存" Link="新しいバージョンの Visual Studio インストール元キャッシュ"/>
     <String Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="この機能は Visual Studio 2017（将来のバージョン含む）のインストール元をクリーンアップします。"/>
     <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="クリーンアップし、Visual Studio 2017（将来のバージョン含む） の 更新、修復、コンポーネントを変更及びアンインストール操作はインターネット接続必要です。"/>
 

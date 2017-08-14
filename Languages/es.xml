@@ -1,24 +1,24 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?><!--
+This is the English translation resource for Dism++.
+There are 5 ASCII punctuation needing special representation in XML.
+Also some control characters should be preferably encoded as numeric character entities.
+  Symbol  Description                  Encoded as  Preferably changed in translations to
+    <     Less than                    &lt;
+    >     More than                    &gt;
+    &     And                          &amp;
+    '     Single quotation mark        &apos;      ’ (apostrophe) or ‘English quotes’
+    "     Double quotation mark        &quot;      “English quotes”
+    \t    Tabulation control           &#9;
+    \n    Line feed (newline) control  &#xA;
+    \r    Carriage return control      &#xD;
+Also please avoid indenting this file using tabulations.
 
-<!--
-西班牙语
-This is Dism++ Spanish Resource
-
-There are 5 special symbols need special representation in XML.
-
- Symbol     Description               Link
-   <        Less than                 &lt;
-   >        More than                 &gt;
-   &        And                       &amp;
-   ‘       Single quotation marks		&apos;
-   “       Double quotation marks		&quot;
-
-Thanks: Jhovany200, Oleada, nomemolesteis@gmail.com for translation
- -->
+Gracias a: Jhovany200, Oleada, nomemolesteis@gmail.com por la traducción
+-->
 <Data>
   <DefaultControl>
-    <Font shared="true" id="0" name="Segoe UI" size="12" />
-    <Font shared="true" id="1" name="Segoe UI" size="16" />
+    <Font shared="true" id="0" name="Segoe UI" size="12"/>
+    <Font shared="true" id="1" name="Segoe UI" size="16"/>
   </DefaultControl>
   <CCleanLangSecRefMap>
     <LangSecRef ID="3021">Aplicaciones</LangSecRef>
@@ -35,32 +35,33 @@ Thanks: Jhovany200, Oleada, nomemolesteis@gmail.com for translation
   </CCleanLangSecRefMap>
   <StringMaps>
     <String Target="文件(&amp;F)" Link="Archivo"/>
-		  <String Target="添加映像" Link="Añadir imagen"/>
-        <String Target="释放映像	Ctrl+N" Link="Aplicar imagen	Ctrl+N"/>
-        <String Target="挂载映像	Ctrl+Shift+N" Link="Montar imagen	Ctrl+Mayús+N"/>
+      <String Target="添加映像" Link="Añadir imagen"/>
+        <String Target="释放映像&#9;Ctrl+N" Link="Aplicar imagen&#9;Ctrl+N"/>
+        <String Target="挂载映像&#9;Ctrl+Shift+N" Link="Montar imagen&#9;Ctrl+Mayús+N"/>
         <String Target="添加路径" Link="Añadir ruta"/>
-		  <String Target="卸载映像	Delete" Link="Desmotar imagen	Supr"/>
-		  <String Target="保存映像	Ctrl+S" Link="Guardar imagen	Ctrl+S"/>
-		  <String Target="另存为映像	Ctrl+Shift+S" Link="Guardar imagen como	Ctrl+Mayús+S"/>
-		  <String Target="打开映像文件	Ctrl+O" Link="Abrir archivo de imagen	Ctrl+O"/>
+      <String Target="卸载映像&#9;Delete" Link="Desmotar imagen&#9;Supr"/>
+      <String Target="保存映像&#9;Ctrl+S" Link="Guardar imagen&#9;Ctrl+S"/>
+      <String Target="另存为映像&#9;Ctrl+Shift+S" Link="Guardar imagen como&#9;Ctrl+Mayús+S"/>
+      <String Target="打开映像文件&#9;Ctrl+O" Link="Abrir archivo de imagen&#9;Ctrl+O"/>
       <String Target="重新载入" Link="Recargar"/>
-		  <String Target="格式转换" Link="Convertir formato"/>
-			  <String Target="ESD解密" Link="Desencriptar ESD"/>
+      <String Target="格式转换" Link="Convertir formato"/>
+        <String Target="ESD解密" Link="Desencriptar ESD"/>
+    <String Target="取消任务&#9;Ctrl+Break" Link="Cancel Task&#9;Ctrl+Break"/>
 
-	  <String Target="恢复功能(&amp;R)" Link="&amp;Recuperar"/>
-		  <String Target="系统修复" Link="Recuperación del sistema"/>
+    <String Target="恢复功能(&amp;R)" Link="&amp;Recuperar"/>
+      <String Target="系统修复" Link="Recuperación del sistema"/>
       <String Target="健康扫描" Link="Comprobar salud"/>
         <String Target="验证受损" Link="Analizar salud"/>
         <String Target="修复受损" Link="Restaurar salud"/>
       <String Target="引导修复" Link="Reparar inicio"/>
       <String Target="系统备份" Link="Copia del sistema"/>
       <String Target="系统还原" Link="Restaurar sistema"/>
-		  <String Target="在RE中运行" Link="Ejecutar en WinRE"/>
+      <String Target="在RE中运行" Link="Ejecutar en WinRE"/>
       <String Target="仅启动RE" Link="Ejecutar sólo WinRE"/>
       <String Target="撤销Compact" Link="Nunca Compactar"/>
 
     <String Target="选项(&amp;O)" Link="&amp;Opciones"/>
-		  <String Target="插件管理" Link="Administrar complemento"/>
+      <String Target="插件管理" Link="Administrar complemento"/>
       <String Target="新手模式" Link="Modo principiante"/>
       <String Target="详细设置" Link="Más opciones"/>
       <String Target="操作完成后" Link="Después de completar la operación"/>
@@ -69,29 +70,29 @@ Thanks: Jhovany200, Oleada, nomemolesteis@gmail.com for translation
         <String Target="重启" Link="Reiniciar"/>
       <String Target="程序外观" Link="Apariencia"/>
 
-	  <String Target="帮助(&amp;H)" Link="Ayuda"/>
+    <String Target="帮助(&amp;H)" Link="Ayuda"/>
       <String Target="查看帮助(&amp;V)" Link="Ver ayuda"/>
-		  <String Target="官方网站(&amp;O)" Link="Sitio oficial"/>
+      <String Target="官方网站(&amp;O)" Link="Sitio oficial"/>
       <String Target="官方群(&amp;G)" Link="Grupo oficial"/>
-		  <String Target="问题反馈(&amp;B)" Link="Comentarios"/>
+      <String Target="问题反馈(&amp;B)" Link="Comentarios"/>
       <String Target="关于Dism++(&amp;A)" Link="&amp;Acerca de Dism++"/>
       <String Target="检查更新(&amp;U)" Link="Buscar actualizaciones"/>
 
-	  <String Target="应用一个WIM、ESD、SWM或者ISO映像。" Link="Se aplica un WIM, ESD, SWM o una imagen ISO."/>
+    <String Target="应用一个WIM、ESD、SWM或者ISO映像。" Link="Se aplica un WIM, ESD, SWM o una imagen ISO."/>
     <String Target="从 WIM 文件安装映像。" Link="Monta una imagen desde un archivo WIM."/>
-	  <String Target="卸载安装的 WIM 映像" Link="Desmonta una imagen WIM."/>
-	  <String Target="保存对安装的 WIM 映像的更改" Link="Guardar los cambios realizados en una imagen WIM montada."/>
-	  <String Target="保存更改到另一个WIM文件中" Link="Guardar cambios a otra imagen WIM."/>
-	  <String Target="打开并编辑现有的WIM文件" Link="Abrir y editar un archivo WIM existente"/>
-	  <String Target="WIM、ESD互转" Link="Convertir ESD/WIM"/>
-	  <String Target="将ESD文件（支持加密）转换为ISO。" Link="Convertir a ISO ESD (soporta archivos  ESD encriptados)."/>
-	  <String Target="解密微软在线提供的ESD文件" Link="Desencriotar archivos ESD de Microsoft en línea"/>
-	  <String Target="重启进入RE并为我启动Dism++" Link="Reiniciar para WinRE y ejecutar Dism++"/>
-	  <String Target="启动RE环境" Link="Iniciar WinRE"/>
-	  <String Target="添加删除Dism插件" Link="Añadir o eliminar complemento Dism++"/>
-	  <String Target="在官方网站可以获取帮助文档，并提出你的宝贵意见" Link="La documentación está disponible en www.chuyu.me. Agradecemos tus comentarios!"/>
+    <String Target="卸载安装的 WIM 映像" Link="Desmonta una imagen WIM."/>
+    <String Target="保存对安装的 WIM 映像的更改" Link="Guardar los cambios realizados en una imagen WIM montada."/>
+    <String Target="保存更改到另一个WIM文件中" Link="Guardar cambios a otra imagen WIM."/>
+    <String Target="打开并编辑现有的WIM文件" Link="Abrir y editar un archivo WIM existente"/>
+    <String Target="WIM、ESD互转" Link="Convertir ESD/WIM"/>
+    <String Target="将ESD文件（支持加密）转换为ISO。" Link="Convertir a ISO ESD (soporta archivos  ESD encriptados)."/>
+    <String Target="解密微软在线提供的ESD文件" Link="Desencriotar archivos ESD de Microsoft en línea"/>
+    <String Target="重启进入RE并为我启动Dism++" Link="Reiniciar para WinRE y ejecutar Dism++"/>
+    <String Target="启动RE环境" Link="Iniciar WinRE"/>
+    <String Target="添加删除Dism插件" Link="Añadir o eliminar complemento Dism++"/>
+    <String Target="在官方网站可以获取帮助文档，并提出你的宝贵意见" Link="La documentación está disponible en www.chuyu.me. Agradecemos tus comentarios!"/>
     <String Target="为映像重新添加引导。" Link="Re-añadir una imagen de arranque."/>
-	  <String Target="只添加指定文件夹路径到映像列表。" Link="Añadir la ruta seleccionada a la lista de imágenes."/>
+    <String Target="只添加指定文件夹路径到映像列表。" Link="Añadir la ruta seleccionada a la lista de imágenes."/>
     <String Target="重新扫描系统" Link="Re-analizar"/>
     <String Target="取消所有Compact压缩的文件（存在兼容性问题时使用）" Link="Descomprimir todos los archivos comprimidos (en caso de problema de compatibilidad)"/>
     <String Target="将现有的系统备份为WIM或者ESD（如果文件存在则自动增量到原有文件）。" Link="Copia del sistema en un archivo WIM o ESD (los cambios se aplicarán al archivo existente de WIN/ESD (guardar incremantos) si se ha copiado antes)."/>
@@ -105,12 +106,12 @@ Thanks: Jhovany200, Oleada, nomemolesteis@gmail.com for translation
     <String Target="Xpress4k（推荐）" Link="Xpress4k (recomendado)"/>
     <String Target="LZX（体积最小）" Link="LZX (más pequeño)"/>
 
-	  <!-- 主框架  -->
-	  <String Target="正在删除" Link="Borrando"/>
-	  <String Target="错误提示" Link="Error"/>
-	  <String Target="正在保存" Link="Guardando"/>
-	  <String Target="保存映像" Link="Guardar imagen"/>
-	  <String Target="正在准备" Link="Preparando"/>
+    <!-- 主框架  -->
+    <String Target="正在删除" Link="Borrando"/>
+    <String Target="错误提示" Link="Error"/>
+    <String Target="正在保存" Link="Guardando"/>
+    <String Target="保存映像" Link="Guardar imagen"/>
+    <String Target="正在准备" Link="Preparando"/>
     <String Target="正在加载规则" Link="Cargando reglas"/>
     <String Target="Dism++不允许修改文件名，这将导致插件无法正常加载。" Link="Dism++ no permite modificar el nombre del archivo, puede causar error al cargar el plugin."/>
     <String Target="无法启动Dism++x64.exe，请确保该Dism++组件的完整性。" Link="No se puede iniciar Dism++x64.exe, compruebe la integridad de Dism++."/>
@@ -121,41 +122,41 @@ Thanks: Jhovany200, Oleada, nomemolesteis@gmail.com for translation
 
     <String Target="你需要增量保存还是直接保存？" Link="¿Guardar de forma directa o incremental?"/>
     <String Target="温馨提示：保存映像后空间不会减少，如果需要减少空间请重新编译目标文件。" Link="Consejos: No se va a reducir espacio si guarda esta imagen;  compilar el archivo de destino si necesita reducir el espacio"/>
-    <String Target="增量保存（推荐）&#x0A;创建一个新的映像，不会覆盖原有数据。" Link="Guardar incremental (recomendado)&#x0A;Crea una nueva imagen; los datos originales no se modificarán."/>
+    <String Target="增量保存（推荐）&#xA;创建一个新的映像，不会覆盖原有数据。" Link="Guardar en incrementos (recomendado)&#xA;Crea una nueva imagen; los datos originales no se modificarán."/>
 
-    <String Target="直接保存&#x0A;将覆盖当前映像的数据。" Link="Guardar directo&#x0A;Sustituir la imagen original con esta imagen modificada."/>
+    <String Target="直接保存&#xA;将覆盖当前映像的数据。" Link="Guardar directo&#xA;Sustituir la imagen original con esta imagen modificada."/>
 
     <String Target="温馨提示" Link="Consejos"/>
 
-	  <String Target="正在挂载" Link="Montando"/>
+    <String Target="正在挂载" Link="Montando"/>
     <String Target="正在卸载映像" Link="Desmontando"/>
-	  <String Target="正在释放" Link="Aplicando"/>
-	  <String Target="正在还原" Link="Restaurando"/>
+    <String Target="正在释放" Link="Aplicando"/>
+    <String Target="正在还原" Link="Restaurando"/>
     <String Target="%s 位置的映像正在进行其他事情，请稍后再试。" Link="La imagen en la posición %s está ocupada, inténtelo de nuevo más tarde."/>
     <String Target="无法移动文件 %s，Dism++已回滚对系统的更改。" Link="El archivo %s no se puede mover, Dism++ ha revertido los cambios al sistema."/>
 
     <String Target="正在配置WinRE" Link="Configuración de Windows RE"/>
-	  <String Target="正在进行第 %d 阶段（共 %d ）" Link="Ahora en el paso %d (%d pasos en total)"/>
-	  <String Target="格式转换向导" Link="Asistente para conversión de formato"/>
+    <String Target="正在进行第 %d 阶段（共 %d ）" Link="Ahora en el paso %d (%d pasos en total)"/>
+    <String Target="格式转换向导" Link="Asistente para conversión de formato"/>
     <String Target="此功能可以将微软发布的ESD转换为ISO，还支持加密的ESD哦。" Link="Esta función puede convertir de ESD a ISO, soporta encriptado ESD"/>
     <String Target="ESD映像文件" Link="Archivo ESD"/>
-	  <String Target="ISO映像文件" Link="Archivo ISO"/>
+    <String Target="ISO映像文件" Link="Archivo ISO"/>
     <String Target="ISO映像文件-高压版" Link="Archivo-Ultra ISO"/>
-	  <String Target="WIM映像文件" Link="Archivo WIM"/>
-	  <String Target="WIM拆分映像" Link="Archivo SWM"/>
+    <String Target="WIM映像文件" Link="Archivo WIM"/>
+    <String Target="WIM拆分映像" Link="Archivo SWM"/>
     <String Target="所有文件" Link="Todos los archivos"/>
 
-	  <String Target="正在转换格式" Link="Convirtiendo"/>
-	  <String Target="正在从%s，转换到%s" Link="Convirtiendo de %s a %s"/>
+    <String Target="正在转换格式" Link="Convirtiendo"/>
+    <String Target="正在从%s，转换到%s" Link="Convirtiendo de %s a %s"/>
 
-	  <String Target="映像文件" Link="Archivo de imagen"/>
-	  <String Target="无法获取RE信息，错误代码：%d" Link="No se puede obtener info de WinRE, código de error: %d"/>
-	  <String Target="重启后，系统自动将启动RE，你确定要重启么？" Link="Su sistema se reiniciará para WinRE, ¿Desea reiniciar ahora?"/>
-	  <String Target="此功能可以将ESD、WIM格式相互转换。" Link="Esta función puede convertir ESD a WIM y convertir WIM a ESD "/>
-	  <String Target="Dism++将会在RE中启动，你现在需要重启电脑么？" Link="Dism++ comenzará en WinRE, ¿Desea reiniciar ahora?"/>
-	  <String Target="%s 位置的映像正繁忙，请稍后再试。" Link="La ubicación de la imagen %s está ocupada, inténtelo de nuevo más tarde."/>
-	  <String Target="正在验证受损" Link="Analizando la salud"/>
-	  <String Target="正在修复受损" Link="Recuperando la salud"/>
+    <String Target="映像文件" Link="Archivo de imagen"/>
+    <String Target="无法获取RE信息，错误代码：%d" Link="No se puede obtener info de WinRE, código de error: %d"/>
+    <String Target="重启后，系统自动将启动RE，你确定要重启么？" Link="Su sistema se reiniciará para WinRE, ¿Desea reiniciar ahora?"/>
+    <String Target="此功能可以将ESD、WIM格式相互转换。" Link="Esta función puede convertir ESD a WIM y convertir WIM a ESD "/>
+    <String Target="Dism++将会在RE中启动，你现在需要重启电脑么？" Link="Dism++ comenzará en WinRE, ¿Desea reiniciar ahora?"/>
+    <String Target="%s 位置的映像正繁忙，请稍后再试。" Link="La ubicación de la imagen %s está ocupada, inténtelo de nuevo más tarde."/>
+    <String Target="正在验证受损" Link="Analizando la salud"/>
+    <String Target="正在修复受损" Link="Recuperando la salud"/>
     <String Target="%d 秒后将关闭计算机，点击取消可以撤销此任务。" Link="Después de %d segundos, el equipo se apagará. Haga clic en 'Cancelar' para cancelar esta tarea."/>
     <String Target="%d 秒后将重启计算机，点击取消可以撤销此任务。" Link="Después de %d segundos el equipo se reiniciará. Haga clic en 'Cancelar' para cancelar esta tarea."/>
 
@@ -166,56 +167,56 @@ Thanks: Jhovany200, Oleada, nomemolesteis@gmail.com for translation
     <String Target="在还原前你需要格式化分区：%s ?" Link="¿Desea formatear la partición %s antes de restaurar?"/>
 
     <String Target="温馨提示：格式化分区该分区所有数据将丢失！" Link="Advertencia: ¡Todos los datos se borrarán después de formatear!"/>
-    <String Target="格式化分区（推荐）&#x0A;有助于系统分区整洁，消除文件残留。" Link="Formatear (recomendado)&#x0A;Hace la partición del sistema y limpia sin residuos."/>
+    <String Target="格式化分区（推荐）&#xA;有助于系统分区整洁，消除文件残留。" Link="Formatear (recomendado)&#xA;Hace la partición del sistema y limpia sin residuos."/>
 
     <String Target="%s 映像已经还原成功。" Link="Restaurado correctamente %s imagen."/>
     <String Target="你需要重启并立即生效么？" Link="¿Guardar los cambios y reiniciar el sistema ahora?"/>
 
     <String Target="准备就绪" Link="Listo"/>
-	  <String Target="不支持" Link="No compatible"/>
-	  <String Target="不存在" Link="No existe"/>
-	  <String Target="已经失效" Link="Ya expirado"/>
-	  <String Target="请稍等" Link="Espere por favor"/>
+    <String Target="不支持" Link="No compatible"/>
+    <String Target="不存在" Link="No existe"/>
+    <String Target="已经失效" Link="Ya expirado"/>
+    <String Target="请稍等" Link="Espere por favor"/>
 
 
-	  <String Target="本地硬盘" Link="Disco Local"/>
-	  <String Target="挂载映像" Link="Imagen montada"/>
+    <String Target="本地硬盘" Link="Disco Local"/>
+    <String Target="挂载映像" Link="Imagen montada"/>
     <String Target="VHD装载" Link="VHD montado"/>
 
-	  <String Target="不压缩" Link="Nada"/>
-	  <String Target="WIMBoot压缩" Link="WIMBoot"/>
-	  <String Target="快速压缩" Link="Rápido"/>
-	  <String Target="最大压缩" Link="Max"/>
-	  <String Target="极限压缩" Link="Recuperar"/>
+    <String Target="不压缩" Link="Nada"/>
+    <String Target="WIMBoot压缩" Link="WIMBoot"/>
+    <String Target="快速压缩" Link="Rápido"/>
+    <String Target="最大压缩" Link="Max"/>
+    <String Target="极限压缩" Link="Recuperar"/>
 
-	  <String Target="映像名称" Link="Nombre imagen"/>
-	  <String Target="映像说明" Link="Descripción imagen"/>
-	  <String Target="显示名称" Link="Nombre a mostrar"/>
-	  <String Target="显示说明" Link="Descripción pantalla"/>
-	  <String Target="映像标志" Link="Edición"/>
+    <String Target="映像名称" Link="Nombre imagen"/>
+    <String Target="映像说明" Link="Descripción imagen"/>
+    <String Target="显示名称" Link="Nombre a mostrar"/>
+    <String Target="显示说明" Link="Descripción pantalla"/>
+    <String Target="映像标志" Link="Edición"/>
 
-	  <String Target="系统体系" Link="Arquitectura"/>
-	  <String Target="创建日期" Link="Creado"/>
-	  <String Target="展开空间" Link="Espacio ampliado"/>
-	  <String Target="系统版本" Link="Versión SO"/>
+    <String Target="系统体系" Link="Arquitectura"/>
+    <String Target="创建日期" Link="Creado"/>
+    <String Target="展开空间" Link="Espacio ampliado"/>
+    <String Target="系统版本" Link="Versión SO"/>
 
-	  <String Target="不压缩映像" Link="Nada"/>
-	  <String Target="WIMBoot压缩映像" Link="WIMBoot"/>
-	  <String Target="快速压缩映像" Link="Rápido"/>
-	  <String Target="最大压缩映像" Link="Max"/>
-	  <String Target="极限压缩映像" Link="Recuperar"/>
-	  <String Target="全选" Link="Todo"/>
-	  <String Target="反选" Link="Invertir"/>
-	  <String Target="自定义规则" Link="Reglas personales"/>
-	  <String Target="扫描" Link="Analizar"/>
-	  <String Target="清理" Link="Limpiar"/>
+    <String Target="不压缩映像" Link="Nada"/>
+    <String Target="WIMBoot压缩映像" Link="WIMBoot"/>
+    <String Target="快速压缩映像" Link="Rápido"/>
+    <String Target="最大压缩映像" Link="Max"/>
+    <String Target="极限压缩映像" Link="Recuperar"/>
+    <String Target="全选" Link="Todo"/>
+    <String Target="反选" Link="Invertir"/>
+    <String Target="自定义规则" Link="Reglas personales"/>
+    <String Target="扫描" Link="Analizar"/>
+    <String Target="清理" Link="Limpiar"/>
 
 
-	  <String Target="存在风险" Link="Riesgo"/>
-	  <String Target="建议保留" Link="Mantener"/>
-	  <String Target="可以删除" Link="Puede borrar"/>
-	  <String Target="建议删除" Link="Borrar"/>
-	  <String Target="自定义" Link="Personal"/>
+    <String Target="存在风险" Link="Riesgo"/>
+    <String Target="建议保留" Link="Mantener"/>
+    <String Target="可以删除" Link="Puede borrar"/>
+    <String Target="建议删除" Link="Borrar"/>
+    <String Target="自定义" Link="Personal"/>
 
     <String Target="正在载入清理规则" Link="Cargando reglas de limpieza..."/>
     <String Target="正在撤销Compact" Link="Revocando Compactar"/>
@@ -257,7 +258,7 @@ Thanks: Jhovany200, Oleada, nomemolesteis@gmail.com for translation
     <String Target="初雨开源" Link="Código abierto"/>
     <String Target="问题反馈" Link="Comentarios"/>
     <String Target="帮助文档" Link="Documentación de ayuda"/>
-    
+
     <String Target="致谢" Link="Gracias"/>
     <String Target="翻译人员" Link="Traductor"/>
     <String Target="赞助名单" Link="Patrocinador"/>
@@ -265,22 +266,21 @@ Thanks: Jhovany200, Oleada, nomemolesteis@gmail.com for translation
 
     <!--添加映像-->
     <String Target="请输入映像存放目录" Link="Introducir la ruta de la imagen"/>
-	  <String Target="请在此输入安装路径，比如C:\" Link="Introducir la ruta de instalación de la imagen. Por ejemplo, C: \"/>
+    <String Target="请在此输入安装路径，比如C:\" Link="Introducir la ruta de instalación de la imagen. Por ejemplo, C: \"/>
     <String Target="请在此输入挂载路径，比如D:\1" Link="Introducir la ruta de montaje aquí. Por ejemplo, D:\1"/>
-	  <String Target="请输入所在路径" Link="Introducir la ruta de la imagen"/>
-	  <String Target="镜像文件" Link="Archivo de imagen"/>
-	  <String Target="只读模式" Link="Sólo lectura"/>
-	  <String Target="快速挂载" Link="Montaje rápido"/>
-	  <String Target="（可启动）" Link="(Bootable)"/>
-	  <String Target="添加映像向导" Link="Asistente añadir imagen"/>
-	  <String Target="此功能可以将其他文件（WIM、ESD、VHD、VHDX）或者文件夹的包含的映像添加至映像列表。"
-	  Link="Esta función permite que otros archivos (WIM, ESD, VHD, VHDX), así como imágenes contenidas en una carpeta, se añaden a la lista de imágenes."/>
+    <String Target="请输入所在路径" Link="Introducir la ruta de la imagen"/>
+    <String Target="镜像文件" Link="Archivo de imagen"/>
+    <String Target="只读模式" Link="Sólo lectura"/>
+    <String Target="快速挂载" Link="Montaje rápido"/>
+    <String Target="（可启动）" Link="(Bootable)"/>
+    <String Target="添加映像向导" Link="Asistente añadir imagen"/>
+    <String Target="此功能可以将其他文件（WIM、ESD、VHD、VHDX）或者文件夹的包含的映像添加至映像列表。" Link="Esta función permite que otros archivos (WIM, ESD, VHD, VHDX), así como imágenes contenidas en una carpeta, se añaden a la lista de imágenes."/>
 
-	  <String Target="挂载映像文件（WIM、VHD、VHDX）中的映像到指定目录" Link="Montar archivos de imagen (WIM, disco duro virtual, VHDX) a un directorio especificado"/>
-	  <String Target="释放映像文件（WIM、ESD）中的映像到指定目录" Link="Aplicar los archivos de imagen (WIM, VHD) en un directorio especificado"/>
-	  <String Target="谢谢，我只需要添加指定文件夹路径到映像列表" Link="Gracias, solo me falta añadir una ruta especificada a la lista de imágenes"/>
-	  <String Target="浏览" Link="Buscar"/>
-	  <String Target="目标映像：" Link="Destino:"/>
+    <String Target="挂载映像文件（WIM、VHD、VHDX）中的映像到指定目录" Link="Montar archivos de imagen (WIM, disco duro virtual, VHDX) a un directorio especificado"/>
+    <String Target="释放映像文件（WIM、ESD）中的映像到指定目录" Link="Aplicar los archivos de imagen (WIM, VHD) en un directorio especificado"/>
+    <String Target="谢谢，我只需要添加指定文件夹路径到映像列表" Link="Gracias, solo me falta añadir una ruta especificada a la lista de imágenes"/>
+    <String Target="浏览" Link="Buscar"/>
+    <String Target="目标映像：" Link="Destino:"/>
     <String Target="请选择其中一个映像" Link="Seleccione una imagen"/>
     <String Target="请在此输入映像文件路径，比如 D:\Backup.wim" Link="Introduzca la ruta del archivo de imagen. Por ejemplo, D:\Backup.wim"/>
     <String Target="添加引导" Link="Añadir Inicio"/>
@@ -288,31 +288,31 @@ Thanks: Jhovany200, Oleada, nomemolesteis@gmail.com for translation
     <String Target="释放映像" Link="Aplicar imagen"/>
     <String Target="挂载映像 " Link="Montar imagen"/>
 
-	  <!--另存为映像 -->
-	  <String Target="你可以在此处修改映像文件信息（支持双击修改）" Link="Puede editar información de la imagen aquí (doble clic para editar)"/>
-	  <String Target="在此处设置捕获映像的文件豁免列表加快捕获速度，每个条目用回车分割。" Link="Lista de exclusión para las imágenes que no necesita captura, separar cada imagen excluida con entrar."/>
-	  <String Target="如何配置豁免列表" Link="Cómo configurar la lista de exclusión"/>
+    <!--另存为映像 -->
+    <String Target="你可以在此处修改映像文件信息（支持双击修改）" Link="Puede editar información de la imagen aquí (doble clic para editar)"/>
+    <String Target="在此处设置捕获映像的文件豁免列表加快捕获速度，每个条目用回车分割。" Link="Lista de exclusión para las imágenes que no necesita captura, separar cada imagen excluida con entrar."/>
+    <String Target="如何配置豁免列表" Link="Cómo configurar la lista de exclusión"/>
     <String Target="另存为映像" Link="Guardar imagen como"/>
     <String Target="卷影复制" Link="VSS"/>
 
-	  <!-- 系统修复-->
-	  <String Target="映像十分健康不需要修复。" Link="La imagen está intacta. No se necesita reparación."/>
-	  <String Target="映像已经受损，但是可以修复。" Link="La imagen ha sido dañada, pero se puede reparar."/>
+    <!-- 系统修复-->
+    <String Target="映像十分健康不需要修复。" Link="La imagen está intacta. No se necesita reparación."/>
+    <String Target="映像已经受损，但是可以修复。" Link="La imagen ha sido dañada, pero se puede reparar."/>
     <String Target="映像已经受到致命问题，已经无法修复，请修复安装。" Link="La imagen tiene problemas, Dism++ de capacidad de reparación. Por favor reparar reinstalando."/>
     <String Target="系统修复向导" Link="Asistente recuperación del sistema"/>
     <String Target="恭喜映像已经修复成功！" Link="Reparado."/>
     <String Target="致命错误，会话无应答。" Link="Error, la sesión no está respondiendo."/>
 
-	  <!--本地源-->
-	  <String Target="本地源可以大幅度加速功能打开以及系统修复。" Link="Origen local puede acelerar para habilitar características y reparación del sistema."/>
-	  <String Target="什么是本地源" Link="¿Cuál es el origen Local?"/>
-	  <String Target="本地源" Link="Origen local"/>
+    <!--本地源-->
+    <String Target="本地源可以大幅度加速功能打开以及系统修复。" Link="Origen local puede acelerar para habilitar características y reparación del sistema."/>
+    <String Target="什么是本地源" Link="¿Cuál es el origen Local?"/>
+    <String Target="本地源" Link="Origen local"/>
 
-	  <!-- 格式转换-->
-	  <String Target="请在此输入源文件路径" Link="Introducir la ruta del archivo de origen aquí"/>
-	  <String Target="请在此输入目标文件路径" Link="Introducir la ruta del archivo de destino aquí"/>
+    <!-- 格式转换-->
+    <String Target="请在此输入源文件路径" Link="Introducir la ruta del archivo de origen aquí"/>
+    <String Target="请在此输入目标文件路径" Link="Introducir la ruta del archivo de destino aquí"/>
 
-	  <!--ESD解密-->
+    <!--ESD解密-->
     <String Target="温馨提示：此功能将直接解密目标文件，原版控请自行备份。" Link="Consejos: esta función desencripta el archivo de destino directamente. Por favor copia de seguridad de los archivos originales."/>
     <String Target="解密口令已自动匹配" Link="La contraseña de desencriptar ha sido igualada automáticamente"/>
     <String Target="请在输入框输入解密口令" Link="Por favor ingrese la contraseña de descencriptar en el cuadro de entrada"/>
@@ -324,13 +324,13 @@ Thanks: Jhovany200, Oleada, nomemolesteis@gmail.com for translation
     <String Target="温馨提示：Dism++将使用独有内存解密，无需担心源文件被修改。" Link="Sugerencia: Dism++ desencripta en su propia memoria para asegurarse de que el archivo de origen no será alterado."/>
 
     <!--映像编辑-->
-	  <String Target="温馨提示：双击可修改映像信息对应的值。" Link="Consejos: Puede modificar valores con doble clic"/>
-	  <String Target="可启动" Link="Iniciable"/>
-	  <String Target="编辑映像文件" Link="Editar archivo de imagen"/>
-	  <String Target="导出" Link="Exportar"/>
-	  <String Target="保存更改" Link="Guardar cambios"/>
-	  <String Target="导出映像" Link="Exportar imagen"/>
-	  <String Target="正在导出第%d个映像（共 %d ）" Link="Exportando %d de imágenes %d"/>
+    <String Target="温馨提示：双击可修改映像信息对应的值。" Link="Consejos: Puede modificar valores con doble clic"/>
+    <String Target="可启动" Link="Iniciable"/>
+    <String Target="编辑映像文件" Link="Editar archivo de imagen"/>
+    <String Target="导出" Link="Exportar"/>
+    <String Target="保存更改" Link="Guardar cambios"/>
+    <String Target="导出映像" Link="Exportar imagen"/>
+    <String Target="正在导出第%d个映像（共 %d ）" Link="Exportando %d de imágenes %d"/>
     <String Target="正在添加映像，请耐心等待……" Link="Añadiendo una imagen, por favor espere..."/>
     <String Target="操作成功！" Link="Completado"/>
     <String Target="删除映像" Link="Eliminar imagen"/>
@@ -383,38 +383,40 @@ Thanks: Jhovany200, Oleada, nomemolesteis@gmail.com for translation
     <String Target="完整" Link="Completo"/>
 
     <!--Tab-->
-	  <String Target="Dism++正在执行其他任务，你可以稍后打开会话。" Link="Dism++ está ocupado, tomar una taza de té y volver más tarde."/>
-	  <String Target="为了优化性能，你需要手动打开会话。" Link="Para optimizar el rendimiento, necesita abrir la sesión manualmente."/>
-	  <String Target="打开会话" Link="Abrir sesión"/>
-	  <String Target="正在打开会话" Link="Abriendo sesión"/>
+    <String Target="Dism++正在执行其他任务，你可以稍后打开会话。" Link="Dism++ está ocupado, tomar una taza de té y volver más tarde."/>
+    <String Target="为了优化性能，你需要手动打开会话。" Link="Para optimizar el rendimiento, necesita abrir la sesión manualmente."/>
+    <String Target="打开会话" Link="Abrir sesión"/>
+    <String Target="正在打开会话" Link="Abriendo sesión"/>
 
     <String Target="常用工具" Link="Utilidades"/>
-	    <String Target="空间回收" Link="Limpiar disco"/>
+      <String Target="空间回收" Link="Limpiar disco"/>
       <String Target="启动项管理" Link="Inicio"/>
       <String Target="工具箱" Link="Herramientas"/>
       <String Target="Appx管理" Link="Appxs"/>
 
-	  <String Target="驱动管理" Link="Controladores"/>
-	  <String Target="Windows服务" Link="Servicios"/>
-	  <String Target="Windows功能" Link="Características"/>
-	  <String Target="更新管理" Link="Actualizaciones"/>
+    <String Target="驱动管理" Link="Controladores"/>
+    <String Target="Windows服务" Link="Servicios"/>
+    <String Target="Windows功能" Link="Características"/>
+    <String Target="更新管理" Link="Actualizaciones"/>
       <String Target="已安装的更新" Link="Historial actualización"/>
-	  <String Target="可选功能" Link="Características opcionales"/>
+    <String Target="可选功能" Link="Características opcionales"/>
     <String Target="部署功能" Link="Características"/>
 
     <!--空间回收-->
-	  <String Target="推荐操作" Link="Recomendado"/>
-	  <String Target="需要扫描" Link="Listo para analizar"/>
-	  <String Target="正在扫描%s" Link="Analizando %s"/>
-	  <String Target="出错" Link="Error"/>
-	  <String Target="正在清理%s" Link="Limpiando %s "/>
-	  <String Target="本次共释放了%s 的空间。" Link="%s liberado."/>
+    <String Target="推荐操作" Link="Recomendado"/>
+    <String Target="需要扫描" Link="Listo para analizar"/>
+    <String Target="正在扫描%s" Link="Analizando %s"/>
+    <String Target="出错" Link="Error"/>
+    <String Target="正在清理%s" Link="Limpiando %s "/>
+    <String Target="本次共释放了%s 的空间。" Link="%s liberado."/>
 
     <String Target="该规则来自CCleaner解析引擎，因此不能提供说明。" Link="La regla es de las reglas de CCleaner, así que los datos no están disponibles."/>
     <String Target="默认" Link="Predeter."/>
     <String Target="关于 %s 的详细处理信息" Link="Toda la información sobre el %s"/>
     <String Target="以下文件即将被处理，你可以点击 清理 处理他们" Link="Se van a procesar los siguientes archivos, puede hacer clic en 'Limpiar' para procesarlos"/>
-    <String Target="关于 %s 的警告：&#x0D;&#x0A;&#x0D;&#x0A;%s&#x0D;&#x0A;&#x0D;&#x0A;您确定要清理么？" Link="Advertencia %s:&#x0D;&#x0A;&#x0D;&#x0A;%s&#x0D;&#x0A;&#x0D;&#x0A;¿Seguro que quiere limpiarlos?"/>
+    <String
+      Target="关于 %s 的警告：&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;您确定要清理么？"
+      Link="Advertencia %s:&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;¿Seguro que quiere limpiarlos?"/>
     <String Target="全不选" Link="Nada"/>
     <String Target="已经清理" Link="Limpiado"/>
     <String Target="清理失败" Link="Error"/>
@@ -441,35 +443,36 @@ Thanks: Jhovany200, Oleada, nomemolesteis@gmail.com for translation
     <String Target="注册表还原" Link="Restaurar"/>
     <String Target="清理时间" Link="Tiempo de limpieza"/>
     <String Target="网络位置" Link="Ubicación de red"/>
+    <String Target="正在扫描第%d个可清理的注册表项。。。" Link="Scanning num. %d register item to be cleaned..."/>
 
     <!--驱动管理-->
     <String Target="温馨提示：删除关键驱动可能导致计算机无法启动" Link="Consejo: El borrar controladores pueden causar errores al iniciar su equipo"/>
     <String Target="关键驱动：%s" Link="Controlador importante: %s"/>
-	  <String Target="类别标识：%s" Link="Clase: %s"/>
-	  <String Target="驱动版本：%hu.%hu.%hu.%hu" Link="Versión: %hu.%hu.%hu.%hu"/>
-	  <String Target="发布日期：%s" Link="Fecha lanzamiento: %s"/>
-	  <String Target="文件路径：%s" Link="Ruta: %s"/>
-	  <String Target="驱动大小：%s" Link="Tamaño: %s"/>
+    <String Target="类别标识：%s" Link="Clase: %s"/>
+    <String Target="驱动版本：%hu.%hu.%hu.%hu" Link="Versión: %hu.%hu.%hu.%hu"/>
+    <String Target="发布日期：%s" Link="Fecha lanzamiento: %s"/>
+    <String Target="文件路径：%s" Link="Ruta: %s"/>
+    <String Target="驱动大小：%s" Link="Tamaño: %s"/>
     <String Target="OEM名称：%s" Link="Nombre OEM: %s"/>
 
-	  <String Target="导出驱动" Link="Exportar"/>
-	  <String Target="删除驱动" Link="Borrar"/>
-	  <String Target="添加驱动" Link="Añadir"/>
+    <String Target="导出驱动" Link="Exportar"/>
+    <String Target="删除驱动" Link="Borrar"/>
+    <String Target="添加驱动" Link="Añadir"/>
 
-	  <String Target="是" Link="SI"/>
-	  <String Target="否" Link="NO"/>
+    <String Target="是" Link="SI"/>
+    <String Target="否" Link="NO"/>
 
-	  <String Target="正在加载驱动" Link="Cargando controlador"/>
-	  <String Target="请选择驱动保存路径" Link="Seleccionar la ruta para guardar los controladores."/>
-	  <String Target="正在导出驱动" Link="Exportando controlador"/>
+    <String Target="正在加载驱动" Link="Cargando controlador"/>
+    <String Target="请选择驱动保存路径" Link="Seleccionar la ruta para guardar los controladores."/>
+    <String Target="正在导出驱动" Link="Exportando controlador"/>
     <String Target="导出驱动时遇到问题，具体参考Dism++.log" Link="Problemas al exportar controladores. Por favor refiérase a Dism++ log para más detalles."/>
 
-	  <String Target="正在删除驱动" Link="Borrando controlador"/>
-	  <String Target="一个或者多个驱动删除失败，错误代码：0x%.8X" Link="Uno o varios controladores no han podido eliminar, código de error: 0x%.8X"/>
+    <String Target="正在删除驱动" Link="Borrando controlador"/>
+    <String Target="一个或者多个驱动删除失败，错误代码：0x%.8X" Link="Uno o varios controladores no han podido eliminar, código de error: 0x%.8X"/>
 
-	  <String Target="请选择驱动所在文件夹" Link="Seleccionar la carpeta del controlador"/>
-	  <String Target="正在安装驱动" Link="Instalando controlador"/>
-	  <String Target="一个或者多个驱动添加失败，错误代码：0x%.8X" Link="Uno o varios controladores no se han podido añadir, código de error: 0x%.8X"/>
+    <String Target="请选择驱动所在文件夹" Link="Seleccionar la carpeta del controlador"/>
+    <String Target="正在安装驱动" Link="Instalando controlador"/>
+    <String Target="一个或者多个驱动添加失败，错误代码：0x%.8X" Link="Uno o varios controladores no se han podido añadir, código de error: 0x%.8X"/>
     <String Target="显示内置驱动" Link="Mostrar controladores"/>
 
     <!--开机启动项-->
@@ -490,23 +493,23 @@ Thanks: Jhovany200, Oleada, nomemolesteis@gmail.com for translation
 
     <!--服务-->
     <String Target="服务项" Link="Servicios"/>
-	  <String Target="禁用" Link="No activo"/>
-	  <String Target="手动" Link="Manual"/>
-	  <String Target="自动" Link="Auto"/>
-	  <String Target="自动（延迟）" Link="Auto(Retraso)"/>
+    <String Target="禁用" Link="No activo"/>
+    <String Target="手动" Link="Manual"/>
+    <String Target="自动" Link="Auto"/>
+    <String Target="自动（延迟）" Link="Auto(Retraso)"/>
 
-	  <String Target="描述" Link="Descripción"/>
-	  <String Target="启动类型" Link="Tipo de inicio"/>
+    <String Target="描述" Link="Descripción"/>
+    <String Target="启动类型" Link="Tipo de inicio"/>
 
-	  <String Target="正在加载服务" Link="Cargando servicios"/>
+    <String Target="正在加载服务" Link="Cargando servicios"/>
     <String Target="应用服务" Link="Aplicación"/>
     <String Target="系统服务" Link="Sistema"/>
     <String Target="驱动程序" Link="Controladores"/>
 
-	  <!--功能-->
-	  <String Target="指定本地源" Link="Especificar fuente local"/>
-	  <String Target="应用" Link="Aplicar"/>
-	  <String Target="正在加载Windows功能" Link="Cargando característica de Windows"/>
+    <!--功能-->
+    <String Target="指定本地源" Link="Especificar fuente local"/>
+    <String Target="应用" Link="Aplicar"/>
+    <String Target="正在加载Windows功能" Link="Cargando característica de Windows"/>
     <String Target="关闭功能" Link="Desactivado"/>
     <String Target="部分启用" Link="Parcial"/>
     <String Target="全部启用" Link="Activado"/>
@@ -515,40 +518,46 @@ Thanks: Jhovany200, Oleada, nomemolesteis@gmail.com for translation
     <String Target="本地源：" Link="Fuente local:"/>
     <String Target="请在此输入本地源" Link="Introduzca aquí la fuente local."/>
 
-	  <!--添加删除更新-->
-	  <String Target="未知" Link="Desconocido"/>
-	  <String Target="不适用" Link="No aplicable"/>
-	  <String Target="卸载挂起" Link="Desinstalación pendiente"/>
-	  <String Target="已暂存" Link="Por etapas"/>
-	  <String Target="正在暂存" Link="En escena"/>
-	  <String Target="已安装" Link="Instalado"/>
-	  <String Target="安装挂起" Link="Instalación pendiente"/>
-	  <String Target="被取代" Link="Sustituido"/>
-	  <String Target="部分安装" Link="Instalación parcial"/>
-	  <String Target="已删除" Link="Eliminado"/>
-	  <String Target="已固化" Link="Permanente"/>
+    <!--应用程序-->
+    <String Target="更改" Link="Modify"/>
+    <String Target="通用安装脚本" Link="Universal installation scripts"/>
+    <String Target="%s 已经安装，你确定要继续吗？" Link="%s is installed already. Sure to proceed?"/>
 
-	  <String Target="更新描述" Link="Descripción"/>
-	  <String Target="产品名称" Link="Nombre del producto"/>
-	  <String Target="产品版本" Link="Versión del producto"/>
-	  <String Target="发行类型" Link="Tipo de versión"/>
+    <!--添加删除更新-->
+    <String Target="未知" Link="Desconocido"/>
+    <String Target="不适用" Link="No aplicable"/>
+    <String Target="卸载挂起" Link="Desinstalación pendiente"/>
+    <String Target="已暂存" Link="Por etapas"/>
+    <String Target="正在暂存" Link="En escena"/>
+    <String Target="已安装" Link="Instalado"/>
+    <String Target="安装挂起" Link="Instalación pendiente"/>
+    <String Target="被取代" Link="Sustituido"/>
+    <String Target="部分安装" Link="Instalación parcial"/>
+    <String Target="已删除" Link="Eliminado"/>
+    <String Target="已固化" Link="Permanente"/>
+
+    <String Target="更新描述" Link="Descripción"/>
+    <String Target="产品名称" Link="Nombre del producto"/>
+    <String Target="产品版本" Link="Versión del producto"/>
+    <String Target="发行类型" Link="Tipo de versión"/>
     <String Target="安装日期" Link="Tiempo instalado"/>
-	  <String Target="状态" Link="Estado"/>
-	  <String Target="正在获取更新信息" Link="Obteniendo información de actualizaciones"/>
-	  <String Target="正在删除更新" Link="Eliminando actualizaciones"/>
-	  <String Target="正在删除第 %d 个更新（共 %d ）" Link="Eliminando %d de %d actualizaciones"/>
-	  <String Target="补丁包" Link="Actualizar paquete"/>
-	  <String Target="正在安装更新" Link="Instalando actualización"/>
-	  <String Target="正在安装第 %d 个更新（共 %d ）" Link="Instalado %d de %d actualizaciones"/>
-	  <String Target="刷新" Link="Actualizar"/>
-	  <String Target="添加" Link="Añadir"/>
+    <String Target="状态" Link="Estado"/>
+    <String Target="正在获取更新信息" Link="Obteniendo información de actualizaciones"/>
+    <String Target="正在删除更新" Link="Eliminando actualizaciones"/>
+    <String Target="正在删除第 %d 个更新（共 %d ）" Link="Eliminando %d de %d actualizaciones"/>
+    <String Target="补丁包" Link="Actualizar paquete"/>
+    <String Target="正在安装更新" Link="Instalando actualización"/>
+    <String Target="正在安装第 %d 个更新（共 %d ）" Link="Instalado %d de %d actualizaciones"/>
+    <String Target="刷新" Link="Actualizar"/>
+    <String Target="添加" Link="Añadir"/>
     <String Target="语言" Link="Idioma"/>
     <String Target="Windows %s 语言包" Link="Paquete idioma %s Windows"/>
+    <String Target="重启生效" Link="Request Restart"/>
 
-	  <!--可选功能-->
+    <!--可选功能-->
     <String Target="正在删除可选功能" Link="Eliminando capacidades"/>
-	  <String Target="正在删除第 %d 个可选功能（共 %d ）" Link="Eliminando %d de %d capacidades"/>
-	  <String Target="正在加载可选功能" Link="Cargando capacidades"/>
+    <String Target="正在删除第 %d 个可选功能（共 %d ）" Link="Eliminando %d de %d capacidades"/>
+    <String Target="正在加载可选功能" Link="Cargando capacidades"/>
     <String Target="显示所有功能" Link="Mostrar todo"/>
     <String Target="卸载" Link="Desinstalar"/>
     <String Target="正在卸载" Link="Desinstalando"/>
@@ -591,11 +600,14 @@ Thanks: Jhovany200, Oleada, nomemolesteis@gmail.com for translation
     <String Target="分析%d%%" Link="Analizando %d%%"/>
     <String Target="%s 将引入独占请求，请在 %d 秒内做出选择。" Link="%s requiere un acceso exclusivo, confirme dentro de %d segundos."/>
     <String Target="温馨提示：引入独占请求后，你将无法安装其他更新，直到你重启系统。建议你先安装其他更新，最后安装此更新。" Link="Sugerencia: Con acceso exclusivo, no podrá instalar otras actualizaciones, hasta que se reinicie el sistema. Le sugerimos instalar otras actualizaciones en primer lugar y, a continuación, instalar esta instalación."/>
-    <String Target="暂不安装（推荐）&#x0A;我暂时还需要添加其他更新。" Link="No instalar (recomendado)&#x0A;necesario instalar otras actualizaciones."/>
-    <String Target="继续安装&#x0A;我已确保我需要的更新均已安装。" Link="Ir a la instalación&#x0A;he instalado otras actualizaciones."/>
-    <String Target="关于 %s 的警告：&#x0D;&#x0A;&#x0D;&#x0A;%s&#x0D;&#x0A;&#x0D;&#x0A;你确定要继续吗？" Link="Advertencia %s:&#x0D;&#x0A;&#x0D;&#x0A;%s&#x0D;&#x0A;&#x0D;&#x0A;¿Continuar?"/>
+    <String Target="暂不安装（推荐）&#xA;我暂时还需要添加其他更新。" Link="No instalar (recomendado)&#xA;necesario instalar otras actualizaciones."/>
+    <String Target="继续安装&#xA;我已确保我需要的更新均已安装。" Link="Ir a la instalación&#xA;he instalado otras actualizaciones."/>
+    <String
+      Target="关于 %s 的警告：&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;你确定要继续吗？"
+      Link="Advertencia %s:&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;¿Continuar?"/>
     <String Target="导出地址" Link="Copiar URL"/>
     <String Target="补丁下载地址已经成功复制到剪切板。" Link="Dirección de descarga del parche copiado correctamente en el portapapeles."/>
+    <String Target="安装%d%%" Link="Installing %d%%"/>
 
     <!--区域和语言-->
     <String Target="区域和语言" Link="Región&amp;Idioma"/>
@@ -643,7 +655,9 @@ Thanks: Jhovany200, Oleada, nomemolesteis@gmail.com for translation
     <String Target="备份" Link="Copia"/>
     <String Target="还原" Link="Restaurar"/>
     <String Target="sppsvc关闭失败，有可能导致还原失败，是否继续？" Link="No se pudo finalizar sppsvc, no se puede realizar el proceso de restauración. ¿Continuar?"/>
-    <String Target="当前系统为 %hd.%hd %s，而激活备份信息为  %hd.%hd %s&#x0D;&#x0A;&#x0D;&#x0A;信息不匹配，你确定要继续么？" Link="El sistema actual es %hd.%hd %s que no coincide con la activación de la copia de seguridad %hd.%hd %s&#x0D;&#x0A;&#x0D;&#x0A;¿Continuar?"/>
+    <String
+      Target="当前系统为 %hd.%hd %s，而激活备份信息为  %hd.%hd %s&#xD;&#xA;&#xD;&#xA;信息不匹配，你确定要继续么？"
+      Link="El sistema actual es %hd.%hd %s que no coincide con la activación de la copia de seguridad %hd.%hd %s&#xD;&#xA;&#xD;&#xA;¿Continuar?"/>
     <String Target="请重新选择你的系统，你当前要还原的系统与本系统不匹配，请重新选择你的系统！" Link="Ese sistema(restaurar este sistema)no coincide con este sistema. Por favor, vuelva a seleccionar su sistema!"/>
     <String Target="备份的信息与你所还原的信息版本不同，是否要继续还原？" Link="La copia de seguridad de la información difiere de la información que va a restaurar. ¿Continuar?"/>
     <String Target="Sorry暂不支持此系统，请反馈给我。" Link="Lo sentimos, este sistema aún no está soportado, por favor póngase en contacto con nosotros (www.chuyu.me)."/>
@@ -666,22 +680,15 @@ Thanks: Jhovany200, Oleada, nomemolesteis@gmail.com for translation
     <String Target="请在此输入命令或者程序路径，比如regedit" Link="Introduzca el comando, como regedit"/>
     <String Target="说明" Link="Consejos"/>
     <String Target="本工具可以让其他程序以无视权限形式运行，本功能可以通过命令行参数调用，详情请参考帮助文档了解具体用法。" Link="Esta herramienta puede ejecutar algunos programas sin derechos. Puede invocar esta función con la línea de comandos. Consulte el documento."/>
-    <String Target="/GodMode {Commendline}
- 春哥附体执行Cmd命令，其命令格式与Cmd用法一致
-
-示例:
- Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode cmd
- Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode regedit.exe
- Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode &quot;\&quot;C:\Windows\notepad.exe\&quot; \&quot;C:\123.txt\&quot;&quot;"
-            Link="/GodMode {Commandline}
- Modo Dios usa cmd. El uso es el mismo como el uso de cmd.
-
-Ejemplos:
- Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode cmd
- Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode regedit.exe
- Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode &quot;\&quot;C:\Windows\notepad.exe\&quot; \&quot;C:\123.txt\&quot;&quot;"/>
-    <String Target="即将以无视权限方式执行此命令：&#x0D;&#x0A;%s&#x0D;&#x0A;&#x0D;&#x0A;为了避免让恶意软件利用，Dism++需要你的允许才能继续，你确定要继续吗？" Link="Dism++ ejecutará los comandos &#x0D;&#x0A;%s&#x0D;&#x0A;&#x0D;&#x0A;A la vez que se omite la comprobación de derechos. Los malwares pueden utilizar esto para dañar tu sistema, por lo que su confirmación es necesaria. ¿Continuar?"/>
-    <String Target="可以使用以下命令来操作此映像：&#x0D;&#x0A;&#x0D;&#x0A;/GodMode	- 使用春哥附体启动应用程序" Link="Puede utilizar estos comandos para manipular la imagen:&#x0D;&#x0A;&#x0D;&#x0A;/GodMode	- ejecutar programa en GodMode"/>
+    <String
+      Target="/GodMode {Commendline}&#xD;&#xA; 春哥附体执行Cmd命令，其命令格式与Cmd用法一致&#xD;&#xA;&#xD;&#xA;示例:&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode cmd&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode regedit.exe&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode &quot;\&quot;C:\Windows\notepad.exe\&quot; \&quot;C:\123.txt\&quot;&quot;"
+      Link="/GodMode {Commandline}&#xD;&#xA; Modo Dios usa cmd. El uso es el mismo como el uso de cmd.&#xD;&#xA;&#xD;&#xA;Ejemplos:&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode cmd&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode regedit.exe&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode &quot;\&quot;C:\Windows\notepad.exe\&quot; \&quot;C:\123.txt\&quot;&quot;"/>
+    <String
+      Target="即将以无视权限方式执行此命令：&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;为了避免让恶意软件利用，Dism++需要你的允许才能继续，你确定要继续吗？"
+      Link="Dism++ ejecutará los comandos &#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;A la vez que se omite la comprobación de derechos. Los malwares pueden utilizar esto para dañar tu sistema, por lo que su confirmación es necesaria. ¿Continuar?"/>
+    <String
+      Target="可以使用以下命令来操作此映像：&#xD;&#xA;&#xD;&#xA;/GodMode&#9;- 使用春哥附体启动应用程序"
+      Link="Puede utilizar estos comandos para manipular la imagen:&#xD;&#xA;&#xD;&#xA;/GodMode&#9;- ejecutar programa en GodMode"/>
 
     <String Target="ESD转ISO" Link="ESD a ISO"/>
     <String Target="允许将WIM、SWM以及ESD之间格式自由转换。" Link="Permitir la libre conversión entre archivos WIM, SWM y ESD."/>
@@ -763,7 +770,7 @@ Ejemplos:
 
     <String Target="使任务栏更透明（by 518516.net）" Link="Hacer más transparente la barra de tareas (518516.net)"/>
 
-    <String Target="不允许在开始菜单显示建议" qLink=""/>
+    <String Target="不允许在开始菜单显示建议" Link="Mostrar consejos en el menú de inicio"/>
 
     <String Target="在桌面显示我的电脑（by Rambin）" Link="Mostrar Mi PC en el escritorio (Rambin)"/>
       <String Target="跟随系统" Link="Sistema"/>
@@ -811,6 +818,11 @@ Ejemplos:
     <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Desactivar previo de audio para mejorar respuesta de Windows Explorer (MoWangMoShi)"/>
     <String Target="关闭打开程序的“安全警告”（by 莫失莫忘）" Link="Desactivar la advertencia de seguridad al abrir programas (MoWangMoShi) "/>
     <String Target="关闭在应用商店中查找关联应用（by Asoft）" Link="Desactivar la búsqueda de aplicaciones asociadas en Windows Store (Asoft)"/>
+    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="Hide Videos, Pictures, Documents, Download, Music, Desktop, 3D Object in Computer (by 、Cloud)"/>
+    <String Target="禁止自动安装推荐的应用程序（by IT之家）" Link="Disable installing recommmeded apps autoly (by ITHome)"/>
+    <String Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="Disable Windows Focus on lock screen (by 、Cloud.)"/>
+    <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="Disable “Get suggestions when using Windows” (by 、Cloud.)"/>
+    <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Hide People on Task Bar (by 、Cloud)"/>
 
     <!--右键菜单管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="Administrar menú contextual: Desactiva elementos del menú no necesarios para mejorar la respuesta de Windows Explorer"/>
@@ -829,6 +841,8 @@ Ejemplos:
     <String Target="禁用磁盘的“复制磁盘”右键菜单" Link="Desactivar 'Copiar Disco' del menú de los discos."/>
     <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="Desactivar 'Compartir' del menú de los archivos, carpetas, discos y bibliotecas de escritorio"/>
     <String Target="禁用桌面的“小工具”右键菜单" Link="Desactivar 'widget' del menú"/>
+    <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Disable file context menu item “View 3D” (by Cloud)"/>
+    <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Disable file context menu item “Paint 3D” (by Cloud)"/>
 
     <!--桌面图示管理-->
     <String Target="桌面图标管理" Link="Administrar iconos escritorio"/>
@@ -861,7 +875,13 @@ Ejemplos:
 
     <String Target="针对增强保护模式启用64位进程" Link="Habilitar procesos de 64 bits para mejorar el modo protegido"/>
 
-    <!--微软拼音输入法--><String Target="微软拼音输入法" Link="Microsoft Pinyin IME"/>
+    <String Target="隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）" Link="Hide feedback smile face top-right in Internet Explorer (by ITHome)"/>
+
+    <!--Microsoft Edge-->
+    <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Prevent Microsoft Edge from opening “First Running” (by ITHome)"/>
+
+    <!--微软拼音输入法-->
+    <String Target="微软拼音输入法" Link="Microsoft Pinyin IME"/>
     <String Target="微软拼音默认为英语输入（by Rambin）" Link="Modo predeterminado en inglés IME(Rambin)"/>
 
     <String Target="关闭微软拼音云计算（by Rambin）" Link="Desactivar el método de entrada en Cloud (Rambin)"/>
@@ -885,12 +905,14 @@ Ejemplos:
 
     <String Target="禁止自动更新到Internet Explorer 11（by Rambin）" Link="Desactivar la actualización automática de Internet Explorer 11 (Rambin)"/>
 
-    <!--记事本--><String Target="记事本" Link="Notepad"/>
+    <!--记事本-->
+    <String Target="记事本" Link="Notepad"/>
     <String Target="启用自动换行（by 一叶微风TM）" Link="Activar ajuste de línea (YiYieWeiFeng TM)"/>
 
     <String Target="始终显示状态栏（by 一叶微风TM）" Link="Mostrar barra de estado (YiYieWeiFeng TM)"/>
 
-    <!--网络设置--><String Target="网络设置" Link="Red"/>
+    <!--网络设置-->
+    <String Target="网络设置" Link="Red"/>
     <String Target="*关闭默认共享（by 518516.net）" Link="* Desactivar el uso compartido predeterminado (518516.net)"/>
 
     <String Target="*关闭防火墙（by 一叶微风TM）" Link="* Desactivar Firewall de Windows (YiYieWeiFeng TM)"/>
@@ -898,7 +920,8 @@ Ejemplos:
 
     <String Target="*关闭远程协助（by 原罪）" Link="* No permitir conexiones de Asistencia remota (YZ)"/>
 
-    <!--服务优化--><String Target="服务优化" Link="Servicios"/>
+    <!--服务优化-->
+    <String Target="服务优化" Link="Servicios"/>
     <String Target="禁用程序兼容性助手（by 一叶微风TM）" Link="Desactivar el servicio de Asistente de compatibilidad de programas (YiYieWeiFeng TM)"/>
 
     <String Target="禁用远程修改注册表（by 一叶微风TM）" Link="Desactivar el servicio de registro remoto (YiYieWeiFeng TM)"/>
@@ -996,10 +1019,13 @@ Ejemplos:
     <!--系统优化已经结束-->
 
     <!--Dism++更新程序-->
-    <String Target="发现新版本，需要更新 %d 个文件，约%s。&#x0D;&#x0A;&#x0D;&#x0A;更新日志：&#x0D;&#x0A;&#x0D;&#x0A;%s&#x0D;&#x0A;&#x0D;&#x0A;确定要升级吗？"
-            Link="Hay una versión nueva. Se actualizarán %d archivos (%s).&#x0D;&#x0A;&#x0D;&#x0A;Changelog:&#x0D;&#x0A;&#x0D;&#x0A;%s&#x0D;&#x0A;&#x0D;&#x0A;¿Actualizar?"/>
+    <String
+      Target="发现新版本，需要更新 %d 个文件，约%s。&#xD;&#xA;&#xD;&#xA;更新日志：&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;确定要升级吗？"
+      Link="Hay una versión nueva. Se actualizarán %d archivos (%s).&#xD;&#xA;&#xD;&#xA;Changelog:&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;¿Actualizar?"/>
     <String Target="Dism++更新程序" Link="Actualizar Dism++"/>
-    <String Target="准备启动下载模块……&#x0D;&#x0A;" Link="Preparando para descargar módulos......"/>
+    <String
+      Target="准备启动下载模块……&#xD;&#xA;"
+      Link="Preparando para descargar módulos......"/>
     <String Target="正在下载 - %d/%d" Link="Descargando %d/%d"/>
     <String Target="更新文件过程中遇到错误，Orz……" Link="Se ha producido un error al actualizar, Orz......"/>
 
@@ -1015,67 +1041,30 @@ Ejemplos:
     <String Target="至少输入一个路径" Link="Introduzca al menos una ruta"/>
     <String Target="%s 路径无效" Link="Ruta %s no válida"/>
     <String Target="未正确识别到命令，以下是程序支持的所有命令：" Link="Comando no encontrado, comprueba la entrada. Lista de todos los comandos compatibles:"/>
-    <String Target="将一个文件夹或者文件进行Compact压缩：&#x0D;&#x0A;/C  { /exe [ xpress4k（默认、更佳性能） | xpress8k | xpress16k | lzx（更小体积） ] } Path"
-              Link="Comprimir una carpeta o archivo(s):&#x0D;&#x0A;/C  { /exe [ xpress4k(default, Faster) | xpress8k | xpress16k | lzx(Smaller) ] } Path"/>
-    <String Target="将一个文件夹或者文件进行Compact解压缩&#x0D;&#x0A;/U Path"
-              Link="Descomprimir la carpeta compactada o archivo(s)&#x0D;&#x0A;/U Path"/>
-    <String Target="/Image:&lt;path_to_image&gt;	- 指定特定 Windows 映像的根目录的路径。
-
-示例：
- Dism++x86.exe /Image:C:\ /?
- Dism++x86.exe /Image:&quot;D:\1213\&quot; /?"
-            Link="/Image:&lt;path_to_image&gt;	- La ruta al directorio raíz de la imagen.
-
-Ejemplos:
- Dism++x86.exe /Image:C:\ /?
- Dism++x86.exe /Image:&quot;D:\1213\&quot; /?"/>
-    <String Target="映像管理命令：
- /All	- 打开全局会话
- /Image	- 指定特定 Windows 映像的根目录的路径。
-
-
-Compact支持命令：
- /C	- 使用Compact压缩文件/文件夹
- /U	- 撤销Compact压缩的文件/文件夹
-
-若要获得有关这些 Dism++ 选项及其参数的详细信息，请在紧挨着 /? 之前指定一个选项。
-示例：
- Dism++x86.exe /Image /?
- Dism++x86.exe /C /?"
-            Link="Comando de administración de imágenes:
- /All	- Abrir la sesión global
- /Image	- Designar el directorio raíz de la imagen de Windows
-
-
-Comandos compactar admitidos
- /C	- Utilice los archivos/carpetas comprimidas(comprimido con compact)
- /U	-Revocar los archivos/carpetas comprimidas(comprimido con compact)
-
-Para obtener más información acerca de estas opciones de Dism++ y sus argumentos, especifique una\nopción inmediatamente antes /?.
-Ejemplos:
- Dism++x86.exe /Image /?
- Dism++x86.exe /C /?"/>
-    <String Target="/Plugin:&lt;Plugin_ID&gt;	- 此功能用于打开某插件支持的命令
-
-示例：
- Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"
-            Link="/Plugin:&lt;Plugin_ID&gt;	- Para ejecutar los comandos compatibles con el plug-in.
-
-Ejemplos:
- Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"/>
-    <String Target="可以使用以下命令来操作此映像：
-
-插件命令：
- /Plugin	- 启动特定插件（需要插件支持命令参数）"
-            Link="Puede utilizar estos comandos para operar esta imagen:
-Comando:
- /Plugin	- Ejecutar el plug-in designado (Necesita soporte de plugin)"/>
+    <String
+      Target="将一个文件夹或者文件进行Compact压缩：&#xD;&#xA;/C  { /exe [ xpress4k（默认、更佳性能） | xpress8k | xpress16k | lzx（更小体积） ] } Path"
+      Link="Comprimir una carpeta o archivo(s):&#xD;&#xA;/C  { /exe [ xpress4k(default, Faster) | xpress8k | xpress16k | lzx(Smaller) ] } Path"/>
+    <String
+      Target="将一个文件夹或者文件进行Compact解压缩&#xD;&#xA;/U Path"
+      Link="Descomprimir la carpeta compactada o archivo(s)&#xD;&#xA;/U Path"/>
+    <String
+      Target="/Image:&lt;path_to_image&gt;&#9;- 指定特定 Windows 映像的根目录的路径。&#xD;&#xA;&#xD;&#xA;示例：&#xD;&#xA; Dism++x86.exe /Image:C:\ /?&#xD;&#xA; Dism++x86.exe /Image:&quot;D:\1213\&quot; /?"
+      Link="/Image:&lt;path_to_image&gt;&#9;- La ruta al directorio raíz de la imagen.&#xD;&#xA;&#xD;&#xA;Ejemplos:&#xD;&#xA; Dism++x86.exe /Image:C:\ /?&#xD;&#xA; Dism++x86.exe /Image:&quot;D:\1213\&quot; /?"/>
+    <String
+      Target="映像管理命令：&#xD;&#xA; /All&#9;- 打开全局会话&#xD;&#xA; /Image&#9;- 指定特定 Windows 映像的根目录的路径。&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Compact支持命令：&#xD;&#xA; /C&#9;- 使用Compact压缩文件/文件夹&#xD;&#xA; /U&#9;- 撤销Compact压缩的文件/文件夹&#xD;&#xA;&#xD;&#xA;若要获得有关这些 Dism++ 选项及其参数的详细信息，请在紧挨着 /? 之前指定一个选项。&#xD;&#xA;示例：&#xD;&#xA; Dism++x86.exe /Image /?&#xD;&#xA; Dism++x86.exe /C /?"
+      Link="Comando de administración de imágenes:&#xD;&#xA; /All&#9;- Abrir la sesión global&#xD;&#xA; /Image&#9;- Designar el directorio raíz de la imagen de Windows&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Comandos compactar admitidos&#xD;&#xA; /C&#9;- Utilice los archivos/carpetas comprimidas(comprimido con compact)&#xD;&#xA; /U&#9;-Revocar los archivos/carpetas comprimidas(comprimido con compact)&#xD;&#xA;&#xD;&#xA;Para obtener más información acerca de estas opciones de Dism++ y sus argumentos, especifique una\nopción inmediatamente antes /?.&#xD;&#xA;Ejemplos:&#xD;&#xA; Dism++x86.exe /Image /?&#xD;&#xA; Dism++x86.exe /C /?"/>
+    <String
+      Target="/Plugin:&lt;Plugin_ID&gt;&#9;- 此功能用于打开某插件支持的命令&#xD;&#xA;&#xD;&#xA;示例：&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"
+      Link="/Plugin:&lt;Plugin_ID&gt;&#9;- Para ejecutar los comandos compatibles con el plug-in.&#xD;&#xA;&#xD;&#xA;Ejemplos:&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"/>
+    <String
+      Target="可以使用以下命令来操作此映像：&#xD;&#xA;&#xD;&#xA;插件命令：&#xD;&#xA; /Plugin&#9;- 启动特定插件（需要插件支持命令参数）"
+      Link="Puede utilizar estos comandos para operar esta imagen:&#xD;&#xA;Comando:&#xD;&#xA; /Plugin&#9;- Ejecutar el plug-in designado (Necesita soporte de plugin)"/>
     <String Target="正在压缩" Link="Comprimir"/>
     <String Target="正在解压" Link="Descomprimiendo"/>
     <String Target="操作完成！" Link="Finalizado"/>
 
     <!--系统还原-->
-    <String Target="当前模式不支持引导修复以及格式化分区，你需要重启并进入RE进行恢复么？" Link="El modo actual no puede utilizar la reparación de arranque o formatear partición. ¿Desea reiniciar WinRE para su recuperación?"/>
+    <String Target="当前模式不支持引导修复以及格式化分区，你需要重启并进入RE进行恢复么？" Link="El modo actual no puede utilizar la reparación de arranque o formatear partición. ¿Reiniciar WinRE para su recuperación?"/>
     <String Target="正在格式化" Link="Formateado"/>
     <String Target="格式化分区 %s 失败，错误代码：%d。" Link="Error al formatear la partición %s, código de error: %d."/>
     <String Target="正在刷新" Link="Actualizando"/>
@@ -1347,7 +1336,7 @@ Comando:
     <String Target="新版Visual Studio安装源缓存" Link="Nuevo caché Origen de instalación de Visual Studio"/>
     <String Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="Limpiar Visual Studio 2017 y versiones posteriores de instalación."/>
     <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="Después de la limpieza, actualizar, corrección, agregar componentes y desinstalar necesitan estar conectados (Visual Studio 2017 y versiones posteriores)."/>
-    
+
     <String Target="损坏的Appx" Link="Appx dañada"/>
     <String Target="清理损坏的Appx。例如Visual Studio的通用应用XAML设计器暴力删除临时生成的设计器应用，于是会出现大量损坏的Appx。" Link="Limpiar el Appx dañado. Por ejemplo, el diseñador de XAML de la aplicación general de Visual Studio elimina de forma violenta las aplicaciones temporales con el resultado de muchas Appx dañadas.."/>
   </StringMaps>
@@ -1451,65 +1440,44 @@ Comando:
 
     Este acuerdo define los derechos y obligaciones entre Dism++ y los usuarios de 'Dism++' del servicio de software (en lo sucesivo denominado 'servicio', o 'este servicio") y Chuyu team. 'Usuarios' y 'usuarios Dism++" se refieren a las personas que se inscriban, incien sesión, o utilicen este servicio. Este acuerdo está sujeto a actualizaciones por el equipo Chuyu en cualquier momento. Actualizado acuerdo, una vez publicada en cualquier formato, sustituye al acuerdo original. Dism+ debería mostrar el acuerdo actualizado cuando el software se inicia correctamente. Los usuarios de Dism++ deben dejar de usar el software y los servicios del equipo Chuyu inmediatamente si se opta por no cumplir con el acuerdo actualizado.
 
+I. Derechos y Obligaciones
 
-Uno: Derechos y Obligaciones
+    1. Los usuarios de Dism ++ solo pueden usar Dism ++ para uso personal en su PC (s). Cualquier uso no personal (incluyendo pero no limitado a uso comercial o ocupacional) sin la aprobación por escrito del equipo de Chuyu no está permitido.
+    2. Los usuarios de Dism ++ deben leer este acuerdo y otro contenido en el documento de Dism ++ cuidadosamente antes de usar Dism ++.
+    3. Los usuarios de Dism ++ tienen la obligación de informar de errores y posibles mejoras al equipo de Chuyu. Cualquier persona que use Dism ++ durante más de 30 días debe enviar mingkuang un informe de uso Dism ++ con no menos de 345 palabras. Cualquier persona que use Dism ++ durante 8 meses o más debe enviar a mingkuang un informe anual (al menos 520 palabras) sobre el tema 'sugerencia y posible mejora en Dism ++' el 11 de noviembre (hora local). Correo electrónico de mingkuang: mingkuang@live.com.
+    4. Los usuarios de Dism ++ deben conservar el amor por la paz, por el trabajo en grupo y por ayudar a los demás.
+    5. Los usuarios de Dism ++ deben cumplir con la Ley Fundamental (o equivalentes locales). Cualquier acción que viole los derechos de autor del equipo de Chuyu o de este acuerdo (incluyendo, pero no limitado a copiar, propagar, mostrar, reflejar, cargar, descargar, modificar) de manera inapropiada, y aquellos que afectan negativamente el funcionamiento del equipo de Chuyu serán objeto de graves acciones legales .
+    6. Cualquier persona que no cumpla con este acuerdo pierde automáticamente cualquier derecho otorgado por el equipo de Chuyu. El equipo de Chuyu conserva el derecho de detener todo el software del equipo de Chuyu en su PC (s), rechazar cualquiera de sus propuestas y perseguir acciones legales contra ellos.
+    7. Chuyu hará todo lo posible para brindar soporte técnico a aquellos que cumplan con este acuerdo, cuando todos los siguientes factores lo permitan: la complejidad del tema, la disponibilidad del equipo Chuyu y el voto de los demás usuarios.
 
-1. Los usuarios de Dism ++ solo pueden usar Dism ++ para uso personal en su PC (s). Cualquier uso no personal (incluyendo pero no limitado a uso comercial o ocupacional) sin la aprobación por escrito del equipo de Chuyu no está permitido.
+II. Cuestiones de privacidad
 
-2. Los usuarios de Dism ++ deben leer este acuerdo y otro contenido en el documento de Dism ++ cuidadosamente antes de usar Dism ++.
+    1. Después de la iniciación, Dism ++ recopilará la información del sistema de los usuarios de Dism ++ (incluyendo pero no restringida a la versión del sistema, estructura del sistema, lenguaje del sistema, información de CPU, información de RAM) y el propio informe de Dism ++ (incluyendo, pero no restringido, Archivos) para mejorar el servicio. Dism ++ no recopilará la información de identificación del usuario ni la información de contacto del usuario.
+    2. El equipo de Chuyu puede enviar a los usuarios invitaciones para probar Dism ++, invitaciones para votar para ayudar al equipo de Chuyu a tomar decisiones y actualizaciones de software, pero el equipo de Chuyu nunca enviará mensajes que incluyan anuncios, promociones, fraudes o solicitud de pago.
 
-3. Los usuarios de Dism ++ tienen la obligación de informar de errores y posibles mejoras al equipo de Chuyu. Cualquier persona que use Dism ++ durante más de 30 días debe enviar mingkuang un informe de uso Dism ++ con no menos de 345 palabras. Cualquier persona que use Dism ++ durante 8 meses o más debe enviar a mingkuang un informe anual (al menos 520 palabras) sobre el tema 'sugerencia y posible mejora en Dism ++' el 11 de noviembre (hora local). Correo electrónico de mingkuang: mingkuang@live.com.
+III. Soportar los riesgos
 
-4. Los usuarios de Dism ++ deben conservar el amor por la paz, por el trabajo en grupo y por ayudar a los demás.
+    1. Chuyu tiene una actitud de tipo abierto por lo que todo el mundo puede mejorar Dism ++ . Algunas funciones pueden llevar a consecuencias desconocidas por lo que el equipo de Chuyu eliminará el posible riesgo y lo comentara a los usuarios. Pero no hemos resuelto todo el problema. Usted debe soportar todas las secuelas. Comentarle al equipo de Chuyu si encuentra problemas para evitar que otros los tengan.
+    2. Por favor, comprenda y acepte porque nuestros softwares necesitan desarrollarse. El equipo de Chuyu persiste en los derechos de cambiar o detener o terminar o revocar todo o algún servicio. Los usuarios necesitan soportar este peligro.
 
-5. Los usuarios de Dism ++ deben cumplir con la Ley Fundamental (o equivalentes locales). Cualquier acción que viole los derechos de autor del equipo de Chuyu o de este acuerdo (incluyendo, pero no limitado a copiar, propagar, mostrar, reflejar, cargar, descargar, modificar) de manera inapropiada, y aquellos que afectan negativamente el funcionamiento del equipo de Chuyu serán objeto de graves acciones legales .
+IV. Declaración de derechos de propiedad intelectual
 
-6. Cualquier persona que no cumpla con este acuerdo pierde automáticamente cualquier derecho otorgado por el equipo de Chuyu. El equipo de Chuyu conserva el derecho de detener todo el software del equipo de Chuyu en su PC (s), rechazar cualquiera de sus propuestas y perseguir acciones legales contra ellos.
+    1. El equipo de Chuyu tiene todos los derechos de propiedad intelectual de este contenido de servicio (incluyendo pero no limitado al programa, página web, texto, etc.)
+    2. Si no hay cláusulas importantes, el equipo de Chuyu tiene todos los derechos de propiedad intelectual.
+    3. Si el equipo de Chuyu no dio su consentimiento por escrito, los usuarios no pueden procesar los programas de Chuyu. No se puede decir de los demás si tienen los derechos de procesar los programas de Chuyu.
+    4. Arriba y otros derechos de propiedad intelectual del equipo Chuyu están protegidos por la ley. Si el equipo Chuyu no lo permite, no se puede desensamblar o hacer otros.
 
-7. Chuyu hará todo lo posible para brindar soporte técnico a aquellos que cumplan con este acuerdo, cuando todos los siguientes factores lo permitan: la complejidad del tema, la disponibilidad del equipo Chuyu y el voto de los demás usuarios.
+V. Responsabilidad Legal
 
+    1. Si el equipo de Chuyu ve que algunos usuarios han violado este acuerdo, el equipo de Chuyu tiene el derecho de prohibir a los usuarios usar los softwares sin informar.
+    2. Por favor, entiendan y acuerden. El equipo de Chuyu tiene los derechos de penalizar razonablemente el comportamiento de la violación con la ley.
+    3. Por favor, comprenda y acuerde. Si los usuarios incumplen este acuerdo, y surge una reclamación (incluyendo el dinero razonable para el abogado). Los usuarios deben compensar al equipo de Chuyu.
 
+VI. Otros
 
-Dos: Cuestiones de privacidad
-1. Después de la iniciación, Dism ++ recopilará la información del sistema de los usuarios de Dism ++ (incluyendo pero no restringida a la versión del sistema, estructura del sistema, lenguaje del sistema, información de CPU, información de RAM) y el propio informe de Dism ++ (incluyendo, pero no restringido, Archivos) para mejorar el servicio. Dism ++ no recopilará la información de identificación del usuario ni la información de contacto del usuario.
-
-2. El equipo de Chuyu puede enviar a los usuarios invitaciones para probar Dism ++, invitaciones para votar para ayudar al equipo de Chuyu a tomar decisiones y actualizaciones de software, pero el equipo de Chuyu nunca enviará mensajes que incluyan anuncios, promociones, fraudes o solicitud de pago.
-
-
-
-Tres: Soportar los riesgos
-1. Chuyu tiene una actitud de tipo abierto por lo que todo el mundo puede mejorar Dism ++ . Algunas funciones pueden llevar a consecuencias desconocidas por lo que el equipo de Chuyu eliminará el posible riesgo y lo comentara a los usuarios. Pero no hemos resuelto todo el problema. Usted debe soportar todas las secuelas. Comentarle al equipo de Chuyu si encuentra problemas para evitar que otros los tengan.
-
-2. Por favor, comprenda y acepte porque nuestros softwares necesitan desarrollarse. El equipo de Chuyu persiste en los derechos de cambiar o detener o terminar o revocar todo o algún servicio. Los usuarios necesitan soportar este peligro.
-
-
-
-Cuatro: Declaración de derechos de propiedad intelectual
-1. El equipo de Chuyu tiene todos los derechos de propiedad intelectual de este contenido de servicio (incluyendo pero no limitado al programa, página web, texto, etc.)
-
-2. Si no hay cláusulas importantes, el equipo de Chuyu tiene todos los derechos de propiedad intelectual.
-
-3. Si el equipo de Chuyu no dio su consentimiento por escrito, los usuarios no pueden procesar los programas de Chuyu. No se puede decir de los demás si tienen los derechos de procesar los programas de Chuyu.
-
-4. Arriba y otros derechos de propiedad intelectual del equipo Chuyu están protegidos por la ley. Si el equipo Chuyu no lo permite, no se puede desensamblar o hacer otros.
-
-
-
-Cinco: Responsabilidad Legal
-1. Si el equipo de Chuyu ve que algunos usuarios han violado este acuerdo, el equipo de Chuyu tiene el derecho de prohibir a los usuarios usar los softwares sin informar.
-
-2. Por favor, entiendan y acuerden. El equipo de Chuyu tiene los derechos de penalizar razonablemente el comportamiento de la violación con la ley.
-
-3. Por favor, comprenda y acuerde. Si los usuarios incumplen este acuerdo, y surge una reclamación (incluyendo el dinero razonable para el abogado). Los usuarios deben compensar al equipo de Chuyu.
-
-
-
-Seis: Otros
-1. Solemnemente decirle a los usuarios que miren las cláusulas de eximir la responsabilidad del equipo de Chuyu y los derechos de limitar a los usuarios. Los menores deben leer este acuerdo con los tutores legales.
-
-2. La validez del acuerdo y la explicación se aplican en derecho chino. Si los usuarios y el equipo de Chuyu tienen conflictos, negociar primero. Si no es posible, por favor acepta el Informe de competencia con Tribunal popular.
-
-3. Si las cláusulas del acuerdo no es válida o no ejecutable por cualquier motivo, las demás cláusulas son todavía válidas. Vinculante para ambas.
-
-4. El acuerdo de usuario escrito en chino simplificado debe ser referido a si la versión de chino simplificado difiere de los acuerdos de usuario escritos en otros idiomas.</UserAgreement>
+    1. Solemnemente decirle a los usuarios que miren las cláusulas de eximir la responsabilidad del equipo de Chuyu y los derechos de limitar a los usuarios. Los menores deben leer este acuerdo con los tutores legales.
+    2. La validez del acuerdo y la explicación se aplican en derecho chino. Si los usuarios y el equipo de Chuyu tienen conflictos, negociar primero. Si no es posible, por favor acepta el Informe de competencia con Tribunal popular.
+    3. Si las cláusulas del acuerdo no es válida o no ejecutable por cualquier motivo, las demás cláusulas son todavía válidas. Vinculante para ambas.
+    4. El acuerdo de usuario escrito en chino simplificado debe ser referido a si la versión de chino simplificado difiere de los acuerdos de usuario escritos en otros idiomas.
+</UserAgreement>
 </Data>
