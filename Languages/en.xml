@@ -606,7 +606,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
       Link="%s warning:&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;Sure to proceed?"/>
     <String Target="导出地址" Link="Copy URLs"/>
     <String Target="补丁下载地址已经成功复制到剪切板。" Link="Patch download address has been copied to clipboard successfully."/>
-    <String Target="安装%d%%" Link="Installing%d%%"/>
+    <String Target="安装%d%%" Link="Installing %d%%"/>
 
     <!--区域和语言-->
     <String Target="区域和语言" Link="Region&amp;Language"/>
