@@ -45,8 +45,9 @@ Special Thanks to 山形まり花、奎宁
       <String Target="重新载入" Link="リロード"/>
 		  <String Target="格式转换" Link="フォーマット変換"/>
 			  <String Target="ESD解密" Link="ESD 暗号化解除"/>
-	
-	  <String Target="恢复功能(&amp;R)" Link="復元(&amp;R)"/>		
+    <String Target="取消任务	Ctrl+Break" Link="任務をキャンセル&#0009;Ctrl+Break"/>
+
+    <String Target="恢复功能(&amp;R)" Link="復元(&amp;R)"/>		
 		  <String Target="系统修复" Link="システム スキャン"/>
       <String Target="健康扫描" Link="正常性検査"/>
         <String Target="验证受损" Link="破損チャック"/>
@@ -515,8 +516,13 @@ Special Thanks to 山形まり花、奎宁
     <String Target="正在应用" Link="適用中"/>
     <String Target="本地源：" Link="ローカル ソース："/>
     <String Target="请在此输入本地源" Link="ローカル ソースをこちら入力してください"/>
-    
-	  <!--添加删除更新-->
+
+    <!--应用程序-->
+    <String Target="更改" Link="変更"/>
+    <String Target="通用安装脚本" Link="汎用インストール スクリプト"/>
+    <String Target="%s 已经安装，你确定要继续吗？" Link="%s は既にインストールされた、続行しますか？"/>
+
+    <!--添加删除更新-->
 	  <String Target="未知" Link="不明"/>
 	  <String Target="不适用" Link="利用不可"/>
 	  <String Target="卸载挂起" Link="アンインストール保留中"/>
@@ -544,9 +550,10 @@ Special Thanks to 山形まり花、奎宁
 	  <String Target="刷新" Link="再読込"/>
 	  <String Target="添加" Link="追加"/>
     <String Target="语言" Link="言語"/>
-    <String Target="Windows %s 语言包" Link="Windows %s 言語パック"/> 
-  
-	  <!--可选功能-->
+    <String Target="Windows %s 语言包" Link="Windows %s 言語パック"/>
+    <String Target="重启生效" Link="再起動で有効"/>
+
+    <!--可选功能-->
     <String Target="正在删除可选功能" Link="機能を削除中"/>
 	  <String Target="正在删除第 %d 个可选功能（共 %d ）" Link="機能を削除中（%d / %d）"/>
 	  <String Target="正在加载可选功能" Link="機能を読み込み中"/>
@@ -597,6 +604,7 @@ Special Thanks to 山形まり花、奎宁
     <String Target="关于 %s 的警告：&#x000D;&#x000A;&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;你确定要继续吗？" Link="%s 関するの警告：&#x000D;&#x000A;&#x000D;&#x000A;%s&#x000D;&#x000A;&#x000D;&#x000A;よろしいでしょうか？"/>
     <String Target="导出地址" Link="アドレス出力"/>
     <String Target="补丁下载地址已经成功复制到剪切板。" Link="更新プログラムのダウンロード アドレスはクリップボードにコピーされました。"/>
+    <String Target="安装%d%%" Link="インストール %d%%"/>
 
     <!--区域和语言-->
     <String Target="区域和语言" Link="言語と地域"/>
@@ -764,7 +772,7 @@ Special Thanks to 山形まり花、奎宁
 
     <String Target="使任务栏更透明（by 518516.net）" Link="タスク バーをもっと透明による (by 518516.net)"/>
 
-    <String Target="不允许在开始菜单显示建议" qLink=""/>
+    <String Target="不允许在开始菜单显示建议" Link="スタート画面におすすめを表示しない"/>
 
     <String Target="在桌面显示我的电脑（by Rambin）" Link="マイ コンピューターをデスクトップに表示する (by Rambin)"/>
       <String Target="跟随系统" Link="システムの設定を継承"/>
@@ -816,7 +824,7 @@ Special Thanks to 山形まり花、奎宁
     <String Target="禁止自动安装推荐的应用程序（by IT之家）" Link="お勧めアプリ自動的にインストールを禁止（by ITHome）"/>
     <String Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="ロック画面で Windows スポットライトの広告を閉じる（by 、Cloud.）"/>
     <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="[Windows を使用するためのヒントやおすすめの方法を取得] を閉じる"/>
-    <String Target="隐藏任务栏上的人脉（by 、Cloud.）" qLink=""/>
+    <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="タスク バーの [People] を隠す"/>
 
     <!--右键菜单管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="右クリック メニューの管理 - 非必要メニューを無効し、パフォーマンスを改善する"/>
@@ -869,10 +877,10 @@ Special Thanks to 山形まり花、奎宁
 
     <String Target="针对增强保护模式启用64位进程" Link="拡張保護モードで 64 ビット プロセス有効化"/>
 
-    <String Target="隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）" qLink=""/>
+    <String Target="隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）" Link="Internet Explorer のフィードバック ボタンを隠す (by ITHome)"/>
 
     <!--Microsoft Edge-->
-    <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" qLink=""/>
+    <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Microsoft Edge の最初の実行ページを表示しない (by ITHome)"/>
 
     <!--微软拼音输入法--><String Target="微软拼音输入法" Link="Microsoft Pinyin 入力方法"/>
     <String Target="微软拼音默认为英语输入（by Rambin）" Link="英語は既定の入力モード (by Rambin)"/>
