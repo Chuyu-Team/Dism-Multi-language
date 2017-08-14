@@ -137,7 +137,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="无法移动文件 %s，Dism++已回滚对系统的更改。" Link="File %s cannot be moved, Dism++ has rolled back the changes to the system."/>
 
     <String Target="正在配置WinRE" Link="Configuring Windows RE"/>
-    <String Target="正在进行第 %d 阶段（共 %d ）" Link="Now on step %d (%d setps in total)"/>
+    <String Target="正在进行第 %d 阶段（共 %d ）" Link="Now on step %d (%d total steps)"/>
     <String Target="格式转换向导" Link="Format Conversion Wizard"/>
     <String Target="此功能可以将微软发布的ESD转换为ISO，还支持加密的ESD哦。" Link="This function can convert ESD to ISO, it also supports encrypted ESD."/>
     <String Target="ESD映像文件" Link="ESD File"/>
