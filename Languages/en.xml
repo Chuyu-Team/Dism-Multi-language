@@ -156,7 +156,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="此功能可以将ESD、WIM格式相互转换。" Link="This function can convert ESD to WIM &amp; convert WIM to ESD "/>
     <String Target="Dism++将会在RE中启动，你现在需要重启电脑么？" Link="Dism++ will start in WinRE, do you want to restart now?"/>
     <String Target="%s 位置的映像正繁忙，请稍后再试。" Link="The location of %s image is busy, please try again later."/>
-    <String Target="正在验证受损" Link="Scaning Health"/>
+    <String Target="正在验证受损" Link="Scanning Health"/>
     <String Target="正在修复受损" Link="Restoring Health"/>
     <String Target="%d 秒后将关闭计算机，点击取消可以撤销此任务。" Link="After %d seconds the computer will be shutdown. Click ‘Cancel’ to cancel this task."/>
     <String Target="%d 秒后将重启计算机，点击取消可以撤销此任务。" Link="After %d seconds the computer will be restart. Click ‘Cancel’ to cancel this task."/>
@@ -404,7 +404,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <!--空间回收-->
     <String Target="推荐操作" Link="Recommend"/>
     <String Target="需要扫描" Link="Ready to Scan"/>
-    <String Target="正在扫描%s" Link="Scaning %s"/>
+    <String Target="正在扫描%s" Link="Scanning %s"/>
     <String Target="出错" Link="Error"/>
     <String Target="正在清理%s" Link="Cleaning %s "/>
     <String Target="本次共释放了%s 的空间。" Link="freed %s ."/>
