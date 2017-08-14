@@ -10,7 +10,7 @@ Dism++ Rules file, Provides cleanup and optimization rules.
 
 ## [Languages/bg.xml]
 Bulgaria Resource
-Thanks to Мартин Тайна,Pavel Belivakov
+Thanks to Мартин Тайна, Pavel Belivakov
 
 ## [Languages/cs.xml]
 Czech Resource
