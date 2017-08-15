@@ -35,5 +35,5 @@
   <String Src="%ICP%" Dst=""/>
   <String Src="%Document%" Dst="Ver ayuda"/>
   <String Src="%logs%" Dst="Registro de cambios"/>
-  <String Src="%wsuscan2%" Dst="wsusscn2.cab es la base de datos para Windows Update. Puede usarlo sobrescribiendo en la ruta &quot;Config\wsusscn2.cab&quot;."/>
+  <String Src="%wsuscan2%" Dst="&quot;wsusscn2.cab&quot; es la base de datos para Windows Update. Puede actualizarlo de forma manual sobrescribiendo en la ruta &quot;Config\wsusscn2.cab&quot;."/>
 </Strings>
