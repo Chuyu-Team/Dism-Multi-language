@@ -120,9 +120,9 @@ Gracias a: Jhovany200, Oleada, nomemolesteis@gmail.com por la traducción
     <String Target="基础支撑库缺失，引导修复相关功能无法使用。" Link="Falta soporte fundamental de la biblioteca. No se pueden usar las funciones relacionadas con boot-fix."/>
     <String Target="Dism++需要管理员权限才能运行，请右键 以管理员身份运行 然后继续。" Link="Dism++ necesita derechos administrativos para ejecutarse. Clic botón derecho y seleccione Ejecutar como administrador para ejecutarlo."/>
 
-    <String Target="你需要增量保存还是直接保存？" Link="¿Guardar de forma directa o en incremento?"/>
+    <String Target="你需要增量保存还是直接保存？" Link="¿Guardar de forma directa o en incrementos?"/>
     <String Target="温馨提示：保存映像后空间不会减少，如果需要减少空间请重新编译目标文件。" Link="Consejos: No se va a reducir espacio si guarda esta imagen;  compilar el archivo de destino si necesita reducir el espacio"/>
-    <String Target="增量保存（推荐）&#xA;创建一个新的映像，不会覆盖原有数据。" Link="Guardar en incremento (recomendado)&#xA;Crea una nueva imagen; los datos originales no se modificarán."/>
+    <String Target="增量保存（推荐）&#xA;创建一个新的映像，不会覆盖原有数据。" Link="Guardar en incrementos (recomendado)&#xA;Crea una nueva imagen; los datos originales no se modificarán."/>
 
     <String Target="直接保存&#xA;将覆盖当前映像的数据。" Link="Guardar directo&#xA;Sustituir la imagen original con esta imagen modificada."/>
 
