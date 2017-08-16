@@ -153,7 +153,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="映像文件" Link="Soubor obrazu"/>
     <String Target="无法获取RE信息，错误代码：%d" Link="Nelze získat informace o WinRE, kód chyby: %d"/>
     <String Target="重启后，系统自动将启动RE，你确定要重启么？" Link="Systém se restartuje do WinPE, chcete restartovat?"/>
-    <String Target="此功能可以将ESD、WIM格式相互转换。" Link="Touto funkcí lze převést ESD do WIM &amp; převod WIM do ESD "/>
+    <String Target="此功能可以将ESD、WIM格式相互转换。" Link="Touto funkcí lze převést ESD do WIM &amp; převod WIM do ESD"/>
     <String Target="Dism++将会在RE中启动，你现在需要重启电脑么？" Link="Dism++ začne s WinRE, opravdu chcete počítač restartovat teď?"/>
     <String Target="%s 位置的映像正繁忙，请稍后再试。" Link="Umístění %s obrazu je zaneprázdněno, opakujte akci později."/>
     <String Target="正在验证受损" Link="Scanování stavu"/>
@@ -308,8 +308,8 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="本地源" Link="Místní zdroj"/>
 
     <!-- 格式转换-->
-    <String Target="请在此输入源文件路径" Link="Zadejte cestu ke zdrojovému souboru "/>
-    <String Target="请在此输入目标文件路径" Link="Zadejte cestu k cílovému souboru "/>
+    <String Target="请在此输入源文件路径" Link="Zadejte cestu ke zdrojovému souboru"/>
+    <String Target="请在此输入目标文件路径" Link="Zadejte cestu k cílovému souboru"/>
 
     <!--ESD解密-->
     <String Target="温馨提示：此功能将直接解密目标文件，原版控请自行备份。" Link="Tip: Tato funkce bude automaticky dešifrovat cílový soubor. Zálohujte původní soubory."/>
@@ -330,7 +330,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="保存更改" Link="Uložit změny"/>
     <String Target="导出映像" Link="Exportovat obraz"/>
     <String Target="正在导出第%d个映像（共 %d ）" Link="Exportováno %d z %d obrazu"/>
-    <String Target="正在添加映像，请耐心等待……" Link="Přidání obrazu, čekejte prosím ......"/>
+    <String Target="正在添加映像，请耐心等待……" Link="Přidání obrazu, čekejte prosím..."/>
     <String Target="操作成功！" Link="Dokončeno!"/>
     <String Target="删除映像" Link="Odstranit obraz"/>
     <String Target="编辑映像" Link="Editovat obraz"/>
@@ -406,7 +406,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="需要扫描" Link="Připraveno ke skenování"/>
     <String Target="正在扫描%s" Link="Skenováno %s"/>
     <String Target="出错" Link="Chyba"/>
-    <String Target="正在清理%s" Link="Čištění %s "/>
+    <String Target="正在清理%s" Link="Čištění %s"/>
     <String Target="本次共释放了%s 的空间。" Link="%s spuštěno."/>
 
     <String Target="该规则来自CCleaner解析引擎，因此不能提供说明。" Link="Pravidlo je z CCleaner pravidel, proto Dism++ není schopen zobrazit označení."/>
@@ -745,7 +745,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
 
     <String Target="隐藏快捷方式小箭头" Link="Odstraní šipky u ikon zástupců"/>
 
-    <String Target="隐藏可执行文件小盾牌" Link="Skrýt UAC ochranu "/>
+    <String Target="隐藏可执行文件小盾牌" Link="Skrýt UAC ochranu"/>
 
     <String Target="创建快捷方式时不添&quot;快捷方式&quot;文字（by 518516.net）" Link="Zabránit přidání textu “Zástupce”, při jeho vytvoření (od 518516.net)"/>
 
@@ -815,7 +815,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
 
     <String Target="关闭视频文件预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Zakázat náhled videa souboru ke zlepšení doby odezvy Průzkumníka (od MoWangMoShi)"/>
     <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Zakázat náhled zvukového souboru ke zlepšení doby odezvy Průzkumníka (od MoWangMoShi)"/>
-    <String Target="关闭打开程序的“安全警告”（by 莫失莫忘）" Link="Zakázat upozornění zabezpečení při otevírání programů (od MoWangMoShi) "/>
+    <String Target="关闭打开程序的“安全警告”（by 莫失莫忘）" Link="Zakázat upozornění zabezpečení při otevírání programů (od MoWangMoShi)"/>
     <String Target="关闭在应用商店中查找关联应用（by Asoft）" Link="Zakázat vyhledávání přidružených aplikací ve Windows Store (od Asoft)"/>
     <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="Hide Videos, Pictures, Documents, Download, Music, Desktop, 3D Object in Computer  (od  、Cloud)"/>
     <String Target="禁止自动安装推荐的应用程序（by IT之家）" Link="Disable installing recommmeded apps autoly  (od  ITHome)"/>
@@ -992,17 +992,17 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="安全相关设置" Link="Bezpečnostní nastavení"/>
     <String Target="开启模糊音（by 朽木）" Link="Povolit podporu fuzzy (od XiuMu)"/>
     <String Target="开启此功能将导致平板模式下无法使用手势调出操作中心。" Link="Nebudete moci volat Centrum upozornění pomocí gesta, pří vypnoutí této funkce."/>
-    <String Target="禁用文件、目录、桌面、所有对象的“工作文件夹”右键菜单" Link="Zakázat “pracovní složky” v kontextovém menu u souborů, adresářů, pracovní plochy, všech objeků "/>
+    <String Target="禁用文件、目录、桌面、所有对象的“工作文件夹”右键菜单" Link="Zakázat “pracovní složky” v kontextovém menu u souborů, adresářů, pracovní plochy, všech objeků"/>
     <String Target="禁用文件夹的“固定到快速访问”右键菜单" Link="Zakázat “Kód PIN pro rychlý přístup” v kontextovém menu u adresářů"/>
     <String Target="禁用文件的“OneDrive文件同步”右键菜单" Link="Zakázat “OneDrive synchronizace souboru” v kontextovém menu u souborů"/>
-    <String Target="关闭“突出显示新安装的程序”（by 溯汐潮）" Link="Zakázat “Zvýraznit nově nainstalované programy” (od Hell Cabrite) "/>
+    <String Target="关闭“突出显示新安装的程序”（by 溯汐潮）" Link="Zakázat “Zvýraznit nově nainstalované programy” (od Hell Cabrite)"/>
     <String Target="关闭自动更新（by 溯汐潮）" Link="Zakázat automatické aktualizace (od Hell Cabrite)"/>
     <String Target="将“音量调节”调整为Windows 7模式（by 溯汐潮）" Link="Změnit “Nastavení hlasitosti” ve Windows 7 modu (od Hell Cabrite)"/>
     <String Target="将同时可用下载数目调整到 10（by 溯汐潮）" Link="Upravit počet souběžných stahování na 10 (od Hell Cabrite)"/>
     <String Target="将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）" Link="Změna “Přizpůsobit” na ploše kliknutím pravým tlačítkem myši menu režimu Windows 7 (od dpzsjy)"/>
     <String Target="将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）" Link="Změna “Nastavení displeje” na ploše klikněte pravým tlačítkem myši menu režimu Windows 7 (od dpzsjy)"/>
     <String Target="将语言栏隐藏到任务拦（by 溯汐潮）" Link="Skrýt panel jazyků na hlavním panelu (od Hell Cabrite)"/>
-    <String Target="快速访问不显示常用文件夹（by 溯汐潮）" Link="Nezobrazovat často používané složky v rychlém přístup (od Hell Cabrite) "/>
+    <String Target="快速访问不显示常用文件夹（by 溯汐潮）" Link="Nezobrazovat často používané složky v rychlém přístup (od Hell Cabrite)"/>
     <String Target="快速访问不显示最近使用的文件（by 溯汐潮）" Link="Nezobrazovat naposledy použité souborů v rychlém přístup (od Hell Cabrite)"/>
     <String Target="清理被取代的msp补丁并减少Installer目录的大小。" Link="Vyčistit nahrazuje opravy msp a snížení velikosti instalační složky."/>
     <String Target="禁用账号登录日志报告（by 溯汐潮）" Link="Zakázat protokolování přihlašování k účtům (od Hell Cabrite)"/>
@@ -1024,9 +1024,9 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="Dism++更新程序" Link="Dism++ Upgrade"/>
     <String
       Target="准备启动下载模块……&#xD;&#xA;"
-      Link="Začít stahovat modul......&#xD;&#xA;"/>
+      Link="Začít stahovat modul...&#xD;&#xA;"/>
     <String Target="正在下载 - %d/%d" Link="Stahování %d/%d"/>
-    <String Target="更新文件过程中遇到错误，Orz……" Link="Chyby při aktualizaci souboru, Orz......"/>
+    <String Target="更新文件过程中遇到错误，Orz……" Link="Chyby při aktualizaci souboru. Argh!"/>
 
     <!--命令行-->
     <String Target="退出" Link="Ukončit"/>
@@ -1042,7 +1042,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="未正确识别到命令，以下是程序支持的所有命令：" Link="Při zpracování příkazu došlo k chybě. Ujistěte se, že argumenty příkazového řádku jsou platný. A podporuje následující příkazy:"/>
     <String
       Target="将一个文件夹或者文件进行Compact压缩：&#xD;&#xA;/C  { /exe [ xpress4k（默认、更佳性能） | xpress8k | xpress16k | lzx（更小体积） ] } Path"
-      Link="Provést kompresi souboru nebo složek:&#xD;&#xA;/C  { /exe [ xpress4k(default, Faster) | xpress8k | xpress16k | lzx(Smaller) ] } Path"/>
+      Link="Provést kompresi souboru nebo složek:&#xD;&#xA;/C { /exe [ xpress4k (default, faster) | xpress8k | xpress16k | lzx (smaller) ] } Path"/>
     <String
       Target="将一个文件夹或者文件进行Compact解压缩&#xD;&#xA;/U Path"
       Link="Provést dekompresi souboru nebo složek&#xD;&#xA;/U Path"/>
@@ -1105,7 +1105,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="使用后可能导致某些程序无法正常运行甚至让系统无法启动，如果使用后出现问题，可以在PE中点击 恢复功能-->撤销Compact。" Link="Použití může vést k selhání v normální fungování některých programů, nebo nemožnosti spuštění systému. Pokud máte potíže při použití - použijte v přeinstalování volbu 'Není kompatibilní' v menu 'Obnova'"/>
     <String Target="此功能与某些硬盘备份软件不兼容。如果使用后出现问题，可以点击 恢复功能-->撤销Compact。" Link="Tato funkce není kompatibilní s některými zálohovací software. Pokud se setkáte s problémy, klepněte na položku Obnova --> Není kompatibilní."/>
 
-    <String Target="过期Appx应用" Link="Zastaralé aplikace Appx "/>
+    <String Target="过期Appx应用" Link="Zastaralé aplikace Appx"/>
     <String Target="在Appx应用升级时，会留下老版本应用，该功能将删除那些不使用的老版本。" Link="Odstranění starších verzí již aktualizovaných Appx aplikace Windows."/>
     <String Target="少数用户报告称使用后无法打开Appx应用，需要重新安装Appx应用。" Link="V případě selhání některých aplikací Appx. Bude nutné provést přeinstalaci aplikací"/>
 
@@ -1305,8 +1305,8 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="WebPI缓存" Link="WebPI Mezipaměť"/>
     <String Target="Web平台安装程序的缓存" Link="Mezipaměť instalaci Webové platformy"/>
 
-    <String Target="Visual Studio日志" Link="Visual Studio soubor Logu "/>
-    <String Target="使用Visual Studio所产生的日志" Link="Visual Studio soubory logu "/>
+    <String Target="Visual Studio日志" Link="Visual Studio soubor logu"/>
+    <String Target="使用Visual Studio所产生的日志" Link="Visual Studio soubory logu"/>
 
     <String Target="Installer目录" Link="Instalační Složky"/>
     <String Target="(这是一个实验性功能)清理后将无法卸载被取代的msp更新，如果有卸载更新需求请勿使用此选项。" Link="(Experimentální) Po čištění, nahrazené msp aktualizace nelze odinstalovat. Pokud potřebujete odinstalovat aktualizace, prosím nepoužívejte tuto možnost."/>
