@@ -1063,7 +1063,7 @@ Gracias a: Jhovany200, Oleada, nomemolesteis@gmail.com por la traducción
     <String Target="操作完成！" Link="Finalizado"/>
 
     <!--系统还原-->
-    <String Target="当前模式不支持引导修复以及格式化分区，你需要重启并进入RE进行恢复么？" Link="El modo actual no puede utilizar la reparación de arranque o formatear partición. ¿Desea reiniciar WinRE para su recuperación?"/>
+    <String Target="当前模式不支持引导修复以及格式化分区，你需要重启并进入RE进行恢复么？" Link="El modo actual no puede utilizar la reparación de arranque o formatear partición. ¿Reiniciar WinRE para su recuperación?"/>
     <String Target="正在格式化" Link="Formateado"/>
     <String Target="格式化分区 %s 失败，错误代码：%d。" Link="Error al formatear la partición %s, código de error: %d."/>
     <String Target="正在刷新" Link="Actualizando"/>
