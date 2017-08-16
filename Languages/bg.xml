@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><!--
+<?xml version="1.0" encoding="UTF-8"?><!--
 This is the Bulgarian translation resource for Dism++.
 There are 5 ASCII punctuation needing special representation in XML.
 Also some control characters should be preferably encoded as numeric character entities.
@@ -476,19 +476,19 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
 
     <!--开机启动项-->
     <String Target="开机启动项" Link="Стартиране"/>
-    <String Target="系统启动项 —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="System Startup —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
-    <String Target="系统启动项32位 —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run" Link="System Boot 32Bit —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run"/>
-    <String Target="系统启动项（仅启动一次） —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="System Startup( Run Once ) —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
-    <String Target="系统启动项32位（仅启动一次） —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce" Link="System Startup 32Bit( Run Once ) —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce"/>
-    <String Target="用户启动项 —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="User Startup —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
-    <String Target="用户启动项（仅启动一次） —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="User Startup ( Run Once ) —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
-    <String Target="启动（所有用户） —— %SystemDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup" Link="Startup (All Users) —— %SystemDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup"/>
-    <String Target="启动（当前用户） —— %UserProfile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup" Link="Startup (Current User) —— %UserProfile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"/>
-    <String Target="本机启动项 —— HKLM\SYSTEM\CurrentControlSet\Control\Session Manager" Link="Native Boot —— HKLM\SYSTEM\CurrentControlSet\Control\Session Manager"/>
+    <String Target="系统启动项 —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="System Startup — HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
+    <String Target="系统启动项32位 —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run" Link="System Boot 32Bit — HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run"/>
+    <String Target="系统启动项（仅启动一次） —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="System Startup (Run Once) — HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
+    <String Target="系统启动项32位（仅启动一次） —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce" Link="System Startup 32Bit (Run Once) — HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce"/>
+    <String Target="用户启动项 —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="User Startup — HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
+    <String Target="用户启动项（仅启动一次） —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="User Startup (Run Once) — HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
+    <String Target="启动（所有用户） —— %SystemDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup" Link="Startup (All Users) — %SystemDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup"/>
+    <String Target="启动（当前用户） —— %UserProfile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup" Link="Startup (Current User) — %UserProfile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"/>
+    <String Target="本机启动项 —— HKLM\SYSTEM\CurrentControlSet\Control\Session Manager" Link="Native Boot — HKLM\SYSTEM\CurrentControlSet\Control\Session Manager"/>
     <String Target="隐藏禁用项" Link="Скрий изключените елементи"/>
     <String Target="查找" Link="Намери"/>
-    <String Target="新用户启动项 —— HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="New User Startup —— HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
-    <String Target="新用户启动项（仅启动一次） —— HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="New User Startup ( Run Once ) —— HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
+    <String Target="新用户启动项 —— HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="New User Startup — HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
+    <String Target="新用户启动项（仅启动一次） —— HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="New User Startup (Run Once) — HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
 
     <!--服务-->
     <String Target="服务项" Link="Услуга"/>
@@ -986,11 +986,11 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
     <String Target="Windows主题相关设置" Link="Настройки на Windows theme"/>
     <String Target="任务栏以及小娜相关设置" Link="Настройки на лентата за задачи и Кортана"/>
     <String Target="关闭商店应用推广（by 、Cloud.）" Link="Изключи Windows Store app promotion (от 、Cloud.)"/>
-    <String Target="关闭多嘴的小娜（by 朽木）" Link="Изключи Кортана (от XiuMu )"/>
+    <String Target="关闭多嘴的小娜（by 朽木）" Link="Изключи Кортана (от XiuMu)"/>
     <String Target="关闭游戏录制工具（by 、Cloud.）" Link="Изключи game recorder (от 、Cloud.)"/>
     <String Target="启用 Windows 照片查看器（by 心之所向）" Link="Enable Windows Photo Viewer (от XingZhiSuoXiang) "/>
     <String Target="安全相关设置" Link="Настройки на Security"/>
-    <String Target="开启模糊音（by 朽木）" Link="Enable fuzzy support(от XiuMu )"/>
+    <String Target="开启模糊音（by 朽木）" Link="Enable fuzzy support (от XiuMu)"/>
     <String Target="开启此功能将导致平板模式下无法使用手势调出操作中心。" Link="You will not be able to call out action center using gesture if you switch off this function."/>
     <String Target="禁用文件、目录、桌面、所有对象的“工作文件夹”右键菜单" Link="Изключи &quot;working folder&quot; от контекстното меню на file, directory, desktop, all objects "/>
     <String Target="禁用文件夹的“固定到快速访问”右键菜单" Link="Изключи &quot;Pin To Quick Access&quot; от контекстното меню на директорията"/>
@@ -1271,7 +1271,7 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
     <String Target="Chrome浏览器老版本备份（by Honry）" Link="Архивни файлове на Chrome Web Browser old version (от Honry)"/>
     <String Target="Chrome浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Архивни файлове на Chrome Web Browser след надстройване - за възстановяване в случай на проблеми."/>
 
-    <String Target="Microsoft .NET安装缓存（by 撕裂五维空间）" Link="Microsoft .NET install cache (от SiLieWuWeiKongJian )"/>
+    <String Target="Microsoft .NET安装缓存（by 撕裂五维空间）" Link="Microsoft .NET install cache (от SiLieWuWeiKongJian)"/>
     <String Target="安装Microsoft .NET补丁残留的安装缓存。" Link="When the programs install patches for Microsoft .NET, the program leaves some cache."/>
 
     <String Target="PPLive老版本备份（by 何超）" Link="Архивни файлове на PPLive old version (от HeChao)"/>
