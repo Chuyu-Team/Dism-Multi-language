@@ -1165,7 +1165,7 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
     <String Target="WP开发时保存的一些虚拟机状态文件，不建议频繁清理此条目。" Link="When WP developing, WP saved some virtual machine state files. We do not recommend to clean them frequently."/>
 
     <String Target="Boot备份信息" Link="Boot backup file"/>
-    <String Target="修改启动信息后系统会创建备份，方便回滚。如果确定不需要还原则可以删除。" Link="After you changing the startup information,system creates the backup, easy to change back. If you don't need to change back it,you can delete."/>
+    <String Target="修改启动信息后系统会创建备份，方便回滚。如果确定不需要还原则可以删除。" Link="After you changing the startup information, system creates the backup, easy to change back. If you don't need to change back it, you can delete."/>
 
     <String Target="PDB缓存文件" Link="PDB Cache files"/>
     <String Target="调试程序时创建的符号缓存，不建议频繁清理此条目。" Link="Symbolic cache during program debugging. We do not recommend to clean them frequently."/>
