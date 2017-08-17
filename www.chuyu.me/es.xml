@@ -33,7 +33,7 @@
   <String Src="%WinOS%" Dst="WINOS Lite System"/>
   <String Src="%ChuyuTream%" Dst="&amp;nbsp;2017&amp;nbsp;equipo Chuyu"/>
   <String Src="%ICP%" Dst=""/>
-  <String Src="%Document%" Dst="Ayuda"/>
+  <String Src="%Document%" Dst="Documentación"/>
   <String Src="%logs%" Dst="Registro de cambios"/>
   <String Src="%wsuscan2%" Dst="&quot;wsusscn2.cab&quot; es la base de datos para Windows Update. Puede actualizarlo de forma manual sobrescribiendo en la ruta &quot;Config\wsusscn2.cab&quot;."/>
 </Strings>
