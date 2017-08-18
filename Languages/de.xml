@@ -817,10 +817,10 @@ Special Thanks to franz@drwindows.de
     <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Windows Explorer beschleunigen - Audiovorschau deaktiveren (by MoWangMoShi)"/>
     <String Target="关闭打开程序的“安全警告”（by 莫失莫忘）" Link="Sicherheitshinweis beim Öffnen von Programmen verhindern (by MoWangMoShi) "/>
     <String Target="关闭在应用商店中查找关联应用（by Asoft）" Link="Suche nach verwandten Appxs im Windows Store verhindern (by Asoft)"/>
-    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link=" Videos, Bilder, Dokumente, Downloads, Musik, Desktop, 3D Objekte in "Dieser PC" ausblenden (by 、Cloud)"/>
+    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link=" Videos, Bilder, Dokumente, Downloads, Musik, Desktop, 3D Objekte in &quot;Dieser PC&quot; ausblenden (by 、Cloud)"/>
     <String Target="禁止自动安装推荐的应用程序（by IT之家）" Link="Automatische Installation von empfohlenen Apps deaktivieren (by ITHome)"/>
     <String Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="Den Windows-Fokus (geöffnete Verzeichnisse od. Programme) am Lockscreen deaktivieren (by 、Cloud.)"/>
-    <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link=""Bei der Nutzung von Windows Tipps, Tricks und Vorschläge erhalten" deaktivieren (by 、Cloud.)"/>
+    <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="&quot;Bei der Nutzung von Windows Tipps, Tricks und Vorschläge erhalten&quot; deaktivieren (by 、Cloud.)"/>
     <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Kontakte-Icon in der Taskleiste ausblenden (by 、Cloud)"/>
 
     <!--右键菜单管理-->
@@ -840,8 +840,8 @@ Special Thanks to franz@drwindows.de
     <String Target="禁用磁盘的“复制磁盘”右键菜单" Link="'CD kopieren' im Kontextmenü bei Laufwerken ausblenden"/>
     <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="Den Eintrag 'Freigeben für ' bei Dateien, Laufwerken, Bibliotheken und in den Eigenschaften ausblenden"/>
     <String Target="禁用桌面的“小工具”右键菜单" Link="'Widget' im Kontextmenü ausblenden"/>
-    <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="App-Anzeige "View 3D" im Kontextmenü deaktivieren” (by Cloud)"/>
-    <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link=""Mit Paint 3D bearbeiten" im Kontextmenü deaktivieren" (by Cloud)"/>
+    <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="App-Anzeige &quot;View 3D&quot; im Kontextmenü deaktivieren (by Cloud)"/>
+    <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="&quot;Mit Paint 3D bearbeiten&quot; im Kontextmenü deaktivieren (by Cloud)"/>
 
     <!--桌面图示管理-->
     <String Target="桌面图标管理" Link="Desktop Symboleinstellungen"/>
