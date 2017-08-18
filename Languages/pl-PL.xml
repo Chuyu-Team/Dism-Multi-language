@@ -46,7 +46,7 @@ Special thanks to romuald68@gmail.com, Bladius (KuchtaPC2015@outlook.com)
       <String Target="重新载入" Link="Odśwież"/>
       <String Target="格式转换" Link="Format konwersji"/>
         <String Target="ESD解密" Link="Odszyfruj ESD"/>
-    <String Target="取消任务&#9;Ctrl+Break" Link="Cancel Task&#9;Ctrl+Break"/>
+    <String q="" Target="取消任务&#9;Ctrl+Break" Link="Cancel Task&#9;Ctrl+Break"/>
 
     <String Target="恢复功能(&amp;R)" Link="&amp;Recovery"/>
       <String Target="系统修复" Link="System Recovery"/>
@@ -119,7 +119,7 @@ Special thanks to romuald68@gmail.com, Bladius (KuchtaPC2015@outlook.com)
     <String Target="临时目录可用空间不足5GB，这可能导致Dism++无法正常运行，推荐将Dism++复制到可用空间大于5GB的驱动器，然后继续。" Link="Katalog temp ma mniej niż 5 GB, Dism++ może działać nieprawidłowo. Zaleca się, skopiować Dism++ do miejsca z 5GB wolnej przestrzeni i kontynuować."/>
     <String Target="基础支撑库缺失，引导修复相关功能无法使用。" Link="Brak podstawowej biblioteki. Nie można używać funkcji związanych z boot-fix."/>
     <String Target="Dism++需要管理员权限才能运行，请右键 以管理员身份运行 然后继续。" Link="Dism++ wymaga do uruchomienia uprawnień administratora. Proszę kliknąć PPM i wybrać 'Uruchom jako administrator'."/>
-    <String Target="Dism++不允许以兼容模式启动，请去除兼容模式，然后再启动Dism++。" Link="Dism++ doesn’t allow compatibility mode. Restart Dism++ after disable it."/>
+    <String q="" Target="Dism++不允许以兼容模式启动，请去除兼容模式，然后再启动Dism++。" Link="Dism++ doesn’t allow compatibility mode. Restart Dism++ after disable it."/>
 
     <String Target="你需要增量保存还是直接保存？" Link="Zapisać bezpośrednio czy wykonać zapis przyrostowy?"/>
     <String Target="温馨提示：保存映像后空间不会减少，如果需要减少空间请重新编译目标文件。" Link="Informacja: Przestrzeń nie zostanie zmniejszona, należy ponownie skompilować plik docelowy jeżeli chcesz zmniejszyć przestrzeń dla pliku docelowego"/>
@@ -442,7 +442,7 @@ Special thanks to romuald68@gmail.com, Bladius (KuchtaPC2015@outlook.com)
     <String Target="注册表还原" Link="Przywracanie"/>
     <String Target="清理时间" Link="Czas oczyszczania"/>
     <String Target="网络位置" Link="Lokalizacja sieci"/>
-    <String Target="正在扫描第%d个可清理的注册表项。。。" Link="Scanning num. %d register item to be cleaned..."/>
+    <String q="" Target="正在扫描第%d个可清理的注册表项。。。" Link="Scanning num. %d register item to be cleaned..."/>
 
     <!--Sterowniki-->
     <String Target="温馨提示：删除关键驱动可能导致计算机无法启动" Link="UWAGA: Jeżeli usuniesz nieodpowiedni sterownik, komputer się nie uruchomi"/>
@@ -518,9 +518,9 @@ Special thanks to romuald68@gmail.com, Bladius (KuchtaPC2015@outlook.com)
     <String Target="请在此输入本地源" Link="Wpisz źródło lokalne"/>
 
     <!--Podanie-->
-    <String Target="更改" Link="Modify"/>
-    <String Target="通用安装脚本" Link="Universal installation scripts"/>
-    <String Target="%s 已经安装，你确定要继续吗？" Link="%s is installed already. Sure to proceed?"/>
+    <String q="" Target="更改" Link="Modify"/>
+    <String q="" Target="通用安装脚本" Link="Universal installation scripts"/>
+    <String q="" Target="%s 已经安装，你确定要继续吗？" Link="%s is installed already. Sure to proceed?"/>
 
     <!--Dodaj Usuń Aktualizacje-->
     <String Target="未知" Link="Nieznany"/>
@@ -551,7 +551,7 @@ Special thanks to romuald68@gmail.com, Bladius (KuchtaPC2015@outlook.com)
     <String Target="添加" Link="Dodaj"/>
     <String Target="语言" Link="Język"/>
     <String Target="Windows %s 语言包" Link="Windows %s pakiet językowy"/>
-    <String Target="重启生效" Link="Request Restart"/>
+    <String q="" Target="重启生效" Link="Request Restart"/>
 
     <!--Funkcje opcjonalne-->
     <String Target="正在删除可选功能" Link="Usuwanie opcjonalnej funkcji"/>
@@ -606,7 +606,7 @@ Special thanks to romuald68@gmail.com, Bladius (KuchtaPC2015@outlook.com)
       Link="%s uwaga:&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;Jesteś pewien, że chcesz kontynuować?"/>
     <String Target="导出地址" Link="Kopiuj URLs"/>
     <String Target="补丁下载地址已经成功复制到剪切板。" Link="Patch został skopiowany do schowka pomyślnie."/>
-    <String Target="安装%d%%" Link="Instalacja %d%%"/>
+    <String q="" Target="安装%d%%" Link="Instalacja %d%%"/>
 
     <!--Region i język-->
     <String Target="区域和语言" Link="Region&amp;język"/>
@@ -769,7 +769,7 @@ Special thanks to romuald68@gmail.com, Bladius (KuchtaPC2015@outlook.com)
 
     <String Target="使任务栏更透明（by 518516.net）" Link="Pasek zadań bardziej przejrzysty (by 518516.net)"/>
 
-    <String Target="不允许在开始菜单显示建议" qLink=""/>
+    <String q="" Target="不允许在开始菜单显示建议" Link="Disable suggestions in Start Menu"/>
 
     <String Target="在桌面显示我的电脑（by Rambin）" Link="Pokaż Mój komputer na pulpicie (by Rambin)"/>
       <String Target="跟随系统" Link="Systemowe"/>
@@ -817,11 +817,11 @@ Special thanks to romuald68@gmail.com, Bladius (KuchtaPC2015@outlook.com)
     <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Wyłącz podgląd plików audio, aby poprawić czas reakcji Eksploratora Windows (by MoWangMoShi)"/>
     <String Target="关闭打开程序的“安全警告”（by 莫失莫忘）" Link="Wyłącz ostrzeżenia dotyczące bezpieczeństwa podczas otwierania programów (by MoWangMoShi)"/>
     <String Target="关闭在应用商店中查找关联应用（by Asoft）" Link="Wyłącz wyszukiwanie dla powiązanych aplikacji w Sklepie Windows (by Asoft)"/>
-    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="Hide Videos, Pictures, Documents, Download, Music, Desktop, 3D Object in Computer (by 、Cloud)"/>
-    <String Target="禁止自动安装推荐的应用程序（by IT之家）" Link="Disable installing recommmeded apps autoly (by ITHome)"/>
-    <String Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="Disable Windows Focus on lock screen (by 、Cloud.)"/>
-    <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="Disable “Get suggestions when using Windows” (by 、Cloud.)"/>
-    <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Hide People on Task Bar (by 、Cloud)"/>
+    <String q="" Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="Hide Videos, Pictures, Documents, Download, Music, Desktop, 3D Object in Computer (by 、Cloud)"/>
+    <String q="" Target="禁止自动安装推荐的应用程序（by IT之家）" Link="Disable installing recommmeded apps autoly (by ITHome)"/>
+    <String q="" Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="Disable Windows Focus on lock screen (by 、Cloud.)"/>
+    <String q="" Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="Disable “Get suggestions when using Windows” (by 、Cloud.)"/>
+    <String q="" Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Hide People on Task Bar (by 、Cloud)"/>
 
     <!--Zarządzanie menu kontekstowym-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="Zarządzanie Menu Kontekstowym: Wyłączenie zbędnych elementów menu w celu lepszego reagowania Eksploratora Windows"/>
@@ -840,8 +840,8 @@ Special thanks to romuald68@gmail.com, Bladius (KuchtaPC2015@outlook.com)
     <String Target="禁用磁盘的“复制磁盘”右键菜单" Link="Wyłącz 'Kopiuj Dysk' w menu kontekstowym"/>
     <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="Wyłącz 'Wyślij do...' w menu kontekstowym"/>
     <String Target="禁用桌面的“小工具”右键菜单" Link="Wyłącz 'Widgety' w menu kontekstowym"/>
-    <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Disable file context menu item “View 3D” (by Cloud)"/>
-    <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Disable file context menu item “Paint 3D” (by Cloud)"/>
+    <String q="" Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Disable file context menu item “View 3D” (by Cloud)"/>
+    <String q="" Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Disable file context menu item “Paint 3D” (by Cloud)"/>
 
     <!--Menedżer Ikon Pulpitu-->
     <String Target="桌面图标管理" Link="Zarządzaj ikonami pulpitu"/>
@@ -874,13 +874,13 @@ Special thanks to romuald68@gmail.com, Bladius (KuchtaPC2015@outlook.com)
 
     <String Target="针对增强保护模式启用64位进程" Link="Włącz procesy 64-bitowe dla trybu chronionego"/>
 
-    <String Target="隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）" Link="Hide Feedback smiley in Internet Explorer (by ITHome)"/>
+    <String q="" Target="隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）" Link="Hide Feedback smiley in Internet Explorer (by ITHome)"/>
 
     <!--Microsoft Edge-->
-    <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Prevent Microsoft Edge from opening “First Running” (by ITHome)"/>
+    <String q="" Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Prevent Microsoft Edge from opening “First Running” (by ITHome)"/>
 
     <!--Metoda wprowadzania Pinyin-->
-    <String Target="微软拼音输入法" Link="Microsoft Pinyin IME"/>
+    <String q="" Target="微软拼音输入法" Link="Microsoft Pinyin IME"/>
     <String Target="微软拼音默认为英语输入（by Rambin）" Link="Dodać IE trybu domyślnego języka angielskiego (by Rambin)"/>
 
     <String Target="关闭微软拼音云计算（by Rambin）" Link="Wyłącz wprowadzanie tekstu w chmurze (by Rambin)"/>

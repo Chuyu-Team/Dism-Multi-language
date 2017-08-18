@@ -119,7 +119,7 @@ Special thanks to OldMac, Schooli, 阿泽西
     <String Target="临时目录可用空间不足5GB，这可能导致Dism++无法正常运行，推荐将Dism++复制到可用空间大于5GB的驱动器，然后继续。" Link="임시 디렉터리 공간이 5GB보다 작으면 Dism++ 프로그램이 제대로 작동하지 않을 수 있습니다. Dism++ 프로그램을 5GB 이상의 여유가 있는 드라이브에 복사하여 실행할 것을 권장합니다."/>
     <String Target="基础支撑库缺失，引导修复相关功能无法使用。" Link="기본으로 지원하는 라이브러리가 부족하여 부트 복구 관련 기능을 사용할 수 없습니다."/>
     <String Target="Dism++需要管理员权限才能运行，请右键 以管理员身份运行 然后继续。" Link="Dism++는 관리자권한으로만 실행이 가능합니다. 오른쪽 마우스를 클릭하여 관리자권한으로 실행하시길 바랍니다."/>
-    <String Target="Dism++不允许以兼容模式启动，请去除兼容模式，然后再启动Dism++。" Link="Dism++ doesn’t allow compatibility mode. Restart Dism++ after disable it."/>
+    <String q="" Target="Dism++不允许以兼容模式启动，请去除兼容模式，然后再启动Dism++。" Link="Dism++ doesn’t allow compatibility mode. Restart Dism++ after disable it."/>
 
     <String Target="你需要增量保存还是直接保存？" Link="수정작업을 마운트 Wim에 새롭게 이미지를 추가하거나, 마운트한 이미지에 수정사항을 반영합니다."/>
     <String Target="温馨提示：保存映像后空间不会减少，如果需要减少空间请重新编译目标文件。" Link="주의 : 저장한 이미지 용량은 줄어들지 않습니다. 용량을 줄이려면 대상 파일을 다시 편집해주십시오."/>
@@ -442,7 +442,7 @@ Special thanks to OldMac, Schooli, 阿泽西
     <String Target="注册表还原" Link="레지스트리 복원"/>
     <String Target="清理时间" Link="정리 시간"/>
     <String Target="网络位置" Link="네트워크 위치"/>
-    <String Target="正在扫描第%d个可清理的注册表项。。。" Link="Scanning num. %d register item to be cleaned..."/>
+    <String q="" Target="正在扫描第%d个可清理的注册表项。。。" Link="Scanning num. %d register item to be cleaned..."/>
 
     <!--驱动管理-->
     <String Target="温馨提示：删除关键驱动可能导致计算机无法启动" Link="주의: 중요한 드라이버를 삭제하면 컴퓨터가 제대로 작동하지 않을 수 있습니다."/>
@@ -518,9 +518,9 @@ Special thanks to OldMac, Schooli, 阿泽西
     <String Target="请在此输入本地源" Link="여기에 로컬소스를 입력하여 주십시오"/>
 
     <!--应用程序-->
-    <String Target="更改" Link="Modify"/>
-    <String Target="通用安装脚本" Link="Universal installation scripts"/>
-    <String Target="%s 已经安装，你确定要继续吗？" Link="%s is installed already. Sure to proceed?"/>
+    <String q="" Target="更改" Link="Modify"/>
+    <String q="" Target="通用安装脚本" Link="Universal installation scripts"/>
+    <String q="" Target="%s 已经安装，你确定要继续吗？" Link="%s is installed already. Sure to proceed?"/>
 
     <!--添加删除更新-->
     <String Target="未知" Link="알수 없음"/>
@@ -551,7 +551,7 @@ Special thanks to OldMac, Schooli, 阿泽西
     <String Target="添加" Link="추가"/>
     <String Target="语言" Link="언어"/>
     <String Target="Windows %s 语言包" Link="Windows %s 언어팩"/>
-    <String Target="重启生效" Link="Request Restart"/>
+    <String q="" Target="重启生效" Link="Request Restart"/>
 
     <!--可选功能-->
     <String Target="正在删除可选功能" Link="선택기능 삭제 중"/>
@@ -769,7 +769,7 @@ Special thanks to OldMac, Schooli, 阿泽西
 
     <String Target="使任务栏更透明（by 518516.net）" Link="작업표시줄 투명하게 사용 (by 518516.net)"/>
 
-    <String Target="不允许在开始菜单显示建议" qLink=""/>
+    <String q="" Target="不允许在开始菜单显示建议" Link="Disable suggestions in Start Menu"/>
 
     <String Target="在桌面显示我的电脑（by Rambin）" Link="바탕화면에 내 컴퓨터 보이기 (by Rambin)"/>
       <String Target="跟随系统" Link="시스템 따라가기"/>
@@ -817,11 +817,11 @@ Special thanks to OldMac, Schooli, 阿泽西
     <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="음악파일 이미지 미리 보기 닫고 탐색기 응답 속도를 높이다 (by MoWangMoShi)"/>
     <String Target="关闭打开程序的“安全警告”（by 莫失莫忘）" Link="열린 프로그램 &quot;보안 경고&quot; 닫기 (by MoWangMoShi)"/>
     <String Target="关闭在应用商店中查找关联应用（by Asoft）" Link="스토어에서 앱관련 응용프로그램 검색 비활성화 (by Asoft)"/>
-    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="Hide Videos, Pictures, Documents, Download, Music, Desktop, 3D Object in Computer (by 、Cloud)"/>
-    <String Target="禁止自动安装推荐的应用程序（by IT之家）" Link="Disable installing recommmeded apps autoly (by ITHome)"/>
-    <String Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="Disable Windows Focus on lock screen (by 、Cloud.)"/>
-    <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="Disable “Get suggestions when using Windows” (by 、Cloud.)"/>
-    <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Hide People on Task Bar (by 、Cloud)"/>
+    <String q="" Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="Hide Videos, Pictures, Documents, Download, Music, Desktop, 3D Object in Computer (by 、Cloud)"/>
+    <String q="" Target="禁止自动安装推荐的应用程序（by IT之家）" Link="Disable installing recommmeded apps autoly (by ITHome)"/>
+    <String q="" Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="Disable Windows Focus on lock screen (by 、Cloud.)"/>
+    <String q="" Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="Disable “Get suggestions when using Windows” (by 、Cloud.)"/>
+    <String q="" Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Hide People on Task Bar (by 、Cloud)"/>
 
     <!--右键菜单管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="오른쪽메뉴 관리 - 필요하지 않은 메뉴를 비활성화하여 응답 속도를 높이다"/>
@@ -840,8 +840,8 @@ Special thanks to OldMac, Schooli, 阿泽西
     <String Target="禁用磁盘的“复制磁盘”右键菜单" Link="오른쪽메뉴 디스크에 &quot;디스크 복사&quot; 를 사용하지 않기"/>
     <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="오른쪽메뉴 파일/폴더/바탕화면/디스크 및 라이브러리 &quot;공유&quot; 를 사용하지 않기"/>
     <String Target="禁用桌面的“小工具”右键菜单" Link="오른쪽메뉴 바탕화면에 &quot;작은도구&quot; 를 사용하지 않기"/>
-    <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Disable file context menu item “View 3D” (by Cloud)"/>
-    <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Disable file context menu item “Paint 3D” (by Cloud)"/>
+    <String q="" Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Disable file context menu item “View 3D” (by Cloud)"/>
+    <String q="" Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Disable file context menu item “Paint 3D” (by Cloud)"/>
 
     <!--桌面图示管理-->
     <String Target="桌面图标管理" Link="바탕화면 아이콘 관리"/>
@@ -874,10 +874,10 @@ Special thanks to OldMac, Schooli, 阿泽西
 
     <String Target="针对增强保护模式启用64位进程" Link="64비트 프로세스에 대한 증강보호모드 사용"/>
 
-    <String Target="隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）" Link="Hide Feedback smiley in Internet Explorer (by ITHome)"/>
+    <String q="" Target="隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）" Link="Hide Feedback smiley in Internet Explorer (by ITHome)"/>
 
     <!--Microsoft Edge-->
-    <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Prevent Microsoft Edge from opening “First Running” (by ITHome)"/>
+    <String q="" Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Prevent Microsoft Edge from opening “First Running” (by ITHome)"/>
 
     <!--微软拼音输入法-->
     <String Target="微软拼音输入法" Link="Microsoft 병음입력기"/>
