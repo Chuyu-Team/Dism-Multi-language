@@ -46,7 +46,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
       <String Target="重新载入" Link="Obnovit"/>
       <String Target="格式转换" Link="Převod formátu"/>
         <String Target="ESD解密" Link="ESD dešifrování"/>
-    <String Target="取消任务&#9;Ctrl+Break" Link="Cancel Task&#9;Ctrl+Break"/>
+    <String Target="取消任务&#9;Ctrl+Break" Link="Zrušit úkol&#x9;Ctrl+Break"/>
 
     <String Target="恢复功能(&amp;R)" Link="&amp;Obnova"/>
       <String Target="系统修复" Link="Obnovení systému"/>
@@ -119,7 +119,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="临时目录可用空间不足5GB，这可能导致Dism++无法正常运行，推荐将Dism++复制到可用空间大于5GB的驱动器，然后继续。" Link="Prostor dočasného adresáře je menší než 5GB, Dism++ nemusí pracovat správně. Doporučujeme zkopírovat Dism++ na disk s více než 5GB volného místa, a pak pokračovat."/>
     <String Target="基础支撑库缺失，引导修复相关功能无法使用。" Link="Chybí základní podpůrné knihovny. Nelze použít boot-fix související funkce."/>
     <String Target="Dism++需要管理员权限才能运行，请右键 以管理员身份运行 然后继续。" Link="Dism++ vyžaduje oprávnění správce ke spuštění. Klepněte pravým tlačítkem myši a vyberte příkaz Spustit jako správce, aby jej spustil."/>
-    <String Target="Dism++不允许以兼容模式启动，请去除兼容模式，然后再启动Dism++。" Link="Dism++ doesn’t allow compatibility mode. Restart Dism++ after disable it."/>
+    <String Target="Dism++不允许以兼容模式启动，请去除兼容模式，然后再启动Dism++。" Link="Dism++ neumožňuje režim kompatibility. Restartujte Dism++ pro zakázání."/>
 
     <String Target="你需要增量保存还是直接保存？" Link="Uložit rovnou nebo během provádění přírůstkového uložení?"/>
     <String Target="温馨提示：保存映像后空间不会减少，如果需要减少空间请重新编译目标文件。" Link="Tipy: Zmenšení velikosti, pokud uložíte tento obraz; překompilujte cílový soubor, pokud potřebujete zmenšit velkost souboru"/>
@@ -442,7 +442,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="注册表还原" Link="Obnovit"/>
     <String Target="清理时间" Link="Čas čištění"/>
     <String Target="网络位置" Link="Umístění v síti"/>
-    <String Target="正在扫描第%d个可清理的注册表项。。。" Link="Scanning num. %d register item to be cleaned..."/>
+    <String Target="正在扫描第%d个可清理的注册表项。。。" Link="Skenování č. %d zaregistrováno položek, které mají být vyčištěny..."/>
 
     <!--驱动管理-->
     <String Target="温馨提示：删除关键驱动可能导致计算机无法启动" Link="Tip: smazání důležitých ovladačů Vám může způsobit, že se počítač nepodaří spustit"/>
@@ -518,9 +518,9 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="请在此输入本地源" Link="Zadejte prosím místní zdroj"/>
 
     <!--应用程序-->
-    <String Target="更改" Link="Modify"/>
-    <String Target="通用安装脚本" Link="Universal installation scripts"/>
-    <String Target="%s 已经安装，你确定要继续吗？" Link="%s is installed already. Sure to proceed?"/>
+    <String Target="更改" Link="Změnit"/>
+    <String Target="通用安装脚本" Link="Univerzální instalační skripty"/>
+    <String Target="%s 已经安装，你确定要继续吗？" Link="%s je již nainstalováno.Chcete pokračovat?"/>
 
     <!--添加删除更新-->
     <String Target="未知" Link="Neznámý"/>
@@ -551,7 +551,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="添加" Link="Přidat"/>
     <String Target="语言" Link="Jazyk"/>
     <String Target="Windows %s 语言包" Link="Windows %s Jazykový balíček"/>
-    <String Target="重启生效" Link="Request Restart"/>
+    <String Target="重启生效" Link="Žádost o restartování"/>
 
     <!--可选功能-->
     <String Target="正在删除可选功能" Link="Odstranění možností"/>
@@ -606,7 +606,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
       Link="%s varování:&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;Chcete opravdu pokračovat?"/>
     <String Target="导出地址" Link="Kopírování URL"/>
     <String Target="补丁下载地址已经成功复制到剪切板。" Link="Adresa ke stažení opravy byla úspěšně zkopírována do schránky."/>
-    <String Target="安装%d%%" Link="Installing %d%%"/>
+    <String Target="安装%d%%" Link="Instalace%d%%"/>
 
     <!--区域和语言-->
     <String Target="区域和语言" Link="Lokalita&amp;Jazyk"/>
@@ -769,7 +769,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
 
     <String Target="使任务栏更透明（by 518516.net）" Link="Transparentní Hlavní panel (od 518516.net)"/>
 
-    <String Target="不允许在开始菜单显示建议" qLink=""/>
+    <String Target="不允许在开始菜单显示建议" Link="Zakázat návrhy v nabídce Start"/>
 
     <String Target="在桌面显示我的电脑（by Rambin）" Link="Zobrazit ikonu Tento počítač (od Rambin)"/>
       <String Target="跟随系统" Link="Systém"/>
@@ -817,11 +817,11 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Zakázat náhled zvukového souboru ke zlepšení doby odezvy Průzkumníka (od MoWangMoShi)"/>
     <String Target="关闭打开程序的“安全警告”（by 莫失莫忘）" Link="Zakázat upozornění zabezpečení při otevírání programů (od MoWangMoShi)"/>
     <String Target="关闭在应用商店中查找关联应用（by Asoft）" Link="Zakázat vyhledávání přidružených aplikací ve Windows Store (od Asoft)"/>
-    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="Hide Videos, Pictures, Documents, Download, Music, Desktop, 3D Object in Computer  (od  、Cloud)"/>
-    <String Target="禁止自动安装推荐的应用程序（by IT之家）" Link="Disable installing recommmeded apps autoly  (od  ITHome)"/>
-    <String Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="Disable Windows Focus on lock screen  (od  、Cloud.)"/>
-    <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="Disable “Get suggestions when using Windows”  (od  、Cloud.)"/>
-    <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Hide People on Task Bar  (od  、Cloud)"/>
+    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="Skrýt videa, obrázky, dokumenty, stahování, hudbu, plochu, 3D objekty v počítači (by 、Cloud)"/>
+    <String Target="禁止自动安装推荐的应用程序（by IT之家）" Link="Zakázat  automatickou instalaci pro nové aplikace (by ITHome)"/>
+    <String Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="Zakázat systém Windows Focus na uzamčení obrazovky (by 、Cloud.)"/>
+    <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="Zakázat  &quot;Návrhy při používání systému Windows &quot; (by 、Cloud.)"/>
+    <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Skrýt lidí na hlavním panelu (by 、Cloud)"/>
 
     <!--右键菜单管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="Správa kontextového menu: Vypne nepotřebné položky menu pro zlepšení reakce Průzkumníka Windows"/>
@@ -840,8 +840,8 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="禁用磁盘的“复制磁盘”右键菜单" Link="Zakázat 'Kopie Disku' v kontextovém menu disků"/>
     <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="Zakázat 'Sdílení' v kontextovém menu souborů, složek, pracovní plochy, disků a knihoven"/>
     <String Target="禁用桌面的“小工具”右键菜单" Link="Zakázat 'Widget' v kontextovém menu"/>
-    <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Disable file context menu item “View 3D”  (od  Cloud)"/>
-    <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Disable file context menu item “Paint 3D”  (od  Cloud)"/>
+    <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Zakázat položku kontextového menu souboru  &quot;Zobrazit ve 3D &quot; (by Cloud)"/>
+    <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Zakázat položku kontextové nabídky souboru &quot;Malování ve 3D&quot; (by Cloud)"/>
 
     <!--桌面图示管理-->
     <String Target="桌面图标管理" Link="Správce ikony na ploše"/>
@@ -874,10 +874,10 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
 
     <String Target="针对增强保护模式启用64位进程" Link="Povolit 64bitové procesy pro rozšířený režim chráněný"/>
 
-    <String Target="隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）" Link="Hide Feedback smiley in Internet Explorer (by ITHome)"/>
+    <String Target="隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）" Link="Skrytí zpětnou vazbu, úsměv shora zprava v aplikaci Internet Explorer (by ITHome)"/>
 
     <!--Microsoft Edge-->
-    <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Prevent Microsoft Edge from opening “First Running” (by ITHome)"/>
+    <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Zabranit aby aplikace Microsoft Edge otevřela možnosti &quot;První spuštění&quot; (by ITHome)"/>
 
     <!--微软拼音输入法-->
     <String Target="微软拼音输入法" Link="Microsoft Pinyin IME"/>
