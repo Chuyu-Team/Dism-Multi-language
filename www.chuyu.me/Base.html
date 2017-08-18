@@ -35,10 +35,10 @@
                     <p class="subh1">
                         %String2%
                     </p>
-                    <p class="subh2">%WhatsnewVersion% 10.1.1000.11 (2017-07-29)</p>
+                    <p class="subh2">%WhatsnewVersion% 10.1.1000.20 (2017-08-13)</p>
                     <p class="butt-holder">
-                        <a href="http://cdn.chuyu.me/Dism++10.1.1000.11_67890a0e501ee84f3db1de84f1b6118408120dbb.zip" target="_blank" class="button small" style="width:30%"><span>Dism++ x86/x64</span></a>
-                        <a href="http://cdn.chuyu.me/files/wsusscn2_2017-07-29.cab" target="_blank" class="button small" style="width:30%"><span>wsusscn2.cab</span></a>
+                        <a href="http://cdn.chuyu.me/Dism++10.1.1000.20_1958b4f8d08fef7eb3ac72c7eef2e7083e6c1175.zip" target="_blank" class="button small" style="width:30%"><span>Dism++ x86/x64</span></a>
+                        <a href="http://cdn.chuyu.me/files/wsusscn2_2017-08-11.cab" target="_blank" class="button small" style="width:30%"><span>wsusscn2.cab</span></a>
                     </p>
                     <p>%wsuscan2%</p>
                     <p class="butt-holder">
@@ -158,5 +158,19 @@
             </p>%ICP%
         </div>
     </div>
+    <script>
+        function checkOverflow(el)
+        {
+            var curOverflow = el.style.overflow;
+            if ( !curOverflow || curOverflow === "visible" )
+                el.style.overflow = "hidden";
+            var isOverflowing = el.clientWidth < el.scrollWidth || el.clientHeight < el.scrollHeight;
+            el.style.overflow = curOverflow;
+            return isOverflowing;
+        }
+        while (checkOverflow(po_ele = document.querySelector('#top'))) {
+            po_ele.style.height = '50rem';
+        }
+    </script>
 </body>
 </html>

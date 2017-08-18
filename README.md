@@ -10,7 +10,7 @@ Dism++ Rules file, Provides cleanup and optimization rules.
 
 ## [Languages/bg.xml]
 Bulgaria Resource
-Thanks to Мартин Тайна,Pavel Belivakov
+Thanks to Мартин Тайна, Pavel Belivakov
 
 ## [Languages/cs.xml]
 Czech Resource
@@ -22,7 +22,7 @@ Thanks to franz@drwindows.de
 
 ## [Languages/en.xml]
 English Resource
-Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wondersnefu
+Thanks to [EMLVIRUS](https://github.com/EMLVIRUS), Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wondersnefu
 
 ## [Languages/es.xml]
 Spanish Resource
@@ -46,7 +46,7 @@ Thanks to OldMac, 阿泽西
 
 ## [Languages/pl-PL.xml]
 Polish Resource
-Thanks to WinClub.pl(romuald68@gmail.com)
+Thanks to romuald68@gmail.com, Bladius (KuchtaPC2015@outlook.com)
 
 ## [Languages/pt.xml]
 Portuguese Resource
@@ -62,7 +62,7 @@ Thanks to Black Alex, Vasiliy Nasonov, virus, Vladimir, ZT
 
 ## [Languages/zh-Hant.xml]
 繁体资源文件
-感谢 iliGPU、jamesfuh、月下独酌
+感谢 iliGPU (http://mkvq.blogspot.com/) 、jamesfuh、月下独酌
 
 ---
 
@@ -103,4 +103,4 @@ Dism++官方网站繁体资源
 
 ### [www.chuyu.me/zh-Hant.xml]
 Dism++官方网站繁体资源
-感谢 iliGPU
+感谢 iliGPU (http://mkvq.blogspot.com/)

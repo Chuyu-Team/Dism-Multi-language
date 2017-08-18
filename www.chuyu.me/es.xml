@@ -27,7 +27,7 @@
   <String Src="%GreenDes%" Dst="Portable, Libre, seguro, y sin anuncios."/>
   <String Src="%AboutChuyu%" Dst="Acerca del equipo Chuyu"/>
   <String Src="%AboutChuyuDes%" Dst="Somos perfeccionistas y bastante obsesivos para crear una herramienta que sea ligera, fácil de usar, directa, y sin molestias. Todovia no lo hemos logrado, pero no nos dimos por vencidos mientras realizamos un sueño con nuestras propias manos haciendo Dism++: una pequeña herramienta sin fines de lucro y construida con pura persistencia y entusiasmo."/>
-  <String Src="%QQ%" Dst="Grupo oficial"/>
+  <String Src="%QQ%" Dst="Grupos oficiales"/>
   <String Src="%E-Mail%" Dst="Correo electrónico"/>
   <String Src="%Links%" Dst="Enlaces externos"/>
   <String Src="%WinOS%" Dst="WINOS Lite System"/>
