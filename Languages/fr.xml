@@ -880,7 +880,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Empêcher Microsoft Edge d’ouvrir &quot;Première exécution&quot; (by ITHome)"/>
     
     <!--微软拼音输入法-->
-    <String Target="微软拼音输入法" Link="Microsoft Pinyin IME"/>
+    <String q="" Target="微软拼音输入法" Link="Microsoft Pinyin IME"/>
     <String Target="微软拼音默认为英语输入（by Rambin）" Link="Utiliser la méthode de saisie en anglais par défaut (par Rambin)"/>
     
     <String Target="关闭微软拼音云计算（by Rambin）" Link="Désactiver la méthode de saisie assistée par le Cloud (par Rambin)"/>

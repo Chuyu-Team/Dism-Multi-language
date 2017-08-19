@@ -880,7 +880,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Zabranit aby aplikace Microsoft Edge otevřela možnosti &quot;První spuštění&quot; (by ITHome)"/>
 
     <!--微软拼音输入法-->
-    <String Target="微软拼音输入法" Link="Microsoft Pinyin IME"/>
+    <String q="" Target="微软拼音输入法" Link="Microsoft Pinyin IME"/>
     <String Target="微软拼音默认为英语输入（by Rambin）" Link="Vytvořit výchozí režim IME Angličtina (od Rambin)"/>
 
     <String Target="关闭微软拼音云计算（by Rambin）" Link="Zakázat IME pro Cloud (od Rambin)"/>
