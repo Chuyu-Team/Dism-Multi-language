@@ -2,15 +2,15 @@
 Este es el recurso de traducción en español para Dism ++.
 Hay 5 ASCII que necesitan una representación especial en XML.
 También algunos caracteres de control deben codificarse preferiblemente como entidades de carácter numérico.
-  Símbolo Descripción                 Codificación pereferible para las traducciones
-    <     Menor que                    &lt;
-    >     Mayor que                    &gt;
-    &     Signo &                      &amp;
-    '     Comillas simples             &apos;      ’ (apóstrofe) o ‘comillas en inglés’
-    "     Comillas dobles              &quot;      “comillas en inglés”
-    \t    Tabulación                   &#9;
-    \n    Salto de línea (línea nueva) &#xA;
-    \r    Retorno carro         l      &#xD;
+  Símbolo  Descripción                   Codificación  Pereferible para las traducciones
+    <      Menor que                     &lt;
+    >      Mayor que                     &gt;
+    &      Signo &                       &amp;
+    '      Comillas simples              &apos;        ’ (apóstrofe) o ‘comillas en inglés’
+    "      Comillas dobles               &quot;        “comillas en inglés”
+    \t     Tabulación                    &#9;
+    \n     Salto de línea (línea nueva)  &#xA;
+    \r     Retorno carro         l       &#xD;
 Por favor también evitar sangrías en este archivo mediante tabulaciones.
 
 Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
