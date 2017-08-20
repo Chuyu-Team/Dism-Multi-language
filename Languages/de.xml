@@ -394,6 +394,7 @@ Special Thanks to franz@drwindows.de
       <String Target="Appx管理" Link="Appxs Verwaltung"/>
 
     <String Target="驱动管理" Link="Treiber-Verwaltung"/>
+    <String q="" Target="程序和功能" Link="Apps and Features"/>
     <String Target="Windows服务" Link="Dienste-Verwaltung"/>
     <String Target="Windows功能" Link="Feature-Verwaltung"/>
     <String Target="更新管理" Link="Update-Verwaltung"/>
@@ -473,6 +474,8 @@ Special Thanks to franz@drwindows.de
     <String Target="正在安装驱动" Link="Treiber werden installiert"/>
     <String Target="一个或者多个驱动添加失败，错误代码：0x%.8X" Link="Ein oder mehrere Treiber konnten nicht hinzugefügt werden, Fehlercode: 0x%.8X"/>
     <String Target="显示内置驱动" Link="In-box Treiber anzeigen"/>
+    <String Target="处理过程中遇到问题，其中成功 %u 个，失败 %u 个，不适用 %u 个。部分错误信息：%s [0x%.8X] 更多信息请参考 &quot;Config\Dism++.log&quot;" qLink=""/>
+    <String Target="操作成功，其中成功 %u 个，不适用 %u 个。更多信息请参考 &quot;Config\Dism++.log&quot;" qLink=""/>
 
     <!--开机启动项-->
     <String Target="开机启动项" Link="Start"/>

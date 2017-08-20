@@ -394,6 +394,7 @@ Special Thanks to Massimiliano F.
       <String Target="Appx管理" Link="Gestione Appx"/>
 
     <String Target="驱动管理" Link="Gestione Driver"/>
+    <String q="" Target="程序和功能" Link="Apps and Features"/>
     <String Target="Windows服务" Link="Gestione Servizi"/>
     <String Target="Windows功能" Link="Gestione Funzionalità"/>
     <String Target="更新管理" Link="Gestione Aggiornamenti"/>
@@ -473,6 +474,8 @@ Special Thanks to Massimiliano F.
     <String Target="正在安装驱动" Link="Installazione Driver"/>
     <String Target="一个或者多个驱动添加失败，错误代码：0x%.8X" Link="Si è verificato un problema durante l'aggiunta di uno o più driver, codice errore: 0x%.8X"/>
     <String Target="显示内置驱动" Link="Visualizza driver integrati"/>
+    <String Target="处理过程中遇到问题，其中成功 %u 个，失败 %u 个，不适用 %u 个。部分错误信息：%s [0x%.8X] 更多信息请参考 &quot;Config\Dism++.log&quot;" qLink=""/>
+    <String Target="操作成功，其中成功 %u 个，不适用 %u 个。更多信息请参考 &quot;Config\Dism++.log&quot;" qLink=""/>
 
     <!--开机启动项-->
     <String Target="开机启动项" Link="Avvio Automatico"/>

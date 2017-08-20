@@ -394,6 +394,7 @@ Special thanks to OldMac, Schooli, 阿泽西
       <String Target="Appx管理" Link="Appx 관리"/>
 
     <String Target="驱动管理" Link="드라이버 관리"/>
+    <String q="" Target="程序和功能" Link="Apps and Features"/>
     <String Target="Windows服务" Link="Windows 서비스"/>
     <String Target="Windows功能" Link="Windows 기능"/>
       <String Target="更新管理" Link="업데이트 관리"/>
@@ -473,6 +474,8 @@ Special thanks to OldMac, Schooli, 阿泽西
     <String Target="正在安装驱动" Link="드라이버 설치 중"/>
     <String Target="一个或者多个驱动添加失败，错误代码：0x%.8X" Link="하나 이상의 드라이버 추가 실패, 오류 코드: 0x%.8X"/>
     <String Target="显示内置驱动" Link="내장 드라이버 보이기"/>
+    <String Target="处理过程中遇到问题，其中成功 %u 个，失败 %u 个，不适用 %u 个。部分错误信息：%s [0x%.8X] 更多信息请参考 &quot;Config\Dism++.log&quot;" qLink=""/>
+    <String Target="操作成功，其中成功 %u 个，不适用 %u 个。更多信息请参考 &quot;Config\Dism++.log&quot;" qLink=""/>
 
     <!--开机启动项-->
     <String Target="开机启动项" Link="부팅 시작 항목"/>

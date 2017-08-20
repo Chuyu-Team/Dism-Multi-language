@@ -474,6 +474,8 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="正在安装驱动" Link="Installing Driver"/>
     <String Target="一个或者多个驱动添加失败，错误代码：0x%.8X" Link="One or several drivers failed to add, error code: 0x%.8X"/>
     <String Target="显示内置驱动" Link="Display in-box driver"/>
+    <String Target="处理过程中遇到问题，其中成功 %u 个，失败 %u 个，不适用 %u 个。部分错误信息：%s [0x%.8X] 更多信息请参考 &quot;Config\Dism++.log&quot;" qLink=""/>
+    <String Target="操作成功，其中成功 %u 个，不适用 %u 个。更多信息请参考 &quot;Config\Dism++.log&quot;" qLink=""/>
 
     <!--开机启动项-->
     <String Target="开机启动项" Link="Startup"/>
