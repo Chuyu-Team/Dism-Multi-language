@@ -394,7 +394,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
       <String Target="Appx管理" Link="Applications Windows Store"/>
     
     <String Target="驱动管理" Link="Pilotes"/>
-    <String q="" Target="程序和功能" Link="Apps and Features"/>
+    <String Target="程序和功能" Link="Applis et fonctionnalités"/>
     <String Target="Windows服务" Link="Services"/>
     <String Target="Windows功能" Link="Fonctionnalités"/>
     <String Target="更新管理" Link="Mises à jour Windows"/>
