@@ -2,15 +2,15 @@
 Este es el recurso de traducción en español para Dism ++.
 Hay 5 ASCII que necesitan una representación especial en XML.
 También algunos caracteres de control deben codificarse preferiblemente como entidades de carácter numérico.
-  Símbolo  Descripción                   Codificación  Pereferible para las traducciones
+  Símbolo  Descripción                   Codificación    Preferible para las traducciones
     <      Menor que                     &lt;
     >      Mayor que                     &gt;
     &      Signo &                       &amp;
-    '      Comillas simples              &apos;        ’ (apóstrofe) o ‘comillas en inglés’
-    "      Comillas dobles               &quot;        “comillas en inglés”
+    '      Comillas simples              &apos;          ’ (apóstrofe) o ‘comillas en inglés’
+    "      Comillas dobles               &quot;          “comillas en inglés”
     \t     Tabulación                    &#9;
     \n     Salto de línea (línea nueva)  &#xA;
-    \r     Retorno carro         l       &#xD;
+    \r     Retorno carro                 &#xD;
 Por favor también evitar sangrías en este archivo mediante tabulaciones.
 
 Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
@@ -58,7 +58,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
       <String Target="系统还原" Link="Restaurar sistema"/>
       <String Target="在RE中运行" Link="Ejecutar en WinRE"/>
       <String Target="仅启动RE" Link="Ejecutar sólo WinRE"/>
-      <String Target="撤销Compact" Link="Nunca ompactar"/>
+      <String Target="撤销Compact" Link="Nunca compactar"/>
 
     <String Target="选项(&amp;O)" Link="&amp;Opciones"/>
       <String Target="插件管理" Link="Administrar complemento"/>
@@ -121,7 +121,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="Dism++需要管理员权限才能运行，请右键 以管理员身份运行 然后继续。" Link="Dism++ necesita derechos administrativos para ejecutarse. Clic en botón derecho y seleccionar Ejecutar como Administrador para ejecutarlo."/>
 
     <String Target="你需要增量保存还是直接保存？" Link="¿Guardar de forma directa o en incrementos?"/>
-    <String Target="温馨提示：保存映像后空间不会减少，如果需要减少空间请重新编译目标文件。" Link="Consejos: No se va a reducir espacio si guarda esta imagen;  recompilar el archivo de destino si necesita reducir espacio"/>
+    <String Target="温馨提示：保存映像后空间不会减少，如果需要减少空间请重新编译目标文件。" Link="Consejos: No se va a reducir espacio si guarda esta imagen;  re-compilar el archivo de destino si necesita reducir espacio"/>
     <String Target="增量保存（推荐）&#xA;创建一个新的映像，不会覆盖原有数据。" Link="Guardar en incrementos (recomendado)&#xA;Crea una imagen nueva; los datos originales no se modificarán."/>
 
     <String Target="直接保存&#xA;将覆盖当前映像的数据。" Link="Guardar directo&#xA;Sustituir la imagen original con esta imagen modificada."/>
@@ -150,7 +150,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="正在从%s，转换到%s" Link="Convirtiendo de %s a %s"/>
 
     <String Target="映像文件" Link="Archivo de imagen"/>
-    <String Target="无法获取RE信息，错误代码：%d" Link="No se puede obtener info de WinRE, código del error: %d"/>
+    <String Target="无法获取RE信息，错误代码：%d" Link="No se puede obtener info de WinRE. Código error: %d"/>
     <String Target="重启后，系统自动将启动RE，你确定要重启么？" Link="Debe reiniciar su sistema, se iniciará con WinRE, ¿Reiniciar ahora?"/>
     <String Target="此功能可以将ESD、WIM格式相互转换。" Link="Esta función puede convertir ESD a WIM y convertir WIM a ESD "/>
     <String Target="Dism++将会在RE中启动，你现在需要重启电脑么？" Link="Dism++ iniciará WinRE. ¿Reiniciar ahora?"/>
@@ -313,9 +313,9 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
 
     <!--ESD解密-->
     <String Target="温馨提示：此功能将直接解密目标文件，原版控请自行备份。" Link="Consejos: Esta función desencripta el archivo de destino directamente. Hacer una copia de seguridad de los archivos originales."/>
-    <String Target="解密口令已自动匹配" Link="La contraseña de desencriptar ha sido igualada automáticamente"/>
-    <String Target="请在输入框输入解密口令" Link="Introducir la contraseña de desencriptar en el cuadro de entrada"/>
-    <String Target="请正确输入Key，错误信息：%s" Link="Introducir la clave correcta, error: %s"/>
+    <String Target="解密口令已自动匹配" Link="La contraseña para desencriptar ha sido igualada automáticamente"/>
+    <String Target="请在输入框输入解密口令" Link="Introducir la contraseña para desencriptar en el cuadro de entrada"/>
+    <String Target="请正确输入Key，错误信息：%s" Link="Introducir la clave correcta. Código error: %s"/>
     <String Target="成功解密：%s" Link="Desencriptado: %s"/>
     <String Target="ESD解密向导" Link="Asistente para desencriptar ESD"/>
     <String Target="该文件似乎不是一个有效的WIM、ESD文件。" Link="Este archivo no parece un archivo válido de WIM o ESD."/>
@@ -340,7 +340,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="当前映像正在运行，所以无法执行修复操作。" Link="No se puede reparar porque la imagen se está utilizando."/>
     <String Target="正在修复引导" Link="Reparando..."/>
     <String Target="恭喜已经成功修复引导。" Link="Inicio reparado."/>
-    <String Target="启动修复失败，错误代码：%d" Link="Error al reparar inicio, error:%d"/>
+    <String Target="启动修复失败，错误代码：%d" Link="Error al reparar inicio. Código error:%d"/>
     <String Target="无法对PE进行引导修复。" Link="No se puede reparar el inicio PE."/>
     <String Target="类型" Link="Tipo"/>
 
@@ -368,9 +368,9 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="整合右键菜单" Link="Integrado con clic derecho en menú"/>
     <String Target="整合引导菜单" Link="Integrado en el menú de arranque BCD"/>
     <String Target="排除列表" Link="Lista excluidos"/>
-    <String Target="减少映像文件（WIM、ESD）保存时间" Link="Reducir duración del archivo de imagen (WIM y ESD) al guardar."/>
-    <String Target="CompactOS压缩率" Link="Ratio compresión CompactOS"/>
-    <String Target="压缩率越小性能越好（仅影响选中系统）" Link="Menor compresión, mejor rendimiento (afecta al sistema seleccionado)"/>
+    <String Target="减少映像文件（WIM、ESD）保存时间" Link="Reducir duración imagen (WIM y ESD) al guardar."/>
+    <String Target="CompactOS压缩率" Link="Ratio compresión compactar SO"/>
+    <String Target="压缩率越小性能越好（仅影响选中系统）" Link="Menor compresión, mejor rendimiento (sistema seleccionado)"/>
     <String Target="大约压缩33%（更佳性能）" Link="Comprimir 33% (rápido)"/>
     <String Target="大约压缩36%" Link="Comprimir 36%"/>
     <String Target="大约压缩38%" Link="Comprimir 38%"/>
@@ -446,7 +446,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="正在扫描第%d个可清理的注册表项。。。" Link="Analizando %d puede limpiar las entradas del registro..."/>
 
     <!--驱动管理-->
-    <String Target="温馨提示：删除关键驱动可能导致计算机无法启动" Link="Consejo: El borrado controladores puede causar errores al iniciar su equipo"/>
+    <String Target="温馨提示：删除关键驱动可能导致计算机无法启动" Link="Consejo: El borrado de los controladores puede causar errores al iniciar su equipo"/>
     <String Target="关键驱动：%s" Link="Controlador importante: %s"/>
     <String Target="类别标识：%s" Link="Clase: %s"/>
     <String Target="驱动版本：%hu.%hu.%hu.%hu" Link="Versión: %hu.%hu.%hu.%hu"/>
@@ -638,7 +638,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="第一次启动SysPrep前运行的命令" Link="Comando a ejecutar antes del primer inicio de SysPrep"/>
     <String Target="第一次启动SysPrep后运行的命令" Link="Comando a ejecutar después del primer inicio de SysPrep"/>
     <String Target="首次启动OOBE前运行的命令" Link="Comando a ejecutar antes del primer inicio de OOBE"/>
-    <String Target="首次启动后OOBE后运行的命令" Link="Ccomando a ejecutar después del primer inicio de OOBE"/>
+    <String Target="首次启动后OOBE后运行的命令" Link="Comando a ejecutar después del primer inicio de OOBE"/>
     <String Target="请在此输入需要添加的命令" Link="Introduzca el comando que desee añadir aquí."/>
     <String Target="上移" Link="Subir"/>
 
@@ -720,7 +720,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="导入配置" Link="Importar reg."/>
     <String Target="导入注册表文件过程中遇到问题，具体错误信息请参考 Dism++.log。" Link="Error al importar el archivo del registro. Detalles del error en Dism++.log."/>
     <String Target="注册表文件" Link="Archivo del registro"/>
-    <String Target="操作成功，但是导入注册表文件过程遇到一些非致命性错误，具体错误信息请参考 Dism++.log。" Link="Operación finalizada. Sin embargo, se han producido errores no importates al importar el archivo del registro. Puedes ver los detalles en Dism++.log."/>
+    <String Target="操作成功，但是导入注册表文件过程遇到一些非致命性错误，具体错误信息请参考 Dism++.log。" Link="Operación finalizada. Sin embargo, se han producido errores no importantes al importar el archivo del registro. Puedes ver los detalles en Dism++.log."/>
     <String Target="提交规则" Link="Reglas"/>
 
     <!--Explorer-->
@@ -766,7 +766,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
 
     <String Target="始终显示菜单栏（by 一叶微风TM）" Link="Mostrar siempre la barra de menús (YiYieWeiFeng TM)"/>
 
-    <String Target="资源管理器窗口最小化时显示完整路径（by 原罪）" Link="Mostrar la ruta completa si el explorador de windows está minimizado (YZ)"/>
+    <String Target="资源管理器窗口最小化时显示完整路径（by 原罪）" Link="Mostrar la ruta completa si el explorador de Windows está minimizado (YZ)"/>
 
     <String Target="使开始菜单、任务栏、操作中心透明" Link="Hacer el menú de inicio, la barra de tareas y el Centro de Acción transparente"/>
 
@@ -865,7 +865,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
 
     <String Target="以兼容性视图中显示所有网站（by 一叶微风TM）" Link="Mostrar todos los sitios web en vista de compatibilidad (YiYieWeiFeng TM)"/>
 
-    <String Target="启用表单的自动完成功能（by 原罪）" Link="Activar autocompletar (YZ)"/>
+    <String Target="启用表单的自动完成功能（by 原罪）" Link="Activar auto-completar (YZ)"/>
 
     <String Target="关闭建议的网站（by 原罪）" Link="Desactivar Sitios sugeridos (YZ)"/>
 
@@ -991,7 +991,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="关闭商店应用推广（by 、Cloud.）" Link="Desactivar desde Windows Store (Cloud)."/>
     <String Target="关闭多嘴的小娜（by 朽木）" Link="Desactivar Cortana (XiuMu)"/>
     <String Target="关闭游戏录制工具（by 、Cloud.）" Link="Desactivar grabador de juegos (Cloud)."/>
-    <String Target="启用 Windows 照片查看器（by 心之所向）" Link="Activar Visualizador de fotos de Windows (XingZhiSuoXiang) "/>
+    <String Target="启用 Windows 照片查看器（by 心之所向）" Link="Activar visualizador de fotos de Windows (XingZhiSuoXiang) "/>
     <String Target="安全相关设置" Link="Ajustes de seguridad"/>
     <String Target="开启模糊音（by 朽木）" Link="Activar soporte por fuzzy (XiuMu)"/>
     <String Target="开启此功能将导致平板模式下无法使用手势调出操作中心。" Link="No puedes usar gestos para llamar a Action Center en el modo Tablet si lo habilitas."/>
@@ -1035,7 +1035,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="退出" Link="Salir"/>
     <String Target="%s 解压失败，错误代码：%d" Link="Error al descomprimir %s. Código error: %d"/>
     <String Target="%s 解压成功" Link="%s descomprimido"/>
-    <String Target="%s 压缩失败，错误代码：%d" Link="Error al comprir %s. Código error: %d"/>
+    <String Target="%s 压缩失败，错误代码：%d" Link="Error al comprimir %s. Código error: %d"/>
     <String Target="%s 跳过" Link="%s omitido"/>
     <String Target="%s 压缩成功" Link="%s comprimido"/>
     <String Target="Dism++初始化成功，开始执行命令：%s" Link="Dism++ iniciado, ejecutando el comando: %s"/>
@@ -1085,7 +1085,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="接受" Link="Aceptar"/>
     <String Target="不接受" Link="No aceptar"/>
 
-    <String Target="作者的话" Link="Palabras del autor"/>
+    <String Target="作者的话" Link="Comentarios del autor"/>
 
     <!--清理项目条目映射-->
     <String Target="被取代的WinSxS组件" Link="Ensamblados WinSxS sustituidos"/>
@@ -1159,7 +1159,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
 
     <String Target="Office安装源" Link="Origen de la instalación de Office"/>
     <String Target="安装Office后产生的安装源，如果不需要卸载Office可以考虑删除，删除后能正常安装Office更新。" Link="Después de instalar Office, el programa crea el origen de la instalación. Si no necesitas desinstalar Office, puedes eliminarlo. Después de eliminarlo, puedes instalar las actualizaciones normalmente."/>
-    <String Target="清理后将无法卸载只能升级安装或者强行删除，Office 2007以下版本（包含）删除后还影响安装更新。" Link="Después de la limpieza, sólo se puede actualizar a la versión más reciente o forzar el borrado. Si has instalado Office2007 o una versión anterior, afectará a las actualizaciones de la instalación del Office."/>
+    <String Target="清理后将无法卸载只能升级安装或者强行删除，Office 2007以下版本（包含）删除后还影响安装更新。" Link="Después de la limpieza, sólo se puede actualizar a la versión más reciente o forzar el borrado. Si has instalado Office 2007 o una versión anterior, afectará a las actualizaciones de la instalación del Office."/>
 
     <String Target="腾讯相关软件下载目录" Link="Directorio de descargas de Tencent"/>
     <String Target="腾讯相关软件更新时会在此留下残留。" Link="Al actualizar Tencent, deja residuos."/>
@@ -1186,7 +1186,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="用于存放用户手动删除的文件目录。" Link="Almacena los archivos eliminados manualmente por el usuario."/>
 
     <String Target="Office 365/2016安装源" Link="Origen de la instalación de Office 365/2016"/>
-    <String Target="安装Office 365/2016后产生的安装源。" Link="Después de instalar office365/2016, el programa crea el origen de la instalación"/>
+    <String Target="安装Office 365/2016后产生的安装源。" Link="Después de instalar Office 365/2016, el programa crea el origen de la instalación"/>
     <String Target="清理可能导致无法正常卸载Office。" Link="Después de la limpieza no se puede desinstalar Office normalmente."/>
 
     <String Target="苹果iTunes备份" Link="Copia de Apple iTunes"/>
@@ -1232,7 +1232,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="请确保所有编辑的视频已经保存！" Link="¡Asegúrese de que todo el video editado se haya guardado!"/>
 
     <String Target="Visual Studio智能跟踪（by LP）" Link="Visual Studio IntelliTrace (LP)"/>
-    <String Target="Visual Studio调试程序时留下的智能跟踪缓存。" Link="Cuando visual studio crea programas de depuración, deja el caché de IntelliTrace."/>
+    <String Target="Visual Studio调试程序时留下的智能跟踪缓存。" Link="Cuando Visual Studio crea programas de depuración, deja el caché de IntelliTrace."/>
 
     <String Target="系统以及程序崩溃dmp文件（by YukiSakura）" Link="Archivos dmp del sistema y aplicaciones (YukiSakura)"/>
     <String Target="当系统蓝屏或者应用程序崩溃时产生的dmp文件。" Link="Si sale el pantallazo azul o se cuelga, se crean archivos dmp."/>
@@ -1365,7 +1365,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
 
     <x20020001>No hay una configuración predeterminada de asociación de archivos en la imagen actual. No se puede exportar.</x20020001>
     <x20020002>Se ha encontrado un problema de compatibilidad conocido. Host Virson debe ser al menos Windows 8/2012. Si continúa en el host con una versión inferior, las funciones como abrir, cerrar, añadir, eliminar o actualizar pueden no funcionar correctamente.</x20020002>
-    <x20020003>Dism++ ha encontradi un problema de compatibilidad, la existencia en la ruta de imagen de caracteres no ASCII pueden causar errores en la actualización de la instalación, vuelva a cargar la imagen desde una ruta con ASCII, tal como "D:\Mount".</x20020003>
+    <x20020003>Dism++ ha encontrado un problema de compatibilidad, la existencia en la ruta de imagen de caracteres no ASCII pueden causar errores en la actualización de la instalación, vuelva a cargar la imagen desde una ruta con ASCII, tal como "D:\Mount".</x20020003>
 
     <xC1440136>Controlador (Wofadk.sys) no cargado. Seleccionar la casilla "Cargar wofadk" en Opciones - Más opciones.</xC1440136>
     <xC144013B>Controlador (Wofadk.sys) no cargado. Seleccionar la casilla "Cargar wofadk" en Opciones - Más opciones.</xC144013B>
@@ -1389,7 +1389,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <xC1420106>Se ha recibido una solicitud de extracción de un archivo que ya se ha extraído. Esta solicitud no se procesara.</xC1420106>
     <xC1420107>El servicio ha notificado de dos archivos con el mismo id. Estos archivos son incompatibles con las marcas establecidas. La operación de montaje se ha abortado.</xC1420107>
     <xC1420108>El contenedor del sistema de archivos intentó insertar un nombre de archivo dos veces. Esto no es válido, el servicio wim sólo debe recibir una notificación por nombre de archivo.</xC1420108>
-    <xC1420109>El servicio ha recibido un mensaje de filtro erroneo. Este mensaje no se procesará.</xC1420109>
+    <xC1420109>El servicio ha recibido un mensaje de filtro erróneo. Este mensaje no se procesará.</xC1420109>
     <xC142010A>El servicio ha recibido una extracción de un archivo que no está en una imagen montada. Este extracto se ignorará.</xC142010A>
     <xC142010B>Se ha intentado desmontar un directorio que no está montado.</xC142010B>
     <xC142010C>Se ha intentado validar una imagen que se montó con acceso de sólo lectura. Esto no es válido. Para confirmar una imagen, montarla sin el conjunto de indicadores de sólo lectura.</xC142010C>
@@ -1406,11 +1406,11 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <xC1420118>La imagen montada ya está en uso.  Asegúrese de que no fue montada por otro proceso.</xC1420118>
     <xC1420119>No se ha encontrado el wimserv.exe binario.  Asegúrese de que está disponible en la ruta de búsqueda del sistema.</xC1420119>
     <xC142011A>ImageX ha agotado el tiempo esperando el proceso para extraer.</xC142011A>
-    <xC142011B>El cierre del servicio wimmount sin retorrnar a un estado.</xC142011B>
+    <xC142011B>El cierre del servicio wimmount sin retornar a un estado.</xC142011B>
     <xC142011C>El directorio especificado no es válido para un directorio montado.</xC142011C>
     <xC142011D>La imagen montada no se puede integrar con WIM. Esto ocurre cuando una imagen se ha realizado a través de un desmontaje parcial o cuando se está montando una imagen. Si esta imagen fue desmontada anteriormente, entonces puede darse este error. Compruebe que este sea caso y, a continuación, desmonte sin integrar.</xC142011D>
     <xC142011E>El directorio de montaje de la imagen especificada ha cambiado. Todos los archivos de esta imagen se extraerán, y esta imagen no se puede integrar.</xC142011E>
-    <xC142011F>El volumen de la ruta de montaje especificado no admite puntos de reanálisis. Montar en un volumen que admita puntos de reanálisis.</xC142011F>
+    <xC142011F>El volumen de la ruta de montaje especificado no admite puntos de reanálisis. Montar en un volumen que admita puntos de re-análisis.</xC142011F>
     <xC1420120>El directorio especificado contiene una imagen de montaje dañado. No se pueden realizar operaciones de montaje en este directorio.</xC1420120>
     <xC1420121>La imagen no se puede montar porque Wimmount.sys no está instalado en esta máquina. Para solucionar este error, instale Wimmount.sys.</xC1420121>
     <xC1420122>La imagen montada no se puede integrar porque la imagen del archivo WIM se ha modificado después de montarse.</xC1420122>
@@ -1440,13 +1440,13 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
 
     Se recomienda encarecidamente que todos los usuarios lean el siguiente acuerdo (denominado en lo sucesivo "acuerdo", o "este acuerdo") detenidamente antes de usar Dism++. Si decide no cumplir o no entiende el significado del acuerdo no se le permite, ni concede el derecho otorgado por el equipo de Chuyu a usar Dism++. Cualquiera que use DISM++ es porque está de acuerdo, y cumple con el contenido del presente acuerdo.
 
-    Este acuerdo define los derechos y obligaciones entre Dism++ y los usuarios de &apos;Dism++&apos; del servicio de software (en lo sucesivo denominado &apos;servicio&apos;, o &apos;este servicio&apos;) y rel equipo de Chuyu. &apos;Usuarios&apos; y &apos;usuarios de Dism++&apos; se refiere a las personas que se inscriban, incien sesión, o utilicen este servicio. Este acuerdo está sujeto a actualizaciones por el equipo de Chuyu en cualquier momento. Actualizado el acuerdo, una vez publicada en cualquier formato, sustituyendo al acuerdo original. Dism+ debería mostrar el acuerdo actualizado cuando se inicia correctamente el programa. Los usuarios de Dism++ deben dejar de usar el programa y los servicios del equipo de Chuyu inmediatamente si se opta por no cumplir con el acuerdo actualizado.
+    Este acuerdo define los derechos y obligaciones entre Dism++ y los usuarios de &apos;Dism++&apos; del servicio de software (en lo sucesivo denominado &apos;servicio&apos;, o &apos;este servicio&apos;) y del equipo de Chuyu. &apos;Usuarios&apos; y &apos;usuarios de Dism++&apos; se refiere a las personas que se inscriban, incien sesión, o utilicen este servicio. Este acuerdo está sujeto a actualizaciones por el equipo de Chuyu en cualquier momento. Actualizado el acuerdo, una vez publicada en cualquier formato, sustituyendo al acuerdo original. Dism+ debería mostrar el acuerdo actualizado cuando se inicia correctamente el programa. Los usuarios de Dism++ deben dejar de usar el programa y los servicios del equipo de Chuyu inmediatamente si se opta por no cumplir con el acuerdo actualizado.
 
 I. Derechos y Obligaciones
 
     1. Los usuarios de Dism++ solo pueden usar Dism++ para uso personal en su PC(s). Cualquier uso no personal (incluyendo pero no limitado a uso comercial o ocupacional) sin la aprobación por escrito del equipo de Chuyu no está permitido.
     2. Los usuarios de Dism++ deben leer este acuerdo y otro contenido en el documento de Dism++ cuidadosamente antes de usar Dism++.
-    3. Los usuarios de Dism++ tienen la obligación de informar de errores y posibles mejoras al equipo de Chuyu. Cualquier persona que use Dism++ durante más de 30 días debe enviar mingkuang un informe de uso Dism++ con no menos de 345 palabras. Cualquier persona que use Dism++ durante 8 meses o más debe enviar a mingkuang un informe anual (al menos 520 palabras) sobre el tema &apos;sugerencia y posible mejora en Dism++&apos; el 11 de noviembre (hora local). Correo electrónico de mingkuang: mingkuang@live.com.
+    3. Los usuarios de Dism++ tienen la obligación de informar de errores y posibles mejoras al equipo de Chuyu. Cualquier persona que use Dism++ durante más de 30 días debe enviar a Mingkuang un informe de uso Dism++ con no menos de 345 palabras. Cualquier persona que use Dism++ durante 8 meses o más debe enviar a Mingkuang un informe anual (al menos 520 palabras) sobre el tema &apos;Sugerencia y posible mejora en Dism++&apos; el 11 de noviembre (hora local). Correo electrónico de Mingkuang: mingkuang@live.com.
     4. Los usuarios de Dism++ deben conservar el amor por la paz, por el trabajo en grupo y por ayudar a los demás.
     5. Los usuarios de Dism++ deben cumplir con la Ley Fundamental (o equivalentes locales). Cualquier acción que viole los derechos de autor del equipo de Chuyu o de este acuerdo (incluyendo, pero no limitado a copiar, propagar, mostrar, reflejar, cargar, descargar, modificar) de manera inapropiada, y aquellos que afectan negativamente el funcionamiento del equipo de Chuyu serán objeto de graves acciones legales.
     6. Cualquier persona que no cumpla con este acuerdo pierde automáticamente cualquier derecho otorgado por el equipo de Chuyu. El equipo de Chuyu conserva el derecho de detener todo el software del equipo de Chuyu en su PC (s), rechazar cualquiera de sus propuestas y perseguir acciones legales contra ellos.
