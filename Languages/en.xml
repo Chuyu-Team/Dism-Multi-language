@@ -394,6 +394,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
       <String Target="Appx管理" Link="Appxs"/>
 
     <String Target="驱动管理" Link="Drivers"/>
+    <String Target="程序和功能" Link="Apps and Features"/>
     <String Target="Windows服务" Link="Services"/>
     <String Target="Windows功能" Link="Features"/>
     <String Target="更新管理" Link="Updates"/>
