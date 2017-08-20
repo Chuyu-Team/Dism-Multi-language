@@ -1,6 +1,6 @@
 <Strings>
   <String Src="%lang%" Dst="es"/>
-  <String Src="%description%" Dst="Integrar actualizaciones y controladores, etc, limpiar WinSxS y el caché de paquetes etc, personalizar la imagen del SO, aumentar el su proceso de implementación de Windows."/>
+  <String Src="%description%" Dst="Integrar actualizaciones y controladores, etc, limpieza de WinSxS y el caché de paquetes etc, personalizar la imagen del SO, aumentar el su proceso de implementación de Windows."/>
   <String Src="%keywords%" Dst="Dism++, Dism GUI, limpieza de WinSxS, herramienta de limpieza de Windows Update, limpieza del sistema, limpieza de Windows Update, Vista, Win7, Win8, Win8.1, Win10, Chuyu, Dism, añadiendo actualizaciones, Windows"/>
   <String Src="%title%" Dst="Dism++ | Herramienta nueva para Windows"/>
   <String Src="%String1%" Dst="Dism++, es probablemente la mejor herramienta"/>
