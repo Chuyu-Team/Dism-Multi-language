@@ -40,10 +40,11 @@ switch (la[0]) {
             default:
                 la = 'zh-Hans'; break;
         } break;
-    //case 'wuu': case 'yue':
-    //    la = 'zh-Hans'; break;
-    default:
+    case 'wuu': case 'yue':
         la = 'zh-Hant'; break;
+    default:
+        // this should be 'en', the 'en/Document.html' exists and works it is just partially translated from 'zh-hant'.
+        la = 'en'; break;
 }
 document.location = '../' + la + '/Document.html';
 </script>
