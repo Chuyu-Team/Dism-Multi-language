@@ -1388,7 +1388,7 @@
     </Item>
   </CleanCollection4>
   <SystemOptimization>
-    <Group Name="#任务栏以及小娜相关设置">
+    <Group Name="#任务栏相关设置">
       <Item Type="Combo" Name="#将任务栏中的Cortana调整为">
         <Applicable>
           <OSVersion Compare=">=">10.0</OSVersion>
@@ -1778,24 +1778,65 @@
         </Default>
       </Item>
 
-      <Item Type="CheckBox" Name="#关闭多嘴的小娜（by 朽木）">
+      <Item Type="CheckBox" Name="#隐藏任务栏上的人脉（by 、Cloud.）">
         <Applicable>
-          <OSVersion Compare=">=">10.0</OSVersion>
+          <OSVersion Compare=">=">10.0.16199</OSVersion>
         </Applicable>
-        <System>
+        <Current>
           <State>
             <Applicable>
-              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search" Value="AllowCortana" Type="REG_DWORD" Data="0"/>
+              <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People" Value="PeopleBand" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate Restart="Explorer">
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People" Value="PeopleBand" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate Restart="Explorer">
+              <RegDelete Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People" Value="PeopleBand"/>
+            </Activate>
+          </False>
+        </Current>
+
+        <Default>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People" Value="PeopleBand" Type="REG_DWORD" Data="0"/>
             </Applicable>
           </State>
           <True>
             <Activate>
-              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search" Value="AllowCortana" Type="REG_DWORD" Data="0"/>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People" Value="PeopleBand" Type="REG_DWORD" Data="0"/>
             </Activate>
           </True>
           <False>
             <Activate>
-              <RegDelete Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search" Value="AllowCortana"/>
+              <RegDelete Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People" Value="PeopleBand"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
+
+      <Item Type="CheckBox" Name="#*隐藏某些SATA硬盘任务栏图标（by 原罪）">
+        <Applicable>
+          <RegExist Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvata"/>
+        </Applicable>
+        <System>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvata" Value="DisableRemovable" Type="REG_DWORD" Data="1"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvata" Value="DisableRemovable" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvata" Value="DisableRemovable" Type="REG_DWORD" Data="0"/>
             </Activate>
           </False>
         </System>
@@ -2163,6 +2204,360 @@
           </False>
         </System>
       </Item>
+    </Group>
+
+    <Group Name="#开始菜单以及Windows体验">
+
+      <Item Type="CheckBox" Name="#不允许在开始菜单显示建议">
+        <Applicable>
+          <OSVersion Compare=">=">10.0</OSVersion>
+        </Applicable>
+        <Current>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled" Type="REG_DWORD" Data="1"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate Restart="Explorer">
+              <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate Restart="Explorer">
+              <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled"  Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </False>
+        </Current>
+        <Default>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled" Type="REG_DWORD" Data="1"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
+
+      <Item Type="CheckBox" Name="#关闭在应用商店中查找关联应用（by Asoft）">
+        <Applicable>
+          <OSVersion Compare=">=">6.2</OSVersion>
+        </Applicable>
+        <System>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer" Value="NoUseStoreOpenWith" Type="REG_DWORD" Data="1"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer" Value="NoUseStoreOpenWith" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer" Value="NoUseStoreOpenWith"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
+
+      <Item Type="CheckBox" Name="#关闭商店应用推广（by 、Cloud.）">
+        <Applicable>
+          <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="PreInstalledAppsEnabled"/>
+        </Applicable>
+        <Current>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="PreInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="PreInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="PreInstalledAppsEnabled" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </False>
+        </Current>
+
+        <Default>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="PreInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="PreInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="PreInstalledAppsEnabled" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
+
+      <Item Type="CheckBox" Name="#关闭锁屏时的Windows 聚焦推广（by 、Cloud.）">
+        <Applicable>
+          <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable"/>
+        </Applicable>
+        <Current>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </False>
+        </Current>
+
+        <Default>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
+
+      <Item Type="CheckBox" Name="#关闭“使用Windows时获取技巧和建议”（by 、Cloud.）">
+        <Applicable>
+          <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SoftLandingEnabled"/>
+        </Applicable>
+        <Current>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SoftLandingEnabled" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SoftLandingEnabled" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SoftLandingEnabled" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </False>
+        </Current>
+
+        <Default>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SoftLandingEnabled" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SoftLandingEnabled" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SoftLandingEnabled" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
+
+      <Item Type="CheckBox" Name="#禁止自动安装推荐的应用程序（by IT之家）">
+        <Applicable>
+          <OSVersion Compare=">=">10.0</OSVersion>
+        </Applicable>
+        <Current>
+          <State>
+            <Applicable>
+              <Or>
+                <Not>
+                  <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled"/>
+                </Not>
+                <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
+              </Or>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </False>
+        </Current>
+
+        <Default>
+          <State>
+            <Applicable>
+              <Or>
+                <Not>
+                  <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled"/>
+                </Not>
+                <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
+              </Or>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
+
+      <Item Type="Combo" Name="#关闭游戏录制工具（by 、Cloud.）">
+        <Applicable>
+          <OSVersion Compare=">=">6.4</OSVersion>
+        </Applicable>
+        <Current>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" Value="AppCaptureEnabled" Type="REG_DWORD" Data="0"/>
+              <RegExist Key="HKEY_CURRENT_USER\System\GameConfigStore" Value="GameDVR_Enabled" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" Value="AppCaptureEnabled" Type="REG_DWORD" Data="0"/>
+              <RegWrite Key="HKEY_CURRENT_USER\System\GameConfigStore" Value="GameDVR_Enabled" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" Value="AppCaptureEnabled"/>
+              <RegDelete Key="HKEY_CURRENT_USER\System\GameConfigStore" Value="GameDVR_Enabled"/>
+            </Activate>
+          </False>
+        </Current>
+        <Default>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" Value="AppCaptureEnabled" Type="REG_DWORD" Data="0"/>
+              <RegExist Key="HKEY_USERS\DEFAULT\System\GameConfigStore" Value="GameDVR_Enabled" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" Value="AppCaptureEnabled" Type="REG_DWORD" Data="0"/>
+              <RegWrite Key="HKEY_USERS\DEFAULT\System\GameConfigStore" Value="GameDVR_Enabled" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" Value="AppCaptureEnabled"/>
+              <RegDelete Key="HKEY_USERS\DEFAULT\System\GameConfigStore" Value="GameDVR_Enabled"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
+
+      <Item Type="CheckBox" Name="#登陆界面默认打开小键盘（by IT之家）">
+        <System>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\.DEFAULT\Control Panel\Keyboard" Value="InitialKeyboardIndicators" Type="REG_SZ" Data="2"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\.DEFAULT\Control Panel\Keyboard" Value="InitialKeyboardIndicators" Type="REG_SZ" Data="2"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\.DEFAULT\Control Panel\Keyboard" Value="InitialKeyboardIndicators" Type="REG_SZ" Data="2147483648"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
+
+      <Item Type="CheckBox" Name="#关闭OneDrive（by Rambin）">
+        <Applicable>
+          <OSVersion Compare=">=">6.2</OSVersion>
+        </Applicable>
+        <System>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\OneDrive" Value="DisableFileSyncNGSC" Type="REG_DWORD" Data="1"/>
+            </Applicable>
+          </State>
+          <True>
+            <Warning>#禁用OneDrive将导致某些Windows Store应用无法使用OneDrive存储。</Warning>
+            <Activate>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\OneDrive" Value="DisableFileSyncNGSC" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\OneDrive" Value="DisableFileSyncNGSC" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
+
+      <Item Type="CheckBox" Name="#关闭多嘴的小娜（by 朽木）">
+        <Applicable>
+          <OSVersion Compare=">=">10.0</OSVersion>
+        </Applicable>
+        <System>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search" Value="AllowCortana" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search" Value="AllowCortana" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search" Value="AllowCortana"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
+
     </Group>
     
     <Group Name="Explorer">
@@ -2884,46 +3279,6 @@
         </Default>
       </Item>
       
-      <Item Type="CheckBox" Name="#不允许在开始菜单显示建议">
-        <Applicable>
-          <OSVersion Compare=">=">10.0</OSVersion>
-        </Applicable>
-        <Current>
-          <State>
-            <Applicable>
-              <RegExist Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled" Type="REG_DWORD" Data="1"/>
-            </Applicable>
-          </State>
-          <True>
-            <Activate Restart="Explorer">
-              <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled" Type="REG_DWORD" Data="1"/>
-            </Activate>
-          </True>
-          <False>
-            <Activate Restart="Explorer">
-              <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled"  Type="REG_DWORD" Data="0"/>
-            </Activate>
-          </False>
-        </Current>
-        <Default>
-          <State>
-            <Applicable>
-              <RegExist Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled" Type="REG_DWORD" Data="1"/>
-            </Applicable>
-          </State>
-          <True>
-            <Activate>
-              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled" Type="REG_DWORD" Data="1"/>
-            </Activate>
-          </True>
-          <False>
-            <Activate>
-              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled" Type="REG_DWORD" Data="0"/>
-            </Activate>
-          </False>
-        </Default>
-      </Item>
-
       <Item Type="CheckBox" Name="#关闭视频文件预览，提高资源管理器响应速度（by ‍莫失莫忘）">
         <Applicable>
           <Or>
@@ -3049,203 +3404,6 @@
             </Activate>
           </False>
         </System>
-      </Item>
-
-      <Item Type="CheckBox" Name="#关闭在应用商店中查找关联应用（by Asoft）">
-        <Applicable>
-          <OSVersion Compare=">=">6.2</OSVersion>
-        </Applicable>
-        <System>
-          <State>
-            <Applicable>
-              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer" Value="NoUseStoreOpenWith" Type="REG_DWORD" Data="1"/>
-            </Applicable>
-          </State>
-          <True>
-            <Activate>
-              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer" Value="NoUseStoreOpenWith" Type="REG_DWORD" Data="1"/>
-            </Activate>
-          </True>
-          <False>
-            <Activate>
-              <RegDelete Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer" Value="NoUseStoreOpenWith"/>
-            </Activate>
-          </False>
-        </System>
-      </Item>
-
-      <Item Type="CheckBox" Name="#关闭商店应用推广（by 、Cloud.）">
-        <Applicable>
-          <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="PreInstalledAppsEnabled"/>
-        </Applicable>
-        <Current>
-          <State>
-            <Applicable>
-               <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="PreInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
-            </Applicable>
-          </State>
-          <True>
-            <Activate>
-              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="PreInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
-            </Activate>
-          </True>
-          <False>
-            <Activate>
-              <RegDelete Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="PreInstalledAppsEnabled" Type="REG_DWORD" Data="1"/>
-            </Activate>
-          </False>
-        </Current>
-
-        <Default>
-          <State>
-            <Applicable>
-              <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="PreInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
-            </Applicable>
-          </State>
-          <True>
-            <Activate>
-              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="PreInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
-            </Activate>
-          </True>
-          <False>
-            <Activate>
-              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="PreInstalledAppsEnabled" Type="REG_DWORD" Data="1"/>
-            </Activate>
-          </False>
-        </Default>
-      </Item>
-
-      <Item Type="CheckBox" Name="#关闭锁屏时的Windows 聚焦推广（by 、Cloud.）">
-        <Applicable>
-          <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable"/>
-        </Applicable>
-        <Current>
-          <State>
-            <Applicable>
-              <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable" Type="REG_DWORD" Data="0"/>
-            </Applicable>
-          </State>
-          <True>
-            <Activate>
-              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable" Type="REG_DWORD" Data="0"/>
-            </Activate>
-          </True>
-          <False>
-            <Activate>
-              <RegDelete Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable" Type="REG_DWORD" Data="1"/>
-            </Activate>
-          </False>
-        </Current>
-
-        <Default>
-          <State>
-            <Applicable>
-              <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable" Type="REG_DWORD" Data="0"/>
-            </Applicable>
-          </State>
-          <True>
-            <Activate>
-              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable" Type="REG_DWORD" Data="0"/>
-            </Activate>
-          </True>
-          <False>
-            <Activate>
-              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable" Type="REG_DWORD" Data="1"/>
-            </Activate>
-          </False>
-        </Default>
-      </Item>
-
-      <Item Type="CheckBox" Name="#关闭“使用Windows时获取技巧和建议”（by 、Cloud.）">
-        <Applicable>
-          <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SoftLandingEnabled"/>
-        </Applicable>
-        <Current>
-          <State>
-            <Applicable>
-              <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SoftLandingEnabled" Type="REG_DWORD" Data="0"/>
-            </Applicable>
-          </State>
-          <True>
-            <Activate>
-              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SoftLandingEnabled" Type="REG_DWORD" Data="0"/>
-            </Activate>
-          </True>
-          <False>
-            <Activate>
-              <RegDelete Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SoftLandingEnabled" Type="REG_DWORD" Data="1"/>
-            </Activate>
-          </False>
-        </Current>
-
-        <Default>
-          <State>
-            <Applicable>
-              <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SoftLandingEnabled" Type="REG_DWORD" Data="0"/>
-            </Applicable>
-          </State>
-          <True>
-            <Activate>
-              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SoftLandingEnabled" Type="REG_DWORD" Data="0"/>
-            </Activate>
-          </True>
-          <False>
-            <Activate>
-              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SoftLandingEnabled" Type="REG_DWORD" Data="1"/>
-            </Activate>
-          </False>
-        </Default>
-      </Item>
-      
-      <Item Type="CheckBox" Name="#禁止自动安装推荐的应用程序（by IT之家）">
-        <Applicable>
-          <OSVersion Compare=">=">10.0</OSVersion>
-        </Applicable>
-        <Current>
-          <State>
-            <Applicable>
-              <Or>
-                <Not>
-                  <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled"/>
-                </Not>
-                <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
-              </Or>
-            </Applicable>
-          </State>
-          <True>
-            <Activate>
-              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
-            </Activate>
-          </True>
-          <False>
-            <Activate>
-              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled" Type="REG_DWORD" Data="1"/>
-            </Activate>
-          </False>
-        </Current>
-
-        <Default>
-          <State>
-            <Applicable>
-              <Or>
-                <Not>
-                  <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled"/>
-                </Not>
-                <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
-              </Or>
-            </Applicable>
-          </State>
-          <True>
-            <Activate>
-              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
-            </Activate>
-          </True>
-          <False>
-            <Activate>
-              <RegDelete Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled" Type="REG_DWORD" Data="1"/>
-            </Activate>
-          </False>
-        </Default>
       </Item>
 
       <Item Type="CheckBox" Name="#关闭“突出显示新安装的程序”（by 溯汐潮）">
@@ -3449,47 +3607,6 @@
           <False>
             <Activate>
               <RegDelete Key="HKEY_USERS\DEFAULT\Software\Microsoft\CTF\LangBar\ItemState\{ED9D5450-EBE6-4255-8289-F8A31E687228}" Value="DemoteLevel"/>
-            </Activate>
-          </False>
-        </Default>
-      </Item>
-
-      <Item Type="CheckBox" Name="#隐藏任务栏上的人脉（by 、Cloud.）">
-        <Applicable>
-          <OSVersion Compare=">=">10.0.16199</OSVersion>
-        </Applicable>
-        <Current>
-          <State>
-            <Applicable>
-              <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People" Value="PeopleBand" Type="REG_DWORD" Data="0"/>
-            </Applicable>
-          </State>
-          <True>
-            <Activate Restart="Explorer">
-              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People" Value="PeopleBand" Type="REG_DWORD" Data="0"/>
-            </Activate>
-          </True>
-          <False>
-            <Activate Restart="Explorer">
-              <RegDelete Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People" Value="PeopleBand"/>
-            </Activate>
-          </False>
-        </Current>
-
-        <Default>
-          <State>
-            <Applicable>
-              <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People" Value="PeopleBand" Type="REG_DWORD" Data="0"/>
-            </Applicable>
-          </State>
-          <True>
-            <Activate>
-              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People" Value="PeopleBand" Type="REG_DWORD" Data="0"/>
-            </Activate>
-          </True>
-          <False>
-            <Activate>
-              <RegDelete Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People" Value="PeopleBand"/>
             </Activate>
           </False>
         </Default>
@@ -6730,31 +6847,7 @@
           </False>
         </System>
       </Item>
-      
-      <Item Type="CheckBox" Name="#关闭OneDrive（by Rambin）">
-        <Applicable>
-          <OSVersion Compare=">=">6.2</OSVersion>
-        </Applicable>
-        <System>
-          <State>
-            <Applicable>
-              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\OneDrive" Value="DisableFileSyncNGSC" Type="REG_DWORD" Data="1"/>
-            </Applicable>
-          </State>
-          <True>
-            <Warning>#禁用OneDrive将导致某些Windows Store应用无法使用OneDrive存储。</Warning>
-            <Activate>
-              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\OneDrive" Value="DisableFileSyncNGSC" Type="REG_DWORD" Data="1"/>
-            </Activate>
-          </True>
-          <False>
-            <Activate>
-              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\OneDrive" Value="DisableFileSyncNGSC" Type="REG_DWORD" Data="0"/>
-            </Activate>
-          </False>
-        </System>
-      </Item>
-      
+            
       <Item Type="CheckBox" Name="#*VHD启动时不要将VHD动态文件扩展到最大（以节省空间）">
         <Applicable>
           <RegExist Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\FsDepends\Parameters" Value="VirtualDiskExpandOnMount"/>
@@ -6779,29 +6872,6 @@
         </System>
       </Item>
       
-      <Item Type="CheckBox" Name="#*隐藏某些SATA硬盘任务栏图标（by 原罪）">
-        <Applicable>
-          <RegExist Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvata"/>
-        </Applicable>
-        <System>
-          <State>
-            <Applicable>
-              <RegExist Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvata" Value="DisableRemovable" Type="REG_DWORD" Data="1"/>
-            </Applicable>
-          </State>
-          <True>
-            <Activate>
-              <RegWrite Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvata" Value="DisableRemovable" Type="REG_DWORD" Data="1"/>
-            </Activate>
-          </True>
-          <False>
-            <Activate>
-              <RegWrite Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvata" Value="DisableRemovable" Type="REG_DWORD" Data="0"/>
-            </Activate>
-          </False>
-        </System>
-      </Item>
-
       <Item Type="CheckBox" Name="#蓝屏时自动重启（by 原罪）">
         <System>
           <State>
@@ -6989,52 +7059,6 @@
         </System>
       </Item>
 
-      <Item Type="Combo" Name="#关闭游戏录制工具（by 、Cloud.）">
-        <Applicable>
-          <OSVersion Compare=">=">6.4</OSVersion>
-        </Applicable>
-        <Current>
-          <State>
-            <Applicable>
-              <RegExist Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" Value="AppCaptureEnabled" Type="REG_DWORD" Data="0"/>
-              <RegExist Key="HKEY_CURRENT_USER\System\GameConfigStore" Value="GameDVR_Enabled" Type="REG_DWORD" Data="0"/>
-            </Applicable>
-          </State>
-          <True>
-            <Activate>
-              <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" Value="AppCaptureEnabled" Type="REG_DWORD" Data="0"/>
-              <RegWrite Key="HKEY_CURRENT_USER\System\GameConfigStore" Value="GameDVR_Enabled" Type="REG_DWORD" Data="0"/>
-            </Activate>
-          </True>
-          <False>
-            <Activate>
-              <RegDelete Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" Value="AppCaptureEnabled"/>
-              <RegDelete Key="HKEY_CURRENT_USER\System\GameConfigStore" Value="GameDVR_Enabled"/>
-            </Activate>
-          </False>
-        </Current>
-        <Default>
-          <State>
-            <Applicable>
-              <RegExist Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" Value="AppCaptureEnabled" Type="REG_DWORD" Data="0"/>
-              <RegExist Key="HKEY_USERS\DEFAULT\System\GameConfigStore" Value="GameDVR_Enabled" Type="REG_DWORD" Data="0"/>
-            </Applicable>
-          </State>
-          <True>
-            <Activate>
-              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" Value="AppCaptureEnabled" Type="REG_DWORD" Data="0"/>
-              <RegWrite Key="HKEY_USERS\DEFAULT\System\GameConfigStore" Value="GameDVR_Enabled" Type="REG_DWORD" Data="0"/>
-            </Activate>
-          </True>
-          <False>
-            <Activate>
-              <RegDelete Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" Value="AppCaptureEnabled"/>
-              <RegDelete Key="HKEY_USERS\DEFAULT\System\GameConfigStore" Value="GameDVR_Enabled"/>
-            </Activate>
-          </False>
-        </Default>
-      </Item>
-
       <Item Type="CheckBox" Name="#禁用账号登录日志报告（by 溯汐潮）">
         <System>
           <State>
@@ -7050,26 +7074,6 @@
           <False>
             <Activate>
               <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" Value="ReportBootOk" Type="REG_SZ" Data="1"/>
-            </Activate>
-          </False>
-        </System>
-      </Item>
-      
-      <Item Type="CheckBox" Name="#登陆界面默认打开小键盘（by IT之家）">
-        <System>
-          <State>
-            <Applicable>
-              <RegExist Key="HKEY_USERS\.DEFAULT\Control Panel\Keyboard" Value="InitialKeyboardIndicators" Type="REG_SZ" Data="2"/>
-            </Applicable>
-          </State>
-          <True>
-            <Activate>
-              <RegWrite Key="HKEY_USERS\.DEFAULT\Control Panel\Keyboard" Value="InitialKeyboardIndicators" Type="REG_SZ" Data="2"/>
-            </Activate>
-          </True>
-          <False>
-            <Activate>
-              <RegWrite Key="HKEY_USERS\.DEFAULT\Control Panel\Keyboard" Value="InitialKeyboardIndicators" Type="REG_SZ" Data="2147483648"/>
             </Activate>
           </False>
         </System>
