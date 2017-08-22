@@ -7234,6 +7234,8 @@
     <Item>Users\*\AppData\Local\Microsoft\Windows\Explorer\</Item>
     <Item>Users\*\AppData\Local\Microsoft\Windows\Caches\</Item>
     <Item>Users\*\AppData\Local\Microsoft\Windows\INetCache\</Item>
+    <!--过滤Linux子系统，以免备份失败-->
+    <Item>Users\*\AppData\Local\lxss</Item>
   </DefaultFilterList>
   <TimeZoneMap>
     <x2>SA Western Standard Time</x2>
