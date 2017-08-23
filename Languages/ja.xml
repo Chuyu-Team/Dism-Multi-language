@@ -827,7 +827,7 @@ Special Thanks to 山形まり花、奎宁
     <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="タスク バーの [People] を隠す（by 、Cloud.）"/>
 
     <!--开始菜单-->
-    <String q="" Target="开始菜单以及Windows体验" Link="スタート画面および Windows の体験"/>
+    <String Target="开始菜单以及Windows体验" Link="スタート画面および Windows の体験"/>
 
     <!--右键菜单管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="右クリック メニューの管理 - 非必要メニューを無効し、パフォーマンスを改善する"/>
@@ -990,7 +990,7 @@ Special Thanks to 山形まり花、奎宁
 
     <String Target="Windows 照片查看器" Link="Windows フォト ビューアー"/>
     <String Target="Windows主题相关设置" Link="Windows テーマの設定"/>
-    <String q="" Target="任务栏相关设置" Link="タスク バーの設定"/>
+    <String Target="任务栏相关设置" Link="タスク バーの設定"/>
     <String Target="关闭商店应用推广（by 、Cloud.）" Link="ストアのキャンペーンを閉じる (by 、Cloud.)"/>
     <String Target="关闭多嘴的小娜（by 朽木）" Link="コルタナを閉じる (by XiuMu)"/>
     <String Target="关闭游戏录制工具（by 、Cloud.）" Link="ゲーム録画を閉じる (by 、Cloud.)"/>
