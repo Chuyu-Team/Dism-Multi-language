@@ -9,8 +9,8 @@
 - [2.1. Dism++术语](?file=Dism++Library/术语.md "Dism++术语")
 - [2.2. Dism++隐藏设置](?file=Dism++Library/隐藏功能.md "Dism++隐藏设置")
 - [2.3. 自定义规则](?file=Dism++Library/自定义规则.md "自定义规则")
-- [2.3. 规则结构参考](?file=Dism++Library/规则结构参考.md "规则结构参考")
-- [2.4. 通用安装脚本——sut](?file=Dism++Library/Dism++sut.md "通用安装脚本")
+- [2.4. 规则结构参考](?file=Dism++Library/规则结构参考.md "规则结构参考")
+- [2.5. 通用安装脚本——sut](?file=Dism++Library/Dism++sut.md "通用安装脚本")
 
 ##### 3. Dism++最佳实践
 - [3.1. 使用Dism++安装系统](?file=Best/使用Dism++安装系统.md "使用Dism++安装系统")
