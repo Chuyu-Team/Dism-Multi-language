@@ -106,7 +106,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="Xpress4k（推荐）" Link="Xpress4k (recommended)"/>
     <String Target="LZX（体积最小）" Link="LZX (smallest)"/>
 
-    <!-- 主框架  -->
+    <!--主框架-->
     <String Target="正在删除" Link="Deleting"/>
     <String Target="错误提示" Link="Error"/>
     <String Target="正在保存" Link="Saving"/>
@@ -122,7 +122,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="Dism++不允许以兼容模式启动，请去除兼容模式，然后再启动Dism++。" Link="Dism++ doesn’t allow compatibility mode. Restart Dism++ after disable it."/>
 
     <String Target="你需要增量保存还是直接保存？" Link="Save directly or perform an imcremental save?"/>
-    <String Target="温馨提示：保存映像后空间不会减少，如果需要减少空间请重新编译目标文件。" Link="Tips: Space won’t reduce if you save this image;  recompile target file if you need to reduce the space"/>
+    <String Target="温馨提示：保存映像后空间不会减少，如果需要减少空间请重新编译目标文件。" Link="Tips: Space won’t reduce if you save this image; recompile target file if you need to reduce the space"/>
     <String Target="增量保存（推荐）&#xA;创建一个新的映像，不会覆盖原有数据。" Link="Incremental save (recommended)&#xA;Create a new image; original data will not be changed."/>
 
     <String Target="直接保存&#xA;将覆盖当前映像的数据。" Link="Direct save&#xA;Replace original image with this modified image."/>
@@ -168,7 +168,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="在还原前你需要格式化分区：%s ?" Link="Do you want to format the partition %s before restoring?"/>
 
     <String Target="温馨提示：格式化分区该分区所有数据将丢失！" Link="Warning: All data will be erased after Formatting!"/>
-    <String Target="格式化分区（推荐）&#xA;有助于系统分区整洁，消除文件残留。" Link="Formatting (Recommanded)&#xA; makes system partition and clean without residuals.  "/>
+    <String Target="格式化分区（推荐）&#xA;有助于系统分区整洁，消除文件残留。" Link="Formatting (Recommanded)&#xA; makes system partition and clean without residuals."/>
 
     <String Target="%s 映像已经还原成功。" Link="Successfully restored %s image."/>
     <String Target="你需要重启并立即生效么？" Link="Save changes and Restart now?"/>
@@ -602,8 +602,12 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="分析%d%%" Link="Analysing %d%%"/>
     <String Target="%s 将引入独占请求，请在 %d 秒内做出选择。" Link="%s requires an exclusive access, please confirm within %d seconds."/>
     <String Target="温馨提示：引入独占请求后，你将无法安装其他更新，直到你重启系统。建议你先安装其他更新，最后安装此更新。" Link="Hint: With exclusive access, you will not be able to install other updates, until you restart system. We suggest you install other updates first, then install this install at last."/>
-    <String Target="暂不安装（推荐）&#xA;我暂时还需要添加其他更新。" Link="Do not install (recommended)&#xA; I need to install other updates."/>
-    <String Target="继续安装&#xA;我已确保我需要的更新均已安装。" Link="Go on installation&#xA;I have installed other updates."/>
+    <String
+      Target="暂不安装（推荐）&#xA;我暂时还需要添加其他更新。"
+      Link="Do not install (recommended)&#xA; I need to install other updates."/>
+    <String
+      Target="继续安装&#xA;我已确保我需要的更新均已安装。"
+      Link="Go on installation&#xA;I have installed other updates."/>
     <String
       Target="关于 %s 的警告：&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;你确定要继续吗？"
       Link="%s warning:&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;Sure to proceed?"/>
@@ -650,7 +654,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <!--工具箱-->
     <String Target="激活备份" Link="Activation Backup"/>
     <String Target="帮助用户备份已激活系统信息，方便下次还原。" Link="Backup the system activation information to ease system restore."/>
-    <String Target="这里可以写备份说明，支持Windows以及Office零售版 : )" Link="Annotate the backup. Support backup for Windows &amp; Office Retail  : )"/>
+    <String Target="这里可以写备份说明，支持Windows以及Office零售版 : )" Link="Annotate the backup. Support backup for Windows &amp; Office Retail  :-)"/>
     <String Target="系统名称" Link="Product Name"/>
     <String Target="备份时间" Link="Time"/>
     <String Target="备份说明" Link="Description"/>
@@ -1048,7 +1052,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="未正确识别到命令，以下是程序支持的所有命令：" Link="Command not found, please check your input. List of all commands supported:"/>
     <String
       Target="将一个文件夹或者文件进行Compact压缩：&#xD;&#xA;/C  { /exe [ xpress4k（默认、更佳性能） | xpress8k | xpress16k | lzx（更小体积） ] } Path"
-      Link="Compact compress a folder or file(s):&#xD;&#xA;/C  { /exe [ xpress4k(default, faster) | xpress8k | xpress16k | lzx(smaller) ] } Path"/>
+      Link="Compact compress a folder or file(s):&#xD;&#xA;/C { /exe [ xpress4k (default, faster) | xpress8k | xpress16k | lzx (smaller) ] } Path"/>
     <String
       Target="将一个文件夹或者文件进行Compact解压缩&#xD;&#xA;/U Path"
       Link="Decompress the compacted folder or file(s)&#xD;&#xA;/U Path"/>
@@ -1057,7 +1061,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
       Link="/Image:&lt;path_to_image&gt;&#9;- The path to the root directory of the image.&#xD;&#xA;&#xD;&#xA;Examples:&#xD;&#xA; Dism++x86.exe /Image:C:\ /?&#xD;&#xA; Dism++x86.exe /Image:&quot;D:\1213\&quot; /?"/>
     <String
       Target="映像管理命令：&#xD;&#xA; /All&#9;- 打开全局会话&#xD;&#xA; /Image&#9;- 指定特定 Windows 映像的根目录的路径。&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Compact支持命令：&#xD;&#xA; /C&#9;- 使用Compact压缩文件/文件夹&#xD;&#xA; /U&#9;- 撤销Compact压缩的文件/文件夹&#xD;&#xA;&#xD;&#xA;若要获得有关这些 Dism++ 选项及其参数的详细信息，请在紧挨着 /? 之前指定一个选项。&#xD;&#xA;示例：&#xD;&#xA; Dism++x86.exe /Image /?&#xD;&#xA; Dism++x86.exe /C /?"
-      Link="Image Management Command:&#xD;&#xA; /All&#9;- Open the global session&#xD;&#xA; /Image&#9;- Designate the root directory of windows image&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Compact supported command&#xD;&#xA; /C&#9;- Use the compressed files/folders (compressed with compact)&#xD;&#xA; /U&#9;- Revoke the compressed files/folders (compressed with compact)&#xD;&#xA;&#xD;&#xA;For more information about these Dism++ options and their arguments, specify an\noption immediately before /?.&#xD;&#xA;Examples:&#xD;&#xA; Dism++x86.exe /Image /?&#xD;&#xA; Dism++x86.exe /C /?"/>
+      Link="Image Management Command:&#xD;&#xA; /All&#9;- Open the global session&#xD;&#xA; /Image&#9;- Designate the root directory of windows image&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Compact supported command&#xD;&#xA; /C&#9;- Use the compressed files/folders (compressed with compact)&#xD;&#xA; /U&#9;- Revoke the compressed files/folders (compressed with compact)&#xD;&#xA;&#xD;&#xA;For more information about these Dism++ options and their arguments,&#xD;&#xA;specify an option immediately before /?.&#xD;&#xA;Example:&#xD;&#xA; Dism++x86.exe /Image /?&#xD;&#xA; Dism++x86.exe /C /?"/>
     <String
       Target="/Plugin:&lt;Plugin_ID&gt;&#9;- 此功能用于打开某插件支持的命令&#xD;&#xA;&#xD;&#xA;示例：&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"
       Link="/Plugin:&lt;Plugin_ID&gt;&#9;- To run the commands supported with a plug-in.&#xD;&#xA;&#xD;&#xA;Examples:&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"/>
@@ -1108,7 +1112,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
 
     <String Target="CompactOs（较慢）" Link="CompactOs (slower)"/>
     <String Target="对单纯读取的文件进行哈夫曼压缩，在不影响性能的情况下，显著减少系统体积。特别感谢矿工以及所有Compact团队成员无私的支持与帮助。" Link="Compree the read-only file with Huffman compression, it will not impact the performance, reduce the volume of the system evidently. Special thanks to the miners and the selfless support and aid of the member of compact team."/>
-    <String Target="使用后可能导致某些程序无法正常运行甚至让系统无法启动，如果使用后出现问题，可以在PE中点击 恢复功能-->撤销Compact。" Link="After applying this, some programs will malfunction, and the system might fail to start.  You can later fix this by using Revovery --> Never Compact in WinPE"/>
+    <String Target="使用后可能导致某些程序无法正常运行甚至让系统无法启动，如果使用后出现问题，可以在PE中点击 恢复功能-->撤销Compact。" Link="After applying this, some programs will malfunction, and the system might fail to start. You can later fix this by using Revovery --> Never Compact in WinPE"/>
     <String Target="此功能与某些硬盘备份软件不兼容。如果使用后出现问题，可以点击 恢复功能-->撤销Compact。" Link="This function is not compatible with some backup software. If you encounter problems, click Recovery --> Never Compact."/>
 
     <String Target="过期Appx应用" Link="Outdated Appx application"/>
@@ -1253,7 +1257,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="此条目可能影响Intel驱动的卸载。" Link="This entry impact you uninstall intel driver probably."/>
 
     <String Target="英伟达驱动安装源缓存（by YukiSakura）" Link="NVIDIA driver install source cache (by YukiSakura)"/>
-    <String Target="英伟达驱动安装后留下的安装源缓存。" Link="NVIDIA driver  install the install source cache left behind."/>
+    <String Target="英伟达驱动安装后留下的安装源缓存。" Link="NVIDIA driver install the install source cache left behind."/>
     <String Target="此条目可能影响英伟达驱动的卸载。" Link="This entry impact you uninstall NVIDIA driver probably."/>
 
     <String Target="Windows预读取文件（by 辰g.）" Link="Windows prefetch files (by Cheng g.)"/>
@@ -1386,50 +1390,50 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <x81440133>[ RETRY ] %1</x81440133>
     <xC1420100>The specified library is not a valid file system container.</xC1420100>
     <xC1420101>The user attempted to mount an image for read/write access using a container library that is read only.</xC1420101>
-    <xC1420103>The user attempted to mount an image to a directory that already exists.  This is not supported.</xC1420103>
-    <xC1420104>An extract request was received for a file that is not contained within this image.  This file will not be extracted.</xC1420104>
-    <xC1420105>An extract request was received for a file that does not exist.  This condition may occur as a result of bad operation with other file system filters.  Ensure that no antivirus or backup software is running on the mount directory.</xC1420105>
-    <xC1420106>An extract request was received for a file that has already been extracted.  This request will not be honored.</xC1420106>
-    <xC1420107>The service was notified of two different files with the same file id.  These files had incompatable flags set.  The mount operation will be aborted.</xC1420107>
-    <xC1420108>The file system container attempted to insert a file name twice.  This is invalid, the wim service should only receive one notification per file name.</xC1420108>
-    <xC1420109>The service received a bad message from the filter.  This message will not be processed.</xC1420109>
-    <xC142010A>The service received an extract for a file that is not in a mounted image.  This extract will be ignored.</xC142010A>
+    <xC1420103>The user attempted to mount an image to a directory that already exists. This is not supported.</xC1420103>
+    <xC1420104>An extract request was received for a file that is not contained within this image. This file will not be extracted.</xC1420104>
+    <xC1420105>An extract request was received for a file that does not exist. This condition may occur as a result of bad operation with other file system filters. Ensure that no antivirus or backup software is running on the mount directory.</xC1420105>
+    <xC1420106>An extract request was received for a file that has already been extracted. This request will not be honored.</xC1420106>
+    <xC1420107>The service was notified of two different files with the same file id. These files had incompatable flags set. The mount operation will be aborted.</xC1420107>
+    <xC1420108>The file system container attempted to insert a file name twice. This is invalid, the wim service should only receive one notification per file name.</xC1420108>
+    <xC1420109>The service received a bad message from the filter. This message will not be processed.</xC1420109>
+    <xC142010A>The service received an extract for a file that is not in a mounted image. This extract will be ignored.</xC142010A>
     <xC142010B>An attempt was made to unmount a directory that is not mounted.</xC142010B>
-    <xC142010C>An attempt was made to commit an image that was mounted for read only access.  This is not valid.  To commit an image, mount it without the read only flag set.</xC142010C>
-    <xC142010E>A nonexistant mount directory was given to the extraction process.  The extraction process requires that the image be stubbed before it starts.</xC142010E>
-    <xC142010F>An invalid handle was passed to the image manager.  This is a programming error.</xC142010F>
-    <xC1420110>The specified image handle was not used to mount an image, and cannot be used to unmount.  Please call WIMUnmountImage with the name of the mount directory to unmount your image.</xC1420110>
+    <xC142010C>An attempt was made to commit an image that was mounted for read only access. This is not valid. To commit an image, mount it without the read only flag set.</xC142010C>
+    <xC142010E>A nonexistant mount directory was given to the extraction process. The extraction process requires that the image be stubbed before it starts.</xC142010E>
+    <xC142010F>An invalid handle was passed to the image manager. This is a programming error.</xC142010F>
+    <xC1420110>The specified image handle was not used to mount an image, and cannot be used to unmount. Please call WIMUnmountImage with the name of the mount directory to unmount your image.</xC1420110>
     <xC1420111>An image matching the specified mount data could not be found.</xC1420111>
     <xC1420112>The image cannot be unmounted because a file in the mount directory is still in use.</xC1420112>
-    <xC1420113>The user attempted to mount to a directory that already contained a mounted image.  This is not supported.</xC1420113>
-    <xC1420114>The user attempted to mount to a directory that is not empty.  This is not supported.</xC1420114>
-    <xC1420115>The user attempted to mount to a directory that does not exist.  This is not supported.</xC1420115>
-    <xC1420116>A bad image handle was passed to WIMUnmountImageHandle.  Only the image handle passed to WIMMountImageHandle or an image handle retrieved from WIMGetMountedImageHandle may be used in WIMUnmountImageHandle.</xC1420116>
-    <xC1420117>The directory could not be completely unmounted.  This is usually due to applications that still have files opened within the mount directory.  Close these files and unmount again to complete the unmount process.</xC1420117>
-    <xC1420118>The mounted image is already in use.  Please ensure that it was not mounted by another process.</xC1420118>
-    <xC1420119>The wimserv.exe binary could not be found.  Please ensure that it is available in the system search path.</xC1420119>
+    <xC1420113>The user attempted to mount to a directory that already contained a mounted image. This is not supported.</xC1420113>
+    <xC1420114>The user attempted to mount to a directory that is not empty. This is not supported.</xC1420114>
+    <xC1420115>The user attempted to mount to a directory that does not exist. This is not supported.</xC1420115>
+    <xC1420116>A bad image handle was passed to WIMUnmountImageHandle. Only the image handle passed to WIMMountImageHandle or an image handle retrieved from WIMGetMountedImageHandle may be used in WIMUnmountImageHandle.</xC1420116>
+    <xC1420117>The directory could not be completely unmounted. This is usually due to applications that still have files opened within the mount directory. Close these files and unmount again to complete the unmount process.</xC1420117>
+    <xC1420118>The mounted image is already in use. Please ensure that it was not mounted by another process.</xC1420118>
+    <xC1420119>The wimserv.exe binary could not be found. Please ensure that it is available in the system search path.</xC1420119>
     <xC142011A>Imagex timed out while waiting for the wimmount extractor process to initialize.</xC142011A>
     <xC142011B>The wimmount service shutdown without returning a status.</xC142011B>
     <xC142011C>The specified directory is not a valid mounted directory.</xC142011C>
-    <xC142011D>The specified mounted image cannot be committed back into the WIM.  This occurs when an image has been through a partial unmount or when an image is still being mounted.  If this image was unmounted with commit earlier, then the commit probably succeeded.  Please validate that this is the case and then unmount without commit.</xC142011D>
-    <xC142011E>The mount directory of the specified image has changed.  All the files in this image will be extracted, and this image cannot be commited.</xC142011E>
-    <xC142011F>The volume of the specified mount path does not support reparse points.  Please mount to a volume that supports reparse points.</xC142011F>
-    <xC1420120>The specified directory contains a corrupted mount image.  No mount operations can be performed on this directory.</xC1420120>
-    <xC1420121>The image could not be mounted because the wimmount.sys driver is not installed on this machine.  To fix this error, install the wimmount.sys driver.</xC1420121>
+    <xC142011D>The specified mounted image cannot be committed back into the WIM. This occurs when an image has been through a partial unmount or when an image is still being mounted. If this image was unmounted with commit earlier, then the commit probably succeeded. Please validate that this is the case and then unmount without commit.</xC142011D>
+    <xC142011E>The mount directory of the specified image has changed. All the files in this image will be extracted, and this image cannot be commited.</xC142011E>
+    <xC142011F>The volume of the specified mount path does not support reparse points. Please mount to a volume that supports reparse points.</xC142011F>
+    <xC1420120>The specified directory contains a corrupted mount image. No mount operations can be performed on this directory.</xC1420120>
+    <xC1420121>The image could not be mounted because the wimmount.sys driver is not installed on this machine. To fix this error, install the wimmount.sys driver.</xC1420121>
     <xC1420122>The mounted image could not be committed because the image in the wim was modified after it was mounted.</xC1420122>
-    <xC1420123>The specified directory could not be remounted because it is not a valid remount target.  The most likely reason that it is not valid is that the directory has already been unmounted.</xC1420123>
+    <xC1420123>The specified directory could not be remounted because it is not a valid remount target. The most likely reason that it is not valid is that the directory has already been unmounted.</xC1420123>
     <xC1420124>The specified directory could not be remounted because the image in the wim was modified after it was mounted.</xC1420124>
     <xC1420125>The specified directory could not be remounted because an unmount of that directory is in progress.</xC1420125>
     <xC1420126>The specified image is already mounted, and cannot be mounted again.</xC1420126>
     <xC1420127>The specified image in the specified wim is already mounted for read/write access.</xC1420127>
-    <xC1420128>The specified image handle was not opened with the correct access level.  In order to mount an image handle, the handle must have WIM_GENERIC_MOUNT access.</xC1420128>
-    <xC1420130>The user attempted to mount a split wim.  This is unsupported.</xC1420130>
-    <xC1420131>The user attempted to mount to the root of a volume.  This is unsupported.</xC1420131>
-    <xC1420132>The version of wimgapi used to create this mount directory does not match the current version.  Ensure that wimserv.exe, wimmount.sys and imagex.exe/wimgapi.dll are of matching version.</xC1420132>
-    <xC1420134>The drive of the specified mount path is not supported.  Please mount to a volume on a fixed drive.</xC1420134>
+    <xC1420128>The specified image handle was not opened with the correct access level. In order to mount an image handle, the handle must have WIM_GENERIC_MOUNT access.</xC1420128>
+    <xC1420130>The user attempted to mount a split wim. This is unsupported.</xC1420130>
+    <xC1420131>The user attempted to mount to the root of a volume. This is unsupported.</xC1420131>
+    <xC1420132>The version of wimgapi used to create this mount directory does not match the current version. Ensure that wimserv.exe, wimmount.sys and imagex.exe/wimgapi.dll are of matching version.</xC1420132>
+    <xC1420134>The drive of the specified mount path is not supported. Please mount to a volume on a fixed drive.</xC1420134>
     <xC1420135>The mount operation failed. When mounting, you must disable any software (for example, antivirus or search indexer) that accesses files under that specified mount path.</xC1420135>
-    <xC143010D>An invalid image index was specified to the wim container wrapper.  The wrapper cannot open an image.</xC143010D>
-    <xC1440129>The specified log file exists and is not a unicode encoded text file.  Only unicode encoded text files are supported.</xC1440129>
+    <xC143010D>An invalid image index was specified to the wim container wrapper. The wrapper cannot open an image.</xC143010D>
+    <xC1440129>The specified log file exists and is not a unicode encoded text file. Only unicode encoded text files are supported.</xC1440129>
     <xC144012E>[ ERROR ] %1</xC144012E>
     <xC144012F>[ WARN ] The extended attribute on file %1 was ignored.</xC144012F>
     <xC1440136>Unsupported operation. Check that the OS you are running contains a wof driver (wof.sys/wofadk.sys).</xC1440136>
