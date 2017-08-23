@@ -474,8 +474,8 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="正在安装驱动" Link="Installation du pilote"/>
     <String Target="一个或者多个驱动添加失败，错误代码：0x%.8X" Link="Un ou plusieurs pilotes n’ont pas été ajoutés, code erreur : 0x%.8X"/>
     <String Target="显示内置驱动" Link="Pilotes du système"/>
-    <String Target="处理过程中遇到问题，其中成功 %u 个，失败 %u 个，不适用 %u 个。部分错误信息：%s [0x%.8X] 更多信息请参考 &quot;Config\Dism++.log&quot;" qLink=""/>
-    <String Target="操作成功，其中成功 %u 个，不适用 %u 个。更多信息请参考 &quot;Config\Dism++.log&quot;" qLink=""/>
+    <String Target="处理过程中遇到问题，其中成功 %u 个，失败 %u 个，不适用 %u 个。部分错误信息：%s [0x%.8X] 更多信息请参考 &quot;Config\Dism++.log&quot;" Problèmes rencontrés lors du traitement. %u installations réussies, %u échouées, %u non applicables. Extrait des erreurs : %s [0x%.8X]. Consultez « Config\Dism++.log » pour plus d’informations."/>
+    <String Target="操作成功，其中成功 %u 个，不适用 %u 个。更多信息请参考 &quot;Config\Dism++.log&quot;" Link="Opération terminée. %u installations réussies, %u non applicables. Consultez « Config\Dism++.log » pour plus d’informations."/>
 
     <!--开机启动项-->
     <String Target="开机启动项" Link="Démarrage"/>
@@ -827,7 +827,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Masquer les Contacts sur la barre des tâches (par Cloud)"/>
 
     <!--开始菜单-->
-    <String q="" Target="开始菜单以及Windows体验" Link="Start&amp;Windows Experience"/>
+    <String Target="开始菜单以及Windows体验" Link="Expérience du démarrage et Windows"/>
 
     <!--右键菜单管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="Menus contextuels : désactiver les éléments de menu inutiles pour améliorer la réponse de l’Explorateur Windows"/>
@@ -988,9 +988,9 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
       <String Target="小内存转储（256KB）" Link="Mini vidage de la mémoire (256 Ko)"/>
       <String Target="核心内存转储" Link="Vidage mémoire noyau"/>
     
-    <String Target="Windows 照片查看器" Link="Visionneuse Photo de Windows"/>
-    <String Target="Windows主题相关设置" Link="Paramètres Thème de Windows"/>
-    <String Target="任务栏相关设置" qLink=""/>
+    <String Target="Windows 照片查看器" Link="Visionneuse de photos de Windows"/>
+    <String Target="Windows主题相关设置" Link="Paramètres des thèmes de Windows"/>
+    <String Target="任务栏相关设置" Link="Paramètres de la barre des tâches"/>
     <String Target="关闭商店应用推广（by 、Cloud.）" Link="Désactiver la promotion de l’application sur Windows Store (par Cloud)"/>
     <String Target="关闭多嘴的小娜（by 朽木）" Link="Désactiver Cortana (par XiuMu)"/>
     <String Target="关闭游戏录制工具（by 、Cloud.）" Link="Désactiver l’enregistrement des jeux (par Cloud)"/>
