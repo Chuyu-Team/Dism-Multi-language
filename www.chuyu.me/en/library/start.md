@@ -54,9 +54,9 @@ Here are the all files about Dism++. You can delete which you don't need. Lazy p
 |Config\Plugins|Dism++插件支持，不需要插件的用户可以删除此文件。
 |Config\Languages|Dism++ Language files,  for english, just keep en.zip.
 |Config\Data.zip|This file include cleanup rules, ESD decrypt keys, etc.  Please DO NOT delete this file.
-|Config\UpdateInfo.zip<br>Config\UpdateInfoBeta.zip|Dism++更新元数据，用于判断是否存在新版本，以及防止用户新版本降级为老版本。推荐保留，删除后将重新下载。
-|Config\default.ui.zip|此文件保存了Dism++的UI。此文件不允许删除。
-|Config\wsusscn2.cab|Windows Update数据库文件，用于扫描更新。可以考虑删除。
-|Config\include\Dism++.h|仅测试版存在此文件，C Script脚本支持头文件，缺少此文件后C Script脚本将无法使用。
-|Config\amd64\CScript.dll|仅测试版存在此文件，64位C Script脚本解析引擎，缺少此文件后C Script脚本将无法使用，32位用户可以考虑删除此文件。
-|Config\x86\CScript.dll|仅测试版存在此文件，32位C Script脚本解析引擎，缺少此文件后C Script脚本将无法使用，64位用户可以考虑删除此文件。
+|Config\UpdateInfo.zip<br>Config\UpdateInfoBeta.zip|The update information of Dism++, use to check the new version and avoid downgrade to old version. Recommend to keep this file, and missing this file will re-download automatically.
+|Config\default.ui.zip|It save the UI of Dism++.  Please DO NOT delete this file.
+|Config\wsusscn2.cab|Windows Update database file, use to scan updates.  You can delete this file.
+|Config\include\Dism++.h|This file in beta version only, the header file for C Script, missing this file can cause C Script unusable. 
+|Config\amd64\CScript.dll|This file in beta version only, the 64-bit parsing engine for C Script, missing this file can cause C Script unusable.  You can delete this file when you using a 32-Bit OS.
+|Config\x86\CScript.dll|This file in beta version only, the 32-bit parsing engine for C Script, missing this file can cause C Script unusable.  You can delete this file when you using a 64-Bit OS.

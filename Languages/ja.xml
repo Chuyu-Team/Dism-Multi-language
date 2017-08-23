@@ -827,7 +827,7 @@ Special Thanks to 山形まり花、奎宁
     <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="タスク バーの [People] を隠す（by 、Cloud.）"/>
 
     <!--开始菜单-->
-    <String q="" Target="开始菜单以及Windows体验" Link="Start&amp;Windows Experience"/>
+    <String q="" Target="开始菜单以及Windows体验" Link="スタート画面および Windows の体験"/>
 
     <!--右键菜单管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="右クリック メニューの管理 - 非必要メニューを無効し、パフォーマンスを改善する"/>
@@ -959,7 +959,7 @@ Special Thanks to 山形まり花、奎宁
     <String Target="隐藏WinRAR 在右键菜单中添加的&quot;压缩并 E-mail...&quot;（by 原罪）" Link="Hide &quot;Compression and E-mail...&quot; context menu which added by WinRAR (by YZ)"/>
 
     <!--Windows Media Player-->
-    <String Target="不显示首次使用对话框（by 原罪）" Link="Prevent running First Run wizard (by YZ)"/>
+    <String Target="不显示首次使用对话框（by 原罪）" Link="[はじめに] ウィザードを表示しない (by YZ)"/>
 
     <!--其他-->
     <String Target="*隐藏Windows 10升级助手GWX" Link="*Windows 10 アップグレード アシスタント (GWX) を隠す"/>
@@ -967,10 +967,10 @@ Special Thanks to 山形まり花、奎宁
     <String Target="关闭OneDrive（by Rambin）" Link="OneDrive 無効化 (by Rambin)"/>
       <String Target="禁用OneDrive将导致某些Windows Store应用无法使用OneDrive存储。" Link="無効して、一部のストア アプリは Onedrive ストレージを利用できません。"/>
 
-    <String Target="*VHD启动时不要将VHD动态文件扩展到最大（以节省空间）" Link="*Prevent expanded file size to the maximum when booting by dynamic VHD file (To save space)"/>
+    <String Target="*VHD启动时不要将VHD动态文件扩展到最大（以节省空间）" Link="*VHD ブート時可変容量の VHD を最大サイズに拡大しない（容量を節約する）"/>
       <String Target="此选项可能降低VHD文件性能。" Link="この機能は VHD ファイルのパフォーマンスは低下する。"/>
 
-    <String Target="*隐藏某些SATA硬盘任务栏图标（by 原罪）" Link="*Hide taskbar icon of some SATA hard disks (by YZ)"/>
+    <String Target="*隐藏某些SATA硬盘任务栏图标（by 原罪）" Link="*タスク バーで SATA ハード ディスクのアイコンを隠す (by YZ)"/>
 
     <String Target="蓝屏时自动重启（by 原罪）" Link="BSOD が自動再起動 (by YZ)"/>
 
@@ -990,7 +990,7 @@ Special Thanks to 山形まり花、奎宁
 
     <String Target="Windows 照片查看器" Link="Windows フォト ビューアー"/>
     <String Target="Windows主题相关设置" Link="Windows テーマの設定"/>
-    <String q="" Target="任务栏相关设置" Link="Taskbar settings"/>
+    <String q="" Target="任务栏相关设置" Link="タスク バーの設定"/>
     <String Target="关闭商店应用推广（by 、Cloud.）" Link="ストアのキャンペーンを閉じる (by 、Cloud.)"/>
     <String Target="关闭多嘴的小娜（by 朽木）" Link="コルタナを閉じる (by XiuMu)"/>
     <String Target="关闭游戏录制工具（by 、Cloud.）" Link="ゲーム録画を閉じる (by 、Cloud.)"/>
