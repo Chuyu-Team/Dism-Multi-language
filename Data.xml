@@ -2394,6 +2394,46 @@
         </Default>
       </Item>
 
+      <Item Type="CheckBox" Name="#关闭“突出显示新安装的程序”（by 溯汐潮）">
+        <Current>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="Start_NotifyNewApps" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="Start_NotifyNewApps" Type="REG_DWORD" Data="0"/>
+              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="Start_NotifyNewApps" Type="REG_DWORD" Data="1"/>
+              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
+            </Activate>
+          </False>
+        </Current>
+
+        <Default>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="Start_NotifyNewApps" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="Start_NotifyNewApps" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="Start_NotifyNewApps" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
+
       <Item Type="CheckBox" Name="#禁止自动安装推荐的应用程序（by IT之家）">
         <Applicable>
           <OSVersion Compare=">=">10.0</OSVersion>
@@ -3404,46 +3444,6 @@
             </Activate>
           </False>
         </System>
-      </Item>
-
-      <Item Type="CheckBox" Name="#关闭“突出显示新安装的程序”（by 溯汐潮）">
-        <Current>
-          <State>
-            <Applicable>
-              <RegExist Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="Start_NotifyNewApps" Type="REG_DWORD" Data="0"/>
-            </Applicable>
-          </State>
-          <True>
-            <Activate>
-              <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="Start_NotifyNewApps" Type="REG_DWORD" Data="0"/>
-              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
-            </Activate>
-          </True>
-          <False>
-            <Activate>
-              <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="Start_NotifyNewApps" Type="REG_DWORD" Data="1"/>
-              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
-            </Activate>
-          </False>
-        </Current>
-
-        <Default>
-          <State>
-            <Applicable>
-              <RegExist Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="Start_NotifyNewApps" Type="REG_DWORD" Data="0"/>
-            </Applicable>
-          </State>
-          <True>
-            <Activate>
-              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="Start_NotifyNewApps" Type="REG_DWORD" Data="0"/>
-            </Activate>
-          </True>
-          <False>
-            <Activate>
-              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="Start_NotifyNewApps" Type="REG_DWORD" Data="1"/>
-            </Activate>
-          </False>
-        </Default>
       </Item>
 
       <Item Type="CheckBox" Name="#快速访问不显示常用文件夹（by 溯汐潮）">
