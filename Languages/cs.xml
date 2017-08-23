@@ -825,6 +825,9 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="Zakázat systém Windows Focus na uzamčení obrazovky (by 、Cloud.)"/>
     <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="Zakázat  &quot;Návrhy při používání systému Windows &quot; (by 、Cloud.)"/>
     <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Skrýt lidí na hlavním panelu (by 、Cloud)"/>
+    
+    <!--开始菜单-->
+    <String q="" Target="开始菜单以及Windows体验" Link="Start&amp;Windows Experience"/>
 
     <!--右键菜单管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="Správa kontextového menu: Vypne nepotřebné položky menu pro zlepšení reakce Průzkumníka Windows"/>
@@ -987,7 +990,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
 
     <String Target="Windows 照片查看器" Link="Windows Photo Viewer"/>
     <String Target="Windows主题相关设置" Link="Windows nastavení motivu"/>
-    <String Target="任务栏以及小娜相关设置" Link="Hlavní panel &amp; Cortana"/>
+    <String Target="任务栏相关设置" Link="Hlavní panel"/>
     <String Target="关闭商店应用推广（by 、Cloud.）" Link="Zakázat Windows Store podporu aplikací (od Cloud)"/>
     <String Target="关闭多嘴的小娜（by 朽木）" Link="Zakázat Cortanu (od XiuMu)"/>
     <String Target="关闭游戏录制工具（by 、Cloud.）" Link="Zakázat záznam her (od Cloud)"/>

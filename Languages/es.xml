@@ -826,6 +826,9 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="Desactivar &quot;Obtener consejos al utilizar Windows&quot; (Cloud)"/>
     <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Ocultar la barra de tareas (Cloud)"/>
 
+    <!--开始菜单-->
+    <String q="" Target="开始菜单以及Windows体验" Link="Start&amp;Windows Experience"/>
+
     <!--右键菜单管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="Administrar menú contextual: Desactiva los elementos del menú no necesarios para mejorar la respuesta de Windows Explorer"/>
     <String Target="禁用可执行文件的“兼容性疑难解答”右键菜单（by 莫失莫忘）" Link="Desactivar del menú &quot;Solución de problemas de compatibilidad&quot; en archivos ejecutables (MoWangMoShi)"/>
@@ -987,7 +990,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
 
     <String Target="Windows 照片查看器" Link="Visor de fotos de Windows"/>
     <String Target="Windows主题相关设置" Link="Configuración del tema de Windows"/>
-    <String Target="任务栏以及小娜相关设置" Link="Ajustes de la barra tareas y Cortana"/>
+    <String q="" Target="任务栏相关设置" Link="Taskbar settings"/>
     <String Target="关闭商店应用推广（by 、Cloud.）" Link="Desactivar desde Windows Store (Cloud)."/>
     <String Target="关闭多嘴的小娜（by 朽木）" Link="Desactivar Cortana (XiuMu)"/>
     <String Target="关闭游戏录制工具（by 、Cloud.）" Link="Desactivar grabador de juegos (Cloud)."/>

@@ -826,6 +826,9 @@ Also please avoid indenting this file using tabulations.
     <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="關閉「在使用 Windows 時取得提示、訣竅與建議」 (by 、Cloud.)"/>
     <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="隱藏工具列上的聯絡人 (by 、Cloud.)"/>
 
+    <!--开始菜单-->
+    <String Target="开始菜单以及Windows体验" qLink=""/>
+
     <!--右鍵選單管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="右鍵選單管理 - 停用不需要的功能表提高反應能力"/>
     <String Target="禁用可执行文件的“兼容性疑难解答”右键菜单（by 莫失莫忘）" Link="停用可執行檔的「相容性疑難排解」右鍵選單 (by 莫失莫忘)"/>
@@ -987,7 +990,7 @@ Also please avoid indenting this file using tabulations.
 
     <String Target="Windows 照片查看器" Link="Windows 照片檢視器"/>
     <String Target="Windows主题相关设置" Link="Windows 主題相關設定"/>
-    <String Target="任务栏以及小娜相关设置" Link="工作列以及 Cortana 相關設定"/>
+    <String Target="任务栏相关设置" Link="工作列相關設定"/>
     <String Target="关闭商店应用推广（by 、Cloud.）" Link="關閉市集 App 推廣 (by 、Cloud.)"/>
     <String Target="关闭多嘴的小娜（by 朽木）" Link="關閉多嘴的 Cortana (by 朽木)"/>
     <String Target="关闭游戏录制工具（by 、Cloud.）" Link="關閉遊戲錄製工具 (by 、Cloud.)"/>

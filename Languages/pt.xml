@@ -826,6 +826,9 @@ Special thanks to JNylson
     <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="Disable “Get suggestions when using Windows” (by 、Cloud.)"/>
     <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Hide Contacts on Task Bar (by 、Cloud)"/>
 
+    <!--开始菜单-->
+    <String q="" Target="开始菜单以及Windows体验" Link="Start&amp;Windows Experience"/>
+
     <!--右键菜单管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="Context menu management: Disable un-necessary menu items to improve Widnows Explorer response"/>
     <String Target="禁用可执行文件的“兼容性疑难解答”右键菜单（by 莫失莫忘）" Link="Disable 'Compatibility troubleshooting' context menu on execuables (by MoWangMoShi)"/>
@@ -987,7 +990,7 @@ Special thanks to JNylson
 
     <String Target="Windows 照片查看器" Link="Visualizador de Imagem do Windows"/>
     <String Target="Windows主题相关设置" Link="Configurações de Tema do Windows"/>
-    <String Target="任务栏以及小娜相关设置" Link="Configurações da Barra de Tarefas &amp; Cortana"/>
+    <String Target="任务栏相关设置" Link="Configurações da Barra de Tarefas"/>
     <String Target="关闭商店应用推广（by 、Cloud.）" Link="Desativar anúncios da Windows Store (by 、Cloud.)"/>
     <String Target="关闭多嘴的小娜（by 朽木）" Link="Desativar Cortana (by XiuMu)"/>
     <String Target="关闭游戏录制工具（by 、Cloud.）" Link="Desativar Gravador de Jogos (by 、Cloud.)"/>

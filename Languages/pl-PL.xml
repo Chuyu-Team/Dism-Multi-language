@@ -826,6 +826,9 @@ Special thanks to romuald68@gmail.com, Bladius (KuchtaPC2015@outlook.com)
     <String q="" Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="Disable “Get suggestions when using Windows” (by 、Cloud.)"/>
     <String q="" Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Hide People on Task Bar (by 、Cloud)"/>
 
+    <!--开始菜单-->
+    <String q="" Target="开始菜单以及Windows体验" Link="Start&amp;Windows Experience"/>
+
     <!--Zarządzanie menu kontekstowym-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="Zarządzanie Menu Kontekstowym: Wyłączenie zbędnych elementów menu w celu lepszego reagowania Eksploratora Windows"/>
     <String Target="禁用可执行文件的“兼容性疑难解答”右键菜单（by 莫失莫忘）" Link="Wyłącz 'Zgodność Rozwiązywania Problemów' w menu kontekstowym (by MoWangMoShi)"/>
@@ -987,7 +990,7 @@ Special thanks to romuald68@gmail.com, Bladius (KuchtaPC2015@outlook.com)
 
     <String Target="Windows 照片查看器" Link="Przeglądarka fotografii systemu Windows"/>
     <String Target="Windows主题相关设置" Link="Ustawienia Windows theme"/>
-    <String Target="任务栏以及小娜相关设置" Link="Pasek zadań&amp;Ustawienia Cortana"/>
+    <String q="" Target="任务栏相关设置" Link="Taskbar settings"/>
     <String Target="关闭商店应用推广（by 、Cloud.）" Link="Wyłącz Windows Store app promotion (by 、Cloud.)"/>
     <String Target="关闭多嘴的小娜（by 朽木）" Link="Wyłącz Cortana (by XiuMu)"/>
     <String Target="关闭游戏录制工具（by 、Cloud.）" Link="Wyłącz rejestrator gry (by 、Cloud.)"/>

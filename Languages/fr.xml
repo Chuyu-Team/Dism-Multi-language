@@ -825,7 +825,10 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="Désactiver Windows Focus sur l’écran de verrouillage (par Cloud)"/>
     <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="Désactiver &quot;Get suggestions when using Windows&quot; (par Cloud)"/>
     <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Masquer les Contacts sur la barre des tâches (par Cloud)"/>
-    
+
+    <!--开始菜单-->
+    <String q="" Target="开始菜单以及Windows体验" Link="Start&amp;Windows Experience"/>
+
     <!--右键菜单管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="Menus contextuels : désactiver les éléments de menu inutiles pour améliorer la réponse de l’Explorateur Windows"/>
     <String Target="禁用可执行文件的“兼容性疑难解答”右键菜单（by 莫失莫忘）" Link="Désactiver « Résoudre les problèmes de compatibilité » du menu contextuel sur les fichiers exécutables (par MoWangMoShi)"/>
@@ -987,7 +990,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     
     <String Target="Windows 照片查看器" Link="Visionneuse Photo de Windows"/>
     <String Target="Windows主题相关设置" Link="Paramètres Thème de Windows"/>
-    <String Target="任务栏以及小娜相关设置" Link="Paramètres de la barre des tâches et Cortana"/>
+    <String Target="任务栏相关设置" qLink=""/>
     <String Target="关闭商店应用推广（by 、Cloud.）" Link="Désactiver la promotion de l’application sur Windows Store (par Cloud)"/>
     <String Target="关闭多嘴的小娜（by 朽木）" Link="Désactiver Cortana (par XiuMu)"/>
     <String Target="关闭游戏录制工具（by 、Cloud.）" Link="Désactiver l’enregistrement des jeux (par Cloud)"/>

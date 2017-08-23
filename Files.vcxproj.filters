@@ -260,6 +260,9 @@
     <None Include="www.chuyu.me\en\log.html">
       <Filter>资源文件\www.chuyu.me\en</Filter>
     </None>
+    <None Include="www.chuyu.me\zh-Hans\library\Dism++Library\Dism++sut.md">
+      <Filter>资源文件\www.chuyu.me\zh-Hans\library\Dism++Library</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ThirdParty.md">
