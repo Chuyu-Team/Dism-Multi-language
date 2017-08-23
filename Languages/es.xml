@@ -212,7 +212,6 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="扫描" Link="Analizar"/>
     <String Target="清理" Link="Limpiar"/>
 
-
     <String Target="存在风险" Link="Riesgo"/>
     <String Target="建议保留" Link="Mantener"/>
     <String Target="可以删除" Link="Puede borrar"/>
