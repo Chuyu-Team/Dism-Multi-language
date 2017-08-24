@@ -158,8 +158,8 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="%s 位置的映像正繁忙，请稍后再试。" Link="The location of %s image is busy, please try again later."/>
     <String Target="正在验证受损" Link="Scanning Health"/>
     <String Target="正在修复受损" Link="Restoring Health"/>
-    <String Target="%d 秒后将关闭计算机，点击取消可以撤销此任务。" Link="After %d seconds the computer will be shutdown. Click ‘Cancel’ to cancel this task."/>
-    <String Target="%d 秒后将重启计算机，点击取消可以撤销此任务。" Link="After %d seconds the computer will be restart. Click ‘Cancel’ to cancel this task."/>
+    <String Target="%d 秒后将关闭计算机，点击取消可以撤销此任务。" Link="After %d seconds the computer will be shutdown. Click “Cancel” to cancel this task."/>
+    <String Target="%d 秒后将重启计算机，点击取消可以撤销此任务。" Link="After %d seconds the computer will be restart. Click “Cancel” to cancel this task."/>
 
     <String Target="正在清理临时数据" Link="Cleaning temporary data"/>
     <String Target="Sorry，无法配置环境，请在PE中使用此功能。" Link="Sorry, fail to configure environment now, please operate this task in WinPE."/>
@@ -287,14 +287,14 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="释放映像" Link="Apply Image"/>
     <String Target="挂载映像 " Link="Mount Image"/>
 
-    <!--另存为映像 -->
+    <!--另存为映像-->
     <String Target="你可以在此处修改映像文件信息（支持双击修改）" Link="You can edit image information here (double click to edit)"/>
     <String Target="在此处设置捕获映像的文件豁免列表加快捕获速度，每个条目用回车分割。" Link="Set Exclude List for images that needs no catch, seperate each excluded image by enter."/>
     <String Target="如何配置豁免列表" Link="How to config the Exclude List"/>
     <String Target="另存为映像" Link="Save Image As"/>
     <String Target="卷影复制" Link="VSS"/>
 
-    <!-- 系统修复-->
+    <!--系统修复-->
     <String Target="映像十分健康不需要修复。" Link="The image is intact. No repair needed."/>
     <String Target="映像已经受损，但是可以修复。" Link="The image has been damaged, but repair is possible."/>
     <String Target="映像已经受到致命问题，已经无法修复，请修复安装。" Link="The image has fatal problem that is beyound Dism++’s repair capability. Please repair by reinstalling."/>
@@ -307,7 +307,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="什么是本地源" Link="What is the Local Source?"/>
     <String Target="本地源" Link="Local Source"/>
 
-    <!-- 格式转换-->
+    <!--格式转换-->
     <String Target="请在此输入源文件路径" Link="Please enter the path of the source file here"/>
     <String Target="请在此输入目标文件路径" Link="Please enter the path of the destination file here"/>
 
@@ -407,13 +407,13 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="需要扫描" Link="Ready to Scan"/>
     <String Target="正在扫描%s" Link="Scanning %s"/>
     <String Target="出错" Link="Error"/>
-    <String Target="正在清理%s" Link="Cleaning %s "/>
-    <String Target="本次共释放了%s 的空间。" Link="freed %s ."/>
+    <String Target="正在清理%s" Link="Cleaning %s"/>
+    <String Target="本次共释放了%s 的空间。" Link="freed %s."/>
 
     <String Target="该规则来自CCleaner解析引擎，因此不能提供说明。" Link="The rule is from the CCleaner rules, so details are not available."/>
     <String Target="默认" Link="Default"/>
     <String Target="关于 %s 的详细处理信息" Link="Detailed information about the %s"/>
-    <String Target="以下文件即将被处理，你可以点击 清理 处理他们" Link="The following files will be processed, and you can click ‘Clean Up’ to process them"/>
+    <String Target="以下文件即将被处理，你可以点击 清理 处理他们" Link="The following files will be processed, and you can click “Clean Up” to process them"/>
     <String
       Target="关于 %s 的警告：&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;您确定要清理么？"
       Link="%s warning:&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;Sure to clean them up?"/>
@@ -742,7 +742,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
 
     <String Target="用于内置管理员帐户的管理员批准模式 (by 坏坏小生)" Link="Administrator approval mode for built-in administraor account (by HuaiHuaiXiaoSheng)"/>
 
-    <String Target="隐藏“任务视图”按钮" Link="Hide ‘Task View’ button"/>
+    <String Target="隐藏“任务视图”按钮" Link="Hide “Task View” button"/>
 
     <String Target="打开资源管理器时显示此电脑" Link="Open File Explorer to This PC"/>
 
@@ -756,7 +756,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
 
     <String Target="创建快捷方式时不添&quot;快捷方式&quot;文字（by 518516.net）" Link="Prevent adding “Shortcut” text when you create a shortcut (by 518516.net)"/>
 
-    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹" Link="Hide the Videos, Pictures, Documents, Downloads, Music, Desktop Folders in This PC"/>
+    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹" Link="Hide the Desktop, Documents, Downloads, Music, Pictures, Videos folders in This PC"/>
 
     <String Target="*隐藏桌面右下角教育版水印" Link="*Remove the watermark of Education Edition"/>
 
@@ -822,9 +822,9 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
 
     <String Target="关闭视频文件预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Disable video file preview to improve response time of Windows Explorer (by MoWangMoShi)"/>
     <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Disable audio file preview to improve response time of Windows Explorer (by MoWangMoShi)"/>
-    <String Target="关闭打开程序的“安全警告”（by 莫失莫忘）" Link="Disable the safety warning when opening programs (by MoWangMoShi) "/>
+    <String Target="关闭打开程序的“安全警告”（by 莫失莫忘）" Link="Disable the safety warning when opening programs (by MoWangMoShi)"/>
     <String Target="关闭在应用商店中查找关联应用（by Asoft）" Link="Disable search for associated applications in Windows Store (by Asoft)"/>
-    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="Hide Videos, Pictures, Documents, Download, Music, Desktop, 3D Object in Computer (by 、Cloud)"/>
+    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="Hide 3D Objects, Desktop, Documents, Download, Music, Pictures, Videos in Computer (by 、Cloud)"/>
     <String Target="禁止自动安装推荐的应用程序（by IT之家）" Link="Disable installing recommmeded apps autoly (by ITHome)"/>
     <String Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="Disable Windows Focus on lock screen (by 、Cloud.)"/>
     <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="Disable “Get suggestions when using Windows” (by 、Cloud.)"/>
@@ -835,17 +835,17 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
 
     <!--右键菜单管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="Context menu management: Disable un-necessary menu items to improve Widnows Explorer response"/>
-    <String Target="禁用可执行文件的“兼容性疑难解答”右键菜单（by 莫失莫忘）" Link="Disable ‘Compatibility troubleshooting’ context menu on execuables (by MoWangMoShi)"/>
-    <String Target="禁用文件、文件夹以及磁盘的“使用Windows Defender扫描”右键菜单（by 莫失莫忘）" Link="Disable ‘Scan by Windows Defender’ context menu on files, folders and disks (by MoWangMoShi)"/>
-    <String Target="禁用文件、磁盘以及属性的“还原以前版本”右键菜单（by 莫失莫忘）" Link="Disable ‘Revert to previous version’ context menu on files, disks and properties (by MoWangMoShi)"/>
-    <String Target="禁用文件、文件夹、桌面以及所有对象的“共享文件夹同步”右键菜单" Link="Disable ‘Sync shared folders’ context menu on files, folders, desktop and all objects"/>
-    <String Target="禁用新建“ZIP/RAR文件”右键菜单（by 莫失莫忘）" Link="Disable ‘New ZIP/RAR file’ context menu (by MoWangMoShi)"/>
-    <String Target="禁用新建、文件以及文件夹的“公文包”右键菜单" Link="Disable ‘Briefcase’ context menu on new, files and folders"/>
-    <String Target="禁用新建的“联系人”右键菜单（by 莫失莫忘）" Link="Disable ‘New contact’ context menu (by MoWangMoShi)"/>
+    <String Target="禁用可执行文件的“兼容性疑难解答”右键菜单（by 莫失莫忘）" Link="Disable “Compatibility troubleshooting” context menu on execuables (by MoWangMoShi)"/>
+    <String Target="禁用文件、文件夹以及磁盘的“使用Windows Defender扫描”右键菜单（by 莫失莫忘）" Link="Disable “Scan by Windows Defender” context menu on files, folders and disks (by MoWangMoShi)"/>
+    <String Target="禁用文件、磁盘以及属性的“还原以前版本”右键菜单（by 莫失莫忘）" Link="Disable “Revert to previous version” context menu on files, disks and properties (by MoWangMoShi)"/>
+    <String Target="禁用文件、文件夹、桌面以及所有对象的“共享文件夹同步”右键菜单" Link="Disable “Sync shared folders” context menu on files, folders, desktop and all objects"/>
+    <String Target="禁用新建“ZIP/RAR文件”右键菜单（by 莫失莫忘）" Link="Disable “New ZIP/RAR file” context menu (by MoWangMoShi)"/>
+    <String Target="禁用新建、文件以及文件夹的“公文包”右键菜单" Link="Disable “Briefcase” context menu on new, files and folders"/>
+    <String Target="禁用新建的“联系人”右键菜单（by 莫失莫忘）" Link="Disable “New contact” context menu (by MoWangMoShi)"/>
     <String Target="禁用桌面的英特尔集显右键菜单（by 莫失莫忘）" Link="Disable Intel integrated graphics context menu (by MoWangMoShi)"/>
     <String Target="禁用目录、文件夹、所有对象、的“始终脱机可用”右键菜单" Link="Disable the “Enable off-line use” context menu on folders and all objects"/>
     <String Target="禁用磁盘的“以便携式方式打开”右键菜单（by 莫失莫忘）" Link="Disable the “Open as portable device” context menu on disks (by MoWangMoShi)"/>
-    <String Target="禁用磁盘的“刻录到光盘”右键菜单" Link="Disable the ‘Burn to CD’ context menu on disks"/>
+    <String Target="禁用磁盘的“刻录到光盘”右键菜单" Link="Disable the “Burn to CD” context menu on disks"/>
     <String Target="禁用磁盘的“启用Bitlocker”右键菜单（by 莫失莫忘）" Link="Disable the “Enable Bitlocker” context menu on disks (by MoWangMoShi)"/>
     <String Target="禁用磁盘的“复制磁盘”右键菜单" Link="Disable the “Disk Copy” context menu on disks"/>
     <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="Disable “Share” context menu on files, folders, desktop, disks and libraries"/>
@@ -1009,8 +1009,8 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="关闭自动更新（by 溯汐潮）" Link="Disable automatic updates (by Hell Cabrite)"/>
     <String Target="将“音量调节”调整为Windows 7模式（by 溯汐潮）" Link="Change “Volume Adjustment” to Windows 7 mode (by Hell Cabrite)"/>
     <String Target="将同时可用下载数目调整到 10（by 溯汐潮）" Link="Adjust number of simultaneous downloads to 10 (by Hell Cabrite)"/>
-    <String Target="将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）" Link="Change “Personalize” in desktop right click menu to Windows 7 mode ( by dpzjsy )"/>
-    <String Target="将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）" Link="Change “Display Settings” in desktop right click menu to Windows 7 mode ( by dpzjsy )"/>
+    <String Target="将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）" Link="Change “Personalize” in desktop right click menu to Windows 7 mode (by dpzjsy)"/>
+    <String Target="将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）" Link="Change “Display Settings” in desktop right click menu to Windows 7 mode (by dpzjsy)"/>
     <String Target="将语言栏隐藏到任务拦（by 溯汐潮）" Link="Hide Language Bar to taskbar (by Hell Cabrite)"/>
     <String Target="快速访问不显示常用文件夹（by 溯汐潮）" Link="Do not display Frequently Used Folders in Quick Access (by Hell Cabrite)"/>
     <String Target="快速访问不显示最近使用的文件（by 溯汐潮）" Link="Do not display Recently Used Files in Quick Access (by Hell Cabrite)"/>
@@ -1018,11 +1018,11 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="禁用账号登录日志报告（by 溯汐潮）" Link="Disable account login logging (by Hell Cabrite)"/>
     <String Target="遇到弹出窗口时始终在新选项卡中打开弹出窗口（by 溯汐潮）" Link="Always display pop-up windows in new tab (by Hell Cabrite)"/>
     <String Target="锁定Internet Explorer工具栏（by 溯汐潮）" Link="Lock Internet Explorer toolbar (by Hell Cabrite)"/>
-    <String Target="隐藏NTFS蓝色双箭头压缩标识（by IT之家）" Link="Hide NTFS compression blue double arrow icon overlay ( by IT Home )"/>
+    <String Target="隐藏NTFS蓝色双箭头压缩标识（by IT之家）" Link="Hide NTFS compression blue double arrow icon overlay (by IT Home)"/>
     <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="Hide Help button on Language Bar (by Hell Cabrite)"/>
     <String Target="Windows 7体验" Link="Windows 7 Experience"/>
     <String Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Windows Update doesn’t include malware removal tools (by ‍Winaero)"/>
-    <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Change “right click menu” to Windows 7 mode (by Silence)"/>
+    <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Change right click menu to Windows 7 mode (by Silence)"/>
     <String Target="登陆界面默认打开小键盘（by IT之家）" Link="Enable keypad when login (by ITHome)"/>
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Disable Component Based Servicing Backup"/>
     <!--系统优化已经结束-->
@@ -1112,8 +1112,8 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
 
     <String Target="CompactOs（较慢）" Link="CompactOs (slower)"/>
     <String Target="对单纯读取的文件进行哈夫曼压缩，在不影响性能的情况下，显著减少系统体积。特别感谢矿工以及所有Compact团队成员无私的支持与帮助。" Link="Compree the read-only file with Huffman compression, it will not impact the performance, reduce the volume of the system evidently. Special thanks to the miners and the selfless support and aid of the member of compact team."/>
-    <String Target="使用后可能导致某些程序无法正常运行甚至让系统无法启动，如果使用后出现问题，可以在PE中点击 恢复功能-->撤销Compact。" Link="After applying this, some programs will malfunction, and the system might fail to start. You can later fix this by using Revovery --> Never Compact in WinPE"/>
-    <String Target="此功能与某些硬盘备份软件不兼容。如果使用后出现问题，可以点击 恢复功能-->撤销Compact。" Link="This function is not compatible with some backup software. If you encounter problems, click Recovery --> Never Compact."/>
+    <String Target="使用后可能导致某些程序无法正常运行甚至让系统无法启动，如果使用后出现问题，可以在PE中点击 恢复功能-->撤销Compact。" Link="After applying this, some programs will malfunction, and the system might fail to start. You can later fix this by using “Revovery” > “Never Compact” in WinPE."/>
+    <String Target="此功能与某些硬盘备份软件不兼容。如果使用后出现问题，可以点击 恢复功能-->撤销Compact。" Link="This function is not compatible with some backup software. If you encounter problems, click “Recovery” > “Never Compact”."/>
 
     <String Target="过期Appx应用" Link="Outdated Appx application"/>
     <String Target="在Appx应用升级时，会留下老版本应用，该功能将删除那些不使用的老版本。" Link="When updating an Appx, it will not delete the older versions. This function can delete the unused older versions (beta feature, may lead metro app unstartable."/>
@@ -1219,7 +1219,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="迅雷游戏" Link="Thunder Games"/>
     <String Target="迅雷游戏安装后所在目录，一般人不需要此程序，可以考虑删除。" Link="Thunder games directory (after installing), most people do not need this program, you can consider to delete."/>
 
-    <String Target="NET程序集缓存（by 大胖子技术员）" Link="NET assembly cache ( by dpzjsy )"/>
+    <String Target="NET程序集缓存（by 大胖子技术员）" Link="NET assembly cache (by dpzjsy)"/>
     <String Target="NET程序运行过程中产生的机器代码缓存文件，不建议频繁清理此条目。" Link="When NET program running, it made the machine code cache files, I do not recommended to clean the cache files frequently."/>
 
     <String Target="以前的Dism++组件" Link="Residual files of previous version(s) of Dism++"/>
@@ -1281,7 +1281,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="Chrome浏览器老版本备份（by Honry）" Link="Backup files of Chrome Web Browser old version (by Honry)"/>
     <String Target="Chrome浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Backup files of Chrome Web Browser after upgrade, for rollback in case of problems."/>
 
-    <String Target="Microsoft .NET安装缓存（by 撕裂五维空间）" Link="Microsoft .NET install cache (by SiLieWuWeiKongJian )"/>
+    <String Target="Microsoft .NET安装缓存（by 撕裂五维空间）" Link="Microsoft .NET install cache (by SiLieWuWeiKongJian)"/>
     <String Target="安装Microsoft .NET补丁残留的安装缓存。" Link="When the programs install patches for microsoft .NET, the program leaves some cache."/>
 
     <String Target="PPLive老版本备份（by 何超）" Link="Backup files of PPLive old version (by HeChao)"/>
@@ -1445,15 +1445,15 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
   </MessageTable>
   <UserAgreement>User Agreement
 
-    Chuyu team strongly recommends every user to read the following user agreement (hereinafter referred to as ‘agreement’, or ‘this agreement’) carefully before using Dism++. Anyone chooses not to comply with or fail to understand the intended meaning of the agreement should not be allowed, nor be granted the right granted by Chuyu team to use Dism++. Anyone who uses Dism++ is considered to agree with the following agreement, and to comply with the content of this agreement.
+    Chuyu team strongly recommends every user to read the following user agreement (hereinafter referred to as “agreement”, or “this agreement”) carefully before using Dism++. Anyone chooses not to comply with or fail to understand the intended meaning of the agreement should not be allowed, nor be granted the right granted by Chuyu team to use Dism++. Anyone who uses Dism++ is considered to agree with the following agreement, and to comply with the content of this agreement.
 
-    This agreement defines the rights and obligations between Dism++ users of ‘Dism++’ software service (hereinafter referred to as ‘service’, or ‘this service’) and Chuyu team. ‘Users’, and ‘Dism++ users’ refer to individuals who register, login, or utilize this service. This agreement is subject to updates from Chuyu team at any possible moment. Updated agreement, once published in any format, replaces the original agreement. Dism++ should display the updated agreement when the software properly initiates. Dism++ users must stop using this software and the services fom Chuyu team immediately if they choose not to comply with the updated agreement.
+    This agreement defines the rights and obligations between Dism++ users of “Dism++” software service (hereinafter referred to as “service”, or “this service”) and Chuyu team. “Users”, and “Dism++ users” refer to individuals who register, login, or utilize this service. This agreement is subject to updates from Chuyu team at any possible moment. Updated agreement, once published in any format, replaces the original agreement. Dism++ should display the updated agreement when the software properly initiates. Dism++ users must stop using this software and the services fom Chuyu team immediately if they choose not to comply with the updated agreement.
 
 I. Rights and Obligations
 
     1. Dism++ users can only use Dism++ for personal use in their PC(s). Any non-personal use (including but not limited to commercial or occupational use) without written approval from Chuyu team is not allowed.
     2. Dism++ users must read this agreement and other content in the document of Dism++ carefully before using Dism++.
-    3. Dism++ users have the obligation to report bugs and possible improvements to Chuyu team. Anyone who uses Dism++ for over 30 days should send mingkuang a ‘Dism++ usage report’ that is no less than 345 words. Anyone who uses Dism++ for 8 mounths or longer should send mingkuang an annual report (at least 520 words) on the topic ‘the suggestion and possible improvement on Dism++’ on November 11th (local time). Email of mingkuang: mingkuang@live.com.
+    3. Dism++ users have the obligation to report bugs and possible improvements to Chuyu team. Anyone who uses Dism++ for over 30 days should send mingkuang a “Dism++ usage report” that is no less than 345 words. Anyone who uses Dism++ for 8 mounths or longer should send mingkuang an annual report (at least 520 words) on the topic “Suggestion and possible improvement on Dism++” on November 11th (local time). Email of mingkuang: mingkuang@live.com.
     4. Dism++ users should retain the love for peace, for group work, and of helping others.
     5. Dism++ users should comply with the Basic Law (or local equivalents). Any action that violates copyright of Chuyu team or this agreement (including but not limited to inappropriately copy, propagate, display, mirror, upload, download, modify), and those that negatively impact Chuyu team’s operation or services will be subject to serious legal actions.
     6. Anyone who fail to comply with this agreement automatically loses any right granted by Chuyu team. Chuyu team retain right to stop all software of Chuyu team in their PC(s), to reject any of their proposal(s), and to persue legal actions gainst them.
@@ -1487,6 +1487,6 @@ VI. Others
     1. Chuyu team solemnly tell the users notice the clauses of exempt the responsibility of Chuyu team and the rights of limit the users. Minors should read this agreement with the legal guardians.
     2. The agreement validity and explanation apply in Chinese law. If the users and Chuyu team have disputes, negotiated settlement first. If it’s failed, please agree to report the having-jurisdiction people’s court to administer.
     3. If the agreement clauses be invalid or not executable because of whatever reason, the other clauses are still valid. Binding upon Both.
-    4. The user agreement written in Chinese-simplified should be referred to if the Chinese-simplified version differs from user agreements written in other languages.
+    4. The user agreement written in Simplified Chinese should be referred to if the Simplified Chinese version differs from user agreements written in other languages.
 </UserAgreement>
 </Data>
