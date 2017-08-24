@@ -1232,7 +1232,7 @@ Special Thanks to 山形まり花、奎宁
 
     <String Target="会声会影素材存档" Link="Video Studio の素材アーカイブ"/>
     <String Target="会声会影使用过程中会在此目录产生存档，在不需要后可以删除。" Link="Ulead Video Studio save the materials into the archive. If it's needless, you can delete them."/>
-    <String Target="请确保所有编辑的视频已经保存！" Link="Please ensure all the edited video has been saved!"/>
+    <String Target="请确保所有编辑的视频已经保存！" Link="すべての編集した動画は保存されを確認してください！"/>
 
     <String Target="Visual Studio智能跟踪（by LP）" Link="Visual Studio インテリジェント追跡 (by LP)"/>
     <String Target="Visual Studio调试程序时留下的智能跟踪缓存。" Link="When visual studio debugging programs, visual studio left the cache of Intelligent Tracking."/>
@@ -1439,15 +1439,15 @@ Special Thanks to 山形まり花、奎宁
     <xC144013A>サポートされていない操作です。指定されたパスにあるキャプチャする OS イメージが、WIMBoot でサポートされていることを確認してください。</xC144013A>
     <xC144013B>サポートされていない操作です。実行中の OS に wof ドライバー (wof.sys) が含まれていることを確認してください。</xC144013B>
   </MessageTable>
-  <UserAgreement>User Agreement
+  <UserAgreement>使用許諾
 
     Chuyu team strongly recommends every user to read the following user agreement (hereinafter referred to as ‘agreement’, or ‘this agreement’) carefully before using Dism++. Anyone chooses not to comply with or fail to understand the intended meaning of the agreement should not be allowed, nor be granted the right granted by Chuyu team to use Dism++. Anyone who uses Dism++ is considered to agree with the following agreement, and to comply with the content of this agreement.
 
     This agreement defines the rights and obligations between Dism++ users of ‘Dism++’ software service (hereinafter referred to as ‘service’, or ‘this service’) and Chuyu team. ‘Users’, and ‘Dism++ users’ refer to individuals who register, login, or utilize this service. This agreement is subject to updates from Chuyu team at any possible moment. Updated agreement, once published in any format, replaces the original agreement. Dism++ should display the updated agreement when the software properly initiates. Dism++ users must stop using this software and the services fom Chuyu team immediately if they choose not to comply with the updated agreement.
 
-I. Rights and Obligations
+一、権利と義務
 
-    1. Dism++ users can only use Dism++ for personal use in their PC(s). Any non-personal use (including but not limited to commercial or occupational use) without written approval from Chuyu team is not allowed.
+    1. Dism++ は PC で個人的な利用のみ。どれか非個人的な利用（商用利用、職業利用含むがこれらに限定されません）は許可しない。
     2. Dism++ users must read this agreement and other content in the document of Dism++ carefully before using Dism++.
     3. Dism++ users have the obligation to report bugs and possible improvements to Chuyu team. Anyone who uses Dism++ for over 30 days should send mingkuang a ‘Dism++ usage report’ that is no less than 345 words. Anyone who uses Dism++ for 8 mounths or longer should send mingkuang an annual report (at least 520 words) on the topic ‘the suggestion and possible improvement on Dism++’ on November 11th (local time). Email of mingkuang: mingkuang@live.com.
     4. Dism++ users should retain the love for peace, for group work, and of helping others.
@@ -1455,30 +1455,30 @@ I. Rights and Obligations
     6. Anyone who fails to comply with this agreement automatically loses any right granted by Chuyu team. Chuyu team retain right to stop all software of Chuyu team in their PC(s), to reject any of their proposal(s), and to persue legal actions gainst them.
     7. Chuyu team will try their best to provide technical support for those who comply with this agreement, when all of the following factors permit: the complexity of issue, the availability of Chuyu team, and the other users’ vote.
 
-II. Privacy Issues
+二、プライバシーに関する
 
     1. After initialisation, Dism++ will collect Dism++ users’ system information (including but not restricted to the system version, system structure, system language, CPU information, RAM information), and Dism++’s own report (including but not restricted to the system crash dump and log files) to improve the service. Dism++ will not collect user identification information nor user’s contact information.
     2. Chuyu team may send users invitations for testing Dism++, invitations for voting to help Chuyu team’s decisioning, and software updates, but Chuyu team will never send messages that include but not limited to advertisements, promotions, frauds, or request for payment.
 
-III. Bear The Risks
+三、リスクを負う
 
     1. Chuyu team has an open-type attitude so everyone can let Dism++ better. Some functions may lead unknown aftermath so Chuyu team will remove the possible risk and tell the users. But we didn’t solve all the issue. You must bear all the aftermath yourself. Please tell Chuyu team after you find some problems to prevent others have the problems.
     2. Please understand and agree because our softwares need to develop. Chuyu team persists the rights to change or pause or end or revoke all or some service. The users need to bear this danger.
 
-IV. Intellectual Property Rights Statement
+四、知的所有権の声明
 
     1. Chuyu team has all the intellectual property rights of this-service content (including but not limited to program, webpage, text and so on)
     2. If no important clauses, Chuyu team has all the intellectual property rights.
     3. If Chuyu team didn’t consent in writing, the users cannot process Chuyu softwares anyway. Cannot tell others have the rights to proces Chuyu softwares.
     4. Above and other intellectual property rights of Chuyu team are protected by law. If Chuyu team didn’t allow you, you cannot disassemble or do others.
 
-V. Legal Responsibility
+五、法的責任
 
     1. If Chuyu team sees someone report some users breached this agreement, Chuyu team have the rights to ban the users to use Chuyu softwares without informing.
     2. Please understand and agree. Chuyu team has the rights to reasonably penalize the violation behavior with law.
     3. Please understand and agree. If the users breach this agreement lead third party arise the claim (including the reasonable money to lawyer). The users must compensate for Chuyu team.
 
-VI. Others
+六、その他
 
     1. Chuyu team solemnly tells the users to notice the clauses of exempt the responsibility of Chuyu team and the rights of limit the users. Minors should read this agreement with the legal guardians.
     2. The agreement validity and explanation apply in Chinese law. If the users and Chuyu team have disputes, negotiated settlement first. If it’s failed, please agree to report the having-jurisdiction people’s court to administer.
