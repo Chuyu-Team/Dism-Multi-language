@@ -106,7 +106,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="Xpress4k（推荐）" Link="Xpress4k(doporučeno)"/>
     <String Target="LZX（体积最小）" Link="LZX(ruční)"/>
 
-    <!-- 主框架  -->
+    <!--主框架-->
     <String Target="正在删除" Link="Deleting"/>
     <String Target="错误提示" Link="Chyba"/>
     <String Target="正在保存" Link="Ukládání"/>
@@ -287,14 +287,14 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="释放映像" Link="Použít obraz"/>
     <String Target="挂载映像 " Link="Načíst obraz"/>
 
-    <!--另存为映像 -->
+    <!--另存为映像-->
     <String Target="你可以在此处修改映像文件信息（支持双击修改）" Link="Můžete upravovat informace obrazů (dvojklik na editovat)"/>
     <String Target="在此处设置捕获映像的文件豁免列表加快捕获速度，每个条目用回车分割。" Link="Nastavení seznamu vyloučených obrazů, zadání samostatně vyloučené obrazy."/>
     <String Target="如何配置豁免列表" Link="Jak na konfiguraci seznamu výjimek"/>
     <String Target="另存为映像" Link="Uložit obraz jako"/>
     <String Target="卷影复制" Link="VSS"/>
 
-    <!-- 系统修复-->
+    <!--系统修复-->
     <String Target="映像十分健康不需要修复。" Link="Obraz je neporušený. Žádné opravy není potřeba."/>
     <String Target="映像已经受损，但是可以修复。" Link="Obraz je poškozen, ale oprava je možná."/>
     <String Target="映像已经受到致命问题，已经无法修复，请修复安装。" Link="Existují vážné problémy s obrazem, a to nemůže být obnoven. Doporučujeme obnovit instalační soubory."/>
@@ -307,7 +307,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="什么是本地源" Link="Co je místní zdroj?"/>
     <String Target="本地源" Link="Místní zdroj"/>
 
-    <!-- 格式转换-->
+    <!--格式转换-->
     <String Target="请在此输入源文件路径" Link="Zadejte cestu ke zdrojovému souboru"/>
     <String Target="请在此输入目标文件路径" Link="Zadejte cestu k cílovému souboru"/>
 
@@ -575,7 +575,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="%s 无法获取账号SID，错误代码：0x%.8X" Link="%s Nelze získat účtu SID, kód chyby: 0x%.8X"/>
     <String Target="%s 所关联的用户（%s）无法删除，错误代码：0x%.8X" Link="%s přidružené uživatelé (%s) nelze smazat, kód chyby: 0x%.8X"/>
     <String Target="%s 未关联任何用户。" Link="%s není spojen s uživatelem."/>
-    <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="Blahopřejeme! Odstranění úspěšně dokončeno. Ale některé aplikace se mohou vztahovat k vestavěným aplikací appx. Pokud jste se potýkají s tím, že aplikace je součástí systém, ale nebyly odstraněny - zvolte  'Vyčištění' a použijte položku 'zastaralé aplikace appx'k jejich odstranění"/>
+    <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="Blahopřejeme! Odstranění úspěšně dokončeno. Ale některé aplikace se mohou vztahovat k vestavěným aplikací appx. Pokud jste se potýkají s tím, že aplikace je součástí systém, ale nebyly odstraněny - zvolte 'Vyčištění' a použijte položku 'zastaralé aplikace appx'k jejich odstranění"/>
 
     <!--Windows Update-->
     <String Target="安装" Link="Instalace"/>
@@ -592,7 +592,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="正在下载" Link="Stahování"/>
     <String Target="正在安装" Link="Instalace"/>
     <String Target="项目" Link="Položka"/>
-    <String Target="Windows Update数据库已经存在新版本，你需要更新吗？" Link="Windows Update nová verze databázi nalezena , chcete ji aktualizovat?"/>
+    <String Target="Windows Update数据库已经存在新版本，你需要更新吗？" Link="Windows Update nová verze databázi nalezena, chcete ji aktualizovat?"/>
     <String Target="下载%d%%" Link="Stáh. %d%%"/>
     <String Target="将现有的本地补丁包添加至系统。" Link="Přidát do obrazu balíčky."/>
     <String Target="使用Dism++数据库扫描当前系统需要的更新列表。" Link="Použít nástroj Dism++ databáze pro skenování aktualizací, které potřebuje aktuální obraz."/>
@@ -602,8 +602,12 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="分析%d%%" Link="Analýza %d%%"/>
     <String Target="%s 将引入独占请求，请在 %d 秒内做出选择。" Link="%s vyžaduje výhradní přístup, prosím potvrďte během %d vteřin."/>
     <String Target="温馨提示：引入独占请求后，你将无法安装其他更新，直到你重启系统。建议你先安装其他更新，最后安装此更新。" Link="Tip: S výhradním přístupem, nebude schopeni nainstalovat další aktualizace, dokud nerestartujete systém. Doporučujeme nejprve nainstalovat ostatní aktualizace, pak nakonec nainstalovat tuto aktualizaci."/>
-    <String Target="暂不安装（推荐）&#xA;我暂时还需要添加其他更新。" Link="Neinstalovat (doporučeno) &#xA; Je třeba nejdříve nainstalovat ostatní aktualizace."/>
-    <String Target="继续安装&#xA;我已确保我需要的更新均已安装。" Link="Přejít na instalaci&#xA; Pokud jste nainstalovali ostatní aktualizace."/>
+    <String
+      Target="暂不安装（推荐）&#xA;我暂时还需要添加其他更新。"
+      Link="Neinstalovat (doporučeno) &#xA; Je třeba nejdříve nainstalovat ostatní aktualizace."/>
+    <String
+      Target="继续安装&#xA;我已确保我需要的更新均已安装。"
+      Link="Přejít na instalaci&#xA; Pokud jste nainstalovali ostatní aktualizace."/>
     <String
       Target="关于 %s 的警告：&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;你确定要继续吗？"
       Link="%s varování:&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;Chcete opravdu pokračovat?"/>
@@ -715,7 +719,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="新用户" Link="Nový uživatel"/>
     <String Target="系统" Link="Systém"/>
     <String Target="仅针对当前用户，即 HKEY_CURRENT_USER。" Link="Pouze pro aktuálního uživatele (HKEY_CURRENT_USER)"/>
-    <String Target="针对未来新建的用户，即 HKEY_USERS\DEFAULT。" Link="Vytvořit pro nové uživatele,  (HKEY_USERS\DEFAULT)"/>
+    <String Target="针对未来新建的用户，即 HKEY_USERS\DEFAULT。" Link="Vytvořit pro nové uživatele (HKEY_USERS\DEFAULT)"/>
     <String Target="针对系统，即 HKEY_LOCAL_MACHINE。" Link="Pro systém (HKEY_LOCAL_MACHINE)"/>
     <String Target="导入配置" Link="Import Reg"/>
     <String Target="导入注册表文件过程中遇到问题，具体错误信息请参考 Dism++.log。" Link="Při importovat registru došlo k potížím, naleznete v konkrétní chybové zprávy Dism++.log."/>
@@ -821,7 +825,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="关闭打开程序的“安全警告”（by 莫失莫忘）" Link="Zakázat upozornění zabezpečení při otevírání programů (od MoWangMoShi)"/>
     <String Target="关闭在应用商店中查找关联应用（by Asoft）" Link="Zakázat vyhledávání přidružených aplikací ve Windows Store (od Asoft)"/>
     <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="Skrýt videa, obrázky, dokumenty, stahování, hudbu, plochu, 3D objekty v počítači (by 、Cloud)"/>
-    <String Target="禁止自动安装推荐的应用程序（by IT之家）" Link="Zakázat  automatickou instalaci pro nové aplikace (by ITHome)"/>
+    <String Target="禁止自动安装推荐的应用程序（by IT之家）" Link="Zakázat automatickou instalaci pro nové aplikace (by ITHome)"/>
     <String Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="Zakázat systém Windows Focus na uzamčení obrazovky (by 、Cloud.)"/>
     <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="Zakázat  &quot;Návrhy při používání systému Windows &quot; (by 、Cloud.)"/>
     <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Skrýt lidí na hlavním panelu (by 、Cloud)"/>
@@ -846,7 +850,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="禁用磁盘的“复制磁盘”右键菜单" Link="Zakázat 'Kopie Disku' v kontextovém menu disků"/>
     <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="Zakázat 'Sdílení' v kontextovém menu souborů, složek, pracovní plochy, disků a knihoven"/>
     <String Target="禁用桌面的“小工具”右键菜单" Link="Zakázat 'Widget' v kontextovém menu"/>
-    <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Zakázat položku kontextového menu souboru  &quot;Zobrazit ve 3D &quot; (by Cloud)"/>
+    <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Zakázat položku kontextového menu souboru &quot;Zobrazit ve 3D &quot; (by Cloud)"/>
     <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Zakázat položku kontextové nabídky souboru &quot;Malování ve 3D&quot; (by Cloud)"/>
 
     <!--桌面图示管理-->
@@ -1026,7 +1030,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <!--Dism++更新程序-->
     <String
       Target="发现新版本，需要更新 %d 个文件，约%s。&#xD;&#xA;&#xD;&#xA;更新日志：&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;确定要升级吗？"
-      Link="Byla nalezena nová verze. %d pro  aktualizování souborů bude potřeba %s volného prostoru.&#xD;&#xA;&#xD;&#xA;Changelog:&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;Chcete upgradovat?"/>
+      Link="Byla nalezena nová verze. %d pro aktualizování souborů bude potřeba %s volného prostoru.&#xD;&#xA;&#xD;&#xA;Changelog:&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;Chcete upgradovat?"/>
     <String Target="Dism++更新程序" Link="Dism++ Upgrade"/>
     <String
       Target="准备启动下载模块……&#xD;&#xA;"
@@ -1109,7 +1113,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="CompactOs（较慢）" Link="Kompaktní OS (Pomalejší)"/>
     <String Target="对单纯读取的文件进行哈夫曼压缩，在不影响性能的情况下，显著减少系统体积。特别感谢矿工以及所有Compact团队成员无私的支持与帮助。" Link="Metoda komprese Huffman pro soubory 'jen pro čtení'. Nemá vliv na výkonnost a může výrazně snížit objem systému."/>
     <String Target="使用后可能导致某些程序无法正常运行甚至让系统无法启动，如果使用后出现问题，可以在PE中点击 恢复功能-->撤销Compact。" Link="Použití může vést k selhání v normální fungování některých programů, nebo nemožnosti spuštění systému. Pokud máte potíže při použití - použijte v přeinstalování volbu 'Není kompatibilní' v menu 'Obnova'"/>
-    <String Target="此功能与某些硬盘备份软件不兼容。如果使用后出现问题，可以点击 恢复功能-->撤销Compact。" Link="Tato funkce není kompatibilní s některými zálohovací software. Pokud se setkáte s problémy, klepněte na položku Obnova --> Není kompatibilní."/>
+    <String Target="此功能与某些硬盘备份软件不兼容。如果使用后出现问题，可以点击 恢复功能-->撤销Compact。" Link="Tato funkce není kompatibilní s některými zálohovací software. Pokud se setkáte s problémy, klepněte na položku Obnova > Není kompatibilní."/>
 
     <String Target="过期Appx应用" Link="Zastaralé aplikace Appx"/>
     <String Target="在Appx应用升级时，会留下老版本应用，该功能将删除那些不使用的老版本。" Link="Odstranění starších verzí již aktualizovaných Appx aplikace Windows."/>
@@ -1198,7 +1202,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
 
     <String Target="硬链接备份" Link="HardLink Zálohování"/>
     <String Target="硬链接合并功能留下的备份文件。" Link="Záložní kopie, které jsou vytvořeny po sloučení pevných odkazů.."/>
-    <String Target="请你确保硬链接合并后系统正常，删除此文件将导致硬链接合并操作无法回滚！" Link="Prosím ujistěte se, že systém pracuje normálně, po  sloučení HardLinku , smazaním  souborů nebudete moci obnovit předchozí sloučení!"/>
+    <String Target="请你确保硬链接合并后系统正常，删除此文件将导致硬链接合并操作无法回滚！" Link="Prosím ujistěte se, že systém pracuje normálně, po sloučení HardLinku, smazaním souborů nebudete moci obnovit předchozí sloučení!"/>
 
     <String Target="Windows事件" Link="Windows Události"/>
     <String Target="Windows在运行过程中产生的事件。" Link="Události systému Windows, které jsou zaznamenány během práce."/>
@@ -1277,7 +1281,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="Chrome浏览器老版本备份（by Honry）" Link="Záložní soubory Chrome webový prohlížeč staré verze (od Honry)"/>
     <String Target="Chrome浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Záložní soubory z Chrome Web Browser po aktualizaci, pro vrácení v případě problémů."/>
 
-    <String Target="Microsoft .NET安装缓存（by 撕裂五维空间）" Link="Mezipaměť instalace  Microsoft .NET (od SiLieWuWeiKongJian )"/>
+    <String Target="Microsoft .NET安装缓存（by 撕裂五维空间）" Link="Mezipaměť instalace Microsoft .NET (od SiLieWuWeiKongJian )"/>
     <String Target="安装Microsoft .NET补丁残留的安装缓存。" Link="Mezipaměť nainstalovaných oprav hotfixu"/>
 
     <String Target="PPLive老版本备份（by 何超）" Link="Záložní soubory ze staré verze PPLive (od HeChao)"/>
@@ -1294,7 +1298,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
 
     <String Target="系统还原点" Link="Body Obnovení Systému"/>
     <String Target="先删除全部还原点，再创建一个新的还原点(当系统还原已启用时)" Link="Vytvoří nový bod obnovení po odstranění všechny původní body obnovení (k dispozici pouze v případě, žeje nástroj Obnovení systému povolen)."/>
-    <String Target="清理后将无法使用之前创建的还原点，如果有使用之前的还原点的需求请勿使用此选项。" Link="Zaškrtnutím , nebudete moci používat žádný bod obnovení vytvořen před čištění. Zkontrolovat pokud budete potřebovat používat předchozí body obnovení!"/>
+    <String Target="清理后将无法使用之前创建的还原点，如果有使用之前的还原点的需求请勿使用此选项。" Link="Zaškrtnutím, nebudete moci používat žádný bod obnovení vytvořen před čištění. Zkontrolovat pokud budete potřebovat používat předchozí body obnovení!"/>
 
     <String Target="缩略图缓存" Link="Mezipaměť Miniatur"/>
     <String Target="缩略图缓存（所有用户）" Link="Mezipaměť miniatur (všichni uživatelé)"/>
@@ -1330,9 +1334,9 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="最近能正常启动计算机的配置备份。" Link="Zálohování poslední konfiguraci, která by mohla spustit počítač."/>
 
     <String Target="传递优化缓存" Link="Doručená optimalizace Cache"/>
-    <String Target="Win10开始使用传递优化（DeliveryOptimization）服务下载Windows更新和通用应用（UWP）产生的缓存文件" Link="Ukládat do mezipaměti soubory, které jsou generovány po spuštění Windows 10  pomocí služby optimalizace aktualizací systému Windows a UWP."/>
+    <String Target="Win10开始使用传递优化（DeliveryOptimization）服务下载Windows更新和通用应用（UWP）产生的缓存文件" Link="Ukládat do mezipaměti soubory, které jsou generovány po spuštění Windows 10 pomocí služby optimalizace aktualizací systému Windows a UWP."/>
 
-    <String Target="Appx缓存文件-可解决Appx闪退" Link="Soubory cache Appx - Fix Appx  Havárii"/>
+    <String Target="Appx缓存文件-可解决Appx闪退" Link="Soubory cache Appx - Fix Appx Havárii"/>
     <String Target="Appx运行时产生的缓存文件，当应用闪退时可尝试清理此选项，可解决大多数闪退问题。" Link="Spustitelné soubory, cache Appx. Pokud máte nějaké kopie, můžete se pokusit je čistit. V mnoha případech může být problém vyřešen."/>
 
     <String Target="英伟达驱动安装包（by Ailick）" Link="Instalace ovladače nVidia (o Ailick)"/>
@@ -1368,7 +1372,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
 
     <x20020001>Žádné výchozí přidružení souboru konfigurace v aktuálním obraze. Nelze exportovat.</x20020001>
     <x20020002>Nalezen známý problém s kompatibilitou. Aby nebyl problém s OS musí být pod Windows 8/2012. Pokud budete i nadále pracovat na starších verzích OS - funkce otevírání, zavírání, přidání, odstranění, aktualizace nebude fungovat správně.</x20020002>
-    <x20020003>Dism++ našel problém s kompatibilitou v cestě obrazu existuje jiné znaky než ASCII to může způsobit, že instalace aktualizace nezdaří, obnovte obráz v plné cestě ASCII, jako je například  "D:\Mount".</x20020003>
+    <x20020003>Dism++ našel problém s kompatibilitou v cestě obrazu existuje jiné znaky než ASCII to může způsobit, že instalace aktualizace nezdaří, obnovte obráz v plné cestě ASCII, jako je například "D:\Mount".</x20020003>
 
     <xC1440136>Ovladač (Wofadk.sys) není načteno. Zaškrtněte prosím "Načíst wofadk" v nastavení - další nastavení pro pokračování.</xC1440136>
     <xC144013B>Ovladač (Wofadk.sys) není načteno. Zaškrtněte prosím "Načíst wofadk" v nastavení - další nastavení pro pokračování.</xC144013B>
@@ -1390,13 +1394,13 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <xC1420104>Požadavek na extrakt byl přijat pro soubor, který není obsažen v tomto snímku. Tento soubor nebude extrahovat.</xC1420104>
     <xC1420105>Požadavek na extrakt byl přijat pro soubor, který neexistuje. Tato situace může nastat v důsledku špatného fungování s dalšími filtry systémových souborů. Ujistěte se, že žádný antivirový nebo zálohovací software neběží v adresáři připojení.</xC1420105>
     <xC1420106>Požadavek na extrakt byl přijat pro soubor, který je již vytěžen. Tento požadavek nebude proveden.</xC1420106>
-    <xC1420107>Služba byla informována o přítomnosti dvou různých souborů se stejným ID. Příznaky jsou nastaveny pro tyto soubory.  Operace připojení se nezdaří.</xC1420107>
+    <xC1420107>Služba byla informována o přítomnosti dvou různých souborů se stejným ID. Příznaky jsou nastaveny pro tyto soubory. Operace připojení se nezdaří.</xC1420107>
     <xC1420108>Souborový systém kontejneru pokusil vložit název souboru dvakrát. Je to neplatné, wim služby by měly obdržet pouze jedno oznámení s názevem souboru.</xC1420108>
     <xC1420109>Služby obdržel špatnou zprávu z filtru. Tato zpráva nebude zpracována.</xC1420109>
     <xC142010A>Služba obdržela výpis souboru, který není v připojeném obrazu. Tento výpis bude ignorována.</xC142010A>
     <xC142010B>Byl proveden pokus o odpojení adresáře, který není připojen.</xC142010B>
     <xC142010C>Byl proveden pokus o uložení obrazu připojeného s přístupem jen pro čtení. Tato operace není platná. Chcete-li uložit obraz, připojte jej, a odstraňte příznak "Jen pro čtení".</xC142010C>
-    <xC142010E>Při načítání připojení zadaný adresář neexistuje.  Chcete-li zahájit extrakci proces vyžaduje, aby byl připojen obraz.</xC142010E>
+    <xC142010E>Při načítání připojení zadaný adresář neexistuje. Chcete-li zahájit extrakci proces vyžaduje, aby byl připojen obraz.</xC142010E>
     <xC142010F>Neplatný popisovač byl předán manageru obrazu. Tohle je chyba v programu.</xC142010F>
     <xC1420110>Zadaný popisovač obrazu nebyl použit k připojení obrazu a nelze použít k odpojení. Prosím volejte WIMUnmountImage s názvem adresáře přípojného obrazu pro odpojení.</xC1420110>
     <xC1420111>Obraz odpovídající data zadaného připojení nebyl nalezen.</xC1420111>
@@ -1405,19 +1409,19 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <xC1420114>Uživatel se pokusil připojit do adresáře, který není prázdný. To není podporováno.</xC1420114>
     <xC1420115>Uživatel se pokusil připojit do adresáře, který neexistuje. Tato možnost není podporována.</xC1420115>
     <xC1420116>WIMUnmountImageHandle byl předán popisovač chybného obrazu. Pouze obraz popisovače předán WIMMountImageHandle, nebo obraz popisovače načteného z WIMGetMountedImageHandle mohou být použity v WIMUnmountImageHandle.</xC1420116>
-    <xC1420117>Adresář nemůže být zcela odpojen. To je způsobeno aplikací, která má stále soubory otevřené v rámci připojení adresáře.  Uzavření souborů a odpojení dojde k dokončení procesu odpojení.</xC1420117>
+    <xC1420117>Adresář nemůže být zcela odpojen. To je způsobeno aplikací, která má stále soubory otevřené v rámci připojení adresáře. Uzavření souborů a odpojení dojde k dokončení procesu odpojení.</xC1420117>
     <xC1420118>Připojený obraz je již používán. Ujistěte se, že není používán jiným procesem.</xC1420118>
     <xC1420119>Binární wimserv.exe nebyl nalezen. Ujistěte se, že je k dispozici v cestě pro vyhledávání systému.</xC1420119>
     <xC142011A>ImageX vypršel časový limit při čekání na inicializaci procesu extraktor wimmount.</xC142011A>
     <xC142011B>Služba wimmount vypnuta bez stavu návratu.</xC142011B>
     <xC142011C>Zadaný adresář není platný připojený adresář.</xC142011C>
-    <xC142011D>Zadaný připojený obraz nemůže být převeden zpět do WIM. K tomu dochází, když obraz byl částečně odpojen nebo je stále připojen.  Byl-li tento obraz dříve odpojené s potvrzenímt, pak pravděpodobně byoa úspěšné.  Ověřte, že je to tento případ a pak odpojit bez potvrzení.</xC142011D>
+    <xC142011D>Zadaný připojený obraz nemůže být převeden zpět do WIM. K tomu dochází, když obraz byl částečně odpojen nebo je stále připojen. Byl-li tento obraz dříve odpojené s potvrzenímt, pak pravděpodobně byoa úspěšné. Ověřte, že je to tento případ a pak odpojit bez potvrzení.</xC142011D>
     <xC142011E>Připojení adresáře pro zadaný obraz. Všechny soubory budou extrahovány do tohoto obrazu, a obraz nebude schopen opravi.</xC142011E>
     <xC142011F>Svazek v zadané cestě připojení nepodporuje body změny zpracování. Připojit svazek, který podporuje body změny zpracování.</xC142011F>
     <xC1420120>Zadaný adresář obsahuje poškozený připojiený obraz. Žádný operace připojení nemohou být provedeny v tomto adresář.</xC1420120>
     <xC1420121>Obraz nelze připojit, protože wimmount.sys ovladač není nainstalován na tomto počítači. Chcete-li tuto chybu opravit, nainstalujte wimmount.sys ovladač.</xC1420121>
     <xC1420122>Připojený obraz nemůže být potvrzeno, protože obraz v Wim byl změněn poté, co byl připojen.</xC1420122>
-    <xC1420123>Zadaný adresář nelze znovu připojit, protože není platné přípojení cíl.  Nejpravděpodobnějším důvodem, že adresář je již odpojené.</xC1420123>
+    <xC1420123>Zadaný adresář nelze znovu připojit, protože není platné přípojení cíl. Nejpravděpodobnějším důvodem, že adresář je již odpojené.</xC1420123>
     <xC1420124>Zadaný adresář nelze znovu připojit, protože obraz Wim byl změněn poté, co byl připojen.</xC1420124>
     <xC1420125>Zadaný adresář nelze znovu připojit, protože probíhá odpojení tohoto adresáře.</xC1420125>
     <xC1420126>Zadaná bitová kopie je již přpojena a nelze jej připojit znovu.</xC1420126>
