@@ -8,7 +8,7 @@ Also some control characters should be preferably encoded as numeric character e
     >     More than                    &gt;
     &     And                          &amp;
     ’     Single quotation mark        &apos;      ’ (apostrophe) or ‘English quotes’
-    "     Double quotation mark        &quot;      “English quotes”
+    "     Double quotation mark        &quot;      “English quotes” or « French quotes »
     \t    Tabulation control           &#9;
     \n    Line feed (newline) control  &#xA;
     \r    Carriage return control      &#xD;
@@ -480,18 +480,18 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
 
     <!--开机启动项-->
     <String Target="开机启动项" Link="Démarrage"/>
-    <String Target="系统启动项 —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="Démarrage système — HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
-    <String Target="系统启动项32位 —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run" Link="Amorçage système 32 bits — HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run"/>
-    <String Target="系统启动项（仅启动一次） —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="Démarrage Système (Run Once) — HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
-    <String Target="系统启动项32位（仅启动一次） —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce" Link="Démarrage Système 32 bits (Run Once) — HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce"/>
-    <String Target="用户启动项 —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="Démarrage utilisateur — HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
-    <String Target="用户启动项（仅启动一次） —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="Démarrage utilisateur (Run Once) — HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
-    <String Target="启动（所有用户） —— %SystemDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup" Link="Démarrage (Tous utilisateurs) — %SystemDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup"/>
-    <String Target="启动（当前用户） —— %UserProfile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup" Link="Démarrage (Utilisateur actuel) — %UserProfile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"/>
-    <String Target="本机启动项 —— HKLM\SYSTEM\CurrentControlSet\Control\Session Manager" Link="Amorçage natif — HKLM\SYSTEM\CurrentControlSet\Control\Session Manager"/>
+    <String Target="系统启动项 —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="Démarrage du système — HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
+    <String Target="系统启动项32位 —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run" Link="Démarrage du système 32 bits — HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run"/>
+    <String Target="系统启动项（仅启动一次） —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="Démarrage du système (exécuté une fois) — HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
+    <String Target="系统启动项32位（仅启动一次） —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce" Link="Démarrage du système 32 bits (exécuté une fois) — HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce"/>
+    <String Target="用户启动项 —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="Démarrage de session utilisateur — HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
+    <String Target="用户启动项（仅启动一次） —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="Démarrage de session utilisateur (exécuté une fois) — HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
+    <String Target="启动（所有用户） —— %SystemDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup" Link="Dossier de démarrage (tous les utilisateurs) — %SystemDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup"/>
+    <String Target="启动（当前用户） —— %UserProfile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup" Link="Dossier de démarrage (utilisateur actuel) — %UserProfile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"/>
+    <String Target="本机启动项 —— HKLM\SYSTEM\CurrentControlSet\Control\Session Manager" Link="Amorçage du système — HKLM\SYSTEM\CurrentControlSet\Control\Session Manager"/>
     <String Target="隐藏禁用项" Link="Items activés"/>
     <String Target="查找" Link="Trouver"/>
-    <String Target="新用户启动项 —— HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="Nouveau démarrage de l’utilisateur — HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
+    <String Target="新用户启动项 —— HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="Démarrage de l’utilisateur — HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
     <String Target="新用户启动项（仅启动一次） —— HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="Nouveau démarrage de l’utilisateur (Run Once) — HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
 
     <!--服务-->
