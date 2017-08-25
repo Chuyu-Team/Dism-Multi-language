@@ -1,4 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><!--
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
 Este es el recurso de traducción en español para Dism ++.
 Hay 5 ASCII que necesitan una representación especial en XML.
 También algunos caracteres de control deben codificarse preferiblemente como entidades de carácter numérico.
@@ -119,7 +120,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="临时目录可用空间不足5GB，这可能导致Dism++无法正常运行，推荐将Dism++复制到可用空间大于5GB的驱动器，然后继续。" Link="Directorio temporal con menos de 5GB de espacio, Dism++ puede que no funcione correctamente. Se recomienda copiar DISM++ con más de 5GB de espacio libre, y luego continuar."/>
     <String Target="基础支撑库缺失，引导修复相关功能无法使用。" Link="Falta el soporte fundamental de la biblioteca. No se pueden usar las funciones relacionadas con reparar inicio."/>
     <String Target="Dism++需要管理员权限才能运行，请右键 以管理员身份运行 然后继续。" Link="Dism++ necesita derechos administrativos para ejecutarse. Clic en botón derecho y seleccionar Ejecutar como Administrador para ejecutarlo."/>
-    <String q="" Target="Dism++不允许以兼容模式启动，请去除兼容模式，然后再启动Dism++。" Link="Dism++ doesn’t allow compatibility mode. Restart Dism++ after disable it."/>
+    <String Target="Dism++不允许以兼容模式启动，请去除兼容模式，然后再启动Dism++。" Link="Dism++ no permite el modo de compatibilidad. Reiniciar Dism++ y después desactivarlo."/>
 
     <String Target="你需要增量保存还是直接保存？" Link="¿Guardar de forma directa o en incrementos?"/>
     <String Target="温馨提示：保存映像后空间不会减少，如果需要减少空间请重新编译目标文件。" Link="Consejos: No se va a reducir espacio si guarda esta imagen;  re-compilar el archivo de destino si necesita reducir espacio"/>
@@ -179,9 +180,9 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="已经失效" Link="Expirado"/>
     <String Target="请稍等" Link="Espere por favor"/>
 
-
     <String Target="本地硬盘" Link="Disco Local"/>
     <String Target="挂载映像" Link="Imagen montada"/>
+    <String Target="Compact" Link="Compactar"/>
     <String Target="VHD装载" Link="VHD montado"/>
 
     <String Target="不压缩" Link="Nada"/>
@@ -394,7 +395,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
       <String Target="Appx管理" Link="Appxs"/>
 
     <String Target="驱动管理" Link="Controladores"/>
-    <String q="" Target="程序和功能" Link="Apps and Features"/>
+    <String Target="程序和功能" Link="Aplicaciones y funciones"/>
     <String Target="Windows服务" Link="Servicios de Windows"/>
     <String Target="Windows功能" Link="Características de Windows"/>
     <String Target="更新管理" Link="Actualizaciones"/>
@@ -474,8 +475,8 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="正在安装驱动" Link="Instalando controlador"/>
     <String Target="一个或者多个驱动添加失败，错误代码：0x%.8X" Link="Uno o varios controladores no se han podido añadir. Código error: 0x%.8X"/>
     <String Target="显示内置驱动" Link="Mostrar controladores"/>
-    <String q="" Target="处理过程中遇到问题，其中成功 %u 个，失败 %u 个，不适用 %u 个。部分错误信息：%s [0x%.8X] 更多信息请参考 &quot;Config\Dism++.log&quot;" Link="Met problem(s) duting processing. Success %u, failure %u, not applicable %u. Some of the error: %s [0x%.8X]. Refer to &quot;Config\Dism++.log&quot; for more information."/>
-    <String q="" Target="操作成功，其中成功 %u 个，不适用 %u 个。更多信息请参考 &quot;Config\Dism++.log&quot;" Link="Operation succeeded. Success %u, not applicable %u. Refer to &quot;Config\Dism++.log&quot; for more information."/>
+    <String Target="处理过程中遇到问题，其中成功 %u 个，失败 %u 个，不适用 %u 个。部分错误信息：%s [0x%.8X] 更多信息请参考 &quot;Config\Dism++.log&quot;" Link="Se han encontrado error(es) al procesar. %u completados, %u errores, %u no aplicabe. Parte del error: %s [0x%.8X]. Ver &quot;Config\Dism++.Log&quot; para obtener más información."/>
+    <String Target="操作成功，其中成功 %u 个，不适用 %u 个。更多信息请参考 &quot;Config\Dism++.log&quot;" Link="Operación completada. %u completados,  %u no aplicable. Ver &quot;Config\Dism++.Log&quot; para obtener más información."/>
 
     <!--开机启动项-->
     <String Target="开机启动项" Link="Inicio"/>
@@ -827,7 +828,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Ocultar la barra de tareas (Cloud)"/>
 
     <!--开始菜单-->
-    <String q="" Target="开始菜单以及Windows体验" Link="Start&amp;Windows Experience"/>
+    <String Target="开始菜单以及Windows体验" Link="Iniciar Experiencia de Windows"/>
 
     <!--右键菜单管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="Administrar menú contextual: Desactiva los elementos del menú no necesarios para mejorar la respuesta de Windows Explorer"/>
@@ -886,7 +887,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Prevenir abrir Microsoft Edge en &quot;Primera ejecución&quot; (ITHome)"/>
 
     <!--微软拼音输入法-->
-    <String q="" Target="微软拼音输入法" Link="Microsoft Pinyin IME"/>
+    <String Target="微软拼音输入法" Link="Microsoft Pinyin IME"/>
     <String Target="微软拼音默认为英语输入（by Rambin）" Link="Modo predeterminado en inglés IME(Rambin)"/>
 
     <String Target="关闭微软拼音云计算（by Rambin）" Link="Desactivar el método de entrada en Cloud (Rambin)"/>
@@ -990,7 +991,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
 
     <String Target="Windows 照片查看器" Link="Visor de fotos de Windows"/>
     <String Target="Windows主题相关设置" Link="Configuración del tema de Windows"/>
-    <String q="" Target="任务栏相关设置" Link="Taskbar settings"/>
+    <String Target="任务栏相关设置" Link="Configurar barra de tareas"/>
     <String Target="关闭商店应用推广（by 、Cloud.）" Link="Desactivar desde Windows Store (Cloud)."/>
     <String Target="关闭多嘴的小娜（by 朽木）" Link="Desactivar Cortana (XiuMu)"/>
     <String Target="关闭游戏录制工具（by 、Cloud.）" Link="Desactivar grabador de juegos (Cloud)."/>
