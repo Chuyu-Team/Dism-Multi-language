@@ -395,7 +395,7 @@ Special Thanks to franz@drwindows.de
       <String Target="Appx管理" Link="Appxs Verwaltung"/>
 
     <String Target="驱动管理" Link="Treiber-Verwaltung"/>
-    <String q="" Target="程序和功能" Link="Apps and Features"/>
+    <String Target="程序和功能" Link="Programme und Features"/>
     <String Target="Windows服务" Link="Dienste-Verwaltung"/>
     <String Target="Windows功能" Link="Feature-Verwaltung"/>
     <String Target="更新管理" Link="Update-Verwaltung"/>
@@ -475,8 +475,8 @@ Special Thanks to franz@drwindows.de
     <String Target="正在安装驱动" Link="Treiber werden installiert"/>
     <String Target="一个或者多个驱动添加失败，错误代码：0x%.8X" Link="Ein oder mehrere Treiber konnten nicht hinzugefügt werden, Fehlercode: 0x%.8X"/>
     <String Target="显示内置驱动" Link="In-box Treiber anzeigen"/>
-    <String Target="处理过程中遇到问题，其中成功 %u 个，失败 %u 个，不适用 %u 个。部分错误信息：%s [0x%.8X] 更多信息请参考 &quot;Config\Dism++.log&quot;" qLink=""/>
-    <String Target="操作成功，其中成功 %u 个，不适用 %u 个。更多信息请参考 &quot;Config\Dism++.log&quot;" qLink=""/>
+    <String Target="处理过程中遇到问题，其中成功 %u 个，失败 %u 个，不适用 %u 个。部分错误信息：%s [0x%.8X] 更多信息请参考 &quot;Config\Dism++.log&quot;" Link="Während des Vorgangs sind Fehler aufgetreten.&#xD;&#xA;&#xD;&#xA;Erfolgreich: %u&#xD;&#xA;Fehlgeschlagen: %u&#xD;&#xA;Nicht anwendbar: %u&#xD;&#xA;Fehler: %s [0x%.8X]&#xD;&#xA;&#xD;&#xA;Weitere Informationen finden Sie im Programmverzeichnis unter &quot;Config\Dism++.log&quot;."/>
+    <String Target="操作成功，其中成功 %u 个，不适用 %u 个。更多信息请参考 &quot;Config\Dism++.log&quot;" Link="Der Vorgang wurde erfolgreich abgeschlossen&#xD;&#xA;&#xD;&#xA;Erfolgreich: %u&#xD;&#xA;Nicht anwendbar: %u&#xD;&#xA;&#xD;&#xA;Weitere Informationen finden Sie im Programmverzeichnis unter &quot;Config\Dism++.log&quot;."/>
 
     <!--开机启动项-->
     <String Target="开机启动项" Link="Start"/>
@@ -773,7 +773,7 @@ Special Thanks to franz@drwindows.de
 
     <String Target="使任务栏更透明（by 518516.net）" Link="Taskleiste noch transparenter (by 518516.net)"/>
 
-    <String Target="不允许在开始菜单显示建议" qLink=""/>
+    <String Target="不允许在开始菜单显示建议" Link="Vorschläge im Startmenü deaktivieren"/>
 
     <String Target="在桌面显示我的电脑（by Rambin）" Link="Mein Computer auf dem Desktop anzeigen (by Rambin)"/>
       <String Target="跟随系统" Link="Systemeinstellungen"/>
@@ -828,7 +828,7 @@ Special Thanks to franz@drwindows.de
     <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Kontakte-Icon in der Taskleiste ausblenden (by 、Cloud)"/>
 
     <!--开始菜单-->
-    <String q="" Target="开始菜单以及Windows体验" Link="Start&amp;Windows Experience"/>
+    <String Target="开始菜单以及Windows体验" Link="Start und Windows-Leistungsindex"/>
 
     <!--右键菜单管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="Kontextmenü einrichten: nicht benötigte Einträge ausblenden (beschleunigt den Windows Explorer)"/>
