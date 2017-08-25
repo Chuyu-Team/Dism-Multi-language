@@ -395,7 +395,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
       <String Target="Appx管理" Link="Aplikace systému"/>
 
     <String Target="驱动管理" Link="Ovladače"/>
-    <String q="" Target="程序和功能" Link="Apps and Features"/>
+    <String Target="程序和功能" Link="Aplikace a funkce"/>
     <String Target="Windows服务" Link="Služby"/>
     <String Target="Windows功能" Link="Funkce systému"/>
     <String Target="更新管理" Link="Aktualizace"/>
@@ -475,8 +475,8 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="正在安装驱动" Link="Instalace ovladače"/>
     <String Target="一个或者多个驱动添加失败，错误代码：0x%.8X" Link="Jeden nebo více ovladačů se nepodařilo přidat, kód chyby: 0x%.8X"/>
     <String Target="显示内置驱动" Link="Předinstalované"/>
-    <String Target="处理过程中遇到问题，其中成功 %u 个，失败 %u 个，不适用 %u 个。部分错误信息：%s [0x%.8X] 更多信息请参考 &quot;Config\Dism++.log&quot;" qLink=""/>
-    <String Target="操作成功，其中成功 %u 个，不适用 %u 个。更多信息请参考 &quot;Config\Dism++.log&quot;" qLink=""/>
+    <String Target="处理过程中遇到问题，其中成功 %u 个，失败 %u 个，不适用 %u 个。部分错误信息：%s [0x%.8X] 更多信息请参考 &quot;Config\Dism++.log&quot;" Link="Met problém(y) informace o zpracování. Úspěšných %, selhalo %, nelze použít %. Některé chyby: %s [0x%.8X]. Odkaz na &quot;Config\Dism++.log&quot; pro více informací."/>
+    <String Target="操作成功，其中成功 %u 个，不适用 %u 个。更多信息请参考 &quot;Config\Dism++.log&quot;" Link="Operace byla úspěšná. Úspěšnost na %, nelze použít %. Odkaz na &quot;Config\Dism++.log&quot; pro více informací."/>
 
     <!--开机启动项-->
     <String Target="开机启动项" Link="Po spuštění"/>
@@ -828,11 +828,11 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="Skrýt videa, obrázky, dokumenty, stahování, hudbu, plochu, 3D objekty v počítači (by 、Cloud)"/>
     <String Target="禁止自动安装推荐的应用程序（by IT之家）" Link="Zakázat automatickou instalaci pro nové aplikace (by ITHome)"/>
     <String Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="Zakázat systém Windows Focus na uzamčení obrazovky (by 、Cloud.)"/>
-    <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="Zakázat  &quot;Návrhy při používání systému Windows &quot; (by 、Cloud.)"/>
+    <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="Zakázat &quot;Návrhy při používání systému Windows&quot; (by 、Cloud.)"/>
     <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Skrýt lidí na hlavním panelu (by 、Cloud)"/>
     
     <!--开始菜单-->
-    <String q="" Target="开始菜单以及Windows体验" Link="Start&amp;Windows Experience"/>
+    <String Target="开始菜单以及Windows体验" Link="Start&amp;Windows Zkušenosti"/>
 
     <!--右键菜单管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="Správa kontextového menu: Vypne nepotřebné položky menu pro zlepšení reakce Průzkumníka Windows"/>
