@@ -35,48 +35,48 @@ Special Thanks to franz@drwindows.de
     <LangSecRef ID="3031">Windows Store</LangSecRef>
   </CCleanLangSecRefMap>
   <StringMaps>
-    <String Target="文件(&amp;F)" Link="Datei(&amp;F)"/>
-      <String Target="添加映像" Link="Image hinzufügen"/>
-        <String Target="释放映像&#9;Ctrl+N" Link="Image bestätigen&#9;Ctrl+N"/>
-        <String Target="挂载映像&#9;Ctrl+Shift+N" Link="Image einbinden&#9;Ctrl+Shift+N"/>
-        <String Target="添加路径" Link="Pfad hinzufügen"/>
-      <String Target="卸载映像&#9;Delete" Link="Image auswerfen&#9;Del"/>
-      <String Target="保存映像&#9;Ctrl+S" Link="Image speichern&#9;Ctrl+S"/>
-      <String Target="另存为映像&#9;Ctrl+Shift+S" Link="Image speichern unter&#9;Ctrl+Shift+S"/>
-      <String Target="打开映像文件&#9;Ctrl+O" Link="Image-Datei öffnen&#9;Ctrl+O"/>
-      <String Target="重新载入" Link="Aktualisieren"/>
-      <String Target="格式转换" Link="Umwandlungsformat"/>
-      <String Target="ESD解密" Link="ESD Verschlüsselung"/>
-    <String Target="取消任务&#9;Ctrl+Break" Link="Task beenden&#9;Strg+Pause"/>
+    <String Target="文件(&amp;F)" Link="&amp;Datei"/>
+      <String Target="添加映像" Link="&amp;Image hinzufügen"/>
+        <String Target="释放映像&#9;Ctrl+N" Link="Image &amp;bestätigen&#9;Strg+N"/>
+        <String Target="挂载映像&#9;Ctrl+Shift+N" Link="Image &amp;einbinden&#9;Strg+Shift+N"/>
+        <String Target="添加路径" Link="&amp;Pfad hinzufügen"/>
+      <String Target="卸载映像&#9;Delete" Link="Image &amp;auswerfen&#9;Del"/>
+      <String Target="保存映像&#9;Ctrl+S" Link="Image &amp;speichern&#9;Strg+S"/>
+      <String Target="另存为映像&#9;Ctrl+Shift+S" Link="Image speichern &amp;unter&#9;Strg+Shift+S"/>
+      <String Target="打开映像文件&#9;Ctrl+O" Link="Image-&amp;Datei öffnen&#9;Strg+O"/>
+      <String Target="重新载入" Link="&amp;Neustart der Anwendung"/>
+      <String Target="格式转换" Link="Umwandlungs&amp;format"/>
+        <String Target="ESD解密" Link="ESD &amp;Verschlüsselung"/>
+      <String Target="取消任务&#9;Ctrl+Break" Link="&amp;Task beenden&#9;Strg+Pause"/>
 
-    <String Target="恢复功能(&amp;R)" Link="Wiederherstellung(&amp;R)"/>
+    <String Target="恢复功能(&amp;R)" Link="&amp;Reparatur"/>
       <String Target="系统修复" Link="System Wiederherstellung"/>
-      <String Target="健康扫描" Link="Systemstatus überprüfen"/>
-        <String Target="验证受损" Link="Systemstatus überprüfen"/>
-        <String Target="修复受损" Link="Status wiederherstellen"/>
-      <String Target="引导修复" Link="Startreparatur"/>
-      <String Target="系统备份" Link="Systemsicherung"/>
-      <String Target="系统还原" Link="Wiederherstellung"/>
-      <String Target="在RE中运行" Link="In WinRE öffnen"/>
-      <String Target="仅启动RE" Link="Nur in WinRE öffnen"/>
-      <String Target="撤销Compact" Link="Nur entpacken"/>
+      <String Target="健康扫描" Link="System &amp;Gesunheit"/>
+        <String Target="验证受损" Link="Status über&amp;prüfen"/>
+        <String Target="修复受损" Link="Status &amp;reparieren"/>
+      <String Target="引导修复" Link="Start&amp;reparatur"/>
+      <String Target="系统备份" Link="System&amp;sicherung"/>
+      <String Target="系统还原" Link="System &amp;Wiederherstellung"/>
+      <String Target="在RE中运行" Link="&amp;In WinRE öffnen"/>
+      <String Target="仅启动RE" Link="&amp;Nur WinRE öffnen"/>
+      <String Target="撤销Compact" Link="Nur &amp;entpacken"/>
 
     <String Target="选项(&amp;O)" Link="&amp;Optionen"/>
-      <String Target="插件管理" Link="Plugin-Manager"/>
-      <String Target="新手模式" Link="Einfacher Modus"/>
-      <String Target="详细设置" Link="Weitere Einstellungen"/>
-      <String Target="操作完成后" Link="Nachdem der Vorgang abgeschlossen ist"/>
-        <String Target="未定义" Link="Nichts tun"/>
-        <String Target="关机" Link="Herunterfahren"/>
-        <String Target="重启" Link="Neustart"/>
-      <String Target="程序外观" Link="Ansicht"/>
+      <String Target="插件管理" Link="&amp;Plugin-Manager"/>
+      <String Target="新手模式" Link="&amp;Einfacher Modus"/>
+      <String Target="详细设置" Link="&amp;Weitere Einstellungen"/>
+      <String Target="操作完成后" Link="Nachdem der &amp;Vorgang abgeschlossen ist"/>
+        <String Target="未定义" Link="&amp;Nichts tun"/>
+        <String Target="关机" Link="&amp;Herunterfahren"/>
+        <String Target="重启" Link="Neu&amp;start"/>
+      <String Target="程序外观" Link="&amp;Ansicht"/>
 
     <String Target="帮助(&amp;H)" Link="&amp;Hilfe"/>
-      <String Target="查看帮助(&amp;V)" Link="Hilfe aufrufen(&amp;V)"/>
-      <String Target="官方网站(&amp;O)" Link="&amp;Offizielle Homepage"/>
+      <String Target="查看帮助(&amp;V)" Link="Hilfe &amp;aufrufen"/>
+      <String Target="官方网站(&amp;O)" Link="Offizielle &amp;Homepage"/>
       <String Target="官方群(&amp;G)" Link="Offizielle &amp;Gruppe"/>
-      <String Target="问题反馈(&amp;B)" Link="Feed&amp;back"/>
-      <String Target="关于Dism++(&amp;A)" Link="Über Dism++(&amp;A)"/>
+      <String Target="问题反馈(&amp;B)" Link="&amp;Feedback"/>
+      <String Target="关于Dism++(&amp;A)" Link="Ü&amp;ber Dism++"/>
       <String Target="检查更新(&amp;U)" Link="Nach &amp;Updates suchen"/>
 
     <String Target="应用一个WIM、ESD、SWM或者ISO映像。" Link="Erstellt eine WIM-, ESD-, SWM- oder ISO-Image-Datei."/>
@@ -107,7 +107,7 @@ Special Thanks to franz@drwindows.de
     <String Target="Xpress4k（推荐）" Link="Xpress4k (empfohlen)"/>
     <String Target="LZX（体积最小）" Link="LZX (kleinste)"/>
 
-    <!-- 主框架  -->
+    <!--主框架-->
     <String Target="正在删除" Link="Löschen"/>
     <String Target="错误提示" Link="Fehler"/>
     <String Target="正在保存" Link="Speichern"/>
@@ -295,7 +295,7 @@ Special Thanks to franz@drwindows.de
     <String Target="另存为映像" Link="Image speichern als"/>
     <String Target="卷影复制" Link="VSS"/>
 
-    <!-- 系统修复-->
+    <!--系统修复-->
     <String Target="映像十分健康不需要修复。" Link="Die Image-Datei ist intakt. Keine Reparatur notwendig."/>
     <String Target="映像已经受损，但是可以修复。" Link="Die Image-Datei wurde beschädigt, eine Reparatur ist aber möglich."/>
     <String Target="映像已经受到致命问题，已经无法修复，请修复安装。" Link="Die Image-Datei hat einen schwerwiegenden Fehler, den Dism++ leider nicht reparieren kann. Bitte versuchen Sie eine Neuinstallation."/>
@@ -308,7 +308,7 @@ Special Thanks to franz@drwindows.de
     <String Target="什么是本地源" Link="Welche Datei ist Ihre lokale Datenquelle?"/>
     <String Target="本地源" Link="Lokale Datenquelle"/>
 
-    <!-- 格式转换-->
+    <!--格式转换-->
     <String Target="请在此输入源文件路径" Link="Bitte den Pfad der Ursprungsdatei angeben"/>
     <String Target="请在此输入目标文件路径" Link="Bitte den Zielpfad angeben"/>
 
@@ -603,8 +603,12 @@ Special Thanks to franz@drwindows.de
     <String Target="分析%d%%" Link="Analysiere %d%%"/>
     <String Target="%s 将引入独占请求，请在 %d 秒内做出选择。" Link="%s benötigt exklusive Berechtigungen, bitte in %d Sekunden bestätigen."/>
     <String Target="温馨提示：引入独占请求后，你将无法安装其他更新，直到你重启系统。建议你先安装其他更新，最后安装此更新。" Link="Hinweis: Mit der exklusiven Berechtigung kann der Benutzer keine anderen Updates installieren, bevor nicht das System neu gestartet wurde. Wir empfehlen daher, zuerst andere Updates zu installieren und dann erst jene, für die exklusive Berechtigung benötigt wird"/>
-    <String Target="暂不安装（推荐）&#xA;我暂时还需要添加其他更新。" Link="Nicht installieren (empfohlen) &#xA; Zuerst müssen andere Updates installiert werden."/>
-    <String Target="继续安装&#xA;我已确保我需要的更新均已安装。" Link="Weiter mit der Installation&#xA; Alle anderen Updates wurden installiert."/>
+    <String
+      Target="暂不安装（推荐）&#xA;我暂时还需要添加其他更新。"
+      Link="Nicht installieren (empfohlen)&#xD;&#xA;Zuerst müssen andere Updates installiert werden."/>
+    <String
+      Target="继续安装&#xA;我已确保我需要的更新均已安装。"
+      Link="Weiter mit der Installation&#xD;&#xA;Alle anderen Updates wurden installiert."/>
     <String
       Target="关于 %s 的警告：&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;你确定要继续吗？"
       Link="%s Achtung:&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;Wollen Sie wirklich fortfahren?"/>
@@ -1453,36 +1457,36 @@ I. Rights and Obligations
     3. Dism++ users have the obligation to report bugs and possible improvements to Chuyu team. Anyone who uses Dism++ for over 30 days should send mingkuang a "Dism++ usage report" that is no less than 345 words. Anyone who uses Dism++ for 8 mounths or longer should send mingkuang an annual report (at least 520 words) on the topic "Suggestion and possible improvement on Dism++" on November 11th (local time). Email of mingkuang: mingkuang@live.com.
     4. Dism++ users should retain the love for peace, for group work, and of helping others.
     5. Dism++ users should comply with the Basic Law (or local equivalents). Any action that violates copyright of Chuyu team or this agreement (including but not limited to inappropriately copy, propagate, display, mirror, upload, download, modify), and those that negatively impact Chuyu team's operation or services will be subject to serious legal actions.
-    6. Anyone who fail to comply with this agreement automatically loses any right granted by Chuyu team. Chuyu team retain right to stop all software of Chuyu team in their PC(s), to reject any of their proposal(s), and to persue legal actions gainst them.
+    6. Anyone who fails to comply with this agreement automatically loses any right granted by Chuyu team. Chuyu team retain right to stop all software of Chuyu team in their PC(s), to reject any of their proposal(s), and to persue legal actions gainst them.
     7. Chuyu team will try their best to provide technical support for those who comply with this agreement, when all of the following factors permit: the complexity of issue, the availability of Chuyu team, and the other users' vote.
 
 II. Privacy Issues
 
-    1. After initiation, Dism++ will collect Dism++ users' system information (including but not restricted to the system version, system structure, system language, CPU information, RAM information), and Dism++'s own report (including but not restricted to the system crash dump and log files) to improve the service. Dism++ will not collect user identification information nor user's contact information.
-    2. Chuyu team may send users invitations for testing Dism++, invitations for voting to help Chuyu team's decisioning, and software updates, but Chuyu team will never send messages that include but not limited to advertisements, promotions, frauds, or request for payment.
+    1. After initialisation, Dism++ will collect Dism++ users' system information (including but not restricted to the system version, system structure, system language, CPU information, RAM information), and Dism++'s own report (including but not restricted to the system crash dump and log files) to improve the service. Dism++ will not collect user identification information nor user's contact information.
+    2. Chuyu Team may send users invitations for testing Dism++, invitations for voting to help Chuyu Team's decisioning, and software updates, but Chuyu Team will never send messages that include but not limited to advertisements, promotions, frauds, or request for payment.
 
 III. Bear The Risks
 
-    1. Chuyu team have an open-type attitude so everyone can let Dism++ better. Some functions may lead unknown aftermath so Chuyu team will remove the possible risk and tell the users. But we didn't solve all the issue. You must bear all the aftermath yourself. Please tell Chuyu team after you find some problems to prevent others have the problems.
-    2. Please understand and agree because our softwares need to develop. Chuyu team persists the rights to change or pause or end or revoke all or some service. The users need to bear this danger.
+    1. Chuyu Team has an open-type attitude so everyone can let Dism++ better. Some functions may lead unknown aftermath so Chuyu Team will remove the possible risk and tell the users. But we didn't solve all the issue. You must bear all the aftermath yourself. Please tell Chuyu Team after you find some problems to prevent others have the problems.
+    2. Please understand and agree because our softwares need to develop. Chuyu Team persists the rights to change or pause or end or revoke all or some service. The users need to bear this danger.
 
 IV. Intellectual Property Rights Statement
 
-    1. Chuyu team has all the intellectual property rights of this-service content (including but not limited to program, webpage, text and so on)
-    2. If no important clauses,Chuyu team has all the intellectual property rights.
-    3. If Chuyu team didn't consent in writing, the users cannot process Chuyu softwares anyway. Cannot tell others have the rights to proces Chuyu softwares.
-    4. Above and other intellectual property rights of Chuyu team are protected by law. If Chuyu team didn't allow you, you cannot disassemble or do others.
+    1. Chuyu Team has all the intellectual property rights of this-service content (including but not limited to program, webpage, text and so on).
+    2. If no important clauses, Chuyu Team has all the intellectual property rights.
+    3. If Chuyu Team didn't consent in writing, the users cannot process Chuyu Team softwares anyway. Cannot tell others have the rights to proces Chuyu Team softwares.
+    4. Above and other intellectual property rights of Chuyu Team are protected by law. If Chuyu Team didn't allow you, you cannot disassemble or do others.
 
 V. Legal Responsibility
 
-    1. If Chuyu team see someone report some users breached this agreement,Chuyu team have the rights to ban the users to use Chuyu softwares without informing.
-    2. Please understand and agree. Chuyu team have the rights to reasonably penalize the violation behavior with law.
-    3. Please understand and agree. If the users breach this agreement lead third party arise the claim (including the reasonable money to lawyer). The users must compensate for Chuyu team.
+    1. If Chuyu Team sees someone report some users breached this agreement, Chuyu Team has the rights to ban the users to use Chuyu Team softwares without informing.
+    2. Please understand and agree. Chuyu Team has the rights to reasonably penalize the violation behavior with law.
+    3. Please understand and agree. If the users breach this agreement, lead third party arise the claim (including the reasonable money to lawyer). The users must compensate for Chuyu Team.
 
 VI. Others
 
-    1. Chuyu team solemnly tell the users notice the clauses of exempt the responsibility of Chuyu team and the rights of limit the users. Minors should read this agreement with the legal guardians.
-    2. The agreement validity and explanation apply in Chinese law. If the users and Chuyu team have disputes, negotiated settlement first. If it's failed, please agree to report the having-jurisdiction people's court to administer.
+    1. Chuyu Team solemnly tells the users to notice the clauses of responsibility exemption by the Chuyu Team and the rights of limitations by users. Minors should read this agreement with their legal guardians.
+    2. The agreement validity and explanation apply in Chinese law. If the users and Chuyu Team have disputes, settlement must be negotiated first. If it failed, please agree to report the having-jurisdiction people's court to administer.
     3. If the agreement clauses be invalid or not executable because of whatever reason, the other clauses are still valid. Binding upon Both.
     4. The user agreement written in Chinese Simplified should be referred to if the Chinese Simplified version differs from user agreements written in other languages.
 </UserAgreement>
