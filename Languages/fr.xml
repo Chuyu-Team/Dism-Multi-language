@@ -447,7 +447,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="正在扫描第%d个可清理的注册表项。。。" Link="Analyse de l’élément n°%d du registre à nettoyer..."/>
 
     <!--驱动管理-->
-    <String Target="温馨提示：删除关键驱动可能导致计算机无法启动" Link="Conseils : la suppression importante de pilotes peuvent entraîner le non-démarrage de votre ordinateur"/>
+    <String Target="温馨提示：删除关键驱动可能导致计算机无法启动" Link="Conseils : la suppression de pilotes importants peut entraîner le non-démarrage de votre ordinateur"/>
     <String Target="关键驱动：%s" Link="Pilote important : %s"/>
     <String Target="类别标识：%s" Link="Classe : %s"/>
     <String Target="驱动版本：%hu.%hu.%hu.%hu" Link="Version : %hu.%hu.%hu.%hu"/>
