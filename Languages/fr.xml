@@ -36,48 +36,48 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
   </CCleanLangSecRefMap>
   <StringMaps>
     <String Target="文件(&amp;F)" Link="&amp;Fichier"/>
-      <String Target="添加映像" Link="Ajouter une image"/>
-        <String Target="释放映像&#9;Ctrl+N" Link="Appliquer une image&#9;Ctrl+N"/>
-        <String Target="挂载映像&#9;Ctrl+Shift+N" Link="Monter une image&#9;Ctrl+Maj+N"/>
-        <String Target="添加路径" Link="Ajouter un chemin"/>
-      <String Target="卸载映像&#9;Delete" Link="Démonter l’image&#9;Suppr"/>
-      <String Target="保存映像&#9;Ctrl+S" Link="Enregistrer l’image&#9;Ctrl+S"/>
-      <String Target="另存为映像&#9;Ctrl+Shift+S" Link="Enregistrer l’image sous&#9;Ctrl+Maj+S"/>
-      <String Target="打开映像文件&#9;Ctrl+O" Link="Ouvrir une image&#9;Ctrl+O"/>
-      <String Target="重新载入" Link="Relancer l’application"/>
-      <String Target="格式转换" Link="Conversion de format"/>
-        <String Target="ESD解密" Link="Déchiffrer une image ESD/SWM"/>
-    <String Target="取消任务&#9;Ctrl+Break" Link="Annuler la tâche&#9;Ctrl+Break"/>
+      <String Target="添加映像" Link="&amp;Ajouter une image"/>
+        <String Target="释放映像&#9;Ctrl+N" Link="&amp;Appliquer une image&#9;Ctrl+N"/>
+        <String Target="挂载映像&#9;Ctrl+Shift+N" Link="&amp;Monter une image&#9;Ctrl+Maj+N"/>
+        <String Target="添加路径" Link="Ajouter un &amp;chemin"/>
+      <String Target="卸载映像&#9;Delete" Link="&amp;Démonter l’image&#9;Suppr"/>
+      <String Target="保存映像&#9;Ctrl+S" Link="&amp;Enregistrer l’image&#9;Ctrl+S"/>
+      <String Target="另存为映像&#9;Ctrl+Shift+S" Link="Enregistrer l’image &amp;sous&#9;Ctrl+Maj+S"/>
+      <String Target="打开映像文件&#9;Ctrl+O" Link="&amp;Ouvrir une image&#9;Ctrl+O"/>
+      <String Target="重新载入" Link="&amp;Relancer l’application"/>
+      <String Target="格式转换" Link="Conversion de &amp;format"/>
+        <String Target="ESD解密" Link="Déc&amp;hiffrer une image ESD/SWM"/>
+      <String Target="取消任务&#9;Ctrl+Break" Link="Annuler la &amp;tâche&#9;Ctrl+Break"/>
 
-    <String Target="恢复功能(&amp;R)" Link="Dépannage(&amp;R)"/>
-      <String Target="系统修复" Link="&amp;Récupération du système"/>
-      <String Target="健康扫描" Link="Bilan de santé"/>
-        <String Target="验证受损" Link="Analyser l’état"/>
-        <String Target="修复受损" Link="Restaurer l’état"/>
+    <String Target="恢复功能(&amp;R)" Link="&amp;Dépannage"/>
+      <String Target="系统修复" Link="Récupération du système"/>R
+      <String Target="健康扫描" Link="&amp;Bilan de santé"/>B
+        <String Target="验证受损" Link="&amp;Analyser l’état"/>
+        <String Target="修复受损" Link="&amp;Restaurer l’état"/>
       <String Target="引导修复" Link="Installer en amorce"/>
-      <String Target="系统备份" Link="Sauver l’OS"/>
-      <String Target="系统还原" Link="Restaurer l’OS"/>
-      <String Target="在RE中运行" Link="Exécuter dans WinRE"/>
-      <String Target="仅启动RE" Link="Lancer WinRE seulement"/>
-      <String Target="撤销Compact" Link="Ne jamais compacter"/>
+      <String Target="系统备份" Link="&amp;Sauvegarder l’OS"/>S
+      <String Target="系统还原" Link="&amp;Restaurer l’OS"/>R
+      <String Target="在RE中运行" Link="E&amp;xécuter dans &amp;WinRE"/>X
+      <String Target="仅启动RE" Link="Lancer &amp;WinRE seulement"/>W
+      <String Target="撤销Compact" Link="&amp;Ne jamais compacter"/>N
 
     <String Target="选项(&amp;O)" Link="&amp;Options"/>
-      <String Target="插件管理" Link="Gérer les greffons"/>
-      <String Target="新手模式" Link="Mode débutant"/>
-      <String Target="详细设置" Link="Paramètres supplémentaires"/>
-      <String Target="操作完成后" Link="Une fois l’opération terminée"/>
-        <String Target="未定义" Link="Ne rien faire"/>
-        <String Target="关机" Link="Arrêter"/>
-        <String Target="重启" Link="Redémarrer"/>
-      <String Target="程序外观" Link="Apparence"/>
+      <String Target="插件管理" Link="Gérer les &amp;greffons"/>
+      <String Target="新手模式" Link="Mode &amp;débutant"/>
+      <String Target="详细设置" Link="Paramètres &amp;supplémentaires"/>
+      <String Target="操作完成后" Link="Une fois l’&amp;opération terminée"/>
+        <String Target="未定义" Link="&amp;Ne rien faire"/>
+        <String Target="关机" Link="&amp;Arrêter"/>
+        <String Target="重启" Link="&amp;Redémarrer"/>
+      <String Target="程序外观" Link="&amp;Apparence"/>
 
-    <String Target="帮助(&amp;H)" Link="Aide(&amp;H)"/>
+    <String Target="帮助(&amp;H)" Link="&amp;Aide"/>
       <String Target="查看帮助(&amp;V)" Link="&amp;Voir l’aide en ligne"/>
-      <String Target="官方网站(&amp;O)" Link="Site officiel(&amp;O)"/>
+      <String Target="官方网站(&amp;O)" Link="&amp;Site officiel"/>
       <String Target="官方群(&amp;G)" Link="&amp;Groupe officiel"/>
-      <String Target="问题反馈(&amp;B)" Link="Retour d’expérience(&amp;B)"/>
+      <String Target="问题反馈(&amp;B)" Link="&amp;Retour d’expérience"/>
       <String Target="关于Dism++(&amp;A)" Link="&amp;Au sujet de Dism++"/>
-      <String Target="检查更新(&amp;U)" Link="Vérifier les mises à jour(&amp;U)"/>
+      <String Target="检查更新(&amp;U)" Link="Vérifier les &amp;mises à jour"/>
 
     <String Target="应用一个WIM、ESD、SWM或者ISO映像。" Link="Appliquer une image WIM, ESD/SWM ou ISO."/>
     <String Target="从 WIM 文件安装映像。" Link="Monter une image depuis un fichier WIM."/>
@@ -289,10 +289,10 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="挂载映像 " Link="Monter une image"/>
 
     <!--另存为映像 -->
-    <String Target="你可以在此处修改映像文件信息（支持双击修改）" Link="Vous pouvez modifier les informations d’image ici (double clic pour éditer)."/>
-    <String Target="在此处设置捕获映像的文件豁免列表加快捕获速度，每个条目用回车分割。" Link="Définir liste d’exclusion des images nécessitant aucune prise, séparer chaque image exclue par entrer."/>
-    <String Target="如何配置豁免列表" Link="Comment configurer la liste des exclusions"/>
-    <String Target="另存为映像" Link="Enregistrer l’Image sous"/>
+    <String Target="你可以在此处修改映像文件信息（支持双击修改）" Link="Vous pouvez modifier les informations d’image ici (double cliquez pour éditer)."/>
+    <String Target="在此处设置捕获映像的文件豁免列表加快捕获速度，每个条目用回车分割。" Link="Définir la liste des fichiers ou chemins à exclure de l’image sauvegardée, séparer chaque chemin exclue par Entrée."/>
+    <String Target="如何配置豁免列表" Link="Comment configurer les exclusions"/>
+    <String Target="另存为映像" Link="Enregistrer l’image sous"/>
     <String Target="卷影复制" Link="VSS"/>
 
     <!--系统修复-->
