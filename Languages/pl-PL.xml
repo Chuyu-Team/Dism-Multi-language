@@ -38,7 +38,7 @@ Special thanks to romuald68@gmail.com, Bladius (KuchtaPC2015@outlook.com)
     <String Target="文件(&amp;F)" Link="Plik (&amp;F)"/>
       <String Target="添加映像" Link="Wybierz obraz"/>
         <String Target="释放映像&#9;Ctrl+N" Link="Wypakuj obraz&#9;Ctrl+N"/>
-        <String Target="挂载映像&#9;Ctrl+Shift+N" Link="Montuj obraz Ctrl+Shift+N"/>
+        <String Target="挂载映像&#9;Ctrl+Shift+N" Link="Montuj obraz&#9;Ctrl+Shift+N"/>
         <String Target="添加路径" Link="Dodaj ścieżkę"/>
       <String Target="卸载映像&#9;Delete" Link="Odmontuj obraz"/>
       <String Target="保存映像&#9;Ctrl+S" Link="Zapisz obraz&#9;Ctrl+S"/>
@@ -71,13 +71,13 @@ Special thanks to romuald68@gmail.com, Bladius (KuchtaPC2015@outlook.com)
         <String Target="重启" Link="Uruchom ponownie"/>
       <String Target="程序外观" Link="Wygląd"/>
 
-    <String Target="帮助(&amp;H)" Link="&amp;Pomoc"/>
-      <String Target="查看帮助(&amp;V)" Link="&amp;Pliki pomocy"/>
+    <String Target="帮助(&amp;H)" Link="Pomoc(&amp;H)"/>
+      <String Target="查看帮助(&amp;V)" Link="Pliki pomocy(&amp;V)"/>
       <String Target="官方网站(&amp;O)" Link="&amp;Oficjalna strona programu"/>
     <String Target="官方群(&amp;G)" Link="Oficjalna &amp;Grupa"/>
-      <String Target="问题反馈(&amp;B)" Link="Informacje&amp; zwrotne"/>
-      <String Target="关于Dism++(&amp;A)" Link="&amp;O Dism++"/>
-    <String Target="检查更新(&amp;U)" Link="Sprawdź &amp;aktualizacje"/>
+      <String Target="问题反馈(&amp;B)" Link="Informacje zwrotne(&amp;B)"/>
+      <String Target="关于Dism++(&amp;A)" Link="O Dism++(&amp;A)"/>
+    <String Target="检查更新(&amp;U)" Link="Sprawdź aktualizacje(&amp;U)"/>
 
     <String Target="应用一个WIM、ESD、SWM或者ISO映像。" Link="Zastosuj z WIM, SWM lub obraz ISO."/>
     <String Target="从 WIM 文件安装映像。" Link="Zamontuj obraz z pliku WIM"/>
