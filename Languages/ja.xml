@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!--
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
 This is the Japanese translation resource for Dism++.
 There are 5 ASCII punctuation needing special representation in XML.
 Also some control characters should be preferably encoded as numeric character entities.
@@ -6,14 +7,14 @@ Also some control characters should be preferably encoded as numeric character e
     <     Less than                    &lt;
     >     More than                    &gt;
     &     And                          &amp;
-    '     Single quotation mark        &apos;      ’ (apostrophe) or ‘English quotes’
-    "     Double quotation mark        &quot;      “English quotes”
+    '     Single quotation mark        &apos;
+    "     Double quotation mark        &quot;
     \t    Tabulation control           &#9;
     \n    Line feed (newline) control  &#xA;
     \r    Carriage return control      &#xD;
 Also please avoid indenting this file using tabulations.
 
-Special Thanks to 山形まり花、奎宁
+Special Thanks to 山形まり花
 -->
 <Data>
   <DefaultControl>
@@ -1441,36 +1442,36 @@ Special Thanks to 山形まり花、奎宁
   </MessageTable>
   <UserAgreement>使用許諾
 
-    Chuyu team strongly recommends every user to read the following user agreement (hereinafter referred to as ‘agreement’, or ‘this agreement’) carefully before using Dism++. Anyone chooses not to comply with or fail to understand the intended meaning of the agreement should not be allowed, nor be granted the right granted by Chuyu team to use Dism++. Anyone who uses Dism++ is considered to agree with the following agreement, and to comply with the content of this agreement.
+    Chuyu team strongly recommends every user to read the following user agreement (hereinafter referred to as "agreement", or "this agreement") carefully before using Dism++. Anyone chooses not to comply with or fail to understand the intended meaning of the agreement should not be allowed, nor be granted the right granted by Chuyu team to use Dism++. Anyone who uses Dism++ is considered to agree with the following agreement, and to comply with the content of this agreement.
 
-    This agreement defines the rights and obligations between Dism++ users of ‘Dism++’ software service (hereinafter referred to as ‘service’, or ‘this service’) and Chuyu team. ‘Users’, and ‘Dism++ users’ refer to individuals who register, login, or utilize this service. This agreement is subject to updates from Chuyu team at any possible moment. Updated agreement, once published in any format, replaces the original agreement. Dism++ should display the updated agreement when the software properly initiates. Dism++ users must stop using this software and the services fom Chuyu team immediately if they choose not to comply with the updated agreement.
+    This agreement defines the rights and obligations between Dism++ users of "Dism++" software service (hereinafter referred to as "service", or "this service") and Chuyu team. "Users", and "Dism++ users" refer to individuals who register, login, or utilize this service. This agreement is subject to updates from Chuyu team at any possible moment. Updated agreement, once published in any format, replaces the original agreement. Dism++ should display the updated agreement when the software properly initiates. Dism++ users must stop using this software and the services fom Chuyu team immediately if they choose not to comply with the updated agreement.
 
 一、権利と義務
 
     1. Dism++ は PC で個人的な利用のみ。どれか非個人的な利用（商用利用、職業利用含むがこれらに限定されません）は許可しない。
     2. Dism++ users must read this agreement and other content in the document of Dism++ carefully before using Dism++.
-    3. Dism++ users have the obligation to report bugs and possible improvements to Chuyu team. Anyone who uses Dism++ for over 30 days should send mingkuang a ‘Dism++ usage report’ that is no less than 345 words. Anyone who uses Dism++ for 8 mounths or longer should send mingkuang an annual report (at least 520 words) on the topic ‘the suggestion and possible improvement on Dism++’ on November 11th (local time). Email of mingkuang: mingkuang@live.com.
+    3. Dism++ users have the obligation to report bugs and possible improvements to Chuyu team. Anyone who uses Dism++ for over 30 days should send mingkuang a "Dism++ usage report" that is no less than 345 words. Anyone who uses Dism++ for 8 mounths or longer should send mingkuang an annual report (at least 520 words) on the topic "the suggestion and possible improvement on Dism++" on November 11th (local time). Email of mingkuang: mingkuang@live.com.
     4. Dism++ users should retain the love for peace, for group work, and of helping others.
-    5. Dism++ users should comply with the Basic Law (or local equivalents). Any action that violates copyright of Chuyu team or this agreement (including but not limited to inappropriately copy, propagate, display, mirror, upload, download, modify), and those that negatively impact Chuyu team’s operation or services will be subject to serious legal actions.
+    5. Dism++ users should comply with the Basic Law (or local equivalents). Any action that violates copyright of Chuyu team or this agreement (including but not limited to inappropriately copy, propagate, display, mirror, upload, download, modify), and those that negatively impact Chuyu team's operation or services will be subject to serious legal actions.
     6. Anyone who fails to comply with this agreement automatically loses any right granted by Chuyu team. Chuyu team retain right to stop all software of Chuyu team in their PC(s), to reject any of their proposal(s), and to persue legal actions gainst them.
-    7. Chuyu team will try their best to provide technical support for those who comply with this agreement, when all of the following factors permit: the complexity of issue, the availability of Chuyu team, and the other users’ vote.
+    7. Chuyu team will try their best to provide technical support for those who comply with this agreement, when all of the following factors permit: the complexity of issue, the availability of Chuyu team, and the other users' vote.
 
 二、プライバシーに関する
 
-    1. After initialisation, Dism++ will collect Dism++ users’ system information (including but not restricted to the system version, system structure, system language, CPU information, RAM information), and Dism++’s own report (including but not restricted to the system crash dump and log files) to improve the service. Dism++ will not collect user identification information nor user’s contact information.
-    2. Chuyu team may send users invitations for testing Dism++, invitations for voting to help Chuyu team’s decisioning, and software updates, but Chuyu team will never send messages that include but not limited to advertisements, promotions, frauds, or request for payment.
+    1. After initialisation, Dism++ will collect Dism++ users' system information (including but not restricted to the system version, system structure, system language, CPU information, RAM information), and Dism++'s own report (including but not restricted to the system crash dump and log files) to improve the service. Dism++ will not collect user identification information nor user's contact information.
+    2. Chuyu team may send users invitations for testing Dism++, invitations for voting to help Chuyu team's decisioning, and software updates, but Chuyu team will never send messages that include but not limited to advertisements, promotions, frauds, or request for payment.
 
 三、リスクを負う
 
-    1. Chuyu team has an open-type attitude so everyone can let Dism++ better. Some functions may lead unknown aftermath so Chuyu team will remove the possible risk and tell the users. But we didn’t solve all the issue. You must bear all the aftermath yourself. Please tell Chuyu team after you find some problems to prevent others have the problems.
+    1. Chuyu team has an open-type attitude so everyone can let Dism++ better. Some functions may lead unknown aftermath so Chuyu team will remove the possible risk and tell the users. But we didn't solve all the issue. You must bear all the aftermath yourself. Please tell Chuyu team after you find some problems to prevent others have the problems.
     2. Please understand and agree because our softwares need to develop. Chuyu team persists the rights to change or pause or end or revoke all or some service. The users need to bear this danger.
 
 四、知的所有権の声明
 
     1. Chuyu team has all the intellectual property rights of this-service content (including but not limited to program, webpage, text and so on)
     2. If no important clauses, Chuyu team has all the intellectual property rights.
-    3. If Chuyu team didn’t consent in writing, the users cannot process Chuyu softwares anyway. Cannot tell others have the rights to proces Chuyu softwares.
-    4. Above and other intellectual property rights of Chuyu team are protected by law. If Chuyu team didn’t allow you, you cannot disassemble or do others.
+    3. If Chuyu team didn't consent in writing, the users cannot process Chuyu softwares anyway. Cannot tell others have the rights to proces Chuyu softwares.
+    4. Above and other intellectual property rights of Chuyu team are protected by law. If Chuyu team didn't allow you, you cannot disassemble or do others.
 
 五、法的責任
 
@@ -1481,7 +1482,7 @@ Special Thanks to 山形まり花、奎宁
 六、その他
 
     1. Chuyu team solemnly tells the users to notice the clauses of exempt the responsibility of Chuyu team and the rights of limit the users. Minors should read this agreement with the legal guardians.
-    2. The agreement validity and explanation apply in Chinese law. If the users and Chuyu team have disputes, negotiated settlement first. If it’s failed, please agree to report the having-jurisdiction people’s court to administer.
+    2. The agreement validity and explanation apply in Chinese law. If the users and Chuyu team have disputes, negotiated settlement first. If it's failed, please agree to report the having-jurisdiction people's court to administer.
     3. If the agreement clauses be invalid or not executable because of whatever reason, the other clauses are still valid. Binding upon Both.
     4. The user agreement written in Chinese-simplified should be referred to if the Chinese-simplified version differs from user agreements written in other languages.
 </UserAgreement>

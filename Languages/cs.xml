@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!--
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
 This is the Czech translation resource for Dism++.
 There are 5 ASCII punctuation needing special representation in XML.
 Also some control characters should be preferably encoded as numeric character entities.
@@ -6,8 +7,8 @@ Also some control characters should be preferably encoded as numeric character e
     <     Less than                    &lt;
     >     More than                    &gt;
     &     And                          &amp;
-    '     Single quotation mark        &apos;      ’ (apostrophe) or ‘English quotes’
-    "     Double quotation mark        &quot;      “English quotes”
+    '     Single quotation mark        &apos;
+    "     Double quotation mark        &quot;
     \t    Tabulation control           &#9;
     \n    Line feed (newline) control  &#xA;
     \r    Carriage return control      &#xD;
@@ -34,7 +35,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <LangSecRef ID="3031">Windows Store</LangSecRef>
   </CCleanLangSecRefMap>
   <StringMaps>
-    <String Target="文件(&amp;F)" Link="&amp;Soubor"/>
+    <String Target="文件(&amp;F)" Link="Soubor(&amp;F)"/>
       <String Target="添加映像" Link="Přidat obraz"/>
         <String Target="释放映像&#9;Ctrl+N" Link="Použít obraz&#9;Ctrl+N"/>
         <String Target="挂载映像&#9;Ctrl+Shift+N" Link="Připojit obraz&#9;Ctrl+Shift+N"/>
@@ -48,7 +49,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
         <String Target="ESD解密" Link="ESD dešifrování"/>
     <String Target="取消任务&#9;Ctrl+Break" Link="Zrušit úkol&#x9;Ctrl+Break"/>
 
-    <String Target="恢复功能(&amp;R)" Link="&amp;Obnova"/>
+    <String Target="恢复功能(&amp;R)" Link="Obnova(&amp;R)"/>
       <String Target="系统修复" Link="Obnovení systému"/>
       <String Target="健康扫描" Link="Kontrola stavu"/>
         <String Target="验证受损" Link="Skenování stavu"/>
@@ -60,7 +61,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
       <String Target="仅启动RE" Link="Spuštění pouze WinRE"/>
       <String Target="撤销Compact" Link="Není kompatibilní"/>
 
-    <String Target="选项(&amp;O)" Link="&amp;Možnosti"/>
+    <String Target="选项(&amp;O)" Link="Možnosti(&amp;O)"/>
       <String Target="插件管理" Link="Plugin Manažer"/>
       <String Target="新手模式" Link="Začínající uživatel"/>
       <String Target="详细设置" Link="Další nastavení"/>
@@ -70,13 +71,13 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
         <String Target="重启" Link="Restart"/>
       <String Target="程序外观" Link="Vzhled"/>
 
-    <String Target="帮助(&amp;H)" Link="&amp;Pomoc"/>
-      <String Target="查看帮助(&amp;V)" Link="&amp;Zobrazit nápovědu"/>
+    <String Target="帮助(&amp;H)" Link="Pomoc(&amp;H)"/>
+      <String Target="查看帮助(&amp;V)" Link="Zobrazit nápovědu(&amp;V)"/>
       <String Target="官方网站(&amp;O)" Link="&amp;Oficiální stránka"/>
       <String Target="官方群(&amp;G)" Link="Oficiální Skupina(&amp;G)"/>
-      <String Target="问题反馈(&amp;B)" Link="Zpětná &amp;vazba"/>
-      <String Target="关于Dism++(&amp;A)" Link="&amp;O Programu Dism++"/>
-      <String Target="检查更新(&amp;U)" Link="Kontrola &amp;Aktualizace"/>
+      <String Target="问题反馈(&amp;B)" Link="Zpětná vazba(&amp;B)"/>
+      <String Target="关于Dism++(&amp;A)" Link="O Programu Dism++(&amp;A)"/>
+      <String Target="检查更新(&amp;U)" Link="Kontrola Aktualizace(&amp;U)"/>
 
     <String Target="应用一个WIM、ESD、SWM或者ISO映像。" Link="Použít WIM, ESD, SWM or ISO obraz."/>
     <String Target="从 WIM 文件安装映像。" Link="Připojí obraz z WIM souboru."/>
@@ -349,7 +350,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="基本" Link="Základní"/>
     <String Target="更多" Link="Pokročilé"/>
     <String Target="启动分区：" Link="Boot oddíl:"/>
-    <String Target="你必须点击更多进行手动指定！" Link="Budete muset klepněte na tlačítko “další” a zadat ručně!"/>
+    <String Target="你必须点击更多进行手动指定！" Link="Budete muset klepněte na tlačítko &quot;další&quot; a zadat ručně!"/>
     <String Target="硬盘%d 分区%d（%s）" Link="Disk%d Oddíl%d(%s)"/>
     <String Target="硬盘%d 分区%d" Link="Disk%d Oddíl%d"/>
     <String Target="即将把启动信息写入启动分区- %s" Link="Spouštěcí záznam bude zapsán do boot oddílu - %s"/>
@@ -413,7 +414,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="该规则来自CCleaner解析引擎，因此不能提供说明。" Link="Pravidlo je z CCleaner pravidel, proto Dism++ není schopen zobrazit označení."/>
     <String Target="默认" Link="Výchozí"/>
     <String Target="关于 %s 的详细处理信息" Link="Podrobné informace o %s"/>
-    <String Target="以下文件即将被处理，你可以点击 清理 处理他们" Link="Následující soubory budou zpracovány. Kliknutím na ‘Vyčistit’ dojde k odstranění"/>
+    <String Target="以下文件即将被处理，你可以点击 清理 处理他们" Link="Následující soubory budou zpracovány. Kliknutím na &quot;Vyčistit&quot; dojde k odstranění"/>
     <String
       Target="关于 %s 的警告：&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;您确定要清理么？"
       Link="%s Varování:&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;Opravdu chcete pokračovat?"/>
@@ -742,7 +743,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
 
     <String Target="用于内置管理员帐户的管理员批准模式 (by 坏坏小生)" Link="UAC - povolit nebo zakázat pro předdefinovaného Administratora (od HuaiHuaiXiaoSheng)"/>
 
-    <String Target="隐藏“任务视图”按钮" Link="Skrýt tlačítko 'Zobrazení úloh'"/>
+    <String Target="隐藏“任务视图”按钮" Link="Skrýt tlačítko &quot;Zobrazení úloh&quot;"/>
 
     <String Target="打开资源管理器时显示此电脑" Link="Otevřít v Průzkumníku 'Tento počítač'"/>
 
@@ -754,7 +755,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
 
     <String Target="隐藏可执行文件小盾牌" Link="Skrýt UAC ochranu"/>
 
-    <String Target="创建快捷方式时不添&quot;快捷方式&quot;文字（by 518516.net）" Link="Zabránit přidání textu “Zástupce”, při jeho vytvoření (od 518516.net)"/>
+    <String Target="创建快捷方式时不添&quot;快捷方式&quot;文字（by 518516.net）" Link="Zabránit přidání textu &quot;Zástupce&quot;, při jeho vytvoření (od 518516.net)"/>
 
     <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹" Link="Skrýt Videa, Obrázky, Dokumenty, Stažené soubory, Hudba, složku Plochy v tomto počítači"/>
 
@@ -835,21 +836,21 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
 
     <!--右键菜单管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="Správa kontextového menu: Vypne nepotřebné položky menu pro zlepšení reakce Průzkumníka Windows"/>
-    <String Target="禁用可执行文件的“兼容性疑难解答”右键菜单（by 莫失莫忘）" Link="Zakázat 'Řešení problémů s kompatibilitou' v kontextovém menu u spustitelných souborů (od MoWangMoShi)"/>
+    <String Target="禁用可执行文件的“兼容性疑难解答”右键菜单（by 莫失莫忘）" Link="Zakázat &quot;Řešení problémů s kompatibilitou&quot; v kontextovém menu u spustitelných souborů (od MoWangMoShi)"/>
     <String Target="禁用文件、文件夹以及磁盘的“使用Windows Defender扫描”右键菜单（by 莫失莫忘）" Link="Zakázat 'Skenování Windows Defender' v kontextové nabídce souborů, složek a disků (od MoWangMoShi)"/>
-    <String Target="禁用文件、磁盘以及属性的“还原以前版本”右键菜单（by 莫失莫忘）" Link="Zakázat 'Návrát k předchozí verzi' v kontextovém menu vlastností souborů, disků (od MoWangMoShi)"/>
-    <String Target="禁用文件、文件夹、桌面以及所有对象的“共享文件夹同步”右键菜单" Link="Zakázat 'Sync sdíleným složkám' v kontextovém menu u souborů, složek na ploše a všechny objekty"/>
-    <String Target="禁用新建“ZIP/RAR文件”右键菜单（by 莫失莫忘）" Link="Zakázat 'Nový ZIP/RAR soubor' v kontextovém menu (od MoWangMoShi)"/>
-    <String Target="禁用新建、文件以及文件夹的“公文包”右键菜单" Link="Zakázat 'Aktovku' v kontextovém menu v nabídce nový soubor, složka"/>
-    <String Target="禁用新建的“联系人”右键菜单（by 莫失莫忘）" Link="Zakázat 'Nový kontakt' v kontextovém menu (od MoWangMoShi)"/>
+    <String Target="禁用文件、磁盘以及属性的“还原以前版本”右键菜单（by 莫失莫忘）" Link="Zakázat &quot;Návrát k předchozí verzi&quot; v kontextovém menu vlastností souborů, disků (od MoWangMoShi)"/>
+    <String Target="禁用文件、文件夹、桌面以及所有对象的“共享文件夹同步”右键菜单" Link="Zakázat &quot;Sync sdíleným složkám&quot; v kontextovém menu u souborů, složek na ploše a všechny objekty"/>
+    <String Target="禁用新建“ZIP/RAR文件”右键菜单（by 莫失莫忘）" Link="Zakázat &quot;Nový ZIP/RAR soubor&quot; v kontextovém menu (od MoWangMoShi)"/>
+    <String Target="禁用新建、文件以及文件夹的“公文包”右键菜单" Link="Zakázat &quot;Aktovku&quot; v kontextovém menu v nabídce nový soubor, složka"/>
+    <String Target="禁用新建的“联系人”右键菜单（by 莫失莫忘）" Link="Zakázat &quot;Nový kontakt&quot; v kontextovém menu (od MoWangMoShi)"/>
     <String Target="禁用桌面的英特尔集显右键菜单（by 莫失莫忘）" Link="Zakázat Intel integrovanou grafiku v kontextovém menu (od MoWangMoShi)"/>
-    <String Target="禁用目录、文件夹、所有对象、的“始终脱机可用”右键菜单" Link="Zakázat “Povolit režum off-line” v kontextovém menu pro složky a všechny objekty"/>
-    <String Target="禁用磁盘的“以便携式方式打开”右键菜单（by 莫失莫忘）" Link="Zakázat 'Otevřít přenosné zařízení' v kontextovém menu disků (od MoWangMoShi)"/>
-    <String Target="禁用磁盘的“刻录到光盘”右键菜单" Link="Zakázat 'Vypálit na CD' v kontextovém menu disků"/>
-    <String Target="禁用磁盘的“启用Bitlocker”右键菜单（by 莫失莫忘）" Link="Zakázat 'Zapnutí nástroje BitLocker' v kontextovém menu disků (od MoWangMoShi)"/>
+    <String Target="禁用目录、文件夹、所有对象、的“始终脱机可用”右键菜单" Link="Zakázat &quot;Povolit režum off-line&quot; v kontextovém menu pro složky a všechny objekty"/>
+    <String Target="禁用磁盘的“以便携式方式打开”右键菜单（by 莫失莫忘）" Link="Zakázat &quot;Otevřít přenosné zařízení&quot; v kontextovém menu disků (od MoWangMoShi)"/>
+    <String Target="禁用磁盘的“刻录到光盘”右键菜单" Link="Zakázat &quot;Vypálit na CD&quot; v kontextovém menu disků"/>
+    <String Target="禁用磁盘的“启用Bitlocker”右键菜单（by 莫失莫忘）" Link="Zakázat &quot;Zapnutí nástroje BitLocker&quot; v kontextovém menu disků (od MoWangMoShi)"/>
     <String Target="禁用磁盘的“复制磁盘”右键菜单" Link="Zakázat 'Kopie Disku' v kontextovém menu disků"/>
-    <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="Zakázat 'Sdílení' v kontextovém menu souborů, složek, pracovní plochy, disků a knihoven"/>
-    <String Target="禁用桌面的“小工具”右键菜单" Link="Zakázat 'Widget' v kontextovém menu"/>
+    <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="Zakázat &quot;Sdílení&quot; v kontextovém menu souborů, složek, pracovní plochy, disků a knihoven"/>
+    <String Target="禁用桌面的“小工具”右键菜单" Link="Zakázat &quot;Widget&quot; v kontextovém menu"/>
     <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Zakázat položku kontextového menu souboru &quot;Zobrazit ve 3D &quot; (by Cloud)"/>
     <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Zakázat položku kontextové nabídky souboru &quot;Malování ve 3D&quot; (by Cloud)"/>
 
@@ -960,7 +961,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <!--WinRAR-->
     <String Target="锁定WinRAR工具栏（by 原罪）" Link="Zamknout panel nástrojů WinRAR (od YZ)"/>
 
-    <String Target="隐藏WinRAR 在右键菜单中添加的&quot;压缩并 E-mail...&quot;（by 原罪）" Link="Skrýt “Kompresi do E-mail...” kontextového menu WinRAR (od YZ)"/>
+    <String Target="隐藏WinRAR 在右键菜单中添加的&quot;压缩并 E-mail...&quot;（by 原罪）" Link="Skrýt &quot;Kompresi do E-mail...&quot; kontextového menu WinRAR (od YZ)"/>
 
     <!--Windows Media Player-->
     <String Target="不显示首次使用对话框（by 原罪）" Link="Zabránit spuštění Průvodce prvním spuštěním (od YZ)"/>
@@ -1002,15 +1003,15 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="安全相关设置" Link="Bezpečnostní nastavení"/>
     <String Target="开启模糊音（by 朽木）" Link="Povolit podporu fuzzy (od XiuMu)"/>
     <String Target="开启此功能将导致平板模式下无法使用手势调出操作中心。" Link="Nebudete moci volat Centrum upozornění pomocí gesta, pří vypnoutí této funkce."/>
-    <String Target="禁用文件、目录、桌面、所有对象的“工作文件夹”右键菜单" Link="Zakázat “pracovní složky” v kontextovém menu u souborů, adresářů, pracovní plochy, všech objeků"/>
-    <String Target="禁用文件夹的“固定到快速访问”右键菜单" Link="Zakázat “Kód PIN pro rychlý přístup” v kontextovém menu u adresářů"/>
-    <String Target="禁用文件的“OneDrive文件同步”右键菜单" Link="Zakázat “OneDrive synchronizace souboru” v kontextovém menu u souborů"/>
-    <String Target="关闭“突出显示新安装的程序”（by 溯汐潮）" Link="Zakázat “Zvýraznit nově nainstalované programy” (od Hell Cabrite)"/>
+    <String Target="禁用文件、目录、桌面、所有对象的“工作文件夹”右键菜单" Link="Zakázat &quot;pracovní složky&quot; v kontextovém menu u souborů, adresářů, pracovní plochy, všech objeků"/>
+    <String Target="禁用文件夹的“固定到快速访问”右键菜单" Link="Zakázat &quot;Kód PIN pro rychlý přístup&quot; v kontextovém menu u adresářů"/>
+    <String Target="禁用文件的“OneDrive文件同步”右键菜单" Link="Zakázat &quot;OneDrive synchronizace souboru&quot; v kontextovém menu u souborů"/>
+    <String Target="关闭“突出显示新安装的程序”（by 溯汐潮）" Link="Zakázat &quot;Zvýraznit nově nainstalované programy&quot; (od Hell Cabrite)"/>
     <String Target="关闭自动更新（by 溯汐潮）" Link="Zakázat automatické aktualizace (od Hell Cabrite)"/>
-    <String Target="将“音量调节”调整为Windows 7模式（by 溯汐潮）" Link="Změnit “Nastavení hlasitosti” ve Windows 7 modu (od Hell Cabrite)"/>
+    <String Target="将“音量调节”调整为Windows 7模式（by 溯汐潮）" Link="Změnit &quot;Nastavení hlasitosti&quot; ve Windows 7 modu (od Hell Cabrite)"/>
     <String Target="将同时可用下载数目调整到 10（by 溯汐潮）" Link="Upravit počet souběžných stahování na 10 (od Hell Cabrite)"/>
-    <String Target="将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）" Link="Změna “Přizpůsobit” na ploše kliknutím pravým tlačítkem myši menu režimu Windows 7 (od dpzsjy)"/>
-    <String Target="将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）" Link="Změna “Nastavení displeje” na ploše klikněte pravým tlačítkem myši menu režimu Windows 7 (od dpzsjy)"/>
+    <String Target="将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）" Link="Změna &quot;Přizpůsobit&quot; na ploše kliknutím pravým tlačítkem myši menu režimu Windows 7 (od dpzsjy)"/>
+    <String Target="将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）" Link="Změna &quot;Nastavení displeje&quot; na ploše klikněte pravým tlačítkem myši menu režimu Windows 7 (od dpzsjy)"/>
     <String Target="将语言栏隐藏到任务拦（by 溯汐潮）" Link="Skrýt panel jazyků na hlavním panelu (od Hell Cabrite)"/>
     <String Target="快速访问不显示常用文件夹（by 溯汐潮）" Link="Nezobrazovat často používané složky v rychlém přístup (od Hell Cabrite)"/>
     <String Target="快速访问不显示最近使用的文件（by 溯汐潮）" Link="Nezobrazovat naposledy použité souborů v rychlém přístup (od Hell Cabrite)"/>
@@ -1022,7 +1023,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="Skrýt tlačítko Nápovědy na panelu jazyků (od Hell Cabrite)"/>
     <String Target="Windows 7体验" Link="Windows 7 Zkušenosti"/>
     <String Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Windows Update neobsahuje nástroj pro odstranění malware (od Winaero)"/>
-    <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Změna “klikněte pravým tlačítkem myši v menu” Windows 7 mod (od Silence)"/>
+    <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Změna &quot;klikněte pravým tlačítkem myši v menu&quot; Windows 7 mod (od Silence)"/>
     <String Target="登陆界面默认打开小键盘（by IT之家）" Link="Povolit klávesnice při přihlášení (od ITHome)"/>
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Zakázat součást na základě servisního zálohování"/>
     <!--系统优化已经结束-->
@@ -1445,48 +1446,48 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
   </MessageTable>
   <UserAgreement>User Agreement
 
-    Chuyu team strongly recommends every user to read the following user agreement (hereinafter referred to as ‘agreement’, or ‘this agreement’) carefully before using Dism++. Anyone chooses not to comply with or fail to understand the intended meaning of the agreement should not be allowed, nor be granted the right granted by Chuyu team to use Dism++. Anyone who uses Dism++ is considered to agree with the following agreement, and to comply with the content of this agreement.
+    Chuyu team strongly recommends every user to read the following user agreement (hereinafter referred to as "agreement", or "this agreement") carefully before using Dism++. Anyone chooses not to comply with or fail to understand the intended meaning of the agreement should not be allowed, nor be granted the right granted by Chuyu team to use Dism++. Anyone who uses Dism++ is considered to agree with the following agreement, and to comply with the content of this agreement.
 
-    This agreement defines the rights and obligations between Dism++ users of ‘Dism++’ software service (hereinafter referred to as ‘service’, or ‘this service’) and Chuyu team. ‘Users’, and ‘Dism++ users’ refer to individuals who register, login, or utilize this service. This agreement is subject to updates from Chuyu team at any possible moment. Updated agreement, once published in any format, replaces the original agreement. Dism++ should display the updated agreement when the software properly initiates. Dism++ users must stop using this software and the services fom Chuyu team immediately if they choose not to comply with the updated agreement.
+    This agreement defines the rights and obligations between Dism++ users of "Dism++" software service (hereinafter referred to as "service", or "this service") and Chuyu team. "Users", and "Dism++ users" refer to individuals who register, login, or utilize this service. This agreement is subject to updates from Chuyu team at any possible moment. Updated agreement, once published in any format, replaces the original agreement. Dism++ should display the updated agreement when the software properly initiates. Dism++ users must stop using this software and the services fom Chuyu team immediately if they choose not to comply with the updated agreement.
 
 I. Rights and Obligations
 
     1. Dism++ users can only use Dism++ for personal use in their PC(s). Any non-personal use (including but not limited to commercial or occupational use) without written approval from Chuyu team is not allowed.
     2. Dism++ users must read this agreement and other content in the document of Dism++ carefully before using Dism++.
-    3. Dism++ users have the obligation to report bugs and possible improvements to Chuyu team. Anyone who uses Dism++ for over 30 days should send mingkuang a ‘Dism++ usage report’ that is no less than 345 words. Anyone who uses Dism++ for 8 mounths or longer should send mingkuang an annual report (at least 520 words) on the topic ‘the suggestion and possible improvement on Dism++’ on November 11th (local time). Email of mingkuang: mingkuang@live.com.
+    3. Dism++ users have the obligation to report bugs and possible improvements to Chuyu team. Anyone who uses Dism++ for over 30 days should send mingkuang a "Dism++ usage report" that is no less than 345 words. Anyone who uses Dism++ for 8 mounths or longer should send mingkuang an annual report (at least 520 words) on the topic "Suggestion and possible improvement on Dism++" on November 11th (local time). Email of mingkuang: mingkuang@live.com.
     4. Dism++ users should retain the love for peace, for group work, and of helping others.
-    5. Dism++ users should comply with the Basic Law (or local equivalents). Any action that violates copyright of Chuyu team or this agreement (including but not limited to inappropriately copy, propagate, display, mirror, upload, download, modify), and those that negatively impact Chuyu team’s operation or services will be subject to serious legal actions.
+    5. Dism++ users should comply with the Basic Law (or local equivalents). Any action that violates copyright of Chuyu team or this agreement (including but not limited to inappropriately copy, propagate, display, mirror, upload, download, modify), and those that negatively impact Chuyu team's operation or services will be subject to serious legal actions.
     6. Anyone who fail to comply with this agreement automatically loses any right granted by Chuyu team. Chuyu team retain right to stop all software of Chuyu team in their PC(s), to reject any of their proposal(s), and to persue legal actions gainst them.
-    7. Chuyu team will try their best to provide technical support for those who comply with this agreement, when all of the following factors permit: the complexity of issue, the availability of Chuyu team, and the other users’ vote.
+    7. Chuyu team will try their best to provide technical support for those who comply with this agreement, when all of the following factors permit: the complexity of issue, the availability of Chuyu team, and the other users' vote.
 
 II. Privacy Issues
 
-    1. After initiation, Dism++ will collect Dism++ users’ system information (including but not restricted to the system version, system structure, system language, CPU information, RAM information), and Dism++’s own report (including but not restricted to the system crash dump and log files) to improve the service. Dism++ will not collect user identification information nor user’s contact information.
-    2. Chuyu team may send users invitations for testing Dism++, invitations for voting to help Chuyu team’s decisioning, and software updates, but Chuyu team will never send messages that include but not limited to advertisements, promotions, frauds, or request for payment.
+    1. After initiation, Dism++ will collect Dism++ users' system information (including but not restricted to the system version, system structure, system language, CPU information, RAM information), and Dism++'s own report (including but not restricted to the system crash dump and log files) to improve the service. Dism++ will not collect user identification information nor user's contact information.
+    2. Chuyu team may send users invitations for testing Dism++, invitations for voting to help Chuyu team's decisioning, and software updates, but Chuyu team will never send messages that include but not limited to advertisements, promotions, frauds, or request for payment.
 
 III. Bear The Risks
 
-    1. Chuyu team have an open-type attitude so everyone can let Dism++ better. Some functions may lead unknown aftermath so Chuyu team will remove the possible risk and tell the users. But we didn’t solve all the issue. You must bear all the aftermath yourself. Please tell Chuyu team after you find some problems to prevent others have the problems.
+    1. Chuyu team have an open-type attitude so everyone can let Dism++ better. Some functions may lead unknown aftermath so Chuyu team will remove the possible risk and tell the users. But we didn't solve all the issue. You must bear all the aftermath yourself. Please tell Chuyu team after you find some problems to prevent others have the problems.
     2. Please understand and agree because our softwares need to develop. Chuyu team persists the rights to change or pause or end or revoke all or some service. The users need to bear this danger.
 
 IV. Intellectual Property Rights Statement
 
     1. Chuyu team has all the intellectual property rights of this-service content (including but not limited to program, webpage, text and so on)
-    2. If no important clauses, Chuyu team has all the intellectual property rights.
-    3. If Chuyu team didn’t consent in writing, the users cannot process Chuyu softwares anyway. Cannot tell others have the rights to proces Chuyu softwares.
-    4. Above and other intellectual property rights of Chuyu team are protected by law. If Chuyu team didn’t allow you, you cannot disassemble or do others.
+    2. If no important clauses,Chuyu team has all the intellectual property rights.
+    3. If Chuyu team didn't consent in writing, the users cannot process Chuyu softwares anyway. Cannot tell others have the rights to proces Chuyu softwares.
+    4. Above and other intellectual property rights of Chuyu team are protected by law. If Chuyu team didn't allow you, you cannot disassemble or do others.
 
 V. Legal Responsibility
 
-    1. If Chuyu team sees someone report some users breached this agreement,Chuyu team have the rights to ban the users to use Chuyu softwares without informing.
-    2. Please understand and agree. Chuyu team has the rights to reasonably penalize the violation behavior with law.
-    3. Please understand and agree. If the users breach this agreement, lead third party arise the claim (including the reasonable money to lawyer). The users must compensate for Chuyu team.
+    1. If Chuyu team see someone report some users breached this agreement,Chuyu team have the rights to ban the users to use Chuyu softwares without informing.
+    2. Please understand and agree. Chuyu team have the rights to reasonably penalize the violation behavior with law.
+    3. Please understand and agree. If the users breach this agreement lead third party arise the claim (including the reasonable money to lawyer). The users must compensate for Chuyu team.
 
 VI. Others
 
-    1. Chuyu team solemnly tells the users notice the clauses of exempt the responsibility of Chuyu team and the rights of limit the users. Minors should read this agreement with the legal guardians.
-    2. The agreement validity and explanation apply in Chinese law. If the users and Chuyu team have disputes, negotiated settlement first. If it’s failed, please agree to report the having-jurisdiction people’s court to administer.
-    3. If the agreement clauses be invalid or not executable because of whatever reason, the other clauses are still valid. Binding upon both.
-    4. The user agreement written in Simplified Chinese should be referred to if the Simplified Chinese version differs from user agreements written in other languages.
+    1. Chuyu team solemnly tell the users notice the clauses of exempt the responsibility of Chuyu team and the rights of limit the users. Minors should read this agreement with the legal guardians.
+    2. The agreement validity and explanation apply in Chinese law. If the users and Chuyu team have disputes, negotiated settlement first. If it's failed, please agree to report the having-jurisdiction people's court to administer.
+    3. If the agreement clauses be invalid or not executable because of whatever reason, the other clauses are still valid. Binding upon Both.
+    4. The user agreement written in Chinese Simplified should be referred to if the Chinese Simplified version differs from user agreements written in other languages.
 </UserAgreement>
 </Data>

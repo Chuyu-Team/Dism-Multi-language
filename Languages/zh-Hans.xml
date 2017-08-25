@@ -1,19 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?><!--
-This is the Simplified Chinese translation resource for Dism++.
-There are 5 ASCII punctuation needing special representation in XML.
-Also some control characters should be preferably encoded as numeric character entities.
-  Symbol  Description                  Encoded as  Preferably changed in translations to
-    <     Less than                    &lt;
-    >     More than                    &gt;
-    &     And                          &amp;
-    '     Single quotation mark        &apos;      ’ (apostrophe) or ‘English quotes’
-    "     Double quotation mark        &quot;      “English quotes”
-    \t    Tabulation control           &#9;
-    \n    Line feed (newline) control  &#xA;
-    \r    Carriage return control      &#xD;
-Also please avoid indenting this file using tabulations.
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+这是 Dism++ 简体中文资源包。
+在 XML 中的 5 个特殊符号 需要特殊表示。
+  符号    说明                        实体引用
+    <     小于                         &lt;
+    >     大于                         &gt;
+    &     与                           &amp;
+    '     单引号                       &apos;
+    "     双引号                       &quot;
+    \t    制表符                       &#9;
+    \n    换行                         &#xA;
+    \r    回车                         &#xD;
 
-Special thanks to mingkuang
+感谢：mingkuang
 -->
 <Data>
   <DefaultControl>

@@ -6,8 +6,8 @@ También algunos caracteres de control deben codificarse preferiblemente como en
     <      Menor que                     &lt;
     >      Mayor que                     &gt;
     &      Signo &                       &amp;
-    '      Comillas simples              &apos;          ’ (apóstrofe) o ‘comillas en inglés’
-    "      Comillas dobles               &quot;          “comillas en inglés”
+    '      Comillas simples              &apos;
+    "      Comillas dobles               &quot;
     \t     Tabulación                    &#9;
     \n     Salto de línea (línea nueva)  &#xA;
     \r     Retorno carro                 &#xD;
@@ -34,7 +34,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <LangSecRef ID="3031">Windows Store</LangSecRef>
   </CCleanLangSecRefMap>
   <StringMaps>
-    <String Target="文件(&amp;F)" Link="Archivo"/>
+    <String Target="文件(&amp;F)" Link="Archivo(&amp;F)"/>
       <String Target="添加映像" Link="Añadir imagen"/>
         <String Target="释放映像&#9;Ctrl+N" Link="Aplicar imagen&#9;Ctrl+N"/>
         <String Target="挂载映像&#9;Ctrl+Shift+N" Link="Montar imagen&#9;Ctrl+Mayús+N"/>
@@ -70,13 +70,13 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
         <String Target="重启" Link="Reiniciar"/>
       <String Target="程序外观" Link="Apariencia"/>
 
-    <String Target="帮助(&amp;H)" Link="Ayuda"/>
-      <String Target="查看帮助(&amp;V)" Link="Ver ayuda"/>
-      <String Target="官方网站(&amp;O)" Link="Sitio oficial"/>
-      <String Target="官方群(&amp;G)" Link="Grupo oficial"/>
-      <String Target="问题反馈(&amp;B)" Link="Comentarios"/>
+    <String Target="帮助(&amp;H)" Link="Ayuda(&amp;H)"/>
+      <String Target="查看帮助(&amp;V)" Link="&amp;Ver ayuda"/>
+      <String Target="官方网站(&amp;O)" Link="Sitio &amp;Oficial"/>
+      <String Target="官方群(&amp;G)" Link="&amp;Grupo oficial"/>
+      <String Target="问题反馈(&amp;B)" Link="Comentarios(&amp;B)"/>
       <String Target="关于Dism++(&amp;A)" Link="&amp;Acerca de Dism++"/>
-      <String Target="检查更新(&amp;U)" Link="Buscar actualizaciones"/>
+      <String Target="检查更新(&amp;U)" Link="Buscar actualizaciones(&amp;U)"/>
 
     <String Target="应用一个WIM、ESD、SWM或者ISO映像。" Link="Se aplica a una imagen WIM, ESD, SWM o ISO."/>
     <String Target="从 WIM 文件安装映像。" Link="Monta una imagen WIM desde un archivo."/>
@@ -1443,13 +1443,13 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
 
     Se recomienda encarecidamente que todos los usuarios lean el siguiente acuerdo (denominado en lo sucesivo "acuerdo", o "este acuerdo") detenidamente antes de usar Dism++. Si decide no cumplir o no entiende el significado del acuerdo no se le permite, ni concede el derecho otorgado por el equipo de Chuyu a usar Dism++. Cualquiera que use DISM++ es porque está de acuerdo, y cumple con el contenido del presente acuerdo.
 
-    Este acuerdo define los derechos y obligaciones entre Dism++ y los usuarios de &apos;Dism++&apos; del servicio de software (en lo sucesivo denominado &apos;servicio&apos;, o &apos;este servicio&apos;) y del equipo de Chuyu. &apos;Usuarios&apos; y &apos;usuarios de Dism++&apos; se refiere a las personas que se inscriban, incien sesión, o utilicen este servicio. Este acuerdo está sujeto a actualizaciones por el equipo de Chuyu en cualquier momento. Actualizado el acuerdo, una vez publicada en cualquier formato, sustituyendo al acuerdo original. Dism+ debería mostrar el acuerdo actualizado cuando se inicia correctamente el programa. Los usuarios de Dism++ deben dejar de usar el programa y los servicios del equipo de Chuyu inmediatamente si se opta por no cumplir con el acuerdo actualizado.
+    Este acuerdo define los derechos y obligaciones entre Dism++ y los usuarios de "Dism++" del servicio de software (en lo sucesivo denominado "servicio", o "este servicio") y del equipo de Chuyu. "Usuarios" y "usuarios de Dism++" se refiere a las personas que se inscriban, incien sesión, o utilicen este servicio. Este acuerdo está sujeto a actualizaciones por el equipo de Chuyu en cualquier momento. Actualizado el acuerdo, una vez publicada en cualquier formato, sustituyendo al acuerdo original. Dism+ debería mostrar el acuerdo actualizado cuando se inicia correctamente el programa. Los usuarios de Dism++ deben dejar de usar el programa y los servicios del equipo de Chuyu inmediatamente si se opta por no cumplir con el acuerdo actualizado.
 
 I. Derechos y Obligaciones
 
     1. Los usuarios de Dism++ solo pueden usar Dism++ para uso personal en su PC(s). Cualquier uso no personal (incluyendo pero no limitado a uso comercial o ocupacional) sin la aprobación por escrito del equipo de Chuyu no está permitido.
     2. Los usuarios de Dism++ deben leer este acuerdo y otro contenido en el documento de Dism++ cuidadosamente antes de usar Dism++.
-    3. Los usuarios de Dism++ tienen la obligación de informar de errores y posibles mejoras al equipo de Chuyu. Cualquier persona que use Dism++ durante más de 30 días debe enviar a Mingkuang un informe de uso Dism++ con no menos de 345 palabras. Cualquier persona que use Dism++ durante 8 meses o más debe enviar a Mingkuang un informe anual (al menos 520 palabras) sobre el tema &apos;Sugerencia y posible mejora en Dism++&apos; el 11 de noviembre (hora local). Correo electrónico de Mingkuang: mingkuang@live.com.
+    3. Los usuarios de Dism++ tienen la obligación de informar de errores y posibles mejoras al equipo de Chuyu. Cualquier persona que use Dism++ durante más de 30 días debe enviar a Mingkuang un informe de uso Dism++ con no menos de 345 palabras. Cualquier persona que use Dism++ durante 8 meses o más debe enviar a Mingkuang un informe anual (al menos 520 palabras) sobre el tema "Sugerencia y posible mejora en Dism++" el 11 de noviembre (hora local). Correo electrónico de Mingkuang: mingkuang@live.com.
     4. Los usuarios de Dism++ deben conservar el amor por la paz, por el trabajo en grupo y por ayudar a los demás.
     5. Los usuarios de Dism++ deben cumplir con la Ley Fundamental (o equivalentes locales). Cualquier acción que viole los derechos de autor del equipo de Chuyu o de este acuerdo (incluyendo, pero no limitado a copiar, propagar, mostrar, reflejar, cargar, descargar, modificar) de manera inapropiada, y aquellos que afectan negativamente el funcionamiento del equipo de Chuyu serán objeto de graves acciones legales.
     6. Cualquier persona que no cumpla con este acuerdo pierde automáticamente cualquier derecho otorgado por el equipo de Chuyu. El equipo de Chuyu conserva el derecho de detener todo el software del equipo de Chuyu en su PC (s), rechazar cualquiera de sus propuestas y perseguir acciones legales contra ellos.

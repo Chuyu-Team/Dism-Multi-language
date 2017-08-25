@@ -1,4 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><!--
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
 This is the Russian translation resource for Dism++.
 There are 5 ASCII punctuation needing special representation in XML.
 Also some control characters should be preferably encoded as numeric character entities.
@@ -6,8 +7,8 @@ Also some control characters should be preferably encoded as numeric character e
     <     Less than                    &lt;
     >     More than                    &gt;
     &     And                          &amp;
-    '     Single quotation mark        &apos;      ’ (apostrophe) or ‘English quotes’
-    "     Double quotation mark        &quot;      “English quotes”
+    '     Single quotation mark        &apos;
+    "     Double quotation mark        &quot;
     \t    Tabulation control           &#9;
     \n    Line feed (newline) control  &#xA;
     \r    Carriage return control      &#xD;
@@ -738,7 +739,7 @@ Special thanks to Black Alex, Vasiliy Nasonov, virus, Vladimir, ZT
 
     <String Target="用于内置管理员帐户的管理员批准模式 (by 坏坏小生)" Link="Режим одобрения администратором для встроенной учетной записи Администратора (by HuaiHuaiXiaoSheng)"/>
 
-    <String Target="隐藏“任务视图”按钮" Link="Скрыть кнопку 'Представление задач'"/>
+    <String Target="隐藏“任务视图”按钮" Link="Скрыть кнопку &quot;Представление задач&quot;"/>
 
     <String Target="打开资源管理器时显示此电脑" Link="При открытии проводника показывать 'Этот компьютер'"/>
 
@@ -823,7 +824,7 @@ Special thanks to Black Alex, Vasiliy Nasonov, virus, Vladimir, ZT
     <String q="" Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="Hide Videos, Pictures, Documents, Download, Music, Desktop, 3D Object in Computer (by 、Cloud)"/>
     <String q="" Target="禁止自动安装推荐的应用程序（by IT之家）" Link="Disable installing recommmeded apps autoly (by ITHome)"/>
     <String q="" Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="Disable Windows Focus on lock screen (by 、Cloud.)"/>
-    <String q="" Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="Disable “Get suggestions when using Windows” (by 、Cloud.)"/>
+    <String q="" Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="Disable &quot;Get suggestions when using Windows&quot; (by 、Cloud.)"/>
     <String q="" Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Hide People on Task Bar (by 、Cloud)"/>
 
     <!--开始菜单-->
@@ -846,8 +847,8 @@ Special thanks to Black Alex, Vasiliy Nasonov, virus, Vladimir, ZT
     <String Target="禁用磁盘的“复制磁盘”右键菜单" Link="Отключить 'Копировать диск' в контекстном меню дисков"/>
     <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="Отключить 'Общий доступ' в контекстном меню  файлов, папок, Рабочего стола и дисков"/>
     <String Target="禁用桌面的“小工具”右键菜单" Link="Отключить 'Гаджеты' в контекстном меню Рабочего стола"/>
-    <String q="" Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Disable file context menu item “View 3D” (by Cloud)"/>
-    <String q="" Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Disable file context menu item “Paint 3D” (by Cloud)"/>
+    <String q="" Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Disable file context menu item &quot;View 3D&quot; (by Cloud)"/>
+    <String q="" Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Disable file context menu item &quot;Paint 3D&quot; (by Cloud)"/>
 
     <!--桌面图示管理-->
     <String Target="桌面图标管理" Link="Управление значками Рабочего стола"/>
@@ -883,7 +884,7 @@ Special thanks to Black Alex, Vasiliy Nasonov, virus, Vladimir, ZT
     <String q="" Target="隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）" Link="Hide Feedback smiley in Internet Explorer (by ITHome)"/>
 
     <!--Microsoft Edge-->
-    <String q="" Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Prevent Microsoft Edge from opening “First Running” (by ITHome)"/>
+    <String q="" Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Prevent Microsoft Edge from opening &quot;First Running&quot; (by ITHome)"/>
 
     <!--微软拼音输入法-->
     <String Target="微软拼音输入法" Link="Метод ввода Microsoft Pinyin"/>
@@ -956,7 +957,7 @@ Special thanks to Black Alex, Vasiliy Nasonov, virus, Vladimir, ZT
     <!--WinRAR-->
     <String Target="锁定WinRAR工具栏（by 原罪）" Link="Заблокировать панель инструментов WinRAR (by YZ)"/>
 
-    <String Target="隐藏WinRAR 在右键菜单中添加的&quot;压缩并 E-mail...&quot;（by 原罪）" Link="Скрыть пункт контекстного меню WinRAR 'Сжать и отправить по E-mail...' (by YZ)"/>
+    <String Target="隐藏WinRAR 在右键菜单中添加的&quot;压缩并 E-mail...&quot;（by 原罪）" Link="Скрыть пункт контекстного меню WinRAR &quot;Сжать и отправить по E-mail...&quot; (by YZ)"/>
 
     <!--Windows Media Player-->
     <String Target="不显示首次使用对话框（by 原罪）" Link="Не показывать мастер настройки при первом запуске (by YZ)"/>
@@ -998,15 +999,15 @@ Special thanks to Black Alex, Vasiliy Nasonov, virus, Vladimir, ZT
     <String Target="安全相关设置" Link="Настройки безопасности"/>
     <String Target="开启模糊音（by 朽木）" Link="Включить поддержку Fuzzy Pinyin (by XiuMu)"/>
     <String Target="开启此功能将导致平板模式下无法使用手势调出操作中心。" Link="Вы не сможете вызвать Центр уведомлений с помощью жеста, если выключите эту функцию."/>
-    <String Target="禁用文件、目录、桌面、所有对象的“工作文件夹”右键菜单" Link="Отключить 'Рабочая папка' в контекстном меню файла, папки, Рабочего стола  и всех объектов"/>
-    <String Target="禁用文件夹的“固定到快速访问”右键菜单" Link="Отключить 'Закрепить на панели быстого доступа' в контекстном меню папки"/>
-    <String Target="禁用文件的“OneDrive文件同步”右键菜单" Link="Отключить 'Синхронизация файлов с OneDrive' в контекстном меню"/>
-    <String Target="关闭“突出显示新安装的程序”（by 溯汐潮）" Link="Отключить 'Выделять недавно установленные программы' (by Hell Cabrite)"/>
+    <String Target="禁用文件、目录、桌面、所有对象的“工作文件夹”右键菜单" Link="Отключить &quot;Рабочая папка&quot; в контекстном меню файла, папки, Рабочего стола  и всех объектов"/>
+    <String Target="禁用文件夹的“固定到快速访问”右键菜单" Link="Отключить &quot;Закрепить на панели быстого доступа&quot; в контекстном меню папки"/>
+    <String Target="禁用文件的“OneDrive文件同步”右键菜单" Link="Отключить &quot;Синхронизация файлов с OneDrive&quot; в контекстном меню"/>
+    <String Target="关闭“突出显示新安装的程序”（by 溯汐潮）" Link="Отключить &quot;Выделять недавно установленные программы&quot; (by Hell Cabrite)"/>
     <String Target="关闭自动更新（by 溯汐潮）" Link="Отключить автоматические обновления (by Hell Cabrite)"/>
-    <String Target="将“音量调节”调整为Windows 7模式（by 溯汐潮）" Link="Изменить 'Регулировка громкости' в режим Windows 7 (by Hell Cabrite)"/>
+    <String Target="将“音量调节”调整为Windows 7模式（by 溯汐潮）" Link="Изменить &quot;Регулировка громкости&quot; в режим Windows 7 (by Hell Cabrite)"/>
     <String Target="将同时可用下载数目调整到 10（by 溯汐潮）" Link="Установить количество одновременных загрузок до 10 (by Hell Cabrite)"/>
-    <String Target="将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）" Link="Изменить меню ПКМ Рабочего стола 'Персонализация' в режим Windows 7 (by dpzjsy)"/>
-    <String Target="将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）" Link="Изменить меню ПКМ Рабочего стола 'Настройки дисплея' в режим Windows 7 (by dpzjsy)"/>
+    <String Target="将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）" Link="Изменить меню ПКМ Рабочего стола &quot;Персонализация&quot; в режим Windows 7 (by dpzjsy)"/>
+    <String Target="将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）" Link="Изменить меню ПКМ Рабочего стола &quot;Настройки дисплея&quot; в режим Windows 7 (by dpzjsy)"/>
     <String Target="将语言栏隐藏到任务拦（by 溯汐潮）" Link="Скрыть Панель языка на Панели задач (by Hell Cabrite)"/>
     <String Target="快速访问不显示常用文件夹（by 溯汐潮）" Link="Не показывать часто используемые папки в Быстром доступе (by Hell Cabrite)"/>
     <String Target="快速访问不显示最近使用的文件（by 溯汐潮）" Link="Не показывать недавно используемые файлы в Быстром доступе (by Hell Cabrite)"/>
@@ -1107,9 +1108,9 @@ Special thanks to Black Alex, Vasiliy Nasonov, virus, Vladimir, ZT
     <String Target="某些文件被硬链接合并后可能导致相关功能无法正常使用。" Link="Некоторые файлы после такого замещения могут не работать должным образом."/>
 
     <String Target="CompactOs（较慢）" Link="CompactOS (Медленно)"/>
-    <String Target="对单纯读取的文件进行哈夫曼压缩，在不影响性能的情况下，显著减少系统体积。特别感谢矿工以及所有Compact团队成员无私的支持与帮助。" Link="Метод сжатия Хаффмана для файлов 'только для чтения'. Не влияет на производительность и может существенно уменьшить объем системы."/>
+    <String Target="对单纯读取的文件进行哈夫曼压缩，在不影响性能的情况下，显著减少系统体积。特别感谢矿工以及所有Compact团队成员无私的支持与帮助。" Link="Метод сжатия Хаффмана для файлов &quot;только для чтения&quot;. Не влияет на производительность и может существенно уменьшить объем системы."/>
     <String Target="使用后可能导致某些程序无法正常运行甚至让系统无法启动，如果使用后出现问题，可以在PE中点击 恢复功能-->撤销Compact。" Link="Использование может привести к отказу в нормальной работе некоторых программ или невозможности загрузки системы. Если возникли проблемы после использования - используйте в среде предустановки опцию 'Никогда не сжимать' в меню 'Восстановление'."/>
-    <String Target="此功能与某些硬盘备份软件不兼容。如果使用后出现问题，可以点击 恢复功能-->撤销Compact。" Link="Данная функция несовместима с некоторым ПО для создания резервной копии жесткого диска. Если возникает проблема после использования, нажмите 'Восстановление --> Никогда не сжимать'."/>
+    <String Target="此功能与某些硬盘备份软件不兼容。如果使用后出现问题，可以点击 恢复功能-->撤销Compact。" Link="Данная функция несовместима с некоторым ПО для создания резервной копии жесткого диска. Если возникает проблема после использования, нажмите &quot;Восстановление --> Никогда не сжимать&quot;."/>
 
     <String Target="过期Appx应用" Link="Устаревшие Аррх приложения"/>
     <String Target="在Appx应用升级时，会留下老版本应用，该功能将删除那些不使用的老版本。" Link="Удаление устаревших версий уже обновленных Appx приложений Windows."/>
@@ -1370,8 +1371,8 @@ Special thanks to Black Alex, Vasiliy Nasonov, virus, Vladimir, ZT
     <x20020002>Найдена известная проблема совместимости. Чтобы справится с этим - ОС должна быть не ниже Windows 8/2012. Если Вы продолжаете работать в более  ранних версиях ОС - функции открытия, закрытия, добавления, удаления, обновления могут не работать должным образом.</x20020002>
     <x20020003>Dism++ обнаружил известную проблему совместимости. Наличие не ASCII-символов в пути к образу может привести к сбою установки обновления. Повторно смонтируйте образ в полном ASCII-пути, например 'D:\Mount'.</x20020003>
 
-    <xC1440136>Драйвер (Wofadk.sys) не загружен. Для продолжения отметьте "Загрузить WofAdk драйвер" в меню 'Настройки - Включить режим эксперта'.</xC1440136>
-    <xC144013B>Драйвер (Wofadk.sys) не загружен. Для продолжения отметьте "Загрузить WofAdk драйвер" в меню 'Настройки - Включить режим эксперта'.</xC144013B>
+    <xC1440136>Драйвер (Wofadk.sys) не загружен. Для продолжения отметьте "Загрузить WofAdk драйвер" в меню "Настройки - Включить режим эксперта".</xC1440136>
+    <xC144013B>Драйвер (Wofadk.sys) не загружен. Для продолжения отметьте "Загрузить WofAdk драйвер" в меню "Настройки - Включить режим эксперта".</xC144013B>
 
     <!--VSS-->
     <x80042302>Служба теневого копирования тома была остановлена. Для продолжения установите службу теневого копирования тома в ручной режим.</x80042302>
@@ -1395,7 +1396,7 @@ Special thanks to Black Alex, Vasiliy Nasonov, virus, Vladimir, ZT
     <xC1420109>Служба получила от фильтра недопустимое сообщение.  Это сообщение обработано не будет.</xC1420109>
     <xC142010A>Служба получила запрос на извлечение файла, отсутствующего в подключенном образе.  Такое извлечение выполнено не будет.</xC142010A>
     <xC142010B>Предпринята попытка отключить неподключенный каталог.</xC142010B>
-    <xC142010C>Предпринята попытка сохранить образ, подключенный с доступом только для чтения.  Такая операция недопустима.  Чтобы сохранить образ, подключите его, сняв флаг \"только для чтения\".</xC142010C>
+    <xC142010C>Предпринята попытка сохранить образ, подключенный с доступом только для чтения.  Такая операция недопустима.  Чтобы сохранить образ, подключите его, сняв флаг "только для чтения".</xC142010C>
     <xC142010E>В процессе извлечения указан несуществующий каталог подключения.  Для запуска процесса извлечения необходимо, чтобы образ был подключен.</xC142010E>
     <xC142010F>Диспетчеру образов был передан недопустимый дескриптор.  Это программная ошибка.</xC142010F>
     <xC1420110>Указанный дескриптор образа не использовался для подключения образа и поэтому не может использоваться для отключения.  Чтобы отключить образ, вызовите функцию WIMUnmountImage, указав в качестве параметра имя каталога подключения.</xC1420110>
@@ -1421,7 +1422,7 @@ Special thanks to Black Alex, Vasiliy Nasonov, virus, Vladimir, ZT
     <xC1420124>Указанный каталог невозможно подключить повторно, так как образ в WIM-файле был изменен после подключения.</xC1420124>
     <xC1420125>Указанный каталог не удалось подключить повторно, так как выполняется его отключение.</xC1420125>
     <xC1420126>Указанный образ уже подключен, поэтому его нельзя подключить снова.</xC1420126>
-    <xC1420127>Указанный образ в указанном WIM-файле уже подключен с доступом на\r\nчтение и запись.</xC1420127>
+    <xC1420127>Указанный образ в указанном WIM-файле уже подключен с доступом на&#xD;&#xA;чтение и запись.</xC1420127>
     <xC1420128>Указанный дескриптор образа был открыт с неправильным уровнем доступа.  Для подключения дескриптора образа необходим уровень доступа WIM_GENERIC_MOUNT.</xC1420128>
     <xC1420130>Пользователь попытался подключить разделенный WIM-файл.  Такая возможность не поддерживается.</xC1420130>
     <xC1420131>Пользователь попытался подключить образ в корневом каталоге тома.  Такая возможность не поддерживается.</xC1420131>
@@ -1441,48 +1442,48 @@ Special thanks to Black Alex, Vasiliy Nasonov, virus, Vladimir, ZT
   </MessageTable>
   <UserAgreement>User Agreement
 
-    Chuyu team strongly recommends every user to read the following user agreement (hereinafter referred to as ‘agreement’, or ‘this agreement’) carefully before using Dism++. Anyone chooses not to comply with or fail to understand the intended meaning of the agreement should not be allowed, nor be granted the right granted by Chuyu team to use Dism++. Anyone who uses Dism++ is considered to agree with the following agreement, and to comply with the content of this agreement.
+    Chuyu team strongly recommends every user to read the following user agreement (hereinafter referred to as "agreement", or "this agreement") carefully before using Dism++. Anyone chooses not to comply with or fail to understand the intended meaning of the agreement should not be allowed, nor be granted the right granted by Chuyu team to use Dism++. Anyone who uses Dism++ is considered to agree with the following agreement, and to comply with the content of this agreement.
 
-    This agreement defines the rights and obligations between Dism++ users of ‘Dism++’ software service (hereinafter referred to as ‘service’, or ‘this service’) and Chuyu team. ‘Users’, and ‘Dism++ users’ refer to individuals who register, login, or utilize this service. This agreement is subject to updates from Chuyu team at any possible moment. Updated agreement, once published in any format, replaces the original agreement. Dism++ should display the updated agreement when the software properly initiates. Dism++ users must stop using this software and the services fom Chuyu team immediately if they choose not to comply with the updated agreement.
+    This agreement defines the rights and obligations between Dism++ users of "Dism++" software service (hereinafter referred to as "service", or "this service") and Chuyu team. "Users", and "Dism++ users" refer to individuals who register, login, or utilize this service. This agreement is subject to updates from Chuyu team at any possible moment. Updated agreement, once published in any format, replaces the original agreement. Dism++ should display the updated agreement when the software properly initiates. Dism++ users must stop using this software and the services fom Chuyu team immediately if they choose not to comply with the updated agreement.
 
 I. Rights and Obligations
 
     1. Dism++ users can only use Dism++ for personal use in their PC(s). Any non-personal use (including but not limited to commercial or occupational use) without written approval from Chuyu team is not allowed.
     2. Dism++ users must read this agreement and other content in the document of Dism++ carefully before using Dism++.
-    3. Dism++ users have the obligation to report bugs and possible improvements to Chuyu team. Anyone who uses Dism++ for over 30 days should send mingkuang a ‘Dism++ usage report’ that is no less than 345 words. Anyone who uses Dism++ for 8 mounths or longer should send mingkuang an annual report (at least 520 words) on the topic ‘the suggestion and possible improvement on Dism++’ on November 11th (local time). Email of mingkuang: mingkuang@live.com.
+    3. Dism++ users have the obligation to report bugs and possible improvements to Chuyu team. Anyone who uses Dism++ for over 30 days should send mingkuang a "Dism++ usage report" that is no less than 345 words. Anyone who uses Dism++ for 8 mounths or longer should send mingkuang an annual report (at least 520 words) on the topic "Suggestion and possible improvement on Dism++" on November 11th (local time). Email of mingkuang: mingkuang@live.com.
     4. Dism++ users should retain the love for peace, for group work, and of helping others.
-    5. Dism++ users should comply with the Basic Law (or local equivalents). Any action that violates copyright of Chuyu team or this agreement (including but not limited to inappropriately copy, propagate, display, mirror, upload, download, modify), and those that negatively impact Chuyu team’s operation or services will be subject to serious legal actions.
-    6. Anyone who fails to comply with this agreement automatically loses any right granted by Chuyu team. Chuyu team retain right to stop all software of Chuyu team in their PC(s), to reject any of their proposal(s), and to persue legal actions gainst them.
-    7. Chuyu team will try their best to provide technical support for those who comply with this agreement, when all of the following factors permit: the complexity of issue, the availability of Chuyu team, and the other users’ vote.
+    5. Dism++ users should comply with the Basic Law (or local equivalents). Any action that violates copyright of Chuyu team or this agreement (including but not limited to inappropriately copy, propagate, display, mirror, upload, download, modify), and those that negatively impact Chuyu team's operation or services will be subject to serious legal actions.
+    6. Anyone who fail to comply with this agreement automatically loses any right granted by Chuyu team. Chuyu team retain right to stop all software of Chuyu team in their PC(s), to reject any of their proposal(s), and to persue legal actions gainst them.
+    7. Chuyu team will try their best to provide technical support for those who comply with this agreement, when all of the following factors permit: the complexity of issue, the availability of Chuyu team, and the other users' vote.
 
 II. Privacy Issues
 
-    1. After initialisation, Dism++ will collect Dism++ users’ system information (including but not restricted to the system version, system structure, system language, CPU information, RAM information), and Dism++’s own report (including but not restricted to the system crash dump and log files) to improve the service. Dism++ will not collect user identification information nor user’s contact information.
-    2. Chuyu team may send users invitations for testing Dism++, invitations for voting to help Chuyu team’s decisioning, and software updates, but Chuyu team will never send messages that include but not limited to advertisements, promotions, frauds, or request for payment.
+    1. After initiation, Dism++ will collect Dism++ users' system information (including but not restricted to the system version, system structure, system language, CPU information, RAM information), and Dism++'s own report (including but not restricted to the system crash dump and log files) to improve the service. Dism++ will not collect user identification information nor user's contact information.
+    2. Chuyu team may send users invitations for testing Dism++, invitations for voting to help Chuyu team's decisioning, and software updates, but Chuyu team will never send messages that include but not limited to advertisements, promotions, frauds, or request for payment.
 
 III. Bear The Risks
 
-    1. Chuyu team have an open-type attitude so everyone can let Dism++ better. Some functions may lead unknown aftermath so Chuyu team will remove the possible risk and tell the users. But we didn’t solve all the issue. You must bear all the aftermath yourself. Please tell Chuyu team after you find some problems to prevent others have the problems.
+    1. Chuyu team have an open-type attitude so everyone can let Dism++ better. Some functions may lead unknown aftermath so Chuyu team will remove the possible risk and tell the users. But we didn't solve all the issue. You must bear all the aftermath yourself. Please tell Chuyu team after you find some problems to prevent others have the problems.
     2. Please understand and agree because our softwares need to develop. Chuyu team persists the rights to change or pause or end or revoke all or some service. The users need to bear this danger.
 
 IV. Intellectual Property Rights Statement
 
     1. Chuyu team has all the intellectual property rights of this-service content (including but not limited to program, webpage, text and so on)
     2. If no important clauses,Chuyu team has all the intellectual property rights.
-    3. If Chuyu team didn’t consent in writing, the users cannot process Chuyu softwares anyway. Cannot tell others have the rights to proces Chuyu softwares.
-    4. Above and other intellectual property rights of Chuyu team are protected by law. If Chuyu team didn’t allow you, you cannot disassemble or do others.
+    3. If Chuyu team didn't consent in writing, the users cannot process Chuyu softwares anyway. Cannot tell others have the rights to proces Chuyu softwares.
+    4. Above and other intellectual property rights of Chuyu team are protected by law. If Chuyu team didn't allow you, you cannot disassemble or do others.
 
 V. Legal Responsibility
 
-    1. If Chuyu team sees someone report some users breached this agreement, Chuyu team have the rights to ban the users to use Chuyu softwares without informing.
-    2. Please understand and agree. Chuyu team has the rights to reasonably penalize the violation behavior with law.
+    1. If Chuyu team see someone report some users breached this agreement,Chuyu team have the rights to ban the users to use Chuyu softwares without informing.
+    2. Please understand and agree. Chuyu team have the rights to reasonably penalize the violation behavior with law.
     3. Please understand and agree. If the users breach this agreement lead third party arise the claim (including the reasonable money to lawyer). The users must compensate for Chuyu team.
 
 VI. Others
 
-    1. Chuyu team solemnly tells the users to notice the clauses of exempt the responsibility of Chuyu team and the rights of limit the users. Minors should read this agreement with the legal guardians.
-    2. The agreement validity and explanation apply in Chinese law. If the users and Chuyu team have disputes, negotiated settlement first. If it’s failed, please agree to report the having-jurisdiction people’s court to administer.
+    1. Chuyu team solemnly tell the users notice the clauses of exempt the responsibility of Chuyu team and the rights of limit the users. Minors should read this agreement with the legal guardians.
+    2. The agreement validity and explanation apply in Chinese law. If the users and Chuyu team have disputes, negotiated settlement first. If it's failed, please agree to report the having-jurisdiction people's court to administer.
     3. If the agreement clauses be invalid or not executable because of whatever reason, the other clauses are still valid. Binding upon Both.
-    4. The user agreement written in Chinese-simplified should be referred to if the Chinese-simplified version differs from user agreements written in other languages.
+    4. The user agreement written in Chinese Simplified should be referred to if the Chinese Simplified version differs from user agreements written in other languages.
 </UserAgreement>
 </Data>

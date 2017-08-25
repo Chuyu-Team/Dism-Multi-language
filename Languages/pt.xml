@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!--
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
 This is the Portuguese translation resource for Dism++.
 There are 5 ASCII punctuation needing special representation in XML.
 Also some control characters should be preferably encoded as numeric character entities.
@@ -6,8 +7,8 @@ Also some control characters should be preferably encoded as numeric character e
     <     Less than                    &lt;
     >     More than                    &gt;
     &     And                          &amp;
-    '     Single quotation mark        &apos;      ’ (apostrophe) or ‘English quotes’
-    "     Double quotation mark        &quot;      “English quotes”
+    '     Single quotation mark        &apos;
+    "     Double quotation mark        &quot;
     \t    Tabulation control           &#9;
     \n    Line feed (newline) control  &#xA;
     \r    Carriage return control      &#xD;
@@ -34,49 +35,49 @@ Special thanks to JNylson
     <LangSecRef ID="3031">Loja do Windows</LangSecRef>
   </CCleanLangSecRefMap>
   <StringMaps>
-    <String Target="文件(&amp;F)" Link="&amp;Arquivo"/>
-      <String Target="添加映像" Link="&amp;Adicionar imagem"/>
-        <String Target="释放映像&#9;Ctrl+N" Link="&amp;Aplicar imagem&#9;Ctrl+N"/>
-        <String Target="挂载映像&#9;Ctrl+Shift+N" Link="&amp;Montar imagem&#9;Ctrl+Shift+N"/>
-        <String Target="添加路径" Link="Adicionar &amp;caminho"/>
-      <String Target="卸载映像&#9;Delete" Link="&amp;Desmontar imagem&#9;Delete"/>
-      <String Target="保存映像&#9;Ctrl+S" Link="&amp;Salvar imagem&#9;Ctrl+S"/>
-      <String Target="另存为映像&#9;Ctrl+Shift+S" Link="Salvar imagem &amp;como...&#9;Ctrl+Shift+S"/>
-      <String Target="打开映像文件&#9;Ctrl+O" Link="Abrir arquivo de &amp;imagem&#9;Ctrl+O"/>
-      <String Target="重新载入" Link="&amp;Recarregar"/>
-      <String Target="格式转换" Link="C&amp;onverter formatos"/>
-        <String Target="ESD解密" Link="&amp;Decodificação ESD"/>
+    <String Target="文件(&amp;F)" Link="Arquivo(&amp;F)"/>
+      <String Target="添加映像" Link="Adicionar imagem"/>
+        <String Target="释放映像&#9;Ctrl+N" Link="Aplicar imagem&#9;Ctrl+N"/>
+        <String Target="挂载映像&#9;Ctrl+Shift+N" Link="Montar imagem&#9;Ctrl+Shift+N"/>
+        <String Target="添加路径" Link="Adicionar caminho"/>
+      <String Target="卸载映像&#9;Delete" Link="Desmontar imagem&#9;Delete"/>
+      <String Target="保存映像&#9;Ctrl+S" Link="Salvar imagem&#9;Ctrl+S"/>
+      <String Target="另存为映像&#9;Ctrl+Shift+S" Link="Salvar imagem como...&#9;Ctrl+Shift+S"/>
+      <String Target="打开映像文件&#9;Ctrl+O" Link="Abrir arquivo de imagem&#9;Ctrl+O"/>
+      <String Target="重新载入" Link="Recarregar"/>
+      <String Target="格式转换" Link="Converter formatos"/>
+        <String Target="ESD解密" Link="Decodificação ESD"/>
     <String Target="取消任务&#9;Ctrl+Break" Link="Cancelar tarefa&#9;Ctrl+Break"/>
 
     <String Target="恢复功能(&amp;R)" Link="&amp;Recuperação"/>
-      <String Target="系统修复" Link="Recuperação do &amp;sistema"/>
-      <String Target="健康扫描" Link="&amp;Exame de saúde"/>
-        <String Target="验证受损" Link="&amp;Verificar integridade"/>
-        <String Target="修复受损" Link="&amp;Reparar integridade"/>
-      <String Target="引导修复" Link="Reparar &amp;inicialização"/>
-      <String Target="系统备份" Link="&amp;Backup do sistema"/>
-      <String Target="系统还原" Link="&amp;Restaurar sistema"/>
-      <String Target="在RE中运行" Link="Executar em &amp;WinRE"/>
-      <String Target="仅启动RE" Link="Executar WinRE &amp;apenas"/>
-      <String Target="撤销Compact" Link="Nunca &amp;compactar"/>
+      <String Target="系统修复" Link="Recuperação do sistema"/>
+      <String Target="健康扫描" Link="Exame de saúde"/>
+        <String Target="验证受损" Link="Verificar integridade"/>
+        <String Target="修复受损" Link="Reparar integridade"/>
+      <String Target="引导修复" Link="Reparar inicialização"/>
+      <String Target="系统备份" Link="Backup do sistema"/>
+      <String Target="系统还原" Link="Restaurar sistema"/>
+      <String Target="在RE中运行" Link="Executar em WinRE"/>
+      <String Target="仅启动RE" Link="Executar WinRE apenas"/>
+      <String Target="撤销Compact" Link="Nunca compactar"/>
 
     <String Target="选项(&amp;O)" Link="&amp;Opções"/>
-      <String Target="插件管理" Link="Gerenciador de &amp;plugins"/>
-      <String Target="新手模式" Link="Modo &amp;iniciantes"/>
-      <String Target="详细设置" Link="&amp;Mais configurações"/>
-      <String Target="操作完成后" Link="&amp;Depois de concluir a operação"/>
-        <String Target="未定义" Link="&amp;Não fazer nada"/>
-        <String Target="关机" Link="&amp;Desligar"/>
-        <String Target="重启" Link="&amp;Reiniciar"/>
-      <String Target="程序外观" Link="&amp;Aparência"/>
+      <String Target="插件管理" Link="Gerenciador de plugins"/>
+      <String Target="新手模式" Link="Modo iniciantes"/>
+      <String Target="详细设置" Link="Mais configurações"/>
+      <String Target="操作完成后" Link="Depois de concluir a operação"/>
+        <String Target="未定义" Link="Não fazer nada"/>
+        <String Target="关机" Link="Desligar"/>
+        <String Target="重启" Link="Reiniciar"/>
+      <String Target="程序外观" Link="Aparência"/>
 
-    <String Target="帮助(&amp;H)" Link="Aj&amp;uda"/>
-      <String Target="查看帮助(&amp;V)" Link="&amp;Exibir Ajuda"/>
+    <String Target="帮助(&amp;H)" Link="Ajuda(&amp;H)"/>
+      <String Target="查看帮助(&amp;V)" Link="Exibir Ajuda(&amp;V)"/>
       <String Target="官方网站(&amp;O)" Link="Site &amp;Oficial"/>
       <String Target="官方群(&amp;G)" Link="&amp;Grupo Offical"/>
       <String Target="问题反馈(&amp;B)" Link="Feed&amp;back"/>
-      <String Target="关于Dism++(&amp;A)" Link="&amp;Sobre Dism++"/>
-      <String Target="检查更新(&amp;U)" Link="&amp;Verificar Atualizações"/>
+      <String Target="关于Dism++(&amp;A)" Link="Sobre Dism++(&amp;A)"/>
+      <String Target="检查更新(&amp;U)" Link="Verificar Atualizações(&amp;U)"/>
 
     <String Target="应用一个WIM、ESD、SWM或者ISO映像。" Link="Aplica uma imagem WIM, ESD, SWM ou ISO."/>
     <String Target="从 WIM 文件安装映像。" Link="Monta imagem de um arquivo WIM."/>
@@ -119,7 +120,7 @@ Special thanks to JNylson
     <String Target="临时目录可用空间不足5GB，这可能导致Dism++无法正常运行，推荐将Dism++复制到可用空间大于5GB的驱动器，然后继续。" Link="Temporary directory space less than 5GB, Dism++ may not work properly. It is recommended to copy Dism++ to drive with more than 5GB of free space, and then continue."/>
     <String Target="基础支撑库缺失，引导修复相关功能无法使用。" Link="Uma biblioteca fundamental de apoio está faltando. Não é possível usar as funções relacionadas a Reparar Inicialização."/>
     <String Target="Dism++需要管理员权限才能运行，请右键 以管理员身份运行 然后继续。" Link="Dism++ precisa de direitos administrativos para ser executado. Clique com o botão direito do mouse e selecione Executar como Administrador para executá-lo."/>
-    <String Target="Dism++不允许以兼容模式启动，请去除兼容模式，然后再启动Dism++。" Link="Dism++ doesn’t allow compatibility mode. Restart Dism++ after disable it."/>
+    <String Target="Dism++不允许以兼容模式启动，请去除兼容模式，然后再启动Dism++。" Link="Dism++ doesn't allow compatibility mode. Restart Dism++ after disable it."/>
 
     <String Target="你需要增量保存还是直接保存？" Link="Salvar diretamente ou salvar incremental?"/>
     <String Target="温馨提示：保存映像后空间不会减少，如果需要减少空间请重新编译目标文件。" Link="Dicas: O espaço não vai reduzir se salvar essa imagem;  Recompile o arquivo destino, se precisar reduzir o espaço"/>
@@ -158,8 +159,8 @@ Special thanks to JNylson
     <String Target="%s 位置的映像正繁忙，请稍后再试。" Link="O local da imagem %s está ocupado. Tente novamente mais tarde."/>
     <String Target="正在验证受损" Link="Verificando Integridade"/>
     <String Target="正在修复受损" Link="Restaurando Integridade"/>
-    <String Target="%d 秒后将关闭计算机，点击取消可以撤销此任务。" Link="Depois de %d segundos o computador será Desligado. Clique em 'Cancelar' para cancelar essa tarefa."/>
-    <String Target="%d 秒后将重启计算机，点击取消可以撤销此任务。" Link="Depois de %d segundos o computador será Reiniciado. Clique em 'Cancelar' para cancelar essa tarefa."/>
+    <String Target="%d 秒后将关闭计算机，点击取消可以撤销此任务。" Link="Depois de %d segundos o computador será Desligado. Clique em &quot;Cancelar&quot; para cancelar essa tarefa."/>
+    <String Target="%d 秒后将重启计算机，点击取消可以撤销此任务。" Link="Depois de %d segundos o computador será Reiniciado. Clique em &quot;Cancelar&quot; para cancelar essa tarefa."/>
 
     <String Target="正在清理临时数据" Link="Limpando dados temporários"/>
     <String Target="Sorry，无法配置环境，请在PE中使用此功能。" Link="Sorry, fail to configure environment now, please operate this task in WinPE."/>
@@ -241,12 +242,12 @@ Special thanks to JNylson
     <String Target="正在修复挂载映像" Link="Remontando imagem"/>
     <String Target="正在取消现有任务，请稍等……" Link="Cancelando tarefas atuais, por favor aguarde..."/>
     <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="A imagem montada %s está danificada, deve ser reparada antes de continuar. Deseja reparar a imagem agora?"/>
-    <String Target="即将重启以下程序 %s，你确定要继续吗？" Link="About to restart the following program %s, Sure to proceed?"/>
+    <String q="" Target="即将重启以下程序 %s，你确定要继续吗？" Link="About to restart the following program %s, Sure to proceed?"/>
     <String Target="资源管理器" Link="explorador"/>
     <String Target="操作完成" Link="Finished"/>
 
     <!--欢迎页-->
-    <String Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。" Link="The first Dism GUI implementation based on CBS in the world!"/>
+    <String q="" Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。" Link="The first Dism GUI implementation based on CBS in the world!"/>
 
     <String Target="联系方式" Link="Contato"/>
     <String Target="官方网站" Link="Site official"/>
@@ -413,7 +414,7 @@ Special thanks to JNylson
     <String Target="该规则来自CCleaner解析引擎，因此不能提供说明。" Link="A regra é a partir das regras CCleaner, portanto, detalhes não estão disponíveis."/>
     <String Target="默认" Link="Padrão"/>
     <String Target="关于 %s 的详细处理信息" Link="Informações detalhadas sobre %s"/>
-    <String Target="以下文件即将被处理，你可以点击 清理 处理他们" Link="Os seguintes arquivos serão processados ​​e você poderá clicar em 'Limpar' para processá-los"/>
+    <String Target="以下文件即将被处理，你可以点击 清理 处理他们" Link="Os seguintes arquivos serão processados ​​e você poderá clicar em &quot;Limpar&quot; para processá-los"/>
     <String
       Target="关于 %s 的警告：&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;您确定要清理么？"
       Link="%s Atenção:&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;Tem certeza que deseja limpá-los?"/>
@@ -442,8 +443,8 @@ Special thanks to JNylson
     <String Target="蓝屏记录" Link="Registro azul"/>
     <String Target="注册表还原" Link="Restaurar"/>
     <String Target="清理时间" Link="Tempo de limpeza"/>
-    <String Target="网络位置" Link="Network location"/>
-    <String Target="正在扫描第%d个可清理的注册表项。。。" Link="Scanning num. %d register item to be cleaned..."/>
+    <String q="" Target="网络位置" Link="Network location"/>
+    <String q="" Target="正在扫描第%d个可清理的注册表项。。。" Link="Scanning num. %d register item to be cleaned..."/>
 
     <!--驱动管理-->
     <String Target="温馨提示：删除关键驱动可能导致计算机无法启动" Link="Dicas: Excluir drivers importantes pode impedir o computador de inicializar"/>
@@ -738,7 +739,7 @@ Special thanks to JNylson
 
     <String Target="用于内置管理员帐户的管理员批准模式 (by 坏坏小生)" Link="Administrator approval mode for built-in administraor account (by HuaiHuaiXiaoSheng)"/>
 
-    <String Target="隐藏“任务视图”按钮" Link="Hide 'Task View' button"/>
+    <String Target="隐藏“任务视图”按钮" Link="Hide &quot;Task View&quot; button"/>
 
     <String Target="打开资源管理器时显示此电脑" Link="Abrir explorador de arquivos para esse pc"/>
 
@@ -823,7 +824,7 @@ Special thanks to JNylson
     <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="Hide Videos, Pictures, Documents, Download, Music, Desktop, 3D Object in Computer (by 、Cloud)"/>
     <String Target="禁止自动安装推荐的应用程序（by IT之家）" Link="Disable installing recommmeded apps autoly (by ITHome)"/>
     <String Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="Disable Windows Focus on lock screen (by 、Cloud.)"/>
-    <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="Disable “Get suggestions when using Windows” (by 、Cloud.)"/>
+    <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="Disable &quot;Get suggestions when using Windows&quot; (by 、Cloud.)"/>
     <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Hide Contacts on Task Bar (by 、Cloud)"/>
 
     <!--开始菜单-->
@@ -831,23 +832,23 @@ Special thanks to JNylson
 
     <!--右键菜单管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="Context menu management: Disable un-necessary menu items to improve Widnows Explorer response"/>
-    <String Target="禁用可执行文件的“兼容性疑难解答”右键菜单（by 莫失莫忘）" Link="Disable 'Compatibility troubleshooting' context menu on execuables (by MoWangMoShi)"/>
-    <String Target="禁用文件、文件夹以及磁盘的“使用Windows Defender扫描”右键菜单（by 莫失莫忘）" Link="Disable 'Scan by Windows Defender' context menu on files, folders and disks (by MoWangMoShi)"/>
-    <String Target="禁用文件、磁盘以及属性的“还原以前版本”右键菜单（by 莫失莫忘）" Link="Disable 'Revert to previous version' context menu on files, disks and properties (by MoWangMoShi)"/>
-    <String Target="禁用文件、文件夹、桌面以及所有对象的“共享文件夹同步”右键菜单" Link="Disable 'Sync shared folders' context menu on files, folders, desktop and all objects"/>
-    <String Target="禁用新建“ZIP/RAR文件”右键菜单（by 莫失莫忘）" Link="Desativar menu de contexto 'Novo Arquivo ZIP/RAR' (by MoWangMoShi)"/>
-    <String Target="禁用新建、文件以及文件夹的“公文包”右键菜单" Link="Desativar menu de contexto novo 'Porta-arquivo', Arquivos e pastas"/>
-    <String Target="禁用新建的“联系人”右键菜单（by 莫失莫忘）" Link="Desativar o menu de contexto 'Novo contato' (by MoWangMoShi)"/>
+    <String Target="禁用可执行文件的“兼容性疑难解答”右键菜单（by 莫失莫忘）" Link="Disable &quot;Compatibility troubleshooting&quot; context menu on execuables (by MoWangMoShi)"/>
+    <String Target="禁用文件、文件夹以及磁盘的“使用Windows Defender扫描”右键菜单（by 莫失莫忘）" Link="Disable &quot;Scan by Windows Defender&quot; context menu on files, folders and disks (by MoWangMoShi)"/>
+    <String Target="禁用文件、磁盘以及属性的“还原以前版本”右键菜单（by 莫失莫忘）" Link="Disable &quot;Revert to previous version&quot; context menu on files, disks and properties (by MoWangMoShi)"/>
+    <String Target="禁用文件、文件夹、桌面以及所有对象的“共享文件夹同步”右键菜单" Link="Disable &quot;Sync shared folders&quot; context menu on files, folders, desktop and all objects"/>
+    <String Target="禁用新建“ZIP/RAR文件”右键菜单（by 莫失莫忘）" Link="Desativar menu de contexto &quot;Novo Arquivo ZIP/RAR&quot; (by MoWangMoShi)"/>
+    <String Target="禁用新建、文件以及文件夹的“公文包”右键菜单" Link="Desativar menu de contexto novo &quot;Porta-arquivo&quot;, Arquivos e pastas"/>
+    <String Target="禁用新建的“联系人”右键菜单（by 莫失莫忘）" Link="Desativar o menu de contexto &quot;Novo contato&quot; (by MoWangMoShi)"/>
     <String Target="禁用桌面的英特尔集显右键菜单（by 莫失莫忘）" Link="Disable Intel integrated graphics context menu (by MoWangMoShi)"/>
     <String Target="禁用目录、文件夹、所有对象、的“始终脱机可用”右键菜单" Link="Disable the &quot;Enable off-line use&quot; context menu on folders and all objects"/>
-    <String Target="禁用磁盘的“以便携式方式打开”右键菜单（by 莫失莫忘）" Link="Disable the 'Open as portable device' context menu on disks (by MoWangMoShi)"/>
-    <String Target="禁用磁盘的“刻录到光盘”右键菜单" Link="Disable the 'Burn to CD' context menu on disks"/>
-    <String Target="禁用磁盘的“启用Bitlocker”右键菜单（by 莫失莫忘）" Link="Disable the 'Enable Bitlocker' context menu on disks (by MoWangMoShi)"/>
-    <String Target="禁用磁盘的“复制磁盘”右键菜单" Link="Disable the 'Disk Copy' context menu on disks"/>
-    <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="Disable 'Share' context menu on files, folders, desktop, disks and libraries"/>
-    <String Target="禁用桌面的“小工具”右键菜单" Link="Desativar o menu de contexto 'Gadgets'"/>
-    <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Disable file context menu item “View 3D” (by Cloud)"/>
-    <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Disable file context menu item “Paint 3D” (by Cloud)"/>
+    <String Target="禁用磁盘的“以便携式方式打开”右键菜单（by 莫失莫忘）" Link="Disable the &quot;Open as portable device&quot; context menu on disks (by MoWangMoShi)"/>
+    <String Target="禁用磁盘的“刻录到光盘”右键菜单" Link="Disable the &quot;Burn to CD&quot; context menu on disks"/>
+    <String Target="禁用磁盘的“启用Bitlocker”右键菜单（by 莫失莫忘）" Link="Disable the &quot;Enable Bitlocker&quot; context menu on disks (by MoWangMoShi)"/>
+    <String Target="禁用磁盘的“复制磁盘”右键菜单" Link="Disable the &quot;Disk Copy&quot; context menu on disks"/>
+    <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="Disable &quot;Share&quot; context menu on files, folders, desktop, disks and libraries"/>
+    <String Target="禁用桌面的“小工具”右键菜单" Link="Desativar o menu de contexto &quot;Gadgets&quot;"/>
+    <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Disable file context menu item &quot;View 3D&quot; (by Cloud)"/>
+    <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Disable file context menu item &quot;Paint 3D&quot; (by Cloud)"/>
 
     <!--桌面图示管理-->
     <String Target="桌面图标管理" Link="Gerenciar ícone da Área de Trabalho"/>
@@ -883,10 +884,10 @@ Special thanks to JNylson
     <String Target="隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）" Link="Hide Feedback smiley in Internet Explorer (by ITHome)"/>
 
     <!--Microsoft Edge-->
-    <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Prevent Microsoft Edge from opening “First Running” (by ITHome)"/>
+    <String q="" Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Prevent Microsoft Edge from opening &quot;First Running&quot; (by ITHome)"/>
 
     <!--微软拼音输入法-->
-    <String Target="微软拼音输入法" Link="Microsoft Pinyin IME"/>
+    <String q="" Target="微软拼音输入法" Link="Microsoft Pinyin IME"/>
     <String Target="微软拼音默认为英语输入（by Rambin）" Link="Make IME default mode English (by Rambin)"/>
 
     <String Target="关闭微软拼音云计算（by Rambin）" Link="Disable Cloud input method (by Rambin)"/>
@@ -1094,7 +1095,7 @@ Special thanks to JNylson
     <String Target="被取代的WinSxS组件" Link="Assemblies Substituído no WinSxS"/>
     <String Target="清理被取代的组件并减少组件存储的大小。" Link="Use-o para limpar os componentes substituídos e reduzir o tamanho do armazenamento de componentes."/>
     <String Target="清理后将无法卸载更新，如果有卸载更新需求请勿使用此选项。" Link="As atualizações do Windows instaladas não podem ser desinstaladas após a conclusão da operação."/>
-    <String Target="清理后将无法卸载更新，此外ResetBase模式跟系统重置功能有冲突，如果有卸载更新或者系统重置需求请勿使用此选项。" Link="Updates cannot be uninstalled after cleaning up. In addition, ResetBase mode conflicts with system reset function. Please do not use this option if you have such needs."/>
+    <String q="" Target="清理后将无法卸载更新，此外ResetBase模式跟系统重置功能有冲突，如果有卸载更新或者系统重置需求请勿使用此选项。" Link="Updates cannot be uninstalled after cleaning up. In addition, ResetBase mode conflicts with system reset function. Please do not use this option if you have such needs."/>
 
     <String Target="被取代的WinSxS组件（非常慢）" Link="Assemblies Substituído no WinSxS (muito lento)"/>
 
@@ -1329,21 +1330,21 @@ Special thanks to JNylson
     <String Target="最后一次正确配置（by Stanlazy）" Link="Last working configuration (by Stanlazy)"/>
     <String Target="最近能正常启动计算机的配置备份。" Link="Backup of the most recent configuration that could start up the PC."/>
 
-    <String Target="传递优化缓存" Link="Delivery Optimization Cache"/>
-    <String Target="Win10开始使用传递优化（DeliveryOptimization）服务下载Windows更新和通用应用（UWP）产生的缓存文件" Link="Cache files generated when Windows 10 starts using Delivery Optimization service to download Windows updates and UWP."/>
+    <String q="" Target="传递优化缓存" Link="Delivery Optimization Cache"/>
+    <String q="" Target="Win10开始使用传递优化（DeliveryOptimization）服务下载Windows更新和通用应用（UWP）产生的缓存文件" Link="Cache files generated when Windows 10 starts using Delivery Optimization service to download Windows updates and UWP."/>
 
-    <String Target="Appx缓存文件-可解决Appx闪退" Link="Appx cache files - Fix Appx Crash"/>
-    <String Target="Appx运行时产生的缓存文件，当应用闪退时可尝试清理此选项，可解决大多数闪退问题。" Link="Appx runtime cache files. If Appx flashes back you can try to clean them. In most cases the problem can be fixed."/>
+    <String q="" Target="Appx缓存文件-可解决Appx闪退" Link="Appx cache files - Fix Appx Crash"/>
+    <String q="" Target="Appx运行时产生的缓存文件，当应用闪退时可尝试清理此选项，可解决大多数闪退问题。" Link="Appx runtime cache files. If Appx flashes back you can try to clean them. In most cases the problem can be fixed."/>
 
-    <String Target="英伟达驱动安装包（by Ailick）" Link="nVidia driver installation package (by Ailick)"/>
-    <String Target="Nvidia Geforce Experience更新程序时产生的安装包。" Link="nVidia Geforce Experience generates this installation package when updating programs."/>
+    <String q="" Target="英伟达驱动安装包（by Ailick）" Link="nVidia driver installation package (by Ailick)"/>
+    <String q="" Target="Nvidia Geforce Experience更新程序时产生的安装包。" Link="nVidia Geforce Experience generates this installation package when updating programs."/>
 
-    <String Target="新版Visual Studio安装源缓存" Link="New Visual Studio installation source cache"/>
-    <String Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="Cleans up Visual Studio 2017 and later versions of the installation source."/>
-    <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="After cleaning up, upgrade, fix, add components and uninstall need to be networked (Visual Studio 2017 and later versions)."/>
+    <String q="" Target="新版Visual Studio安装源缓存" Link="New Visual Studio installation source cache"/>
+    <String q="" Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="Cleans up Visual Studio 2017 and later versions of the installation source."/>
+    <String q="" Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="After cleaning up, upgrade, fix, add components and uninstall need to be networked (Visual Studio 2017 and later versions)."/>
 
-    <String Target="损坏的Appx" Link="Damaged Appx"/>
-    <String Target="清理损坏的Appx。例如Visual Studio的通用应用XAML设计器暴力删除临时生成的设计器应用，于是会出现大量损坏的Appx。" Link="Clean up damaged Appx. For example, the general application XAML designer of Visual Studio violently deletes temporary designer applications will result in many damaged Appx."/>
+    <String q="" Target="损坏的Appx" Link="Damaged Appx"/>
+    <String q="" Target="清理损坏的Appx。例如Visual Studio的通用应用XAML设计器暴力删除临时生成的设计器应用，于是会出现大量损坏的Appx。" Link="Clean up damaged Appx. For example, the general application XAML designer of Visual Studio violently deletes temporary designer applications will result in many damaged Appx."/>
   </StringMaps>
   <MessageTable>
     <x800F0806>Uma ou mais atualizações estão pendentes, por favor reinicie antes de continuar.</x800F0806>
@@ -1441,36 +1442,36 @@ Special thanks to JNylson
   </MessageTable>
   <UserAgreement>Termo de Acordo do Usuário
 
-    Chuyu team strongly recommand every user to read the following user agreement (hereinafter referred to as 'agreement', or 'this agreement') carefully before using Dism++. Anyone chooses not to comply with or fail to understand the intended meaning of the agreement should not be allowed, nor be granted the right granted by Chuyu team to use Dism++. Anyone who uses Dism++ is considered to agree with the following agreement, and to comply with the content of this agreement.
+    Chuyu team strongly recommand every user to read the following user agreement (hereinafter referred to as "agreement", or "this agreement") carefully before using Dism++. Anyone chooses not to comply with or fail to understand the intended meaning of the agreement should not be allowed, nor be granted the right granted by Chuyu team to use Dism++. Anyone who uses Dism++ is considered to agree with the following agreement, and to comply with the content of this agreement.
 
-    This agreement defines the rights and obligations between Dism++ users of 'Dism++' software service (hereinafter referred to as 'service', or 'this service') and Chuyu team. 'Users', and 'Dism++ users' refer to individuals who register, login, or utilize this service. This agreement is subject to updates from Chuyu team at any possible moment. Updated agreement, once published in any format, replaces the original agreement. Dism++ should display the updated agreement when the software properly initiates. Dism++ users must stop using this software and the services fom Chuyu team immediately if they choose not to comply with the updated agreement.
+    This agreement defines the rights and obligations between Dism++ users of "Dism++" software service (hereinafter referred to as "service", or "this service") and Chuyu team. "Users", and "Dism++ users" refer to individuals who register, login, or utilize this service. This agreement is subject to updates from Chuyu team at any possible moment. Updated agreement, once published in any format, replaces the original agreement. Dism++ should display the updated agreement when the software properly initiates. Dism++ users must stop using this software and the services fom Chuyu team immediately if they choose not to comply with the updated agreement.
 
 I. Direitos e Obrigações
 
     1. Dism++ users can only use Dism++ for personal use in their PC(s). Any non-personal use (including but not limited to commercial or occupational use) without written approval from Chuyu team is not allowed.
     2. Dism++ users must read this agreement and other content in the document of Dism++ carefully before using Dism++.
-    3. Dism++ users have the obligation to report bugs and possible improvements to Chuyu team. Anyone who uses Dism++ for over 30 days should send mingkuang a ‘Dism++ usage report’ that is no less than 345 words. Anyone who uses Dism++ for 8 mounths or longer should send mingkuang an annual report (at least 520 words) on the topic ‘the suggestion and possible improvement on Dism++’ on November 11th (local time). Email of mingkuang: mingkuang@live.com.
+    3. Dism++ users have the obligation to report bugs and possible improvements to Chuyu team. Anyone who uses Dism++ for over 30 days should send mingkuang a "Dism++ usage report" that is no less than 345 words. Anyone who uses Dism++ for 8 mounths or longer should send mingkuang an annual report (at least 520 words) on the topic "the suggestion and possible improvement on Dism++" on November 11th (local time). Email of mingkuang: mingkuang@live.com.
     4. Dism++ users should retain the love for peace, for group work, and of helping others.
-    5. Dism++ users should comply with the Basic Law (or local equivalents). Any action that violates copyright of Chuyu team or this agreement (including but not limited to inappropriately copy, propagate, display, mirror, upload, download, modify), and those that negatively impact Chuyu team’s operation or services will be subject to serious legal actions.
+    5. Dism++ users should comply with the Basic Law (or local equivalents). Any action that violates copyright of Chuyu team or this agreement (including but not limited to inappropriately copy, propagate, display, mirror, upload, download, modify), and those that negatively impact Chuyu team's operation or services will be subject to serious legal actions.
     6. Anyone who fails to comply with this agreement automatically loses any right granted by Chuyu team. Chuyu team retain right to stop all software of Chuyu team in their PC(s), to reject any of their proposal(s), and to persue legal actions gainst them.
-    7. Chuyu team will try their best to provide technical support for those who comply with this agreement, when all of the following factors permit: the complexity of issue, the availability of Chuyu team, and the other users’ vote.
+    7. Chuyu team will try their best to provide technical support for those who comply with this agreement, when all of the following factors permit: the complexity of issue, the availability of Chuyu team, and the other users' vote.
 
 II. Questões de Privacidade
 
-    1. After initialisation, Dism++ will collect Dism++ users’ system information (including but not restricted to the system version, system structure, system language, CPU information, RAM information), and Dism++’s own report (including but not restricted to the system crash dump and log files) to improve the service. Dism++ will not collect user identification information nor user’s contact information.
-    2. Chuyu team may send users invitations for testing Dism++, invitations for voting to help Chuyu team’s decisioning, and software updates, but Chuyu team will never send messages that include but not limited to advertisements, promotions, frauds, or request for payment.
+    1. After initialisation, Dism++ will collect Dism++ users' system information (including but not restricted to the system version, system structure, system language, CPU information, RAM information), and Dism++'s own report (including but not restricted to the system crash dump and log files) to improve the service. Dism++ will not collect user identification information nor user's contact information.
+    2. Chuyu team may send users invitations for testing Dism++, invitations for voting to help Chuyu team's decisioning, and software updates, but Chuyu team will never send messages that include but not limited to advertisements, promotions, frauds, or request for payment.
 
 III. Suportar os Riscos
 
-    1. Chuyu team has an open-type attitude so everyone can let Dism++ better. Some functions may lead unknown aftermath so Chuyu team will remove the possible risk and tell the users. But we didn’t solve all the issue. You must bear all the aftermath yourself. Please tell Chuyu team after you find some problems to prevent others have the problems.
+    1. Chuyu team has an open-type attitude so everyone can let Dism++ better. Some functions may lead unknown aftermath so Chuyu team will remove the possible risk and tell the users. But we didn't solve all the issue. You must bear all the aftermath yourself. Please tell Chuyu team after you find some problems to prevent others have the problems.
     2. Please understand and agree because our softwares need to develop. Chuyu team persists the rights to change or pause or end or revoke all or some service. The users need to bear this danger.
 
 IV. Declaração de Direitos de Propriedade Intelectual
 
     1. Chuyu team has all the intellectual property rights of this-service content (including but not limited to program, webpage, text and so on)
     2. If no important clauses, Chuyu team has all the intellectual property rights.
-    3. If Chuyu team didn’t consent in writing, the users cannot process Chuyu softwares anyway. Cannot tell others have the rights to proces Chuyu softwares.
-    4. Above and other intellectual property rights of Chuyu team are protected by law. If Chuyu team didn’t allow you, you cannot disassemble or do others.
+    3. If Chuyu team didn't consent in writing, the users cannot process Chuyu softwares anyway. Cannot tell others have the rights to proces Chuyu softwares.
+    4. Above and other intellectual property rights of Chuyu team are protected by law. If Chuyu team didn't allow you, you cannot disassemble or do others.
 
 V. Responsabilidade Legal
 
@@ -1481,7 +1482,7 @@ V. Responsabilidade Legal
 VI. Outros
 
     1. Chuyu team solemnly tells the users to notice the clauses of exempt the responsibility of Chuyu team and the rights of limit the users. Minors should read this agreement with the legal guardians.
-    2. The agreement validity and explanation apply in Chinese law. If the users and Chuyu team have disputes, negotiated settlement first. If it’s failed, please agree to report the having-jurisdiction people’s court to administer.
+    2. The agreement validity and explanation apply in Chinese law. If the users and Chuyu team have disputes, negotiated settlement first. If it's failed, please agree to report the having-jurisdiction people's court to administer.
     3. If the agreement clauses be invalid or not executable because of whatever reason, the other clauses are still valid. Binding upon Both.
     4. The user agreement written in Chinese-simplified should be referred to if the Chinese-simplified version differs from user agreements written in other languages.
 </UserAgreement>

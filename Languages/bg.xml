@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!--
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
 This is the Bulgarian translation resource for Dism++.
 There are 5 ASCII punctuation needing special representation in XML.
 Also some control characters should be preferably encoded as numeric character entities.
@@ -6,8 +7,8 @@ Also some control characters should be preferably encoded as numeric character e
     <     Less than                    &lt;
     >     More than                    &gt;
     &     And                          &amp;
-    '     Single quotation mark        &apos;      ’ (apostrophe) or ‘English quotes’
-    "     Double quotation mark        &quot;      “English quotes”
+    '     Single quotation mark        &apos;
+    "     Double quotation mark        &quot;
     \t    Tabulation control           &#9;
     \n    Line feed (newline) control  &#xA;
     \r    Carriage return control      &#xD;
@@ -34,7 +35,7 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
    <LangSecRef ID="3031">Windows магазин</LangSecRef>
   </CCleanLangSecRefMap>
   <StringMaps>
-    <String Target="文件(&amp;F)" Link="&amp;Файл"/>
+    <String Target="文件(&amp;F)" Link="Файл(&amp;F)"/>
       <String Target="添加映像" Link="Добави имидж"/>
         <String Target="释放映像&#9;Ctrl+N" Link="Приложи имиджа&#9;Ctrl+N"/>
         <String Target="挂载映像&#9;Ctrl+Shift+N" Link="Монтирай имиджа&#9;Ctrl+Shift+N"/>
@@ -48,7 +49,7 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
         <String Target="ESD解密" Link="Дешифриране на ESD"/>
     <String Target="取消任务&#9;Ctrl+Break" Link="Откажи Задача&#9;Ctrl+Break"/>
 
-    <String Target="恢复功能(&amp;R)" Link="&amp;Възстановяване"/>
+    <String Target="恢复功能(&amp;R)" Link="Възстановяване(&amp;R)"/>
       <String Target="系统修复" Link="Възстановяване на сист."/>
       <String Target="健康扫描" Link="Преглед на здравето"/>
         <String Target="验证受损" Link="Сканиране на здравето"/>
@@ -60,7 +61,7 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
       <String Target="仅启动RE" Link="Само стартирай WinRE"/>
       <String Target="撤销Compact" Link="Никога Compact"/>
 
-    <String Target="选项(&amp;O)" Link="&amp;Опции"/>
+    <String Target="选项(&amp;O)" Link="Опции(&amp;O)"/>
       <String Target="插件管理" Link="Мениджър на добавките"/>
       <String Target="新手模式" Link="Режим новак"/>
       <String Target="详细设置" Link="Още настройки"/>
@@ -70,13 +71,13 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
         <String Target="重启" Link="Рестартирай"/>
       <String Target="程序外观" Link="Изглед"/>
 
-    <String Target="帮助(&amp;H)" Link="&amp;Помощ"/>
-      <String Target="查看帮助(&amp;V)" Link="&amp;Покажи Помощ"/>
-      <String Target="官方网站(&amp;O)" Link="Официален &amp;сайт"/>
-      <String Target="官方群(&amp;G)" Link="Официална &amp;група"/>
-      <String Target="问题反馈(&amp;B)" Link="От&amp;зив"/>
-      <String Target="关于Dism++(&amp;A)" Link="&amp;Относно Dism++"/>
-      <String Target="检查更新(&amp;U)" Link="Проверка за &amp;актуализации"/>
+    <String Target="帮助(&amp;H)" Link="Помощ(&amp;H)"/>
+      <String Target="查看帮助(&amp;V)" Link="Покажи Помощ(&amp;V)"/>
+      <String Target="官方网站(&amp;O)" Link="Официален сайт(&amp;O)"/>
+      <String Target="官方群(&amp;G)" Link="Официална група(&amp;G)"/>
+      <String Target="问题反馈(&amp;B)" Link="Отзив(&amp;B)"/>
+      <String Target="关于Dism++(&amp;A)" Link="Относно Dism++(&amp;A)"/>
+      <String Target="检查更新(&amp;U)" Link="Проверка за актуализации(&amp;U)"/>
 
     <String Target="应用一个WIM、ESD、SWM或者ISO映像。" Link="Прилага WIM, SWM, SWM или ISO имиджа."/>
     <String Target="从 WIM 文件安装映像。" Link="Монтира имиджа от WIM файла."/>
@@ -158,8 +159,8 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
     <String Target="%s 位置的映像正繁忙，请稍后再试。" Link="Мястото на %s имиджа is busy. Моля, опитайте отново по-късно."/>
     <String Target="正在验证受损" Link="Сканиране на здравето"/>
     <String Target="正在修复受损" Link="Възстановяване на здравето"/>
-    <String Target="%d 秒后将关闭计算机，点击取消可以撤销此任务。" Link="След %d секунди компютърът ще се изключи. Кликнете върху “Отказ”, за да отмените тази задача."/>
-    <String Target="%d 秒后将重启计算机，点击取消可以撤销此任务。" Link="След %d секунди компютърът ще се рестартира. Кликнете върху “Отказ”, за да отмените тази задача.."/>
+    <String Target="%d 秒后将关闭计算机，点击取消可以撤销此任务。" Link="След %d секунди компютърът ще се изключи. Кликнете върху &quot;Отказ&quot;, за да отмените тази задача."/>
+    <String Target="%d 秒后将重启计算机，点击取消可以撤销此任务。" Link="След %d секунди компютърът ще се рестартира. Кликнете върху &quot;Отказ&quot;, за да отмените тази задача.."/>
 
     <String Target="正在清理临时数据" Link="Почистване на временните данни"/>
     <String Target="Sorry，无法配置环境，请在PE中使用此功能。" Link="Съжалявам. Средата не успя да се конфигурира. Моля, изпълнете тази задача в WinPE."/>
@@ -349,11 +350,11 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
     <String Target="基本" Link="Базови"/>
     <String Target="更多" Link="Разширени"/>
     <String Target="启动分区：" Link="Зареждащ дял:"/>
-    <String Target="你必须点击更多进行手动指定！" Link="Трябва да кликнете “още” да го зададете ръчно!"/>
+    <String Target="你必须点击更多进行手动指定！" Link="Трябва да кликнете &quot;още&quot; да го зададете ръчно!"/>
     <String Target="硬盘%d 分区%d（%s）" Link="Диск%d дял%d (%s)"/>
     <String Target="硬盘%d 分区%d" Link="Диск%d дял%d"/>
     <String Target="即将把启动信息写入启动分区- %s" Link="Записът за зареждане ще бъде записан в зареждащия дял - %s"/>
-    <String Target="没有异议或者看不懂的请点击 %s 。" Link="If you don’t have objection or you be blind to it, please click on %s."/>
+    <String Target="没有异议或者看不懂的请点击 %s 。" Link="If you don't have objection or you be blind to it, please click on %s."/>
     <String Target="无法获取该分区的详细信息。" Link="Не може да се получи подробна информация за дяла."/>
     <String Target="目标系统需要以UEFI方式启动，请选择一个GPT分区。" Link="Target system needs to boot with UEFI, you need to select a GPT partition."/>
     <String Target="UEFI启动需要FAT16/FAT32分区。" Link="If you boot with UEFI, it needs a FAT16/FAT32 partition"/>
@@ -413,7 +414,7 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
     <String Target="该规则来自CCleaner解析引擎，因此不能提供说明。" Link="Правилото е от правилата на CCleaner, така че Dism++ не е в състояние да покаже описание(я)."/>
     <String Target="默认" Link="По подразб."/>
     <String Target="关于 %s 的详细处理信息" Link="Подробна информация за %s"/>
-    <String Target="以下文件即将被处理，你可以点击 清理 处理他们" Link="Следните файлове ще бъдат обработени и можете да кликнете на “Почисти”, за да бъдат обработени"/>
+    <String Target="以下文件即将被处理，你可以点击 清理 处理他们" Link="Следните файлове ще бъдат обработени и можете да кликнете на &quot;Почисти&quot;, за да бъдат обработени"/>
     <String
       Target="关于 %s 的警告：&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;您确定要清理么？"
       Link="%s внимание:&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;Сигурни ли сте, че искате да продължите?"/>
@@ -742,7 +743,7 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
 
     <String Target="用于内置管理员帐户的管理员批准模式 (by 坏坏小生)" Link="Режим на одобрение от администратора за вградения администраторски акаунт (от HuaiHuaiXiaoSheng)"/>
 
-    <String Target="隐藏“任务视图”按钮" Link="Скрий бутона “Task View”"/>
+    <String Target="隐藏“任务视图”按钮" Link="Скрий бутона &quot;Task View&quot;"/>
 
     <String Target="打开资源管理器时显示此电脑" Link="Отваряй файловия експлорър от това PC"/>
 
@@ -754,7 +755,7 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
 
     <String Target="隐藏可执行文件小盾牌" Link="Скрий щита на UAC"/>
 
-    <String Target="创建快捷方式时不添&quot;快捷方式&quot;文字（by 518516.net）" Link="Забрани добавянето на текст “Пряк път до”, когато се създава пряк път (от 518516.net)"/>
+    <String Target="创建快捷方式时不添&quot;快捷方式&quot;文字（by 518516.net）" Link="Забрани добавянето на текст &quot;Пряк път до&quot;, когато се създава пряк път (от 518516.net)"/>
 
     <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹" Link="Скрий папките Desktop, Документи, Изтегляния, Картини, Музика, Видео в Този компютър"/>
 
@@ -827,7 +828,7 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
     <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="Скриване на 3D обект, Видеа, Документи, Изтегляне, Музика, Работен плот, Снимки в Компютър (от 、Cloud.)"/>
     <String Target="禁止自动安装推荐的应用程序（by IT之家）" Link="Деактивирай инсталирането на препоръчаните приложения (от ITHome)"/>
     <String Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="Изключване на фокусирането на Windows върху екрана за заключване (от 、Cloud.)"/>
-    <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="Деактивиране на “Получаване на предложения, когато използвате Windows” (от 、Cloud.)"/>
+    <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="Деактивиране на &quot;Получаване на предложения, когато използвате Windows&quot; (от 、Cloud.)"/>
     <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Скриване на Хора от Лентата за задачи (от 、Cloud.)"/>
 
     <!--开始菜单-->
@@ -835,23 +836,23 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
 
     <!--右键菜单管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="Управление на контекстното меню: Изключване на ненужните елементи от контекстното меню за подобряване реакцията на Widnows Explorer"/>
-    <String Target="禁用可执行文件的“兼容性疑难解答”右键菜单（by 莫失莫忘）" Link="Изключи “Compatibility troubleshooting” от контекстното меню на изпълнимите файлове (от MoWangMoShi)"/>
-    <String Target="禁用文件、文件夹以及磁盘的“使用Windows Defender扫描”右键菜单（by 莫失莫忘）" Link="Изключи “Scan by Windows Defender” от контекстното меню на файловете, папките и дисковете (от MoWangMoShi)"/>
-    <String Target="禁用文件、磁盘以及属性的“还原以前版本”右键菜单（by 莫失莫忘）" Link="Изключи “Revert to previous version” от контекстното меню на файловете, дисковете and properties (от MoWangMoShi)"/>
-    <String Target="禁用文件、文件夹、桌面以及所有对象的“共享文件夹同步”右键菜单" Link="Изключи “Sync shared folders” от контекстното меню на файловете, папките, desktop и всички обекти"/>
-    <String Target="禁用新建“ZIP/RAR文件”右键菜单（by 莫失莫忘）" Link="Изключи “New ZIP/RAR file” от контекстното меню (от MoWangMoShi)"/>
-    <String Target="禁用新建、文件以及文件夹的“公文包”右键菜单" Link="Изключи “Briefcase” от контекстното меню на new, files and папките"/>
-    <String Target="禁用新建的“联系人”右键菜单（by 莫失莫忘）" Link="Изключи “New contact” от контекстното меню (от MoWangMoShi)"/>
+    <String Target="禁用可执行文件的“兼容性疑难解答”右键菜单（by 莫失莫忘）" Link="Изключи &quot;Compatibility Troubleshooting&quot; от контекстното меню на изпълнимите файлове (от MoWangMoShi)"/>
+    <String Target="禁用文件、文件夹以及磁盘的“使用Windows Defender扫描”右键菜单（by 莫失莫忘）" Link="Изключи &quot;Scan by Windows Defender&quot; от контекстното меню на файловете, папките и дисковете (от MoWangMoShi)"/>
+    <String Target="禁用文件、磁盘以及属性的“还原以前版本”右键菜单（by 莫失莫忘）" Link="Изключи &quot;Revert to previous version&quot; от контекстното меню на файловете, дисковете and properties (от MoWangMoShi)"/>
+    <String Target="禁用文件、文件夹、桌面以及所有对象的“共享文件夹同步”右键菜单" Link="Изключи &quot;Sync Shared Folders&quot; от контекстното меню на файловете, папките, desktop и всички обекти"/>
+    <String Target="禁用新建“ZIP/RAR文件”右键菜单（by 莫失莫忘）" Link="Изключи &quot;New ZIP/RAR file&quot; от контекстното меню (от MoWangMoShi)"/>
+    <String Target="禁用新建、文件以及文件夹的“公文包”右键菜单" Link="Изключи &quot;Briefcase&quot; от контекстното меню на new, files and папките"/>
+    <String Target="禁用新建的“联系人”右键菜单（by 莫失莫忘）" Link="Изключи &quot;New contact&quot; от контекстното меню (от MoWangMoShi)"/>
     <String Target="禁用桌面的英特尔集显右键菜单（by 莫失莫忘）" Link="Изключи Intel integrated graphics от контекстното меню (от MoWangMoShi)"/>
-    <String Target="禁用目录、文件夹、所有对象、的“始终脱机可用”右键菜单" Link="Изключи “Enable off-line use” от контекстното меню на папките и всички обекти"/>
-    <String Target="禁用磁盘的“以便携式方式打开”右键菜单（by 莫失莫忘）" Link="Изключи “Open as portable device” от контекстното меню на дисковете (от MoWangMoShi)"/>
-    <String Target="禁用磁盘的“刻录到光盘”右键菜单" Link="Изключи “Burn to CD” от контекстното меню на дисковете"/>
-    <String Target="禁用磁盘的“启用Bitlocker”右键菜单（by 莫失莫忘）" Link="Изключи “Enable Bitlocker” от контекстното меню на дисковете (от MoWangMoShi)"/>
-    <String Target="禁用磁盘的“复制磁盘”右键菜单" Link="Изключи “Disk Copy” от контекстното меню на дисковете"/>
-    <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="Изключи “Share” от контекстното меню на файловете, папките, desktop, дисковете и библиотеките"/>
-    <String q="" Target="禁用桌面的“小工具”右键菜单" Link="Изключи “Widget” context menu"/>
-    <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Деактивиране на “3D изглед” от контекстното меню на файловете  (от Cloud)"/>
-    <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Деактивиране на “Paint 3D” от контекстното меню на файловете  (от Cloud)"/>
+    <String Target="禁用目录、文件夹、所有对象、的“始终脱机可用”右键菜单" Link="Изключи &quot;Enable off-line use&quot; от контекстното меню на папките и всички обекти"/>
+    <String Target="禁用磁盘的“以便携式方式打开”右键菜单（by 莫失莫忘）" Link="Изключи &quot;Open as portable device&quot; от контекстното меню на дисковете (от MoWangMoShi)"/>
+    <String Target="禁用磁盘的“刻录到光盘”右键菜单" Link="Изключи &quot;Burn to CD&quot; от контекстното меню на дисковете"/>
+    <String Target="禁用磁盘的“启用Bitlocker”右键菜单（by 莫失莫忘）" Link="Изключи &quot;Enable Bitlocker&quot; от контекстното меню на дисковете (от MoWangMoShi)"/>
+    <String Target="禁用磁盘的“复制磁盘”右键菜单" Link="Изключи &quot;Disk Copy&quot; от контекстното меню на дисковете"/>
+    <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="Изключи &quot;Share&quot; от контекстното меню на файловете, папките, desktop, дисковете и библиотеките"/>
+    <String q="" Target="禁用桌面的“小工具”右键菜单" Link="Изключи &quot;Widget&quot; context menu"/>
+    <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Деактивиране на &quot;3D изглед&quot; от контекстното меню на файловете  (от Cloud)"/>
+    <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Деактивиране на &quot;Paint 3D&quot; от контекстното меню на файловете  (от Cloud)"/>
 
     <!--桌面图示管理-->
     <String Target="桌面图标管理" Link="Управление на иконите на работния плот"/>
@@ -887,7 +888,7 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
     <String Target="隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）" Link="Скриване на усмивката за обратна връзка от горния десен ъгъл на Internet Explorer (от ITHome)"/>
 
     <!--Microsoft Edge-->
-    <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Предпазва Microsoft Edge от отваряне на “Първо стартиране” (от ITHome)"/>
+    <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Предпазва Microsoft Edge от отваряне на &quot;Първо стартиране&quot; (от ITHome)"/>
 
     <!--微软拼音输入法-->
     <String q="" Target="微软拼音输入法" Link="Microsoft Pinyin IME"/>
@@ -960,7 +961,7 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
     <!--WinRAR-->
     <String Target="锁定WinRAR工具栏（by 原罪）" Link="Заключи лентата с инструменти на WinRAR (от YZ)"/>
 
-    <String Target="隐藏WinRAR 在右键菜单中添加的&quot;压缩并 E-mail...&quot;（by 原罪）" Link="Скрий контекстното меню “Компресия and E-mail...”, което е добавено от WinRAR (от YZ)"/>
+    <String Target="隐藏WinRAR 在右键菜单中添加的&quot;压缩并 E-mail...&quot;（by 原罪）" Link="Скрий контекстното меню &quot;Компресия and E-mail...&quot;, което е добавено от WinRAR (от YZ)"/>
 
     <!--Windows Media Player-->
     <String Target="不显示首次使用对话框（by 原罪）" Link="Предотврати стартирането на съветника за първо стартиране (от YZ)"/>
@@ -1002,15 +1003,15 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
     <String Target="安全相关设置" Link="Настройки на Security"/>
     <String Target="开启模糊音（by 朽木）" Link="Enable fuzzy support (от XiuMu)"/>
     <String Target="开启此功能将导致平板模式下无法使用手势调出操作中心。" Link="You will not be able to call out action center using gesture if you switch off this function."/>
-    <String Target="禁用文件、目录、桌面、所有对象的“工作文件夹”右键菜单" Link="Изключи “Working folder” от контекстното меню на file, directory, desktop, all objects"/>
-    <String Target="禁用文件夹的“固定到快速访问”右键菜单" Link="Изключи “Pin To Quick Access” от контекстното меню на директорията"/>
-    <String Target="禁用文件的“OneDrive文件同步”右键菜单" Link="Изключи “OneDrive file syncing” от контекстното меню на файла"/>
-    <String Target="关闭“突出显示新安装的程序”（by 溯汐潮）" Link="Изключи “Освети новоинсталираните програми” (от tide)"/>
+    <String Target="禁用文件、目录、桌面、所有对象的“工作文件夹”右键菜单" Link="Изключи &quot;Working Folder&quot; от контекстното меню на file, directory, desktop, all objects"/>
+    <String Target="禁用文件夹的“固定到快速访问”右键菜单" Link="Изключи &quot;Pin To Quick Access&quot; от контекстното меню на директорията"/>
+    <String Target="禁用文件的“OneDrive文件同步”右键菜单" Link="Изключи &quot;OneDrive file syncing&quot; от контекстното меню на файла"/>
+    <String Target="关闭“突出显示新安装的程序”（by 溯汐潮）" Link="Изключи &quot;Освети новоинсталираните програми&quot; (от tide)"/>
     <String Target="关闭自动更新（by 溯汐潮）" Link="Изключи автоматичните актуализации (от tide)"/>
-    <String q="" Target="将“音量调节”调整为Windows 7模式（by 溯汐潮）" Link="Adjust “Volume Adjust” to Windows 7 mode (от backward tide)"/>
+    <String q="" Target="将“音量调节”调整为Windows 7模式（by 溯汐潮）" Link="Adjust &quot;Volume Adjust&quot; to Windows 7 mode (от backward tide)"/>
     <String Target="将同时可用下载数目调整到 10（by 溯汐潮）" Link="Настрой броя на едновременно достъпните изтегляния на 10 (от backward tide）"/>
-    <String Target="将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）" Link="Change “Personalize” in desktop right click menu to Windows 7 mode (от dpzjsy)"/>
-    <String Target="将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）" Link="Change “Display Settings” in desktop right click menu to Windows 7 mode (by dpzjsy)"/>
+    <String Target="将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）" Link="Change &quot;Personalize&quot; in desktop right click menu to Windows 7 mode (от dpzjsy)"/>
+    <String Target="将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）" Link="Change &quot;Display Settings&quot; in desktop right click menu to Windows 7 mode (by dpzjsy)"/>
     <String Target="将语言栏隐藏到任务拦（by 溯汐潮）" Link="Скрий езиковата лента от лентата за задачи (от backward tide）"/>
     <String Target="快速访问不显示常用文件夹（by 溯汐潮）" Link="Не показвай често използваните папки в Quick Access (от back tidal wave)"/>
     <String Target="快速访问不显示最近使用的文件（by 溯汐潮）" Link="快速訪問不顯示最近使用的檔 (от back tidal wave)"/>
@@ -1112,8 +1113,8 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
 
     <String Target="CompactOs（较慢）" Link="CompactOs (по-бавно)"/>
     <String Target="对单纯读取的文件进行哈夫曼压缩，在不影响性能的情况下，显著减少系统体积。特别感谢矿工以及所有Compact团队成员无私的支持与帮助。" Link="Compree the read-only file with Huffman compression, it will not impact the performance, reduce the volume of the system evidently. Special thanks to the miners and the selfless support and aid of the member of compact team."/>
-    <String Target="使用后可能导致某些程序无法正常运行甚至让系统无法启动，如果使用后出现问题，可以在PE中点击 恢复功能-->撤销Compact。" Link="After applying this, some programs will malfunction, and the system might fail to start. You can later fix this by using “Revovery” > “Never Compact” in WinPE."/>
-    <String Target="此功能与某些硬盘备份软件不兼容。如果使用后出现问题，可以点击 恢复功能-->撤销Compact。" Link="This function is not compatible with some backup software. If you encounter problems, click “Recovery” > “Never Compact”."/>
+    <String Target="使用后可能导致某些程序无法正常运行甚至让系统无法启动，如果使用后出现问题，可以在PE中点击 恢复功能-->撤销Compact。" Link="After applying this, some programs will malfunction, and the system might fail to start. You can later fix this by using &quot;Revovery&quot; > &quot;Never Compact&quot; in WinPE."/>
+    <String Target="此功能与某些硬盘备份软件不兼容。如果使用后出现问题，可以点击 恢复功能-->撤销Compact。" Link="This function is not compatible with some backup software. If you encounter problems, click &quot;Recovery&quot; > &quot;Never Compact&quot;."/>
 
     <String Target="过期Appx应用" Link="Остаряло Appx приложение"/>
     <String Target="在Appx应用升级时，会留下老版本应用，该功能将删除那些不使用的老版本。" Link="При актуализиране на Appx, по-старите версии не се изтриват. Тази функция може да изтрие неизползваните стари версии (бета функция, може да доведе до нестабилност на метро приложението."/>
@@ -1175,7 +1176,7 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
     <String Target="WP开发时保存的一些虚拟机状态文件，不建议频繁清理此条目。" Link="When WP developing, WP saved some virtual machine state files. We do not recommend to clean them frequently."/>
 
     <String Target="Boot备份信息" Link="Boot backup file"/>
-    <String Target="修改启动信息后系统会创建备份，方便回滚。如果确定不需要还原则可以删除。" Link="After you changing the startup information, system creates the backup, easy to change back. If you don’t need to change back it, you can delete."/>
+    <String Target="修改启动信息后系统会创建备份，方便回滚。如果确定不需要还原则可以删除。" Link="After you changing the startup information, system creates the backup, easy to change back. If you don't need to change back it, you can delete."/>
 
     <String Target="PDB缓存文件" Link="PDB Cache files"/>
     <String Target="调试程序时创建的符号缓存，不建议频繁清理此条目。" Link="Symbolic cache during program debugging. We do not recommend to clean them frequently."/>
@@ -1235,7 +1236,7 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
     <String Target="阿里亲淘在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Архивни файлове на AliQinTao след надстройване - за възстановяване в случай на проблеми."/>
 
     <String Target="会声会影素材存档" Link="Ulead Video Studio material archive"/>
-    <String Target="会声会影使用过程中会在此目录产生存档，在不需要后可以删除。" Link="Ulead Video Studio save the materials into the archive. If it’s needless, you can delete them."/>
+    <String Target="会声会影使用过程中会在此目录产生存档，在不需要后可以删除。" Link="Ulead Video Studio save the materials into the archive. If it's needless, you can delete them."/>
     <String Target="请确保所有编辑的视频已经保存！" Link="Please ensure all the edited video has been saved!"/>
 
     <String Target="Visual Studio智能跟踪（by LP）" Link="Visual Studio IntelliTrace (от LP)"/>
@@ -1305,7 +1306,7 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
     <String Target="缩略图缓存(需重启explorer)" Link="Thumbnail Cache (Need to restart explorer)"/>
     <String Target="缩略图缓存（当前用户）" Link="Thumbnail Cache (Current User)"/>
 
-    <String Target="微软系安软无用文件" Link="MA’s Ненужни файлове"/>
+    <String Target="微软系安软无用文件" Link="MA's Ненужни файлове"/>
     <String Target="该项目清理WD，MSE，SCEP等微软系安软的无用文件" Link="Ще почисти ненужните файлове на Microsoft Antimalware (т.е. WD, MSE и SCEP)"/>
 
     <String Target="Package Cache目录" Link="Package Cache Folder"/>
@@ -1313,10 +1314,10 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
     <String Target="清理后基于WIX的安装程序例如VS可以正常卸载；但升级、修复、增添组件需要联网或者备好安装镜像" Link="After cleaning, you can still use WIX-Based uninstaller normally (for example the one in Visual Studio), but you will need an Internet connection or to have an offline source when you upgrade, repair or modify the application"/>
 
     <String Target="WebPI缓存" Link="WebPI Cache"/>
-    <String Target="Web平台安装程序的缓存" Link="The Web Platform Installer’s Cache"/>
+    <String Target="Web平台安装程序的缓存" Link="The Web Platform Installer's Cache"/>
 
     <String Target="Visual Studio日志" Link="Visual Studio Log Files"/>
-    <String Target="使用Visual Studio所产生的日志" Link="The Visual Studio’s log files"/>
+    <String Target="使用Visual Studio所产生的日志" Link="The Visual Studio's log files"/>
 
     <String Target="Installer目录" Link="Installer Folder"/>
     <String Target="(这是一个实验性功能)清理后将无法卸载被取代的msp更新，如果有卸载更新需求请勿使用此选项。" Link="(Експериментално) След почистване, заменените msp актуализации не могат да бъдат деинсталирани. Не използвайте тази опция, ако смятате, че може да се наложи да деинсталирате актуализациите."/>
@@ -1359,12 +1360,12 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
     <x800F082F>Cannot finalize session because an exclusive session is pending.</x800F082F>
     <x000F0801>Dism++ is busy, probably because other programs are running. Please try again later.</x000F0801>
 
-    <xA0020001>Only supports Microsoft Online’s ESD file into ISO file.</xA0020001>
+    <xA0020001>Only supports Microsoft Online's ESD file into ISO file.</xA0020001>
     <xA0020002>Some have been cleared, for a complete cleanup upgrade to Windows 8.1, and then continue.</xA0020002>
     <xA0020003>Please upgrade to Windows Vista SP2, and then continue.</xA0020003>
     <xA0020004>Please upgrade to Windows 7 SP1, and then continue.</xA0020004>
     <xA0020005>WIMBoot and Compact can not be used simultaneously.</xA0020005>
-    <xA0020006>Current system doesn’t have Wow64 support, cannot handle non-64bit system offline.</xA0020006>
+    <xA0020006>Current system doesn't have Wow64 support, cannot handle non-64bit system offline.</xA0020006>
     <xA0020007>Изискваният CBSHost.dll не съществува. Моля уверете се в целостта на Dism++.</xA0020007>
     <xA0020008>rundll32.exe липсва. Dism++ не може да стартира.</xA0020008>
     <xA0020009>Сесията на Dism++ се срина. Предлагам да компресирате и изпратите "CBSHost _ *. dmp" на mingkuang@live.com, за да помогнете за разрешаването на този проблем.</xA0020009>
@@ -1380,7 +1381,7 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
     <!--VSS-->
     <x80042302>Услугата Volume Shadow Copy е деактивирана. Моля, задайте услугата Volume Shadow Copy да е Ръчно и тогава продължете.</x80042302>
 
-    <xA0010001>Does not support Microsoft’s online account password reset, please reset your password through Microsoft’s official website.</xA0010001>
+    <xA0010001>Does not support Microsoft's online account password reset, please reset your password through Microsoft's official website.</xA0010001>
 
     <!--WimgAPI Message-->
     <x4144012B>Това е текстово съобщение, което не изисква никакво действие. Код на съобщението %1.</x4144012B>
@@ -1445,9 +1446,9 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
  </MessageTable>
  <UserAgreement>Hot Tip
 
-    Екипът на Chuyu ви предупреждава внимателно да прочетете това потребителско споразумение (наричано по-нататък “Споразумението”), преди да използвате Dism ++. Моля, благоразумно ме прочетете и тогава изберете да приемете или не. Ако искате да използвате Dism ++, трябва да приемете Споразумението. Ако използвате Dism ++, считаме че сте приели споразумението и не сте против клаузите.
+    Екипът на Chuyu ви предупреждава внимателно да прочетете това потребителско споразумение (наричано по-нататък "Споразумението"), преди да използвате Dism ++. Моля, благоразумно ме прочетете и тогава изберете да приемете или не. Ако искате да използвате Dism ++, трябва да приемете Споразумението. Ако използвате Dism ++, считаме че сте приели споразумението и не сте против клаузите.
 
-    Споразумението урежда правата и задълженията на обслужването на софтуера (наричана по-долу “услуга”) на екипа Chuyu и потребителите. “Потребители” означава да се регистрират, да са вписани и лично да използват тази услуга .
+    Споразумението урежда правата и задълженията на обслужването на софтуера (наричана по-долу "услуга") на екипа Chuyu и потребителите. "Потребители" означава да се регистрират, да са вписани и лично да използват тази услуга .
 
 I. Rights and Obligations
 
@@ -1455,26 +1456,26 @@ I. Rights and Obligations
     2. Преди да използвате Dism++, трябва внимателно да прочетете помощния документ на Dism++.
     3. Потребителите на Dism++ имат отговорността за обратна връзка за грешки в програмата и да правят предложения за нея. Ако използвате Dism++ за 30 дни, трябва да изпратите на mingkuang отчет с не по-малко от 345 думи за използването на Dism ++. Акоf използвате Dism ++ за 8 или повече месеца, трябва да изпратите на mingkuang годишен отчет с не по-малко от 520 думи с предложения за подобряване на Dism++ на11 ноември (местно време). Имейлът на mingkuang е: mingkuang@live.com
     4. Потребителите на Dism ++ трябва да обичат мира, единството, приятелството и полезността.
-    5. Dism++ users should comply with the Basic Law (or local equivalents). Any action that violates copyright of Chuyu team or this agreement (including but not limited to inappropriately copy, propagate, display, mirror, upload, download, modify), and those that negatively impact Chuyu team’s operation or services will be subject to serious legal actions.
+    5. Dism++ users should comply with the Basic Law (or local equivalents). Any action that violates copyright of Chuyu team or this agreement (including but not limited to inappropriately copy, propagate, display, mirror, upload, download, modify), and those that negatively impact Chuyu team's operation or services will be subject to serious legal actions.
     6. Anyone who fails to comply with this agreement automatically loses any right granted by Chuyu team. Chuyu team retain right to stop all software of Chuyu team in their PC(s), to reject any of their proposal(s), and to persue legal actions gainst them.
-    7. Chuyu team will try their best to provide technical support for those who comply with this agreement, when all of the following factors permit: the complexity of issue, the availability of Chuyu team, and the other users’ vote.
+    7. Chuyu team will try their best to provide technical support for those who comply with this agreement, when all of the following factors permit: the complexity of issue, the availability of Chuyu team, and the other users' vote.
 
 II. Privacy Issues
 
-    1. After initialisation, Dism++ will collect Dism++ users’ system information (including but not restricted to the system version, system structure, system language, CPU information, RAM information), and Dism++’s own report (including but not restricted to the system crash dump and log files) to improve the service. Dism++ will not collect user identification information nor user’s contact information.
-    2. Chuyu team may send users invitations for testing Dism++, invitations for voting to help Chuyu team’s decisioning, and software updates, but Chuyu team will never send messages that include but not limited to advertisements, promotions, frauds, or request for payment.
+    1. After initialisation, Dism++ will collect Dism++ users' system information (including but not restricted to the system version, system structure, system language, CPU information, RAM information), and Dism++'s own report (including but not restricted to the system crash dump and log files) to improve the service. Dism++ will not collect user identification information nor user's contact information.
+    2. Chuyu team may send users invitations for testing Dism++, invitations for voting to help Chuyu team's decisioning, and software updates, but Chuyu team will never send messages that include but not limited to advertisements, promotions, frauds, or request for payment.
 
 III. Bear The Risks
 
-    1. Chuyu team have an open-type attitude so everyone can let Dism++ better. Some functions may lead unknown aftermath so Chuyu team will remove the possible risk and tell the users. But we didn’t solve all the issue. You must bear all the aftermath yourself. Please tell Chuyu team after you find some problems to prevent others have the problems.
+    1. Chuyu team have an open-type attitude so everyone can let Dism++ better. Some functions may lead unknown aftermath so Chuyu team will remove the possible risk and tell the users. But we didn't solve all the issue. You must bear all the aftermath yourself. Please tell Chuyu team after you find some problems to prevent others have the problems.
     2. Please understand and agree because our softwares need to develop. Chuyu team persists the rights to change or pause or end or revoke all or some service. The users need to bear this danger.
 
 IV. Intellectual Property Rights Statement
 
     1. Chuyu team has all the intellectual property rights of this-service content (including but not limited to program, webpage, text and so on)
     2. If no important clauses, Chuyu team has all the intellectual property rights.
-    3. If Chuyu team didn’t consent in writing, the users cannot process Chuyu softwares anyway. Cannot tell others have the rights to proces Chuyu softwares.
-    4. Above and other intellectual property rights of Chuyu team are protected by law. If Chuyu team didn’t allow you, you cannot disassemble or do others.
+    3. If Chuyu team didn't consent in writing, the users cannot process Chuyu softwares anyway. Cannot tell others have the rights to proces Chuyu softwares.
+    4. Above and other intellectual property rights of Chuyu team are protected by law. If Chuyu team didn't allow you, you cannot disassemble or do others.
 
 V. Legal Responsibility
 
@@ -1485,7 +1486,7 @@ V. Legal Responsibility
 VI. Others
 
     1. Chuyu team solemnly tells the users to notice the clauses of exempt the responsibility of Chuyu team and the rights of limit the users. Minors should read this agreement with the legal guardians.
-    2. The agreement validity and explanation apply in Chinese law. If the users and Chuyu team have disputes, negotiated settlement first. If it’s failed, please agree to report the having-jurisdiction people’s court to administer.
+    2. The agreement validity and explanation apply in Chinese law. If the users and Chuyu team have disputes, negotiated settlement first. If it's failed, please agree to report the having-jurisdiction people's court to administer.
     3. If the agreement clauses be invalid or not executable because of whatever reason, the other clauses are still valid. Binding upon Both.
     4. The user agreement written in Simplified Chinese should be referred to if the Simplified Chinese version differs from user agreements written in other languages.
 </UserAgreement>

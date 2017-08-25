@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!--
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
 This is the Polish translation resource for Dism++.
 There are 5 ASCII punctuation needing special representation in XML.
 Also some control characters should be preferably encoded as numeric character entities.
@@ -6,8 +7,8 @@ Also some control characters should be preferably encoded as numeric character e
     <     Less than                    &lt;
     >     More than                    &gt;
     &     And                          &amp;
-    '     Single quotation mark        &apos;      ’ (apostrophe) or ‘English quotes’
-    "     Double quotation mark        &quot;      “English quotes”
+    '     Single quotation mark        &apos;
+    "     Double quotation mark        &quot;
     \t    Tabulation control           &#9;
     \n    Line feed (newline) control  &#xA;
     \r    Carriage return control      &#xD;
@@ -118,7 +119,7 @@ Special thanks to romuald68@gmail.com, Bladius (KuchtaPC2015@outlook.com)
     <String Target="Dism++关键组件丢失，请从 www.chuyu.me 重新下载Dism++。" Link="Pliki Dism++ są uszkodzone, proszę pobrać nowy Dism++ z www.chuyu.me."/>
     <String Target="临时目录可用空间不足5GB，这可能导致Dism++无法正常运行，推荐将Dism++复制到可用空间大于5GB的驱动器，然后继续。" Link="Katalog temp ma mniej niż 5 GB, Dism++ może działać nieprawidłowo. Zaleca się, skopiować Dism++ do miejsca z 5GB wolnej przestrzeni i kontynuować."/>
     <String Target="基础支撑库缺失，引导修复相关功能无法使用。" Link="Brak podstawowej biblioteki. Nie można używać funkcji związanych z boot-fix."/>
-    <String Target="Dism++需要管理员权限才能运行，请右键 以管理员身份运行 然后继续。" Link="Dism++ wymaga do uruchomienia uprawnień administratora. Proszę kliknąć PPM i wybrać 'Uruchom jako administrator'."/>
+    <String Target="Dism++需要管理员权限才能运行，请右键 以管理员身份运行 然后继续。" Link="Dism++ wymaga do uruchomienia uprawnień administratora. Proszę kliknąć PPM i wybrać &quot;Uruchom jako administrator&quot;."/>
     <String q="" Target="Dism++不允许以兼容模式启动，请去除兼容模式，然后再启动Dism++。" Link="Dism++ doesn’t allow compatibility mode. Restart Dism++ after disable it."/>
 
     <String Target="你需要增量保存还是直接保存？" Link="Zapisać bezpośrednio czy wykonać zapis przyrostowy?"/>
@@ -823,7 +824,7 @@ Special thanks to romuald68@gmail.com, Bladius (KuchtaPC2015@outlook.com)
     <String q="" Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="Hide Videos, Pictures, Documents, Download, Music, Desktop, 3D Object in Computer (by 、Cloud)"/>
     <String q="" Target="禁止自动安装推荐的应用程序（by IT之家）" Link="Disable installing recommmeded apps autoly (by ITHome)"/>
     <String q="" Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="Disable Windows Focus on lock screen (by 、Cloud.)"/>
-    <String q="" Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="Disable “Get suggestions when using Windows” (by 、Cloud.)"/>
+    <String q="" Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="Disable &quot;Get suggestions when using Windows&quot; (by 、Cloud.)"/>
     <String q="" Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Hide People on Task Bar (by 、Cloud)"/>
 
     <!--开始菜单-->
@@ -831,23 +832,23 @@ Special thanks to romuald68@gmail.com, Bladius (KuchtaPC2015@outlook.com)
 
     <!--Zarządzanie menu kontekstowym-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="Zarządzanie Menu Kontekstowym: Wyłączenie zbędnych elementów menu w celu lepszego reagowania Eksploratora Windows"/>
-    <String Target="禁用可执行文件的“兼容性疑难解答”右键菜单（by 莫失莫忘）" Link="Wyłącz 'Zgodność Rozwiązywania Problemów' w menu kontekstowym (by MoWangMoShi)"/>
-    <String Target="禁用文件、文件夹以及磁盘的“使用Windows Defender扫描”右键菜单（by 莫失莫忘）" Link="Wyłącz 'Skanowanie Windows Defender' w menu kontekstowym (by MoWangMoShi)"/>
-    <String Target="禁用文件、磁盘以及属性的“还原以前版本”右键菜单（by 莫失莫忘）" Link="Wyłącz 'Przywracanie poprzedniej wersji' w menu kontekstowym (by MoWangMoShi)"/>
-    <String Target="禁用文件、文件夹、桌面以及所有对象的“共享文件夹同步”右键菜单" Link="Wyłącz 'Synchronizacja folderów współdzielonych' w menu kontekstowym"/>
-    <String Target="禁用新建“ZIP/RAR文件”右键菜单（by 莫失莫忘）" Link="Wyłącz 'Nowe archiwum ZIP/RAR' w menu kontekstowym (by MoWangMoShi)"/>
-    <String Target="禁用新建、文件以及文件夹的“公文包”右键菜单" Link="Wyłącz 'Aktówka' w menu kontekstowym"/>
-    <String Target="禁用新建的“联系人”右键菜单（by 莫失莫忘）" Link="Wyłącz 'Nowy kontakt' w menu kontekstowym (by MoWangMoShi)"/>
+    <String Target="禁用可执行文件的“兼容性疑难解答”右键菜单（by 莫失莫忘）" Link="Wyłącz &quot;Zgodność Rozwiązywania Problemów&quot; w menu kontekstowym (by MoWangMoShi)"/>
+    <String Target="禁用文件、文件夹以及磁盘的“使用Windows Defender扫描”右键菜单（by 莫失莫忘）" Link="Wyłącz &quot;Skanowanie Windows Defender&quot; w menu kontekstowym (by MoWangMoShi)"/>
+    <String Target="禁用文件、磁盘以及属性的“还原以前版本”右键菜单（by 莫失莫忘）" Link="Wyłącz &quot;Przywracanie poprzedniej wersji&quot; w menu kontekstowym (by MoWangMoShi)"/>
+    <String Target="禁用文件、文件夹、桌面以及所有对象的“共享文件夹同步”右键菜单" Link="Wyłącz &quot;Synchronizacja folderów współdzielonych&quot; w menu kontekstowym"/>
+    <String Target="禁用新建“ZIP/RAR文件”右键菜单（by 莫失莫忘）" Link="Wyłącz &quot;Nowe archiwum ZIP/RAR&quot; w menu kontekstowym (by MoWangMoShi)"/>
+    <String Target="禁用新建、文件以及文件夹的“公文包”右键菜单" Link="Wyłącz &quot;Aktówka&quot; w menu kontekstowym"/>
+    <String Target="禁用新建的“联系人”右键菜单（by 莫失莫忘）" Link="Wyłącz &quot;Nowy kontakt&quot; w menu kontekstowym (by MoWangMoShi)"/>
     <String Target="禁用桌面的英特尔集显右键菜单（by 莫失莫忘）" Link="Wyłącz Opcje grafiki Intel w menu kontekstowym (by MoWangMoShi)"/>
     <String Target="禁用目录、文件夹、所有对象、的“始终脱机可用”右键菜单" Link="Wyłącz &quot;Włącz dostęp off-line &quot; menu kontekstowe dla folderów i wszystkich obiektów"/>
-    <String Target="禁用磁盘的“以便携式方式打开”右键菜单（by 莫失莫忘）" Link="Wyłącz 'Otwórz jako urządzenie przenośne' w menu kontekstowym (by MoWangMoShi)"/>
-    <String Target="禁用磁盘的“刻录到光盘”右键菜单" Link="Wyłącz 'Nagraj na CD' w menu kontekstowym"/>
-    <String Target="禁用磁盘的“启用Bitlocker”右键菜单（by 莫失莫忘）" Link="Wyłącz 'Włącz funkcję Bitlocker' w menu kontekstowym (by MoWangMoShi)"/>
-    <String Target="禁用磁盘的“复制磁盘”右键菜单" Link="Wyłącz 'Kopiuj Dysk' w menu kontekstowym"/>
-    <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="Wyłącz 'Wyślij do...' w menu kontekstowym"/>
-    <String Target="禁用桌面的“小工具”右键菜单" Link="Wyłącz 'Widgety' w menu kontekstowym"/>
-    <String q="" Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Disable file context menu item “View 3D” (by Cloud)"/>
-    <String q="" Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Disable file context menu item “Paint 3D” (by Cloud)"/>
+    <String Target="禁用磁盘的“以便携式方式打开”右键菜单（by 莫失莫忘）" Link="Wyłącz &quot;Otwórz jako urządzenie przenośne&quot; w menu kontekstowym (by MoWangMoShi)"/>
+    <String Target="禁用磁盘的“刻录到光盘”右键菜单" Link="Wyłącz &quot;Nagraj na CD&quot; w menu kontekstowym"/>
+    <String Target="禁用磁盘的“启用Bitlocker”右键菜单（by 莫失莫忘）" Link="Wyłącz &quot;Włącz funkcję Bitlocker&quot; w menu kontekstowym (by MoWangMoShi)"/>
+    <String Target="禁用磁盘的“复制磁盘”右键菜单" Link="Wyłącz &quot;Kopiuj Dysk&quot; w menu kontekstowym"/>
+    <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="Wyłącz &quot;Wyślij do...&quot; w menu kontekstowym"/>
+    <String Target="禁用桌面的“小工具”右键菜单" Link="Wyłącz &quot;Widgety&quot; w menu kontekstowym"/>
+    <String q="" Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Disable file context menu item &quot;View 3D&quot; (by Cloud)"/>
+    <String q="" Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Disable file context menu item &quot;Paint 3D&quot; (by Cloud)"/>
 
     <!--Menedżer Ikon Pulpitu-->
     <String Target="桌面图标管理" Link="Zarządzaj ikonami pulpitu"/>
@@ -883,7 +884,7 @@ Special thanks to romuald68@gmail.com, Bladius (KuchtaPC2015@outlook.com)
     <String q="" Target="隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）" Link="Hide Feedback smiley in Internet Explorer (by ITHome)"/>
 
     <!--Microsoft Edge-->
-    <String q="" Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Prevent Microsoft Edge from opening “First Running” (by ITHome)"/>
+    <String q="" Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Prevent Microsoft Edge from opening &quot;First Running&quot; (by ITHome)"/>
 
     <!--Metoda wprowadzania Pinyin-->
     <String q="" Target="微软拼音输入法" Link="Microsoft Pinyin IME"/>

@@ -1,17 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><!--
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
 這是 Dism++ 繁體中文資源包。
 在 XML 中的 5 個特殊符號 需要特殊表示。
-Also some control characters should be preferably encoded as numeric character entities.
-  符號    說明                          實際引用  Preferably changed in translations to
+  符號    說明                        實際引用
     <     小於                         &lt;
     >     大於                         &gt;
     &     與                           &amp;
-    '     單引號                       &apos;    ’ (apostrophe) or ‘English quotes’
-    "     單引號                       &quot;    “English quotes”
-    \t    Tabulation control           &#9;
-    \n    Line feed (newline) control  &#xA;
-    \r    Carriage return control      &#xD;
-Also please avoid indenting this file using tabulations.
+    '     單引號                       &apos;
+    "     單引號                       &quot;
+    \t    制表符                       &#9;
+    \n    换行                         &#xA;
+    \r    回车                         &#xD;
 
 感謝：iliGPU、jamesfuh、月下独酌
 -->
