@@ -62,7 +62,7 @@ Thanks to Black Alex, Vasiliy Nasonov, virus, Vladimir, ZT
 
 ## [Languages/zh-Hant.xml]
 繁体资源文件
-感谢 iliGPU (http://mkvq.blogspot.com/) 、jamesfuh、月下独酌
+感谢 iliGPU (http://mkvq.blogspot.com) 、jamesfuh、月下独酌
 
 ---
 
@@ -103,4 +103,4 @@ Dism++官方网站繁体资源
 
 ### [www.chuyu.me/zh-Hant.xml]
 Dism++官方网站繁体资源
-感谢 iliGPU (http://mkvq.blogspot.com/)
+感谢 iliGPU (http://mkvq.blogspot.com)
