@@ -395,7 +395,7 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
       <String Target="Appx管理" Link="Упр. на Appx"/>
 
     <String Target="驱动管理" Link="Упр. на драйвърите"/>
-    <String q="" Target="程序和功能" Link="Apps and Features"/>
+    <String Target="程序和功能" Link="Приложения и функции"/>
     <String Target="Windows服务" Link="Упр. на услугите"/>
     <String Target="Windows功能" Link="Упр. на компонентите"/>
     <String Target="更新管理" Link="Упр. на актуализациите"/>
@@ -475,8 +475,8 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
     <String Target="正在安装驱动" Link="Инсталиране на драйвъра"/>
     <String Target="一个或者多个驱动添加失败，错误代码：0x%.8X" Link="Един или няколко драйвъра не успяха да се добавят, код на грешката: 0x%.8X"/>
     <String Target="显示内置驱动" Link="Покажи in-box драйвъра"/>
-    <String q="" Target="处理过程中遇到问题，其中成功 %u 个，失败 %u 个，不适用 %u 个。部分错误信息：%s [0x%.8X] 更多信息请参考 &quot;Config\Dism++.log&quot;" Link="Met problem(s) during processing. Success %u, failure %u, not applicable %u. Some of the error: %s [0x%.8X]. Refer to &quot;Config\Dism++.log&quot; for more information."/>
-    <String q="" Target="操作成功，其中成功 %u 个，不适用 %u 个。更多信息请参考 &quot;Config\Dism++.log&quot;" Link="Operation succeeded. Success %u, not applicable %u. Refer to &quot;Config\Dism++.log&quot; for more information."/>
+    <String Target="处理过程中遇到问题，其中成功 %u 个，失败 %u 个，不适用 %u 个。部分错误信息：%s [0x%.8X] 更多信息请参考 &quot;Config\Dism++.log&quot;" Link="Срещнат(и)проблем(и) по време на обработката. Упешни %u, неуспешни %u, неприложими %u. Част от грешката: %s [0x%.8X]. За повече информация вижте &quot;Config\Dism++.log&quot;."/>
+    <String Target="操作成功，其中成功 %u 个，不适用 %u 个。更多信息请参考 &quot;Config\Dism++.log&quot;" Link="Операцията е успешна. Успешни %u, неприложими %u. За повече информация вижте &quot;Config\Dism++.log&quot;."/>
 
     <!--开机启动项-->
     <String Target="开机启动项" Link="Стартиране"/>
@@ -832,7 +832,7 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
     <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Скриване на Хора от Лентата за задачи (от 、Cloud.)"/>
 
     <!--开始菜单-->
-    <String q="" Target="开始菜单以及Windows体验" Link="Start&amp;Windows Experience"/>
+    <String Target="开始菜单以及Windows体验" Link="Стартира Windows квалификацията"/>
 
     <!--右键菜单管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="Управление на контекстното меню: Изключване на ненужните елементи от контекстното меню за подобряване реакцията на Widnows Explorer"/>
@@ -899,7 +899,7 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
     <!--Windows Update-->
     <String Target="自动安装无需重启的更新（by Rambin）" Link="Позволи незабавното инсталиране на автоматичните актуализации (от Rambin)"/>
 
-    <String q="" Target="更新挂起时如果有用户登录不自动重启计算机（by Rambin）" Link="No auto-restart when logged on users for scheduled automatic updates installations (от Rambin)"/>
+    <String Target="更新挂起时如果有用户登录不自动重启计算机（by Rambin）" Link="Не рестартирай автоматично за инсталиране на планирани инсталации на актуализации, когато има логнати потребители (от Rambin)"/>
 
     <String Target="Windows更新不包括驱动程序" Link="Windows Update да не включва драйвърите"/>
 
@@ -995,7 +995,7 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
 
     <String Target="Windows 照片查看器" Link="Windows Photo Viewer"/>
     <String Target="Windows主题相关设置" Link="Настройки на Windows theme"/>
-    <String q="" Target="任务栏相关设置" Link="Taskbar settings"/>
+    <String Target="任务栏相关设置" Link="Настройки на лентата за задачи"/>
     <String Target="关闭商店应用推广（by 、Cloud.）" Link="Изключи Windows Store app promotion (от 、Cloud.)"/>
     <String Target="关闭多嘴的小娜（by 朽木）" Link="Изключи Кортана (от XiuMu)"/>
     <String Target="关闭游戏录制工具（by 、Cloud.）" Link="Изключи game recorder (от 、Cloud.)"/>
