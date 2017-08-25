@@ -663,7 +663,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="还原" Link="Restore"/>
     <String Target="sppsvc关闭失败，有可能导致还原失败，是否继续？" Link="Failed to kill sppsvc, restoring process may fail. Are you sure to proceed?"/>
     <String
-      Target="当前系统为 %hd.%hd %s，而激活备份信息为  %hd.%hd %s&#xD;&#xA;&#xD;&#xA;信息不匹配，你确定要继续么？"
+      Target="当前系统为 %hd.%hd %s，而激活备份信息为 %hd.%hd %s&#xD;&#xA;&#xD;&#xA;信息不匹配，你确定要继续么？"
       Link="Current system is %hd.%hd %s, which differs from that in the backup %hd.%hd %s.&#xD;&#xA;&#xD;&#xA; Are you sure to proceed?"/>
     <String Target="请重新选择你的系统，你当前要还原的系统与本系统不匹配，请重新选择你的系统！" Link="That system (to restore this system) doesn't match with this system. Please re-select your system!"/>
     <String Target="备份的信息与你所还原的信息版本不同，是否要继续还原？" Link="The backup info differs from the info you are about to restore. Sure to proceed?"/>

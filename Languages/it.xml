@@ -663,7 +663,7 @@ Special Thanks to Massimiliano F.
     <String Target="还原" Link="Ripristinare"/>
     <String Target="sppsvc关闭失败，有可能导致还原失败，是否继续？" Link="Fallita la chiusura di Sppsvc. Può causare il fallimento del ripristino. Continuare?"/>
     <String
-      Target="当前系统为 %hd.%hd %s，而激活备份信息为  %hd.%hd %s&#xD;&#xA;&#xD;&#xA;信息不匹配，你确定要继续么？"
+      Target="当前系统为 %hd.%hd %s，而激活备份信息为 %hd.%hd %s&#xD;&#xA;&#xD;&#xA;信息不匹配，你确定要继续么？"
       Link="L'attuale sistema è %hd.%hd %s che non corrisponde l'attivazione di backup %hd.%hd %s&#xD;&#xA;&#xD;&#xA; Continuare?"/>
     <String Target="请重新选择你的系统，你当前要还原的系统与本系统不匹配，请重新选择你的系统！" Link="Questo sistema non corrisponde con il sistema da ripristinare. Riselezionare il sistema!"/>
     <String Target="备份的信息与你所还原的信息版本不同，是否要继续还原？" Link="Le informazioni del backup non corrispondono con le informazioni che si desidera ripristinare. Continuare il ripristino?"/>
@@ -879,7 +879,7 @@ Special Thanks to Massimiliano F.
 
     <String Target="跳过IE首次运行自定义设置（by 原罪、恋人の共鸣）" Link="Previeni l'avvio della procedura guidata (by YZ, Lovers vibes)"/>
 
-    <String Target="不保存附件的区域信息（by 古畑任三郎）" qLink=""/>
+    <String q="" Target="不保存附件的区域信息（by 古畑任三郎）" Link="Regional information does not save attachments (by niphor)"/>
 
     <String Target="启用增强保护模式" Link="Attiva Modalità Protetta Avanzata"/>
 

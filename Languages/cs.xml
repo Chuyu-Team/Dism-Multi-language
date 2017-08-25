@@ -663,7 +663,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="还原" Link="Obnova"/>
     <String Target="sppsvc关闭失败，有可能导致还原失败，是否继续？" Link="Sppsvc nepodařilo se zavřít. Může způsobit selhání obnovení. Pokračovat, nebo ne?"/>
     <String
-      Target="当前系统为 %hd.%hd %s，而激活备份信息为  %hd.%hd %s&#xD;&#xA;&#xD;&#xA;信息不匹配，你确定要继续么？"
+      Target="当前系统为 %hd.%hd %s，而激活备份信息为 %hd.%hd %s&#xD;&#xA;&#xD;&#xA;信息不匹配，你确定要继续么？"
       Link="Současný systém %hd.%hd %s kopie zálohy %hd.%hd %s&#xD;&#xA;&#xD;&#xA; Pokračovat nebo ne?"/>
     <String Target="请重新选择你的系统，你当前要还原的系统与本系统不匹配，请重新选择你的系统！" Link="Tento systém (k obnovení tohoto systému) se neshoduje s tímto systémem. Znovu zvolte váš systém!"/>
     <String Target="备份的信息与你所还原的信息版本不同，是否要继续还原？" Link="Informace o zálohování se neshoduje s informací pro obnovu. Chcete pokračovat v obnovování nebo ne?"/>

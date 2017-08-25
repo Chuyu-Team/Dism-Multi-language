@@ -659,7 +659,7 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
     <String Target="还原" Link="Odzysk"/>
     <String Target="sppsvc关闭失败，有可能导致还原失败，是否继续？" Link="MpsSvc nie ukończone, może spowodować awarię przywracania. Chcesz kontynuować?"/>
     <String
-      Target="当前系统为 %hd.%hd %s，而激活备份信息为  %hd.%hd %s&#xD;&#xA;&#xD;&#xA;信息不匹配，你确定要继续么？"
+      Target="当前系统为 %hd.%hd %s，而激活备份信息为 %hd.%hd %s&#xD;&#xA;&#xD;&#xA;信息不匹配，你确定要继续么？"
       Link="Aktualny system jest %hd.%hd %s który nie pasuje do kopii zapasowej aktywacji %hd.%hd %s&#xD;&#xA;&#xD;&#xA; Kontynuować czy nie?"/>
     <String Target="请重新选择你的系统，你当前要还原的系统与本系统不匹配，请重新选择你的系统！" Link="Kopia nie jest zgodna z obecnym systemem. Proszę ponownie wybrać system!"/>
     <String Target="备份的信息与你所还原的信息版本不同，是否要继续还原？" Link="Dane z kopii zapasowej nie są zgodne z informacjami, które chcesz przywrócić. Kontynuować przywracanie?"/>

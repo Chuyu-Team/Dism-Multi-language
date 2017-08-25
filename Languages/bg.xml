@@ -850,7 +850,7 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
     <String Target="禁用磁盘的“启用Bitlocker”右键菜单（by 莫失莫忘）" Link="Изключи &quot;Enable Bitlocker&quot; от контекстното меню на дисковете (от MoWangMoShi)"/>
     <String Target="禁用磁盘的“复制磁盘”右键菜单" Link="Изключи &quot;Disk Copy&quot; от контекстното меню на дисковете"/>
     <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="Изключи &quot;Share&quot; от контекстното меню на файловете, папките, desktop, дисковете и библиотеките"/>
-    <String q="" Target="禁用桌面的“小工具”右键菜单" Link="Изключи &quot;Widget&quot; context menu"/>
+    <String Target="禁用桌面的“小工具”右键菜单" Link="Изключи &quot;Widget&quot; context menu"/>
     <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Деактивиране на &quot;3D изглед&quot; от контекстното меню на файловете  (от Cloud)"/>
     <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Деактивиране на &quot;Paint 3D&quot; от контекстното меню на файловете  (от Cloud)"/>
 

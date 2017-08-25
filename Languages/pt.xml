@@ -659,7 +659,7 @@ Special thanks to JNylson
     <String Target="还原" Link="Restaurar"/>
     <String Target="sppsvc关闭失败，有可能导致还原失败，是否继续？" Link="Falha ao finalizar sppsvc, o processo de restauração pode não ter sucesso. Deseja prosseguir?"/>
     <String
-      Target="当前系统为 %hd.%hd %s，而激活备份信息为  %hd.%hd %s&#xD;&#xA;&#xD;&#xA;信息不匹配，你确定要继续么？"
+      Target="当前系统为 %hd.%hd %s，而激活备份信息为 %hd.%hd %s&#xD;&#xA;&#xD;&#xA;信息不匹配，你确定要继续么？"
       Link="O sistema atual é %hd.%hd %s que não coincide com a ativação de backup %hd.%hd %s&#xD;&#xA;&#xD;&#xA; Deseja prosseguir?"/>
     <String Target="请重新选择你的系统，你当前要还原的系统与本系统不匹配，请重新选择你的系统！" Link="Esse sistema (para restaurar esse sistema) não corresponde com esse sistema. Por favor, re-selecione seu sistema!"/>
     <String Target="备份的信息与你所还原的信息版本不同，是否要继续还原？" Link="As informações do backup difere das informações que está prestes a restaurar. Deseja prosseguir?"/>

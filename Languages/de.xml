@@ -659,7 +659,7 @@ Special Thanks to franz@drwindows.de
     <String Target="还原" Link="Wiederherstellen"/>
     <String Target="sppsvc关闭失败，有可能导致还原失败，是否继续？" Link="Sppsvc (Windows Aktivierung) kann nicht geschlossen werden. Das kann zu einer fehlerhaften Wiederherstellung führen. Fortfahren oder abbrechen?"/>
     <String
-      Target="当前系统为 %hd.%hd %s，而激活备份信息为  %hd.%hd %s&#xD;&#xA;&#xD;&#xA;信息不匹配，你确定要继续么？"
+      Target="当前系统为 %hd.%hd %s，而激活备份信息为 %hd.%hd %s&#xD;&#xA;&#xD;&#xA;信息不匹配，你确定要继续么？"
       Link="Das aktuelle System ist %hd. %hd %s entspricht nicht der Aktivierungs-Information des Backups %hd. %hd %s&#xD;&#xA;&#xD;&#xA; Fortfahren oder abbrechen?"/>
     <String Target="请重新选择你的系统，你当前要还原的系统与本系统不匹配，请重新选择你的系统！" Link="Das System des Backups entspricht nicht dem System, das wiederhergestellt werden soll. Bitte das System erneut auswählen!"/>
     <String Target="备份的信息与你所还原的信息版本不同，是否要继续还原？" Link="Die Backup Informationen entsprechen nicht den Informationen, die wiederhersgestellt werden sollen. Fortfahren oder abbrechen?"/>
