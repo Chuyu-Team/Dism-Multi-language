@@ -7,8 +7,8 @@ Also some control characters should be preferably encoded as numeric character e
     <     Less than                    &lt;
     >     More than                    &gt;
     &     And                          &amp;
-    '     Single quotation mark        &apos;      ’ (apostrophe) or 'English quotes'
-    "     Double quotation mark        &quot;      "English quotes" or « French quotes »
+    '     Single quotation mark        &apos;      ’ (apostrophe) or ‘English quotes’
+    "     Double quotation mark        &quot;      “English quotes” or « French quotes »
     \t    Tabulation control           &#9;
     \n    Line feed (newline) control  &#xA;
     \r    Carriage return control      &#xD;
@@ -603,11 +603,15 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="分析%d%%" Link="Analyse en cours : %d%%"/>
     <String Target="%s 将引入独占请求，请在 %d 秒内做出选择。" Link="%s nécessite un accès exclusif, veuillez le confirmer pendant les %d secondes."/>
     <String Target="温馨提示：引入独占请求后，你将无法安装其他更新，直到你重启系统。建议你先安装其他更新，最后安装此更新。" Link="Conseil : avec un accès exclusif, vous ne pourrez pas installer d’autres mises à jour, jusqu’à ce que vous redémarriez le système. Nous vous suggérons d’installer d’autres mises à jour, puis d’installer cette installation à la fin."/>
-    <String Target="暂不安装（推荐）&#xA;我暂时还需要添加其他更新。" Link="Ne pas installer (recommandé)&#xA;Il faut d’abord installer d’autres mises à jour."/>
-    <String Target="继续安装&#xA;我已确保我需要的更新均已安装。" Link="Aller sur l’installation&#xA;D’autres mises à jour ont déjà été installées."/>
+    <String
+      Target="暂不安装（推荐）&#xA;我暂时还需要添加其他更新。"
+      Link="Ne pas installer (recommandé)&#xD;&#xA;Il faut d’abord installer d’autres mises à jour."/>
+    <String
+      Target="继续安装&#xA;我已确保我需要的更新均已安装。"
+      Link="Aller sur l’installation&#xD;&#xA;D’autres mises à jour ont déjà été installées."/>
     <String
       Target="关于 %s 的警告：&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;你确定要继续吗？"
-      Link="%s Attention :&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;Êtes-vous sûr de vouloir continuer ?"/>
+      Link="%s Attention :&#xA;&#xA;%s&#xA;&#xA;Êtes-vous sûr de vouloir continuer ?"/>
     <String Target="导出地址" Link="Copier URLs"/>
     <String Target="补丁下载地址已经成功复制到剪切板。" Link="L’adresse de téléchargement du correctif a été copiée dans le presse-papier avec succès."/>
     <String Target="安装%d%%" Link="Installation en cours : %d%%"/>
@@ -660,7 +664,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="sppsvc关闭失败，有可能导致还原失败，是否继续？" Link="SppSvc n’a pas pu fermer. Peut entraîner l’échec de la restauration. Continuer ou non ?"/>
     <String
       Target="当前系统为 %hd.%hd %s，而激活备份信息为 %hd.%hd %s&#xD;&#xA;&#xD;&#xA;信息不匹配，你确定要继续么？"
-      Link="Le système actuel est %hd.%hd %s qui ne correspond pas à l’activation %hd sauvegardée. %hd%s&#xD;&#xA;&#xD;&#xA;Continuer ou non ?"/>
+      Link="Le système actuel est %hd.%hd %s qui ne correspond pas à l’activation %hd sauvegardée. %hd%s&#xA;&#xA;Continuer ou non ?"/>
     <String Target="请重新选择你的系统，你当前要还原的系统与本系统不匹配，请重新选择你的系统！" Link="Ce système (pour restaurer) ne correspond pas avec ce système. Svp re-sélectionner votre système !"/>
     <String Target="备份的信息与你所还原的信息版本不同，是否要继续还原？" Link="Les informations sauvées ne correspondent pas aux informations que vous souhaitez restaurer. Continuer à restaurer ou non ?"/>
     <String Target="Sorry暂不支持此系统，请反馈给我。" Link="Désolé, ce système n’est pas pris en charge, svp me contacter."/>
