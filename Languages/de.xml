@@ -603,8 +603,8 @@ Special Thanks to franz@drwindows.de
     <String Target="分析%d%%" Link="Analysiere %d%%"/>
     <String Target="%s 将引入独占请求，请在 %d 秒内做出选择。" Link="%s benötigt exklusive Berechtigungen, bitte in %d Sekunden bestätigen."/>
     <String Target="温馨提示：引入独占请求后，你将无法安装其他更新，直到你重启系统。建议你先安装其他更新，最后安装此更新。" Link="Hinweis: Mit der exklusiven Berechtigung kann der Benutzer keine anderen Updates installieren, bevor nicht das System neu gestartet wurde. Wir empfehlen daher, zuerst andere Updates zu installieren und dann erst jene, für die exklusive Berechtigung benötigt wird"/>
-    <String Target="暂不安装（推荐）&#xA;我暂时还需要添加其他更新。" Link="Nicht installieren (empfohlen) &#xA; Zuerst müssen andere Updates installiert werden."/>
-    <String Target="继续安装&#xA;我已确保我需要的更新均已安装。" Link="Weiter mit der Installation&#xA; Alle anderen Updates wurden installiert."/>
+    <String Target="暂不安装（推荐）&#xA;我暂时还需要添加其他更新。" Link="Nicht installieren (empfohlen) &#xA;Zuerst müssen andere Updates installiert werden."/>
+    <String Target="继续安装&#xA;我已确保我需要的更新均已安装。" Link="Weiter mit der Installation&#xA;Alle anderen Updates wurden installiert."/>
     <String
       Target="关于 %s 的警告：&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;你确定要继续吗？"
       Link="%s Achtung:&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;Wollen Sie wirklich fortfahren?"/>

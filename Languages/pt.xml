@@ -603,8 +603,8 @@ Special thanks to JNylson
     <String Target="分析%d%%" Link="Analisando %d%%"/>
     <String Target="%s 将引入独占请求，请在 %d 秒内做出选择。" Link="%s requer um acesso exclusivo, confirme dentro de %d segundos."/>
     <String Target="温馨提示：引入独占请求后，你将无法安装其他更新，直到你重启系统。建议你先安装其他更新，最后安装此更新。" Link="Dica: Com acesso exclusivo, você não será capaz de instalar outras atualizações, até que reinicie o sistema. Sugerimos que instale outras atualizações primeiro e, em seguida, instale essa instalação."/>
-    <String Target="暂不安装（推荐）&#xA;我暂时还需要添加其他更新。" Link="Não instalar (recomendado) &#xA; Preciso instalar outras atualizações."/>
-    <String Target="继续安装&#xA;我已确保我需要的更新均已安装。" Link="Ir para a instalação&#xA; Eu instalei outras atualizações."/>
+    <String Target="暂不安装（推荐）&#xA;我暂时还需要添加其他更新。" Link="Não instalar (recomendado) &#xA;Preciso instalar outras atualizações."/>
+    <String Target="继续安装&#xA;我已确保我需要的更新均已安装。" Link="Ir para a instalação&#xA;Eu instalei outras atualizações."/>
     <String
       Target="关于 %s 的警告：&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;你确定要继续吗？"
       Link="Atenção: %s&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;Realmente quer prosseguir?"/>

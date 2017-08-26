@@ -603,12 +603,8 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="分析%d%%" Link="Analýza %d%%"/>
     <String Target="%s 将引入独占请求，请在 %d 秒内做出选择。" Link="%s vyžaduje výhradní přístup, prosím potvrďte během %d vteřin."/>
     <String Target="温馨提示：引入独占请求后，你将无法安装其他更新，直到你重启系统。建议你先安装其他更新，最后安装此更新。" Link="Tip: S výhradním přístupem, nebude schopeni nainstalovat další aktualizace, dokud nerestartujete systém. Doporučujeme nejprve nainstalovat ostatní aktualizace, pak nakonec nainstalovat tuto aktualizaci."/>
-    <String
-      Target="暂不安装（推荐）&#xA;我暂时还需要添加其他更新。"
-      Link="Neinstalovat (doporučeno) &#xA; Je třeba nejdříve nainstalovat ostatní aktualizace."/>
-    <String
-      Target="继续安装&#xA;我已确保我需要的更新均已安装。"
-      Link="Přejít na instalaci&#xA; Pokud jste nainstalovali ostatní aktualizace."/>
+    <String Target="暂不安装（推荐）&#xA;我暂时还需要添加其他更新。" Link="Neinstalovat (doporučeno) &#xA;Je třeba nejdříve nainstalovat ostatní aktualizace."/>
+    <String Target="继续安装&#xA;我已确保我需要的更新均已安装。" Link="Přejít na instalaci&#xA;Pokud jste nainstalovali ostatní aktualizace."/>
     <String
       Target="关于 %s 的警告：&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;你确定要继续吗？"
       Link="%s varování:&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;Chcete opravdu pokračovat?"/>
