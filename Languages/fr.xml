@@ -554,7 +554,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="刷新" Link="Actualiser"/>
     <String Target="添加" Link="Ajouter"/>
     <String Target="语言" Link="Langue"/>
-    <String Target="Windows %s 语言包" Link="Windows %s Pack de langue"/>
+    <String Target="Windows %s 语言包" Link="Windows %s Pack de Langages"/>
     <String Target="重启生效" Link="Demande de redémarrage"/>
 
     <!--可选功能-->
