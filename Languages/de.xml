@@ -37,13 +37,13 @@ Special Thanks to franz@drwindows.de
   <StringMaps>
     <String Target="文件(&amp;F)" Link="&amp;Datei"/>
       <String Target="添加映像" Link="Image hinzufügen"/>
-        <String Target="释放映像&#9;Ctrl+N" Link="Image bestätigen&#9;Ctrl+N"/>
-        <String Target="挂载映像&#9;Ctrl+Shift+N" Link="Image einbinden&#9;Ctrl+Shift+N"/>
+        <String Target="释放映像&#9;Ctrl+N" Link="Image bestätigen&#9;Strg+N"/>
+        <String Target="挂载映像&#9;Ctrl+Shift+N" Link="Image einbinden&#9;Strg+Shift+N"/>
         <String Target="添加路径" Link="Pfad hinzufügen"/>
       <String Target="卸载映像&#9;Delete" Link="Image auswerfen&#9;Del"/>
-      <String Target="保存映像&#9;Ctrl+S" Link="Image speichern&#9;Ctrl+S"/>
-      <String Target="另存为映像&#9;Ctrl+Shift+S" Link="Image speichern unter&#9;Ctrl+Shift+S"/>
-      <String Target="打开映像文件&#9;Ctrl+O" Link="Image-Datei öffnen&#9;Ctrl+O"/>
+      <String Target="保存映像&#9;Ctrl+S" Link="Image speichern&#9;Strg+S"/>
+      <String Target="另存为映像&#9;Ctrl+Shift+S" Link="Image speichern unter&#9;Strg+Shift+S"/>
+      <String Target="打开映像文件&#9;Ctrl+O" Link="Image-Datei öffnen&#9;Strg+O"/>
       <String Target="重新载入" Link="Aktualisieren"/>
       <String Target="格式转换" Link="Umwandlungsformat"/>
       <String Target="ESD解密" Link="ESD Verschlüsselung"/>
