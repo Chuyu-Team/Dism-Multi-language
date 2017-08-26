@@ -2,6 +2,7 @@
 <!--
 這是 Dism++ 繁體中文資源包。
 在 XML 中的 5 個特殊符號 需要特殊表示。
+
   符號    說明                        實際引用
     <     小於                         &lt;
     >     大於                         &gt;
@@ -11,6 +12,7 @@
     \t    制表符                       &#9;
     \n    换行                         &#xA;
     \r    回车                         &#xD;
+
 
 感謝：iliGPU、jamesfuh、月下独酌
 -->
@@ -105,7 +107,7 @@
     <String Target="Xpress4k（推荐）" Link="Xpress4k (推薦)"/>
     <String Target="LZX（体积最小）" Link="LZX (體積最小)"/>
 
-    <!-- 主框架  -->
+    <!--主框架-->
     <String Target="正在删除" Link="正在刪除"/>
     <String Target="错误提示" Link="錯誤提醒"/>
     <String Target="正在保存" Link="正在儲存"/>
@@ -286,7 +288,7 @@
     <String Target="释放映像" Link="釋放映像"/>
     <String Target="挂载映像 " Link="掛接映像"/>
 
-    <!--另存为映像 -->
+    <!--另存为映像-->
     <String Target="你可以在此处修改映像文件信息（支持双击修改）" Link="您可以在此處修改映像檔資訊 (支援按兩下修改)"/>
     <String Target="在此处设置捕获映像的文件豁免列表加快捕获速度，每个条目用回车分割。" Link="在此處設定擷取映像檔案的豁免清單，加快擷取速度，每個項目以 Enter 鍵隔開。"/>
     <String Target="如何配置豁免列表" Link="如何配置豁免清單"/>
@@ -306,7 +308,7 @@
     <String Target="什么是本地源" Link="什麼是本機來源"/>
     <String Target="本地源" Link="本機來源"/>
 
-    <!-- 格式轉換-->
+    <!--格式轉換-->
     <String Target="请在此输入源文件路径" Link="請在此輸入原始檔案路徑"/>
     <String Target="请在此输入目标文件路径" Link="請在此輸入目的檔案路徑"/>
 
