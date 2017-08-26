@@ -50,16 +50,16 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
       <String Target="取消任务&#9;Ctrl+Break" Link="Annuler la &amp;tâche&#9;Ctrl+Break"/>
 
     <String Target="恢复功能(&amp;R)" Link="&amp;Dépannage"/>
-      <String Target="系统修复" Link="Récupération du système"/>
-      <String Target="健康扫描" Link="&amp;Bilan de santé"/>
+      <String Target="系统修复" Link="Récupération du système"/>R
+      <String Target="健康扫描" Link="&amp;Bilan de santé"/>B
         <String Target="验证受损" Link="&amp;Analyser l’état"/>
         <String Target="修复受损" Link="&amp;Restaurer l’état"/>
       <String Target="引导修复" Link="Installer en amorce"/>
-        <String Target="系统备份" Link="Sauvegarder l’OS"/>
-        <String Target="系统还原" Link="Restaurer l’OS"/>
-      <String Target="在RE中运行" Link="E&amp;xécuter dans &amp;WinRE"/>
-      <String Target="仅启动RE" Link="Lancer &amp;WinRE seulement"/>
-      <String Target="撤销Compact" Link="&amp;Ne jamais compacter"/>
+      <String Target="系统备份" Link="&amp;Sauvegarder l’OS"/>S
+      <String Target="系统还原" Link="&amp;Restaurer l’OS"/>R
+      <String Target="在RE中运行" Link="E&amp;xécuter dans &amp;WinRE"/>X
+      <String Target="仅启动RE" Link="Lancer &amp;WinRE seulement"/>W
+      <String Target="撤销Compact" Link="&amp;Ne jamais compacter"/>N
 
     <String Target="选项(&amp;O)" Link="&amp;Options"/>
       <String Target="插件管理" Link="Gérer les &amp;greffons"/>
@@ -377,7 +377,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="大约压缩38%" Link="Compression 38%"/>
     <String Target="大约压缩44%（更小体积）" Link="Compression 44% (plus petit)"/>
     <String Target="加载WofAdk驱动（可能导致蓝屏！）" Link="Charger le pilote de compression WofAdk (peut entrainer un écran bleu d’arrêt !)"/>
-    <String Target="更新差异传输引擎：" Link="Mode de mise à jour de Windows :"/>
+    <String Target="更新差异传输引擎：" Link="Sélection du mode de mises à jour de Windows :"/>
     <String Target="关闭" Link="Arrêté"/>
     <String Target="快速" Link="Rapide"/>
     <String Target="完整" Link="Complet"/>
