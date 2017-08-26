@@ -7,8 +7,8 @@ Also some control characters should be preferably encoded as numeric character e
     <     Less than                    &lt;
     >     More than                    &gt;
     &     And                          &amp;
-    '     Single quotation mark        &apos;      ’ (apostrophe) or ‘English quotes’
-    "     Double quotation mark        &quot;      “English quotes” or « French quotes »
+    '     Single quotation mark        &apos;      ’ (apostrophe) or 'English quotes'
+    "     Double quotation mark        &quot;      "English quotes" or « French quotes »
     \t    Tabulation control           &#9;
     \n    Line feed (newline) control  &#xA;
     \r    Carriage return control      &#xD;
