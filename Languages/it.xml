@@ -71,13 +71,13 @@ Special Thanks to Massimiliano F.
         <String Target="重启" Link="Riavvia"/>
       <String Target="程序外观" Link="Aspetto"/>
 
-    <String Target="帮助(&amp;H)" Link="Aiuto(&amp;H)"/>
+    <String Target="帮助(&amp;H)" Link="&amp;Aiuto"/>
       <String Target="查看帮助(&amp;V)" Link="&amp;Visualizza aiuto"/>
-      <String Target="官方网站(&amp;O)" Link="Sito web ufficiale(&amp;O)"/>
+      <String Target="官方网站(&amp;O)" Link="&amp;Sito web ufficiale"/>
       <String Target="官方群(&amp;G)" Link="&amp;Gruppo ufficiale"/>
-      <String Target="问题反馈(&amp;B)" Link="Feed&amp;back"/>
-      <String Target="关于Dism++(&amp;A)" Link="Informazioni su Dism++(&amp;A)"/>
-      <String Target="检查更新(&amp;U)" Link="Controllo aggiornamenti(&amp;U)"/>
+      <String Target="问题反馈(&amp;B)" Link="&amp;Feedback"/>
+      <String Target="关于Dism++(&amp;A)" Link="&amp;Informazioni su Dism++"/>
+      <String Target="检查更新(&amp;U)" Link="&amp;Controllo aggiornamenti"/>
 
     <String Target="应用一个WIM、ESD、SWM或者ISO映像。" Link="Applica un'immagine WIM, ESD, SWM, ISO."/>
     <String Target="从 WIM 文件安装映像。" Link="Monta immagine da un file WIM."/>

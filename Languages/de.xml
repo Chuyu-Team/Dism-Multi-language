@@ -35,7 +35,7 @@ Special Thanks to franz@drwindows.de
     <LangSecRef ID="3031">Windows Store</LangSecRef>
   </CCleanLangSecRefMap>
   <StringMaps>
-    <String Target="文件(&amp;F)" Link="Datei(&amp;F)"/>
+    <String Target="文件(&amp;F)" Link="&amp;Datei"/>
       <String Target="添加映像" Link="Image hinzufügen"/>
         <String Target="释放映像&#9;Ctrl+N" Link="Image bestätigen&#9;Ctrl+N"/>
         <String Target="挂载映像&#9;Ctrl+Shift+N" Link="Image einbinden&#9;Ctrl+Shift+N"/>
@@ -49,7 +49,7 @@ Special Thanks to franz@drwindows.de
       <String Target="ESD解密" Link="ESD Verschlüsselung"/>
     <String Target="取消任务&#9;Ctrl+Break" Link="Task beenden&#9;Strg+Pause"/>
 
-    <String Target="恢复功能(&amp;R)" Link="Wiederherstellung(&amp;R)"/>
+    <String Target="恢复功能(&amp;R)" Link="&amp;Wiederherstellung"/>
       <String Target="系统修复" Link="System Wiederherstellung"/>
       <String Target="健康扫描" Link="Systemstatus überprüfen"/>
         <String Target="验证受损" Link="Systemstatus überprüfen"/>
@@ -72,11 +72,11 @@ Special Thanks to franz@drwindows.de
       <String Target="程序外观" Link="Ansicht"/>
 
     <String Target="帮助(&amp;H)" Link="&amp;Hilfe"/>
-      <String Target="查看帮助(&amp;V)" Link="Hilfe aufrufen(&amp;V)"/>
-      <String Target="官方网站(&amp;O)" Link="&amp;Offizielle Homepage"/>
+      <String Target="查看帮助(&amp;V)" Link="Hilfe &amp;aufrufen"/>
+      <String Target="官方网站(&amp;O)" Link="Offizielle &amp;Homepage"/>
       <String Target="官方群(&amp;G)" Link="Offizielle &amp;Gruppe"/>
       <String Target="问题反馈(&amp;B)" Link="Feed&amp;back"/>
-      <String Target="关于Dism++(&amp;A)" Link="Über Dism++(&amp;A)"/>
+      <String Target="关于Dism++(&amp;A)" Link="Über &amp;Dism++"/>
       <String Target="检查更新(&amp;U)" Link="Nach &amp;Updates suchen"/>
 
     <String Target="应用一个WIM、ESD、SWM或者ISO映像。" Link="Erstellt eine WIM-, ESD-, SWM- oder ISO-Image-Datei."/>
