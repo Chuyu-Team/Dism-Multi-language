@@ -35,7 +35,7 @@ Special Thanks to franz@drwindows.de
     <LangSecRef ID="3031">Windows Store</LangSecRef>
   </CCleanLangSecRefMap>
   <StringMaps>
-    <String Target="文件(&amp;F)" Link="Datei(&amp;F)"/>
+    <String Target="文件(&amp;F)" Link="&amp;Datei"/>
       <String Target="添加映像" Link="Image hinzufügen"/>
         <String Target="释放映像&#9;Ctrl+N" Link="Image bestätigen&#9;Ctrl+N"/>
         <String Target="挂载映像&#9;Ctrl+Shift+N" Link="Image einbinden&#9;Ctrl+Shift+N"/>
@@ -49,7 +49,7 @@ Special Thanks to franz@drwindows.de
       <String Target="ESD解密" Link="ESD Verschlüsselung"/>
     <String Target="取消任务&#9;Ctrl+Break" Link="Task beenden&#9;Strg+Pause"/>
 
-    <String Target="恢复功能(&amp;R)" Link="Wiederherstellung(&amp;R)"/>
+    <String Target="恢复功能(&amp;R)" Link="&amp;Wiederherstellung"/>
       <String Target="系统修复" Link="System Wiederherstellung"/>
       <String Target="健康扫描" Link="Systemstatus überprüfen"/>
         <String Target="验证受损" Link="Systemstatus überprüfen"/>
