@@ -289,10 +289,10 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="挂载映像 " Link="Monter une image"/>
 
     <!--另存为映像 -->
-    <String Target="你可以在此处修改映像文件信息（支持双击修改）" Link="Vous pouvez modifier les informations d'image ici (double clic pour éditer)."/>
-    <String Target="在此处设置捕获映像的文件豁免列表加快捕获速度，每个条目用回车分割。" Link="Définir liste d'exclusion des images nécessitant aucune prise, séparer chaque image exclue par entrer."/>
-    <String Target="如何配置豁免列表" Link="Comment configurer la liste des exclusions"/>
-    <String Target="另存为映像" Link="Enregistrer l'Image sous"/>
+    <String Target="你可以在此处修改映像文件信息（支持双击修改）" Link="Vous pouvez modifier les informations d'image ici (double cliquez pour éditer)."/>
+    <String Target="在此处设置捕获映像的文件豁免列表加快捕获速度，每个条目用回车分割。" Link="Définir la liste des fichiers ou chemins à exclure de l'image sauvegardée, séparer chaque chemin exclue par Entrée."/>
+    <String Target="如何配置豁免列表" Link="Comment configurer les exclusions"/>
+    <String Target="另存为映像" Link="Enregistrer l'image sous"/>
     <String Target="卷影复制" Link="VSS"/>
 
     <!--系统修复-->
@@ -377,7 +377,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="大约压缩38%" Link="Compression 38%"/>
     <String Target="大约压缩44%（更小体积）" Link="Compression 44% (plus petit)"/>
     <String Target="加载WofAdk驱动（可能导致蓝屏！）" Link="Charger le pilote de compression WofAdk (peut entrainer un écran bleu d'arrêt !)"/>
-    <String Target="更新差异传输引擎：" Link="Sélection du mode de mises à jour de Windows :"/>
+    <String Target="更新差异传输引擎：" Link="Mode de mise à jour de Windows :"/>
     <String Target="关闭" Link="Arrêté"/>
     <String Target="快速" Link="Rapide"/>
     <String Target="完整" Link="Complet"/>
@@ -447,7 +447,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="正在扫描第%d个可清理的注册表项。。。" Link="Analyse de l'élément n°%d du registre à nettoyer..."/>
 
     <!--驱动管理-->
-    <String Target="温馨提示：删除关键驱动可能导致计算机无法启动" Link="Conseils : la suppression importante de pilotes peuvent entraîner le non-démarrage de votre ordinateur"/>
+    <String Target="温馨提示：删除关键驱动可能导致计算机无法启动" Link="Conseils : la suppression de pilotes importants peut entraîner le non-démarrage de votre ordinateur"/>
     <String Target="关键驱动：%s" Link="Pilote important : %s"/>
     <String Target="类别标识：%s" Link="Classe : %s"/>
     <String Target="驱动版本：%hu.%hu.%hu.%hu" Link="Version : %hu.%hu.%hu.%hu"/>
@@ -480,22 +480,22 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
 
     <!--开机启动项-->
     <String Target="开机启动项" Link="Démarrage"/>
-    <String Target="系统启动项 —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="Démarrage système — HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
-    <String Target="系统启动项32位 —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run" Link="Amorçage système 32 bits — HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run"/>
-    <String Target="系统启动项（仅启动一次） —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="Démarrage Système (Run Once) — HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
-    <String Target="系统启动项32位（仅启动一次） —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce" Link="Démarrage Système 32 bits (Run Once) — HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce"/>
-    <String Target="用户启动项 —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="Démarrage utilisateur — HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
-    <String Target="用户启动项（仅启动一次） —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="Démarrage utilisateur (Run Once) — HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
-    <String Target="启动（所有用户） —— %SystemDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup" Link="Démarrage (Tous utilisateurs) — %SystemDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup"/>
-    <String Target="启动（当前用户） —— %UserProfile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup" Link="Démarrage (Utilisateur actuel) — %UserProfile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"/>
-    <String Target="本机启动项 —— HKLM\SYSTEM\CurrentControlSet\Control\Session Manager" Link="Amorçage natif — HKLM\SYSTEM\CurrentControlSet\Control\Session Manager"/>
+    <String Target="系统启动项 —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="Démarrage du système — HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
+    <String Target="系统启动项32位 —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run" Link="Démarrage du système 32 bits — HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run"/>
+    <String Target="系统启动项（仅启动一次） —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="Démarrage du système (exécuté une fois) — HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
+    <String Target="系统启动项32位（仅启动一次） —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce" Link="Démarrage du système 32 bits (exécuté une fois) — HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce"/>
+    <String Target="用户启动项 —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="Ouverture de session utilisateur — HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
+    <String Target="用户启动项（仅启动一次） —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="Ouverture de session utilisateur (exécuté une fois) — HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
+    <String Target="启动（所有用户） —— %SystemDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup" Link="Dossier de démarrage (tous les utilisateurs) — %SystemDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup"/>
+    <String Target="启动（当前用户） —— %UserProfile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup" Link="Dossier de démarrage (utilisateur actuel) — %UserProfile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"/>
+    <String Target="本机启动项 —— HKLM\SYSTEM\CurrentControlSet\Control\Session Manager" Link="Amorçage du système — HKLM\SYSTEM\CurrentControlSet\Control\Session Manager"/>
     <String Target="隐藏禁用项" Link="Items activés"/>
     <String Target="查找" Link="Trouver"/>
-    <String Target="新用户启动项 —— HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="Nouveau démarrage de l'utilisateur — HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
-    <String Target="新用户启动项（仅启动一次） —— HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="Nouveau démarrage de l'utilisateur (Run Once) — HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
+    <String Target="新用户启动项 —— HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="Ouverture de session des nouveaux utilisateurs — HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
+    <String Target="新用户启动项（仅启动一次） —— HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="Ouverture de session des nouveaux utilisateurs (exécuté une fois) — HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
 
     <!--服务-->
-    <String Target="服务项" Link="Service"/>
+    <String Target="服务项" Link="Services"/>
     <String Target="禁用" Link="Désactivé"/>
     <String Target="手动" Link="Manuel"/>
     <String Target="自动" Link="Auto"/>
@@ -554,7 +554,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="刷新" Link="Actualiser"/>
     <String Target="添加" Link="Ajouter"/>
     <String Target="语言" Link="Langue"/>
-    <String Target="Windows %s 语言包" Link="Windows %s Pack de Langages"/>
+    <String Target="Windows %s 语言包" Link="Windows %s Pack de langue"/>
     <String Target="重启生效" Link="Demande de redémarrage"/>
 
     <!--可选功能-->
@@ -1108,7 +1108,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="某些文件被硬链接合并后可能导致相关功能无法正常使用。" Link="Certains fichiers fusionnés ne fonctionneront pas correctement si leur contenu initialement identique peut faire l'objet de modifications séparées."/>
 
     <String Target="CompactOs（较慢）" Link="CompactOs (plus lent)"/>
-    <String Target="对单纯读取的文件进行哈夫曼压缩，在不影响性能的情况下，显著减少系统体积。特别感谢矿工以及所有Compact团队成员无私的支持与帮助。" Link="Compresse les fichiers en lecture seule avec la compression Huffman, n'aura pas d'impact sur la performance, réduira le volume du système évidemment. Remerciements particuliers to the miners and the selfless support and aid of the member of compact team."/>
+    <String Target="对单纯读取的文件进行哈夫曼压缩，在不影响性能的情况下，显著减少系统体积。特别感谢矿工以及所有Compact团队成员无私的支持与帮助。" Link="Compresse les fichiers en lecture seule avec la compression Huffman, n'aura pas d'impact sur la performance, réduira le volume du système évidemment. Remerciements particuliers aux mineurs et pour le soutien désintéressé des membres de l'équipe Compact."/>
     <String Target="使用后可能导致某些程序无法正常运行甚至让系统无法启动，如果使用后出现问题，可以在PE中点击 恢复功能-->撤销Compact。" Link="Après application, certains programmes pourraient mal fonctionner et le système ne pas démarrer. Vous pouvez ensuite résoudre ce problème en utilisant « Récupération -&gt; Ne jamais compacter » en redémarrant sous WinPE."/>
     <String Target="此功能与某些硬盘备份软件不兼容。如果使用后出现问题，可以点击 恢复功能--&gt;撤销Compact。" Link="Cette fonction n'est pas compatible avec certains logiciels de sauvegarde. Si vous rencontrez des problèmes, cliquez sur « Récupération -&gt; Ne jamais compacter »."/>
 
