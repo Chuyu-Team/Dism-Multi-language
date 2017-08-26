@@ -326,15 +326,15 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <!--映像编辑-->
     <String Target="温馨提示：双击可修改映像信息对应的值。" Link="Conseil : vous pouvez modifier les valeurs par double clic"/>
     <String Target="可启动" Link="Amorçable"/>
-    <String Target="编辑映像文件" Link="Editer Fichier Image"/>
+    <String Target="编辑映像文件" Link="Éditer le fichier image"/>
     <String Target="导出" Link="Exporter"/>
     <String Target="保存更改" Link="Enregistrer les modifications"/>
-    <String Target="导出映像" Link="Exporter image"/>
+    <String Target="导出映像" Link="Exporter l’image"/>
     <String Target="正在导出第%d个映像（共 %d ）" Link="Exportation des images : %d sur %d"/>
     <String Target="正在添加映像，请耐心等待……" Link="Ajouter une image, veuillez patienter..."/>
     <String Target="操作成功！" Link="Réussi"/>
-    <String Target="删除映像" Link="Supprimer Image"/>
-    <String Target="编辑映像" Link="Editer Image"/>
+    <String Target="删除映像" Link="Supprimer l’image"/>
+    <String Target="编辑映像" Link="Éditer l’image"/>
 
     <!--引导修复-->
     <String Target="此映像并不在分区根目录，所以无法执行修复操作。" Link="Impossible de réparer car l’image n’est pas à la racine de la partition."/>
