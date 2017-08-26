@@ -1053,10 +1053,10 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="未正确识别到命令，以下是程序支持的所有命令：" Link="Erreur lors du traitement de la commande. Arguments de ligne de commande non valides. La commande suivante est prise en charge:"/>
     <String
       Target="将一个文件夹或者文件进行Compact压缩：&#xD;&#xA;/C  { /exe [ xpress4k（默认、更佳性能） | xpress8k | xpress16k | lzx（更小体积） ] } Path"
-      Link="Compact Compresser dossier ou fichier(s) :&#xD;&#xA;/C { /exe [ xpress4k (par défaut, plus rapide) | xpress8k | xpress16k | lzx (plus petit) ] } Chemin"/>
+      Link="Compresser des dossiers ou fichiers :&#xD;&#xA;Compact /C { /EXE [ XPRESS4K (par défaut, plus rapide) | XPRESS8K | XPRESS16K | LZX (plus petit) ] } Chemin"/>
     <String
       Target="将一个文件夹或者文件进行Compact解压缩&#xD;&#xA;/U Path"
-      Link="Compact Décompresser dossier ou fichiers(s) :&#xD;&#xA;/U Chemin"/>
+      Link="Décompresser des dossiers ou fichiers :&#xD;&#xA;Compact /U Chemin"/>
     <String
       Target="/Image:&lt;path_to_image&gt;&#9;- 指定特定 Windows 映像的根目录的路径。&#xD;&#xA;&#xD;&#xA;示例：&#xD;&#xA; Dism++x86.exe /Image:C:\ /?&#xD;&#xA; Dism++x86.exe /Image:&quot;D:\1213\&quot; /?"
       Link="/Image:&lt;path_to_image&gt;&#9;- Le chemin vers le dossier racine de l’image.&#xD;&#xA;&#xD;&#xA;Exemples :&#xD;&#xA; Dism++x86.exe /Image:C:\ /?&#xD;&#xA; Dism++x86.exe /Image:&quot;D:\1213\&quot; /?"/>
