@@ -35,7 +35,7 @@ Special thanks to JNylson
     <LangSecRef ID="3031">Loja do Windows</LangSecRef>
   </CCleanLangSecRefMap>
   <StringMaps>
-    <String Target="文件(&amp;F)" Link="Arquivo(&amp;F)"/>
+    <String Target="文件(&amp;F)" Link="&amp;Arquivo"/>
       <String Target="添加映像" Link="Adicionar imagem"/>
         <String Target="释放映像&#9;Ctrl+N" Link="Aplicar imagem&#9;Ctrl+N"/>
         <String Target="挂载映像&#9;Ctrl+Shift+N" Link="Montar imagem&#9;Ctrl+Shift+N"/>
@@ -71,13 +71,13 @@ Special thanks to JNylson
         <String Target="重启" Link="Reiniciar"/>
       <String Target="程序外观" Link="Aparência"/>
 
-    <String Target="帮助(&amp;H)" Link="Ajuda(&amp;H)"/>
-      <String Target="查看帮助(&amp;V)" Link="Exibir Ajuda(&amp;V)"/>
-      <String Target="官方网站(&amp;O)" Link="Site &amp;Oficial"/>
+    <String Target="帮助(&amp;H)" Link="Ajuda (&amp;H)"/>
+      <String Target="查看帮助(&amp;V)" Link="&amp;Exibir ajuda"/>
+      <String Target="官方网站(&amp;O)" Link="&amp;Site oficial"/>
       <String Target="官方群(&amp;G)" Link="&amp;Grupo Offical"/>
-      <String Target="问题反馈(&amp;B)" Link="Feed&amp;back"/>
-      <String Target="关于Dism++(&amp;A)" Link="Sobre Dism++(&amp;A)"/>
-      <String Target="检查更新(&amp;U)" Link="Verificar Atualizações(&amp;U)"/>
+      <String Target="问题反馈(&amp;B)" Link="&amp;Feedback"/>
+      <String Target="关于Dism++(&amp;A)" Link="Sobre &amp;Dism++"/>
+      <String Target="检查更新(&amp;U)" Link="&amp;Verificar atualizações"/>
 
     <String Target="应用一个WIM、ESD、SWM或者ISO映像。" Link="Aplica uma imagem WIM, ESD, SWM ou ISO."/>
     <String Target="从 WIM 文件安装映像。" Link="Monta imagem de um arquivo WIM."/>
