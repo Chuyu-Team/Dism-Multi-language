@@ -35,7 +35,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <LangSecRef ID="3031">Windows Store</LangSecRef>
   </CCleanLangSecRefMap>
   <StringMaps>
-    <String Target="文件(&amp;F)" Link="Archivo(&amp;F)"/>
+    <String Target="文件(&amp;F)" Link="&amp;Archivo"/>
       <String Target="添加映像" Link="Añadir imagen"/>
         <String Target="释放映像&#9;Ctrl+N" Link="Aplicar imagen&#9;Ctrl+N"/>
         <String Target="挂载映像&#9;Ctrl+Shift+N" Link="Montar imagen&#9;Ctrl+Mayús+N"/>
@@ -71,11 +71,11 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
         <String Target="重启" Link="Reiniciar"/>
       <String Target="程序外观" Link="Apariencia"/>
 
-    <String Target="帮助(&amp;H)" Link="Ayuda(&amp;H)"/>
+    <String Target="帮助(&amp;H)" Link="&amp;Ayuda"/>
       <String Target="查看帮助(&amp;V)" Link="&amp;Ver ayuda"/>
       <String Target="官方网站(&amp;O)" Link="Sitio &amp;Oficial"/>
       <String Target="官方群(&amp;G)" Link="&amp;Grupo oficial"/>
-      <String Target="问题反馈(&amp;B)" Link="Comentarios(&amp;B)"/>
+      <String Target="问题反馈(&amp;B)" Link="&amp;Comentarios"/>
       <String Target="关于Dism++(&amp;A)" Link="&amp;Acerca de Dism++"/>
       <String Target="检查更新(&amp;U)" Link="Buscar actualizaciones(&amp;U)"/>
 
