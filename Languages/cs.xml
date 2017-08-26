@@ -126,7 +126,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="温馨提示：保存映像后空间不会减少，如果需要减少空间请重新编译目标文件。" Link="Tipy: Zmenšení velikosti, pokud uložíte tento obraz; překompilujte cílový soubor, pokud potřebujete zmenšit velkost souboru"/>
     <String Target="增量保存（推荐）&#xA;创建一个新的映像，不会覆盖原有数据。" Link="Přírůstkové uložení (doporučeno)&#xA;Vytvořit nový obraz; původní data se nezmění."/>
 
-    <String Target="直接保存&#xA;将覆盖当前映像的数据。" Link="Přímé uložení &#xA;Původní obraz nahradit změněným."/>
+    <String Target="直接保存&#xA;将覆盖当前映像的数据。" Link="Přímé uložení&#xA;Původní obraz nahradit změněným."/>
 
     <String Target="温馨提示" Link="Tipy"/>
 
@@ -169,7 +169,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="在还原前你需要格式化分区：%s ?" Link="Chcete formátovat oddíl %s před obnovením?"/>
 
     <String Target="温馨提示：格式化分区该分区所有数据将丢失！" Link="Varování: Všechna data budou po zformátování vymazány!"/>
-    <String Target="格式化分区（推荐）&#xA;有助于系统分区整洁，消除文件残留。" Link="Formátování (doporučeno) &#xA; provede na systémovém oddílu a čistě bez zbytků."/>
+    <String Target="格式化分区（推荐）&#xA;有助于系统分区整洁，消除文件残留。" Link="Formátování (doporučeno)&#xA;provede na systémovém oddílu a čistě bez zbytků."/>
 
     <String Target="%s 映像已经还原成功。" Link="Obraz úspěšně obnoven %s."/>
     <String Target="你需要重启并立即生效么？" Link="Uložit změny a restartovat nyní?"/>
@@ -691,7 +691,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
       Link="Dism ++ spustí příkazy &#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;obejít kontrolu práv. Chcete-li zabránit použití malwares, dovolte Dism++. Pokračovat, nebo ne?"/>
     <String
       Target="可以使用以下命令来操作此映像：&#xD;&#xA;&#xD;&#xA;/GodMode&#9;- 使用春哥附体启动应用程序"
-      Link="Tyto příkazy slouží k práci s obrazy:#x000D;&#xA;&#xD;&#xA;/GodMode&#9;- spuštění programů v režim GodMode"/>
+      Link="Tyto příkazy slouží k práci s obrazy:&#xD;&#xA;&#xD;&#xA;/GodMode&#9;- spuštění programů v režim GodMode"/>
 
     <String Target="ESD转ISO" Link="ESD na ISO"/>
     <String Target="允许将WIM、SWM以及ESD之间格式自由转换。" Link="Umožňuje volnou konverze mezi WIM, SWM a ESD."/>
@@ -1064,7 +1064,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
       Link="/Plugin:&lt;Plugin_ID&gt;&#9;- Chcete-li spustit příkazy, podporující modul plug-in.&#xD;&#xA;&#xD;&#xA;Příklady:&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"/>
     <String
       Target="可以使用以下命令来操作此映像：&#xD;&#xA;&#xD;&#xA;插件命令：&#xD;&#xA; /Plugin&#9;- 启动特定插件（需要插件支持命令参数）"
-      Link="Tyto příkazy můžete použít k ovládání obrazu:&#xD;&#xA;Command:&#xD;&#xA; /Plugin&#9;- Spustit určený modul plug-in (potřeba podpora pluginu)"/>
+      Link="Tyto příkazy můžete použít k ovládání obrazu:&#xD;&#xA;&#xD;&#xA;Command:&#xD;&#xA; /Plugin&#9;- Spustit určený modul plug-in (potřeba podpora pluginu)"/>
     <String Target="正在压缩" Link="Komprese"/>
     <String Target="正在解压" Link="Dekomprese"/>
     <String Target="操作完成！" Link="Dokončeno."/>

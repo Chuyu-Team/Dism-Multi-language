@@ -1064,7 +1064,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
       Link="/Plugin:&lt;Plugin_ID&gt;&#9;- Para ejecutar los comandos compatibles con el complemento.&#xD;&#xA;&#xD;&#xA;Ejemplos:&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"/>
     <String
       Target="可以使用以下命令来操作此映像：&#xD;&#xA;&#xD;&#xA;插件命令：&#xD;&#xA; /Plugin&#9;- 启动特定插件（需要插件支持命令参数）"
-      Link="Puede utilizar estos comandos para operar esta imagen:&#xD;&#xA;Comando:&#xD;&#xA; /Plugin&#9;- Ejecutar el complemento designado (Necesita soporte del complemento)"/>
+      Link="Puede utilizar estos comandos para operar esta imagen:&#xD;&#xA;&#xD;&#xA;Comando:&#xD;&#xA; /Plugin&#9;- Ejecutar el complemento designado (Necesita soporte del complemento)"/>
     <String Target="正在压缩" Link="Comprimir"/>
     <String Target="正在解压" Link="Descomprimiendo"/>
     <String Target="操作完成！" Link="Finalizado"/>

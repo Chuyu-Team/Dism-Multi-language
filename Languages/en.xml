@@ -169,7 +169,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="在还原前你需要格式化分区：%s ?" Link="Do you want to format the partition %s before restoring?"/>
 
     <String Target="温馨提示：格式化分区该分区所有数据将丢失！" Link="Warning: All data will be erased after Formatting!"/>
-    <String Target="格式化分区（推荐）&#xA;有助于系统分区整洁，消除文件残留。" Link="Formatting (Recommanded)&#xA; makes system partition and clean without residuals."/>
+    <String Target="格式化分区（推荐）&#xA;有助于系统分区整洁，消除文件残留。" Link="Formatting (Recommanded)&#xA;Makes system partition and clean without residuals."/>
 
     <String Target="%s 映像已经还原成功。" Link="Successfully restored %s image."/>
     <String Target="你需要重启并立即生效么？" Link="Save changes and Restart now?"/>
@@ -1064,7 +1064,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
       Link="/Plugin:&lt;Plugin_ID&gt;&#9;- To run the commands supported with a plug-in.&#xD;&#xA;&#xD;&#xA;Examples:&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"/>
     <String
       Target="可以使用以下命令来操作此映像：&#xD;&#xA;&#xD;&#xA;插件命令：&#xD;&#xA; /Plugin&#9;- 启动特定插件（需要插件支持命令参数）"
-      Link="You can use these commands to operate this image:&#xD;&#xA;Command:&#xD;&#xA; /Plugin&#9;- Run the designated plug-in (Need plugin support)"/>
+      Link="You can use these commands to operate this image:&#xD;&#xA;&#xD;&#xA;Command:&#xD;&#xA; /Plugin&#9;- Run the designated plug-in (Need plugin support)"/>
     <String Target="正在压缩" Link="Compressing"/>
     <String Target="正在解压" Link="Decompressing"/>
     <String Target="操作完成！" Link="Finished."/>

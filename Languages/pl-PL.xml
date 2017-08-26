@@ -35,7 +35,7 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
     <LangSecRef ID="3031">Sklep Windows</LangSecRef>
   </CCleanLangSecRefMap>
   <StringMaps>
-    <String Target="文件(&amp;F)" Link="&mp;Plik"/>
+    <String Target="文件(&amp;F)" Link="&amp;Plik"/>
       <String Target="添加映像" Link="Wybierz obraz"/>
         <String Target="释放映像&#9;Ctrl+N" Link="Wypakuj obraz&#9;Ctrl+N"/>
         <String Target="挂载映像&#9;Ctrl+Shift+N" Link="Montuj obraz&#9;Ctrl+Shift+N"/>
@@ -126,7 +126,7 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
     <String Target="温馨提示：保存映像后空间不会减少，如果需要减少空间请重新编译目标文件。" Link="Informacja: Przestrzeń nie zostanie zmniejszona, należy ponownie skompilować plik docelowy jeżeli chcesz zmniejszyć przestrzeń dla pliku docelowego"/>
     <String Target="增量保存（推荐）&#xA;创建一个新的映像，不会覆盖原有数据。" Link="Zapis przyrostowy(zalecany)&#xA;Tworzenie nowego obrazu (nie nadpisuje oryginalnych danych)."/>
 
-    <String Target="直接保存&#xA;将覆盖当前映像的数据。" Link="Zapis bezpośredni &#xA;Zastąpi oryginalny zmodyfikowanym obrazem."/>
+    <String Target="直接保存&#xA;将覆盖当前映像的数据。" Link="Zapis bezpośredni&#xA;Zastąpi oryginalny zmodyfikowanym obrazem."/>
 
     <String Target="温馨提示" Link="Wskazówki"/>
 
@@ -1064,10 +1064,10 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
       Link="/Plugin:&lt;Plugin_ID&gt;&#9;- Aby uruchomić polecenia obsługiwane za pomocą plug-in.&#xD;&#xA;&#xD;&#xA;Przykłady:&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"/>
     <String
       Target="可以使用以下命令来操作此映像：&#xD;&#xA;&#xD;&#xA;插件命令：&#xD;&#xA; /Plugin&#9;- 启动特定插件（需要插件支持命令参数）"
-      Link="Można użyć tych poleceń do obsługi tego pliku:&#xD;&#xA;Komenda:&#xD;&#xA; /Plugin&#9;- Uruchom wyznaczony plug-in (wsparcie wymaga wtyczki)"/>
+      Link="Można użyć tych poleceń do obsługi tego pliku:&#xD;&#xA;&#xD;&#xA;Komenda:&#xD;&#xA; /Plugin&#9;- Uruchom wyznaczony plug-in (wsparcie wymaga wtyczki)"/>
     <String Target="正在压缩" Link="Kompresja"/>
     <String Target="正在解压" Link="Dekompresja"/>
-    <String Target="操作完成！" Link="Gotowy."/>&#9;&#9;&#9;
+    <String Target="操作完成！" Link="Gotowy."/>
 
     <!--Przywracanie systemu-->
     <String Target="当前模式不支持引导修复以及格式化分区，你需要重启并进入RE进行恢复么？" Link="Bieżący tryb nie obsługuje naprawy rozruchu i formatowania partycji. Uruchomić komputer i odzyskać z RE?"/>

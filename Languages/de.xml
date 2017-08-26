@@ -124,9 +124,9 @@ Special Thanks to franz@drwindows.de
 
     <String Target="你需要增量保存还是直接保存？" Link="Abspeichern oder eine inkrementelle Sicherung durchführen?"/>
     <String Target="温馨提示：保存映像后空间不会减少，如果需要减少空间请重新编译目标文件。" Link="Hinweis: Der Speicherplatz wird sich bei diesem Image nicht verkleinern. Um den Speicherplatz zu verringern, erstellen Sie die Datei neu"/>
-    <String Target="增量保存（推荐）&#xA;创建一个新的映像，不会覆盖原有数据。" Link="Inkrementelle Sicherung (empfohlen)&#xA; Neues Image erstellen; die Daten werden nicht verändert."/>
+    <String Target="增量保存（推荐）&#xA;创建一个新的映像，不会覆盖原有数据。" Link="Inkrementelle Sicherung (empfohlen)&#xA;Neues Image erstellen; die Daten werden nicht verändert."/>
 
-    <String Target="直接保存&#xA;将覆盖当前映像的数据。" Link="Jetzt speichern &#xA;Das originale Image wird mit neuen Daten überschrieben."/>
+    <String Target="直接保存&#xA;将覆盖当前映像的数据。" Link="Jetzt speichern&#xA;Das originale Image wird mit neuen Daten überschrieben."/>
 
     <String Target="温馨提示" Link="Hinweis"/>
 
@@ -169,7 +169,7 @@ Special Thanks to franz@drwindows.de
     <String Target="在还原前你需要格式化分区：%s ?" Link="Soll die Partition %s vor der Wiederherstellung formatiert werden?"/>
 
     <String Target="温馨提示：格式化分区该分区所有数据将丢失！" Link="Achtung: Alle Daten werden bei der Formatierung gelöscht!"/>
-    <String Target="格式化分区（推荐）&#xA;有助于系统分区整洁，消除文件残留。" Link="Durch die Formatierung (empfohlen) &#xA; wird die Systempartition von Datenresten gesäubert."/>
+    <String Target="格式化分区（推荐）&#xA;有助于系统分区整洁，消除文件残留。" Link="Durch die Formatierung (empfohlen)&#xA;wird die Systempartition von Datenresten gesäubert."/>
 
     <String Target="%s 映像已经还原成功。" Link="Die Wiederherstellung %s war erfolgreich."/>
     <String Target="你需要重启并立即生效么？" Link="Änderungen speichern und neu starten?"/>
@@ -603,7 +603,7 @@ Special Thanks to franz@drwindows.de
     <String Target="分析%d%%" Link="Analysiere %d%%"/>
     <String Target="%s 将引入独占请求，请在 %d 秒内做出选择。" Link="%s benötigt exklusive Berechtigungen, bitte in %d Sekunden bestätigen."/>
     <String Target="温馨提示：引入独占请求后，你将无法安装其他更新，直到你重启系统。建议你先安装其他更新，最后安装此更新。" Link="Hinweis: Mit der exklusiven Berechtigung kann der Benutzer keine anderen Updates installieren, bevor nicht das System neu gestartet wurde. Wir empfehlen daher, zuerst andere Updates zu installieren und dann erst jene, für die exklusive Berechtigung benötigt wird"/>
-    <String Target="暂不安装（推荐）&#xA;我暂时还需要添加其他更新。" Link="Nicht installieren (empfohlen) &#xA;Zuerst müssen andere Updates installiert werden."/>
+    <String Target="暂不安装（推荐）&#xA;我暂时还需要添加其他更新。" Link="Nicht installieren (empfohlen)&#xA;Zuerst müssen andere Updates installiert werden."/>
     <String Target="继续安装&#xA;我已确保我需要的更新均已安装。" Link="Weiter mit der Installation&#xA;Alle anderen Updates wurden installiert."/>
     <String
       Target="关于 %s 的警告：&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;你确定要继续吗？"
@@ -1064,7 +1064,7 @@ Special Thanks to franz@drwindows.de
       Link="/Plugin:&lt;Plugin_ID&gt;&#9;- Um Befehle auszuführen, die von dem PlugIn unterstützt werden.&#xD;&#xA;&#xD;&#xA;Bsp:&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"/>
     <String
       Target="可以使用以下命令来操作此映像：&#xD;&#xA;&#xD;&#xA;插件命令：&#xD;&#xA; /Plugin&#9;- 启动特定插件（需要插件支持命令参数）"
-      Link="Folgende Befehle können für die Bearbeitung der Image-Datei benutzt werden:&#xD;&#xA;Command:&#xD;&#xA; /Plugin&#9;- Vorgegebenes PlugIn starten (benötigt PlugIn-Unterstützung)"/>
+      Link="Folgende Befehle können für die Bearbeitung der Image-Datei benutzt werden:&#xD;&#xA;&#xD;&#xA;Command:&#xD;&#xA; /Plugin&#9;- Vorgegebenes PlugIn starten (benötigt PlugIn-Unterstützung)"/>
     <String Target="正在压缩" Link="Packen"/>
     <String Target="正在解压" Link="Entpacken"/>
     <String Target="操作完成！" Link="Beendet."/>

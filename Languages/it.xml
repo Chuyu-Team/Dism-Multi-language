@@ -123,10 +123,10 @@ Special Thanks to Massimiliano F.
     <String q="" Target="Dism++不允许以兼容模式启动，请去除兼容模式，然后再启动Dism++。" Link="Dism++ doesn't allow compatibility mode. Restart Dism++ after disable it."/>
 
     <String Target="你需要增量保存还是直接保存？" Link="Salvare direttamente oppure eseguire un salvataggio incrementale?"/>
-    <String Target="温馨提示：保存映像后空间不会减少，如果需要减少空间请重新编译目标文件。" Link="Suggerimento: Lo spazio non si riduce se salvi questa immagine; ricompila il file di destinazione se è necessario ridurre lo spazio"/>
+    <String Target="温馨提示：保存映像后空间不会减少，如果需要减少空间请重新编译目标文件。" Link="Suggerimento: Lo spazio non si riduce se salvi questa immagine; ricompila il file di destinazione se è necessario ridurre lo spazio."/>
     <String Target="增量保存（推荐）&#xA;创建一个新的映像，不会覆盖原有数据。" Link="Salvataggio Incrementale(raccomandato)&#xA;Crea una nuova immagine; i dati dell'immagine originale non saranno modificati."/>
 
-    <String Target="直接保存&#xA;将覆盖当前映像的数据。" Link="Salvataggio Diretto &#xA;Sostituisce i dati dell'immagine originale con quelli modificati."/>
+    <String Target="直接保存&#xA;将覆盖当前映像的数据。" Link="Salvataggio Diretto&#xA;Sostituisce i dati dell'immagine originale con quelli modificati."/>
 
     <String Target="温馨提示" Link="Suggerimenti"/>
 
@@ -135,7 +135,7 @@ Special Thanks to Massimiliano F.
     <String Target="正在释放" Link="Applicazione"/>
     <String Target="正在还原" Link="Ripristino"/>
     <String Target="%s 位置的映像正在进行其他事情，请稍后再试。" Link="L'immagine nella posizione %s è occupata, riprovare più tardi."/>
-    <String Target="无法移动文件 %s，Dism++已回滚对系统的更改。" Link="Il file %s non può essere spostato, Dism++ ha ripristinato le modifiche apportate al sistema"/>
+    <String Target="无法移动文件 %s，Dism++已回滚对系统的更改。" Link="Il file %s non può essere spostato, Dism++ ha ripristinato le modifiche apportate al sistema."/>
 
     <String Target="正在配置WinRE" Link="Configurazione Windows RE"/>
     <String Target="正在进行第 %d 阶段（共 %d ）" Link="Elaborazione passaggio %d (%d passaggi in totale)"/>
@@ -154,7 +154,7 @@ Special Thanks to Massimiliano F.
     <String Target="映像文件" Link="File Immagine"/>
     <String Target="无法获取RE信息，错误代码：%d" Link="Impossibile ricevere le info WinRE, codice errore: %d"/>
     <String Target="重启后，系统自动将启动RE，你确定要重启么？" Link="Il sistema sarà riavviato in WinRE, vuoi riavviare adesso?"/>
-    <String Target="此功能可以将ESD、WIM格式相互转换。" Link="Questa funzionalità converte file ESD in WIM e converte file WIM in ESD "/>
+    <String Target="此功能可以将ESD、WIM格式相互转换。" Link="Questa funzionalità converte file ESD in WIM e converte file WIM in ESD."/>
     <String Target="Dism++将会在RE中启动，你现在需要重启电脑么？" Link="Dism++ saraà avviato in WinRE, vuoi riavviare adesso?"/>
     <String Target="%s 位置的映像正繁忙，请稍后再试。" Link="La posizione dell'immagine %s è occupata, riprovare più tardi."/>
     <String Target="正在验证受损" Link="Scansione Immagine"/>
@@ -1064,7 +1064,7 @@ Special Thanks to Massimiliano F.
       Link="/Plugin:&lt;Plugin_ID&gt;&#9;- Per eseguire i comandi supportati con un plug-in.&#xD;&#xA;&#xD;&#xA;Esempio:&#xD;&#xA; Dism++x86.exe /All /Plugin:FrogPlugins_Pcn7FMvReAsVWfCQBfRJCw /?"/>
     <String
       Target="可以使用以下命令来操作此映像：&#xD;&#xA;&#xD;&#xA;插件命令：&#xD;&#xA; /Plugin&#9;- 启动特定插件（需要插件支持命令参数）"
-      Link="Puoi usare questi comandi per operare sull'immagine:&#xD;&#xA;Comando:&#xD;&#xA; /Plugin&#9;- Avvia il plug-in indicato (Necessario il supporto plugin)"/>
+      Link="Puoi usare questi comandi per operare sull'immagine:&#xD;&#xA;&#xD;&#xA;Comando:&#xD;&#xA; /Plugin&#9;- Avvia il plug-in indicato (Necessario il supporto plugin)"/>
     <String Target="正在压缩" Link="Compressione"/>
     <String Target="正在解压" Link="Decompressione"/>
     <String Target="操作完成！" Link="Terminato."/>

@@ -126,7 +126,7 @@ Special thanks to JNylson
     <String Target="温馨提示：保存映像后空间不会减少，如果需要减少空间请重新编译目标文件。" Link="Dicas: O espaço não vai reduzir se salvar essa imagem;  Recompile o arquivo destino, se precisar reduzir o espaço"/>
     <String Target="增量保存（推荐）&#xA;创建一个新的映像，不会覆盖原有数据。" Link="Salvar Incremental (recomendado)&#xA;Cria uma nova imagem, dados originais não serão alterados."/>
 
-    <String Target="直接保存&#xA;将覆盖当前映像的数据。" Link="Salvar Direto &#xA;Substitui a imagem original com essa imagem modificada."/>
+    <String Target="直接保存&#xA;将覆盖当前映像的数据。" Link="Salvar Direto&#xA;Substitui a imagem original com essa imagem modificada."/>
 
     <String Target="温馨提示" Link="Dicas"/>
 
@@ -169,7 +169,7 @@ Special thanks to JNylson
     <String Target="在还原前你需要格式化分区：%s ?" Link="Do you want to format the partition %s before restoring?"/>
 
     <String Target="温馨提示：格式化分区该分区所有数据将丢失！" Link="Warning: All data will be erased after Formatting!"/>
-    <String Target="格式化分区（推荐）&#xA;有助于系统分区整洁，消除文件残留。" Link="Formatting (Recommanded) &#xA; makes system partition and clean without residuals.  "/>
+    <String Target="格式化分区（推荐）&#xA;有助于系统分区整洁，消除文件残留。" Link="Formatting (Recommanded)&#xA;Makes system partition and clean without residuals."/>
 
     <String Target="%s 映像已经还原成功。" Link="Imagem %s restaurada com sucesso."/>
     <String Target="你需要重启并立即生效么？" Link="Salvar alterações e Reiniciar agora?"/>
@@ -603,7 +603,7 @@ Special thanks to JNylson
     <String Target="分析%d%%" Link="Analisando %d%%"/>
     <String Target="%s 将引入独占请求，请在 %d 秒内做出选择。" Link="%s requer um acesso exclusivo, confirme dentro de %d segundos."/>
     <String Target="温馨提示：引入独占请求后，你将无法安装其他更新，直到你重启系统。建议你先安装其他更新，最后安装此更新。" Link="Dica: Com acesso exclusivo, você não será capaz de instalar outras atualizações, até que reinicie o sistema. Sugerimos que instale outras atualizações primeiro e, em seguida, instale essa instalação."/>
-    <String Target="暂不安装（推荐）&#xA;我暂时还需要添加其他更新。" Link="Não instalar (recomendado) &#xA;Preciso instalar outras atualizações."/>
+    <String Target="暂不安装（推荐）&#xA;我暂时还需要添加其他更新。" Link="Não instalar (recomendado)&#xA;Preciso instalar outras atualizações."/>
     <String Target="继续安装&#xA;我已确保我需要的更新均已安装。" Link="Ir para a instalação&#xA;Eu instalei outras atualizações."/>
     <String
       Target="关于 %s 的警告：&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;你确定要继续吗？"
@@ -1064,7 +1064,7 @@ Special thanks to JNylson
       Link="/Plugin:&lt;Plugin_ID&gt;&#9;- To run the commands supported with a plug-in.&#xD;&#xA;&#xD;&#xA;Examples:&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"/>
     <String
       Target="可以使用以下命令来操作此映像：&#xD;&#xA;&#xD;&#xA;插件命令：&#xD;&#xA; /Plugin&#9;- 启动特定插件（需要插件支持命令参数）"
-      Link="You can use these commands to operate this image:&#xD;&#xA;Command:&#xD;&#xA; /Plugin&#9;- Run the designated plug-in (Need plugin support)"/>
+      Link="You can use these commands to operate this image:&#xD;&#xA;&#xD;&#xA;Command:&#xD;&#xA; /Plugin&#9;- Run the designated plug-in (Need plugin support)"/>
     <String Target="正在压缩" Link="Compressing"/>
     <String Target="正在解压" Link="Decompressing"/>
     <String Target="操作完成！" Link="Finished."/>
