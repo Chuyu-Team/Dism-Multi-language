@@ -1112,7 +1112,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="某些文件被硬链接合并后可能导致相关功能无法正常使用。" Link="Certains fichiers fusionnés ne fonctionneront pas correctement si leur contenu initialement identique peut faire l’objet de modifications séparées."/>
 
     <String Target="CompactOs（较慢）" Link="CompactOs (plus lent)"/>
-    <String Target="对单纯读取的文件进行哈夫曼压缩，在不影响性能的情况下，显著减少系统体积。特别感谢矿工以及所有Compact团队成员无私的支持与帮助。" Link="Compresse les fichiers en lecture seule avec la compression Huffman, n’aura pas d’impact sur la performance, réduira le volume du système évidemment. Remerciements particuliers aux mineurs et pour le soutien désintéressé des membres de l’équipe Compact."/>
+    <String Target="对单纯读取的文件进行哈夫曼压缩，在不影响性能的情况下，显著减少系统体积。特别感谢矿工以及所有Compact团队成员无私的支持与帮助。" Link="Compresse les fichiers en lecture seule avec la compression Huffman, n’aura pas d’impact sur la performance, réduira le volume du système évidemment. Remerciements particuliers to the miners and the selfless support and aid of the member of compact team."/>
     <String Target="使用后可能导致某些程序无法正常运行甚至让系统无法启动，如果使用后出现问题，可以在PE中点击 恢复功能-->撤销Compact。" Link="Après application, certains programmes pourraient mal fonctionner et le système ne pas démarrer. Vous pouvez ensuite résoudre ce problème en utilisant « Récupération -&gt; Ne jamais compacter » en redémarrant sous WinPE."/>
     <String Target="此功能与某些硬盘备份软件不兼容。如果使用后出现问题，可以点击 恢复功能--&gt;撤销Compact。" Link="Cette fonction n’est pas compatible avec certains logiciels de sauvegarde. Si vous rencontrez des problèmes, cliquez sur « Récupération -&gt; Ne jamais compacter »."/>
 
