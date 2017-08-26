@@ -484,18 +484,18 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="系统启动项32位 —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run" Link="Démarrage du système 32 bits — HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run"/>
     <String Target="系统启动项（仅启动一次） —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="Démarrage du système (exécuté une fois) — HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
     <String Target="系统启动项32位（仅启动一次） —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce" Link="Démarrage du système 32 bits (exécuté une fois) — HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce"/>
-    <String Target="用户启动项 —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="Ouverture de session utilisateur — HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
-    <String Target="用户启动项（仅启动一次） —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="Ouverture de session utilisateur (exécuté une fois) — HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
+    <String Target="用户启动项 —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="Démarrage de session utilisateur — HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
+    <String Target="用户启动项（仅启动一次） —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="Démarrage de session utilisateur (exécuté une fois) — HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
     <String Target="启动（所有用户） —— %SystemDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup" Link="Dossier de démarrage (tous les utilisateurs) — %SystemDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup"/>
     <String Target="启动（当前用户） —— %UserProfile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup" Link="Dossier de démarrage (utilisateur actuel) — %UserProfile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"/>
     <String Target="本机启动项 —— HKLM\SYSTEM\CurrentControlSet\Control\Session Manager" Link="Amorçage du système — HKLM\SYSTEM\CurrentControlSet\Control\Session Manager"/>
     <String Target="隐藏禁用项" Link="Items activés"/>
     <String Target="查找" Link="Trouver"/>
-    <String Target="新用户启动项 —— HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="Ouverture de session des nouveaux utilisateurs — HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
-    <String Target="新用户启动项（仅启动一次） —— HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="Ouverture de session des nouveaux utilisateurs (exécuté une fois) — HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
+    <String Target="新用户启动项 —— HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="Démarrage de l’utilisateur — HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
+    <String Target="新用户启动项（仅启动一次） —— HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="Nouveau démarrage de l’utilisateur (Run Once) — HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
 
     <!--服务-->
-    <String Target="服务项" Link="Services"/>
+    <String Target="服务项" Link="Service"/>
     <String Target="禁用" Link="Désactivé"/>
     <String Target="手动" Link="Manuel"/>
     <String Target="自动" Link="Auto"/>
