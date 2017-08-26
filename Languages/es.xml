@@ -35,7 +35,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <LangSecRef ID="3031">Windows Store</LangSecRef>
   </CCleanLangSecRefMap>
   <StringMaps>
-    <String Target="文件(&amp;F)" Link="&amp;Archivo"/>
+    <String Target="文件(&amp;F)" Link="Archivo(&amp;F)"/>
       <String Target="添加映像" Link="Añadir imagen"/>
         <String Target="释放映像&#9;Ctrl+N" Link="Aplicar imagen&#9;Ctrl+N"/>
         <String Target="挂载映像&#9;Ctrl+Shift+N" Link="Montar imagen&#9;Ctrl+Mayús+N"/>
@@ -50,34 +50,34 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
       <String Target="取消任务&#9;Ctrl+Break" Link="Cancelar tarea&#9;Ctrl+Break"/>
 
     <String Target="恢复功能(&amp;R)" Link="&amp;Recuperar"/>
-      <String Target="系统修复" Link="R&amp;ecuperación del sistema"/>
-      <String Target="健康扫描" Link="C&amp;omprobar salud"/>
-        <String Target="验证受损" Link="&amp;Analizar salud"/>
-        <String Target="修复受损" Link="&amp;Restaurar salud"/>
-      <String Target="引导修复" Link="Reparar &amp;inicio"/>
-      <String Target="系统备份" Link="&amp;Copia del sistema"/>
-      <String Target="系统还原" Link="&amp;Restaurar sistema"/>
-      <String Target="在RE中运行" Link="Ejecutar en &amp;WinRE"/>
-      <String Target="仅启动RE" Link="Ejecutar &amp;sólo WinRE"/>
-      <String Target="撤销Compact" Link="&amp;Nunca compactar"/>
+      <String Target="系统修复" Link="Recuperación del sistema"/>
+      <String Target="健康扫描" Link="Comprobar salud"/>
+        <String Target="验证受损" Link="Analizar salud"/>
+        <String Target="修复受损" Link="Restaurar salud"/>
+      <String Target="引导修复" Link="Reparar inicio"/>
+      <String Target="系统备份" Link="Copia del sistema"/>
+      <String Target="系统还原" Link="Restaurar sistema"/>
+      <String Target="在RE中运行" Link="Ejecutar en WinRE"/>
+      <String Target="仅启动RE" Link="Ejecutar sólo WinRE"/>
+      <String Target="撤销Compact" Link="Nunca compactar"/>
 
     <String Target="选项(&amp;O)" Link="&amp;Opciones"/>
-      <String Target="插件管理" Link="Administrar &amp;complemento"/>
-      <String Target="新手模式" Link="Modo &amp;principiante"/>
-      <String Target="详细设置" Link="&amp;Más opciones"/>
-      <String Target="操作完成后" Link="Después de completar la &amp;operación"/>
-        <String Target="未定义" Link="&amp;Nada"/>
-        <String Target="关机" Link="&amp;Apagar"/>
-        <String Target="重启" Link="&amp;Reiniciar"/>
-      <String Target="程序外观" Link="&amp;Apariencia"/>
+      <String Target="插件管理" Link="Administrar complemento"/>
+      <String Target="新手模式" Link="Modo principiante"/>
+      <String Target="详细设置" Link="Más opciones"/>
+      <String Target="操作完成后" Link="Después de completar la operación"/>
+        <String Target="未定义" Link="Nada"/>
+        <String Target="关机" Link="Apagar"/>
+        <String Target="重启" Link="Reiniciar"/>
+      <String Target="程序外观" Link="Apariencia"/>
 
-    <String Target="帮助(&amp;H)" Link="A&mp;yuda"/>
+    <String Target="帮助(&amp;H)" Link="Ayuda(&amp;H)"/>
       <String Target="查看帮助(&amp;V)" Link="&amp;Ver ayuda"/>
-      <String Target="官方网站(&amp;O)" Link="&amp;Sitio oficial"/>
+      <String Target="官方网站(&amp;O)" Link="Sitio &amp;Oficial"/>
       <String Target="官方群(&amp;G)" Link="&amp;Grupo oficial"/>
-      <String Target="问题反馈(&amp;B)" Link="&amp;Comentarios"/>
+      <String Target="问题反馈(&amp;B)" Link="Comentarios(&amp;B)"/>
       <String Target="关于Dism++(&amp;A)" Link="&amp;Acerca de Dism++"/>
-      <String Target="检查更新(&amp;U)" Link="B&amp;uscar actualizaciones"/>
+      <String Target="检查更新(&amp;U)" Link="Buscar actualizaciones(&amp;U)"/>
 
     <String Target="应用一个WIM、ESD、SWM或者ISO映像。" Link="Se aplica a una imagen WIM, ESD, SWM o ISO."/>
     <String Target="从 WIM 文件安装映像。" Link="Monta una imagen WIM desde un archivo."/>
