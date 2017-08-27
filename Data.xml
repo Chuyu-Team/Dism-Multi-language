@@ -6259,6 +6259,26 @@
           </False>
         </System>
       </Item>
+      
+      <Item Type="CheckBox" Name="#*在Windows 7中禁用SMB1协议（by Jhovany200）">
+        <System>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters" Value="SMB1" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters" Value="SMB1" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters" Value="SMB1" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
 
       <Item Type="CheckBox" Name="#*关闭防火墙（by 一叶微风TM）">
         <System>
