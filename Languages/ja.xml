@@ -475,8 +475,8 @@ Special Thanks to 山形まり花
     <String Target="正在安装驱动" Link="ドライバをインストール中"/>
     <String Target="一个或者多个驱动添加失败，错误代码：0x%.8X" Link="1 つ以上にドライバーを追加失敗しました、エラー コード：0x%.8X"/>
     <String Target="显示内置驱动" Link="インボックス ドライバーを表示"/>
-    <String Target="处理过程中遇到问题，其中成功 %u 个，失败 %u 个，不适用 %u 个。部分错误信息：%s [0x%.8X] 更多信息请参考 &quot;Config\Dism++.log&quot;" Link="問題が発生しました。エラー コード&#xD;&#xA;成功：%u、失敗：%u、適用外：%u&#xD;&#xA;&#xD;&#xA;%s [0x%.8X]。詳細情報は [Config\Dism++.log] を参考にしてください。"/>
-    <String Target="操作成功，其中成功 %u 个，不适用 %u 个。更多信息请参考 &quot;Config\Dism++.log&quot;" Link="操作完了しました。成功：%u、適用外：%u。&#xD;&#xA;&#xD;&#xA;詳細情報は [Config\Dism++.log] を参考にしてください。"/>
+    <String Target="处理过程中遇到问题，其中成功 %u 个，失败 %u 个，不适用 %u 个。部分错误信息：%s [0x%.8X] 更多信息请参考 &quot;Config\Dism++.log&quot;" Link="問題が発生しました。&#xD;&#xA;成功：%u、失敗：%u、適用外：%u&#xD;&#xA;失敗関するの情報：%s [0x%.8X]。&#xD;&#xA;&#xD;&#xA;詳細情報は [Config\Dism++.log] を参考にしてください。"/>
+    <String Target="操作成功，其中成功 %u 个，不适用 %u 个。更多信息请参考 &quot;Config\Dism++.log&quot;" Link="操作完了しました。&#xD;&#xA;成功：%u、適用外：%u。&#xD;&#xA;&#xD;&#xA;詳細情報は [Config\Dism++.log] を参考にしてください。"/>
 
     <!--开机启动项-->
     <String Target="开机启动项" Link="スタートアップ"/>
