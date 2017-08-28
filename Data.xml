@@ -6423,6 +6423,30 @@
           </False>
         </System>
       </Item>
+
+      <Item Type="CheckBox" Name="#*禁用SMB1网络协议（by Jhovany200）">
+        <Applicable>
+          <!--仅用于Vista以及Windows 7-->
+          <OSVersion Compare="&lt;=">6.1</OSVersion>
+        </Applicable>
+       <System>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters" Value="SMB1" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters" Value="SMB1" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+         <False>
+           <Activate>
+             <RegWrite Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters" Value="SMB1" Type="REG_DWORD" Data="1"/>
+           </Activate>
+          </False>
+        </System>
+      </Item>
     </Group>
 
     <Group Name="#服务优化">
