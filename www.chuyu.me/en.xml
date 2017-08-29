@@ -35,5 +35,5 @@
   <String Src="%ICP%" Dst=""/>
   <String Src="%Document%" Dst="Dism++ Documentation"/>
   <String Src="%logs%" Dst="Changelog"/>
-  <String Src="%wsuscan2%" Dst="wsusscn2.cab is Dism++ Windows Update database. You can use it by overwriting &quot;Config\wsusscn2.cab&quot;."/>
+  <String Src="%wsuscan2%" Dst="&quot;wsusscn2.cab&quot; is Dism++ Windows Update database. You can use it by overwriting &quot;Config\wsusscn2.cab&quot;."/>
 </Strings>

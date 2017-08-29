@@ -35,5 +35,5 @@
   <String Src="%ICP%" Dst=""/>
   <String Src="%Document%" Dst="Dism++ Dokumente"/>
   <String Src="%logs%" Dst="Änderungen"/>
-  <String Src="%wsuscan2%" Dst="wsusscn2.cab ist die Dism++ Windows Update-Datenbank, mit dieser Datei kann &quot;Config\wsusscn2.cab&quot; überschrieben werden."/>
+  <String Src="%wsuscan2%" Dst="&quot;wsusscn2.cab&quot; ist die Dism++ Windows Update-Datenbank, mit dieser Datei kann &quot;Config\wsusscn2.cab&quot; überschrieben werden."/>
 </Strings>

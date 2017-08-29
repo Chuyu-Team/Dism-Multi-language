@@ -35,5 +35,5 @@
   <String Src="%ICP%" Dst=""/>
   <String Src="%Document%" Dst="Documentation Dism++"/>
   <String Src="%logs%" Dst="Journal des changements"/>
-  <String Src="%wsuscan2%" Dst="wsusscn2.cab est la base de données pour Windows Update utilisée par Dism++, vous pouvez la mettre à jour vous-mêmes et écraser celle installée par défaut dans « Config\wsusscn2.cab »."/>
+  <String Src="%wsuscan2%" Dst="« wsusscn2.cab » est la base de données pour Windows Update utilisée par Dism++, vous pouvez la mettre à jour vous-mêmes et écraser celle installée par défaut dans « Config\wsusscn2.cab »."/>
 </Strings>
