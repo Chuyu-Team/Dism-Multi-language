@@ -2485,7 +2485,7 @@
         </Default>
       </Item>
 
-      <Item Type="Combo" Name="#关闭游戏录制工具（by 、Cloud.）">
+      <Item Type="CheckBox" Name="#关闭游戏录制工具（by 、Cloud.）">
         <Applicable>
           <OSVersion Compare=">=">6.4</OSVersion>
         </Applicable>
