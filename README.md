@@ -26,7 +26,7 @@ Thanks to [EMLVIRUS](https://github.com/EMLVIRUS), Frag, Hexhu, raymai97, mdlgao
 
 ## [Languages/es.xml]
 Spanish Resource
-Thanks to Jhovany200, Oleada, nomemolesteis@gmail.com
+Thanks to Oleada, nomemolesteis@gmail.com, Jhovany200
 
 ## [Languages/fr.xml]
 French Resource
