@@ -97,7 +97,7 @@
     <String Target="重新扫描系统" Link="重新掃描系統"/>
     <String Target="取消所有Compact压缩的文件（存在兼容性问题时使用）" Link="取消所有 Compact 壓縮檔案 (存在相容性問題時使用)"/>
     <String Target="将现有的系统备份为WIM或者ESD（如果文件存在则自动增量到原有文件）。" Link="將現有的系統備份為 WIM 或者 ESD (如果檔案存在則自動增量到原有檔案中)。"/>
-    <String Target="扫描映像是否存在组件存储损坏" Link="掃瞄映像是否存在元件儲存損壞"/>
+    <String Target="扫描映像是否存在组件存储损坏" Link="掃描映像是否存在元件儲存損壞"/>
     <String Target="修复映像中存在的组件存储损坏" Link="修復映像中存在的元件儲存損壞"/>
     <String Target="从现有映像文件（WIM、ESD）恢复系统。" Link="從現有映像檔 (WIM、ESD) 恢復系統。"/>
     <String Target="调整Dism++的设置" Link="調整 Dism++ 的設定"/>
@@ -444,7 +444,7 @@
     <String Target="注册表还原" Link="登錄檔還原"/>
     <String Target="清理时间" Link="清理時間"/>
     <String Target="网络位置" Link="網路位置"/>
-    <String Target="正在扫描第%d个可清理的注册表项。。。" Link="正在掃瞄第 %d 個可清理的登入檔項目..."/>
+    <String Target="正在扫描第%d个可清理的注册表项。。。" Link="正在掃描第 %d 個可清理的登入檔項目..."/>
 
     <!--驅動管理-->
     <String Target="温馨提示：删除关键驱动可能导致计算机无法启动" Link="貼心提醒：刪除關鍵驅動可能導致電腦無法啟動"/>
