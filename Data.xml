@@ -2215,34 +2215,34 @@
         <Current>
           <State>
             <Applicable>
-              <RegExist Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled" Type="REG_DWORD" Data="1"/>
+              <RegExist Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled" Type="REG_DWORD" Data="0"/>
             </Applicable>
           </State>
           <True>
-            <Activate Restart="Explorer">
-              <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled" Type="REG_DWORD" Data="1"/>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled" Type="REG_DWORD" Data="0"/>
             </Activate>
           </True>
           <False>
-            <Activate Restart="Explorer">
-              <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled"  Type="REG_DWORD" Data="0"/>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled"  Type="REG_DWORD" Data="1"/>
             </Activate>
           </False>
         </Current>
         <Default>
           <State>
             <Applicable>
-              <RegExist Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled" Type="REG_DWORD" Data="1"/>
+              <RegExist Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled" Type="REG_DWORD" Data="0"/>
             </Applicable>
           </State>
           <True>
             <Activate>
-              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled" Type="REG_DWORD" Data="1"/>
+              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled" Type="REG_DWORD" Data="0"/>
             </Activate>
           </True>
           <False>
             <Activate>
-              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled" Type="REG_DWORD" Data="0"/>
+              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled" Type="REG_DWORD" Data="1"/>
             </Activate>
           </False>
         </Default>
