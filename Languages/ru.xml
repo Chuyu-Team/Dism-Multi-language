@@ -47,7 +47,7 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
       <String Target="重新载入" Link="Перезагрузить"/>
       <String Target="格式转换" Link="Преобразование форматов"/>
       <String Target="ESD解密" Link="Расшифровка ESD"/>
-    <String Target="取消任务&#9;Ctrl+Break" Link="Отменить задачу&#x9;Ctrl+Break"/>
+    <String Target="取消任务&#9;Ctrl+Break" Link="Отменить задание&#x9;Ctrl+Break"/>
 
     <String Target="恢复功能(&amp;R)" Link="Восстановление (&amp;R)"/>
       <String Target="系统修复" Link="Восстановление системы"/>
@@ -120,7 +120,7 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <String Target="临时目录可用空间不足5GB，这可能导致Dism++无法正常运行，推荐将Dism++复制到可用空间大于5GB的驱动器，然后继续。" Link="Во временной папке менее 5Гб свободного места, что может привести к некорректной работе Dism++. Рекомендуется скопировать Dism++ на диск более с чем 5Гб свободного места и затем продолжить."/>
     <String Target="基础支撑库缺失，引导修复相关功能无法使用。" Link="Основная библиотека поддержки отсутствует. Связанные функции исправления загрузки не могут быть использованы."/>
     <String Target="Dism++需要管理员权限才能运行，请右键 以管理员身份运行 然后继续。" Link="Вам требуются права администратора для запуска Dism++. Нажмите правую клавишу мыши и выберите 'Запуск от имени Администратора' для продолжения."/>
-    <String Target="Dism++不允许以兼容模式启动，请去除兼容模式，然后再启动Dism++。" Link="Dism++ не поддерживает режим совместимости, отключите режим совместимости, а затем запустите Dism++."/>
+    <String Target="Dism++不允许以兼容模式启动，请去除兼容模式，然后再启动Dism++。" Link="Dism++ не поддерживает режим совместимости. Отключите режим совместимости, а затем запустите Dism++."/>
 
     <String Target="你需要增量保存还是直接保存？" Link="Выполнить прямое или инкрементное сохранение?"/>
     <String Target="温馨提示：保存映像后空间不会减少，如果需要减少空间请重新编译目标文件。" Link="Совет: после сохранения образа его размер не будет изменен. Перекомпилируйте целевой файл для уменьшения его размера."/>
@@ -444,7 +444,7 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <String Target="注册表还原" Link="Восстановление реестра"/>
     <String Target="清理时间" Link="Время очистки"/>
     <String Target="网络位置" Link="網路位置"/>
-    <String q="" Target="正在扫描第%d个可清理的注册表项。。。" qLink=""/>
+    <String Target="正在扫描第%d个可清理的注册表项。。。" Link="Очищаемый раздел реестра %d проверяется..."/>
 
     <!--驱动管理-->
     <String Target="温馨提示：删除关键驱动可能导致计算机无法启动" Link="Совет: удаление критических драйверов может привести к отказу загрузки компьютера"/>
@@ -475,8 +475,8 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <String Target="正在安装驱动" Link="Установка драйвера(ов)"/>
     <String Target="一个或者多个驱动添加失败，错误代码：0x%.8X" Link="Один или несколько драйверов не удалось добавить. Код ошибки: 0x%.8X"/>
     <String Target="显示内置驱动" Link="Предустановленные"/>
-    <String Target="处理过程中遇到问题，其中成功 %u 个，失败 %u 个，不适用 %u 个。部分错误信息：%s [0x%.8X] 更多信息请参考 &quot;Config\Dism++.log&quot;" qLink=""/>
-    <String Target="操作成功，其中成功 %u 个，不适用 %u 个。更多信息请参考 &quot;Config\Dism++.log&quot;" qLink=""/>
+    <String Target="处理过程中遇到问题，其中成功 %u 个，失败 %u 个，不适用 %u 个。部分错误信息：%s [0x%.8X] 更多信息请参考 &quot;Config\Dism++.log&quot;" Link="Возникли проблемы при обработке. %u успешно, %u отказ и %u не применимо. Частичные сведения об ошибке:%s [0x%.8X]. Для дополнительных сведений обратитесь к &quot;Config\Dism++.log&quot;"/>
+    <String Target="操作成功，其中成功 %u 个，不适用 %u 个。更多信息请参考 &quot;Config\Dism++.log&quot;" Link="Операция выполнена успешно. %u успешно %u не применимо. Для дополнительных сведений обратитесь к &quot;Config\Dism++.log&quot;"/>
 
     <!--开机启动项-->
     <String Target="开机启动项" Link="Автозагрузка"/>
@@ -524,7 +524,7 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <!--应用程序-->
     <String Target="更改" Link="Изменить"/>
     <String Target="通用安装脚本" Link="Общий сценарий установки"/>
-    <String Target="%s 已经安装，你确定要继续吗？" Link="%s eже установлены, вы уверены, что хотите продолжить?"/>
+    <String Target="%s 已经安装，你确定要继续吗？" Link="%s уже установлен. Вы уверены, что хотите продолжить?"/>
 
     <!--添加删除更新-->
     <String Target="未知" Link="Неизвестно"/>
@@ -555,7 +555,7 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <String Target="添加" Link="Добавить"/>
     <String Target="语言" Link="Язык"/>
     <String Target="Windows %s 语言包" Link="Языковой пакет Windows %s"/>
-    <String Target="重启生效" Link="Перезагрузка"/>
+    <String Target="重启生效" Link="Требуется перезагрузка"/>
 
     <!--可选功能-->
     <String Target="正在删除可选功能" Link="Удаление возможностей"/>
@@ -610,7 +610,7 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
       Link="Предупреждение %s:&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;Вы уверены, что хотите продолжить?"/>
     <String Target="导出地址" Link="Копия URL"/>
     <String Target="补丁下载地址已经成功复制到剪切板。" Link="Адрес загрузки исправления был успешно скопирован в буфер."/>
-    <String Target="安装%d%%" Link="Установка%d%%"/>
+    <String Target="安装%d%%" Link="Устанавливается %d%%"/>
 
     <!--区域和语言-->
     <String Target="区域和语言" Link="Регион и язык"/>
@@ -821,11 +821,11 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Отключить предпросмотр изображений аудиофайлов для улучшения времени отклика Проводника (by MoWangMoShi)"/>
     <String Target="关闭打开程序的“安全警告”（by 莫失莫忘）" Link="Отключить 'Предупреждение системы безопасности' при открытии программ (by MoWangMoShi)"/>
     <String Target="关闭在应用商店中查找关联应用（by Asoft）" Link="Отключить поиск для связанных приложений в Магазине Windows (by Asoft)"/>
-    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="Скрыть в проводнике Видео, Изображения, Документы, Загрузки, Музыка, Рабочий стол, Объемные объекты (by 、Cloud)"/>
-    <String Target="禁止自动安装推荐的应用程序（by IT之家）" Link="Запретить автоматическую установку рекомендуемых приложений (by ITHome)"/>
-    <String q="" Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="Disable Windows Focus on lock screen (by 、Cloud.)"/>
+    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="Скрыть Видеозаписи, Изображения, Документы, Загрузки, Музыка, Рабочий стол, 3D Объекты в Компьютере (by 、Cloud)"/>
+    <String Target="禁止自动安装推荐的应用程序（by IT之家）" Link="Запретить установку рекомендуемых приложений автоматически (by ITHome)"/>
+    <String q="" Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="Отключить фокус Windows на экране блокировки (by 、Cloud.)"/>
     <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="Отключить советы, подсказки и рекомендации при использовании Windows (by Cloud.)"/>
-    <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Скрыть контакты на панели задач (by Cloud.)"/>
+    <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Скрыть &quot;Контакты&quot; на панели Задач (by Cloud.)"/>
 
     <!--开始菜单-->
     <String Target="开始菜单以及Windows体验" Link=" Меню Пуск и индекс производительности Windows"/>
@@ -847,8 +847,8 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <String Target="禁用磁盘的“复制磁盘”右键菜单" Link="Отключить 'Копировать диск' в контекстном меню дисков"/>
     <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="Отключить 'Общий доступ' в контекстном меню  файлов, папок, Рабочего стола и дисков"/>
     <String Target="禁用桌面的“小工具”右键菜单" Link="Отключить 'Гаджеты' в контекстном меню Рабочего стола"/>
-    <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Отключить пункт контекстного меню файла &quot;View 3D&quot; (by Cloud)"/>
-    <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Отключить пункт контекстного меню файла &quot;Paint 3D&quot; (by Cloud)"/>
+    <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Отключить пункт контекстного меню файла &quot;Просмотр 3D&quot; (by Cloud)"/>
+    <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Отключить пункт контекстного меню файла &quot;Рисование 3D&quot; (by Cloud)"/>
 
     <!--桌面图示管理-->
     <String Target="桌面图标管理" Link="Управление значками Рабочего стола"/>
@@ -881,7 +881,7 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
 
     <String Target="针对增强保护模式启用64位进程" Link="Включить 64-разрядные процессы для усиленного режима безопасности"/>
 
-    <String Target="隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）" Link="Скрыть кнопку обратной связи смайлика в верхнем правом углу Internet Explorer (by ITHome)"/>
+    <String Target="隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）" Link="Скрыть кнопку обратной связи в верхнем правом углу Internet Explorer (by ITHome)"/>
 
     <!--Microsoft Edge-->
     <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Предотвратить показ страницы &quot;Первый запуск&quot; при первом открытии Microsoft Edge (by ITHome)"/>
