@@ -388,7 +388,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="打开会话" Link="Abrir sesión"/>
     <String Target="正在打开会话" Link="Abriendo sesión"/>
     <String q="" Target="当前系统至少为Windows 8/2012才能正常处理此系统。如果你继续进行，那么打开关闭功能、添加删除更新均可能出现意外失败。" Link="La versión del SO debe ser al menos Windows 8/2012. Si continúa con una versión inferior del SO, las funciones como abrir, cerrar, agregar, eliminar o actualizar pueden no funcionar correctamente."/>
-    <String q="" Target="映像路径存在非英文字符可能导致安装更新失败，请在全英文路径重新挂载此映像，比如“D:\Mount”。" Link="La ruta de la imagen existente con caracteres que no son ASCII puede causar un fallo al instalar la actualización, vuelva a cargar la imagen ASCII con la ruta completa, por ejemplo &quot;D:\Montar&quot;."/>
+    <String q="" Target="映像路径存在非英文字符可能导致安装更新失败，请在全英文路径重新挂载此映像，比如“D:\Mount”。" Link="La ruta de la imagen existente con caracteres que no son ASCII puede causar un error al instalar la actualización, vuelva a cargar la ruta completa de la imagen con ASCII, por ejemplo &quot;D:\Montar&quot;."/>
 
     <String Target="常用工具" Link="Utilidades"/>
       <String Target="空间回收" Link="Limpiar disco"/>
