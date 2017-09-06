@@ -120,7 +120,7 @@ Special thanks to OldMac, Schooli, 阿泽西
     <String Target="临时目录可用空间不足5GB，这可能导致Dism++无法正常运行，推荐将Dism++复制到可用空间大于5GB的驱动器，然后继续。" Link="임시 디렉터리 공간이 5GB보다 작으면 Dism++ 프로그램이 제대로 작동하지 않을 수 있습니다. Dism++ 프로그램을 5GB 이상의 여유가 있는 드라이브에 복사하여 실행할 것을 권장합니다."/>
     <String Target="基础支撑库缺失，引导修复相关功能无法使用。" Link="기본으로 지원하는 라이브러리가 부족하여 부트 복구 관련 기능을 사용할 수 없습니다."/>
     <String Target="Dism++需要管理员权限才能运行，请右键 以管理员身份运行 然后继续。" Link="Dism++는 관리자권한으로만 실행이 가능합니다. 오른쪽 마우스를 클릭하여 관리자권한으로 실행하시길 바랍니다."/>
-    <String q="" Target="Dism++不允许以兼容模式启动，请去除兼容模式，然后再启动Dism++。" Link="Dism++ doesn't allow compatibility mode. Restart Dism++ after disable it."/>
+    <String Target="Dism++不允许以兼容模式启动，请去除兼容模式，然后再启动Dism++。" Link="Dism++는 호환성 모드를 허용하지 않습니다. 비활성화 한 후 Dism++ 다시 시작하십시오."/>
 
     <String Target="你需要增量保存还是直接保存？" Link="수정작업을 마운트 Wim에 새롭게 이미지를 추가하거나, 마운트한 이미지에 수정사항을 반영합니다."/>
     <String Target="温馨提示：保存映像后空间不会减少，如果需要减少空间请重新编译目标文件。" Link="주의 : 저장한 이미지 용량은 줄어들지 않습니다. 용량을 줄이려면 대상 파일을 다시 편집해주십시오."/>
@@ -397,7 +397,7 @@ Special thanks to OldMac, Schooli, 阿泽西
       <String Target="Appx管理" Link="Appx 관리"/>
 
     <String Target="驱动管理" Link="드라이버 관리"/>
-    <String q="" Target="程序和功能" Link="Apps and Features"/>
+    <String Target="程序和功能" Link="응용 프로그램 및 기능"/>
     <String Target="Windows服务" Link="Windows 서비스"/>
     <String Target="Windows功能" Link="Windows 기능"/>
       <String Target="更新管理" Link="업데이트 관리"/>
@@ -446,7 +446,7 @@ Special thanks to OldMac, Schooli, 阿泽西
     <String Target="注册表还原" Link="레지스트리 복원"/>
     <String Target="清理时间" Link="정리 시간"/>
     <String Target="网络位置" Link="네트워크 위치"/>
-    <String q="" Target="正在扫描第%d个可清理的注册表项。。。" Link="Scanning num. %d register item to be cleaned..."/>
+    <String Target="正在扫描第%d个可清理的注册表项。。。" Link="S%d 검색된 레지스트리 항목을 정리…"/>
 
     <!--驱动管理-->
     <String Target="温馨提示：删除关键驱动可能导致计算机无法启动" Link="주의: 중요한 드라이버를 삭제하면 컴퓨터가 제대로 작동하지 않을 수 있습니다."/>
@@ -477,8 +477,8 @@ Special thanks to OldMac, Schooli, 阿泽西
     <String Target="正在安装驱动" Link="드라이버 설치 중"/>
     <String Target="一个或者多个驱动添加失败，错误代码：0x%.8X" Link="하나 이상의 드라이버 추가 실패, 오류 코드: 0x%.8X"/>
     <String Target="显示内置驱动" Link="내장 드라이버 보이기"/>
-    <String Target="处理过程中遇到问题，其中成功 %u 个，失败 %u 个，不适用 %u 个。部分错误信息：%s [0x%.8X] 更多信息请参考 &quot;Config\Dism++.log&quot;" qLink=""/>
-    <String Target="操作成功，其中成功 %u 个，不适用 %u 个。更多信息请参考 &quot;Config\Dism++.log&quot;" qLink=""/>
+    <String q="" Target="处理过程中遇到问题，其中成功 %u 个，失败 %u 个，不适用 %u 个。部分错误信息：%s [0x%.8X] 更多信息请参考 &quot;Config\Dism++.log&quot;" Link="Met problem(s) during processing. Success %u, failure %u, not applicable %u. Some of the error: %s [0x%.8X]. Refer to &quot;Config\Dism++.log&quot; for more information."/>
+    <String q="" Target="操作成功，其中成功 %u 个，不适用 %u 个。更多信息请参考 &quot;Config\Dism++.log&quot;" Link="Operation succeeded. Success %u, not applicable %u. Refer to &quot;Config\Dism++.log&quot; for more information."/>
 
     <!--开机启动项-->
     <String Target="开机启动项" Link="부팅 시작 항목"/>
@@ -524,9 +524,9 @@ Special thanks to OldMac, Schooli, 阿泽西
     <String Target="请在此输入本地源" Link="여기에 로컬소스를 입력하여 주십시오"/>
 
     <!--应用程序-->
-    <String q="" Target="更改" Link="Modify"/>
-    <String q="" Target="通用安装脚本" Link="Universal installation scripts"/>
-    <String q="" Target="%s 已经安装，你确定要继续吗？" Link="%s is installed already. Sure to proceed?"/>
+    <String Target="更改" Link="수정"/>
+    <String Target="通用安装脚本" Link="범용 설치 스크립트"/>
+    <String Target="%s 已经安装，你确定要继续吗？" Link="%s이(가) 이미 설치되어 있습니다. 계속 하시겠습니까?"/>
 
     <!--添加删除更新-->
     <String Target="未知" Link="알수 없음"/>
@@ -557,7 +557,7 @@ Special thanks to OldMac, Schooli, 阿泽西
     <String Target="添加" Link="추가"/>
     <String Target="语言" Link="언어"/>
     <String Target="Windows %s 语言包" Link="Windows %s 언어팩"/>
-    <String q="" Target="重启生效" Link="Request Restart"/>
+    <String Target="重启生效" Link="재시작 요청"/>
 
     <!--可选功能-->
     <String Target="正在删除可选功能" Link="선택기능 삭제 중"/>
@@ -612,7 +612,7 @@ Special thanks to OldMac, Schooli, 阿泽西
       Link="%s 주의:&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;계속 진행하시겠습니까?"/>
     <String Target="导出地址" Link="다운URL 복사"/>
     <String Target="补丁下载地址已经成功复制到剪切板。" Link="업데이트 패키지 다운로드 주소가 성공적으로 클립보드에 복사되었습니다."/>
-    <String Target="安装%d%%" Link="설치 중 %d%%"/>
+    <String Target="安装%d%%" Link="설치 중%d%%"/>
 
     <!--区域和语言-->
     <String Target="区域和语言" Link="국가 및 언어"/>
@@ -775,7 +775,7 @@ Special thanks to OldMac, Schooli, 阿泽西
 
     <String Target="使任务栏更透明（by 518516.net）" Link="작업표시줄 투명하게 사용 (by 518516.net)"/>
 
-    <String q="" Target="不允许在开始菜单显示建议" Link="Disable suggestions in Start Menu"/>
+    <String Target="不允许在开始菜单显示建议" Link="시작 메뉴에서 추천(제안) 사용 안함"/>
 
     <String Target="在桌面显示我的电脑（by Rambin）" Link="바탕화면에 내 컴퓨터 보이기 (by Rambin)"/>
       <String Target="跟随系统" Link="시스템 따라가기"/>
@@ -823,14 +823,14 @@ Special thanks to OldMac, Schooli, 阿泽西
     <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="음악파일 이미지 미리 보기 닫고 탐색기 응답 속도를 높이다 (by MoWangMoShi)"/>
     <String Target="关闭打开程序的“安全警告”（by 莫失莫忘）" Link="열린 프로그램 &quot;보안 경고&quot; 닫기 (by MoWangMoShi)"/>
     <String Target="关闭在应用商店中查找关联应用（by Asoft）" Link="스토어에서 앱관련 응용프로그램 검색 비활성화 (by Asoft)"/>
-    <String q="" Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="Hide Videos, Pictures, Documents, Download, Music, Desktop, 3D Object in Computer (by 、Cloud)"/>
-    <String q="" Target="禁止自动安装推荐的应用程序（by IT之家）" Link="Disable installing recommmeded apps autoly (by ITHome)"/>
-    <String q="" Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="Disable Windows Focus on lock screen (by 、Cloud.)"/>
-    <String q="" Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="Disable &quot;Get suggestions when using Windows&quot; (by 、Cloud.)"/>
-    <String q="" Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Hide People on Task Bar (by 、Cloud)"/>
+    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="내 PC에서 &quot;비디오, 사진, 문서, 다운로드, 음악, 바탕 화면, 3D 개체&quot; 숨기기 (by Cloud)"/>
+    <String Target="禁止自动安装推荐的应用程序（by IT之家）" Link="추천 앱의 자동설치를 해제 (by ITHome)"/>
+    <String Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="잠금 화면에서 Windows 포커스 사용 안함 (by Cloud)"/>
+    <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="&quot;Windows를 사용할 때 추천&quot; 사용 안함 (by Cloud)"/>
+    <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="작업 표시줄에 &quot;사람 아이콘&quot; 숨기기 (by Cloud)"/>
 
     <!--开始菜单-->
-    <String q="" Target="开始菜单以及Windows体验" Link="Start&amp;Windows Experience"/>
+    <String Target="开始菜单以及Windows体验" Link="시작 및 Windows 경험"/>
 
     <!--右键菜单管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="오른쪽메뉴 관리 - 필요하지 않은 메뉴를 비활성화하여 응답 속도를 높이다"/>
@@ -849,8 +849,8 @@ Special thanks to OldMac, Schooli, 阿泽西
     <String Target="禁用磁盘的“复制磁盘”右键菜单" Link="오른쪽메뉴 디스크에 &quot;디스크 복사&quot; 를 사용하지 않기"/>
     <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="오른쪽메뉴 파일/폴더/바탕화면/디스크 및 라이브러리 &quot;공유&quot; 를 사용하지 않기"/>
     <String Target="禁用桌面的“小工具”右键菜单" Link="오른쪽메뉴 바탕화면에 &quot;작은도구&quot; 를 사용하지 않기"/>
-    <String q="" Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Disable file context menu item &quot;View 3D&quot; (by Cloud)"/>
-    <String q="" Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Disable file context menu item &quot;Paint 3D&quot; (by Cloud)"/>
+    <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="우클릭 메뉴에서 &quot;View 3D&quot; 사용 안함  (by Cloud)"/>
+    <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="우클릭 메뉴에서 &quot;그림판 3D&quot; 사용 안함  (by Cloud)"/>
 
     <!--桌面图示管理-->
     <String Target="桌面图标管理" Link="바탕화면 아이콘 관리"/>
@@ -883,10 +883,10 @@ Special thanks to OldMac, Schooli, 阿泽西
 
     <String Target="针对增强保护模式启用64位进程" Link="64비트 프로세스에 대한 증강보호모드 사용"/>
 
-    <String q="" Target="隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）" Link="Hide Feedback smiley in Internet Explorer (by ITHome)"/>
+    <String Target="隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）" Link="Internet Explorer 오른쪽 상단의 &quot;스마일&quot; 표시 숨기기 (by ITHome)"/>
 
     <!--Microsoft Edge-->
-    <String q="" Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Prevent Microsoft Edge from opening &quot;First Running&quot; (by ITHome)"/>
+    <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Microsoft Edge &quot;첫 번째 실행&quot; 을 열지 못하게 함 (by ITHome)"/>
 
     <!--微软拼音输入法-->
     <String Target="微软拼音输入法" Link="Microsoft 병음입력기"/>
@@ -995,7 +995,7 @@ Special thanks to OldMac, Schooli, 阿泽西
 
     <String Target="Windows 照片查看器" Link="Windows Photo Viewer 설정"/>
     <String Target="Windows主题相关设置" Link="Windows 테마 설정"/>
-    <String q="" Target="任务栏相关设置" Link="Taskbar settings"/>
+    <String Target="任务栏相关设置" Link="작업표시줄 설정"/>
     <String Target="关闭商店应用推广（by 、Cloud.）" Link="Windows 스토어에서 광고를 사용하지 않도록 설정 (by 、Cloud.)"/>
     <String Target="关闭多嘴的小娜（by 朽木）" Link="Cortana 미사용 (by XiuMu)"/>
     <String Target="关闭游戏录制工具（by 、Cloud.）" Link="게임레코더 사용 안함 (by 、Cloud.)"/>
