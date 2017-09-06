@@ -387,6 +387,8 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
     <String Target="为了优化性能，你需要手动打开会话。" Link="W celu zoptymalizowania wydajności, należy ręcznie otworzyć sesję."/>
     <String Target="打开会话" Link="Otwórz sesję"/>
     <String Target="正在打开会话" Link="Otwieranie sesji"/>
+    <String q="" Target="当前系统至少为Windows 8/2012才能正常处理此系统。如果你继续进行，那么打开关闭功能、添加删除更新均可能出现意外失败。" Link="Host Virson should be at least Windows 8/2012. If you continue in host of a lower version, functions like open, close, add, delete, update may not work properly."/>
+    <String q="" Target="映像路径存在非英文字符可能导致安装更新失败，请在全英文路径重新挂载此映像，比如“D:\Mount”。" Link="The image path exists non-ASCII characters may cause the install update to fail, please reload the image in full ASCII path, such as &quot;D:\Mount&quot;."/>
 
     <String Target="常用工具" Link="Narzędzia użytkowe"/>
       <String Target="空间回收" Link="Oczyszczanie"/>
@@ -926,6 +928,8 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
 
     <String Target="*关闭远程协助（by 原罪）" Link="Wyłącz Pomoc zdalną (by YZ)"/>
 
+    <String q="" Target="*禁用SMB1网络协议（by Jhovany200）" Link="*Disallow SMB1 network protocol (by Jhovany200)"/>
+    
     <!--服务优化-->
     <String Target="服务优化" Link="Usługi"/>
     <String Target="禁用程序兼容性助手（by 一叶微风TM）" Link="Wyłącz usługę kompatybilności asystenta (by YiYieWeiFeng TM)"/>
@@ -1364,12 +1368,10 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
     <xA0020006>Obecny system nie posiada wsparcia WOW64 nie obsługuje systemu 64 bitowego spoza offline.</xA0020006>
     <xA0020007>Wymagane CBSHost.dll nie istnieje. Należy zapewnić integralność Dism++.</xA0020007>
     <xA0020008>rundll32.exe brakujący. Dism++ nie można uruchomić.</xA0020008>
-    <xA0020009>Awaria ism++ sesji. Sugerują kompresję i wysłać "CBSHost _ *. DMP" do mingkunag@live.com aby móc rozwiązać ten problem.</xA0020009>
+    <xA0020009 q="">Awaria ism++ sesji. Sugerują kompresję i wysłać "CBSHost _ *. DMP" do mingkunag@live.com aby móc rozwiązać ten problem.</xA0020009>
     <xA002000A>Dism++ wykrył jakiś problem ze zgodnością. Proszę zainstalować poprawkę KB960037, a następnie kontynuować.</xA002000A>
 
     <x20020001>Brak domyślnego pliku konfiguracji skojarzenie w tym obrazie. Nie można wyeksportować.</x20020001>
-    <x20020002>Znaleziono znany problem ze zgodnością. Host ten powinien być co najmniej system Windows 8/2012 sobie z tym poradzić. Jeśli będziesz kontynuować praca w starszej wersji, funkcje takie jak otwieranie, zamykanie, dodawanie, usuwanie, aktualizacja może nie działać prawidłowo.</x20020002>
-    <x20020003>Dism++ znalezł problem z kompatybilnością, ścieżka obrazu zawiera znaki inne niż ASCII, które mogą spowodować niepowodzenie aktualizacji instalacji, należy ponownie załadować obraz w pełnej ścieżce ASCII, na przykład "D: \ Mount".</x20020003>
 
     <xC1440136>Sterownik (Wofadk.sys) nie został załadowany. Proszę zaznaczyć "pracę Load" w Opcje - Więcej ustawień, aby kontynuować.</xC1440136>
     <xC144013B>Sterownik (Wofadk.sys) nie został załadowany. Proszę zaznaczyć "pracę Load" w Opcje - Więcej ustawień, aby kontynuować.</xC144013B>

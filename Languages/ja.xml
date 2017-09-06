@@ -387,6 +387,8 @@ Special Thanks to 山形まり花
     <String Target="为了优化性能，你需要手动打开会话。" Link="パフォーマンスを最適し、セッションを手動開くでください。"/>
     <String Target="打开会话" Link="セッションを開く"/>
     <String Target="正在打开会话" Link="セッションを開く中"/>
+    <String q="" Target="当前系统至少为Windows 8/2012才能正常处理此系统。如果你继续进行，那么打开关闭功能、添加删除更新均可能出现意外失败。" Link="Host Virson should be at least Windows 8/2012. If you continue in host of a lower version, functions like open, close, add, delete, update may not work properly."/>
+    <String q="" Target="映像路径存在非英文字符可能导致安装更新失败，请在全英文路径重新挂载此映像，比如“D:\Mount”。" Link="The image path exists non-ASCII characters may cause the install update to fail, please reload the image in full ASCII path, such as &quot;D:\Mount&quot;."/>
 
     <String Target="常用工具" Link="ユーティリティ"/>
       <String Target="空间回收" Link="クリーンアップ"/>
@@ -926,6 +928,8 @@ Special Thanks to 山形まり花
 
     <String Target="*关闭远程协助（by 原罪）" Link="*リモート アシスタンスの接続無効化 (by YZ)"/>
 
+    <String q="" Target="*禁用SMB1网络协议（by Jhovany200）" Link="*Disallow SMB1 network protocol (by Jhovany200)"/>
+
     <!--服务优化-->
     <String Target="服务优化" Link="サービス"/>
     <String Target="禁用程序兼容性助手（by 一叶微风TM）" Link="プログラムの互換性支援サービス無効化 (by YiYieWeiFeng TM)"/>
@@ -1364,12 +1368,10 @@ Special Thanks to 山形まり花
     <xA0020006>このシステムは Wow64 のサポートしません、非 64 ビット システムはオフライン ハンドルできません。</xA0020006>
     <xA0020007>必要なファイル CBSHost.dll は存在しません。Dism++ の整合性を確認ください。</xA0020007>
     <xA0020008>rundll32.exe は存在しません。Dism++ は実行できません。</xA0020008>
-    <xA0020009>Dism++ のセッションはクラッシュしました。解決策ために、[CBSHost_*.dmp] を圧縮と添付して、mingkuang@live.com へ送信するください。</xA0020009>
+    <xA0020009 q="">Dism++ のセッションはクラッシュしました。解決策ために、[CBSHost_*.dmp] を圧縮と添付して、mingkuang@live.com へ送信するください。</xA0020009>
     <xA002000A>Dism++ は既知の互換性の問題が検出されました、続行して、KB960037をインストールしてください。</xA002000A>
 
     <x20020001>このイメージの既定の関連付けは存在しません、エクスポートは利用できません。</x20020001>
-    <x20020002>Dism++は以下の問題が見つかりました:正常にシステムを操作するために、hostはWindows 8/2012と以上の必要があります。もし低バージョンのhostを使用し続ければ、[オン / オフ 機能] と [インストール / アップデート / アンインストール] には意外の問題が発生の可能性があります。</x20020002>
-    <x20020003>Dism++ は既知の互換性問題を発見された、イメージのパスは英字以外を含むで更新をインストール失敗可能性があります、英字のみパスにこのイメージを再マウントください。（例：D:\Mount）</x20020003>
 
     <xC1440136>wof ドライバーはロードしません、続行して、[オプション] - [もっと設定] - [WofAdk ドライバーの読込] を [オン] してください。</xC1440136>
     <xC144013B>wof ドライバーはロードしません、続行して、[オプション] - [もっと設定] - [WofAdk ドライバーの読込] を [オン] してください。</xC144013B>

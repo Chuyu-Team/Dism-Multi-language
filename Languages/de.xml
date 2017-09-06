@@ -387,6 +387,8 @@ Special Thanks to franz@drwindows.de
     <String Target="为了优化性能，你需要手动打开会话。" Link="Um die Performance zu optimieren, muss eine Sitzung manuell geöffnet werden."/>
     <String Target="打开会话" Link="Sitzung öffnen"/>
     <String Target="正在打开会话" Link="Sitzung wird geöffnet"/>
+    <String q="" Target="当前系统至少为Windows 8/2012才能正常处理此系统。如果你继续进行，那么打开关闭功能、添加删除更新均可能出现意外失败。" Link="Host Virson should be at least Windows 8/2012. If you continue in host of a lower version, functions like open, close, add, delete, update may not work properly."/>
+    <String q="" Target="映像路径存在非英文字符可能导致安装更新失败，请在全英文路径重新挂载此映像，比如“D:\Mount”。" Link="The image path exists non-ASCII characters may cause the install update to fail, please reload the image in full ASCII path, such as &quot;D:\Mount&quot;."/>
 
     <String Target="常用工具" Link="Werkzeuge"/>
       <String Target="空间回收" Link="Festplattenbereinigung"/>
@@ -821,7 +823,7 @@ Special Thanks to franz@drwindows.de
     <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Windows Explorer beschleunigen - Audiovorschau deaktiveren (by MoWangMoShi)"/>
     <String Target="关闭打开程序的“安全警告”（by 莫失莫忘）" Link="Sicherheitshinweis beim Öffnen von Programmen verhindern (by MoWangMoShi) "/>
     <String Target="关闭在应用商店中查找关联应用（by Asoft）" Link="Suche nach verwandten Appxs im Windows Store verhindern (by Asoft)"/>
-    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link=" Videos, Bilder, Dokumente, Downloads, Musik, Desktop, 3D Objekte in &quot;Dieser PC&quot; ausblenden (by 、Cloud)"/>
+    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="Videos, Bilder, Dokumente, Downloads, Musik, Desktop, 3D Objekte in &quot;Dieser PC&quot; ausblenden (by 、Cloud)"/>
     <String Target="禁止自动安装推荐的应用程序（by IT之家）" Link="Automatische Installation von empfohlenen Apps deaktivieren (by ITHome)"/>
     <String Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="Den Windows-Fokus (geöffnete Verzeichnisse od. Programme) am Lockscreen deaktivieren (by 、Cloud.)"/>
     <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="&quot;Bei der Nutzung von Windows Tipps, Tricks und Vorschläge erhalten&quot; deaktivieren (by 、Cloud.)"/>
@@ -925,7 +927,9 @@ Special Thanks to franz@drwindows.de
       <String Target="此选项将降低计算机安全性，请确保你已经安装第三方防火墙软件！" Link="Diese Einstellung stellt ein Sicherheitsrisiko dar. Überprüfen Sie, ob eine andere Firewall aktiv ist!"/>
 
     <String Target="*关闭远程协助（by 原罪）" Link="*Windows Remote-Unterstützungsverbindungen nicht zulassen (by YZ)"/>
-
+    
+    <String q="" Target="*禁用SMB1网络协议（by Jhovany200）" Link="*Disallow SMB1 network protocol (by Jhovany200)"/>
+    
     <!--服务优化-->
     <String Target="服务优化" Link="Windows Dienste"/>
     <String Target="禁用程序兼容性助手（by 一叶微风TM）" Link="Programmkompatibilitäts-Assistent-Dienst deaktivieren (by YiYieWeiFeng TM)"/>
@@ -1364,12 +1368,10 @@ Special Thanks to franz@drwindows.de
     <xA0020006>Das aktuelle Betriebssystem besitzt keine WoW64-Unterstützung, Nicht-64bit-Systeme können offline nicht bearbeitet werden.</xA0020006>
     <xA0020007>CBSHost.dll kann nicht gefunden werden. Bitte Dism++ auf Fehler überprüfen.</xA0020007>
     <xA0020008>rundll32.exe kann nicht gefunden werden. Dism++ kann nicht gestartet werden.</xA0020008>
-    <xA0020009>Die Dism++ Sitzung ist abgestürzt. Vorschlag: Komprimieren Sie die Datei "CBSHost_*.dmp" und senden Sie sie an mingkuang@live.com, um Support bei der Problembehandlung zu erhalten.</xA0020009>
+    <xA0020009 q="">Die Dism++ Sitzung ist abgestürzt. Vorschlag: Komprimieren Sie die Datei "CBSHost_*.dmp" und senden Sie sie an mingkuang@live.com, um Support bei der Problembehandlung zu erhalten.</xA0020009>
     <xA002000A>Dism++ entdeckte ein Kompatibilitätsproblem. Bitte den Patch KB960037 installieren und fortsetzen.</xA002000A>
 
     <x20020001>Keine Konfiguration der vorgegebenen Dateizuordnungen (OEMDefaultAssociations.xml) im aktuellen Image gefunden. Export der Datei nicht möglich.</x20020001>
-    <x20020002>Bekanntes Kompatibilitätsproblem entdeckt. Es wird mindestens Windows 8/2012 benötigt, um den Fehler zu beheben. Wird mit einer niedrigeren Version weitergearbeitet, können Funktionen wie Öffnen, Schließen, Hinzufügen, Löschen, Aktualisieren nicht mehr richtig ausgeführt werden.</x20020002>
-    <x20020003>Dism++ hat ein Problem festgestellt. Der Image-Pfad enthält non-ASCII Zeichen. Dadurch kann die Update-Installation fehlschlagen. Bitte starten Sie das Image erneut in einem vollständigen ASCII-Pfad, wie z.B. "D:\Imagename".</x20020003>
 
     <xC1440136>Der Treiber (Wofadk.sys) konnte nicht gestartet werden. Bitte die Option "wofadk laden" in den Einstellungen - Weitere Einstellungen auswählen um forzufahren.</xC1440136>
     <xC144013B>Der Treiber (Wofadk.sys) konnte nicht gestartet werden. Bitte die Option "wofadk laden" in den Einstellungen - Weitere Einstellungen auswählen um forzufahren.</xC144013B>

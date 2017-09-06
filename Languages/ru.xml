@@ -387,6 +387,8 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <String Target="为了优化性能，你需要手动打开会话。" Link="В целях оптимизации производительности необходимо открыть сессию вручную."/>
     <String Target="打开会话" Link="Открыть сессию"/>
     <String Target="正在打开会话" Link="Открытие сессии"/>
+    <String q="" Target="当前系统至少为Windows 8/2012才能正常处理此系统。如果你继续进行，那么打开关闭功能、添加删除更新均可能出现意外失败。" Link="Host Virson should be at least Windows 8/2012. If you continue in host of a lower version, functions like open, close, add, delete, update may not work properly."/>
+    <String q="" Target="映像路径存在非英文字符可能导致安装更新失败，请在全英文路径重新挂载此映像，比如“D:\Mount”。" Link="The image path exists non-ASCII characters may cause the install update to fail, please reload the image in full ASCII path, such as &quot;D:\Mount&quot;."/>
 
     <String Target="常用工具" Link="Инструменты"/>
       <String Target="空间回收" Link="Очистка"/>
@@ -823,7 +825,7 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <String Target="关闭在应用商店中查找关联应用（by Asoft）" Link="Отключить поиск для связанных приложений в Магазине Windows (by Asoft)"/>
     <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="Скрыть Видеозаписи, Изображения, Документы, Загрузки, Музыка, Рабочий стол, 3D Объекты в Компьютере (by 、Cloud)"/>
     <String Target="禁止自动安装推荐的应用程序（by IT之家）" Link="Запретить установку рекомендуемых приложений автоматически (by ITHome)"/>
-    <String q="" Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="Отключить фокус Windows на экране блокировки (by 、Cloud.)"/>
+    <String Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="Отключить фокус Windows на экране блокировки (by 、Cloud.)"/>
     <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="Отключить советы, подсказки и рекомендации при использовании Windows (by Cloud.)"/>
     <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Скрыть &quot;Контакты&quot; на панели Задач (by Cloud.)"/>
 
@@ -925,6 +927,8 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
       <String Target="此选项将降低计算机安全性，请确保你已经安装第三方防火墙软件！" Link="Данный пункт снизит безопасность компьютера. Используйте сторонний брандмауэр!"/>
 
     <String Target="*关闭远程协助（by 原罪）" Link="*Отключить Удаленного помощника (by YZ)"/>
+
+    <String Target="*禁用SMB1网络协议（by Jhovany200）" Link="*Отключить сетевой протокол SMB1 (by Jhovany200)"/>
 
     <!--服务优化-->
     <String Target="服务优化" Link="Оптимизация служб"/>
@@ -1364,12 +1368,10 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <xA0020006>Текущая система не поддерживает WOW64 и не может обрабатывать не 64-битную систему в автономном режиме.</xA0020006>
     <xA0020007>Требуемый компонент CBSHost.dll не существует. Убедитесь в целостности Dism++.</xA0020007>
     <xA0020008>rundll32.exe отсутствует. Dism++ не может быть запущен.</xA0020008>
-    <xA0020009>Сбой сессии Dism++. Предлагается сжать и отправить "CBSHost_*.dmp" на mingkuang@live.com для помощи в решении данной проблемы.</xA0020009>
+    <xA0020009 q="">Сбой сессии Dism++. Предлагается сжать и отправить "CBSHost_*.dmp" на mingkuang@live.com для помощи в решении данной проблемы.</xA0020009>
     <xA002000A>Dism++ обнаружил некоторые проблемы совместимости. Установите исправление KB960037, а затем продолжите.</xA002000A>
 
     <x20020001>В текущем образе нет конфигурации файла ассоциаций по-умолчанию. Невозможно экспортировать.</x20020001>
-    <x20020002>Найдена известная проблема совместимости. Чтобы справится с этим - ОС должна быть не ниже Windows 8/2012. Если Вы продолжаете работать в более  ранних версиях ОС - функции открытия, закрытия, добавления, удаления, обновления могут не работать должным образом.</x20020002>
-    <x20020003>Dism++ обнаружил известную проблему совместимости. Наличие не ASCII-символов в пути к образу может привести к сбою установки обновления. Повторно смонтируйте образ в полном ASCII-пути, например 'D:\Mount'.</x20020003>
 
     <xC1440136>Драйвер (Wofadk.sys) не загружен. Для продолжения отметьте "Загрузить WofAdk драйвер" в меню "Настройки - Включить режим эксперта".</xC1440136>
     <xC144013B>Драйвер (Wofadk.sys) не загружен. Для продолжения отметьте "Загрузить WofAdk драйвер" в меню "Настройки - Включить режим эксперта".</xC144013B>

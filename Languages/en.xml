@@ -387,6 +387,8 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="为了优化性能，你需要手动打开会话。" Link="To optimize performance, you need to open the session manually."/>
     <String Target="打开会话" Link="Open session"/>
     <String Target="正在打开会话" Link="Opening session"/>
+    <String Target="当前系统至少为Windows 8/2012才能正常处理此系统。如果你继续进行，那么打开关闭功能、添加删除更新均可能出现意外失败。" Link="Host Virson should be at least Windows 8/2012. If you continue in host of a lower version, functions like open, close, add, delete, update may not work properly."/>
+    <String Target="映像路径存在非英文字符可能导致安装更新失败，请在全英文路径重新挂载此映像，比如“D:\Mount”。" Link="The image path exists non-ASCII characters may cause the install update to fail, please reload the image in full ASCII path, such as &quot;D:\Mount&quot;."/>
 
     <String Target="常用工具" Link="Utilities"/>
       <String Target="空间回收" Link="Disk Clean"/>
@@ -926,6 +928,8 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
 
     <String Target="*关闭远程协助（by 原罪）" Link="*Disallow Remote Assistance connections (by YZ)"/>
 
+    <String Target="*禁用SMB1网络协议（by Jhovany200）" Link="*Disallow SMB1 network protocol (by Jhovany200)"/>
+
     <!--服务优化-->
     <String Target="服务优化" Link="Service"/>
     <String Target="禁用程序兼容性助手（by 一叶微风TM）" Link="Disable Program Compatibility Assistant Service (by YiYieWeiFeng TM)"/>
@@ -1364,12 +1368,10 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <xA0020006>Current system doesn't have Wow64 support, cannot handle non-64bit system offline.</xA0020006>
     <xA0020007>Required CBSHost.dll doesn't exist. Please ensure the integrity of Dism++.</xA0020007>
     <xA0020008>rundll32.exe missing. Dism++ cannot run.</xA0020008>
-    <xA0020009>Dism++ session crashed. Suggest to compress and send "CBSHost_*.dmp" to mingkuang@live.com to help resolving this problem.</xA0020009>
+    <xA0020009 q="">Dism++ session crashed. Suggest to compress and send "CBSHost_*.dmp" to mingkuang@live.com to help resolving this problem.</xA0020009>
     <xA002000A>Dism++ detected some compatibility problem. Please install patch KB960037, then continue.</xA002000A>
 
     <x20020001>No default file association configuration in current image. Cannot export.</x20020001>
-    <x20020002>Known compatibility problem found. Host Virson should be at least Windows 8/2012. If you continue in host of a lower version, functions like open, close, add, delete, update may not work properly.</x20020002>
-    <x20020003>Dism++ found a compatibility problem, the image path exists non-ASCII characters may cause the install update to fail, please reload the image in full ASCII path, such as "D:\Mount".</x20020003>
 
     <xC1440136>Driver (Wofadk.sys) not loaded. Please tick "Load wofadk" in Options - More settings.</xC1440136>
     <xC144013B>Driver (Wofadk.sys) not loaded. Please tick "Load wofadk" in Options - More settings.</xC144013B>

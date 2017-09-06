@@ -387,6 +387,8 @@ Special thanks to OldMac, Schooli, 阿泽西
     <String Target="为了优化性能，你需要手动打开会话。" Link="성능을 최적화하기 위해 수동으로 세션을 열어야합니다."/>
     <String Target="打开会话" Link="세션 열기"/>
     <String Target="正在打开会话" Link="세션을 여는 중"/>
+    <String q="" Target="当前系统至少为Windows 8/2012才能正常处理此系统。如果你继续进行，那么打开关闭功能、添加删除更新均可能出现意外失败。" Link="Host Virson should be at least Windows 8/2012. If you continue in host of a lower version, functions like open, close, add, delete, update may not work properly."/>
+    <String q="" Target="映像路径存在非英文字符可能导致安装更新失败，请在全英文路径重新挂载此映像，比如“D:\Mount”。" Link="The image path exists non-ASCII characters may cause the install update to fail, please reload the image in full ASCII path, such as &quot;D:\Mount&quot;."/>
 
     <String Target="常用工具" Link="유틸리티"/>
       <String Target="空间回收" Link="정리"/>
@@ -926,6 +928,8 @@ Special thanks to OldMac, Schooli, 阿泽西
 
     <String Target="*关闭远程协助（by 原罪）" Link="*원격지원 끄기 (by YZ)"/>
 
+    <String q="" Target="*禁用SMB1网络协议（by Jhovany200）" Link="*Disallow SMB1 network protocol (by Jhovany200)"/>
+
     <!--服务优化-->
     <String Target="服务优化" Link="서비스 최적화"/>
     <String Target="禁用程序兼容性助手（by 一叶微风TM）" Link="프로그램 호환성 관리자 사용 안함 (by YiYieWeiFeng TM)"/>
@@ -1364,12 +1368,10 @@ Special thanks to OldMac, Schooli, 阿泽西
     <xA0020006>현재 시스템에 Wow64가 포함되지않아 지원하지 않고 있으니 비x64 오프라인 시스템을 처리할수 없습니다.</xA0020006>
     <xA0020007>지정한 체계 CBSHost.dll가 존재하지 않습니다.Dism++의 정확성을 체크하십시오.</xA0020007>
     <xA0020008>운영체제가 rundll32.exe를 잃어버려 Dism++를 실행할수 없습니다.</xA0020008>
-    <xA0020009>Dism++ 에러가 발생하였습니다.프로그램 목록에 있는 "CBSHost_*.dmp"를 압축후 mingkuang (mingkuang@live.com) 메일로 보내시면 이 문제를 해결할수 있습니다.</xA0020009>
+    <xA0020009 q="">Dism++ 에러가 발생하였습니다.프로그램 목록에 있는 "CBSHost_*.dmp"를 압축후 mingkuang (mingkuang@live.com) 메일로 보내시면 이 문제를 해결할수 있습니다.</xA0020009>
     <xA002000A>Dism++에서 일부 호환성 문제를 발견되였습니다.현재 시스템에 KB960037를 업데이트 설치 하신후 계속 실행하시기 바랍니다.</xA002000A>
 
     <x20020001>기본 파일 관련 설정에 현재 이미지가 존재하지 않아 내보내기 할수 없습니다.</x20020001>
-    <x20020002>Dism++에서 알려진 호환성 문제를 발견하였습니다.Host적어도Windows 8/2012에서만 이 시스템을 정상 처리 할수 있습니다.만약 이전 버전에서 Host처리를 계속 하신다면 열기/닫기기능,추가/삭제 업데이트등 에러가 발생할수 있습니다.</x20020002>
-    <x20020003>Dism++에서 호환성 문제가 발견, 이미지 경로에 비 ASCII 문자로 인해 업데이트가 실패할 수 있습니다, 전체 ASCII 경로로 이미지를 다시 로드하세요. (예: "D:\Mount")</x20020003>
 
     <xC1440136>wof 드라이버를 불러오지 못했습니다.옵션 - 상세설정에서 wofadk 드라이버 불러오기에 체크하시고 실행해주세요.</xC1440136>
     <xC144013B>wof 드라이버를 불러오지 못했습니다.옵션 - 상세설정에서 wofadk 드라이버 불러오기에 체크하시고 실행해주세요.</xC144013B>

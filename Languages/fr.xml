@@ -387,6 +387,8 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="为了优化性能，你需要手动打开会话。" Link="Pour optimiser les performances, vous devez ouvrir la session manuellement."/>
     <String Target="打开会话" Link="Ouvrir une session"/>
     <String Target="正在打开会话" Link="Ouverture de session"/>
+    <String q="" Target="当前系统至少为Windows 8/2012才能正常处理此系统。如果你继续进行，那么打开关闭功能、添加删除更新均可能出现意外失败。" Link="Host Virson should be at least Windows 8/2012. If you continue in host of a lower version, functions like open, close, add, delete, update may not work properly."/>
+    <String q="" Target="映像路径存在非英文字符可能导致安装更新失败，请在全英文路径重新挂载此映像，比如“D:\Mount”。" Link="The image path exists non-ASCII characters may cause the install update to fail, please reload the image in full ASCII path, such as &quot;D:\Mount&quot;."/>
 
     <String Target="常用工具" Link="Utilitaires"/>
       <String Target="空间回收" Link="Nettoyage"/>
@@ -926,6 +928,8 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
 
     <String Target="*关闭远程协助（by 原罪）" Link="*Interdire les connexions d’assistance à distance (par YZ)"/>
 
+    <String q="" Target="*禁用SMB1网络协议（by Jhovany200）" Link="*Disallow SMB1 network protocol (by Jhovany200)"/>
+
     <!--服务优化-->
     <String Target="服务优化" Link="Optimisation des services"/>
     <String Target="禁用程序兼容性助手（by 一叶微风TM）" Link="Désactiver l’assistant de compatibilité des programmes (par YiYieWeiFeng TM)"/>
@@ -1364,12 +1368,10 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <xA0020006>Le système actuel ne prend pas en charge Wow64, impossible de gérer hors ligne un système non-64 bits.</xA0020006>
     <xA0020007>La bibliothèque CBSHost.dll requise est absente. Veuillez vérifier l’intégrité de Dism++.</xA0020007>
     <xA0020008>Le programme système Rundll32.exe requis est absent. Dism++ ne peut pas s’exécuter.</xA0020008>
-    <xA0020009>La session Dism++ a planté. Nous vous suggérons de compresser et envoyer "CBSHost_*.dmp" à mingkuang@live.com pour aider à résoudre ce problème.</xA0020009>
+    <xA0020009 q="">La session Dism++ a planté. Nous vous suggérons de compresser et envoyer "CBSHost_*.dmp" à mingkuang@live.com pour aider à résoudre ce problème.</xA0020009>
     <xA002000A>Dism++ détecte certains problèmes de compatibilité. Veuillez installer le correctif KB960037 de Microsoft avant de continuer.</xA002000A>
 
     <x20020001>Aucune configuration de fichier par défaut dans l’image actuelle. Impossible d’exporter.</x20020001>
-    <x20020002>Dism++ a détecté un problème de compatibilité. Le système hôte devrait être au moins Windows 8 ou Windows Server 2012 pour gérer ceci. Si vous continuez à travailler sur un ancien hôte, des fonctions comme ouvrir, fermer, ajouter, supprimer ou mettre à jour pourraient ne pas fonctionner correctement.</x20020002>
-    <x20020003>Dism++ a détecté un problème de compatibilité. Le chemin de l’image existe mais les caractères non ASCII peuvent provoquer l’échec de l’installation de la mise à jour, veuillez recharger l’image dans le chemin ASCII complet, tel que "D:\Mount".</x20020003>
 
     <xC1440136>Le pilote (WofAdk.sys) n’est pas chargé. Veuillez cocher « Charger le pilote de compression WofAdk » dans les « Options - Paramètres supplémentaires » pour continuer.</xC1440136>
     <xC144013B>Le pilote (WofAdk.sys) n’est pas chargé. Veuillez cocher « Charger le pilote de compression WofAdk » dans les « Options - Paramètres supplémentaires » pour continuer.</xC144013B>

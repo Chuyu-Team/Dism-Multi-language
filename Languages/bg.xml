@@ -387,6 +387,8 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
     <String Target="为了优化性能，你需要手动打开会话。" Link="За оптимизиране на производителността, трябва да отворите сесията ръчно."/>
     <String Target="打开会话" Link="Отвори сесия"/>
     <String Target="正在打开会话" Link="Отваряне на сесия"/>
+    <String q="" Target="当前系统至少为Windows 8/2012才能正常处理此系统。如果你继续进行，那么打开关闭功能、添加删除更新均可能出现意外失败。" Link="Host Virson should be at least Windows 8/2012. If you continue in host of a lower version, functions like open, close, add, delete, update may not work properly."/>
+    <String q="" Target="映像路径存在非英文字符可能导致安装更新失败，请在全英文路径重新挂载此映像，比如“D:\Mount”。" Link="The image path exists non-ASCII characters may cause the install update to fail, please reload the image in full ASCII path, such as &quot;D:\Mount&quot;."/>
 
     <String Target="常用工具" Link="Инструменти"/>
       <String Target="空间回收" Link="Почистване"/>
@@ -926,6 +928,8 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
 
     <String Target="*关闭远程协助（by 原罪）" Link="*Забрани връзките за отдалечено съдействие (от YZ)"/>
 
+    <String q="" Target="*禁用SMB1网络协议（by Jhovany200）" Link="*Disallow SMB1 network protocol (by Jhovany200)"/>
+
     <!--服务优化-->
     <String Target="服务优化" Link="Услуга"/>
     <String Target="禁用程序兼容性助手（by 一叶微风TM）" Link="Деактивирай услугата Program Compatibility Assistant (от YiYieWeiFeng TM)"/>
@@ -1364,12 +1368,10 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
     <xA0020006>Current system doesn't have Wow64 support, cannot handle non-64bit system offline.</xA0020006>
     <xA0020007>Изискваният CBSHost.dll не съществува. Моля уверете се в целостта на Dism++.</xA0020007>
     <xA0020008>rundll32.exe липсва. Dism++ не може да стартира.</xA0020008>
-    <xA0020009>Сесията на Dism++ се срина. Предлагам да компресирате и изпратите "CBSHost _ *. dmp" на mingkuang@live.com, за да помогнете за разрешаването на този проблем.</xA0020009>
+    <xA0020009 q="">Сесията на Dism++ се срина. Предлагам да компресирате и изпратите "CBSHost _ *. dmp" на mingkuang@live.com, за да помогнете за разрешаването на този проблем.</xA0020009>
     <xA002000A>Dism++ открит някакъв проблем със съвместимостта. Моля, инсталирайте кръпка KB960037, след това продължете.</xA002000A>
 
     <x20020001>Няма конфигурационен файл с асоциации по подразбиране в текущия имидж. Не може да се експортира..</x20020001>
-    <x20020002>Открит е известен проблем със съвместимостта. Хостът трябва да бъде най-малко Windows 8/2012 да се справим с това. Ако продължите да работите в по-ниски версии на хоста, функции като отваряне, затваряне, добавяне, изтриване, обновяване може да не работят правилно.</x20020002>
-    <x20020003>Dism ++ намери проблем със съвместимостта, в пътя до иимиджа има не-ASCII символи, което може да доведе до неуспешно инсталиране на актуализацията. Моля, презаредете иимиджа с пълен ASCII път, като "D:\Mount".</x20020003>
 
     <xC1440136>Драйвърът (Wofadk.sys) не е зареден. Моля, поставете отметка на "Зареди wofadk" в Опции - Още настройки, за да продължите.</xC1440136>
     <xC144013B>Драйвърът (Wofadk.sys) не е зареден. Моля, поставете отметка на "Зареди wofadk" в Опции - Още настройки, за да продължите.</xC144013B>
