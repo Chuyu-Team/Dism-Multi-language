@@ -387,8 +387,8 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="为了优化性能，你需要手动打开会话。" Link="Para optimizar el rendimiento, necesita abrir la sesión manualmente."/>
     <String Target="打开会话" Link="Abrir sesión"/>
     <String Target="正在打开会话" Link="Abriendo sesión"/>
-    <String q="" Target="当前系统至少为Windows 8/2012才能正常处理此系统。如果你继续进行，那么打开关闭功能、添加删除更新均可能出现意外失败。" Link="Host Virson should be at least Windows 8/2012. If you continue in host of a lower version, functions like open, close, add, delete, update may not work properly."/>
-    <String q="" Target="映像路径存在非英文字符可能导致安装更新失败，请在全英文路径重新挂载此映像，比如“D:\Mount”。" Link="The image path exists non-ASCII characters may cause the install update to fail, please reload the image in full ASCII path, such as &quot;D:\Mount&quot;."/>
+    <String q="" Target="当前系统至少为Windows 8/2012才能正常处理此系统。如果你继续进行，那么打开关闭功能、添加删除更新均可能出现意外失败。" Link="La versión del SO debe ser al menos Windows 8/2012. Si continúa con una versión inferior del SO, las funciones como abrir, cerrar, agregar, eliminar o actualizar pueden no funcionar correctamente."/>
+    <String q="" Target="映像路径存在非英文字符可能导致安装更新失败，请在全英文路径重新挂载此映像，比如“D:\Mount”。" Link="La ruta de la imagen existente con caracteres que no son ASCII puede causar un fallo al instalar la actualización, vuelva a cargar la imagen ASCII con la ruta completa, por ejemplo &quot;D:\Montar&quot;."/>
 
     <String Target="常用工具" Link="Utilidades"/>
       <String Target="空间回收" Link="Limpiar disco"/>
@@ -928,7 +928,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
 
     <String Target="*关闭远程协助（by 原罪）" Link="* No permitir conexiones con asistencia remota (YZ)"/>
 
-    <String q="" Target="*禁用SMB1网络协议（by Jhovany200）" Link="*Disallow SMB1 network protocol (by Jhovany200)"/>
+    <String q="" Target="*禁用SMB1网络协议（by Jhovany200）" Link="* Deshabilitar el protocolo de red SMB1 (by Jhovany200)"/>
 
     <!--服务优化-->
     <String Target="服务优化" Link="Servicios"/>
