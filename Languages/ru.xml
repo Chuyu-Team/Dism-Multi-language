@@ -830,7 +830,7 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Скрыть &quot;Контакты&quot; на панели Задач (by Cloud.)"/>
 
     <!--开始菜单-->
-    <String Target="开始菜单以及Windows体验" Link=" Меню Пуск и индекс производительности Windows"/>
+    <String Target="开始菜单以及Windows体验" Link="Меню Пуск и индекс производительности Windows"/>
 
     <!--右键菜单管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="Управление контекстным меню: отключение ненужных пунктов для быстрого отклика Проводника"/>
