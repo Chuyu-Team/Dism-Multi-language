@@ -7124,7 +7124,7 @@
     <Key>BwIAAACkAABSU0EyAAQAAAEAAQCBK154a48ca1NUi4rwPvAb25g7qltZ0xm5HYKYLYA7AWrSEsmGduL1lgbH0GB0hLVp3qK3U6XBpudvCLTkcozadaKisCLDvCuAboPRgpkBjQ0g9jqU1bECrRgESQo+zypLSBtgL1vVsgHncefceZjxirjM6IeYV1Vul2St0BOcvDFQqnFLfFwehCUUs1GUQhNVOJeYUVGkEQxpvMCrO6jWzOvvFiieN6zB0ygCCsnLsk2Ns4JXe4SnsmgGf7tw+f5RjKBv7Hk3wyblOm0vzPnh6K77KhAiOcvO30cxEMHyK/kYOj8I1vHndjlqhvyD3e8qplpjQUVXe0DKYx1NTF69UdRqRv7gLwfvmE6hmJaTbe+N0DoC8Ie27WYBUiZfJSypbL282a9Vu4lNplTox6dfzf5hdE1KLiDptpCm+5rGTeEIQNIjYj7Ju0lmdDg5YobuCduao2ZsxVhrSfg0mBcsUa69uSL2mLtorZDoSS0ZEyoGudDapHiT7zd+HBQiUZaE1H90V/Zfjmmt/sbpXd+kDWs2+cRjCVRvSpqD8OSvSVO2ECR0QzLF4LpssF5G5exCs+ABvH5UMgu74rAGHPbqgSURURvxltzrVIFe1JZcv4YZwsGgi7JaKMdzF5EsLKhiLmqU0++tA5gKNFC4TwuUCP7X5eFDv7FTKWf3fmtKTE05sakAuAgTm1IPBZ5B5UtWctUwfLknsj4JlO4WQMd+sBg/NaQP9jRberZFyg0RRTXxJVRx+aBDaJdh66hF/gU=</Key>
   </ESDDecryptKey>
   <WSUS>
-    <Warning ID="KB3000483">
+    <Warning ID="KB3000483|KB3000850">
       <en>Some games will not run properly.</en>
       <es>Algunos juegos no se ejecutarán correctamente.</es>
       <zh-Hans>将导致某些游戏无法正常运行。</zh-Hans>
