@@ -7248,6 +7248,9 @@
     <Warning ID="KB3161102">
       <zh-Hans>此更新会删除Windows日记本，如果你确实需要使用日记本，那么请勿安装此更新。</zh-Hans>
     </Warning>
+    <Warning ID="KB4041083">
+      <zh-Hans>此更新将导致AutoCAD 2014无法正常运行，如果你确实需要使用AutoCAD 2014，那么请勿安装此更新。</zh-Hans>
+    </Warning>
     <!--过期更新-->
     <Warning ID="KB982726" Type="Hide"/>
     <!--Windows 10升级补丁-->
