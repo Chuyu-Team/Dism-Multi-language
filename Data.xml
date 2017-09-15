@@ -1841,6 +1841,43 @@
           </False>
         </System>
       </Item>
+
+      <Item Type="CheckBox" Name="#任务栏时钟精确到秒（by Luupw3d）">
+        <Current>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="ShowSecondsInSystemClock" Type="REG_DWORD" Data="1"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="ShowSecondsInSystemClock" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="ShowSecondsInSystemClock"/>
+            </Activate>
+          </False>
+        </Current>
+        <Default>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="ShowSecondsInSystemClock" Type="REG_DWORD" Data="1"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="ShowSecondsInSystemClock" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="ShowSecondsInSystemClock"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
     </Group>
     
     <Group Name="#Windows主题相关设置">
