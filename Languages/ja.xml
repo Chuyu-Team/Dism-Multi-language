@@ -387,8 +387,8 @@ Special Thanks to 山形まり花
     <String Target="为了优化性能，你需要手动打开会话。" Link="パフォーマンスを最適し、セッションを手動開くでください。"/>
     <String Target="打开会话" Link="セッションを開く"/>
     <String Target="正在打开会话" Link="セッションを開く中"/>
-    <String q="" Target="当前系统至少为Windows 8/2012才能正常处理此系统。如果你继续进行，那么打开关闭功能、添加删除更新均可能出现意外失败。" Link="Host Virson should be at least Windows 8/2012. If you continue in host of a lower version, functions like open, close, add, delete, update may not work properly."/>
-    <String q="" Target="映像路径存在非英文字符可能导致安装更新失败，请在全英文路径重新挂载此映像，比如“D:\Mount”。" Link="The image path exists non-ASCII characters may cause the install update to fail, please reload the image in full ASCII path, such as &quot;D:\Mount&quot;."/>
+    <String Target="当前系统至少为Windows 8/2012才能正常处理此系统。如果你继续进行，那么打开关闭功能、添加删除更新均可能出现意外失败。" Link="正常にシステムを操作するために、host は Windows 8/2012 と以上の必要があります。もし低バージョンの host を使用し続ければ、[オン / オフ 機能] と [インストール / アップデート / アンインストール] には意外の問題が発生の可能性があります。"/>
+    <String Target="映像路径存在非英文字符可能导致安装更新失败，请在全英文路径重新挂载此映像，比如“D:\Mount”。" Link="イメージのパスは英字以外を含むで更新をインストール失敗可能性があります、英字のみパスにこのイメージを再マウントください。（例：D:\Mount）"/>
 
     <String Target="常用工具" Link="ユーティリティ"/>
       <String Target="空间回收" Link="クリーンアップ"/>
@@ -928,7 +928,7 @@ Special Thanks to 山形まり花
 
     <String Target="*关闭远程协助（by 原罪）" Link="*リモート アシスタンスの接続無効化 (by YZ)"/>
 
-    <String q="" Target="*禁用SMB1网络协议（by Jhovany200）" Link="*Disallow SMB1 network protocol (by Jhovany200)"/>
+    <String Target="*禁用SMB1网络协议（by Jhovany200）" Link="*SMB1 ネットワーク プロトコルを無効化 (by Jhovany200)"/>
 
     <!--服务优化-->
     <String Target="服务优化" Link="サービス"/>
