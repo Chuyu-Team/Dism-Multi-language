@@ -1026,7 +1026,7 @@ Special Thanks to 山形まり花
     <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="[右クリック メニュー] を Windows 7 のスタイルに調整する（by Silence）"/>
     <String Target="登陆界面默认打开小键盘（by IT之家）" Link="ログイン画面で NumLock キーをオンする。（by ITHome）"/>
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Component Based Servicing ファイル バックアップ無効化"/>
-    <String q="" Target="任务栏时钟精确到秒（by Luupw3d）" Link="任务栏时钟精确到秒（by Luupw3d）"/>
+    <String Target="任务栏时钟精确到秒（by Luupw3d）" Link="タスク バーの時刻で秒を表示する（by Luupw3d）"/>
     <!--系统优化已经结束-->
 
     <!--Dism++更新程序-->
@@ -1360,7 +1360,7 @@ Special Thanks to 山形まり花
     <x800F082E>この更新はオフライン システムに追加サポートしません。ターゲット システムを起動し、オンラインを追加します。</x800F082E>
     <x800F082F>このシステムは排他的操作待ちです、再起動で保留中操作を適用し、その他の操作を続行します。</x800F082F>
     <x000F0801>Dism++ は混雑中です、多分その他のプログラムは任務遂行中です、しばらくお待ちでもう一度やり直してください。</x000F0801>
-    <x80072EE7 q="">无法连接服务器，请检查网络连接或者防火墙设置是否正确。</x80072EE7>
+    <x80072EE7>サーバーへの接続できません、ネットワーク接続またはファイアウォール設定を確認ください。</x80072EE7>
 
     <xA0020001>ISO への変換は Microsoft Online の ESD ファイルをサポートのみ。</xA0020001>
     <xA0020002>一部クリーンアップは完了しました。ただし、完全クリーンアップが必要な場合は、Windows 8.1 にアップグレード、そして続けるください。</xA0020002>
