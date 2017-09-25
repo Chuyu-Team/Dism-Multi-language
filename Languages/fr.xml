@@ -1359,6 +1359,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <x800F082E>Le composant spécifié ne peut pas être ajouté à une image hors connexion.</x800F082E>
     <x800F082F>Vous ne pouvez pas finaliser la session car une session exclusive est en attente.</x800F082F>
     <x000F0801>Dism++ est occupé, probablement parce que d’autres programmes sont en cours d’exécution. Veuillez réessayer plus tard.</x000F0801>
+    <x80072EE7 q="">无法连接服务器，请检查网络连接或者防火墙设置是否正确。</x80072EE7>
 
     <xA0020001>La conversion en images ISO ne prend en charge que les images ESD issues de Microsoft Online.</xA0020001>
     <xA0020002>Some have been cleared, for a complete cleanup upgrade to Windows 8.1, and then continue.</xA0020002>

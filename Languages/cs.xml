@@ -1359,6 +1359,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <x800F082E>Zadaný balíček nemůže být přidán do offline bitové kopie.</x800F082E>
     <x800F082F>Relaci nelze dokončit, protože exkluzivní relace čeká.</x800F082F>
     <x000F0801>Dism++ je zaneprázdněn, pravděpodobně proto, že jsou spuštěny jiné programy. Zkuste to prosím znovu později.</x000F0801>
+    <x80072EE7 q="">无法连接服务器，请检查网络连接或者防火墙设置是否正确。</x80072EE7>
 
     <xA0020001>Podporuje pouze Microsoft Online ESD soubor do ISO souboru.</xA0020001>
     <xA0020002>Částečné čištění bylo provedeno, proveďte kompletní čištění aktualizace Windows 8.1 a pak pokračujte.</xA0020002>
