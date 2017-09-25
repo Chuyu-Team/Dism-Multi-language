@@ -1026,6 +1026,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Cambiar &quot;Con clic derecho en menú&quot; en Windows 7 (Silence)"/>
     <String Target="登陆界面默认打开小键盘（by IT之家）" Link="Activar teclado numérico al inicio de sesión (ITHome)"/>
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Desactivar el servicio de copia basada en componentes"/>
+    <String q="" Target="任务栏时钟精确到秒（by Luupw3d）" Link="任务栏时钟精确到秒（by Luupw3d）"/>
     <!--系统优化已经结束-->
 
     <!--Dism++更新程序-->

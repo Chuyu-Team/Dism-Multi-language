@@ -1026,6 +1026,7 @@ Special thanks to OldMac, Schooli, 阿泽西
     <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="&quot;우클릭 메뉴&quot;를 Windows 7 모드로 변경 (by Silence)"/>
     <String Target="登陆界面默认打开小键盘（by IT之家）" Link="로그인 시 키패드 사용 (by ITHome)"/>
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="구성요소 기반 서비스 백업 사용 안함"/>
+    <String q="" Target="任务栏时钟精确到秒（by Luupw3d）" Link="任务栏时钟精确到秒（by Luupw3d）"/>
     <!--系统优化已经结束-->
 
     <!--Dism++更新程序-->

@@ -1026,6 +1026,7 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
     <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Zmień &quot;prawym przyciskiem myszy menu&quot; na tryb Windows 7 (by Silence)"/>
     <String Target="登陆界面默认打开小键盘（by IT之家）" Link="Włącz klawiaturę podczas logowania (by ITHome)"/>
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Wyłącz składowanie kopii zapasowej składników"/>
+    <String q="" Target="任务栏时钟精确到秒（by Luupw3d）" Link="任务栏时钟精确到秒（by Luupw3d）"/>
     <!--系统优化已经结束-->
 
     <!--Dism++更新程序-->
