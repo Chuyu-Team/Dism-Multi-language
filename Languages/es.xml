@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 Este es el recurso de traducción en español para Dism ++.
 Hay 5 ASCII que necesitan una representación especial en XML.
@@ -1026,7 +1026,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Cambiar &quot;Con clic derecho en menú&quot; en Windows 7 (Silence)"/>
     <String Target="登陆界面默认打开小键盘（by IT之家）" Link="Activar teclado numérico al inicio de sesión (ITHome)"/>
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Desactivar el servicio de copia basada en componentes"/>
-    <String q="" Target="任务栏时钟精确到秒（by Luupw3d）" Link="任务栏时钟精确到秒（by Luupw3d）"/>
+    <String Target="任务栏时钟精确到秒（by Luupw3d）" Link="Reloj de la barra de tareas más preciso con segundos（by Luupw3d）"/>
     <!--系统优化已经结束-->
 
     <!--Dism++更新程序-->
@@ -1360,7 +1360,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <x800F082E>El paquete especificado no se puede agregar a una imagen sin conexión.</x800F082E>
     <x800F082F>No se puede finalizar la sesión porque está pendiente de una sesión exclusiva.</x800F082F>
     <x000F0801>Dism++ está ocupado, probablemente porque se están ejecutando otros programas. Por favor, inténtelo de nuevo más tarde.</x000F0801>
-    <x80072EE7 q="">无法连接服务器，请检查网络连接或者防火墙设置是否正确。</x80072EE7>
+    <x80072EE7>No se puede conectar con el servidor, compruebe si la configuración de conexión de red o firewall es correcta.</x80072EE7>
 
     <xA0020001>Sólo admite el archivo ESD de Microsoft en línea en el archivo ISO.</xA0020001>
     <xA0020002>Algunos han sido borrados, para una limpieza completa actualizar a Windows 8.1, y luego continuar.</xA0020002>
