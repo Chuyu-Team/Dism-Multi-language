@@ -1128,7 +1128,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="系统更新时在WinSxS里面产生的临时文件。" Link="Al actualizar el sistema, crea los archivos temporales."/>
 
     <String Target="Windows日志（by chenyu、YukiSakura）" Link="Registro de Windows (chenyu, YukiSakura)"/>
-    <String Target="Windows在运行时产生的日志。" Link="Archivos Registro de Windows."/>
+    <String Target="Windows在运行时产生的日志。" Link="Archivos registro de Windows."/>
 
     <String Target="Windows下载缓存" Link="Caché de descarga de Windows"/>
     <String Target="Windows在下载更新以及更新Metro应用时会在这里产生临时安装包。" Link="Al descargar actualizaciones de Windows o aplicaciones, coloca los paquetes de la instalación temporal aquí"/>
