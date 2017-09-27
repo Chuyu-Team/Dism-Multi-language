@@ -1025,7 +1025,7 @@
     <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="將「右鍵選單」調整為 Windows 7 模式 (by Silence)"/>
     <String Target="登陆界面默认打开小键盘（by IT之家）" Link="登入介面預設開啟小鍵盤 (by IT之家)"/>
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="禁用元件堆疊 (Component Based Servicing) 檔案備份"/>
-    <String q="" Target="任务栏时钟精确到秒（by Luupw3d）" Link="任务栏时钟精确到秒（by Luupw3d）"/>
+    <String Target="任务栏时钟精确到秒（by Luupw3d）" Link="工具列時鐘精確到秒 (by Luupw3d)"/>
     <!--系統最佳化已經結束-->
 
     <!--Dism++ 更新程序-->
@@ -1359,7 +1359,7 @@
     <x800F082E>此更新不支援添加到離線系統，請啟動目標系統，進行線上新增。</x800F082E>
     <x800F082F>目前系統存在獨佔的掛起操作，請啟動系統，應用掛起後再進行其他操作。</x800F082F>
     <x000F0801>Dism++ 處於繁忙狀態，可能是其他程式正在執行任務，請稍後再試。</x000F0801>
-    <x80072EE7 q="">无法连接服务器，请检查网络连接或者防火墙设置是否正确。</x80072EE7>
+    <x80072EE7>無法連接伺服器，請檢查網路連接或者防火牆設定是否正確。</x80072EE7>
 
     <xA0020001>僅支援微軟線上提供的 ESD 檔轉換為 ISO 檔案。</xA0020001>
     <xA0020002>已經清理部分，如需完整清理請升級到 Windows 8.1 然後繼續。</xA0020002>
