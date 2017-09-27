@@ -188,7 +188,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="不压缩" Link="Nada"/>
     <String Target="WIMBoot压缩" Link="WIMBoot"/>
     <String Target="快速压缩" Link="Rápido"/>
-    <String Target="最大压缩" Link="Max"/>
+    <String Target="最大压缩" Link="Máximo"/>
     <String Target="极限压缩" Link="Recuperar"/>
 
     <String Target="映像名称" Link="Nombre imagen"/>
@@ -205,7 +205,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="不压缩映像" Link="Nada"/>
     <String Target="WIMBoot压缩映像" Link="WIMBoot"/>
     <String Target="快速压缩映像" Link="Rápido"/>
-    <String Target="最大压缩映像" Link="Max"/>
+    <String Target="最大压缩映像" Link="Máximo"/>
     <String Target="极限压缩映像" Link="Recuperar"/>
     <String Target="全选" Link="Todo"/>
     <String Target="反选" Link="Invertir"/>
@@ -293,7 +293,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="在此处设置捕获映像的文件豁免列表加快捕获速度，每个条目用回车分割。" Link="Lista de exclusión de las imágenes que no necesitan captura, separar cada imagen excluida con enter."/>
     <String Target="如何配置豁免列表" Link="Cómo configurar la lista de exclusión"/>
     <String Target="另存为映像" Link="Guardar imagen como"/>
-    <String Target="卷影复制" Link="VSS"/>
+    <String Target="卷影复制" Link="Copiar de atrás"/>
 
     <!-- 系统修复-->
     <String Target="映像十分健康不需要修复。" Link="La imagen está intacta. No se necesita reparar."/>
@@ -377,7 +377,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="大约压缩38%" Link="Comprimir 38%"/>
     <String Target="大约压缩44%（更小体积）" Link="Comprimir 44% (pequeño)"/>
     <String Target="加载WofAdk驱动（可能导致蓝屏！）" Link="Cargar controlador WofAdk (puede causar BSOD)"/>
-    <String Target="更新差异传输引擎：" Link="Diferente motor Windows Update:"/>
+    <String Target="更新差异传输引擎：" Link="Actualizar motor Windows Update:"/>
     <String Target="关闭" Link="Apagar"/>
     <String Target="快速" Link="Rápido"/>
     <String Target="完整" Link="Completo"/>
@@ -596,7 +596,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="正在安装" Link="Instalando"/>
     <String Target="项目" Link="Elemento"/>
     <String Target="Windows Update数据库已经存在新版本，你需要更新吗？" Link="La base de datos de Windows Update encontró una nueva versión, ¿desea actualizarla?"/>
-    <String Target="下载%d%%" Link="Abajo. %d%%"/>
+    <String Target="下载%d%%" Link="Descargar %d%%"/>
     <String Target="将现有的本地补丁包添加至系统。" Link="Añadir paquetes a la imagen."/>
     <String Target="使用Dism++数据库扫描当前系统需要的更新列表。" Link="Usar la base de datos de DISM++ para analizar los cambios que necesite la imagen actual."/>
     <String Target="自动下载并安装更新列表中选中的更新。" Link="Descargar e instalar automáticamente las actualizaciones seleccionadas."/>
@@ -657,7 +657,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="系统名称" Link="Nombre del producto"/>
     <String Target="备份时间" Link="Fecha"/>
     <String Target="备份说明" Link="Descripción"/>
-    <String Target="备份" Link="Copia"/>
+    <String Target="备份" Link="Backup"/>
     <String Target="还原" Link="Restaurar"/>
     <String Target="sppsvc关闭失败，有可能导致还原失败，是否继续？" Link="No se puede finalizar sppsvc, no se puede realizar el proceso de restauración. ¿Continuar?"/>
     <String
@@ -687,7 +687,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="本工具可以让其他程序以无视权限形式运行，本功能可以通过命令行参数调用，详情请参考帮助文档了解具体用法。" Link="Con esta herramienta puede ejecutar algunos programas sin derechos. Puede invocar esta función en la línea de comandos. Consulte la documentación."/>
     <String
       Target="/GodMode {Commendline}&#xD;&#xA; 春哥附体执行Cmd命令，其命令格式与Cmd用法一致&#xD;&#xA;&#xD;&#xA;示例:&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode cmd&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode regedit.exe&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode &quot;\&quot;C:\Windows\notepad.exe\&quot; \&quot;C:\123.txt\&quot;&quot;"
-      Link="/GodMode {Commandline}&#xD;&#xA; El modo creador usa cmd. El uso es el mismo como si usas cmd.&#xD;&#xA;&#xD;&#xA;Ejemplos:&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode cmd&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode regedit.exe&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode &quot;\&quot;C:\Windows\notepad.exe\&quot; \&quot;C:\123.txt\&quot;&quot;"/>
+      Link="/GodMode {Commandline}&#xD;&#xA; El modo dios usa cmd. El uso es el mismo como si usas cmd.&#xD;&#xA;&#xD;&#xA;Ejemplos:&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode cmd&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode regedit.exe&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode &quot;\&quot;C:\Windows\notepad.exe\&quot; \&quot;C:\123.txt\&quot;&quot;"/>
     <String
       Target="即将以无视权限方式执行此命令：&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;为了避免让恶意软件利用，Dism++需要你的允许才能继续，你确定要继续吗？"
       Link="Dism++ ejecutará los comandos &#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;A la vez que se omite la comprobación de derechos. Los malwares pueden utilizar esto para dañar tu sistema, por lo que su confirmación es necesaria. ¿Continuar?"/>
@@ -914,7 +914,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="禁止自动更新到Internet Explorer 11（by Rambin）" Link="Desactivar la actualización automática de Internet Explorer 11 (Rambin)"/>
 
     <!--记事本-->
-    <String Target="记事本" Link="Notepad"/>
+    <String Target="记事本" Link="Bloc de notas"/>
     <String Target="启用自动换行（by 一叶微风TM）" Link="Activar ajuste de línea (YiYieWeiFeng TM)"/>
 
     <String Target="始终显示状态栏（by 一叶微风TM）" Link="Mostrar barra estado (YiYieWeiFeng TM)"/>
@@ -1026,7 +1026,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Cambiar &quot;Con clic derecho en menú&quot; en Windows 7 (Silence)"/>
     <String Target="登陆界面默认打开小键盘（by IT之家）" Link="Activar teclado numérico al inicio de sesión (ITHome)"/>
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Desactivar el servicio de copia basada en componentes"/>
-    <String Target="任务栏时钟精确到秒（by Luupw3d）" Link="Mostrar segundos en el reloj de la barra de tareas para más precisión（by Luupw3d）"/>
+    <String Target="任务栏时钟精确到秒（by Luupw3d）" Link="Mostrar segundos en el reloj de la barra de tareas para más precisión （by Luupw3d）"/>
     <!--系统优化已经结束-->
 
     <!--Dism++更新程序-->
@@ -1112,7 +1112,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="使用利用NTFS硬链接特性合并所有文件内容相同的文件。" Link="Utilice el enlace NTFS para unir el mismo contenido del archivo."/>
     <String Target="某些文件被硬链接合并后可能导致相关功能无法正常使用。" Link="Algunos archivos unidos no funcionarán correctamente."/>
 
-    <String Target="CompactOs（较慢）" Link="CompactOs (muy lento)"/>
+    <String Target="CompactOs（较慢）" Link="SO compacto (muy lento)"/>
     <String Target="对单纯读取的文件进行哈夫曼压缩，在不影响性能的情况下，显著减少系统体积。特别感谢矿工以及所有Compact团队成员无私的支持与帮助。" Link="Archivo de sólo lectura con compresión Huffman, no tendrá ningún impacto en el rendimiento, reduce el volumen del sistema. Un agradecimiento especial y el apoyo desinteresado a los miembros del equipo."/>
     <String Target="使用后可能导致某些程序无法正常运行甚至让系统无法启动，如果使用后出现问题，可以在PE中点击 恢复功能-->撤销Compact。" Link="Después de aplicar esto, algunos programas funcionarán mal y el sistema podría fallar al iniciar. Más adelante puede solucionarlo usando Recuperar -> No compactar con WinPE"/>
     <String Target="此功能与某些硬盘备份软件不兼容。如果使用后出现问题，可以点击 恢复功能-->撤销Compact。" Link="Esta función no es compatible con algún programa de copia de seguridad. Si tiene problemas, puede usar Recuperar -> No compactar."/>
@@ -1127,8 +1127,8 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="WinSxS临时文件" Link="Archivos temporales WinSxS"/>
     <String Target="系统更新时在WinSxS里面产生的临时文件。" Link="Al actualizar el sistema, crea los archivos temporales."/>
 
-    <String Target="Windows日志（by chenyu、YukiSakura）" Link="Log de Windows (chenyu, YukiSakura)"/>
-    <String Target="Windows在运行时产生的日志。" Link="Archivos log de Windows."/>
+    <String Target="Windows日志（by chenyu、YukiSakura）" Link="Registro de Windows (chenyu, YukiSakura)"/>
+    <String Target="Windows在运行时产生的日志。" Link="Archivos Registro de Windows."/>
 
     <String Target="Windows下载缓存" Link="Caché de descarga de Windows"/>
     <String Target="Windows在下载更新以及更新Metro应用时会在这里产生临时安装包。" Link="Al descargar actualizaciones de Windows o aplicaciones, coloca los paquetes de la instalación temporal aquí"/>
@@ -1185,10 +1185,10 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="微软拼音安装文件" Link="Archivos de la instalación de Microsoft Pinyin"/>
     <String Target="微软拼音升级程序遗留下的安装文件。" Link="Microsoft pinyin IME updater deja archivos de la instalación."/>
 
-    <String Target="百度网盘日志" Link="Log de Baidu Yun"/>
+    <String Target="百度网盘日志" Link="Registro de Baidu Yun"/>
     <String Target="百度网盘运行时产生的一些日志文件。" Link="Cuando ejecuta Baidu Yun, crea archivos log."/>
 
-    <String Target="飞信日志" Link="Log de Fetion"/>
+    <String Target="飞信日志" Link="Registro de feciones"/>
     <String Target="飞信运行时产生的一些日志文件。" Link="Al ejecutar Fetion, crea archivos log."/>
 
     <String Target="回收站" Link="Estación de reciclaje"/>
@@ -1385,10 +1385,10 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
 
     <!--WimgAPI Message-->
     <x4144012B>Este es un mensaje de prueba que no requiere ninguna acción. El código del mensaje %1.</x4144012B>
-    <x4144012C>[ INFO ] %1</x4144012C>
+    <x4144012C>[ Información ] %1</x4144012C>
     <x8144012A>Ha recibido un mensaje desconocido: %1.</x8144012A>
-    <x8144012D>[ WARN ] %1</x8144012D>
-    <x81440133>[ RETRY ] %1</x81440133>
+    <x8144012D>[ Advertencia ] %1</x8144012D>
+    <x81440133>[ Reintentar ] %1</x81440133>
     <xC1420100>La biblioteca especificada no es un archivo válido.</xC1420100>
     <xC1420101>El usuario ha intentado montar una imagen de acceso de lectura/escritura utilizando una biblioteca de contenedores que es de sólo lectura.</xC1420101>
     <xC1420103>El usuario ha intentado montar una imagen en un directorio que ya existe. Esto no está soportado.</xC1420103>
@@ -1435,7 +1435,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <xC1420135>La operación de montaje ha fallado. Debe desactivar cualquier software (por ejemplo, antivirus o indexador de búsqueda) que accede a los archivos bajo esa ruta de montaje especifica.</xC1420135>
     <xC143010D>Indice de imagen no válido para el contenedor de Wim wrapper. El contenedor no puede abrir una imagen.</xC143010D>
     <xC1440129>El archivo log especificado existe y no es un archivo de texto en Unicode. Sólo los archivos de texto en Unicode son compatibles.</xC1440129>
-    <xC144012E>[ ERROR ] %1</xC144012E>
+    <xC144012E>[ Error ] %1</xC144012E>
     <xC144012F>[ Avertencia ] El atributo extendido en el archivo %1 se ha ignorado.</xC144012F>
     <xC1440136>Operación no soportada. Compruebe que el SO se está ejecutando, y que contenga un controlador wof (wof.sys/wofadk.sys).</xC1440136>
     <xC1440137>Operación no soportada. Compruebe que la imagen aplicada al WIMBoot sea compatible.</xC1440137>
