@@ -1436,7 +1436,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <xC143010D>Indice de imagen no válido para el contenedor de Wim wrapper. El contenedor no puede abrir una imagen.</xC143010D>
     <xC1440129>El archivo log especificado existe y no es un archivo de texto en Unicode. Sólo los archivos de texto en Unicode son compatibles.</xC1440129>
     <xC144012E>[ Error ] %1</xC144012E>
-    <xC144012F>[ Avertencia ] El atributo extendido en el archivo %1 se ha ignorado.</xC144012F>
+    <xC144012F>[ Advertencia ] El atributo extendido en el archivo %1 se ha ignorado.</xC144012F>
     <xC1440136>Operación no soportada. Compruebe que el SO se está ejecutando, y que contenga un controlador wof (wof.sys/wofadk.sys).</xC1440136>
     <xC1440137>Operación no soportada. Compruebe que la imagen aplicada al WIMBoot sea compatible.</xC1440137>
     <xC1440138>Operación no soportada. Verifique que la imagen está siendo aplicada al WIMBoot guardado localmente y no a un recurso compartido de red.</xC1440138>
