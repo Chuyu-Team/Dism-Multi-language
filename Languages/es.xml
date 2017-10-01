@@ -1188,7 +1188,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="百度网盘日志" Link="Registro de Baidu Yun"/>
     <String Target="百度网盘运行时产生的一些日志文件。" Link="Cuando ejecuta Baidu Yun, crea archivos log."/>
 
-    <String Target="飞信日志" Link="Registro de feciones"/>
+    <String Target="飞信日志" Link="Registro de Fetion"/>
     <String Target="飞信运行时产生的一些日志文件。" Link="Al ejecutar Fetion, crea archivos log."/>
 
     <String Target="回收站" Link="Papelera de reciclaje"/>
