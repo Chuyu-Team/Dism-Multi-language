@@ -48,7 +48,7 @@
       <String Target="ESD解密" Link="ESD 解密"/>
     <String Target="取消任务&#9;Ctrl+Break" Link="取消任務&#9;Ctrl+Break"/>
 
-    <String Target="恢复功能(&amp;R)" Link="恢復功能(&amp;R)"/>&#9;&#9;
+    <String Target="恢复功能(&amp;R)" Link="恢復功能(&amp;R)"/>
       <String Target="系统修复" Link="系統修復"/>
       <String Target="健康扫描" Link="健康掃描"/>
         <String Target="验证受损" Link="檢驗受損"/>
@@ -103,7 +103,7 @@
     <String Target="专家模式" Link="專家模式"/>
 
     <!--右键菜单-->
-    <String Target="Xpress4k（推荐）" Link="Xpress4k (推薦)"/>
+    <String Target="Xpress4k（推荐）" Link="Xpress4k (建議)"/>
     <String Target="LZX（体积最小）" Link="LZX (體積最小)"/>
 
     <!--主框架-->
@@ -123,7 +123,7 @@
 
     <String Target="你需要增量保存还是直接保存？" Link="您需要增量儲存還是直接儲存？"/>
     <String Target="温馨提示：保存映像后空间不会减少，如果需要减少空间请重新编译目标文件。" Link="貼心提醒：儲存映像後空間不會減少，如果需要減少空間請重新編輯目的檔案。"/>
-    <String Target="增量保存（推荐）&#xA;创建一个新的映像，不会覆盖原有数据。" Link="增量儲存 (推薦)&#xA;建立一個新的映像，不會覆蓋原有資料。"/>
+    <String Target="增量保存（推荐）&#xA;创建一个新的映像，不会覆盖原有数据。" Link="增量儲存 (建議)&#xA;建立一個新的映像，不會覆蓋原有資料。"/>
 
     <String Target="直接保存&#xA;将覆盖当前映像的数据。" Link="直接儲存&#xA;將覆蓋目前映像的資料。"/>
 
@@ -137,7 +137,7 @@
     <String Target="无法移动文件 %s，Dism++已回滚对系统的更改。" Link="無法移動檔案 %s，Dism++ 已復原對系統的更改。"/>
 
     <String Target="正在配置WinRE" Link="正在配置 WinRE"/>
-    <String Target="正在进行第 %d 阶段（共 %d ）" Link="正在進行第 %d 階段 (共 %d )"/>
+    <String Target="正在进行第 %d 阶段（共 %d ）" Link="正在進行第 %d 階段 (共 %d)"/>
     <String Target="格式转换向导" Link="格式轉換精靈"/>
     <String Target="此功能可以将微软发布的ESD转换为ISO，还支持加密的ESD哦。" Link="此功能可以將微軟發佈的 ESD 轉換為 ISO，還支援加密的 ESD。"/>
     <String Target="ESD映像文件" Link="ESD 映像檔"/>
@@ -168,7 +168,7 @@
     <String Target="在还原前你需要格式化分区：%s ?" Link="在還原前您需要格式化磁碟：%s ?"/>
 
     <String Target="温馨提示：格式化分区该分区所有数据将丢失！" Link="貼心提醒：格式化磁碟，該磁碟所有資料將會消除！"/>
-    <String Target="格式化分区（推荐）&#xA;有助于系统分区整洁，消除文件残留。" Link="格式化磁碟 (推薦)&#xA;有助於系統磁碟區整潔，消除檔案殘留。"/>
+    <String Target="格式化分区（推荐）&#xA;有助于系统分区整洁，消除文件残留。" Link="格式化磁碟 (建議)&#xA;有助於系統磁碟區整潔，消除檔案殘留。"/>
 
     <String Target="%s 映像已经还原成功。" Link="%s 映像已經還原成功。"/>
     <String Target="你需要重启并立即生效么？" Link="您需要重新啟動並立即生效嗎？"/>
@@ -476,8 +476,8 @@
     <String Target="正在安装驱动" Link="正在安裝驅動"/>
     <String Target="一个或者多个驱动添加失败，错误代码：0x%.8X" Link="一個或者多個驅動新增失敗，錯誤代碼：0x%.8X"/>
     <String Target="显示内置驱动" Link="顯示內建驅動"/>
-    <String Target="处理过程中遇到问题，其中成功 %u 个，失败 %u 个，不适用 %u 个。部分错误信息：%s [0x%.8X] 更多信息请参考 &quot;Config\Dism++.log&quot;" Link="處理過程中遇到問題，其中成功 %u 個，失敗 %u 個，不適用 %u 個。部分錯誤訊息：%s [0x%.8X] 更多細節請參考 &quot;Config\Dism++.log&quot;"/>
-    <String Target="操作成功，其中成功 %u 个，不适用 %u 个。更多信息请参考 &quot;Config\Dism++.log&quot;" Link="操作成功，其中成功 %u 個，不適用 %u 個。更多細節請參考 &quot;Config\Dism++.log&quot;"/>
+    <String Target="处理过程中遇到问题，其中成功 %u 个，失败 %u 个，不适用 %u 个。部分错误信息：%s [0x%.8X] 更多信息请参考 &quot;Config\Dism++.log&quot;" Link="處理過程中遇到問題，其中成功 %u 個，失敗 %u 個，不適用 %u 個。部分錯誤訊息：%s [0x%.8X] 更多細節請參閱 &quot;Config\Dism++.log&quot;"/>
+    <String Target="操作成功，其中成功 %u 个，不适用 %u 个。更多信息请参考 &quot;Config\Dism++.log&quot;" Link="操作成功，其中成功 %u 個，不適用 %u 個。更多細節請參閱 &quot;Config\Dism++.log&quot;"/>
 
     <!--開機啟動項目-->
     <String Target="开机启动项" Link="開機啟動項目"/>
@@ -604,7 +604,7 @@
     <String Target="分析%d%%" Link="解析 %d%%"/>
     <String Target="%s 将引入独占请求，请在 %d 秒内做出选择。" Link="%s 將引入獨佔請求，請在 %d 秒內做出選擇。"/>
     <String Target="温馨提示：引入独占请求后，你将无法安装其他更新，直到你重启系统。建议你先安装其他更新，最后安装此更新。" Link="貼心提醒：引入獨佔請求後，你將無法安裝其他更新，直到你重新啟動系統。建議你先安裝其他更新，最後安裝此更新。"/>
-    <String Target="暂不安装（推荐）&#xA;我暂时还需要添加其他更新。" Link="暫不安裝 (推薦)&#xA;我暫時還需要新增其他更新。"/>
+    <String Target="暂不安装（推荐）&#xA;我暂时还需要添加其他更新。" Link="暫不安裝 (建議)&#xA;我暫時還需要新增其他更新。"/>
     <String Target="继续安装&#xA;我已确保我需要的更新均已安装。" Link="繼續安裝&#xA;我已確保我需要的更新均已安裝。"/>
     <String
       Target="关于 %s 的警告：&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;你确定要继续吗？"
@@ -665,8 +665,8 @@
     <String Target="请重新选择你的系统，你当前要还原的系统与本系统不匹配，请重新选择你的系统！" Link="您目前要還原的系統與本系統不符合，請重新選擇您的系統！"/>
     <String Target="备份的信息与你所还原的信息版本不同，是否要继续还原？" Link="備份的訊息與您所還原的訊息版本不同，是否要繼續還原？"/>
     <String Target="Sorry暂不支持此系统，请反馈给我。" Link="Sorry！暫不支援此系統，請反映給我。"/>
-    <String Target="还原失败！具体错误信息请参考Dism++.log。" Link="還原失敗！詳細錯誤訊息請參考 Dism++.log。"/>
-    <String Target="备份失败，具体请参考日志Dism++.log。" Link="備份失敗，具體請參考日誌 Dism++.log。"/>
+    <String Target="还原失败！具体错误信息请参考Dism++.log。" Link="還原失敗！詳細錯誤訊息請參閱 Dism++.log。"/>
+    <String Target="备份失败，具体请参考日志Dism++.log。" Link="備份失敗，具體請參閱日誌 Dism++.log。"/>
     <String Target="无法备份Windows激活信息。" Link="無法備份 Windows 啟用資訊。"/>
     <String Target="非致命性错误，Office信息无法备份。" Link="非致命性錯誤，Office 資訊無法備份。"/>
 
@@ -683,7 +683,7 @@
     <String Target="让其他程序以无视权限方式运行。" Link="使其他程式以忽略權限方式執行。"/>
     <String Target="请在此输入命令或者程序路径，比如regedit" Link="請在此輸入指令或者程式執行路徑，例如 regedit"/>
     <String Target="说明" Link="說明"/>
-    <String Target="本工具可以让其他程序以无视权限形式运行，本功能可以通过命令行参数调用，详情请参考帮助文档了解具体用法。" Link="本工具可以讓其他程式以忽略權限方式執行，亦可以透過命令列參數呼叫，詳情請參考說明文件，了解具體用法。"/>
+    <String Target="本工具可以让其他程序以无视权限形式运行，本功能可以通过命令行参数调用，详情请参考帮助文档了解具体用法。" Link="本工具可以讓其他程式以忽略權限方式執行，亦可以透過命令列參數呼叫，詳情請參閱說明文件，了解具體用法。"/>
     <String
       Target="/GodMode {Commendline}&#xD;&#xA; 春哥附体执行Cmd命令，其命令格式与Cmd用法一致&#xD;&#xA;&#xD;&#xA;示例:&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode cmd&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode regedit.exe&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode &quot;\&quot;C:\Windows\notepad.exe\&quot; \&quot;C:\123.txt\&quot;&quot;"
       Link="/GodMode {Commandline}&#xD;&#xA; 上帝模式執行命令，其命令格式與Cmd用法一致。&#xD;&#xA;&#xD;&#xA;範例：&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode cmd&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode regedit.exe&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode &quot;\&quot;C:\Windows\notepad.exe\&quot; \&quot;C:\123.txt\&quot;&quot;"/>
@@ -720,9 +720,9 @@
     <String Target="针对未来新建的用户，即 HKEY_USERS\DEFAULT。" Link="針對未來新增的使用者，即 HKEY_USERS\DEFAULT。"/>
     <String Target="针对系统，即 HKEY_LOCAL_MACHINE。" Link="針對系統，即 HKEY_LOCAL_MACHINE。"/>
     <String Target="导入配置" Link="匯入設定"/>
-    <String Target="导入注册表文件过程中遇到问题，具体错误信息请参考 Dism++.log。" Link="匯入登錄檔過程中遇到問題，詳細錯誤訊息請參考 Dism++.log。"/>
+    <String Target="导入注册表文件过程中遇到问题，具体错误信息请参考 Dism++.log。" Link="匯入登錄檔過程中遇到問題，詳細錯誤訊息請參閱 Dism++.log。"/>
     <String Target="注册表文件" Link="登錄檔"/>
-    <String Target="操作成功，但是导入注册表文件过程遇到一些非致命性错误，具体错误信息请参考 Dism++.log。" Link="操作成功，但是匯入登錄檔檔過程遇到一些非致命性錯誤，具體錯誤資訊請參考 Dism++.log。"/>
+    <String Target="操作成功，但是导入注册表文件过程遇到一些非致命性错误，具体错误信息请参考 Dism++.log。" Link="操作成功，但是匯入登錄檔檔過程遇到一些非致命性錯誤，具體錯誤訊息請參閱 Dism++.log。"/>
     <String Target="提交规则" Link="提供規則"/>
 
     <!--Explorer-->
@@ -1455,13 +1455,13 @@
     2、使用 Dism++ 前，您必須認真閱讀 Dism++ 說明文件。除非您無法正常閱讀中文，比如盲人、海外使用者等。
     3、Dism++ 使用者有義務報告程式 BUG、程式改善意見，有權吐槽 Dism++ 的不足。使用 Dism++ 滿 30 天後的使用者（包含節假日）需向小鴨子（Email：mingkuang@live.com）信箱寄出一份不少於 345 字的《Dism++ 體驗報告》。滿 8 個月的老使用者，每年的 11 月 11 號（當地時間）還需要向小鴨子（Email：mingkuang@live.com）信箱寄出不少於 520 字的《年度 Dism++ 改善意見》。
     4、Dism++ 的使用者必須愛好和平、團結友愛、助人為樂。己欲立而立人，己欲達而達人。
-    5、未經初雨團隊許可，任何人不得擅自（包括但不限於：以非法的方式複製、傳播、展示、鏡像、上載、下載、修改）使用，或透過非正常方式（如：惡意干預初雨團隊資料）影響初雨團隊的正常服務，任何人不得擅自以軟體程式自動獲得初雨團隊資料。否則，初雨團隊將依法追究法律責任。
+    5、未經初雨團隊許可，任何人不得擅自（包括但不限於：以非法的方式複製、傳播、展示、鏡像、上傳、下載、修改）使用，或透過非正常方式（如：惡意干預初雨團隊資料）影響初雨團隊的正常服務，任何人不得擅自以軟體程式自動獲得初雨團隊資料。否則，初雨團隊將依法追究法律責任。
     6、盜版使用者（未遵守 Dism++ 許可的使用者），初雨團隊有權禁止您執行所有初雨團隊相關軟體，不會受理您的任何要求、以及任何技術支援並依法追究法律責任。
     7、正版使用者（遵守 Dism++ 許可的使用者），初雨團隊儘量滿足/解決您的問題（提供必要的幫助或技術支援），具體根據問題複雜度、耗時、以及使用者投票而決定。
 
 二、使用者個人隱私資料保護
 
-    1、Dism++ 執行過程會收集您的系統資訊（包括但不限於：系統版本號、系統架構、系統名稱、系統語言、處理器型號、記憶體數量）以及 Dism++ 程式異常執行資訊（包括但不限於：程式當機 dmp、執行日誌）以改善 Dism++ 的服務。但不會收集使用者身份以及使用者聯絡方式以及其他能標識使用者身份的資料。
+    1、Dism++ 執行過程會收集您的系統資訊（包括但不限於：系統版本號、系統架構、系統名稱、系統語言、處理器型號、記憶體數量）以及 Dism++ 程式異常執行資訊（包括但不限於：程式當機 dmp 檔、執行日誌）以改善 Dism++ 的服務。但不會收集使用者身份以及使用者聯絡方式以及其他能標識使用者身份的資料。
     2、初雨團隊可能會向使用者寄送測試邀請、軟體 BUG 跟進、使用者投票邀請訊息，但不會向使用者寄送包括但不限於含廣告、推廣、欺詐、付費等訊息。
 
 三、風險承擔
@@ -1471,7 +1471,7 @@
 
 四、智慧財產權聲明
 
-    1、初雨團隊在本服務中提供的內容（包括但不限於程式、網頁、文字、圖片、音訊、視訊、圖表等）的智慧財產權均歸初雨團隊所有。
+    1、初雨團隊在本服務中提供的內容（包括但不限於程式、網頁、文字、圖片、音訊、影片、圖表等）的智慧財產權均歸初雨團隊所有。
     2、除另有特別聲明外，初雨團隊提供本服務時所依託軟體的著作權、專利權及其他智慧財產權均歸初雨團隊所有。
     3、未經初雨團隊事先書面同意，使用者不得將初雨團隊相關程式以任何方式展示或使用或作其他處理，也不得向他人表明使用者有權展示、使用、或其他有權處理初雨團隊相關程式的行為。
     4、上述及其他任何初雨團隊依法擁有的智慧財產權均受到法律保護，未經初雨團隊面許可，使用者不得以任何形式進行使用或二次封裝、反組譯等其他非法行為。
