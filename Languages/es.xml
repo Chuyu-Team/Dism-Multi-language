@@ -585,12 +585,12 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="正在检查数据库" Link="Comprobando la base de datos"/>
     <String Target="正在下载数据库" Link="Descargando la base de datos"/>
     <String Target="正在扫描更新" Link="Analizando las actualizaciones"/>
-    <String Target="等待安装" Link="Esperar para instalar"/>
-    <String Target="等待下载" Link="Necesario descargar"/>
+    <String Target="等待安装" Link="Esperando instalación"/>
+    <String Target="等待下载" Link="Esperando descargar"/>
     <String Target="下载失败" Link="Error al descargar"/>
     <String Target="安装失败" Link="Error"/>
-    <String Target="部分成功" Link="Parcialmente completado"/>
-    <String Target="安装成功" Link="Completo"/>
+    <String Target="部分成功" Link="Parcialmente exitosa"/>
+    <String Target="安装成功" Link="Instalación exitosa"/>
     <String Target="一个或者多个更新安装失败，错误代码：0x%.8X" Link="Una o varias instalaciones de la actualización han fallado. Código error: 0x%.8X."/>
     <String Target="正在下载" Link="Descargando"/>
     <String Target="正在安装" Link="Instalando"/>
