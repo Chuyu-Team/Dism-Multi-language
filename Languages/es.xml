@@ -73,7 +73,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
 
     <String Target="帮助(&amp;H)" Link="&amp;Ayuda"/>
       <String Target="查看帮助(&amp;V)" Link="&amp;Ver ayuda"/>
-      <String Target="官方网站(&amp;O)" Link="Sitio &amp;Oficial"/>
+      <String Target="官方网站(&amp;O)" Link="Sitio &amp;oficial"/>
       <String Target="官方群(&amp;G)" Link="&amp;Grupo oficial"/>
       <String Target="问题反馈(&amp;B)" Link="&amp;Comentarios"/>
       <String Target="关于Dism++(&amp;A)" Link="&amp;Acerca de Dism++"/>
@@ -556,7 +556,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="刷新" Link="Actualizar"/>
     <String Target="添加" Link="Añadir"/>
     <String Target="语言" Link="Idioma"/>
-    <String Target="Windows %s 语言包" Link="Paquete del idioma en %s de Windows"/>
+    <String Target="Windows %s 语言包" Link="Windows %s paquete de idiomas"/>
     <String Target="重启生效" Link="Reiniciar"/>
 
     <!--可选功能-->
@@ -1089,7 +1089,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="分卷大小（MB）" Link="Tamaño volumen(MB)"/>
 
     <!--用户协议-->
-    <String Target="Dism++用户协议" Link="Agradecimientos usuario Dism++"/>
+    <String Target="Dism++用户协议" Link="Acuerdo del usuario Dism++"/>
     <String Target="这是一份法律性资料。" Link="Aquí hay una información legal."/>
     <String Target="接受" Link="Aceptar"/>
     <String Target="不接受" Link="No aceptar"/>
@@ -1097,12 +1097,12 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="作者的话" Link="Comentarios del autor"/>
 
     <!--清理项目条目映射-->
-    <String Target="被取代的WinSxS组件" Link="Ensamblados WinSxS sustituidos"/>
+    <String Target="被取代的WinSxS组件" Link="Componentes WinSxS sustituidos"/>
     <String Target="清理被取代的组件并减少组件存储的大小。" Link="Se usa para limpiar los componentes sustituidos y reducir el tamaño del almacén de componentes."/>
     <String Target="清理后将无法卸载更新，如果有卸载更新需求请勿使用此选项。" Link="Las actualizaciones de Windows instaladas no se pueden desinstalar una vez finalizada la actualización."/>
     <String Target="清理后将无法卸载更新，此外ResetBase模式跟系统重置功能有冲突，如果有卸载更新或者系统重置需求请勿使用此选项。" Link="Las actualizaciones no se pueden desinstalar después de limpiar. Además, el modo ResetBase está en conflicto con la función de reinicio del sistema. No utilice esta opción si tiene tales necesidades."/>
 
-    <String Target="被取代的WinSxS组件（非常慢）" Link="Ensamblados WinSxS sustituidos (muy lento)"/>
+    <String Target="被取代的WinSxS组件（非常慢）" Link="Componentes WinSxS sustituidos (muy lento)"/>
 
     <String Target="过期驱动" Link="Controladores antiguos"/>
     <String Target="删除计算机中不使用的驱动程序以节省驱动存储池空间。" Link="Borrar los controladores para ahorrar espacio."/>
@@ -1191,7 +1191,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="飞信日志" Link="Registro de feciones"/>
     <String Target="飞信运行时产生的一些日志文件。" Link="Al ejecutar Fetion, crea archivos log."/>
 
-    <String Target="回收站" Link="Estación de reciclaje"/>
+    <String Target="回收站" Link="Papelera de reciclaje"/>
     <String Target="用于存放用户手动删除的文件目录。" Link="Almacena los archivos eliminados manualmente por el usuario."/>
 
     <String Target="Office 365/2016安装源" Link="Origen de la instalación de Office 365/2016"/>
