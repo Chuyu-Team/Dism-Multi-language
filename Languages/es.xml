@@ -556,7 +556,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="刷新" Link="Actualizar"/>
     <String Target="添加" Link="Añadir"/>
     <String Target="语言" Link="Idioma"/>
-    <String Target="Windows %s 语言包" Link="Windows %s paquete de idiomas"/>
+    <String Target="Windows %s 语言包" Link="Paquete de idioma en %s de Windows"/>
     <String Target="重启生效" Link="Reiniciar"/>
 
     <!--可选功能-->
