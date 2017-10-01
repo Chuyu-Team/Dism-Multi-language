@@ -467,7 +467,7 @@
     <String Target="正在加载驱动" Link="正在載入驅動"/>
     <String Target="请选择驱动保存路径" Link="請選擇驅動儲存路徑"/>
     <String Target="正在导出驱动" Link="正在匯出驅動"/>
-    <String Target="导出驱动时遇到问题，具体参考Dism++.log" Link="匯出驅動時遇到問題，具體參考 Dism++.log"/>
+    <String Target="导出驱动时遇到问题，具体参考Dism++.log" Link="匯出驅動時遇到問題，具體請參閱 Dism++.log"/>
 
     <String Target="正在删除驱动" Link="正在刪除驅動"/>
     <String Target="一个或者多个驱动删除失败，错误代码：0x%.8X" Link="一個或者多個驅動刪除失敗，錯誤代碼：0x%.8X"/>
@@ -1151,18 +1151,18 @@
     <String Target="Windows临时安装文件" Link="Windows 臨時安裝檔"/>
     <String Target="在系统升级或者还原后留下的系统临时安装文件，如果你确定当前没有进行系统升级或者还原，那么可以安全删除。" Link="在系統升級或者還原後留下的系統臨時安裝檔，如果您確定目前沒有進行系統升級或者還原，那麼可以安全刪除。"/>
 
-    <String Target="QQ临时数据" Link="QQ暫存檔案"/>
-    <String Target="QQ运行时产生的临时文件还有日志，不影响QQ消息记录，建议定期删除。" Link="QQ執行時產生的暫存檔案還有日誌，不影響QQ訊息記錄，建議定期刪除。"/>
+    <String Target="QQ临时数据" Link="QQ 暫存檔案"/>
+    <String Target="QQ运行时产生的临时文件还有日志，不影响QQ消息记录，建议定期删除。" Link="QQ 執行時產生的暫存檔案還有日誌，不影響 QQ 訊息記錄，建議定期刪除。"/>
 
-    <String Target="YY临时文件" Link="YY暫存檔案"/>
-    <String Target="YY运行时产生的一些临时文件以及日志，建议定期删除。" Link="YY執行時產生的一些暫存檔案以及日誌，建議定期刪除。"/>
+    <String Target="YY临时文件" Link="YY 暫存檔案"/>
+    <String Target="YY运行时产生的一些临时文件以及日志，建议定期删除。" Link="YY 執行時產生的一些暫存檔案以及日誌，建議定期刪除。"/>
 
     <String Target="Installer基线缓存" Link="Installer 快取"/>
     <String Target="使用Installer技术的安装程序产生的缓存。" Link="使用 Installer 技術的安裝程式產生的快取。"/>
     <String Target="可能导致卸载Office、VM等应用程序需要安装包。" Link="可能導致移除 Office、VM 等應用程式時，缺乏安裝包。"/>
 
     <String Target="Visual Studio安装源" Link="Visual Studio 安裝來源"/>
-    <String Target="安装Visual Studio后产生的安装源，如果不需要卸载VS可以考虑删除。" Link="安裝 Visual Studio 後產生的安裝來源，如果不需要移除VS可以考慮刪除。"/>
+    <String Target="安装Visual Studio后产生的安装源，如果不需要卸载VS可以考虑删除。" Link="安裝 Visual Studio 後產生的安裝來源，如果不需要移除 VS 可以考慮刪除。"/>
     <String Target="清理后将无法卸载只能升级安装或者强行删除。" Link="清理後將無法移除只能升級安裝或者強行刪除。"/>
 
     <String Target="Office安装源" Link="Office 安裝來源"/>
@@ -1236,7 +1236,7 @@
     <String Target="阿里亲淘在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="阿里親淘在升級到新版本後留下的備份檔案，在故障時復原到舊版本。"/>
 
     <String Target="会声会影素材存档" Link="會聲會影素材存檔"/>
-    <String Target="会声会影使用过程中会在此目录产生存档，在不需要后可以删除。" Link="繪聲繪影使用過程中會在此目錄產生存檔，在不需要後可以刪除。"/>
+    <String Target="会声会影使用过程中会在此目录产生存档，在不需要后可以删除。" Link="會聲會影使用過程中會在此目錄產生存檔，在不需要後可以刪除。"/>
     <String Target="请确保所有编辑的视频已经保存！" Link="請確保所有編輯的視訊已經儲存！"/>
 
     <String Target="Visual Studio智能跟踪（by LP）" Link="Visual Studio IntelliTrace (by LP)"/>
