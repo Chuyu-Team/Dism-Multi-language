@@ -1226,7 +1226,7 @@
     <String Target="以前的Dism++组件" Link="先前的 Dism++ 元件"/>
     <String Target="以前版本的Dism++使用的文件。" Link="先前版本的 Dism++ 使用的檔案。"/>
 
-    <String Target="360浏览器老版本备份" Link="360 瀏覽器舊版本備份"/>
+    <String Target="360浏览器老版本备份" Link="360瀏覽器舊版本備份"/>
     <String Target="360浏览器在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="360瀏覽器在升級到新版本後留下的備份檔案，在故障時復原到舊版本。"/>
 
     <String Target="阿里旺旺老版本备份" Link="阿里旺旺舊版本備份"/>
