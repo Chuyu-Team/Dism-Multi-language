@@ -329,7 +329,7 @@
     <String Target="导出" Link="匯出"/>
     <String Target="保存更改" Link="儲存更改"/>
     <String Target="导出映像" Link="匯出映像"/>
-    <String Target="正在导出第%d个映像（共 %d ）" Link="正在匯出第 %d 個映像 (共 %d )"/>
+    <String Target="正在导出第%d个映像（共 %d ）" Link="正在匯出第 %d 個映像 (共 %d 個)"/>
     <String Target="正在添加映像，请耐心等待……" Link="正在新增映像，請耐心等候..."/>
     <String Target="操作成功！" Link="操作成功！"/>
     <String Target="删除映像" Link="刪除映像"/>
@@ -548,10 +548,10 @@
     <String Target="状态" Link="狀態"/>
     <String Target="正在获取更新信息" Link="正在取得更新資訊"/>
     <String Target="正在删除更新" Link="正在刪除更新"/>
-    <String Target="正在删除第 %d 个更新（共 %d ）" Link="正在刪除第 %d 個更新 (共 %d )"/>
+    <String Target="正在删除第 %d 个更新（共 %d ）" Link="正在刪除第 %d 個更新 (共 %d 個)"/>
     <String Target="补丁包" Link="更新包"/>
     <String Target="正在安装更新" Link="正在安裝更新"/>
-    <String Target="正在安装第 %d 个更新（共 %d ）" Link="正在安裝第 %d 個更新 (共 %d )"/>
+    <String Target="正在安装第 %d 个更新（共 %d ）" Link="正在安裝第 %d 個更新 (共 %d 個)"/>
     <String Target="刷新" Link="重新整理"/>
     <String Target="添加" Link="新增"/>
     <String Target="语言" Link="語言"/>
@@ -560,7 +560,7 @@
 
     <!--選用功能-->
     <String Target="正在删除可选功能" Link="正在刪除選用功能"/>
-    <String Target="正在删除第 %d 个可选功能（共 %d ）" Link="正在刪除第 %d 個選用功能 (共 %d)"/>
+    <String Target="正在删除第 %d 个可选功能（共 %d ）" Link="正在刪除第 %d 個選用功能 (共 %d 個)"/>
     <String Target="正在加载可选功能" Link="正在載入選用功能"/>
     <String Target="显示所有功能" Link="顯示所有功能"/>
     <String Target="卸载" Link="解除安裝"/>
