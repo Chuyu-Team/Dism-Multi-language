@@ -10,10 +10,10 @@
     '     單引號                       &apos;
     "     單引號                       &quot;
     \t    制表符                       &#9;
-    \n    换行                         &#xA;
+    \n    換行                         &#xA;
     \r    回车                         &#xD;
 
-感謝：iliGPU、jamesfuh、月下独酌
+感謝：iliGPU (http://mkvq.blogspot.com/ )、jamesfuh、月下独酌
 -->
 <Data>
   <DefaultControl>
@@ -476,8 +476,8 @@
     <String Target="正在安装驱动" Link="正在安裝驅動"/>
     <String Target="一个或者多个驱动添加失败，错误代码：0x%.8X" Link="一個或者多個驅動新增失敗，錯誤代碼：0x%.8X"/>
     <String Target="显示内置驱动" Link="顯示內建驅動"/>
-    <String Target="处理过程中遇到问题，其中成功 %u 个，失败 %u 个，不适用 %u 个。部分错误信息：%s [0x%.8X] 更多信息请参考 &quot;Config\Dism++.log&quot;" Link="處理過程中遇到問題，其中成功 %u 個，失敗 %u 個，不適用 %u 個。部分錯誤訊息：%s [0x%.8X] 更多細節請參閱 &quot;Config\Dism++.log&quot;"/>
-    <String Target="操作成功，其中成功 %u 个，不适用 %u 个。更多信息请参考 &quot;Config\Dism++.log&quot;" Link="操作成功，其中成功 %u 個，不適用 %u 個。更多細節請參閱 &quot;Config\Dism++.log&quot;"/>
+    <String Target="处理过程中遇到问题，其中成功 %u 个，失败 %u 个，不适用 %u 个。部分错误信息：%s [0x%.8X] 更多信息请参考 &quot;Config\Dism++.log&quot;" Link="處理過程中遇到問題，其中成功 %u 個，失敗 %u 個，不適用 %u 個。部分錯誤訊息：%s [0x%.8X] 更多細節請參閱「Config\Dism++.log」"/>
+    <String Target="操作成功，其中成功 %u 个，不适用 %u 个。更多信息请参考 &quot;Config\Dism++.log&quot;" Link="操作成功，其中成功 %u 個，不適用 %u 個。更多細節請參閱「Config\Dism++.log」"/>
 
     <!--開機啟動項目-->
     <String Target="开机启动项" Link="開機啟動項目"/>
@@ -686,7 +686,7 @@
     <String Target="本工具可以让其他程序以无视权限形式运行，本功能可以通过命令行参数调用，详情请参考帮助文档了解具体用法。" Link="本工具可以讓其他程式以忽略權限方式執行，亦可以透過命令列參數呼叫，詳情請參閱說明文件，了解具體用法。"/>
     <String
       Target="/GodMode {Commendline}&#xD;&#xA; 春哥附体执行Cmd命令，其命令格式与Cmd用法一致&#xD;&#xA;&#xD;&#xA;示例:&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode cmd&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode regedit.exe&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode &quot;\&quot;C:\Windows\notepad.exe\&quot; \&quot;C:\123.txt\&quot;&quot;"
-      Link="/GodMode {Commandline}&#xD;&#xA; 上帝模式執行命令，其命令格式與Cmd用法一致。&#xD;&#xA;&#xD;&#xA;範例：&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode cmd&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode regedit.exe&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode &quot;\&quot;C:\Windows\notepad.exe\&quot; \&quot;C:\123.txt\&quot;&quot;"/>
+      Link="/GodMode {Commandline}&#xD;&#xA; 上帝模式執行命令，其命令格式與 Cmd 用法一致。&#xD;&#xA;&#xD;&#xA;範例：&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode cmd&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode regedit.exe&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode &quot;\&quot;C:\Windows\notepad.exe\&quot; \&quot;C:\123.txt\&quot;&quot;"/>
     <String
       Target="即将以无视权限方式执行此命令：&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;为了避免让恶意软件利用，Dism++需要你的允许才能继续，你确定要继续吗？"
       Link="即將以忽略權限方式執行此指令：&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;為避免惡意程式利用，Dism++ 需要您的允許才能繼續，您確定要繼續嗎？"/>
