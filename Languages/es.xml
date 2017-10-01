@@ -293,7 +293,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="在此处设置捕获映像的文件豁免列表加快捕获速度，每个条目用回车分割。" Link="Lista de exclusión de las imágenes que no necesitan captura, separar cada imagen excluida con enter."/>
     <String Target="如何配置豁免列表" Link="Cómo configurar la lista de exclusión"/>
     <String Target="另存为映像" Link="Guardar imagen como"/>
-    <String Target="卷影复制" Link="Copiar de atrás"/>
+    <String Target="卷影复制" Link="VSS"/>
 
     <!-- 系统修复-->
     <String Target="映像十分健康不需要修复。" Link="La imagen está intacta. No se necesita reparar."/>
@@ -1128,7 +1128,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="系统更新时在WinSxS里面产生的临时文件。" Link="Al actualizar el sistema, crea los archivos temporales."/>
 
     <String Target="Windows日志（by chenyu、YukiSakura）" Link="Registro de Windows (chenyu, YukiSakura)"/>
-    <String Target="Windows在运行时产生的日志。" Link="Archivos registro de Windows."/>
+    <String Target="Windows在运行时产生的日志。" Link="Archivos de registro de Windows."/>
 
     <String Target="Windows下载缓存" Link="Caché de descarga de Windows"/>
     <String Target="Windows在下载更新以及更新Metro应用时会在这里产生临时安装包。" Link="Al descargar actualizaciones de Windows o aplicaciones, coloca los paquetes de la instalación temporal aquí"/>
