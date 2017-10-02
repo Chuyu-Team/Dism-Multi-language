@@ -596,7 +596,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="正在安装" Link="Instalando"/>
     <String Target="项目" Link="Elemento"/>
     <String Target="Windows Update数据库已经存在新版本，你需要更新吗？" Link="Hay una nueva versión de la base de datos para Windows Update, ¿desea actualizarla?"/>
-    <String Target="下载%d%%" Link="Descargar %d%%"/>
+    <String Target="下载%d%%" Link="Descarga %d%%"/>
     <String Target="将现有的本地补丁包添加至系统。" Link="Añadir paquetes a la imagen."/>
     <String Target="使用Dism++数据库扫描当前系统需要的更新列表。" Link="Usar la base de datos de DISM++ para analizar los cambios que necesite la imagen actual."/>
     <String Target="自动下载并安装更新列表中选中的更新。" Link="Descargar e instalar automáticamente las actualizaciones seleccionadas."/>
