@@ -238,12 +238,12 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="正在检查更新" Link="Comprobando actualizaciones..."/>
     <String Target="正在加载插件" Link="Cargando complemento"/>
     <String Target="正在扫描已安装的系统" Link="Analizando sistema instalado"/>
-    <String Target="已经是最新版本，无需更新！" Link="Es la versión más reciente. No hay otra actualización."/>
+    <String Target="已经是最新版本，无需更新！" Link="Es la versión más reciente. No hay actualización."/>
     <String Target="正在修复挂载映像" Link="Volver a montar la imagen"/>
     <String Target="正在取消现有任务，请稍等……" Link="Cancelando tareas actuales, por favor espere..."/>
     <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="La imagen montada %s está dañada, debe repararse antes de continuar. ¿Reparar la imagen ahora?"/>
     <String Target="即将重启以下程序 %s，你确定要继续吗？" Link="A punto de reiniciar el siguiente programa %s, ¿Continuar?"/>
-    <String Target="资源管理器" Link="Explorer"/>
+    <String Target="资源管理器" Link="Explorador"/>
     <String Target="操作完成" Link="Correcto"/>
 
     <!--欢迎页-->
@@ -260,8 +260,8 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="帮助文档" Link="Ayuda"/>
 
     <String Target="致谢" Link="Gracias"/>
-    <String Target="翻译人员" Link="Traductor"/>
-    <String Target="赞助名单" Link="Patrocinador"/>
+    <String Target="翻译人员" Link="Traductores"/>
+    <String Target="赞助名单" Link="Patrocinadores"/>
     <String Target="第三方库" Link="Terceras partes"/>
 
     <!--添加映像-->
@@ -401,7 +401,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="Windows服务" Link="Servicios de Windows"/>
     <String Target="Windows功能" Link="Características de Windows"/>
     <String Target="更新管理" Link="Actualizaciones"/>
-      <String Target="已安装的更新" Link="Historial actualización"/>
+    <String Target="已安装的更新" Link="Actualizaciones instaladas"/>
     <String Target="可选功能" Link="Características opcionales"/>
     <String Target="部署功能" Link="Características"/>
 
@@ -442,7 +442,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="无效的MUI缓存" Link="Caché MUI no válido"/>
     <String Target="无效的文件类型" Link="Tipo de archivo no válido"/>
     <String Target="无效的COM组件" Link="Componente COM no válido"/>
-    <String Target="蓝屏记录" Link="Registro pantallazo azul"/>
+    <String Target="蓝屏记录" Link="Registro de pantalla azul"/>
     <String Target="注册表还原" Link="Restaurar"/>
     <String Target="清理时间" Link="Tiempo limpieza"/>
     <String Target="网络位置" Link="Ubicación red"/>
@@ -483,7 +483,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <!--开机启动项-->
     <String Target="开机启动项" Link="Inicio"/>
     <String Target="系统启动项 —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="Inicio del sistema —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
-    <String Target="系统启动项32位 —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run" Link="Inicio del sistema 32Bit —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run"/>
+    <String Target="系统启动项32位 —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run" Link="Inicio del sistema 32Bits —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run"/>
     <String Target="系统启动项（仅启动一次） —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="Inicio del sistema (Run Once) —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
     <String Target="系统启动项32位（仅启动一次） —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce" Link="Inicio del sistema 32Bit (Run Once) —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce"/>
     <String Target="用户启动项 —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="Inicio del usuario —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
@@ -595,7 +595,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="正在下载" Link="Descargando"/>
     <String Target="正在安装" Link="Instalando"/>
     <String Target="项目" Link="Elemento"/>
-    <String Target="Windows Update数据库已经存在新版本，你需要更新吗？" Link="La base de datos de Windows Update encontró una nueva versión, ¿desea actualizarla?"/>
+    <String Target="Windows Update数据库已经存在新版本，你需要更新吗？" Link="Hay una nueva versión de la base de datos para Windows Update, ¿desea actualizarla?"/>
     <String Target="下载%d%%" Link="Descargar %d%%"/>
     <String Target="将现有的本地补丁包添加至系统。" Link="Añadir paquetes a la imagen."/>
     <String Target="使用Dism++数据库扫描当前系统需要的更新列表。" Link="Usar la base de datos de DISM++ para analizar los cambios que necesite la imagen actual."/>
@@ -615,7 +615,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="安装%d%%" Link="Instalando %d%%"/>
 
     <!--区域和语言-->
-    <String Target="区域和语言" Link="Región&amp;Idioma"/>
+    <String Target="区域和语言" Link="Región e Idioma"/>
     <String Target="调整映像中的指定 SKU 语言的所有国际设置都设置为默认值：" Link="Restaurar todas las configuraciones internacionales SKU al idioma predeterminado:"/>
     <String Target="将系统默认语言调整为指定区域：" Link="Idioma predeterminado del sistema:"/>
     <String Target="将用户配置（格式、键盘布局等）为指定区域：" Link="Configuración regional del usuario (formato, teclado, etc.) para:"/>
@@ -938,7 +938,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
 
     <String Target="禁用诊断服务" Link="Desactivar el servicio de diagnóstico"/>
 
-    <String Target="禁用IPv6转换服务" Link="Desactivar el servicio auxiliar IP"/>
+    <String Target="禁用IPv6转换服务" Link="Desactivar el servicio auxiliar IPv6"/>
       <String Target="禁用此服务将导致IPv6无法正常使用，请确保你不需要使用IPv6！" Link="Al deshabilitar el servicio se inhabilita el servicio IPv6. ¡Asegúrese de que IPv6 NO es necesario!"/>
 
     <String Target="禁用Windows Search" Link="Desactivar Windows Search"/>
