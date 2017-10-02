@@ -7244,12 +7244,15 @@
     </Warning>
     <Warning ID="KB3184143">
       <zh-Hans>此更新已经用于删除Windows 10免费升级相关信息，但是目前Windows 10早就没有免费升级信息了，一般情况无需安装此更新。</zh-Hans>
+      <es>Esta actualización se ha utilizado para eliminar la información relacionada con la actualización gratuita de Windows 10, pero el actual Windows 10 durante mucho tiempo no dio información de actualización gratuita y generalmente no necesita instalar esta actualización.</es>
     </Warning>
     <Warning ID="KB3161102">
       <zh-Hans>此更新会删除Windows日记本，如果你确实需要使用日记本，那么请勿安装此更新。</zh-Hans>
+      <es>Esta actualización eliminará el diario de Windows, y si realmente necesita usar el diario, no instale esta actualización.</es>
     </Warning>
     <Warning ID="KB4041083">
       <zh-Hans>此更新将导致AutoCAD 2014无法正常运行，如果你确实需要使用AutoCAD 2014，那么请勿安装此更新。</zh-Hans>
+      <es>Esta actualización hará que AutoCAD 2014 no funcione correctamente, no instale esta actualización si realmente necesita usar AutoCAD 2014.</es>
     </Warning>
     <!--过期更新-->
     <Warning ID="KB982726" Type="Hide"/>
