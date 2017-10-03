@@ -74,7 +74,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="帮助(&amp;H)" Link="&amp;Ayuda"/>
       <String Target="查看帮助(&amp;V)" Link="&amp;Ver ayuda"/>
       <String Target="官方网站(&amp;O)" Link="Sitio &amp;oficial"/>
-      <String Target="官方群(&amp;G)" Link="&amp;Grupo oficial"/>
+      <String Target="官方群(&amp;G)" Link="&amp;Grupos oficiales"/>
       <String Target="问题反馈(&amp;B)" Link="&amp;Comentarios"/>
       <String Target="关于Dism++(&amp;A)" Link="&amp;Acerca de Dism++"/>
       <String Target="检查更新(&amp;U)" Link="Buscar actualizaciones(&amp;U)"/>
@@ -251,7 +251,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
 
     <String Target="联系方式" Link="Contacto"/>
     <String Target="官方网站" Link="Sitio oficial"/>
-    <String Target="QQ群" Link="Grupo oficial"/>
+    <String Target="QQ群" Link="Grupos oficiales"/>
     <String Target="邮箱" Link="Correo electrónico"/>
 
     <String Target="帮助与支持" Link="Soporte"/>
