@@ -8,15 +8,15 @@
   <String Src="%WhatsnewVersion%" Dst="Novedades - versión"/>
   <String Src="%64Bit%" Dst="Dism++ x64"/>
   <String Src="%32Bit%" Dst="Dism++ x86"/>
-  <String Src="%Full%" Dst="Dism++ completo(x86/x64)"/>
+  <String Src="%Full%" Dst="Dism++ Full(x86/x64)"/>
   <String Src="%SupportSystem%" Dst="Compatible con Windows Vista/7/8/8.1/10"/>
   <String Src="%AboutDism++%" Dst="Acerca de Dism++"/>
-  <String Src="%AboutDism++Des%" Dst="Dism++ puede considerarse como una versión de Dism con GUI, pero basada en servicios de componentes (CBS) de bajo nivel en lugar de DISM API o DISM Core API."/>
+  <String Src="%AboutDism++Des%" Dst="Dism++ puede considerarse como una versión de Dism con interfaz gráfica, pero basada en servicios de componentes (CBS) de bajo nivel en lugar de DISM API o DISM Core API."/>
   <String Src="%OpenSourceStr%" Dst="¡El código abierto no es sólo una virtud, sino también un símbolo de fortaleza!. &lt;span onclick=&quot;window.location.href='https://github.com/Chuyu-Team'&quot; style=&quot;color:blue;cursor:pointer&quot;>Clic aquí&lt;/span> para ver el equipo de Chuyu en GitHub."/>
   <String Src="%SxSClean%" Dst="Limpieza de WinSxS"/>
   <String Src="%SxSCleanDes%" Dst="No debes preocuparte del espacio libre del disco durante la instalación de las actualizaciones."/>
   <String Src="%CompactOS%" Dst="SO compacto"/>
-  <String Src="%CompactOSDes%" Dst="Al menos hay una reducción del 33% del espacio utilizado, sin simplificar la imagen del SO."/>
+  <String Src="%CompactOSDes%" Dst="Al menos hay una reducción del 33% del espacio utilizado, sin racionalizar la imagen del SO."/>
   <String Src="%EsdSupport%" Dst="Soporte ESD"/>
   <String Src="%EsdSupportDes%" Dst="La conversión de ESD a ISO nunca ha sido tan fácil como ahora."/>
   <String Src="%WindowsUpdate%" Dst="Windows Update"/>
@@ -26,14 +26,14 @@
   <String Src="%Green%" Dst="Portable"/>
   <String Src="%GreenDes%" Dst="GRATUITO, SIN ANUNCIOS y SPYWARE."/>
   <String Src="%AboutChuyu%" Dst="Acerca del equipo de Chuyu"/>
-  <String Src="%AboutChuyuDes%" Dst="Somos perfeccionistas y bastante obsesivos al crear una herramienta que sea ligera, fácil de usar, directa, y sin molestias. Todavía no lo hemos logrado, pero no nos damos por vencidos mientras realizamos un sueño con nuestras propias manos haciendo Dism++: una pequeña herramienta sin fines de lucro y construida con pura persistencia y entusiasmo."/>
-  <String Src="%QQ%" Dst="Grupo oficial"/>
+  <String Src="%AboutChuyuDes%" Dst="Somos perfeccionistas y bastante obsesivos al crear una herramienta que sea ligera, fácil de usar, directa y sin molestias. Todavía no lo hemos logrado, pero no nos damos por vencidos mientras realizamos un sueño con nuestras propias manos haciendo Dism++: una pequeña herramienta sin fines de lucro y construida con pura persistencia y entusiasmo."/>
+  <String Src="%QQ%" Dst="Grupos oficiales"/>
   <String Src="%E-Mail%" Dst="Correo electrónico"/>
   <String Src="%Links%" Dst="Enlaces"/>
   <String Src="%WinOS%" Dst="WINOS Lite System"/>
   <String Src="%ChuyuTream%" Dst="&amp;nbsp;2017&amp;nbsp;Equipo de Chuyu"/>
   <String Src="%ICP%" Dst=""/>
   <String Src="%Document%" Dst="Documentación de Dism++"/>
-  <String Src="%logs%" Dst="Cambios"/>
-  <String Src="%wsuscan2%" Dst="&quot;wsusscn2.cab&quot; es la base de datos para Windows Update. Puede usarlo escribiendo la ruta &quot;Config\wsusscn2.cab&quot;."/>
+  <String Src="%logs%" Dst="Registro de cambios"/>
+  <String Src="%wsuscan2%" Dst="&quot;wsusscn2.cab&quot; es la base de datos para Windows Update. Puede usarlo al sobreescribir en la ruta &quot;Config\wsusscn2.cab&quot;."/>
 </Strings>
