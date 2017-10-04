@@ -217,7 +217,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="建议保留" Link="Mantener"/>
     <String Target="可以删除" Link="Puede borrar"/>
     <String Target="建议删除" Link="Borrar"/>
-    <String Target="自定义" Link="Personalizado"/>
+    <String Target="自定义" Link="Personal"/>
 
     <String Target="正在载入清理规则" Link="Cargando reglas de borrado..."/>
     <String Target="正在撤销Compact" Link="Revocando compactar"/>
