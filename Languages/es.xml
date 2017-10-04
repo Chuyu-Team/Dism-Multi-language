@@ -191,8 +191,8 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="最大压缩" Link="Máximo"/>
     <String Target="极限压缩" Link="Recuperar"/>
 
-    <String Target="映像名称" Link="Nombre imagen"/>
-    <String Target="映像说明" Link="Descripción imagen"/>
+    <String Target="映像名称" Link="Nombre de imagen"/>
+    <String Target="映像说明" Link="Descripción de imagen"/>
     <String Target="显示名称" Link="Nombre a mostrar"/>
     <String Target="显示说明" Link="Descripción en pantalla"/>
     <String Target="映像标志" Link="Edición"/>
@@ -200,7 +200,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="系统体系" Link="Arquitectura"/>
     <String Target="创建日期" Link="Creado"/>
     <String Target="展开空间" Link="Espacio extendido"/>
-    <String Target="系统版本" Link="Versión SO"/>
+    <String Target="系统版本" Link="Versión de SO"/>
 
     <String Target="不压缩映像" Link="Nada"/>
     <String Target="WIMBoot压缩映像" Link="WIMBoot"/>
@@ -217,7 +217,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="建议保留" Link="Mantener"/>
     <String Target="可以删除" Link="Puede borrar"/>
     <String Target="建议删除" Link="Borrar"/>
-    <String Target="自定义" Link="Personal"/>
+    <String Target="自定义" Link="Personalizado"/>
 
     <String Target="正在载入清理规则" Link="Cargando reglas de borrado..."/>
     <String Target="正在撤销Compact" Link="Revocando compactar"/>
@@ -231,7 +231,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="大小" Link="Tamaño"/>
     <String Target="正在关闭会话" Link="Cerrando sesión"/>
     <String Target="值" Link="Valor"/>
-    <String Target="控制面板" Link="Panel de Control"/>
+    <String Target="控制面板" Link="Panel de control"/>
     <String Target="删除" Link="Eliminar"/>
     <String Target="关于Dism++" Link="Acerca de Dism++ - Traducido por Oleada"/>
     <String Target="Dism++正在执行任务，你确定要关闭程序么？" Link="Dism++, está trabajando. ¿Cerrar Dism++ ahora?"/>
@@ -260,8 +260,8 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="帮助文档" Link="Ayuda"/>
 
     <String Target="致谢" Link="Gracias"/>
-    <String Target="翻译人员" Link="Traductores"/>
-    <String Target="赞助名单" Link="Patrocinadores"/>
+    <String Target="翻译人员" Link="Traductor"/>
+    <String Target="赞助名单" Link="Patrocinador"/>
     <String Target="第三方库" Link="Terceras partes"/>
 
     <!--添加映像-->
@@ -272,7 +272,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="镜像文件" Link="Archivo de imagen"/>
     <String Target="只读模式" Link="Sólo lectura"/>
     <String Target="快速挂载" Link="Montaje rápido"/>
-    <String Target="（可启动）" Link="(Bootable)"/>
+    <String Target="（可启动）" Link="(Iniciable)"/>
     <String Target="添加映像向导" Link="Asistente añadir imagen"/>
     <String Target="此功能可以将其他文件（WIM、ESD、VHD、VHDX）或者文件夹的包含的映像添加至映像列表。" Link="Esta función permite que otros archivos (WIM, ESD, VHD, VHDX), así como imágenes contenidas en una carpeta, se añadan a la lista de imágenes."/>
 
@@ -313,7 +313,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="请在此输入目标文件路径" Link="Introducir la ruta del archivo de destino aquí"/>
 
     <!--ESD解密-->
-    <String Target="温馨提示：此功能将直接解密目标文件，原版控请自行备份。" Link="Consejos: Esta función desencripta el archivo de destino directamente. Hacer una copia de seguridad de los archivos originales."/>
+    <String Target="温馨提示：此功能将直接解密目标文件，原版控请自行备份。" Link="Consejo: Esta función desencripta el archivo de destino directamente. Hacer una copia de seguridad de los archivos originales."/>
     <String Target="解密口令已自动匹配" Link="La contraseña para desencriptar ha sido igualada automáticamente"/>
     <String Target="请在输入框输入解密口令" Link="Introducir la contraseña para desencriptar en el cuadro de entrada"/>
     <String Target="请正确输入Key，错误信息：%s" Link="Introducir la clave correcta. Código error: %s"/>
@@ -391,10 +391,10 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="映像路径存在非英文字符可能导致安装更新失败，请在全英文路径重新挂载此映像，比如“D:\Mount”。" Link="La ruta de la imagen existente con caracteres que no son ASCII puede causar un error al instalar la actualización, vuelva a cargar la ruta completa de la imagen con ASCII, por ejemplo &quot;D:\Montar&quot;."/>
 
     <String Target="常用工具" Link="Utilidades"/>
-      <String Target="空间回收" Link="Limpiar disco"/>
-      <String Target="启动项管理" Link="Inicio"/>
-      <String Target="工具箱" Link="Herramientas"/>
-      <String Target="Appx管理" Link="Appxs"/>
+    <String Target="空间回收" Link="Limpiar disco"/>
+    <String Target="启动项管理" Link="Inicio"/>
+    <String Target="工具箱" Link="Herramientas"/>
+    <String Target="Appx管理" Link="Appxs"/>
 
     <String Target="驱动管理" Link="Controladores"/>
     <String Target="程序和功能" Link="Aplicaciones y funciones"/>
@@ -598,7 +598,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="Windows Update数据库已经存在新版本，你需要更新吗？" Link="Hay una nueva versión de la base de datos para Windows Update, ¿desea actualizarla?"/>
     <String Target="下载%d%%" Link="Descarga %d%%"/>
     <String Target="将现有的本地补丁包添加至系统。" Link="Añadir paquetes a la imagen."/>
-    <String Target="使用Dism++数据库扫描当前系统需要的更新列表。" Link="Usar la base de datos de DISM++ para analizar los cambios que necesite la imagen actual."/>
+    <String Target="使用Dism++数据库扫描当前系统需要的更新列表。" Link="Usar la base de datos de Dism++ para analizar los cambios que necesite la imagen actual."/>
     <String Target="自动下载并安装更新列表中选中的更新。" Link="Descargar e instalar automáticamente las actualizaciones seleccionadas."/>
     <String Target="计算机已经安装最新更新。" Link="Ya se han instalado las actualizaciones más recientes."/>
     <String Target="正在删除过期补丁缓存" Link="Borrando el caché de parches obsoletos"/>
@@ -615,13 +615,13 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="安装%d%%" Link="Instalando %d%%"/>
 
     <!--区域和语言-->
-    <String Target="区域和语言" Link="Región e Idioma"/>
+    <String Target="区域和语言" Link="Región e idioma"/>
     <String Target="调整映像中的指定 SKU 语言的所有国际设置都设置为默认值：" Link="Restaurar todas las configuraciones internacionales SKU al idioma predeterminado:"/>
     <String Target="将系统默认语言调整为指定区域：" Link="Idioma predeterminado del sistema:"/>
     <String Target="将用户配置（格式、键盘布局等）为指定区域：" Link="Configuración regional del usuario (formato, teclado, etc.) para:"/>
     <String Target="将时区设置调整为以下时区：" Link="Ajustar la zona horaria:"/>
     <String Target="将非 Unicode 程序的代码页以及字体设置为指定区域：" Link="Especificar código local para utilizar al mostrar texto en programas no compatibles con Unicode:"/>
-    <String Target="欢迎屏幕（系统账号）" Link="Pantalla de bienvenida (Cuenta del Sistema)"/>
+    <String Target="欢迎屏幕（系统账号）" Link="Pantalla de bienvenida (Cuenta del sistema)"/>
     <String Target="新用户账号" Link="Nuevo usuario"/>
 
     <!--文件关联-->
