@@ -4,7 +4,7 @@
   <String Src="%keywords%" Dst="Dism++, Dism GUI, limpieza de WinSxS, herramienta de limpieza de Windows Update, limpieza del sistema, limpieza de Windows Update, Vista, Win7, Win8, Win8.1, Win10, Chuyu, Dism, añadiendo actualizaciones, Windows"/>
   <String Src="%title%" Dst="Dism++ | Herramienta nueva para Windows"/>
   <String Src="%String1%" Dst="Dism++, es probablemente la mejor herramienta"/>
-  <String Src="%String2%" Dst="¡La primera aplicación con interfaz gráfica Dism basada en CBS del mundo!"/>
+  <String Src="%String2%" Dst="¡La primera aplicación con interfaz gráfica para Dism basada en CBS del mundo!"/>
   <String Src="%WhatsnewVersion%" Dst="Novedades - versión"/>
   <String Src="%64Bit%" Dst="Dism++ x64"/>
   <String Src="%32Bit%" Dst="Dism++ x86"/>
@@ -35,5 +35,5 @@
   <String Src="%ICP%" Dst=""/>
   <String Src="%Document%" Dst="Documentación de Dism++"/>
   <String Src="%logs%" Dst="Registro de cambios"/>
-  <String Src="%wsuscan2%" Dst="&quot;wsusscn2.cab&quot; es la base de datos para Windows Update. Puede usarlo al sobreescribir en la ruta &quot;Config\wsusscn2.cab&quot;."/>
+  <String Src="%wsuscan2%" Dst="&quot;wsusscn2.cab&quot; es la base de datos para Windows Update utilizado por Dism++. Puede usarlo al copiar o sobreescribir en la ruta &quot;Config\wsusscn2.cab&quot;."/>
 </Strings>
