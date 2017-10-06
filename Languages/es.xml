@@ -680,7 +680,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="清空密码" Link="Borrar contr."/>
     <String Target="该账户的密码已经被清空，现在无需密码即可登陆你的账号！" Link="Se ha borrado la contraseña. Puede iniciar sesión sin contraseña."/>
 
-    <String Target="春哥附体" Link="Modo creador"/>
+    <String Target="春哥附体" Link="Modo dios"/>
     <String Target="让其他程序以无视权限方式运行。" Link="Ejecutar algunos programas sin derechos."/>
     <String Target="请在此输入命令或者程序路径，比如regedit" Link="Introduzca el comando, como regedit"/>
     <String Target="说明" Link="Consejos"/>
