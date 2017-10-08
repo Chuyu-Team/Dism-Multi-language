@@ -822,7 +822,7 @@
     <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="關閉音樂檔的圖片預覽，提高檔案總管反應能力 (by ‍莫失莫忘)"/>
     <String Target="关闭打开程序的“安全警告”（by 莫失莫忘）" Link="關閉開啟程式的「安全性警告」 (by 莫失莫忘)"/>
     <String Target="关闭在应用商店中查找关联应用（by Asoft）" Link="關閉在市集中尋找關聯 App (by Asoft)"/>
-    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="隱藏本機中影片、圖片、文件、下載、音樂、桌面、3D 的七個資料夾 (by 、Cloud.)"/>
+    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="隱藏本機中影片、圖片、文件、下載、音樂、桌面、3D 物件的七個資料夾 (by 、Cloud.)"/>
     <String Target="禁止自动安装推荐的应用程序（by IT之家）" Link="停用自動安裝建議的應用程式 (Apps) (by IT之家)"/>
     <String Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="關閉鎖定畫面時的 Windows 焦點推薦 (by 、Cloud.)"/>
     <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="關閉「在使用 Windows 時取得提示、訣竅與建議」 (by 、Cloud.)"/>
@@ -849,7 +849,7 @@
     <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="停用檔案、目錄、桌面、磁片以及媒體櫃的「共用對象」右鍵選單"/>
     <String Target="禁用桌面的“小工具”右键菜单" Link="停用桌面的「小工具」右鍵選單"/>
     <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="停用檔案的「View 3D」右鍵選單 (by Cloud)"/>
-    <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="停用檔案的「畫圖 3D」右鍵選單 (by Cloud)"/>
+    <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="停用檔案的「小畫家 3D」右鍵選單 (by Cloud)"/>
 
     <!--桌面圖示管理-->
     <String Target="桌面图标管理" Link="桌面圖示管理"/>
