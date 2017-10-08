@@ -12,7 +12,7 @@
   <String Src="%SupportSystem%" Dst="Kompatibel mit Windows Vista/7/8/8.1/10"/>
   <String Src="%AboutDism++%" Dst="Über Dism++"/>
   <String Src="%AboutDism++Des%" Dst="Dism++ kann zwar als grafische Oberfläche von DISM angesehen werden, ist aber nicht von dem Kommandozeilen-Tool DISM abhängig, sondern basiert direkt auf CBS (Component Based Servicing Reference) auf einem tieferem Level."/>
-  <String Src="%OpenSourceStr%" Dst="Open-Source ist nicht nur eine Philosophie, sondern auch ein Zeichen von Leistungsfähigkeit und Teamgeist. Besuchen Sie das Open-Source-Projekt des Chuyu Teams  &lt;span onclick=&quot;window.location.href='https://github.com/Chuyu-Team'&quot; style=&quot;color:blue;cursor:pointer&quot;>Klick mich&lt;/span>?"/>
+  <String Src="%OpenSourceStr%" Dst="Open-Source ist nicht nur eine Philosophie, sondern auch ein Zeichen von Leistungsfähigkeit und Teamgeist. Besuchen Sie das Open-Source-Projekt des Chuyu Teams  &lt;span onclick=&quot;window.location.href='https://github.com/Chuyu-Team'&quot; style=&quot;color:blue;cursor:pointer&quot;>Klick mich&lt;/span>"/>
   <String Src="%SxSClean%" Dst="Windows Update Clean"/>
   <String Src="%SxSCleanDes%" Dst="Windows Update - Bereinigung, RESTLOS!"/>
   <String Src="%CompactOS%" Dst="CompactOS"/>
@@ -20,13 +20,13 @@
   <String Src="%EsdSupport%" Dst="ESD Unterstützung"/>
   <String Src="%EsdSupportDes%" Dst="Keine Probleme mehr bei der Umwandlung von ESD zu ISO."/>
   <String Src="%WindowsUpdate%" Dst="Windows Update"/>
-  <String Src="%WindowsUpdateDes%" Dst="Mein Windows Update, meine Art von ~~ sorgenfreies Update"/>
+  <String Src="%WindowsUpdateDes%" Dst="Mein Windows Update, meine Art von ~ sorgenfreiem Update"/>
   <String Src="%SystemRecover%" Dst="Systemwiederherstellung"/>
-  <String Src="%SystemRecoverDes%" Dst="Saubere Systemsicherung, saubere Wiederherstellung ohne PE!"/>
+  <String Src="%SystemRecoverDes%" Dst="Saubere Systemsicherung und saubere Wiederherstellung ohne PE!"/>
   <String Src="%Green%" Dst="Grün!"/>
   <String Src="%GreenDes%" Dst="Portabel, GRÜN, FREI, SICHER, ohne WERBUNG."/>
   <String Src="%AboutChuyu%" Dst="Über Chuyu Team"/>
-  <String Src="%AboutChuyuDes%" Dst="Eigentlich waren wir seit geraumer Zeit besessen davon, ein Tool zu finden, das einfach, praktisch, überschaulich und nützlich ist - aber ohne Nervereien und Malware. Eine Zeitlang gab es keine zufrieden stellenden Ergebnisse. Aber wir gaben nicht eher auf, bis wir unseren Wunschtraum verwirklichen konnten, indem wir, mit viel Herz und Verstand, Dism++ konstruierten: ein kleines Non-Profit-Programm, ungekünstelt, individuell, mit purer Ausdauer und Begeisterung entwickelt."/>
+  <String Src="%AboutChuyuDes%" Dst="Eigentlich waren wir einige Zeit besessen, ein Tool zu finden, das einfach, praktisch, überschaulich und nützlich ist - aber ohne Nervereien und Malware. Eine Zeitlang gab es keine zufrieden stellenden Ergebnisse. Aber wir gaben nicht eher auf, bis wir unseren Wunschtraum verwirklichen konnten, indem wir, mit viel Herz und Verstand, Dism++ konstruierten: ein kleines Non-Profit-Programm, ungekünstelt, individuell und mit purer Ausdauer und Begeisterung entwickelt."/>
   <String Src="%QQ%" Dst="QQ Group"/>
   <String Src="%E-Mail%" Dst="E-Mail"/>
   <String Src="%Links%" Dst="Links"/>
