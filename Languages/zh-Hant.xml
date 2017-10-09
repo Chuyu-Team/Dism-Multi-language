@@ -569,8 +569,8 @@
     <!--Appx 管理-->
     <String Target="疑似损坏" Link="疑似損壞"/>
     <String Target="正在删除Appx" Link="正在刪除 Appx"/>
-    <String Target="删除Windows Store可能导致你未来无法下载或更新Appx，你确定要继续么？" Link="刪除 Windows Store 可能導致您未來無法下載或更新 Appx，您確定要繼續嗎？"/>
-    <String Target="删除Microsoft.XboxIdentityProvider可能导致Windows Store无法使用，你确定要继续么？" Link="刪除 Microsoft.XboxIdentityProvider 可能導致 Windows Store 無法使用，你確定要繼續嗎？"/>
+    <String Target="删除Windows Store可能导致你未来无法下载或更新Appx，你确定要继续么？" Link="刪除 Windows 市集可能導致您未來無法下載或更新 Appx，您確定要繼續嗎？"/>
+    <String Target="删除Microsoft.XboxIdentityProvider可能导致Windows Store无法使用，你确定要继续么？" Link="刪除 Microsoft.XboxIdentityProvider 可能導致 Windows 市集無法使用，你確定要繼續嗎？"/>
     <String Target="%s 等待超时，请尝试使用空间回收 - 过期Appx清理。" Link="%s 等待超時，請嘗試使用空間回收功能，清理過期 Appx。"/>
     <String Target="无法初始化Appx管理接口。" Link="無法初始化 Appx 管理介面。"/>
     <String Target="%s 无法获取Appx关联的账号信息，错误代码：0x%.8X" Link="%s 無法取得 Appx 關聯的帳號資訊，錯誤代碼：0x%.8X"/>
@@ -818,7 +818,7 @@
 
     <String Target="优化非活动窗口标题栏颜色（by IT之家）" Link="最佳化非使用中視窗標題列顏色 (by IT之家)"/>
 
-    <String Target="关闭视频文件预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="關閉視訊檔案預覽，提高檔案總管反應能力 (by ‍莫失莫忘)"/>
+    <String Target="关闭视频文件预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="關閉影片檔案預覽，提高檔案總管反應能力 (by ‍莫失莫忘)"/>
     <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="關閉音樂檔的圖片預覽，提高檔案總管反應能力 (by ‍莫失莫忘)"/>
     <String Target="关闭打开程序的“安全警告”（by 莫失莫忘）" Link="關閉開啟程式的「安全性警告」 (by 莫失莫忘)"/>
     <String Target="关闭在应用商店中查找关联应用（by Asoft）" Link="關閉在市集中尋找關聯 App (by Asoft)"/>
@@ -833,22 +833,22 @@
 
     <!--右鍵選單管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="右鍵選單管理 - 停用不需要的選單以提高反應能力"/>
-    <String Target="禁用可执行文件的“兼容性疑难解答”右键菜单（by 莫失莫忘）" Link="停用可執行檔的「相容性疑難排解」右鍵選單 (by 莫失莫忘)"/>
-    <String Target="禁用文件、文件夹以及磁盘的“使用Windows Defender扫描”右键菜单（by 莫失莫忘）" Link="停用檔案、資料夾以及磁片的「使用 Windows Defender 掃描」右鍵選單 (by 莫失莫忘)"/>
-    <String Target="禁用文件、磁盘以及属性的“还原以前版本”右键菜单（by 莫失莫忘）" Link="停用檔案、磁片以及屬性的「還原舊版」右鍵選單 (by 莫失莫忘)"/>
+    <String Target="禁用可执行文件的“兼容性疑难解答”右键菜单（by 莫失莫忘）" Link="停用執行檔的「疑難排解相容性」右鍵選單 (by 莫失莫忘)"/>
+    <String Target="禁用文件、文件夹以及磁盘的“使用Windows Defender扫描”右键菜单（by 莫失莫忘）" Link="停用檔案、資料夾以及磁碟的「使用 Windows Defender 掃描...」右鍵選單 (by 莫失莫忘)"/>
+    <String Target="禁用文件、磁盘以及属性的“还原以前版本”右键菜单（by 莫失莫忘）" Link="停用檔案、磁碟以及內容的「還原舊版」右鍵選單 (by 莫失莫忘)"/>
     <String Target="禁用文件、文件夹、桌面以及所有对象的“共享文件夹同步”右键菜单" Link="停用檔案、資料夾、桌面以及所有物件的「共用資料夾同步」右鍵選單"/>
     <String Target="禁用新建“ZIP/RAR文件”右键菜单（by 莫失莫忘）" Link="停用新增「ZIP/RAR 檔案」右鍵選單 (by 莫失莫忘)"/>
     <String Target="禁用新建、文件以及文件夹的“公文包”右键菜单" Link="停用新增、檔案以及資料夾的「公事包」右鍵選單"/>
     <String Target="禁用新建的“联系人”右键菜单（by 莫失莫忘）" Link="停用新增的「連絡人」右鍵選單 (by 莫失莫忘)"/>
     <String Target="禁用桌面的英特尔集显右键菜单（by 莫失莫忘）" Link="停用桌面的 Intel 整合顯示右鍵選單 (by 莫失莫忘)"/>
-    <String Target="禁用目录、文件夹、所有对象、的“始终脱机可用”右键菜单" Link="停用目錄、資料夾、所有物件、的「始終離線可用」右鍵選單"/>
-    <String Target="禁用磁盘的“以便携式方式打开”右键菜单（by 莫失莫忘）" Link="停用磁片的「以可擕式方式開啟」右鍵選單 (by 莫失莫忘)"/>
-    <String Target="禁用磁盘的“刻录到光盘”右键菜单" Link="停用磁片的「燒錄到光碟」右鍵選單"/>
-    <String Target="禁用磁盘的“启用Bitlocker”右键菜单（by 莫失莫忘）" Link="停用磁片的「啟用 Bitlocker」右鍵選單 (by 莫失莫忘)"/>
-    <String Target="禁用磁盘的“复制磁盘”右键菜单" Link="停用磁片的「複製磁片」右鍵選單"/>
-    <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="停用檔案、目錄、桌面、磁片以及媒體櫃的「共用對象」右鍵選單"/>
+    <String Target="禁用目录、文件夹、所有对象、的“始终脱机可用”右键菜单" Link="停用目錄、資料夾、所有物件的「始終離線可用」右鍵選單"/><!--?-->
+    <String Target="禁用磁盘的“以便携式方式打开”右键菜单（by 莫失莫忘）" Link="停用隨身碟的「開啟為可攜式裝置」右鍵選單 (by 莫失莫忘)"/>
+    <String Target="禁用磁盘的“刻录到光盘”右键菜单" Link="停用光碟機的「燒錄至光碟」右鍵選單"/>
+    <String Target="禁用磁盘的“启用Bitlocker”右键菜单（by 莫失莫忘）" Link="停用磁碟機的「開啟 Bitlocker」右鍵選單 (by 莫失莫忘)"/>
+    <String Target="禁用磁盘的“复制磁盘”右键菜单" Link="停用磁碟機的「複製磁碟」右鍵選單"/><!--?-->
+    <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="停用檔案、目錄、桌面、磁碟以及媒體櫃的「共用對象」右鍵選單"/>
     <String Target="禁用桌面的“小工具”右键菜单" Link="停用桌面的「小工具」右鍵選單"/>
-    <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="停用檔案的「View 3D」右鍵選單 (by Cloud)"/>
+    <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="停用檔案的「View 3D」右鍵選單 (by Cloud)"/><!--Mixed Reality Viewer-->
     <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="停用檔案的「小畫家 3D」右鍵選單 (by Cloud)"/>
 
     <!--桌面圖示管理-->
@@ -859,7 +859,7 @@
     <String Target="隐藏资源管理器导航窗口中的OneDrive（by 莫失莫忘）" Link="隱藏檔案總管導覽視窗中的 OneDrive (by 莫失莫忘)"/>
     <String Target="隐藏资源管理器导航窗口中的可移动设备（by 莫失莫忘）" Link="隱藏檔案總管導覽視窗中的可攜式裝置 (by 莫失莫忘)"/>
     <String Target="隐藏资源管理器导航窗口中的快速访问（by starP）" Link="隱藏檔案總管導覽視窗中的快速存取 (by starP)"/>
-      <String Target="启用此选项将导致导航窗口拖拽功能无法使用。" Link="啟用此選項將導致導覽視窗拖拽功能無法使用。"/>
+      <String Target="启用此选项将导致导航窗口拖拽功能无法使用。" Link="啟用此選項將導致導覽視窗拖曳功能無法使用。"/>
 
     <!--Internet Explorer-->
     <String Target="关闭多个选项卡时不发出警告（by 一叶微风TM）" Link="關閉多個選項時不發出警告 (by 一葉微風TM)"/>
@@ -941,7 +941,7 @@
       <String Target="禁用此服务将导致IPv6无法正常使用，请确保你不需要使用IPv6！" Link="停用此服務將導致 IPv6 無法正常使用，請確認您不需要使用 IPv6！"/>
 
     <String Target="禁用Windows Search" Link="停用 Windows Search"/>
-      <String Target="禁用此服务将导致搜索文件变慢，并且某些Windows Store应用可能无法正常使用！" Link="停用此服務將導致搜尋檔案變慢，並且某些 Windows Store 可能無法正常使用！"/>
+      <String Target="禁用此服务将导致搜索文件变慢，并且某些Windows Store应用可能无法正常使用！" Link="停用此服務將導致搜尋檔案變慢，並且某些 Windows 市集 App 可能無法正常使用！"/>
 
     <String Target="禁用错误报告" Link="停用錯誤報告"/>
 
@@ -954,7 +954,7 @@
 
     <String Target="禁用NTFS链接跟踪服务（by 某宅）" Link="停用 NTFS 連結跟蹤服務 (by 某宅)"/>
 
-    <String Target="禁止自动维护计划（by Lux ferre）" Link="禁止自動維護計畫 (by Lux ferre)"/>
+    <String Target="禁止自动维护计划（by Lux ferre）" Link="禁止自動維護排程 (by Lux ferre)"/>
       <String Target="禁用后系统将无法使用文件预读等功能，这可能导致系统性能下降！" Link="停用後系統將無法使用 prefetch (預先擷取)檔案等功能，這可能導致系統效能下降！"/>
 
     <!--WinRAR-->
