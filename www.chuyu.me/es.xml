@@ -16,13 +16,13 @@
   <String Src="%SxSClean%" Dst="Limpieza de WinSxS"/>
   <String Src="%SxSCleanDes%" Dst="No debes preocuparte del espacio libre del disco durante la instalación de las actualizaciones."/>
   <String Src="%CompactOS%" Dst="SO compacto"/>
-  <String Src="%CompactOSDes%" Dst="Al menos hay una reducción del 33% del espacio utilizado, sin racionalizar la imagen del SO."/>
+  <String Src="%CompactOSDes%" Dst="Hay una reducción del 33% del espacio utilizado, sin racionalizar la imagen del SO."/>
   <String Src="%EsdSupport%" Dst="Soporte ESD"/>
   <String Src="%EsdSupportDes%" Dst="La conversión de ESD a ISO nunca ha sido tan fácil como ahora."/>
   <String Src="%WindowsUpdate%" Dst="Windows Update"/>
   <String Src="%WindowsUpdateDes%" Dst="Elige tus actualizaciones - y no te preocupes."/>
   <String Src="%SystemRecover%" Dst="Copia de seguridad y recuperación"/>
-  <String Src="%SystemRecoverDes%" Dst="Crear una copia de seguridad o restaurar el sistema sin usar Windows PE."/>
+  <String Src="%SystemRecoverDes%" Dst="Crea una copia de seguridad o restaura el sistema sin usar Windows PE."/>
   <String Src="%Green%" Dst="Portable"/>
   <String Src="%GreenDes%" Dst="GRATUITO, SIN ANUNCIOS y SPYWARE."/>
   <String Src="%AboutChuyu%" Dst="Acerca del equipo de Chuyu"/>
