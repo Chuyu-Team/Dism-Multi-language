@@ -928,7 +928,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
 
     <String Target="*关闭远程协助（by 原罪）" Link="* No permitir conexiones con asistencia remota (YZ)"/>
 
-    <String Target="*禁用SMB1网络协议（by Jhovany200）" Link="*Deshabilitar el protocolo de red SMB1 (by Jhovany200)"/>
+    <String Target="*禁用SMB1网络协议（by Jhovany200）" Link="*Deshabilitar el protocolo de red SMB1 (Jhovany200)"/>
 
     <!--服务优化-->
     <String Target="服务优化" Link="Servicios"/>
@@ -1137,7 +1137,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="一些程序为特定用户产生的临时文件。" Link="Archivos temporales del usuario específico."/>
 
     <String Target="Windows报告" Link="Informe de errores de Windows"/>
-    <String Target="当程序遇到某些问题时，系统会在这里留下稳定性报告，建议你定期清理。" Link="Cuando los programas tienen algún problema, el sistema dejará un informe de estabilidad aquí, limpiarlo anualmente."/>
+    <String Target="当程序遇到某些问题时，系统会在这里留下稳定性报告，建议你定期清理。" Link="Cuando los programas tienen algún problema, el sistema dejará un informe de estabilidad aquí, se recomienda limpiar anualmente."/>
 
     <String Target="常见的驱动临时解压目录" Link="Directorio extracción temporal controladores"/>
     <String Target="Intel、AMD以及Nvidia驱动在安装时留下的解压目录。" Link="Al instalar controladores de Intel, AMD y Nvidia, crean el directorio de extracción."/>
@@ -1158,7 +1158,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="YY临时文件" Link="Archivos temporales YY"/>
     <String Target="YY运行时产生的一些临时文件以及日志，建议定期删除。" Link="Cuando YY está en ejecución, crea archivos temporales y archivos log. Borralos regularmente."/>
 
-    <String Target="Installer基线缓存" Link="Caché instalador"/>
+    <String Target="Installer基线缓存" Link="Caché de instalador"/>
     <String Target="使用Installer技术的安装程序产生的缓存。" Link="Algunos instaladores crean un caché."/>
     <String Target="可能导致卸载Office、VM等应用程序需要安装包。" Link="Puede conducir a desinstalar Office, aplicaciones VM. Necesitaras un paquete de la instalación."/>
 
@@ -1198,13 +1198,13 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="安装Office 365/2016后产生的安装源。" Link="Después de instalar Office 365/2016, el programa crea el origen de la instalación"/>
     <String Target="清理可能导致无法正常卸载Office。" Link="Después de la limpieza no se puede desinstalar Office normalmente."/>
 
-    <String Target="苹果iTunes备份" Link="Copia de Apple iTunes"/>
+    <String Target="苹果iTunes备份" Link="Copia de seguridad de Apple iTunes"/>
     <String Target="苹果相关设备备份文件，比如通讯录、照片、视频等。" Link="La copia de seguridad de iOS (o MAC). Por ejemplo, contactos, fotos, videos ..."/>
     <String Target="请你确保暂时不需要使用恢复功能，如果你现在需要恢复苹果设备，请勿勾选此项目！" Link="Asegúrese de que no utilizará temporalmente la función de recuperación. Si necesita restaurar el dispositivo iOS(o MAC), no seleccione este elemento"/>
 
-    <String Target="硬链接备份" Link="Copia de HardLink"/>
-    <String Target="硬链接合并功能留下的备份文件。" Link="La función de unión de Hardlink deja una copia de seguridad."/>
-    <String Target="请你确保硬链接合并后系统正常，删除此文件将导致硬链接合并操作无法回滚！" Link="Asegúrese de que el sistema funciona con normalidad si se fusiona el HardLink, si elimina el archivo no lo podrá recuperar"/>
+    <String Target="硬链接备份" Link="Copia de seguridad del enlace"/>
+    <String Target="硬链接合并功能留下的备份文件。" Link="La función de unión de enlace deja una copia de seguridad."/>
+    <String Target="请你确保硬链接合并后系统正常，删除此文件将导致硬链接合并操作无法回滚！" Link="Asegúrese de que el sistema funciona con normalidad si se fusiona el enlace, si elimina el archivo no lo podrá recuperar"/>
 
     <String Target="Windows事件" Link="Eventos de Windows"/>
     <String Target="Windows在运行过程中产生的事件。" Link="Al ejecutar Windows, crea eventos."/>
@@ -1221,7 +1221,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="迅雷游戏" Link="Juegos Thunder"/>
     <String Target="迅雷游戏安装后所在目录，一般人不需要此程序，可以考虑删除。" Link="Directorio de juegos Thunder (después de la instalación), la mayoría de las personas no necesitan este programa, puedes borrarlo."/>
 
-    <String Target="NET程序集缓存（by 大胖子技术员）" Link="Caché ensamblado NET (dpzjsy)"/>
+    <String Target="NET程序集缓存（by 大胖子技术员）" Link="Caché ensamblador NET (dpzjsy)"/>
     <String Target="NET程序运行过程中产生的机器代码缓存文件，不建议频繁清理此条目。" Link="Al ejecutar el programa NET, crea archivos de caché con códigos, no se recomienda limpiar los archivos de caché con frecuencia."/>
 
     <String Target="以前的Dism++组件" Link="Archivos residuales versión anterior de Dism++"/>
@@ -1240,8 +1240,8 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="会声会影使用过程中会在此目录产生存档，在不需要后可以删除。" Link="Ulead Video Studio guarda los materiales en archivos. Si no es necesario, puede eliminarlos."/>
     <String Target="请确保所有编辑的视频已经保存！" Link="¡Asegúrese de que todo el video editado se haya guardado!"/>
 
-    <String Target="Visual Studio智能跟踪（by LP）" Link="Visual Studio IntelliTrace (LP)"/>
-    <String Target="Visual Studio调试程序时留下的智能跟踪缓存。" Link="Cuando Visual Studio crea programas de depuración, deja el caché de IntelliTrace."/>
+    <String Target="Visual Studio智能跟踪（by LP）" Link="Seguimiento de Visual Studio (LP)"/>
+    <String Target="Visual Studio调试程序时留下的智能跟踪缓存。" Link="Cuando Visual Studio crea programas de depuración, deja el caché de seguimiento."/>
 
     <String Target="系统以及程序崩溃dmp文件（by YukiSakura）" Link="Archivos dmp del sistema y aplicaciones (YukiSakura)"/>
     <String Target="当系统蓝屏或者应用程序崩溃时产生的dmp文件。" Link="Si sale el pantallazo azul o se cuelga, se crean archivos dmp."/>
