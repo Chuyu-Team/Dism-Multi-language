@@ -690,10 +690,10 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
       Link="/GodMode {Commandline}&#xD;&#xA; El modo dios usa cmd. El uso es el mismo como si usas cmd.&#xD;&#xA;&#xD;&#xA;Ejemplos:&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode cmd&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode regedit.exe&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode &quot;\&quot;C:\Windows\notepad.exe\&quot; \&quot;C:\123.txt\&quot;&quot;"/>
     <String
       Target="即将以无视权限方式执行此命令：&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;为了避免让恶意软件利用，Dism++需要你的允许才能继续，你确定要继续吗？"
-      Link="Dism++ ejecutará los comandos &#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;A la vez que se omite la comprobación de derechos. Los malwares pueden utilizar esto para dañar tu sistema, por lo que su confirmación es necesaria. ¿Continuar?"/>
+      Link="Dism++ ejecutará los comandos &#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;Con el fin de evitar el uso de software malicioso, Dism++ necesita su confirmación para continuar. ¿Continuar?"/>
     <String
       Target="可以使用以下命令来操作此映像：&#xD;&#xA;&#xD;&#xA;/GodMode&#9;- 使用春哥附体启动应用程序"
-      Link="Puede utilizar estos comandos para manipular la imagen:&#xD;&#xA;&#xD;&#xA;/GodMode&#9;- ejecutar el programa en modo creador"/>
+      Link="Puede utilizar estos comandos para manipular la imagen:&#xD;&#xA;&#xD;&#xA;/GodMode&#9;- ejecutar el programa en modo dios"/>
 
     <String Target="ESD转ISO" Link="ESD a ISO"/>
     <String Target="允许将WIM、SWM以及ESD之间格式自由转换。" Link="Permite la libre conversión entre archivos WIM, SWM y ESD."/>
