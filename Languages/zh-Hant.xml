@@ -828,7 +828,7 @@
     <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="關閉「在使用 Windows 時取得提示、訣竅與建議」 (by 、Cloud.)"/>
     <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="隱藏工具列上的聯絡人 (by 、Cloud.)"/>
 
-    <!--开始菜单-->
+    <!--開始選單-->
     <String Target="开始菜单以及Windows体验" Link="[開始] 選單以及 Windows 體驗"/>
 
     <!--右鍵選單管理-->
@@ -1080,7 +1080,7 @@
     <String Target="正在刷新" Link="正在重新整理"/>
     <String Target="Dism++与此操作系统处于同一分区，无法进行格式化。" Link="Dism++ 與此作業系統處於同一磁碟區，無法進行格式化。"/>
 
-    <!--重新载入-->
+    <!--重新載入-->
     <String Target="当前其他任务正在进行，请稍等……" Link="目前其他任務正在進行中，請稍後……"/>
 
     <!--檔案拆分設定-->
