@@ -862,11 +862,11 @@
       <String Target="启用此选项将导致导航窗口拖拽功能无法使用。" Link="啟用此選項將導致導覽視窗拖曳功能無法使用。"/>
 
     <!--Internet Explorer-->
-    <String Target="关闭多个选项卡时不发出警告（by 一叶微风TM）" Link="關閉多個選項時不發出警告 (by 一葉微風TM)"/>
+    <String Target="关闭多个选项卡时不发出警告（by 一叶微风TM）" Link="關閉多個分頁時不發出警告 (by 一葉微風TM)"/>
 
-    <String Target="当创建新选项卡时，始终切换到新选项卡（by 一叶微风TM）" Link="當建立新選項時，始終切換到新選項視窗 (by 一葉微風TM)"/>
+    <String Target="当创建新选项卡时，始终切换到新选项卡（by 一叶微风TM）" Link="當建立新分頁時，始終切換到新分頁 (by 一葉微風TM)"/>
 
-    <String Target="其他程序从当前窗口的新选项卡打开连接（by 一叶微风TM）" Link="其他程式從目前視窗的新選項中開啟連接 (by 一葉微風TM)"/>
+    <String Target="其他程序从当前窗口的新选项卡打开连接（by 一叶微风TM）" Link="其他程式從目前視窗的新分頁中開啟連結 (by 一葉微風TM)"/>
 
     <String Target="以兼容性视图中显示所有网站（by 一叶微风TM）" Link="由相容性視窗中顯示所有網站 (by 一葉微風TM)"/>
 
@@ -1016,7 +1016,7 @@
     <String Target="快速访问不显示最近使用的文件（by 溯汐潮）" Link="快速存取不顯示最近使用的檔案 (by 溯汐潮)"/>
     <String Target="清理被取代的msp补丁并减少Installer目录的大小。" Link="清理被取代的 msp 更新檔並減少 Installer 目錄的大小。"/>
     <String Target="禁用账号登录日志报告（by 溯汐潮）" Link="停用帳號登入日誌報告 (by 溯汐潮)"/>
-    <String Target="遇到弹出窗口时始终在新选项卡中打开弹出窗口（by 溯汐潮）" Link="遇到快顯視窗時始終在新選項卡中開啟快顯視窗 (by 溯汐潮)"/>
+    <String Target="遇到弹出窗口时始终在新选项卡中打开弹出窗口（by 溯汐潮）" Link="遇到快顯視窗時始終在新分頁中開啟快顯視窗 (by 溯汐潮)"/>
     <String Target="锁定Internet Explorer工具栏（by 溯汐潮）" Link="鎖定 Internet Explorer 工具列 (by 溯汐潮)"/>
     <String Target="隐藏NTFS蓝色双箭头压缩标识（by IT之家）" Link="隱藏 NTFS 藍色雙箭頭壓縮標示 (by IT之家)"/>
     <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="隱藏語言列上的說明按鈕 (by 溯汐潮)"/>
