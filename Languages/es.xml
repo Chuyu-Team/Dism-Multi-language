@@ -1353,7 +1353,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
   </StringMaps>
   <MessageTable>
     <x800F0806>Hay una o más actualizaciones pendientes, por favor reiniciar antes de continuar.</x800F0806>
-    <x800F081F>Dism++ no puede encontrar el origen de la instalación, si necesita habilitar NET3.5 montar la ISO y luego continuar.</x800F081F>
+    <x800F081F>Dism++ no puede encontrar el origen de la instalación, si necesita habilitar NET 3.5 montar la ISO y luego continuar.</x800F081F>
     <x80073703>El sistema operativo está severamente racionalizado, Dism++ no puede continuar.</x80073703>
     <x800F0830>El sistema operativo está severamente racionalizado, por favor renunciar a este sistema, y empezar de nuevo.</x800F0830>
     <x800F0825>Está intentando desinstalar un paquete que estaba instalado en el ordenador y ahora es permanente. Por lo tanto, este paquete no se puede desinstalar.</x800F0825>
@@ -1366,11 +1366,11 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <xA0020002>Algunos han sido borrados, para una limpieza completa actualizar a Windows 8.1, y luego continuar.</xA0020002>
     <xA0020003>Actualizar a Windows Vista SP2, y luego continuar.</xA0020003>
     <xA0020004>Actualizar a Windows 7 SP1, y luego continuar.</xA0020004>
-    <xA0020005>No se pueden usar simultáneamente WIMBoot y Compact.</xA0020005>
+    <xA0020005>No se pueden usar simultáneamente WIMBoot y compactar.</xA0020005>
     <xA0020006>El sistema actual no tiene soporte para Wow64, no puede manejar sistemas de 64 bits fuera de línea.</xA0020006>
     <xA0020007>El archivo CBSHost.dll no existe. Por favor, asegurar la integridad de Dism++.</xA0020007>
     <xA0020008>Falta rundll32.exe. Dism++ no se puede ejecutar.</xA0020008>
-    <xA0020009 q="">Error en la sesión con Dism++ . Le sugerimos comprimir y enviar "CBSHost_*.dmp a mingkuang@live.com" para ayudar a resolver este problema.</xA0020009>
+    <xA0020009>La sesión de Dism++ congeló. Le sugerimos comprimir y enviar "CBSHost_*.dmp" a mingkuang@live.com para ayudar a resolver este problema.</xA0020009>
     <xA002000A>Dism++ ha detectado algún problema de compatibilidad. Instalar el parche KB960037 y continuar.</xA002000A>
 
     <x20020001>No hay una configuración predeterminada de asociación de archivos en la imagen actual. No se puede exportar.</x20020001>
@@ -1379,12 +1379,12 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <xC144013B>Controlador (Wofadk.sys) no cargado. Seleccionar la casilla "Cargar wofadk" en Opciones - Más opciones.</xC144013B>
 
     <!--VSS-->
-    <x80042302>Se ha deshabilitado el servicio de las instantáneas del volumen, configurar el servicio a Manual y continuar.</x80042302>
+    <x80042302>Se ha deshabilitado el servicio de las instantáneas de volumen, configurar el servicio a manual y continuar.</x80042302>
 
     <xA0010001>Microsoft en línea no soporta vacíar o restaurar la contraseña de la cuenta, debes hacerlo através de la página web oficial de Microsoft.</xA0010001>
 
     <!--WimgAPI Message-->
-    <x4144012B>Este es un mensaje de prueba que no requiere ninguna acción. El código del mensaje %1.</x4144012B>
+    <x4144012B>Este es un mensaje de prueba que no requiere ninguna acción. Código del mensaje %1.</x4144012B>
     <x4144012C>[ Información ] %1</x4144012C>
     <x8144012A>Ha recibido un mensaje desconocido: %1.</x8144012A>
     <x8144012D>[ Advertencia ] %1</x8144012D>
@@ -1414,7 +1414,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <xC1420118>La imagen montada ya está en uso.  Asegúrese de que no fue montada por otro proceso.</xC1420118>
     <xC1420119>No se ha encontrado el wimserv.exe binario.  Asegúrese de que está disponible en la ruta de búsqueda del sistema.</xC1420119>
     <xC142011A>ImageX ha agotado el tiempo esperando el proceso para extraer.</xC142011A>
-    <xC142011B>El cierre del servicio wimmount sin retornar a un estado.</xC142011B>
+    <xC142011B>El cierre del servicio Wimmount sin retornar a un estado.</xC142011B>
     <xC142011C>El directorio especificado no es válido para un directorio montado.</xC142011C>
     <xC142011D>La imagen montada no se puede integrar con WIM. Esto ocurre cuando una imagen se ha realizado a través de un desmontaje parcial o cuando se está montando una imagen. Si esta imagen fue desmontada anteriormente, entonces puede darse este error. Compruebe que este sea caso y, a continuación, desmonte sin integrar.</xC142011D>
     <xC142011E>El directorio de montaje de la imagen especificada ha cambiado. Todos los archivos de esta imagen se extraerán, y esta imagen no se puede integrar.</xC142011E>
@@ -1434,7 +1434,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <xC1420134>La unidad de la ruta de montaje especificado no es compatible. Por favor, montar un volumen en una unidad fija.</xC1420134>
     <xC1420135>La operación de montaje ha fallado. Debe desactivar cualquier software (por ejemplo, antivirus o indexador de búsqueda) que accede a los archivos bajo esa ruta de montaje especifica.</xC1420135>
     <xC143010D>Indice de imagen no válido para el contenedor de Wim wrapper. El contenedor no puede abrir una imagen.</xC143010D>
-    <xC1440129>El archivo log especificado existe y no es un archivo de texto en Unicode. Sólo los archivos de texto en Unicode son compatibles.</xC1440129>
+    <xC1440129>El archivo de registro especificado ya existe y no es un archivo de texto en Unicode. Sólo los archivos de texto en Unicode son compatibles.</xC1440129>
     <xC144012E>[ Error ] %1</xC144012E>
     <xC144012F>[ Advertencia ] El atributo extendido en el archivo %1 se ha ignorado.</xC144012F>
     <xC1440136>Operación no soportada. Compruebe que el SO se está ejecutando, y que contenga un controlador wof (wof.sys/wofadk.sys).</xC1440136>
