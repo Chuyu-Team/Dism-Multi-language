@@ -1370,7 +1370,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <xA0020006>El sistema actual no tiene soporte para Wow64, no puede manejar sistemas de 64 bits fuera de línea.</xA0020006>
     <xA0020007>El archivo CBSHost.dll no existe. Por favor, asegurar la integridad de Dism++.</xA0020007>
     <xA0020008>Falta rundll32.exe. Dism++ no se puede ejecutar.</xA0020008>
-    <xA0020009>La sesión de Dism++ congeló. Le sugerimos comprimir y enviar "CBSHost_*.dmp" a mingkuang@live.com para ayudar a resolver este problema.</xA0020009>
+    <xA0020009>La sesión de Dism++ se congeló. Le sugerimos comprimir y enviar "CBSHost_*.dmp" a mingkuang@live.com para ayudar a resolver este problema.</xA0020009>
     <xA002000A>Dism++ ha detectado algún problema de compatibilidad. Instalar el parche KB960037 y continuar.</xA002000A>
 
     <x20020001>No hay una configuración predeterminada de asociación de archivos en la imagen actual. No se puede exportar.</x20020001>
