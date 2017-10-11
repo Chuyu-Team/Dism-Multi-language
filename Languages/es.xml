@@ -1338,7 +1338,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="传递优化缓存" Link="Optimizar caché"/>
     <String Target="Win10开始使用传递优化（DeliveryOptimization）服务下载Windows更新和通用应用（UWP）产生的缓存文件" Link="Los archivos del caché generados cuando Windows 10 se inicia a través de la entrega de servicios de optimización para descargar las actualizaciones de Windows y UWP."/>
 
-    <String Target="Appx缓存文件-可解决Appx闪退" Link="Archivos de caché Appx - Corregir congelación Appx"/>
+    <String Target="Appx缓存文件-可解决Appx闪退" Link="Archivos de caché Appx - corregir congelación Appx"/>
     <String Target="Appx运行时产生的缓存文件，当应用闪退时可尝试清理此选项，可解决大多数闪退问题。" Link="Archivos en caché de Appx runtime. Si Appx se congela puede intentar limpiarlos. En la mayoría de los casos, el problema se puede solucionar."/>
 
     <String Target="英伟达驱动安装包（by Ailick）" Link="Paquete instalación controladores de nVidia (Ailick)"/>
