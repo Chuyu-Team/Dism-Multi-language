@@ -426,7 +426,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="等待扫描" Link="Necesario analizar"/>
     <String Target="过期文件" Link="Archivos expirados"/>
     <String Target="系统相关" Link="Sistema"/>
-    <String Target="缓存文件" Link="Archivos del cache"/>
+    <String Target="缓存文件" Link="Archivos de caché"/>
     <String Target="应用程序" Link="Aplicaciones"/>
     <String Target="备份文件" Link="Copia de seguridad"/>
     <String Target="Dism++即将进行清理，垃圾文件将被直接删除，无法通过回收站恢复，你确定要继续么？" Link="Dism++ va a iniciar la limpieza. No se pueden recuperar los archivos de la Papelera de reciclaje. ¿Continuar?"/>
@@ -755,7 +755,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
 
     <String Target="创建快捷方式时不添&quot;快捷方式&quot;文字（by 518516.net）" Link="Prevenir añadir texto en &quot;Acceso directo&quot; al crear un acceso directo (518516.net)"/>
 
-    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹" Link="Ocultar videos imágenes, documentos, descargas de música, carpetas del escritorio en este PC"/>
+    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹" Link="Ocultar carpetas: Escritorio, Videos, Imágenes, Documentos, Descargas, Imágenes y Música en este PC"/>
 
     <String Target="*隐藏桌面右下角教育版水印" Link="*Eliminar marca de agua en la Edición Educativa"/>
 
@@ -784,7 +784,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
 
     <String Target="在桌面显示回收站（by Rambin）" Link="Mostrar Papelera de reciclaje en el escritorio (Rambin)"/>
 
-    <String Target="在桌面显示控制面板（by Rambin）" Link="Mostrar Panel de Control en el escritorio (Rambin)"/>
+    <String Target="在桌面显示控制面板（by Rambin）" Link="Mostrar Panel de control en el escritorio (Rambin)"/>
 
     <String Target="在桌面显示用户文件夹（by Rambin）" Link="Mostrar carpetas del usuario en el escritorio (Rambin)"/>
 
@@ -830,7 +830,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Ocultar la barra de tareas (Cloud)"/>
 
     <!--开始菜单-->
-    <String Target="开始菜单以及Windows体验" Link="Iniciar Experiencia de Windows"/>
+    <String Target="开始菜单以及Windows体验" Link="Menú inicio y experiencia de Windows"/>
 
     <!--右键菜单管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="Administrar menú contextual: Desactiva los elementos del menú no necesarios para mejorar la respuesta de Windows Explorer"/>
@@ -967,7 +967,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="不显示首次使用对话框（by 原罪）" Link="Ocultar primer asistente de ejecución (YZ)"/>
 
     <!--其他-->
-    <String Target="*隐藏Windows 10升级助手GWX" Link="*Ocultar Windows 10 Upgrade Assistant (GWX)"/>
+    <String Target="*隐藏Windows 10升级助手GWX" Link="*Ocultar Asistente para actualización de Windows 10 (GWX)"/>
 
     <String Target="关闭OneDrive（by Rambin）" Link="Desactivar OneDrive (Rambin)"/>
       <String Target="禁用OneDrive将导致某些Windows Store应用无法使用OneDrive存储。" Link="Algunas aplicaciones del Windows Store no podrán utilizar el almacenamiento en la nube OneDrive si se desactiva."/>
@@ -984,9 +984,9 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
 
     <String Target="禁用组件堆栈（Component Based Servicing）日志" Link="Desactivar el servicio basado en componentes"/>
 
-    <String Target="禁用更新解压模块（Delta Package Expander）日志" Link="Desactivar el paquete Delta Expander log"/>
+    <String Target="禁用更新解压模块（Delta Package Expander）日志" Link="Desactivar registro del paquete Delta Expander"/>
 
-    <String Target="禁用系统日志（by Windows 10优化辅助工具）" Link="Desactivar log del sistema (optimizar Windows 10)"/>
+    <String Target="禁用系统日志（by Windows 10优化辅助工具）" Link="Desactivar registro del sistema (optimizar Windows 10)"/>
 
     <String Target="崩溃时写入调试信息" Link="Escribir información de depuración cuando el sistema se bloquea"/>
       <String Target="无" Link="Nada"/>
@@ -1032,7 +1032,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <!--Dism++更新程序-->
     <String
       Target="发现新版本，需要更新 %d 个文件，约%s。&#xD;&#xA;&#xD;&#xA;更新日志：&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;确定要升级吗？"
-      Link="Hay una versión nueva. Se actualizarán %d archivos (%s).&#xD;&#xA;&#xD;&#xA;Cambios:&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;¿Actualizar?"/>
+      Link="Hay una versión nueva. Se actualizará %d archivo(s) (%s).&#xD;&#xA;&#xD;&#xA;Cambios:&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;¿Actualizar?"/>
     <String Target="Dism++更新程序" Link="Actualizar Dism++"/>
     <String
       Target="准备启动下载模块……&#xD;&#xA;"
@@ -1069,7 +1069,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
       Link="/Plugin:&lt;Plugin_ID&gt;&#9;- Para ejecutar los comandos compatibles con el complemento.&#xD;&#xA;&#xD;&#xA;Ejemplos:&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"/>
     <String
       Target="可以使用以下命令来操作此映像：&#xD;&#xA;&#xD;&#xA;插件命令：&#xD;&#xA; /Plugin&#9;- 启动特定插件（需要插件支持命令参数）"
-      Link="Puede utilizar estos comandos para operar esta imagen:&#xD;&#xA;&#xD;&#xA;Comando:&#xD;&#xA; /Plugin&#9;- Ejecutar el complemento designado (Necesita soporte del complemento)"/>
+      Link="Puede utilizar estos comandos para operar esta imagen:&#xD;&#xA;&#xD;&#xA;Comando:&#xD;&#xA; /Plugin&#9;- ejecutar el complemento designado (necesita soporte del complemento)"/>
     <String Target="正在压缩" Link="Comprimir"/>
     <String Target="正在解压" Link="Descomprimiendo"/>
     <String Target="操作完成！" Link="Finalizado"/>
@@ -1149,7 +1149,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="在系统升级或者还原后留下的系统备份。" Link="Al actualizar o restaurar el sistema, crea una copia de seguridad del sistema."/>
     <String Target="删除后你将无法回滚到以前安装的系统。" Link="Después de eliminarlo, no se puede restaurar al sistema anterior."/>
 
-    <String Target="Windows临时安装文件" Link="Archivos de la instalación temporal de Windows"/>
+    <String Target="Windows临时安装文件" Link="Archivos de instalación temporal de Windows"/>
     <String Target="在系统升级或者还原后留下的系统临时安装文件，如果你确定当前没有进行系统升级或者还原，那么可以安全删除。" Link="Al actualizar o restaurar el sistema, crea una copia de seguridad. Si no va a actualizar o restaurar el sistema, puede eliminar la copia de seguridad."/>
 
     <String Target="QQ临时数据" Link="Archivos temporales Tencent QQ"/>
@@ -1320,7 +1320,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="Visual Studio日志" Link="Registro de Visual Studio"/>
     <String Target="使用Visual Studio所产生的日志" Link="Registros generados por Visual Studio"/>
 
-    <String Target="Installer目录" Link="Carpeta del instalador"/>
+    <String Target="Installer目录" Link="Carpeta de instalador"/>
     <String Target="(这是一个实验性功能)清理后将无法卸载被取代的msp更新，如果有卸载更新需求请勿使用此选项。" Link="(Experimental) Después de la limpieza, las actualizaciones msp no se pueden desinstalar. Si necesita desinstalar actualizaciones, no use esta opción."/>
 
     <String Target="零售演示离线内容" Link="Contenido sin conexión"/>
