@@ -32,7 +32,11 @@
     <LangSecRef ID="3030">应用程序</LangSecRef>
     <LangSecRef ID="3031">Windows Store</LangSecRef>
   </CCleanLangSecRefMap>
-  <MessageTable>
+  <StringMaps>
+    <String Target="User Appx" Link="用户应用"/>
+    <String Target="Provisioned Appx" Link="预装应用"/>
+  </StringMaps>
+    <MessageTable>
     <x800F0806>一个或者多个更新存在挂起行为，请重启系统然后继续。</x800F0806>
     <x800F081F>Dism++找不到安装源，如果你需要开启NET 3.5 请挂载ISO然后继续。</x800F081F>
     <x80073703>操作系统被严重精简，Dism++无法继续操作。</x80073703>

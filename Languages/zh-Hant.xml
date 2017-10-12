@@ -578,6 +578,8 @@
     <String Target="%s 所关联的用户（%s）无法删除，错误代码：0x%.8X" Link="%s 所關聯的使用者 (%s) 無法刪除，錯誤代碼：0x%.8X"/>
     <String Target="%s 未关联任何用户。" Link="%s 未關聯任何使用者。"/>
     <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="恭喜你刪除成功！但是某些應用程式可能屬於 Provisioned Appx，如果你遇到某個 App 所有者是 SYSTEM，而且一直刪不掉，那麼你需要使用 Provisioned Appx 刪除它們。"/>
+    <String q="" Target="User Appx" Link="用户应用"/>
+    <String q="" Target="Provisioned Appx" Link="预装应用"/>
 
     <!--Windows Update-->
     <String Target="安装" Link="安裝"/>

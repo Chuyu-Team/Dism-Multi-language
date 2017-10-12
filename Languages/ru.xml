@@ -579,6 +579,8 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <String Target="%s 所关联的用户（%s）无法删除，错误代码：0x%.8X" Link="Приложение %s ассоциировано с учетной записью (%s) и не может быть удалено. Код ошибки: 0x%.8X"/>
     <String Target="%s 未关联任何用户。" Link="Приложение %s не ассоциировано с какой-либо учетной записью."/>
     <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="Поздравляем! Удаление выполнено успешно. Но некоторые приложения могут относиться к предустановленным Appx приложениям. Если Вы столкнулись с тем, что владельцем приложений является СИСТЕМА - используйте 'Предустановленные с системой Appx приложения' для их удаления."/>
+    <String q="" Target="User Appx" Link="User Appx"/>
+    <String q="" Target="Provisioned Appx" Link="Provisioned Appx"/>
 
     <!--Windows Update-->
     <String Target="安装" Link="Установить"/>
