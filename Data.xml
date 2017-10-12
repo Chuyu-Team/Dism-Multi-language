@@ -2637,7 +2637,7 @@
 
     </Group>
     
-    <Group Name="Explorer">
+    <Group Name="#Explorer">
       <Item Type="CheckBox" Name="#打开资源管理器时显示此电脑">
         <Applicable>
           <OSVersion Compare=">=">10.0</OSVersion>
