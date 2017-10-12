@@ -391,17 +391,17 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="映像路径存在非英文字符可能导致安装更新失败，请在全英文路径重新挂载此映像，比如“D:\Mount”。" Link="La ruta de la imagen existente con caracteres que no son ASCII puede causar un error al instalar la actualización, vuelva a cargar la ruta completa de la imagen con ASCII, por ejemplo &quot;D:\Montar&quot;."/>
 
     <String Target="常用工具" Link="Utilidades"/>
-    <String Target="空间回收" Link="Limpiar disco"/>
-    <String Target="启动项管理" Link="Inicio"/>
-    <String Target="工具箱" Link="Herramientas"/>
-    <String Target="Appx管理" Link="Aplicaciones"/>
+      <String Target="空间回收" Link="Limpiar disco"/>
+      <String Target="启动项管理" Link="Inicio"/>
+      <String Target="工具箱" Link="Herramientas"/>
+      <String Target="Appx管理" Link="Aplicaciones"/>
 
     <String Target="驱动管理" Link="Controladores"/>
     <String Target="程序和功能" Link="Aplicaciones y funciones"/>
     <String Target="Windows服务" Link="Servicios de Windows"/>
     <String Target="Windows功能" Link="Características de Windows"/>
     <String Target="更新管理" Link="Actualizaciones"/>
-    <String Target="已安装的更新" Link="Actualizaciones instaladas"/>
+      <String Target="已安装的更新" Link="Actualizaciones instaladas"/>
     <String Target="可选功能" Link="Características opcionales"/>
     <String Target="部署功能" Link="Características"/>
 
@@ -741,7 +741,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
       <String Target="提示我（推荐）" Link="Avisame(recomendado)"/>
       <String Target="总是提示我" Link="Avisar siempre"/>
 
-    <String Target="用于内置管理员帐户的管理员批准模式 (by 坏坏小生)" Link="Modo aprobación en la cuenta del Administrador (HuaiHuaiXiaoSheng)"/>
+    <String Target="用于内置管理员帐户的管理员批准模式 (by 坏坏小生)" Link="Modo aprobación en la cuenta del Administrador (by HuaiHuaiXiaoSheng)"/>
 
     <String Target="隐藏“任务视图”按钮" Link="Ocultar botón &quot;Ver tareas&quot;"/>
 
@@ -755,50 +755,50 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
 
     <String Target="隐藏可执行文件小盾牌" Link="Ocultar el UAC"/>
 
-    <String Target="创建快捷方式时不添&quot;快捷方式&quot;文字（by 518516.net）" Link="Prevenir añadir texto en &quot;Acceso directo&quot; al crear un acceso directo (518516.net)"/>
+    <String Target="创建快捷方式时不添&quot;快捷方式&quot;文字（by 518516.net）" Link="Prevenir añadir texto en &quot;Acceso directo&quot; al crear un acceso directo (by 518516.net)"/>
 
     <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹" Link="Ocultar carpetas: Escritorio, Videos, Imágenes, Documentos, Descargas, Imágenes y Música en este PC"/>
 
     <String Target="*隐藏桌面右下角教育版水印" Link="*Eliminar marca de agua en la Edición Educativa"/>
 
-    <String Target="收起资源管理器功能区（by Rambin）" Link="Minimizar cinta (Rambin)"/>
+    <String Target="收起资源管理器功能区（by Rambin）" Link="Minimizar cinta (by Rambin)"/>
 
-    <String Target="显示开始菜单、任务栏、操作中心和标题栏的颜色（by Rambin）" Link="Mostrar color en menú de inicio, barra de tareas, título, y Centro de actividades (Rambin)"/>
+    <String Target="显示开始菜单、任务栏、操作中心和标题栏的颜色（by Rambin）" Link="Mostrar color en menú de inicio, barra de tareas, título, y Centro de actividades (by Rambin)"/>
 
-    <String Target="禁止自动播放（by Rambin）" Link="Desactivar reproducción automática (Rambin)"/>
+    <String Target="禁止自动播放（by Rambin）" Link="Desactivar reproducción automática (by Rambin)"/>
 
-    <String Target="在单独的进程中打开文件夹窗口（by 一叶微风TM）" Link="Abrir carpeta en un proceso independiente (YiYieWeiFeng TM)"/>
+    <String Target="在单独的进程中打开文件夹窗口（by 一叶微风TM）" Link="Abrir carpeta en un proceso independiente (by YiYieWeiFeng TM)"/>
 
-    <String Target="始终显示菜单栏（by 一叶微风TM）" Link="Mostrar siempre la barra de menús (YiYieWeiFeng TM)"/>
+    <String Target="始终显示菜单栏（by 一叶微风TM）" Link="Mostrar siempre la barra de menús (by YiYieWeiFeng TM)"/>
 
-    <String Target="资源管理器窗口最小化时显示完整路径（by 原罪）" Link="Mostrar la ruta completa si el explorador de Windows está minimizado (YZ)"/>
+    <String Target="资源管理器窗口最小化时显示完整路径（by 原罪）" Link="Mostrar la ruta completa si el explorador de Windows está minimizado (by YZ)"/>
 
     <String Target="使开始菜单、任务栏、操作中心透明" Link="Hacer el menú de inicio, la barra de tareas y el Centro de Acción transparente"/>
 
-    <String Target="使任务栏更透明（by 518516.net）" Link="Hacer más transparente la barra de tareas (518516.net)"/>
+    <String Target="使任务栏更透明（by 518516.net）" Link="Hacer más transparente la barra de tareas (by 518516.net)"/>
 
     <String Target="不允许在开始菜单显示建议" Link="Desactivar consejos del menú de inicio"/>
 
-    <String Target="在桌面显示我的电脑（by Rambin）" Link="Mostrar Mi PC en el escritorio (Rambin)"/>
+    <String Target="在桌面显示我的电脑（by Rambin）" Link="Mostrar Mi PC en el escritorio (by Rambin)"/>
       <String Target="跟随系统" Link="Sistema"/>
       <String Target="显示" Link="Mostrar"/>
       <String Target="隐藏" Link="Ocultar"/>
 
-    <String Target="在桌面显示回收站（by Rambin）" Link="Mostrar Papelera de reciclaje en el escritorio (Rambin)"/>
+    <String Target="在桌面显示回收站（by Rambin）" Link="Mostrar Papelera de reciclaje en el escritorio (by Rambin)"/>
 
-    <String Target="在桌面显示控制面板（by Rambin）" Link="Mostrar Panel de control en el escritorio (Rambin)"/>
+    <String Target="在桌面显示控制面板（by Rambin）" Link="Mostrar Panel de control en el escritorio (by Rambin)"/>
 
-    <String Target="在桌面显示用户文件夹（by Rambin）" Link="Mostrar carpetas del usuario en el escritorio (Rambin)"/>
+    <String Target="在桌面显示用户文件夹（by Rambin）" Link="Mostrar carpetas del usuario en el escritorio (by Rambin)"/>
 
-    <String Target="在桌面显示网络（by Rambin）" Link="Mostrar Red en el escritorio (Rambin)"/>
+    <String Target="在桌面显示网络（by Rambin）" Link="Mostrar Red en el escritorio (by Rambin)"/>
 
-    <String Target="在桌面显示库（by Rambin）" Link="Mostrar Biblioteca en el escritorio (Rambin)"/>
+    <String Target="在桌面显示库（by Rambin）" Link="Mostrar Biblioteca en el escritorio (by Rambin)"/>
 
-    <String Target="隐藏操作中心任务栏托盘（by Windows 10优化辅助工具）" Link="Ocultar bandeja Centro de Acción (optimizar Windows 10)"/>
-    <String Target="隐藏操作中心任务栏托盘（by 巧木）" Link="Ocultar bandeja Centro de Acción (QiaoMu)"/>
+    <String Target="隐藏操作中心任务栏托盘（by Windows 10优化辅助工具）" Link="Ocultar bandeja Centro de Acción (by optimizar Windows 10)"/>
+    <String Target="隐藏操作中心任务栏托盘（by 巧木）" Link="Ocultar bandeja Centro de Acción (by QiaoMu)"/>
 
-    <String Target="关闭Smartscreen应用筛选器（by Windows 10优化辅助工具）" Link="Cerrar filtros de Smartscreen (optimizar Windows 10)"/>
-    <String Target="关闭Smartscreen应用筛选器（by 、Cloud）" Link="Cerrar filtros Smartscreen (Cloud)"/>
+    <String Target="关闭Smartscreen应用筛选器（by Windows 10优化辅助工具）" Link="Cerrar filtros de Smartscreen (by optimizar Windows 10)"/>
+    <String Target="关闭Smartscreen应用筛选器（by 、Cloud）" Link="Cerrar filtros Smartscreen (by Cloud)"/>
 
     <String Target="始终在任务栏显示所有图标和通知" Link="Mostrar siempre todos los iconos y notificaciones en la barra de tareas"/>
 
@@ -819,87 +819,87 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
 
     <String Target="隐藏资源管理器导航窗口中的网络" Link="Ocultar la ventana de navegación del explorador de red"/>
 
-    <String Target="优化非活动窗口标题栏颜色（by IT之家）" Link="Optimizar el color de la barra del título de las ventanas inactivas (IT Home)"/>
+    <String Target="优化非活动窗口标题栏颜色（by IT之家）" Link="Optimizar el color de la barra del título de las ventanas inactivas (by IT Home)"/>
 
-    <String Target="关闭视频文件预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Desactivar previo de vídeo para mejorar respuesta Windows Explorer (MoWangMoShi)"/>
-    <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Desactivar previo de audio para mejorar respuesta Windows Explorer (MoWangMoShi)"/>
-    <String Target="关闭打开程序的“安全警告”（by 莫失莫忘）" Link="Desactivar la advertencia de seguridad al abrir programas (MoWangMoShi) "/>
-    <String Target="关闭在应用商店中查找关联应用（by Asoft）" Link="Desactivar la búsqueda de aplicaciones asociadas de Windows Store (Asoft)"/>
-    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="Ocultar vídeos, imágenes, documentos, descargas, música, escritorio y 3D(Cloud)"/>
-    <String Target="禁止自动安装推荐的应用程序（by IT之家）" Link="Se recomienda desactivar la instalación de las aplicaciones automáticamente (ITHome)"/>
-    <String Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="Desactivar Windows Focus en bloqueo de pantalla (Cloud)"/>
-    <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="Desactivar &quot;Obtener consejos al utilizar Windows&quot; (Cloud)"/>
-    <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Ocultar la barra de tareas (Cloud)"/>
+    <String Target="关闭视频文件预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Desactivar previo de vídeo para mejorar respuesta Windows Explorer (by MoWangMoShi)"/>
+    <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Desactivar previo de audio para mejorar respuesta Windows Explorer (by MoWangMoShi)"/>
+    <String Target="关闭打开程序的“安全警告”（by 莫失莫忘）" Link="Desactivar la advertencia de seguridad al abrir programas (by MoWangMoShi) "/>
+    <String Target="关闭在应用商店中查找关联应用（by Asoft）" Link="Desactivar la búsqueda de aplicaciones asociadas de Windows Store (by Asoft)"/>
+    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="Ocultar vídeos, imágenes, documentos, descargas, música, escritorio y 3D(by Cloud)"/>
+    <String Target="禁止自动安装推荐的应用程序（by IT之家）" Link="Se recomienda desactivar la instalación de las aplicaciones automáticamente (by ITHome)"/>
+    <String Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="Desactivar Windows Focus en bloqueo de pantalla (by Cloud)"/>
+    <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="Desactivar &quot;Obtener consejos al utilizar Windows&quot; (by Cloud)"/>
+    <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Ocultar la barra de tareas (by Cloud)"/>
 
     <!--开始菜单-->
     <String Target="开始菜单以及Windows体验" Link="Menú inicio y experiencia de Windows"/>
 
     <!--右键菜单管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="Administrar menú contextual: Desactiva los elementos del menú no necesarios para mejorar la respuesta de Windows Explorer"/>
-    <String Target="禁用可执行文件的“兼容性疑难解答”右键菜单（by 莫失莫忘）" Link="Desactivar del menú &quot;Solución de problemas de compatibilidad&quot; en archivos ejecutables (MoWangMoShi)"/>
-    <String Target="禁用文件、文件夹以及磁盘的“使用Windows Defender扫描”右键菜单（by 莫失莫忘）" Link="Desactivar &quot;Analizar con Windows Defender&quot; del menú de archivos, carpetas y discos (MoWangMoShi)"/>
-    <String Target="禁用文件、磁盘以及属性的“还原以前版本”右键菜单（by 莫失莫忘）" Link="Desactivar &quot;Volver a la versión anterior&quot; del menú de archivos, discos y propiedades (MoWangMoShi)"/>
+    <String Target="禁用可执行文件的“兼容性疑难解答”右键菜单（by 莫失莫忘）" Link="Desactivar del menú &quot;Solución de problemas de compatibilidad&quot; en archivos ejecutables (by MoWangMoShi)"/>
+    <String Target="禁用文件、文件夹以及磁盘的“使用Windows Defender扫描”右键菜单（by 莫失莫忘）" Link="Desactivar &quot;Analizar con Windows Defender&quot; del menú de archivos, carpetas y discos (by MoWangMoShi)"/>
+    <String Target="禁用文件、磁盘以及属性的“还原以前版本”右键菜单（by 莫失莫忘）" Link="Desactivar &quot;Volver a la versión anterior&quot; del menú de archivos, discos y propiedades (by MoWangMoShi)"/>
     <String Target="禁用文件、文件夹、桌面以及所有对象的“共享文件夹同步”右键菜单" Link="Desactivar &quot;Sincronizar carpetas compartidas&quot; del menú de archivos, carpetas y objetos de escritorio"/>
-    <String Target="禁用新建“ZIP/RAR文件”右键菜单（by 莫失莫忘）" Link="Desactivar &quot;Archivo nuevo RAR/ZIP&quot; del menú (MoWangMoShi)"/>
+    <String Target="禁用新建“ZIP/RAR文件”右键菜单（by 莫失莫忘）" Link="Desactivar &quot;Archivo nuevo RAR/ZIP&quot; del menú (by MoWangMoShi)"/>
     <String Target="禁用新建、文件以及文件夹的“公文包”右键菜单" Link="Desactivar &quot;Maletín&quot; del menú en nuevo, archivos y carpetas"/>
-    <String Target="禁用新建的“联系人”右键菜单（by 莫失莫忘）" Link="Desactivar &quot;Nuevo Contacto&quot; del menú (MoWangMoShi)"/>
-    <String Target="禁用桌面的英特尔集显右键菜单（by 莫失莫忘）" Link="Desactivar gráficos integrados de Intel del menú (MoWangMoShi)"/>
+    <String Target="禁用新建的“联系人”右键菜单（by 莫失莫忘）" Link="Desactivar &quot;Nuevo Contacto&quot; del menú (by MoWangMoShi)"/>
+    <String Target="禁用桌面的英特尔集显右键菜单（by 莫失莫忘）" Link="Desactivar gráficos integrados de Intel del menú (by MoWangMoShi)"/>
     <String Target="禁用目录、文件夹、所有对象、的“始终脱机可用”右键菜单" Link="Desactivar &quot;Habilitar su uso fuera de línea&quot; del menú de carpetas y todos los objetos"/>
-    <String Target="禁用磁盘的“以便携式方式打开”右键菜单（by 莫失莫忘）" Link="Desactivar &quot;Abrir como dispositivo portable&quot; del menú de los discos (MoWangMoShi)"/>
+    <String Target="禁用磁盘的“以便携式方式打开”右键菜单（by 莫失莫忘）" Link="Desactivar &quot;Abrir como dispositivo portable&quot; del menú de los discos (by MoWangMoShi)"/>
     <String Target="禁用磁盘的“刻录到光盘”右键菜单" Link="Desactivar &quot;Grabar a CD&quot; del menú de los discos."/>
-    <String Target="禁用磁盘的“启用Bitlocker”右键菜单（by 莫失莫忘）" Link="Desactivar &quot;Activar Bitlocker&quot; del menú de los discos (MoWangMoShi)"/>
+    <String Target="禁用磁盘的“启用Bitlocker”右键菜单（by 莫失莫忘）" Link="Desactivar &quot;Activar Bitlocker&quot; del menú de los discos (by MoWangMoShi)"/>
     <String Target="禁用磁盘的“复制磁盘”右键菜单" Link="Desactivar &quot;Copiar disco&quot; del menú de los discos."/>
     <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="Desactivar &quot;Compartir&quot; del menú de los archivos, carpetas, discos y bibliotecas"/>
     <String Target="禁用桌面的“小工具”右键菜单" Link="Desactivar &quot;widget&quot; del menú"/>
-    <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Desactivar el elemento del menú del archivo &quot;Ver 3D&quot; (Cloud)"/>
-    <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Desactivar el elemento del menú del archivo &quot;Paint 3D&quot; (Cloud)"/>
+    <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Desactivar el elemento del menú del archivo &quot;Ver 3D&quot; (by Cloud)"/>
+    <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Desactivar el elemento del menú del archivo &quot;Paint 3D&quot; (by Cloud)"/>
 
     <!--桌面图示管理-->
     <String Target="桌面图标管理" Link="Administrar iconos escritorio"/>
 
     <!--资源管理器导航窗口图标管理-->
     <String Target="资源管理器导航窗口图标管理" Link="Administrar el icono del panel de navegación del Explorador de Windows"/>
-    <String Target="隐藏资源管理器导航窗口中的OneDrive（by 莫失莫忘）" Link="Ocultar OneDrive del panel de navegación del Explorador (MoWangMoShi)"/>
-    <String Target="隐藏资源管理器导航窗口中的可移动设备（by 莫失莫忘）" Link="Ocultar dispositivos extraíbles del panel de navegación del Explorador (MoWangMoShi)"/>
-    <String Target="隐藏资源管理器导航窗口中的快速访问（by starP）" Link="Ocultar acceso rápido del panel de navegación del Explorador (starP)"/>
+    <String Target="隐藏资源管理器导航窗口中的OneDrive（by 莫失莫忘）" Link="Ocultar OneDrive del panel de navegación del Explorador (by MoWangMoShi)"/>
+    <String Target="隐藏资源管理器导航窗口中的可移动设备（by 莫失莫忘）" Link="Ocultar dispositivos extraíbles del panel de navegación del Explorador (by MoWangMoShi)"/>
+    <String Target="隐藏资源管理器导航窗口中的快速访问（by starP）" Link="Ocultar acceso rápido del panel de navegación del Explorador (by starP)"/>
       <String Target="启用此选项将导致导航窗口拖拽功能无法使用。" Link="Si activa esta opción, se desactivará la función de arrastrar y soltar del panel de navegación."/>
 
     <!--Internet Explorer-->
-    <String Target="关闭多个选项卡时不发出警告（by 一叶微风TM）" Link="No avisarme cuando se cierren varias pestañas (YiYieWeiFeng TM)"/>
+    <String Target="关闭多个选项卡时不发出警告（by 一叶微风TM）" Link="No avisarme cuando se cierren varias pestañas (by YiYieWeiFeng TM)"/>
 
-    <String Target="当创建新选项卡时，始终切换到新选项卡（by 一叶微风TM）" Link="Cambiar siempre a las pestañas nuevas cuando se crean (YiYieWeiFeng TM)"/>
+    <String Target="当创建新选项卡时，始终切换到新选项卡（by 一叶微风TM）" Link="Cambiar siempre a las pestañas nuevas cuando se crean (by YiYieWeiFeng TM)"/>
 
-    <String Target="其他程序从当前窗口的新选项卡打开连接（by 一叶微风TM）" Link="Abrir vínculos de otros programas en una pestaña nueva en la ventana actual (YiYieWeiFeng TM)"/>
+    <String Target="其他程序从当前窗口的新选项卡打开连接（by 一叶微风TM）" Link="Abrir vínculos de otros programas en una pestaña nueva en la ventana actual (by YiYieWeiFeng TM)"/>
 
-    <String Target="以兼容性视图中显示所有网站（by 一叶微风TM）" Link="Mostrar todos los sitios web en vista de compatibilidad (YiYieWeiFeng TM)"/>
+    <String Target="以兼容性视图中显示所有网站（by 一叶微风TM）" Link="Mostrar todos los sitios web en vista de compatibilidad (by YiYieWeiFeng TM)"/>
 
-    <String Target="启用表单的自动完成功能（by 原罪）" Link="Activar auto-completar (YZ)"/>
+    <String Target="启用表单的自动完成功能（by 原罪）" Link="Activar auto-completar (by YZ)"/>
 
-    <String Target="关闭建议的网站（by 原罪）" Link="Desactivar Sitios sugeridos (YZ)"/>
+    <String Target="关闭建议的网站（by 原罪）" Link="Desactivar Sitios sugeridos (by YZ)"/>
 
-    <String Target="跳过IE首次运行自定义设置（by 原罪、恋人の共鸣）" Link="Evitar ejecutar el asistente en la primera ejecución (YZ, Lovers vibes)"/>
+    <String Target="跳过IE首次运行自定义设置（by 原罪、恋人の共鸣）" Link="Evitar ejecutar el asistente en la primera ejecución (by YZ, Lovers vibes)"/>
 
-    <String Target="不保存附件的区域信息（by 古畑任三郎）" Link="No guardar los archivos adjuntos de información regional(niphor)"/>
+    <String Target="不保存附件的区域信息（by 古畑任三郎）" Link="No guardar los archivos adjuntos de información regional(by niphor)"/>
 
     <String Target="启用增强保护模式" Link="Activar el modo protegido mejorado"/>
 
     <String Target="针对增强保护模式启用64位进程" Link="Habilitar procesos de 64 bits para mejorar el modo protegido"/>
 
-    <String Target="隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）" Link="Ocultar los comentarios de la derecha en Internet Explorer (ITHome)"/>
+    <String Target="隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）" Link="Ocultar los comentarios de la derecha en Internet Explorer (by ITHome)"/>
 
     <!--Microsoft Edge-->
-    <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Prevenir abrir Microsoft Edge en &quot;Primera ejecución&quot; (ITHome)"/>
+    <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Prevenir abrir Microsoft Edge en &quot;Primera ejecución&quot; (by ITHome)"/>
 
     <!--微软拼音输入法-->
     <String Target="微软拼音输入法" Link="Microsoft Pinyin IME"/>
-    <String Target="微软拼音默认为英语输入（by Rambin）" Link="Modo predeterminado en inglés IME(Rambin)"/>
+    <String Target="微软拼音默认为英语输入（by Rambin）" Link="Modo predeterminado en inglés IME(by Rambin)"/>
 
-    <String Target="关闭微软拼音云计算（by Rambin）" Link="Desactivar el método de entrada en Cloud (Rambin)"/>
+    <String Target="关闭微软拼音云计算（by Rambin）" Link="Desactivar el método de entrada en Cloud (by Rambin)"/>
 
     <!--Windows Update-->
-    <String Target="自动安装无需重启的更新（by Rambin）" Link="Permitir la instalación inmediata de actualizaciones automáticas (Rambin)"/>
+    <String Target="自动安装无需重启的更新（by Rambin）" Link="Permitir la instalación inmediata de actualizaciones automáticas (by Rambin)"/>
 
-    <String Target="更新挂起时如果有用户登录不自动重启计算机（by Rambin）" Link="No reiniciar al estar conectado con las actualizaciones automáticas (Rambin)"/>
+    <String Target="更新挂起时如果有用户登录不自动重启计算机（by Rambin）" Link="No reiniciar al estar conectado con las actualizaciones automáticas (by Rambin)"/>
 
     <String Target="Windows更新不包括驱动程序" Link="Windows Update no incluye los controladores"/>
 
@@ -913,30 +913,30 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
 
     <String Target="禁止自动更新到Internet Explorer 10" Link="Desactivar la actualización automática de Internet Explorer 10"/>
 
-    <String Target="禁止自动更新到Internet Explorer 11（by Rambin）" Link="Desactivar la actualización automática de Internet Explorer 11 (Rambin)"/>
+    <String Target="禁止自动更新到Internet Explorer 11（by Rambin）" Link="Desactivar la actualización automática de Internet Explorer 11 (by Rambin)"/>
 
     <!--记事本-->
     <String Target="记事本" Link="Bloc de notas"/>
-    <String Target="启用自动换行（by 一叶微风TM）" Link="Activar ajuste de línea (YiYieWeiFeng TM)"/>
+    <String Target="启用自动换行（by 一叶微风TM）" Link="Activar ajuste de línea (by YiYieWeiFeng TM)"/>
 
-    <String Target="始终显示状态栏（by 一叶微风TM）" Link="Mostrar barra estado (YiYieWeiFeng TM)"/>
+    <String Target="始终显示状态栏（by 一叶微风TM）" Link="Mostrar barra estado (by YiYieWeiFeng TM)"/>
 
     <!--网络设置-->
     <String Target="网络设置" Link="Red"/>
-    <String Target="*关闭默认共享（by 518516.net）" Link="* Desactivar el uso compartido predeterminado (518516.net)"/>
+    <String Target="*关闭默认共享（by 518516.net）" Link="* Desactivar el uso compartido predeterminado (by 518516.net)"/>
 
-    <String Target="*关闭防火墙（by 一叶微风TM）" Link="* Desactivar Firewall de Windows (YiYieWeiFeng TM)"/>
+    <String Target="*关闭防火墙（by 一叶微风TM）" Link="* Desactivar Firewall de Windows (by YiYieWeiFeng TM)"/>
       <String Target="此选项将降低计算机安全性，请确保你已经安装第三方防火墙软件！" Link="Este elemento reducirá la seguridad en su equipo. Por favor, asegúrese de tener un firewall de terceros"/>
 
-    <String Target="*关闭远程协助（by 原罪）" Link="* No permitir conexiones con asistencia remota (YZ)"/>
+    <String Target="*关闭远程协助（by 原罪）" Link="* No permitir conexiones con asistencia remota (by YZ)"/>
 
-    <String Target="*禁用SMB1网络协议（by Jhovany200）" Link="*Deshabilitar el protocolo de red SMB1 (Jhovany200)"/>
+    <String Target="*禁用SMB1网络协议（by Jhovany200）" Link="*Deshabilitar el protocolo de red SMB1 (by Jhovany200)"/>
 
     <!--服务优化-->
     <String Target="服务优化" Link="Servicios"/>
-    <String Target="禁用程序兼容性助手（by 一叶微风TM）" Link="Desactivar el servicio del asistente de compatibilidad de programas (YiYieWeiFeng TM)"/>
+    <String Target="禁用程序兼容性助手（by 一叶微风TM）" Link="Desactivar el servicio del asistente de compatibilidad de programas (by YiYieWeiFeng TM)"/>
 
-    <String Target="禁用远程修改注册表（by 一叶微风TM）" Link="Desactivar el servicio de registro remoto (YiYieWeiFeng TM)"/>
+    <String Target="禁用远程修改注册表（by 一叶微风TM）" Link="Desactivar el servicio de registro remoto (by YiYieWeiFeng TM)"/>
 
     <String Target="禁用诊断服务" Link="Desactivar el servicio de diagnóstico"/>
 
@@ -950,36 +950,36 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
 
     <String Target="禁用家庭组" Link="Desactivar Grupo Hogar"/>
 
-    <String Target="禁用Windows Defender（by Windows 10优化辅助工具）" Link="Desactivar Windows Defender (optimizar Windows 10)"/>
+    <String Target="禁用Windows Defender（by Windows 10优化辅助工具）" Link="Desactivar Windows Defender (by optimizar Windows 10)"/>
       <String Target="关闭Windows Defender后可提高计算机响应速度，但是也将增加电脑被攻击的几率！" Link="Desactivar Windows Defender mejora el rendimiento de tu PC, pero pone su sistema bajo la amenaza de virus y ataques."/>
 
-    <String Target="禁用客户体验改善计划（by Windows 10优化辅助工具）" Link="Desactivar el programa de la mejora de experiencia del cliente (optimizar Windows 10)"/>
+    <String Target="禁用客户体验改善计划（by Windows 10优化辅助工具）" Link="Desactivar el programa de la mejora de experiencia del cliente (by optimizar Windows 10)"/>
 
-    <String Target="禁用NTFS链接跟踪服务（by 某宅）" Link="Desactivar servicio de seguimiento de vínculos NTFS Grupo Hogar (Stotaku)"/>
+    <String Target="禁用NTFS链接跟踪服务（by 某宅）" Link="Desactivar servicio de seguimiento de vínculos NTFS Grupo Hogar (by Stotaku)"/>
 
-    <String Target="禁止自动维护计划（by Lux ferre）" Link="Desactivar tarea de mantenimiento automático (Lux ferre)"/>
+    <String Target="禁止自动维护计划（by Lux ferre）" Link="Desactivar tarea de mantenimiento automático (by Lux ferre)"/>
       <String Target="禁用后系统将无法使用文件预读等功能，这可能导致系统性能下降！" Link="El sistema no puede utilizar funciones como prefetching de archivos si deshabilita esto, puede degradar el rendimiento del sistema."/>
 
     <!--WinRAR-->
-    <String Target="锁定WinRAR工具栏（by 原罪）" Link="Bloquear barra de herramientas de WinRAR (YZ)"/>
+    <String Target="锁定WinRAR工具栏（by 原罪）" Link="Bloquear barra de herramientas de WinRAR (by YZ)"/>
 
-    <String Target="隐藏WinRAR 在右键菜单中添加的&quot;压缩并 E-mail...&quot;（by 原罪）" Link="Ocultar &quot;Compresión y correo electrónico...&quot; del menú que añadió WinRAR (YZ)"/>
+    <String Target="隐藏WinRAR 在右键菜单中添加的&quot;压缩并 E-mail...&quot;（by 原罪）" Link="Ocultar &quot;Compresión y correo electrónico...&quot; del menú que añadió WinRAR (by YZ)"/>
 
     <!--Windows Media Player-->
-    <String Target="不显示首次使用对话框（by 原罪）" Link="Ocultar primer asistente de ejecución (YZ)"/>
+    <String Target="不显示首次使用对话框（by 原罪）" Link="Ocultar primer asistente de ejecución (by YZ)"/>
 
     <!--其他-->
     <String Target="*隐藏Windows 10升级助手GWX" Link="*Ocultar Asistente para actualización de Windows 10 (GWX)"/>
 
-    <String Target="关闭OneDrive（by Rambin）" Link="Desactivar OneDrive (Rambin)"/>
+    <String Target="关闭OneDrive（by Rambin）" Link="Desactivar OneDrive (by Rambin)"/>
       <String Target="禁用OneDrive将导致某些Windows Store应用无法使用OneDrive存储。" Link="Algunas aplicaciones del Windows Store no podrán utilizar el almacenamiento en la nube OneDrive si se desactiva."/>
 
     <String Target="*VHD启动时不要将VHD动态文件扩展到最大（以节省空间）" Link="*No expandir VHD dinámico a tamaño máximo al iniciar (menos almacenamiento)."/>
       <String Target="此选项可能降低VHD文件性能。" Link="Esta opción puede reducir el rendimiento de archivos VHD."/>
 
-    <String Target="*隐藏某些SATA硬盘任务栏图标（by 原罪）" Link="*Ocultar iconos en la  barra de tareas de discos SATA (YZ)"/>
+    <String Target="*隐藏某些SATA硬盘任务栏图标（by 原罪）" Link="*Ocultar iconos en la  barra de tareas de discos SATA (by YZ)"/>
 
-    <String Target="蓝屏时自动重启（by 原罪）" Link="Reiniciar automáticamente con BSOD (YZ)"/>
+    <String Target="蓝屏时自动重启（by 原罪）" Link="Reiniciar automáticamente con BSOD (by YZ)"/>
 
     <String Target="关闭快速启动" Link="Desactivar inicio rápido"/>
       <String Target="关闭快速启动将导致系统启动速度变慢！" Link="Desactivar inicio rápido, prolonga el tiempo de inicio del sistema."/>
@@ -988,7 +988,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
 
     <String Target="禁用更新解压模块（Delta Package Expander）日志" Link="Desactivar registro del paquete Delta Expander"/>
 
-    <String Target="禁用系统日志（by Windows 10优化辅助工具）" Link="Desactivar registro del sistema (optimizar Windows 10)"/>
+    <String Target="禁用系统日志（by Windows 10优化辅助工具）" Link="Desactivar registro del sistema (by optimizar Windows 10)"/>
 
     <String Target="崩溃时写入调试信息" Link="Escribir información de depuración cuando el sistema se bloquea"/>
       <String Target="无" Link="Nada"/>
@@ -998,35 +998,35 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="Windows 照片查看器" Link="Visor de fotos de Windows"/>
     <String Target="Windows主题相关设置" Link="Configuración del tema de Windows"/>
     <String Target="任务栏相关设置" Link="Configurar barra de tareas"/>
-    <String Target="关闭商店应用推广（by 、Cloud.）" Link="Desactivar desde Windows Store (Cloud)."/>
+    <String Target="关闭商店应用推广（by 、Cloud.）" Link="Desactivar desde Windows Store (by Cloud)."/>
     <String Target="关闭多嘴的小娜（by 朽木）" Link="Desactivar Cortana (XiuMu)"/>
-    <String Target="关闭游戏录制工具（by 、Cloud.）" Link="Desactivar grabador de juegos (Cloud)."/>
-    <String Target="启用 Windows 照片查看器（by 心之所向）" Link="Activar visualizador de fotos de Windows (XingZhiSuoXiang) "/>
+    <String Target="关闭游戏录制工具（by 、Cloud.）" Link="Desactivar grabador de juegos (by Cloud)."/>
+    <String Target="启用 Windows 照片查看器（by 心之所向）" Link="Activar visualizador de fotos de Windows (by XingZhiSuoXiang) "/>
     <String Target="安全相关设置" Link="Ajustes de seguridad"/>
-    <String Target="开启模糊音（by 朽木）" Link="Activar soporte por fuzzy (XiuMu)"/>
+    <String Target="开启模糊音（by 朽木）" Link="Activar soporte por fuzzy (by XiuMu)"/>
     <String Target="开启此功能将导致平板模式下无法使用手势调出操作中心。" Link="No puedes usar gestos para llamar a Action Center en el modo Tablet si lo habilitas."/>
     <String Target="禁用文件、目录、桌面、所有对象的“工作文件夹”右键菜单" Link="Desactivar &quot;Carpeta de trabajo&quot; del menú del archivo, directorio y todos los objetos"/>
     <String Target="禁用文件夹的“固定到快速访问”右键菜单" Link="Desactivar &quot;Pin de acceso rápido&quot; del menú en el directorio"/>
     <String Target="禁用文件的“OneDrive文件同步”右键菜单" Link="Desactivar &quot;Sincronizar archivos OneDrive&quot; del menú del archivo"/>
-    <String Target="关闭“突出显示新安装的程序”（by 溯汐潮）" Link="Desactivar &quot;Resaltar programas recién instalados&quot; (Hell Cabrite)"/>
-    <String Target="关闭自动更新（by 溯汐潮）" Link="Desactivar actualizaciones automáticas(Hell Cabrite)"/>
-    <String Target="将“音量调节”调整为Windows 7模式（by 溯汐潮）" Link="Cambiar &quot;Ajustar volumen&quot; a modo Windows 7 (Hell Cabrite)"/>
-    <String Target="将同时可用下载数目调整到 10（by 溯汐潮）" Link="Ajustar el número de descargas simultáneas a 10(Hell Cabrite)"/>
-    <String Target="将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）" Link="Cambiar &quot;Personalizar&quot; con clic derecho en el menú del escritorio en Windows (dpzjsy)"/>
-    <String Target="将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）" Link="Cambiar &quot;Configurar pantalla&quot; con clic derecho en el menú del escritorio en Windows 7 (dpzjsy)"/>
-    <String Target="将语言栏隐藏到任务拦（by 溯汐潮）" Link="Ocultar la barra del idioma en la barra de tareas(Hell Cabrite)"/>
-    <String Target="快速访问不显示常用文件夹（by 溯汐潮）" Link="No mostrar carpetas de uso frecuente en acceso rápido(Hell Cabrite)"/>
-    <String Target="快速访问不显示最近使用的文件（by 溯汐潮）" Link="No mostrar archivos usados recientemente en acceso rápido(Hell Cabrite)"/>
+    <String Target="关闭“突出显示新安装的程序”（by 溯汐潮）" Link="Desactivar &quot;Resaltar programas recién instalados&quot; (by Hell Cabrite)"/>
+    <String Target="关闭自动更新（by 溯汐潮）" Link="Desactivar actualizaciones automáticas(by Hell Cabrite)"/>
+    <String Target="将“音量调节”调整为Windows 7模式（by 溯汐潮）" Link="Cambiar &quot;Ajustar volumen&quot; a modo Windows 7 (by Hell Cabrite)"/>
+    <String Target="将同时可用下载数目调整到 10（by 溯汐潮）" Link="Ajustar el número de descargas simultáneas a 10(by Hell Cabrite)"/>
+    <String Target="将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）" Link="Cambiar &quot;Personalizar&quot; con clic derecho en el menú del escritorio en Windows (by dpzjsy)"/>
+    <String Target="将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）" Link="Cambiar &quot;Configurar pantalla&quot; con clic derecho en el menú del escritorio en Windows 7 (by dpzjsy)"/>
+    <String Target="将语言栏隐藏到任务拦（by 溯汐潮）" Link="Ocultar la barra del idioma en la barra de tareas(by Hell Cabrite)"/>
+    <String Target="快速访问不显示常用文件夹（by 溯汐潮）" Link="No mostrar carpetas de uso frecuente en acceso rápido(by Hell Cabrite)"/>
+    <String Target="快速访问不显示最近使用的文件（by 溯汐潮）" Link="No mostrar archivos usados recientemente en acceso rápido(by Hell Cabrite)"/>
     <String Target="清理被取代的msp补丁并减少Installer目录的大小。" Link="Limpiar parches MSP sustituidos y reducir el tamaño de la carpeta de la instalación."/>
-    <String Target="禁用账号登录日志报告（by 溯汐潮）" Link="Desactivar el registro de inicio de sesión de la cuenta (Hell Cabrite)"/>
-    <String Target="遇到弹出窗口时始终在新选项卡中打开弹出窗口（by 溯汐潮）" Link="Mostrar ventanas emergentes en una pestaña nueva (Hell Cabrite)"/>
-    <String Target="锁定Internet Explorer工具栏（by 溯汐潮）" Link="Bloquear barra de herramientas de Internet Explorer (Hell Cabrite)"/>
-    <String Target="隐藏NTFS蓝色双箭头压缩标识（by IT之家）" Link="Ocultar icono azul de la compresión NTFS (IT Home)"/>
-    <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="Ocultar botón de ayuda en la barra del idioma (Hell Cabrite)"/>
+    <String Target="禁用账号登录日志报告（by 溯汐潮）" Link="Desactivar el registro de inicio de sesión de la cuenta (by Hell Cabrite)"/>
+    <String Target="遇到弹出窗口时始终在新选项卡中打开弹出窗口（by 溯汐潮）" Link="Mostrar ventanas emergentes en una pestaña nueva (by Hell Cabrite)"/>
+    <String Target="锁定Internet Explorer工具栏（by 溯汐潮）" Link="Bloquear barra de herramientas de Internet Explorer (by Hell Cabrite)"/>
+    <String Target="隐藏NTFS蓝色双箭头压缩标识（by IT之家）" Link="Ocultar icono azul de la compresión NTFS (by IT Home)"/>
+    <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="Ocultar botón de ayuda en la barra del idioma (by Hell Cabrite)"/>
     <String Target="Windows 7体验" Link="Experiencia Windows 7"/>
-    <String Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Windows Update no incluye herramientas de eliminación de malware (‍Winaero)"/>
-    <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Cambiar &quot;Con clic derecho en menú&quot; en Windows 7 (Silence)"/>
-    <String Target="登陆界面默认打开小键盘（by IT之家）" Link="Activar teclado numérico al inicio de sesión (ITHome)"/>
+    <String Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Windows Update no incluye herramientas de eliminación de malware (by ‍Winaero)"/>
+    <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Cambiar &quot;Con clic derecho en menú&quot; en Windows 7 (by Silence)"/>
+    <String Target="登陆界面默认打开小键盘（by IT之家）" Link="Activar teclado numérico al inicio de sesión (by ITHome)"/>
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Desactivar el servicio de copia basada en componentes"/>
     <String Target="任务栏时钟精确到秒（by Luupw3d）" Link="Mostrar segundos en el reloj de la barra de tareas para más precisión（by Luupw3d）"/>
     <!--系统优化已经结束-->
@@ -1129,7 +1129,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="WinSxS临时文件" Link="Archivos temporales WinSxS"/>
     <String Target="系统更新时在WinSxS里面产生的临时文件。" Link="Al actualizar el sistema, crea los archivos temporales."/>
 
-    <String Target="Windows日志（by chenyu、YukiSakura）" Link="Registro de Windows (chenyu, YukiSakura)"/>
+    <String Target="Windows日志（by chenyu、YukiSakura）" Link="Registro de Windows (by chenyu, YukiSakura)"/>
     <String Target="Windows在运行时产生的日志。" Link="Archivos de registro de Windows."/>
 
     <String Target="Windows下载缓存" Link="Caché de descarga de Windows"/>
@@ -1223,7 +1223,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="迅雷游戏" Link="Juegos Thunder"/>
     <String Target="迅雷游戏安装后所在目录，一般人不需要此程序，可以考虑删除。" Link="Directorio de juegos Thunder (después de la instalación), la mayoría de las personas no necesitan este programa, puedes borrarlo."/>
 
-    <String Target="NET程序集缓存（by 大胖子技术员）" Link="Caché ensamblador NET (dpzjsy)"/>
+    <String Target="NET程序集缓存（by 大胖子技术员）" Link="Caché ensamblador NET (by dpzjsy)"/>
     <String Target="NET程序运行过程中产生的机器代码缓存文件，不建议频繁清理此条目。" Link="Al ejecutar el programa NET, crea archivos de caché con códigos, no se recomienda limpiar los archivos de caché con frecuencia."/>
 
     <String Target="以前的Dism++组件" Link="Archivos residuales versión anterior de Dism++"/>
@@ -1242,62 +1242,62 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="会声会影使用过程中会在此目录产生存档，在不需要后可以删除。" Link="Video Studio guarda los materiales en archivos. Si no es necesario, puede eliminarlos."/>
     <String Target="请确保所有编辑的视频已经保存！" Link="¡Asegúrese de que todo el video editado se haya guardado!"/>
 
-    <String Target="Visual Studio智能跟踪（by LP）" Link="Seguimiento de Visual Studio (LP)"/>
+    <String Target="Visual Studio智能跟踪（by LP）" Link="Seguimiento de Visual Studio (by LP)"/>
     <String Target="Visual Studio调试程序时留下的智能跟踪缓存。" Link="Cuando Visual Studio crea programas de depuración, deja el caché de seguimiento."/>
 
-    <String Target="系统以及程序崩溃dmp文件（by YukiSakura）" Link="Archivos dmp del sistema y aplicaciones (YukiSakura)"/>
+    <String Target="系统以及程序崩溃dmp文件（by YukiSakura）" Link="Archivos dmp del sistema y aplicaciones (by YukiSakura)"/>
     <String Target="当系统蓝屏或者应用程序崩溃时产生的dmp文件。" Link="Si sale el pantallazo azul o se cuelga, se crean archivos dmp."/>
 
-    <String Target="瑞昱声卡驱动安装源缓存（by YukiSakura）" Link="Caché de la instalación del controlador de la tarjeta de sonido Realtek (YukiSakura)"/>
+    <String Target="瑞昱声卡驱动安装源缓存（by YukiSakura）" Link="Caché de la instalación del controlador de la tarjeta de sonido Realtek (by YukiSakura)"/>
     <String Target="瑞昱声卡安装后留下的安装源缓存。" Link="Cuando se instala la tarjeta de sonido Realtek, el programa deja el caché de la instalación."/>
     <String Target="此条目可能影响瑞昱声卡驱动的卸载。" Link="Después de limpiarlo, puede desinstalar el controlador de la tarjeta de sonido Realtek."/>
 
-    <String Target="Java安装源缓存（by YukiSakura）" Link="Caché de la instalación de Java (YukiSakura)"/>
+    <String Target="Java安装源缓存（by YukiSakura）" Link="Caché de la instalación de Java (by YukiSakura)"/>
     <String Target="Java安装后留下的安装源缓存。" Link="Cuando se instala Java, el programa deja el caché de la instalación."/>
     <String Target="此条目可能影响Java的卸载。" Link="Esta entrada es la de desinstalar java probablemente."/>
 
-    <String Target="Intel驱动安装源缓存（by YukiSakura）" Link="Caché de la instalación del controlador Intel(YukiSakura)"/>
+    <String Target="Intel驱动安装源缓存（by YukiSakura）" Link="Caché de la instalación del controlador Intel(by YukiSakura)"/>
     <String Target="Intel驱动安装后留下的安装源缓存。" Link="Cuando se instala el controlador Intel, el programa deja el caché de la instalación."/>
     <String Target="此条目可能影响Intel驱动的卸载。" Link="Esta entrada es la de desinstalar el controlador intel probablemente."/>
 
-    <String Target="英伟达驱动安装源缓存（by YukiSakura）" Link="Caché instalación controladores de NVIDIA. (YukiSakura)"/>
+    <String Target="英伟达驱动安装源缓存（by YukiSakura）" Link="Caché instalación controladores de NVIDIA (by YukiSakura)"/>
     <String Target="英伟达驱动安装后留下的安装源缓存。" Link="Caché instalación controladores de NVIDIA."/>
     <String Target="此条目可能影响英伟达驱动的卸载。" Link="Esta entrada es la de desinstalar el controlador NVIDIA probablemente."/>
 
-    <String Target="Windows预读取文件（by 辰g.）" Link="Archivos prefetch de Windows (Cheng g.)"/>
+    <String Target="Windows预读取文件（by 辰g.）" Link="Archivos prefetch de Windows (by Cheng g.)"/>
     <String Target="用于加速下次程序启动速度，不建议频繁清理此条目。" Link="Para acelerar la velocidad de inicio de su programa la próxima vez, no se recomienda utilizarlo con frecuencia."/>
 
     <String Target="Windows更新安装记录" Link="Historial de instalación de Windows Update"/>
     <String Target="使用Windows Update安装更新后保存的记录。" Link="Después de actualizar con Windows Update, Windows guarda el historial."/>
     <String Target="删除后更新历史记录将被清空。" Link="Después de eliminarlo, se borrará el historial de actualizaciones."/>
 
-    <String Target="Microsoft SQL Server更新缓存（by Honry、撕裂五维空间）" Link="Caché de Microsoft SQL Server Update (Honry, SiLieWuWeiKongJian)"/>
+    <String Target="Microsoft SQL Server更新缓存（by Honry、撕裂五维空间）" Link="Caché de Microsoft SQL Server Update (by Honry, SiLieWuWeiKongJian)"/>
     <String Target="安装Microsoft SQL Server补丁残留的安装缓存。" Link="Si instala Microsoft SQL Server, el programa deja el caché de la instalación."/>
     <String Target="此条目最新添加，可能引发意外问题！" Link="¡Esta función se añadió en el pasado, puede conducir a un problema inesperado!"/>
 
-    <String Target="Adobe Acrobat安装源缓存（by Honry）" Link="Caché instalación de Adobe Acrobat (Honry)"/>
+    <String Target="Adobe Acrobat安装源缓存（by Honry）" Link="Caché instalación de Adobe Acrobat (by Honry)"/>
     <String Target="安装Adobe Acrobat后留下的安装缓存。" Link="Después de instalar Adobe Acrobat, el programa deja en el caché de origen de la instalación."/>
     <String Target="删除此条目可能导致Adobe Acrobat无法正常卸载！" Link="Seleccionar esta entrada para desinstalar Adobe Acrobat probablemente"/>
 
     <String Target="小红伞临时文件" Link="Archivos temporales Avira"/>
     <String Target="小红伞在自动升级过程中残留的临时文件。" Link="Avira deja archivos temporales con la actualización automática."/>
 
-    <String Target="Chrome浏览器老版本备份（by Honry）" Link="Copia navegador Chrome anterior (Honry)"/>
+    <String Target="Chrome浏览器老版本备份（by Honry）" Link="Copia navegador Chrome anterior (by Honry)"/>
     <String Target="Chrome浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Los archivos de copia de seguridad del navegador Chrome después de la actualización, para restaurar en caso de problemas."/>
 
-    <String Target="Microsoft .NET安装缓存（by 撕裂五维空间）" Link="Caché instalación Microsoft .NET (SiLieWuWeiKongJian)"/>
+    <String Target="Microsoft .NET安装缓存（by 撕裂五维空间）" Link="Caché instalación Microsoft .NET (by SiLieWuWeiKongJian)"/>
     <String Target="安装Microsoft .NET补丁残留的安装缓存。" Link="Cuando los programas instalan parches para Microsoft .NET, el programa deja algo en caché."/>
 
-    <String Target="PPLive老版本备份（by 何超）" Link="Copia de PPLive versión antigua (HeChao)"/>
+    <String Target="PPLive老版本备份（by 何超）" Link="Copia de PPLive versión antigua (by HeChao)"/>
     <String Target="PPLive在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Copia de PPLive después de la actualización, para revisar en caso de problemas."/>
 
-    <String Target="酷狗音乐老版本备份（by 何超）" Link="Copia de archivos de música Kugou versión antigua (HeChao)"/>
+    <String Target="酷狗音乐老版本备份（by 何超）" Link="Copia de archivos de música Kugou versión antigua (by HeChao)"/>
     <String Target="酷狗音乐在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Copia de archivos de música Kugou después de la actualización, para revisar en caso de problemas."/>
 
-    <String Target="2345拼音输入法老版本备份（by 何超）" Link="Copia de 2345 Pinyin IME versión antigua (HeChao)"/>
+    <String Target="2345拼音输入法老版本备份（by 何超）" Link="Copia de 2345 Pinyin IME versión antigua (by HeChao)"/>
     <String Target="2345拼音输入法在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Copia de 2345 Pinyin IME después de la actualización, para revisar en caso de problemas."/>
 
-    <String Target="WPS老版本备份（by Rambin）" Link="Copia de la versión anterior WPS(Rambin)"/>
+    <String Target="WPS老版本备份（by Rambin）" Link="Copia de la versión anterior WPS(by Rambin)"/>
     <String Target="WPS在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Copia de WPS después de la actualización, para restaurar en caso de problemas."/>
 
     <String Target="系统还原点" Link="Puntos de restauración del sistema"/>
@@ -1334,7 +1334,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="WinINet Cookies" Link="Cookies WinINet"/>
     <String Target="清理每个用户账户和应用容器下的Windows网络组件（例如IE，Edge）的Cookies（仅支持默认目录）" Link="Limpia las cookies de los componentes de WinINet (IE, Edge) para cada usuario y AppContainer (sólo carpeta predeterminada)"/>
 
-    <String Target="最后一次正确配置（by Stanlazy）" Link="Última configuración funcional (Stanlazy)"/>
+    <String Target="最后一次正确配置（by Stanlazy）" Link="Última configuración funcional (by Stanlazy)"/>
     <String Target="最近能正常启动计算机的配置备份。" Link="Copia de la configuración más reciente que podría arrancar el PC."/>
 
     <String Target="传递优化缓存" Link="Optimizar caché"/>
@@ -1343,7 +1343,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="Appx缓存文件-可解决Appx闪退" Link="Archivos de caché Appx - corregir congelación Appx"/>
     <String Target="Appx运行时产生的缓存文件，当应用闪退时可尝试清理此选项，可解决大多数闪退问题。" Link="Archivos en caché de Appx runtime. Si Appx se congela puede intentar limpiarlos. En la mayoría de los casos, el problema se puede solucionar."/>
 
-    <String Target="英伟达驱动安装包（by Ailick）" Link="Paquete instalación controladores de nVidia (Ailick)"/>
+    <String Target="英伟达驱动安装包（by Ailick）" Link="Paquete instalación controladores de nVidia (by Ailick)"/>
     <String Target="Nvidia Geforce Experience更新程序时产生的安装包。" Link="nVidia Geforce Experience genera este paquete de la instalación al actualizar programas."/>
 
     <String Target="新版Visual Studio安装源缓存" Link="Nuevo caché origen de la instalación de Visual Studio"/>
