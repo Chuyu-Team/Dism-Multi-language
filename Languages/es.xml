@@ -394,7 +394,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="空间回收" Link="Limpiar disco"/>
     <String Target="启动项管理" Link="Inicio"/>
     <String Target="工具箱" Link="Herramientas"/>
-    <String Target="Appx管理" Link="Appxs"/>
+    <String Target="Appx管理" Link="Aplicaciones"/>
 
     <String Target="驱动管理" Link="Controladores"/>
     <String Target="程序和功能" Link="Aplicaciones y funciones"/>
@@ -690,7 +690,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
       Link="/GodMode {Commandline}&#xD;&#xA; El modo dios usa cmd. El uso es el mismo como si usas cmd.&#xD;&#xA;&#xD;&#xA;Ejemplos:&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode cmd&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode regedit.exe&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode &quot;\&quot;C:\Windows\notepad.exe\&quot; \&quot;C:\123.txt\&quot;&quot;"/>
     <String
       Target="即将以无视权限方式执行此命令：&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;为了避免让恶意软件利用，Dism++需要你的允许才能继续，你确定要继续吗？"
-      Link="Dism++ ejecutará los comandos &#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;Con el fin de evitar el uso de software malicioso, Dism++ necesita su confirmación para continuar. ¿Continuar?"/>
+      Link="Dism++ ejecutará los comandos &#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;con el fin de evitar el uso de software malicioso, Dism++ necesita su confirmación para continuar. ¿Continuar?"/>
     <String
       Target="可以使用以下命令来操作此映像：&#xD;&#xA;&#xD;&#xA;/GodMode&#9;- 使用春哥附体启动应用程序"
       Link="Puede utilizar estos comandos para manipular la imagen:&#xD;&#xA;&#xD;&#xA;/GodMode&#9;- ejecutar el programa en modo dios"/>
