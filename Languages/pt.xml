@@ -579,6 +579,8 @@ Special thanks to JNylson
     <String Target="%s 所关联的用户（%s）无法删除，错误代码：0x%.8X" Link="%s associated user (%s) cannot be deleted, error code: 0x%.8X"/>
     <String Target="%s 未关联任何用户。" Link="%s não está associado a nenhum usuário."/>
     <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="Congratulations! Deletion successful. However, as some applications may be Provisioned Appx, if some SYSTEM-owned app persists, please use Provisioned Appx to delete them."/>
+    <String q="" Target="User Appx" Link="User Appx"/>
+    <String q="" Target="Provisioned Appx" Link="Provisioned Appx"/>
 
     <!--Windows Update-->
     <String Target="安装" Link="Instalar"/>
@@ -1361,6 +1363,7 @@ Special thanks to JNylson
     <x800F082F>Cannot finalize session because an exclusive session is pending.</x800F082F>
     <x000F0801>Dism++ is busy, probably because other programs are running. Please try again later.</x000F0801>
     <x80072EE7 q="">无法连接服务器，请检查网络连接或者防火墙设置是否正确。</x80072EE7>
+    <x80072EFF q="">无法连接服务器，请检查网络连接或者防火墙设置是否正确。</x80072EFF>
 
     <xA0020001>Suporta apenas arquivo ESD do Microsoft Online em arquivo ISO.</xA0020001>
     <xA0020002>Alguns itens foram limpos, para uma limpeza completa de atualizações do Windows 8.1, e depois continuar.</xA0020002>

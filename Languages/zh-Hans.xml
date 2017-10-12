@@ -32,7 +32,11 @@
     <LangSecRef ID="3030">应用程序</LangSecRef>
     <LangSecRef ID="3031">Windows Store</LangSecRef>
   </CCleanLangSecRefMap>
-  <MessageTable>
+  <StringMaps>
+    <String Target="User Appx" Link="用户应用"/>
+    <String Target="Provisioned Appx" Link="预装应用"/>
+  </StringMaps>
+    <MessageTable>
     <x800F0806>一个或者多个更新存在挂起行为，请重启系统然后继续。</x800F0806>
     <x800F081F>Dism++找不到安装源，如果你需要开启NET 3.5 请挂载ISO然后继续。</x800F081F>
     <x80073703>操作系统被严重精简，Dism++无法继续操作。</x80073703>
@@ -42,6 +46,7 @@
     <x800F082F>当前系统存在独占的挂起操作，请启动系统，应用挂起后再进行其他操作。</x800F082F>
     <x000F0801>Dism++处于繁忙状态，可能是其他程序正在执行任务，请稍后再试。</x000F0801>
     <x80072EE7>无法连接服务器，请检查网络连接或者防火墙设置是否正确。</x80072EE7>
+    <x80072EFF>无法连接服务器，请检查网络连接或者防火墙设置是否正确。</x80072EFF>
 
     <xA0020001>转换失败，此ESD映像由第三方提供，并非Microsoft在线安装程序提供，请使用“映像释放”功能安装映像。</xA0020001>
     <xA0020002>已经清理部分，如需完整清理请升级到Windows 8.1然后继续。</xA0020002>

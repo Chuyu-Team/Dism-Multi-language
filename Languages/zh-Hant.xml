@@ -578,6 +578,8 @@
     <String Target="%s 所关联的用户（%s）无法删除，错误代码：0x%.8X" Link="%s 所關聯的使用者 (%s) 無法刪除，錯誤代碼：0x%.8X"/>
     <String Target="%s 未关联任何用户。" Link="%s 未關聯任何使用者。"/>
     <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="恭喜你刪除成功！但是某些應用程式可能屬於 Provisioned Appx，如果你遇到某個 App 所有者是 SYSTEM，而且一直刪不掉，那麼你需要使用 Provisioned Appx 刪除它們。"/>
+    <String q="" Target="User Appx" Link="用户应用"/>
+    <String q="" Target="Provisioned Appx" Link="预装应用"/>
 
     <!--Windows Update-->
     <String Target="安装" Link="安裝"/>
@@ -1360,6 +1362,7 @@
     <x800F082F>目前系統存在獨佔的掛起操作，請啟動系統，應用掛起後再進行其他操作。</x800F082F>
     <x000F0801>Dism++ 處於繁忙狀態，可能是其他程式正在執行任務，請稍後再試。</x000F0801>
     <x80072EE7>無法連接伺服器，請檢查網路連接或者防火牆設定是否正確。</x80072EE7>
+    <x80072EFF>無法連接伺服器，請檢查網路連接或者防火牆設定是否正確。</x80072EFF>
 
     <xA0020001>僅支援微軟線上提供的 ESD 檔轉換為 ISO 檔案。</xA0020001>
     <xA0020002>已經清理部分，如需完整清理請升級到 Windows 8.1 然後繼續。</xA0020002>

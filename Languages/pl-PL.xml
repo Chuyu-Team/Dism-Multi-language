@@ -579,6 +579,8 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
     <String Target="%s 所关联的用户（%s）无法删除，错误代码：0x%.8X" Link="%s związane z użytkownikiem (%s) nie mogą być usunięte, kod błędu: 0x%.8X"/>
     <String Target="%s 未关联任何用户。" Link="%s nie jest związane z żadnym użytkownikiem."/>
     <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="Gratulacje! Usunięcie zakończone pomyślnie. Ale niektóre aplikacje mogą odnosić się do pre aplikacji Appx. Jeśli masz do czynienia z faktem, że właścicielem aplikacji jest system - użyj &quot;Preset z Appx aplikacji systemowych&quot;, aby je usunąć."/>
+    <String q="" Target="User Appx" Link="User Appx"/>
+    <String q="" Target="Provisioned Appx" Link="Provisioned Appx"/>
 
     <!--Windows Update-->
     <String Target="安装" Link="Instalacja"/>
@@ -1361,6 +1363,7 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
     <x800F082F>Nie można zakończyć sesji, ponieważ sesja jest aktywna.</x800F082F>
     <x000F0801>Dism++ jest zajęty, prawdopodobnie dlatego, że inne programy są uruchomione. Spróbuj ponownie później.</x000F0801>
     <x80072EE7 q="">无法连接服务器，请检查网络连接或者防火墙设置是否正确。</x80072EE7>
+    <x80072EFF q="">无法连接服务器，请检查网络连接或者防火墙设置是否正确。</x80072EFF>
 
     <xA0020001>Obsługuje tylko plik ESD Microsoft Online do pliku ISO.</xA0020001>
     <xA0020002>Niektóre z nich zostały wyczyszczone, dla pełnego oczyszczania uaktualnienia do Windows 8.1, a następnie kontynuować.</xA0020002>

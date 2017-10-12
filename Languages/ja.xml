@@ -579,6 +579,8 @@ Special Thanks to 山形まり花
     <String Target="%s 所关联的用户（%s）无法删除，错误代码：0x%.8X" Link="%s の関連付けてユーザー（%s）削除されません、エラー コード：0x%.8X"/>
     <String Target="%s 未关联任何用户。" Link="%s は任意のユーザーを関連されません。"/>
     <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="削除完了しました！でもいくつかのアプリは Provisioned Appx です、もしアプリの所有者は SYSTEM、および削除できませんの場合は、Provisioned Appx に削除してください。"/>
+    <String q="" Target="User Appx" Link="User Appx"/>
+    <String q="" Target="Provisioned Appx" Link="Provisioned Appx"/>
 
     <!--Windows Update-->
     <String Target="安装" Link="インストール"/>
@@ -1361,6 +1363,7 @@ Special Thanks to 山形まり花
     <x800F082F>このシステムは排他的操作待ちです、再起動で保留中操作を適用し、その他の操作を続行します。</x800F082F>
     <x000F0801>Dism++ は混雑中です、多分その他のプログラムは任務遂行中です、しばらくお待ちでもう一度やり直してください。</x000F0801>
     <x80072EE7>サーバーへの接続できません、ネットワーク接続またはファイアウォール設定を確認ください。</x80072EE7>
+    <x80072EFF>サーバーへの接続できません、ネットワーク接続またはファイアウォール設定を確認ください。</x80072EFF>
 
     <xA0020001>ISO への変換は Microsoft Online の ESD ファイルをサポートのみ。</xA0020001>
     <xA0020002>一部クリーンアップは完了しました。ただし、完全クリーンアップが必要な場合は、Windows 8.1 にアップグレード、そして続けるください。</xA0020002>

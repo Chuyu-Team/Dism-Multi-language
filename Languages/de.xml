@@ -579,6 +579,8 @@ Special Thanks to franz@drwindows.de
     <String Target="%s 所关联的用户（%s）无法删除，错误代码：0x%.8X" Link="%s Benutzer (%s) kann nicht entfernt werden, Fehlercode: 0x%.8X"/>
     <String Target="%s 未关联任何用户。" Link="%s ist mit keinem anderen Benutzer verknüpft."/>
     <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="Glückwunsch! Das Löschen war erfolgreich. Da einige der Programme &quot;Provisioned Apps&quot; sind, können noch systemeigene Apps, trotz des Löschvorgangs, vorhanden sein. Benutzen Sie deshalb zum Löschen bitte die Option &quot;Provisioned Apps&quot;"/>
+    <String q="" Target="User Appx" Link="User Appx"/>
+    <String q="" Target="Provisioned Appx" Link="Provisioned Appx"/>
 
     <!--Windows Update-->
     <String Target="安装" Link="Installieren"/>
@@ -1361,6 +1363,7 @@ Special Thanks to franz@drwindows.de
     <x800F082F>Die Sitzung kann nicht beendet werden, da noch ein weiterer Vorgang aussteht.</x800F082F>
     <x000F0801>Dism++ ist beschäftigt, evtl sind noch andere Programm are running. Versuchen Sie es später nochmal.</x000F0801>
     <x80072EE7 q="">无法连接服务器，请检查网络连接或者防火墙设置是否正确。</x80072EE7>
+    <x80072EFF q="">无法连接服务器，请检查网络连接或者防火墙设置是否正确。</x80072EFF>
 
     <xA0020001>Nur eine Microsoft Online ESD-Datei kann in eine ISO-Datei umgewandelt werden.</xA0020001>
     <xA0020002>Einiges wurde bereinigt, für eine komplette Bereinigung bitte ein Upgrade auf Windows 8.1 durchführen und dann fortsetzen.</xA0020002>

@@ -579,6 +579,8 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="%s 所关联的用户（%s）无法删除，错误代码：0x%.8X" Link="Los usuarios asociados con %s (%s) no se pueden eliminar. Código error: 0x%.8X"/>
     <String Target="%s 未关联任何用户。" Link="%s no está asociado con ningún usuario."/>
     <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="¡Felicitaciones! Eliminación correcta. Sin embargo, algunas aplicaciones pueden ser Provisioned Appx: si alguna aplicación es propiedad de SYSTEM y no se puede eliminar, utilice Provisioned Appx para eliminarlas."/>
+    <String q="" Target="User Appx" Link="User Appx"/>
+    <String q="" Target="Provisioned Appx" Link="Provisioned Appx"/>
 
     <!--Windows Update-->
     <String Target="安装" Link="Instalar"/>
@@ -1361,6 +1363,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <x800F082F>No se puede finalizar la sesión porque está pendiente de una sesión exclusiva.</x800F082F>
     <x000F0801>Dism++ está ocupado, probablemente porque se están ejecutando otros programas. Por favor, inténtelo de nuevo más tarde.</x000F0801>
     <x80072EE7>No se puede conectar con el servidor, compruebe si la conexión de red o la configuración del firewall es correcta.</x80072EE7>
+    <x80072EFF>No se puede conectar con el servidor, compruebe si la conexión de red o la configuración del firewall es correcta.</x80072EFF>
 
     <xA0020001>Sólo admite el archivo ESD de Microsoft en línea en el archivo ISO.</xA0020001>
     <xA0020002>Algunos han sido borrados, para una limpieza completa actualizar a Windows 8.1, y luego continuar.</xA0020002>
@@ -1370,7 +1373,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <xA0020006>El sistema actual no tiene soporte para Wow64, no puede manejar sistemas de 64 bits fuera de línea.</xA0020006>
     <xA0020007>El archivo CBSHost.dll no existe. Por favor, asegurar la integridad de Dism++.</xA0020007>
     <xA0020008>Falta rundll32.exe. Dism++ no se puede ejecutar.</xA0020008>
-    <xA0020009>La sesión de Dism++ se congeló. Le sugerimos comprimir y enviar "CBSHost_*.dmp" a mingkuang@live.com para ayudar a resolver este problema.</xA0020009>
+    <xA0020009 q="">La sesión de Dism++ se congeló. Le sugerimos comprimir y enviar "CBSHost_*.dmp" a mingkuang@live.com para ayudar a resolver este problema.</xA0020009>
     <xA002000A>Dism++ ha detectado algún problema de compatibilidad. Instalar el parche KB960037 y continuar.</xA002000A>
 
     <x20020001>No hay una configuración predeterminada de asociación de archivos en la imagen actual. No se puede exportar.</x20020001>

@@ -579,6 +579,8 @@ Special Thanks to Massimiliano F.
     <String Target="%s 所关联的用户（%s）无法删除，错误代码：0x%.8X" Link="%s utente (%s) non può essere eliminato, codice errore: 0x%.8X"/>
     <String Target="%s 未关联任何用户。" Link="%s non è associato a nessun utente."/>
     <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="Congratulazioni! Cancellazione effettuta con successo. Però, alcune applicazioni potrebbero essere Provisioned Appx e persistere nel sistema, in questo caso utilizzare Provisioned Appx per eliminarle."/>
+    <String q="" Target="User Appx" Link="User Appx"/>
+    <String q="" Target="Provisioned Appx" Link="Provisioned Appx"/>
 
     <!--Windows Update-->
     <String Target="安装" Link="Installa"/>
@@ -1361,6 +1363,7 @@ Special Thanks to Massimiliano F.
     <x800F082F>Impossibile finalizzare la sessione perchè un'altro programma ha l'accesso esclusivo alla sessione.</x800F082F>
     <x000F0801>Dism++ è occupato, probabilmente perchè altri programmi sono in esecuzione. Riprova più tardi.</x000F0801>
     <x80072EE7 q="">无法连接服务器，请检查网络连接或者防火墙设置是否正确。</x80072EE7>
+    <x80072EFF q="">无法连接服务器，请检查网络连接或者防火墙设置是否正确。</x80072EFF>
 
     <xA0020001>Sono supportati solo file Microsoft Online ESD all'interno del file ISO.</xA0020001>
     <xA0020002>Some have been cleared, for a complete cleanup upgrade to Windows 8.1, and then continue.</xA0020002>

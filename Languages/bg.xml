@@ -579,6 +579,8 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
     <String Target="%s 所关联的用户（%s）无法删除，错误代码：0x%.8X" Link="%s associated user (%s) е може да бъде изтрит. Код на грешката: 0x%.8X"/>
     <String Target="%s 未关联任何用户。" Link="%s не е свързано с никой потребител."/>
     <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="Поздравления! Изтриването е успешно. Въпреки това, тъй като някои приложения може да са обезпечени Appx, ако някое приложение е собственост на SYSTEM, моля, идете на Почистване, използвайте Почистване на остарелите Appx, за да го изтриете."/>
+    <String q="" Target="User Appx" Link="User Appx"/>
+    <String q="" Target="Provisioned Appx" Link="Provisioned Appx"/>
 
     <!--Windows Update-->
     <String Target="安装" Link="Инсталирай"/>
@@ -1361,6 +1363,7 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
     <x800F082F>Cannot finalize session because an exclusive session is pending.</x800F082F>
     <x000F0801>Dism++ is busy, probably because other programs are running. Please try again later.</x000F0801>
     <x80072EE7 q="">无法连接服务器，请检查网络连接或者防火墙设置是否正确。</x80072EE7>
+    <x80072EFF q="">无法连接服务器，请检查网络连接或者防火墙设置是否正确。</x80072EFF>
 
     <xA0020001>Only supports Microsoft Online's ESD file into ISO file.</xA0020001>
     <xA0020002>Some have been cleared, for a complete cleanup upgrade to Windows 8.1, and then continue.</xA0020002>

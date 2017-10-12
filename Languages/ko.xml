@@ -579,6 +579,8 @@ Special thanks to OldMac, Schooli, 阿泽西
     <String Target="%s 所关联的用户（%s）无法删除，错误代码：0x%.8X" Link="%s 사용자에 관련된  (%s)를 삭제할 수 없습니다.오류 코드: 0x%.8X"/>
     <String Target="%s 未关联任何用户。" Link="%s 연결된 사용자가 없습니다."/>
     <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="축하합니다! 삭제가 성공적으로 완료되었습니다. 그러나 일부 응용프로그램이 중복될 수 있으므로, 일부 응용프로그램이 계속 실행될 경우에는 Provisioned Appx를 사용하여 삭제하십시오."/>
+    <String q="" Target="User Appx" Link="User Appx"/>
+    <String q="" Target="Provisioned Appx" Link="Provisioned Appx"/>
 
    <!--Windows Update-->
     <String Target="安装" Link="설치"/>
@@ -1361,6 +1363,7 @@ Special thanks to OldMac, Schooli, 阿泽西
     <x800F082F>독점 Session이 보류 중이기 때문에 Session을 끝낼 수 없습니다.</x800F082F>
     <x000F0801>Dism++에서 다른 프로그램을 실행하고 있습니다. 나중에 다시 시도해 주세요. </x000F0801>
     <x80072EE7 q="">无法连接服务器，请检查网络连接或者防火墙设置是否正确。</x80072EE7>
+    <x80072EFF q="">无法连接服务器，请检查网络连接或者防火墙设置是否正确。</x80072EFF>
 
     <xA0020001>Microsoft에서 제공하는 ESD 파일를 ISO 파일로 변환만 지원합니다.</xA0020001>
     <xA0020002>일부 정리는 되였습니다.완정한 정리가 필요하시면 Windows 8.1로 업그레이드 하시고 계속 정리하시기 바랍니다.</xA0020002>
