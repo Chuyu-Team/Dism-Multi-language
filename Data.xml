@@ -3162,7 +3162,12 @@
         <Current>
           <State>
             <Applicable>
-              <RegExist Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Ribbon" Value="MinimizedStateTabletModeOff" Type="REG_DWORD" Data="1"/>
+              <Or>
+                <Not>
+                  <RegExist Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Ribbon" Value="MinimizedStateTabletModeOff"/>
+                </Not>
+                <RegExist Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Ribbon" Value="MinimizedStateTabletModeOff" Type="REG_DWORD" Data="1"/>
+              </Or>
             </Applicable>
           </State>
           <True>
@@ -3181,12 +3186,17 @@
         <Default>
           <State>
             <Applicable>
-              <RegExist Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Ribbon" Value="MinimizedStateTabletModeOff" Type="REG_DWORD" Data="1"/>
+              <Or>
+                <Not>
+                  <RegExist Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Ribbon" Value="MinimizedStateTabletModeOff"/>
+                </Not>
+                <RegExist Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Ribbon" Value="MinimizedStateTabletModeOff" Type="REG_DWORD" Data="1"/>
+              </Or>
             </Applicable>
           </State>
           <True>
             <Activate>
-              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Ribbon" Value="MinimizedStateTabletModeOff" Type="REG_DWORD" Data="1"/>
+              <RegDelete Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Ribbon" Value="MinimizedStateTabletModeOff"/>
             </Activate>
           </True>
           <False>
