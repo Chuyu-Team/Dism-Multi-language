@@ -1363,6 +1363,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <x800F082F>No se puede finalizar la sesión porque está pendiente de una sesión exclusiva.</x800F082F>
     <x000F0801>Dism++ está ocupado, probablemente porque se están ejecutando otros programas. Por favor, inténtelo de nuevo más tarde.</x000F0801>
     <x80072EE7>No se puede conectar con el servidor, compruebe si la configuración de conexión de red o firewall es correcta.</x80072EE7>
+    <x80072EFF>No se puede conectar con el servidor, compruebe si la configuración de conexión de red o firewall es correcta.</x80072EFF>
 
     <xA0020001>Sólo admite el archivo ESD de Microsoft en línea en el archivo ISO.</xA0020001>
     <xA0020002>Algunos han sido borrados, para una limpieza completa actualizar a Windows 8.1, y luego continuar.</xA0020002>
