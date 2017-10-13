@@ -4995,8 +4995,91 @@
         </System>
       </Item>
 
+      <Item Type="CheckBox" Name="#禁用所有对象的“共享”右键菜单">
+        <Applicable>
+          <Or>
+            <RegExist Key="HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\ModernSharing"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\*\shellex\-ContextMenuHandlers\ModernSharing"/>
+          </Or>
+        </Applicable>
+        <System>
+          <State>
+            <Applicable>
+              <Not>
+                <RegExist Key="HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\ModernSharing"/>
+              </Not>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegMove Key="HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\ModernSharing" NewKey="HKEY_CLASSES_ROOT\*\shellex\-ContextMenuHandlers\ModernSharing"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\ModernSharing" Key="HKEY_CLASSES_ROOT\*\shellex\-ContextMenuHandlers\ModernSharing"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
+      
       <Item Type="CheckBox" Name="#禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单">
         <Applicable>
+          <Not>
+            <RegExist Key="HKEY_CLASSES_ROOT\CLSID\{e2bf9676-5f8f-435c-97eb-11607a5bedf7}"/>
+          </Not>
+          <Or>
+            <RegExist Key="HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\Sharing"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\Sharing"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\Sharing"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\Drive\shellex\ContextMenuHandlers\Sharing"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\LibraryFolder\background\shellex\ContextMenuHandlers\Sharing"/>
+
+            <RegExist Key="HKEY_CLASSES_ROOT\*\shellex\-ContextMenuHandlers\Sharing"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\Directory\shellex\-ContextMenuHandlers\Sharing"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\Directory\Background\shellex\-ContextMenuHandlers\Sharing"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\Drive\shellex\-ContextMenuHandlers\Sharing"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\LibraryFolder\background\shellex\-ContextMenuHandlers\Sharing"/>
+          </Or>
+        </Applicable>
+        <System>
+          <State>
+            <Applicable>
+              <Not>
+                <Or>
+                  <RegExist Key="HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\Sharing"/>
+                  <RegExist Key="HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\Sharing"/>
+                  <RegExist Key="HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\Sharing"/>
+                  <RegExist Key="HKEY_CLASSES_ROOT\Drive\shellex\ContextMenuHandlers\Sharing"/>
+                  <RegExist Key="HKEY_CLASSES_ROOT\LibraryFolder\background\shellex\ContextMenuHandlers\Sharing"/>
+                </Or>
+              </Not>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegMove Key="HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\Sharing" NewKey="HKEY_CLASSES_ROOT\*\shellex\-ContextMenuHandlers\Sharing" SkipError="2"/>
+              <RegMove Key="HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\Sharing" NewKey="HKEY_CLASSES_ROOT\Directory\shellex\-ContextMenuHandlers\Sharing" SkipError="2"/>
+              <RegMove Key="HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\Sharing" NewKey="HKEY_CLASSES_ROOT\Directory\Background\shellex\-ContextMenuHandlers\Sharing" SkipError="2"/>
+              <RegMove Key="HKEY_CLASSES_ROOT\Drive\shellex\ContextMenuHandlers\Sharing" NewKey="HKEY_CLASSES_ROOT\Drive\shellex\-ContextMenuHandlers\Sharing" SkipError="2"/>
+              <RegMove Key="HKEY_CLASSES_ROOT\LibraryFolder\background\shellex\ContextMenuHandlers\Sharing" NewKey="HKEY_CLASSES_ROOT\LibraryFolder\background\shellex\-ContextMenuHandlers\Sharing" SkipError="2"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\Sharing" Key="HKEY_CLASSES_ROOT\*\shellex\-ContextMenuHandlers\Sharing" SkipError="2"/>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\Sharing" Key="HKEY_CLASSES_ROOT\Directory\shellex\-ContextMenuHandlers\Sharing" SkipError="2"/>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\Sharing" Key="HKEY_CLASSES_ROOT\Directory\Background\shellex\-ContextMenuHandlers\Sharing" SkipError="2"/>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\Drive\shellex\ContextMenuHandlers\Sharing" Key="HKEY_CLASSES_ROOT\Drive\shellex\-ContextMenuHandlers\Sharing" SkipError="2"/>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\LibraryFolder\background\shellex\ContextMenuHandlers\Sharing" Key="HKEY_CLASSES_ROOT\LibraryFolder\background\shellex\-ContextMenuHandlers\Sharing" SkipError="2"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
+
+      <Item Type="CheckBox" Name="#禁用文件、目录、桌面、磁盘以及库的“授予访问权限”右键菜单">
+        <Applicable>
+          <RegExist Key="HKEY_CLASSES_ROOT\CLSID\{e2bf9676-5f8f-435c-97eb-11607a5bedf7}"/>
           <Or>
             <RegExist Key="HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\Sharing"/>
             <RegExist Key="HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\Sharing"/>
