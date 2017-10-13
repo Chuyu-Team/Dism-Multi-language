@@ -1843,6 +1843,9 @@
       </Item>
 
       <Item Type="CheckBox" Name="#任务栏时钟精确到秒（by Luupw3d）">
+        <Applicable>
+          <OSVersion Compare=">=">10.0</OSVersion>
+        </Applicable>
         <Current>
           <State>
             <Applicable>
