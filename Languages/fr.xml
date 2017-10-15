@@ -1375,7 +1375,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <xA0020006>Le système actuel ne prend pas en charge Wow64, impossible de gérer hors ligne un système non-64 bits.</xA0020006>
     <xA0020007>La bibliothèque CBSHost.dll requise est absente. Veuillez vérifier l’intégrité de Dism++.</xA0020007>
     <xA0020008>Le programme système Rundll32.exe requis est absent. Dism++ ne peut pas s’exécuter.</xA0020008>
-    <xA0020009 q="">La session Dism++ a planté. Nous vous suggérons de compresser et envoyer "CBSHost_*.dmp" à mingkuang@live.com pour aider à résoudre ce problème.</xA0020009>
+    <xA0020009 q="">Dism++ session crashed. you can contact (mingkuang@live. com) to help resolve this issue.</xA0020009>
     <xA002000A>Dism++ détecte certains problèmes de compatibilité. Veuillez installer le correctif KB960037 de Microsoft avant de continuer.</xA002000A>
 
     <x20020001>Aucune configuration de fichier par défaut dans l’image actuelle. Impossible d’exporter.</x20020001>

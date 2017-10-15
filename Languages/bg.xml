@@ -1375,7 +1375,7 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
     <xA0020006>Current system doesn't have Wow64 support, cannot handle non-64bit system offline.</xA0020006>
     <xA0020007>Изискваният CBSHost.dll не съществува. Моля уверете се в целостта на Dism++.</xA0020007>
     <xA0020008>rundll32.exe липсва. Dism++ не може да стартира.</xA0020008>
-    <xA0020009 q="">Сесията на Dism++ се срина. Предлагам да компресирате и изпратите "CBSHost _ *. dmp" на mingkuang@live.com, за да помогнете за разрешаването на този проблем.</xA0020009>
+    <xA0020009 q="">Dism++ session crashed. you can contact (mingkuang@live. com) to help resolve this issue.</xA0020009>
     <xA002000A>Dism++ открит някакъв проблем със съвместимостта. Моля, инсталирайте кръпка KB960037, след това продължете.</xA002000A>
 
     <x20020001>Няма конфигурационен файл с асоциации по подразбиране в текущия имидж. Не може да се експортира..</x20020001>

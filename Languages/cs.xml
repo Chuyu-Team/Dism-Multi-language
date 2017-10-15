@@ -1375,7 +1375,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <xA0020006>Aktuální systém nepodporuje WOW64 a nezvládne 64-bit systém v režimu offline.</xA0020006>
     <xA0020007>Požadovaný komponent CBSHost.dll neexistuje. Zkontrolujte integritu Dism++.</xA0020007>
     <xA0020008>Schází rundll32.exe. Dism++ nelze spustit.</xA0020008>
-    <xA0020009 q="">Dism++ relace havarovala. Doporučuji komprimovat a odeslat "CBSHost_*.dmp" mingkuang@live.com pro pomoc s řešením tohoto problému.</xA0020009>
+    <xA0020009 q="">Dism++ session crashed. you can contact (mingkuang@live. com) to help resolve this issue.</xA0020009>
     <xA002000A>Dism++ zjistěny problémy s kompatibilitou. Prosím, nainstalujte patch KB960037, a pokračujte.</xA002000A>
 
     <x20020001>Žádné výchozí přidružení souboru konfigurace v aktuálním obraze. Nelze exportovat.</x20020001>

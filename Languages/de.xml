@@ -1375,7 +1375,7 @@ Special Thanks to franz@drwindows.de
     <xA0020006>Das aktuelle Betriebssystem besitzt keine WoW64-Unterstützung, Nicht-64bit-Systeme können offline nicht bearbeitet werden.</xA0020006>
     <xA0020007>CBSHost.dll kann nicht gefunden werden. Bitte Dism++ auf Fehler überprüfen.</xA0020007>
     <xA0020008>rundll32.exe kann nicht gefunden werden. Dism++ kann nicht gestartet werden.</xA0020008>
-    <xA0020009 q="">Die Dism++ Sitzung ist abgestürzt. Vorschlag: Komprimieren Sie die Datei "CBSHost_*.dmp" und senden Sie sie an mingkuang@live.com, um Support bei der Problembehandlung zu erhalten.</xA0020009>
+    <xA0020009 q="">Dism++ session crashed. you can contact (mingkuang@live. com) to help resolve this issue.</xA0020009>
     <xA002000A>Dism++ entdeckte ein Kompatibilitätsproblem. Bitte den Patch KB960037 installieren und fortsetzen.</xA002000A>
 
     <x20020001>Keine Konfiguration der vorgegebenen Dateizuordnungen (OEMDefaultAssociations.xml) im aktuellen Image gefunden. Export der Datei nicht möglich.</x20020001>

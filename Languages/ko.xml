@@ -1375,7 +1375,7 @@ Special thanks to OldMac, Schooli, 阿泽西
     <xA0020006>현재 시스템에 Wow64가 포함되지않아 지원하지 않고 있으니 비x64 오프라인 시스템을 처리할수 없습니다.</xA0020006>
     <xA0020007>지정한 체계 CBSHost.dll가 존재하지 않습니다.Dism++의 정확성을 체크하십시오.</xA0020007>
     <xA0020008>운영체제가 rundll32.exe를 잃어버려 Dism++를 실행할수 없습니다.</xA0020008>
-    <xA0020009 q="">Dism++ 에러가 발생하였습니다.프로그램 목록에 있는 "CBSHost_*.dmp"를 압축후 mingkuang (mingkuang@live.com) 메일로 보내시면 이 문제를 해결할수 있습니다.</xA0020009>
+    <xA0020009 q="">Dism++ session crashed. you can contact (mingkuang@live. com) to help resolve this issue.</xA0020009>
     <xA002000A>Dism++에서 일부 호환성 문제를 발견되였습니다.현재 시스템에 KB960037를 업데이트 설치 하신후 계속 실행하시기 바랍니다.</xA002000A>
 
     <x20020001>기본 파일 관련 설정에 현재 이미지가 존재하지 않아 내보내기 할수 없습니다.</x20020001>

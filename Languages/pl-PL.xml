@@ -1375,7 +1375,7 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
     <xA0020006>Obecny system nie posiada wsparcia WOW64 nie obsługuje systemu 64 bitowego spoza offline.</xA0020006>
     <xA0020007>Wymagane CBSHost.dll nie istnieje. Należy zapewnić integralność Dism++.</xA0020007>
     <xA0020008>rundll32.exe brakujący. Dism++ nie można uruchomić.</xA0020008>
-    <xA0020009 q="">Awaria ism++ sesji. Sugerują kompresję i wysłać "CBSHost _ *. DMP" do mingkunag@live.com aby móc rozwiązać ten problem.</xA0020009>
+    <xA0020009 q="">Dism++ session crashed. you can contact (mingkuang@live. com) to help resolve this issue.</xA0020009>
     <xA002000A>Dism++ wykrył jakiś problem ze zgodnością. Proszę zainstalować poprawkę KB960037, a następnie kontynuować.</xA002000A>
 
     <x20020001>Brak domyślnego pliku konfiguracji skojarzenie w tym obrazie. Nie można wyeksportować.</x20020001>
