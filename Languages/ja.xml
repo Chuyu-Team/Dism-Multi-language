@@ -853,6 +853,8 @@ Special Thanks to 山形まり花
     <String Target="禁用桌面的“小工具”右键菜单" Link="右クリック メニューのデスクトップの [ウィジェット] を無効化"/>
     <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="右クリック メニューのファイルの [View 3D] を無効化"/>
     <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="右クリック メニューのファイルの [ペイント 3D] を無効化"/>
+    <String q="" Target="禁用所有对象的“共享”右键菜单" Link="Disable the &quot;Share&quot; context menu on all objects"/>
+    <String q="" Target="禁用文件、目录、桌面、磁盘以及库的“授予访问权限”右键菜单" Link="Disable &quot;Grant Access&quot; context menu on files, folders, desktop, disks and libraries"/>
 
     <!--桌面图示管理-->
     <String Target="桌面图标管理" Link="デスクトップ アイコンの設定"/>
@@ -1373,7 +1375,7 @@ Special Thanks to 山形まり花
     <xA0020006>このシステムは Wow64 のサポートしません、非 64 ビット システムはオフライン ハンドルできません。</xA0020006>
     <xA0020007>必要なファイル CBSHost.dll は存在しません。Dism++ の整合性を確認ください。</xA0020007>
     <xA0020008>rundll32.exe は存在しません。Dism++ は実行できません。</xA0020008>
-    <xA0020009 q="">Dism++ のセッションはクラッシュしました。解決策ために、[CBSHost_*.dmp] を圧縮と添付して、mingkuang@live.com へ送信するください。</xA0020009>
+    <xA0020009 q="">Dism++会话崩溃，如果频繁发生此问题可以联系小鸭子（mingkuang@live.com）协助解决此问题。</xA0020009>
     <xA002000A>Dism++ は既知の互換性の問題が検出されました、続行して、KB960037をインストールしてください。</xA002000A>
 
     <x20020001>このイメージの既定の関連付けは存在しません、エクスポートは利用できません。</x20020001>

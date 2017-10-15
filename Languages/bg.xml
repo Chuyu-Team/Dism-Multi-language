@@ -853,6 +853,8 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
     <String Target="禁用桌面的“小工具”右键菜单" Link="Изключи &quot;Widget&quot; context menu"/>
     <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Деактивиране на &quot;3D изглед&quot; от контекстното меню на файловете  (от Cloud)"/>
     <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Деактивиране на &quot;Paint 3D&quot; от контекстното меню на файловете  (от Cloud)"/>
+    <String q="" Target="禁用所有对象的“共享”右键菜单" Link="Disable the &quot;Share&quot; context menu on all objects"/>
+    <String q="" Target="禁用文件、目录、桌面、磁盘以及库的“授予访问权限”右键菜单" Link="Disable &quot;Grant Access&quot; context menu on files, folders, desktop, disks and libraries"/>
 
     <!--桌面图示管理-->
     <String Target="桌面图标管理" Link="Управление на иконите на работния плот"/>
@@ -1028,7 +1030,7 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
     <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Change right click menu to Windows 7 mode (by Silence)"/>
     <String Target="登陆界面默认打开小键盘（by IT之家）" Link="Enable keypad when login (by ITHome)"/>
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Disable Component Based Servicing Backup"/>
-    <String q="" Target="任务栏时钟精确到秒（by Luupw3d）" Link="任务栏时钟精确到秒（by Luupw3d）"/>
+    <String q="" Target="任务栏时钟精确到秒（by Luupw3d）" Link="Taskbar clock did display seconds (by Luupw3d)"/>
     <!--系统优化已经结束-->
 
     <!--Dism++更新程序-->
@@ -1362,8 +1364,8 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
     <x800F082E>The specified package cannot be added to an offline image.</x800F082E>
     <x800F082F>Cannot finalize session because an exclusive session is pending.</x800F082F>
     <x000F0801>Dism++ is busy, probably because other programs are running. Please try again later.</x000F0801>
-    <x80072EE7 q="">无法连接服务器，请检查网络连接或者防火墙设置是否正确。</x80072EE7>
-    <x80072EFF q="">无法连接服务器，请检查网络连接或者防火墙设置是否正确。</x80072EFF>
+    <x80072EE7 q="">Unable to connect to the server, check your network connection or the firewall settings are correct.</x80072EE7>
+    <x80072EFF q="">Unable to connect to the server, check your network connection or the firewall settings are correct.</x80072EFF>
 
     <xA0020001>Only supports Microsoft Online's ESD file into ISO file.</xA0020001>
     <xA0020002>Some have been cleared, for a complete cleanup upgrade to Windows 8.1, and then continue.</xA0020002>
@@ -1373,7 +1375,7 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
     <xA0020006>Current system doesn't have Wow64 support, cannot handle non-64bit system offline.</xA0020006>
     <xA0020007>Изискваният CBSHost.dll не съществува. Моля уверете се в целостта на Dism++.</xA0020007>
     <xA0020008>rundll32.exe липсва. Dism++ не може да стартира.</xA0020008>
-    <xA0020009 q="">Сесията на Dism++ се срина. Предлагам да компресирате и изпратите "CBSHost _ *. dmp" на mingkuang@live.com, за да помогнете за разрешаването на този проблем.</xA0020009>
+    <xA0020009 q="">Dism++ session crashed. you can contact (mingkuang@live. com) to help resolve this issue.</xA0020009>
     <xA002000A>Dism++ открит някакъв проблем със съвместимостта. Моля, инсталирайте кръпка KB960037, след това продължете.</xA002000A>
 
     <x20020001>Няма конфигурационен файл с асоциации по подразбиране в текущия имидж. Не може да се експортира..</x20020001>

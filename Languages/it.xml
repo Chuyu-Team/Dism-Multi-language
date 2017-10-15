@@ -853,6 +853,8 @@ Special Thanks to Massimiliano F.
     <String Target="禁用桌面的“小工具”右键菜单" Link="Disattiva menu &quot;Widget&quot;"/>
     <String q="" Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Disable file context menu item &quot;View 3D&quot; (by Cloud)"/>
     <String q="" Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Disable file context menu item &quot;Paint 3D&quot; (by Cloud)"/>
+    <String q="" Target="禁用所有对象的“共享”右键菜单" Link="Disable the &quot;Share&quot; context menu on all objects"/>
+    <String q="" Target="禁用文件、目录、桌面、磁盘以及库的“授予访问权限”右键菜单" Link="Disable &quot;Grant Access&quot; context menu on files, folders, desktop, disks and libraries"/>
 
     <!--桌面图示管理-->
     <String Target="桌面图标管理" Link="Gestione icone Desktop"/>
@@ -1028,7 +1030,7 @@ Special Thanks to Massimiliano F.
     <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Cambia &quot;Click destro del mouse&quot; con Windows 7 (by Silence)"/>
     <String Target="登陆界面默认打开小键盘（by IT之家）" Link="EAttiva la tastiera virtuale durante l'accesso (by IT House)"/>
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Disattiva Backup CBS (Component Based Servicing)"/>
-    <String q="" Target="任务栏时钟精确到秒（by Luupw3d）" Link="任务栏时钟精确到秒（by Luupw3d）"/>
+    <String q="" Target="任务栏时钟精确到秒（by Luupw3d）" Link="Taskbar clock did display seconds (by Luupw3d)"/>
     <!--系统优化已经结束-->
 
     <!--Dism++更新程序-->
@@ -1362,8 +1364,8 @@ Special Thanks to Massimiliano F.
     <x800F082E>Il pacchetto indicato non può essere aggiunto ad una immagine offline.</x800F082E>
     <x800F082F>Impossibile finalizzare la sessione perchè un'altro programma ha l'accesso esclusivo alla sessione.</x800F082F>
     <x000F0801>Dism++ è occupato, probabilmente perchè altri programmi sono in esecuzione. Riprova più tardi.</x000F0801>
-    <x80072EE7 q="">无法连接服务器，请检查网络连接或者防火墙设置是否正确。</x80072EE7>
-    <x80072EFF q="">无法连接服务器，请检查网络连接或者防火墙设置是否正确。</x80072EFF>
+    <x80072EE7 q="">Unable to connect to the server, check your network connection or the firewall settings are correct.</x80072EE7>
+    <x80072EFF q="">Unable to connect to the server, check your network connection or the firewall settings are correct.</x80072EFF>
 
     <xA0020001>Sono supportati solo file Microsoft Online ESD all'interno del file ISO.</xA0020001>
     <xA0020002>Some have been cleared, for a complete cleanup upgrade to Windows 8.1, and then continue.</xA0020002>
@@ -1373,7 +1375,7 @@ Special Thanks to Massimiliano F.
     <xA0020006>Il sistema attuale non ha il supporto Wow64, impossibile gestire un sistema non 64bit offline.</xA0020006>
     <xA0020007>Il file richiesto CBSHost.dllnon esiste. Assicurati dell'integrità di Dism++.</xA0020007>
     <xA0020008>rundll32.exe mancante. Dism++ non può essere avviato.</xA0020008>
-    <xA0020009 q="">Sessione Dism++ andata in crash. Suggeriamo di comprimere ed inviare il file "CBSHost_*.dmp" a mingkuang@live.com per aiuto a risolvere il problema.</xA0020009>
+    <xA0020009 q="">Dism++ session crashed. you can contact (mingkuang@live. com) to help resolve this issue.</xA0020009>
     <xA002000A>Dism++ ha rilevato alcuni problemi di compatibilità. Installare la patch KB960037, quindi continuare.</xA002000A>
 
     <x20020001>Nessuna configurazione predefinita nell'immagine attuale. Imposibile esportare.</x20020001>
