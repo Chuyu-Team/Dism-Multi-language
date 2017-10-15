@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-Este es el recurso de traducción en español para Dism ++.
+Este es el recurso de traducción en español para Dism++.
 Hay 5 ASCII que necesitan una representación especial en XML.
 También algunos caracteres de control deben codificarse preferiblemente como entidades de carácter numérico.
   Símbolo  Descripción                   Codificación    Preferible para las traducciones
@@ -91,7 +91,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="重启进入RE并为我启动Dism++" Link="Reiniciar para WinRE y ejecutar Dism++"/>
     <String Target="启动RE环境" Link="Iniciar WinRE"/>
     <String Target="添加删除Dism插件" Link="Añadir o eliminar complemento Dism++"/>
-    <String Target="在官方网站可以获取帮助文档，并提出你的宝贵意见" Link="La documentación está disponible en www.chuyu.me. ¡Agradecemos tus comentarios!"/>
+    <String Target="在官方网站可以获取帮助文档，并提出你的宝贵意见" Link="La documentación está disponible en “www.chuyu.me”. ¡Agradecemos tus comentarios!"/>
     <String Target="为映像重新添加引导。" Link="Re-añadir una imagen de inicio."/>
     <String Target="只添加指定文件夹路径到映像列表。" Link="Añadir la ruta seleccionada a la lista de imágenes."/>
     <String Target="重新扫描系统" Link="Re-analizar"/>
@@ -116,17 +116,17 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="正在加载规则" Link="Cargando reglas"/>
     <String Target="Dism++不允许修改文件名，这将导致插件无法正常加载。" Link="Dism++ no permite modificar el nombre del archivo, puede causar error al cargar el complemento."/>
     <String Target="无法启动Dism++x64.exe，请确保该Dism++组件的完整性。" Link="No se puede iniciar Dism++x64.exe, compruebe la integridad de Dism++."/>
-    <String Target="Dism++关键组件丢失，请从 www.chuyu.me 重新下载Dism++。" Link="Falta un archivo crítico en Dism++, vuelva a descargar Dism++ desde www.chuyu.me."/>
+    <String Target="Dism++关键组件丢失，请从 www.chuyu.me 重新下载Dism++。" Link="Falta un archivo crítico en Dism++, vuelva a descargar Dism++ desde “www.chuyu.me”."/>
     <String Target="临时目录可用空间不足5GB，这可能导致Dism++无法正常运行，推荐将Dism++复制到可用空间大于5GB的驱动器，然后继续。" Link="Directorio temporal con menos de 5GB de espacio, Dism++ puede que no funcione correctamente. Se recomienda copiar Dism++ con más de 5GB de espacio libre, y luego continuar."/>
     <String Target="基础支撑库缺失，引导修复相关功能无法使用。" Link="Falta el soporte fundamental de la biblioteca. No se pueden usar las funciones relacionadas con reparar inicio."/>
     <String Target="Dism++需要管理员权限才能运行，请右键 以管理员身份运行 然后继续。" Link="Dism++ necesita derechos administrativos para ejecutarse. Clic en botón derecho y seleccionar Ejecutar como Administrador para ejecutarlo."/>
     <String Target="Dism++不允许以兼容模式启动，请去除兼容模式，然后再启动Dism++。" Link="Dism++ no permite el modo de compatibilidad. Reiniciar Dism++ y después desactivarlo."/>
 
     <String Target="你需要增量保存还是直接保存？" Link="¿Guardar de forma directa o en incrementos?"/>
-    <String Target="温馨提示：保存映像后空间不会减少，如果需要减少空间请重新编译目标文件。" Link="Consejos: No se va a reducir espacio si guarda esta imagen;  re-compilar el archivo de destino si necesita reducir espacio"/>
+    <String Target="温馨提示：保存映像后空间不会减少，如果需要减少空间请重新编译目标文件。" Link="Consejo: No se va a reducir espacio si guarda esta imagen, re-compilar el archivo de destino si necesita reducir espacio"/>
     <String Target="增量保存（推荐）&#xA;创建一个新的映像，不会覆盖原有数据。" Link="Guardar en incrementos (recomendado)&#xA;Crea una imagen nueva; los datos originales no se modificarán."/>
 
-    <String Target="直接保存&#xA;将覆盖当前映像的数据。" Link="Guardar directo&#xA;Sustituir la imagen original con esta imagen modificada."/>
+    <String Target="直接保存&#xA;将覆盖当前映像的数据。" Link="Guardar directo&#xA;Sustituye la imagen original con esta imagen modificada."/>
 
     <String Target="温馨提示" Link="Consejos"/>
 
@@ -854,8 +854,8 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="禁用桌面的“小工具”右键菜单" Link="Desactivar &quot;widget&quot; del menú"/>
     <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Desactivar el elemento del menú del archivo &quot;Ver 3D&quot; (por Cloud)"/>
     <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Desactivar el elemento del menú del archivo &quot;Paint 3D&quot; (por Cloud)"/>
-    <String q="" Target="禁用所有对象的“共享”右键菜单" Link="Disable the &quot;Share&quot; context menu on all objects"/>
-    <String q="" Target="禁用文件、目录、桌面、磁盘以及库的“授予访问权限”右键菜单" Link="Disable &quot;Grant Access&quot; context menu on files, folders, desktop, disks and libraries"/>
+    <String Target="禁用所有对象的“共享”右键菜单" Link="Desactivar &quot;Compartir&quot; del menú contextual para todos los objetos"/>
+    <String Target="禁用文件、目录、桌面、磁盘以及库的“授予访问权限”右键菜单" Link="Desactivar &quot;Conceder acceso&quot; del menú contextual en archivos, carpetas, escritorio, discos y bibliotecas"/>
 
     <!--桌面图示管理-->
     <String Target="桌面图标管理" Link="Administrar iconos del escritorio"/>
