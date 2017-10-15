@@ -91,7 +91,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="重启进入RE并为我启动Dism++" Link="Reiniciar para WinRE y ejecutar Dism++"/>
     <String Target="启动RE环境" Link="Iniciar WinRE"/>
     <String Target="添加删除Dism插件" Link="Añadir o eliminar complemento Dism++"/>
-    <String Target="在官方网站可以获取帮助文档，并提出你的宝贵意见" Link="La documentación está disponible en “www.chuyu.me”. ¡Agradecemos tus comentarios!"/>
+    <String Target="在官方网站可以获取帮助文档，并提出你的宝贵意见" Link="La documentación está disponible en &quot;www.chuyu.me&quot;. ¡Agradecemos tus comentarios!"/>
     <String Target="为映像重新添加引导。" Link="Re-añadir una imagen de inicio."/>
     <String Target="只添加指定文件夹路径到映像列表。" Link="Añadir la ruta seleccionada a la lista de imágenes."/>
     <String Target="重新扫描系统" Link="Re-analizar"/>
@@ -116,7 +116,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="正在加载规则" Link="Cargando reglas"/>
     <String Target="Dism++不允许修改文件名，这将导致插件无法正常加载。" Link="Dism++ no permite modificar el nombre del archivo, puede causar error al cargar el complemento."/>
     <String Target="无法启动Dism++x64.exe，请确保该Dism++组件的完整性。" Link="No se puede iniciar Dism++x64.exe, compruebe la integridad de Dism++."/>
-    <String Target="Dism++关键组件丢失，请从 www.chuyu.me 重新下载Dism++。" Link="Falta un archivo crítico en Dism++, vuelva a descargar Dism++ desde “www.chuyu.me”."/>
+    <String Target="Dism++关键组件丢失，请从 www.chuyu.me 重新下载Dism++。" Link="Falta un archivo crítico en Dism++, vuelva a descargar Dism++ desde &quot;www.chuyu.me&quot;."/>
     <String Target="临时目录可用空间不足5GB，这可能导致Dism++无法正常运行，推荐将Dism++复制到可用空间大于5GB的驱动器，然后继续。" Link="Directorio temporal con menos de 5GB de espacio, Dism++ puede que no funcione correctamente. Se recomienda copiar Dism++ con más de 5GB de espacio libre, y luego continuar."/>
     <String Target="基础支撑库缺失，引导修复相关功能无法使用。" Link="Falta el soporte fundamental de la biblioteca. No se pueden usar las funciones relacionadas con reparar inicio."/>
     <String Target="Dism++需要管理员权限才能运行，请右键 以管理员身份运行 然后继续。" Link="Dism++ necesita derechos administrativos para ejecutarse. Clic en botón derecho y seleccionar Ejecutar como Administrador para ejecutarlo."/>
