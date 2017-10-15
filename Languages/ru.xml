@@ -853,6 +853,8 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <String Target="禁用桌面的“小工具”右键菜单" Link="Отключить 'Гаджеты' в контекстном меню Рабочего стола"/>
     <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Отключить пункт контекстного меню файла &quot;Просмотр 3D&quot; (by Cloud)"/>
     <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Отключить пункт контекстного меню файла &quot;Рисование 3D&quot; (by Cloud)"/>
+    <String q="" Target="禁用所有对象的“共享”右键菜单" Link="Disable the &quot;Share&quot; context menu on all objects"/>
+    <String q="" Target="禁用文件、目录、桌面、磁盘以及库的“授予访问权限”右键菜单" Link="Disable &quot;Grant Access&quot; context menu on files, folders, desktop, disks and libraries"/>
 
     <!--桌面图示管理-->
     <String Target="桌面图标管理" Link="Управление значками Рабочего стола"/>
@@ -1028,7 +1030,7 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Настройка меню ПКМ для режима Windows 7 (by Silence)"/>
     <String Target="登陆界面默认打开小键盘（by IT之家）" Link="Включить клавиатуру при входе (by ITHome)"/>
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Отключить создание файла резервной копии менеджера пакетов CBS"/>
-    <String q="" Target="任务栏时钟精确到秒（by Luupw3d）" Link="任务栏时钟精确到秒（by Luupw3d）"/>
+    <String q="" Target="任务栏时钟精确到秒（by Luupw3d）" Link="Taskbar clock did display seconds (by Luupw3d)"/>
     <!--系统优化已经结束-->
 
     <!--Dism++更新程序-->
@@ -1362,8 +1364,8 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <x800F082E>Указанный пакет не может быть добавлен к автономному образу.</x800F082E>
     <x800F082F>Не удается завершить сессию, потому что эксклюзивная сессия находится в ожидании.</x800F082F>
     <x000F0801>Dism++ занят, вероятно потому, что запущены другие программы. Повторите попытку позже.</x000F0801>
-    <x80072EE7 q="">无法连接服务器，请检查网络连接或者防火墙设置是否正确。</x80072EE7>
-    <x80072EFF q="">无法连接服务器，请检查网络连接或者防火墙设置是否正确。</x80072EFF>
+    <x80072EE7 q="">Unable to connect to the server, check your network connection or the firewall settings are correct.</x80072EE7>
+    <x80072EFF q="">Unable to connect to the server, check your network connection or the firewall settings are correct.</x80072EFF>
 
     <xA0020001>Поддерживается только Microsoft Online's ESD файл в ISO.</xA0020001>
     <xA0020002>Была выполнена частичная очистка, для полной очистки обновитесь до Windows 8.1, а затем продолжите.</xA0020002>

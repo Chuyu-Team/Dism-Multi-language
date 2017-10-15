@@ -853,6 +853,8 @@ Special Thanks to 山形まり花
     <String Target="禁用桌面的“小工具”右键菜单" Link="右クリック メニューのデスクトップの [ウィジェット] を無効化"/>
     <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="右クリック メニューのファイルの [View 3D] を無効化"/>
     <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="右クリック メニューのファイルの [ペイント 3D] を無効化"/>
+    <String q="" Target="禁用所有对象的“共享”右键菜单" Link="Disable the &quot;Share&quot; context menu on all objects"/>
+    <String q="" Target="禁用文件、目录、桌面、磁盘以及库的“授予访问权限”右键菜单" Link="Disable &quot;Grant Access&quot; context menu on files, folders, desktop, disks and libraries"/>
 
     <!--桌面图示管理-->
     <String Target="桌面图标管理" Link="デスクトップ アイコンの設定"/>

@@ -853,6 +853,8 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
     <String Target="禁用桌面的“小工具”右键菜单" Link="Wyłącz &quot;Widgety&quot; w menu kontekstowym"/>
     <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Wyłącz Widok 3D (by Cloud)"/>
     <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Wyłącz Paint 3D (by Cloud)"/>
+    <String q="" Target="禁用所有对象的“共享”右键菜单" Link="Disable the &quot;Share&quot; context menu on all objects"/>
+    <String q="" Target="禁用文件、目录、桌面、磁盘以及库的“授予访问权限”右键菜单" Link="Disable &quot;Grant Access&quot; context menu on files, folders, desktop, disks and libraries"/>
 
     <!--Menedżer Ikon Pulpitu-->
     <String Target="桌面图标管理" Link="Zarządzaj ikonami pulpitu"/>
@@ -1028,7 +1030,7 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
     <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Zmień &quot;prawym przyciskiem myszy menu&quot; na tryb Windows 7 (by Silence)"/>
     <String Target="登陆界面默认打开小键盘（by IT之家）" Link="Włącz klawiaturę podczas logowania (by ITHome)"/>
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Wyłącz składowanie kopii zapasowej składników"/>
-    <String q="" Target="任务栏时钟精确到秒（by Luupw3d）" Link="任务栏时钟精确到秒（by Luupw3d）"/>
+    <String q="" Target="任务栏时钟精确到秒（by Luupw3d）" Link="Taskbar clock did display seconds (by Luupw3d)"/>
     <!--系统优化已经结束-->
 
     <!--Dism++更新程序-->
@@ -1362,8 +1364,8 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
     <x800F082E>Określony pakiet nie może być dodany do obrazu w trybie offline.</x800F082E>
     <x800F082F>Nie można zakończyć sesji, ponieważ sesja jest aktywna.</x800F082F>
     <x000F0801>Dism++ jest zajęty, prawdopodobnie dlatego, że inne programy są uruchomione. Spróbuj ponownie później.</x000F0801>
-    <x80072EE7 q="">无法连接服务器，请检查网络连接或者防火墙设置是否正确。</x80072EE7>
-    <x80072EFF q="">无法连接服务器，请检查网络连接或者防火墙设置是否正确。</x80072EFF>
+    <x80072EE7 q="">Unable to connect to the server, check your network connection or the firewall settings are correct.</x80072EE7>
+    <x80072EFF q="">Unable to connect to the server, check your network connection or the firewall settings are correct.</x80072EFF>
 
     <xA0020001>Obsługuje tylko plik ESD Microsoft Online do pliku ISO.</xA0020001>
     <xA0020002>Niektóre z nich zostały wyczyszczone, dla pełnego oczyszczania uaktualnienia do Windows 8.1, a następnie kontynuować.</xA0020002>

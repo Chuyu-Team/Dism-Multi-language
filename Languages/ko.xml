@@ -853,6 +853,8 @@ Special thanks to OldMac, Schooli, 阿泽西
     <String Target="禁用桌面的“小工具”右键菜单" Link="오른쪽메뉴 바탕화면에 &quot;작은도구&quot; 를 사용하지 않기"/>
     <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="우클릭 메뉴에서 &quot;View 3D&quot; 사용 안함  (by Cloud)"/>
     <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="우클릭 메뉴에서 &quot;그림판 3D&quot; 사용 안함  (by Cloud)"/>
+    <String q="" Target="禁用所有对象的“共享”右键菜单" Link="Disable the &quot;Share&quot; context menu on all objects"/>
+    <String q="" Target="禁用文件、目录、桌面、磁盘以及库的“授予访问权限”右键菜单" Link="Disable &quot;Grant Access&quot; context menu on files, folders, desktop, disks and libraries"/>
 
     <!--桌面图示管理-->
     <String Target="桌面图标管理" Link="바탕화면 아이콘 관리"/>
@@ -1028,7 +1030,7 @@ Special thanks to OldMac, Schooli, 阿泽西
     <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="&quot;우클릭 메뉴&quot;를 Windows 7 모드로 변경 (by Silence)"/>
     <String Target="登陆界面默认打开小键盘（by IT之家）" Link="로그인 시 키패드 사용 (by ITHome)"/>
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="구성요소 기반 서비스 백업 사용 안함"/>
-    <String q="" Target="任务栏时钟精确到秒（by Luupw3d）" Link="任务栏时钟精确到秒（by Luupw3d）"/>
+    <String q="" Target="任务栏时钟精确到秒（by Luupw3d）" Link="Taskbar clock did display seconds (by Luupw3d)"/>
     <!--系统优化已经结束-->
 
     <!--Dism++更新程序-->
@@ -1362,8 +1364,8 @@ Special thanks to OldMac, Schooli, 阿泽西
     <x800F082E>지정된 패키지를 오프라인 이미지에 추가할 수 없습니다.</x800F082E>
     <x800F082F>독점 Session이 보류 중이기 때문에 Session을 끝낼 수 없습니다.</x800F082F>
     <x000F0801>Dism++에서 다른 프로그램을 실행하고 있습니다. 나중에 다시 시도해 주세요. </x000F0801>
-    <x80072EE7 q="">无法连接服务器，请检查网络连接或者防火墙设置是否正确。</x80072EE7>
-    <x80072EFF q="">无法连接服务器，请检查网络连接或者防火墙设置是否正确。</x80072EFF>
+    <x80072EE7 q="">Unable to connect to the server, check your network connection or the firewall settings are correct.</x80072EE7>
+    <x80072EFF q="">Unable to connect to the server, check your network connection or the firewall settings are correct.</x80072EFF>
 
     <xA0020001>Microsoft에서 제공하는 ESD 파일를 ISO 파일로 변환만 지원합니다.</xA0020001>
     <xA0020002>일부 정리는 되였습니다.완정한 정리가 필요하시면 Windows 8.1로 업그레이드 하시고 계속 정리하시기 바랍니다.</xA0020002>
