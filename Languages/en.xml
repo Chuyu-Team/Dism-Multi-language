@@ -1364,8 +1364,8 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <x800F082E>The specified package cannot be added to an offline image.</x800F082E>
     <x800F082F>Cannot finalize session because an exclusive session is pending.</x800F082F>
     <x000F0801>Dism++ is busy, probably because other programs are running. Please try again later.</x000F0801>
-    <x80072EE7 q="">Unable to connect to the server, check your network connection or the firewall settings are correct.</x80072EE7>
-    <x80072EFF q="">Unable to connect to the server, check your network connection or the firewall settings are correct.</x80072EFF>
+    <x80072EE7>Unable to connect to the server, check your network connection or the firewall settings are correct.</x80072EE7>
+    <x80072EFF>Unable to connect to the server, check your network connection or the firewall settings are correct.</x80072EFF>
 
     <xA0020001>Only supports Microsoft Online's ESD file into ISO file.</xA0020001>
     <xA0020002>Some have been cleared, for a complete cleanup upgrade to Windows 8.1, and then continue.</xA0020002>
