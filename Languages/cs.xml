@@ -387,8 +387,8 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="为了优化性能，你需要手动打开会话。" Link="Pro optimální výkon je nutné otevřít relaci ručně"/>
     <String Target="打开会话" Link="Otevřít relaci"/>
     <String Target="正在打开会话" Link="Otevření relace"/>
-    <String q="" Target="当前系统至少为Windows 8/2012才能正常处理此系统。如果你继续进行，那么打开关闭功能、添加删除更新均可能出现意外失败。" Link="Host Virson should be at least Windows 8/2012. If you continue in host of a lower version, functions like open, close, add, delete, update may not work properly."/>
-    <String q="" Target="映像路径存在非英文字符可能导致安装更新失败，请在全英文路径重新挂载此映像，比如“D:\Mount”。" Link="The image path exists non-ASCII characters may cause the install update to fail, please reload the image in full ASCII path, such as &quot;D:\Mount&quot;."/>
+    <String Target="当前系统至少为Windows 8/2012才能正常处理此系统。如果你继续进行，那么打开关闭功能、添加删除更新均可能出现意外失败。" Link="Hostitel Virson by měla být alespoň Windows 8/2012. Pokud budete hostitelském nižší verze, funkce jako otevřít, zavřít, přidání, odstranění, aktualizace nemusí fungovat správně."/>
+    <String Target="映像路径存在非英文字符可能导致安装更新失败，请在全英文路径重新挂载此映像，比如“D:\Mount”。" Link="V cestě k obrazu jsou ne ASCII znaky to může způsobit že se instalace aktualizace nezdaří, znovu načíst obráz s celou cestu ASCII, jako je například &quot;D:\Připojit&quot;."/>
 
     <String Target="常用工具" Link="Nástroje"/>
       <String Target="空间回收" Link="Čištění disku"/>
@@ -579,8 +579,8 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="%s 所关联的用户（%s）无法删除，错误代码：0x%.8X" Link="%s přidružené uživatelé (%s) nelze smazat, kód chyby: 0x%.8X"/>
     <String Target="%s 未关联任何用户。" Link="%s není spojen s uživatelem."/>
     <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="Blahopřejeme! Odstranění úspěšně dokončeno. Ale některé aplikace se mohou vztahovat k vestavěným aplikací appx. Pokud jste se potýkají s tím, že aplikace je součástí systém, ale nebyly odstraněny - zvolte 'Vyčištění' a použijte položku 'zastaralé aplikace appx'k jejich odstranění"/>
-    <String q="" Target="User Appx" Link="User Appx"/>
-    <String q="" Target="Provisioned Appx" Link="Provisioned Appx"/>
+    <String Target="User Appx" Link="UživatelskéAppx"/>
+    <String Target="Provisioned Appx" Link="Zajistit Appx"/>
 
     <!--Windows Update-->
     <String Target="安装" Link="Instalace"/>
@@ -853,8 +853,8 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="禁用桌面的“小工具”右键菜单" Link="Zakázat &quot;Widget&quot; v kontextovém menu"/>
     <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Zakázat položku kontextového menu souboru &quot;Zobrazit ve 3D &quot; (by Cloud)"/>
     <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Zakázat položku kontextové nabídky souboru &quot;Malování ve 3D&quot; (by Cloud)"/>
-    <String q="" Target="禁用所有对象的“共享”右键菜单" Link="Disable the &quot;Share&quot; context menu on all objects"/>
-    <String q="" Target="禁用文件、目录、桌面、磁盘以及库的“授予访问权限”右键菜单" Link="Disable &quot;Grant Access&quot; context menu on files, folders, desktop, disks and libraries"/>
+    <String Target="禁用所有对象的“共享”右键菜单" Link="Zakázat &quot;Sdílení&quot; místní nabídku u všech objektů"/>
+    <String Target="禁用文件、目录、桌面、磁盘以及库的“授予访问权限”右键菜单" Link="Zakázat &quot;Povolení přístupu&quot; v kontextové nabídkce souborů, složek, plochy, disků a knihoven"/>
 
     <!--桌面图示管理-->
     <String Target="桌面图标管理" Link="Správce ikony na ploše"/>
@@ -932,7 +932,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
 
     <String Target="*关闭远程协助（by 原罪）" Link="*Zakázat připojení programu Vzdálená pomoc (od YZ)"/>
 
-    <String q="" Target="*禁用SMB1网络协议（by Jhovany200）" Link="*Disallow SMB1 network protocol (by Jhovany200)"/>
+    <String Target="*禁用SMB1网络协议（by Jhovany200）" Link="*Zakázat síťový protokol SMB1 (by Jhovany200)"/>
     
     <!--服务优化-->
     <String Target="服务优化" Link="Služby"/>
@@ -1030,7 +1030,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Změna &quot;klikněte pravým tlačítkem myši v menu&quot; Windows 7 mod (od Silence)"/>
     <String Target="登陆界面默认打开小键盘（by IT之家）" Link="Povolit klávesnice při přihlášení (od ITHome)"/>
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Zakázat součást na základě servisního zálohování"/>
-    <String q="" Target="任务栏时钟精确到秒（by Luupw3d）" Link="Taskbar clock did display seconds (by Luupw3d)"/>
+    <String Target="任务栏时钟精确到秒（by Luupw3d）" Link="Hodiny zobrazují sekundy (by Luupw3d)"/>
     <!--系统优化已经结束-->
 
     <!--Dism++更新程序-->
@@ -1364,8 +1364,8 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <x800F082E>Zadaný balíček nemůže být přidán do offline bitové kopie.</x800F082E>
     <x800F082F>Relaci nelze dokončit, protože exkluzivní relace čeká.</x800F082F>
     <x000F0801>Dism++ je zaneprázdněn, pravděpodobně proto, že jsou spuštěny jiné programy. Zkuste to prosím znovu později.</x000F0801>
-    <x80072EE7 q="">Unable to connect to the server, check your network connection or the firewall settings are correct.</x80072EE7>
-    <x80072EFF q="">Unable to connect to the server, check your network connection or the firewall settings are correct.</x80072EFF>
+    <x80072EE7>Nelze se připojit k serveru, zkontrolujte síťové připojení nebo nastavení brány firewall zda je správné.</x80072EE7>
+    <x80072EFF>Nelze se připojit k serveru, zkontrolujte síťové připojení nebo nastavení brány firewall zda je správné.</x80072EFF>
 
     <xA0020001>Podporuje pouze Microsoft Online ESD soubor do ISO souboru.</xA0020001>
     <xA0020002>Částečné čištění bylo provedeno, proveďte kompletní čištění aktualizace Windows 8.1 a pak pokračujte.</xA0020002>
@@ -1375,7 +1375,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <xA0020006>Aktuální systém nepodporuje WOW64 a nezvládne 64-bit systém v režimu offline.</xA0020006>
     <xA0020007>Požadovaný komponent CBSHost.dll neexistuje. Zkontrolujte integritu Dism++.</xA0020007>
     <xA0020008>Schází rundll32.exe. Dism++ nelze spustit.</xA0020008>
-    <xA0020009 q="">Dism++ session crashed. you can contact (mingkuang@live. com) to help resolve this issue.</xA0020009>
+    <xA0020009>Dism++ relace havarovala. Můžete kontaktovat (mingkuang@live. com)k vyřešení tohoto problému.</xA0020009>
     <xA002000A>Dism++ zjistěny problémy s kompatibilitou. Prosím, nainstalujte patch KB960037, a pokračujte.</xA002000A>
 
     <x20020001>Žádné výchozí přidružení souboru konfigurace v aktuálním obraze. Nelze exportovat.</x20020001>
