@@ -1853,12 +1853,12 @@
             </Applicable>
           </State>
           <True>
-            <Activate>
+            <Activate Restart="Explorer">
               <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="ShowSecondsInSystemClock" Type="REG_DWORD" Data="1"/>
             </Activate>
           </True>
           <False>
-            <Activate>
+            <Activate Restart="Explorer">
               <RegDelete Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="ShowSecondsInSystemClock"/>
             </Activate>
           </False>
@@ -3069,7 +3069,7 @@
             </Applicable>
           </State>
           <True>
-            <Activate>
+            <Activate Restart="Explorer">
               <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{7d83ee9b-2244-4e70-b1f5-5393042af1e4}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide"/>
               <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide"/>
               <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{f42ee2d3-909f-4907-8871-4c22fc0bf756}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide"/>
@@ -3701,6 +3701,7 @@
 
       <Item Type="CheckBox" Name="#将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）">
         <Applicable>
+          <OSVersion Compare="&lt;=">10.0.14393</OSVersion>
           <Or>
             <RegExist Key="HKEY_CLASSES_ROOT\DesktopBackground\Shell\Personalize\command" Value="DelegateExecute" Type="REG_SZ" Data="{06622D85-6856-4460-8DE1-A81921B41C4B}"/>
             <RegExist Key="HKEY_CLASSES_ROOT\DesktopBackground\Shell\Personalize\command" Value="DelegateExecute" Type="REG_SZ" Data="{556FF0D6-A1EE-49E5-9FA4-90AE116AD744}"/>
@@ -3749,7 +3750,7 @@
 
       <Item Type="CheckBox" Name="#将“右键菜单”调整为Windows 7模式（by Silence）">
         <Applicable>
-          <OSVersion Compare=">=">10.0.14393</OSVersion>
+          <OSVersion>10.0.14393</OSVersion>
         </Applicable>
         <System>
           <State>
