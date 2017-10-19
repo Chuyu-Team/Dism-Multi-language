@@ -387,8 +387,8 @@ Special Thanks to franz@drwindows.de
     <String Target="为了优化性能，你需要手动打开会话。" Link="Um die Performance zu optimieren, muss eine Sitzung manuell geöffnet werden."/>
     <String Target="打开会话" Link="Sitzung öffnen"/>
     <String Target="正在打开会话" Link="Sitzung wird geöffnet"/>
-    <String q="" Target="当前系统至少为Windows 8/2012才能正常处理此系统。如果你继续进行，那么打开关闭功能、添加删除更新均可能出现意外失败。" Link="Host Virson should be at least Windows 8/2012. If you continue in host of a lower version, functions like open, close, add, delete, update may not work properly."/>
-    <String q="" Target="映像路径存在非英文字符可能导致安装更新失败，请在全英文路径重新挂载此映像，比如“D:\Mount”。" Link="The image path exists non-ASCII characters may cause the install update to fail, please reload the image in full ASCII path, such as &quot;D:\Mount&quot;."/>
+    <String Target="当前系统至少为Windows 8/2012才能正常处理此系统。如果你继续进行，那么打开关闭功能、添加删除更新均可能出现意外失败。" Link="Die Host-Version sollte mindestens Windows 8 sein. Wird eine frühere Windows-Version geladen, können Funktionen wie &quot;Öffnen&quot;, &quot;Hinzufügen&quot;, &quot;Löschen&quot; oder &quot;Aktualisieren&quot; evtl. nicht mehr korrekt ausgeführt werden."/>
+    <String Target="映像路径存在非英文字符可能导致安装更新失败，请在全英文路径重新挂载此映像，比如“D:\Mount”。" Link="Der Image-Pfad enthält non-ASCII Zeichen, dadurch kann das Update fehlschlagen. Bitte das Image in einem ASCII-Pfad, z.B. &quot;D:\Mount&quot;, neu laden."/>
 
     <String Target="常用工具" Link="Werkzeuge"/>
       <String Target="空间回收" Link="Festplattenbereinigung"/>
@@ -579,8 +579,8 @@ Special Thanks to franz@drwindows.de
     <String Target="%s 所关联的用户（%s）无法删除，错误代码：0x%.8X" Link="%s Benutzer (%s) kann nicht entfernt werden, Fehlercode: 0x%.8X"/>
     <String Target="%s 未关联任何用户。" Link="%s ist mit keinem anderen Benutzer verknüpft."/>
     <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="Glückwunsch! Das Löschen war erfolgreich. Da einige der Programme &quot;Provisioned Apps&quot; sind, können noch systemeigene Apps, trotz des Löschvorgangs, vorhanden sein. Benutzen Sie deshalb zum Löschen bitte die Option &quot;Provisioned Apps&quot;"/>
-    <String q="" Target="User Appx" Link="User Appx"/>
-    <String q="" Target="Provisioned Appx" Link="Provisioned Appx"/>
+    <String Target="User Appx" Link="Benutzer Apps"/>
+    <String Target="Provisioned Appx" Link="Bereitgestellte Apps"/>
 
     <!--Windows Update-->
     <String Target="安装" Link="Installieren"/>
@@ -853,8 +853,8 @@ Special Thanks to franz@drwindows.de
     <String Target="禁用桌面的“小工具”右键菜单" Link="&quot;Widget&quot; im Kontextmenü ausblenden"/>
     <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="App-Anzeige &quot;View 3D&quot; im Kontextmenü deaktivieren (by Cloud)"/>
     <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="&quot;Mit Paint 3D bearbeiten&quot; im Kontextmenü deaktivieren (by Cloud)"/>
-    <String q="" Target="禁用所有对象的“共享”右键菜单" Link="Disable the &quot;Share&quot; context menu on all objects"/>
-    <String q="" Target="禁用文件、目录、桌面、磁盘以及库的“授予访问权限”右键菜单" Link="Disable &quot;Grant Access&quot; context menu on files, folders, desktop, disks and libraries"/>
+    <String Target="禁用所有对象的“共享”右键菜单" Link="Im Kontextmenü &quot;Teilen&quot; bei allen Objekten deaktiveren"/>
+    <String Target="禁用文件、目录、桌面、磁盘以及库的“授予访问权限”右键菜单" Link="Im Kontextmenü &quot;Freigeben für&quot; bei Dateien, Ordnern, Desktop und Bibliotheken deaktiveren"/>
 
     <!--桌面图示管理-->
     <String Target="桌面图标管理" Link="Desktop Symboleinstellungen"/>
@@ -932,7 +932,7 @@ Special Thanks to franz@drwindows.de
 
     <String Target="*关闭远程协助（by 原罪）" Link="*Windows Remote-Unterstützungsverbindungen nicht zulassen (by YZ)"/>
     
-    <String q="" Target="*禁用SMB1网络协议（by Jhovany200）" Link="*Disallow SMB1 network protocol (by Jhovany200)"/>
+    <String Target="*禁用SMB1网络协议（by Jhovany200）" Link="*Das Netzwerkprotokoll SMB1 nicht erlauben (by Jhovany200)"/>
     
     <!--服务优化-->
     <String Target="服务优化" Link="Windows Dienste"/>
@@ -1030,7 +1030,7 @@ Special Thanks to franz@drwindows.de
     <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Das Kontextmenü im Windows 7 - Modus anzeigen (by Silence)"/>
     <String Target="登陆界面默认打开小键盘（by IT之家）" Link="Tastatur bei der Anmeldung aktivieren (by ITHome)"/>
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Backup von Component Based Servicing (CBS) deaktivieren."/>
-    <String q="" Target="任务栏时钟精确到秒（by Luupw3d）" Link="Taskbar clock did display seconds (by Luupw3d)"/>
+    <String Target="任务栏时钟精确到秒（by Luupw3d）" Link="TUhr in der Taskleiste ohne Sekunden anzeigen (by Luupw3d)"/>
     <!--系统优化已经结束-->
 
     <!--Dism++更新程序-->
@@ -1364,8 +1364,8 @@ Special Thanks to franz@drwindows.de
     <x800F082E>Die ausgewählte Funktion kann nicht zu einem Offline Image hinzugefügt werden.</x800F082E>
     <x800F082F>Die Sitzung kann nicht beendet werden, da noch ein weiterer Vorgang aussteht.</x800F082F>
     <x000F0801>Dism++ ist beschäftigt, evtl sind noch andere Programm are running. Versuchen Sie es später nochmal.</x000F0801>
-    <x80072EE7 q="">Unable to connect to the server, check your network connection or the firewall settings are correct.</x80072EE7>
-    <x80072EFF q="">Unable to connect to the server, check your network connection or the firewall settings are correct.</x80072EFF>
+    <x80072EE7>UEs kann keine Verbindung zum Server aufgenommen werden. Sind Netzwerkverbindungen oder Firewall-Einstellungen korrekt eingerichtet?</x80072EE7>
+    <x80072EFF>Es kann keine Verbindung zum Server aufgenommen werden. Sind Netzwerkverbindungen oder Firewall-Einstellungen korrekt eingerichtet?</x80072EFF>
 
     <xA0020001>Nur eine Microsoft Online ESD-Datei kann in eine ISO-Datei umgewandelt werden.</xA0020001>
     <xA0020002>Einiges wurde bereinigt, für eine komplette Bereinigung bitte ein Upgrade auf Windows 8.1 durchführen und dann fortsetzen.</xA0020002>
@@ -1375,7 +1375,7 @@ Special Thanks to franz@drwindows.de
     <xA0020006>Das aktuelle Betriebssystem besitzt keine WoW64-Unterstützung, Nicht-64bit-Systeme können offline nicht bearbeitet werden.</xA0020006>
     <xA0020007>CBSHost.dll kann nicht gefunden werden. Bitte Dism++ auf Fehler überprüfen.</xA0020007>
     <xA0020008>rundll32.exe kann nicht gefunden werden. Dism++ kann nicht gestartet werden.</xA0020008>
-    <xA0020009 q="">Dism++ session crashed. you can contact (mingkuang@live. com) to help resolve this issue.</xA0020009>
+    <xA0020009>Die Dism++ - Sitzung reagiert nicht mehr. Sie können mingkuang@live.com kontaktieren um das Poblem zu lösen. </xA0020009>
     <xA002000A>Dism++ entdeckte ein Kompatibilitätsproblem. Bitte den Patch KB960037 installieren und fortsetzen.</xA002000A>
 
     <x20020001>Keine Konfiguration der vorgegebenen Dateizuordnungen (OEMDefaultAssociations.xml) im aktuellen Image gefunden. Export der Datei nicht möglich.</x20020001>
