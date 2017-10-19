@@ -387,7 +387,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="为了优化性能，你需要手动打开会话。" Link="Pro optimální výkon je nutné otevřít relaci ručně"/>
     <String Target="打开会话" Link="Otevřít relaci"/>
     <String Target="正在打开会话" Link="Otevření relace"/>
-    <String Target="当前系统至少为Windows 8/2012才能正常处理此系统。如果你继续进行，那么打开关闭功能、添加删除更新均可能出现意外失败。" Link="Hostitel Virson by měla být alespoň Windows 8/2012. Pokud budete hostitelském nižší verze, funkce jako otevřít, zavřít, přidání, odstranění, aktualizace nemusí fungovat správně."/>
+    <String Target="当前系统至少为Windows 8/2012才能正常处理此系统。如果你继续进行，那么打开关闭功能、添加删除更新均可能出现意外失败。" Link="Hostitel Version by měla být alespoň Windows 8/2012. Pokud budete hostitelském nižší verze, funkce jako otevřít, zavřít, přidání, odstranění, aktualizace nemusí fungovat správně."/>
     <String Target="映像路径存在非英文字符可能导致安装更新失败，请在全英文路径重新挂载此映像，比如“D:\Mount”。" Link="V cestě k obrazu jsou ne ASCII znaky to může způsobit že se instalace aktualizace nezdaří, znovu načíst obráz s celou cestu ASCII, jako je například &quot;D:\Připojit&quot;."/>
 
     <String Target="常用工具" Link="Nástroje"/>
