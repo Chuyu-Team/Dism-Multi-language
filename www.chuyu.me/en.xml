@@ -23,7 +23,7 @@
   <String Src="%WindowsUpdateDes%" Dst="Choose your updates -- and no worries"/>
   <String Src="%SystemRecover%" Dst="Backup and Recovery"/>
   <String Src="%SystemRecoverDes%" Dst="Backup or restore your system WITHOUT using Windows PE"/>  
-  <String Src="%Green%" Dst="Turely Portable"/>
+  <String Src="%Green%" Dst="Truly Portable"/>
   <String Src="%GreenDes%" Dst="FREE, NO ADS AND SPYWARE."/>
   <String Src="%AboutChuyu%" Dst="About Chuyu Team"/>
   <String Src="%AboutChuyuDes%" Dst="In fact, we are all quite obsessive to look for a tool that is lightweight, easy-to-use, straightforward, without gabbage and annoyance. We cannot find it, but we didn’t give up as we realize such a dream with our own hands by making Dism++: a small tool that is non-profit and built with pure persistence and enthusiasm."/>
