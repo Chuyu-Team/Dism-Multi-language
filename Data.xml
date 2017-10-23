@@ -2039,6 +2039,79 @@
           </False>
         </Default>
       </Item>
+
+      <Item Type="Combo" Name="#*桌面壁纸质量调整为（by IT之家）">
+        <Applicable>
+          <OSVersion Compare=">=">6.0</OSVersion>
+        </Applicable>
+        <Current>
+          <Dropdown Name="#低质量（更快）">
+            <Warning>#将导致桌面壁纸质量降低，影响视觉效果。</Warning>
+            <Applicable>
+                <RegExist Key="HKEY_CURRENT_USER\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="60"/>
+            </Applicable>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="60"/>
+            </Activate>
+          </Dropdown>
+          <Dropdown Name="#默认（推荐）">
+            <Applicable>
+              <Not>
+                <Or>
+                  <RegExist Key="HKEY_CURRENT_USER\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="60"/>
+                  <RegExist Key="HKEY_CURRENT_USER\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="100"/>
+                </Or>
+              </Not>
+            </Applicable>
+            <Activate>
+              <RegDelete Key="HKEY_CURRENT_USER\Control Panel\Desktop" Value="JPEGImportQuality"/>
+            </Activate>
+          </Dropdown>
+          <Dropdown Name="#高质量（更清晰）">
+            <Warning>#将增加系统资源消耗。</Warning>
+            <Applicable>
+              <RegExist Key="HKEY_CURRENT_USER\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="100"/>
+            </Applicable>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="100"/>
+            </Activate>
+          </Dropdown>
+        </Current>
+
+        <Default>
+          <Dropdown Name="#低质量（更快）">
+            <Warning>#将导致桌面壁纸质量降低，影响视觉效果。</Warning>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="60"/>
+            </Applicable>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="60"/>
+            </Activate>
+          </Dropdown>
+          <Dropdown Name="#默认（推荐）">
+            <Applicable>
+              <Not>
+                <Or>
+                  <RegExist Key="HKEY_USERS\DEFAULT\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="60"/>
+                  <RegExist Key="HKEY_USERS\DEFAULT\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="100"/>
+                </Or>
+              </Not>
+            </Applicable>
+            <Activate>
+              <RegDelete Key="HKEY_USERS\DEFAULT\Control Panel\Desktop" Value="JPEGImportQuality"/>
+            </Activate>
+          </Dropdown>
+          <Dropdown Name="#高质量（更清晰）">
+            <Warning>#将增加系统资源消耗。</Warning>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="100"/>
+            </Applicable>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="100"/>
+            </Activate>
+          </Dropdown>
+        </Default>
+      </Item>
     </Group>
 
     <Group Name="#安全相关设置">
