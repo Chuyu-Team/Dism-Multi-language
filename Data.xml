@@ -7341,7 +7341,7 @@
     </Warning>
     <Warning ID="KB3184143">
       <zh-Hans>此更新已经用于删除Windows 10免费升级相关信息，但是目前Windows 10早就没有免费升级信息了，一般情况无需安装此更新。</zh-Hans>
-      <es>Esta actualización se ha utilizado para eliminar la información relacionada con la actualización gratuita de Windows 10, pero el actual Windows 10 durante mucho tiempo no dio información de actualización gratuita y generalmente no necesita instalar esta actualización.</es>
+      <es>Esta actualización se ha utilizado para eliminar la información relacionada con la actualización gratuita a Windows 10, pero en la actualidad la actualización a Windows 10 ya no es gratuita y generalmente no es necesario instalar esta actualización.</es>
     </Warning>
     <Warning ID="KB3161102">
       <zh-Hans>此更新会删除Windows日记本，如果你确实需要使用日记本，那么请勿安装此更新。</zh-Hans>
