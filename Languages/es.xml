@@ -370,7 +370,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="整合引导菜单" Link="Integrado en el menú de arranque BCD"/>
     <String Target="排除列表" Link="Lista excluidos"/>
     <String Target="减少映像文件（WIM、ESD）保存时间" Link="Reducir duración imagen (WIM y ESD) al guardar."/>
-    <String Target="CompactOS压缩率" Link="Ratio compresión compactar SO"/>
+    <String Target="CompactOS压缩率" Link="Ratio compresión de CompactOS"/>
     <String Target="压缩率越小性能越好（仅影响选中系统）" Link="Menor compresión, mejor rendimiento (sistema seleccionado)"/>
     <String Target="大约压缩33%（更佳性能）" Link="Comprimir 33% (rápido)"/>
     <String Target="大约压缩36%" Link="Comprimir 36%"/>
@@ -1117,7 +1117,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="使用利用NTFS硬链接特性合并所有文件内容相同的文件。" Link="Utilice el enlace NTFS para unir el mismo contenido del archivo."/>
     <String Target="某些文件被硬链接合并后可能导致相关功能无法正常使用。" Link="Algunos archivos unidos no funcionarán correctamente."/>
 
-    <String Target="CompactOs（较慢）" Link="SO compacto (más lento)"/>
+    <String Target="CompactOs（较慢）" Link="CompactOS (más lento)"/>
     <String Target="对单纯读取的文件进行哈夫曼压缩，在不影响性能的情况下，显著减少系统体积。特别感谢矿工以及所有Compact团队成员无私的支持与帮助。" Link="Archivo de sólo lectura con compresión Huffman, no tendrá ningún impacto en el rendimiento, reduce el volumen del sistema. Un agradecimiento especial y el apoyo desinteresado a los miembros del equipo de compactar."/>
     <String Target="使用后可能导致某些程序无法正常运行甚至让系统无法启动，如果使用后出现问题，可以在PE中点击 恢复功能-->撤销Compact。" Link="Después de aplicar esto, algunos programas funcionarán mal y el sistema podría fallar al iniciar. Más adelante puede solucionarlo usando Recuperar -> No compactar con WinPE"/>
     <String Target="此功能与某些硬盘备份软件不兼容。如果使用后出现问题，可以点击 恢复功能-->撤销Compact。" Link="Esta función no es compatible con algún programa de copia de seguridad. Si tiene problemas, puede usar Recuperar -> No compactar."/>
