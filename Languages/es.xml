@@ -462,7 +462,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="删除驱动" Link="Borrar"/>
     <String Target="添加驱动" Link="Añadir"/>
 
-    <String Target="是" Link="Si"/>
+    <String Target="是" Link="Sí"/>
     <String Target="否" Link="No"/>
 
     <String Target="正在加载驱动" Link="Cargando controlador"/>
@@ -569,7 +569,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
 
     <!--Appx管理-->
     <String Target="疑似损坏" Link="Tal vez dañado"/>
-    <String Target="正在删除Appx" Link="Eliminando Appx"/>
+    <String Target="正在删除Appx" Link="Eliminando aplicación"/>
     <String Target="删除Windows Store可能导致你未来无法下载或更新Appx，你确定要继续么？" Link="No podrás descargar o actualizar aplicaciones si eliminas Windows Store. ¿Continuar?"/>
     <String Target="删除Microsoft.XboxIdentityProvider可能导致Windows Store无法使用，你确定要继续么？" Link="El borrado de Microsoft.XboxIdentityProvider puede provocar que Windows Store no funcione. ¿Continuar?"/>
     <String Target="%s 等待超时，请尝试使用空间回收 - 过期Appx清理。" Link="%s de tiempo de espera, intente utilizar limpiar disco - para limpiar la aplicación."/>
@@ -588,7 +588,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="正在下载数据库" Link="Descargando la base de datos"/>
     <String Target="正在扫描更新" Link="Analizando las actualizaciones"/>
     <String Target="等待安装" Link="Esperando instalación"/>
-    <String Target="等待下载" Link="Esperando descargar"/>
+    <String Target="等待下载" Link="Esperando descarga"/>
     <String Target="下载失败" Link="Error al descargar"/>
     <String Target="安装失败" Link="Error"/>
     <String Target="部分成功" Link="Parcialmente exitosa"/>
