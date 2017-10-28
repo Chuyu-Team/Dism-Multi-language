@@ -439,7 +439,10 @@
         <Scan Type="Custom">
           <Applicable>
             <ImageFlags>1</ImageFlags>
-            <FileExist FilePath="%SystemRoot%\SoftwareDistribution\DeliveryOptimization"/>
+            <Or>
+              <FileExist FilePath="%SystemRoot%\SoftwareDistribution\DeliveryOptimization"/>
+              <FileExist FilePath="%SystemRoot%\DeliveryOptimization"/>
+            </Or>
           </Applicable>
           <Activate>
             <Custom ProcName="NCDOCacheOnlineCleanup"/>
