@@ -15,7 +15,7 @@
   <String Src="%OpenSourceStr%" Dst="¡El código abierto no es sólo una virtud, sino también un símbolo de fortaleza!. &lt;span onclick=&quot;window.location.href='https://github.com/Chuyu-Team'&quot; style=&quot;color:blue;cursor:pointer&quot;>Clic aquí&lt;/span> para ver el equipo de Chuyu en GitHub."/>
   <String Src="%SxSClean%" Dst="Limpieza de WinSxS"/>
   <String Src="%SxSCleanDes%" Dst="No debes preocuparte del espacio libre del disco durante la instalación de las actualizaciones."/>
-  <String Src="%CompactOS%" Dst="SO compacto"/>
+  <String Src="%CompactOS%" Dst="CompactOS"/>
   <String Src="%CompactOSDes%" Dst="Hay una reducción del 33% del espacio utilizado, sin racionalizar la imagen del SO."/>
   <String Src="%EsdSupport%" Dst="Soporte ESD"/>
   <String Src="%EsdSupportDes%" Dst="La conversión de ESD a ISO nunca ha sido tan fácil como ahora."/>
@@ -35,5 +35,5 @@
   <String Src="%ICP%" Dst=""/>
   <String Src="%Document%" Dst="Documentación de Dism++"/>
   <String Src="%logs%" Dst="Registro de cambios"/>
-  <String Src="%wsuscan2%" Dst="&quot;wsusscn2.cab&quot; es la base de datos para Windows Update. Puede usarlo al copiar o sobreescribir en la ruta &quot;Config\wsusscn2.cab&quot;."/>
+  <String Src="%wsuscan2%" Dst="&quot;wsusscn2.cab&quot; es la base de datos para Windows Update. Puedes usarlo al copiar o sobreescribir en &quot;Config\wsusscn2.cab&quot;."/>
 </Strings>
