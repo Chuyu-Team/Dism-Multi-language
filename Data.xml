@@ -5469,6 +5469,62 @@
           </False>
         </System>
       </Item>
+
+      <Item Type="CheckBox" Name="#禁用文件夹的“包含到库中”右键菜单（by choyri）">
+        <Applicable>
+          <Or>
+            <RegExist Key="HKEY_CLASSES_ROOT\Folder\shellex\ContextMenuHandlers\Library Location"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\Folder\shellex\-ContextMenuHandlers\Library Location"/>
+          </Or>
+        </Applicable>
+        <System>
+          <State>
+            <Applicable>
+              <Not>
+                <RegExist Key="HKEY_CLASSES_ROOT\Folder\shellex\ContextMenuHandlers\Library Location"/>
+              </Not>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegMove Key="HKEY_CLASSES_ROOT\Folder\shellex\ContextMenuHandlers\Library Location" NewKey="HKEY_CLASSES_ROOT\Folder\shellex\-ContextMenuHandlers\Library Location"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\Folder\shellex\ContextMenuHandlers\Library Location" Key="HKEY_CLASSES_ROOT\Folder\shellex\-ContextMenuHandlers\Library Location"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
+
+      <Item Type="CheckBox" Name="#禁用桌面的“NVIDIA 控制面板”右键菜单（by choyri）">
+        <Applicable>
+          <Or>
+            <RegExist Key="HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\NvCplDesktopContext"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\Directory\Background\shellex\-ContextMenuHandlers\NvCplDesktopContext"/>
+          </Or>
+        </Applicable>
+        <System>
+          <State>
+            <Applicable>
+              <Not>
+                <RegExist Key="HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\NvCplDesktopContext"/>
+              </Not>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegMove Key="HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\NvCplDesktopContext" NewKey="HKEY_CLASSES_ROOT\Directory\Background\shellex\-ContextMenuHandlers\NvCplDesktopContext"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\NvCplDesktopContext" Key="HKEY_CLASSES_ROOT\Directory\Background\shellex\-ContextMenuHandlers\NvCplDesktopContext"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
     </Group>
 
     <Group Name="#Microsoft Edge">
