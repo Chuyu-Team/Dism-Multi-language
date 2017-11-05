@@ -4590,7 +4590,8 @@
             <Activate>
               <RegMove NewKey="HKEY_CLASSES_ROOT\Directory\Background\ShellEx\ContextMenuHandlers\igfxDTCM" Key="HKEY_CLASSES_ROOT\Directory\Background\ShellEx\-ContextMenuHandlers\igfxDTCM" SkipError="2"/>
               <RegMove NewKey="HKEY_CLASSES_ROOT\Directory\Background\ShellEx\ContextMenuHandlers\igfxOSP" Key="HKEY_CLASSES_ROOT\Directory\Background\ShellEx\-ContextMenuHandlers\igfxOSP" SkipError="2"/>
-              <RegMove NewKey="HKEY_CLASSES_ROOT\Directory\Background\ShellEx\ContextMenuHandlers\igfxcui" Key="HKEY_CLASSES_ROOT\Directory\Background\ShellEx\-ContextMenuHandlers\igfxcui" SkipError="2"/>            </Activate>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\Directory\Background\ShellEx\ContextMenuHandlers\igfxcui" Key="HKEY_CLASSES_ROOT\Directory\Background\ShellEx\-ContextMenuHandlers\igfxcui" SkipError="2"/>
+            </Activate>
           </False>
         </System>
       </Item>
@@ -7387,6 +7388,28 @@
           <False>
             <Activate>
               <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" Value="ReportBootOk" Type="REG_SZ" Data="1"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
+
+      <Item Type="CheckBox" Name="#禁用WfpDiag.ETL日志（by powerxing04）">
+        <System>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BFE\Parameters\Policy\Options" Value="CollectNetEvents" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <ExplorerNotify Type="Cmd" Cmd="NETSH WFP SET OPTIONS NETEVENTS=OFF"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BFE\Parameters\Policy\Options" Value="CollectNetEvents" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <ExplorerNotify Type="Cmd" Cmd="NETSH WFP SET OPTIONS NETEVENTS=ON"/>
+              <RegDelete Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BFE\Parameters\Policy\Options" Value="CollectNetEvents"/>
             </Activate>
           </False>
         </System>
