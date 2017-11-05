@@ -5598,6 +5598,30 @@
           </False>
         </System>
       </Item>
+
+      <Item Type="CheckBox" Name="#关闭Adobe Flash即点即用">
+        <Applicable>
+          <OSVersion Compare=">=">10.0.15063</OSVersion>
+        </Applicable>
+        <System>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MicrosoftEdge\Security" Value="FlashClickToRunMode" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Warning>#此选项将降低计算机安全性，增加Adobe Flash的安全隐患！</Warning>
+            <Activate>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MicrosoftEdge\Security" Value="FlashClickToRunMode" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MicrosoftEdge\Security" Value="FlashClickToRunMode"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
     </Group>
     
     <Group Name="Internet Explorer">      
