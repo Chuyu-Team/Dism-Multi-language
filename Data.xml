@@ -2327,6 +2327,7 @@
       <Item Type="CheckBox" Name="#不允许在开始菜单显示建议">
         <Applicable>
           <OSVersion Compare=">=">10.0</OSVersion>
+          <OSVersion Compare="&lt;">10.0.16299</OSVersion>
         </Applicable>
         <Current>
           <State>
@@ -2363,7 +2364,51 @@
           </False>
         </Default>
       </Item>
-
+      
+      <Item Type="CheckBox" Name="#不允许在开始菜单显示建议（by powerxing04）">
+        <Applicable>
+          <OSVersion Compare=">=">10.0.16299</OSVersion>
+        </Applicable>
+        <Current>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SubscribedContent-338388Enabled" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SubscribedContent-338388Enabled" Type="REG_DWORD" Data="0"/>
+              <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SubscribedContent-338389Enabled" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SubscribedContent-338388Enabled"/>
+              <RegDelete Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SubscribedContent-338389Enabled" SkipError="2"/>
+            </Activate>
+          </False>
+        </Current>
+        <Default>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SubscribedContent-338388Enabled" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SubscribedContent-338388Enabled" Type="REG_DWORD" Data="0"/>
+              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SubscribedContent-338389Enabled" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SubscribedContent-338388Enabled"/>
+              <RegDelete Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SubscribedContent-338389Enabled" SkipError="2"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
+      
       <Item Type="CheckBox" Name="#关闭在应用商店中查找关联应用（by Asoft）">
         <Applicable>
           <OSVersion Compare=">=">6.2</OSVersion>
