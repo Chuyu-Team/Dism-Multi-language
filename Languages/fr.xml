@@ -7,8 +7,8 @@ Also some control characters should be preferably encoded as numeric character e
     <     Less than                    &lt;
     >     More than                    &gt;
     &     And                          &amp;
-    '     Single quotation mark        &apos;      ’ (apostrophe) or 'English quotes'
-    "     Double quotation mark        &quot;      "English quotes" or « French quotes »
+    '     Single quotation mark        &apos;      ’ (French apostrophe)
+    "     Double quotation mark        &quot;      « French guillemets »
     \t    Tabulation control           &#9;
     \n    Line feed (newline) control  &#xA;
     \r    Carriage return control      &#xD;
@@ -578,9 +578,9 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="%s 无法获取账号SID，错误代码：0x%.8X" Link="%s Impossible d’obtenir le compte SID, code d’erreur: 0x%.8X"/>
     <String Target="%s 所关联的用户（%s）无法删除，错误代码：0x%.8X" Link="%s Utilisateur associé (%s) ne peut pas être supprimé, code erreur : 0x%.8X"/>
     <String Target="%s 未关联任何用户。" Link="%s N’est pas associé à un utilisateur."/>
-    <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="Félicitations ! Suppression réussie. Cependant, certaines applications peuvent être des « Provisioned Appx », si certaines app propriétaires du système persistent, SVP utiliser « Provisioned Appx » pour les supprimer."/>
+    <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="Félicitations ! Suppression réussie. Cependant certaines applications peuvent être préinstallées sur le système : si certaines persistent, vous pouvez utiliser « Appx préinstallées » pour les supprimer."/>
     <String Target="User Appx" Link="Appx de l’utilisateur"/>
-    <String Target="Provisioned Appx" Link="Appx préinstallés"/>
+    <String Target="Provisioned Appx" Link="Appx préinstallées"/>
 
     <!--Windows Update-->
     <String Target="安装" Link="Installation"/>
