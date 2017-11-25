@@ -824,9 +824,9 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="优化非活动窗口标题栏颜色（by IT之家）" Link="Optimize the color of the inactive window title bar (by IT Home)"/>
 
     <String Target="*桌面壁纸质量调整为（by IT之家）" Link="*Change desktop wallpaper quality to (by ITHome)"/>
-      <String Target="低质量（更快）" Link="Low(Faster)"/>
+      <String Target="低质量（更快）" Link="Low (faster)"/>
       <String Target="默认（推荐）" Link="Default"/>
-      <String Target="高质量（更清晰）" Link="High(Clearer)"/>
+      <String Target="高质量（更清晰）" Link="High (clearer)"/>
 
     <String Target="关闭视频文件预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Disable video file preview to improve response time of Windows Explorer (by MoWangMoShi)"/>
     <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Disable audio file preview to improve response time of Windows Explorer (by MoWangMoShi)"/>
@@ -1220,8 +1220,8 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="清理可能导致无法正常卸载Office。" Link="After cleaning you cannot uninstall office normally probable."/>
 
     <String Target="苹果iTunes备份" Link="Apple iTunes Backup"/>
-    <String Target="苹果相关设备备份文件，比如通讯录、照片、视频等。" Link="The backup of iOS(or MAC). For example, contacts, photos, videos..."/>
-    <String Target="请你确保暂时不需要使用恢复功能，如果你现在需要恢复苹果设备，请勿勾选此项目！" Link="Please ensure you will not use the recovery function temporary. If you need to restore the iOS(or MAC)device, do not select this item!"/>
+    <String Target="苹果相关设备备份文件，比如通讯录、照片、视频等。" Link="The backup of iOS (or MAC). For example, contacts, photos, videos..."/>
+    <String Target="请你确保暂时不需要使用恢复功能，如果你现在需要恢复苹果设备，请勿勾选此项目！" Link="Please ensure you will not use the recovery function temporary. If you need to restore the iOS (or MAC) device, do not select this item!"/>
 
     <String Target="硬链接备份" Link="HardLink Backup"/>
     <String Target="硬链接合并功能留下的备份文件。" Link="Hardlink merge feature left the backup."/>
