@@ -201,9 +201,9 @@
       </Scan>
     </Item>
 
-    <Item Name="#Opera Browser浏览器老版本备份（by Jhovany200）" Level="2">
+    <Item Name="#Opera浏览器老版本备份（by Jhovany200）" Level="2">
       <!--2017-11-23 13:50添加-->
-      <Description>#Opera Browser浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。</Description>
+      <Description>#Opera浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。</Description>
       <Group>#过期文件</Group>
       <Scan>
         <Applicable>
