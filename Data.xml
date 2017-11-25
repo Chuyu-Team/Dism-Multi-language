@@ -201,6 +201,37 @@
       </Scan>
     </Item>
 
+    <Item Name="#Opera Browser浏览器老版本备份（by Jhovany200）" Level="2">
+      <!--2017-11-23 13:50添加-->
+      <Description>#Opera Browser浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。</Description>
+      <Group>#过期文件</Group>
+      <Scan>
+        <Applicable>
+          <ImageFlags>1</ImageFlags>
+          <Or>
+            <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\App Paths\opera.exe" Value="Path"/>
+            <RegExist Key="HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\opera.exe" Value="Path"/>
+          </Or>
+        </Applicable>
+        <Applicable_1>
+          <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\App Paths\opera.exe" Value="Path"/>
+        </Applicable_1>
+        <Applicable_2>
+          <RegExist Key="HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\opera.exe" Value="Path"/>
+        </Applicable_2>
+        <Activate>
+          <General RootPath="?GetRegSz(HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\App Paths\opera.exe,Path)" Flags="Directory" ID="Applicable_1">
+            <Query>*.*.*.*</Query>
+            <Excluded>?GetFileVersion(%Root%opera.exe)</Excluded>`
+          </General>
+          <General RootPath="?GetRegSz(HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\opera.exe,Path)" Flags="Directory" ID="Applicable_2">
+            <Query>*.*.*.*</Query>
+            <Excluded>?GetFileVersion(%Root%opera.exe)</Excluded>
+          </General>
+        </Activate>
+      </Scan>
+    </Item>
+    
     <Item Name="#PPLive老版本备份（by 何超）" Level="2">
       <!--2016-04-19 14:32添加-->
       <Description>#PPLive在升级到新版本后留下的备份文件，在故障时回滚到老版本。</Description>
