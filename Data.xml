@@ -7280,11 +7280,19 @@
       <Item Type="CheckBox" Name="#关闭快速启动">
         <Applicable>
           <OSVersion Compare=">=">6.2</OSVersion>
+          <Not>
+            <!--VHD装载、PE系统不显示-->
+            <ImageFlags>50</ImageFlags>
+          </Not>
         </Applicable>
         <System>
           <State>
             <Applicable>
-              <RegExist Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power" Value="HiberbootEnabled" Type="REG_DWORD" Data="0"/>
+              <Or>
+                <!--关闭休眠 或者 指定关闭快速启动都认为关闭了快速启动-->
+                <RegExist Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power" Value="HibernateEnabled" Type="REG_DWORD" Data="0"/>
+                <RegExist Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power" Value="HiberbootEnabled" Type="REG_DWORD" Data="0"/>
+              </Or>
             </Applicable>
           </State>
           <True>
@@ -7295,6 +7303,11 @@
           </True>
           <False>
             <Activate>
+              <!--先尝试开启休眠-->
+              <ExplorerNotify Type="Cmd" Cmd="powercfg -hibernate on"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power" Value="HibernateEnabled" Type="REG_DWORD" Data="1"/>
+
+              <!--开启快速启动-->
               <RegWrite Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power" Value="HiberbootEnabled" Type="REG_DWORD" Data="1"/>
             </Activate>
           </False>
@@ -7302,23 +7315,29 @@
       </Item>
 
       <Item Type="CheckBox" Name="#关闭休眠（by powerxing04）">
+        <Applicable>
+          <Not>
+            <!--VHD装载、PE系统不显示-->
+            <ImageFlags>50</ImageFlags>
+          </Not>
+        </Applicable>
         <System>
           <State>
             <Applicable>
-              <RegExist Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power" Value="HibernateEnabled" Type="REG_DWORD" Data="0"/>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power" Value="HibernateEnabled" Type="REG_DWORD" Data="0"/>
             </Applicable>
           </State>
           <True>
             <Warning>#关闭休眠后将导致快速启动以及混合休眠不可用，这样将增加断电丢失数据的风险！</Warning>
             <Activate>
               <ExplorerNotify Type="Cmd" Cmd="powercfg -hibernate off"/>
-              <RegWrite Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power" Value="HibernateEnabled" Type="REG_DWORD" Data="0"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power" Value="HibernateEnabled" Type="REG_DWORD" Data="0"/>
             </Activate>
           </True>
           <False>
             <Activate>
               <ExplorerNotify Type="Cmd" Cmd="powercfg -hibernate on"/>
-              <RegWrite Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power" Value="HibernateEnabled" Type="REG_DWORD" Data="1"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power" Value="HibernateEnabled" Type="REG_DWORD" Data="1"/>
             </Activate>
           </False>
         </System>
