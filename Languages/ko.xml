@@ -581,6 +581,7 @@ Special thanks to OldMac, Schooli, 阿泽西
     <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="축하합니다! 삭제가 성공적으로 완료되었습니다. 그러나 일부 응용프로그램이 중복될 수 있으므로, 일부 응용프로그램이 계속 실행될 경우에는 Provisioned Appx를 사용하여 삭제하십시오."/>
     <String q="" Target="User Appx" Link="User Appx"/>
     <String q="" Target="Provisioned Appx" Link="Provisioned Appx"/>
+    <String q="" Target="删除Microsoft.StorePurchaseApp可能导致Windows Store无法使用，你确定要继续么？" Link="Removing Microsoft.StorePurchaseApp may cause Windows Store unusable. Sure to proceed?"/>
 
    <!--Windows Update-->
     <String Target="安装" Link="설치"/>
@@ -778,6 +779,7 @@ Special thanks to OldMac, Schooli, 阿泽西
     <String Target="使任务栏更透明（by 518516.net）" Link="작업표시줄 투명하게 사용 (by 518516.net)"/>
 
     <String Target="不允许在开始菜单显示建议" Link="시작 메뉴에서 추천(제안) 사용 안함"/>
+    <String Target="不允许在开始菜单显示建议（by powerxing04）" Link="시작 메뉴에서 추천(제안) 사용 안함 (by powerxing04)"/>
 
     <String Target="在桌面显示我的电脑（by Rambin）" Link="바탕화면에 내 컴퓨터 보이기 (by Rambin)"/>
       <String Target="跟随系统" Link="시스템 따라가기"/>
@@ -820,6 +822,11 @@ Special thanks to OldMac, Schooli, 阿泽西
     <String Target="隐藏资源管理器导航窗口中的网络" Link="Windows 탐색기 탐색창에 네트워크 숨기기"/>
 
     <String Target="优化非活动窗口标题栏颜色（by IT之家）" Link="비활성 창 제목표시줄 색상 최적화 (by IT Home)"/>
+
+    <String q="" Target="*桌面壁纸质量调整为（by IT之家）" Link="Change desktop wallpaper quality to (by ITHome)"/>
+      <String q="" Target="低质量（更快）" Link="Low(Faster)"/>
+      <String q="" Target="默认（推荐）" Link="Default"/>
+      <String q="" Target="高质量（更清晰）" Link="High(Clearer)"/>
 
     <String Target="关闭视频文件预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="비디오파일 미리보기 닫고 탐색기 응답 속도를 높이다 (by MoWangMoShi)"/>
     <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="음악파일 이미지 미리 보기 닫고 탐색기 응답 속도를 높이다 (by MoWangMoShi)"/>
@@ -891,6 +898,9 @@ Special thanks to OldMac, Schooli, 阿泽西
 
     <!--Microsoft Edge-->
     <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Microsoft Edge &quot;첫 번째 실행&quot; 을 열지 못하게 함 (by ITHome)"/>
+
+    <String q="" Target="关闭Adobe Flash即点即用" Link="Disable Adobe Flash right click"/>
+      <String q="" Target="此选项将降低计算机安全性，增加Adobe Flash的安全隐患！" Link="This item will reduce the computer security."/>
 
     <!--微软拼音输入法-->
     <String Target="微软拼音输入法" Link="Microsoft 병음입력기"/>
@@ -986,6 +996,9 @@ Special thanks to OldMac, Schooli, 阿泽西
     <String Target="关闭快速启动" Link="빠른 시작 닫기"/>
       <String Target="关闭快速启动将导致系统启动速度变慢！" Link="빠른시작을 사용정지 하시면 시스템에 대한 시작 속도가 느려 집니다."/>
 
+    <String q="" Target="关闭休眠（by powerxing04）" Link="Disable Hibernate ( by powerxing04 )"/>
+      <String q="" Target="关闭休眠后将导致快速启动以及混合休眠不可用，这样将增加断电丢失数据的风险！" Link="Will result in Hiberboot and Hybrid Hibernation not available!"/>
+
     <String Target="禁用组件堆栈（Component Based Servicing）日志" Link="구성요소 스택 로그 금지"/>
 
     <String Target="禁用更新解压模块（Delta Package Expander）日志" Link="압축 푼 모듈 엡데이트 로그 금지 (Delta Package Expander)"/>
@@ -1031,6 +1044,10 @@ Special thanks to OldMac, Schooli, 阿泽西
     <String Target="登陆界面默认打开小键盘（by IT之家）" Link="로그인 시 키패드 사용 (by ITHome)"/>
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="구성요소 기반 서비스 백업 사용 안함"/>
     <String q="" Target="任务栏时钟精确到秒（by Luupw3d）" Link="Taskbar clock did display seconds (by Luupw3d)"/>
+
+    <String q="" Target="禁用WfpDiag.ETL日志（by powerxing04）" Link="Disable WfpDiag ETL log (by powerxing04)"/>
+    <String q="" Target="禁用文件夹的“包含到库中”右键菜单（by choyri）" Link="Disable &quot;Included in the library&quot; context menu on directory (by choyri)"/>
+    <String q="" Target="禁用桌面的“NVIDIA 控制面板”右键菜单（by choyri）" Link="Disable &quot;NVIDIA Control Panel&quot; context menu on desktop (by choyri)"/>
     <!--系统优化已经结束-->
 
     <!--Dism++更新程序-->
@@ -1286,6 +1303,9 @@ Special thanks to OldMac, Schooli, 阿泽西
 
     <String Target="Chrome浏览器老版本备份（by Honry）" Link="크롬브라우저 이전 버전 백업 (by Honry)"/>
     <String Target="Chrome浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="크롬브라우저 업데이트할때 남긴 백업 파일입니다.오류가 생길경우 이전 버전으로 돌아갑니다."/>
+
+    <String q="" Target="Opera浏览器老版本备份（by Jhovany200）" Link="Backup files of Opera Web Browser old version (by Jhovany200)"/>
+    <String q="" Target="Opera浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Backup files of Opera Web Browser after upgrade, for rollback in case of problems."/>
 
     <String Target="Microsoft .NET安装缓存（by 撕裂五维空间）" Link="Microsoft .NET 설치 캐시 (by SiLieWuWeiKongJian)"/>
     <String Target="安装Microsoft .NET补丁残留的安装缓存。" Link="Microsoft .NET 패치를 설치시 남긴 설치 캐시"/>

@@ -579,8 +579,9 @@ Special Thanks to 山形まり花
     <String Target="%s 所关联的用户（%s）无法删除，错误代码：0x%.8X" Link="%s の関連付けてユーザー（%s）削除されません、エラー コード：0x%.8X"/>
     <String Target="%s 未关联任何用户。" Link="%s は任意のユーザーを関連されません。"/>
     <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="削除完了しました！でもいくつかのアプリは Provisioned Appx です、もしアプリの所有者は SYSTEM、および削除できませんの場合は、Provisioned Appx に削除してください。"/>
-    <String q="" Target="User Appx" Link="User Appx"/>
-    <String q="" Target="Provisioned Appx" Link="Provisioned Appx"/>
+    <String Target="User Appx" Link="ユーザー アプリ"/>
+    <String Target="Provisioned Appx" Link="プロビジョニング アプリ"/>
+    <String q="" Target="删除Microsoft.StorePurchaseApp可能导致Windows Store无法使用，你确定要继续么？" Link="Removing Microsoft.StorePurchaseApp may cause Windows Store unusable. Sure to proceed?"/>
 
     <!--Windows Update-->
     <String Target="安装" Link="インストール"/>
@@ -778,6 +779,7 @@ Special Thanks to 山形まり花
     <String Target="使任务栏更透明（by 518516.net）" Link="タスク バーをもっと透明による (by 518516.net)"/>
 
     <String Target="不允许在开始菜单显示建议" Link="スタート画面におすすめを表示しない"/>
+    <String Target="不允许在开始菜单显示建议（by powerxing04）" Link="スタート画面におすすめを表示しない (by powerxing04)"/>
 
     <String Target="在桌面显示我的电脑（by Rambin）" Link="マイ コンピューターをデスクトップに表示する (by Rambin)"/>
       <String Target="跟随系统" Link="システムの設定を継承"/>
@@ -821,6 +823,11 @@ Special Thanks to 山形まり花
 
     <String Target="优化非活动窗口标题栏颜色（by IT之家）" Link="非アクティブ ウィンドウの色を最適化（By ITHome）"/>
 
+    <String q="" Target="*桌面壁纸质量调整为（by IT之家）" Link="Change desktop wallpaper quality to (by ITHome)"/>
+      <String q="" Target="低质量（更快）" Link="Low(Faster)"/>
+      <String q="" Target="默认（推荐）" Link="Default"/>
+      <String q="" Target="高质量（更清晰）" Link="High(Clearer)"/>
+
     <String Target="关闭视频文件预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="ビデオ プレビューを無効し、エクスプローラーのパフォーマンスを改善する（by 莫失莫忘）"/>
     <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="ミュージックと写真のプレビューを無効し、エクスプローラーのパフォーマンスを改善する（by 莫失莫忘）"/>
     <String Target="关闭打开程序的“安全警告”（by 莫失莫忘）" Link="プログラム開くの [セキュリティの警告] を閉じる（by 莫失莫忘）"/>
@@ -853,8 +860,8 @@ Special Thanks to 山形まり花
     <String Target="禁用桌面的“小工具”右键菜单" Link="右クリック メニューのデスクトップの [ウィジェット] を無効化"/>
     <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="右クリック メニューのファイルの [View 3D] を無効化"/>
     <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="右クリック メニューのファイルの [ペイント 3D] を無効化"/>
-    <String q="" Target="禁用所有对象的“共享”右键菜单" Link="Disable the &quot;Share&quot; context menu on all objects"/>
-    <String q="" Target="禁用文件、目录、桌面、磁盘以及库的“授予访问权限”右键菜单" Link="Disable &quot;Grant Access&quot; context menu on files, folders, desktop, disks and libraries"/>
+    <String Target="禁用所有对象的“共享”右键菜单" Link="右クリック メニューのすべて対象の [共有] を無効化"/>
+    <String Target="禁用文件、目录、桌面、磁盘以及库的“授予访问权限”右键菜单" Link="右クリック メニューのファイル、フォルダー、デスクトップ、ディスクおよびライブラリの [アクセス許可] を無効化"/>
 
     <!--桌面图示管理-->
     <String Target="桌面图标管理" Link="デスクトップ アイコンの設定"/>
@@ -891,6 +898,9 @@ Special Thanks to 山形まり花
 
     <!--Microsoft Edge-->
     <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Microsoft Edge の最初の実行ページを表示しない (by ITHome)"/>
+
+    <String q="" Target="关闭Adobe Flash即点即用" Link="Disable Adobe Flash right click"/>
+      <String q="" Target="此选项将降低计算机安全性，增加Adobe Flash的安全隐患！" Link="This item will reduce the computer security."/>
 
     <!--微软拼音输入法-->
     <String Target="微软拼音输入法" Link="Microsoft Pinyin 入力方法"/>
@@ -986,6 +996,9 @@ Special Thanks to 山形まり花
     <String Target="关闭快速启动" Link="クイック スタート無効化"/>
       <String Target="关闭快速启动将导致系统启动速度变慢！" Link="無効して、より長いのシステム起動時間が必要です。"/>
 
+    <String q="" Target="关闭休眠（by powerxing04）" Link="Disable Hibernate ( by powerxing04 )"/>
+      <String q="" Target="关闭休眠后将导致快速启动以及混合休眠不可用，这样将增加断电丢失数据的风险！" Link="Will result in Hiberboot and Hybrid Hibernation not available!"/>
+
     <String Target="禁用组件堆栈（Component Based Servicing）日志" Link="コンポーネント ベース サービスのログ無効化"/>
 
     <String Target="禁用更新解压模块（Delta Package Expander）日志" Link="デルタ パッケージを解凍機能のログ無効化"/>
@@ -1031,6 +1044,10 @@ Special Thanks to 山形まり花
     <String Target="登陆界面默认打开小键盘（by IT之家）" Link="ログイン画面で NumLock キーをオンする。（by ITHome）"/>
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Component Based Servicing ファイル バックアップ無効化"/>
     <String Target="任务栏时钟精确到秒（by Luupw3d）" Link="タスク バーの時刻で秒を表示する（by Luupw3d）"/>
+
+    <String q="" Target="禁用WfpDiag.ETL日志（by powerxing04）" Link="Disable WfpDiag ETL log (by powerxing04)"/>
+    <String q="" Target="禁用文件夹的“包含到库中”右键菜单（by choyri）" Link="Disable &quot;Included in the library&quot; context menu on directory (by choyri)"/>
+    <String q="" Target="禁用桌面的“NVIDIA 控制面板”右键菜单（by choyri）" Link="Disable &quot;NVIDIA Control Panel&quot; context menu on desktop (by choyri)"/>
     <!--系统优化已经结束-->
 
     <!--Dism++更新程序-->
@@ -1274,33 +1291,36 @@ Special Thanks to 山形まり花
     <String Target="删除后更新历史记录将被清空。" Link="After you deleting it, the update history will be cleared."/>
 
     <String Target="Microsoft SQL Server更新缓存（by Honry、撕裂五维空间）" Link="Microsoft SQL Server 更新キャッシュ (by Honry, SiLieWuWeiKongJian)"/>
-    <String Target="安装Microsoft SQL Server补丁残留的安装缓存。" Link="If you install microsoft SQL Server, the program leave the install cache."/>
-    <String Target="此条目最新添加，可能引发意外问题！" Link="This funtion is added at last, may lead to unexpected issue!"/>
+    <String q="" Target="安装Microsoft SQL Server补丁残留的安装缓存。" Link="If you install microsoft SQL Server, the program leave the install cache."/>
+    <String q="" Target="此条目最新添加，可能引发意外问题！" Link="This funtion is added at last, may lead to unexpected issue!"/>
 
     <String Target="Adobe Acrobat安装源缓存（by Honry）" Link="Adobe Acrobat ドライバーのインストール元キャッシュ (by Honry)"/>
-    <String Target="安装Adobe Acrobat后留下的安装缓存。" Link="After you installing Adobe Acrobat, the program left the installation source cache."/>
-    <String Target="删除此条目可能导致Adobe Acrobat无法正常卸载！" Link="Select this entry impact you uninstall Adobe Acrobat probably!"/>
+    <String q="" Target="安装Adobe Acrobat后留下的安装缓存。" Link="After you installing Adobe Acrobat, the program left the installation source cache."/>
+    <String q="" Target="删除此条目可能导致Adobe Acrobat无法正常卸载！" Link="Select this entry impact you uninstall Adobe Acrobat probably!"/>
 
     <String Target="小红伞临时文件" Link="Avira 一時ファイル"/>
     <String Target="小红伞在自动升级过程中残留的临时文件。" Link="Avira leaves the temporary files if avira automatic update."/>
 
     <String Target="Chrome浏览器老版本备份（by Honry）" Link="以前バージョンの Chrome Web ブラウザー バックアップ (by Honry)"/>
-    <String Target="Chrome浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Backup files of Chrome Web Browser after upgrade, for rollback in case of problems."/>
+    <String q="" Target="Chrome浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Backup files of Chrome Web Browser after upgrade, for rollback in case of problems."/>
+
+    <String Target="Opera浏览器老版本备份（by Jhovany200）" Link="以前バージョンの Opera Web ブラウザー バックアップ (by Jhovany200)"/>
+    <String q="" Target="Opera浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Backup files of Opera Web Browser after upgrade, for rollback in case of problems."/>
 
     <String Target="Microsoft .NET安装缓存（by 撕裂五维空间）" Link="Microsoft .NET インストール キャッシュ (by SiLieWuWeiKongJian)"/>
     <String Target="安装Microsoft .NET补丁残留的安装缓存。" Link="When the programs install patches for microsoft .NET, the program leaves some cache."/>
 
     <String Target="PPLive老版本备份（by 何超）" Link="以前バージョンの PPLive バックアップ (by HeChao)"/>
-    <String Target="PPLive在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Backup files of PPLive after upgrade, for rollback in case of problems."/>
+    <String q="" Target="PPLive在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Backup files of PPLive after upgrade, for rollback in case of problems."/>
 
     <String Target="酷狗音乐老版本备份（by 何超）" Link="以前バージョンの Kugou Music バックアップ (by HeChao)"/>
-    <String Target="酷狗音乐在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Backup files of Kugou Music after upgrade, for rollback in case of problems."/>
+    <String q="" Target="酷狗音乐在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Backup files of Kugou Music after upgrade, for rollback in case of problems."/>
 
     <String Target="2345拼音输入法老版本备份（by 何超）" Link="以前バージョンの 2345 Pinyin IME バックアップ (by HeChao)"/>
-    <String Target="2345拼音输入法在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Backup files of 2345 Pinyin IME after upgrade, for rollback in case of problems."/>
+    <String q="" Target="2345拼音输入法在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Backup files of 2345 Pinyin IME after upgrade, for rollback in case of problems."/>
 
     <String Target="WPS老版本备份（by Rambin）" Link="以前バージョンの WPS バックアップ (by Rambin)"/>
-    <String Target="WPS在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Backup files of WPS after upgrade, for rollback in case of problems."/>
+    <String q="" Target="WPS在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Backup files of WPS after upgrade, for rollback in case of problems."/>
 
     <String Target="系统还原点" Link="システムの復元ポイント"/>
     <String Target="先删除全部还原点，再创建一个新的还原点(当系统还原已启用时)" Link="すべて対象の復元ポイントを削除し、新しいの復元ポイントを作成します。（システムの復元機能有効のみ）"/>
@@ -1375,7 +1395,7 @@ Special Thanks to 山形まり花
     <xA0020006>このシステムは Wow64 のサポートしません、非 64 ビット システムはオフライン ハンドルできません。</xA0020006>
     <xA0020007>必要なファイル CBSHost.dll は存在しません。Dism++ の整合性を確認ください。</xA0020007>
     <xA0020008>rundll32.exe は存在しません。Dism++ は実行できません。</xA0020008>
-    <xA0020009 q="">Dism++会话崩溃，如果频繁发生此问题可以联系小鸭子（mingkuang@live.com）协助解决此问题。</xA0020009>
+    <xA0020009>Dism++ はクラッシュしました、この問題が頻繫な発生ある場合は、mingkuang@live.com に送信ください。</xA0020009>
     <xA002000A>Dism++ は既知の互換性の問題が検出されました、続行して、KB960037をインストールしてください。</xA002000A>
 
     <x20020001>このイメージの既定の関連付けは存在しません、エクスポートは利用できません。</x20020001>

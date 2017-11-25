@@ -580,6 +580,7 @@
     <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="恭喜你刪除成功！但是某些應用程式可能屬於 Provisioned Appx，如果你遇到某個 App 所有者是 SYSTEM，而且一直刪不掉，那麼你需要使用 Provisioned Appx 刪除它們。"/>
     <String Target="User Appx" Link="使用者 Appx"/>
     <String Target="Provisioned Appx" Link="預裝 Appx"/>
+    <String q="" Target="删除Microsoft.StorePurchaseApp可能导致Windows Store无法使用，你确定要继续么？" Link="删除Microsoft.StorePurchaseApp可能导致Windows Store无法使用，你确定要继续么？"/>
 
     <!--Windows Update-->
     <String Target="安装" Link="安裝"/>
@@ -777,6 +778,7 @@
     <String Target="使任务栏更透明（by 518516.net）" Link="使工作列更透明 (by 518516.net)"/>
 
     <String Target="不允许在开始菜单显示建议" Link="不允許在 [開始] 顯示建議"/>
+    <String Target="不允许在开始菜单显示建议（by powerxing04）" Link="不允許在 [開始] 顯示建議 (by powerxing04)"/>
 
     <String Target="在桌面显示我的电脑（by Rambin）" Link="在桌面顯示我的電腦 (by Rambin)"/>
       <String Target="跟随系统" Link="隨著系統"/>
@@ -819,6 +821,11 @@
     <String Target="隐藏资源管理器导航窗口中的网络" Link="隱藏檔案總管導覽視窗中的網路"/>
 
     <String Target="优化非活动窗口标题栏颜色（by IT之家）" Link="最佳化非使用中視窗標題列顏色 (by IT之家)"/>
+
+    <String q="" Target="*桌面壁纸质量调整为（by IT之家）" Link="*桌面壁纸质量调整为（by IT之家）"/>
+      <String q="" Target="低质量（更快）" Link="低质量（更快）"/>
+      <String q="" Target="默认（推荐）" Link="默认（推荐）"/>
+      <String q="" Target="高质量（更清晰）" Link="高质量（更清晰）"/>
 
     <String Target="关闭视频文件预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="關閉影片檔案預覽，提高檔案總管反應能力 (by ‍莫失莫忘)"/>
     <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="關閉音樂檔的圖片預覽，提高檔案總管反應能力 (by ‍莫失莫忘)"/>
@@ -890,6 +897,9 @@
 
     <!--Microsoft Edge-->
     <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="阻止 Microsoft Edge「首次執行」歡迎頁面（by IT之家）"/>
+
+    <String q="" Target="关闭Adobe Flash即点即用" Link="关闭Adobe Flash即点即用"/>
+      <String q="" Target="此选项将降低计算机安全性，增加Adobe Flash的安全隐患！" Link="此选项将降低计算机安全性，增加Adobe Flash的安全隐患！"/>
 
     <!--微軟拼音輸入法-->
     <String Target="微软拼音输入法" Link="微軟拼音輸入法"/>
@@ -983,7 +993,10 @@
     <String Target="蓝屏时自动重启（by 原罪）" Link="藍色畫面當機時自動重新啟動 (by 原罪)"/>
 
     <String Target="关闭快速启动" Link="關閉快速啟動"/>
-    <String Target="关闭快速启动将导致系统启动速度变慢！" Link="關閉快速啟動將導致系統啟動速度變慢！"/>
+      <String Target="关闭快速启动将导致系统启动速度变慢！" Link="關閉快速啟動將導致系統啟動速度變慢！"/>
+
+    <String q="" Target="关闭休眠（by powerxing04）" Link="关闭休眠（by powerxing04）"/>
+      <String q="" Target="关闭休眠后将导致快速启动以及混合休眠不可用，这样将增加断电丢失数据的风险！" Link="关闭休眠后将导致快速启动以及混合休眠不可用，这样将增加断电丢失数据的风险！"/>
 
     <String Target="禁用组件堆栈（Component Based Servicing）日志" Link="停用元件堆疊 (Component Based Servicing) 日誌"/>
 
@@ -1030,6 +1043,10 @@
     <String Target="登陆界面默认打开小键盘（by IT之家）" Link="登入介面預設開啟小鍵盤 (by IT之家)"/>
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="禁用元件堆疊 (Component Based Servicing) 檔案備份"/>
     <String Target="任务栏时钟精确到秒（by Luupw3d）" Link="工具列時鐘精確到秒 (by Luupw3d)"/>
+
+    <String Target="禁用WfpDiag.ETL日志（by powerxing04）" Link="停用WfpDiag.ETL日誌 (by powerxing04)"/>
+    <String q="" Target="禁用文件夹的“包含到库中”右键菜单（by choyri）" Link="禁用文件夹的“包含到库中”右键菜单（by choyri）"/>
+    <String q="" Target="禁用桌面的“NVIDIA 控制面板”右键菜单（by choyri）" Link="禁用桌面的“NVIDIA 控制面板”右键菜单（by choyri）"/>
     <!--系統最佳化已經結束-->
 
     <!--Dism++ 更新程序-->
@@ -1285,6 +1302,9 @@
 
     <String Target="Chrome浏览器老版本备份（by Honry）" Link="Chrome 瀏覽器舊版本備份 (by Honry)"/>
     <String Target="Chrome浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Chrome 瀏覽器升級到新版本後留下的備份檔案，在故障時復原到舊版本。"/>
+
+    <String Target="Opera浏览器老版本备份（by Jhovany200）" Link="Opera瀏覽器舊版本備份 (by Jhovany200)"/>
+    <String Target="Opera浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Opera瀏覽器升級到新版本後留下的備份檔案，在故障時復原到舊版本。"/>
 
     <String Target="Microsoft .NET安装缓存（by 撕裂五维空间）" Link="Microsoft .NET 安裝快取 (by 撕裂五維空間)"/>
     <String Target="安装Microsoft .NET补丁残留的安装缓存。" Link="安裝 Microsoft .NET 更新後，殘留的暫存檔案。"/>
