@@ -581,7 +581,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="Félicitations ! Suppression réussie. Cependant certaines applications peuvent être préinstallées sur le système : si certaines persistent, vous pouvez utiliser « Appx préinstallées » pour les supprimer."/>
     <String Target="User Appx" Link="Appx de l’utilisateur"/>
     <String Target="Provisioned Appx" Link="Appx préinstallées"/>
-    <String q="" Target="删除Microsoft.StorePurchaseApp可能导致Windows Store无法使用，你确定要继续么？" Link="Removing Microsoft.StorePurchaseApp may cause Windows Store unusable. Sure to proceed?"/>
+    <String Target="删除Microsoft.StorePurchaseApp可能导致Windows Store无法使用，你确定要继续么？" Link="La suppression de Microsoft.StorePurchaseApp peut rendre le Windows Store inutilisable. Voulez-vous vraiment continuer?"/>
 
     <!--Windows Update-->
     <String Target="安装" Link="Installation"/>
@@ -823,10 +823,10 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
 
     <String Target="优化非活动窗口标题栏颜色（by IT之家）" Link="Optimiser la couleur de la barre de titre de la fenêtre inactive (par IT Home)"/>
 
-    <String q="" Target="*桌面壁纸质量调整为（by IT之家）" Link="Change desktop wallpaper quality to (by ITHome)"/>
-      <String q="" Target="低质量（更快）" Link="Low(Faster)"/>
-      <String q="" Target="默认（推荐）" Link="Default"/>
-      <String q="" Target="高质量（更清晰）" Link="High(Clearer)"/>
+    <String Target="*桌面壁纸质量调整为（by IT之家）" Link="Régler la qualité de rendu du papier peint du bureau (par ITHome)"/>
+      <String Target="低质量（更快）" Link="Basse (plus rapide)"/>
+      <String Target="默认（推荐）" Link="Par défaut"/>
+      <String Target="高质量（更清晰）" Link="Haute (plus précis)"/>
 
     <String Target="关闭视频文件预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Désactiver l’aperçu vidéo pour améliorer le temps de réponse de l’Explorateur Windows (par MoWangMoShi)"/>
     <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Désactiver l’aperçu audio pour améliorer le temps de réponse de l’Explorateur Windows (par MoWangMoShi)"/>
@@ -899,8 +899,8 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <!--Microsoft Edge-->
     <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Empêcher Microsoft Edge d’ouvrir « Première exécution » (par ITHome)"/>
 
-    <String q="" Target="关闭Adobe Flash即点即用" Link="Disable Adobe Flash right click"/>
-      <String q="" Target="此选项将降低计算机安全性，增加Adobe Flash的安全隐患！" Link="This item will reduce the computer security."/>
+    <String Target="关闭Adobe Flash即点即用" Link="Désactiver le clic d’activation d’Adobe Flash"/>
+      <String Target="此选项将降低计算机安全性，增加Adobe Flash的安全隐患！" Link="Cette désactivation réduira la sécurité de l’ordinateur."/>
 
     <!--微软拼音输入法-->
     <String Target="微软拼音输入法" Link="Méthode de saisie pinyin de Microsoft"/>
@@ -996,8 +996,8 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="关闭快速启动" Link="Désactiver le démarrage rapide"/>
       <String Target="关闭快速启动将导致系统启动速度变慢！" Link="Désactiver le démarrage rapide peut allonger les temps de démarrage du système."/>
 
-    <String q="" Target="关闭休眠（by powerxing04）" Link="Disable Hibernate ( by powerxing04 )"/>
-      <String q="" Target="关闭休眠后将导致快速启动以及混合休眠不可用，这样将增加断电丢失数据的风险！" Link="Will result in Hiberboot and Hybrid Hibernation not available!"/>
+    <String Target="关闭休眠（by powerxing04）" Link="Désactiver l’hibernation (par powerxing04)"/>
+      <String Target="关闭休眠后将导致快速启动以及混合休眠不可用，这样将增加断电丢失数据的风险！" Link="L'arrêt avec redémarrage rapide et la veille prolongée (hibernation hydride) ne seront plus disponibles !"/>
 
     <String Target="禁用组件堆栈（Component Based Servicing）日志" Link="Désactiver les journaux de réparation des composants"/>
 
@@ -1045,9 +1045,9 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Désactiver la sauvegarde de CBS (Component Based Servicing)"/>
     <String Target="任务栏时钟精确到秒（by Luupw3d）" Link="Afficher les secondes sur l’horloge de la barre des tâches (par Luupw3d)"/>
 
-    <String q="" Target="禁用WfpDiag.ETL日志（by powerxing04）" Link="Disable WfpDiag ETL log (by powerxing04)"/>
-    <String q="" Target="禁用文件夹的“包含到库中”右键菜单（by choyri）" Link="Disable &quot;Included in the library&quot; context menu on directory (by choyri)"/>
-    <String q="" Target="禁用桌面的“NVIDIA 控制面板”右键菜单（by choyri）" Link="Disable &quot;NVIDIA Control Panel&quot; context menu on desktop (by choyri)"/>
+    <String Target="禁用WfpDiag.ETL日志（by powerxing04）" Link="Désactiver le journal WfpDiag.ETL du pare-feu Windows (par powerxing04)"/>
+    <String Target="禁用文件夹的“包含到库中”右键菜单（by choyri）" Link="Désactiver le menu contextuel &quot;Inclure dans la bibliothèque&quot; sur un dossier (par choyri)"/>
+    <String Target="禁用桌面的“NVIDIA 控制面板”右键菜单（by choyri）" Link="Désactiver le menu contextuel &quot;Panneau de contrôle NVIDIA&quot; sur le bureau (par choyri)"/>
     <!--系统优化已经结束-->
 
     <!--Dism++更新程序-->
