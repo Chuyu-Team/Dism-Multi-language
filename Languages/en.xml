@@ -996,7 +996,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="关闭快速启动" Link="Disable Hiberboot"/>
       <String Target="关闭快速启动将导致系统启动速度变慢！" Link="Disabling Hiberboot prolongs startup time of the system."/>
 
-    <String Target="关闭休眠（by powerxing04）" Link="Disable Hibernate ( by powerxing04 )"/>
+    <String Target="关闭休眠（by powerxing04）" Link="Disable Hibernate (by powerxing04)"/>
       <String Target="关闭休眠后将导致快速启动以及混合休眠不可用，这样将增加断电丢失数据的风险！" Link="Will result in Hiberboot and Hybrid Hibernation not available!"/>
 
     <String Target="禁用组件堆栈（Component Based Servicing）日志" Link="Disable Component Based Servicing log"/>
