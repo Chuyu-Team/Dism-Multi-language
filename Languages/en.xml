@@ -54,12 +54,12 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
       <String Target="健康扫描" Link="Health Check"/>
         <String Target="验证受损" Link="Scan Health"/>
         <String Target="修复受损" Link="Restore Health"/>
-      <String Target="引导修复" Link="Startup Repair"/>
+      <String Target="引导修复" Link="Bootmgr Repair"/>
       <String Target="系统备份" Link="System Backup"/>
       <String Target="系统还原" Link="System Restore"/>
       <String Target="在RE中运行" Link="Run in WinRE"/>
       <String Target="仅启动RE" Link="Run WinRE Only"/>
-      <String Target="撤销Compact" Link="Never Compact"/>
+      <String Target="撤销Compact" Link="Undo Compact"/>
 
     <String Target="选项(&amp;O)" Link="&amp;Options"/>
       <String Target="插件管理" Link="Plugin Manager"/>
