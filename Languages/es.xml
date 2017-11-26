@@ -579,7 +579,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="%s 所关联的用户（%s）无法删除，错误代码：0x%.8X" Link="Los usuarios asociados con %s (%s) no se pueden eliminar. Código error: 0x%.8X"/>
     <String Target="%s 未关联任何用户。" Link="%s no está asociado con ningún usuario."/>
     <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="¡Felicitaciones! Eliminación correcta. Sin embargo, algunas aplicaciones pueden ser aplicaciones provisionales: si alguna aplicación es propiedad de SYSTEM y no se puede eliminar, utilice aplicaciones provisionales para eliminarlas."/>
-    <String Target="User Appx" Link="Aplicaciones de usuario"/>
+    <String Target="User Appx" Link="Aplicaciones del usuario"/>
     <String Target="Provisioned Appx" Link="Aplicaciones provisionales"/>
     <String Target="删除Microsoft.StorePurchaseApp可能导致Windows Store无法使用，你确定要继续么？" Link="Eliminar Microsoft.StorePurchaseApp puede causar que Windows Store quede inutilizable. ¿Continuar?"/>
 
