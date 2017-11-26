@@ -22,7 +22,7 @@ Thanks to franz@drwindows.de
 
 ## [Languages/en.xml]
 English Resource
-Thanks to [EMLVIRUS](https://github.com/EMLVIRUS), Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wondersnefu
+Thanks to EMLVIRUS, Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wondersnefu
 
 ## [Languages/es.xml]
 Spanish Resource
