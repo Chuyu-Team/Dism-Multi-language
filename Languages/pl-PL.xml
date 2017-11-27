@@ -387,8 +387,8 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
     <String Target="为了优化性能，你需要手动打开会话。" Link="W celu zoptymalizowania wydajności, należy ręcznie otworzyć sesję."/>
     <String Target="打开会话" Link="Otwórz sesję"/>
     <String Target="正在打开会话" Link="Otwieranie sesji"/>
-    <String q="" Target="当前系统至少为Windows 8/2012才能正常处理此系统。如果你继续进行，那么打开关闭功能、添加删除更新均可能出现意外失败。" Link="Host Version should be at least Windows 8/2012. If you continue in host of a lower version, functions like open, close, add, delete, update may not work properly."/>
-    <String q="" Target="映像路径存在非英文字符可能导致安装更新失败，请在全英文路径重新挂载此映像，比如“D:\Mount”。" Link="The image path contains non-ASCII characters may cause the install update to fail, please reload the image in full ASCII path, such as &quot;D:\Mount&quot;."/>
+    <String Target="当前系统至少为Windows 8/2012才能正常处理此系统。如果你继续进行，那么打开关闭功能、添加删除更新均可能出现意外失败。" Link="Wymagany jest minimum Windows 8/2012. Jeśli używasz starszej wersji, funkcje, takie jak otwieranie, zamykanie, dodawanie, usuwanie, aktualizacja mogą działać nieprawidłowo."/>
+    <String Target="映像路径存在非英文字符可能导致安装更新失败，请在全英文路径重新挂载此映像，比如“D:\Mount”。" Link="Ścieżka obrazu zawiera znaki inne niż ASCII, mogą one spowodować niepowodzenie aktualizacji instalacji, należy ponownie załadować obraz w pełnej ścieżce ASCII, na przykład 'D:\Mount'."/>
 
     <String Target="常用工具" Link="Narzędzia użytkowe"/>
       <String Target="空间回收" Link="Oczyszczanie"/>
@@ -579,9 +579,9 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
     <String Target="%s 所关联的用户（%s）无法删除，错误代码：0x%.8X" Link="%s związane z użytkownikiem (%s) nie mogą być usunięte, kod błędu: 0x%.8X"/>
     <String Target="%s 未关联任何用户。" Link="%s nie jest związane z żadnym użytkownikiem."/>
     <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="Gratulacje! Usunięcie zakończone pomyślnie. Ale niektóre aplikacje mogą odnosić się do pre aplikacji Appx. Jeśli masz do czynienia z faktem, że właścicielem aplikacji jest system - użyj &quot;Preset z Appx aplikacji systemowych&quot;, aby je usunąć."/>
-    <String q="" Target="User Appx" Link="User Appx"/>
-    <String q="" Target="Provisioned Appx" Link="Provisioned Appx"/>
-    <String q="" Target="删除Microsoft.StorePurchaseApp可能导致Windows Store无法使用，你确定要继续么？" Link="Removing Microsoft.StorePurchaseApp may cause Windows Store unusable. Sure to proceed?"/>
+    <String Target="User Appx" Link="Aplikacje użytkownika"/>
+    <String Target="Provisioned Appx" Link="Aplikacje wbudowane"/>
+    <String Target="删除Microsoft.StorePurchaseApp可能导致Windows Store无法使用，你确定要继续么？" Link="Skasowanie tej aplikacji utrudni zakupy w Sklepie Microsoft?"/>
 
     <!--Windows Update-->
     <String Target="安装" Link="Instalacja"/>
@@ -823,10 +823,10 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
 
     <String Target="优化非活动窗口标题栏颜色（by IT之家）" Link="Optymalizacja koloru nieaktywnego okna (by ITHome)"/>
 
-    <String q="" Target="*桌面壁纸质量调整为（by IT之家）" Link="Change desktop wallpaper quality to (by ITHome)"/>
-      <String q="" Target="低质量（更快）" Link="Low(Faster)"/>
-      <String q="" Target="默认（推荐）" Link="Default"/>
-      <String q="" Target="高质量（更清晰）" Link="High(Clearer)"/>
+    <String Target="*桌面壁纸质量调整为（by IT之家）" Link="Zmień jakość tapety (by ITHome)"/>
+      <String Target="低质量（更快）" Link="Niska jakość"/>
+      <String Target="默认（推荐）" Link="Domyślna jakość"/>
+      <String Target="高质量（更清晰）" Link="Wysoka jakość"/>
 
     <String Target="关闭视频文件预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Wyłącz podgląd pliku wideo, aby poprawić czas reakcji Eksploratora Windows (by MoWangMoShi)"/>
     <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Wyłącz podgląd plików audio, aby poprawić czas reakcji Eksploratora Windows (by MoWangMoShi)"/>
@@ -860,8 +860,8 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
     <String Target="禁用桌面的“小工具”右键菜单" Link="Wyłącz &quot;Widgety&quot; w menu kontekstowym"/>
     <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Wyłącz Widok 3D (by Cloud)"/>
     <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Wyłącz Paint 3D (by Cloud)"/>
-    <String q="" Target="禁用所有对象的“共享”右键菜单" Link="Disable the &quot;Share&quot; context menu on all objects"/>
-    <String q="" Target="禁用文件、目录、桌面、磁盘以及库的“授予访问权限”右键菜单" Link="Disable &quot;Grant Access&quot; context menu on files, folders, desktop, disks and libraries"/>
+    <String Target="禁用所有对象的“共享”右键菜单" Link="Wyłącz 'Udostępnij"/>
+    <String Target="禁用文件、目录、桌面、磁盘以及库的“授予访问权限”右键菜单" Link="Wyłącz 'Uzyskaj dostęp'"/>
 
     <!--Menedżer Ikon Pulpitu-->
     <String Target="桌面图标管理" Link="Zarządzaj ikonami pulpitu"/>
@@ -899,8 +899,8 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
     <!--Microsoft Edge-->
     <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Wyłącz kreator pierwszego uruchomienia (by ITHome)"/>
 
-    <String q="" Target="关闭Adobe Flash即点即用" Link="Disable Adobe Flash right click"/>
-      <String q="" Target="此选项将降低计算机安全性，增加Adobe Flash的安全隐患！" Link="This item will reduce the computer security."/>
+    <String Target="关闭Adobe Flash即点即用" Link="Wyłącz wbudowany Adobe Flash Player"/>
+      <String Target="此选项将降低计算机安全性，增加Adobe Flash的安全隐患！" Link="Wyłączenie zmniejszy bezpieczeństwo Adobe Flash Player."/>
 
     <!--Metoda wprowadzania Pinyin-->
     <String q="" Target="微软拼音输入法" Link="Microsoft Pinyin IME"/>
@@ -942,7 +942,7 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
 
     <String Target="*关闭远程协助（by 原罪）" Link="Wyłącz Pomoc zdalną (by YZ)"/>
 
-    <String q="" Target="*禁用SMB1网络协议（by Jhovany200）" Link="*Disallow SMB1 network protocol (by Jhovany200)"/>
+    <String Target="*禁用SMB1网络协议（by Jhovany200）" Link="*Wyłącz protokół internetowy SMBv1 (by Jhovany200)"/>
     
     <!--服务优化-->
     <String Target="服务优化" Link="Usługi"/>
@@ -996,8 +996,8 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
     <String Target="关闭快速启动" Link="Wyłącz Szybki start"/>
       <String Target="关闭快速启动将导致系统启动速度变慢！" Link="Wyłączenie skróconego czasu uruchamiania może spowodować jego wydłużenie."/>
 
-    <String q="" Target="关闭休眠（by powerxing04）" Link="Disable Hibernate ( by powerxing04 )"/>
-      <String q="" Target="关闭休眠后将导致快速启动以及混合休眠不可用，这样将增加断电丢失数据的风险！" Link="Will result in Hiberboot and Hybrid Hibernation not available!"/>
+    <String Target="关闭休眠（by powerxing04）" Link="Wyłącz tryb uśpienia ( by powerxing04 )"/>
+      <String Target="关闭休眠后将导致快速启动以及混合休眠不可用，这样将增加断电丢失数据的风险！" Link="Wyłączenie trybu uśpienia uniemożliwi korzystanie z szybkiego uruchamiania!"/>
 
     <String Target="禁用组件堆栈（Component Based Servicing）日志" Link="Wyłączenie komponentu podstawy dziennika serwisowanie"/>
 
@@ -1043,11 +1043,11 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
     <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Zmień &quot;prawym przyciskiem myszy menu&quot; na tryb Windows 7 (by Silence)"/>
     <String Target="登陆界面默认打开小键盘（by IT之家）" Link="Włącz klawiaturę podczas logowania (by ITHome)"/>
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Wyłącz składowanie kopii zapasowej składników"/>
-    <String q="" Target="任务栏时钟精确到秒（by Luupw3d）" Link="Taskbar clock did display seconds (by Luupw3d)"/>
+    <String Target="任务栏时钟精确到秒（by Luupw3d）" Link="Pokaż sekundy w zegarze na pasku zadań (by Luupw3d)"/>
 
-    <String q="" Target="禁用WfpDiag.ETL日志（by powerxing04）" Link="Disable WfpDiag ETL log (by powerxing04)"/>
-    <String q="" Target="禁用文件夹的“包含到库中”右键菜单（by choyri）" Link="Disable &quot;Included in the library&quot; context menu on directory (by choyri)"/>
-    <String q="" Target="禁用桌面的“NVIDIA 控制面板”右键菜单（by choyri）" Link="Disable &quot;NVIDIA Control Panel&quot; context menu on desktop (by choyri)"/>
+    <String Target="禁用WfpDiag.ETL日志（by powerxing04）" Link="Wyłącz dziennik informacji diagnostycznych IPsec oraz zapory (by powerxing04)"/>
+    <String Target="禁用文件夹的“包含到库中”右键菜单（by choyri）" Link="Wyłącz 'Umieść w bibliotece' (by choyri)"/>
+    <String Target="禁用桌面的“NVIDIA 控制面板”右键菜单（by choyri）" Link="Wyłącz 'Panel sterowania NVIDIA' (by choyri)"/>
     <!--系统优化已经结束-->
 
     <!--Dism++更新程序-->
