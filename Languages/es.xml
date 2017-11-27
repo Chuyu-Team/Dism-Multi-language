@@ -1047,7 +1047,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="任务栏时钟精确到秒（by Luupw3d）" Link="Mostrar segundos en el reloj de la barra de tareas para más precisión（por Luupw3d）"/>
 
     <String Target="禁用WfpDiag.ETL日志（by powerxing04）" Link="Desactivar el registro de WfpDiag ETL (por powerxing04)"/>
-    <String Target="禁用文件夹的“包含到库中”右键菜单（by choyri）" Link="Desactivar &quot;Incluido en la biblioteca&quot; del menú contextual en el directorio (por choyri)"/>
+    <String Target="禁用文件夹的“包含到库中”右键菜单（by choyri）" Link="Desactivar &quot;Incluir en biblioteca&quot; del menú contextual en el directorio (por choyri)"/>
     <String Target="禁用桌面的“NVIDIA 控制面板”右键菜单（by choyri）" Link="Desactivar &quot;Panel de control de NVIDIA&quot; del menú contextual en el escritorio (por choyri)"/>
     <!--系统优化已经结束-->
 
