@@ -581,7 +581,7 @@ Special Thanks to 山形まり花
     <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="削除完了しました！でもいくつかのアプリは Provisioned Appx です、もしアプリの所有者は SYSTEM、および削除できませんの場合は、Provisioned Appx に削除してください。"/>
     <String Target="User Appx" Link="ユーザー アプリ"/>
     <String Target="Provisioned Appx" Link="プロビジョニング アプリ"/>
-    <String q="" Target="删除Microsoft.StorePurchaseApp可能导致Windows Store无法使用，你确定要继续么？" Link="Removing Microsoft.StorePurchaseApp may cause Windows Store unusable. Sure to proceed?"/>
+    <String Target="删除Microsoft.StorePurchaseApp可能导致Windows Store无法使用，你确定要继续么？" Link="Microsoft.StorePurchaseApp を削除されて、Windows Store はおそらく利用できません。続行しますか？"/>
 
     <!--Windows Update-->
     <String Target="安装" Link="インストール"/>
@@ -823,10 +823,10 @@ Special Thanks to 山形まり花
 
     <String Target="优化非活动窗口标题栏颜色（by IT之家）" Link="非アクティブ ウィンドウの色を最適化（By ITHome）"/>
 
-    <String q="" Target="*桌面壁纸质量调整为（by IT之家）" Link="Change desktop wallpaper quality to (by ITHome)"/>
-      <String q="" Target="低质量（更快）" Link="Low(Faster)"/>
-      <String q="" Target="默认（推荐）" Link="Default"/>
-      <String q="" Target="高质量（更清晰）" Link="High(Clearer)"/>
+    <String Target="*桌面壁纸质量调整为（by IT之家）" Link="*背景の品質設定する (by ITHome)"/>
+      <String Target="低质量（更快）" Link="低（より速い）"/>
+      <String Target="默认（推荐）" Link="既定"/>
+      <String Target="高质量（更清晰）" Link="高（より良い）"/>
 
     <String Target="关闭视频文件预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="ビデオ プレビューを無効し、エクスプローラーのパフォーマンスを改善する（by 莫失莫忘）"/>
     <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="ミュージックと写真のプレビューを無効し、エクスプローラーのパフォーマンスを改善する（by 莫失莫忘）"/>
@@ -899,8 +899,8 @@ Special Thanks to 山形まり花
     <!--Microsoft Edge-->
     <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Microsoft Edge の最初の実行ページを表示しない (by ITHome)"/>
 
-    <String q="" Target="关闭Adobe Flash即点即用" Link="Disable Adobe Flash right click"/>
-      <String q="" Target="此选项将降低计算机安全性，增加Adobe Flash的安全隐患！" Link="This item will reduce the computer security."/>
+    <String Target="关闭Adobe Flash即点即用" Link="Adobe Flash クイック実行無効化"/>
+      <String Target="此选项将降低计算机安全性，增加Adobe Flash的安全隐患！" Link="このアイテムは PC のセキュリティを低下する。"/>
 
     <!--微软拼音输入法-->
     <String Target="微软拼音输入法" Link="Microsoft Pinyin 入力方法"/>
@@ -996,8 +996,8 @@ Special Thanks to 山形まり花
     <String Target="关闭快速启动" Link="クイック スタート無効化"/>
       <String Target="关闭快速启动将导致系统启动速度变慢！" Link="無効して、より長いのシステム起動時間が必要です。"/>
 
-    <String q="" Target="关闭休眠（by powerxing04）" Link="Disable Hibernate ( by powerxing04 )"/>
-      <String q="" Target="关闭休眠后将导致快速启动以及混合休眠不可用，这样将增加断电丢失数据的风险！" Link="Will result in Hiberboot and Hybrid Hibernation not available!"/>
+    <String Target="关闭休眠（by powerxing04）" Link="休止状態無効化 ( by powerxing04 )"/>
+      <String Target="关闭休眠后将导致快速启动以及混合休眠不可用，这样将增加断电丢失数据的风险！" Link="休止状態を無効して、ハイブリッド スリープおよび高速スタートアップを利用できません！"/>
 
     <String Target="禁用组件堆栈（Component Based Servicing）日志" Link="コンポーネント ベース サービスのログ無効化"/>
 
@@ -1045,9 +1045,9 @@ Special Thanks to 山形まり花
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Component Based Servicing ファイル バックアップ無効化"/>
     <String Target="任务栏时钟精确到秒（by Luupw3d）" Link="タスク バーの時刻で秒を表示する（by Luupw3d）"/>
 
-    <String q="" Target="禁用WfpDiag.ETL日志（by powerxing04）" Link="Disable WfpDiag ETL log (by powerxing04)"/>
-    <String q="" Target="禁用文件夹的“包含到库中”右键菜单（by choyri）" Link="Disable &quot;Included in the library&quot; context menu on directory (by choyri)"/>
-    <String q="" Target="禁用桌面的“NVIDIA 控制面板”右键菜单（by choyri）" Link="Disable &quot;NVIDIA Control Panel&quot; context menu on desktop (by choyri)"/>
+    <String Target="禁用WfpDiag.ETL日志（by powerxing04）" Link="WfpDiag.ETL ログ無効化 (by powerxing04)"/>
+    <String Target="禁用文件夹的“包含到库中”右键菜单（by choyri）" Link="フォルダーのコンテキスト メニューの [ライブラリに追加] を無効化 (by choyri)"/>
+    <String Target="禁用桌面的“NVIDIA 控制面板”右键菜单（by choyri）" Link="デスクトップのコンテキスト メニューの [NVIDIA コントロール パネル] を無効化 (by choyri)"/>
     <!--系统优化已经结束-->
 
     <!--Dism++更新程序-->
@@ -1291,36 +1291,36 @@ Special Thanks to 山形まり花
     <String Target="删除后更新历史记录将被清空。" Link="After you deleting it, the update history will be cleared."/>
 
     <String Target="Microsoft SQL Server更新缓存（by Honry、撕裂五维空间）" Link="Microsoft SQL Server 更新キャッシュ (by Honry, SiLieWuWeiKongJian)"/>
-    <String q="" Target="安装Microsoft SQL Server补丁残留的安装缓存。" Link="If you install microsoft SQL Server, the program leave the install cache."/>
-    <String q="" Target="此条目最新添加，可能引发意外问题！" Link="This funtion is added at last, may lead to unexpected issue!"/>
+    <String Target="安装Microsoft SQL Server补丁残留的安装缓存。" Link="Microsoft SQL Server 更新をインストールされて、残余の更新キャッシュ。"/>
+    <String Target="此条目最新添加，可能引发意外问题！" Link="この項目は最近で追加する、予期しないエラーを発生可能性があります。"/>
 
     <String Target="Adobe Acrobat安装源缓存（by Honry）" Link="Adobe Acrobat ドライバーのインストール元キャッシュ (by Honry)"/>
-    <String q="" Target="安装Adobe Acrobat后留下的安装缓存。" Link="After you installing Adobe Acrobat, the program left the installation source cache."/>
-    <String q="" Target="删除此条目可能导致Adobe Acrobat无法正常卸载！" Link="Select this entry impact you uninstall Adobe Acrobat probably!"/>
+    <String Target="安装Adobe Acrobat后留下的安装缓存。" Link="Adobe Acrobat をインストールされて、残余のインストール キャッシュ。"/>
+    <String Target="删除此条目可能导致Adobe Acrobat无法正常卸载！" Link="削除されて、おそらくで Adobe Acrobat を正常にアンインストールできません！"/>
 
     <String Target="小红伞临时文件" Link="Avira 一時ファイル"/>
     <String Target="小红伞在自动升级过程中残留的临时文件。" Link="Avira leaves the temporary files if avira automatic update."/>
 
     <String Target="Chrome浏览器老版本备份（by Honry）" Link="以前バージョンの Chrome Web ブラウザー バックアップ (by Honry)"/>
-    <String q="" Target="Chrome浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Backup files of Chrome Web Browser after upgrade, for rollback in case of problems."/>
+    <String Target="Chrome浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Chrome ブラウザーを更新し、以前パーションで自動的にバックアップする。問題が発生場合で、以前パーションで復元する。"/>
 
     <String Target="Opera浏览器老版本备份（by Jhovany200）" Link="以前バージョンの Opera Web ブラウザー バックアップ (by Jhovany200)"/>
-    <String q="" Target="Opera浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Backup files of Opera Web Browser after upgrade, for rollback in case of problems."/>
+    <String Target="Opera浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Opera ブラウザーを更新し、以前パーションで自動的にバックアップする。問題が発生場合で、以前パーションで復元する。"/>
 
     <String Target="Microsoft .NET安装缓存（by 撕裂五维空间）" Link="Microsoft .NET インストール キャッシュ (by SiLieWuWeiKongJian)"/>
-    <String Target="安装Microsoft .NET补丁残留的安装缓存。" Link="When the programs install patches for microsoft .NET, the program leaves some cache."/>
+    <String Target="安装Microsoft .NET补丁残留的安装缓存。" Link="Microsoft .NET更新をインストールされて、残余の更新キャッシュ。"/>
 
     <String Target="PPLive老版本备份（by 何超）" Link="以前バージョンの PPLive バックアップ (by HeChao)"/>
-    <String q="" Target="PPLive在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Backup files of PPLive after upgrade, for rollback in case of problems."/>
+    <String Target="PPLive在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="PPLive を更新し、以前パーションで自動的にバックアップする。問題が発生場合で、以前パーションで復元する。"/>
 
     <String Target="酷狗音乐老版本备份（by 何超）" Link="以前バージョンの Kugou Music バックアップ (by HeChao)"/>
-    <String q="" Target="酷狗音乐在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Backup files of Kugou Music after upgrade, for rollback in case of problems."/>
+    <String Target="酷狗音乐在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Kugou Music を更新し、以前パーションで自動的にバックアップする。問題が発生場合で、以前パーションで復元する。"/>
 
     <String Target="2345拼音输入法老版本备份（by 何超）" Link="以前バージョンの 2345 Pinyin IME バックアップ (by HeChao)"/>
-    <String q="" Target="2345拼音输入法在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Backup files of 2345 Pinyin IME after upgrade, for rollback in case of problems."/>
+    <String Target="2345拼音输入法在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="2345 Pinyin IME を更新し、以前パーションで自動的にバックアップする。問題が発生場合で、以前パーションで復元する。"/>
 
     <String Target="WPS老版本备份（by Rambin）" Link="以前バージョンの WPS バックアップ (by Rambin)"/>
-    <String q="" Target="WPS在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Backup files of WPS after upgrade, for rollback in case of problems."/>
+    <String Target="WPS在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="WPS を更新し、以前パーションで自動的にバックアップする。問題が発生場合で、以前パーションで復元する。"/>
 
     <String Target="系统还原点" Link="システムの復元ポイント"/>
     <String Target="先删除全部还原点，再创建一个新的还原点(当系统还原已启用时)" Link="すべて対象の復元ポイントを削除し、新しいの復元ポイントを作成します。（システムの復元機能有効のみ）"/>
