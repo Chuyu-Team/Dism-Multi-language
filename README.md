@@ -1,106 +1,108 @@
-﻿# Dism-Multi-language
-Dism++ Multi-language Files
+# Dism-Multi-language
+Dism++ resource files for supporting translation to various languages.
+The default language used for development is in Simplified Chinese.
 
 ---
 
 ## [Data.xml]
-Dism++ Rules file, Provides cleanup and optimization rules.
+Dism++ rules file which provides cleanup and optimization rules.
 
 ---
 
 ## [Languages/bg.xml]
-Bulgaria Resource
-Thanks to Мартин Тайна, Pavel Belivakov
+Bulgarian resource file.
+Thanks to Мартин Тайна, Pavel Belivakov.
 
 ## [Languages/cs.xml]
-Czech Resource
-Thanks to Richard Kahl
+Czech resource file.
+Thanks to Richard Kahl.
 
 ## [Languages/de.xml]
-German Resource
-Thanks to franz@drwindows.de
+German resource file.
+Thanks to franz@drwindows.de.
 
 ## [Languages/en.xml]
-English Resource
-Thanks to [EMLVIRUS](https://github.com/EMLVIRUS), Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wondersnefu
+English resource file.
+Thanks to EMLVIRUS, Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wondersnefu.
 
 ## [Languages/es.xml]
-Spanish Resource
-Thanks to Jhovany200, Oleada, nomemolesteis@gmail.com
+Spanish resource file.
+Thanks to Jhovany200, Oleada, nomemolesteis@gmail.com.
 
 ## [Languages/fr.xml]
-French Resource
-Thanks to JP.Sudret, P.Verdy
+French resource file.
+Thanks to JP.Sudret, P.Verdy.
 
 ## [Languages/it.xml]
-Italian Resource
+Italian resource file.
 Thanks to Massimiliano F.
 
 ## [Languages/ja.xml]
-Japanese Resource
-Thanks to 山形まり花
+Japanese resource file.
+Thanks to 山形まり花.
 
 ## [Languages/ko.xml]
-Korean Resource
-Thanks to OldMac, 阿泽西
+Korean resource file.
+Thanks to OldMac, 阿泽西.
 
 ## [Languages/pl-PL.xml]
-Polish Resource
-Thanks to romuald68@gmail.com, Bladius (KuchtaPC2015@outlook.com)
+Polish resource file.
+Thanks to romuald68@gmail.com, Bladius (KuchtaPC2015@outlook.com).
 
 ## [Languages/pt.xml]
-Portuguese Resource
-Thanks to JNylson
+Portuguese resource file.
+Thanks to JNylson.
 
 ## [Languages/ru.xml]
-Russian Resource
-Thanks to Black Alex, Vasiliy Nasonov, virus, Vladimir, ZT
+Russian resource file.
+Thanks to Black Alex, Vasiliy Nasonov, virus, Vladimir, ZT.
 
 ## [Languages/zh-Hans.xml]
-简体资源文件
-感谢 mingkuang
+简体资源文件。
+感谢 mingkuang。
 
 ## [Languages/zh-Hant.xml]
-繁體資源檔案
-感謝 GT Wang (http://mkvq.blogspot.com) 、jamesfuh、月下独酌
+繁體資源檔案。
+感謝 GT Wang (http://mkvq.blogspot.com) 、jamesfuh、月下独酌。
 
 ---
 
 ## [chuyu-analysis]
-Dism++崩溃统计后台
-感谢 Reinforce-II
+Dism++崩溃统计后台。
+感谢 Reinforce-II。
 
 ---
 
 ## [www.chuyu.me]
-Dism++官方网站以及帮助文档
+Base path for the official Dism++ website and help documentation.
+Dism++官方网站以及帮助文档。
 
 ---
 
 ### [www.chuyu.me/de.xml]
-Dism++ website German resource
-Thanks to franz@drwindows.de
+Dism++ website German resource file.
+Thanks to franz@drwindows.de.
 
 ### [www.chuyu.me/en.xml]
-Dism++官方网站英语资源
-感谢 Frag, Hexhu
+Dism++ website English resource file.
+Thanks to Frag, Hexhu.
 
 ### [www.chuyu.me/es.xml]
-Dism++ website Spanish resource
-Thanks to Jhovany200
+Dism++ website Spanish resource file.
+Thanks to Jhovany200.
 
 ### [www.chuyu.me/fr.xml]
-Dism++ website French resource
-Thanks to P.Verdy
+Dism++ website French resource file.
+Thanks to P.Verdy.
 
 ### [www.chuyu.me/ja.xml]
-Dism++官方网站日语资源
-感谢 山形まり花
+Dism++ website Japanese resource file.
+Thanks to 山形まり花.
 
 ### [www.chuyu.me/zh-Hans.xml]
-Dism++官方网站繁体资源
-感谢 mingkuang
+Dism++官方网站繁体资源。
+感谢 mingkuang。
 
 ### [www.chuyu.me/zh-Hant.xml]
-Dism++官方網站繁體資源
-感謝 GT Wang (http://mkvq.blogspot.com)
+Dism++官方網站繁體資源。
+感謝 GT Wang (http://mkvq.blogspot.com)。
