@@ -579,9 +579,9 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="%s 所关联的用户（%s）无法删除，错误代码：0x%.8X" Link="Los usuarios asociados con %s (%s) no se pueden eliminar. Código error: 0x%.8X"/>
     <String Target="%s 未关联任何用户。" Link="%s no está asociado con ningún usuario."/>
     <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="¡Felicitaciones! Eliminación correcta. Sin embargo, algunas aplicaciones pueden ser aplicaciones provisionales: si alguna aplicación es propiedad de SYSTEM y no se puede eliminar, utilice aplicaciones provisionales para eliminarlas."/>
-    <String Target="User Appx" Link="Aplicaciones de usuario"/>
+    <String Target="User Appx" Link="Aplicaciones del usuario"/>
     <String Target="Provisioned Appx" Link="Aplicaciones provisionales"/>
-    <String q="" Target="删除Microsoft.StorePurchaseApp可能导致Windows Store无法使用，你确定要继续么？" Link="Removing Microsoft.StorePurchaseApp may cause Windows Store unusable. Sure to proceed?"/>
+    <String Target="删除Microsoft.StorePurchaseApp可能导致Windows Store无法使用，你确定要继续么？" Link="Eliminar Microsoft.StorePurchaseApp puede causar que Windows Store quede inutilizable. ¿Continuar?"/>
 
     <!--Windows Update-->
     <String Target="安装" Link="Instalar"/>
@@ -824,10 +824,10 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
 
     <String Target="优化非活动窗口标题栏颜色（by IT之家）" Link="Optimizar el color de la barra del título de las ventanas inactivas (por IT Home)"/>
 
-    <String q="" Target="*桌面壁纸质量调整为（by IT之家）" Link="Change desktop wallpaper quality to (by ITHome)"/>
-      <String q="" Target="低质量（更快）" Link="Low(Faster)"/>
-      <String q="" Target="默认（推荐）" Link="Default"/>
-      <String q="" Target="高质量（更清晰）" Link="High(Clearer)"/>
+    <String Target="*桌面壁纸质量调整为（by IT之家）" Link="Cambiar la calidad del fondo de escritorio (por ITHome)"/>
+      <String Target="低质量（更快）" Link="Bajo (rápido)"/>
+      <String Target="默认（推荐）" Link="Predeter."/>
+      <String Target="高质量（更清晰）" Link="Alto (claro)"/>
 
     <String Target="关闭视频文件预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Desactivar previo de vídeo para mejorar respuesta explorador (por MoWangMoShi)"/>
     <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Desactivar previo de audio para mejorar respuesta explorador (por MoWangMoShi)"/>
@@ -900,8 +900,8 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <!--Microsoft Edge-->
     <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Prevenir abrir Microsoft Edge en &quot;Primera ejecución&quot; (por ITHome)"/>
 
-    <String q="" Target="关闭Adobe Flash即点即用" Link="Disable Adobe Flash right click"/>
-      <String q="" Target="此选项将降低计算机安全性，增加Adobe Flash的安全隐患！" Link="This item will reduce the computer security."/>
+    <String Target="关闭Adobe Flash即点即用" Link="Desactivar clic derecho Adobe Flash"/>
+      <String Target="此选项将降低计算机安全性，增加Adobe Flash的安全隐患！" Link="Esta opción reducirá la seguridad del equipo."/>
 
     <!--微软拼音输入法-->
     <String Target="微软拼音输入法" Link="Microsoft Pinyin IME"/>
@@ -997,8 +997,8 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="关闭快速启动" Link="Desactivar inicio rápido"/>
       <String Target="关闭快速启动将导致系统启动速度变慢！" Link="Desactivar inicio rápido, prolonga el tiempo de inicio del sistema."/>
 
-    <String q="" Target="关闭休眠（by powerxing04）" Link="Disable Hibernate ( by powerxing04 )"/>
-      <String q="" Target="关闭休眠后将导致快速启动以及混合休眠不可用，这样将增加断电丢失数据的风险！" Link="Will result in Hiberboot and Hybrid Hibernation not available!"/>
+    <String Target="关闭休眠（by powerxing04）" Link="Desactivar hibernación (por powerxing04)"/>
+      <String Target="关闭休眠后将导致快速启动以及混合休眠不可用，这样将增加断电丢失数据的风险！" Link="¡Resultado, el inicio rápido y la hibernación mixta no estarán disponibles!"/>
 
     <String Target="禁用组件堆栈（Component Based Servicing）日志" Link="Desactivar el servicio basado en componentes"/>
 
@@ -1046,9 +1046,9 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Desactivar el servicio de copia basada en componentes"/>
     <String Target="任务栏时钟精确到秒（by Luupw3d）" Link="Mostrar segundos en el reloj de la barra de tareas para más precisión（por Luupw3d）"/>
 
-    <String q="" Target="禁用WfpDiag.ETL日志（by powerxing04）" Link="Disable WfpDiag ETL log (by powerxing04)"/>
-    <String q="" Target="禁用文件夹的“包含到库中”右键菜单（by choyri）" Link="Disable &quot;Included in the library&quot; context menu on directory (by choyri)"/>
-    <String q="" Target="禁用桌面的“NVIDIA 控制面板”右键菜单（by choyri）" Link="Disable &quot;NVIDIA Control Panel&quot; context menu on desktop (by choyri)"/>
+    <String Target="禁用WfpDiag.ETL日志（by powerxing04）" Link="Desactivar el registro de WfpDiag ETL (por powerxing04)"/>
+    <String Target="禁用文件夹的“包含到库中”右键菜单（by choyri）" Link="Desactivar &quot;Incluir en biblioteca&quot; del menú contextual en el directorio (por choyri)"/>
+    <String Target="禁用桌面的“NVIDIA 控制面板”右键菜单（by choyri）" Link="Desactivar &quot;Panel de control de NVIDIA&quot; del menú contextual en el escritorio (por choyri)"/>
     <!--系统优化已经结束-->
 
     <!--Dism++更新程序-->
@@ -1238,7 +1238,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="魔方守护以及魔方更新暂存目录，如果你不喜欢魔方守护可以考虑删除。" Link="El directorio temp del PC Principal Guard y la actualización del PC Principal. Si no te gusta PC Principal Guard puedes borrarlo."/>
 
     <String Target="给力助手" Link="Asistente GeiLi"/>
-    <String Target="安装蓝手指时留下的给力助手。" Link="Cuando instala bluestacks, el programa deja el asistente GeiLi."/>
+    <String Target="安装蓝手指时留下的给力助手。" Link="Cuando instala BlueStacks, el programa deja el asistente GeiLi."/>
 
     <String Target="迅雷游戏" Link="Juegos Thunder"/>
     <String Target="迅雷游戏安装后所在目录，一般人不需要此程序，可以考虑删除。" Link="Directorio de juegos Thunder (después de la instalación), la mayoría de las personas no necesitan este programa, puedes borrarlo."/>
@@ -1266,7 +1266,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="Visual Studio调试程序时留下的智能跟踪缓存。" Link="Cuando Visual Studio crea programas de depuración, deja el caché de seguimiento."/>
 
     <String Target="系统以及程序崩溃dmp文件（by YukiSakura）" Link="Archivos dmp del sistema y aplicaciones (por YukiSakura)"/>
-    <String Target="当系统蓝屏或者应用程序崩溃时产生的dmp文件。" Link="Si sale el pantallazo azul o se cuelga, se crean archivos dmp."/>
+    <String Target="当系统蓝屏或者应用程序崩溃时产生的dmp文件。" Link="Si sale una pantalla azul o se congela, se crean archivos dmp."/>
 
     <String Target="瑞昱声卡驱动安装源缓存（by YukiSakura）" Link="Caché de instalación del controlador de la tarjeta de sonido Realtek (por YukiSakura)"/>
     <String Target="瑞昱声卡安装后留下的安装源缓存。" Link="Cuando se instala la tarjeta de sonido Realtek, el programa deja el caché de la instalación."/>
@@ -1276,7 +1276,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="Java安装后留下的安装源缓存。" Link="Cuando se instala Java, el programa deja el caché de la instalación."/>
     <String Target="此条目可能影响Java的卸载。" Link="Esta entrada es la de desinstalar java probablemente."/>
 
-    <String Target="Intel驱动安装源缓存（by YukiSakura）" Link="Caché de instalación del controlador Intel (por YukiSakura)"/>
+    <String Target="Intel驱动安装源缓存（by YukiSakura）" Link="Caché de instalación de controladores Intel (por YukiSakura)"/>
     <String Target="Intel驱动安装后留下的安装源缓存。" Link="Cuando se instala el controlador Intel, el programa deja el caché de la instalación."/>
     <String Target="此条目可能影响Intel驱动的卸载。" Link="Esta entrada es la de desinstalar el controlador intel probablemente."/>
 
@@ -1302,10 +1302,10 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="小红伞临时文件" Link="Archivos temporales de Avira"/>
     <String Target="小红伞在自动升级过程中残留的临时文件。" Link="Avira deja archivos temporales con la actualización automática."/>
 
-    <String Target="Chrome浏览器老版本备份（by Honry）" Link="Copia navegador Chrome anterior (por Honry)"/>
+    <String Target="Chrome浏览器老版本备份（by Honry）" Link="Copia del navegador Chrome anterior (por Honry)"/>
     <String Target="Chrome浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Los archivos de copia de seguridad del navegador Chrome después de la actualización, para restaurar en caso de problemas."/>
 
-    <String Target="Opera浏览器老版本备份（by Jhovany200）" Link="Copia navegador Opera anterior (por Jhovany200)"/>
+    <String Target="Opera浏览器老版本备份（by Jhovany200）" Link="Copia del navegador Opera anterior (por Jhovany200)"/>
     <String Target="Opera浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Los archivos de copia de seguridad del navegador Opera después de la actualización, para restaurar en caso de problemas."/>
 
     <String Target="Microsoft .NET安装缓存（by 撕裂五维空间）" Link="Caché de instalación de Microsoft .NET (por SiLieWuWeiKongJian)"/>
@@ -1320,7 +1320,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="2345拼音输入法老版本备份（by 何超）" Link="Copia de 2345 Pinyin IME versión antigua (por HeChao)"/>
     <String Target="2345拼音输入法在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Copia de 2345 Pinyin IME después de la actualización, para revisar en caso de problemas."/>
 
-    <String Target="WPS老版本备份（by Rambin）" Link="Copia de la versión anterior WPS(por Rambin)"/>
+    <String Target="WPS老版本备份（by Rambin）" Link="Copia de la versión anterior WPS (por Rambin)"/>
     <String Target="WPS在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Copia de WPS después de la actualización, para restaurar en caso de problemas."/>
 
     <String Target="系统还原点" Link="Puntos de restauración del sistema"/>
@@ -1503,7 +1503,7 @@ IV. Declaración de derechos de propiedad intelectual
     3. Si el equipo de Chuyu no dio su consentimiento por escrito, los usuarios no pueden procesar los programas de Chuyu. No se puede decir de los demás si tienen los derechos de procesar los programas de Chuyu.
     4. Lo anterior y otros derechos de propiedad intelectual del equipo Chuyu están protegidos por la ley. Si el equipo Chuyu no se lo permite, no se puede desensamblar o hacer otras cosas.
 
-V. Responsabilidad Legal
+V. Responsabilidad legal
 
     1. Si el equipo de Chuyu ve que algunos de los usuarios han violado este acuerdo, el equipo de Chuyu tiene el derecho de prohibir a los usuarios usar los softwares sin informarles.
     2. Por favor, comprenda y acepte. El equipo de Chuyu tiene los derechos de penalizar razonablemente por su comportamiento de la violación con la ley.
@@ -1512,7 +1512,7 @@ V. Responsabilidad Legal
 VI. Otros
 
     1. Solo decirle a los usuarios que miren las cláusulas de eximir la responsabilidad del equipo de Chuyu y los derechos de limitar a los usuarios. Los menores deben leer este acuerdo con sus tutores legales.
-    2. La validez del acuerdo y la explicación se aplican en el derecho de China. Si los usuarios y el equipo de Chuyu tienen conflictos, negociar primero. Si no es posible, por favor acepte informar a la corte de personas que tienen jurisdicción para administrar.
+    2. La validez del acuerdo y la explicación se aplican en el derecho de China. Si los usuarios y el equipo de Chuyu tienen conflictos, negociar primero. Si no es posible, por favor acepte informar a la corte que tenga jurisdicción para administrar.
     3. Si las cláusulas de este acuerdo no son válidas o no son ejecutables por cualquier razón, las demás cláusulas siguen siendo válidas. Vinculante para ambas.
     4. El acuerdo de usuario escrito en chino simplificado debe ser referido a si la versión de chino simplificado difiere de los acuerdos de usuario escritos en otros idiomas.
 </UserAgreement>
