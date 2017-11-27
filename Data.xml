@@ -3927,7 +3927,7 @@
 
       <Item Type="CheckBox" Name="#将“右键菜单”调整为Windows 7模式（by Silence）">
         <Applicable>
-          <OSVersion>10.0.14393</OSVersion>
+          <OSVersion Compare=">=">10.0.14393</OSVersion>
         </Applicable>
         <System>
           <State>
@@ -7313,7 +7313,10 @@
           <OSVersion Compare=">=">6.2</OSVersion>
           <Not>
             <!--VHD装载、PE系统不显示-->
-            <ImageFlags>50</ImageFlags>
+            <Or>
+              <ImageFlags>40</ImageFlags>
+              <ImageFlags>10</ImageFlags>
+            </Or>
           </Not>
         </Applicable>
         <System>
@@ -7349,7 +7352,8 @@
         <Applicable>
           <Not>
             <!--VHD装载、PE系统不显示-->
-            <ImageFlags>50</ImageFlags>
+            <ImageFlags>40</ImageFlags>
+            <ImageFlags>10</ImageFlags>
           </Not>
         </Applicable>
         <System>
