@@ -1078,6 +1078,22 @@
       </ScanCollection>
     </Item>
 
+    <Item Name="#IDM临时文件（by Jhovany200）" Level="2">
+      <Description>#Internet Download Manager临时下载文件。</Description>
+      <Warning>#清理IDM临时文件可能导致正在下载的任务需要重新下载！</Warning>
+      <Group>#临时文件</Group>
+      <Scan>
+        <Applicable>
+          <ImageFlags>1</ImageFlags>
+          <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Internet Download Manager" Wow64="True"/>
+          <RegExist Key="HKEY_CURRENT_USER\Software\DownloadManager" Value="TempPath"/>
+        </Applicable>
+        <Activate>
+          <General RootPath="?GetRegSz(HKEY_CURRENT_USER\Software\DownloadManager,TempPath,False)DwnlData\"/>
+        </Activate>
+      </Scan>
+    </Item>
+    
     <!--存在风险-->
     <Item Name="#CompactOs（较慢）" Level="0">
       <Description>#对单纯读取的文件进行哈夫曼压缩，在不影响性能的情况下，显著减少系统体积。特别感谢矿工以及所有Compact团队成员无私的支持与帮助。</Description>
