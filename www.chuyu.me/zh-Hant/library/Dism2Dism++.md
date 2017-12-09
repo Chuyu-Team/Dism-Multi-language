@@ -202,7 +202,7 @@ Dism++ 預設不再新手模式中顯示此功能，開啟專家模式後，選�
 其他參數，為了 UI 的實用性以及美觀考慮，就不做了，畢竟對大家來說 支援 /Set-SKUIntlDefaults 或者 /Set-AllIntl 就可以了，沒必要一個個去展示。
 
 ## 應用程式服務命令
-考慮到沒啥實際價值，不支援此功能，不過 Dism++ 已經應用於 Windows Update 功能，用於掃瞄 Office 相關更新檔。
+考慮到沒啥實際價值，不支援此功能，不過 Dism++ 已經應用於 Windows Update 功能，用於掃描 Office 相關更新檔。
 
 ## 程式包服務命令
 此功能被分佈多個 Dism++ 功能中。
@@ -223,7 +223,7 @@ Dism++ 預設不再新手模式中顯示此功能，開啟專家模式後，選�
 
 /PreventPending 參數不支援。
 
-最後 Dism++ 還能使用資料庫掃瞄更新，按下`掃瞄`，在按下`安裝`。這樣就免去了手動收集更新的煩惱，Dism++ 也推薦這樣的方式來安裝更新。
+最後 Dism++ 還能使用資料庫掃描更新，按下`掃描`，在按下`安裝`。這樣就免去了手動收集更新的煩惱，Dism++ 也推薦這樣的方式來安裝更新。
 
 ### /Remove-Package 卸載更新該怎麼做
 首先按下 已安裝的更新，然後選中需要刪除的更新，最後按下刪除即可。
@@ -280,13 +280,13 @@ Dism++ 不支援此功能。
 /Defer 推遲清理到下次系統維護，不支援此參數。
 
 
-### /Cleanup-Image /AnalyzeComponentStore 掃瞄可以清理的空間
-開啟空間回收，裡面有個清理項目叫`被取代的WinSxS組件`，勾選此項目然後按下掃瞄即可，程式將展現可清理的空間。
+### /Cleanup-Image /AnalyzeComponentStore 掃描可以清理的空間
+開啟空間回收，裡面有個清理項目叫`被取代的WinSxS組件`，勾選此項目然後按下掃描即可，程式將展現可清理的空間。
 
 ### /Cleanup-Image /CheckHealth 檢視是否存在受損標記該怎麼用
 不支援此功能。
 
-### /Cleanup-Image /ScanHealth 掃瞄系統是否受損該怎麼用
+### /Cleanup-Image /ScanHealth 掃描系統是否受損該怎麼用
 在選單按下恢復功能 - 驗證受損，即可。
 
 ### /Cleanup-Image /RestoreHealth 恢復系統受損該怎麼用

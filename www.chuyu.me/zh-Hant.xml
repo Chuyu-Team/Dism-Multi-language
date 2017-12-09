@@ -31,7 +31,7 @@
   <String Src="%E-Mail%" Dst="意見反映信箱"/>
   <String Src="%Links%" Dst="友情連結"/>
   <String Src="%WinOS%" Dst="WINOS 精簡系統"/>
-  <String q="" Src="%LanDian%" Dst="蓝点网"/>
+  <String q="" Src="%LanDian%" Dst="藍點網"/>
   <String Src="%ChuyuTream%" Dst="&amp;nbsp;2017&amp;nbsp;初雨團隊"/>
   <String Src="%ICP%" Dst=""/>
   <String Src="%Document%" Dst="說明文件"/>

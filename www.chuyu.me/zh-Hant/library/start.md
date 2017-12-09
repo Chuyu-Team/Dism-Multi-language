@@ -53,7 +53,7 @@ Dism++ 可以說是一個 Dism 的 GUI 版，但是並不依賴 Dism，直接基
 |Config\Data.zip|此檔案存放了清理規則，ESD 解密 KEY 等。此檔案不允許刪除。
 |Config\UpdateInfo.zip<br>Config\UpdateInfoBeta.zip|Dism++ 更新元資料，用於判斷是否存在新版本，以及防止使用者新版本降級為舊版本。建議保留，刪除後將重新下載。
 |Config\default.ui.zip|此檔案存放了 Dism++ 的 UI。此檔案不允許刪除。
-|Config\wsusscn2.cab|Windows Update 資料庫檔案，用於掃瞄更新。可以考慮刪除。
+|Config\wsusscn2.cab|Windows Update 資料庫檔案，用於掃描更新。可以考慮刪除。
 |Config\include\Dism++.h|僅測試版存在此檔案，C Script 腳本支援標頭檔，缺少此檔案後 C Script 腳本將無法使用。
 |Config\amd64\CScript.dll|僅測試版存在此檔案，64 位元 C Script 腳本解析引擎，缺少此檔案後 C Script 腳本將無法使用，32 位元使用者可以考慮刪除此檔案。
 |Config\x86\CScript.dll|僅測試版存在此檔案，32 位元 C Script 腳本解析引擎，缺少此檔案後 C Script 腳本將無法使用，64 位元使用者可以考慮刪除此檔案。
