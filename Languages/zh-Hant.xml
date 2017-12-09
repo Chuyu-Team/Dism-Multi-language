@@ -580,7 +580,7 @@
     <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="恭喜你刪除成功！但是某些應用程式可能屬於 Provisioned Appx，如果你遇到某個 App 所有者是 SYSTEM，而且一直刪不掉，那麼你需要使用 Provisioned Appx 刪除它們。"/>
     <String Target="User Appx" Link="使用者 Appx"/>
     <String Target="Provisioned Appx" Link="預裝 Appx"/>
-    <String q="" Target="删除Microsoft.StorePurchaseApp可能导致Windows Store无法使用，你确定要继续么？" Link="刪除 Microsoft.StorePurchaseApp 可能導致 Windows Store 無法使用，你確定要繼續嗎？"/>
+    <String Target="删除Microsoft.StorePurchaseApp可能导致Windows Store无法使用，你确定要继续么？" Link="刪除 Microsoft.StorePurchaseApp 可能導致 Windows Store 無法使用，你確定要繼續嗎？"/>
 
     <!--Windows Update-->
     <String Target="安装" Link="安裝"/>
@@ -822,10 +822,10 @@
 
     <String Target="优化非活动窗口标题栏颜色（by IT之家）" Link="最佳化非使用中視窗標題列顏色 (by IT之家)"/>
 
-    <String q="" Target="*桌面壁纸质量调整为（by IT之家）" Link="*桌面桌布品質調整為 (by IT之家)"/>
-      <String q="" Target="低质量（更快）" Link="低品質 (更快)"/>
-      <String q="" Target="默认（推荐）" Link="預設 (建議)"/>
-      <String q="" Target="高质量（更清晰）" Link="高品質 (更清晰)"/>
+    <String Target="*桌面壁纸质量调整为（by IT之家）" Link="*桌面桌布品質調整為 (by IT之家)"/>
+      <String Target="低质量（更快）" Link="低品質 (更快)"/>
+      <String Target="默认（推荐）" Link="預設 (建議)"/>
+      <String Target="高质量（更清晰）" Link="高品質 (更清晰)"/>
 
     <String Target="关闭视频文件预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="關閉影片檔案預覽，提高檔案總管反應能力 (by ‍莫失莫忘)"/>
     <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="關閉音樂檔的圖片預覽，提高檔案總管反應能力 (by ‍莫失莫忘)"/>
@@ -898,8 +898,8 @@
     <!--Microsoft Edge-->
     <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="阻止 Microsoft Edge「首次執行」歡迎頁面（by IT之家）"/>
 
-    <String q="" Target="关闭Adobe Flash即点即用" Link="關閉 Adobe Flash 隨選即用"/>
-      <String q="" Target="此选项将降低计算机安全性，增加Adobe Flash的安全隐患！" Link="此選項將降低電腦安全性，增加 Adobe Flash 的未知漏洞！"/>
+    <String Target="关闭Adobe Flash即点即用" Link="關閉 Adobe Flash 隨選即用"/>
+      <String Target="此选项将降低计算机安全性，增加Adobe Flash的安全隐患！" Link="此選項將降低電腦安全性，增加 Adobe Flash 的未知漏洞！"/>
 
     <!--微軟拼音輸入法-->
     <String Target="微软拼音输入法" Link="微軟拼音輸入法"/>
@@ -995,8 +995,8 @@
     <String Target="关闭快速启动" Link="關閉快速啟動"/>
       <String Target="关闭快速启动将导致系统启动速度变慢！" Link="關閉快速啟動將導致系統啟動速度變慢！"/>
 
-    <String q="" Target="关闭休眠（by powerxing04）" Link="關閉休眠 (by powerxing04)"/>
-      <String q="" Target="关闭休眠后将导致快速启动以及混合休眠不可用，这样将增加断电丢失数据的风险！" Link="關閉休眠後將導致快速啟動以及混合式睡眠不可用，這樣將增加斷電遺失資料的風險！"/>
+    <String Target="关闭休眠（by powerxing04）" Link="關閉休眠 (by powerxing04)"/>
+      <String Target="关闭休眠后将导致快速启动以及混合休眠不可用，这样将增加断电丢失数据的风险！" Link="關閉休眠後將導致快速啟動以及混合式睡眠不可用，這樣將增加斷電遺失資料的風險！"/>
 
     <String Target="禁用组件堆栈（Component Based Servicing）日志" Link="停用元件堆疊 (Component Based Servicing) 日誌"/>
 
@@ -1045,8 +1045,8 @@
     <String Target="任务栏时钟精确到秒（by Luupw3d）" Link="工具列時鐘精確到秒 (by Luupw3d)"/>
 
     <String Target="禁用WfpDiag.ETL日志（by powerxing04）" Link="停用 WfpDiag.ETL 日誌 (by powerxing04)"/>
-    <String q="" Target="禁用文件夹的“包含到库中”右键菜单（by choyri）" Link="停用資料夾的「加入至媒體櫃」右鍵選單 (by choyri)"/>
-    <String q="" Target="禁用桌面的“NVIDIA 控制面板”右键菜单（by choyri）" Link="停用桌面的「NVIDIA 控制面板」右鍵選單 (by choyri)"/>
+    <String Target="禁用文件夹的“包含到库中”右键菜单（by choyri）" Link="停用資料夾的「加入至媒體櫃」右鍵選單 (by choyri)"/>
+    <String Target="禁用桌面的“NVIDIA 控制面板”右键菜单（by choyri）" Link="停用桌面的「NVIDIA 控制面板」右鍵選單 (by choyri)"/>
     <!--系統最佳化已經結束-->
 
     <!--Dism++ 更新程序-->
