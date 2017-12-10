@@ -100,7 +100,7 @@ Dism++ website Japanese resource file.
 Thanks to 山形まり花.
 
 ### [www.chuyu.me/zh-Hans.xml]
-Dism++官方网站繁体资源。
+Dism++官方网站简体资源。
 感谢 mingkuang。
 
 ### [www.chuyu.me/zh-Hant.xml]
