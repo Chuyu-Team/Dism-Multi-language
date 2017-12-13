@@ -387,8 +387,8 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <String Target="为了优化性能，你需要手动打开会话。" Link="В целях оптимизации производительности необходимо открыть сессию вручную."/>
     <String Target="打开会话" Link="Открыть сессию"/>
     <String Target="正在打开会话" Link="Открытие сессии"/>
-    <String q="" Target="当前系统至少为Windows 8/2012才能正常处理此系统。如果你继续进行，那么打开关闭功能、添加删除更新均可能出现意外失败。" Link="Host Version should be at least Windows 8/2012. If you continue in host of a lower version, functions like open, close, add, delete, update may not work properly."/>
-    <String q="" Target="映像路径存在非英文字符可能导致安装更新失败，请在全英文路径重新挂载此映像，比如“D:\Mount”。" Link="The image path contains non-ASCII characters may cause the install update to fail, please reload the image in full ASCII path, such as &quot;D:\Mount&quot;."/>
+    <String Target="当前系统至少为Windows 8/2012才能正常处理此系统。如果你继续进行，那么打开关闭功能、添加删除更新均可能出现意外失败。" Link="Версия ОС должна быть не ниже Windows 8/2012. Если вы продолжаете работать с более ранней версией ОС, то такие функции как открытие, закрытие, добавление, удаление, обновление могут не работать должным образом."/>
+    <String Target="映像路径存在非英文字符可能导致安装更新失败，请在全英文路径重新挂载此映像，比如“D:\Mount”。" Link="Путь к образу содержит не ASCII-символы, что может привести к сбою установки обновления. Повторно смонтируйте образ в полном ASCII-пути, например &quot;D:\Mount&quot;."/>
 
     <String Target="常用工具" Link="Инструменты"/>
       <String Target="空间回收" Link="Очистка"/>
@@ -445,7 +445,7 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <String Target="蓝屏记录" Link="Запись BSOD"/>
     <String Target="注册表还原" Link="Восстановление реестра"/>
     <String Target="清理时间" Link="Время очистки"/>
-    <String Target="网络位置" Link="網路位置"/>
+    <String Target="网络位置" Link="Расположение в Интернете"/>
     <String Target="正在扫描第%d个可清理的注册表项。。。" Link="Очищаемый раздел реестра %d проверяется..."/>
 
     <!--驱动管理-->
@@ -579,9 +579,9 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <String Target="%s 所关联的用户（%s）无法删除，错误代码：0x%.8X" Link="Приложение %s ассоциировано с учетной записью (%s) и не может быть удалено. Код ошибки: 0x%.8X"/>
     <String Target="%s 未关联任何用户。" Link="Приложение %s не ассоциировано с какой-либо учетной записью."/>
     <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="Поздравляем! Удаление выполнено успешно. Но некоторые приложения могут относиться к предустановленным Appx приложениям. Если Вы столкнулись с тем, что владельцем приложений является СИСТЕМА - используйте 'Предустановленные с системой Appx приложения' для их удаления."/>
-    <String q="" Target="User Appx" Link="User Appx"/>
-    <String q="" Target="Provisioned Appx" Link="Provisioned Appx"/>
-    <String q="" Target="删除Microsoft.StorePurchaseApp可能导致Windows Store无法使用，你确定要继续么？" Link="Removing Microsoft.StorePurchaseApp may cause Windows Store unusable. Sure to proceed?"/>
+    <String Target="User Appx" Link="Пользовательские Appx"/>
+    <String Target="Provisioned Appx" Link="Предустановленные Appx"/>
+    <String Target="删除Microsoft.StorePurchaseApp可能导致Windows Store无法使用，你确定要继续么？" Link="Удаление Microsoft.StorePurchaseApp может привести к невозможности использования Windows Store. Вы уверены, что хотите продолжить?"/>
 
     <!--Windows Update-->
     <String Target="安装" Link="Установить"/>
@@ -823,10 +823,10 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
 
     <String Target="优化非活动窗口标题栏颜色（by IT之家）" Link="Оптимизация цвета неактивного заголовка окна (by IT Home)"/>
 
-    <String q="" Target="*桌面壁纸质量调整为（by IT之家）" Link="Change desktop wallpaper quality to (by ITHome)"/>
-      <String q="" Target="低质量（更快）" Link="Low(Faster)"/>
-      <String q="" Target="默认（推荐）" Link="Default"/>
-      <String q="" Target="高质量（更清晰）" Link="High(Clearer)"/>
+    <String Target="*桌面壁纸质量调整为（by IT之家）" Link="Измените качество обоев Рабочего стола (by ITHome)"/>
+      <String Target="低质量（更快）" Link="Низкое (быстрее)"/>
+      <String Target="默认（推荐）" Link="По-умолчанию"/>
+      <String Target="高质量（更清晰）" Link="Высокое (отчетливее)"/>
 
     <String Target="关闭视频文件预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Отключить предпросмотр видеофайлов для улучшения времени отклика Проводника (by MoWangMoShi)"/>
     <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Отключить предпросмотр изображений аудиофайлов для улучшения времени отклика Проводника (by MoWangMoShi)"/>
@@ -860,8 +860,8 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <String Target="禁用桌面的“小工具”右键菜单" Link="Отключить 'Гаджеты' в контекстном меню Рабочего стола"/>
     <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Отключить пункт контекстного меню файла &quot;Просмотр 3D&quot; (by Cloud)"/>
     <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Отключить пункт контекстного меню файла &quot;Рисование 3D&quot; (by Cloud)"/>
-    <String q="" Target="禁用所有对象的“共享”右键菜单" Link="Disable the &quot;Share&quot; context menu on all objects"/>
-    <String q="" Target="禁用文件、目录、桌面、磁盘以及库的“授予访问权限”右键菜单" Link="Disable &quot;Grant Access&quot; context menu on files, folders, desktop, disks and libraries"/>
+    <String Target="禁用所有对象的“共享”右键菜单" Link="Отключить &quot;Общий доступ&quot; в контекстном меню всех элементов"/>
+    <String Target="禁用文件、目录、桌面、磁盘以及库的“授予访问权限”右键菜单" Link="Отключить &quot;Предоставить доступ&quot; в контекстном меню файлов, паплк, Рабочего стола, дисков и библиотек"/>
 
     <!--桌面图示管理-->
     <String Target="桌面图标管理" Link="Управление значками Рабочего стола"/>
@@ -899,8 +899,8 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <!--Microsoft Edge-->
     <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Предотвратить показ страницы &quot;Первый запуск&quot; при первом открытии Microsoft Edge (by ITHome)"/>
 
-    <String q="" Target="关闭Adobe Flash即点即用" Link="Disable Adobe Flash right click"/>
-      <String q="" Target="此选项将降低计算机安全性，增加Adobe Flash的安全隐患！" Link="This item will reduce the computer security."/>
+    <String Target="关闭Adobe Flash即点即用" Link="Отключить Adobe Flash"/>
+      <String Target="此选项将降低计算机安全性，增加Adobe Flash的安全隐患！" Link="Этот параметр снижает безопасность компьютера и повышает риски безопасности Adobe Flash!"/>
 
     <!--微软拼音输入法-->
     <String Target="微软拼音输入法" Link="Метод ввода Microsoft Pinyin"/>
@@ -996,8 +996,8 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <String Target="关闭快速启动" Link="Отключить быстрый старт"/>
       <String Target="关闭快速启动将导致系统启动速度变慢！" Link="Отключение быстрого старта приведет к медленной скорости загрузки системы!"/>
 
-    <String q="" Target="关闭休眠（by powerxing04）" Link="Disable Hibernate ( by powerxing04 )"/>
-      <String q="" Target="关闭休眠后将导致快速启动以及混合休眠不可用，这样将增加断电丢失数据的风险！" Link="Will result in Hiberboot and Hybrid Hibernation not available!"/>
+    <String Target="关闭休眠（by powerxing04）" Link="Отключить спящий режим ( by powerxing04 )"/>
+      <String Target="关闭休眠后将导致快速启动以及混合休眠不可用，这样将增加断电丢失数据的风险！" Link="Выключение спящего режима приведет к быстрому запуску, а гибридный спящий режим станет недоступен, что увеличивает риск потери данных при сбоях питания!"/>
 
     <String Target="禁用组件堆栈（Component Based Servicing）日志" Link="Отключить журнал менеджера пакетов CBS"/>
 
@@ -1043,11 +1043,11 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Настройка меню ПКМ для режима Windows 7 (by Silence)"/>
     <String Target="登陆界面默认打开小键盘（by IT之家）" Link="Включить клавиатуру при входе (by ITHome)"/>
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Отключить создание файла резервной копии менеджера пакетов CBS"/>
-    <String q="" Target="任务栏时钟精确到秒（by Luupw3d）" Link="Taskbar clock did display seconds (by Luupw3d)"/>
+    <String Target="任务栏时钟精确到秒（by Luupw3d）" Link="Часы на панели задач отображают секунды (by Luupw3d)"/>
 
-    <String q="" Target="禁用WfpDiag.ETL日志（by powerxing04）" Link="Disable WfpDiag ETL log (by powerxing04)"/>
-    <String q="" Target="禁用文件夹的“包含到库中”右键菜单（by choyri）" Link="Disable &quot;Included in the library&quot; context menu on directory (by choyri)"/>
-    <String q="" Target="禁用桌面的“NVIDIA 控制面板”右键菜单（by choyri）" Link="Disable &quot;NVIDIA Control Panel&quot; context menu on desktop (by choyri)"/>
+    <String Target="禁用WfpDiag.ETL日志（by powerxing04）" Link="Отключить журнал WfpDiag.ETL (by powerxing04)"/>
+    <String Target="禁用文件夹的“包含到库中”右键菜单（by choyri）" Link="Отключить &quot;Включить в Библиотеку&quot; в контекстном меню папки (by choyri)"/>
+    <String Target="禁用桌面的“NVIDIA 控制面板”右键菜单（by choyri）" Link="Отключить &quot;Панель управления NVIDIA&quot; в контекстном меню Рабочего стола (by choyri)"/>
     <!--系统优化已经结束-->
 
     <!--Dism++更新程序-->
@@ -1384,8 +1384,8 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <x800F082E>Указанный пакет не может быть добавлен к автономному образу.</x800F082E>
     <x800F082F>Не удается завершить сессию, потому что эксклюзивная сессия находится в ожидании.</x800F082F>
     <x000F0801>Dism++ занят, вероятно потому, что запущены другие программы. Повторите попытку позже.</x000F0801>
-    <x80072EE7 q="">Unable to connect to the server, check your network connection or the firewall settings are correct.</x80072EE7>
-    <x80072EFF q="">Unable to connect to the server, check your network connection or the firewall settings are correct.</x80072EFF>
+    <x80072EE7>Не удалось подключиться к серверу, проверьте сетевое подключение или настройки брандмауэра.</x80072EE7>
+    <x80072EFF>Не удалось подключиться к серверу, проверьте сетевое подключение или настройки брандмауэра.</x80072EFF>
 
     <xA0020001>Поддерживается только Microsoft Online's ESD файл в ISO.</xA0020001>
     <xA0020002>Была выполнена частичная очистка, для полной очистки обновитесь до Windows 8.1, а затем продолжите.</xA0020002>
@@ -1395,7 +1395,7 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <xA0020006>Текущая система не поддерживает WOW64 и не может обрабатывать не 64-битную систему в автономном режиме.</xA0020006>
     <xA0020007>Требуемый компонент CBSHost.dll не существует. Убедитесь в целостности Dism++.</xA0020007>
     <xA0020008>rundll32.exe отсутствует. Dism++ не может быть запущен.</xA0020008>
-    <xA0020009 q="">Dism++ session crashed. you can contact (mingkuang@live. com) to help resolve this issue.</xA0020009>
+    <xA0020009>Сбой сеанса Dism++. Вы можете связаться (mingkuang@live.com), чтобы помочь решить эту проблему.</xA0020009>
     <xA002000A>Dism++ обнаружил некоторые проблемы совместимости. Установите исправление KB960037, а затем продолжите.</xA002000A>
 
     <x20020001>В текущем образе нет конфигурации файла ассоциаций по-умолчанию. Невозможно экспортировать.</x20020001>
