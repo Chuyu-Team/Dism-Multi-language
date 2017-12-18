@@ -1,34 +1,40 @@
 <Strings>
   <String Src="%lang%" Dst="zh-Hant"/>
-  <String Src="%description%" Dst="初雨Dism++是一个微软Dism的一个GUI版，能够固化补丁、Installer清理、离线集成更新、驱动等"/>
-  <String Src="%keywords%" Dst="Dism++,Dism GUI,WinSxS清理,Windows更新清理工具,系统垃圾清理,讨论,疑问,更新清理,winsxs清理,vista,win7,win8,win8.1,win10,初雨论坛,初雨,dism,补丁集成"/>
+  <String Src="%description%" Dst="初雨 Dism++是一個微軟 Dism 的一個 GUI 版，能夠固化補丁、Installer 清理、離線整合更新、驅動等"/>
+  <String Src="%keywords%" Dst="Dism++,Dism GUI,WinSxS清理,Windows更新清理工具,系統垃圾清理,討論,疑問,更新清理,winsxs清理,vista,win7,win8,win8.1,win10,初雨論壇,初雨,dism,更新檔整合"/>
   <String Src="%title%" Dst="Dism++ | 全新的 Windows 實用工具"/>
   <String Src="%String1%" Dst="Dism++，也許是最強的實用工具"/>
   <String Src="%String2%" Dst="全球第一款基於 CBS 的 Dism GUI 實現。"/>
-  <String Src="%64Bit%" Dst="64位元版"/>
-  <String Src="%32Bit%" Dst="32位元版"/>
-  <String Src="%Full%" Dst="64/32完整版"/>
+  <String Src="%WhatsnewVersion%" Dst="What's new ‒ version"/>
+  <String Src="%64Bit%" Dst="64 位元版"/>
+  <String Src="%32Bit%" Dst="32 位元版"/>
+  <String Src="%Full%" Dst="64/32 完整版"/>
   <String Src="%SupportSystem%" Dst="相容 Windows Vista/7/8/8.1/10"/>
   <String Src="%AboutDism++%" Dst="關於 Dism++"/>
-  <String Src="%AboutDism++Des%" Dst="Dism++可以說是一個Dism的GUI版，但是並不依賴Dism，直接基於更底層的CBS（Component Based Servicing Reference）。"/>
-  <String Src="%OpenSourceStr%" Dst="開源是一種美德，也是一種實力的象徵，查看初雨團隊的開源項目&lt;span onclick=&quot;window.location.href='https://github.com/Chuyu-Team'&quot; style=&quot;color:blue;cursor:pointer&quot;>點我&lt;/span>。"/>
+  <String Src="%AboutDism++Des%" Dst="Dism++ 可以說是一個 Dism 的 GUI 版，但是並不依賴 Dism，直接基於更底層的 CBS (Component Based Servicing Reference)。"/>
+  <String Src="%OpenSourceStr%" Dst="開源是一種美德，也是一種實力的象徵，查看初雨團隊的開源專案&lt;span onclick=&quot;window.location.href='https://github.com/Chuyu-Team'&quot; style=&quot;color:blue;cursor:pointer&quot;>點我&lt;/span>。"/>
   <String Src="%SxSClean%" Dst="更新清理"/>
   <String Src="%SxSCleanDes%" Dst="更新清理，安裝更新不再糾結容量！"/>
-  <String Src="%CompactOSDes%" Dst="不精簡系統也能節省33%空間。"/>
-  <String Src="%EsdSupport%" Dst="完整ESD支持"/>
-  <String Src="%EsdSupportDes%" Dst="再也不用擔心ESD轉ISO了。"/>
+  <String Src="%CompactOS%" Dst="CompactOS"/>
+  <String Src="%CompactOSDes%" Dst="不精簡系統也能節省 33% 空間。"/>
+  <String Src="%EsdSupport%" Dst="完整 ESD 支援"/>
+  <String Src="%EsdSupportDes%" Dst="再也不用擔心 ESD 轉 ISO 了。"/>
+  <String Src="%WindowsUpdate%" Dst="Windows Update"/>
   <String Src="%WindowsUpdateDes%" Dst="我的更新我做主~~安心更新。"/>
-  <String Src="%SystemRecover%" Dst="系统恢复"/>
-  <String Src="%SystemRecoverDes%" Dst="系統熱備份、熱還原無需PE！"/>
+  <String Src="%SystemRecover%" Dst="系統還原"/>
+  <String Src="%SystemRecoverDes%" Dst="系統熱備份、熱還原無需 PE！"/>
   <String Src="%Green%" Dst="真正綠色"/>
   <String Src="%GreenDes%" Dst="即下即用，無廣告、後門，安心用。"/>
   <String Src="%AboutChuyu%" Dst="關於初雨團隊"/>
-  <String Src="%AboutChuyuDes%" Dst="其實我們都是一些強迫症晚期患者，只想要找個輕巧、好使、透明、不流氓、不裝可憐、不嘮嘮叨叨的實用工具。不過找了半天沒找到，但是我們沒有放棄治療，用自己的雙手初步實現了夢想，聯手打造Dism++——一個不為利益、不跟風、不做作、單純為執著與激情而生的小工具。安得廣廈千萬間，大庇天下寒士俱歡顏！"/>
-  <String Src="%QQ%" Dst="QQ群（臨安初雨 一夜落紅）"/>
-  <String Src="%E-Mail%" Dst="回饋郵箱"/>
+  <String Src="%AboutChuyuDes%" Dst="其實我們都是一些強迫症晚期患者，只想要找個輕巧、好用、透明、不流氓、不裝可憐、不嘮嘮叨叨的實用工具。不過找了半天沒找到，但是我們沒有放棄治療，用自己的雙手初步實現了夢想，聯手打造 Dism++ ——一個不為利益、不跟風、不做作、單純為執著與激情而生的小工具。安得廣廈千萬間，大庇天下寒士俱歡顏！"/>
+  <String Src="%QQ%" Dst="QQ 群 (臨安初雨 一夜落紅)"/>
+  <String Src="%E-Mail%" Dst="意見反映信箱"/>
   <String Src="%Links%" Dst="友情連結"/>
-  <String Src="%WinOS%" Dst="WINOS精簡系統"/>
+  <String Src="%WinOS%" Dst="WINOS 精簡系統"/>
+  <String q="" Src="%LanDian%" Dst="藍點網"/>
   <String Src="%ChuyuTream%" Dst="&amp;nbsp;2017&amp;nbsp;初雨團隊"/>
   <String Src="%ICP%" Dst=""/>
-  <String Src="%Document%" Dst="説明文件"/><String Src="%logs%" Dst="更新日志"/>
+  <String Src="%Document%" Dst="說明文件"/>
+  <String Src="%logs%" Dst="更新日誌"/>
+  <String Src="%wsuscan2%" Dst="「wsusscn2.cab」 是離線資料庫的更新檔，覆蓋「Config\wsusscn2.cab」即可。"/>
 </Strings>

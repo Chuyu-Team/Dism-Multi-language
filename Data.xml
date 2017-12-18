@@ -5,24 +5,43 @@
     <!--过期文件-->
     <Item Name="#被取代的WinSxS组件" Level="2">
       <Description>#清理被取代的组件并减少组件存储的大小。</Description>
-      <Warning>#清理后将无法卸载更新，如果有卸载更新需求请勿使用此选项。</Warning>
       <Group>#过期文件</Group>
       <ScanCollection>
         <!--在这里填写扫描规则，Dism++将自动匹配第一条命中的规则-->
+        
+        <!--Vista~Windows 8.1-->
         <Scan Work="15">
           <Applicable>
             <OSVersion Compare="&lt;">10.0</OSVersion>
           </Applicable>
-          <!--不编写条件表示总是命中,CustomCall表示执行指定函数 -->
+          <Warning>#清理后将无法卸载更新，如果有卸载更新需求请勿使用此选项。</Warning>
           <Activate>
-            <Custom ProcName="DismComponentCleanup"/>
+            <Custom ProcName="DismComponentCleanup" Flags="#1"/>
           </Activate>
         </Scan>
+        
+        <!--Windows 10在线-->
+        <Scan Work="15">
+          <Applicable>
+            <OSVersion Compare=">=">10.0</OSVersion>
+            <ImageFlags>1</ImageFlags>
+          </Applicable>
+          <Warning>#清理后将无法卸载更新，此外ResetBase模式跟系统重置功能有冲突，如果有卸载更新或者系统重置需求请勿使用此选项。</Warning>
+          <Activate>
+            <Custom ProcName="DismComponentCleanup" Flags="#1"/>
+          </Activate>
+        </Scan>
+        
+        <!--Windows 10离线，因为离线不能重启避免一些麻烦，离线下关闭Resetbase-->
         <Scan Work="50">
           <Name>#被取代的WinSxS组件（非常慢）</Name>
           <Applicable>
             <OSVersion Compare=">=">10.0</OSVersion>
+            <Not>
+              <ImageFlags>1</ImageFlags>
+            </Not>
           </Applicable>
+          <Warning>#清理后将无法卸载更新，如果有卸载更新需求请勿使用此选项。</Warning>
           <Activate>
             <Custom ProcName="DismComponentCleanup"/>
           </Activate>
@@ -182,6 +201,37 @@
       </Scan>
     </Item>
 
+    <Item Name="#Opera浏览器老版本备份（by Jhovany200）" Level="2">
+      <!--2017-11-23 13:50添加-->
+      <Description>#Opera浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。</Description>
+      <Group>#过期文件</Group>
+      <Scan>
+        <Applicable>
+          <ImageFlags>1</ImageFlags>
+          <Or>
+            <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\App Paths\opera.exe" Value="Path"/>
+            <RegExist Key="HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\opera.exe" Value="Path"/>
+          </Or>
+        </Applicable>
+        <Applicable_1>
+          <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\App Paths\opera.exe" Value="Path"/>
+        </Applicable_1>
+        <Applicable_2>
+          <RegExist Key="HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\opera.exe" Value="Path"/>
+        </Applicable_2>
+        <Activate>
+          <General RootPath="?GetRegSz(HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\App Paths\opera.exe,Path)" Flags="Directory" ID="Applicable_1">
+            <Query>*.*.*.*</Query>
+            <Excluded>?GetFileVersion(%Root%opera.exe)</Excluded>`
+          </General>
+          <General RootPath="?GetRegSz(HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\opera.exe,Path)" Flags="Directory" ID="Applicable_2">
+            <Query>*.*.*.*</Query>
+            <Excluded>?GetFileVersion(%Root%opera.exe)</Excluded>
+          </General>
+        </Activate>
+      </Scan>
+    </Item>
+    
     <Item Name="#PPLive老版本备份（by 何超）" Level="2">
       <!--2016-04-19 14:32添加-->
       <Description>#PPLive在升级到新版本后留下的备份文件，在故障时回滚到老版本。</Description>
@@ -256,25 +306,6 @@
     </Item>
 
     <!--系统相关-->
-
-    <Item Name="#CompactOs（较慢）" Level="2">
-      <Description>#对单纯读取的文件进行哈夫曼压缩，在不影响性能的情况下，显著减少系统体积。特别感谢矿工以及所有Compact团队成员无私的支持与帮助。</Description>
-      <Warning>#此功能与某些硬盘备份软件不兼容。如果使用后出现问题，可以点击 恢复功能-->撤销Compact。</Warning>
-      <Group>#系统相关</Group>
-      <Scan Work="30">
-        <Applicable>
-          <Not>
-            <ImageFlags>4</ImageFlags>
-          </Not>
-          <OSVersion Compare=">=">6.3</OSVersion>
-          <FileExist FilePath="%System%\drivers\wof.sys"/>
-        </Applicable>
-        <Activate>
-          <Custom ProcName="DismCompactOs"/>
-        </Activate>
-      </Scan>
-    </Item>
-
     <Item Name="#系统自带Appx应用" Level="2">
       <Description>#此功能将移除所有系统自带Appx应用，移除后可以在Windows应用商店重新下载他们。</Description>
       <Group>#系统相关</Group>
@@ -352,6 +383,31 @@
         </Activate>
       </Scan>
     </Item>
+    
+    <Item Name="#损坏的Appx" Level="2">
+      <Description>#清理损坏的Appx。例如Visual Studio的通用应用XAML设计器暴力删除临时生成的设计器应用，于是会出现大量损坏的Appx。</Description>
+      <Group>#系统相关</Group>
+      <Scan>
+        <Applicable>
+          <ImageFlags>1</ImageFlags>
+          <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Appx" Value="PackageRoot"/>
+          <Or>
+            <And>
+              <Arch>9</Arch>
+              <FileVersion FilePath="%0%Config\amd64\NCleaner.dll" Compare=">=">1.0.3.5</FileVersion>
+            </And>
+            <And>
+              <Arch>0</Arch>
+              <FileVersion FilePath="%0%Config\x86\NCleaner.dll" Compare=">=">1.0.3.5</FileVersion>
+            </And>
+            <False/>
+          </Or>
+        </Applicable>
+        <Activate>
+          <Custom ProcName="NCCorruptedAppXOnlineCleanup"/>
+        </Activate>
+      </Scan>
+    </Item>
 
     <Item Name="#系统还原点" Level="2">
       <Description>#先删除全部还原点，再创建一个新的还原点(当系统还原已启用时)</Description>
@@ -414,7 +470,10 @@
         <Scan Type="Custom">
           <Applicable>
             <ImageFlags>1</ImageFlags>
-            <FileExist FilePath="%SystemRoot%\SoftwareDistribution\DeliveryOptimization"/>
+            <Or>
+              <FileExist FilePath="%SystemRoot%\SoftwareDistribution\DeliveryOptimization"/>
+              <FileExist FilePath="%SystemRoot%\DeliveryOptimization"/>
+            </Or>
           </Applicable>
           <Activate>
             <Custom ProcName="NCDOCacheOnlineCleanup"/>
@@ -594,6 +653,7 @@
       </Scan>
     </Item>
 
+    <!--删除此规则，可能导致正常系统Appx顺坏
     <Item Name="#Appx缓存文件-可解决Appx闪退" Level="2">
       <Description>#Appx运行时产生的缓存文件，当应用闪退时可尝试清理此选项，可解决大多数闪退问题。</Description>
       <Group>#缓存文件</Group>
@@ -605,8 +665,8 @@
           <General RootPath="%SystemDrive%\Users\*\AppData\Local\Packages\*\LocalCache"/>
         </Activate>
       </Scan>
-    </Item>
-    <!--应用程序-->
+    </Item>-->
+      <!--应用程序-->
 
     <Item Name="#Package Cache目录" Level="2">
       <Description>#Package Cache目录存放以WIX为基础的安装程序的安装源</Description>
@@ -1018,8 +1078,23 @@
       </ScanCollection>
     </Item>
 
+    <Item Name="#IDM临时文件（by Jhovany200）" Level="2">
+      <Description>#Internet Download Manager临时下载文件。</Description>
+      <Warning>#清理IDM临时文件可能导致正在下载的任务需要重新下载！</Warning>
+      <Group>#临时文件</Group>
+      <Scan>
+        <Applicable>
+          <ImageFlags>1</ImageFlags>
+          <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Internet Download Manager" Wow64="True"/>
+          <RegExist Key="HKEY_CURRENT_USER\Software\DownloadManager" Value="TempPath"/>
+        </Applicable>
+        <Activate>
+          <General RootPath="?GetRegSz(HKEY_CURRENT_USER\Software\DownloadManager,TempPath,False)DwnlData\"/>
+        </Activate>
+      </Scan>
+    </Item>
+    
     <!--存在风险-->
-
     <Item Name="#CompactOs（较慢）" Level="0">
       <Description>#对单纯读取的文件进行哈夫曼压缩，在不影响性能的情况下，显著减少系统体积。特别感谢矿工以及所有Compact团队成员无私的支持与帮助。</Description>
       <Warning>#使用后可能导致某些程序无法正常运行甚至让系统无法启动，如果使用后出现问题，可以在PE中点击 恢复功能-->撤销Compact。</Warning>
@@ -1030,12 +1105,15 @@
             <ImageFlags>4</ImageFlags>
           </Not>
           <Or>
-            <OSVersion Compare="&lt;">6.3</OSVersion>
+            <Or>
+              <!--Windows 7/8直接显示-->
+              <OSVersion>6.1</OSVersion>
+              <OSVersion>6.2</OSVersion>
+            </Or>
             <And>
-              <OSVersion>6.3</OSVersion>
-              <Not>
-                <FileExist FilePath="%System%\drivers\wof.sys"/>
-              </Not>
+              <!--6.3以上平台必须存在Wof.sys不然不工作-->
+              <OSVersion  Compare=">=">6.3</OSVersion>
+              <FileExist FilePath="%System%\drivers\wof.sys"/>
             </And>
           </Or>
         </Applicable>
@@ -1360,7 +1438,7 @@
     </Item>
   </CleanCollection4>
   <SystemOptimization>
-    <Group Name="#任务栏以及小娜相关设置">
+    <Group Name="#任务栏相关设置">
       <Item Type="Combo" Name="#将任务栏中的Cortana调整为">
         <Applicable>
           <OSVersion Compare=">=">10.0</OSVersion>
@@ -1750,27 +1828,108 @@
         </Default>
       </Item>
 
-      <Item Type="CheckBox" Name="#关闭多嘴的小娜（by 朽木）">
+      <Item Type="CheckBox" Name="#隐藏任务栏上的人脉（by 、Cloud.）">
         <Applicable>
-          <OSVersion Compare=">=">10.0</OSVersion>
+          <OSVersion Compare=">=">10.0.16199</OSVersion>
         </Applicable>
-        <System>
+        <Current>
           <State>
             <Applicable>
-              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search" Value="AllowCortana" Type="REG_DWORD" Data="0"/>
+              <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People" Value="PeopleBand" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate Restart="Explorer">
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People" Value="PeopleBand" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate Restart="Explorer">
+              <RegDelete Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People" Value="PeopleBand"/>
+            </Activate>
+          </False>
+        </Current>
+
+        <Default>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People" Value="PeopleBand" Type="REG_DWORD" Data="0"/>
             </Applicable>
           </State>
           <True>
             <Activate>
-              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search" Value="AllowCortana" Type="REG_DWORD" Data="0"/>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People" Value="PeopleBand" Type="REG_DWORD" Data="0"/>
             </Activate>
           </True>
           <False>
             <Activate>
-              <RegDelete Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search" Value="AllowCortana"/>
+              <RegDelete Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People" Value="PeopleBand"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
+
+      <Item Type="CheckBox" Name="#*隐藏某些SATA硬盘任务栏图标（by 原罪）">
+        <Applicable>
+          <RegExist Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvata"/>
+        </Applicable>
+        <System>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvata" Value="DisableRemovable" Type="REG_DWORD" Data="1"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvata" Value="DisableRemovable" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvata" Value="DisableRemovable" Type="REG_DWORD" Data="0"/>
             </Activate>
           </False>
         </System>
+      </Item>
+
+      <Item Type="CheckBox" Name="#任务栏时钟精确到秒（by Luupw3d）">
+        <Applicable>
+          <OSVersion Compare=">=">10.0</OSVersion>
+        </Applicable>
+        <Current>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="ShowSecondsInSystemClock" Type="REG_DWORD" Data="1"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate Restart="Explorer">
+              <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="ShowSecondsInSystemClock" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate Restart="Explorer">
+              <RegDelete Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="ShowSecondsInSystemClock"/>
+            </Activate>
+          </False>
+        </Current>
+        <Default>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="ShowSecondsInSystemClock" Type="REG_DWORD" Data="1"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="ShowSecondsInSystemClock" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="ShowSecondsInSystemClock"/>
+            </Activate>
+          </False>
+        </Default>
       </Item>
     </Group>
     
@@ -1928,6 +2087,79 @@
               <RegDelete Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\DWM" Value="AccentColorInactive"/>
             </Activate>
           </False>
+        </Default>
+      </Item>
+
+      <Item Type="Combo" Name="#*桌面壁纸质量调整为（by IT之家）">
+        <Applicable>
+          <OSVersion Compare=">=">6.0</OSVersion>
+        </Applicable>
+        <Current>
+          <Dropdown Name="#低质量（更快）">
+            <Warning>#将导致桌面壁纸质量降低，影响视觉效果。</Warning>
+            <Applicable>
+                <RegExist Key="HKEY_CURRENT_USER\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="60"/>
+            </Applicable>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="60"/>
+            </Activate>
+          </Dropdown>
+          <Dropdown Name="#默认（推荐）">
+            <Applicable>
+              <Not>
+                <Or>
+                  <RegExist Key="HKEY_CURRENT_USER\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="60"/>
+                  <RegExist Key="HKEY_CURRENT_USER\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="100"/>
+                </Or>
+              </Not>
+            </Applicable>
+            <Activate>
+              <RegDelete Key="HKEY_CURRENT_USER\Control Panel\Desktop" Value="JPEGImportQuality"/>
+            </Activate>
+          </Dropdown>
+          <Dropdown Name="#高质量（更清晰）">
+            <Warning>#将增加系统资源消耗。</Warning>
+            <Applicable>
+              <RegExist Key="HKEY_CURRENT_USER\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="100"/>
+            </Applicable>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="100"/>
+            </Activate>
+          </Dropdown>
+        </Current>
+
+        <Default>
+          <Dropdown Name="#低质量（更快）">
+            <Warning>#将导致桌面壁纸质量降低，影响视觉效果。</Warning>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="60"/>
+            </Applicable>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="60"/>
+            </Activate>
+          </Dropdown>
+          <Dropdown Name="#默认（推荐）">
+            <Applicable>
+              <Not>
+                <Or>
+                  <RegExist Key="HKEY_USERS\DEFAULT\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="60"/>
+                  <RegExist Key="HKEY_USERS\DEFAULT\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="100"/>
+                </Or>
+              </Not>
+            </Applicable>
+            <Activate>
+              <RegDelete Key="HKEY_USERS\DEFAULT\Control Panel\Desktop" Value="JPEGImportQuality"/>
+            </Activate>
+          </Dropdown>
+          <Dropdown Name="#高质量（更清晰）">
+            <Warning>#将增加系统资源消耗。</Warning>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="100"/>
+            </Applicable>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="100"/>
+            </Activate>
+          </Dropdown>
         </Default>
       </Item>
     </Group>
@@ -2136,8 +2368,472 @@
         </System>
       </Item>
     </Group>
+
+    <Group Name="#开始菜单以及Windows体验">
+
+      <Item Type="CheckBox" Name="#不允许在开始菜单显示建议">
+        <Applicable>
+          <OSVersion Compare=">=">10.0</OSVersion>
+          <OSVersion Compare="&lt;">10.0.16299</OSVersion>
+        </Applicable>
+        <Current>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled"  Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </False>
+        </Current>
+        <Default>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
+      
+      <Item Type="CheckBox" Name="#不允许在开始菜单显示建议（by powerxing04）">
+        <Applicable>
+          <OSVersion Compare=">=">10.0.16299</OSVersion>
+        </Applicable>
+        <Current>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SubscribedContent-338388Enabled" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SubscribedContent-338388Enabled" Type="REG_DWORD" Data="0"/>
+              <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SubscribedContent-338389Enabled" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SubscribedContent-338388Enabled"/>
+              <RegDelete Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SubscribedContent-338389Enabled" SkipError="2"/>
+            </Activate>
+          </False>
+        </Current>
+        <Default>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SubscribedContent-338388Enabled" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SubscribedContent-338388Enabled" Type="REG_DWORD" Data="0"/>
+              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SubscribedContent-338389Enabled" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SubscribedContent-338388Enabled"/>
+              <RegDelete Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SubscribedContent-338389Enabled" SkipError="2"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
+      
+      <Item Type="CheckBox" Name="#关闭在应用商店中查找关联应用（by Asoft）">
+        <Applicable>
+          <OSVersion Compare=">=">6.2</OSVersion>
+        </Applicable>
+        <System>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer" Value="NoUseStoreOpenWith" Type="REG_DWORD" Data="1"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer" Value="NoUseStoreOpenWith" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer" Value="NoUseStoreOpenWith"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
+
+      <Item Type="CheckBox" Name="#关闭商店应用推广（by 、Cloud.）">
+        <Applicable>
+          <OSVersion Compare=">=">10.0</OSVersion>
+        </Applicable>
+        <Current>
+          <State>
+            <Applicable>
+              <Or>
+                <Not>
+                  <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="PreInstalledAppsEnabled"/>
+                </Not>
+                <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="PreInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
+              </Or>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="PreInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="PreInstalledAppsEnabled" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </False>
+        </Current>
+
+        <Default>
+          <State>
+            <Applicable>
+              <Or>
+                <Not>
+                  <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="PreInstalledAppsEnabled"/>
+                </Not>
+                <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="PreInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
+              </Or>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="PreInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="PreInstalledAppsEnabled" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
+
+      <Item Type="CheckBox" Name="#关闭锁屏时的Windows 聚焦推广（by 、Cloud.）">
+        <Applicable>
+          <OSVersion Compare=">=">10.0</OSVersion>
+        </Applicable>
+        <Current>
+          <State>
+            <Applicable>
+              <Or>
+                <Not>
+                  <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable"/>
+                </Not>
+                <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable" Type="REG_DWORD" Data="0"/>
+              </Or>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </False>
+        </Current>
+
+        <Default>
+          <State>
+            <Applicable>
+              <Or>
+                <Not>
+                  <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable"/>
+                </Not>
+                <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable" Type="REG_DWORD" Data="0"/>
+              </Or>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
+
+      <Item Type="CheckBox" Name="#关闭“使用Windows时获取技巧和建议”（by 、Cloud.）">
+        <Applicable>
+          <OSVersion Compare=">=">10.0</OSVersion>
+        </Applicable>
+        <Current>
+          <State>
+            <Applicable>
+              <Or>
+                <Not>
+                  <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SoftLandingEnabled"/>
+                </Not>
+                <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SoftLandingEnabled" Type="REG_DWORD" Data="0"/>
+              </Or>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SoftLandingEnabled" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SoftLandingEnabled" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </False>
+        </Current>
+
+        <Default>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SoftLandingEnabled" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SoftLandingEnabled" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SoftLandingEnabled" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
+
+      <Item Type="CheckBox" Name="#关闭“突出显示新安装的程序”（by 溯汐潮）">
+        <Current>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="Start_NotifyNewApps" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="Start_NotifyNewApps" Type="REG_DWORD" Data="0"/>
+              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="Start_NotifyNewApps" Type="REG_DWORD" Data="1"/>
+              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
+            </Activate>
+          </False>
+        </Current>
+
+        <Default>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="Start_NotifyNewApps" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="Start_NotifyNewApps" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="Start_NotifyNewApps" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
+
+      <Item Type="CheckBox" Name="#禁止自动安装推荐的应用程序（by IT之家）">
+        <Applicable>
+          <OSVersion Compare=">=">10.0</OSVersion>
+        </Applicable>
+        <Current>
+          <State>
+            <Applicable>
+              <Or>
+                <Not>
+                  <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled"/>
+                </Not>
+                <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
+              </Or>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </False>
+        </Current>
+
+        <Default>
+          <State>
+            <Applicable>
+              <Or>
+                <Not>
+                  <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled"/>
+                </Not>
+                <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
+              </Or>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SilentInstalledAppsEnabled" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
+
+      <Item Type="CheckBox" Name="#关闭游戏录制工具（by 、Cloud.）">
+        <Applicable>
+          <OSVersion Compare=">=">6.4</OSVersion>
+        </Applicable>
+        <Current>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" Value="AppCaptureEnabled" Type="REG_DWORD" Data="0"/>
+              <RegExist Key="HKEY_CURRENT_USER\System\GameConfigStore" Value="GameDVR_Enabled" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" Value="AppCaptureEnabled" Type="REG_DWORD" Data="0"/>
+              <RegWrite Key="HKEY_CURRENT_USER\System\GameConfigStore" Value="GameDVR_Enabled" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" Value="AppCaptureEnabled"/>
+              <RegDelete Key="HKEY_CURRENT_USER\System\GameConfigStore" Value="GameDVR_Enabled"/>
+            </Activate>
+          </False>
+        </Current>
+        <Default>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" Value="AppCaptureEnabled" Type="REG_DWORD" Data="0"/>
+              <RegExist Key="HKEY_USERS\DEFAULT\System\GameConfigStore" Value="GameDVR_Enabled" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" Value="AppCaptureEnabled" Type="REG_DWORD" Data="0"/>
+              <RegWrite Key="HKEY_USERS\DEFAULT\System\GameConfigStore" Value="GameDVR_Enabled" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" Value="AppCaptureEnabled"/>
+              <RegDelete Key="HKEY_USERS\DEFAULT\System\GameConfigStore" Value="GameDVR_Enabled"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
+
+      <Item Type="CheckBox" Name="#登陆界面默认打开小键盘（by IT之家）">
+        <System>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\.DEFAULT\Control Panel\Keyboard" Value="InitialKeyboardIndicators" Type="REG_SZ" Data="2"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\.DEFAULT\Control Panel\Keyboard" Value="InitialKeyboardIndicators" Type="REG_SZ" Data="2"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\.DEFAULT\Control Panel\Keyboard" Value="InitialKeyboardIndicators" Type="REG_SZ" Data="2147483648"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
+
+      <Item Type="CheckBox" Name="#关闭OneDrive（by Rambin）">
+        <Applicable>
+          <OSVersion Compare=">=">6.2</OSVersion>
+        </Applicable>
+        <System>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\OneDrive" Value="DisableFileSyncNGSC" Type="REG_DWORD" Data="1"/>
+            </Applicable>
+          </State>
+          <True>
+            <Warning>#禁用OneDrive将导致某些Windows Store应用无法使用OneDrive存储。</Warning>
+            <Activate>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\OneDrive" Value="DisableFileSyncNGSC" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\OneDrive" Value="DisableFileSyncNGSC" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
+
+      <Item Type="CheckBox" Name="#关闭多嘴的小娜（by 朽木）">
+        <Applicable>
+          <OSVersion Compare=">=">10.0</OSVersion>
+        </Applicable>
+        <System>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search" Value="AllowCortana" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search" Value="AllowCortana" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search" Value="AllowCortana"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
+
+    </Group>
     
-    <Group Name="Explorer">
+    <Group Name="#Explorer">
       <Item Type="CheckBox" Name="#打开资源管理器时显示此电脑">
         <Applicable>
           <OSVersion Compare=">=">10.0</OSVersion>
@@ -2463,6 +3159,11 @@
           <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{35286a68-3c57-41a1-bbb1-0eae73d76c95}"/>
           <!--音乐-->
           <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{a0c69a99-21c8-4671-8703-7934162fcf1d}"/>
+
+          <Not>
+            <!--3D对象-->
+            <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{31C0DD25-9439-4F12-BF41-7FF4EDA38722}"/>
+          </Not>
         </Applicable>
         <System>
           <State>
@@ -2522,6 +3223,89 @@
         </System>
       </Item>
 
+      <Item Type="CheckBox" Name="#隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）">
+        <Applicable>
+          <OSVersion>10.0</OSVersion>
+          <!--下载-->
+          <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{7d83ee9b-2244-4e70-b1f5-5393042af1e4}"/>
+          <!--桌面-->
+          <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}"/>
+          <!--我的文档-->
+          <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{f42ee2d3-909f-4907-8871-4c22fc0bf756}"/>
+          <!--图片-->
+          <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{0ddd015d-b06c-45d5-8c4c-f59713854639}"/>
+          <!--视频-->
+          <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{35286a68-3c57-41a1-bbb1-0eae73d76c95}"/>
+          <!--音乐-->
+          <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{a0c69a99-21c8-4671-8703-7934162fcf1d}"/>
+          <!--3D对象-->
+          <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{31C0DD25-9439-4F12-BF41-7FF4EDA38722}"/>
+        </Applicable>
+        <System>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{7d83ee9b-2244-4e70-b1f5-5393042af1e4}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide"/>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide"/>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{f42ee2d3-909f-4907-8871-4c22fc0bf756}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide"/>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{0ddd015d-b06c-45d5-8c4c-f59713854639}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide"/>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{35286a68-3c57-41a1-bbb1-0eae73d76c95}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide"/>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{a0c69a99-21c8-4671-8703-7934162fcf1d}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide"/>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{31C0DD25-9439-4F12-BF41-7FF4EDA38722}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide"/>
+
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{7d83ee9b-2244-4e70-b1f5-5393042af1e4}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide" Wow64="True"/>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide" Wow64="True"/>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{f42ee2d3-909f-4907-8871-4c22fc0bf756}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide" Wow64="True"/>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{0ddd015d-b06c-45d5-8c4c-f59713854639}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide" Wow64="True"/>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{35286a68-3c57-41a1-bbb1-0eae73d76c95}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide" Wow64="True"/>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{a0c69a99-21c8-4671-8703-7934162fcf1d}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide" Wow64="True"/>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{31C0DD25-9439-4F12-BF41-7FF4EDA38722}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide" Wow64="True"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate Restart="Explorer">
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{7d83ee9b-2244-4e70-b1f5-5393042af1e4}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{f42ee2d3-909f-4907-8871-4c22fc0bf756}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{0ddd015d-b06c-45d5-8c4c-f59713854639}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{35286a68-3c57-41a1-bbb1-0eae73d76c95}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{a0c69a99-21c8-4671-8703-7934162fcf1d}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{31C0DD25-9439-4F12-BF41-7FF4EDA38722}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide"/>
+
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{7d83ee9b-2244-4e70-b1f5-5393042af1e4}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide" Wow64="True"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide" Wow64="True"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{f42ee2d3-909f-4907-8871-4c22fc0bf756}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide" Wow64="True"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{0ddd015d-b06c-45d5-8c4c-f59713854639}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide" Wow64="True"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{35286a68-3c57-41a1-bbb1-0eae73d76c95}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide" Wow64="True"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{a0c69a99-21c8-4671-8703-7934162fcf1d}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide" Wow64="True"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{31C0DD25-9439-4F12-BF41-7FF4EDA38722}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Hide" Wow64="True"/>
+
+              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{7d83ee9b-2244-4e70-b1f5-5393042af1e4}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Show"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Show"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{f42ee2d3-909f-4907-8871-4c22fc0bf756}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Show"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{0ddd015d-b06c-45d5-8c4c-f59713854639}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Show"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{35286a68-3c57-41a1-bbb1-0eae73d76c95}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Show"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{a0c69a99-21c8-4671-8703-7934162fcf1d}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Show"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{31C0DD25-9439-4F12-BF41-7FF4EDA38722}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Show"/>
+
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{7d83ee9b-2244-4e70-b1f5-5393042af1e4}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Show" Wow64="True"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Show" Wow64="True"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{f42ee2d3-909f-4907-8871-4c22fc0bf756}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Show" Wow64="True"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{0ddd015d-b06c-45d5-8c4c-f59713854639}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Show" Wow64="True"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{35286a68-3c57-41a1-bbb1-0eae73d76c95}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Show" Wow64="True"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{a0c69a99-21c8-4671-8703-7934162fcf1d}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Show" Wow64="True"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{31C0DD25-9439-4F12-BF41-7FF4EDA38722}\PropertyBag" Value="ThisPCPolicy" Type="REG_SZ" Data="Show" Wow64="True"/>
+
+              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
+      
       <Item Type="CheckBox" Name="#*隐藏桌面右下角教育版水印">
         <Applicable>
           <OSVersion>10.0</OSVersion>
@@ -2574,7 +3358,12 @@
         <Current>
           <State>
             <Applicable>
-              <RegExist Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Ribbon" Value="MinimizedStateTabletModeOff" Type="REG_DWORD" Data="1"/>
+              <Or>
+                <Not>
+                  <RegExist Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Ribbon" Value="MinimizedStateTabletModeOff"/>
+                </Not>
+                <RegExist Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Ribbon" Value="MinimizedStateTabletModeOff" Type="REG_DWORD" Data="1"/>
+              </Or>
             </Applicable>
           </State>
           <True>
@@ -2593,12 +3382,17 @@
         <Default>
           <State>
             <Applicable>
-              <RegExist Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Ribbon" Value="MinimizedStateTabletModeOff" Type="REG_DWORD" Data="1"/>
+              <Or>
+                <Not>
+                  <RegExist Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Ribbon" Value="MinimizedStateTabletModeOff"/>
+                </Not>
+                <RegExist Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Ribbon" Value="MinimizedStateTabletModeOff" Type="REG_DWORD" Data="1"/>
+              </Or>
             </Applicable>
           </State>
           <True>
             <Activate>
-              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Ribbon" Value="MinimizedStateTabletModeOff" Type="REG_DWORD" Data="1"/>
+              <RegDelete Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Ribbon" Value="MinimizedStateTabletModeOff"/>
             </Activate>
           </True>
           <False>
@@ -2768,46 +3562,6 @@
         </Default>
       </Item>
       
-      <Item Type="CheckBox" Name="#偶尔在开始菜单中显示建议">
-        <Applicable>
-          <OSVersion Compare=">=">10.0</OSVersion>
-        </Applicable>
-        <Current>
-          <State>
-            <Applicable>
-              <RegExist Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled" Type="REG_DWORD" Data="1"/>
-            </Applicable>
-          </State>
-          <True>
-            <Activate Restart="Explorer">
-              <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled" Type="REG_DWORD" Data="1"/>
-            </Activate>
-          </True>
-          <False>
-            <Activate Restart="Explorer">
-              <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled"  Type="REG_DWORD" Data="0"/>
-            </Activate>
-          </False>
-        </Current>
-        <Default>
-          <State>
-            <Applicable>
-              <RegExist Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled" Type="REG_DWORD" Data="1"/>
-            </Applicable>
-          </State>
-          <True>
-            <Activate>
-              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled" Type="REG_DWORD" Data="1"/>
-            </Activate>
-          </True>
-          <False>
-            <Activate>
-              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SystemPaneSuggestionsEnabled" Type="REG_DWORD" Data="0"/>
-            </Activate>
-          </False>
-        </Default>
-      </Item>
-
       <Item Type="CheckBox" Name="#关闭视频文件预览，提高资源管理器响应速度（by ‍莫失莫忘）">
         <Applicable>
           <Or>
@@ -2933,97 +3687,6 @@
             </Activate>
           </False>
         </System>
-      </Item>
-
-      <Item Type="CheckBox" Name="#关闭在应用商店中查找关联应用（by Asoft）">
-        <Applicable>
-          <OSVersion Compare=">=">6.2</OSVersion>
-        </Applicable>
-        <System>
-          <State>
-            <Applicable>
-              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer" Value="NoUseStoreOpenWith" Type="REG_DWORD" Data="1"/>
-            </Applicable>
-          </State>
-          <True>
-            <Activate>
-              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer" Value="NoUseStoreOpenWith" Type="REG_DWORD" Data="1"/>
-            </Activate>
-          </True>
-          <False>
-            <Activate>
-              <RegDelete Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer" Value="NoUseStoreOpenWith"/>
-            </Activate>
-          </False>
-        </System>
-      </Item>
-
-      <Item Type="CheckBox" Name="#关闭商店应用推广（by 、Cloud.）">
-        <Applicable>
-          <Or>
-            <FileExist FilePath="%SystemDrive%\Users\Default\AppData\Local\Microsoft\Windows\Shell\DefaultLayouts.xml"/>
-            <FileExist FilePath="%SystemDrive%\Users\Default\AppData\Local\Microsoft\Windows\Shell\DefaultLayouts.xml.bak"/>
-          </Or>
-        </Applicable>
-        <Default>
-          <State>
-            <Applicable>
-              <Not>
-                <FileExist FilePath="%SystemDrive%\Users\Default\AppData\Local\Microsoft\Windows\Shell\DefaultLayouts.xml"/>
-              </Not>
-            </Applicable>
-          </State>
-          <True>
-            <Activate>
-              <FileMove Src="%SystemDrive%\Users\Default\AppData\Local\Microsoft\Windows\Shell\DefaultLayouts.xml" Dst="%SystemDrive%\Users\Default\AppData\Local\Microsoft\Windows\Shell\DefaultLayouts.xml.bak"/>
-            </Activate>
-          </True>
-          <False>
-            <Activate>
-              <FileMove Dst="%SystemDrive%\Users\Default\AppData\Local\Microsoft\Windows\Shell\DefaultLayouts.xml" Src="%SystemDrive%\Users\Default\AppData\Local\Microsoft\Windows\Shell\DefaultLayouts.xml.bak"/>
-            </Activate>
-          </False>
-        </Default>
-      </Item>
-
-      <Item Type="CheckBox" Name="#关闭“突出显示新安装的程序”（by 溯汐潮）">
-        <Current>
-          <State>
-            <Applicable>
-              <RegExist Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="Start_NotifyNewApps" Type="REG_DWORD" Data="0"/>
-            </Applicable>
-          </State>
-          <True>
-            <Activate>
-              <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="Start_NotifyNewApps" Type="REG_DWORD" Data="0"/>
-              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
-            </Activate>
-          </True>
-          <False>
-            <Activate>
-              <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="Start_NotifyNewApps" Type="REG_DWORD" Data="1"/>
-              <ExplorerNotify Type="Custom" msg="111" wParam="#A220" Explorer="True"/>
-            </Activate>
-          </False>
-        </Current>
-
-        <Default>
-          <State>
-            <Applicable>
-              <RegExist Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="Start_NotifyNewApps" Type="REG_DWORD" Data="0"/>
-            </Applicable>
-          </State>
-          <True>
-            <Activate>
-              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="Start_NotifyNewApps" Type="REG_DWORD" Data="0"/>
-            </Activate>
-          </True>
-          <False>
-            <Activate>
-              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" Value="Start_NotifyNewApps" Type="REG_DWORD" Data="1"/>
-            </Activate>
-          </False>
-        </Default>
       </Item>
 
       <Item Type="CheckBox" Name="#快速访问不显示常用文件夹（by 溯汐潮）">
@@ -3191,6 +3854,7 @@
           </False>
         </Default>
       </Item>
+
     </Group>
 
     <Group Name="#Windows 7体验">
@@ -3230,6 +3894,7 @@
 
       <Item Type="CheckBox" Name="#将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）">
         <Applicable>
+          <OSVersion Compare="&lt;=">10.0.14393</OSVersion>
           <Or>
             <RegExist Key="HKEY_CLASSES_ROOT\DesktopBackground\Shell\Personalize\command" Value="DelegateExecute" Type="REG_SZ" Data="{06622D85-6856-4460-8DE1-A81921B41C4B}"/>
             <RegExist Key="HKEY_CLASSES_ROOT\DesktopBackground\Shell\Personalize\command" Value="DelegateExecute" Type="REG_SZ" Data="{556FF0D6-A1EE-49E5-9FA4-90AE116AD744}"/>
@@ -3989,6 +4654,7 @@
             </Applicable>
           </State>
           <True>
+            <Warning>#启用此选项将导致导航窗口拖拽功能无法使用。</Warning>
             <Activate Restart="Explorer">
               <RegWrite Key="HKEY_CLASSES_ROOT\CLSID\{679f85cb-0220-4080-b29b-5540cc05aab6}\ShellFolder" Value="Attributes" Type="REG_DWORD" Operator="|" Data="400000"/>
               <RegWrite Key="HKEY_CLASSES_ROOT\CLSID\{679f85cb-0220-4080-b29b-5540cc05aab6}\ShellFolder" Value="Attributes" Type="REG_DWORD" Operator="|" Data="400000" Wow64="True"/>
@@ -4041,7 +4707,8 @@
             <Activate>
               <RegMove NewKey="HKEY_CLASSES_ROOT\Directory\Background\ShellEx\ContextMenuHandlers\igfxDTCM" Key="HKEY_CLASSES_ROOT\Directory\Background\ShellEx\-ContextMenuHandlers\igfxDTCM" SkipError="2"/>
               <RegMove NewKey="HKEY_CLASSES_ROOT\Directory\Background\ShellEx\ContextMenuHandlers\igfxOSP" Key="HKEY_CLASSES_ROOT\Directory\Background\ShellEx\-ContextMenuHandlers\igfxOSP" SkipError="2"/>
-              <RegMove NewKey="HKEY_CLASSES_ROOT\Directory\Background\ShellEx\ContextMenuHandlers\igfxcui" Key="HKEY_CLASSES_ROOT\Directory\Background\ShellEx\-ContextMenuHandlers\igfxcui" SkipError="2"/>            </Activate>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\Directory\Background\ShellEx\ContextMenuHandlers\igfxcui" Key="HKEY_CLASSES_ROOT\Directory\Background\ShellEx\-ContextMenuHandlers\igfxcui" SkipError="2"/>
+            </Activate>
           </False>
         </System>
       </Item>
@@ -4523,8 +5190,91 @@
         </System>
       </Item>
 
+      <Item Type="CheckBox" Name="#禁用所有对象的“共享”右键菜单">
+        <Applicable>
+          <Or>
+            <RegExist Key="HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\ModernSharing"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\*\shellex\-ContextMenuHandlers\ModernSharing"/>
+          </Or>
+        </Applicable>
+        <System>
+          <State>
+            <Applicable>
+              <Not>
+                <RegExist Key="HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\ModernSharing"/>
+              </Not>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegMove Key="HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\ModernSharing" NewKey="HKEY_CLASSES_ROOT\*\shellex\-ContextMenuHandlers\ModernSharing"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\ModernSharing" Key="HKEY_CLASSES_ROOT\*\shellex\-ContextMenuHandlers\ModernSharing"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
+      
       <Item Type="CheckBox" Name="#禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单">
         <Applicable>
+          <Not>
+            <RegExist Key="HKEY_CLASSES_ROOT\CLSID\{e2bf9676-5f8f-435c-97eb-11607a5bedf7}"/>
+          </Not>
+          <Or>
+            <RegExist Key="HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\Sharing"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\Sharing"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\Sharing"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\Drive\shellex\ContextMenuHandlers\Sharing"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\LibraryFolder\background\shellex\ContextMenuHandlers\Sharing"/>
+
+            <RegExist Key="HKEY_CLASSES_ROOT\*\shellex\-ContextMenuHandlers\Sharing"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\Directory\shellex\-ContextMenuHandlers\Sharing"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\Directory\Background\shellex\-ContextMenuHandlers\Sharing"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\Drive\shellex\-ContextMenuHandlers\Sharing"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\LibraryFolder\background\shellex\-ContextMenuHandlers\Sharing"/>
+          </Or>
+        </Applicable>
+        <System>
+          <State>
+            <Applicable>
+              <Not>
+                <Or>
+                  <RegExist Key="HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\Sharing"/>
+                  <RegExist Key="HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\Sharing"/>
+                  <RegExist Key="HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\Sharing"/>
+                  <RegExist Key="HKEY_CLASSES_ROOT\Drive\shellex\ContextMenuHandlers\Sharing"/>
+                  <RegExist Key="HKEY_CLASSES_ROOT\LibraryFolder\background\shellex\ContextMenuHandlers\Sharing"/>
+                </Or>
+              </Not>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegMove Key="HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\Sharing" NewKey="HKEY_CLASSES_ROOT\*\shellex\-ContextMenuHandlers\Sharing" SkipError="2"/>
+              <RegMove Key="HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\Sharing" NewKey="HKEY_CLASSES_ROOT\Directory\shellex\-ContextMenuHandlers\Sharing" SkipError="2"/>
+              <RegMove Key="HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\Sharing" NewKey="HKEY_CLASSES_ROOT\Directory\Background\shellex\-ContextMenuHandlers\Sharing" SkipError="2"/>
+              <RegMove Key="HKEY_CLASSES_ROOT\Drive\shellex\ContextMenuHandlers\Sharing" NewKey="HKEY_CLASSES_ROOT\Drive\shellex\-ContextMenuHandlers\Sharing" SkipError="2"/>
+              <RegMove Key="HKEY_CLASSES_ROOT\LibraryFolder\background\shellex\ContextMenuHandlers\Sharing" NewKey="HKEY_CLASSES_ROOT\LibraryFolder\background\shellex\-ContextMenuHandlers\Sharing" SkipError="2"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\Sharing" Key="HKEY_CLASSES_ROOT\*\shellex\-ContextMenuHandlers\Sharing" SkipError="2"/>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\Sharing" Key="HKEY_CLASSES_ROOT\Directory\shellex\-ContextMenuHandlers\Sharing" SkipError="2"/>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\Sharing" Key="HKEY_CLASSES_ROOT\Directory\Background\shellex\-ContextMenuHandlers\Sharing" SkipError="2"/>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\Drive\shellex\ContextMenuHandlers\Sharing" Key="HKEY_CLASSES_ROOT\Drive\shellex\-ContextMenuHandlers\Sharing" SkipError="2"/>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\LibraryFolder\background\shellex\ContextMenuHandlers\Sharing" Key="HKEY_CLASSES_ROOT\LibraryFolder\background\shellex\-ContextMenuHandlers\Sharing" SkipError="2"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
+
+      <Item Type="CheckBox" Name="#禁用文件、目录、桌面、磁盘以及库的“授予访问权限”右键菜单">
+        <Applicable>
+          <RegExist Key="HKEY_CLASSES_ROOT\CLSID\{e2bf9676-5f8f-435c-97eb-11607a5bedf7}"/>
           <Or>
             <RegExist Key="HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\Sharing"/>
             <RegExist Key="HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\Sharing"/>
@@ -4715,9 +5465,238 @@
           </False>
         </System>
       </Item>
+
+      <Item Type="CheckBox" Name="#禁用文件的“View 3D”右键菜单（by Cloud）">
+        <Applicable>
+          <Or>
+            <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\Shell\T3D Print"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\Shell\T3D Print"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.png\Shell\T3D Print"/>
+
+            <RegExist Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.bmp\Shell\T3D Print"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.jpg\Shell\T3D Print"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.png\Shell\T3D Print"/>
+          </Or>
+        </Applicable>
+        <System>
+          <State>
+            <Applicable>
+              <Not>
+                <Or>
+                  <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\Shell\T3D Print"/>
+                  <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\Shell\T3D Print"/>
+                  <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.png\Shell\T3D Print"/>
+                </Or>
+              </Not>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegMove Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\Shell\T3D Print" NewKey="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.bmp\Shell\T3D Print" SkipError="2"/>
+              <RegMove Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\Shell\T3D Print" NewKey="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.jpg\Shell\T3D Print" SkipError="2"/>
+              <RegMove Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.png\Shell\T3D Print" NewKey="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.png\Shell\T3D Print" SkipError="2"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\Shell\T3D Print" Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.bmp\Shell\T3D Print" SkipError="2"/>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\Shell\T3D Print" Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.jpg\Shell\T3D Print" SkipError="2"/>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\SystemFileAssociations\.png\Shell\T3D Print" Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.png\Shell\T3D Print" SkipError="2"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
+
+      <Item Type="CheckBox" Name="#禁用文件的“画图 3D”右键菜单（by Cloud）">
+        <Applicable>
+          <Or>
+            <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.tif\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.png\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpeg\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpe\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.jfif\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.fbx\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.3mf\Shell\3D Edit"/>
+
+            <RegExist Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.tiff\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.tif\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.png\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.jpg\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.jpeg\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.jpe\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.jfif\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.gif\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.fbx\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.bmp\Shell\3D Edit"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.3mf\Shell\3D Edit"/>
+          </Or>
+        </Applicable>
+        <System>
+          <State>
+            <Applicable>
+              <Not>
+                <Or>
+                  <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff\Shell\3D Edit"/>
+                  <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.tif\Shell\3D Edit"/>
+                  <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.png\Shell\3D Edit"/>
+                  <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\Shell\3D Edit"/>
+                  <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpeg\Shell\3D Edit"/>
+                  <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpe\Shell\3D Edit"/>
+                  <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.jfif\Shell\3D Edit"/>
+                  <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\Shell\3D Edit"/>
+                  <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.fbx\Shell\3D Edit"/>
+                  <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\Shell\3D Edit"/>
+                  <RegExist Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.3mf\Shell\3D Edit"/>
+                </Or>
+              </Not>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegMove Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff\Shell\3D Edit" NewKey="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.tiff\Shell\3D Edit" SkipError="2"/>
+              <RegMove Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.tif\Shell\3D Edit" NewKey="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.tif\Shell\3D Edit" SkipError="2"/>
+              <RegMove Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.png\Shell\3D Edit" NewKey="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.png\Shell\3D Edit" SkipError="2"/>
+              <RegMove Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\Shell\3D Edit" NewKey="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.jpg\Shell\3D Edit" SkipError="2"/>
+              <RegMove Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpeg\Shell\3D Edit" NewKey="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.jpeg\Shell\3D Edit" SkipError="2"/>
+              <RegMove Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpe\Shell\3D Edit" NewKey="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.jpe\Shell\3D Edit" SkipError="2"/>
+              <RegMove Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.jfif\Shell\3D Edit" NewKey="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.jfif\Shell\3D Edit" SkipError="2"/>
+              <RegMove Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\Shell\3D Edit" NewKey="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.gif\Shell\3D Edit" SkipError="2"/>
+              <RegMove Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.fbx\Shell\3D Edit" NewKey="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.fbx\Shell\3D Edit" SkipError="2"/>
+              <RegMove Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\Shell\3D Edit" NewKey="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.bmp\Shell\3D Edit" SkipError="2"/>
+              <RegMove Key="HKEY_CLASSES_ROOT\SystemFileAssociations\.3mf\Shell\3D Edit" NewKey="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.3mf\Shell\3D Edit" SkipError="2"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\SystemFileAssociations\.tiff\Shell\3D Edit" Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.tiff\Shell\3D Edit" SkipError="2"/>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\SystemFileAssociations\.tif\Shell\3D Edit" Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.tif\Shell\3D Edit" SkipError="2"/>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\SystemFileAssociations\.png\Shell\3D Edit" Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.png\Shell\3D Edit" SkipError="2"/>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\Shell\3D Edit" Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.jpg\Shell\3D Edit" SkipError="2"/>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpeg\Shell\3D Edit" Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.jpeg\Shell\3D Edit" SkipError="2"/>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\SystemFileAssociations\.jpe\Shell\3D Edit" Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.jpe\Shell\3D Edit" SkipError="2"/>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\SystemFileAssociations\.jfif\Shell\3D Edit" Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.jfif\Shell\3D Edit" SkipError="2"/>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\Shell\3D Edit" Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.gif\Shell\3D Edit" SkipError="2"/>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\SystemFileAssociations\.fbx\Shell\3D Edit" Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.fbx\Shell\3D Edit" SkipError="2"/>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\SystemFileAssociations\.bmp\Shell\3D Edit" Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.bmp\Shell\3D Edit" SkipError="2"/>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\SystemFileAssociations\.3mf\Shell\3D Edit" Key="HKEY_CLASSES_ROOT\DismRegBackup\SystemFileAssociations\.3mf\Shell\3D Edit" SkipError="2"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
+
+      <Item Type="CheckBox" Name="#禁用文件夹的“包含到库中”右键菜单（by choyri）">
+        <Applicable>
+          <Or>
+            <RegExist Key="HKEY_CLASSES_ROOT\Folder\shellex\ContextMenuHandlers\Library Location"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\Folder\shellex\-ContextMenuHandlers\Library Location"/>
+          </Or>
+        </Applicable>
+        <System>
+          <State>
+            <Applicable>
+              <Not>
+                <RegExist Key="HKEY_CLASSES_ROOT\Folder\shellex\ContextMenuHandlers\Library Location"/>
+              </Not>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegMove Key="HKEY_CLASSES_ROOT\Folder\shellex\ContextMenuHandlers\Library Location" NewKey="HKEY_CLASSES_ROOT\Folder\shellex\-ContextMenuHandlers\Library Location"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\Folder\shellex\ContextMenuHandlers\Library Location" Key="HKEY_CLASSES_ROOT\Folder\shellex\-ContextMenuHandlers\Library Location"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
+
+      <Item Type="CheckBox" Name="#禁用桌面的“NVIDIA 控制面板”右键菜单（by choyri）">
+        <Applicable>
+          <Or>
+            <RegExist Key="HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\NvCplDesktopContext"/>
+            <RegExist Key="HKEY_CLASSES_ROOT\Directory\Background\shellex\-ContextMenuHandlers\NvCplDesktopContext"/>
+          </Or>
+        </Applicable>
+        <System>
+          <State>
+            <Applicable>
+              <Not>
+                <RegExist Key="HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\NvCplDesktopContext"/>
+              </Not>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegMove Key="HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\NvCplDesktopContext" NewKey="HKEY_CLASSES_ROOT\Directory\Background\shellex\-ContextMenuHandlers\NvCplDesktopContext"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\NvCplDesktopContext" Key="HKEY_CLASSES_ROOT\Directory\Background\shellex\-ContextMenuHandlers\NvCplDesktopContext"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
+    </Group>
+
+    <Group Name="#Microsoft Edge">
+      <Applicable>
+        <OSVersion Compare=">=">10.0</OSVersion>
+        <FileExist FilePath="%SystemRoot%\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\AppxManifest.xml"/>
+      </Applicable>
+
+      <Item Type="CheckBox" Name="#阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）">
+        <System>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MicrosoftEdge" Value="PreventFirstRunPage" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MicrosoftEdge" Value="PreventFirstRunPage" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MicrosoftEdge" Value="PreventFirstRunPage"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
+
+      <Item Type="CheckBox" Name="#关闭Adobe Flash即点即用">
+        <Applicable>
+          <OSVersion Compare=">=">10.0.15063</OSVersion>
+        </Applicable>
+        <System>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MicrosoftEdge\Security" Value="FlashClickToRunMode" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Warning>#此选项将降低计算机安全性，增加Adobe Flash的安全隐患！</Warning>
+            <Activate>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MicrosoftEdge\Security" Value="FlashClickToRunMode" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MicrosoftEdge\Security" Value="FlashClickToRunMode"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
     </Group>
     
-    <Group Name="Internet Explorer">
+    <Group Name="Internet Explorer">      
       <Item Type="CheckBox" Name="#关闭多个选项卡时不发出警告（by 一叶微风TM）">
         <Current>
           <State>
@@ -5159,19 +6138,19 @@
           <State>
             <Applicable>
               <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings" Value="MaxConnectionsPer1_0Server" Type="REG_DWORD" Data="A"/>
-              <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings" Value="axConnectionsPerServer" Type="REG_DWORD" Data="A"/>
+              <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings" Value="MaxConnectionsPerServer" Type="REG_DWORD" Data="A"/>
             </Applicable>
           </State>
           <True>
             <Activate>
               <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings" Value="MaxConnectionsPer1_0Server" Type="REG_DWORD" Data="A"/>
-              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings" Value="axConnectionsPerServer" Type="REG_DWORD" Data="A"/>
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings" Value="MaxConnectionsPerServer" Type="REG_DWORD" Data="A"/>
             </Activate>
           </True>
           <False>
             <Activate>
               <RegDelete Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings" Value="MaxConnectionsPer1_0Server"/>
-              <RegDelete Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings" Value="axConnectionsPerServer"/>
+              <RegDelete Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings" Value="MaxConnectionsPerServer"/>
             </Activate>
           </False>
         </Current>
@@ -5180,19 +6159,19 @@
           <State>
             <Applicable>
               <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings" Value="MaxConnectionsPer1_0Server" Type="REG_DWORD" Data="A"/>
-              <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings" Value="axConnectionsPerServer" Type="REG_DWORD" Data="A"/>
+              <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings" Value="MaxConnectionsPerServer" Type="REG_DWORD" Data="A"/>
             </Applicable>
           </State>
           <True>
             <Activate>
               <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings" Value="MaxConnectionsPer1_0Server" Type="REG_DWORD" Data="A"/>
-              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings" Value="axConnectionsPerServer" Type="REG_DWORD" Data="A"/>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings" Value="MaxConnectionsPerServer" Type="REG_DWORD" Data="A"/>
             </Activate>
           </True>
           <False>
             <Activate>
               <RegDelete Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings" Value="MaxConnectionsPer1_0Server"/>
-              <RegDelete Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings" Value="axConnectionsPerServer"/>
+              <RegDelete Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings" Value="MaxConnectionsPerServer"/>
             </Activate>
           </False>
         </Default>
@@ -5269,6 +6248,47 @@
           <False>
             <Activate>
               <RegDelete Key="HKEY_USERS\DEFAULT\Software\Microsoft\Internet Explorer\Main" Value="NoUpdateCheck"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
+
+      <Item Type="CheckBox" Name="#隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）">
+        <Applicable>
+          <OSVersion Compare=">=">10.0</OSVersion>
+        </Applicable>
+        <Current>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_CURRENT_USER\Software\Policies\Microsoft\Internet Explorer\Restrictions" Value="NoHelpItemSendFeedback" Type="REG_DWORD" Data="1"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Policies\Microsoft\Internet Explorer\Restrictions" Value="NoHelpItemSendFeedback" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_CURRENT_USER\Software\Policies\Microsoft\Internet Explorer\Restrictions" Value="NoHelpItemSendFeedback"/>
+            </Activate>
+          </False>
+        </Current>
+
+        <Default>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\Software\Policies\Microsoft\Internet Explorer\Restrictions" Value="NoHelpItemSendFeedback" Type="REG_DWORD" Data="1"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Policies\Microsoft\Internet Explorer\Restrictions" Value="NoHelpItemSendFeedback" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_USERS\DEFAULT\Software\Policies\Microsoft\Internet Explorer\Restrictions" Value="NoHelpItemSendFeedback"/>
             </Activate>
           </False>
         </Default>
@@ -5811,6 +6831,30 @@
           </False>
         </System>
       </Item>
+
+      <Item Type="CheckBox" Name="#*禁用SMB1网络协议（by Jhovany200）">
+        <Applicable>
+          <!--仅用于Vista以及Windows 7-->
+          <OSVersion Compare="&lt;=">6.1</OSVersion>
+        </Applicable>
+       <System>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters" Value="SMB1" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters" Value="SMB1" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+         <False>
+           <Activate>
+             <RegWrite Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters" Value="SMB1" Type="REG_DWORD" Data="1"/>
+           </Activate>
+          </False>
+        </System>
+      </Item>
     </Group>
 
     <Group Name="#服务优化">
@@ -6235,31 +7279,7 @@
           </False>
         </System>
       </Item>
-      
-      <Item Type="CheckBox" Name="#关闭OneDrive（by Rambin）">
-        <Applicable>
-          <OSVersion Compare=">=">6.2</OSVersion>
-        </Applicable>
-        <System>
-          <State>
-            <Applicable>
-              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\OneDrive" Value="DisableFileSyncNGSC" Type="REG_DWORD" Data="1"/>
-            </Applicable>
-          </State>
-          <True>
-            <Warning>#禁用OneDrive将导致某些Windows Store应用无法使用OneDrive存储。</Warning>
-            <Activate>
-              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\OneDrive" Value="DisableFileSyncNGSC" Type="REG_DWORD" Data="1"/>
-            </Activate>
-          </True>
-          <False>
-            <Activate>
-              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\OneDrive" Value="DisableFileSyncNGSC" Type="REG_DWORD" Data="0"/>
-            </Activate>
-          </False>
-        </System>
-      </Item>
-      
+            
       <Item Type="CheckBox" Name="#*VHD启动时不要将VHD动态文件扩展到最大（以节省空间）">
         <Applicable>
           <RegExist Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\FsDepends\Parameters" Value="VirtualDiskExpandOnMount"/>
@@ -6284,29 +7304,6 @@
         </System>
       </Item>
       
-      <Item Type="CheckBox" Name="#*隐藏某些SATA硬盘任务栏图标（by 原罪）">
-        <Applicable>
-          <RegExist Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvata"/>
-        </Applicable>
-        <System>
-          <State>
-            <Applicable>
-              <RegExist Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvata" Value="DisableRemovable" Type="REG_DWORD" Data="1"/>
-            </Applicable>
-          </State>
-          <True>
-            <Activate>
-              <RegWrite Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvata" Value="DisableRemovable" Type="REG_DWORD" Data="1"/>
-            </Activate>
-          </True>
-          <False>
-            <Activate>
-              <RegWrite Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvata" Value="DisableRemovable" Type="REG_DWORD" Data="0"/>
-            </Activate>
-          </False>
-        </System>
-      </Item>
-
       <Item Type="CheckBox" Name="#蓝屏时自动重启（by 原罪）">
         <System>
           <State>
@@ -6330,11 +7327,22 @@
       <Item Type="CheckBox" Name="#关闭快速启动">
         <Applicable>
           <OSVersion Compare=">=">6.2</OSVersion>
+          <Not>
+            <!--VHD装载、PE系统不显示-->
+            <Or>
+              <ImageFlags>40</ImageFlags>
+              <ImageFlags>10</ImageFlags>
+            </Or>
+          </Not>
         </Applicable>
         <System>
           <State>
             <Applicable>
-              <RegExist Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power" Value="HiberbootEnabled" Type="REG_DWORD" Data="0"/>
+              <Or>
+                <!--关闭休眠 或者 指定关闭快速启动都认为关闭了快速启动-->
+                <RegExist Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power" Value="HibernateEnabled" Type="REG_DWORD" Data="0"/>
+                <RegExist Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power" Value="HiberbootEnabled" Type="REG_DWORD" Data="0"/>
+              </Or>
             </Applicable>
           </State>
           <True>
@@ -6345,7 +7353,42 @@
           </True>
           <False>
             <Activate>
+              <!--先尝试开启休眠-->
+              <ExplorerNotify Type="Cmd" Cmd="powercfg -hibernate on"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power" Value="HibernateEnabled" Type="REG_DWORD" Data="1"/>
+
+              <!--开启快速启动-->
               <RegWrite Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power" Value="HiberbootEnabled" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
+
+      <Item Type="CheckBox" Name="#关闭休眠（by powerxing04）">
+        <Applicable>
+          <Not>
+            <!--VHD装载、PE系统不显示-->
+            <ImageFlags>40</ImageFlags>
+            <ImageFlags>10</ImageFlags>
+          </Not>
+        </Applicable>
+        <System>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power" Value="HibernateEnabled" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+          </State>
+          <True>
+            <Warning>#关闭休眠后将导致快速启动以及混合休眠不可用，这样将增加断电丢失数据的风险！</Warning>
+            <Activate>
+              <ExplorerNotify Type="Cmd" Cmd="powercfg -hibernate off"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power" Value="HibernateEnabled" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <ExplorerNotify Type="Cmd" Cmd="powercfg -hibernate on"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power" Value="HibernateEnabled" Type="REG_DWORD" Data="1"/>
             </Activate>
           </False>
         </System>
@@ -6494,54 +7537,6 @@
         </System>
       </Item>
 
-      <Item Type="Combo" Name="#关闭游戏录制工具（by 、Cloud.）">
-        <Applicable>
-          <Applicable>
-            <OSVersion Compare=">=">6.4</OSVersion>
-          </Applicable>
-        </Applicable>
-        <Current>
-          <State>
-            <Applicable>
-              <RegExist Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" Value="AppCaptureEnabled" Type="REG_DWORD" Data="0"/>
-              <RegExist Key="HKEY_CURRENT_USER\System\GameConfigStore" Value="GameDVR_Enabled" Type="REG_DWORD" Data="0"/>
-            </Applicable>
-          </State>
-          <True>
-            <Activate>
-              <RegWrite Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" Value="AppCaptureEnabled" Type="REG_DWORD" Data="0"/>
-              <RegWrite Key="HKEY_CURRENT_USER\System\GameConfigStore" Value="GameDVR_Enabled" Type="REG_DWORD" Data="0"/>
-            </Activate>
-          </True>
-          <False>
-            <Activate>
-              <RegDelete Key="HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" Value="AppCaptureEnabled"/>
-              <RegDelete Key="HKEY_CURRENT_USER\System\GameConfigStore" Value="GameDVR_Enabled"/>
-            </Activate>
-          </False>
-        </Current>
-        <Default>
-          <State>
-            <Applicable>
-              <RegExist Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" Value="AppCaptureEnabled" Type="REG_DWORD" Data="0"/>
-              <RegExist Key="HKEY_USERS\DEFAULT\System\GameConfigStore" Value="GameDVR_Enabled" Type="REG_DWORD" Data="0"/>
-            </Applicable>
-          </State>
-          <True>
-            <Activate>
-              <RegWrite Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" Value="AppCaptureEnabled" Type="REG_DWORD" Data="0"/>
-              <RegWrite Key="HKEY_USERS\DEFAULT\System\GameConfigStore" Value="GameDVR_Enabled" Type="REG_DWORD" Data="0"/>
-            </Activate>
-          </True>
-          <False>
-            <Activate>
-              <RegDelete Key="HKEY_USERS\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" Value="AppCaptureEnabled"/>
-              <RegDelete Key="HKEY_USERS\DEFAULT\System\GameConfigStore" Value="GameDVR_Enabled"/>
-            </Activate>
-          </False>
-        </Default>
-      </Item>
-
       <Item Type="CheckBox" Name="#禁用账号登录日志报告（by 溯汐潮）">
         <System>
           <State>
@@ -6561,51 +7556,24 @@
           </False>
         </System>
       </Item>
-      
-      <Item Type="CheckBox" Name="#登陆界面默认打开小键盘（by IT之家）">
-        <Applicable>
-          <Applicable>
-            <OSVersion Compare="&lt;=">6.1</OSVersion>
-          </Applicable>
-        </Applicable>
+
+      <Item Type="CheckBox" Name="#禁用WfpDiag.ETL日志（by powerxing04）">
         <System>
           <State>
             <Applicable>
-              <RegExist Key="HKEY_USERS\.DEFAULT\Control Panel\Keyboard" Value="InitialKeyboardIndicators" Type="REG_SZ" Data="2"/>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BFE\Parameters\Policy\Options" Value="CollectNetEvents" Type="REG_DWORD" Data="0"/>
             </Applicable>
           </State>
           <True>
             <Activate>
-              <RegWrite Key="HKEY_USERS\.DEFAULT\Control Panel\Keyboard" Value="InitialKeyboardIndicators" Type="REG_SZ" Data="2"/>
+              <ExplorerNotify Type="Cmd" Cmd="NETSH WFP SET OPTIONS NETEVENTS=OFF"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BFE\Parameters\Policy\Options" Value="CollectNetEvents" Type="REG_DWORD" Data="0"/>
             </Activate>
           </True>
           <False>
             <Activate>
-              <RegWrite Key="HKEY_USERS\.DEFAULT\Control Panel\Keyboard" Value="InitialKeyboardIndicators" Type="REG_SZ" Data="2147483648"/>
-            </Activate>
-          </False>
-        </System>
-      </Item>
-      <Item Type="CheckBox" Name="#登陆界面默认打开小键盘（by IT之家）">
-        <Applicable>
-          <Applicable>
-            <OSVersion Compare=">=">6.2</OSVersion>
-          </Applicable>
-        </Applicable>
-        <System>
-          <State>
-            <Applicable>
-              <RegExist Key="HKEY_USERS\.DEFAULT\Control Panel\Keyboard" Value="InitialKeyboardIndicators" Type="REG_SZ" Data="80000002"/>
-            </Applicable>
-          </State>
-          <True>
-            <Activate>
-              <RegWrite Key="HKEY_USERS\.DEFAULT\Control Panel\Keyboard" Value="InitialKeyboardIndicators" Type="REG_SZ" Data="80000002"/>
-            </Activate>
-          </True>
-          <False>
-            <Activate>
-              <RegWrite Key="HKEY_USERS\.DEFAULT\Control Panel\Keyboard" Value="InitialKeyboardIndicators" Type="REG_SZ" Data="2147483648"/>
+              <ExplorerNotify Type="Cmd" Cmd="NETSH WFP SET OPTIONS NETEVENTS=ON"/>
+              <RegDelete Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BFE\Parameters\Policy\Options" Value="CollectNetEvents"/>
             </Activate>
           </False>
         </System>
@@ -6632,7 +7600,7 @@
     <Key>BwIAAACkAABSU0EyAAQAAAEAAQCBK154a48ca1NUi4rwPvAb25g7qltZ0xm5HYKYLYA7AWrSEsmGduL1lgbH0GB0hLVp3qK3U6XBpudvCLTkcozadaKisCLDvCuAboPRgpkBjQ0g9jqU1bECrRgESQo+zypLSBtgL1vVsgHncefceZjxirjM6IeYV1Vul2St0BOcvDFQqnFLfFwehCUUs1GUQhNVOJeYUVGkEQxpvMCrO6jWzOvvFiieN6zB0ygCCsnLsk2Ns4JXe4SnsmgGf7tw+f5RjKBv7Hk3wyblOm0vzPnh6K77KhAiOcvO30cxEMHyK/kYOj8I1vHndjlqhvyD3e8qplpjQUVXe0DKYx1NTF69UdRqRv7gLwfvmE6hmJaTbe+N0DoC8Ie27WYBUiZfJSypbL282a9Vu4lNplTox6dfzf5hdE1KLiDptpCm+5rGTeEIQNIjYj7Ju0lmdDg5YobuCduao2ZsxVhrSfg0mBcsUa69uSL2mLtorZDoSS0ZEyoGudDapHiT7zd+HBQiUZaE1H90V/Zfjmmt/sbpXd+kDWs2+cRjCVRvSpqD8OSvSVO2ECR0QzLF4LpssF5G5exCs+ABvH5UMgu74rAGHPbqgSURURvxltzrVIFe1JZcv4YZwsGgi7JaKMdzF5EsLKhiLmqU0++tA5gKNFC4TwuUCP7X5eFDv7FTKWf3fmtKTE05sakAuAgTm1IPBZ5B5UtWctUwfLknsj4JlO4WQMd+sBg/NaQP9jRberZFyg0RRTXxJVRx+aBDaJdh66hF/gU=</Key>
   </ESDDecryptKey>
   <WSUS>
-    <Warning ID="KB3000483">
+    <Warning ID="KB3000483|KB3000850">
       <en>Some games will not run properly.</en>
       <es>Algunos juegos no se ejecutarán correctamente.</es>
       <zh-Hans>将导致某些游戏无法正常运行。</zh-Hans>
@@ -6713,6 +7681,18 @@
       <ru>Это обновление устарело и заменено обновлением стека Windows в октябре 2016. Мы не рекомендуем это обновление, если не хотите вносить устаревшие обновления. Но некоторые обновления не будут интегрированы в автономном режиме, если Вы не установите данное обновление. Если Вы хотите применить все обновления Windows в автономном режиме, необходимо установить это обновление, а затем установить другие обновления.</ru>
       <ja>この更新は期限切れました、Windows 2016-10 月累積的な更新プログラムは取り替えしました。期限切れの更新は追加したくない、このはインストールお勧めしません、でも一部の更新はオフライン追加できません。すべての更新は追加思う、この更新はインストール必要があります、そして他の更新はインストールします。</ja>
     </Warning>
+    <Warning ID="KB3184143">
+      <zh-Hans>此更新已经用于删除Windows 10免费升级相关信息，但是目前Windows 10早就没有免费升级信息了，一般情况无需安装此更新。</zh-Hans>
+      <es>Esta actualización se ha utilizado para eliminar la información relacionada con la actualización gratuita a Windows 10, pero en la actualidad la actualización a Windows 10 ya no es gratuita y generalmente no es necesario instalar esta actualización.</es>
+    </Warning>
+    <Warning ID="KB3161102">
+      <zh-Hans>此更新会删除Windows日记本，如果你确实需要使用日记本，那么请勿安装此更新。</zh-Hans>
+      <es>Esta actualización eliminará el diario de Windows, y si realmente necesita usar el diario, no instale esta actualización.</es>
+    </Warning>
+    <Warning ID="KB4041083">
+      <zh-Hans>此更新将导致AutoCAD 2014无法正常运行，如果你确实需要使用AutoCAD 2014，那么请勿安装此更新。</zh-Hans>
+      <es>Esta actualización hará que AutoCAD 2014 no funcione correctamente, no instale esta actualización si realmente necesita usar AutoCAD 2014.</es>
+    </Warning>
     <!--过期更新-->
     <Warning ID="KB982726" Type="Hide"/>
     <!--Windows 10升级补丁-->
@@ -6760,6 +7740,8 @@
     <Item>Users\*\AppData\Local\Microsoft\Windows\Explorer\</Item>
     <Item>Users\*\AppData\Local\Microsoft\Windows\Caches\</Item>
     <Item>Users\*\AppData\Local\Microsoft\Windows\INetCache\</Item>
+    <!--过滤Linux子系统，以免备份失败-->
+    <Item>Users\*\AppData\Local\lxss</Item>
   </DefaultFilterList>
   <TimeZoneMap>
     <x2>SA Western Standard Time</x2>

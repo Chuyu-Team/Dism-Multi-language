@@ -1,0 +1,460 @@
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<div id="container0" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+<div id="container1" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+<div id="container2" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+<div id="container3" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+<div id="container4" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+<script>
+    'use strict';
+    let data0 = new Array();
+    let modulename = new Array();
+    fetch('statistics.php?type=module').then(
+        (response) => {
+            return response.json();
+        }
+    ).then(
+        (data) => {
+            data.forEach((ele) => {
+                let tmodulename = ele.crashmodule.split('\\').pop();
+                if (modulename.indexOf(tmodulename) < 0)
+                    modulename.push(tmodulename);
+            });
+            for (let i in modulename) {
+                data0.push(0);
+            }
+            data.forEach((element) => {
+                let tmodulename = element.crashmodule.split('\\').pop();
+                let tidx = modulename.indexOf(tmodulename);
+                data0[tidx] += parseInt(element.count);
+            });
+        }
+        ).then(
+        () => {
+            Highcharts.setOptions({
+                global: {
+                    useUTC: false
+                }
+            });
+            Highcharts.chart('container0', {
+                chart: {
+                    zoomType: 'y'
+                },
+                title: {
+                    text: 'By Module'
+                },
+                subtitle: {
+                    text: document.ontouchstart === undefined ?
+                        'Click and drag in the plot area to zoom in' : 'Pinch the chart to zoom in'
+                },
+                xAxis: {
+                    // type: 'datetime',
+                    categories: modulename,
+                    title: {
+                        text: 'Module'
+                    }
+                },
+                yAxis: {
+                    title: {
+                        text: 'Crash Count'
+                    }
+                },
+                legend: {
+                    enabled: false
+                },
+                plotOptions: {
+                    area: {
+                        fillColor: {
+                            linearGradient: {
+                                x1: 0,
+                                y1: 0,
+                                x2: 0,
+                                y2: 1
+                            },
+                            stops: [
+                                [0, Highcharts.getOptions().colors[0]],
+                                [1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')]
+                            ]
+                        },
+                        marker: {
+                            radius: 2
+                        },
+                        lineWidth: 1,
+                        states: {
+                            hover: {
+                                lineWidth: 1
+                            }
+                        },
+                        threshold: 0
+                    }
+                },
+                series: [{
+                    type: 'area',
+                    name: 'Crash Count',
+                    data: data0
+                }]
+            });
+        }
+        )
+    let data1 = new Array();
+    let osver = new Array();
+    fetch('statistics.php?type=osver').then(
+        (response) => {
+            return response.json();
+        }
+    ).then(
+        (data) => {
+            data.forEach((rele) => {
+                let ele = JSON.parse(JSON.stringify(rele));
+                let tosver = (ele.osversion % 65536).toString();
+                ele.osversion /= 65536;
+                ele.osversion = Math.floor(ele.osversion);
+                tosver = (ele.osversion % 65536).toString() + "." + tosver;
+                ele.osversion /= 65536;
+                ele.osversion = Math.floor(ele.osversion);
+                tosver = (ele.osversion % 65536).toString() + "." + tosver;
+                ele.osversion /= 65536;
+                ele.osversion = Math.floor(ele.osversion);
+                tosver = (ele.osversion % 65536).toString() + "." + tosver;
+                tosver = tosver.match(/^\d+\.\d+\.\d+/)[0];
+                if (osver.indexOf(tosver) < 0)
+                    osver.push(tosver);
+            });
+            for (let i in osver) {
+                data1.push(0);
+            }
+            data.forEach((ele) => {
+                let tosver = (ele.osversion % 65536).toString();
+                ele.osversion /= 65536;
+                ele.osversion = Math.floor(ele.osversion);
+                tosver = (ele.osversion % 65536).toString() + "." + tosver;
+                ele.osversion /= 65536;
+                ele.osversion = Math.floor(ele.osversion);
+                tosver = (ele.osversion % 65536).toString() + "." + tosver;
+                ele.osversion /= 65536;
+                ele.osversion = Math.floor(ele.osversion);
+                tosver = (ele.osversion % 65536).toString() + "." + tosver;
+                tosver = tosver.match(/^\d+\.\d+\.\d+/)[0];
+                let tidx = osver.indexOf(tosver);
+                data1[tidx] += parseInt(ele.count);
+            });
+        }
+        ).then(
+        () => {
+            Highcharts.setOptions({
+                global: {
+                    useUTC: false
+                }
+            });
+            Highcharts.chart('container1', {
+                chart: {
+                    zoomType: 'y'
+                },
+                title: {
+                    text: 'By OS Version'
+                },
+                subtitle: {
+                    text: document.ontouchstart === undefined ?
+                        'Click and drag in the plot area to zoom in' : 'Pinch the chart to zoom in'
+                },
+                xAxis: {
+                    categories: osver,
+                    // type: 'datetime',
+                    title: {
+                        text: 'OS Version'
+                    }
+                },
+                yAxis: {
+                    title: {
+                        text: 'Crash Count'
+                    }
+                },
+                legend: {
+                    enabled: false
+                },
+                plotOptions: {
+                    area: {
+                        fillColor: {
+                            linearGradient: {
+                                x1: 0,
+                                y1: 0,
+                                x2: 0,
+                                y2: 1
+                            },
+                            stops: [
+                                [0, Highcharts.getOptions().colors[0]],
+                                [1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')]
+                            ]
+                        },
+                        marker: {
+                            radius: 2
+                        },
+                        lineWidth: 1,
+                        states: {
+                            hover: {
+                                lineWidth: 1
+                            }
+                        },
+                        threshold: 0
+                    }
+                },
+                series: [{
+                    type: 'area',
+                    name: 'Crash Count',
+                    data: data1
+                }]
+            });
+        }
+        )
+    let data2 = new Array();
+    let dismver = new Array();
+    fetch('statistics.php?type=dismver').then(
+        (response) => {
+            return response.json();
+        }
+    ).then(
+        (data) => {
+            data.forEach((ele) => {
+                let tdismver = (ele.dismversion % 65536).toString();
+                ele.dismversion /= 65536;
+                ele.dismversion = Math.floor(ele.dismversion);
+                tdismver = (ele.dismversion % 65536).toString() + "." + tdismver;
+                ele.dismversion /= 65536;
+                ele.dismversion = Math.floor(ele.dismversion);
+                tdismver = (ele.dismversion % 65536).toString() + "." + tdismver;
+                ele.dismversion /= 65536;
+                ele.dismversion = Math.floor(ele.dismversion);
+                tdismver = (ele.dismversion % 65536).toString() + "." + tdismver;
+                dismver.push(tdismver);
+                data2.push(parseInt(ele.count));
+            });
+        }
+        ).then(
+        () => {
+            Highcharts.setOptions({
+                global: {
+                    useUTC: false
+                }
+            });
+            Highcharts.chart('container2', {
+                chart: {
+                    zoomType: 'y'
+                },
+                title: {
+                    text: 'By DISM Version'
+                },
+                subtitle: {
+                    text: document.ontouchstart === undefined ?
+                        'Click and drag in the plot area to zoom in' : 'Pinch the chart to zoom in'
+                },
+                xAxis: {
+                    categories: dismver,
+                    // type: 'datetime',
+                    title: {
+                        text: 'DISM Version'
+                    }
+                },
+                yAxis: {
+                    title: {
+                        text: 'Crash Count'
+                    }
+                },
+                legend: {
+                    enabled: false
+                },
+                plotOptions: {
+                    area: {
+                        fillColor: {
+                            linearGradient: {
+                                x1: 0,
+                                y1: 0,
+                                x2: 0,
+                                y2: 1
+                            },
+                            stops: [
+                                [0, Highcharts.getOptions().colors[0]],
+                                [1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')]
+                            ]
+                        },
+                        marker: {
+                            radius: 2
+                        },
+                        lineWidth: 1,
+                        states: {
+                            hover: {
+                                lineWidth: 1
+                            }
+                        },
+                        threshold: 0
+                    }
+                },
+                series: [{
+                    type: 'area',
+                    name: 'Crash Count',
+                    data: data2
+                }]
+            });
+        }
+        )
+    let data3 = new Array();
+    let day = new Array();
+    fetch('statistics.php?type=day').then(
+        (response) => {
+            return response.json();
+        }
+    ).then(
+        (data) => {
+            data.forEach((ele) => {
+                day.push(ele.time);
+                data3.push(parseInt(ele.count));
+            });
+        }
+        ).then(
+        () => {
+            Highcharts.setOptions({
+                global: {
+                    useUTC: false
+                }
+            });
+            Highcharts.chart('container3', {
+                chart: {
+                    zoomType: 'y'
+                },
+                title: {
+                    text: 'By Date'
+                },
+                subtitle: {
+                    text: document.ontouchstart === undefined ?
+                        'Click and drag in the plot area to zoom in' : 'Pinch the chart to zoom in'
+                },
+                xAxis: {
+                    categories: day,
+                    title: {
+                        text: 'Date'
+                    }
+                },
+                yAxis: {
+                    title: {
+                        text: 'Crash Count'
+                    }
+                },
+                legend: {
+                    enabled: false
+                },
+                plotOptions: {
+                    area: {
+                        fillColor: {
+                            linearGradient: {
+                                x1: 0,
+                                y1: 0,
+                                x2: 0,
+                                y2: 1
+                            },
+                            stops: [
+                                [0, Highcharts.getOptions().colors[0]],
+                                [1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')]
+                            ]
+                        },
+                        marker: {
+                            radius: 2
+                        },
+                        lineWidth: 1,
+                        states: {
+                            hover: {
+                                lineWidth: 1
+                            }
+                        },
+                        threshold: 0
+                    }
+                },
+                series: [{
+                    type: 'area',
+                    name: 'Crash Count',
+                    data: data3
+                }]
+            });
+        }
+        )
+    let data4 = new Array();
+    let ec = new Array();
+    fetch('statistics.php?type=ec').then(
+        (response) => {
+            return response.json();
+        }
+    ).then(
+        (data) => {
+            data.forEach((ele) => {
+                ec.push('0x' + parseInt(ele.exceptioncode).toString(16));
+                data4.push(parseInt(ele.count));
+            });
+        }
+        ).then(
+        () => {
+            Highcharts.setOptions({
+                global: {
+                    useUTC: false
+                }
+            });
+            Highcharts.chart('container4', {
+                chart: {
+                    zoomType: 'y'
+                },
+                title: {
+                    text: 'By Exceptioncode'
+                },
+                subtitle: {
+                    text: document.ontouchstart === undefined ?
+                        'Click and drag in the plot area to zoom in' : 'Pinch the chart to zoom in'
+                },
+                xAxis: {
+                    // type: 'datetime',
+                    categories: ec,
+                    title: {
+                        text: 'Exceptioncode'
+                    }
+                },
+                yAxis: {
+                    title: {
+                        text: 'Crash Count'
+                    }
+                },
+                legend: {
+                    enabled: false
+                },
+                plotOptions: {
+                    area: {
+                        fillColor: {
+                            linearGradient: {
+                                x1: 0,
+                                y1: 0,
+                                x2: 0,
+                                y2: 1
+                            },
+                            stops: [
+                                [0, Highcharts.getOptions().colors[0]],
+                                [1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')]
+                            ]
+                        },
+                        marker: {
+                            radius: 2
+                        },
+                        lineWidth: 1,
+                        states: {
+                            hover: {
+                                lineWidth: 1
+                            }
+                        },
+                        threshold: 0
+                    }
+                },
+                series: [{
+                    type: 'area',
+                    name: 'Crash Count',
+                    data: data4
+                }]
+            });
+        }
+        )
+
+</script>

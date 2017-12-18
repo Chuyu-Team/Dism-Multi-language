@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="renderer" content="webkit">
+        <title>說明文件</title>
+        <link rel="stylesheet" type="text/css" href="../amWiki/css/markdownbody.github.css" />
+        <link rel="stylesheet" type="text/css" href="../amWiki/css/lhjs.github-gist.css" />
+        <link rel="stylesheet" type="text/css" href="../amWiki/css/amWiki.css" />
+    </head>
+
+    <body>
+        <!-- 頭部 -->
+        <header class="header">
+            <div class="header-inner">
+                <a class="logo" href="?file=start.md">
+                    <img src="../images/logo.png" /><i></i>
+                    <b>說明文件</b>
+                    <span>1.0.0.1</span>
+                </a>
+                <div class="menu-icon" id="menuIcon">
+                    <svg>
+                        <use xlink:href="#icon:navStart"></use>
+                    </svg>
+                </div>
+            </div>
+        </header>
+        <!-- 頁面 -->
+        <div class="container" id="container">
+            <div class="nav" id="nav">
+                <div class="menu-filter">
+                    <svg>
+                        <use xlink:href="#icon:navFilter"></use>
+                    </svg>
+                    <input type="text" id="menuFilter" value="" placeholder="請輸入篩選條件" title="請輸入篩選條件" />
+                    <i class="off" title="清空篩選">&times;</i>
+                </div>
+                <div class="menu-search" id="searchShow" title="全庫搜尋">
+                    <svg>
+                        <use xlink:href="#icon:search"></use>
+                    </svg>
+                </div>
+                <nav class="menubar scroller" id="menuBar">
+                    <div class="scroller-inner">
+                        <div class="scroller-content"></div>
+                    </div>
+                </nav>
+            </div>
+            <div class="main scroller" id="main">
+                <div class="main-inner scroller-inner">
+                    <article class="markdown-body scroller-content" id="view"></article>
+                    <!-- 上下翻頁 -->
+                    <div class="main-sibling scroller-content" id="mainSibling">
+                        <p><span>上一篇：</span>
+                            <a href="#"></a>
+                        </p>
+                        <p><span>下一篇：</span>
+                            <a href="#"></a>
+                        </p>
+                    </div>
+                    <!-- 全庫搜尋 -->
+                    <div class="search-box" id="searchBox">
+                        <div class="search-update">
+                            <input type="button" id="searchUpdate" value="更新所有快取" />
+                            <div class="text">
+                                <p>上次完全更新：<time id="cacheLasttime">0000-00-00 00:00:00</time></p>
+                                <p>文件總數：<b id="cacheDocTotal">0</b> / <span>已快取：<i id="cacheState">0%</i></span></p>
+                            </div>
+                        </div>
+                        <h2>全庫搜尋</h2>
+                        <div class="search-input">
+                            <input type="text" id="searchText" placeholder="請輸入搜尋內容" />
+                            <input type="button" id="search" value="搜 尋" />
+                        </div>
+                        <div class="search-results" id="results">
+                            <div class="search-result-message" id="resultMsg"></div>
+                            <ul class="search-list"></ul>
+                            <div class="search-result-more" id="resultMore">顯示更多</div>
+                            <script id="template:searchResult" type="text/html">
+                                <li class="search-item">
+                                    <a href="?file={{path}}">
+                                        <div class="content">
+                                            <strong>{{title}}</strong> {{api}} {{content}}
+                                        </div>
+                                        <div class="bottom">
+                                            <p>位置：<span>{{path}}</span></p>
+                                            <div class="time">最後快取於
+                                                <time>{{time}}</time>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </script>
+                        </div>
+                    </div>
+                    <!-- 接口測試 -->
+
+                </div>
+            </div>
+        </div>
+        <aside>
+            <!-- 側邊目錄 -->
+            <div class="contents" id="contents">
+                <div class="btn">
+                    <svg>
+                        <use xlink:href="#icon:contents"></use>
+                    </svg>
+                    <span>目錄</span>
+                </div>
+                <div class="contents-list">
+                    <p>
+                        <a id="contentsTitle" href="#客戶日誌流水接口示例">客戶日誌流水接口示例</a>
+                    </p>
+                    <div class="markdown-contents"></div>
+                </div>
+            </div>
+            <!-- 返回頂部 -->
+            <div class="back-top" id="backTop">
+                <a class="back-icon" href="#">
+                    <svg>
+                        <use xlink:href="#icon:backTop"></use>
+                    </svg>
+                </a>
+                <a class="back-text" href="#">回到頂端</a>
+            </div>
+        </aside>
+        <footer>
+            <!-- 簽名 -->
+            <div class="signature">Powered by
+                <a href="https://github.com/TevinLi/amWiki" target="_blank">amWiki</a>
+            </div>
+        </footer>
+        <!-- js -->
+        <div class="hidden">
+            <script type="text/javascript" src="../amWiki/js/gbk.js"></script>
+            <script type="text/javascript" src="../amWiki/js/jquery-compat-3.1.0.min.js"></script>
+            <script type="text/javascript" src="../amWiki/js/marked.min.js"></script>
+            <script type="text/javascript" src="../amWiki/js/highlight.min.js"></script>
+            <script type="text/javascript" src="../amWiki/js/raphael-min.js"></script>
+            <script type="text/javascript" src="../amWiki/js/flowchart.min.js"></script>
+            <script type="text/javascript" src="../amWiki/js/amWiki.tools.js"></script>
+            <script type="text/javascript" src="../amWiki/js/amWiki.storage.js"></script>
+            <script type="text/javascript" src="../amWiki/js/amWiki.search.js"></script>
+            <script type="text/javascript" src="../amWiki/js/amWiki.docs.js"></script>
+
+            <script type="text/javascript" src="../amWiki/js/amWiki.scrollbar.js"></script>
+            <script type="text/javascript" src="../amWiki/js/amWiki.js"></script>
+        </div>
+        <!-- svg -->
+        <div class="hidden" id="svgSymbols"></div>
+        <!-- 低版本瀏覽器警告 -->
+        <div id="lowBrowser">
+            <div></div>
+            <p><span>您的瀏覽器版本過舊，不支援瀏覽本 Wiki，請升級或更換您的瀏覽器再試！</span></p>
+            <script>
+                (function(win) {
+                    var notice = document.getElementById('lowBrowser');
+                    //jQuery 3.x 需要 addEventListener 方法支持
+                    if(typeof win.addEventListener == 'undefined') {
+                        notice.style.display = 'block';
+                    } else {
+                        var comments = notice.previousSibling;
+                        if(comments.nodeType == 8) {
+                            comments.parentNode.removeChild(comments);
+                        } else if(comments.previousSibling.nodeType == 8) {
+                            comments = comments.previousSibling;
+                            comments.parentNode.removeChild(comments);
+                        }
+                        notice.parentNode.removeChild(notice);
+                    }
+                    notice = comments = null;
+                })(window);
+            </script>
+        </div>
+    </body>
+
+</html>

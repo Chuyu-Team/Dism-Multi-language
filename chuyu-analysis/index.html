@@ -1,0 +1,116 @@
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<form id="fquery">
+    <table>
+        <tbody>
+            <tr>
+                <td>Part of ClientGuid:</td>
+                <td><input name="clientguid" type="text"></td>
+                <td>OS Version:</td>
+                <td><input name="minosversion" type="number"> ~ <input name="maxosversion" type="number"></td>
+                <td>DISM Version:</td>
+                <td><input name="mindismversion" type="number"> ~ <input name="maxdismversion" type="number"></td>
+                <td>CrashModule Version:</td>
+                <td><input name="mincrashmoduleversion" type="number"> ~ <input name="maxcrashmoduleversion" type="number"></td>
+            </tr>
+            <tr>
+                <td>Exception Code:</td>
+                <td><input name="exceptioncode" type="number"></td>
+                <td>Part of CrashModule Name:</td>
+                <td><input name="crashmodule" type="text"></td>
+                <td>Time:</td>
+                <td><input name="nobefore" type="date"> ~ <input name="noafter" type="date"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <input type="submit" value="Submit">
+</form>
+<style>
+    .result th:not(:last-child),
+    .result td:not(:last-child) {
+        border-right: 1px solid black;
+    }
+</style>
+<table class="result">
+    <thead>
+        <tr>
+            <th>Time</th>
+            <th>Client Guid</th>
+            <th>OS Version</th>
+            <th>DISM Version</th>
+            <th>Crash Module Ver</th>
+            <th>Exception Offset</th>
+            <th>Exception Code</th>
+            <th>Crash Module</th>
+        </tr>
+    </thead>
+    <tbody id="result">
+
+    </tbody>
+</table>
+<script>
+    'use strict';
+    function objectifyForm(formArray) {
+        var returnArray = {};
+        for (var i = 0; i < formArray.length; i++) {
+            returnArray[formArray[i]['name']] = formArray[i]['value'];
+        }
+        return returnArray;
+    }
+    document.querySelector('#fquery').onsubmit = function () {
+        document.querySelector('#result').innerHTML = '';
+
+        fetch("query.php", {
+            method: 'POST',
+            body: JSON.stringify(objectifyForm($('form').serializeArray()))
+        }).then((res) => {
+            return res.json();
+        }).then((data) => {
+            data.forEach((element) => {
+                let row = document.createElement('tr');
+                document.querySelector('#result').appendChild(row);
+                let time = document.createElement('td');
+                row.appendChild(time);
+                let txtime = document.createTextNode(element.time);
+                time.appendChild(txtime);
+
+                let clientguid = document.createElement('td');
+                row.appendChild(clientguid);
+                let txclientguid = document.createTextNode(element.clientguid);
+                clientguid.appendChild(txclientguid);
+
+                let osversion = document.createElement('td');
+                row.appendChild(osversion);
+                let txosversion = document.createTextNode(element.osversion);
+                osversion.appendChild(txosversion);
+
+                let dismversion = document.createElement('td');
+                row.appendChild(dismversion);
+                let txdismversion = document.createTextNode(element.dismversion);
+                dismversion.appendChild(txdismversion);
+
+                let crashmoduleversion = document.createElement('td');
+                row.appendChild(crashmoduleversion);
+                let txcrashmoduleversion = document.createTextNode(element.crashmoduleversion);
+                crashmoduleversion.appendChild(txcrashmoduleversion);
+
+                let exceptionoffset = document.createElement('td');
+                row.appendChild(exceptionoffset);
+                let txexceptionoffset = document.createTextNode(element.exceptionoffset);
+                exceptionoffset.appendChild(txexceptionoffset);
+
+                let exceptioncode = document.createElement('td');
+                row.appendChild(exceptioncode);
+                let txexceptioncode = document.createTextNode(element.exceptioncode);
+                exceptioncode.appendChild(txexceptioncode);
+
+                let crashmodule = document.createElement('td');
+                row.appendChild(crashmodule);
+                let txcrashmodule = document.createTextNode(element.crashmodule);
+                crashmodule.appendChild(txcrashmodule);
+            });
+        });
+        return false;
+    }
+
+</script>

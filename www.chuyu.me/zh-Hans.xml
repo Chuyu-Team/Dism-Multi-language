@@ -5,6 +5,7 @@
   <String Src="%title%" Dst="Dism++ | 全新的 Windows 实用工具"/>
   <String Src="%String1%" Dst="Dism++，也许是最强的实用工具"/>
   <String Src="%String2%" Dst="全球第一款基于 CBS 的 Dism GUI 实现。"/>
+  <String Src="%WhatsnewVersion%" Dst="What's new ‒ version"/>
   <String Src="%64Bit%" Dst="64位版"/>
   <String Src="%32Bit%" Dst="32位版"/>
   <String Src="%Full%" Dst="64/32完整版"/>
@@ -14,9 +15,11 @@
   <String Src="%OpenSourceStr%" Dst="开源是一种美德，也是一种实力的象征，查看初雨团队的开源项目&lt;span onclick=&quot;window.location.href='https://github.com/Chuyu-Team'&quot; style=&quot;color:blue;cursor:pointer&quot;>点我&lt;/span>。"/>
   <String Src="%SxSClean%" Dst="更新清理"/>
   <String Src="%SxSCleanDes%" Dst="更新清理，安装更新不再纠结容量！"/>
+  <String Src="%CompactOS%" Dst="CompactOS"/>
   <String Src="%CompactOSDes%" Dst="不精简系统也能节省33%空间。"/>
   <String Src="%EsdSupport%" Dst="完整ESD支持"/>
   <String Src="%EsdSupportDes%" Dst="再也不用担心ESD转ISO了。"/>
+  <String Src="%WindowsUpdate%" Dst="Windows Update"/>
   <String Src="%WindowsUpdateDes%" Dst="我的更新我做主~~安心更新。"/>
   <String Src="%SystemRecover%" Dst="系统恢复"/>
   <String Src="%SystemRecoverDes%" Dst="系统热备份、热还原无需PE！"/>
@@ -28,8 +31,10 @@
   <String Src="%E-Mail%" Dst="反馈邮箱"/>
   <String Src="%Links%" Dst="友情链接"/>
   <String Src="%WinOS%" Dst="WINOS精简系统"/>
+  <String Src="%LanDian%" Dst="蓝点网"/>
   <String Src="%ChuyuTream%" Dst="&amp;nbsp;2017&amp;nbsp;初雨团队"/>
   <String Src="%ICP%" Dst="&lt;p style=&quot;float: right; margin: 0 2rem;&quot;>浙ICP备17002125&lt;/p>"/>
   <String Src="%Document%" Dst="帮助文档"/>
   <String Src="%logs%" Dst="更新日志"/>
+  <String Src="%wsuscan2%" Dst="“wsusscn2.cab”是更新补丁离线库，覆盖 “Config\wsusscn2.cab” 即可。"/>
 </Strings>
