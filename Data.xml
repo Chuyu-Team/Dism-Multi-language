@@ -222,11 +222,11 @@
         <Activate>
           <General RootPath="?GetRegSz(HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\App Paths\opera.exe,Path)" Flags="Directory" ID="Applicable_1">
             <Query>*.*.*.*</Query>
-            <Excluded>?GetFileVersion(%Root%opera.exe)</Excluded>`
+            <Excluded>?GetFileVersion(%Root%Launcher.exe)</Excluded>`
           </General>
           <General RootPath="?GetRegSz(HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\opera.exe,Path)" Flags="Directory" ID="Applicable_2">
             <Query>*.*.*.*</Query>
-            <Excluded>?GetFileVersion(%Root%opera.exe)</Excluded>
+            <Excluded>?GetFileVersion(%Root%Launcher.exe)</Excluded>
           </General>
         </Activate>
       </Scan>
