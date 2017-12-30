@@ -105,4 +105,4 @@ Dism++官方网站简体资源。
 
 ### [www.chuyu.me/zh-Hant.xml]
 Dism++官方網站繁體資源。
-感謝 GT Wang (http://mkvq.blogspot.com)。
+感謝 GT Wang (http://mkvq.blogspot.com) 。
