@@ -615,7 +615,7 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
       Link="Предупреждение %s:&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;Вы уверены, что хотите продолжить?"/>
     <String Target="导出地址" Link="Копия URL"/>
     <String Target="补丁下载地址已经成功复制到剪切板。" Link="Адрес загрузки исправления был успешно скопирован в буфер."/>
-    <String Target="安装%d%%" Link="Устанавливается %d%%"/>
+    <String Target="安装%d%%" Link="Установка %d%%"/>
 
     <!--区域和语言-->
     <String Target="区域和语言" Link="Регион и язык"/>
