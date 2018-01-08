@@ -1274,7 +1274,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
 
     <String Target="Java安装源缓存（by YukiSakura）" Link="Caché de instalación de Java (por YukiSakura)"/>
     <String Target="Java安装后留下的安装源缓存。" Link="Cuando se instala Java, el programa deja el caché de la instalación."/>
-    <String Target="此条目可能影响Java的卸载。" Link="Esta entrada puede afectar la desinstalación Java."/>
+    <String Target="此条目可能影响Java的卸载。" Link="Esta entrada puede afectar la desinstalación de Java."/>
 
     <String Target="Intel驱动安装源缓存（by YukiSakura）" Link="Caché de instalación de controladores Intel (por YukiSakura)"/>
     <String Target="Intel驱动安装后留下的安装源缓存。" Link="Cuando se instala el controlador Intel, el programa deja el caché de la instalación."/>
