@@ -27,7 +27,7 @@ Thanks to EMLVIRUS, Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, won
 
 ## [Languages/es.xml]
 Spanish resource file.
-Thanks to Jhovany200, Oleada, nomemolesteis@gmail.com.
+Thanks to Oleada, Jhovany200, nomemolesteis@gmail.com.
 
 ## [Languages/fr.xml]
 French resource file.
