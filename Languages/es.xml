@@ -585,8 +585,8 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
 
     <!--Windows Update-->
     <String Target="安装" Link="Instalar"/>
-    <String Target="正在检查数据库" Link="Comprobando la base de datos"/>
-    <String Target="正在下载数据库" Link="Descargando la base de datos"/>
+    <String Target="正在检查数据库" Link="Comprobando base de datos"/>
+    <String Target="正在下载数据库" Link="Descargando base de datos"/>
     <String Target="正在扫描更新" Link="Analizando las actualizaciones"/>
     <String Target="等待安装" Link="Esperando instalación"/>
     <String Target="等待下载" Link="Esperando descarga"/>
@@ -900,7 +900,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <!--Microsoft Edge-->
     <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Prevenir abrir Microsoft Edge en &quot;Primera ejecución&quot; (por ITHome)"/>
 
-    <String Target="关闭Adobe Flash即点即用" Link="Desactivar clic derecho Adobe Flash"/>
+    <String Target="关闭Adobe Flash即点即用" Link="Desactivar Adobe Flash"/>
       <String Target="此选项将降低计算机安全性，增加Adobe Flash的安全隐患！" Link="Esta opción reducirá la seguridad del equipo."/>
 
     <!--微软拼音输入法-->
@@ -1046,7 +1046,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Desactivar el servicio de copia basada en componentes"/>
     <String Target="任务栏时钟精确到秒（by Luupw3d）" Link="Mostrar segundos en el reloj de la barra de tareas para más precisión（por Luupw3d）"/>
 
-    <String Target="禁用WfpDiag.ETL日志（by powerxing04）" Link="Desactivar el registro de WfpDiag ETL (por powerxing04)"/>
+    <String Target="禁用WfpDiag.ETL日志（by powerxing04）" Link="Desactivar el registro de WfpDiag.ETL (por powerxing04)"/>
     <String Target="禁用文件夹的“包含到库中”右键菜单（by choyri）" Link="Desactivar &quot;Incluir en biblioteca&quot; del menú contextual en el directorio (por choyri)"/>
     <String Target="禁用桌面的“NVIDIA 控制面板”右键菜单（by choyri）" Link="Desactivar &quot;Panel de control de NVIDIA&quot; del menú contextual en el escritorio (por choyri)"/>
     <!--系统优化已经结束-->
@@ -1208,10 +1208,10 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="微软拼音升级程序遗留下的安装文件。" Link="Microsoft pinyin IME updater deja archivos de la instalación."/>
 
     <String Target="百度网盘日志" Link="Registro de Baidu Yun"/>
-    <String Target="百度网盘运行时产生的一些日志文件。" Link="Cuando ejecuta Baidu Yun, crea archivos log."/>
+    <String Target="百度网盘运行时产生的一些日志文件。" Link="Cuando ejecuta Baidu Yun, crea archivos de registro."/>
 
     <String Target="飞信日志" Link="Registro de Fetion"/>
-    <String Target="飞信运行时产生的一些日志文件。" Link="Al ejecutar Fetion, crea archivos log."/>
+    <String Target="飞信运行时产生的一些日志文件。" Link="Al ejecutar Fetion, crea archivos de registro."/>
 
     <String Target="回收站" Link="Papelera de reciclaje"/>
     <String Target="用于存放用户手动删除的文件目录。" Link="Almacena los archivos eliminados manualmente por el usuario."/>
@@ -1274,15 +1274,15 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
 
     <String Target="Java安装源缓存（by YukiSakura）" Link="Caché de instalación de Java (por YukiSakura)"/>
     <String Target="Java安装后留下的安装源缓存。" Link="Cuando se instala Java, el programa deja el caché de la instalación."/>
-    <String Target="此条目可能影响Java的卸载。" Link="Esta entrada es la de desinstalar java probablemente."/>
+    <String Target="此条目可能影响Java的卸载。" Link="Esta entrada puede afectar la desinstalación de Java."/>
 
     <String Target="Intel驱动安装源缓存（by YukiSakura）" Link="Caché de instalación de controladores Intel (por YukiSakura)"/>
     <String Target="Intel驱动安装后留下的安装源缓存。" Link="Cuando se instala el controlador Intel, el programa deja el caché de la instalación."/>
-    <String Target="此条目可能影响Intel驱动的卸载。" Link="Esta entrada es la de desinstalar el controlador intel probablemente."/>
+    <String Target="此条目可能影响Intel驱动的卸载。" Link="Esta entrada puede afectar la desinstalación de controladores Intel."/>
 
     <String Target="英伟达驱动安装源缓存（by YukiSakura）" Link="Caché de instalación de controladores NVIDIA (por YukiSakura)"/>
     <String Target="英伟达驱动安装后留下的安装源缓存。" Link="Caché de instalación de controladores NVIDIA."/>
-    <String Target="此条目可能影响英伟达驱动的卸载。" Link="Esta entrada es la de desinstalar del controlador NVIDIA probablemente."/>
+    <String Target="此条目可能影响英伟达驱动的卸载。" Link="Esta entrada puede afectar la desinstalación de controladores NVIDIA."/>
 
     <String Target="Windows预读取文件（by 辰g.）" Link="Archivos prefetch de Windows (por Cheng g.)"/>
     <String Target="用于加速下次程序启动速度，不建议频繁清理此条目。" Link="Para acelerar la velocidad de inicio de su programa la próxima vez, no se recomienda utilizarlo con frecuencia."/>
@@ -1363,7 +1363,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="传递优化缓存" Link="Optimizar caché"/>
     <String Target="Win10开始使用传递优化（DeliveryOptimization）服务下载Windows更新和通用应用（UWP）产生的缓存文件" Link="Los archivos del caché generados cuando Windows 10 se inicia a través de la entrega de servicios de optimización para descargar las actualizaciones de Windows y UWP."/>
 
-    <String Target="Appx缓存文件-可解决Appx闪退" Link="Archivos de caché Appx - corregir congelación de aplicación"/>
+    <String Target="Appx缓存文件-可解决Appx闪退" Link="Archivos de caché Appx - corregir congelación"/>
     <String Target="Appx运行时产生的缓存文件，当应用闪退时可尝试清理此选项，可解决大多数闪退问题。" Link="Archivos en caché de Appx runtime. Si aplicación se congela puede intentar limpiarlos. En la mayoría de los casos, el problema se puede solucionar."/>
 
     <String Target="英伟达驱动安装包（by Ailick）" Link="Paquete de instalación de controladores NVIDIA (por Ailick)"/>
@@ -1385,8 +1385,8 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <x800F082E>El paquete especificado no se puede agregar a una imagen sin conexión.</x800F082E>
     <x800F082F>No se puede finalizar la sesión porque está pendiente de una sesión exclusiva.</x800F082F>
     <x000F0801>Dism++ está ocupado, probablemente porque se están ejecutando otros programas. Por favor, inténtelo de nuevo más tarde.</x000F0801>
-    <x80072EE7>No se puede conectar con el servidor, compruebe si la conexión de red o la configuración del firewall es correcta.</x80072EE7>
-    <x80072EFF>No se puede conectar con el servidor, compruebe si la conexión de red o la configuración del firewall es correcta.</x80072EFF>
+    <x80072EE7>No se puede conectar con el servidor, compruebe su conexión de red o la configuración del firewall.</x80072EE7>
+    <x80072EFF>No se puede conectar con el servidor, compruebe su conexión de red o la configuración del firewall.</x80072EFF>
 
     <xA0020001>Sólo admite el archivo ESD de Microsoft en línea en el archivo ISO.</xA0020001>
     <xA0020002>Algunos han sido borrados, para una limpieza completa actualizar a Windows 8.1, y luego continuar.</xA0020002>
