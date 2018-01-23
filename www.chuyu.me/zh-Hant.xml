@@ -12,7 +12,7 @@
   <String Src="%SupportSystem%" Dst="相容 Windows Vista/7/8/8.1/10"/>
   <String Src="%AboutDism++%" Dst="關於 Dism++"/>
   <String Src="%AboutDism++Des%" Dst="Dism++ 可以說是一個 Dism 的 GUI 版，但是並不依賴 Dism，直接基於更底層的 CBS (Component Based Servicing Reference)。"/>
-  <String Src="%OpenSourceStr%" Dst="開源是一種美德，也是一種實力的象徵，查看初雨團隊的開源專案&lt;span onclick=&quot;window.location.href='https://github.com/Chuyu-Team'&quot; style=&quot;color:blue;cursor:pointer&quot;>點我&lt;/span>。"/>
+  <String Src="%OpenSourceStr%" Dst="開源是一種美德，也是一種實力的象徵，查看初雨團隊的&lt;span onclick=&quot;window.location.href='https://github.com/Chuyu-Team'&quot; style=&quot;color:blue;cursor:pointer&quot;>開源專案&lt;/span>。"/>
   <String Src="%SxSClean%" Dst="更新清理"/>
   <String Src="%SxSCleanDes%" Dst="更新清理，安裝更新不再糾結容量！"/>
   <String Src="%CompactOS%" Dst="CompactOS"/>
@@ -32,7 +32,7 @@
   <String Src="%Links%" Dst="友情連結"/>
   <String Src="%WinOS%" Dst="WINOS 精簡系統"/>
   <String q="" Src="%LanDian%" Dst="藍點網"/>
-  <String Src="%ChuyuTream%" Dst="&amp;nbsp;2017&amp;nbsp;初雨團隊"/>
+  <String Src="%ChuyuTream%" Dst="&amp;nbsp;2018&amp;nbsp;初雨團隊"/>
   <String Src="%ICP%" Dst=""/>
   <String Src="%Document%" Dst="說明文件"/>
   <String Src="%logs%" Dst="更新日誌"/>
