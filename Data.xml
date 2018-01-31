@@ -7682,25 +7682,25 @@
       <ja>この更新は期限切れました、Windows 2016-10 月累積的な更新プログラムは取り替えしました。期限切れの更新は追加したくない、このはインストールお勧めしません、でも一部の更新はオフライン追加できません。すべての更新は追加思う、この更新はインストール必要があります、そして他の更新はインストールします。</ja>
     </Warning>
     <Warning ID="KB3184143">
-      <zh-Hans>此更新已经用于删除Windows 10免费升级相关信息，但是目前Windows 10早就没有免费升级信息了，一般情况无需安装此更新。</zh-Hans>
-      <zh-Hant>此更新已經用於刪除 Windows 10 免費升級相關資訊，但是目前 Windows 10 早就沒有免費升級資訊了，一般情況無需安裝此更新。</zh-Hans>
-      <es>Esta actualización se ha utilizado para eliminar la información relacionada con la actualización gratuita a Windows 10, pero en la actualidad la actualización a Windows 10 ya no es gratuita y generalmente no es necesario instalar esta actualización.</es>
-      <ru>Это обновление используется для удаления сведений, связанных с бесплатным обновлением до Windows 10. Но в настоящее время обновление до Windows 10 больше не является бесплатным и установка данного обновления не требуется.</ru>
       <en>This update has been used to remove information related to the free update to Windows 10, but currently the update to Windows 10 is no longer free and it is not necessary to install this update.</en>
+      <es>Esta actualización se ha utilizado para eliminar la información relacionada con la actualización gratuita a Windows 10, pero en la actualidad la actualización a Windows 10 ya no es gratuita y generalmente no es necesario instalar esta actualización.</es>
+      <zh-Hans>此更新已经用于删除Windows 10免费升级相关信息，但是目前Windows 10早就没有免费升级信息了，一般情况无需安装此更新。</zh-Hans>
+      <zh-Hant>此更新已經用於刪除 Windows 10 免費升級相關資訊，但是目前 Windows 10 早就沒有免費升級資訊了，一般情況無需安裝此更新。</zh-Hant>
+      <ru>Это обновление используется для удаления сведений, связанных с бесплатным обновлением до Windows 10. Но в настоящее время обновление до Windows 10 больше не является бесплатным и установка данного обновления не требуется.</ru>
     </Warning>
     <Warning ID="KB3161102">
-      <zh-Hans>此更新会删除Windows日记本，如果你确实需要使用日记本，那么请勿安装此更新。</zh-Hans>
-      <zh-Hant>此更新會刪除 Windows 筆記本 (Journal)，如果你確實需要使用筆記本 (Journal)，那麼請勿安裝此更新。</zh-Hans>
-      <es>Esta actualización eliminará Windows Journal, y si realmente necesita usarlo, no instale esta actualización.</es>
-      <ru>Это обновление удаляет журнал Windowsю Если требуется использовать журнал, не устанавливайте это обновление.</ru>
       <en>This update will delete Windows Journal, and if you really need to use it, do not install this update.</en>
+      <es>Esta actualización eliminará Windows Journal, y si realmente necesita usarlo, no instale esta actualización.</es>
+      <zh-Hans>此更新会删除Windows日记本，如果你确实需要使用日记本，那么请勿安装此更新。</zh-Hans>
+      <zh-Hant>此更新會刪除 Windows 筆記本 (Journal)，如果你確實需要使用筆記本 (Journal)，那麼請勿安裝此更新。</zh-Hant>
+      <ru>Это обновление удаляет журнал Windowsю Если требуется использовать журнал, не устанавливайте это обновление.</ru>
     </Warning>
     <Warning ID="KB4041083">
-      <zh-Hans>此更新将导致AutoCAD 2014无法正常运行，如果你确实需要使用AutoCAD 2014，那么请勿安装此更新。</zh-Hans>
-      <zh-Hant>此更新將導致 AutoCAD 2014 無法正常執行，如果你確實需要使用 AutoCAD 2014，那麼請勿安裝此更新。</zh-Hans>
-      <es>Esta actualización hará que AutoCAD 2014 no funcione correctamente, no instale esta actualización si realmente necesita usar AutoCAD 2014.</es>
-      <ru>Это обновление приведет к неправильной работе AutoCAD 2014. Если требуется использовать AutoCAD 2014, не устанавливайте данное обновление.</ru>
       <en>This update will make AutoCAD 2014 not work properly, do not install this update if you really need to use AutoCAD 2014.</en>
+      <es>Esta actualización hará que AutoCAD 2014 no funcione correctamente, no instale esta actualización si realmente necesita usar AutoCAD 2014.</es>
+      <zh-Hans>此更新将导致AutoCAD 2014无法正常运行，如果你确实需要使用AutoCAD 2014，那么请勿安装此更新。</zh-Hans>
+      <zh-Hant>此更新將導致 AutoCAD 2014 無法正常執行，如果你確實需要使用 AutoCAD 2014，那麼請勿安裝此更新。</zh-Hant>
+      <ru>Это обновление приведет к неправильной работе AutoCAD 2014. Если требуется использовать AutoCAD 2014, не устанавливайте данное обновление.</ru>
     </Warning>
     <!--过期更新-->
     <Warning ID="KB982726" Type="Hide"/>
