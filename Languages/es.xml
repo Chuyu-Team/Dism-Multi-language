@@ -164,7 +164,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
 
     <String Target="正在清理临时数据" Link="Borrar datos temporales"/>
     <String Target="Sorry，无法配置环境，请在PE中使用此功能。" Link="No se puede configurar el entorno ahora, por favor, ejecute esta tarea en WinPE."/>
-    <String Target="Sorry，无法清理临时文件！" Link="Error al borrar los datos temporales"/>
+    <String Target="Sorry，无法清理临时文件！" Link="¡Error al borrar los datos temporales!"/>
     <String Target="当前硬盘可用空间不足，你需要重启并进入RE进行恢复么？" Link="No hay suficiente espacio en el disco duro. ¿Reiniciar y restaurar WinRE?"/>
     <String Target="在还原前你需要格式化分区：%s ?" Link="¿Desea formatear la partición %s antes de restaurar?"/>
 
@@ -180,7 +180,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="已经失效" Link="Expirado"/>
     <String Target="请稍等" Link="Espere por favor"/>
 
-    <String Target="本地硬盘" Link="Disco Local"/>
+    <String Target="本地硬盘" Link="Disco local"/>
     <String Target="挂载映像" Link="Imagen montada"/>
     <String Target="Compact" Link="Compactar"/>
     <String Target="VHD装载" Link="VHD montado"/>
@@ -238,7 +238,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="正在检查更新" Link="Buscando actualizaciones..."/>
     <String Target="正在加载插件" Link="Cargando complemento"/>
     <String Target="正在扫描已安装的系统" Link="Analizando sistema instalado"/>
-    <String Target="已经是最新版本，无需更新！" Link="Es la versión más reciente. No hay actualización."/>
+    <String Target="已经是最新版本，无需更新！" Link="¡Es la versión más reciente, no hay actualización!"/>
     <String Target="正在修复挂载映像" Link="Volver a montar la imagen"/>
     <String Target="正在取消现有任务，请稍等……" Link="Cancelando tareas actuales, por favor espere..."/>
     <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="La imagen montada %s está dañada, debe repararse antes de continuar. ¿Reparar la imagen ahora?"/>
@@ -300,7 +300,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="映像已经受损，但是可以修复。" Link="La imagen está dañada, pero se puede reparar."/>
     <String Target="映像已经受到致命问题，已经无法修复，请修复安装。" Link="La imagen tiene problemas, no se puede reparar. Para reparar debe reinstalarse."/>
     <String Target="系统修复向导" Link="Asistente recuperación del sistema"/>
-    <String Target="恭喜映像已经修复成功！" Link="Reparado."/>
+    <String Target="恭喜映像已经修复成功！" Link="¡Reparado!"/>
     <String Target="致命错误，会话无应答。" Link="Error, la sesión no está respondiendo."/>
 
     <!--本地源-->
@@ -350,7 +350,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="基本" Link="Básico"/>
     <String Target="更多" Link="Avanzado"/>
     <String Target="启动分区：" Link="Partición arranque:"/>
-    <String Target="你必须点击更多进行手动指定！" Link="Tienes que hacer clic en &quot;Más&quot; para especificarlo manualmente"/>
+    <String Target="你必须点击更多进行手动指定！" Link="¡Tienes que hacer clic en &quot;Más&quot; para especificarlo manualmente!"/>
     <String Target="硬盘%d 分区%d（%s）" Link="Disco %d Partición %d (%s)"/>
     <String Target="硬盘%d 分区%d" Link="Disco %d Partición %d"/>
     <String Target="即将把启动信息写入启动分区- %s" Link="El registro de arranque se escribirá en la partición de arranque - %s"/>
@@ -376,7 +376,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="大约压缩36%" Link="Comprimir 36%"/>
     <String Target="大约压缩38%" Link="Comprimir 38%"/>
     <String Target="大约压缩44%（更小体积）" Link="Comprimir 44% (pequeño)"/>
-    <String Target="加载WofAdk驱动（可能导致蓝屏！）" Link="Cargar controlador WofAdk (puede causar BSOD)"/>
+    <String Target="加载WofAdk驱动（可能导致蓝屏！）" Link="Cargar controlador WofAdk (¡puede causar BSOD!)"/>
     <String Target="更新差异传输引擎：" Link="Actualizar motor Windows Update:"/>
     <String Target="关闭" Link="Apagar"/>
     <String Target="快速" Link="Rápido"/>
@@ -681,7 +681,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="启用账户" Link="Activar"/>
     <String Target="禁用账户" Link="Desactivar"/>
     <String Target="清空密码" Link="Borrar contr."/>
-    <String Target="该账户的密码已经被清空，现在无需密码即可登陆你的账号！" Link="Se ha borrado la contraseña. Puede iniciar sesión sin contraseña."/>
+    <String Target="该账户的密码已经被清空，现在无需密码即可登陆你的账号！" Link="¡Se ha borrado la contraseña, ahora puede iniciar sesión sin contraseña!"/>
 
     <String Target="春哥附体" Link="Modo dios"/>
     <String Target="让其他程序以无视权限方式运行。" Link="Ejecutar algunos programas sin derechos."/>
@@ -900,8 +900,8 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <!--Microsoft Edge-->
     <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Prevenir abrir Microsoft Edge en &quot;Primera ejecución&quot; (por ITHome)"/>
 
-    <String Target="关闭Adobe Flash即点即用" Link="Desactivar Adobe Flash"/>
-      <String Target="此选项将降低计算机安全性，增加Adobe Flash的安全隐患！" Link="Esta opción reducirá la seguridad del equipo."/>
+    <String Target="关闭Adobe Flash即点即用" Link="Desactivar clic derecho en Adobe Flash"/>
+      <String Target="此选项将降低计算机安全性，增加Adobe Flash的安全隐患！" Link="¡Esta opción reducirá la seguridad del equipo!"/>
 
     <!--微软拼音输入法-->
     <String Target="微软拼音输入法" Link="Microsoft Pinyin IME"/>
@@ -939,7 +939,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="*关闭默认共享（by 518516.net）" Link="* Desactivar el uso compartido predeterminado (por 518516.net)"/>
 
     <String Target="*关闭防火墙（by 一叶微风TM）" Link="* Desactivar Firewall de Windows (por YiYieWeiFeng TM)"/>
-      <String Target="此选项将降低计算机安全性，请确保你已经安装第三方防火墙软件！" Link="Este elemento reducirá la seguridad en su equipo. Por favor, asegúrese de tener un firewall de terceros"/>
+      <String Target="此选项将降低计算机安全性，请确保你已经安装第三方防火墙软件！" Link="¡Este elemento reducirá la seguridad en su equipo. Por favor, asegúrese de tener un firewall de terceros!"/>
 
     <String Target="*关闭远程协助（by 原罪）" Link="* No permitir conexiones con asistencia remota (por YZ)"/>
 
@@ -954,24 +954,24 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="禁用诊断服务" Link="Desactivar el servicio de diagnóstico"/>
 
     <String Target="禁用IPv6转换服务" Link="Desactivar el servicio auxiliar IPv6"/>
-      <String Target="禁用此服务将导致IPv6无法正常使用，请确保你不需要使用IPv6！" Link="Al deshabilitar el servicio se inhabilita el servicio IPv6. ¡Asegúrese de que IPv6 NO es necesario!"/>
+      <String Target="禁用此服务将导致IPv6无法正常使用，请确保你不需要使用IPv6！" Link="¡Al deshabilitar el servicio se inhabilita el servicio IPv6. ¡Asegúrese de que IPv6 NO es necesario!"/>
 
     <String Target="禁用Windows Search" Link="Desactivar Windows Search"/>
-      <String Target="禁用此服务将导致搜索文件变慢，并且某些Windows Store应用可能无法正常使用！" Link="Al deshabilitar el servicio puede causar el mal funcionamiento de algunas aplicaciones de Windows Store. También puede ralentizarse la búsqueda de archivos."/>
+      <String Target="禁用此服务将导致搜索文件变慢，并且某些Windows Store应用可能无法正常使用！" Link="¡Al deshabilitar el servicio puede causar el mal funcionamiento de algunas aplicaciones de Windows Store, también puede ralentizarse la búsqueda de archivos!"/>
 
     <String Target="禁用错误报告" Link="Desactivar informes de errores de Windows"/>
 
     <String Target="禁用家庭组" Link="Desactivar Grupo Hogar"/>
 
     <String Target="禁用Windows Defender（by Windows 10优化辅助工具）" Link="Desactivar Windows Defender (por optimizar Windows 10)"/>
-      <String Target="关闭Windows Defender后可提高计算机响应速度，但是也将增加电脑被攻击的几率！" Link="Desactivar Windows Defender mejora el rendimiento de tu PC, pero pone su sistema bajo la amenaza de virus y ataques."/>
+      <String Target="关闭Windows Defender后可提高计算机响应速度，但是也将增加电脑被攻击的几率！" Link="¡Desactivar Windows Defender mejora el rendimiento de tu PC, pero pone su sistema bajo la amenaza de virus y ataques!"/>
 
     <String Target="禁用客户体验改善计划（by Windows 10优化辅助工具）" Link="Desactivar el programa de la mejora de experiencia del cliente (por optimizar Windows 10)"/>
 
     <String Target="禁用NTFS链接跟踪服务（by 某宅）" Link="Desactivar servicio de seguimiento de vínculos NTFS Grupo Hogar (por Stotaku)"/>
 
     <String Target="禁止自动维护计划（by Lux ferre）" Link="Desactivar tarea de mantenimiento automático (por Lux ferre)"/>
-      <String Target="禁用后系统将无法使用文件预读等功能，这可能导致系统性能下降！" Link="El sistema no puede utilizar funciones como prefetching de archivos si deshabilita esto, puede degradar el rendimiento del sistema."/>
+      <String Target="禁用后系统将无法使用文件预读等功能，这可能导致系统性能下降！" Link="¡El sistema no puede utilizar funciones como prefetching de archivos si deshabilita esto, puede degradar el rendimiento del sistema!"/>
 
     <!--WinRAR-->
     <String Target="锁定WinRAR工具栏（by 原罪）" Link="Bloquear barra de herramientas de WinRAR (by YZ)"/>
@@ -995,7 +995,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="蓝屏时自动重启（by 原罪）" Link="Reiniciar automáticamente con BSOD (por YZ)"/>
 
     <String Target="关闭快速启动" Link="Desactivar inicio rápido"/>
-      <String Target="关闭快速启动将导致系统启动速度变慢！" Link="Desactivar inicio rápido, prolonga el tiempo de inicio del sistema."/>
+      <String Target="关闭快速启动将导致系统启动速度变慢！" Link="¡Desactivar inicio rápido, prolonga el tiempo de inicio del sistema!"/>
 
     <String Target="关闭休眠（by powerxing04）" Link="Desactivar hibernación (por powerxing04)"/>
       <String Target="关闭休眠后将导致快速启动以及混合休眠不可用，这样将增加断电丢失数据的风险！" Link="¡Resultado, el inicio rápido y la hibernación mixta no estarán disponibles!"/>
