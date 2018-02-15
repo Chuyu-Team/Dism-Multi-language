@@ -665,13 +665,13 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="sppsvc关闭失败，有可能导致还原失败，是否继续？" Link="No se puede finalizar sppsvc, no se puede realizar el proceso de restauración. ¿Continuar?"/>
     <String
       Target="当前系统为 %hd.%hd %s，而激活备份信息为 %hd.%hd %s&#xD;&#xA;&#xD;&#xA;信息不匹配，你确定要继续么？"
-      Link="El sistema actual es %hd.%hd %s que no coincide con la activación del respaldo. %hd.%hd %s&#xD;&#xA;&#xD;&#xA;¿Continuar?"/>
+      Link="El sistema actual es %hd.%hd %s que no coincide con la activación de respaldo. %hd.%hd %s&#xD;&#xA;&#xD;&#xA;¿Continuar?"/>
     <String Target="请重新选择你的系统，你当前要还原的系统与本系统不匹配，请重新选择你的系统！" Link="¡Ese sistema no coincide con el sistema actual a restaurar. Vuelva a seleccionarlo!"/>
     <String Target="备份的信息与你所还原的信息版本不同，是否要继续还原？" Link="La información de la copia de seguridad es diferente a la que va a restaurar. ¿Continuar?"/>
     <String Target="Sorry暂不支持此系统，请反馈给我。" Link="Lo sentimos, este sistema aún no está soportado, por favor póngase en contacto con nosotros (www.chuyu.me)."/>
     <String Target="还原失败！具体错误信息请参考Dism++.log。" Link="Error al restaurar. Ver Dism++.log."/>
     <String Target="备份失败，具体请参考日志Dism++.log。" Link="Error en el respaldo. Ver Dism++.log."/>
-    <String Target="无法备份Windows激活信息。" Link="Error en la información de la activación del respaldo de Windows."/>
+    <String Target="无法备份Windows激活信息。" Link="Error al respaldar la información de la activación de Windows."/>
     <String Target="非致命性错误，Office信息无法备份。" Link="Error al respaldar la información de Office."/>
 
     <String Target="账户管理" Link="Administrar cuenta"/>
