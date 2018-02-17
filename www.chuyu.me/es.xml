@@ -21,8 +21,8 @@
   <String Src="%EsdSupportDes%" Dst="La conversión de ESD a ISO nunca ha sido tan fácil como ahora."/>
   <String Src="%WindowsUpdate%" Dst="Windows Update"/>
   <String Src="%WindowsUpdateDes%" Dst="Elige tus actualizaciones - y no te preocupes."/>
-  <String Src="%SystemRecover%" Dst="Copia de seguridad y recuperación"/>
-  <String Src="%SystemRecoverDes%" Dst="Crea una copia de seguridad o restaura el sistema sin usar Windows PE."/>
+  <String Src="%SystemRecover%" Dst="Respaldo y recuperación"/>
+  <String Src="%SystemRecoverDes%" Dst="Crea un respaldo o restaura el sistema sin usar Windows PE."/>
   <String Src="%Green%" Dst="Portable"/>
   <String Src="%GreenDes%" Dst="GRATUITO, SIN ANUNCIOS y SPYWARE."/>
   <String Src="%AboutChuyu%" Dst="Acerca del equipo de Chuyu"/>
