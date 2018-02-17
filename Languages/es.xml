@@ -139,7 +139,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
 
     <String Target="正在配置WinRE" Link="Configuración de Windows RE"/>
     <String Target="正在进行第 %d 阶段（共 %d ）" Link="Ahora está en el paso %d (%d pasos del total)"/>
-    <String Target="格式转换向导" Link="Asistente conversión formato"/>
+    <String Target="格式转换向导" Link="Asistente conversión de formato"/>
     <String Target="此功能可以将微软发布的ESD转换为ISO，还支持加密的ESD哦。" Link="Esta función puede convertir ESD a ISO, soporta ESD encriptado"/>
     <String Target="ESD映像文件" Link="Archivo ESD"/>
     <String Target="ISO映像文件" Link="Archivo ISO"/>
@@ -160,7 +160,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="正在验证受损" Link="Analizando la salud"/>
     <String Target="正在修复受损" Link="Recuperando la salud"/>
     <String Target="%d 秒后将关闭计算机，点击取消可以撤销此任务。" Link="Después de %d segundos, el equipo se apagará. Clic en &quot;Cancelar&quot; para cancelar esta tarea."/>
-    <String Target="%d 秒后将重启计算机，点击取消可以撤销此任务。" Link="Después de %d segundos el equipo se reiniciará. Clic en &quot;Cancelar&quot; para cancelar esta tarea."/>
+    <String Target="%d 秒后将重启计算机，点击取消可以撤销此任务。" Link="Después de %d segundos, el equipo se reiniciará. Clic en &quot;Cancelar&quot; para cancelar esta tarea."/>
 
     <String Target="正在清理临时数据" Link="Borrar datos temporales"/>
     <String Target="Sorry，无法配置环境，请在PE中使用此功能。" Link="No se puede configurar el entorno ahora, por favor, ejecute esta tarea en WinPE."/>
@@ -1070,7 +1070,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="%s 跳过" Link="%s omitido"/>
     <String Target="%s 压缩成功" Link="%s comprimido"/>
     <String Target="Dism++初始化成功，开始执行命令：%s" Link="Dism++ iniciado, ejecutando el comando: %s"/>
-    <String Target="无法识别参数：%s" Link="Incapaz de identificar los parámetros:%s"/>
+    <String Target="无法识别参数：%s" Link="Incapaz de identificar los parámetros: %s"/>
     <String Target="至少输入一个路径" Link="Introducir al menos una ruta"/>
     <String Target="%s 路径无效" Link="Ruta %s no válida"/>
     <String Target="未正确识别到命令，以下是程序支持的所有命令：" Link="Comando no encontrado, comprueba la entrada. Lista de todos los comandos compatibles:"/>
