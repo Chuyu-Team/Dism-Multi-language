@@ -1212,8 +1212,8 @@ Special thanks to JNylson
     <String Target="飞信日志" Link="Fetion log"/>
     <String Target="飞信运行时产生的一些日志文件。" Link="When Fetion running, it made the log files."/>
 
-    <String Target="回收站" Link="Recycling station"/>
-    <String Target="用于存放用户手动删除的文件目录。" Link="To store the user manually deleted files."/>
+    <String Target="回收站" Link="Estação de reciclagem"/>
+    <String Target="用于存放用户手动删除的文件目录。" Link="Para armazenar os arquivos excluídos manualmente do usuário."/>
 
     <String Target="Office 365/2016安装源" Link="Office 365/2016 installation source"/>
     <String Target="安装Office 365/2016后产生的安装源。" Link="After you installing office365/2016, the program made the installation source"/>
