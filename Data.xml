@@ -905,10 +905,12 @@
       <Scan Work="3">
         <Applicable>
           <FileExist FilePath="%SystemDrive%\$Windows.~BT"/>
+          <FileExist FilePath="%SystemDrive%\$Windows.~WS"/>
         </Applicable>
         <Activate>
           <General RootPath="%SystemDrive%" Flags="Directory">
             <Query>$Windows.~BT</Query>
+            <Query>$Windows.~WS</Query>
           </General>
         </Activate>
       </Scan>
