@@ -429,7 +429,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="缓存文件" Link="Archivos de caché"/>
     <String Target="应用程序" Link="Aplicaciones"/>
     <String Target="备份文件" Link="Copia de seguridad"/>
-    <String Target="Dism++即将进行清理，垃圾文件将被直接删除，无法通过回收站恢复，你确定要继续么？" Link="Dism++ va a iniciar la limpieza. No se pueden recuperar los archivos de la Papelera de reciclaje. ¿Continuar?"/>
+    <String Target="Dism++即将进行清理，垃圾文件将被直接删除，无法通过回收站恢复，你确定要继续么？" Link="Dism++ va a iniciar la limpieza. No podrás recuperar los archivos de la Papelera de reciclaje. ¿Continuar?"/>
 
     <!--注册表清理-->
     <String Target="注册表清理" Link="Limpiar el registro"/>
@@ -545,7 +545,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="产品名称" Link="Nombre del producto"/>
     <String Target="产品版本" Link="Versión del producto"/>
     <String Target="发行类型" Link="Tipo de versión"/>
-    <String Target="安装日期" Link="Tiempo instalado"/>
+    <String Target="安装日期" Link="Fecha de instalación"/>
     <String Target="状态" Link="Estado"/>
     <String Target="正在获取更新信息" Link="Obteniendo información de las actualizaciones"/>
     <String Target="正在删除更新" Link="Eliminando actualizaciones"/>
