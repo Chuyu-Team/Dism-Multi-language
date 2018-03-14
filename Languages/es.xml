@@ -1266,7 +1266,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="Visual Studio调试程序时留下的智能跟踪缓存。" Link="Cuando Visual Studio crea programas de depuración, deja el caché de seguimiento."/>
 
     <String Target="系统以及程序崩溃dmp文件（by YukiSakura）" Link="Archivos dmp del sistema y aplicaciones (por YukiSakura)"/>
-    <String Target="当系统蓝屏或者应用程序崩溃时产生的dmp文件。" Link="Si sale una pantalla azul o se congela, se crean archivos dmp."/>
+    <String Target="当系统蓝屏或者应用程序崩溃时产生的dmp文件。" Link="Si sale un pantallazo azul o se congela, se crean archivos dmp."/>
 
     <String Target="瑞昱声卡驱动安装源缓存（by YukiSakura）" Link="Caché de instalación del controlador de la tarjeta de sonido Realtek (por YukiSakura)"/>
     <String Target="瑞昱声卡安装后留下的安装源缓存。" Link="Cuando se instala la tarjeta de sonido Realtek, el programa deja el caché de la instalación."/>
