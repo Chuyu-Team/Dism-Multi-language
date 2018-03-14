@@ -73,7 +73,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
 
     <String Target="帮助(&amp;H)" Link="&amp;Ayuda"/>
       <String Target="查看帮助(&amp;V)" Link="&amp;Ver ayuda"/>
-      <String Target="官方网站(&amp;O)" Link="Sitio &amp;oficial"/>
+      <String Target="官方网站(&amp;O)" Link="&amp;Sitio oficial"/>
       <String Target="官方群(&amp;G)" Link="&amp;Grupos oficiales"/>
       <String Target="问题反馈(&amp;B)" Link="&amp;Comentarios"/>
       <String Target="关于Dism++(&amp;A)" Link="&amp;Acerca de Dism++"/>
@@ -1121,8 +1121,8 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <!--清理项目条目映射-->
     <String Target="被取代的WinSxS组件" Link="Componentes WinSxS sustituidos"/>
     <String Target="清理被取代的组件并减少组件存储的大小。" Link="Se usa para limpiar los componentes sustituidos y reducir el tamaño del almacén de componentes."/>
-    <String Target="清理后将无法卸载更新，如果有卸载更新需求请勿使用此选项。" Link="Las actualizaciones de Windows instaladas no se pueden desinstalar una vez finalizada la actualización."/>
-    <String Target="清理后将无法卸载更新，此外ResetBase模式跟系统重置功能有冲突，如果有卸载更新或者系统重置需求请勿使用此选项。" Link="Las actualizaciones no se pueden desinstalar después de limpiar. Además, el modo ResetBase está en conflicto con la función de reinicio del sistema. No utilice esta opción si tiene tales necesidades."/>
+    <String Target="清理后将无法卸载更新，如果有卸载更新需求请勿使用此选项。" Link="No podrá desinstalar las actualizaciones después de la limpieza. Si necesita desinstalar actualizaciones, no use esta opción."/>
+    <String Target="清理后将无法卸载更新，此外ResetBase模式跟系统重置功能有冲突，如果有卸载更新或者系统重置需求请勿使用此选项。" Link="No podrá desinstalar las actualizaciones después de la limpieza. Además, el modo ResetBase está en conflicto con la función de restablecer el sistema. Si necesita desinstalar actualizaciones, no use esta opción."/>
 
     <String Target="被取代的WinSxS组件（非常慢）" Link="Componentes WinSxS sustituidos (muy lento)"/>
 
@@ -1346,7 +1346,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="使用Visual Studio所产生的日志" Link="Registros generados por Visual Studio"/>
 
     <String Target="Installer目录" Link="Carpeta de instalador"/>
-    <String Target="(这是一个实验性功能)清理后将无法卸载被取代的msp更新，如果有卸载更新需求请勿使用此选项。" Link="(Experimental) Después de la limpieza, las actualizaciones msp no se pueden desinstalar. Si necesita desinstalar actualizaciones, no use esta opción."/>
+    <String Target="(这是一个实验性功能)清理后将无法卸载被取代的msp更新，如果有卸载更新需求请勿使用此选项。" Link="(Experimental) Después de la limpieza, no podrá desinstalar las actualizaciones de msp. Si necesita desinstalar actualizaciones, no use esta opción."/>
 
     <String Target="零售演示离线内容" Link="Contenido sin conexión"/>
     <String Target="为Windows10零售演示模式所缓存的离线内容" Link="Contiene el contenido temporal sin conexión para Windows 10 Retail en modo Demo"/>
