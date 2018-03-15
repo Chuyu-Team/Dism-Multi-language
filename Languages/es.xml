@@ -397,7 +397,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
       <String Target="Appx管理" Link="Aplicaciones"/>
 
     <String Target="驱动管理" Link="Controladores"/>
-    <String Target="程序和功能" Link="Aplicaciones y funciones"/>
+    <String Target="程序和功能" Link="Programas y características"/>
     <String Target="Windows服务" Link="Servicios de Windows"/>
     <String Target="Windows功能" Link="Características de Windows"/>
     <String Target="更新管理" Link="Actualizaciones"/>
@@ -427,7 +427,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="过期文件" Link="Archivos expirados"/>
     <String Target="系统相关" Link="Sistema"/>
     <String Target="缓存文件" Link="Archivos de caché"/>
-    <String Target="应用程序" Link="Aplicaciones"/>
+    <String Target="应用程序" Link="Programas"/>
     <String Target="备份文件" Link="Copia de seguridad"/>
     <String Target="Dism++即将进行清理，垃圾文件将被直接删除，无法通过回收站恢复，你确定要继续么？" Link="Dism++ va a iniciar la limpieza. No podrás recuperar los archivos de la Papelera de reciclaje. ¿Continuar?"/>
 
@@ -512,7 +512,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="驱动程序" Link="Controladores"/>
 
     <!--功能-->
-    <String Target="指定本地源" Link="Especificar fuente local"/>
+    <String Target="指定本地源" Link="Especificar origen local"/>
     <String Target="应用" Link="Aplicar"/>
     <String Target="正在加载Windows功能" Link="Cargando características de Windows"/>
     <String Target="关闭功能" Link="No activo"/>
@@ -520,8 +520,8 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="全部启用" Link="Activo"/>
     <String Target="删除功能" Link="Eliminado"/>
     <String Target="正在应用" Link="Aplicando"/>
-    <String Target="本地源：" Link="Fuente local:"/>
-    <String Target="请在此输入本地源" Link="Introduzca aquí la fuente local."/>
+    <String Target="本地源：" Link="Origen local:"/>
+    <String Target="请在此输入本地源" Link="Introduzca aquí el origen local."/>
 
     <!--应用程序-->
     <String Target="更改" Link="Modificar"/>
