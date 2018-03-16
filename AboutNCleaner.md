@@ -262,11 +262,11 @@ NCleaner 1.0.2.3
 - 介绍和授权：
   - VC-LTL 是一个开源的第三方修改VC库，大家都可以免费，无条件，甚至是用于商业环
     境。本库基于VC140修改，所以也同样适用Common Public License协议。
-	但我也希望如果你可以在程序的说明文件中声明下，使用了此库，来使更多人受益。
+  - 但我也希望如果你可以在程序的说明文件中声明下，使用了此库，来使更多人受益。
 	——mingkuang
 
 **M2-SDK**
 - 项目首页：https://github.com/M2Team/M2-SDK
 - 介绍和授权：
   - M2-SDK是M2-Team系列工具使用的开发包
-    https://github.com/M2Team/M2-SDK/blob/master/License.txt
+  - https://github.com/M2Team/M2-SDK/blob/master/License.txt
