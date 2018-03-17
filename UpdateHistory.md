@@ -6,638 +6,526 @@
 - Compact专门研究群：136241462
 - Windows Update测试专群：203425333
 - 反馈邮箱：mingkuang@live.com
-- NCleaner 自述：https://github.com/Chuyu-Team/Dism-Multi-language/blob/master/NCleanerReadMe.md
+- NCleaner 自述：
+  https://github.com/Chuyu-Team/Dism-Multi-language/blob/master/NCleanerReadMe.md
 
 ## 更新历史记录
+**Dism++ 10.1.1000.62 14:20 2018/3/17**
+- Dism++
+  - 解决BUG 405，重新进入RE功能无法使用（感谢 MIUI、疯子）
+  - 解决BUG，文件关联功能适配最新Windows 10 17120(感谢 Cloud.)
+  - 更新UI文件（感谢 清茶苦酒，kokutoukiritsugu）
+- NCleaner
+  - 移除缩略图缓存清理残留代码（在NCleaner 1.0.3.0开始缩略图缓存清理已使用
+    DISM++规则实现）
+  - 整理并优化代码（完全使用MSDN文档化API）
 
-
-**Dism++ 10.1.1000.62 14:20 2018/3/17**==
-【Dism++】
-- 解决BUG 405，重新进入RE功能无法使用（感谢 MIUI、疯子）
-- 解决BUG，文件关联功能适配最新Windows 10 17120(感谢 Cloud.)
-- 更新UI文件（感谢 清茶苦酒，kokutoukiritsugu）
-
-【NCleaner】
-1. 移除缩略图缓存清理残留代码（在NCleaner 1.0.3.0开始缩略图缓存清理已使用DISM++规则实现）
-2. 整理并优化代码（完全使用MSDN文档化API）
-
-
-**Dism++ 10.1.1000.61 16:50 2018/3/11**==
+**Dism++ 10.1.1000.61 16:50 2018/3/11**
 - 解决BUG，dll安全初始化可能导致程序无法启动问题（感谢 TheZihanGu、3.、大个er）
 - 解决BUG，获取App信息时可能的的崩溃问题。
 
-
-**Dism++ 10.1.1000.60 18:29 2018/3/9**==
+**Dism++ 10.1.1000.60 18:29 2018/3/9**
 - 解决BUG，Windows 10 17083系统名称显示异常（感谢 老牛吃嫩草）
 - 解决BUG 352，某些时候无法正常下载问题（感谢 T1M77、Le）
-- 解决BUG 354，无法获取Windows 10 17074预装应用问题（感谢 ukasz Kuchta、Cloud.）
+- 解决BUG 354，无法获取Windows 10 17074预装应用问题（感谢 ukasz Kuchta、Cloud）
 - 解决BUG 329，无法识别Windows 10 17074系统版本问题（感谢 Whuihuan、Cloud）
 
-
-**Dism++ 10.1.1000.52 13:02 2017/12/25**==
-- 解决BUG 304，Dism++重启explorer后导致Chrome黑屏（感谢 SpDChen， 由 毛利 修复）
-- 解决BUG 273，减少Dism++自动更新次数，并降低网络超时时间，避免某些极端网络环境长时间无响应。（感谢 WanJJ123）
-- 解决BUG 297，优化程序体验。阻止每次输完目录后跳出参数错误问题。（感谢 keeeeymann ）
+**Dism++ 10.1.1000.52 13:02 2017/12/25**
+- 解决BUG 304，Dism++重启explorer后导致Chrome黑屏（感谢 SpDChen，由 毛利 修复）
+- 解决BUG 273，减少Dism++自动更新次数，并降低网络超时时间，避免某些极端网络环境
+  长时间无响应。（感谢 WanJJ123）
+- 解决BUG 297，优化程序体验。阻止每次输完目录后跳出参数错误问题。
+  （感谢 keeeeymann ）
 - 解决BUG，Dism++消息传递时句柄泄漏问题（感谢 毛利）
 - 解决BUG 292，UUP转ISO时直接选择esd转换提示找不到指定资源（感谢 初生之鸟）
 - 解决BUG，将ISO标签限制调整为32个字符（感谢 咸鱼）
 - 解决BUG 327，误杀Opera问题（感谢 grompes 反馈，由 Jhovany200修复此问题）
-
 - 新增Fea 225，为程序与功能添加排序支持（感谢 Viaxl ）
 - 更新多国语言翻译
+  - 具体相关信息 请参考 https://github.com/Chuyu-Team/Dism-Multi-language。
 
-具体相关信息 请参考 https://github.com/Chuyu-Team/Dism-Multi-language。
-
-
-**Dism++ 10.1.1000.51B 13:22 2017/11/5**==
+**Dism++ 10.1.1000.51B 13:22 2017/11/5**
 - 新增Fea 256，新增 关闭Adobe Flash即点即用，感谢 PaTTeeL
 - 新增Fea 279，新增 不允许在开始菜单显示建议 for 16299（by powerxing04）
 - 新增Fea 281，添加 禁用WfpDiag.ETL日志（by powerxing04）
-- 新增Fea 282，添加规则「包含到库中」（文件夹右键）以及「NVIDIA 控制面板」（桌面右键），感谢  choyri
-- 新增Fea，为 传递优化缓存 清理项增加对 Windows 10, Version 1709 的支持（感谢 毛利）
+- 新增Fea 282，添加规则「包含到库中」（文件夹右键）以及「NVIDIA 控制面板」（桌
+  面右键），感谢  choyri
+- 新增Fea，为 传递优化缓存 清理项增加对 Windows 10, Version 1709 的支持（感谢
+  毛利）
 - 新增Fea 255，添加 规则 关闭休眠（by powerxing04）
 - 新增Fea 259，添加 面壁纸质量调整为（by IT之家） 感谢 Luupw3d提交规则
+- 更新 es.xml以及zh-Hant.xml（感谢 Jhovany 200 & GT Wang）
 
-更新 es.xml以及zh-Hant.xml（感谢 Jhovany 200 & GT Wang）
-
-
-**Dism++ 10.1.1000.51 21:23 2017/10/20**==
+**Dism++ 10.1.1000.51 21:23 2017/10/20**
 - 解决BUG，Windows Update无法安装1709 esd问题
 - 解决BUG，某些规则不应该在新版本Win10显示问题。
 - 解决BUG 258，任务栏时钟精确到秒未重启Explorer问题（感谢 AnnAngela）
-- 解决BUG，隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹 未重启Explorer问题（感谢 Silence）
+- 解决BUG，隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹 未
+  重启Explorer问题（感谢 Silence）
 - 更新ADK，wimgapi.dll升级到10.0.16299.15
-- 多国语言翻译更新相关人员名单请参考“https://github.com/Chuyu-Team/Dism-Multi-language/blob/master/README.md”
+- 多国语言翻译更新相关人员名单请参考
+  “https://github.com/Chuyu-Team/Dism-Multi-language/blob/master/README.md”
 
-
-**Dism++ 10.1.1000.50 13:13 2017/10/15**==
-- 解决BUG，任务栏时钟精确到秒优化规则适用性检测错误，应该只能在Win10中显示（感谢 流星剑）
-- 解决BUG 237，收起资源管理器功能区优化项初始条件检测错误问题。（感谢 Roger-WIN）
+**Dism++ 10.1.1000.50 13:13 2017/10/15**
+- 解决BUG，任务栏时钟精确到秒优化规则适用性检测错误，应该只能在Win10中显示（感
+  谢 流星剑）
+- 解决BUG 237，收起资源管理器功能区优化项初始条件检测错误问题。（感谢 
+  Roger-WIN）
 - 解决BUG，解决Vista无法正常使用更新清理问题。（感谢 魏 燕聪）
 - 解决BUG，调整360安全卫士的检测方式。
-
 - 新增Fea 233，添加新规则“禁用所有对象的“共享”右键菜单”（感谢 yuehun）
-
 - 更新SDK，编译环境迁徙至10.0.16299.0
 
-**Dism++ 10.1.1000.40 18:48 2017/9/26**==
+**Dism++ 10.1.1000.40 18:48 2017/9/26**
 - 解决BUG，更新Dism++堆栈，解决Cbs Interface第二次使用时随机崩溃问题。
 - 解决BUG，某些时候重启Explorer无法启动Explorer问题（感谢 幸福的戒）
 - 解决BUG，Windows 7某个补丁扫描不出来问题。
 - 解决BUG 218，新手模式可启动不会自动感应问题（感谢 nnail）
 - 解决BUG 213 ， 不允许在开始菜单显示建议规则搞反了（感谢 lmwuxia ）
-
 - 新增FEA，添加360以及QQ浏览器兼容性检测以及打开回话兼容性弹窗更改
 - 新增FEA，ISO生成器添加多实例支持以及32字节输入限制。
-- 新增FEA，添加esd更新支持，可以将UUP esd中的文件作为更新（类似于cab、msu）添加到系统中。（感谢 留香 大叔建议）
+- 新增FEA，添加esd更新支持，可以将UUP esd中的文件作为更新（类似于cab、msu）添加
+  到系统中。（感谢 留香 大叔建议）
 
-**Dism++ 10.1.1000.31 15:45 2017/8/26**==
+**Dism++ 10.1.1000.31 15:45 2017/8/26**
 - 解决 BUG 199 ，某些更新无法离线安装，Dism++依然会提供问题。（感谢 爤菜頭）
-- 解决BUG 189，修正某些时候添加更新时可能会遇到失败，“当文件已存在时，无法创建该文件。”（感谢 追风少年）
-- 解决BUG 188，修正Windows 7针对Windows 8.1系统启用差异传输引擎时报告 数据无效。（感谢 伊缠）
-
-- 解决BUG 190，调整Dism++处理堆栈，改进对某些极端精简PE的兼容性问题（感谢 红毛樱木）
-调整后，典型的 优启通 之类的极端精简PE可以正常为其他系统添加更新。
-
-- 改进对精简PE的支持，PE精简mspatcha.dll时可能导致差异传输无法正常工作问题。（感谢 辉哥）
-调整后，可以解决某些极端精简的PE也能正常使用差异传输引擎进行补丁安装。
-
+- 解决BUG 189，修正某些时候添加更新时可能会遇到失败，“当文件已存在时，无法创建
+  该文件。”（感谢 追风少年）
+- 解决BUG 188，修正Windows 7针对Windows 8.1系统启用差异传输引擎时报告 数据无
+  效。（感谢 伊缠）
+- 解决BUG 190，调整Dism++处理堆栈，改进对某些极端精简PE的兼容性问题（感谢 红毛
+  樱木）
+  - 调整后，典型的 优启通 之类的极端精简PE可以正常为其他系统添加更新。
+- 改进对精简PE的支持，PE精简mspatcha.dll时可能导致差异传输无法正常工作问题。
+  （感谢 辉哥）
+  - 调整后，可以解决某些极端精简的PE也能正常使用差异传输引擎进行补丁安装。
 - 解决BUG，Windows 10升级进度可能迟缓问题
 - 解决BUG，CBS目录不存在时无法输出OfflineCbs.log日志问题（感谢 污云）
 - 解决BUG，修复Dism++引擎True逻辑错误问题（感谢 Joy）
+- 改进Windows Update特定情况下的扫描性能，当用户已经安装完成大部分更新时约减少
+  70%扫描时间。
+  - 具体信息可以参考 https://github.com/Chuyu-Team/Dism-Multi-language/issues
+- Data.xml更新，解决某些规则不显示问题（感谢 钢铁侠）
+- 另外本次还更新Dism++翻译，感谢所有帮助Dism++的人。具体翻译人员请参考：
+  https://github.com/Chuyu-Team/Dism-Multi-language/blob/master/README.md
 
-- 改进Windows Update特定情况下的扫描性能，当用户已经安装完成大部分更新时约减少70%扫描时间。
-具体信息可以参考 https://github.com/Chuyu-Team/Dism-Multi-language/issues
+**Dism++ 10.1.1000.20B 13:59 2017/8/13**
+- Dism++语言翻译更新，感谢所有帮助Dism++的人。具体请参考：
+  https://github.com/Chuyu-Team/Dism-Multi-language/blob/master/README.md
 
-
-10: Data.xml更新，解决某些规则不显示问题（感谢 钢铁侠）
-
-另外本次还更新Dism++翻译，感谢所有帮助Dism++的人。
-具体翻译人员请参考：https://github.com/Chuyu-Team/Dism-Multi-language/blob/master/README.md
-
-
-
-**Dism++ 10.1.1000.20B 13:59 2017/8/13**==
-- Dism++语言翻译更新，感谢所有帮助Dism++的人。
-具体请参考：https://github.com/Chuyu-Team/Dism-Multi-language/blob/master/README.md
-
-
-**Dism++ 10.1.1000.20 13:59 2017/8/13**==
+**Dism++ 10.1.1000.20 13:59 2017/8/13**
 - 调整UI配置（123），修正大部分地方蓝底黑字。减轻眼睛压力（感谢 iliGPU）
 - 解决BUG，UI配置界面中，Wofadk驱动不加载时右键菜单可以选择问题（感谢 (ÒωÓױ)）
-- 解决BUG 164，Dism++64.exe与Dism++32.exe二进制边界不兼容。导致64位Dism++处理32位系统点击取消时崩溃。（感谢 Orange Master）
-- 解决BUG，修复Dism++多处权限提升BUG。现在Dism++将通过普通User权限，降低用户意外访问带恶意脚本网页或者HTTP劫持攻击风险。
+- 解决BUG 164，Dism++64.exe与Dism++32.exe二进制边界不兼容。导致64位Dism++处理32
+  位系统点击取消时崩溃。（感谢 Orange Master）
+- 解决BUG，修复Dism++多处权限提升BUG。现在Dism++将通过普通User权限，降低用户意
+  外访问带恶意脚本网页或者HTTP劫持攻击风险。
 - 解决BUG 149，过滤硬件数量<=1的驱动，以免某些虚拟设备驱动被删除（感谢 失控）
-- 解决BUG 155，规避微软更新堆栈BUG，某些更新堆栈版本返回进度不正确问题。（感谢 Andy）
+- 解决BUG 155，规避微软更新堆栈BUG，某些更新堆栈版本返回进度不正确问题。（感谢
+  Andy）
 - 解决BUG，规避某些低版本Windows 7更新堆栈缓存策略BUG（感谢 追风少年）
-
 - 新增Fea，Windows Update新增重启生效报告支持。
 - 新增Fea，新增Dism++ sut支持，为离线系统添加软件。
 
-**Dism++ 10.1.1000.12 13:59 2017/8/13**==
+**Dism++ 10.1.1000.12 13:59 2017/8/13**
 - Dism++规则库更新，解决一些规则问题，比如BUG 162,BUG 161
-具体请参考：https://github.com/Chuyu-Team/Dism-Multi-language/issues
-
+  - 具体请参考：https://github.com/Chuyu-Team/Dism-Multi-language/issues
 - Dism++语言翻译更新，感谢所有帮助Dism++的人。
-具体请参考：https://github.com/Chuyu-Team/Dism-Multi-language/blob/master/README.md
+  - 具体请参考：https://github.com/Chuyu-Team/Dism-Multi-language/blob/master/README.md
 
-
-**Dism++ 10.1.1000.11 21:03 2017/7/31**==
-此版本用于紧急规避15063的一些系统BUG。
-
-
+**Dism++ 10.1.1000.11 21:03 2017/7/31**
+- 此版本用于紧急规避15063的一些系统BUG。
 - 解决BUG 148，规避15063系统BUG 系统语言包可被意外卸载问题。（感谢 Caiws）
 - 新增Fea，安装更新添加进度支持。
 
-
-**Dism++ 10.1.1000.10 14:43 2017/7/29**==
-
+**Dism++ 10.1.1000.10 14:43 2017/7/29**
 - 解决一些历史BUG，比如BUG 10、BUG 74、BUG 136
-具体请参考 https://github.com/Chuyu-Team/Dism-Multi-language/issues
-
-- 改进Dism++性能，差异传输引擎减少50%的时间，内置Windows Update扫描更新约减少70%的时间。
-
+  - 具体请参考 https://github.com/Chuyu-Team/Dism-Multi-language/issues
+- 改进Dism++性能，差异传输引擎减少50%的时间，内置Windows Update扫描更新约减少
+  70%的时间。
 - 改进对Windows 10的支持，系统优化扩充了适用于最新Windows 10的规则
-比如：添加3D对象文件夹隐藏、关闭应用商店应用默认推广
-
-
-**Dism++ 10.1.1000.4 17:06 2017/7/9**==
-【Data.zip Ver 2017-07-04】
-- Data.zip修正某些规则不生效问题
-
-
-
-**Dism++ 10.1.1000.3 11:39 2017/7/2**==
-【wimgapi.dll Ver 10.0.16225.1000】
-- 更新wimgapi到最新 10.0.16225.1000
-
-
-**Dism++ 10.1.1000.2 13:32 2017/6/25**==
-
-【default.ui.zip Ver 2017-06-25】
-- UI某些字体颜色调整，减轻用户眼睛负担。
-
-
-【Data.zip Ver 2017-06-25】
-- CompactOS平台表达式调整，调整为所有平台均非专家模式隐藏（感谢 李道然）
-
-【Languages Ver 2017-06-25】
-- en.zip，英语翻译更新（感谢 Hexhu）
-- ja.zip，日语翻译更新（感谢 山形まり花）
-- zh-Hant.zip，通用繁体更新（感谢 iliGPU）
-
-
-**Dism++ 10.1.1000.1 20:18 2017/6/17**==
-【Dism++(x86/x64).exe Ver 10.1.1000.1】
-- 修复BUG，添加IE时直接返回尚未实现问题。（感谢 自由自在）
-
-
-**Dism++ 10.1.1000.0 13:41 2017/6/17**==
-【Dism++(x86/x64).exe Ver 10.1.1000.0】
-漏洞修复：
-- 修复漏洞，根据秘密反馈，解决一处Dism++可被利用的劫持攻击漏洞。（感谢 000）
-
-逻辑修复：
-- 改进Dism++对Windows Vista的兼容（感谢 毛利）
-- 解决BUG 111，解决Windows Update无法离线扫描Windows 10 15063问题（感谢 Roger-WIN、预谋）
-- 解决BUG 107，打开特殊ISO导致Dism++崩溃问题
-- 解决BUG 106，开启DisableInstallUpdate参数时，Windows Update崩溃问题
-- 解决BUG 99,某些UI界面显示问题（感谢 kulaLin）
-- 解决BUG，自动升级后没有删除.del文件问题
-
-新增功能：
-- 新增FEA，已安装的更新添加友好名称以及更新安装时间
-
-【CbsHost.dll Ver 10.1.1000.0】
-- 解决Windows Vista无法正常记录日志问题
-- 新增功能，过期WinSxS清理更新，针对Windows 10离线清理关闭Resetbase功能。
-
-【Plugin.amd64.dll/Plugin.x86.dll Ver 10.1.1000.0】
-- 删除激活备份功能
-
-【NCleaner.dll Ver 1.0.3.6】
-1.深度整合M2-SDK库（因为其他M2工具不再用到该库，但该库一旦修改，github对应部分会同步）
-2.删除无用代码
-3.修复新版Visual Studio安装源缓存清理的日志输出Bug
-4.整理并优化代码
-5.修改编译选项（根据新版VC-LTL文档）
-6.添加损坏的AppX在线清理
-（清理损坏的AppX。例如Visual Studio的通用应用XAML设计器暴力删除临时生成的设计器应用，于是会出现大量损坏的AppX）
-
-【Data.zip Ver 2017-06-17】
-- 调整 显示开始菜单、任务栏、操作中心和标题栏的颜色 等级，所有Windows 10均显示（感谢 Cloud）
-- 修复BUG，将同时可用下载数目调整到 10一些错误（感谢 旧食光）
-- 解决BUG 108，Windows 7意外调用NCCorruptedAppXOnlineCleanup问题。
-
-【default.ui.zip Ver 2017-05-31】
-- 适配最新程序UI
-
-【-CScript.dll】
-- 删除此文件，Beta版才拥有的功能。
-
-
-**Dism++ 10.1.27.2 14:19 2017/6/14**==
-- 各种库文件整合以及wimgapi整合
-
-
-**Dism++ 10.1.27.1 21:09 2017/4/27**==
-【Dism++(x86/x64).exe Ver 10.1.27.1】
-- 解决BUG，修复PE无法识别问题（感谢 城市 边缘）
-- 解决BUG，界面初始化时极端情况导致程序崩溃刷新界面时崩溃问题。
-
-
-【CbsHost.dll Ver 10.1.27.1】
-- 解决BUG，Windows 7无法使用更新清理问题
-
-
-【NCleaner.dll 1.0.3.4】
-- Package Cache清理支持清理特定用户的Package Cache
-
-
-【default.ui.zip Ver 2017-04-27】
-- 解决俄语无法正常显示问题。
-
-
-【Languages Ver 2017-04-27】
-- bg.zip, Thanks to Pavel Belivakov
-- cs.zip，Thanks to Richard Kahl
-- de.zip，Thanks to franz@drwindows.de
-- en.zip
-- es.zip，Thanks to Oleada
-- fr.zip，Thanks to JP.Sudrets
-- it.zip，Thanks to Massimiliano F.
-- ja.zip，Thanks to 山形まり花
-- ko.zip，Thanks to OldMac
-- pl-PL.zip，Thanks to WinClub.pl
-- pt.zip，Thanks to JNylson
-- ru.zip，Thanks to Black Alex, Vasiliy Nasonov
-- zh-Hant.zip，Thanks to iliGPU, 月下独酌
-
-**Dism++ 10.1.25.4 13:53 2017/4/16**==
-【Dism++(x86/x64).exe Ver 10.1.25.4】
-- 解决BUG，修复微软最新wimgapi错误代码问题（感谢 咸鱼）
-- 解决BUG，增加PE检测逻辑，改进与PowerISO的兼容性（感谢 mmxx08）
-- 改进体验，优化WIM映像释放，自动调整ESD默认索引，避免大家手误。
-- 解决BUG，修复某些时候延迟卸载导致程序崩溃问题
-- 优化代码结构，缩减体积20KB
-
-【default.ui.zip Ver 2017-04-09】
-- 适配最新UI
-
-【Data.zip Ver 2017-04-16】
-- 针对1703屏蔽 显示开始菜单、任务栏、操作中心和标题栏的颜色（感谢 q1953555067）
-
-【Languages Ver 2017-04-16】
-- en.zip English Resource，Thanks Frag
-- es.zip Spanish Resource，Thanks Oleada
-3: it.zip Italian Resource, Thanks Massimiliano F.
-4: ja.zip Japanese Resource, Thanks 山形まり花
-5: pt.zip Portuguese Resource, Thanks JNylson
-6: ru.zip Russian Resource, Thanks Vasiliy Nasonov
-7: zh-Hant.zip 繁体中文资源包,感谢 月下独酌
-
-
-温馨提示：为了不让系统自带杀毒误报已经移除了自动添加信任逻辑。如果在使用时发现Dism++执行任务耗时很长，而且Dism++CPU使用率非常低，那么请自行在系统自带杀毒中添加Dism++为信任。
-
-
-**Dism++ 10.1.25.3 20:42 2017/4/4**==
-【Dism++(x86/x64).exe Ver 10.1.25.3】
-- 解决BUG，修复某些极端情况反复刷新Windows功能界面时可能导致程序崩溃问题
-- 文件关联适配最新Windows 10 RS2系统（感谢 原罪 反馈）
-
-【Data.zip Ver 2017/4/4】
-- 适配 西班牙语 相关提示文字（感谢 Oleada 提供此更新）
-
-【Languages 语言翻译更新】
-- es.zip 西班牙语(感谢 Oleada)
-- ja.zip 日语（感谢 山形まり花）
-- ru.zip 俄语（感谢 Black Alex, Vasiliy Nasonov）
-- zh-Hans.zip 简体中文
-
-
-PS：此版本主要用于紧急适配Windows 10 RS2最新版。对于RS2还有其他兼容性问题，可以继续反馈。
-另外目前Dism++尚未适配最新的Windows 7补丁，因此对Win7进行更新清理基本都是失败。
-此问题是已知问题，将在未来版本中解决此问题。
-
-
-**Dism++ 10.1.25.2 21:03 2017/4/1**==
-【Dism++(x86/x64).exe Ver 10.1.25.2】
-- 引入Windows 10内存压缩机制，大幅度缩减Windows Update功能内存占用（约降低 90%的内存占用，同时几乎不影响到性能）
-- 解决某些服务无法删除问题（感谢 Cloud. 反馈）
-- 修正Windows 7能显示联机文件关联处理问题
-- 修复差异模式安装补丁提示成功却没有安装问题（感谢 离线中勿扰）
-
-【CbsHost.dll Ver 10.1.26.8】
-- 删除过期代码。
-
-【Data.zip Ver 2017/3/29】
-- 添加 登陆界面默认打开小键盘 规则，感谢（Yukinoshita ）
-- 适配Dism++最新UI。
-- 缩略图缓存清理使用Dism++的ExplorerNotify功能启动Explorer以解决#43问题
-
-【es.zip Ver 2017-04-01】
-- 新增西班牙语支持（Thanks to Oleada）
-
-
-**Dism++ 10.1.25.1 18:44 2017/3/17**==
-【Dism++(x86/x64).exe Ver 10.1.25.1】
-- 使用VS 2017重新编译，并优化代码结构以及文件结构，缩减程序体积（约减少体积 2.2MB）
-- 解决一处内存泄漏问题
-- 解决释放映像后无法自动重启或者关机问题（感谢 咸鱼 反馈）
-- 删除CCleaner规则支持，减少误杀概率。
-- Windows Update功能更新，改进引擎检测准确度。
-- 解决某些时候系统版本读取错误（感谢 殇夏oSUMMER）
-- 硬链接合并屏蔽 WindowsApps目录，以免某些程序无法启动（感谢 magsom）
-- 调整垃圾清理展示逻辑（感谢 ugksoft 提供建议）
-
-【CBSHost.dll Ver 10.1.26.3】
-- 使用VS 2017重新编译
-- 解决BUG，修复某些时候删除驱动时设备残留问题（感谢 翟延 反馈）
-
-【NCleaner.dl Ver 1.0.2.8】
-- 使用VS 2017重新编译
-
-【Plugin.amd64/x86.dll Ver  10.1.26.3】
-- 使用VS 2017重新编译
-- 解决青蛙插件复制文件失败时到程序崩溃问题
-
-【CScript.dll Ver 10.1.26.3】
-- 使用VS 2017重新编译
-
-【wimgapi.dll Ver 10.0.15052.1000】
-- 同步最新Windows ADK
-
-【Data.xml Ver 2017-02-25】
-- 扩充规则库（感谢 yui 以及 stanlazy 提供规则）
-
-【ru.zip Ver 2017-03-02】
-- 调整翻译内容（Thanks to Vasiliy Nasonov）
-
-
-**Dism++ 10.1.23.2 19:57 2017/2/28**==
-【Dism++(x86/x64).exe Ver 10.1.23.2】
-- 解决ESD转ISO返回参数错误问题
-
-
-**Dism++ 10.1.23.1 19:21 2017/2/25**==
-【Dism++(x86/x64).exe Ver 10.1.23.1】
-- 新增FEA，改进分段ESD（UUP）识别，无需ActionList.xml也能正常工作。（感谢 留香 意见）
-- 修复BUG，安装软件更新时可能会重启相关软件问题
-- 行为调整，删除Duilib.dll依赖减少程序总体体积
-- 行为调整，挂载功能屏蔽esd以及ISO等文件
-- UI细节调整
-
-【wsuscan2.cab Ver 2017-02-25】
-- 同步最新补丁数据
-
-
-【语言文件 Ver 2017-02-25】
-- 更新 cs.xml，de.xml，en.xml，fr.xml，it.xml，ja.xml，ko.xml，pl-PL.xml，ru.xml，zh-Hant.xml
-感谢 Richard Kahl, franz, Frag, JP.Sudrets, Massimiliano F.,山形まり花, OldMac, Schooli,WinClub.pl,Vasiliy Nasonov, 翔雲
-
-
-**Dism++ 10.1.21.4B 18:42 2017/2/18**==
-
-【wimgapi.dll Ver 10.0.15021.1001】
-- 新增FEA，增加150XX 分段ESD(UUP)转ISO功能以及释放映像功能（全平台支持）
-
-【default.ui.zip Ver 2017-02-15】
-- 修正UI某些显示问题（感谢 宫 宇冲 反馈 ）
-
-
-**Dism++ 10.1.21.4 16:11 2017/2/12**==
-【Dism++(x86/x64).exe Ver 10.1.21.4】
-- 新增FEA，增加150XX 分段ESD(UUP)转ISO功能以及释放映像功能（暂不支持Windows 7）
-- 新增FEA，格式化时保留卷标（由 咸鱼 提供）
-- 新增FEA，改进系统名称识别方式，兼容Windows 10 Starter/Cloud系统
-- 解决BUG 23，Config.ini未使用Unicode导致某些系统显示异常（suwakowww 反馈）
-- 新增FEA，wimgapi全面适配14393，新增WIM捕获时，扩展属性保存支持
-- 解决BUG，WIMBoot释放映像时行为分析不起作用问题（★星魂☆♂ 反馈）
-
-【Duilib.dll Ver 10.1.24.2】
-- 解决BUG，修复Duilib一处潜在崩溃问题
-
-【Plugin.amd64/x86.dll Ver  10.1.24.2】
-- 解决BUG，修复高DPI环境文件浏览器发生模糊BUG （Iù weil* 反馈）
-
-【wimgapi.dll Ver 10.0.15021.1000】
-- 更新wimgapi基础库，以支持150XX后续新功能
-
-【wsuscan2.cab Ver 2017-02-12】
-- 同步最新补丁数据
-
-**Dism++ 10.1.21.3B 16:54 2017/1/21**==
-
-【CBSHost.dll Ver 10.1.24.2】
-- 解决BUG，修复极端情况 CBS空指针崩溃问题
-- 解决BUG，修复离线系统刚好在Boot分区无法打开会话问题（感谢 yunzy ）
-
-【NCleaner.dll Ver 1.0.2.5（由毛利提供此模块）】
-- 解决BUG，修复 LocalPackage 文件名为空时 程序崩溃问题
-
-【Plugin.amd64.dll/Plugin.x86.dll Ver 10.1.24.1】
-- 春哥附体全面兼容Windows 10 15007
-- 解决BUG，修复 账号管理提示拒绝访问问题
-
-【zh-Hant.xml Ver 2017-01-16】
-- 繁体资源更新，修正一些语法习惯问题（感谢 kulaLin）
-
-【Data.xml Ver 2017-01-16】
-- 修正部分规则适应性检查错误（感谢 赖道真）
-
-
-**Dism++ 10.1.21.3 19:58 2017/1/15**==
-【Dism++(x86/x64).exe Ver 10.1.21.3】
-- 解决15007系统兼容性问题
-- 解决BUG，Windows Update功能可能显示 0个更新问题（感谢 烂菜头）
-- 解决BUG，修正3处，UI并发访问稳定性问题
-
-【CBSHost.dll Ver 10.1.21.3】
-- 解决15007系统兼容性问题
-
-【NCleaner.dll Ver 1.0.2.4（由毛利提供此模块）】
-- 同步M2.Native库并优化编译结果
-- 适配新版本的CBSHost.dll
-
-【Duilib.dll Ver 10.1.21.3】
-- UI控件添加触摸屏支持（感谢 Hikari&nbsp;Calyx 提供平板设备）
-
-【Data.xml Ver 2017-01-15 】
-- 添加 Installer清理项目以及英伟达安装文件
-
-【多国语言翻译更新】
-- Thanks Richard Kahl, franz@drwindows.de, Frag, JP.Sudret, Massimiliano F., 山形まり花, OldMac, WinClub.pl, Vasiliy Nasonov, 月下独酌
-
-
-**Dism++ 10.1.21.2C 20:57 2017/1/11**==
-
-【wsuscan2.cab Ver 2017-01-11】
-- 同步最新补丁数据
-
-
-**Dism++ 10.1.21.2B 11:36 2017/1/8**==
-
-【Dism++(x86/x64).exe Ver 10.1.21.2B】
-- 修复BUG，解决在空间回收不断点击 刷新 按钮可能导致程序崩溃问题
-- 避开系统BUG，由于Windows 10 14986系统 GetHandleInformation API BUG存在问题，导致Dism++文件虚拟化崩溃，现在已经避开 对 GetHandleInformation 的调用。
-
-【Data.xml Ver 2017-01-07 】
-- 调整规则说明，响应规则提供者要求 将 雪姬 全部替换为 溯汐潮。
-
-
-
-**Dism++ 10.1.21.2 16:00 2017/1/7**==
-
-【Dism++(x86/x64).exe Ver 10.1.21.2】
-- 修复BUG，解决CompactOS遇到某些非法PE文件崩溃问题
-- 修复BUG，解决Windows Update下载更新时可能发生的死锁问题
-- 新增FEA，新增Windows Update引入快速差异功能，节省70%网络传输 速度提升30倍。（PS：完整版差异引擎 节省90%网络传输，但是扫描速度慢。用户可自由切换引擎工作状态）
-- 修复BUG，解决某些环境总是提示用户协议问题（感谢 莫忘莫失）
-
-【CBSHost.dll Ver 10.1.21.2】
-- 新增FEA，新增Intel USB 3.X 驱动兼容支持，自由添加1.0/5.0双驱动，不必担心同时添加无效问题
-- 新增schema注册表支持，HKEY_USERS\schema即可访问此注册表，详情参考最新版帮助文档
-- 修复BUG，解决CBS模块进度不正确问题（感谢 XXX）
-
-【Duilib Ver 10.1.21.2】
-- 全面改造UI模块框架，改进UI稳定性问题
-
-【NCleaner.dll Ver 10.0.2.3（由 毛利 提供此更新）】
-- 同步最新的M2库
-- 减少模块体积
-- 解决某些古董级CPU不支持某些指令集崩溃问题
-
-【default.ui.zip Ver 2017-01-06 】
-- 调整UI，适应新版本
-
-【Data.xml Ver 2017-01-06 】
-- 年度规则扩充（感谢 大胖子、雪姬、dfc643）
-
-【多国语言翻译更新 Ver 2017-01-07】
-Thanks for Richard Kahl, franz@drwindows.de, Frag, Hexhu, JP.Sudret, Massimiliano F., 山形まり花, OldMac, WinClub.pl, Vasiliy Nasonov, 月下独酌
-
-
-**Dism++ 10.1.21.1B(1125) 19:17 2016/12/28**==
-
-【default.ui.zip Ver 2016-12-27 （由 毛利 提供此更新）】
-- 调整UI，以免其他语言无法显示部分翻译问题
-
-
-**Dism++ 10.1.21.1(1125) 20:40 2016/12/27**==
-
-【Dism++(x86/x64).exe Ver 10.1.21.1】
-- 解决BUG，修复Imagex无法处理swm映像（由 城市 边缘 反馈）
-- 解决BUG，修复系统精简wimgapi时，使用wimgapi相关功能崩溃
-- 解决BUG，用户精简default.ui.zip时，导致Dism++崩溃，现在已经调整为提示用户重新下载。
-- 新增FEA，Dism++自动升级添加差异升级支持，节省80%的程序升级流量
-
-【CBSHost.dll Ver 10.1.22.2】
-- 解决BUG，修复guard64恶意软件注入Dism++导致程序崩溃问题
-
-【NCleaner.dll Ver 1.0.2.2（由 毛利 提供此更新）】
-- 新增Installer清理
-- 增加传递优化（DeliveryOptimization）缓存清理
-- 使Package Cache清理与Windows Installer实现互斥
-
-【Data.xml Ver 2016-12-25】
-- 适配最新NCleaner.dll
-- 部分优化规则显示调整
-
-【default.ui.zip Ver 2016-12-27 （由 毛利 提供此更新）】
-- 调整清理界面UI
-
-【多国语言翻译更新 Ver 2016-12-28】
-- Config\Languages\cs.xml，Thanks Richard Kahl
-- Config\Languages\fr.xml，感谢 JP.Sudret
-- Config\Languages\ja.xml，感谢 山形まり花
-- Config\Languages\ko.xml，Thanks OldMac
-- Config\Languages\ru.xml，感谢 月下独酌
-
-【wsusscn2.cab Ver 2016-12-25】
-- 同步微软最新更新更新数据
-
-
-**Dism++ 10.1.17.5(1102) 20:20 2016/12/16**==
-
-【Dism++(x86/x64).exe Ver 10.1.17.5】
-- 修复BUG，解决CompactOS扫描时 遇到特殊精心构造的非法PE文件时崩溃问题
-- 调整bcdboot加载逻辑，改进Vista系统引导修复的兼容性问题（感谢 原罪）
-- 修复BUG，解决Win7新NET更新因为msp与cab混合而无法扫描问题（感谢 爱读书）
-- 修正各种强制退出程序后的崩溃问题
-- 修复BUG，解决重新载入变成退出问题（感谢 ★無名氏）
-- 新增FEA，新增挂载映像重启系统后自动修复功能（在打开会话 时自动修复 挂载失效问题）
-
-【FrogPlugins_Pcn7FMvReAsVWfCQBfRJCw\Plugin.*.dll Ver 10.1.20.9】
-- 修复BUG，制作ISO时强行关闭窗口导致程序崩溃问题
-
-【NCleaner.dll Ver 1.0.2.0（By 毛利）】
-- Package Cache清理：改善对.Net Core安装源的清理
-- 缩略图缓存清理：减少重启Explorer时的API调用次数
-- 在32位模块不使用sse和sse2指令集，解决某些古董CPU机器因为没有SSE指令集而崩溃
-
-【多国语言更新】
-- Thanks franz, Frag, JP.Sudret, Massimiliano F., Vasiliy Nasonov, jamesfuh
-
-
-**Dism++ 10.1.17.4B(1087) 12:49 2016/12/14**==
-
-【wsusscn2.cab Ver 2016-12-14】
-- 同步微软最新更新更新数据
-
-
-
-**Dism++ 10.1.17.4(1087) 20:39 2016/12/12**==
-
-【Dism++(x86/x64).exe Ver 10.1.17.4】
-- 解决BUG，修复一些程序界面描述问题（感谢 明天）
-- 新增功能，新增对Windows 10分段ESD映像支持，目前仅支持释放映像，无法转ISO（感谢 山形まり花 提供分段ESD映像）
-- 解决BUG，修复操作完成后重启无效问题（感谢 Space Tomato）
-- 解决BUG，修复Dism++无法打开VM映射分区问题（感谢 原罪）
-- 解决BUG，修复swm文件无法释放问题（感谢 TIELBB）
-- 行为调整，更新元数据更新频率调整为实时
-
-
-【CbsHost.dll Ver 10.1.17.4】
-- 行为调整，驱动清理排除关键驱动（感谢 失控）
-
-【多国语言更新】
-- Thanks 明天, Franz, Hexhu, 艾迪熊！
-
-
-**Dism++ 10.1.17.3B(1077) 20:38 2016/12/7**==
-
-【wsusscn2.cab Ver 2016-12-07】
-- 同步微软最新更新更新数据
-
-
-**Dism++ 10.1.17.3(1077) 16:35 2016/12/4**==
-
-【Dism++(x86/x64).exe Ver 10.1.17.3】
-- 下载模块增加自动重新连接，缓解 百度CDN 频繁 404 问题。
-- 解决BUG，修复升级失败后点击 “确定” 更新程序错误的提示没有更新问题（感谢 123 以及`_ 小陌 ）
-- 解决BUG，修复驱动管理删除驱动后，未刷新界面问题
-- 改进与微软Dism的兼容性，支持与微软Dism 原子互斥
-
-
-【CbsHost.dll Ver 10.1.17.3】
-- 修正对关键启动驱动的支持（感谢 A-BO）
-
-
-【Config\Data.xml Ver 2016-12-04】
-- 修正一些系统优化项描述错误（感谢 Hexhu）
-
-
-【多国语言翻译更新 Ver 2016-12-04】
-- Config\Languages\cs.xml，修正部分错误（感谢 Hexhu）
-- Config\Languages\de.xml，新增『德语』翻译（Thanks franz@drwindows.de ）
-- Config\Languages\en.xml，修正部分错误（感谢 Hexhu）
-- Config\Languages\fr.xml，修正部分错误（感谢 Hexhu）
-- Config\Languages\it.xml，修正部分错误（感谢 Hexhu）
-- Config\Languages\ja.xml，修正部分错误（感谢 Hexhu）
-- Config\Languages\ko.xml，修正部分错误（感谢 Hexhu）
-- Config\Languages\ru.xml，调整部分翻译（Thanks Vasiliy Nasonov）
-- Config\Languages\zh-Hant.xml，修正部分错误（感谢 Hexhu）
-
+  - 比如：添加3D对象文件夹隐藏、关闭应用商店应用默认推广
+
+**Dism++ 10.1.1000.4 17:06 2017/7/9**
+- Data.zip Ver 2017-07-04
+  - Data.zip修正某些规则不生效问题
+
+**Dism++ 10.1.1000.3 11:39 2017/7/2**
+- wimgapi.dll Ver 10.0.16225.1000
+  - 更新wimgapi到最新 10.0.16225.1000
+
+**Dism++ 10.1.1000.2 13:32 2017/6/25**
+- default.ui.zip Ver 2017-06-25
+  - UI某些字体颜色调整，减轻用户眼睛负担。
+- Data.zip Ver 2017-06-25
+  - CompactOS平台表达式调整，调整为所有平台均非专家模式隐藏（感谢 李道然）
+- Languages Ver 2017-06-25
+  - en.zip，英语翻译更新（感谢 Hexhu）
+  - ja.zip，日语翻译更新（感谢 山形まり花）
+  - zh-Hant.zip，通用繁体更新（感谢 iliGPU）
+
+**Dism++ 10.1.1000.1 20:18 2017/6/17**
+- Dism++(x86/x64).exe Ver 10.1.1000.1
+  - 修复BUG，添加IE时直接返回尚未实现问题。（感谢 自由自在）
+
+**Dism++ 10.1.1000.0 13:41 2017/6/17**
+- Dism++(x86/x64).exe Ver 10.1.1000.0
+  - 漏洞修复
+    - 修复漏洞，根据秘密反馈，解决一处Dism++可被利用的劫持攻击漏洞。
+      （感谢 000）
+  - 逻辑修复
+    - 改进Dism++对Windows Vista的兼容（感谢 毛利）
+    - 解决BUG 111，解决Windows Update无法离线扫描Windows 10 15063问题（感谢 
+      Roger-WIN、预谋）
+    - 解决BUG 107，打开特殊ISO导致Dism++崩溃问题
+    - 解决BUG 106，开启DisableInstallUpdate参数时，Windows Update崩溃问题
+    - 解决BUG 99,某些UI界面显示问题（感谢 kulaLin）
+    - 解决BUG，自动升级后没有删除.del文件问题
+- 新增功能
+   - 新增FEA，已安装的更新添加友好名称以及更新安装时间
+- CbsHost.dll Ver 10.1.1000.0
+  - 解决Windows Vista无法正常记录日志问题
+  - 新增功能，过期WinSxS清理更新，针对Windows 10离线清理关闭Resetbase功能。
+- Plugin.amd64.dll/Plugin.x86.dll Ver 10.1.1000.0
+  - 删除激活备份功能
+- NCleaner.dll Ver 1.0.3.6
+  - 深度整合M2-SDK库（因为其他M2工具不再用到该库，但该库一旦修改，github对应部
+    分会同步）
+  - 删除无用代码
+  - 修复新版Visual Studio安装源缓存清理的日志输出Bug
+  - 整理并优化代码
+  - 修改编译选项（根据新版VC-LTL文档）
+  - 添加损坏的AppX在线清理（清理损坏的AppX。例如Visual Studio的通用应用XAML设计
+    器暴力删除临时生成的设计器应用，于是会出现大量损坏的AppX）
+- Data.zip Ver 2017-06-17
+  - 调整 显示开始菜单、任务栏、操作中心和标题栏的颜色 等级，所有Windows 10均显
+    示（感谢 Cloud）
+  - 修复BUG，将同时可用下载数目调整到 10一些错误（感谢 旧食光）
+  - 解决BUG 108，Windows 7意外调用NCCorruptedAppXOnlineCleanup问题。
+- default.ui.zip Ver 2017-05-31
+  - 适配最新程序UI
+- CScript.dll
+  - 删除此文件，Beta版才拥有的功能。
+
+**Dism++ 10.1.27.2 14:19 2017/6/14**
+  - 各种库文件整合以及wimgapi整合
+
+**Dism++ 10.1.27.1 21:09 2017/4/27**
+- Dism++(x86/x64).exe Ver 10.1.27.1
+  - 解决BUG，修复PE无法识别问题（感谢 城市 边缘）
+  - 解决BUG，界面初始化时极端情况导致程序崩溃刷新界面时崩溃问题。
+- CbsHost.dll Ver 10.1.27.1
+  - 解决BUG，Windows 7无法使用更新清理问题
+- NCleaner.dll 1.0.3.4
+  - Package Cache清理支持清理特定用户的Package Cache
+- default.ui.zip Ver 2017-04-27
+  - 解决俄语无法正常显示问题。
+- Languages Ver 2017-04-27
+  - bg.zip, Thanks to Pavel Belivakov
+  - cs.zip，Thanks to Richard Kahl
+  - de.zip，Thanks to franz@drwindows.de
+  - en.zip
+  - es.zip，Thanks to Oleada
+  - fr.zip，Thanks to JP.Sudrets
+  - it.zip，Thanks to Massimiliano F.
+  - ja.zip，Thanks to 山形まり花
+  - ko.zip，Thanks to OldMac
+  - pl-PL.zip，Thanks to WinClub.pl
+  - pt.zip，Thanks to JNylson
+  - ru.zip，Thanks to Black Alex, Vasiliy Nasonov
+  - zh-Hant.zip，Thanks to iliGPU, 月下独酌
+
+**Dism++ 10.1.25.4 13:53 2017/4/16**
+- Dism++(x86/x64).exe Ver 10.1.25.4
+  - 解决BUG，修复微软最新wimgapi错误代码问题（感谢 咸鱼）
+  - 解决BUG，增加PE检测逻辑，改进与PowerISO的兼容性（感谢 mmxx08）
+  - 改进体验，优化WIM映像释放，自动调整ESD默认索引，避免大家手误。
+  - 解决BUG，修复某些时候延迟卸载导致程序崩溃问题
+  - 优化代码结构，缩减体积20KB
+- default.ui.zip Ver 2017-04-09
+  - 适配最新UI
+- Data.zip Ver 2017-04-16
+  - 针对1703屏蔽 显示开始菜单、任务栏、操作中心和标题栏的颜色（感谢 
+    q1953555067）
+- Languages Ver 2017-04-16
+  - en.zip English Resource，Thanks Frag
+  - es.zip Spanish Resource，Thanks Oleada
+  - it.zip Italian Resource, Thanks Massimiliano F.
+  - ja.zip Japanese Resource, Thanks 山形まり花
+  - pt.zip Portuguese Resource, Thanks JNylson
+  - ru.zip Russian Resource, Thanks Vasiliy Nasonov
+  - zh-Hant.zip 繁体中文资源包,感谢 月下独酌
+- 温馨提示：为了不让系统自带杀毒误报已经移除了自动添加信任逻辑。如果在使用时发
+  现Dism++执行任务耗时很长，而且Dism++CPU使用率非常低，那么请自行在系统自带杀毒
+  中添加Dism++为信任。
+
+**Dism++ 10.1.25.3 20:42 2017/4/4**
+- Dism++(x86/x64).exe Ver 10.1.25.3
+  - 解决BUG，修复某些极端情况反复刷新Windows功能界面时可能导致程序崩溃问题
+  - 文件关联适配最新Windows 10 RS2系统（感谢 原罪 反馈）
+- Data.zip Ver 2017/4/4
+  - 适配 西班牙语 相关提示文字（感谢 Oleada 提供此更新）
+- Languages 语言翻译更新
+  - es.zip 西班牙语(感谢 Oleada)
+  - ja.zip 日语（感谢 山形まり花）
+  - ru.zip 俄语（感谢 Black Alex, Vasiliy Nasonov）
+  - zh-Hans.zip 简体中文
+- PS：此版本主要用于紧急适配Windows 10 RS2最新版。对于RS2还有其他兼容性问题，可
+  以继续反馈。另外目前Dism++尚未适配最新的Windows 7补丁，因此对Win7进行更新清理
+  基本都是失败。此问题是已知问题，将在未来版本中解决此问题。
+
+**Dism++ 10.1.25.2 21:03 2017/4/1**
+- Dism++(x86/x64).exe Ver 10.1.25.2
+  - 引入Windows 10内存压缩机制，大幅度缩减Windows Update功能内存占用（约降低
+    90%的内存占用，同时几乎不影响到性能）
+  - 解决某些服务无法删除问题（感谢 Cloud. 反馈）
+  - 修正Windows 7能显示联机文件关联处理问题
+  - 修复差异模式安装补丁提示成功却没有安装问题（感谢 离线中勿扰）
+- CbsHost.dll Ver 10.1.26.8
+  - 删除过期代码。
+- Data.zip Ver 2017/3/29
+  - 添加 登陆界面默认打开小键盘 规则，感谢（Yukinoshita ）
+  - 适配Dism++最新UI。
+  - 缩略图缓存清理使用Dism++的ExplorerNotify功能启动Explorer以解决#43问题
+- es.zip Ver 2017-04-01
+  - 新增西班牙语支持（Thanks to Oleada）
+
+**Dism++ 10.1.25.1 18:44 2017/3/17**
+- Dism++(x86/x64).exe Ver 10.1.25.1
+  - 使用VS 2017重新编译，并优化代码结构以及文件结构，缩减程序体积
+    （约减少体积 2.2MB）
+  - 解决一处内存泄漏问题
+  - 解决释放映像后无法自动重启或者关机问题（感谢 咸鱼 反馈）
+  - 删除CCleaner规则支持，减少误杀概率。
+  - Windows Update功能更新，改进引擎检测准确度。
+  - 解决某些时候系统版本读取错误（感谢 殇夏oSUMMER）
+  - 硬链接合并屏蔽 WindowsApps目录，以免某些程序无法启动（感谢 magsom）
+  - 调整垃圾清理展示逻辑（感谢 ugksoft 提供建议）
+- CBSHost.dll Ver 10.1.26.3
+  - 使用VS 2017重新编译
+  - 解决BUG，修复某些时候删除驱动时设备残留问题（感谢 翟延 反馈）
+- NCleaner.dl Ver 1.0.2.8
+  - 使用VS 2017重新编译
+- Plugin.amd64/x86.dll Ver  10.1.26.3
+  - 使用VS 2017重新编译
+  - 解决青蛙插件复制文件失败时到程序崩溃问题
+- CScript.dll Ver 10.1.26.3
+  - 使用VS 2017重新编译
+- wimgapi.dll Ver 10.0.15052.1000
+  - 同步最新Windows ADK
+- Data.xml Ver 2017-02-25
+  - 扩充规则库（感谢 yui 以及 stanlazy 提供规则）
+- ru.zip Ver 2017-03-02
+  - 调整翻译内容（Thanks to Vasiliy Nasonov）
+
+**Dism++ 10.1.23.2 19:57 2017/2/28**
+- Dism++(x86/x64).exe Ver 10.1.23.2
+  - 解决ESD转ISO返回参数错误问题
+
+**Dism++ 10.1.23.1 19:21 2017/2/25**
+- Dism++(x86/x64).exe Ver 10.1.23.1
+  - 新增FEA，改进分段ESD（UUP）识别，无需ActionList.xml也能正常工作。
+    （感谢 留香 意见）
+  - 修复BUG，安装软件更新时可能会重启相关软件问题
+  - 行为调整，删除Duilib.dll依赖减少程序总体体积
+  - 行为调整，挂载功能屏蔽esd以及ISO等文件
+  - UI细节调整
+- wsuscan2.cab Ver 2017-02-25
+  - 同步最新补丁数据
+- 语言文件 Ver 2017-02-25
+  - 更新 cs.xml，de.xml，en.xml，fr.xml，it.xml，ja.xml，ko.xml，pl-PL.xml，
+    ru.xml，zh-Hant.xml
+  - 感谢 Richard Kahl, franz, Frag, JP.Sudrets, Massimiliano F.,山形まり花,
+    OldMac, Schooli,WinClub.pl,Vasiliy Nasonov, 翔雲
+
+**Dism++ 10.1.21.4B 18:42 2017/2/18**
+- wimgapi.dll Ver 10.0.15021.1001
+  - 新增FEA，增加150XX 分段ESD(UUP)转ISO功能以及释放映像功能（全平台支持）
+- default.ui.zip Ver 2017-02-15
+  - 修正UI某些显示问题（感谢 宫 宇冲 反馈 ）
+
+**Dism++ 10.1.21.4 16:11 2017/2/12**
+- Dism++(x86/x64).exe Ver 10.1.21.4
+  - 新增FEA，增加150XX 分段ESD(UUP)转ISO功能以及释放映像功能（暂不支持Windows 
+    7）
+  - 新增FEA，格式化时保留卷标（由 咸鱼 提供）
+  - 新增FEA，改进系统名称识别方式，兼容Windows 10 Starter/Cloud系统
+  - 解决BUG 23，Config.ini未使用Unicode导致某些系统显示异常（suwakowww 反馈）
+  - 新增FEA，wimgapi全面适配14393，新增WIM捕获时，扩展属性保存支持
+  - 解决BUG，WIMBoot释放映像时行为分析不起作用问题（★星魂☆♂ 反馈）
+- Duilib.dll Ver 10.1.24.2
+  - 解决BUG，修复Duilib一处潜在崩溃问题
+- Plugin.amd64/x86.dll Ver  10.1.24.2
+  - 解决BUG，修复高DPI环境文件浏览器发生模糊BUG （Iù weil* 反馈）
+- wimgapi.dll Ver 10.0.15021.1000
+  - 更新wimgapi基础库，以支持150XX后续新功能
+- wsuscan2.cab Ver 2017-02-12
+  - 同步最新补丁数据
+
+**Dism++ 10.1.21.3B 16:54 2017/1/21**
+- CBSHost.dll Ver 10.1.24.2
+  - 解决BUG，修复极端情况 CBS空指针崩溃问题
+  - 解决BUG，修复离线系统刚好在Boot分区无法打开会话问题（感谢 yunzy ）
+- NCleaner.dll Ver 1.0.2.5（由毛利提供此模块）
+  - 解决BUG，修复 LocalPackage 文件名为空时 程序崩溃问题
+- Plugin.amd64.dll/Plugin.x86.dll Ver 10.1.24.1
+  - 春哥附体全面兼容Windows 10 15007
+  - 解决BUG，修复 账号管理提示拒绝访问问题
+- zh-Hant.xml Ver 2017-01-16
+  - 繁体资源更新，修正一些语法习惯问题（感谢 kulaLin）
+- Data.xml Ver 2017-01-16
+  - 修正部分规则适应性检查错误（感谢 赖道真）
+
+**Dism++ 10.1.21.3 19:58 2017/1/15**
+- Dism++(x86/x64).exe Ver 10.1.21.3
+  - 解决15007系统兼容性问题
+  - 解决BUG，Windows Update功能可能显示 0个更新问题（感谢 烂菜头）
+  - 解决BUG，修正3处，UI并发访问稳定性问题
+- CBSHost.dll Ver 10.1.21.3
+  - 解决15007系统兼容性问题
+- NCleaner.dll Ver 1.0.2.4（由毛利提供此模块）
+  - 同步M2.Native库并优化编译结果
+  - 适配新版本的CBSHost.dll
+- Duilib.dll Ver 10.1.21.3
+  - UI控件添加触摸屏支持（感谢 Hikari&nbsp;Calyx 提供平板设备）
+- Data.xml Ver 2017-01-15 
+  - 添加 Installer清理项目以及英伟达安装文件
+- 多国语言翻译更新
+  - Thanks Richard Kahl, franz@drwindows.de, Frag, JP.Sudret, Massimiliano F., 
+    山形まり花, OldMac, WinClub.pl, Vasiliy Nasonov, 月下独酌
+
+**Dism++ 10.1.21.2C 20:57 2017/1/11**
+- wsuscan2.cab Ver 2017-01-11
+  - 同步最新补丁数据
+
+**Dism++ 10.1.21.2B 11:36 2017/1/8**
+- Dism++(x86/x64).exe Ver 10.1.21.2B
+  - 修复BUG，解决在空间回收不断点击 刷新 按钮可能导致程序崩溃问题
+  - 避开系统BUG，由于Windows 10 14986系统 GetHandleInformation API BUG存在问
+    题，导致Dism++文件虚拟化崩溃，现在已经避开 对 GetHandleInformation 的调用。
+- Data.xml Ver 2017-01-07 
+  - 调整规则说明，响应规则提供者要求 将 雪姬 全部替换为 溯汐潮。
+
+**Dism++ 10.1.21.2 16:00 2017/1/7**
+- Dism++(x86/x64).exe Ver 10.1.21.2
+  - 修复BUG，解决CompactOS遇到某些非法PE文件崩溃问题
+  - 修复BUG，解决Windows Update下载更新时可能发生的死锁问题
+  - 新增FEA，新增Windows Update引入快速差异功能，节省70%网络传输 速度提升30倍。
+    （PS：完整版差异引擎 节省90%网络传输，但是扫描速度慢。用户可自由切换引擎工
+    作状态）
+  - 修复BUG，解决某些环境总是提示用户协议问题（感谢 莫忘莫失）
+- CBSHost.dll Ver 10.1.21.2
+  - 新增FEA，新增Intel USB 3.X 驱动兼容支持，自由添加1.0/5.0双驱动，不必担心同
+    时添加无效问题
+  - 新增schema注册表支持，HKEY_USERS\schema即可访问此注册表，详情参考最新版帮助
+    文档
+  - 修复BUG，解决CBS模块进度不正确问题（感谢 XXX）
+- Duilib Ver 10.1.21.2
+  - 全面改造UI模块框架，改进UI稳定性问题
+- NCleaner.dll Ver 10.0.2.3（由 毛利 提供此更新）
+  - 同步最新的M2库
+  - 减少模块体积
+  - 解决某些古董级CPU不支持某些指令集崩溃问题
+- default.ui.zip Ver 2017-01-06 
+  - 调整UI，适应新版本
+- Data.xml Ver 2017-01-06 
+  - 年度规则扩充（感谢 大胖子、雪姬、dfc643）
+- 多国语言翻译更新 Ver 2017-01-07
+  - Thanks for Richard Kahl, franz@drwindows.de, Frag, Hexhu, JP.Sudret, 
+    Massimiliano F., 山形まり花, OldMac, WinClub.pl, Vasiliy Nasonov, 月下独酌
+
+**Dism++ 10.1.21.1B(1125) 19:17 2016/12/28**
+- default.ui.zip Ver 2016-12-27 （由 毛利 提供此更新）
+  - 调整UI，以免其他语言无法显示部分翻译问题
+
+**Dism++ 10.1.21.1(1125) 20:40 2016/12/27**
+- Dism++(x86/x64).exe Ver 10.1.21.1
+  - 解决BUG，修复Imagex无法处理swm映像（由 城市 边缘 反馈）
+  - 解决BUG，修复系统精简wimgapi时，使用wimgapi相关功能崩溃
+  - 解决BUG，用户精简default.ui.zip时，导致Dism++崩溃，现在已经调整为提示用户重
+    新下载。
+  - 新增FEA，Dism++自动升级添加差异升级支持，节省80%的程序升级流量
+- CBSHost.dll Ver 10.1.22.2
+  - 解决BUG，修复guard64恶意软件注入Dism++导致程序崩溃问题
+- NCleaner.dll Ver 1.0.2.2（由 毛利 提供此更新）
+  - 新增Installer清理
+  - 增加传递优化（DeliveryOptimization）缓存清理
+  - 使Package Cache清理与Windows Installer实现互斥
+- Data.xml Ver 2016-12-25
+  - 适配最新NCleaner.dll
+  - 部分优化规则显示调整
+- default.ui.zip Ver 2016-12-27 （由 毛利 提供此更新）
+  - 调整清理界面UI
+- 多国语言翻译更新 Ver 2016-12-28
+  - Config\Languages\cs.xml，Thanks Richard Kahl
+  - Config\Languages\fr.xml，感谢 JP.Sudret
+  - Config\Languages\ja.xml，感谢 山形まり花
+  - Config\Languages\ko.xml，Thanks OldMac
+  - Config\Languages\ru.xml，感谢 月下独酌
+- wsusscn2.cab Ver 2016-12-25
+  - 同步微软最新更新更新数据
+
+**Dism++ 10.1.17.5(1102) 20:20 2016/12/16**
+- Dism++(x86/x64).exe Ver 10.1.17.5
+  - 修复BUG，解决CompactOS扫描时 遇到特殊精心构造的非法PE文件时崩溃问题
+  - 调整bcdboot加载逻辑，改进Vista系统引导修复的兼容性问题（感谢 原罪）
+  - 修复BUG，解决Win7新NET更新因为msp与cab混合而无法扫描问题（感谢 爱读书）
+  - 修正各种强制退出程序后的崩溃问题
+  - 修复BUG，解决重新载入变成退出问题（感谢 ★無名氏）
+  - 新增FEA，新增挂载映像重启系统后自动修复功能（在打开会话 时自动修复 挂载失效
+    问题）
+- FrogPlugins_Pcn7FMvReAsVWfCQBfRJCw\Plugin.*.dll Ver 10.1.20.9
+  - 修复BUG，制作ISO时强行关闭窗口导致程序崩溃问题
+- NCleaner.dll Ver 1.0.2.0（By 毛利）
+  - Package Cache清理：改善对.Net Core安装源的清理
+  - 缩略图缓存清理：减少重启Explorer时的API调用次数
+  - 在32位模块不使用sse和sse2指令集，解决某些古董CPU机器因为没有SSE指令集而崩溃
+- 多国语言更新
+  - Thanks franz, Frag, JP.Sudret, Massimiliano F., Vasiliy Nasonov, jamesfuh
+
+**Dism++ 10.1.17.4B(1087) 12:49 2016/12/14**
+- wsusscn2.cab Ver 2016-12-14
+  - 同步微软最新更新更新数据
+
+**Dism++ 10.1.17.4(1087) 20:39 2016/12/12**
+- Dism++(x86/x64).exe Ver 10.1.17.4
+  - 解决BUG，修复一些程序界面描述问题（感谢 明天）
+  - 新增功能，新增对Windows 10分段ESD映像支持，目前仅支持释放映像，无法转ISO（
+    感谢 山形まり花 提供分段ESD映像）
+  - 解决BUG，修复操作完成后重启无效问题（感谢 Space Tomato）
+  - 解决BUG，修复Dism++无法打开VM映射分区问题（感谢 原罪）
+  - 解决BUG，修复swm文件无法释放问题（感谢 TIELBB）
+  - 行为调整，更新元数据更新频率调整为实时
+- CbsHost.dll Ver 10.1.17.4
+  - 行为调整，驱动清理排除关键驱动（感谢 失控）
+- 多国语言更新
+  - Thanks 明天, Franz, Hexhu, 艾迪熊！
+
+**Dism++ 10.1.17.3B(1077) 20:38 2016/12/7**
+- wsusscn2.cab Ver 2016-12-07
+  - 同步微软最新更新更新数据
+
+**Dism++ 10.1.17.3(1077) 16:35 2016/12/4**
+- Dism++(x86/x64).exe Ver 10.1.17.3
+  - 下载模块增加自动重新连接，缓解 百度CDN 频繁 404 问题。
+  - 解决BUG，修复升级失败后点击 “确定” 更新程序错误的提示没有更新问题（感谢
+    123 以及`_ 小陌 ）
+  - 解决BUG，修复驱动管理删除驱动后，未刷新界面问题
+  - 改进与微软Dism的兼容性，支持与微软Dism 原子互斥
+- CbsHost.dll Ver 10.1.17.3
+  - 修正对关键启动驱动的支持（感谢 A-BO）
+- Config\Data.xml Ver 2016-12-04
+  - 修正一些系统优化项描述错误（感谢 Hexhu）
+-  多国语言翻译更新 Ver 2016-12-04
+  - Config\Languages\cs.xml，修正部分错误（感谢 Hexhu）
+  - Config\Languages\de.xml，新增『德语』翻译（Thanks franz@drwindows.de ）
+  - Config\Languages\en.xml，修正部分错误（感谢 Hexhu）
+  - Config\Languages\fr.xml，修正部分错误（感谢 Hexhu）
+  - Config\Languages\it.xml，修正部分错误（感谢 Hexhu）
+  - Config\Languages\ja.xml，修正部分错误（感谢 Hexhu）
+  - Config\Languages\ko.xml，修正部分错误（感谢 Hexhu）
+  - Config\Languages\ru.xml，调整部分翻译（Thanks Vasiliy Nasonov）
+  - Config\Languages\zh-Hant.xml，修正部分错误（感谢 Hexhu）
 
 **Dism++ 10.1.17.2B 19:08 2016/11/30**
 - Config\Data.xml Ver 2016-11-30
@@ -680,13 +568,13 @@ Thanks for Richard Kahl, franz@drwindows.de, Frag, Hexhu, JP.Sudret, Massimilian
   - 同步CppHealper最新代码
   - Windows Update差异传输引擎性能改进，缩减安装更新时发生的文件复制操作，新版
     本Dism++仅需复制补丁新增文件，无需复制现有组件，大幅度降低IO需求并改进性
-	能。
+    能。
   - Windows Update差异传输引擎功能改进，使用差异传输引擎安装补丁时，将自动修复
     目标补丁相关系统文件错误。
     - 某些Ghost系统将WinSxS进行了0字节化处理。Dism++安装更新时，将自动修复安装
-	  更新需要的系统文件。
+      更新需要的系统文件。
     - 另外6B蓝屏补丁，在使用Dism++差异传输引擎模式下安装更新也不会引发蓝屏，文
-	  件错误将自动纠正。
+      件错误将自动纠正。
   - 增加14951兼容性检查
   - 修复BUG，计划重启时因为被窗口阻挡而无法重启或者关机问题
   - 行为调整，更新引入Tag机制，以免手动更新时提示降级问题（Fix by mingkuang）
@@ -1013,9 +901,9 @@ DisableInstallUpdate=1
     是这个补丁又没有GDR文件直接导致大量系统文件实际没有安装上。
   - 全新的MSDN原版Win7直接安装大补丸，将导致以下问题：
     - 微软的Windows Update将扫描不出IE10，因为d3d11.dll没有被更新到6.2.9200。DX
-	  的相关安全漏洞也直接等于没修。
+      的相关安全漏洞也直接等于没修。
     - 某些高漏洞白装，比如远程桌面组件未被更新。用户仍需安装22X系列补丁来堵住这
-	  些高危漏洞。
+      些高危漏洞。
     - 补丁取代链异常，导致微软的Windows Update仍能扫描出过期更新。
     - 某些显卡驱动安装后导致计算机直接蓝屏
   - 因此Dism++暂时撤了此更新，观望微软下个月动作再说，反正安装其他补丁后仍能代
@@ -1057,31 +945,31 @@ DisableInstallUpdate=1
 - 附：Dism++功能移植状态
   - 微软Dism组件名称
     - 功能说明
-	- 移植状态
+    - 移植状态
   - CbsProvider.dll
     - 提供添加删除更新支持
-	- 已完成，已应用于更新管理、Windows Update、可选功能、以及更新清理
+    - 已完成，已应用于更新管理、Windows Update、可选功能、以及更新清理
   - DmiProvider.dll
     - 提供驱动管理支持
-	- 已完成，已应用于驱动管理、以及过期驱动清理
+    - 已完成，已应用于驱动管理、以及过期驱动清理
   - IntlProvider.dll
     - 国际化命令支持，调整语言等
-	- 进行中
+    - 进行中
   - MsiProvider.dll
     - Msi/msp信息获取
-	- 移植完成，但未应用
+    - 移植完成，但未应用
   - SmiProvider.dll
     - Windows离线服务支持
-	- None
+    - None
   - TransmogProvider.dll
     - 比如家庭版升级旗舰版等
-	- 移植完成，但未应用
+    - 移植完成，但未应用
   - UnattendProvider.dll
     - 无人应答支持
-	- None
+    - None
   - WimProvider.dll
     - 挂载wim文件等
-	- 已完成，已应用于添加映像、挂载映像、Imagex
+    - 已完成，已应用于添加映像、挂载映像、Imagex
   - AppxProvider.dll
     - 添加删除Appx
     - 已完成，已应用于过期Appx清理
