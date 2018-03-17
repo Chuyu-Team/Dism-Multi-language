@@ -1046,7 +1046,7 @@ Special Thanks to franz@drwindows.de
     <String Target="任务栏时钟精确到秒（by Luupw3d）" Link="Uhr in der Taskleiste ohne Sekunden anzeigen (by Luupw3d)"/>
 
     <String q="" Target="禁用WfpDiag.ETL日志（by powerxing04）" Link="WfpDiag ETL Log deaktivieren (by powerxing04)"/>
-    <String q="" Target="禁用文件夹的“包含到库中”右键菜单（by choyri）" Link="&quot;In Bibliothek aufnhemen&quot; im Verzeichnis-Kontextmenü deaktivieren (by choyri)"/>
+    <String q="" Target="禁用文件夹的“包含到库中”右键菜单（by choyri）" Link="&quot;In Bibliothek aufnehmen&quot; im Verzeichnis-Kontextmenü deaktivieren (by choyri)"/>
     <String q="" Target="禁用桌面的“NVIDIA 控制面板”右键菜单（by choyri）" Link="&quot;NVIDIA Control Panel&quot; im Desktop-Kontextmenü deaktivieren (by choyri)"/>
     <!--系统优化已经结束-->
 
@@ -1264,7 +1264,7 @@ Special Thanks to franz@drwindows.de
     <String Target="Visual Studio智能跟踪（by LP）" Link="Visual Studio IntelliTrace (by LP)"/>
     <String Target="Visual Studio调试程序时留下的智能跟踪缓存。" Link="Wird Debug auf ein Programm angewendet, legt Visual Studio einen Verlaufsspeicher an (IntelliTrace)."/>
 
-    <String Target="系统以及程序崩溃dmp文件（by YukiSakura）" Link="Dump-Files von System &amp; Programmen (by YukiSakura)"/>
+    <String Target="系统以及程序崩溃dmp文件（by YukiSakura）" Link="Dump-Dateien von System&amp;Programmen (by YukiSakura)"/>
     <String Target="当系统蓝屏或者应用程序崩溃时产生的dmp文件。" Link="Wird ein Bluescreen ausgegeben, legt das System Speicherabbilddateien zur späteren Fehleranalyse ab."/>
 
     <String Target="瑞昱声卡驱动安装源缓存（by YukiSakura）" Link="Installationsdateien des Realtek Soundkarten-Treiber (by YukiSakura)"/>
@@ -1273,15 +1273,15 @@ Special Thanks to franz@drwindows.de
 
     <String Target="Java安装源缓存（by YukiSakura）" Link="Java Installationsdateien (by YukiSakura)"/>
     <String Target="Java安装后留下的安装源缓存。" Link="Bei der Installation von Java werden diese Dateien abgespeichert."/>
-    <String Target="此条目可能影响Java的卸载。" Link="Nach Bereinung der Dateien kann eine Deinstallation von Java abstürzen."/>
+    <String Target="此条目可能影响Java的卸载。" Link="Nach Bereinigung der Dateien kann eine Deinstallation von Java abstürzen."/>
 
     <String Target="Intel驱动安装源缓存（by YukiSakura）" Link="Intel Treiber Installationsdateien (by YukiSakura)"/>
     <String Target="Intel驱动安装后留下的安装源缓存。" Link="Bei der Installation von Intel werden diese Dateien abgespeichert."/>
-    <String Target="此条目可能影响Intel驱动的卸载。" Link="Nach Bereinung der Dateien kann eine manuelle Deinstallation der Intel Treiber abstürzen."/>
+    <String Target="此条目可能影响Intel驱动的卸载。" Link="Nach Bereinigung der Dateien kann eine manuelle Deinstallation der Intel Treiber abstürzen."/>
 
     <String Target="英伟达驱动安装源缓存（by YukiSakura）" Link="NVIDIA Treiber Installationsdateien (by YukiSakura)"/>
     <String Target="英伟达驱动安装后留下的安装源缓存。" Link="Bei der Installation von NVIDIA  werden diese Dateien abgespeichert."/>
-    <String Target="此条目可能影响英伟达驱动的卸载。" Link="Nach Bereinung der Dateien kann eine Deinstallation von NVIDIA abstürzen."/>
+    <String Target="此条目可能影响英伟达驱动的卸载。" Link="Nach Bereinigung der Dateien kann eine Deinstallation von NVIDIA abstürzen."/>
 
     <String Target="Windows预读取文件（by 辰g.）" Link="Windows Prefetch Dateien (by Cheng g.)"/>
     <String Target="用于加速下次程序启动速度，不建议频繁清理此条目。" Link="Um einen schnelleren Programmstart zu gewährleisten, wird nicht empfohlen, diese Dateien regelmäßig zu löschen."/>
@@ -1295,8 +1295,8 @@ Special Thanks to franz@drwindows.de
     <String Target="此条目最新添加，可能引发意外问题！" Link="Das Leeren des Speichers kann zu unerwarteten Fehlern führen!"/>
 
     <String Target="Adobe Acrobat安装源缓存（by Honry）" Link="Adobe Acrobat Treiber Installationsdateien (by Honry)"/>
-    <String Target="安装Adobe Acrobat后留下的安装缓存。" Link="Bei der Installation von Adobe Acrobat  werden diese Dateien abgespeichert."/>
-    <String Target="删除此条目可能导致Adobe Acrobat无法正常卸载！" Link="Werden Dateien gelöscht kann es zum Absturz der Deinstallaion von Adobe Acrobat kommen!"/>
+    <String Target="安装Adobe Acrobat后留下的安装缓存。" Link="Bei der Installation von Adobe Acrobat werden diese Dateien abgespeichert."/>
+    <String Target="删除此条目可能导致Adobe Acrobat无法正常卸载！" Link="Werden Dateien gelöscht, kann es zum Absturz der Deinstallation von Adobe Acrobat kommen!"/>
 
     <String Target="小红伞临时文件" Link="Update-Dateien von Avira AnitVir"/>
     <String Target="小红伞在自动升级过程中残留的临时文件。" Link="Avira hinterlegt temporäre Dateien beim automatischen Update."/>
@@ -1383,8 +1383,8 @@ Special Thanks to franz@drwindows.de
     <x800F0825>Die ausgewählte Funktion gehört zum System und kann daher nicht deinstalliert werden.</x800F0825>
     <x800F082E>Die ausgewählte Funktion kann nicht zu einem Offline Image hinzugefügt werden.</x800F082E>
     <x800F082F>Die Sitzung kann nicht beendet werden, da noch ein weiterer Vorgang aussteht.</x800F082F>
-    <x000F0801>Dism++ ist beschäftigt, evtl sind noch andere Programm are running. Versuchen Sie es später nochmal.</x000F0801>
-    <x80072EE7>UEs kann keine Verbindung zum Server aufgenommen werden. Sind Netzwerkverbindungen oder Firewall-Einstellungen korrekt eingerichtet?</x80072EE7>
+    <x000F0801>Dism++ ist beschäftigt, evtl. sind noch andere Programme gestartet. Versuchen Sie es später nochmal.</x000F0801>
+    <x80072EE7>Es kann keine Verbindung zum Server aufgenommen werden. Sind Netzwerkverbindungen oder Firewall-Einstellungen korrekt eingerichtet?</x80072EE7>
     <x80072EFF>Es kann keine Verbindung zum Server aufgenommen werden. Sind Netzwerkverbindungen oder Firewall-Einstellungen korrekt eingerichtet?</x80072EFF>
 
     <xA0020001>Nur eine Microsoft Online ESD-Datei kann in eine ISO-Datei umgewandelt werden.</xA0020001>
