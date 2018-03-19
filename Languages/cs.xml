@@ -581,7 +581,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="Blahopřejeme! Odstranění úspěšně dokončeno. Ale některé aplikace se mohou vztahovat k vestavěným aplikací appx. Pokud jste se potýkají s tím, že aplikace je součástí systém, ale nebyly odstraněny - zvolte 'Vyčištění' a použijte položku 'zastaralé aplikace appx'k jejich odstranění"/>
     <String Target="User Appx" Link="UživatelskéAppx"/>
     <String Target="Provisioned Appx" Link="Zajistit Appx"/>
-    <String q="" Target="删除Microsoft.StorePurchaseApp可能导致Windows Store无法使用，你确定要继续么？" Link="Removing Microsoft.StorePurchaseApp may cause Windows Store unusable. Sure to proceed?"/>
+    <String Target="删除Microsoft.StorePurchaseApp可能导致Windows Store无法使用，你确定要继续么？" Link="Odebrání příkazu Microsoft.StorePurchaseApp může způsobit, že Windows Store bude nepoužitelný. Chcete pokračovat?"/>
 
     <!--Windows Update-->
     <String Target="安装" Link="Instalace"/>
@@ -823,10 +823,10 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
 
     <String Target="优化非活动窗口标题栏颜色（by IT之家）" Link="Optimalizovat barvy záhlaví neaktivního okna (od IT Home)"/>
 
-    <String q="" Target="*桌面壁纸质量调整为（by IT之家）" Link="*Change desktop wallpaper quality to (by ITHome)"/>
-      <String q="" Target="低质量（更快）" Link="Low(Faster)"/>
-      <String q="" Target="默认（推荐）" Link="Default"/>
-      <String q="" Target="高质量（更清晰）" Link="High(Clearer)"/>
+    <String Target="*桌面壁纸质量调整为（by IT之家）" Link="*Změna kvality tapety plochy (by ITHome)"/>
+      <String Target="低质量（更快）" Link="Nízký(Rychlejší)"/>
+      <String Target="默认（推荐）" Link="Výchozí nastavení"/>
+      <String Target="高质量（更清晰）" Link="Vysoký(Clearer)"/>
 
     <String Target="关闭视频文件预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Zakázat náhled videa souboru ke zlepšení doby odezvy Průzkumníka (od MoWangMoShi)"/>
     <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Zakázat náhled zvukového souboru ke zlepšení doby odezvy Průzkumníka (od MoWangMoShi)"/>
@@ -899,8 +899,8 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <!--Microsoft Edge-->
     <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Zabranit aby aplikace Microsoft Edge otevřela možnosti &quot;První spuštění&quot; (by ITHome)"/>
 
-    <String q="" Target="关闭Adobe Flash即点即用" Link="Disable Adobe Flash right click"/>
-      <String q="" Target="此选项将降低计算机安全性，增加Adobe Flash的安全隐患！" Link="This item will reduce the computer security."/>
+    <String Target="关闭Adobe Flash即点即用" Link="Zakázat Adobe Flash pravým tlačáítkem myši"/>
+      <String Target="此选项将降低计算机安全性，增加Adobe Flash的安全隐患！" Link="#Tato položka sníží bezpečnost počítače."/>
 
     <!--微软拼音输入法-->
     <String q="" Target="微软拼音输入法" Link="Microsoft Pinyin IME"/>
@@ -996,8 +996,8 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="关闭快速启动" Link="Zakázat rychlé spuštění"/>
       <String Target="关闭快速启动将导致系统启动速度变慢！" Link="Zakázat rychlé spuštění bude mít za následek pomalý start systému!"/>
 
-    <String q="" Target="关闭休眠（by powerxing04）" Link="Disable Hibernate ( by powerxing04 )"/>
-      <String q="" Target="关闭休眠后将导致快速启动以及混合休眠不可用，这样将增加断电丢失数据的风险！" Link="Will result in Hiberboot and Hybrid Hibernation not available!"/>
+    <String Target="关闭休眠（by powerxing04）" Link="Zakázat režim Hibernace ( by powerxing04 )"/>
+      <String Target="关闭休眠后将导致快速启动以及混合休眠不可用，这样将增加断电丢失数据的风险！" Link="Výsledkem bude, že Hiberboot a Hybridní Hibernace nebude k dispozici!"/>
 
     <String Target="禁用组件堆栈（Component Based Servicing）日志" Link="Zakázat protokol správce balíčků CBS"/>
 
@@ -1045,9 +1045,9 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Zakázat součást na základě servisního zálohování"/>
     <String Target="任务栏时钟精确到秒（by Luupw3d）" Link="Hodiny zobrazují sekundy (by Luupw3d)"/>
 
-    <String q="" Target="禁用WfpDiag.ETL日志（by powerxing04）" Link="Disable WfpDiag ETL log (by powerxing04)"/>
-    <String q="" Target="禁用文件夹的“包含到库中”右键菜单（by choyri）" Link="Disable &quot;Included in the library&quot; context menu on directory (by choyri)"/>
-    <String q="" Target="禁用桌面的“NVIDIA 控制面板”右键菜单（by choyri）" Link="Disable &quot;NVIDIA Control Panel&quot; context menu on desktop (by choyri)"/>
+    <String Target="禁用WfpDiag.ETL日志（by powerxing04）" Link="#Zakázat WfpDiag ETL log (by powerxing04)"/>
+    <String Target="禁用文件夹的“包含到库中”右键菜单（by choyri）" Link="Zakázat &quot;Zahrnutí do knihovny&quot; kontextového menu v adresáři (by choyri)"/>
+    <String Target="禁用桌面的“NVIDIA 控制面板”右键菜单（by choyri）" Link="Zakázat &quot;NVIDIA Ovládací panel&quot; kontextová nabídka na ploše (by choyri)"/>
     <!--系统优化已经结束-->
 
     <!--Dism++更新程序-->
