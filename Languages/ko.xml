@@ -477,8 +477,8 @@ Special thanks to digitky, OldMac, Schooli, 阿泽西
     <String Target="正在安装驱动" Link="드라이버 설치 중"/>
     <String Target="一个或者多个驱动添加失败，错误代码：0x%.8X" Link="하나 이상의 드라이버 추가 실패, 오류 코드: 0x%.8X"/>
     <String Target="显示内置驱动" Link="내장 드라이버 보이기"/>
-    <String Target="处理过程中遇到问题，其中成功 %u 个，失败 %u 个，不适用 %u 个。部分错误信息：%s [0x%.8X] 更多信息请参考 &quot;Config\Dism++.log&quot;" Link="처리중 문제가 발생했습니다. % u 성공, % u 실패, % u 적용 불가. 오류메시지 부분: %s [0x%.8X] 자세한 내용은 &quot;Config\Dism++.Log&quot;를 참조하십시오."/>
-    <String Target="操作成功，其中成功 %u 个，不适用 %u 个。更多信息请参考 &quot;Config\Dism++.log&quot;" Link="작업을 성공했습니다. % u 성공, % u 해당사항 없음. 자세한 내용은 &quot;Config\Dism++.Log&quot;를 참조하십시오."/>
+    <String Target="处理过程中遇到问题，其中成功 %u 个，失败 %u 个，不适用 %u 个。部分错误信息：%s [0x%.8X] 更多信息请参考 &quot;Config\Dism++.log&quot;" Link="처리중 문제가 발생했습니다. %u 성공, %u 실패, %u 적용 불가. 오류메시지 부분: %s [0x%.8X] 자세한 내용은 &quot;Config\Dism++.Log&quot;를 참조하십시오."/>
+    <String Target="操作成功，其中成功 %u 个，不适用 %u 个。更多信息请参考 &quot;Config\Dism++.log&quot;" Link="작업을 성공했습니다. %u 성공, %u 해당사항 없음. 자세한 내용은 &quot;Config\Dism++.Log&quot;를 참조하십시오."/>
 
     <!--开机启动项-->
     <String Target="开机启动项" Link="부팅 시작 항목"/>
@@ -1305,7 +1305,7 @@ Special thanks to digitky, OldMac, Schooli, 阿泽西
     <String Target="Chrome浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="크롬브라우저 업데이트할때 남긴 백업 파일입니다.오류가 생길경우 이전 버전으로 돌아갑니다."/>
 
     <String q="" Target="Opera浏览器老版本备份（by Jhovany200）" Link="Backup files of Opera Web Browser old version (by Jhovany200)"/>
-    <String q="" Target="Opera浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Backup files of Opera Web Browser after upgrade, for rollback in case of problems."/>
+    <String Target="Opera浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="오페라 브라우저가 새버전으로 업그레이드된 후에 남겨진 백업파일은 실패한 경우 이전 버전 롤백에 사용됩니다."/>
 
     <String Target="Microsoft .NET安装缓存（by 撕裂五维空间）" Link="Microsoft .NET 설치 캐시 (by SiLieWuWeiKongJian)"/>
     <String Target="安装Microsoft .NET补丁残留的安装缓存。" Link="Microsoft .NET 패치를 설치시 남긴 설치 캐시"/>
@@ -1395,7 +1395,7 @@ Special thanks to digitky, OldMac, Schooli, 阿泽西
     <xA0020006>현재 시스템에 Wow64가 포함되지않아 지원하지 않고 있으니 비x64 오프라인 시스템을 처리할수 없습니다.</xA0020006>
     <xA0020007>지정한 체계 CBSHost.dll가 존재하지 않습니다.Dism++의 정확성을 체크하십시오.</xA0020007>
     <xA0020008>운영체제가 rundll32.exe를 잃어버려 Dism++를 실행할수 없습니다.</xA0020008>
-    <xA0020009 q="">Dism++ session crashed. you can contact (mingkuang@live. com) to help resolve this issue.</xA0020009>
+    <xA0020009>Dism++ 세션이 중단되었습니다. 이 문제를 해결하는데 도움을 받으려면 (mingkuang@live.com)에게 문의하십시오.</xA0020009>
     <xA002000A>Dism++에서 일부 호환성 문제를 발견되였습니다.현재 시스템에 KB960037를 업데이트 설치 하신후 계속 실행하시기 바랍니다.</xA002000A>
 
     <x20020001>기본 파일 관련 설정에 현재 이미지가 존재하지 않아 내보내기 할수 없습니다.</x20020001>
