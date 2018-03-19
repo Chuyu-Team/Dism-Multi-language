@@ -823,10 +823,10 @@ Special Thanks to franz@drwindows.de
 
     <String Target="优化非活动窗口标题栏颜色（by IT之家）" Link="Farbeinstellungen inaktiver Fenster (by IT Home)"/>
 
-    <String q="" Target="*桌面壁纸质量调整为（by IT之家）" Link="*Desktop Hintergrund-Einstellungen ändern auf (by ITHome)"/>
-      <String q="" Target="低质量（更快）" Link="Niedrig (Schnell)"/>
-      <String q="" Target="默认（推荐）" Link="Default"/>
-      <String q="" Target="高质量（更清晰）" Link="Hoch (Langsam)"/>
+    <String Target="*桌面壁纸质量调整为（by IT之家）" Link="*Desktop Hintergrund-Einstellungen ändern auf (by ITHome)"/>
+      <String Target="低质量（更快）" Link="Niedrig (Schnell)"/>
+      <String Target="默认（推荐）" Link="Default"/>
+      <String Target="高质量（更清晰）" Link="Hoch (Langsam)"/>
 
     <String Target="关闭视频文件预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Windows Explorer beschleunigen - Videovorschau deaktiveren (by MoWangMoShi)"/>
     <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Windows Explorer beschleunigen - Audiovorschau deaktiveren (by MoWangMoShi)"/>
@@ -899,8 +899,8 @@ Special Thanks to franz@drwindows.de
     <!--Microsoft Edge-->
     <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Startbildschirm von Microsoft Edge beim ersten Start verhindern” (by ITHome)"/>
 
-    <String q="" Target="关闭Adobe Flash即点即用" Link="Adobe Flash mit Rechtsklick deaktivieren"/>
-      <String q="" Target="此选项将降低计算机安全性，增加Adobe Flash的安全隐患！" Link="Diese Option verringert die Sicherheitseinstellungen des PC."/>
+    <String Target="关闭Adobe Flash即点即用" Link="Adobe Flash mit Rechtsklick deaktivieren"/>
+      <String Target="此选项将降低计算机安全性，增加Adobe Flash的安全隐患！" Link="Diese Option verringert die Sicherheitseinstellungen des PC."/>
 
     <!--微软拼音输入法-->
     <String Target="微软拼音输入法" Link="Microsoft Pinyin IME (Eingabeeditor für Sonderzeichen) aktivieren "/>
@@ -996,8 +996,8 @@ Special Thanks to franz@drwindows.de
     <String Target="关闭快速启动" Link="Schneller Neustart deaktivieren"/>
       <String Target="关闭快速启动将导致系统启动速度变慢！" Link="Wird der Quickstart deaktiviert, erhöht sich die Startzeit des Computers."/>
 
-    <String q="" Target="关闭休眠（by powerxing04）" Link="Hibernate deaktivieren (by powerxing04)"/>
-      <String q="" Target="关闭休眠后将导致快速启动以及混合休眠不可用，这样将增加断电丢失数据的风险！" Link="Hiberboot und Hybrid Hibernation sind dann nicht mehr verfügbar!"/>
+    <String Target="关闭休眠（by powerxing04）" Link="Hibernate deaktivieren (by powerxing04)"/>
+      <String Target="关闭休眠后将导致快速启动以及混合休眠不可用，这样将增加断电丢失数据的风险！" Link="Hiberboot und Hybrid Hibernation sind dann nicht mehr verfügbar!"/>
 
     <String Target="禁用组件堆栈（Component Based Servicing）日志" Link="Component Based Servicing (benötigt zum Erstellen der cbs.log-Datei) deaktivieren"/>
 
@@ -1045,9 +1045,9 @@ Special Thanks to franz@drwindows.de
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Backup von Component Based Servicing (CBS) deaktivieren."/>
     <String Target="任务栏时钟精确到秒（by Luupw3d）" Link="Uhr in der Taskleiste ohne Sekunden anzeigen (by Luupw3d)"/>
 
-    <String q="" Target="禁用WfpDiag.ETL日志（by powerxing04）" Link="WfpDiag ETL Log deaktivieren (by powerxing04)"/>
-    <String q="" Target="禁用文件夹的“包含到库中”右键菜单（by choyri）" Link="&quot;In Bibliothek aufnehmen&quot; im Verzeichnis-Kontextmenü deaktivieren (by choyri)"/>
-    <String q="" Target="禁用桌面的“NVIDIA 控制面板”右键菜单（by choyri）" Link="&quot;NVIDIA Control Panel&quot; im Desktop-Kontextmenü deaktivieren (by choyri)"/>
+    <String Target="禁用WfpDiag.ETL日志（by powerxing04）" Link="WfpDiag ETL Log deaktivieren (by powerxing04)"/>
+    <String Target="禁用文件夹的“包含到库中”右键菜单（by choyri）" Link="&quot;In Bibliothek aufnehmen&quot; im Verzeichnis-Kontextmenü deaktivieren (by choyri)"/>
+    <String Target="禁用桌面的“NVIDIA 控制面板”右键菜单（by choyri）" Link="&quot;NVIDIA Control Panel&quot; im Desktop-Kontextmenü deaktivieren (by choyri)"/>
     <!--系统优化已经结束-->
 
     <!--Dism++更新程序-->
