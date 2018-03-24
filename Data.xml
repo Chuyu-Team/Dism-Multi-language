@@ -7752,7 +7752,7 @@
     <Item>Users\*\AppData\Local\Microsoft\Windows\INetCache\</Item>
     <!--过滤Linux子系统，以免备份失败-->
     <Item>Users\*\AppData\Local\lxss</Item>
-    <Item>Users\*\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\lib\xtables</Item>
+    <Item>Users\*\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\</Item>
   </DefaultFilterList>
   <TimeZoneMap>
     <x2>SA Western Standard Time</x2>
