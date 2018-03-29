@@ -29,10 +29,11 @@
   <String Src="%AboutChuyuDes%" Dst="其實我們都是一些強迫症晚期患者，只想要找個輕巧、好用、透明、不流氓、不裝可憐、不嘮嘮叨叨的實用工具。不過找了半天沒找到，但是我們沒有放棄治療，用自己的雙手初步實現了夢想，聯手打造 Dism++ ——一個不為利益、不跟風、不做作、單純為執著與激情而生的小工具。安得廣廈千萬間，大庇天下寒士俱歡顏！"/>
   <String Src="%QQ%" Dst="QQ 群 (臨安初雨 一夜落紅)"/>
   <String Src="%E-Mail%" Dst="意見反映信箱"/>
-  <String Src="%Links%" Dst="友情連結"/>
+  <String Src="%Links%" Dst=" "/>
   <String Src="%WinOS%" Dst="WINOS 精簡系統"/>
-  <String q="" Src="%LanDian%" Dst="藍點網"/>
-  <String Src="%ChuyuTream%" Dst="&amp;nbsp;2018&amp;nbsp;初雨團隊"/>
+  <String Src="%LanDian%" Dst="藍點網"/>
+  <String Src="%GTWang%" Dst="GT Wang 中文化"/>
+  <String Src="%ChuyuTream%" Dst="&amp;nbsp;2018&amp;nbsp;初雨團隊。本軟體及其網站頁面由 GT Wang 維護。"/>
   <String Src="%ICP%" Dst=""/>
   <String Src="%Document%" Dst="說明文件"/>
   <String Src="%logs%" Dst="更新日誌"/>
