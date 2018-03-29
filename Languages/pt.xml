@@ -22,7 +22,7 @@ Special thanks to JNylson
     <Font shared="true" id="1" name="Segoe UI" size="16"/>
   </DefaultControl>
   <CCleanLangSecRefMap>
-    <LangSecRef ID="3021">Aplicações</LangSecRef>
+    <LangSecRef ID="3021">Aplicativos</LangSecRef>
     <LangSecRef ID="3022">Internet</LangSecRef>
     <LangSecRef ID="3023">Multimídia</LangSecRef>
     <LangSecRef ID="3024">Utilitários</LangSecRef>
@@ -31,7 +31,7 @@ Special thanks to JNylson
     <LangSecRef ID="3027">Navegador</LangSecRef>
     <LangSecRef ID="3028">Navegador</LangSecRef>
     <LangSecRef ID="3029">Navegador</LangSecRef>
-    <LangSecRef ID="3030">Aplicações</LangSecRef>
+    <LangSecRef ID="3030">Aplicativos</LangSecRef>
     <LangSecRef ID="3031">Loja do Windows</LangSecRef>
   </CCleanLangSecRefMap>
   <StringMaps>
@@ -243,11 +243,11 @@ Special thanks to JNylson
     <String Target="正在取消现有任务，请稍等……" Link="Cancelando tarefas atuais, por favor aguarde..."/>
     <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="A imagem montada %s está danificada, deve ser reparada antes de continuar. Deseja reparar a imagem agora?"/>
     <String q="" Target="即将重启以下程序 %s，你确定要继续吗？" Link="About to restart the following program %s, Sure to proceed?"/>
-    <String Target="资源管理器" Link="explorador"/>
-    <String Target="操作完成" Link="Finished"/>
+    <String Target="资源管理器" Link="Explorer"/>
+    <String Target="操作完成" Link="Finalizado"/>
 
     <!--欢迎页-->
-    <String q="" Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。" Link="The first Dism GUI implementation based on CBS in the world!"/>
+    <String q="" Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。" Link="A primeira implementação de GUI Dism baseada em CBS no mundo!"/>
 
     <String Target="联系方式" Link="Contato"/>
     <String Target="官方网站" Link="Site oficial"/>
@@ -397,7 +397,7 @@ Special thanks to JNylson
       <String Target="Appx管理" Link="Appxs"/>
 
     <String Target="驱动管理" Link="Drivers"/>
-    <String q="" Target="程序和功能" Link="Apps and Features"/>
+    <String q="" Target="程序和功能" Link="Aplicativos e Recursos"/>
     <String Target="Windows服务" Link="Serviços"/>
     <String Target="Windows功能" Link="Recursos"/>
     <String Target="更新管理" Link="Atualizações"/>
@@ -809,11 +809,11 @@ Special thanks to JNylson
       <String Target="被占满时合并" Link="Combinar quando estiver cheia"/>
       <String Target="从不合并" Link="Nunca combinar"/>
 
-    <String Target="锁定任务栏" Link="Bloquear barra de tarefas"/>
+    <String Target="锁定任务栏" Link="Bloquear Barra de Tarefas"/>
 
-    <String Target="任务栏使用小图标" Link="Usar ícones pequenos na barra de tarefas"/>
+    <String Target="任务栏使用小图标" Link="Usar Ícones Pequenos na Barra de Tarefas"/>
 
-    <String Target="隐藏资源管理器导航窗口中的库" Link="Ocultar biblioteca da janela de navegação do explorer"/>
+    <String Target="隐藏资源管理器导航窗口中的库" Link="Ocultar Biblioteca da janela de navegação do explorer"/>
 
     <String Target="隐藏资源管理器导航窗口中的收藏夹" Link="Ocultar favoritos da janela de navegação do explorer"/>
 
@@ -821,12 +821,12 @@ Special thanks to JNylson
 
     <String Target="隐藏资源管理器导航窗口中的网络" Link="Ocultar rede da janela de navegação do explorer"/>
 
-    <String Target="优化非活动窗口标题栏颜色（by IT之家）" Link="Otimizar a cor da barra de título da janela inativa (by IT Home)"/>
+    <String Target="优化非活动窗口标题栏颜色（by IT之家）" Link="Otimizar a cor da Barra de Título da janela inativa (by IT Home)"/>
 
-    <String q="" Target="*桌面壁纸质量调整为（by IT之家）" Link="Change desktop wallpaper quality to (by ITHome)"/>
-      <String q="" Target="低质量（更快）" Link="Low(Faster)"/>
-      <String q="" Target="默认（推荐）" Link="Default"/>
-      <String q="" Target="高质量（更清晰）" Link="High(Clearer)"/>
+    <String q="" Target="*桌面壁纸质量调整为（by IT之家）" Link="Alterar a qualidade do Papel de Parede para (by ITHome)"/>
+      <String q="" Target="低质量（更快）" Link="Baixo(Mais rápida)"/>
+      <String q="" Target="默认（推荐）" Link="Padrão"/>
+      <String q="" Target="高质量（更清晰）" Link="Alta(Mais clara)"/>
 
     <String Target="关闭视频文件预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Desativar visualização de arquivo de vídeo para melhorar o tempo de resposta do Windows Explorer (by MoWangMoShi)"/>
     <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Desativar visualização de arquivos de áudio para melhorar o tempo de resposta do Windows Explorer (by MoWangMoShi)"/>
@@ -867,7 +867,7 @@ Special thanks to JNylson
     <String Target="桌面图标管理" Link="Gerenciar ícone da Área de Trabalho"/>
 
     <!--资源管理器导航窗口图标管理-->
-    <String Target="资源管理器导航窗口图标管理" Link="Gerenciar ícones no painel de navegação do Windows Explorer"/>
+    <String Target="资源管理器导航窗口图标管理" Link="Gerenciar Ícones no Painel de Navegação do Windows Explorer"/>
     <String Target="隐藏资源管理器导航窗口中的OneDrive（by 莫失莫忘）" Link="Ocultar OneDrive no painel de navegação do Windows Explorer (by MoWangMoShi)"/>
     <String Target="隐藏资源管理器导航窗口中的可移动设备（by 莫失莫忘）" Link="Ocultar Dispositivos Removíveis no painel de navegação do Windows Explorer (by MoWangMoShi)"/>
     <String Target="隐藏资源管理器导航窗口中的快速访问（by starP）" Link="Ocultar  Acesso Rápido no painel de navegação do Windows Explorer (by starP)"/>
@@ -1039,7 +1039,7 @@ Special thanks to JNylson
     <String Target="隐藏NTFS蓝色双箭头压缩标识（by IT之家）" Link="Hide NTFS compression blue double arrow icon overlay (by IT Home)"/>
     <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="Ocultar botão Ajuda na Barra de Idiomas (by Hell Cabrite)"/>
     <String Target="Windows 7体验" Link="Windows 7 Experience"/>
-    <String q="" Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Windows Update doesn't include malware removal tools (by ‍Winaero)"/>
+    <String q="" Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Windows Update não inclui ferramentas de remoção de malware (by Winaero)"/>
     <String q="" Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Change &quot;right click menu&quot; to Windows 7 mode (by Silence)"/>
     <String q="" Target="登陆界面默认打开小键盘（by IT之家）" Link="Enable keypad when login (by ITHome)"/>
     <String q="" Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Disable Component Based Servicing Backup"/>
@@ -1058,7 +1058,7 @@ Special thanks to JNylson
     <String
       Target="准备启动下载模块……&#xD;&#xA;"
       Link="Preparando para baixar os módulos...&#xD;&#xA;"/>
-    <String Target="正在下载 - %d/%d" Link="Baxando %d/%d"/>
+    <String Target="正在下载 - %d/%d" Link="Baixando %d/%d"/>
     <String Target="更新文件过程中遇到错误，Orz……" Link="Ocorreu um erro ao atualizar, argh!"/>
 
     <!--命令行-->
@@ -1068,10 +1068,10 @@ Special thanks to JNylson
     <String Target="%s 压缩失败，错误代码：%d" Link="%s compressão falhou. Código de erro: %d"/>
     <String Target="%s 跳过" Link="%s ignorado"/>
     <String Target="%s 压缩成功" Link="%s comprimido com sucesso"/>
-    <String Target="Dism++初始化成功，开始执行命令：%s" Link="Dism++ initialization successfully, start to execute the command:%s"/>
-    <String Target="无法识别参数：%s" Link="Unable to identify parameters:%s"/>
+    <String Target="Dism++初始化成功，开始执行命令：%s" Link="Inicialização do DISM++ com sucesso, iniciar para executar o comando:%s"/>
+    <String Target="无法识别参数：%s" Link="Não é possível identificar parâmetros:%s"/>
     <String Target="至少输入一个路径" Link="Insira pelo menos um caminho"/>
-    <String Target="%s 路径无效" Link="%s Invalid path"/>
+    <String Target="%s 路径无效" Link="%s Caminho inválido"/>
     <String Target="未正确识别到命令，以下是程序支持的所有命令：" Link="Command not found, please check your input. List of all commands supported:"/>
     <String
       Target="将一个文件夹或者文件进行Compact压缩：&#xD;&#xA;/C  { /exe [ xpress4k（默认、更佳性能） | xpress8k | xpress16k | lzx（更小体积） ] } Path"
