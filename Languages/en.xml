@@ -781,14 +781,14 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="不允许在开始菜单显示建议" Link="Disable suggestions in Start Menu"/>
     <String Target="不允许在开始菜单显示建议（by powerxing04）" Link="Disable suggestions in Start Menu (by powerxing04)"/>
 
-    <String Target="在桌面显示我的电脑（by Rambin）" Link="Display My Computer on the desktop (by Rambin)"/>
-      <String Target="跟随系统" Link="Folow System"/>
+    <String Target="在桌面显示我的电脑（by Rambin）" Link="Display My Computer on desktop (by Rambin)"/>
+      <String Target="跟随系统" Link="Follow System"/>
       <String Target="显示" Link="Show"/>
       <String Target="隐藏" Link="Hide"/>
 
     <String Target="在桌面显示回收站（by Rambin）" Link="Display Recycle Bin on desktop (by Rambin)"/>
 
-    <String Target="在桌面显示控制面板（by Rambin）" Link="Display Control Panel on the desktop (by Rambin)"/>
+    <String Target="在桌面显示控制面板（by Rambin）" Link="Display Control Panel on desktop (by Rambin)"/>
 
     <String Target="在桌面显示用户文件夹（by Rambin）" Link="Display User Folders on desktop (by Rambin)"/>
 

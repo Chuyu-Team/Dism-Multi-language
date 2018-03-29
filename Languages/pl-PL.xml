@@ -1384,8 +1384,8 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
     <x800F082E>Określony pakiet nie może być dodany do obrazu w trybie offline.</x800F082E>
     <x800F082F>Nie można zakończyć sesji, ponieważ sesja jest aktywna.</x800F082F>
     <x000F0801>Dism++ jest zajęty, prawdopodobnie dlatego, że inne programy są uruchomione. Spróbuj ponownie później.</x000F0801>
-    <x80072EE7 q="">Unable to connect to the server, check your network connection or the firewall settings are correct.</x80072EE7>
-    <x80072EFF q="">Unable to connect to the server, check your network connection or the firewall settings are correct.</x80072EFF>
+    <x80072EE7>Nie można połączyć się z serwerem. Sprawdź czy działa połączenie sieciowe i poprawność ustawień zapory.</x80072EE7>
+    <x80072EFF>Nie można połączyć się z serwerem. Sprawdź czy działa połączenie sieciowe i poprawność ustawień zapory.</x80072EFF>
 
     <xA0020001>Obsługuje tylko plik ESD Microsoft Online do pliku ISO.</xA0020001>
     <xA0020002>Niektóre z nich zostały wyczyszczone, dla pełnego oczyszczania uaktualnienia do Windows 8.1, a następnie kontynuować.</xA0020002>

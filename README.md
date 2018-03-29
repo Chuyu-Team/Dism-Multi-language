@@ -27,7 +27,7 @@ Thanks to EMLVIRUS, Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, won
 
 ## [Languages/es.xml]
 Spanish resource file.
-Thanks to Jhovany200, Oleada, nomemolesteis@gmail.com.
+Thanks to Oleada, Jhovany200, nomemolesteis@gmail.com.
 
 ## [Languages/fr.xml]
 French resource file.
@@ -105,4 +105,4 @@ Dism++官方网站简体资源。
 
 ### [www.chuyu.me/zh-Hant.xml]
 Dism++官方網站繁體資源。
-感謝 GT Wang (http://mkvq.blogspot.com)。
+感謝 GT Wang (http://mkvq.blogspot.com) 。

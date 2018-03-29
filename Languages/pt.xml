@@ -115,7 +115,7 @@ Special thanks to JNylson
     <String Target="正在准备" Link="Preparando"/>
     <String Target="正在加载规则" Link="Carregando regras"/>
     <String Target="Dism++不允许修改文件名，这将导致插件无法正常加载。" Link="Dism++ não permite modificar o nome do arquivo, isso pode causar o não carregamento do plugin."/>
-    <String Target="无法启动Dism++x64.exe，请确保该Dism++组件的完整性。" Link="Não é possível iniciar o Dism++ x64.exe, verifique a integridade dos componentes do Dism++."/>
+    <String Target="无法启动Dism++x64.exe，请确保该Dism++组件的完整性。" Link="Não é possível iniciar o Dism++x64.exe, verifique a integridade dos componentes do Dism++."/>
     <String Target="Dism++关键组件丢失，请从 www.chuyu.me 重新下载Dism++。" Link="Dism++ arquivo crítico está ausente, por favor, baixe Dism++ de www.chuyu.me."/>
     <String Target="临时目录可用空间不足5GB，这可能导致Dism++无法正常运行，推荐将Dism++复制到可用空间大于5GB的驱动器，然后继续。" Link="Espaço do diretório temporário menor que 5 GB, Dism++ pode não funcionar corretamente. Recomenda-se copiar Dism++ para unidade com mais de 5 GB de espaço livre e, em seguida, continuar."/>
     <String Target="基础支撑库缺失，引导修复相关功能无法使用。" Link="Uma biblioteca fundamental de apoio está faltando. Não é possível usar as funções relacionadas a Reparar Inicialização."/>
@@ -821,9 +821,14 @@ Special thanks to JNylson
 
     <String Target="优化非活动窗口标题栏颜色（by IT之家）" Link="Otimizar a cor da barra de título da janela inativa (by IT Home)"/>
 
+    <String q="" Target="*桌面壁纸质量调整为（by IT之家）" Link="Change desktop wallpaper quality to (by ITHome)"/>
+      <String q="" Target="低质量（更快）" Link="Low(Faster)"/>
+      <String q="" Target="默认（推荐）" Link="Default"/>
+      <String q="" Target="高质量（更清晰）" Link="High(Clearer)"/>
+
     <String Target="关闭视频文件预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Desativar visualização de arquivo de vídeo para melhorar o tempo de resposta do Windows Explorer (by MoWangMoShi)"/>
     <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Desativar visualização de arquivos de áudio para melhorar o tempo de resposta do Windows Explorer (by MoWangMoShi)"/>
-    <String Target="关闭打开程序的“安全警告”（by 莫失莫忘）" Link="Desabilitar o aviso de segurança ao abrir programas (by MoWangMoShi) "/>
+    <String Target="关闭打开程序的“安全警告”（by 莫失莫忘）" Link="Desabilitar o aviso de segurança ao abrir programas (by MoWangMoShi)"/>
     <String Target="关闭在应用商店中查找关联应用（by Asoft）" Link="Desativar a busca de aplicativos associados na loja do Windows (by Asoft)"/>
     <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="Hide Videos, Pictures, Documents, Download, Music, Desktop, 3D Object in Computer (by 、Cloud)"/>
     <String Target="禁止自动安装推荐的应用程序（by IT之家）" Link="Disable installing recommmeded apps autoly (by ITHome)"/>
@@ -986,6 +991,9 @@ Special thanks to JNylson
     <String Target="关闭快速启动" Link="Disable Quick Start"/>
       <String Target="关闭快速启动将导致系统启动速度变慢！" Link="Disabling Quick Start prolongs startup time of the system."/>
 
+    <String q="" Target="关闭休眠（by powerxing04）" Link="Disable Hibernate ( by powerxing04 )"/>
+      <String q="" Target="关闭休眠后将导致快速启动以及混合休眠不可用，这样将增加断电丢失数据的风险！" Link="Will result in Hiberboot and Hybrid Hibernation not available!"/>
+    
     <String Target="禁用组件堆栈（Component Based Servicing）日志" Link="Desativar log de Serviços Baseados em Componentes"/>
 
     <String Target="禁用更新解压模块（Delta Package Expander）日志" Link="Desativar log de Expansão de Pacote Delta"/>
@@ -1195,8 +1203,8 @@ Special thanks to JNylson
     <String Target="飞信日志" Link="Fetion log"/>
     <String Target="飞信运行时产生的一些日志文件。" Link="When Fetion running, it made the log files."/>
 
-    <String Target="回收站" Link="Recycling station"/>
-    <String Target="用于存放用户手动删除的文件目录。" Link="To store the user manually deleted files."/>
+    <String Target="回收站" Link="Estação de reciclagem"/>
+    <String Target="用于存放用户手动删除的文件目录。" Link="Para armazenar os arquivos excluídos manualmente do usuário."/>
 
     <String Target="Office 365/2016安装源" Link="Office 365/2016 installation source"/>
     <String Target="安装Office 365/2016后产生的安装源。" Link="After you installing office365/2016, the program made the installation source"/>
@@ -1225,7 +1233,8 @@ Special thanks to JNylson
     <String Target="迅雷游戏" Link="Thunder Games"/>
     <String Target="迅雷游戏安装后所在目录，一般人不需要此程序，可以考虑删除。" Link="Thunder games directory (after installing), most people do not need this program, you can consider to delete."/>
 
-    <String Target="NET程序集缓存（by 大胖子技术员）" Link="Cache do NET assembly (by dpzjsy )"/>
+    <String Target="NET程序集缓存（by 大胖子技术员）" Link="Cache do NET assembly (by dpzjsy)"/>
+    
     <String Target="NET程序运行过程中产生的机器代码缓存文件，不建议频繁清理此条目。" Link="When NET program running, it made the machine code cache files, I do not recommended to clean the cache files frequently."/>
 
     <String Target="以前的Dism++组件" Link="Arquivos residuais de versões anteriores do Dism++"/>
