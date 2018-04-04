@@ -1029,7 +1029,7 @@ Special Thanks to 山形まり花
     <String Target="将同时可用下载数目调整到 10（by 溯汐潮）" Link="同時にダウンロード数 10 に調整する（by 溯汐潮）"/>
     <String Target="将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）" Link="Windows 7 個人用設定を利用する（by 大胖子技术员）"/>
     <String Target="将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）" Link="Windows 7 ディスプレイ設定を利用する（by 大胖子技术员）"/>
-    <String Target="将语言栏隐藏到任务拦（by 溯汐潮）" Link="言語バーはタスクバーに隠す（by 溯汐潮）"/>
+    <String Target="将语言栏隐藏到任务栏（by 溯汐潮）" Link="言語バーはタスクバーに隠す（by 溯汐潮）"/>
     <String Target="快速访问不显示常用文件夹（by 溯汐潮）" Link="よく使うフォルダーをクリック アクセスに表示しない（by 溯汐潮）"/>
     <String Target="快速访问不显示最近使用的文件（by 溯汐潮）" Link="最近使ったフォルダーをクイック アクセスに表示しない（by 溯汐潮）"/>
     <String Target="清理被取代的msp补丁并减少Installer目录的大小。" Link="MSP パッチをクリーンアップし、Installer フォルダーのサイズを解放する。"/>

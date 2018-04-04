@@ -1029,7 +1029,7 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <String Target="将同时可用下载数目调整到 10（by 溯汐潮）" Link="Установить количество одновременных загрузок до 10 (by Hell Cabrite)"/>
     <String Target="将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）" Link="Изменить меню ПКМ Рабочего стола &quot;Персонализация&quot; в режим Windows 7 (by dpzjsy)"/>
     <String Target="将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）" Link="Изменить меню ПКМ Рабочего стола &quot;Настройки дисплея&quot; в режим Windows 7 (by dpzjsy)"/>
-    <String Target="将语言栏隐藏到任务拦（by 溯汐潮）" Link="Скрыть Панель языка на Панели задач (by Hell Cabrite)"/>
+    <String Target="将语言栏隐藏到任务栏（by 溯汐潮）" Link="Скрыть Панель языка на Панели задач (by Hell Cabrite)"/>
     <String Target="快速访问不显示常用文件夹（by 溯汐潮）" Link="Не показывать часто используемые папки в Быстром доступе (by Hell Cabrite)"/>
     <String Target="快速访问不显示最近使用的文件（by 溯汐潮）" Link="Не показывать недавно используемые файлы в Быстром доступе (by Hell Cabrite)"/>
     <String Target="清理被取代的msp补丁并减少Installer目录的大小。" Link="Очистка замененных msp-исправлений и уменьшение размера папки Installer"/>

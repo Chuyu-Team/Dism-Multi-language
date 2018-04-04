@@ -1029,7 +1029,7 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
     <String Target="将同时可用下载数目调整到 10（by 溯汐潮）" Link="Zwieksz liczbe jednoczesnie pobieranych plików do 10 (by Hell Cabrite)"/>
     <String Target="将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）" Link="Zmieñ &quot;Personalizuj&quot; w PPM na pulpicie na ten z WIndows 7 (by dpzjsy)"/>
     <String Target="将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）" Link="Zmieñ &quot;Ustawienia ekranu&quot; w PPM na pulpicie na ten z Windows 7 (by dpzjsy)"/>
-    <String Target="将语言栏隐藏到任务拦（by 溯汐潮）" Link="Ukryj &quot;Pasek jêzyka&quot; (by Hell Cabrite)"/>
+    <String Target="将语言栏隐藏到任务栏（by 溯汐潮）" Link="Ukryj &quot;Pasek jêzyka&quot; (by Hell Cabrite)"/>
     <String Target="快速访问不显示常用文件夹（by 溯汐潮）" Link="Nie wyœwietlaj Czesto u¿ywanych Folderów w zak³¹dce Szybki Dostêp (by Hell Cabrite)"/>
     <String Target="快速访问不显示最近使用的文件（by 溯汐潮）" Link="Nie wyœwietlaj ostatnio u¿ywanych plików w zak³¹dce Szybki Dostêp (by Hell Cabrite)"/>
     <String Target="清理被取代的msp补丁并减少Installer目录的大小。" Link="Czyœæ zast¹pione patch'e msp i zmniejsz rozmiar folderu Instalatora."/>

@@ -1029,7 +1029,7 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
     <String Target="将同时可用下载数目调整到 10（by 溯汐潮）" Link="Настрой броя на едновременно достъпните изтегляния на 10 (от Hell Cabrite）"/>
     <String Target="将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）" Link="Change &quot;Personalize&quot; in desktop right click menu to Windows 7 mode (от dpzjsy)"/>
     <String Target="将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）" Link="Change &quot;Display Settings&quot; in desktop right click menu to Windows 7 mode (by dpzjsy)"/>
-    <String Target="将语言栏隐藏到任务拦（by 溯汐潮）" Link="Скрий езиковата лента от лентата за задачи (от Hell Cabrite）"/>
+    <String Target="将语言栏隐藏到任务栏（by 溯汐潮）" Link="Скрий езиковата лента от лентата за задачи (от Hell Cabrite）"/>
     <String Target="快速访问不显示常用文件夹（by 溯汐潮）" Link="Не показвай често използваните папки в Quick Access (от Hell Cabrite)"/>
     <String Target="快速访问不显示最近使用的文件（by 溯汐潮）" Link="快速訪問不顯示最近使用的檔 (от back tidal wave)"/>
     <String Target="清理被取代的msp补丁并减少Installer目录的大小。" Link="Почиства заменените MSP кръпки и намалява размера на директорията на инсталатора."/>

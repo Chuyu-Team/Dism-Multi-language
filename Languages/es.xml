@@ -1030,7 +1030,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="将同时可用下载数目调整到 10（by 溯汐潮）" Link="Ajustar el número de descargas simultáneas a 10(por Hell Cabrite)"/>
     <String Target="将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）" Link="Cambiar &quot;Personalizar&quot; con clic derecho en el menú del escritorio en Windows (por dpzjsy)"/>
     <String Target="将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）" Link="Cambiar &quot;Configurar pantalla&quot; con clic derecho en el menú del escritorio en Windows 7 (por dpzjsy)"/>
-    <String Target="将语言栏隐藏到任务拦（by 溯汐潮）" Link="Ocultar la barra del idioma en la barra de tareas (por Hell Cabrite)"/>
+    <String Target="将语言栏隐藏到任务栏（by 溯汐潮）" Link="Ocultar la barra del idioma en la barra de tareas (por Hell Cabrite)"/>
     <String Target="快速访问不显示常用文件夹（by 溯汐潮）" Link="No mostrar carpetas de uso frecuente en acceso rápido (por Hell Cabrite)"/>
     <String Target="快速访问不显示最近使用的文件（by 溯汐潮）" Link="No mostrar archivos usados recientemente en acceso rápido (por Hell Cabrite)"/>
     <String Target="清理被取代的msp补丁并减少Installer目录的大小。" Link="Limpiar parches MSP sustituidos y reducir el tamaño de la carpeta de la instalación."/>

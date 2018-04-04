@@ -1029,7 +1029,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="将同时可用下载数目调整到 10（by 溯汐潮）" Link="Upravit počet souběžných stahování na 10 (od Hell Cabrite)"/>
     <String Target="将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）" Link="Změna &quot;Přizpůsobit&quot; na ploše kliknutím pravým tlačítkem myši menu režimu Windows 7 (od dpzsjy)"/>
     <String Target="将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）" Link="Změna &quot;Nastavení displeje&quot; na ploše klikněte pravým tlačítkem myši menu režimu Windows 7 (od dpzsjy)"/>
-    <String Target="将语言栏隐藏到任务拦（by 溯汐潮）" Link="Skrýt panel jazyků na hlavním panelu (od Hell Cabrite)"/>
+    <String Target="将语言栏隐藏到任务栏（by 溯汐潮）" Link="Skrýt panel jazyků na hlavním panelu (od Hell Cabrite)"/>
     <String Target="快速访问不显示常用文件夹（by 溯汐潮）" Link="Nezobrazovat často používané složky v rychlém přístup (od Hell Cabrite)"/>
     <String Target="快速访问不显示最近使用的文件（by 溯汐潮）" Link="Nezobrazovat naposledy použité souborů v rychlém přístup (od Hell Cabrite)"/>
     <String Target="清理被取代的msp补丁并减少Installer目录的大小。" Link="Vyčistit nahrazuje opravy msp a snížení velikosti instalační složky."/>

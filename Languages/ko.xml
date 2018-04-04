@@ -1029,7 +1029,7 @@ Special thanks to digitky, OldMac, Schooli, 阿泽西
     <String Target="将同时可用下载数目调整到 10（by 溯汐潮）" Link="동시 다운로드 수를 10개로 조정 (by Hell Cabrite)"/>
     <String Target="将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）" Link="우클릭메뉴 중 &quot;개인설정&quot;을 Windows 7 스타일로 변경 (by dpzsjy)"/>
     <String Target="将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）" Link="우클릭메뉴 중 &quot;디스플레이 설정&quot;을 Windows 7 스타일로 변경 (by dpzsjy)"/>
-    <String Target="将语言栏隐藏到任务拦（by 溯汐潮）" Link="작업표시줄에 입력도구모음 고정 (by Hell Cabrite)"/>
+    <String Target="将语言栏隐藏到任务栏（by 溯汐潮）" Link="작업표시줄에 입력도구모음 고정 (by Hell Cabrite)"/>
     <String Target="快速访问不显示常用文件夹（by 溯汐潮）" Link="탐색창 바로가기에 &quot;자주 사용하는 폴더&quot;를 표시안함 (by Hell Cabrite)"/>
     <String Target="快速访问不显示最近使用的文件（by 溯汐潮）" Link="탐색창 바로가기에 &quot;최근에 사용한  파일&quot;을 표시안함 (by Hell Cabrite)"/>
     <String Target="清理被取代的msp补丁并减少Installer目录的大小。" Link="대체 msp 패치를 삭제하고, Installer 폴더의 크기를 줄임"/>

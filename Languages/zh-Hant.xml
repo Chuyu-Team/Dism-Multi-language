@@ -1028,7 +1028,7 @@
     <String Target="将同时可用下载数目调整到 10（by 溯汐潮）" Link="將同時可用下載數目調整到 10 (by 溯汐潮)"/>
     <String Target="将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）" Link="將桌面右鍵選單「個人化」調整為 Windows 7 模式 (by 大胖子技術員)"/>
     <String Target="将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）" Link="將桌面右鍵選單「顯示設定」調整為 Windows 7 模式 (by 大胖子技術員)"/>
-    <String Target="将语言栏隐藏到任务拦（by 溯汐潮）" Link="將語言列隱藏到工作列 (by 溯汐潮)"/>
+    <String Target="将语言栏隐藏到任务栏（by 溯汐潮）" Link="將語言列隱藏到工作列 (by 溯汐潮)"/>
     <String Target="快速访问不显示常用文件夹（by 溯汐潮）" Link="快速存取不顯示常用資料夾 (by 溯汐潮)"/>
     <String Target="快速访问不显示最近使用的文件（by 溯汐潮）" Link="快速存取不顯示最近使用的檔案 (by 溯汐潮)"/>
     <String Target="清理被取代的msp补丁并减少Installer目录的大小。" Link="清理被取代的 msp 更新檔並減少 Installer 目錄的大小。"/>

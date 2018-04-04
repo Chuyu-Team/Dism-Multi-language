@@ -3777,7 +3777,7 @@
         </Default>
       </Item>
 
-      <Item Type="CheckBox" Name="#将语言栏隐藏到任务拦（by 溯汐潮）">
+      <Item Type="CheckBox" Name="#将语言栏隐藏到任务栏（by 溯汐潮）">
         <Current>
           <State>
             <Applicable>
