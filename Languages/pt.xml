@@ -247,7 +247,7 @@ Special thanks to JNylson
     <String Target="操作完成" Link="Finalizado"/>
 
     <!--欢迎页-->
-    <String q="" Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。" Link="A primeira implementação de GUI Dism baseada em CBS no mundo!"/>
+    <String Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。" Link="A primeira implementação de GUI Dism baseada em CBS no mundo!"/>
 
     <String Target="联系方式" Link="Contato"/>
     <String Target="官方网站" Link="Site oficial"/>
@@ -397,7 +397,7 @@ Special thanks to JNylson
       <String Target="Appx管理" Link="Appxs"/>
 
     <String Target="驱动管理" Link="Drivers"/>
-    <String q="" Target="程序和功能" Link="Aplicativos e Recursos"/>
+    <String Target="程序和功能" Link="Aplicativos e Recursos"/>
     <String Target="Windows服务" Link="Serviços"/>
     <String Target="Windows功能" Link="Recursos"/>
     <String Target="更新管理" Link="Atualizações"/>
@@ -821,10 +821,10 @@ Special thanks to JNylson
 
     <String Target="优化非活动窗口标题栏颜色（by IT之家）" Link="Otimizar a cor da Barra de Título da janela inativa (by IT Home)"/>
 
-    <String q="" Target="*桌面壁纸质量调整为（by IT之家）" Link="Alterar a qualidade do Papel de Parede para (by ITHome)"/>
-      <String q="" Target="低质量（更快）" Link="Baixo(Mais rápida)"/>
-      <String q="" Target="默认（推荐）" Link="Padrão"/>
-      <String q="" Target="高质量（更清晰）" Link="Alta(Mais clara)"/>
+    <String Target="*桌面壁纸质量调整为（by IT之家）" Link="Alterar a qualidade do Papel de Parede para (by ITHome)"/>
+      <String Target="低质量（更快）" Link="Baixo(Mais rápida)"/>
+      <String Target="默认（推荐）" Link="Padrão"/>
+      <String Target="高质量（更清晰）" Link="Alta(Mais clara)"/>
 
     <String Target="关闭视频文件预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Desativar visualização de arquivo de vídeo para melhorar o tempo de resposta do Windows Explorer (by MoWangMoShi)"/>
     <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Desativar visualização de arquivos de áudio para melhorar o tempo de resposta do Windows Explorer (by MoWangMoShi)"/>
@@ -1034,7 +1034,7 @@ Special thanks to JNylson
     <String Target="隐藏NTFS蓝色双箭头压缩标识（by IT之家）" Link="Hide NTFS compression blue double arrow icon overlay (by IT Home)"/>
     <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="Ocultar botão Ajuda na Barra de Idiomas (by Hell Cabrite )"/>
     <String Target="Windows 7体验" Link="Windows 7 Experience"/>
-    <String q="" Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Windows Update não inclui ferramentas de remoção de malware (by Winaero)"/>
+    <String Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Windows Update não inclui ferramentas de remoção de malware (by Winaero)"/>
     <String q="" Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Change &quot;right click menu&quot; to Windows 7 mode (by Silence)"/>
     <String q="" Target="登陆界面默认打开小键盘（by IT之家）" Link="Enable keypad when login (by ITHome)"/>
     <String q="" Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Disable Component Based Servicing Backup"/>
