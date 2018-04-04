@@ -31,6 +31,7 @@
   <String Src="%E-Mail%" Dst="E-mail"/>
   <String Src="%Links%" Dst="Links"/>
   <String Src="%WinOS%" Dst="WINOS Lite System"/>
+  <String Src="%GTWang%" Dst=""/>
   <String Src="%LanDian%" Dst="LandianNews"/>
   <String Src="%ChuyuTream%" Dst="&amp;nbsp;2018&amp;nbsp;Chuyu Team"/>
   <String Src="%ICP%" Dst=""/>

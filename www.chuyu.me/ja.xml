@@ -30,6 +30,7 @@
   <String Src="%QQ%" Dst="QQ グループ"/>
   <String Src="%E-Mail%" Dst="フィードバック"/>
   <String Src="%Links%" Dst="外部リンク"/>
+  <String Src="%GTWang%" Dst=""/>
   <String Src="%WinOS%" Dst="WINOS Lite System"/>
   <String q="" Src="%LanDian%" Dst="LandianNews"/>
   <String Src="%ChuyuTream%" Dst="&amp;nbsp;2018&amp;nbsp;初雨チーム"/>

@@ -32,6 +32,7 @@
   <String Src="%Links%" Dst="友情链接"/>
   <String Src="%WinOS%" Dst="WINOS精简系统"/>
   <String Src="%LanDian%" Dst="蓝点网"/>
+  <String Src="%GTWang%" Dst="&lt;li&gt;&lt;a href=&quot;http://mkvq.blogspot.com/&quot; target=&quot;_blank&quot;&gt;GT Wang 汉化&lt;/a&gt;&lt;/li&gt;"/>
   <String Src="%ChuyuTream%" Dst="&amp;nbsp;2018&amp;nbsp;初雨团队"/>
   <String Src="%ICP%" Dst="&lt;p style=&quot;float: right; margin: 0 2rem;&quot;>浙ICP备17002125&lt;/p>"/>
   <String Src="%Document%" Dst="帮助文档"/>
