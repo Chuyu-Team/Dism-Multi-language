@@ -473,6 +473,7 @@
             <Or>
               <FileExist FilePath="%SystemRoot%\SoftwareDistribution\DeliveryOptimization"/>
               <FileExist FilePath="%SystemRoot%\DeliveryOptimization"/>
+              <FileExist FilePath="%SystemRoot%\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization"/>
             </Or>
           </Applicable>
           <Activate>
