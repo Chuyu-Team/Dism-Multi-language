@@ -581,6 +581,7 @@ Special thanks to JNylson
     <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="Congratulations! Deletion successful. However, as some applications may be Provisioned Appx, if some SYSTEM-owned app persists, please use Provisioned Appx to delete them."/>
     <String q="" Target="User Appx" Link="User Appx"/>
     <String q="" Target="Provisioned Appx" Link="Provisioned Appx"/>
+    <String q="" Target="删除Microsoft.StorePurchaseApp可能导致Windows Store无法使用，你确定要继续么？" Link="Removing Microsoft.StorePurchaseApp may cause Windows Store unusable. Sure to proceed?"/>
 
     <!--Windows Update-->
     <String Target="安装" Link="Instalar"/>
@@ -777,7 +778,8 @@ Special thanks to JNylson
 
     <String Target="使任务栏更透明（by 518516.net）" Link="Tornar a barra de tarefas mais transparente (by 518516.net)"/>
 
-    <String Target="不允许在开始菜单显示建议" qLink=""/>
+    <String q="" Target="不允许在开始菜单显示建议" Link="Disable suggestions in Start Menu"/>
+    <String q="" Target="不允许在开始菜单显示建议（by powerxing04）" Link="Disable suggestions in Start Menu (by powerxing04)"/>
 
     <String Target="在桌面显示我的电脑（by Rambin）" Link="Exibir Meu Computador na Área de Trabalho (by Rambin)"/>
       <String Target="跟随系统" Link="Seguir Sistema"/>
@@ -897,6 +899,9 @@ Special thanks to JNylson
     <!--Microsoft Edge-->
     <String q="" Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Prevent Microsoft Edge from opening &quot;First Running&quot; (by ITHome)"/>
 
+    <String q="" Target="关闭Adobe Flash即点即用" Link="Disable Adobe Flash right click"/>
+      <String q="" Target="此选项将降低计算机安全性，增加Adobe Flash的安全隐患！" Link="This item will reduce the computer security."/>
+
     <!--微软拼音输入法-->
     <String q="" Target="微软拼音输入法" Link="Microsoft Pinyin IME"/>
     <String Target="微软拼音默认为英语输入（by Rambin）" Link="Definir IME padrão como inglês (by Rambin)"/>
@@ -984,7 +989,7 @@ Special thanks to JNylson
     <String Target="*VHD启动时不要将VHD动态文件扩展到最大（以节省空间）" Link="*Do not expand VHD Dynamic to maximum size when initiating VHD (to use less storage)"/>
       <String Target="此选项可能降低VHD文件性能。" Link="This option may reduce the VHD file performance."/>
 
-    <String Target="*隐藏某些SATA硬盘任务栏图标（by 原罪）" Link="*Ocultar  ícones da Barra de Tarefas de alguns discos rígidos SATA (by YZ)"/>
+    <String Target="*隐藏某些SATA硬盘任务栏图标（by 原罪）" Link="*Ocultar ícones da Barra de Tarefas de alguns discos rígidos SATA (by YZ)"/>
 
     <String Target="蓝屏时自动重启（by 原罪）" Link="Reiniciar automaticamente quando BSOD (by YZ)"/>
 
@@ -993,7 +998,7 @@ Special thanks to JNylson
 
     <String q="" Target="关闭休眠（by powerxing04）" Link="Disable Hibernate ( by powerxing04 )"/>
       <String q="" Target="关闭休眠后将导致快速启动以及混合休眠不可用，这样将增加断电丢失数据的风险！" Link="Will result in Hiberboot and Hybrid Hibernation not available!"/>
-    
+
     <String Target="禁用组件堆栈（Component Based Servicing）日志" Link="Desativar log de Serviços Baseados em Componentes"/>
 
     <String Target="禁用更新解压模块（Delta Package Expander）日志" Link="Desativar log de Expansão de Pacote Delta"/>
@@ -1019,7 +1024,7 @@ Special thanks to JNylson
     <String Target="禁用文件夹的“固定到快速访问”右键菜单" Link="Disable &quot;Pin To Quick Access&quot; context menu on directory"/>
     <String Target="禁用文件的“OneDrive文件同步”右键菜单" Link="Disable &quot;OneDrive file syncing&quot; context menu on file"/>
     <String Target="关闭“突出显示新安装的程序”（by 溯汐潮）" Link="Disable &quot;Highlight newly installed programs&quot;(by Hell Cabrite)"/>
-    <String Target="关闭自动更新（by 溯汐潮）" Link="Desativar atualizações automáticas (by Hell Cabrite )"/>
+    <String Target="关闭自动更新（by 溯汐潮）" Link="Desativar atualizações automáticas (by Hell Cabrite)"/>
     <String Target="将“音量调节”调整为Windows 7模式（by 溯汐潮）" Link="Change &quot;Volume Adjustment&quot; to Windows 7 mode(by Hell Cabrite)"/>
     <String Target="将同时可用下载数目调整到 10（by 溯汐潮）" Link="Adjust number of simultaneous downloads to 10 (by Hell Cabrite)"/>
     <String Target="将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）" Link="Change &quot;Personalize&quot; in desktop right click menu to Windows 7 mode (by dpzjsy)"/>
@@ -1032,13 +1037,17 @@ Special thanks to JNylson
     <String Target="遇到弹出窗口时始终在新选项卡中打开弹出窗口（by 溯汐潮）" Link="Always display pop-up windows in new tab (by Hell Cabrite)"/>
     <String Target="锁定Internet Explorer工具栏（by 溯汐潮）" Link="Bloquear Barra de ferramentas do Internet Explorer (by Hell Cabrite)"/>
     <String Target="隐藏NTFS蓝色双箭头压缩标识（by IT之家）" Link="Hide NTFS compression blue double arrow icon overlay (by IT Home)"/>
-    <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="Ocultar botão Ajuda na Barra de Idiomas (by Hell Cabrite )"/>
+    <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="Ocultar botão Ajuda na Barra de Idiomas (by Hell Cabrite)"/>
     <String Target="Windows 7体验" Link="Windows 7 Experience"/>
     <String Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Windows Update não inclui ferramentas de remoção de malware (by Winaero)"/>
     <String q="" Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Change &quot;right click menu&quot; to Windows 7 mode (by Silence)"/>
     <String q="" Target="登陆界面默认打开小键盘（by IT之家）" Link="Enable keypad when login (by ITHome)"/>
     <String q="" Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Disable Component Based Servicing Backup"/>
     <String q="" Target="任务栏时钟精确到秒（by Luupw3d）" Link="Taskbar clock did display seconds (by Luupw3d)"/>
+
+    <String q="" Target="禁用WfpDiag.ETL日志（by powerxing04）" Link="Disable WfpDiag ETL log (by powerxing04)"/>
+    <String q="" Target="禁用文件夹的“包含到库中”右键菜单（by choyri）" Link="Disable &quot;Included in the library&quot; context menu on directory (by choyri)"/>
+    <String q="" Target="禁用桌面的“NVIDIA 控制面板”右键菜单（by choyri）" Link="Disable &quot;NVIDIA Control Panel&quot; context menu on desktop (by choyri)"/>
     <!--系统优化已经结束-->
 
     <!--Dism++更新程序-->
@@ -1234,7 +1243,6 @@ Special thanks to JNylson
     <String Target="迅雷游戏安装后所在目录，一般人不需要此程序，可以考虑删除。" Link="Thunder games directory (after installing), most people do not need this program, you can consider to delete."/>
 
     <String Target="NET程序集缓存（by 大胖子技术员）" Link="Cache do NET assembly (by dpzjsy)"/>
-    
     <String Target="NET程序运行过程中产生的机器代码缓存文件，不建议频繁清理此条目。" Link="When NET program running, it made the machine code cache files, I do not recommended to clean the cache files frequently."/>
 
     <String Target="以前的Dism++组件" Link="Arquivos residuais de versões anteriores do Dism++"/>
@@ -1295,6 +1303,9 @@ Special thanks to JNylson
 
     <String Target="Chrome浏览器老版本备份（by Honry）" Link="Arquivos de backup de versão antiga do Chrome Web (by Honry)"/>
     <String Target="Chrome浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Arquivos de backup do Chrome após a atualização, para reversão em caso de problemas."/>
+
+    <String Target="Opera浏览器老版本备份（by Jhovany200）" Link="Arquivos de backup de versão antiga do Opera Web (by Jhovany200)"/>
+    <String Target="Opera浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Arquivos de backup do Opera após a atualização, para reversão em caso de problemas."/>
 
     <String Target="Microsoft .NET安装缓存（by 撕裂五维空间）" Link="Microsoft .NET install cache (by SiLieWuWeiKongJian)"/>
     <String Target="安装Microsoft .NET补丁残留的安装缓存。" Link="When the programs install patches for microsoft .NET, the program leaves some cache."/>
