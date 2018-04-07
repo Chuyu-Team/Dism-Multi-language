@@ -8,7 +8,7 @@
     >     大於                         &gt;
     &     與                           &amp;
     '     單引號                       &apos;
-    "     單引號                       &quot;
+    "     雙引號                       &quot;
     \t    制表符                       &#9;
     \n    換行                         &#xA;
     \r    Enter                         &#xD;
