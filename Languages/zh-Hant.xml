@@ -11,7 +11,7 @@
     "     單引號                       &quot;
     \t    制表符                       &#9;
     \n    換行                         &#xA;
-    \r    回车                         &#xD;
+    \r    Enter                         &#xD;
 
 感謝：GT Wang (http://mkvq.blogspot.com/ )、jamesfuh、月下独酌
 -->
@@ -139,7 +139,7 @@
     <String Target="正在配置WinRE" Link="正在配置 WinRE"/>
     <String Target="正在进行第 %d 阶段（共 %d ）" Link="正在進行第 %d 階段 (共 %d)"/>
     <String Target="格式转换向导" Link="格式轉換精靈"/>
-    <String Target="此功能可以将微软发布的ESD转换为ISO，还支持加密的ESD哦。" Link="此功能可以將微軟發佈的 ESD 轉換為 ISO，還支援加密的 ESD。"/>
+    <String Target="此功能可以将微软发布的ESD转换为ISO，还支持加密的ESD哦。" Link="此功能可以將微軟發布的 ESD 轉換為 ISO，亦支援加密的 ESD。"/>
     <String Target="ESD映像文件" Link="ESD 映像檔"/>
     <String Target="ISO映像文件" Link="ISO 映像檔"/>
     <String Target="ISO映像文件-高压版" Link="ISO 映像檔案-高壓版"/>
@@ -155,7 +155,7 @@
     <String Target="重启后，系统自动将启动RE，你确定要重启么？" Link="重新啟動後，系統將自動啟動 RE，您確定要重新啟動嗎？"/>
     <String Target="此功能可以将ESD、WIM格式相互转换。" Link="此功能可以將 ESD、WIM 格式相互轉換。"/>
     <String Target="Dism++将会在RE中启动，你现在需要重启电脑么？" Link="Dism++ 將會在 RE 中啟動，您現在需要重新啟動電腦嗎？"/>
-    <String Target="%s 位置的映像正繁忙，请稍后再试。" Link="%s 位置的映像正繁忙中，請稍後再試。"/>
+    <String Target="%s 位置的映像正繁忙，请稍后再试。" Link="%s 位置的映像正繁忙，請稍後再試。"/>
     <String Target="正在验证受损" Link="正在驗證受損"/>
     <String Target="正在修复受损" Link="正在修復受損"/>
     <String Target="%d 秒后将关闭计算机，点击取消可以撤销此任务。" Link="%d 秒後將關閉電腦，點擊取消可以復原此任務。"/>
@@ -452,7 +452,7 @@
     <String Target="关键驱动：%s" Link="關鍵驅動：%s"/>
     <String Target="类别标识：%s" Link="類別標識：%s"/>
     <String Target="驱动版本：%hu.%hu.%hu.%hu" Link="驅動版本：%hu.%hu.%hu.%hu"/>
-    <String Target="发布日期：%s" Link="發佈日期：%s"/>
+    <String Target="发布日期：%s" Link="發布日期：%s"/>
     <String Target="文件路径：%s" Link="檔案路徑：%s"/>
     <String Target="驱动大小：%s" Link="驅動大小：%s"/>
     <String Target="OEM名称：%s" Link="OEM 名稱：%s"/>
