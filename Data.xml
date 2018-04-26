@@ -7632,7 +7632,7 @@
     </Warning>
     <Warning ID="KB3068708|KB3080149">
       <en>Customer experience and remote diagnostics update, to collect Windows diagnostic data.</en>
-      <es>Experiencia del cliente y actualización de diagnósticos remotos, para recopilar datos de diagnóstico de Windows.</es>
+      <es>Experiencia del usuario y actualización de diagnósticos remotos, para recopilar datos de diagnóstico de Windows.</es>
       <zh-Hans>客户体验和诊断遥测更新，用于收集Windows诊断信息。</zh-Hans>
       <zh-Hant>客戶體驗和遠端診斷更新，用於收集 Windows 診斷資料。</zh-Hant>
       <fr>Expérience client et mise à jour de diagnostic à distance, afin de recueillir des données de diagnostic de Windows.</fr>
@@ -7641,7 +7641,7 @@
     </Warning>
     <Warning ID="KB3075249">
       <en>This update will adjust UAC default logic to esclate customer experience and remote diagnostics program (Windows diagnostics information collection program) to silent elevated privileges.</en>
-      <es>Esta actualización ajustará la lógica predeterminada de UAC para anular la experiencia del cliente y el programa de diagnóstico remoto (programa de recopilación de información de diagnósticos de Windows) con privilegios elevados silenciosos.</es>
+      <es>Esta actualización ajustará la lógica predeterminada de UAC para anular la experiencia del usuario y el programa de diagnóstico remoto (programa de recopilación de información de diagnósticos de Windows) con privilegios elevados silenciosos.</es>
       <zh-Hans>此更新将调整UAC默认逻辑，将客户体验和诊断遥测程序（Windows诊断信息收集程序）调整为静默提升权限。</zh-Hans>
       <zh-Hant>此更新將調整 UAC 預設邏輯，將客戶體驗和遠端診斷程式 (Windows 診斷資訊收集程式) 調整為幕後提升權限。</zh-Hant>
       <fr>Cette mise à jour va ajuster la logique par défaut UAC pour intensifier l'expérience client et à distance le programme de diagnostic (programme de collecte d'informations de diagnostic Windows) à des privilèges élevés discrets.</fr>
@@ -7650,7 +7650,7 @@
     </Warning>
     <Warning ID="KB3021917">
       <en>This update improves the performance of customer experience and remote diagnostics program (Windows diagnostics information collection program).</en>
-      <es>Esta actualización mejora el rendimiento de la experiencia del cliente y el programa de diagnóstico remoto (programa de recopilación de información de diagnóstico de Windows).</es>
+      <es>Esta actualización mejora el rendimiento de la experiencia del usuario y el programa de diagnóstico remoto (programa de recopilación de información de diagnóstico de Windows).</es>
       <zh-Hans>此更新用于改进客户体验和诊断遥测程序（Windows诊断信息收集程序）运行性能。</zh-Hans>
       <zh-Hant>此更新用於改進客戶體驗和遠端診斷程式 (Windows 診斷資訊收集程式) 執行效能。</zh-Hant>
       <fr>Cette mise à jour améliore les performances de l'expérience client et à distance le programme de diagnostic (programme de collecte d'informations de diagnostic Windows).</fr>
@@ -7685,8 +7685,8 @@
       <ja>この更新は期限切れました、Windows 2016-10 月累積的な更新プログラムは取り替えしました。期限切れの更新は追加したくない、このはインストールお勧めしません、でも一部の更新はオフライン追加できません。すべての更新は追加思う、この更新はインストール必要があります、そして他の更新はインストールします。</ja>
     </Warning>
     <Warning ID="KB3184143">
-      <en>This update has been used to remove information related to the free update to Windows 10, but currently the update to Windows 10 is no longer free and it is not necessary to install this update.</en>
-      <es>Esta actualización se ha utilizado para eliminar la información relacionada con la actualización gratuita a Windows 10, pero en la actualidad la actualización a Windows 10 ya no es gratuita y generalmente no es necesario instalar esta actualización.</es>
+      <en>This update has been used to remove information related to the free update to Windows 10, but currently there is no information about the free upgrade to Windows 10 and it is not necessary to install this update.</en>
+      <es>Esta actualización se ha utilizado para eliminar la información relacionada con la actualización gratuita a Windows 10, pero en la actualidad no hay información sobre la actualización gratuita a Windows 10 y generalmente no es necesario instalar esta actualización.</es>
       <zh-Hans>此更新已经用于删除Windows 10免费升级相关信息，但是目前Windows 10早就没有免费升级信息了，一般情况无需安装此更新。</zh-Hans>
       <zh-Hant>此更新已經用於刪除 Windows 10 免費升級相關資訊，但是目前 Windows 10 早就沒有免費升級資訊了，一般情況無需安裝此更新。</zh-Hant>
       <ru>Это обновление используется для удаления сведений, связанных с бесплатным обновлением до Windows 10. Но в настоящее время обновление до Windows 10 больше не является бесплатным и установка данного обновления не требуется.</ru>
@@ -7728,7 +7728,8 @@
   </WSUS>
   <DefaultFilterList>
     <Item>$Recycle.Bin</Item>
-    <Item>$Windows.~bt</Item>
+    <Item>$Windows.~BT</Item>
+    <Item>$Windows.~WS</Item>
     <Item>Recycler</Item>
     <Item>Recycled</Item>
     <Item>PerfLogs</Item>
