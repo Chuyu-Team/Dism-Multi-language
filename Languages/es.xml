@@ -32,7 +32,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <LangSecRef ID="3028">Navegador</LangSecRef>
     <LangSecRef ID="3029">Navegador</LangSecRef>
     <LangSecRef ID="3030">Aplicaciones</LangSecRef>
-    <LangSecRef ID="3031">Windows Store</LangSecRef>
+    <LangSecRef ID="3031">Microsoft Store</LangSecRef>
   </CCleanLangSecRefMap>
   <StringMaps>
     <String Target="文件(&amp;F)" Link="&amp;Archivo"/>
