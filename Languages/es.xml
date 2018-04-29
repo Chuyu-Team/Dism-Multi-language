@@ -394,7 +394,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
       <String Target="空间回收" Link="Limpiar disco"/>
       <String Target="启动项管理" Link="Inicio"/>
       <String Target="工具箱" Link="Herramientas"/>
-      <String Target="Appx管理" Link="Aplicaciones"/>
+      <String Target="Appx管理" Link="Microsoft Store"/>
 
     <String Target="驱动管理" Link="Controladores"/>
     <String Target="程序和功能" Link="Programas y características"/>
@@ -570,8 +570,8 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <!--Appx管理-->
     <String Target="疑似损坏" Link="Tal vez dañado"/>
     <String Target="正在删除Appx" Link="Eliminando aplicación"/>
-    <String Target="删除Windows Store可能导致你未来无法下载或更新Appx，你确定要继续么？" Link="No podrás descargar o actualizar aplicaciones si eliminas Windows Store. ¿Continuar?"/>
-    <String Target="删除Microsoft.XboxIdentityProvider可能导致Windows Store无法使用，你确定要继续么？" Link="Borrar Microsoft.XboxIdentityProvider puede causar que Windows Store quede inutilizable. ¿Continuar?"/>
+    <String Target="删除Windows Store可能导致你未来无法下载或更新Appx，你确定要继续么？" Link="No podrás descargar o actualizar aplicaciones si eliminas Microsoft Store. ¿Continuar?"/>
+    <String Target="删除Microsoft.XboxIdentityProvider可能导致Windows Store无法使用，你确定要继续么？" Link="Borrar Microsoft.XboxIdentityProvider puede causar que Microsoft Store quede inutilizable. ¿Continuar?"/>
     <String Target="%s 等待超时，请尝试使用空间回收 - 过期Appx清理。" Link="%s de tiempo de espera, intente utilizar limpiar disco - para limpiar la aplicación."/>
     <String Target="无法初始化Appx管理接口。" Link="No se puede iniciar la interfaz de administración de aplicaciones."/>
     <String Target="%s 无法获取Appx关联的账号信息，错误代码：0x%.8X" Link="%s no puede obtener la información de la cuenta para la aplicación. Código error: 0x%.8X"/>
@@ -581,7 +581,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="¡Felicitaciones! Eliminación correcta. Sin embargo, algunas aplicaciones pueden ser aplicaciones provisionales: si alguna aplicación es propiedad de SYSTEM y no se puede eliminar, utilice aplicaciones provisionales para eliminarlas."/>
     <String Target="User Appx" Link="Aplicaciones del usuario"/>
     <String Target="Provisioned Appx" Link="Aplicaciones provisionales"/>
-    <String Target="删除Microsoft.StorePurchaseApp可能导致Windows Store无法使用，你确定要继续么？" Link="Borrar Microsoft.StorePurchaseApp puede causar que Windows Store quede inutilizable. ¿Continuar?"/>
+    <String Target="删除Microsoft.StorePurchaseApp可能导致Windows Store无法使用，你确定要继续么？" Link="Borrar Microsoft.StorePurchaseApp puede causar que Microsoft Store quede inutilizable. ¿Continuar?"/>
 
     <!--Windows Update-->
     <String Target="安装" Link="Instalar"/>
@@ -985,7 +985,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="*隐藏Windows 10升级助手GWX" Link="*Ocultar Asistente para actualización de Windows 10 (GWX)"/>
 
     <String Target="关闭OneDrive（by Rambin）" Link="Desactivar OneDrive (por Rambin)"/>
-      <String Target="禁用OneDrive将导致某些Windows Store应用无法使用OneDrive存储。" Link="Algunas aplicaciones del Windows Store no podrán utilizar el almacenamiento en la nube OneDrive si se desactiva."/>
+      <String Target="禁用OneDrive将导致某些Windows Store应用无法使用OneDrive存储。" Link="Algunas aplicaciones de Microsoft Store no podrán utilizar el almacenamiento en la nube OneDrive si se desactiva."/>
 
     <String Target="*VHD启动时不要将VHD动态文件扩展到最大（以节省空间）" Link="*No expandir VHD dinámico a tamaño máximo al iniciar (menos almacenamiento)."/>
       <String Target="此选项可能降低VHD文件性能。" Link="Esta opción puede reducir el rendimiento de archivos VHD."/>
@@ -1143,8 +1143,8 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="在Appx应用升级时，会留下老版本应用，该功能将删除那些不使用的老版本。" Link="Al actualizar una aplicación, no eliminará las versiones anteriores. Esta función puede eliminar las versiones anteriores no utilizadas (la función beta, puede conducirle a inestabilidad)."/>
     <String Target="少数用户报告称使用后无法打开Appx应用，需要重新安装Appx应用。" Link="Algunos usuarios dijeron después de usarlo, que aplicación no se puede ejecutar. Necesitas reinstalar la aplicación."/>
 
-    <String Target="系统自带Appx应用" Link="Aplicación de Windows Store integrada"/>
-    <String Target="此功能将移除所有系统自带Appx应用，移除后可以在Windows应用商店重新下载他们。" Link="Esta función elimina todo el sistema de aplicaciones integrado. Puede descargarlos de nuevo desde Windows Store."/>
+    <String Target="系统自带Appx应用" Link="Aplicaciones de Microsoft Store integrada"/>
+    <String Target="此功能将移除所有系统自带Appx应用，移除后可以在Windows应用商店重新下载他们。" Link="Esta función elimina todo el sistema de aplicaciones integrado. Puede descargarlos de nuevo desde Microsoft Store."/>
 
     <String Target="WinSxS临时文件" Link="Archivos temporales WinSxS"/>
     <String Target="系统更新时在WinSxS里面产生的临时文件。" Link="Al actualizar el sistema, crea los archivos temporales."/>
