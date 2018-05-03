@@ -394,7 +394,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
       <String Target="空间回收" Link="Limpiar disco"/>
       <String Target="启动项管理" Link="Inicio"/>
       <String Target="工具箱" Link="Herramientas"/>
-      <String Target="Appx管理" Link="Apps Microsoft Store"/>
+      <String Target="Appx管理" Link="Apps de Microsoft Store"/>
 
     <String Target="驱动管理" Link="Controladores"/>
     <String Target="程序和功能" Link="Programas y características"/>
