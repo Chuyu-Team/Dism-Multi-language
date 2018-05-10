@@ -2833,6 +2833,34 @@
           </False>
         </System>
       </Item>
+      
+    <Item Type="CheckBox" Name="#显示首次登录动画（by intionwun &amp; 组策略编辑器）">
+        <Applicable>
+          <OSVersion Compare=">=">6.2</OSVersion>
+        </Applicable>
+        <System>
+          <State>
+            <Applicable>
+              <Or>
+                <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" Value="EnableFirstLogonAnimation" Type="REG_DWORD" Data="1"/>
+                <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" Value="EnableFirstLogonAnimation" Type="REG_DWORD" Data="1"/>
+              </Or>  
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" Value="EnableFirstLogonAnimation" Type="REG_DWORD" Data="1"/>
+              <RegDelete Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" Value="EnableFirstLogonAnimation"/>     
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" Value="EnableFirstLogonAnimation" Type="REG_DWORD" Data="0"/>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" Value="EnableFirstLogonAnimation" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
 
     </Group>
     
