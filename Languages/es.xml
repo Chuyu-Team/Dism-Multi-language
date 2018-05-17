@@ -403,7 +403,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="更新管理" Link="Actualizaciones"/>
       <String Target="已安装的更新" Link="Actualizaciones instaladas"/>
     <String Target="可选功能" Link="Características opcionales"/>
-    <String Target="部署功能" Link="Características"/>
+    <String Target="部署功能" Link="Implementación"/>
 
     <!--空间回收-->
     <String Target="推荐操作" Link="Recomendado"/>
