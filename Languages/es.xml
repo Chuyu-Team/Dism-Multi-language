@@ -139,7 +139,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
 
     <String Target="正在配置WinRE" Link="Configuración de Windows RE"/>
     <String Target="正在进行第 %d 阶段（共 %d ）" Link="Ahora está en el paso %d (%d pasos del total)"/>
-    <String Target="格式转换向导" Link="Asistente conversión de formato"/>
+    <String Target="格式转换向导" Link="Asistente de conversión de formato"/>
     <String Target="此功能可以将微软发布的ESD转换为ISO，还支持加密的ESD哦。" Link="Esta función puede convertir ESD a ISO, soporta ESD encriptado"/>
     <String Target="ESD映像文件" Link="Archivo ESD"/>
     <String Target="ISO映像文件" Link="Archivo ISO"/>
@@ -185,11 +185,11 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="Compact" Link="Compactar"/>
     <String Target="VHD装载" Link="VHD montado"/>
 
-    <String Target="不压缩" Link="Nada"/>
-    <String Target="WIMBoot压缩" Link="WIMBoot"/>
-    <String Target="快速压缩" Link="Rápido"/>
-    <String Target="最大压缩" Link="Máximo"/>
-    <String Target="极限压缩" Link="Recuperar"/>
+    <String Target="不压缩" Link="Sin compresión"/>
+    <String Target="WIMBoot压缩" Link="Compresión WIMBoot"/>
+    <String Target="快速压缩" Link="Compresión rápida"/>
+    <String Target="最大压缩" Link="Compresión máxima"/>
+    <String Target="极限压缩" Link="Compresión ultra"/>
 
     <String Target="映像名称" Link="Nombre de imagen"/>
     <String Target="映像说明" Link="Descripción de imagen"/>
@@ -202,11 +202,11 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="展开空间" Link="Espacio extendido"/>
     <String Target="系统版本" Link="Versión de SO"/>
 
-    <String Target="不压缩映像" Link="Nada"/>
-    <String Target="WIMBoot压缩映像" Link="WIMBoot"/>
-    <String Target="快速压缩映像" Link="Rápido"/>
-    <String Target="最大压缩映像" Link="Máximo"/>
-    <String Target="极限压缩映像" Link="Recuperar"/>
+    <String Target="不压缩映像" Link="Sin compresión"/>
+    <String Target="WIMBoot压缩映像" Link="Compresión WIMBoot"/>
+    <String Target="快速压缩映像" Link="Compresión rápida"/>
+    <String Target="最大压缩映像" Link="Compresión máxima"/>
+    <String Target="极限压缩映像" Link="Compresión ultra"/>
     <String Target="全选" Link="Todo"/>
     <String Target="反选" Link="Invertir"/>
     <String Target="自定义规则" Link="Reglas personales"/>
@@ -273,7 +273,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="只读模式" Link="Sólo lectura"/>
     <String Target="快速挂载" Link="Montaje rápido"/>
     <String Target="（可启动）" Link="(Iniciable)"/>
-    <String Target="添加映像向导" Link="Asistente añadir imagen"/>
+    <String Target="添加映像向导" Link="Asistente para añadir imagen"/>
     <String Target="此功能可以将其他文件（WIM、ESD、VHD、VHDX）或者文件夹的包含的映像添加至映像列表。" Link="Esta función permite que otros archivos (WIM, ESD, VHD, VHDX), así como imágenes contenidas en una carpeta, se añadan a la lista de imágenes."/>
 
     <String Target="挂载映像文件（WIM、VHD、VHDX）中的映像到指定目录" Link="Montar archivos de imagen (WIM, VHD, VHDX) a un directorio especifico"/>
@@ -299,7 +299,7 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="映像十分健康不需要修复。" Link="La imagen está intacta. No se necesita reparar."/>
     <String Target="映像已经受损，但是可以修复。" Link="La imagen está dañada, pero se puede reparar."/>
     <String Target="映像已经受到致命问题，已经无法修复，请修复安装。" Link="La imagen tiene problemas, no se puede reparar. Para reparar debe reinstalarse."/>
-    <String Target="系统修复向导" Link="Asistente recuperación del sistema"/>
+    <String Target="系统修复向导" Link="Asistente de recuperación del sistema"/>
     <String Target="恭喜映像已经修复成功！" Link="¡Reparado!"/>
     <String Target="致命错误，会话无应答。" Link="Error, la sesión no está respondiendo."/>
 
