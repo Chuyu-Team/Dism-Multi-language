@@ -186,10 +186,10 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="VHD装载" Link="Mounted VHD"/>
 
     <String Target="不压缩" Link="None"/>
-    <String Target="WIMBoot压缩" Link="WIMBoot"/>
-    <String Target="快速压缩" Link="Fast"/>
-    <String Target="最大压缩" Link="Max"/>
-    <String Target="极限压缩" Link="Recovery"/>
+    <String Target="WIMBoot压缩" Link="WIMBoot Compress"/>
+    <String Target="快速压缩" Link="Fast Compress"/>
+    <String Target="最大压缩" Link="Max Compress"/>
+    <String Target="极限压缩" Link="Ultra Compress"/>
 
     <String Target="映像名称" Link="Image Name"/>
     <String Target="映像说明" Link="Image Description"/>
@@ -203,10 +203,10 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="系统版本" Link="OS Version"/>
 
     <String Target="不压缩映像" Link="None"/>
-    <String Target="WIMBoot压缩映像" Link="WIMBoot"/>
-    <String Target="快速压缩映像" Link="Fast"/>
-    <String Target="最大压缩映像" Link="Max"/>
-    <String Target="极限压缩映像" Link="Recovery"/>
+    <String Target="WIMBoot压缩映像" Link="WIMBoot Compress"/>
+    <String Target="快速压缩映像" Link="Fast Compress"/>
+    <String Target="最大压缩映像" Link="Max Compress"/>
+    <String Target="极限压缩映像" Link="Ultra Compress"/>
     <String Target="全选" Link="All"/>
     <String Target="反选" Link="Invert"/>
     <String Target="自定义规则" Link="Custom rules"/>
