@@ -185,11 +185,11 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="Compact" Link="Compactar"/>
     <String Target="VHD装载" Link="VHD montado"/>
 
-    <String Target="不压缩" Link="Sin compresión"/>
-    <String Target="WIMBoot压缩" Link="Compresión WIMBoot"/>
-    <String Target="快速压缩" Link="Compresión rápida"/>
-    <String Target="最大压缩" Link="Compresión máxima"/>
-    <String Target="极限压缩" Link="Compresión ultra"/>
+    <String Target="不压缩" Link="Nada"/>
+    <String Target="WIMBoot压缩" Link="WIMBoot"/>
+    <String Target="快速压缩" Link="Rápido"/>
+    <String Target="最大压缩" Link="Máximo"/>
+    <String Target="极限压缩" Link="Recuperación"/>
 
     <String Target="映像名称" Link="Nombre de imagen"/>
     <String Target="映像说明" Link="Descripción de imagen"/>
@@ -202,11 +202,11 @@ Gracias a: Oleada, Jhovany200, nomemolesteis@gmail.com por la traducción.
     <String Target="展开空间" Link="Espacio extendido"/>
     <String Target="系统版本" Link="Versión de SO"/>
 
-    <String Target="不压缩映像" Link="Sin compresión"/>
-    <String Target="WIMBoot压缩映像" Link="Compresión WIMBoot"/>
-    <String Target="快速压缩映像" Link="Compresión rápida"/>
-    <String Target="最大压缩映像" Link="Compresión máxima"/>
-    <String Target="极限压缩映像" Link="Compresión ultra"/>
+    <String Target="不压缩映像" Link="Nada"/>
+    <String Target="WIMBoot压缩映像" Link="WIMBoot"/>
+    <String Target="快速压缩映像" Link="Rápido"/>
+    <String Target="最大压缩映像" Link="Máximo"/>
+    <String Target="极限压缩映像" Link="Recuperación"/>
     <String Target="全选" Link="Todo"/>
     <String Target="反选" Link="Invertir"/>
     <String Target="自定义规则" Link="Reglas personales"/>
