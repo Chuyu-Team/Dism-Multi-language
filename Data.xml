@@ -7783,6 +7783,8 @@
     <!--过滤Linux子系统，以免备份失败-->
     <Item>Users\*\AppData\Local\lxss</Item>
     <Item>Users\*\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\</Item>
+    <!--过滤OneDrive，避免1803无法复制-->
+    <Item>Users\*\OneDrive</Item>
   </DefaultFilterList>
   <TimeZoneMap>
     <x2>SA Western Standard Time</x2>
