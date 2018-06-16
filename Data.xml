@@ -702,7 +702,6 @@
       <Group>#应用程序</Group>
       <Scan>
         <Applicable>
-          <IsBeta/>
           <FileExist FilePath="%ProgramData%\Microsoft\VisualStudio\Packages"/>
         </Applicable>
         <Activate>
