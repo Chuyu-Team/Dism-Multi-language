@@ -818,7 +818,7 @@
           <General RootPath="%SystemRoot%\Performance\WinSAT\DataStore\"/>
           <General RootPath="*\System Volume Information\Chkdsk"/>
           <General RootPath="%ProgramData%\USOShared\Logs"/>
-          <General RootPath="%System%\WDI"/>
+          <General RootPath="%System%\WDI\LogFiles\*"/>
           <General RootPath="%System%\LogFiles\*"/>
           <General RootPath="%SystemRoot%\debug"/>
 
