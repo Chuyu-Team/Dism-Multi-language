@@ -997,7 +997,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
       <String Target="关闭快速启动将导致系统启动速度变慢！" Link="Désactiver le démarrage rapide peut allonger les temps de démarrage du système."/>
 
     <String Target="关闭休眠（by powerxing04）" Link="Désactiver l’hibernation (par powerxing04)"/>
-      <String Target="关闭休眠后将导致快速启动以及混合休眠不可用，这样将增加断电丢失数据的风险！" Link="L'arrêt avec redémarrage rapide et la veille prolongée (hibernation hydride) ne seront plus disponibles !"/>
+      <String Target="关闭休眠后将导致快速启动以及混合休眠不可用，这样将增加断电丢失数据的风险！" Link="L’arrêt avec redémarrage rapide et la veille prolongée (hibernation hydride) ne seront plus disponibles !"/>
 
     <String Target="禁用组件堆栈（Component Based Servicing）日志" Link="Désactiver les journaux de réparation des composants"/>
 
@@ -1046,8 +1046,8 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="任务栏时钟精确到秒（by Luupw3d）" Link="Afficher les secondes sur l’horloge de la barre des tâches (par Luupw3d)"/>
 
     <String Target="禁用WfpDiag.ETL日志（by powerxing04）" Link="Désactiver le journal WfpDiag.ETL du pare-feu Windows (par powerxing04)"/>
-    <String Target="禁用文件夹的“包含到库中”右键菜单（by choyri）" Link="Désactiver le menu contextuel &quot;Inclure dans la bibliothèque&quot; sur un dossier (par choyri)"/>
-    <String Target="禁用桌面的“NVIDIA 控制面板”右键菜单（by choyri）" Link="Désactiver le menu contextuel &quot;Panneau de contrôle NVIDIA&quot; sur le bureau (par choyri)"/>
+    <String Target="禁用文件夹的“包含到库中”右键菜单（by choyri）" Link="Désactiver l’option « Inclure dans la bibliothèque » du menu contextuel sur un dossier (par choyri)"/>
+    <String Target="禁用桌面的“NVIDIA 控制面板”右键菜单（by choyri）" Link="Désactiver l’option « Panneau de contrôle NVIDIA » du menu contextuel sur le bureau (par choyri)"/>
     <!--系统优化已经结束-->
 
     <!--Dism++更新程序-->
@@ -1059,7 +1059,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
       Target="准备启动下载模块……&#xD;&#xA;"
       Link="Démarrer pour télécharger le module...&#xD;&#xA;"/>
     <String Target="正在下载 - %d/%d" Link="Téléchargement en cours - %d sur %d"/>
-    <String Target="更新文件过程中遇到错误，Orz……" Link="Une erreur est apparue durant la mise à jour, Orz..."/>
+    <String Target="更新文件过程中遇到错误，Orz……" Link="Une erreur est apparue durant la mise à jour. Argh..."/>
 
     <!--命令行-->
     <String Target="退出" Link="Quitter"/>
@@ -1487,32 +1487,32 @@ I. Droits et obligations
 
 II. Données de vie privée
 
-    1. After initialisation, Dism++ will collect Dism++ users’ system information (including but not restricted to the system version, system structure, system language, CPU information, RAM information), and Dism++’s own report (including but not restricted to the system crash dump and log files) to improve the service. Dism++ will not collect user identification information nor user’s contact information.
-    2. Chuyu Team may send users invitations for testing Dism++, invitations for voting to help Chuyu Team’s decisioning, and software updates, but Chuyu Team will never send messages that include but not limited to advertisements, promotions, frauds, or request for payment.
+    1. Une fois initialisé, Dism++ collectera des informations sur le système des utilisateurs de Dism++ (y compris, mais sans se limiter à cela, la version du système, la structure du système, la langue du système, des informations sur le processeur et la mémoire), ainsi que le rapport d’état sur Dism++ lui-même (y compris, mais sans se limiter à cela, les fichiers de vidage système en cas de crash et les fichiers journaux) afin d’améliorer le service. Dism++ ne collectera pas d’informations sur les utilisateurs ni celles permettant de les contacter.
+    2. Chuyu Team peut envoyer aux utilisateurs des invitations à tester Dism++, des invitations à voter pour aider Chuyu Team dans ses décisions, ainsi que des mises à jour logicielles, mais Chuyu Team n’enverra jamais de messages comprenant notamment des publicités, des promotions, des fraudes ou des demandes de paiement.
 
 III. Évaluez les risques
 
-    1. Chuyu Team has an open-type attitude so everyone can let Dism++ better. Some functions may lead unknown aftermath so Chuyu Team will remove the possible risk and tell the users. But we didn’t solve all the issue. You must bear all the aftermath yourself. Please tell Chuyu Team after you find some problems to prevent others have the problems.
-    2. Please understand and agree because our softwares need to develop. Chuyu Team persists the rights to change or pause or end or revoke all or some service. The users need to bear this danger.
+    1. Chuyu Team adopte une attitude d’ouverture afin que chacun puisse rendre Dism++ meilleur. Certaines fonctions pourraient conduire à des conséquences inconnues et Chuyu Team s’efforcera de supprimer les risques possibles et d’en informer les utilisateurs. Mais nous ne résoudrons pas tous les problèmes. Vous devez vous-même assumer toutes les conséquences. Veuillez cependant aviser Chuyu Team si vous constatez des problèmes afin de prévenir leur survenance chez les autres.
+    2. Veuillez comprendre et accepter que nos logiciels ont besoin d’autres développements. Chuyu Team se réserve les droits de changer, suspendre, arrêter ou révoquer certains services. Les utilisateurs doivent gérer eux-même ces dangers.
 
 IV. Déclaration des droits de propriété intellectuelle
 
-    1. Chuyu Team has all the intellectual property rights of this-service content (including but not limited to program, webpage, text and so on).
-    2. If no important clauses, Chuyu Team has all the intellectual property rights.
-    3. If Chuyu Team didn’t consent in writing, the users cannot process Chuyu Team softwares anyway. Cannot tell others have the rights to proces Chuyu Team softwares.
+    1. Chuyu Team dispose des droits de propriété intellectuelle sur les contenus de ce service (y compris, mais sans s’y limiter, le programme, le site web, le texte, etc.).
+    2. En l’absence de clauses importantes, Chuyu Team a tous les droits de propriété intellectuelles.
+    3. Si Chuyu Team ne l’a pas consenti par écrit, les utilisateurs ne peuvent en aucune façon faire usage des logiciels et services de Chuyu Team. Ils ne peuvent donner aux autres aucun droit d’utiliser les logiciels de Chuyu Team.
     4. Above and other intellectual property rights of Chuyu Team are protected by law. If Chuyu Team didn’t allow you, you cannot disassemble or do others.
 
 V. Responsibilité légale
 
-    1. If Chuyu Team sees someone report some users breached this agreement, Chuyu Team has the rights to ban the users to use Chuyu Team softwares without informing.
-    2. Please understand and agree. Chuyu Team has the rights to reasonably penalize the violation behavior with law.
-    3. Please understand and agree. If the users breach this agreement, lead third party arise the claim (including the reasonable money to lawyer). The users must compensate for Chuyu Team.
+    1. Si Chuyu Team constate que certains utilisateurs enfreignent les termes de cet accord, Chuyu Team a les droits de bannir ces utilisateurs d’utiliser les logiciels de Chuyu Team sans donner d’information.
+    2. Veuillez comprendre et accepter. Chuyu Team a les droits de raisonnablement pénaliser par la loi tout comportement en violation avec cet accord.
+    3. Veuillez comprendre et accepter. Si les utilisateurs rompent cet accord, la partie enfraignante devraient prendre totalement en charge les conséquences de cette décision (y compris les frais raisonnables de justice dus aux avocats). Les utilisateurs doivent compenser Chuyu Team.
 
 VI. Autres
 
-    1. Chuyu Team solemnly tells the users to notice the clauses of responsibility exemption by the Chuyu Team and the rights of limitations by users. Minors should read this agreement with their legal guardians.
-    2. The agreement validity and explanation apply in Chinese law. If the users and Chuyu Team have disputes, settlement must be negotiated first. If it failed, please agree to report the having-jurisdiction people’s court to administer.
-    3. If the agreement clauses be invalid or not executable because of whatever reason, the other clauses are still valid. Binding upon Both.
-    4. The user agreement written in Chinese Simplified should be referred to if the Chinese Simplified version differs from user agreements written in other languages.
+    1. Chuyu Team demande solennellement aux utilisateurs de noter les clauses d’exemption de responsibilité de la Chuyu Team et de limitation des droits des utilisateurs. Les mineurs devraient lire cet accord avec leurs tuteurs légaux.
+    2. La validité et l’explication de cet accord est appliquée d’après la législation de la République populaire de Chine. En cas de disputes entre les users et Chuyu Team, leur règlement doit d’abord être négocié à l’amiable. Si ceci échoue, vous acceptez de vous rapporter à une cour de justice chinoise compétente pour l’administrer.
+    3. Si ces clauses de cet accord s’avéraient non valides ou inapplicables pour quelque raison que ce soit, les autres clauses conserveraient leur validité et leur force contractuelle pour les deux parties.
+    4. L’accord de licence utilisateur écrit en chinois simplifié devrait faire référence si la version en chinois simplidié diffère des accords de licence utilisateur traduits dans d’autres langues.
 </UserAgreement>
 </Data>
