@@ -9,6 +9,10 @@ Dism++ rules file which provides cleanup and optimization rules.
 
 ---
 
+## [Languages/ar.xml]
+Arabic resource file. Thanks to mohammed.osama914@gmail.com
+mohammed.osama914@gmail.com ملف الموارد العربية. شكرا إلى
+
 ## [Languages/bg.xml]
 Bulgarian resource file.
 Thanks to Мартин Тайна, Pavel Belivakov.
@@ -78,6 +82,10 @@ Base path for the official Dism++ website and help documentation.
 Dism++官方网站以及帮助文档。
 
 ---
+
+### [www.chuyu.me/ar.xml]
+Dism++ website Arabic resource file. Thanks to mohammed.osama914@gmail.com
+mohammed.osama914@gmail.com ملف الموارد العربية. شكرا إلى
 
 ### [www.chuyu.me/de.xml]
 Dism++ website German resource file.
