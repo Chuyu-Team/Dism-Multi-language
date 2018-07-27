@@ -31,7 +31,7 @@ Thanks to EMLVIRUS, Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, won
 
 ## [Languages/es.xml]
 Spanish resource file.
-Thanks to Oleada, Jhovany200, nomemolesteis@gmail.com.
+Thanks to Oleada, MS-PC2, nomemolesteis@gmail.com.
 
 ## [Languages/fr.xml]
 French resource file.
@@ -97,7 +97,7 @@ Thanks to Frag, Hexhu.
 
 ### [www.chuyu.me/es.xml]
 Dism++ website Spanish resource file.
-Thanks to Jhovany200.
+Thanks to MS-PC2.
 
 ### [www.chuyu.me/fr.xml]
 Dism++ website French resource file.
