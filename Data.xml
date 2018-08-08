@@ -2855,7 +2855,7 @@
           <False>
             <Activate>
               <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" Value="EnableFirstLogonAnimation" Type="REG_DWORD" Data="0"/>
-              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" Value="EnableFirstLogonAnimation" Type="REG_DWORD" Data="1"/>
+              <RegDelete Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" Value="EnableFirstLogonAnimation"/>
             </Activate>
           </False>
         </System>
