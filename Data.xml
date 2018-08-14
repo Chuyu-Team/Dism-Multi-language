@@ -4560,6 +4560,7 @@
 
       <Item Type="CheckBox" Name="#隐藏资源管理器导航窗口中的家庭组">
         <Applicable>
+          <FileExist FilePath="%SystemRoot%\System32\provsvc.dll"/>
           <RegExist Key="HKEY_CLASSES_ROOT\CLSID\{B4FB3F98-C1EA-428d-A78A-D1F5659CBA93}\ShellFolder" Value="Attributes" Type="REG_DWORD"/>
         </Applicable>
         <System>
@@ -7030,6 +7031,7 @@
 
       <Item Type="CheckBox" Name="#禁用家庭组">
         <Applicable>
+          <FileExist FilePath="%SystemRoot%\System32\provsvc.dll"/>
           <QueryServiceStart Name="HomeGroupProvider"/>
         </Applicable>
         <System>
