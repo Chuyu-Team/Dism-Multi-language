@@ -2104,18 +2104,18 @@
           <Dropdown Name="#低质量（更快）">
             <Warning>#将导致桌面壁纸质量降低，影响视觉效果。</Warning>
             <Applicable>
-                <RegExist Key="HKEY_CURRENT_USER\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="60"/>
+                <RegExist Key="HKEY_CURRENT_USER\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="96"/>
             </Applicable>
             <Activate>
-              <RegWrite Key="HKEY_CURRENT_USER\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="60"/>
+              <RegWrite Key="HKEY_CURRENT_USER\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="96"/>
             </Activate>
           </Dropdown>
           <Dropdown Name="#默认（推荐）">
             <Applicable>
               <Not>
                 <Or>
-                  <RegExist Key="HKEY_CURRENT_USER\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="60"/>
-                  <RegExist Key="HKEY_CURRENT_USER\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="100"/>
+                  <RegExist Key="HKEY_CURRENT_USER\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="96"/>
+                  <RegExist Key="HKEY_CURRENT_USER\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="256"/>
                 </Or>
               </Not>
             </Applicable>
@@ -2126,10 +2126,10 @@
           <Dropdown Name="#高质量（更清晰）">
             <Warning>#将增加系统资源消耗。</Warning>
             <Applicable>
-              <RegExist Key="HKEY_CURRENT_USER\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="100"/>
+              <RegExist Key="HKEY_CURRENT_USER\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="256"/>
             </Applicable>
             <Activate>
-              <RegWrite Key="HKEY_CURRENT_USER\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="100"/>
+              <RegWrite Key="HKEY_CURRENT_USER\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="256"/>
             </Activate>
           </Dropdown>
         </Current>
@@ -2138,18 +2138,18 @@
           <Dropdown Name="#低质量（更快）">
             <Warning>#将导致桌面壁纸质量降低，影响视觉效果。</Warning>
             <Applicable>
-              <RegExist Key="HKEY_USERS\DEFAULT\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="60"/>
+              <RegExist Key="HKEY_USERS\DEFAULT\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="96"/>
             </Applicable>
             <Activate>
-              <RegWrite Key="HKEY_USERS\DEFAULT\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="60"/>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="96"/>
             </Activate>
           </Dropdown>
           <Dropdown Name="#默认（推荐）">
             <Applicable>
               <Not>
                 <Or>
-                  <RegExist Key="HKEY_USERS\DEFAULT\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="60"/>
-                  <RegExist Key="HKEY_USERS\DEFAULT\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="100"/>
+                  <RegExist Key="HKEY_USERS\DEFAULT\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="96"/>
+                  <RegExist Key="HKEY_USERS\DEFAULT\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="256"/>
                 </Or>
               </Not>
             </Applicable>
@@ -2160,10 +2160,10 @@
           <Dropdown Name="#高质量（更清晰）">
             <Warning>#将增加系统资源消耗。</Warning>
             <Applicable>
-              <RegExist Key="HKEY_USERS\DEFAULT\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="100"/>
+              <RegExist Key="HKEY_USERS\DEFAULT\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="256"/>
             </Applicable>
             <Activate>
-              <RegWrite Key="HKEY_USERS\DEFAULT\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="100"/>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Control Panel\Desktop" Value="JPEGImportQuality" Type="REG_DWORD" Data="256"/>
             </Activate>
           </Dropdown>
         </Default>
