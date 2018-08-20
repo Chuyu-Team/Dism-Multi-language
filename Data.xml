@@ -201,7 +201,7 @@
       </Scan>
     </Item>
 
-    <Item Name="#Opera浏览器老版本备份（by Jhovany200）" Level="2">
+    <Item Name="#Opera浏览器老版本备份（by MS-PC2）" Level="2">
       <!--2017-11-23 13:50添加-->
       <Description>#Opera浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。</Description>
       <Group>#过期文件</Group>
@@ -1080,7 +1080,7 @@
       </ScanCollection>
     </Item>
 
-    <Item Name="#IDM临时文件（by Jhovany200）" Level="2">
+    <Item Name="#IDM临时文件（by MS-PC2）" Level="2">
       <Description>#Internet Download Manager临时下载文件。</Description>
       <Warning>#清理IDM临时文件可能导致正在下载的任务需要重新下载！</Warning>
       <Group>#临时文件</Group>
@@ -6866,7 +6866,7 @@
         </System>
       </Item>
 
-      <Item Type="CheckBox" Name="#*禁用SMB1网络协议（by Jhovany200）">
+      <Item Type="CheckBox" Name="#*禁用SMB1网络协议（by MS-PC2）">
         <Applicable>
           <!--仅用于Vista以及Windows 7-->
           <OSVersion Compare="&lt;=">6.1</OSVersion>

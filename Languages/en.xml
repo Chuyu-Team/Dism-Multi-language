@@ -942,7 +942,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
 
     <String Target="*关闭远程协助（by 原罪）" Link="*Disallow Remote Assistance connections (by YZ)"/>
 
-    <String Target="*禁用SMB1网络协议（by Jhovany200）" Link="*Disallow SMB1 network protocol (by Jhovany200)"/>
+    <String Target="*禁用SMB1网络协议（by MS-PC2）" Link="*Disallow SMB1 network protocol (by MS-PC2)"/>
 
     <!--服务优化-->
     <String Target="服务优化" Link="Service"/>
@@ -1304,7 +1304,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="Chrome浏览器老版本备份（by Honry）" Link="Backup files of Chrome Web Browser old version (by Honry)"/>
     <String Target="Chrome浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Backup files of Chrome Web Browser after upgrade, for rollback in case of problems."/>
 
-    <String Target="Opera浏览器老版本备份（by Jhovany200）" Link="Backup files of Opera Web Browser old version (by Jhovany200)"/>
+    <String Target="Opera浏览器老版本备份（by MS-PC2）" Link="Backup files of Opera Web Browser old version (by MS-PC2)"/>
     <String Target="Opera浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Backup files of Opera Web Browser after upgrade, for rollback in case of problems."/>
 
     <String Target="Microsoft .NET安装缓存（by 撕裂五维空间）" Link="Microsoft .NET install cache (by SiLieWuWeiKongJian)"/>

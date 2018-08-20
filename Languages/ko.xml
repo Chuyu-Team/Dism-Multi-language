@@ -942,7 +942,7 @@ Special thanks to digitky, OldMac, Schooli, 阿泽西
 
     <String Target="*关闭远程协助（by 原罪）" Link="*원격지원 끄기 (by YZ)"/>
 
-    <String Target="*禁用SMB1网络协议（by Jhovany200）" Link="*SMB 1.0 네트워크 프로토콜 사용안함 (by Jhovany200)"/>
+    <String Target="*禁用SMB1网络协议（by MS-PC2）" Link="*SMB 1.0 네트워크 프로토콜 사용안함 (by MS-PC2)"/>
 
     <!--服务优化-->
     <String Target="服务优化" Link="서비스 최적화"/>
@@ -1304,7 +1304,7 @@ Special thanks to digitky, OldMac, Schooli, 阿泽西
     <String Target="Chrome浏览器老版本备份（by Honry）" Link="크롬브라우저 이전 버전 백업 (by Honry)"/>
     <String Target="Chrome浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="크롬브라우저 업데이트할때 남긴 백업 파일입니다.오류가 생길경우 이전 버전으로 돌아갑니다."/>
 
-    <String q="" Target="Opera浏览器老版本备份（by Jhovany200）" Link="Backup files of Opera Web Browser old version (by Jhovany200)"/>
+    <String q="" Target="Opera浏览器老版本备份（by MS-PC2）" Link="Backup files of Opera Web Browser old version (by MS-PC2)"/>
     <String Target="Opera浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="오페라 브라우저가 새버전으로 업그레이드된 후에 남겨진 백업파일은 실패한 경우 이전 버전 롤백에 사용됩니다."/>
 
     <String Target="Microsoft .NET安装缓存（by 撕裂五维空间）" Link="Microsoft .NET 설치 캐시 (by SiLieWuWeiKongJian)"/>

@@ -942,7 +942,7 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
 
     <String Target="*关闭远程协助（by 原罪）" Link="Wyłącz Pomoc zdalną (by YZ)"/>
 
-    <String Target="*禁用SMB1网络协议（by Jhovany200）" Link="*Wyłącz protokół internetowy SMBv1 (by Jhovany200)"/>
+    <String Target="*禁用SMB1网络协议（by MS-PC2）" Link="*Wyłącz protokół internetowy SMBv1 (by MS-PC2)"/>
     
     <!--服务优化-->
     <String Target="服务优化" Link="Usługi"/>
@@ -1304,7 +1304,7 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
     <String Target="Chrome浏览器老版本备份（by Honry）" Link="Pliki kopii zapasowej starej wersji Chrome Web Browser (by Honry)"/>
     <String Target="Chrome浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Pliki kopii zapasowej Chrome Web Browser, w razie problemów można cofnąć."/>
 
-    <String q="" Target="Opera浏览器老版本备份（by Jhovany200）" Link="Backup files of Opera Web Browser old version (by Jhovany200)"/>
+    <String q="" Target="Opera浏览器老版本备份（by MS-PC2）" Link="Backup files of Opera Web Browser old version (by MS-PC2)"/>
     <String q="" Target="Opera浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Backup files of Opera Web Browser after upgrade, for rollback in case of problems."/>
 
     <String Target="Microsoft .NET安装缓存（by 撕裂五维空间）" Link="Instalacja pamięci podręcznej Microsoft .NET (by SiLieWuWeiKongJian)"/>

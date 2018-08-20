@@ -942,7 +942,7 @@ Special Thanks to franz@drwindows.de
 
     <String Target="*关闭远程协助（by 原罪）" Link="*Windows Remote-Unterstützungsverbindungen nicht zulassen (by YZ)"/>
     
-    <String Target="*禁用SMB1网络协议（by Jhovany200）" Link="*Das Netzwerkprotokoll SMB1 nicht erlauben (by Jhovany200)"/>
+    <String Target="*禁用SMB1网络协议（by MS-PC2）" Link="*Das Netzwerkprotokoll SMB1 nicht erlauben (by MS-PC2)"/>
     
     <!--服务优化-->
     <String Target="服务优化" Link="Windows Dienste"/>
@@ -1304,7 +1304,7 @@ Special Thanks to franz@drwindows.de
     <String Target="Chrome浏览器老版本备份（by Honry）" Link="Backup-Dateien älterer Google Chrome-Versionen (by Honry)"/>
     <String Target="Chrome浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Backup-Dateien älterer Versionen von Google Chrome nach einem Update, für ein Rollback zur Problembehandlung."/>
 
-    <String Target="Opera浏览器老版本备份（by Jhovany200）" Link="Backup-Dateien älterer Opera Chrome-Versionen (by Jhovany200)"/>
+    <String Target="Opera浏览器老版本备份（by MS-PC2）" Link="Backup-Dateien älterer Opera Chrome-Versionen (by MS-PC2)"/>
     <String Target="Opera浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Backup-Dateien älterer Versionen von Google Opera nach einem Update, für ein Rollback zur Problembehandlung."/>
 
     <String Target="Microsoft .NET安装缓存（by 撕裂五维空间）" Link="Microsoft .NET Installationsspeicher (by SiLieWuWeiKongJian )"/>
