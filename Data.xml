@@ -2031,6 +2031,7 @@
       <Item Type="CheckBox" Name="#使任务栏更透明（by 518516.net）">
         <Applicable>
           <OSVersion Compare=">=">10.0</OSVersion>
+          <OSVersion Compare="&lt;">10.0.17134</OSVersion>
         </Applicable>
         <System>
           <State>
