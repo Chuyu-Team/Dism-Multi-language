@@ -10,6 +10,18 @@
   https://github.com/Chuyu-Team/Dism-Multi-language/blob/master/NCleanerReadMe.md
 
 ## 更新历史记录
+**Dism++ 10.1.1000.80 21:30 2018/8/20**
+- 修复Bug，修复“首次登陆动画”规则提示不支持此接口问题（感谢 冰淇淋小子）。
+- 解决Bug，com接口上初始化套间错误，导致Wua无法正确执行（感谢 竹叶青）。
+- 解决Bug，修复Windows Update WindowsVersion规则特定上下文时执行不正确问题。
+- 解决Bug 426，修复离线模式中Windows 10 17133以上系统版本识别为企业版问题（感谢 lovezhiqi123）。
+- 解决Bug，修复桌面壁纸质量调整问题（感谢 Łukasz Kuchta）
+- 解决Bug，屏蔽Windows 10 17134平台“使任务栏更透明”规则（感谢 Cloud.）
+- 解决Bug，当家庭组不存在时不显示家庭组（感谢 冰淇淋小子）
+- 新增Fea，添加ARM64支持。
+- 更新多国语言翻译。
+
+
 **Dism++ 10.1.1000.70C 15:14 2018/5/31**
 - 解决Bug 444，Windows 10 1803 OneDrive导致系统无法备份问题
 - 优化传递清理适配1803（由 毛利 提供）
