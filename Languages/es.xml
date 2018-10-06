@@ -1172,7 +1172,7 @@ Gracias a: Oleada, MS-PC2, nomemolesteis@gmail.com por la traducción.
     <String Target="删除后你将无法回滚到以前安装的系统。" Link="Después de eliminarlo, no se puede restaurar al sistema anterior."/>
 
     <String Target="Windows临时安装文件" Link="Archivos de instalación temporal de Windows"/>
-    <String Target="在系统升级或者还原后留下的系统临时安装文件，如果你确定当前没有进行系统升级或者还原，那么可以安全删除。" Link="Los archivos de instalación temporal del sistema que quedan después de la actualización o restauración del sistema, si está seguro de que no desea actualizar o restaurar su sistema, puede eliminarlo de forma segura."/>
+    <String Target="在系统升级或者还原后留下的系统临时安装文件，如果你确定当前没有进行系统升级或者还原，那么可以安全删除。" Link="Al actualizar o restaurar el sistema quedan archivos de instalación temporal, si está seguro de que no desea actualizar o restaurar su sistema, puede eliminarlo de forma segura."/>
 
     <String Target="QQ临时数据" Link="Archivos temporales Tencent QQ"/>
     <String Target="QQ运行时产生的临时文件还有日志，不影响QQ消息记录，建议定期删除。" Link="Al ejecutar QQ, crea archivos temporales y archivos log. Borralos regularmente."/>
