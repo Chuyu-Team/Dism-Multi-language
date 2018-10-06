@@ -904,9 +904,11 @@
       <Group>#临时文件</Group>
       <Scan Work="3">
         <Applicable>
-          <FileExist FilePath="%SystemDrive%\$Windows.~BT"/>
-          <FileExist FilePath="%SystemDrive%\$Windows.~WS"/>
-          <FileExist FilePath="%SystemDrive%\$Windows.~LS"/>
+          <Or>
+            <FileExist FilePath="%SystemDrive%\$Windows.~BT"/>
+            <FileExist FilePath="%SystemDrive%\$Windows.~WS"/>
+            <FileExist FilePath="%SystemDrive%\$Windows.~LS"/>
+          </Or>
         </Applicable>
         <Activate>
           <General RootPath="%SystemDrive%" Flags="Directory">
