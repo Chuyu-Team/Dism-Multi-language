@@ -548,7 +548,7 @@ Gracias a: Oleada, MS-PC2, nomemolesteis@gmail.com por la traducción.
     <String Target="安装日期" Link="Fecha de instalación"/>
     <String Target="状态" Link="Estado"/>
     <String Target="正在获取更新信息" Link="Obteniendo información de las actualizaciones"/>
-    <String Target="正在删除更新" Link="Eliminando actualizaciones"/>
+    <String Target="正在删除更新" Link="Eliminando actualización"/>
     <String Target="正在删除第 %d 个更新（共 %d ）" Link="Eliminando %d de %d actualizaciones"/>
     <String Target="补丁包" Link="Actualizar paquete"/>
     <String Target="正在安装更新" Link="Instalando actualización"/>
@@ -592,7 +592,7 @@ Gracias a: Oleada, MS-PC2, nomemolesteis@gmail.com por la traducción.
     <String Target="等待下载" Link="Esperando descarga"/>
     <String Target="下载失败" Link="Error al descargar"/>
     <String Target="安装失败" Link="Error"/>
-    <String Target="部分成功" Link="Parcialmente exitosa"/>
+    <String Target="部分成功" Link="Instalación parcial"/>
     <String Target="安装成功" Link="Instalación exitosa"/>
     <String Target="一个或者多个更新安装失败，错误代码：0x%.8X" Link="Una o varias instalaciones de la actualización han fallado. Código error: 0x%.8X."/>
     <String Target="正在下载" Link="Descargando"/>
@@ -1172,7 +1172,7 @@ Gracias a: Oleada, MS-PC2, nomemolesteis@gmail.com por la traducción.
     <String Target="删除后你将无法回滚到以前安装的系统。" Link="Después de eliminarlo, no se puede restaurar al sistema anterior."/>
 
     <String Target="Windows临时安装文件" Link="Archivos de instalación temporal de Windows"/>
-    <String Target="在系统升级或者还原后留下的系统临时安装文件，如果你确定当前没有进行系统升级或者还原，那么可以安全删除。" Link="Al actualizar o restaurar el sistema, crea una copia de seguridad. Si no va a actualizar o restaurar el sistema, puede eliminar la copia de seguridad."/>
+    <String Target="在系统升级或者还原后留下的系统临时安装文件，如果你确定当前没有进行系统升级或者还原，那么可以安全删除。" Link="Al actualizar o restaurar el sistema quedan archivos de instalación temporal, si está seguro de que no desea actualizar o restaurar su sistema, puede eliminarlo de forma segura."/>
 
     <String Target="QQ临时数据" Link="Archivos temporales Tencent QQ"/>
     <String Target="QQ运行时产生的临时文件还有日志，不影响QQ消息记录，建议定期删除。" Link="Al ejecutar QQ, crea archivos temporales y archivos log. Borralos regularmente."/>
@@ -1512,7 +1512,7 @@ V. Responsabilidad legal
 VI. Otros
 
     1. Solo decirle a los usuarios que miren las cláusulas de eximir la responsabilidad del equipo de Chuyu y los derechos de limitar a los usuarios. Los menores deben leer este acuerdo con sus tutores legales.
-    2. La validez del acuerdo y la explicación se aplican en el derecho de China. Si los usuarios y el equipo de Chuyu tienen conflictos, negociar primero. Si no es posible, por favor acepte informar a la corte que tenga jurisdicción para administrar.
+    2. La validez del acuerdo y la explicación se aplican en el derecho de China. Si los usuarios y el equipo de Chuyu tienen conflictos, negociar primero. Si no es posible, por favor acepte informar a la corte que tenga jurisdicción para administrar el caso.
     3. Si las cláusulas de este acuerdo no son válidas o no son ejecutables por cualquier razón, las demás cláusulas siguen siendo válidas. Vinculante para ambas.
     4. El acuerdo de usuario escrito en chino simplificado debe ser referido a si la versión de chino simplificado difiere de los acuerdos de usuario escritos en otros idiomas.
 </UserAgreement>
