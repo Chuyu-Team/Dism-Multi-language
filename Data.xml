@@ -904,13 +904,17 @@
       <Group>#临时文件</Group>
       <Scan Work="3">
         <Applicable>
-          <FileExist FilePath="%SystemDrive%\$Windows.~BT"/>
-          <FileExist FilePath="%SystemDrive%\$Windows.~WS"/>
+          <Or>
+            <FileExist FilePath="%SystemDrive%\$Windows.~BT"/>
+            <FileExist FilePath="%SystemDrive%\$Windows.~WS"/>
+            <FileExist FilePath="%SystemDrive%\$Windows.~LS"/>
+          </Or>
         </Applicable>
         <Activate>
           <General RootPath="%SystemDrive%" Flags="Directory">
             <Query>$Windows.~BT</Query>
             <Query>$Windows.~WS</Query>
+            <Query>$Windows.~LS</Query>
           </General>
         </Activate>
       </Scan>
@@ -7763,6 +7767,7 @@
     <Item>$Recycle.Bin</Item>
     <Item>$Windows.~BT</Item>
     <Item>$Windows.~WS</Item>
+    <Item>$Windows.~LS</Item>
     <Item>Recycler</Item>
     <Item>Recycled</Item>
     <Item>PerfLogs</Item>
