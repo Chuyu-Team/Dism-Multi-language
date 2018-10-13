@@ -1,5 +1,5 @@
 ﻿# Quick start
-The core functionality of Dism++ is to clean-up Windows Update, so you may not experience the full potential of the program until you have installed some updates.
+The core functionality of Dism++ is to clean-up and updates the Windows installation, so you may not experience the full potential of the program until you have installed some updates.
 
 ## User Interface
 As shown below, you may switch between various systems with the tabs above should you have multiple operating systems installed or mounted. On the left you may find and use various features of the program. For average users, they may be interested in the `Disk Clean-up` feature.
