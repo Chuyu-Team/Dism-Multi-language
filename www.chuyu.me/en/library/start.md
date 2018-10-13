@@ -5,58 +5,57 @@
 
 ## About Dism++ -  **We are in the frontline!**
 
-Dism++ can be considered as a GUI frontend of DISM, but it is based on low-level Component Based Servicing (CBS) interface instead of DISM API or DISM Core API.
+Dism++ can be considered as a GUI frontend of DISM, but it does not rely on Dism. It is instead based on a low-level Component Based Servicing (CBS) interface instead of the DISM API or DISM Core API.
 
 
-### Dism++的特点
-* Dism++ compatible with Windows Vista or later, without any Windows ADK DISM components requirements. If you use Microsoft's, it need 3 versions of Windows ADK DISM components.
-* Dism++是Dism的交集，提供完全的图形化操作，几乎支持Dism的所有功能以及大量Dism原本所不支持的功能。管理更新、驱动、功能、Appx、可选功能、服务、Compact/WIMboot、系统修复等……放马过来吧。
-* Dism++提供了完整的WIM支持（包括ESD捕获、ESD转ISO、释放分段ESD以及直接ISO支持），`值得一提的是，ESD转ISO，Dism++可以直接在内存中解密无需修改硬盘数据。这极大的满足了强迫症患者。`
-* Dism++提供了开放的清理以及优化功能，用户可以自定义Dism++规则，来打造专属系统工具。
+### Dism++ Features
+* Dism++ does not require any additional Dism component, such as the Windows ADK DISM components, making it compatible with a vareity of systems. Compared to Microsoft's Dism, the other solution requires 3 versions of the Windows ADK DISM components.
+* Dism++ is like an improved version of Dism. It provides a full graphical interface and supports almost all of Dism's functionalities and more. It can be used to manage updates, drivers, updates, features, Appx; toggle services and features; use Compact and WIMBoot; repair system...etc.
+* Dism++ provides full WIM support (including ESD patching, ESD to ISO, release partial ESD, and direct support for ISO). `Most importantly, when using the ESD to ISO conversion feature, Dism++ can decrypt from the internal storage without decrypting the data.`
+* Dism++ provides an open-ended clean-up and optimization features. Users can define their own Dism++ rules, creating their own tools for the system.
 
 [ [BUG Feedback](https://github.com/Chuyu-Team/Dism-Multi-language/issues) ]
 [ [QQ Group 200783396](http://shang.qq.com/wpa/qunwpa?idkey=07a04c095aee1e31f54b82ba98499a5b49aa10185f975946243ba68e0134a34e) ]
 
 ### Donate Dism++
-赞助的费将用于支付服务器费用，如果大家够豪气可能还能支付房租。为了从可持续角度考虑，建议大家每年小额赞助一次，每次大约20RMB即可。
+All donations go towards hosting; if enough people help out or donate enough, we may even be able to pay our rents. For sustaniability,  we recommend donating annually, roughly 20 RMB (~$4 USD) every time.
 
-`温馨提示：赞助并不是等于付费支持，此软件为个人爱好业余维护。BUG反馈以及改进意见并不能保证100%及时响并处理。因此请勿仅仅为了后期服务支持而赞助Dism++。`
+`Reminder: Donation does not equate to paying for support. This software is developed out of self-interest. Feedbacks may not be processed immediately. Please do not donate to Dism++ for the sake of software support.`
 
 ![WeiXin](../images/weixin.png)  ![Alipay](../images/1487498940074.jpg)
 
 ## Minimum requirements of Dism++
-
 Minimum: Windows NT 6.0 or later, 512 MB Physical Memory
 
-Recommend: Windows NT 6.1 or later, an AMD64 processor, 8 GB Physical Memory and 8 GB Pagefile or higher
+Recommended: Windows NT 6.1 or later, AMD64-based system, 8 GB Physical Memory and 8 GB Pagefile or higher
 
->* You can only run Dism++ on x86 and AMD64 processors. IA64, ARM and ARM64 images only support the offline mode.
-* Dism++ don't support the x86 images if lacks the WOW64 support in AMD64 Windows. (AMD64 Windows ADK PE is an example.) 
-* Features like CompactOS, WIMBoot and etc are unavailable in Windows Vista and Windows Server 2008.
+>* You can only run Dism++ on x86 and AMD64 processors. IA64, ARM and ARM64 systems can only support loading images in offline mode.
+* Dism++ does not support x86 images if lacks the WOW64 support in AMD64 Windows. (e.g. AMD64 Windows ADK PE.) 
+* Features like CompactOS, WIMBoot and etc. are unavailable in Windows Vista and Windows Server 2008.
 
 ## The file list of Dism++
 
-Here are the all files about Dism++. You can delete which you don't need. Lazy people ignore the following. 
+Here are the all files about Dism++. You can delete those that you do not need. Ignore the following if you do not know what you are doing or are too lazy.
 
 | File Name | Description
 | -------- | -------
-|Dism++x64.exe|64位系统的UI，在64位系统中，启动此程序呈现UI。32位系统用户可以考虑删除此文件。
-|Dism++x86.exe|32位系统的UI，如果你在64位系统中启动此程序，则自动转向到Dism++x64.exe。64位系统用户可以考虑删除此文件。
-|Config\amd64\bcdboot.exe|提供引导修复功能，原版系统自带此文件，删除没有影响。原版系统用户以及32位系统用户可以删除此文件。
-|Config\x86\bcdboot.exe|提供引导修复功能，原版系统自带此文件，删除没有影响。原版系统用户以及64位系统用户可以删除此文件。
-|Config\amd64\CBSHost.dll|Dism++API支持模块，删除后64位系统将无法使用Dism++。32位用户可以删除此文件。
-|Config\x86\CBSHost.dll|Dism++API支持模块，删除后32位系统将无法使用Dism++，64位系统无法脱机处理32位系统。不需要脱机处理32位系统的64位用户可以考虑删除。
-|Config\amd64\NCleaner.dll|64-bit NCleaner cleanup engine.  Missing this file can cause some advanced cleanup function unusable.  You can delete this file when you using a 32-Bit OS.
-|Config\x86\NCleaner.dll|32-bit NCleaner engine. Missing this file can cause some advanced cleanup function unusable.  You can delete this file when you using a 64-Bit OS.
-|Config\amd64\wimgapi.dll|WIM文件操作支持模块，Win10用户、32位用户或者不需要任何WIM相关功能的用户，那么可以考虑删除。
-|Config\x86\wimgapi.dll|WIM文件操作支持模块，Win10用户、64位用户或者不需要任何WIM相关功能的用户，那么可以考虑删除。
-|Config\amd64\wofadk.sys<br>Config\x86\wofadk.sys|提供Compact功能相关支持，不需要脱机处理的Win10用户可以考虑删除此文件。强烈建议不要删除这些文件。
-|Config\Plugins|Dism++插件支持，不需要插件的用户可以删除此文件。
-|Config\Languages|Dism++ Language files,  for english, just keep en.zip.
-|Config\Data.zip|This file include cleanup rules, ESD decrypt keys, etc.  Please DO NOT delete this file.
-|Config\UpdateInfo.zip<br>Config\UpdateInfoBeta.zip|The update information of Dism++, use to check the new version and avoid downgrade to old version. Recommend to keep this file, and missing this file will re-download automatically.
-|Config\default.ui.zip|It save the UI of Dism++.  Please DO NOT delete this file.
-|Config\wsusscn2.cab|Windows Update database file, use to scan updates.  You can delete this file.
-|Config\include\Dism++.h|This file in beta version only, the header file for C Script, missing this file can cause C Script unusable. 
-|Config\amd64\CScript.dll|This file in beta version only, the 64-bit parsing engine for C Script, missing this file can cause C Script unusable.  You can delete this file when you using a 32-Bit OS.
-|Config\x86\CScript.dll|This file in beta version only, the 32-bit parsing engine for C Script, missing this file can cause C Script unusable.  You can delete this file when you using a 64-Bit OS.
+|Dism++x64.exe| User interface for x64-based systems; used to provide a graphical interface. x86 users can consider removing this file.
+|Dism++x86.exe| User interface for x86-based systems; used to provide a graphical interface. When launched on an x64 system, Dism++x64.exe will be launched instead. x64 users can consider removing this file.
+|Config\amd64\bcdboot.exe| Provides index repair functionalitiy for x64 users. All versions of Windows come with this utility, removing this file does not affect the overall functionalitiy. Users with a full installation of Windows and x86 users can consider removing this file.
+|Config\x86\bcdboot.exe| Provides index repair functionalitiy for x86 users. All versions of Windows come with this utility, removing this file does not affect the overall functionalitiy. Users with a full installation of Windows and x64 users can consider removing this file.
+|Config\amd64\CBSHost.dll| 64-bit Dism++ API support module. Removing this file will render the utility useless for x64 users. x86 users can consider removing this file.
+|Config\x86\CBSHost.dll| 32-bit Dism++ API support module. Removing this file will render the utility useless for x86 users; x64 users will not be able to process x86-based systems offline. x64 users that do not need to handle x86-based systems can consider removing this file.
+|Config\amd64\NCleaner.dll| 64-bit NCleaner cleanup engine. Removing this file can render some of the advanced clean-up features unusable. x86 users can consider removing this file.
+|Config\x86\NCleaner.dll| 32-bit NCleaner engine. Removing this file can render some of the advanced clean-up features unusable. x64 users can consider removing this file.
+|Config\amd64\wimgapi.dll| WIM file operation support module. Windows 10 users, x86 users, or users that do not need to utilize any features related to WIM can consider removing this file.
+|Config\x86\wimgapi.dll| WIM file operation support module. Windows 10 users, x64 users, or users that do not need to utilize any features related to WIM can consider removing this file.
+|Config\amd64\wofadk.sys<br>Config\x86\wofadk.sys| Offers support for Compact-related features. Users that do not need to process Windows 10 systems offline can consider deleting this file. We highly recommend that you do not remove this file.
+|Config\Plugins| Offers Dism++ plugin support. Users that do not use plugins can consider removing this file.
+|Config\Languages| Dism++ Language files. For English users, you could remove everything else but `en.zip`.
+|Config\Data.zip| Includes cleanup rules, ESD decrypt keys, etc. Please DO NOT delete this file.
+|Config\UpdateInfo.zip<br>Config\UpdateInfoBeta.zip| Provides update information of Dism++, used to check for new versions and used to avoid downgrade to an older version. It is recommended to keep this file; when the file is missing, it will be re-downloaded automatically.
+|Config\default.ui.zip| Contains UI configruation for Dism++.  Please DO NOT delete this file.
+|Config\wsusscn2.cab| Windows Update database file, used to scan updates.  You can delete this file.
+|Config\include\Dism++.h| This file is only available in the beta version. The header file for C Script, missing this file can render C Script unusable. 
+|Config\amd64\CScript.dll|This file is only available in the beta version. The 64-bit parsing engine for C Script, missing this file can render C Script unusable.  You can delete this file when you using a 32-Bit OS.
+|Config\x86\CScript.dll|This file is only available in the beta version. The 32-bit parsing engine for C Script, missing this file can render C Script unusable.  You can delete this file when you using a 64-Bit OS.
