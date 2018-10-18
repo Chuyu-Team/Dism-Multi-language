@@ -391,7 +391,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="映像路径存在非英文字符可能导致安装更新失败，请在全英文路径重新挂载此映像，比如“D:\Mount”。" Link="The image path contains non-ASCII characters may cause the install update to fail. Please reload the image in an ASCII-compliant path, such as &quot;D:\Mount&quot;."/>
 
     <String Target="常用工具" Link="Utilities"/>
-      <String Target="空间回收" Link="Disk Clean"/>
+      <String Target="空间回收" Link="Disk Clean-up"/>
       <String Target="启动项管理" Link="Startup"/>
       <String Target="工具箱" Link="Toolkit"/>
       <String Target="Appx管理" Link="Appxs"/>
@@ -411,7 +411,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="正在扫描%s" Link="Scanning %s"/>
     <String Target="出错" Link="Error"/>
     <String Target="正在清理%s" Link="Cleaning %s"/>
-    <String Target="本次共释放了%s 的空间。" Link="freed %s."/>
+    <String Target="本次共释放了%s 的空间。" Link="Freed %s."/>
 
     <String Target="该规则来自CCleaner解析引擎，因此不能提供说明。" Link="The rule is from the CCleaner rules, so details are not available."/>
     <String Target="默认" Link="Default"/>
@@ -432,7 +432,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="Dism++即将进行清理，垃圾文件将被直接删除，无法通过回收站恢复，你确定要继续么？" Link="Dism++ will begin the cleanup process. Files CANNOT be recovered from Recycle Bin. Do you want to proceed?"/>
 
     <!--注册表清理-->
-    <String Target="注册表清理" Link="Registry Cleanup"/>
+    <String Target="注册表清理" Link="Registry Clean-up"/>
     <String Target="无效动态链接库" Link="Invalid dynamic link library"/>
     <String Target="无效的应用程序路径" Link="Invalid application path"/>
     <String Target="无效的启动程序" Link="Invalid startup procedure"/>
@@ -442,7 +442,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="无效的MUI缓存" Link="Invalid MUI cache"/>
     <String Target="无效的文件类型" Link="Invalid file type"/>
     <String Target="无效的COM组件" Link="Invalid COM component"/>
-    <String Target="蓝屏记录" Link="Blue record"/>
+    <String Target="蓝屏记录" Link="BSoD History"/>
     <String Target="注册表还原" Link="Restore"/>
     <String Target="清理时间" Link="Cleanup time"/>
     <String Target="网络位置" Link="Network Location"/>
