@@ -1015,6 +1015,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="任务栏相关设置" Link="Taskbar settings"/>
     <String Target="关闭商店应用推广（by 、Cloud.）" Link="Disable ads from Windows Store (by 、Cloud.)"/>
     <String Target="关闭多嘴的小娜（by 朽木）" Link="Disable Cortana (by XiuMu)"/>
+    <String Target="显示首次登录动画（by intionwun &amp; 组策略编辑器）" Link="Show-Enable First Logon Animation (by intionwun & Group Policy Editor)"/>
     <String Target="关闭游戏录制工具（by 、Cloud.）" Link="Disable game recorder (by 、Cloud.)"/>
     <String Target="启用 Windows 照片查看器（by 心之所向）" Link="Enable Windows Photo Viewer (by XingZhiSuoXiang)"/>
     <String Target="安全相关设置" Link="Security Settings"/>
