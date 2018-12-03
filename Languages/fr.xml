@@ -1015,7 +1015,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="任务栏相关设置" Link="Paramètres de la barre des tâches"/>
     <String Target="关闭商店应用推广（by 、Cloud.）" Link="Désactiver la promotion de l’application sur Windows Store (par Cloud)"/>
     <String Target="关闭多嘴的小娜（by 朽木）" Link="Désactiver Cortana (par XiuMu)"/>
-    <String Target="显示首次登录动画（by intionwun &amp; 组策略编辑器）" Link="Activer l’animation lors de la première connexion utilisateur (par intionwun et Group Policy Editor)"/>
+    <String Target="显示首次登录动画（by intionwun &amp; 组策略编辑器）" Link="Activer l’animation à la première connexion (par intionwun et Group Policy Editor)"/>
     <String Target="关闭游戏录制工具（by 、Cloud.）" Link="Désactiver l’enregistrement des jeux (par Cloud)"/>
     <String Target="启用 Windows 照片查看器（by 心之所向）" Link="Activer la visionneuse de photos de Windows (par XingZhiSuoXiang)"/>
     <String Target="安全相关设置" Link="Paramètres de sécurité"/>
