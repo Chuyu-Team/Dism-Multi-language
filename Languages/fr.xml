@@ -213,7 +213,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="扫描" Link="Analyser"/>
     <String Target="清理" Link="Nettoyer"/>
 
-    <String Target="存在风险" Link="Risque détecté"/>
+    <String Target="存在风险" Link="Opération risquée"/>
     <String Target="建议保留" Link="Garder"/>
     <String Target="可以删除" Link="Demander à supprimer"/>
     <String Target="建议删除" Link="Supprimer immédiatement"/>
