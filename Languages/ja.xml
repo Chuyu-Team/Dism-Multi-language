@@ -1177,7 +1177,7 @@ Special Thanks to 山形まり花
 
     <String q="" Target="IDM临时文件（by MS-PC2）" Link="Internet Download Manager temporary files (by MS-PC2)"/>
     <String q="" Target="Internet Download Manager临时下载文件。" Link="Temporary download files left by Internet Download Manager temporary files."/>
-    <String q="" Target="清理IDM临时文件可能导致正在下载的任务需要重新下载！" Link="Cleaning up IDM temporary files may cause the task being downloaded to be re-downloaded!"/
+    <String q="" Target="清理IDM临时文件可能导致正在下载的任务需要重新下载！" Link="Cleaning up IDM temporary files may cause the task being downloaded to be re-downloaded!"/>
 
     <String Target="QQ临时数据" Link="テンセント QQ 一時ファイル"/>
     <String Target="QQ运行时产生的临时文件还有日志，不影响QQ消息记录，建议定期删除。" Link="When QQ running, QQ made the temp files and log files. I recommend you delete them regularly."/>
