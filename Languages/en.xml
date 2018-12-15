@@ -730,6 +730,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="提交规则" Link="Provide rules"/>
 
     <!--Explorer-->
+    <String Target="Explorer" Link="Explorer"/>
     <String Target="将任务栏中的Cortana调整为" Link="Choose how the Cortana is shown on taskbar"/>
       <String Target="隐藏" Link="Hidden"/>
       <String Target="仅显示图标" Link="Only show search icon"/>
