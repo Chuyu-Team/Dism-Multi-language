@@ -731,7 +731,7 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
 
     <!--Explorer-->
     <String q="" Target="Explorer" Link="Explorer"/>
-    <String Target="将任务栏中的Cortana调整为" Link="Choose how the Cortana is shown on taskbar"/>	    <String Target="将任务栏中的Cortana调整为" Link="Изберете как да се показва Кортана в лентата със задачите"/>
+    <String Target="将任务栏中的Cortana调整为" Link="Изберете как да се показва Кортана в лентата със задачите"/>
       <String Target="隐藏" Link="Скрита"/>
       <String Target="仅显示图标" Link="Покажи иконата за търсене"/>
       <String Target="显示搜索框" Link="Покажи полето за търсене"/>
@@ -1016,8 +1016,8 @@ Special thanks to Мартин Тайна, Pavel Belivakov <belivakov@gmail.com>
     <String Target="任务栏相关设置" Link="Настройки на лентата за задачи"/>
     <String Target="关闭商店应用推广（by 、Cloud.）" Link="Изключи Windows Store app promotion (от 、Cloud.)"/>
     <String Target="关闭多嘴的小娜（by 朽木）" Link="Изключи Кортана (от XiuMu)"/>
-    <String q="" Target="显示首次登录动画（by intionwun &amp; 组策略编辑器）" Link="Show-Enable First Logon Animation (by intionwun & Group Policy Editor)"/>    <String Target="关闭游戏录制工具（by 、Cloud.）" Link="Изключи game recorder (от 、Cloud.)"/>
-    <String q="" Target="关闭游戏录制工具（by 、Cloud.）" Link="Disable game recorder (by 、Cloud.)"/>
+    <String q="" Target="显示首次登录动画（by intionwun &amp; 组策略编辑器）" Link="Show-Enable First Logon Animation (by intionwun &amp; Group Policy Editor)"/>
+    <String Target="关闭游戏录制工具（by 、Cloud.）" Link="Изключи game recorder (от 、Cloud.)"/>
     <String q="" Target="启用 Windows 照片查看器（by 心之所向）" Link="Enable Windows Photo Viewer (от XingZhiSuoXiang)"/>
     <String Target="安全相关设置" Link="Настройки на Security"/>
     <String Target="开启模糊音（by 朽木）" Link="Enable fuzzy support (от XiuMu)"/>
