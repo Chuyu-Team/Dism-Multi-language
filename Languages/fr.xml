@@ -854,7 +854,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="禁用桌面的英特尔集显右键菜单（by 莫失莫忘）" Link="Désactiver les options du moteur graphique Intel intégré du menu contextuel sur le bureau (par MoWangMoShi)"/>
     <String Target="禁用目录、文件夹、所有对象、的“始终脱机可用”右键菜单" Link="Désactiver l’option « Activer l’utilisation en mode hors connexion » du menu contextuel sur les dossiers et tous les objets"/>
     <String Target="禁用磁盘的“以便携式方式打开”右键菜单（by 莫失莫忘）" Link="Désactiver l’option « Ouvrir en tant que dispositif portable » du menu contextuel pour les disques (par MoWangMoShi)"/>
-    <String Target="禁用磁盘的“刻录到光盘”右键菜单" Link="Désactivez « Graver l’image disque » du menu contextuel pour les images ISO (par MoWangMoShi)"/>
+    <String Target="禁用磁盘的“刻录到光盘”右键菜单" Link="Désactiver l’option « Graver l’image disque » du menu contextuel pour les images ISO (par MoWangMoShi)"/>
     <String Target="禁用磁盘的“启用Bitlocker”右键菜单（by 莫失莫忘）" Link="Désactiver l’option « Activer Bitlocker » du menu contextuel pour les disques (par MoWangMoShi)"/>
     <String Target="禁用磁盘的“复制磁盘”右键菜单" Link="Désactiver l’option « Copier » du menu contextuel pour les disques"/>
     <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="Désactiver l’option « Partager » du menu contextuel sur les fichiers, les dossiers, le bureau, les disques et les bibliothèques"/>
