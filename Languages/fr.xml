@@ -703,7 +703,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
 
     <String Target="用于修改WIM、SWM以及ESD文件信息。" Link="Pour l’édition des fichiers WIM, et SWM/ESD."/>
 
-    <String Target="文件浏览器" Link="Explorateur"/>
+    <String Target="文件浏览器" Link="Explorateur de fichiers"/>
     <String Target="提供简单的文件浏览，并支持无视权限删除。" Link="Permet d’explorer certains fichiers tout simplement, en ignorant les droits de vérification."/>
 
     <String Target="ISO生成器" Link="Créer ISO"/>
@@ -730,6 +730,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="提交规则" Link="Règles en ligne"/>
 
     <!--Explorer-->
+    <String Target="Explorer" Link="Explorateur"/>
     <String Target="将任务栏中的Cortana调整为" Link="Choisir comment afficher Cortana dans la barre des tâches"/>
       <String Target="隐藏" Link="Masquer"/>
       <String Target="仅显示图标" Link="Afficher l’icône de recherche"/>
@@ -746,7 +747,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
 
     <String Target="隐藏“任务视图”按钮" Link="Masquer le bouton « Affichage de la tâche »"/>
 
-    <String Target="打开资源管理器时显示此电脑" Link="Ouvrir l’Explorateur de Fichiers pour ce PC"/>
+    <String Target="打开资源管理器时显示此电脑" Link="Ouvrir l’Explorateur de fichiers pour ce PC"/>
 
     <String Target="显示所有文件扩展名" Link="Afficher les extensions pour tous les types de fichiers"/>
 
