@@ -730,6 +730,7 @@ Special thanks to JNylson
     <String Target="提交规则" Link="Fornecer regras"/>
 
     <!--Explorer-->
+    <String q="" Target="Explorer" Link="Explorer"/>
     <String Target="将任务栏中的Cortana调整为" Link="Escolha como a cortana é mostrada na barra de tarefas"/>
       <String Target="隐藏" Link="Ocultar"/>
       <String Target="仅显示图标" Link="Mostrar apenas ícone de pesquisa"/>
@@ -1015,6 +1016,7 @@ Special thanks to JNylson
     <String Target="任务栏相关设置" Link="Configurações da Barra de Tarefas"/>
     <String Target="关闭商店应用推广（by 、Cloud.）" Link="Desativar anúncios da Windows Store (by 、Cloud.)"/>
     <String Target="关闭多嘴的小娜（by 朽木）" Link="Desativar Cortana (by XiuMu)"/>
+    <String q="" Target="显示首次登录动画（by intionwun &amp; 组策略编辑器）" Link="Show-Enable First Logon Animation (by intionwun &amp; Group Policy Editor)"/>
     <String Target="关闭游戏录制工具（by 、Cloud.）" Link="Desativar Gravador de Jogos (by 、Cloud.)"/>
     <String Target="启用 Windows 照片查看器（by 心之所向）" Link="Ativar Visualizador de Fotos do Windows (by XingZhiSuoXiang)"/>
     <String Target="安全相关设置" Link="Configurações de segurança"/>
@@ -1172,6 +1174,10 @@ Special thanks to JNylson
 
     <String Target="Windows临时安装文件" Link="Arquivos de Instalação Temporários do Windows"/>
     <String Target="在系统升级或者还原后留下的系统临时安装文件，如果你确定当前没有进行系统升级或者还原，那么可以安全删除。" Link="When system upgrading or restoring, system made the backup. If you ensure you did not upgrade or restore system, you can delete the backup."/>
+
+    <String q="" Target="IDM临时文件（by MS-PC2）" Link="Internet Download Manager temporary files (by MS-PC2)"/>
+    <String q="" Target="Internet Download Manager临时下载文件。" Link="Temporary download files left by Internet Download Manager temporary files."/>
+    <String q="" Target="清理IDM临时文件可能导致正在下载的任务需要重新下载！" Link="Cleaning up IDM temporary files may cause the task being downloaded to be re-downloaded!"/>
 
     <String Target="QQ临时数据" Link="Arquivos Temporários do Tencent QQ"/>
     <String Target="QQ运行时产生的临时文件还有日志，不影响QQ消息记录，建议定期删除。" Link="When QQ running, QQ made the temp files and log files. I recommend you delete them regularly."/>
