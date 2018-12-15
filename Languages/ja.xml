@@ -14,7 +14,7 @@ Also some control characters should be preferably encoded as numeric character e
     \r    Carriage return control      &#xD;
 Also please avoid indenting this file using tabulations.
 
-Special Thanks to 山形まり花
+Special Thanks to 山形まり花.
 -->
 <Data>
   <DefaultControl>
@@ -1016,7 +1016,7 @@ Special Thanks to 山形まり花
     <String Target="任务栏相关设置" Link="タスク バーの設定"/>
     <String Target="关闭商店应用推广（by 、Cloud.）" Link="ストアのキャンペーンを閉じる (by 、Cloud.)"/>
     <String Target="关闭多嘴的小娜（by 朽木）" Link="コルタナを閉じる (by XiuMu)"/>
-    <String q="" Target="显示首次登录动画（by intionwun &amp; 组策略编辑器）" Link="Show-Enable First Logon Animation (by intionwun & Group Policy Editor)"/>
+    <String q="" Target="显示首次登录动画（by intionwun &amp; 组策略编辑器）" Link="Show-Enable First Logon Animation (by intionwun &amp; Group Policy Editor)"/>
     <String Target="关闭游戏录制工具（by 、Cloud.）" Link="ゲーム録画を閉じる (by 、Cloud.)"/>
     <String Target="启用 Windows 照片查看器（by 心之所向）" Link="Windows フォト ビューアー有効化 (by XinZhiSuoXiang)"/>
     <String Target="安全相关设置" Link="セキュリティ設定"/>
