@@ -1016,8 +1016,8 @@ Special Thanks to Massimiliano F.
     <String Target="任务栏相关设置" Link="Impostazioni Barra Applicazioni"/>
     <String Target="关闭商店应用推广（by 、Cloud.）" Link="Disattiva app promozionali di Windows Store (by 、Cloud.)"/>
     <String Target="关闭多嘴的小娜（by 朽木）" Link="Disattiva Cortana (by XiuMu)"/>
+    <String q="" Target="显示首次登录动画（by intionwun &amp; 组策略编辑器）" Link="Show-Enable First Logon Animation (by intionwun &amp; Group Policy Editor)"/>
     <String Target="关闭游戏录制工具（by 、Cloud.）" Link="Disattiva registrazione giochi (by 、Cloud.)"/>
-    <String q="" Target="关闭游戏录制工具（by 、Cloud.）" Link="Disable game recorder (by 、Cloud.)"/>
     <String Target="启用 Windows 照片查看器（by 心之所向）" Link="Attiva Visualizzatore Foto di Windows (by XingZhiSuoXiang)"/>
     <String Target="安全相关设置" Link="Impostazioni Sicurezza"/>
     <String Target="开启模糊音（by 朽木）" Link="Attiva supporto fuzzy (by XiuMu)"/>
@@ -1177,7 +1177,7 @@ Special Thanks to Massimiliano F.
 
     <String q="" Target="IDM临时文件（by MS-PC2）" Link="Internet Download Manager temporary files (by MS-PC2)"/>
     <String q="" Target="Internet Download Manager临时下载文件。" Link="Temporary download files left by Internet Download Manager temporary files."/>
-    <String q="" Target="清理IDM临时文件可能导致正在下载的任务需要重新下载！" Link="Cleaning up IDM temporary files may cause the task being downloaded to be re-downloaded!"/
+    <String q="" Target="清理IDM临时文件可能导致正在下载的任务需要重新下载！" Link="Cleaning up IDM temporary files may cause the task being downloaded to be re-downloaded!"/>
 
     <String Target="QQ临时数据" Link="File temporanei Tencent QQ"/>
     <String Target="QQ运行时产生的临时文件还有日志，不影响QQ消息记录，建议定期删除。" Link="Quando QQ è avviato, QQ crea dei file log temporanei. E' raccomandato eliminarli regolarmente."/>
