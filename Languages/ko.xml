@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 This is the Korean translation resource for Dism++.
 There are 5 ASCII punctuation needing special representation in XML.
@@ -1016,7 +1016,7 @@ Special thanks to digitky, OldMac, Schooli, 阿泽西
     <String Target="任务栏相关设置" Link="작업표시줄 설정"/>
     <String Target="关闭商店应用推广（by 、Cloud.）" Link="Windows 스토어에서 광고를 사용하지않도록 설정 (by 、Cloud.)"/>
     <String Target="关闭多嘴的小娜（by 朽木）" Link="Cortana 비활성화 (by XiuMu)"/>
-    <String q="" Target="显示首次登录动画（by intionwun &amp; 组策略编辑器）" Link="Show-Enable First Logon Animation (by intionwun & Group Policy Editor)"/>
+    <String q="" Target="显示首次登录动画（by intionwun &amp; 组策略编辑器）" Link="Show-Enable First Logon Animation (by intionwun &amp; Group Policy Editor)"/>
     <String Target="关闭游戏录制工具（by 、Cloud.）" Link="게임레코더 사용안함 (by 、Cloud.)"/>
     <String Target="启用 Windows 照片查看器（by 心之所向）" Link="Windows 사진 뷰어 클래식 사용 (by XingZhiSuoXiang)"/>
     <String Target="安全相关设置" Link="보안 설정"/>
