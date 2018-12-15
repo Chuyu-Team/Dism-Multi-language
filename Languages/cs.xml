@@ -1016,6 +1016,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="关闭商店应用推广（by 、Cloud.）" Link="Zakázat Windows Store podporu aplikací (od Cloud)"/>
     <String Target="关闭多嘴的小娜（by 朽木）" Link="Zakázat Cortanu (od XiuMu)"/>
     <String Target="关闭游戏录制工具（by 、Cloud.）" Link="Zakázat záznam her (od Cloud)"/>
+    <String Target="关闭游戏录制工具（by 、Cloud.）" Link="Disable game recorder (by 、Cloud.)"/>
     <String Target="启用 Windows 照片查看器（by 心之所向）" Link="Aktivovat Windows Photo Viewer (od XingZhiSuoXiang)"/>
     <String Target="安全相关设置" Link="Bezpečnostní nastavení"/>
     <String Target="开启模糊音（by 朽木）" Link="Povolit podporu fuzzy (od XiuMu)"/>
@@ -1172,6 +1173,10 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
 
     <String Target="Windows临时安装文件" Link="Dočasné instalační soubory Windows"/>
     <String Target="在系统升级或者还原后留下的系统临时安装文件，如果你确定当前没有进行系统升级或者还原，那么可以安全删除。" Link="Dočasné soubory po aktualizaci nebo obnovení systému. Odstraňte, pokud jste si jisti, že to nebude aktualizovat nebo obnovovat stávající systém."/>
+
+    <String Target="IDM临时文件（by MS-PC2）" Link="Internet Download Manager temporary files (by MS-PC2)"/>
+    <String Target="Internet Download Manager临时下载文件。" Link="Temporary download files left by Internet Download Manager temporary files."/>
+    <String Target="清理IDM临时文件可能导致正在下载的任务需要重新下载！" Link="Cleaning up IDM temporary files may cause the task being downloaded to be re-downloaded!"/
 
     <String Target="QQ临时数据" Link="Tencent QQ dočasné soubory"/>
     <String Target="QQ运行时产生的临时文件还有日志，不影响QQ消息记录，建议定期删除。" Link="Během spuštění QQ generuje dočasné soubory a soubory protokolů. Doporučuje se pravidelně mazat."/>
