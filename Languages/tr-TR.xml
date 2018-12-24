@@ -1,0 +1,1516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This is the Turkish translation resource for Dism++.
+There are 5 ASCII punctuation needing special representation in XML.
+Also some control characters should be preferably encoded as numeric character entities.
+  Symbol  Description                  Encoded as  Preferably changed in translations to
+    <     Less than                    &lt;
+    >     More than                    &gt;
+    &     And                          &amp;
+    '     Single quotation mark        &apos;
+    "     Double quotation mark        &quot;
+    \t    Tabulation control           &#9;
+    \n    Line feed (newline) control  &#xA;
+    \r    Carriage return control      &#xD;
+Also please avoid indenting this file using tabulations.
+
+-->
+<Data>
+  <DefaultControl>
+    <Font shared="true" id="0" name="Segoe UI" size="12"/>
+    <Font shared="true" id="1" name="Segoe UI" size="16"/>
+  </DefaultControl>
+  <CCleanLangSecRefMap>
+    <LangSecRef ID="3021">Uygulamalar</LangSecRef>
+    <LangSecRef ID="3022">İnternet</LangSecRef>
+    <LangSecRef ID="3023">Çoklu Ortam</LangSecRef>
+    <LangSecRef ID="3024">Araçlar</LangSecRef>
+    <LangSecRef ID="3025">Sistem</LangSecRef>
+    <LangSecRef ID="3026">Tarayıcı</LangSecRef>
+    <LangSecRef ID="3027">Tarayıcı</LangSecRef>
+    <LangSecRef ID="3028">Tarayıcı</LangSecRef>
+    <LangSecRef ID="3029">Tarayıcı</LangSecRef>
+    <LangSecRef ID="3030">Uygulamalar</LangSecRef>
+    <LangSecRef ID="3031">Windows Mağaza</LangSecRef>
+  </CCleanLangSecRefMap>
+  <StringMaps>
+    <String Target="文件(&amp;F)" Link="&amp;Dosya"/>
+      <String Target="添加映像" Link="Ekle"/>
+        <String Target="释放映像&#9;Ctrl+N" Link="Kalıbı Geri Yükle&#9;Ctrl+N"/>
+        <String Target="挂载映像&#9;Ctrl+Shift+N" Link="Kalıbı Tak&#9;Ctrl+Shift+N"/>
+        <String Target="添加路径" Link="Yol Ekle"/>
+      <String Target="卸载映像&#9;Delete" Link="Kalıbı Çıkart&#9;Delete"/>
+      <String Target="保存映像&#9;Ctrl+S" Link="Kalıbı Kaydet&#9;Ctrl+S"/>
+      <String Target="另存为映像&#9;Ctrl+Shift+S" Link="Kalıbı Farklı Kaydet&#9;Ctrl+Shift+S"/>
+      <String Target="打开映像文件&#9;Ctrl+O" Link="Kalıp Dosyası Aç&#9;Ctrl+O"/>
+      <String Target="重新载入" Link="Yeniden Yükle"/>
+      <String Target="格式转换" Link="Biçim Dönüşümü"/>
+        <String Target="ESD解密" Link="ESD Ayıklama"/>
+    <String Target="取消任务&#9;Ctrl+Break" Link="İşlemi İptal Et&#9;Ctrl+Break"/>
+
+    <String Target="恢复功能(&amp;R)" Link="&amp;Kurtarma"/>
+      <String Target="系统修复" Link="Sistem Kurtarma"/>
+      <String Target="健康扫描" Link="Sağlık Denetimi"/>
+        <String Target="验证受损" Link="Sağlık Taraması"/>
+        <String Target="修复受损" Link="Sağlığı Düzelt"/>
+      <String Target="引导修复" Link="Başlatma Onarımı"/>
+      <String Target="系统备份" Link="Sistem Yedekleme"/>
+      <String Target="系统还原" Link="Geri Yükleme"/>
+      <String Target="在RE中运行" Link="WinRE İçinde Çalıştır"/>
+      <String Target="仅启动RE" Link="Yalnız WinRE Çalıştır"/>
+      <String Target="撤销Compact" Link="Sıkıştırmayı Geri Al"/>
+
+    <String Target="选项(&amp;O)" Link="&amp;Ayarlar"/>
+      <String Target="插件管理" Link="Eklenti Yöneticisi"/>
+      <String Target="新手模式" Link="Acemi Kipi"/>
+      <String Target="详细设置" Link="Diğer Ayarlar"/>
+      <String Target="操作完成后" Link="İşlem Tamamlandığında"/>
+        <String Target="未定义" Link="Bir Şey Yapılmasın"/>
+        <String Target="关机" Link="Kapatılsın"/>
+        <String Target="重启" Link="Yeniden Başlatılsın"/>
+      <String Target="程序外观" Link="Görünüm"/>
+
+    <String Target="帮助(&amp;H)" Link="&amp;Yardım"/>
+      <String Target="查看帮助(&amp;V)" Link="&amp;Yardım Konuları"/>
+      <String Target="官方网站(&amp;O)" Link="Resmi &amp;Web Sitesi"/>
+      <String Target="官方群(&amp;G)" Link="&amp;Resmi Grup"/>
+      <String Target="问题反馈(&amp;B)" Link="&amp;Geri Bildirim"/>
+      <String Target="关于Dism++(&amp;A)" Link="Dism++ &amp;Hakkında"/>
+      <String Target="检查更新(&amp;U)" Link="Güncelleme &amp;Denetimi"/>
+
+    <String Target="应用一个WIM、ESD、SWM或者ISO映像。" Link="Bir WIM, ESD, SWM ya da ISO kalıbına uygulanır."/>
+    <String Target="从 WIM 文件安装映像。" Link="Bir WIM kalıbını takar."/>
+    <String Target="卸载安装的 WIM 映像" Link="Bir WIM kalıbını çıkartır."/>
+    <String Target="保存对安装的 WIM 映像的更改" Link="Takılmış bir WIM kalıbındaki değişiklikleri kaydeder."/>
+    <String Target="保存更改到另一个WIM文件中" Link="Değişiklikleri farklı bir WIM kalıbına kaydeder."/>
+    <String Target="打开并编辑现有的WIM文件" Link="Var olan bir WIM kalıbını açar ve düzenler"/>
+    <String Target="WIM、ESD互转" Link="ESD <-> WIM"/>
+    <String Target="将ESD文件（支持加密）转换为ISO。" Link="ESD dosyasını ISO biçimine dönüştürür (şifrelenmiş ESD dosyalarını destekler)."/>
+    <String Target="解密微软在线提供的ESD文件" Link="Microsoft Online üzerinden ESD dosyalarını ayıklar"/>
+    <String Target="重启进入RE并为我启动Dism++" Link="WinRE ile başlatır ve Dism++ uygulamasını çalıştırır"/>
+    <String Target="启动RE环境" Link="WinRE Başlat"/>
+    <String Target="添加删除Dism插件" Link="Dism++ eklentilerini ekler ya da kaldırır"/>
+    <String Target="在官方网站可以获取帮助文档，并提出你的宝贵意见" Link="Belgeleri www.chuyu.me üzerinde bulabilirsiniz. Geri bildirimlerinizi bekliyoruz!"/>
+    <String Target="为映像重新添加引导。" Link="Yeniden bir başlatma kalıbı ekle."/>
+    <String Target="只添加指定文件夹路径到映像列表。" Link="Seçilmiş yolu Kalıp Listesine ekle."/>
+    <String Target="重新扫描系统" Link="Yeniden Tara"/>
+    <String Target="取消所有Compact压缩的文件（存在兼容性问题时使用）" Link="Sıkıştırılmış tüm dosyaları ayıkla (uyumluluk sorunlarına karşı)"/>
+    <String Target="将现有的系统备份为WIM或者ESD（如果文件存在则自动增量到原有文件）。" Link="Bu sistemi bir WIM ya da ESD dosyasına yedekle (daha önce yedek alınmış ise değişiklikler var olan WIN/ESD dosyasına uygulanır (artımlı yedek))."/>
+    <String Target="扫描映像是否存在组件存储损坏" Link="Kalıbı Tara"/>
+    <String Target="修复映像中存在的组件存储损坏" Link="Kalıbı Onar"/>
+    <String Target="从现有映像文件（WIM、ESD）恢复系统。" Link="İşletim sistemini var olan bir kalıp dosyasından geri yükle (WIM/ESD)"/>
+    <String Target="调整Dism++的设置" Link="Dism++ ayarlarını yapar"/>
+    <String Target="专家模式" Link="Uzman Kipi"/>
+
+    <!--右键菜单-->
+    <String Target="Xpress4k（推荐）" Link="Xpress4k (Önerilir)"/>
+    <String Target="LZX（体积最小）" Link="LZX (en küçük)"/>
+
+    <!--主框架-->
+    <String Target="正在删除" Link="Siliniyor"/>
+    <String Target="错误提示" Link="Hata"/>
+    <String Target="正在保存" Link="Kaydediliyor"/>
+    <String Target="保存映像" Link="Kalıbı Kaydet"/>
+    <String Target="正在准备" Link="Hazırlanıyor"/>
+    <String Target="正在加载规则" Link="Kurallar yükleniyor"/>
+    <String Target="Dism++不允许修改文件名，这将导致插件无法正常加载。" Link="Eklentinin yüklenmesini engelleyebileceğinden Dism++ dosya adının değiştirilmesine izin vermiyor."/>
+    <String Target="无法启动Dism++x64.exe，请确保该Dism++组件的完整性。" Link="Dism++x64.exe başlatılamadı. Lütfen Dism++ bileşenlerinin eksik olmadığından emin olun."/>
+    <String Target="Dism++关键组件丢失，请从 www.chuyu.me 重新下载Dism++。" Link="Önemli bir Dism++ dosyası eksik. Lütfen www.chuyu.me sitesinden Dism++ uygulamasını indirin."/>
+    <String Target="临时目录可用空间不足5GB，这可能导致Dism++无法正常运行，推荐将Dism++复制到可用空间大于5GB的驱动器，然后继续。" Link="Geçici klasördeki boş alan 5GB boyutundan küçük olduğundan Dism++ düzgün çalışmayabilir. Dism++ uygulamasını 5GB boyutundan daha fazla boş alanı olan bir sürücüye kopyaladıktan sonra yeniden deneyin."/>
+    <String Target="基础支撑库缺失，引导修复相关功能无法使用。" Link="Temel destek kitaplığı eksik. Başlatma onarımı ile ilgili işlemler yapılamaz."/>
+    <String Target="Dism++需要管理员权限才能运行，请右键 以管理员身份运行 然后继续。" Link="Dism++ uygulamasının çalışması için yönetici izinlerine gerek var. Lütfen çalıştırmak için uygulama üzerine sağ tıklayın ve Yönetici Olarak Çalıştır komutunu seçin."/>
+    <String Target="Dism++不允许以兼容模式启动，请去除兼容模式，然后再启动Dism++。" Link="Dism++ uygulaması uyumluluk kipinde çalışmaz. Devre dışı bıraktıktan sonra Dism++ uygulamasını yeniden başlatın."/>
+
+    <String Target="你需要增量保存还是直接保存？" Link="Doğrudan ya da artımlı olarak kaydedilsin mi?"/>
+    <String Target="温馨提示：保存映像后空间不会减少，如果需要减少空间请重新编译目标文件。" Link=";İpucu: Bu kalıbı kaydederseniz boş alan azalmaz. Boş alanı azaltmak için hedef dosyayı yeniden derleyin"/>
+    <String Target="增量保存（推荐）&#xA;创建一个新的映像，不会覆盖原有数据。" Link="Artımlı Kayıt (Önerilir)&#xA;Yeni bir kalıp oluşturur. Özgün veriler değiştirilmez."/>
+
+    <String Target="直接保存&#xA;将覆盖当前映像的数据。" Link="Doğrudan kaydet&#xA;Özgün kalıp dosyasını bu değiştirilmiş kalıp ile değiştirir."/>
+
+    <String Target="温馨提示" Link="İpuçları"/>
+
+    <String Target="正在挂载" Link="Takılıyor"/>
+    <String Target="正在卸载映像" Link="Çıkartılıyor"/>
+    <String Target="正在释放" Link="Uygulanıyor"/>
+    <String Target="正在还原" Link="Geri Yükleniyor"/>
+    <String Target="%s 位置的映像正在进行其他事情，请稍后再试。" Link="%s konumundaki kalıp kullanılıyor. Lütfen daha sonra yeniden deneyin."/>
+    <String Target="无法移动文件 %s，Dism++已回滚对系统的更改。" Link="%s dosyası taşınamadı. Dism++ sistemde yapılan değişiklikleri geri aldı."/>
+
+    <String Target="正在配置WinRE" Link="Windows RE Yapılandırılıyor"/>
+    <String Target="正在进行第 %d 阶段（共 %d ）" Link="%d. Adım (toplam %d adım)"/>
+    <String Target="格式转换向导" Link="Biçim Dönüştürme Yardımcısı"/>
+    <String Target="此功能可以将微软发布的ESD转换为ISO，还支持加密的ESD哦。" Link="Bu özellik ESD biçimindeki dosyaları ISO biçimine dönüştürür. Şifrelenmiş ESD biçimi de desteklenir."/>
+    <String Target="ESD映像文件" Link="ESD Dosyası"/>
+    <String Target="ISO映像文件" Link="ISO Dosyası"/>
+    <String Target="ISO映像文件-高压版" Link="ISO Dosyası Ultra"/>
+    <String Target="WIM映像文件" Link="WIM Dosyası"/>
+    <String Target="WIM拆分映像" Link="SWM Dosyası"/>
+    <String Target="所有文件" Link="Tüm Dosyalar"/>
+
+    <String Target="正在转换格式" Link="Dönüştürülüyor"/>
+    <String Target="正在从%s，转换到%s" Link="%s dosyası %s dosyasına dönüştürülüyor"/>
+
+    <String Target="映像文件" Link="Kalıp Dosyası"/>
+    <String Target="无法获取RE信息，错误代码：%d" Link="WinRE bilgileri alınamadı, hata kodu: %d"/>
+    <String Target="重启后，系统自动将启动RE，你确定要重启么？" Link="Sistem WinRE ile yeniden başlatılacak. Şimdi yeniden başlatmak ister misiniz?"/>
+    <String Target="此功能可以将ESD、WIM格式相互转换。" Link="Bu özellik ESD biçimindeki dosyaları WIM biçimine, WIM biçimindeki dosyaları ESD biçimine dönüştürür "/>
+    <String Target="Dism++将会在RE中启动，你现在需要重启电脑么？" Link="Dism++ WinRE ile yeniden başlatılacak. Şimdi yeniden başlatmak ister misiniz?"/>
+    <String Target="%s 位置的映像正繁忙，请稍后再试。" Link="%s kalıbının konumu kullanılıyor. Lütfen daha sonra yeniden deneyin."/>
+    <String Target="正在验证受损" Link="Sağlık Taranıyor"/>
+    <String Target="正在修复受损" Link="Sağlık Düzeltiliyor"/>
+    <String Target="%d 秒后将关闭计算机，点击取消可以撤销此任务。" Link="Bilgisayar %s saniye sonra kapatılacak. Bu işlemi iptal etmek için  &quot;İptal&quot; üzerine tıklayın."/>
+    <String Target="%d 秒后将重启计算机，点击取消可以撤销此任务。" Link="Bilgisayar %d saniye sonra yeniden başlatılacak. Bu işlemi iptal etmek için &quot;İptal&quot; üzerine tıklayın."/>
+
+    <String Target="正在清理临时数据" Link="Geçici veriler temizleniyor"/>
+    <String Target="Sorry，无法配置环境，请在PE中使用此功能。" Link="Maalesef, ortam şu anda yapılandırılamadı. Lütfen bu işlemi WinPE üzerinde yapın."/>
+    <String Target="Sorry，无法清理临时文件！" Link="Maalesef geçici veriler temizlenemedi"/>
+    <String Target="当前硬盘可用空间不足，你需要重启并进入RE进行恢复么？" Link="Geçerli sabit disk üzerinde yeterli boş alan yok. WinRE ortamına geçerek geri yüklemek ister misiniz?"/>
+    <String Target="在还原前你需要格式化分区：%s ?" Link="Geri yüklemeden önce %s bölümünü biçimlendirmek ister misiniz?"/>
+
+    <String Target="温馨提示：格式化分区该分区所有数据将丢失！" Link="Uyarı: Biçimlendirme işlemi tüm verileri silecek!"/>
+    <String Target="格式化分区（推荐）&#xA;有助于系统分区整洁，消除文件残留。" Link="Biçimlendirme (Önerilir)&#xA;Sistem bölümünü oluşturur ve geride artık dosya bırakmadan temizler."/>
+
+    <String Target="%s 映像已经还原成功。" Link="%s kalıbı geri yüklendi."/>
+    <String Target="你需要重启并立即生效么？" Link="Değişiklikler kaydedilip yeniden başlatılsın mı?"/>
+
+    <String Target="准备就绪" Link="Hazır"/>
+    <String Target="不支持" Link="Desteklenmiyor"/>
+    <String Target="不存在" Link="Bulunamadı"/>
+    <String Target="已经失效" Link="Süresi zaten dolmuş"/>
+    <String Target="请稍等" Link="Lütfen bekleyin"/>
+
+    <String Target="本地硬盘" Link="Yerel Disk"/>
+    <String Target="挂载映像" Link="Takılı Kalıp"/>
+    <String Target="Compact" Link="Sıkıştırılmış"/>
+    <String Target="VHD装载" Link="Takılı Sanal Sürücü"/>
+
+    <String Target="不压缩" Link="Hiçbiri"/>
+    <String Target="WIMBoot压缩" Link="WIMBoot"/>
+    <String Target="快速压缩" Link="Hızlı"/>
+    <String Target="最大压缩" Link="En Fazla"/>
+    <String Target="极限压缩" Link="Geri Yükleme"/>
+
+    <String Target="映像名称" Link="Kalıp Adı"/>
+    <String Target="映像说明" Link="Kalıp Açıklaması"/>
+    <String Target="显示名称" Link="Görüntülenecek Ad"/>
+    <String Target="显示说明" Link="Görüntülenecek Açıklama"/>
+    <String Target="映像标志" Link="Sürüm"/>
+
+    <String Target="系统体系" Link="Mimari"/>
+    <String Target="创建日期" Link="Oluşturulma"/>
+    <String Target="展开空间" Link="Genişletilmiş Alan"/>
+    <String Target="系统版本" Link="İşletim Sistemi Sürümü"/>
+
+    <String Target="不压缩映像" Link="Hiçbiri"/>
+    <String Target="WIMBoot压缩映像" Link="WIMBoot"/>
+    <String Target="快速压缩映像" Link="Hızlı"/>
+    <String Target="最大压缩映像" Link="En Fazla"/>
+    <String Target="极限压缩映像" Link="Geri Yükleme"/>
+    <String Target="全选" Link="Tümü"/>
+    <String Target="反选" Link="Tersine Çevir"/>
+    <String Target="自定义规则" Link="Özel Kurallar"/>
+    <String Target="扫描" Link="Tara"/>
+    <String Target="清理" Link="Temizle"/>
+
+    <String Target="存在风险" Link="Risk"/>
+    <String Target="建议保留" Link="Koru"/>
+    <String Target="可以删除" Link="Silebilir"/>
+    <String Target="建议删除" Link="Sil"/>
+    <String Target="自定义" Link="Özel"/>
+
+    <String Target="正在载入清理规则" Link="Temizleme kuralları yükleniyor..."/>
+    <String Target="正在撤销Compact" Link="Sıkıştırma Geri Alınıyor"/>
+    <String Target="名称" Link="Ad"/>
+    <String Target="保存" Link="Kaydet"/>
+    <String Target="取消" Link="İptal"/>
+    <String Target="详细信息" Link="Ayrıntılar"/>
+    <String Target="其他" Link="Diğer"/>
+    <String Target="正在初始化" Link="Hazırlanıyor..."/>
+    <String Target="类别" Link="Kategori"/>
+    <String Target="大小" Link="Boyut"/>
+    <String Target="正在关闭会话" Link="Oturum Kapatılıyor"/>
+    <String Target="值" Link="Değer"/>
+    <String Target="控制面板" Link="Denetim Masası"/>
+    <String Target="删除" Link="Kaldır"/>
+    <String Target="关于Dism++" Link="Dism++ Hakkında"/>
+    <String Target="Dism++正在执行任务，你确定要关闭程序么？" Link="Dism++ çalışıyor. Durdurulmaya zorlansın mı?"/>
+    <String Target="正在检查更新" Link="Güncellemeler denetleniyor..."/>
+    <String Target="正在加载插件" Link="Eklenti yükleniyor"/>
+    <String Target="正在扫描已安装的系统" Link="Kurulu Sistem Taranıyor"/>
+    <String Target="已经是最新版本，无需更新！" Link="En son sürüm kullanılıyor. Başka bir güncelleme yok."/>
+    <String Target="正在修复挂载映像" Link="Kalıp yeniden takılıyor"/>
+    <String Target="正在取消现有任务，请稍等……" Link="Geçerli işlemler iptal ediliyor, lütfen bekleyin…"/>
+    <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="Takılı %s kalıbı bozulmuş. Devam etmeden önce onarılması gerekli. Kalıbı şimdi onarmak ister misiniz?"/>
+    <String Target="即将重启以下程序 %s，你确定要继续吗？" Link="%s uygulaması yeniden başlatılacak. Emin misiniz?"/>
+    <String Target="资源管理器" Link="Gezgin"/>
+    <String Target="操作完成" Link="Başarılı"/>
+
+    <!--欢迎页-->
+    <String Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。" Link="Dünyada CBS üzerine geliştirilmiş ilk görsel Dism arayüzü uyarlaması!"/>
+
+    <String Target="联系方式" Link="İletişim"/>
+    <String Target="官方网站" Link="Resmi Web Sitesi"/>
+    <String Target="QQ群" Link="QQ Grubu"/>
+    <String Target="邮箱" Link="E-posta"/>
+
+    <String Target="帮助与支持" Link="Destek"/>
+    <String Target="初雨开源" Link="Açık Kaynak"/>
+    <String Target="问题反馈" Link="Geri Bildirim"/>
+    <String Target="帮助文档" Link="Belgeler"/>
+
+    <String Target="致谢" Link="Emeği Geçenler"/>
+    <String Target="翻译人员" Link="Çevirmenler"/>
+    <String Target="赞助名单" Link="Destekleyiciler"/>
+    <String Target="第三方库" Link="Üçüncü Taraflar"/>
+
+    <!--添加映像-->
+    <String Target="请输入映像存放目录" Link="Lütfen kalıp dosyasının yolunu yazın"/>
+    <String Target="请在此输入安装路径，比如C:\" Link="Lütfen kalıp dosyasının kurulum yolunu buraya yazın. Örnek: C:\"/>
+    <String Target="请在此输入挂载路径，比如D:\1" Link="Lütfen takılacak yolu buraya yazın. Örnek: D:\1"/>
+    <String Target="请输入所在路径" Link="Lütfen kalıp yolunu yazın"/>
+    <String Target="镜像文件" Link="Kalıp Dosyası"/>
+    <String Target="只读模式" Link="Salt Okunur"/>
+    <String Target="快速挂载" Link="Hızlı Tak"/>
+    <String Target="（可启动）" Link="(Başlatılabilir)"/>
+    <String Target="添加映像向导" Link="Kalıp Ekleme Yardımcısı"/>
+    <String Target="此功能可以将其他文件（WIM、ESD、VHD、VHDX）或者文件夹的包含的映像添加至映像列表。" Link="Bu özellik Kalıp Listesine diğer dosya biçimlerinin (WIM, ESD, VHD, VHDX files) ve bir klasördeki kalıpların eklenmesini sağlar."/>
+
+    <String Target="挂载映像文件（WIM、VHD、VHDX）中的映像到指定目录" Link="Kalıp dosyalarını (WIM, VHD, VHDX) belirtilen klasöre tak"/>
+    <String Target="释放映像文件（WIM、ESD）中的映像到指定目录" Link="Kalıp dosyalarını (WIM, VHD) belirtilen klasöre uygula"/>
+    <String Target="谢谢，我只需要添加指定文件夹路径到映像列表" Link="Teşekkürler, yalnız Kalıp Listesine belirli bir klasörü eklemek istiyorum"/>
+    <String Target="浏览" Link="Gözat"/>
+    <String Target="目标映像：" Link="Hedef Kalıp:"/>
+    <String Target="请选择其中一个映像" Link="Lütfen bir kalıp seçin"/>
+    <String Target="请在此输入映像文件路径，比如 D:\Backup.wim" Link="Lütfen kalıp dosyasının yolunu yazın. Örnek: D:\Backup.wim"/>
+    <String Target="添加引导" Link="Başlatma Ekle"/>
+    <String Target="格式化" Link="Biçim"/>
+    <String Target="释放映像" Link="Kalıbı Geri Yükle"/>
+    <String Target="挂载映像 " Link="Kalıbı Tak"/>
+
+    <!--另存为映像-->
+    <String Target="你可以在此处修改映像文件信息（支持双击修改）" Link="Kalıp bilgilerini buradan değiştirebilirsiniz (düzenlemek için çift tıklayın)"/>
+    <String Target="在此处设置捕获映像的文件豁免列表加快捕获速度，每个条目用回车分割。" Link="Eklenmesi gerekmeyen kalıpları ayrı satırlara yazarak Katılmayacaklar Listesini ayarlayın."/>
+    <String Target="如何配置豁免列表" Link="Katılmayacaklar Listesi nasıl ayarlanır"/>
+    <String Target="另存为映像" Link="Kalıbı Farklı Kaydet"/>
+    <String Target="卷影复制" Link="VSS"/>
+
+    <!--系统修复-->
+    <String Target="映像十分健康不需要修复。" Link="Kalıpta bir sorun yok. Herhangi bir onarım işlemi gerekmiyor."/>
+    <String Target="映像已经受损，但是可以修复。" Link="Kalıp bozulmuş ancak onarılabilir."/>
+    <String Target="映像已经受到致命问题，已经无法修复，请修复安装。" Link="Kalıpta Dism++ tarafından onarılamayacak derecede ciddi bir bozukluk var. Lütfen onarmak için yeniden kurun."/>
+    <String Target="系统修复向导" Link="Sistem Kurtarma Yardımcısı"/>
+    <String Target="恭喜映像已经修复成功！" Link="Onarım tamamlandı."/>
+    <String Target="致命错误，会话无应答。" Link="Ciddi bir sorun var, oturum yanıt vermiyor."/>
+
+    <!--本地源-->
+    <String Target="本地源可以大幅度加速功能打开以及系统修复。" Link="Yerel Kaynak kullanılması özelliklerin etkinleştirilmesi ve sistem kurtarma işlemlerini hızlandırabilir."/>
+    <String Target="什么是本地源" Link="Yerel Kaynak nedir?"/>
+    <String Target="本地源" Link="Yerel Kaynak"/>
+
+    <!--格式转换-->
+    <String Target="请在此输入源文件路径" Link="Lütfen kaynak dosyanın yolunu buraya yazın"/>
+    <String Target="请在此输入目标文件路径" Link="Lütfen hedef dosyanın yolunu buraya yazın"/>
+
+    <!--ESD解密-->
+    <String Target="温馨提示：此功能将直接解密目标文件，原版控请自行备份。" Link="İpuçları: Bu işlem hedef dosyanın şifresini doğrudan çözer. Lütfen özgün dosyaların yedeğini alın."/>
+    <String Target="解密口令已自动匹配" Link="Şifre çözme parolası otomatik olarak eşleştirildi"/>
+    <String Target="请在输入框输入解密口令" Link="Lütfen kutuya şifre çözme parolasını yazın"/>
+    <String Target="请正确输入Key，错误信息：%s" Link="Lütfen doğru parolayı yazın. Hata: %s"/>
+    <String Target="成功解密：%s" Link="Şifre çözüldü: %s"/>
+    <String Target="ESD解密向导" Link="ESD Şifre Çözme Yardımcısı"/>
+    <String Target="该文件似乎不是一个有效的WIM、ESD文件。" Link="Bu dosya geçerli bir WIM ya da ESD dosyası biçiminde değil."/>
+    <String Target="该文件没有被加密，无需解密。" Link="DOsya şifrelenmemiş olduğundan şifresinin çözülmesine gerek yok."/>
+    <String Target="温馨提示：Dism++将使用独有内存解密，无需担心源文件被修改。" Link="İpucu: Dism++ kaynak dosyanın değiştirilmediğinden emin olmak için şifreyi kendi belleğinde çözecek."/>
+
+    <!--映像编辑-->
+    <String Target="温馨提示：双击可修改映像信息对应的值。" Link="İpuçları: Değerleri değiştirmek için çift tıklayın"/>
+    <String Target="可启动" Link="Başlatılabilir"/>
+    <String Target="编辑映像文件" Link="Kalıp Dosyasını Düzenle"/>
+    <String Target="导出" Link="Dışa Aktar"/>
+    <String Target="保存更改" Link="Değişiklikleri Kaydet"/>
+    <String Target="导出映像" Link="Dışa Aktar"/>
+    <String Target="正在导出第%d个映像（共 %d ）" Link="%d / %d kalıp dışa aktarılıyor"/>
+    <String Target="正在添加映像，请耐心等待……" Link="Bir kalıp ekleniyor, lütfen bekleyin ......"/>
+    <String Target="操作成功！" Link="Tamamlandı!"/>
+    <String Target="删除映像" Link="Sil"/>
+    <String Target="编辑映像" Link="Düzenle"/>
+
+    <!--引导修复-->
+    <String Target="此映像并不在分区根目录，所以无法执行修复操作。" Link="Bu kalıp bölümün kökünde olmadığından onarılamıyor."/>
+    <String Target="当前映像正在运行，所以无法执行修复操作。" Link="Kalıp kullanılmakta olduğundan onarılamıyor."/>
+    <String Target="正在修复引导" Link="Onarılıyor..."/>
+    <String Target="恭喜已经成功修复引导。" Link="Başlatma onarımı tamamlandı."/>
+    <String Target="启动修复失败，错误代码：%d" Link="Başlatma onarımı tamamlanamadı. Hata kodu:%d"/>
+    <String Target="无法对PE进行引导修复。" Link="PE başlatması onarılamaz."/>
+    <String Target="类型" Link="Tür"/>
+
+    <!--引导修复-启动分区选择-->
+    <String Target="位置" Link="Konum"/>
+    <String Target="基本" Link="Temel"/>
+    <String Target="更多" Link="Gelişmiş"/>
+    <String Target="启动分区：" Link="Başlatma Bölümü:"/>
+    <String Target="你必须点击更多进行手动指定！" Link="El ile belirlemek için &quot;diğer&quot; üzerine tıklayın!"/>
+    <String Target="硬盘%d 分区%d（%s）" Link="Disk%d Bölüm%d (%s)"/>
+    <String Target="硬盘%d 分区%d" Link="Disk%d Bölüm%d"/>
+    <String Target="即将把启动信息写入启动分区- %s" Link="Başlatma kaydı başlatma bölümüne yazılacak - %s"/>
+    <String Target="没有异议或者看不懂的请点击 %s 。" Link="Bu işlemi yapmak istediğinizden eminseniz %s üzerine tıklayın."/>
+    <String Target="无法获取该分区的详细信息。" Link="Bölüm hakkında ayrıntılı bilgi alınamadı."/>
+    <String Target="目标系统需要以UEFI方式启动，请选择一个GPT分区。" Link="Hedef sistemin UEFI ile başlatılması gerekiyor. Lütfen bir GPT bölümü seçin."/>
+    <String Target="UEFI启动需要FAT16/FAT32分区。" Link="UEFI ile başlatırsanız bir FAT16/FAT32 bölümü gerekir"/>
+    <String Target="目标系统需要以BIOS方式启动，请选择一个MBR分区。" Link="Hedef sistemin BIOS ile başlatılması gerekiyor. Lütfen bir MBR bölümü seçin."/>
+    <String Target="BIOS启动分区必须是个主分区。" Link="BIOS başlatma bölümü bir birincil bölüm olmalıdır."/>
+
+    <!--详细设置-->
+    <String Target="体验" Link="Deneyim"/>
+    <String Target="设置" Link="Ayarlar"/>
+    <String Target="确定" Link="Tamam"/>
+    <String Target="启用专家模式*" Link="Uzman Kipi Kullanılsın*"/>
+    <String Target="整合右键菜单" Link="Sağ Tık Menüsüne Bütünleştirilsin"/>
+    <String Target="整合引导菜单" Link="BCD Başlatma Menüsüne Bütünleştirilsin"/>
+    <String Target="排除列表" Link="Katılmayacaklar Listesi"/>
+    <String Target="减少映像文件（WIM、ESD）保存时间" Link="Kalıp dosyasının kayıt süresi azaltılsın (WIM ve ESD)"/>
+    <String Target="CompactOS压缩率" Link="CompactOS Sıkıştırma Oranı"/>
+    <String Target="压缩率越小性能越好（仅影响选中系统）" Link="Sıkıştırma oranı küçüldükçe başarım iyileşir (sıkıştırma yalnız seçilmiş sistemi etkiler)"/>
+    <String Target="大约压缩33%（更佳性能）" Link="%33 sıkıştır (Daha hızlı)"/>
+    <String Target="大约压缩36%" Link="%36 sıkıştır"/>
+    <String Target="大约压缩38%" Link="%38 sıkıştır"/>
+    <String Target="大约压缩44%（更小体积）" Link="%44 sıkıştır (Daha küçük)"/>
+    <String Target="加载WofAdk驱动（可能导致蓝屏！）" Link="WofAdk sürücüsü yüklensin (mavi çökme ekranına neden olabilir!)"/>
+    <String Target="更新差异传输引擎：" Link="Windows Güncelleme Fark Aracı:"/>
+    <String Target="关闭" Link="Kapalı"/>
+    <String Target="快速" Link="Hızlı"/>
+    <String Target="完整" Link="Tam"/>
+
+    <!--Tab-->
+    <String Target="Dism++正在执行其他任务，你可以稍后打开会话。" Link="Dism++ meşgul. Bir bardak çay içip daha sonra gelin."/>
+    <String Target="为了优化性能，你需要手动打开会话。" Link="Başarımı iyileştirmek için oturumu el ile açmalısınız."/>
+    <String Target="打开会话" Link="Oturumu aç"/>
+    <String Target="正在打开会话" Link="Oturum açılıyor"/>
+    <String Target="当前系统至少为Windows 8/2012才能正常处理此系统。如果你继续进行，那么打开关闭功能、添加删除更新均可能出现意外失败。" Link="İşletim sistemi sürümü en az Windows 8 ya da 2012 olmalıdır. Daha düşük bir işletim sisteminin olduğu bir bilgisayarda çalışmaya devam ederseniz açma, kapama, ekleme, silme ve güncelleme gibi özellikler düzgün çalışmayabilir."/>
+    <String Target="映像路径存在非英文字符可能导致安装更新失败，请在全英文路径重新挂载此映像，比如“D:\Mount”。" Link="Kalıp yolunda kurulumun başarısız olmasına yol açabilecek ASCII olmayan karakterler var. Lütfen kalıbı tamamı ASCII karakterlerden oluşan &quot;D:\Kalip&quot; gibi bir yol ile yükleyin."/>
+
+    <String Target="常用工具" Link="Araçlar"/>
+      <String Target="空间回收" Link="Disk Temizleme"/>
+      <String Target="启动项管理" Link="Başlatma"/>
+      <String Target="工具箱" Link="Araçlar"/>
+      <String Target="Appx管理" Link="Appx"/>
+
+    <String Target="驱动管理" Link="Sürücüler"/>
+    <String Target="程序和功能" Link="Uygulamalar ve Özellikler"/>
+    <String Target="Windows服务" Link="Hizmetler"/>
+    <String Target="Windows功能" Link="Özellikler"/>
+    <String Target="更新管理" Link="Güncellemeler"/>
+      <String Target="已安装的更新" Link="Güncelleme Geçmişi"/>
+    <String Target="可选功能" Link="İsteğe Bağlı Özellikler"/>
+    <String Target="部署功能" Link="Dağıtım Özellikleri"/>
+
+    <!--空间回收-->
+    <String Target="推荐操作" Link="Öner"/>
+    <String Target="需要扫描" Link="Taramaya Hazır"/>
+    <String Target="正在扫描%s" Link="%s taranıyor"/>
+    <String Target="出错" Link="Hata"/>
+    <String Target="正在清理%s" Link="%s temizleniyor"/>
+    <String Target="本次共释放了%s 的空间。" Link="%s boşaltıldı."/>
+
+    <String Target="该规则来自CCleaner解析引擎，因此不能提供说明。" Link="Bu kural CCleaner üzerinden geldiğinden ayrıntıları görülemiyor."/>
+    <String Target="默认" Link="Varsayılan"/>
+    <String Target="关于 %s 的详细处理信息" Link="%s hakkında ayrıntılı bilgi"/>
+    <String Target="以下文件即将被处理，你可以点击 清理 处理他们" Link="Şu dosyalar işlenecek. İşlemi başlatmak için &quot;Temizle&quot; üzerine tıklayın"/>
+    <String
+      Target="关于 %s 的警告：&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;您确定要清理么？"
+      Link="%s uyarısı:&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;Temizlemek istediğinize emin misiniz?"/>
+    <String Target="全不选" Link="Yok"/>
+    <String Target="已经清理" Link="Temizlendi"/>
+    <String Target="清理失败" Link="Temizlenemedi"/>
+    <String Target="等待扫描" Link="Tarama Gerekli"/>
+    <String Target="过期文件" Link="Eski Dosyalar"/>
+    <String Target="系统相关" Link="Sistem"/>
+    <String Target="缓存文件" Link="Ön Bellek Dosyaları"/>
+    <String Target="应用程序" Link="Uygulamalar"/>
+    <String Target="备份文件" Link="Yedek Dosyaları"/>
+    <String Target="Dism++即将进行清理，垃圾文件将被直接删除，无法通过回收站恢复，你确定要继续么？" Link="Dism++ temizlik işlemine başlayacak. Geri Dönüşüm kutusundaki dosyalar geri ALINAMAYACAK. İşlemi başlatmak istediğinize emin misiniz?"/>
+
+    <!--注册表清理-->
+    <String Target="注册表清理" Link="Kayıt Defteri Temizliği"/>
+    <String Target="无效动态链接库" Link="Devingen bağlantı kitaplığı geçersiz"/>
+    <String Target="无效的应用程序路径" Link="Uygulama yolu geçersiz"/>
+    <String Target="无效的启动程序" Link="Başlatma işlemi geçersiz"/>
+    <String Target="用户访问历史记录" Link="Kullanıcı erişimi geçmişi"/>
+    <String Target="无效的防火墙设置" Link="Güvenlik duvarı ayarları geçersiz"/>
+    <String Target="无效的卸载信息" Link="Kaldırma bilgileri geçersiz"/>
+    <String Target="无效的MUI缓存" Link="MUI ön belleği geçersiz"/>
+    <String Target="无效的文件类型" Link="Dosya türü geçersiz"/>
+    <String Target="无效的COM组件" Link="COM bileşeni geçersiz"/>
+    <String Target="蓝屏记录" Link="Mavi kayıt"/>
+    <String Target="注册表还原" Link="Geri Yükle"/>
+    <String Target="清理时间" Link="Temizleme süresi"/>
+    <String Target="网络位置" Link="Ağ Konumu"/>
+    <String Target="正在扫描第%d个可清理的注册表项。。。" Link="Temizlenecek %d kayıt defteri ögesi taranıyor..."/>
+
+    <!--驱动管理-->
+    <String Target="温馨提示：删除关键驱动可能导致计算机无法启动" Link="İpucu: Önemli sürücülerin silinmesi bilgisayarın başlatılmasını engelleyebilir"/>
+    <String Target="关键驱动：%s" Link="Önemli Sürücü: %s"/>
+    <String Target="类别标识：%s" Link="Sınıf: %s"/>
+    <String Target="驱动版本：%hu.%hu.%hu.%hu" Link="Sürüm: %hu.%hu.%hu.%hu"/>
+    <String Target="发布日期：%s" Link="Yayın Tarihi: %s"/>
+    <String Target="文件路径：%s" Link="Yol: %s"/>
+    <String Target="驱动大小：%s" Link="Boyut: %s"/>
+    <String Target="OEM名称：%s" Link="OEM Adı: %s"/>
+
+    <String Target="导出驱动" Link="Dışa Aktar"/>
+    <String Target="删除驱动" Link="Sil"/>
+    <String Target="添加驱动" Link="Ekle"/>
+
+    <String Target="是" Link="EVET"/>
+    <String Target="否" Link="HAYIR"/>
+
+    <String Target="正在加载驱动" Link="Sürücü Yükleniyor"/>
+    <String Target="请选择驱动保存路径" Link="Sürücülerin kaydedileceği yolu seçin."/>
+    <String Target="正在导出驱动" Link="Sürücü Dışa Aktarılıyor"/>
+    <String Target="导出驱动时遇到问题，具体参考Dism++.log" Link="Sürücüler dışa aktarılırken sorun çıktı. Ayrıntılı bilgi almak için Dism++.log dosyasına bakabilirsiniz."/>
+
+    <String Target="正在删除驱动" Link="Sürücü Siliniyor"/>
+    <String Target="一个或者多个驱动删除失败，错误代码：0x%.8X" Link="Bir ya da bir kaç sürücü silinemedi. Hata kodu: 0x%.8X"/>
+
+    <String Target="请选择驱动所在文件夹" Link="Sürücünün bulunduğu klasörü seçin"/>
+    <String Target="正在安装驱动" Link="Sürücü Kuruluyor"/>
+    <String Target="一个或者多个驱动添加失败，错误代码：0x%.8X" Link="Bir ya da bir kaç sürücü eklenemedi. Hata kodu: 0x%.8X"/>
+    <String Target="显示内置驱动" Link="Birleşik sürücüler görüntülensin"/>
+    <String Target="处理过程中遇到问题，其中成功 %u 个，失败 %u 个，不适用 %u 个。部分错误信息：%s [0x%.8X] 更多信息请参考 &quot;Config\Dism++.log&quot;" Link="İşlem sırasında sorun çıktı. %u başarılı, %u başarısız, %u uygulanmayan. Bazı sorunlar: %s [0x%.8X]. Ayrıntılı bilgi almak için &quot;Config\Dism++.log&quot; dosyasına bakabilirsiniz."/>
+    <String Target="操作成功，其中成功 %u 个，不适用 %u 个。更多信息请参考 &quot;Config\Dism++.log&quot;" Link="İşlem tamamlandı. %u başarılı, %u uygulanmayan. Ayrıntılı bilgi almak için &quot;Config\Dism++.log&quot; dosyasına bakabilirsiniz."/>
+
+    <!--开机启动项-->
+    <String Target="开机启动项" Link="Başlatma"/>
+    <String Target="系统启动项 —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="Sistem Başlatma — HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
+    <String Target="系统启动项32位 —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run" Link="32Bit Sistem Başlatma — HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run"/>
+    <String Target="系统启动项（仅启动一次） —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="Sistem Başlatma (Bir Kez Çalışan) — HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
+    <String Target="系统启动项32位（仅启动一次） —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce" Link="32Bit Sistem Başlatma (Bir Kez Çalışan) — HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce"/>
+    <String Target="用户启动项 —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="Kullanıcılar İçin Başlatma — HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
+    <String Target="用户启动项（仅启动一次） —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="Kullanıcılar İçin Başlatma (Bir Kez Çalışan) — HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
+    <String Target="启动（所有用户） —— %SystemDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup" Link="Başlatma (Tüm Kullanıcılar) — %SystemDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup"/>
+    <String Target="启动（当前用户） —— %UserProfile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup" Link="Başlatma — HKLM\SYSTEM\CurrentControlSet\Control\Session Manager"/>
+    <String Target="隐藏禁用项" Link="Devre dışı bırakılmış ögeler gizlensin"/>
+    <String Target="查找" Link="Bul"/>
+    <String Target="新用户启动项 —— HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="Yeni Kullanıcılar İçin Başlatma — HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
+    <String Target="新用户启动项（仅启动一次） —— HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="Yeni Kullanıcılar İçin Başlatma (Bir Kez Çalışan) — HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
+
+    <!--服务-->
+    <String Target="服务项" Link="Hizmet"/>
+    <String Target="禁用" Link="Devre Dışı Bırak"/>
+    <String Target="手动" Link="El İle"/>
+    <String Target="自动" Link="Otomatik"/>
+    <String Target="自动（延迟）" Link="Otomatik (Gecikmeli)"/>
+
+    <String Target="描述" Link="Açıklama"/>
+    <String Target="启动类型" Link="Başlatma Türü"/>
+
+    <String Target="正在加载服务" Link="Hizmetler Yükleniyor"/>
+    <String Target="应用服务" Link="Uygulama"/>
+    <String Target="系统服务" Link="Sistem"/>
+    <String Target="驱动程序" Link="Sürücüler"/>
+
+    <!--功能-->
+    <String Target="指定本地源" Link="Yerel kaynağı belirtin"/>
+    <String Target="应用" Link="Uygula"/>
+    <String Target="正在加载Windows功能" Link="Windows Özelliği Yükleniyor"/>
+    <String Target="关闭功能" Link="Devre Dışı"/>
+    <String Target="部分启用" Link="Kısmen"/>
+    <String Target="全部启用" Link="Etkin"/>
+    <String Target="删除功能" Link="Kaldırılmış"/>
+    <String Target="正在应用" Link="Uygulanıyor"/>
+    <String Target="本地源：" Link="Yerel Kaynak:"/>
+    <String Target="请在此输入本地源" Link="Yerel kaynağı buraya yazın"/>
+
+    <!--应用程序-->
+    <String Target="更改" Link="Değiştir"/>
+    <String Target="通用安装脚本" Link="Genel kurulum betikleri"/>
+    <String Target="%s 已经安装，你确定要继续吗？" Link="%s zaten kurulmuş. İlerlemek istediğinize emin misiniz?"/>
+
+    <!--添加删除更新-->
+    <String Target="未知" Link="Bilinmiyor"/>
+    <String Target="不适用" Link="Uygulanamaz"/>
+    <String Target="卸载挂起" Link="Kaldırılması Bekleniyor"/>
+    <String Target="已暂存" Link="Geliştirilmiş"/>
+    <String Target="正在暂存" Link="Geliştiriliyor"/>
+    <String Target="已安装" Link="Kurulmuş"/>
+    <String Target="安装挂起" Link="Kurulması Bekleniyor"/>
+    <String Target="被取代" Link="Kaldırılmış"/>
+    <String Target="部分安装" Link="Kısmen kurulum"/>
+    <String Target="已删除" Link="Kaldırılmış"/>
+    <String Target="已固化" Link="Kalıcı"/>
+
+    <String Target="更新描述" Link="Açıklama"/>
+    <String Target="产品名称" Link="Ürün Adı"/>
+    <String Target="产品版本" Link="Ürün Sürümü"/>
+    <String Target="发行类型" Link="Yayım Türü"/>
+    <String Target="安装日期" Link="Kurulum Zamanı"/>
+    <String Target="状态" Link="Durum"/>
+    <String Target="正在获取更新信息" Link="Güncelleme bilgileri alınıyor"/>
+    <String Target="正在删除更新" Link="Güncellemeler kaldırılıyor"/>
+    <String Target="正在删除第 %d 个更新（共 %d ）" Link="%d / %d güncelleme kaldırılıyor"/>
+    <String Target="补丁包" Link="Güncelleme Paketi"/>
+    <String Target="正在安装更新" Link="Güncelleme Kuruluyor"/>
+    <String Target="正在安装第 %d 个更新（共 %d ）" Link="%d / %d güncelleme kuruldu"/>
+    <String Target="刷新" Link="Yenile"/>
+    <String Target="添加" Link="Ekle"/>
+    <String Target="语言" Link="Dil"/>
+    <String Target="Windows %s 语言包" Link="Windows %s Dil Paketi"/>
+    <String Target="重启生效" Link="Yeniden Başlatma Gerekli"/>
+
+    <!--可选功能-->
+    <String Target="正在删除可选功能" Link="İsteğe Bağlı Özellikler Kaldırılıyor"/>
+    <String Target="正在删除第 %d 个可选功能（共 %d ）" Link="%d / %d özellik kaldırılıyor"/>
+    <String Target="正在加载可选功能" Link="İsteğe Bağlı Özellikler Yükleniyor"/>
+    <String Target="显示所有功能" Link="Tümünü Görüntüle"/>
+    <String Target="卸载" Link="Kaldır"/>
+    <String Target="正在卸载" Link="Kaldırılıyor"/>
+
+    <!--Appx管理-->
+    <String Target="疑似损坏" Link="Bozulmuş olabilir"/>
+    <String Target="正在删除Appx" Link="Appx Kaldırılıyor"/>
+    <String Target="删除Windows Store可能导致你未来无法下载或更新Appx，你确定要继续么？" Link="Windows Mağaza uygulamasını kaldırırsanız Appx uygulamalarını indiremez ya da güncelleyemezsiniz. Devam etmek istediğinize emin misiniz?"/>
+    <String Target="删除Microsoft.XboxIdentityProvider可能导致Windows Store无法使用，你确定要继续么？" Link="Microsoft.XboxIdentityProvider uygulamasının kaldırılması Windows Mağazasının kullanılamaz duruma gelmesine neden olabilir. Devam etmek istediğinize emin misiniz?"/>
+    <String Target="%s 等待超时，请尝试使用空间回收 - 过期Appx清理。" Link="%s zaman aşımına uğradı. Kullanılmayan Appx uygulamalarını temizlemek için Disk Temizliği yapmayı deneyin."/>
+    <String Target="无法初始化Appx管理接口。" Link="Appx yönetim arayüzü başlatılamadı."/>
+    <String Target="%s 无法获取Appx关联的账号信息，错误代码：0x%.8X" Link="%s Appx hesabının bilgilerini alamadı. Hata kodu: 0x%.8X"/>
+    <String Target="%s 无法获取账号SID，错误代码：0x%.8X" Link="%s hesap SID değerini alamadı. Hata kodu: 0x%.8X"/>
+    <String Target="%s 所关联的用户（%s）无法删除，错误代码：0x%.8X" Link="%s ilişkili kullanıcı (%s) silinemedi. Hata kodu: 0x%.8X"/>
+    <String Target="%s 未关联任何用户。" Link="%s herhangi bir kullanıcı ile ilişkilendirilmemiş."/>
+    <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="Silme işlemi tamamlandı! Bununla birlikte bazı uygulamalar Hazır Appx uygulamaları olabilir: Silinemeyen ve sahibi SYSTEM olan bir uygulama ile karşılaşırsanız, silmek için Hazır Appx seçeneğini kullanın."/>
+    <String Target="User Appx" Link="Kullanıcı Appx Kayıtları"/>
+    <String Target="Provisioned Appx" Link="Hazır Appx Kayıtları"/>
+    <String Target="删除Microsoft.StorePurchaseApp可能导致Windows Store无法使用，你确定要继续么？" Link="Microsoft.StorePurchaseApp uygulamasının kaldırılması Windows Mağazasının kullanılamaz duruma gelmesine neden olabilir. Devam etmek istediğinize emin misiniz?"/>
+
+    <!--Windows Update-->
+    <String Target="安装" Link="Kur"/>
+    <String Target="正在检查数据库" Link="Veritabanı denetleniyor"/>
+    <String Target="正在下载数据库" Link="Veritabanı indiriliyor"/>
+    <String Target="正在扫描更新" Link="Güncellemeler taranıyor"/>
+    <String Target="等待安装" Link="Kurulum bekleniyor"/>
+    <String Target="等待下载" Link="İndirilme bekleniyor"/>
+    <String Target="下载失败" Link="İndirilemedi"/>
+    <String Target="安装失败" Link="Kurulamadı"/>
+    <String Target="部分成功" Link="Tümü tamamlanamadı"/>
+    <String Target="安装成功" Link="Tamamlandı"/>
+    <String Target="一个或者多个更新安装失败，错误代码：0x%.8X" Link="Bir ya da bir kaç güncelleme kurulamadı. Hata kodu: 0x%.8X."/>
+    <String Target="正在下载" Link="İndiriliyor"/>
+    <String Target="正在安装" Link="Kuruluyor"/>
+    <String Target="项目" Link="Öge"/>
+    <String Target="Windows Update数据库已经存在新版本，你需要更新吗？" Link="Windows Update veritabanınız güncel değil. Şimdi güncellemek ister misiniz?"/>
+    <String Target="下载%d%%" Link="İndirme %d%%"/>
+    <String Target="将现有的本地补丁包添加至系统。" Link="Kullanılabilecek yerel yamaları kalıba ekler."/>
+    <String Target="使用Dism++数据库扫描当前系统需要的更新列表。" Link="Dism++ veritabanı kullanılarak geçerli kalıp için gereken güncellemeleri belirler."/>
+    <String Target="自动下载并安装更新列表中选中的更新。" Link="Seçilmiş güncellemeleri otomatik olarak indirip kurar."/>
+    <String Target="计算机已经安装最新更新。" Link="Son güncellemeler zaten kurulmuş."/>
+    <String Target="正在删除过期补丁缓存" Link="Eski yamalar ön bellekten siliniyor"/>
+    <String Target="分析%d%%" Link="İnceleniyor %d%%"/>
+    <String Target="%s 将引入独占请求，请在 %d 秒内做出选择。" Link="%s için ayrıcalıklı erişim gerekli. Lütfen %d saniye içinde onaylayın."/>
+    <String Target="温馨提示：引入独占请求后，你将无法安装其他更新，直到你重启系统。建议你先安装其他更新，最后安装此更新。" Link="İpucu: Ayrıcalıklı erişim kullanılırken sistem yeniden başlatılana kadar başka güncellemeler kurulamaz. Diğer güncellemeleri kurduktan sonra bu güncellemeyi en son kurmanız önerilir."/>
+    <String Target="暂不安装（推荐）&#xA;我暂时还需要添加其他更新。" Link="Henüz kurulmasın (önerilir)&#xA;Diğer güncellemelerin kurulması gerekiyor."/>
+    <String Target="继续安装&#xA;我已确保我需要的更新均已安装。" Link="Kuruluma geç&#xA;Diğer güncellemeler kuruldu."/>
+    <String
+      Target="关于 %s 的警告：&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;你确定要继续吗？"
+      Link="%s uyarı:&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;Devam etmek istediğinize emin misiniz?"/>
+    <String Target="导出地址" Link="Adresi Kopyala"/>
+    <String Target="补丁下载地址已经成功复制到剪切板。" Link="Yamanın indirme adresi panoya kopyalandı."/>
+    <String Target="安装%d%%" Link="%d%% kuruluyor"/>
+
+    <!--区域和语言-->
+    <String Target="区域和语言" Link="Bölge ve Dil"/>
+    <String Target="调整映像中的指定 SKU 语言的所有国际设置都设置为默认值：" Link="Kalıptaki tüm uluslararası ayarlar belirtilen SKU dilinin varsayılan değerlerine döndürülsün:"/>
+    <String Target="将系统默认语言调整为指定区域：" Link="Varsayılan sistem dili şuna ayarlansın:"/>
+    <String Target="将用户配置（格式、键盘布局等）为指定区域：" Link="Kullanıcı bölgesel ayarları (biçim, tuş takımı düzeni gibi) şuna ayarlansın:"/>
+    <String Target="将时区设置调整为以下时区：" Link="Saat dilimi şuna ayarlansın:"/>
+    <String Target="将非 Unicode 程序的代码页以及字体设置为指定区域：" Link="Unikod desteklemeyen uygulamalarda metinlerin görüntülenmesi için şu ayar kullanılsın:"/>
+    <String Target="欢迎屏幕（系统账号）" Link="Hoş Geldiniz Eranı (Sistem Hesabı)"/>
+    <String Target="新用户账号" Link="Yeni Kullanıcı"/>
+
+    <!--文件关联-->
+    <String Target="文件关联" Link="Varsayılan İlişkilendirmeler"/>
+    <String Target="关联文件" Link="Dosya İlişkilendirmeleri"/>
+    <String Target="Windows映像默认应用程序关联" Link="Windows Kalıbındaki Varsayılan Uygulama İlişkilendirmeleri"/>
+    <String Target="这些设置将在首次启动计算机的OOBE阶段生效" Link="Bu ayarlar bilgisayar ilk kez başlatıldığında OOBE aşamasında etkili olur."/>
+    <String Target="Windows联机映像默认应用程序关联" Link="Çevrimiçi Windows Kalıbındaki Varsayılan Uygulama İlişkilendirmeleri"/>
+    <String Target="这些设置直接影响当前计算机" Link="Bu ayarlar doğrudan geçerli sistemi etkiler."/>
+    <String Target="导入" Link="İçe Aktar"/>
+    <String Target="重置" Link="Sıfırla"/>
+
+    <!--预应答-->
+    <String Target="预应答" Link="Hazır İşlemler"/>
+    <String Target="请输入一条命令。" Link="Lütfen bir komut yazın."/>
+    <String Target="请在树中选择一个需要操作的项目。" Link="Lütfen ağaçtan işlem yapılacak bir öge seçin."/>
+    <String Target="第一次启动SysPrep前运行的命令" Link="SysPrep ilk kez çalıştırılmadan önce yürütülecek komut"/>
+    <String Target="第一次启动SysPrep后运行的命令" Link="SysPrep ilk kez çalıştırıldıktan sonra yürütülecek komut"/>
+    <String Target="首次启动OOBE前运行的命令" Link="OOBE ilk kez çalıştırılmadan önce yürütülecek komut"/>
+    <String Target="首次启动后OOBE后运行的命令" Link="OOBE ilk kez çalıştırıldıktan sonra yürütülecek komut"/>
+    <String Target="请在此输入需要添加的命令" Link="Lütfen eklemek istediğiniz komutu buraya yazın."/>
+    <String Target="上移" Link="Yukarı"/>
+
+    <!--WinPE命令-->
+    <String Target="WinPE命令" Link="WinPE Ayarları"/>
+    <String Target="设置 Windows PE 映像的暂存空间（MB）：" Link="Windows PE kalıbının geçici alanını ayarlayın (MB):"/>
+    <String Target="设置 Windows PE 映像的目标路径：" Link="Windows PE kalıbının hedef yolunu ayarlayın:"/>
+
+    <!--工具箱-->
+    <String Target="激活备份" Link="Etkinleştirme Yedeği"/>
+    <String Target="帮助用户备份已激活系统信息，方便下次还原。" Link="Sistem geri yüklemesini kolaylaştırmak için sistem etkinleştirme bilgilerini yedekler."/>
+    <String Target="这里可以写备份说明，支持Windows以及Office零售版 : )" Link="Ek yedek açıklaması. Windows ve Office Retail için destek yedeği :-)"/>
+    <String Target="系统名称" Link="Ürün Adı"/>
+    <String Target="备份时间" Link="Zaman"/>
+    <String Target="备份说明" Link="Açıklama"/>
+    <String Target="备份" Link="Yedekle"/>
+    <String Target="还原" Link="Geri Yükle"/>
+    <String Target="sppsvc关闭失败，有可能导致还原失败，是否继续？" Link="sppsvc durdurulamadı. Geri yükleme işlemi tamamlanamayabilir. Devam etmek istediğinize emin misiniz?"/>
+    <String
+      Target="当前系统为 %hd.%hd %s，而激活备份信息为 %hd.%hd %s&#xD;&#xA;&#xD;&#xA;信息不匹配，你确定要继续么？"
+      Link="Geçerli sistem: %hd.%hd %s, ve yedeklenen sistemden farklı: %hd.%hd %s.&#xD;&#xA;&#xD;&#xA; Devam etmek istediğinize emin misiniz?"/>
+    <String Target="请重新选择你的系统，你当前要还原的系统与本系统不匹配，请重新选择你的系统！" Link="Sistem (bu sisteme geri yüklenecek sistem) bu sistem ile uyumlu değil. Lütfen sisteminizi yeniden seçin!"/>
+    <String Target="备份的信息与你所还原的信息版本不同，是否要继续还原？" Link="Yedek bilgileri geri yüklemek üzere olduğunuz bilgilerden farklı. Devam etmek ister misiniz?"/>
+    <String Target="Sorry暂不支持此系统，请反馈给我。" Link="Maalesef bu sistem henüz desteklenmiyor. Lütfen www.chuyu.me adresinden ekibimizle görüşün."/>
+    <String Target="还原失败！具体错误信息请参考Dism++.log。" Link="Geri yüklenemedi. Ayrıntılı bilgi almak için Dism++.log dosyasına bakabilirsiniz."/>
+    <String Target="备份失败，具体请参考日志Dism++.log。" Link="Yedeklenemedi. Ayrıntılı bilgi almak için Dism++.log dosyasına bakabilirsiniz."/>
+    <String Target="无法备份Windows激活信息。" Link="Windows etkinleştirme bilgileri yedeklenemedi."/>
+    <String Target="非致命性错误，Office信息无法备份。" Link="Kritik olmayan hata: Office bilgileri yedeklenemedi."/>
+
+    <String Target="账户管理" Link="Hesap Yönetimi"/>
+    <String Target="用于清空登录密码或者启用其他登录账号。" Link="Oturum açma parolasını kaldırır ya da diğer hesapları etkinleştirir."/>
+    <String Target="用户名" Link="Hesap Adı"/>
+    <String Target="启用" Link="Etkinleştir"/>
+    <String Target="启用账户" Link="Hesabı Etkinleştir"/>
+    <String Target="禁用账户" Link="Hesabı Devre Dışı Bırak"/>
+    <String Target="清空密码" Link="Parolayı Sıfırla"/>
+    <String Target="该账户的密码已经被清空，现在无需密码即可登陆你的账号！" Link="Oturum açma parolası kaldırıldı. Parola kullanmadan oturum açabilirsiniz."/>
+
+    <String Target="春哥附体" Link="Tanrı Kipi"/>
+    <String Target="让其他程序以无视权限方式运行。" Link="Bazı uygulamaların izin denetimi olmadan çalıştırılabilmesini sağlar."/>
+    <String Target="请在此输入命令或者程序路径，比如regedit" Link="Regedit gibi bir komut yazın"/>
+    <String Target="说明" Link="İpuçları"/>
+    <String Target="本工具可以让其他程序以无视权限形式运行，本功能可以通过命令行参数调用，详情请参考帮助文档了解具体用法。" Link="Bu araç bazı programların komut satırından izin denetimi yapılmadan çalıştırılmasını sağlar. Ayrıntılı bilgi almak için belgeler bölümüne bakın."/>
+    <String
+      Target="/GodMode {Commendline}&#xD;&#xA; 春哥附体执行Cmd命令，其命令格式与Cmd用法一致&#xD;&#xA;&#xD;&#xA;示例:&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode cmd&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode regedit.exe&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode &quot;\&quot;C:\Windows\notepad.exe\&quot; \&quot;C:\123.txt\&quot;&quot;"
+      Link="/GodMode {Commandline}&#xD;&#xA; Tanrı kipi cmd üzerinden kullanılır. Kullanım şekli cmd komutları ile aynıdır.&#xD;&#xA;&#xD;&#xA;Örnekler:&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode cmd&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode regedit.exe&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode &quot;\&quot;C:\Windows\notepad.exe\&quot; \&quot;C:\123.txt\&quot;&quot;"/>
+    <String
+      Target="即将以无视权限方式执行此命令：&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;为了避免让恶意软件利用，Dism++需要你的允许才能继续，你确定要继续吗？"
+      Link="Dism++ &#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;komutları izin denetimi yapılmadan çalıştırabilir. Zararlı yazılımlar bu özelliği kullanarak sisteme zarar verebilir. Bu nedenle onay vermeniz istenir. Devam etmek istediğinize emin misiniz?"/>
+    <String
+      Target="可以使用以下命令来操作此映像：&#xD;&#xA;&#xD;&#xA;/GodMode&#9;- 使用春哥附体启动应用程序"
+      Link="Kalıp üzerinde işlem yapmak için şu komutlar kullanılabilir:&#xD;&#xA;&#xD;&#xA;/GodMode&#9;- programı Tanrı Kipinde çalıştırır"/>
+
+    <String Target="ESD转ISO" Link="ESD <-> ISO"/>
+    <String Target="允许将WIM、SWM以及ESD之间格式自由转换。" Link="WIM, SWM ve ESD dosyalarını dönüştürür."/>
+
+    <String Target="用于修改WIM、SWM以及ESD文件信息。" Link="WIM, SWM ve ESD dosyalarını düzenlemek için."/>
+
+    <String Target="文件浏览器" Link="Dosya Gezgini"/>
+    <String Target="提供简单的文件浏览，并支持无视权限删除。" Link="Bazı dosyalara kolayca gözatmak için. İzin denetimi yapılmamasını sağlayabilir."/>
+
+    <String Target="ISO生成器" Link="ISO Hazırlama"/>
+    <String Target="将一个文件夹打包为UEFI以及Legacy双启动ISO。" Link="Bir klasörü çift başlatmalı bir UEFI ve Eski ISO olarak paketler."/>
+    <String Target="请在此输入文件夹路径，比如 D:\Win7" Link="Klasörün yolunu buraya yazın (Örnek: D:\Win7)"/>
+    <String Target="请在此输入ISO生成路径，比如 D:\MyWin7.iso" Link="ISO dosyasının kaydedileceği yolu buraya yazın (D:\Win7.iso)"/>
+    <String Target="请在此输入ISO标签，比如 IR5_CCSA_X64FRE_ZH-CN_DV9" Link="ISO dosyasının etiketini buraya yazın (Örnek: IR5_CCSA_X64FRE_EN-US_DV9)"/>
+
+    <String Target="hosts编辑器" Link="Hosts Kayıtları"/>
+    <String Target="用于hosts编辑" Link="Hosts dosyasındaki kayıtları düzenler."/>
+
+    <!--系统优化开始-->
+    <String Target="系统优化" Link="Sistem İyileştirici"/>
+    <String Target="当前用户" Link="Geçerli Kullanıcı"/>
+    <String Target="新用户" Link="Yeni Kullanıcı"/>
+    <String Target="系统" Link="Sistem"/>
+    <String Target="仅针对当前用户，即 HKEY_CURRENT_USER。" Link="Yalnız geçerli kullanıcı için (HKEY_CURRENT_USER)"/>
+    <String Target="针对未来新建的用户，即 HKEY_USERS\DEFAULT。" Link="Eklenecek yeni kullanıcılar için (HKEY_USERS\DEFAULT)"/>
+    <String Target="针对系统，即 HKEY_LOCAL_MACHINE。" Link="Sistem için (HKEY_LOCAL_MACHINE)"/>
+    <String Target="导入配置" Link="İçe Aktar"/>
+    <String Target="导入注册表文件过程中遇到问题，具体错误信息请参考 Dism++.log。" Link="Kayıt defteri dosyası içe aktarılırken sorun çıktı. Ayrıntılı bilgi almak için Dism++.log dosyasına bakabilirsiniz."/>
+    <String Target="注册表文件" Link="Kayıt Defteri Dosyası"/>
+    <String Target="操作成功，但是导入注册表文件过程遇到一些非致命性错误，具体错误信息请参考 Dism++.log。" Link="İşlem tamamlandı. Ancak kayıt defteri dosyası içe aktarılırken bazı kritik olmayan sorunlar çıktı. Ayrıntılı bilgi almak için Dism++.log dosyasına bakabilirsiniz."/>
+    <String Target="提交规则" Link="Hata Bildir"/>
+
+    <!--Explorer-->
+    <String Target="将任务栏中的Cortana调整为" Link="Görev çubuğundaki Cortana görünümü"/>
+      <String Target="隐藏" Link="Görüntülenmesin"/>
+      <String Target="仅显示图标" Link="Arama Simgesi"/>
+      <String Target="显示搜索框" Link="Arama Çubuğu"/>
+
+    <String Target="将用户账号控制程序（UAC）调整为" Link="Kullanıcı Hesabı Denetimi (UAC) değiştirildiğinde verilecek bildirim şeklini seçin"/>
+      <String Target="从不通知（不推荐）" Link="Asla bildirilmesin (önerilmez)"/>
+        <String Target="此选项将导致计算机面临安全风险！" Link="Bu seçenek etkinleştirildiğinde bilgisayar tehditlere açık olur!"/>
+      <String Target="提示我但不降低亮度" Link="Ekran Karartılmadan Bildirilsin"/>
+      <String Target="提示我（推荐）" Link="Bildirilsin (Önerilir)"/>
+      <String Target="总是提示我" Link="Her Zaman Bildirilsin"/>
+
+    <String Target="用于内置管理员帐户的管理员批准模式 (by 坏坏小生)" Link="İç yönetici hesabı için yönetici onayı kipi (Ekleyen: HuaiHuaiXiaoSheng)"/>
+
+    <String Target="隐藏“任务视图”按钮" Link="&quot;Görev Görünümü&quot; düğmesi gizlensin"/>
+
+    <String Target="打开资源管理器时显示此电脑" Link="Bu bilgisayara dosya gezgini açılsın"/>
+
+    <String Target="显示所有文件扩展名" Link="Tüm dosya türlerinin uzantıları görüntülensin"/>
+
+    <String Target="显示所有隐藏文件" Link="Tüm gizli dosyalar görüntülensin"/>
+
+    <String Target="隐藏快捷方式小箭头" Link="Kısayol simgelerindeki oklar kaldırılsın"/>
+
+    <String Target="隐藏可执行文件小盾牌" Link="Kullanıcı erişimi denetimi (UAC) koruması gizlensin"/>
+
+    <String Target="创建快捷方式时不添&quot;快捷方式&quot;文字（by 518516.net）" Link="Bir kısayol oluşturulurken &quot;Kısayol&quot; sözcüğü eklenmesin (Ekleyen: 518516.net)"/>
+
+    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹" Link="Bu bilgisayarda Masaüstü, Belgeler, İndirmeler, Müzik, Resimler, Videolar klasörleri gizlensin"/>
+
+    <String Target="*隐藏桌面右下角教育版水印" Link="*Eğitim Sürümü filigranı kaldırılsın"/>
+
+    <String Target="收起资源管理器功能区（by Rambin）" Link="Şerit küçültülsün (Ekleyen: Rambin)"/>
+
+    <String Target="显示开始菜单、任务栏、操作中心和标题栏的颜色（by Rambin）" Link="Başlatma Menüsü, Görev Çubuğu, İşlem Merkezi ve Başlık Çubuğunda renk görüntülensin (Ekleyen: Rambin)"/>
+
+    <String Target="禁止自动播放（by Rambin）" Link="Otomatik oynatma devre dışı bırakılsın (Ekleyen: Rambin)"/>
+
+    <String Target="在单独的进程中打开文件夹窗口（by 一叶微风TM）" Link="Klasör pencereleri ayrı işlem olarak açılsın (Ekleyen: YiYieWeiFeng TM)"/>
+
+    <String Target="始终显示菜单栏（by 一叶微风TM）" Link="Menü çubuğu her zaman görüntülensin (Ekleyen: YiYieWeiFeng TM)"/>
+
+    <String Target="资源管理器窗口最小化时显示完整路径（by 原罪）" Link="Windows gezgini küçültülmüş ise yolun tamamı görüntülensin (Ekleyen: YZ)"/>
+
+    <String Target="使开始菜单、任务栏、操作中心透明" Link="Başlatma Menüsü, Görev Çubuğu ve İşlem Merkezi saydam olsun"/>
+
+    <String Target="使任务栏更透明（by 518516.net）" Link="Görev çubuğu daha saydam olsun (Ekleyen: 518516.net)"/>
+
+    <String Target="不允许在开始菜单显示建议" Link="Başlatma menüsündeki öneriler devre dışı bırakılsın"/>
+    <String Target="不允许在开始菜单显示建议（by powerxing04）" Link="Başlatma menüsündeki öneriler devre dışı bırakılsın (Ekleyen: powerxing04)"/>
+
+    <String Target="在桌面显示我的电脑（by Rambin）" Link="Masaüstünde Bigisayarım simgesi görüntülensin (Ekleyen: Rambin)"/>
+      <String Target="跟随系统" Link="Sistem Ayarlarına Uyulsun"/>
+      <String Target="显示" Link="Görüntülensin"/>
+      <String Target="隐藏" Link="Gizlensin"/>
+
+    <String Target="在桌面显示回收站（by Rambin）" Link="Masaüstünde Geri Dönüşüm Kutusu simgesi görüntülensin (Ekleyen: Rambin)"/>
+
+    <String Target="在桌面显示控制面板（by Rambin）" Link="Masaüstünde Denetim Masası simgesi görüntülensin (Ekleyen Rambin)"/>
+
+    <String Target="在桌面显示用户文件夹（by Rambin）" Link="Masaüstünde Kullanıcı Klasörleri simgeleri görüntülensin (Ekleyen: Rambin)"/>
+
+    <String Target="在桌面显示网络（by Rambin）" Link="Masaüstünde Ağ simgesi görüntülensin (Ekleyen: Rambin)"/>
+
+    <String Target="在桌面显示库（by Rambin）" Link="Masaüstünde Kitaplık simgesi görüntülensin (Ekleyen: Rambin)"/>
+
+    <String Target="隐藏操作中心任务栏托盘（by Windows 10优化辅助工具）" Link="İşlem Merkezi tepsisi gizlensin (Ekleyen: Windows 10 optimization aids)"/>
+    <String Target="隐藏操作中心任务栏托盘（by 巧木）" Link="İşlem Merkezi tepsisi gizlensin (Ekleyen: QiaoMu)"/>
+
+    <String Target="关闭Smartscreen应用筛选器（by Windows 10优化辅助工具）" Link="Smartscreen Süzgeçleri Kapatılsın (Ekleyen: Windows 10 optimization aids)"/>
+    <String Target="关闭Smartscreen应用筛选器（by 、Cloud）" Link="Smartscreen Süzgeçleri Kapatılsın (Ekleyen: 、Cloud)"/>
+
+    <String Target="始终在任务栏显示所有图标和通知" Link="Görev çubuğunda her zaman tüm simge ve bildirimler görüntülensin"/>
+
+    <String Target="当任务栏被占满时" Link="Görev çubuğu dolduğunda"/>
+      <String Target="始终合并" Link="Her Zaman Birleştirilsin"/>
+      <String Target="被占满时合并" Link="Birleştirici Dolduğunda"/>
+      <String Target="从不合并" Link="Birleştirilmesin"/>
+
+    <String Target="锁定任务栏" Link="Görev çubuğu kilitlensin"/>
+
+    <String Target="任务栏使用小图标" Link="Görev çubuğunda küçük simgeler görüntülensin"/>
+
+    <String Target="隐藏资源管理器导航窗口中的库" Link="Kitaplık için dosya gezgini gezinme penceresi gizlensin"/>
+
+    <String Target="隐藏资源管理器导航窗口中的收藏夹" Link="Sık kullanılanlar için dosya gezgini gezinme penceresi gizlensin"/>
+
+    <String Target="隐藏资源管理器导航窗口中的家庭组" Link="Aile grubu için dosya gezgini gezinme penceresi gizlensin"/>
+
+    <String Target="隐藏资源管理器导航窗口中的网络" Link="Ağ için dosya gezgini gezinme penceresi gizlensin"/>
+
+    <String Target="优化非活动窗口标题栏颜色（by IT之家）" Link="Etkin olmayan pencere başlığının rengi iyileştirilsin (Ekleyen: IT Home)"/>
+
+    <String Target="*桌面壁纸质量调整为（by IT之家）" Link="*Masaüstü duvar kağıdı kalitesi değiştirilsin (Ekleyen: ITHome)"/>
+      <String Target="低质量（更快）" Link="Düşük (daha hızlı)"/>
+      <String Target="默认（推荐）" Link="Varsayılan"/>
+      <String Target="高质量（更清晰）" Link="Yüksek (daha net)"/>
+
+    <String Target="关闭视频文件预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Windows Gezginini hızlandırmak için görüntü dosyalarını ön izleme devre dışı bırakılsın (Ekleyen: MoWangMoShi)"/>
+    <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Windows Gezginini hızlandırmak için ses dosyalarını ön izleme devre dışı bırakılsın (Ekleyen: MoWangMoShi)"/>
+    <String Target="关闭打开程序的“安全警告”（by 莫失莫忘）" Link="Uygulamalar açılırken güvenlik uyarıları devre dışı bırakılsın (Ekleyen: MoWangMoShi)"/>
+    <String Target="关闭在应用商店中查找关联应用（by Asoft）" Link="Windows Mağazası üzerinde dosyalar ile ilişkili uygulama araması devre dışı bırakılsın (Ekleyen: Asoft)"/>
+    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="Bilgisayarda 3B Nesneler, Masaüstü, Belgeler, İndirilenler, Müzik, Resimler, Videolar gizlensin (Ekleyen: 、Cloud)"/>
+    <String Target="禁止自动安装推荐的应用程序（by IT之家）" Link="Önerilen uygulamaların otomatik olarak kurulması devre dışı bırakılsın (Ekleyen: ITHome)"/>
+    <String Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="Kilit ekranında Windows odaklanması devre dışı bırakılsın (Ekleyen: 、Cloud.)"/>
+    <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="&quot;Windows kullanırken öneri alma&quot; seçeneği devre dışı bırakılsın (Ekleyen: 、Cloud.)"/>
+    <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Görev Çubuğunda Kişiler devre dışı bırakılsın (Ekleyen: 、Cloud)"/>
+
+    <!--开始菜单-->
+    <String Target="开始菜单以及Windows体验" Link="Başlatma ve Windows Deneyimi"/>
+
+    <!--右键菜单管理-->
+    <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="Sağ Tık Menüsü Yönetimi: Windows Gezginini Hızlandırmak için Gerekmeyen Menü Ögelerini Devre Dışı Bırakır"/>
+    <String Target="禁用可执行文件的“兼容性疑难解答”右键菜单（by 莫失莫忘）" Link="Çalıştırılabilir dosyalar için &quot;Uyumluluk sorun gidericisi&quot; sağ tık menüsü devre dışı bırakılsın (Ekleyen: MoWangMoShi)"/>
+    <String Target="禁用文件、文件夹以及磁盘的“使用Windows Defender扫描”右键菜单（by 莫失莫忘）" Link="Dosyalar, klasörler ve diskler için &quot;Windows Defender ile Tara&quot; sağ tık menüsü devre dışı bırakılsın (Ekleyen: MoWangMoShi)"/>
+    <String Target="禁用文件、磁盘以及属性的“还原以前版本”右键菜单（by 莫失莫忘）" Link="Dosya, disk ve özellikler için &quot;Önceki Sürüme Dön&quot; sağ tık menüsü devre dışı bırakılsın (Ekleyen: MoWangMoShi)"/>
+    <String Target="禁用文件、文件夹、桌面以及所有对象的“共享文件夹同步”右键菜单" Link="Dosya, klasör, masastü ve tüm diğer ögeler için &quot;Paylaşılan Klasörleri Eşitle&quot; sağ tık menüsü devre dışı bırakılsın"/>
+    <String Target="禁用新建“ZIP/RAR文件”右键菜单（by 莫失莫忘）" Link="&quot;Yeni ZIP/RAR dosyası&quot; sağ tık menüsü devre dışı bırakılsın (Ekleyen: MoWangMoShi)"/>
+    <String Target="禁用新建、文件以及文件夹的“公文包”右键菜单" Link="Yeni dosya ve klasörler için &quot;Briefcase&quot; sağ tık menüsü devre dışı bırakılsın"/>
+    <String Target="禁用新建的“联系人”右键菜单（by 莫失莫忘）" Link="&quot;Yeni Kişi&quot; sağ tık menüsü devre dışı bırakılsın (Ekleyen: MoWangMoShi)"/>
+    <String Target="禁用桌面的英特尔集显右键菜单（by 莫失莫忘）" Link="Bütünleşik Intel graphics sağ tık menüsü devre dışı bırakılsın (Ekleyen: MoWangMoShi)"/>
+    <String Target="禁用目录、文件夹、所有对象、的“始终脱机可用”右键菜单" Link="Klasör ve tüm ögeler için &quot;Çevrimdışı Kullanılsın&quot; sağ tık menüsü devre dışı bırakılsın"/>
+    <String Target="禁用磁盘的“以便携式方式打开”右键菜单（by 莫失莫忘）" Link="Diskler için &quot;Taşınabilir Aygıt Olarak Aç&quot; sağ tık menüsü devre dışı bırakılsın (Ekleyen: MoWangMoShi)"/>
+    <String Target="禁用磁盘的“刻录到光盘”右键菜单" Link="Optik diskler için &quot;Diske Yaz&quot; sağ tık menüsü devre dışı bırakılsın"/>
+    <String Target="禁用磁盘的“启用Bitlocker”右键菜单（by 莫失莫忘）" Link="Diskler için &quot;Bitlocker'ı Aç&quot; sağ tık menüsü devre dışı bırakılsın (Ekleyen: MoWangMoShi)"/>
+    <String Target="禁用磁盘的“复制磁盘”右键菜单" Link="Diskler için &quot;Diski Kopyala&quot; sağ tık menüsü devre dışı bırakılsın"/>
+    <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="Dosyalar, klasörler, masaüstü, diskler ve kitaplıklar için &quot;Paylaş&quot; sağ tık menüsü devre dışı bırakılsın"/>
+    <String Target="禁用桌面的“小工具”右键菜单" Link="&quot;Widget&quot; sağ tık menüsü devre dışı bırakılsın"/>
+    <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Dosyalar için &quot;3B Görüntüle&quot; sağ tık menüsü devre dışı bırakılsın (Ekleyen: Cloud)"/>
+    <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Dosya için &quot;Paint 3D&quot; sağ tık menüsü devre dışı bırakılsın (Ekleyen: Cloud)"/>
+    <String Target="禁用所有对象的“共享”右键菜单" Link="Tüm ögeler için &quot;Paylaş&quot; sağ tık menüsü devre dışı bırakılsın"/>
+    <String Target="禁用文件、目录、桌面、磁盘以及库的“授予访问权限”右键菜单" Link="Dosyalar, klasörler, masaüstü, diskler ve kitaplıklar için &quot;Erişim İzni Ver&quot; sağ tık menüsü devre dışı bırakılsın"/>
+
+    <!--桌面图示管理-->
+    <String Target="桌面图标管理" Link="Masaüstü Simgeleri Yönetimi"/>
+
+    <!--资源管理器导航窗口图标管理-->
+    <String Target="资源管理器导航窗口图标管理" Link="Windows Gezgini Gezinme Panosu Simgeleri Yönetimi"/>
+    <String Target="隐藏资源管理器导航窗口中的OneDrive（by 莫失莫忘）" Link="OneDrive simgesi gizlensin (Ekleyen: MoWangMoShi)"/>
+    <String Target="隐藏资源管理器导航窗口中的可移动设备（by 莫失莫忘）" Link="Çıkarılabilir Aygıtlar simgesi gizlensin (Ekleyen: MoWangMoShi)"/>
+    <String Target="隐藏资源管理器导航窗口中的快速访问（by starP）" Link="Hızlı Erişim simgesi gizlensin (Ekleyen: starP)"/>
+      <String Target="启用此选项将导致导航窗口拖拽功能无法使用。" Link="Bu seçenek etkinleştirildiğinde, gezinme panosunda sürükleyip bırakma özelliği devre dışı bırakılır."/>
+
+    <!--Internet Explorer-->
+    <String Target="关闭多个选项卡时不发出警告（by 一叶微风TM）" Link="Birden çok sekme kapatılırken uyarı yapılmasın (Ekleyen: YiYieWeiFeng TM)"/>
+
+    <String Target="当创建新选项卡时，始终切换到新选项卡（by 一叶微风TM）" Link="Her zaman eklenen yeni sekmelere geçilsin (Ekleyen: YiYieWeiFeng TM)"/>
+
+    <String Target="其他程序从当前窗口的新选项卡打开连接（by 一叶微风TM）" Link="Diğer uygulamalardaki bağlantılar geçerli pencerede yeni sekmede açılsın (Ekleyen: YiYieWeiFeng TM)"/>
+
+    <String Target="以兼容性视图中显示所有网站（by 一叶微风TM）" Link="Tüm web siteleri uyumluluk kipinde görüntülensin (Ekleyen: YiYieWeiFeng TM)"/>
+
+    <String Target="启用表单的自动完成功能（by 原罪）" Link="Otomatik tamamlama kullanılsın (Ekleyen: YZ)"/>
+
+    <String Target="关闭建议的网站（by 原罪）" Link="Önerilen siteler kullanılmasın (Ekleyen: YZ)"/>
+
+    <String Target="跳过IE首次运行自定义设置（by 原罪、恋人の共鸣）" Link="İlk Kez Çalıştırma Yardımcısı çalıştırılmasın (Ekleyen: YZ, Lovers vibes)"/>
+
+    <String Target="不保存附件的区域信息（by 古畑任三郎）" Link="Bölgesel bilgiler dosya eklerini kaydetmesin (Ekleyen: niphor)"/>
+
+    <String Target="启用增强保护模式" Link="Arttırılmış Koruma Kipi Kullanılsın"/>
+
+    <String Target="针对增强保护模式启用64位进程" Link="64 bit işlemler için Arttırılmış Koruma Kipi etkinleştirilsin"/>
+
+    <String Target="隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）" Link="Internet Explorer uygulamasında sağ üst köşedeki gülen geri bildirim simgesi gizlensin (Ekleyen: ITHome)"/>
+
+    <!--Microsoft Edge-->
+    <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Microsoft Edge uygulaması için &quot;İlk Çalıştırma&quot; aşaması atlansın (Ekleyen: ITHome)"/>
+
+    <String Target="关闭Adobe Flash即点即用" Link="Adobe Flash sağ tıklaması devre dışı bırakılsın"/>
+      <String Target="此选项将降低计算机安全性，增加Adobe Flash的安全隐患！" Link="Bu öge bilgisayar güvenliğini azaltır."/>
+
+    <!--微软拼音输入法-->
+    <String Target="微软拼音输入法" Link="Microsoft Pinyin IME"/>
+    <String Target="微软拼音默认为英语输入（by Rambin）" Link="IME varsayılan kipi İngilizce yapılsın (Ekleyen: Rambin)"/>
+
+    <String Target="关闭微软拼音云计算（by Rambin）" Link="Bulut giriş yöntemi devre dışı bırakılsın (Ekleyen: Rambin)"/>
+
+    <!--Windows Update-->
+    <String Target="自动安装无需重启的更新（by Rambin）" Link="Otomatik Güncellemeler hemen kurulsun (Ekleyen: Rambin)"/>
+
+    <String Target="更新挂起时如果有用户登录不自动重启计算机（by Rambin）" Link="Oturum açmış kullanıcılar varken otomatik zamanlanmış  güncelleme kurulumları için sistem otomatik olarak yeniden başlatılmasın (Ekleyen: Rambin)"/>
+
+    <String Target="Windows更新不包括驱动程序" Link="Windows Update sürücüleri güncellemesin"/>
+
+    <String Target="*将Windows Update自动更新调整为" Link="*Windows Update güncellemeleri otomatik olarak ayarlasın"/>
+      <String Target="从不检查（不推荐）" Link="Asla denetlenmesin (önerilmez)"/>
+      <String Target="仅检查更新" Link="Güncellemeler yalnız denetlensin"/>
+      <String Target="检查并下载更新" Link="Güncellemeler denetlensin ve indirilsin"/>
+      <String Target="自动安装更新（推荐）" Link="Otomatik kurulsun (önerilir)"/>
+
+    <String Target="禁止自动更新到Internet Explorer 9" Link="Internet Explorer 9 otomatik güncellemeleri devre dışı bırakılsın"/>
+
+    <String Target="禁止自动更新到Internet Explorer 10" Link="Internet Explorer 10 otomatik güncellemeleri devre dışı bırakılsın"/>
+
+    <String Target="禁止自动更新到Internet Explorer 11（by Rambin）" Link="Internet Explorer 11 otomatik güncellemeleri devre dışı bırakılsın (Ekleyen: Rambin)"/>
+
+    <!--记事本-->
+    <String Target="记事本" Link="Notepad"/>
+    <String Target="启用自动换行（by 一叶微风TM）" Link="Sözcük kaydırma seçeneği etkinleştirilsin (Ekleyen: YiYieWeiFeng TM)"/>
+
+    <String Target="始终显示状态栏（by 一叶微风TM）" Link="Durum çubuğu görüntülensin (Ekleyen: YiYieWeiFeng TM)"/>
+
+    <!--网络设置-->
+    <String Target="网络设置" Link="Ağ"/>
+    <String Target="*关闭默认共享（by 518516.net）" Link="*Varsayılan paylaşım kapatılsın (Ekleyen: 518516.net)"/>
+
+    <String Target="*关闭防火墙（by 一叶微风TM）" Link="*Windows Güvenlik Duvarı kapatılsın (Ekleyen: YiYieWeiFeng TM)"/>
+      <String Target="此选项将降低计算机安全性，请确保你已经安装第三方防火墙软件！" Link="Bu seçenek bilgisayar güvenliğini azaltır. Bir üçüncü taraf güvenlik duvarı kullandığınızdan emin olun!"/>
+
+    <String Target="*关闭远程协助（by 原罪）" Link="*Uzaktan destek bağlantılarının kurulmasına izin verilsin (Ekleyen: YZ)"/>
+
+    <String Target="*禁用SMB1网络协议（by MS-PC2）" Link="*SMB1 ağ iletişim kuralına izin verilmesin (Ekleyen: MS-PC2)"/>
+
+    <!--服务优化-->
+    <String Target="服务优化" Link="Hizmet"/>
+    <String Target="禁用程序兼容性助手（by 一叶微风TM）" Link="Uygulama Uyumluluk Yardımcısı Hizmeti devre dışı bırakılsın (Ekleyen: YiYieWeiFeng TM)"/>
+
+    <String Target="禁用远程修改注册表（by 一叶微风TM）" Link="Uzak Kayıt Defteri Hizmeti devre dışı bırakılsın (Ekleyen: YiYieWeiFeng TM)"/>
+
+    <String Target="禁用诊断服务" Link="Tanılama Hizmeti devre dışı bırakılsın"/>
+
+    <String Target="禁用IPv6转换服务" Link="IP Yardımcısı Hizmeti devre dışı bırakılsın"/>
+      <String Target="禁用此服务将导致IPv6无法正常使用，请确保你不需要使用IPv6！" Link="Bu hizmet devre dışı bırakıldığında IPv6 hizmeti devre dışı bırakır. Lütfen IPv6 özelliğine gerek duyulmadığından emin olun!"/>
+
+    <String Target="禁用Windows Search" Link="Windows Search devre dışı bırakılsın"/>
+      <String Target="禁用此服务将导致搜索文件变慢，并且某些Windows Store应用可能无法正常使用！" Link="Bu hizmet devre dışı bırakıldığında bazı Windows Mağaza uygulamaları çalışmayabilir! Ayrıca dosya arama hızı düşebilir."/>
+
+    <String Target="禁用错误报告" Link="Windows Hata Bildirimi devre dışı bırakılsın"/>
+
+    <String Target="禁用家庭组" Link="Ev Grubu devre dışı bırakılsın"/>
+
+    <String Target="禁用Windows Defender（by Windows 10优化辅助工具）" Link="Windows Defender devre dışı bırakılsın (Ekleyen: Windows 10 optimization aids)"/>
+      <String Target="关闭Windows Defender后可提高计算机响应速度，但是也将增加电脑被攻击的几率！" Link="Windows Defender devre dışı bırakıldığında bilgisayar başarımı daha iyi olur ancak zararlı yazılım ve saldırılara karşı açık hale gelir!"/>
+
+    <String Target="禁用客户体验改善计划（by Windows 10优化辅助工具）" Link="Müşteri Deneyimini Geliştirme Programı devre dışı bırakılsın (Ekleyen: Windows 10 optimization aids)"/>
+
+    <String Target="禁用NTFS链接跟踪服务（by 某宅）" Link="Ev Grubu NTFS Bağlantı İzleme Hizmeti Devre Dışı Bırakılsın (Ekleyen: Stotaku)"/>
+
+    <String Target="禁止自动维护计划（by Lux ferre）" Link="Otomatik Bakım Görevi devre dışı bırakılsın (Ekleyen: Lux ferre)"/>
+      <String Target="禁用后系统将无法使用文件预读等功能，这可能导致系统性能下降！" Link="Bu seçenek devre dışı bırakıldığında, sistem uygulama ön belleği gibi özellikleri kullanamaz ve sistem başarımı kötüleşir."/>
+
+    <!--WinRAR-->
+    <String Target="锁定WinRAR工具栏（by 原罪）" Link="WinRAR araç çubuğu kilitlensin (Ekleyen: YZ)"/>
+
+    <String Target="隐藏WinRAR 在右键菜单中添加的&quot;压缩并 E-mail...&quot;（by 原罪）" Link="Hide WinRAR tarafından eklenen &quot;Sıkıştır ve E-posta gönder...&quot; sağ tık menü ögesi gizlensin (Ekleyen: YZ)"/>
+
+    <!--Windows Media Player-->
+    <String Target="不显示首次使用对话框（by 原罪）" Link="İlk Kez Çalıştırma Yardımcısı gizlensin (Ekleyen: YZ)"/>
+
+    <!--其他-->
+    <String Target="*隐藏Windows 10升级助手GWX" Link="*Windows 10 Yükseltme Yardımcısı gizlensin (Ekleyen: GWX)"/>
+
+    <String Target="关闭OneDrive（by Rambin）" Link="OneDrive devre dışı bırakılsın (Ekleyen: Rambin)"/>
+      <String Target="禁用OneDrive将导致某些Windows Store应用无法使用OneDrive存储。" Link="OneDrive devre dışı bırakılırsa bazı Windows Mağaza uygulamaları OneDrive Bulut Depolamasını kullanamaz."/>
+
+    <String Target="*VHD启动时不要将VHD动态文件扩展到最大（以节省空间）" Link="*VHD hazırlanırken VHD Devingen olabilecek en büyük boyuta genişletilmesin (daha az depolama kullanılması için)"/>
+      <String Target="此选项可能降低VHD文件性能。" Link="Bu seçenek VHD dosyasının başarımını düşürebilir."/>
+
+    <String Target="*隐藏某些SATA硬盘任务栏图标（by 原罪）" Link="*Bazı SATA sabit disklerin görev çubuğundaki simgeleri gizlensin (Ekleyen: YZ)"/>
+
+    <String Target="蓝屏时自动重启（by 原罪）" Link="Mavi ekran sorunu yaşandığında sistem otomatik olarak yeniden başlatılsın (Ekleyen: YZ)"/>
+
+    <String Target="关闭快速启动" Link="Hiberboot özelliği devre dışı bırakılsın"/>
+      <String Target="关闭快速启动将导致系统启动速度变慢！" Link="Hiberboot özelliğinin devre dışı bırakılması sistemin başlatılma süresini uzatır."/>
+
+    <String Target="关闭休眠（by powerxing04）" Link="Hazırda bekletme özelliği devre dışı bırakılsın (Ekleyen: powerxing04)"/>
+      <String Target="关闭休眠后将导致快速启动以及混合休眠不可用，这样将增加断电丢失数据的风险！" Link="Hiberboot ve Karma Hazırda Bekletme kullanılamadığında sonuç verir!"/>
+
+    <String Target="禁用组件堆栈（Component Based Servicing）日志" Link="Bileşenlerin Hizmet Günlüğü devre dışı bırakılsın"/>
+
+    <String Target="禁用更新解压模块（Delta Package Expander）日志" Link="Delta Paket Ayıklayıcı günlüğü devre dışı bırakılsın"/>
+
+    <String Target="禁用系统日志（by Windows 10优化辅助工具）" Link="Sistem günlüğü devre dışı bırakılsın (Ekleyen: Windows 10 optimization aids)"/>
+
+    <String Target="崩溃时写入调试信息" Link="Sistem çökmelerinde hata ayıklama bilgileri yazılsın"/>
+      <String Target="无" Link="Yok"/>
+      <String Target="小内存转储（256KB）" Link="Mini Döküm (256KB)"/>
+      <String Target="核心内存转储" Link="Çekirdek Dökümü"/>
+
+    <String Target="Windows 照片查看器" Link="Windows Fotoğraf Görüntüleyici"/>
+    <String Target="Windows主题相关设置" Link="Windows Tema Ayarları"/>
+    <String Target="任务栏相关设置" Link="Görev Çubuğu Ayarları"/>
+    <String Target="关闭商店应用推广（by 、Cloud.）" Link="Windows Mağaza reklamları devre dışı bırakılsın (Ekleyen: 、Cloud.)"/>
+    <String Target="关闭多嘴的小娜（by 朽木）" Link="Cortana devre dışı bırakılsın (Ekleyen: XiuMu)"/>
+    <String Target="关闭游戏录制工具（by 、Cloud.）" Link="Oyun kaydedici devre dışı bırakılsın (Ekleyen: 、Cloud.)"/>
+    <String Target="启用 Windows 照片查看器（by 心之所向）" Link="Windows Fotoğraf Görüntüleyici etkinleştirilsin (Ekleyen: XingZhiSuoXiang)"/>
+    <String Target="安全相关设置" Link="Güvenlik Ayarları"/>
+    <String Target="开启模糊音（by 朽木）" Link="Karmaşıklık desteği etkinleştirilsin (Ekleyen: XiuMu)"/>
+    <String Target="开启此功能将导致平板模式下无法使用手势调出操作中心。" Link="Bu seçenek etkinleştirildiğinde, Tablet kipinde İşlem Merkezini çağıran el işareti kullanılamayabilir."/>
+    <String Target="禁用文件、目录、桌面、所有对象的“工作文件夹”右键菜单" Link="Dosya, klasör ve tüm diğer nesneler için &quot;Çalışma Klasörü&quot; sağ tık menüsü devre dışı bırakılsın "/>
+    <String Target="禁用文件夹的“固定到快速访问”右键菜单" Link="Klasörler için &quot;Hızlı Erişime Ekle&quot; sağ tık menüsü devre dışı bırakılsın"/>
+    <String Target="禁用文件的“OneDrive文件同步”右键菜单" Link="Dosyalar için &quot;OneDrive Dosya Eşitlemesi&quot; sağ tık menüsü devre dışı bırakılsın"/>
+    <String Target="关闭“突出显示新安装的程序”（by 溯汐潮）" Link="&quot;Yeni kurulan uygulamalar vurgulansın&quot; seçeneği devre dışı bırakılsın (Ekleyen: Hell Cabrite)"/>
+    <String Target="关闭自动更新（by 溯汐潮）" Link="Otomatik güncellemeler devre dışı bırakılsın (Ekleyen: Hell Cabrite)"/>
+    <String Target="将“音量调节”调整为Windows 7模式（by 溯汐潮）" Link="&quot;Birim Ayarlama&quot; özelliği Windows 7 kipine dönüştürülsün (Ekleyen: Hell Cabrite)"/>
+    <String Target="将同时可用下载数目调整到 10（by 溯汐潮）" Link="Eş zamanlı indirme sayısı 10 olarak ayarlansın (Ekleyen: Hell Cabrite)"/>
+    <String Target="将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）" Link="Masaüstü sağ tık menüsündeki &quot;Kişiselleştir&quot; seçeneği Windows 7 kipine dönüştürülsün (Ekleyen: dpzjsy)"/>
+    <String Target="将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）" Link="Masaüstü sağ tık menüsündeki &quot;Görünüm Ayarları&quot; seçeneği Windows 7 kipine dönüştürülsün (Ekleyen: dpzjsy)"/>
+    <String Target="将语言栏隐藏到任务栏（by 溯汐潮）" Link="Dil Çubuğu görev çubuğunda gizlensin (Ekleyen: Hell Cabrite)"/>
+    <String Target="快速访问不显示常用文件夹（by 溯汐潮）" Link="Hızlı Erişim altında Sık Kullanılan Klasörler görüntülenmesin (Ekleyen: Hell Cabrite)"/>
+    <String Target="快速访问不显示最近使用的文件（by 溯汐潮）" Link="Hızlı Erişim altında Son Kullanılan Dosyalar görüntülenmesin (Ekleyen: Hell Cabrite)"/>
+    <String Target="清理被取代的msp补丁并减少Installer目录的大小。" Link="Değiştirilmiş msp yamaları temizlensin ve Installer klasörünün boyutu azaltılsın."/>
+    <String Target="禁用账号登录日志报告（by 溯汐潮）" Link="Hesap oturum açma kayıtları devre dışı bırakılsın (Ekleyen: Hell Cabrite)"/>
+    <String Target="遇到弹出窗口时始终在新选项卡中打开弹出窗口（by 溯汐潮）" Link="Yeni sekmelerde her zaman açılan pencereler görüntülensin (Ekleyen: Hell Cabrite)"/>
+    <String Target="锁定Internet Explorer工具栏（by 溯汐潮）" Link="Internet Explorer araç çubuğu kilitlensin (Ekleyen: Hell Cabrite)"/>
+    <String Target="隐藏NTFS蓝色双箭头压缩标识（by IT之家）" Link="NTFS sıkıştırmasını gösteren çift mavi ok kaplaması gizlensin (Ekleyen: IT Home)"/>
+    <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="Dil Çubuğunda yardım düğmesi gizlensin (Ekleyen: Hell Cabrite)"/>
+    <String Target="Windows 7体验" Link="Windows 7 Deneyimi"/>
+    <String Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Windows Update zararlı yazılım kaldırma araçlarını kapsamasın (Ekleyen: ‍Winaero)"/>
+    <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Sağ tık menüsü Windows 7 kipine dönüştürülsün (Ekleyen: Silence)"/>
+    <String Target="登陆界面默认打开小键盘（by IT之家）" Link="Oturum açma sırasında tuş takımı kullanılsın (Ekleyen: ITHome)"/>
+    <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Bileşenlerin Hizmet Yedeği devre dışı bırakılsın"/>
+    <String Target="任务栏时钟精确到秒（by Luupw3d）" Link="Görev çubuğundaki saatte saniyeler görüntülensin (Ekleyen: Luupw3d)"/>
+
+    <String Target="禁用WfpDiag.ETL日志（by powerxing04）" Link="WfpDiag ETL günlük kaydı devre dışı bırakılsın (Ekleyen: powerxing04)"/>
+    <String Target="禁用文件夹的“包含到库中”右键菜单（by choyri）" Link="Klasörler için sağ tık menüsünde &quot;Kitaplığa Ekle&quot; seçeneği devre dışı bırakılsın (Ekleyen: choyri)"/>
+    <String Target="禁用桌面的“NVIDIA 控制面板”右键菜单（by choyri）" Link="Masaüstü sağ tık menüsünde &quot;NVIDIA Denetim Masası&quot; seçeneği devre dışı bırakılsın (Ekleyen: choyri)"/>
+    <!--系统优化已经结束-->
+
+    <!--Dism++更新程序-->
+    <String
+      Target="发现新版本，需要更新 %d 个文件，约%s。&#xD;&#xA;&#xD;&#xA;更新日志：&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;确定要升级吗？"
+      Link="Yeni bir sürüm yayınlanmış. %d dosya (%s) güncellenecek.&#xD;&#xA;&#xD;&#xA;Değişiklik günlüğü:&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;Güncellemek ister misiniz?"/>
+    <String Target="Dism++更新程序" Link="Dism++ Güncelleyici"/>
+    <String
+      Target="准备启动下载模块……&#xD;&#xA;"
+      Link="Modüller indirilmeye hazırlanıyor...&#xD;&#xA;"/>
+    <String Target="正在下载 - %d/%d" Link="İndiriliyor %d/%d"/>
+    <String Target="更新文件过程中遇到错误，Orz……" Link="Güncelleme sırasında sorun çıktı, Orz..."/>
+
+    <!--命令行-->
+    <String Target="退出" Link="Çık"/>
+    <String Target="%s 解压失败，错误代码：%d" Link="%s ayıklanamadı. Hata kodu: %d"/>
+    <String Target="%s 解压成功" Link="%s ayıklandı"/>
+    <String Target="%s 压缩失败，错误代码：%d" Link="%s sıkıştırılamadı. Hata kodu: %d"/>
+    <String Target="%s 跳过" Link="%s atlandı"/>
+    <String Target="%s 压缩成功" Link="%s sıkıştırıldı"/>
+    <String Target="Dism++初始化成功，开始执行命令：%s" Link="Dism++ hazırlandı, başlatmak için şu komutu yürütün:%s"/>
+    <String Target="无法识别参数：%s" Link="Parametreler belirlenemedi:%s"/>
+    <String Target="至少输入一个路径" Link="En az bir yol yazın"/>
+    <String Target="%s 路径无效" Link="%s yolu geçersiz"/>
+    <String Target="未正确识别到命令，以下是程序支持的所有命令：" Link="Komut bulunamadı, lütfen söz dizimini denetleyin. Desteklenen komutlar şunlardır:"/>
+    <String
+      Target="将一个文件夹或者文件进行Compact压缩：&#xD;&#xA;/C  { /exe [ xpress4k（默认、更佳性能） | xpress8k | xpress16k | lzx（更小体积） ] } Path"
+      Link="Dosya ya da klasörleri küçültüp sıkıştırmak için:&#xD;&#xA;/C { /exe [ xpress4k (default, faster) | xpress8k | xpress16k | lzx (smaller) ] } Yol"/>
+    <String
+      Target="将一个文件夹或者文件进行Compact解压缩&#xD;&#xA;/U Path"
+      Link="Sıkıştırılmış klasör ve dosyaları ayıklamak için&#xD;&#xA;/U Yol"/>
+    <String
+      Target="/Image:&lt;path_to_image&gt;&#9;- 指定特定 Windows 映像的根目录的路径。&#xD;&#xA;&#xD;&#xA;示例：&#xD;&#xA; Dism++x86.exe /Image:C:\ /?&#xD;&#xA; Dism++x86.exe /Image:&quot;D:\1213\&quot; /?"
+      Link="/Image:&lt;kalip_yolu&gt;&#9;- Kalıbın kök klasörünün yolu.&#xD;&#xA;&#xD;&#xA;Örnekler:&#xD;&#xA; Dism++x86.exe /Image:C:\ /?&#xD;&#xA; Dism++x86.exe /Image:&quot;D:\1213\&quot; /?"/>
+    <String
+      Target="映像管理命令：&#xD;&#xA; /All&#9;- 打开全局会话&#xD;&#xA; /Image&#9;- 指定特定 Windows 映像的根目录的路径。&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Compact支持命令：&#xD;&#xA; /C&#9;- 使用Compact压缩文件/文件夹&#xD;&#xA; /U&#9;- 撤销Compact压缩的文件/文件夹&#xD;&#xA;&#xD;&#xA;若要获得有关这些 Dism++ 选项及其参数的详细信息，请在紧挨着 /? 之前指定一个选项。&#xD;&#xA;示例：&#xD;&#xA; Dism++x86.exe /Image /?&#xD;&#xA; Dism++x86.exe /C /?"
+      Link="Kalıp Yönetimi Komutları:&#xD;&#xA; /All&#9;- Genel bir oturum açar&#xD;&#xA; /Image&#9;- Windows kalıbının kök klasörünü belirler&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Desteklenen komutları sıkıştırır&#xD;&#xA; /C&#9;- Sıkıştırılmış dosya ve klasörleri kullanır (Compact ile sıkıştırılmış)&#xD;&#xA; /U&#9;- Sıkıştırılmış dosya ve klasörleri kaldırır (Compact ile sıkıştırılmış)&#xD;&#xA;&#xD;&#xA;Bu Dism++ seçenekleri ve kullanımları hakkında ayrıntılı bilgi almak için  arguments,&#xD;&#xA;/? önünde seçeneği belirtebilirsiniz.&#xD;&#xA;Örnek:&#xD;&#xA; Dism++x86.exe /Image /?&#xD;&#xA; Dism++x86.exe /C /?"/>
+    <String
+      Target="/Plugin:&lt;Plugin_ID&gt;&#9;- 此功能用于打开某插件支持的命令&#xD;&#xA;&#xD;&#xA;示例：&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"
+      Link="/Plugin:&lt;Uygulama_Eki_Kodu&gt;&#9;- Bir uygulama eki tarafından desteklenen bir komutu yürütür.&#xD;&#xA;&#xD;&#xA;Örnekler:&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"/>
+    <String
+      Target="可以使用以下命令来操作此映像：&#xD;&#xA;&#xD;&#xA;插件命令：&#xD;&#xA; /Plugin&#9;- 启动特定插件（需要插件支持命令参数）"
+      Link="Şu komutu ile kalıbı işletebilirsiniz:&#xD;&#xA;&#xD;&#xA;Komut:&#xD;&#xA; /Plugin&#9;- Belirtilen uygulama ekini çalıştırır (Uygulama eki desteği gereklidir)"/>
+    <String Target="正在压缩" Link="Sıkıştırılıyor"/>
+    <String Target="正在解压" Link="Ayıklanıyor"/>
+    <String Target="操作完成！" Link="Tamamlandı."/>
+
+    <!--系统还原-->
+    <String Target="当前模式不支持引导修复以及格式化分区，你需要重启并进入RE进行恢复么？" Link="Geçerli kipte başlatma onarımı ya da bölüm biçimlendirmesi yapılamaz. Kurtarma işlemleri için WinRE yüklemek üzere yeniden başlatmak ister misiniz?"/>
+    <String Target="正在格式化" Link="Biçimlendiriliyor"/>
+    <String Target="格式化分区 %s 失败，错误代码：%d。" Link="%s bölümü biçimlendirilemedi. Hata kodu:%d."/>
+    <String Target="正在刷新" Link="Yenileniyor"/>
+    <String Target="Dism++与此操作系统处于同一分区，无法进行格式化。" Link="Dism++ ve İşletim Sistemi aynı bölümde bulunduğundan bölüm biçimlendirilemez."/>
+
+    <!--重新载入-->
+    <String Target="当前其他任务正在进行，请稍等……" Link="Şu anda başka işlemler yapılıyor, lütfen bekleyin..."/>
+
+    <!--文件拆分设置-->
+    <String Target="文件拆分" Link="Dosyayı Böl"/>
+    <String Target="分卷大小（MB）" Link="Birim Boyutu (MB)"/>
+
+    <!--用户协议-->
+    <String Target="Dism++用户协议" Link="Dism++ Kullanım Koşulları"/>
+    <String Target="这是一份法律性资料。" Link="Hüküm ve koşullar."/>
+    <String Target="接受" Link="Onayla"/>
+    <String Target="不接受" Link="Reddet"/>
+
+    <String Target="作者的话" Link="Geliştiriciden"/>
+
+    <!--清理项目条目映射-->
+    <String Target="被取代的WinSxS组件" Link="Değiştirilmiş WinSxS Paketleri"/>
+    <String Target="清理被取代的组件并减少组件存储的大小。" Link="Bu seçenek etkinleştirildiğinde, değiştirilmiş bileşenler temizlenerek bileşen mağazasının boyutu küçültülür."/>
+    <String Target="清理后将无法卸载更新，如果有卸载更新需求请勿使用此选项。" Link="Kurulmuş Windows güncellemeleri işlem tamamlandıktan sonra kaldırılamaz."/>
+    <String Target="清理后将无法卸载更新，此外ResetBase模式跟系统重置功能有冲突，如果有卸载更新或者系统重置需求请勿使用此选项。" Link="Bu seçenek kullanıldığında, güncellemeler kaldırılamaz. Ek olarak ResetBase kipi sistem sıfırlama özelliği ile çakışır. Lütfen bu seçeneği gerek duymadıkça kullanmayın."/>
+
+    <String Target="被取代的WinSxS组件（非常慢）" Link="Değiştirilen WinSxS paketleri (çok yavaş)"/>
+
+    <String Target="过期驱动" Link="Eski sürücüler"/>
+    <String Target="删除计算机中不使用的驱动程序以节省驱动存储池空间。" Link="Yer açmak için kullanılmayan sürücüleri siler."/>
+    <String Target="该功能对于某些精简系统或者手动处理过驱动的系统可能发生驱动签名问题。" Link="Bu seçenek kullanıldığında, bazı basitleştirilmiş ya da sürücülerin el ile işlendiği sistemlerde sürücü imzalama sorunu çıkabilir."/>
+
+    <String Target="硬链接合并（较慢）" Link="Mutlak bağlantı birleştirme (daha yavaş)"/>
+    <String Target="使用利用NTFS硬链接特性合并所有文件内容相同的文件。" Link="Aynı içeriğe sahip dosyaları birleştirmek için NTFS mutlak bağlantısı kullanılsın."/>
+    <String Target="某些文件被硬链接合并后可能导致相关功能无法正常使用。" Link="Bu seçenek kullanıldığında, birleştirilen bazı dosyalar normal şekilde çalışmaz."/>
+
+    <String Target="CompactOs（较慢）" Link="CompactOs (daha yavaş)"/>
+    <String Target="对单纯读取的文件进行哈夫曼压缩，在不影响性能的情况下，显著减少系统体积。特别感谢矿工以及所有Compact团队成员无私的支持与帮助。" Link="Salt okunur dosyaları Huffman yöntemi ile sıkıştırır. Başarımı etkilemez, sistem tarafından kullanılan alanı azaltır. miners, selfless support compact takımı üyelerine özel teşekkürler."/>
+    <String Target="使用后可能导致某些程序无法正常运行甚至让系统无法启动，如果使用后出现问题，可以在PE中点击 恢复功能-->撤销Compact。" Link="Bu seçenek kullanıldığında, bazı uygulamalar çalışmayabilir ve sistem başlatılamayabilir. Bu sorunları WinPE üzerinde &quot;Kurtarma&quot; > &quot;Asla Sıkıştırılmasın&quot; seçeneğini kullanarak giderebilirsiniz."/>
+    <String Target="此功能与某些硬盘备份软件不兼容。如果使用后出现问题，可以点击 恢复功能-->撤销Compact。" Link="Bu özellik bazı yedekleme uygulamaları ile uyumlu değildir. Sorun yaşarsanız &quot;Kurtarma&quot; > &quot;Asla Sıkıştırılmasın&quot; seçeneğini kullanın."/>
+
+    <String Target="过期Appx应用" Link="Outdated Appx application"/>
+    <String Target="在Appx应用升级时，会留下老版本应用，该功能将删除那些不使用的老版本。" Link="Bir Appx güncellenirken eski sürümler silinmez. Bu seçenek kullanıldığında, kullanılmayan eski sürümler silinebilir (deneme aşamasında, metro uygulamasının başlatılamamasına neden olabilir."/>
+    <String Target="少数用户报告称使用后无法打开Appx应用，需要重新安装Appx应用。" Link="Bazı kullanıcılar bu özelliği kullandıktan sonra Appx uygulamasının çalışmadığını ve yeniden kurmak zorunda kaldıklarını bildirdi."/>
+
+    <String Target="系统自带Appx应用" Link="İç Windows Mağaza Uygulaması"/>
+    <String Target="此功能将移除所有系统自带Appx应用，移除后可以在Windows应用商店重新下载他们。" Link="Bu özellik sisteme gömülü tüm Appx uygulamalarını kaldırır. Gerek duyduğunuzda bu uygulamaları Windows Mağazası üzerinden yeniden indirebilirsiniz."/>
+
+    <String Target="WinSxS临时文件" Link="WinSxS Geçici Dosyaları"/>
+    <String Target="系统更新时在WinSxS里面产生的临时文件。" Link="Sistem güncellenirken oluşturulan geçici dosyalar."/>
+
+    <String Target="Windows日志（by chenyu、YukiSakura）" Link="Windows Günlüğü (Ekleyen: chenyu, YukiSakura)"/>
+    <String Target="Windows在运行时产生的日志。" Link="Windows günlük kayıtlarının bulunduğu dosyalar."/>
+
+    <String Target="Windows下载缓存" Link="Windows İndirme Ön Belleği"/>
+    <String Target="Windows在下载更新以及更新Metro应用时会在这里产生临时安装包。" Link="Windows tarafından güncellemeler indirilirken ya da metro uygulamaları güncellenirken, sistem tarafından geçici kurulum paketlerinin kaydedildiği yer"/>
+
+    <String Target="临时文件" Link="Geçici Dosyalar"/>
+    <String Target="一些程序为特定用户产生的临时文件。" Link="Belirli bir kullanıcının geçisi dosyaları."/>
+
+    <String Target="Windows报告" Link="Windows Hata Bildirimi"/>
+    <String Target="当程序遇到某些问题时，系统会在这里留下稳定性报告，建议你定期清理。" Link="Uygulamalarda sorun çıktığında sistem tarafından kaydedilen kararlılık raporları. Kararlılık raporlarını yıllık olarak temizlemeniz önerilir."/>
+
+    <String Target="常见的驱动临时解压目录" Link="Sürücülerin ayıklanacağı ortak geçici klasör"/>
+    <String Target="Intel、AMD以及Nvidia驱动在安装时留下的解压目录。" Link="Intel, AMD ve Nvidia sürücüleri kurulurken dosyaların geçici olarak ayıklandığı klasör."/>
+
+    <String Target="Terminal Server Client缓存" Link="Terminal Server İstemci Ön Belleği"/>
+    <String Target="Terminal Server Client运行时产生的一些缓存文件。" Link="Terminal Server İstemcisi tarafından kullanılan ön bellek."/>
+
+    <String Target="以前的Windows系统" Link="Windows Old"/>
+    <String Target="在系统升级或者还原后留下的系统备份。" Link="Sistem yükseltilirken ya da geri yüklenirken önceki işletim sisteminin yedeği alınır."/>
+    <String Target="删除后你将无法回滚到以前安装的系统。" Link="Bu seçenek kullanıldığında, önceki işletim sistemine geri dönülemez."/>
+
+    <String Target="Windows临时安装文件" Link="Windows Geçici Kurulum Dosyaları"/>
+    <String Target="在系统升级或者还原后留下的系统临时安装文件，如果你确定当前没有进行系统升级或者还原，那么可以安全删除。" Link="Sistem yükseltilirken ya da geri yüklenirken sistem dosyalarının yedeği alınır. Sisteminizi yükseltmediğinize ya da geri yüklemediğinize eminseniz yedekleri silebilirsiniz."/>
+
+    <String Target="QQ临时数据" Link="Tencent QQ Geçici Dosyaları"/>
+    <String Target="QQ运行时产生的临时文件还有日志，不影响QQ消息记录，建议定期删除。" Link="QQ çalışırken oluşturulan geçici ve günlük dosyaları. Bunların düzenli olarak silinmesi önerilir."/>
+
+    <String Target="YY临时文件" Link="YY Geçici Dosyaları"/>
+    <String Target="YY运行时产生的一些临时文件以及日志，建议定期删除。" Link="YY çalışırken oluşturulan geçici ve günlük dosyaları. Bunların düzenli olarak silinmesi önerilir."/>
+
+    <String Target="Installer基线缓存" Link="Kurucu Ön Belleği"/>
+    <String Target="使用Installer技术的安装程序产生的缓存。" Link="Bazı kurulumlarda kullanılan ön bellek."/>
+    <String Target="可能导致卸载Office、VM等应用程序需要安装包。" Link="Bu seçenek kullanıldığında, Office ve VM uygulamalarının kaldırılmasına neden olabilir. Kurulum paketi gereklidir."/>
+
+    <String Target="Visual Studio安装源" Link="Visual Studio kurulum kaynağı"/>
+    <String Target="安装Visual Studio后产生的安装源，如果不需要卸载VS可以考虑删除。" Link="Visual studio kurulumundan sonra kopyalanan kurulum kaynağı. Visual studio uygulamasını kaldırmanıza gerek olmayacaksa bu kaynağı silebilirsiniz."/>
+    <String Target="清理后将无法卸载只能升级安装或者强行删除。" Link="Bu seçenek kullanıldığında, uygulama kaldırılamaz. Yalnız güncelleme ya da zorla silme işlemleri yapılabilir."/>
+
+    <String Target="Office安装源" Link="Office kurulum kaynağı"/>
+    <String Target="安装Office后产生的安装源，如果不需要卸载Office可以考虑删除，删除后能正常安装Office更新。" Link="Visual Studio kurulumundan sonra kopyalanan kurulum kaynağı. Visual Studio uygulamasını kaldırmanıza gerek olmayacaksa bu kaynağı silebilirsiniz. Bu seçenek kullanıldığında, güncellemeleri yapmakta bir sorun yaşanmaz."/>
+    <String Target="清理后将无法卸载只能升级安装或者强行删除，Office 2007以下版本（包含）删除后还影响安装更新。" Link="Kaynak temizlendikten sonra uygulama kaldırılamaz. Yalnız güncelleme ya da zorla silme işlemleri yapılabilir. Office 2007 ya da daha önceki bir sürümü kurduysanız office kurulumu güncellemeleri etkilenir."/>
+
+    <String Target="腾讯相关软件下载目录" Link="Tencent Uygulamaları İndirme Klasörü"/>
+    <String Target="腾讯相关软件更新时会在此留下残留。" Link="Tencent uygulamaları güncellenirken geriye kalan dosyalar."/>
+
+    <String Target="XDE缓存文件" Link="XDE Ön Belleği Dosyaları"/>
+    <String Target="WP开发时保存的一些虚拟机状态文件，不建议频繁清理此条目。" Link="WP geliştirilirken, WP tarafından bazı sanal makine durum dosyaları kaydedilir. Bu dosyaların sık sık temizlenmesi önerilmez."/>
+
+    <String Target="Boot备份信息" Link="Başlatma Yedeği Dosyası"/>
+    <String Target="修改启动信息后系统会创建备份，方便回滚。如果确定不需要还原则可以删除。" Link="Başlatma bilgileri değiştirildiğinde değişikliklerin kolayca geri alınabilmesi için sistem tarafından yedek alınır. Değişiklikleri geri alma gereksinimiz yoksa bu yedekleri silebilirsiniz."/>
+
+    <String Target="PDB缓存文件" Link="PDB Ön Belleği Dosyaları"/>
+    <String Target="调试程序时创建的符号缓存，不建议频繁清理此条目。" Link="Program hata ayıklaması sırasında kullanılan sembolik ön bellek. Bu ön belleğin sık temizlenmesi önerilmez."/>
+
+    <String Target="微软拼音安装文件" Link="Microsoft Pinyin Kurulum Dosyaları"/>
+    <String Target="微软拼音升级程序遗留下的安装文件。" Link="Microsoft pinyin IME güncelleyici tarafından oluşturulan kurulum dosyaları."/>
+
+    <String Target="百度网盘日志" Link="Baidu Yun Günlük Dosyaları"/>
+    <String Target="百度网盘运行时产生的一些日志文件。" Link="Baidu Yun çalıştırıldığında oluşturulan günlük dosyaları."/>
+
+    <String Target="飞信日志" Link="Fetion Günlük Dosyaları"/>
+    <String Target="飞信运行时产生的一些日志文件。" Link="Fetion çalıştırıldığında oluşturulan günlük dosyaları."/>
+
+    <String Target="回收站" Link="Geri Dönüşüm Merkezi"/>
+    <String Target="用于存放用户手动删除的文件目录。" Link="Kullanıcının el ile sildiği dosyalar."/>
+
+    <String Target="Office 365/2016安装源" Link="Office 365/2016 Kurulum Kaynağı"/>
+    <String Target="安装Office 365/2016后产生的安装源。" Link="Office365/2016 kurulumundan sonra oluşturulan kurulum kaynağı"/>
+    <String Target="清理可能导致无法正常卸载Office。" Link="Bu seçenek kullanıldığında, büyük olasılıkla office programı normal şekilde kaldırılamaz."/>
+
+    <String Target="苹果iTunes备份" Link="Apple iTunes Yedeği"/>
+    <String Target="苹果相关设备备份文件，比如通讯录、照片、视频等。" Link="iOS (ya da MAC) için kişiler, fotoğraflar, görüntüler gibi ögelerin yedeği."/>
+    <String Target="请你确保暂时不需要使用恢复功能，如果你现在需要恢复苹果设备，请勿勾选此项目！" Link="Lütfen kurtarma özelliğini geçici olarak kullanmayacağınızdan emin olun. iOS (ya da MAC) aygıtınızı geri yüklemeniz gerekiyorsa lütfen bu seçeneği kullanmayın!"/>
+
+    <String Target="硬链接备份" Link="Mutlak Bağlantı Yedekleri"/>
+    <String Target="硬链接合并功能留下的备份文件。" Link="Mutlak bağlantı aktarma özelliği arkasında yedek dosyaları bırakır."/>
+    <String Target="请你确保硬链接合并后系统正常，删除此文件将导致硬链接合并操作无法回滚！" Link="Mutlak bağlantı aktarıldıktan sonra sistemin normal olduğundan emin olun. Dosyanın silinmesi mutlak bağlantının kurtarılamamasına neden olur!"/>
+
+    <String Target="Windows事件" Link="Windows İşlemleri"/>
+    <String Target="Windows在运行过程中产生的事件。" Link="Windows çalışırken kaydedilen işlemler."/>
+
+    <String Target="Dism++非必需文件" Link="Dism++ tarafından gerek duyulmayan dosyalar"/>
+    <String Target="Dism++为了兼容各个环境，在完整包中存放了大量兼容性文件，以兼容各个平台。此功能可以根据当前环境自动删除不需要的文件。" Link="Geliştiriciler tarafından çeşitli ortamlarla uyumluluk sağlamak için pakete eklenmiş pek çok dosya vardır. Bu seçenek kullanıldığında, ortamınız için gerekli olmayan dosyalar silinir"/>
+
+    <String Target="软媒PC管家" Link="PC Master"/>
+    <String Target="魔方守护以及魔方更新暂存目录，如果你不喜欢魔方守护可以考虑删除。" Link="PC Master Guard uygulamasının geçici klasörü ve güncellemeleri. PC Master Guard uygulamasını beğenmiyorsanız silebilirsiniz."/>
+
+    <String Target="给力助手" Link="GeiLi Assistant"/>
+    <String Target="安装蓝手指时留下的给力助手。" Link="Blustacks uygulamasını kurduktan sonra geride kalan GeiLi assistant uygulaması."/>
+
+    <String Target="迅雷游戏" Link="Thunder Games"/>
+    <String Target="迅雷游戏安装后所在目录，一般人不需要此程序，可以考虑删除。" Link="Kurulumdan geride kalan Thunder games klasörü. Çoğu kişi bu uygulamaya gerek duymaz, silmeyi düşünebilirsiniz."/>
+
+    <String Target="NET程序集缓存（by 大胖子技术员）" Link="NET Makine Kodu Ön Belleği (Ekleyen: dpzjsy)"/>
+    <String Target="NET程序运行过程中产生的机器代码缓存文件，不建议频繁清理此条目。" Link="NET uygulaması çalışırken oluşturulan makine kodu ön belleği dosyaları. Bu dosyaların sık sık temizlenmesi önerilmez."/>
+
+    <String Target="以前的Dism++组件" Link="Önceki Dism++ Sürümlerinin Dosyaları"/>
+    <String Target="以前版本的Dism++使用的文件。" Link="Bu seçenek etkinleştirildiğinde, önceki Dism++ sürümleri tarafından kullanılan dosyalar temizlenir."/>
+
+    <String Target="360浏览器老版本备份" Link="Eski 360 Web Browser sürümlerinin yedek dosyaları"/>
+    <String Target="360浏览器在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Sorun çıkması durumunda güncelleme işlemlerini geri alabilmek için oluşturulan 360 Web Browser yedek dosyaları."/>
+
+    <String Target="阿里旺旺老版本备份" Link="Eski AliIM sürümlerinin yedek dosyaları"/>
+    <String Target="阿里旺旺在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Sorun çıkması durumunda güncelleme işlemlerini geri alabilmek için oluşturulan AliIM yedek dosyaları."/>
+
+    <String Target="阿里亲淘老版本备份" Link="Eski AliQinTao sürümlerinin yedek dosyaları"/>
+    <String Target="阿里亲淘在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Sorun çıkması durumunda güncelleme işlemlerini geri alabilmek için oluşturulan AliQinTao yedek dosyaları."/>
+
+    <String Target="会声会影素材存档" Link="Ulead Video Studio malzeme arşivi"/>
+    <String Target="会声会影使用过程中会在此目录产生存档，在不需要后可以删除。" Link="Ulead Video Studio uygulaması malzemeleri bir arşive kaydeder. Gereksiz ise silebilirsiniz."/>
+    <String Target="请确保所有编辑的视频已经保存！" Link="Lütfen düzenlenmiş tüm görüntülerin kaydedilmiş olduğundan emin olun!"/>
+
+    <String Target="Visual Studio智能跟踪（by LP）" Link="Visual Studio IntelliTrace (Ekleyen: LP)"/>
+    <String Target="Visual Studio调试程序时留下的智能跟踪缓存。" Link="Visual Studio uygulamalarında hata ayıklaması yapılırken oluşturulan IntelliTrace ön belleği dosyaları."/>
+
+    <String Target="系统以及程序崩溃dmp文件（by YukiSakura）" Link="Sistem ve Uygulama dmp Dosyaları (Ekleyen: YukiSakura)"/>
+    <String Target="当系统蓝屏或者应用程序崩溃时产生的dmp文件。" Link="Mavi ekran sorunu yaşandığında ya da bir uygulama çöktüğünde oluşturulan dmp dosyaları."/>
+
+    <String Target="瑞昱声卡驱动安装源缓存（by YukiSakura）" Link="Realtek ses kartı sürücü kurulum kaynağı ön belleği (Ekleyen: YukiSakura)"/>
+    <String Target="瑞昱声卡安装后留下的安装源缓存。" Link="Realtek ses kartı sürücüleri kurulurken oluşturulan kurulum kaynağı ön belleği."/>
+    <String Target="此条目可能影响瑞昱声卡驱动的卸载。" Link="Bu seçenek kullanıldığında, Realtek ses kartı yazılımlarının kaldırılması etkilenebilir."/>
+
+    <String Target="Java安装源缓存（by YukiSakura）" Link="Java kurulum kaynağı ön belleği (Ekleyen: YukiSakura)"/>
+    <String Target="Java安装后留下的安装源缓存。" Link="Java kurulumu sırasında oluşturulan kurulum kaynağı ön belleği."/>
+    <String Target="此条目可能影响Java的卸载。" Link="Bu seçenek kullanıldığında, Java uygulamasının kaldırılması etkilenebilir."/>
+
+    <String Target="Intel驱动安装源缓存（by YukiSakura）" Link="Intel kurulum kaynağı ön belleği (Ekleyen: YukiSakura)"/>
+    <String Target="Intel驱动安装后留下的安装源缓存。" Link="Intel sürücüleri kurulurken oluşturulan kurulum kaynağı ön belleği."/>
+    <String Target="此条目可能影响Intel驱动的卸载。" Link="Bu seçenek kullanıldığında, Intel sürücüsünün kaldırılması etkilenebilir."/>
+
+    <String Target="英伟达驱动安装源缓存（by YukiSakura）" Link="NVIDIA sürücüsü kurulum kaynağı ön belleği (Ekleyen: YukiSakura)"/>
+    <String Target="英伟达驱动安装后留下的安装源缓存。" Link="NVIDIA sürücüleri kurulurken oluşturulan kurulum kaynağı ön belleği."/>
+    <String Target="此条目可能影响英伟达驱动的卸载。" Link="Bu seçenek kullanıldığında, NVIDIA sürücüsünün kaldırılması etkilenebilir."/>
+
+    <String Target="Windows预读取文件（by 辰g.）" Link="Windows uygulama ön belleği (Ekleyen Cheng g.)"/>
+    <String Target="用于加速下次程序启动速度，不建议频繁清理此条目。" Link="Uygulamalarınız daha hızlı başlatılması için kullanılan uygulama ön belleği. Bu seçeneğin sık kullanılması önerilmez."/>
+
+    <String Target="Windows更新安装记录" Link="Windows Update Kurulum Geçmişi"/>
+    <String Target="使用Windows Update安装更新后保存的记录。" Link="Windows update güncellemelerinin kurulum geçmişi."/>
+    <String Target="删除后更新历史记录将被清空。" Link="Bu seçenek kullanıldığında, güncelleme geçmişi silinir."/>
+
+    <String Target="Microsoft SQL Server更新缓存（by Honry、撕裂五维空间）" Link="Microsoft SQL Server güncelleme ön belleği (Ekleyen: Honry, SiLieWuWeiKongJian)"/>
+    <String Target="安装Microsoft SQL Server补丁残留的安装缓存。" Link="Microsoft SQL Server kurulumu sırasında oluşturulan kurulum ön belleği."/>
+    <String Target="此条目最新添加，可能引发意外问题！" Link="Bu seçenek kullanıldığında, beklenmeyen sorunlar çıkabilir!"/>
+
+    <String Target="Adobe Acrobat安装源缓存（by Honry）" Link="Adobe Acrobat kurulum kaynağı ön belleği (Ekleyen: Honry)"/>
+    <String Target="安装Adobe Acrobat后留下的安装缓存。" Link="Adobe Acrobat kurulumu sırasında oluşturulan kurulum kaynağı ön belleği."/>
+    <String Target="删除此条目可能导致Adobe Acrobat无法正常卸载！" Link="Bu seçenek kullanıldığında, Adobe Acrobat uygulamasının kaldırılması etkilenebilir!"/>
+
+    <String Target="小红伞临时文件" Link="Avira temporary files"/>
+    <String Target="小红伞在自动升级过程中残留的临时文件。" Link="Otomatik Avira güncellemeleri sırasında oluşturulan geçici dosyalar."/>
+
+    <String Target="Chrome浏览器老版本备份（by Honry）" Link="Eski Chrome Yedekleri (Ekleyen: Honry)"/>
+    <String Target="Chrome浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Bu seçenek etkinleştirildiğinde, sorun çıkması durumunda güncelleme işlemlerini geri alabilmek için oluşturulan Chrome web tarayıcı yedek dosyaları temizlenir."/>
+
+    <String Target="Opera浏览器老版本备份（by MS-PC2）" Link="Eski Opera Yedekleri (Ekleyen: MS-PC2)"/>
+    <String Target="Opera浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Bu seçenek etkinleştirildiğinde, sorun çıkması durumunda güncelleme işlemlerini geri alabilmek için oluşturulan Opera web tarayıcı yedek dosyaları temizlenir."/>
+
+    <String Target="Microsoft .NET安装缓存（by 撕裂五维空间）" Link="Microsoft .NET kurulum ön belleği (Ekleyen: SiLieWuWeiKongJian)"/>
+    <String Target="安装Microsoft .NET补丁残留的安装缓存。" Link="Microsoft .NET için uygulamalar tarafından yamalar kurulurken oluşturulan ön bellek dosyaları."/>
+
+    <String Target="PPLive老版本备份（by 何超）" Link="Eski PPLive sürümlerinin yedek dosyaları (Ekleyen: HeChao)"/>
+    <String Target="PPLive在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Sorun çıkması durumunda güncelleme işlemlerini geri alabilmek için oluşturulan PPLive yedek dosyaları."/>
+
+    <String Target="酷狗音乐老版本备份（by 何超）" Link="Eski Kugou Music sürümlerinin yedek dosyaları (Ekleyen: HeChao)"/>
+    <String Target="酷狗音乐在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Sorun çıkması durumunda güncelleme işlemlerini geri alabilmek için oluşturulan Kugou Music yedek dosyaları."/>
+
+    <String Target="2345拼音输入法老版本备份（by 何超）" Link="Eski 2345 Pinyin IME sürümlerinin yedek dosyaları (Ekleyen: HeChao)"/>
+    <String Target="2345拼音输入法在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Sorun çıkması durumunda güncelleme işlemlerini geri alabilmek için oluşturulan 2345 IME Pinyin yedek dosyaları."/>
+
+    <String Target="WPS老版本备份（by Rambin）" Link="Eski WPS sürümlerinin yedek dosyaları (Ekleyen: Rambin)"/>
+    <String Target="WPS在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Sorun çıkması durumunda güncelleme işlemlerini geri alabilmek için oluşturulan WPS yedek dosyaları."/>
+
+    <String Target="系统还原点" Link="Sistem Geri Yükleme Noktaları"/>
+    <String Target="先删除全部还原点，再创建一个新的还原点(当系统还原已启用时)" Link="Tüm eski geri yükleme noktalarını siler ve yeni bir geri yükleme noktası oluşturur (yalnız Sistem Geri Yükleme etkinleştirilmiş ise kullanılabilir)."/>
+    <String Target="清理后将无法使用之前创建的还原点，如果有使用之前的还原点的需求请勿使用此选项。" Link="Bu seçenek kullanıldığında, daha önce oluşturulmuş geri yükleme noktaları kullanılamaz. Önceki geri yükleme noktalarına dönmeniz gerekiyorsa bu seçeneği kullanmayın!"/>
+
+    <String Target="缩略图缓存" Link="Küçük Görsel Ön Belleği"/>
+    <String Target="缩略图缓存（所有用户）" Link="Küçük Görsel Ön Belleği (Tüm Kullanıcılar)"/>
+    <String Target="缩略图缓存(需重启explorer)" Link="Küçük Görsel Ön Belleği (Gezgin Yeniden Başlatılır)"/>
+    <String Target="缩略图缓存（当前用户）" Link="Küçük Görsel Ön Belleği (Geçerli Kullanıcı)"/>
+
+    <String Target="微软系安软无用文件" Link="Gereksiz Antimalware Dosyaları"/>
+    <String Target="该项目清理WD，MSE，SCEP等微软系安软的无用文件" Link="Bu seçenek kullanıldığında, gereksiz Microsoft Antimalware  dosyaları temizlenir (WD, MSE ve SCEP dosyaları)"/>
+
+    <String Target="Package Cache目录" Link="Paket Ön Belleği Klasörü"/>
+    <String Target="Package Cache目录存放以WIX为基础的安装程序的安装源" Link="Bu seçenek kullanıldığında, paket ön belleği klasörü temizlenir. Paket ön belleği klasöründe WIX temelli kurucu tarafından kullanılan kurulum kaynakları bulunur."/>
+    <String Target="清理后基于WIX的安装程序例如VS可以正常卸载；但升级、修复、增添组件需要联网或者备好安装镜像" Link="Bu seçenek kullanıldıktan sonra WIX temelli kurucu normal olarak kullanılabilir (Visual Studio gibi), ancak kurulumda güncelleme, onarım ya da değişiklik yapmak için İnternet bağlantısı ya da çevrimdışı kaynak gereklidir"/>
+
+    <String Target="WebPI缓存" Link="WebPI Ön Belleği"/>
+    <String Target="Web平台安装程序的缓存" Link="Web Platformu Kurucu Ön Belleği"/>
+
+    <String Target="Visual Studio日志" Link="Visual Studio Günlük Dosyaları"/>
+    <String Target="使用Visual Studio所产生的日志" Link="Visual Studio günlük dosyaları"/>
+
+    <String Target="Installer目录" Link="Kurucu Klasörü"/>
+    <String Target="(这是一个实验性功能)清理后将无法卸载被取代的msp更新，如果有卸载更新需求请勿使用此选项。" Link="(Deneysel) Bu seçenek kullanıldığında, kurulmuş msp güncellemeleri kaldırılamaz. Güncellemeleri kaldırmanız gerekiyorsa bu seçeneği kullanmayın."/>
+
+    <String Target="零售演示离线内容" Link="Çevrimdışı Satış Tanıtımı İçeriği"/>
+    <String Target="为Windows10零售演示模式所缓存的离线内容" Link="Windows 10 Satış Tanıtım (Retail Demo) Kipi için geçici çevrimdışı içerik"/>
+
+    <String Target="WinINet网页缓存" Link="WinINet Web Ön Belleği"/>
+    <String Target="清理每个用户账户和应用容器下的Windows网络组件（例如IE，Edge）的网页缓存（仅支持默认目录）" Link="Bu seçenek kullanıldığında, her kullanıcı ve AppContainer (yalnız varsayılan klasör için) WinINet bileşenlerinin web ön belleği temizlenir (IE ve Edge gibi)"/>
+
+    <String Target="WinINet Cookies" Link="WinINet Çerezleri"/>
+    <String Target="清理每个用户账户和应用容器下的Windows网络组件（例如IE，Edge）的Cookies（仅支持默认目录）" Link="Bu seçenek kullanıldığında, her kullanıcı ve AppContainer (yalnız varsayılan klasör için) WinINet bileşenlerinin çerezleri temizlenir (IE ve Edge gibi)"/>
+
+    <String Target="最后一次正确配置（by Stanlazy）" Link="Çalışan son yapılandırma (Ekleyen: Stanlazy)"/>
+    <String Target="最近能正常启动计算机的配置备份。" Link="Bilgisayarınızın başlatılmasını sağlayacak son yapılandırma yedeği."/>
+
+    <String Target="传递优化缓存" Link="Aktarım İyileştirmesi Ön Belleği"/>
+    <String Target="Win10开始使用传递优化（DeliveryOptimization）服务下载Windows更新和通用应用（UWP）产生的缓存文件" Link="Windows 10 Windows güncellemeleri ve Evrensel Windows Platformunu indirmek için aktarım İyileştirme hizmeti ile başlatıldığında oluşturulan ön bellek dosyaları."/>
+
+    <String Target="Appx缓存文件-可解决Appx闪退" Link="Appx Ön Bellek Dosyaları - Appx Çökmelerini Onarır"/>
+    <String Target="Appx运行时产生的缓存文件，当应用闪退时可尝试清理此选项，可解决大多数闪退问题。" Link="Appx çalıştırma ön belleği dosyaları. Appx geriye dönüyorsa temizlemeyi deneyebilirsiniz. Çoğu durumda sorun çözülebilir."/>
+
+    <String Target="英伟达驱动安装包（by Ailick）" Link="nVidia Sürücü Kurulum Paketi (Ekleyen: Ailick)"/>
+    <String Target="Nvidia Geforce Experience更新程序时产生的安装包。" Link="nVidia Geforce Experience güncellemeleri sırasında oluşturulan kurulum paketi."/>
+
+    <String Target="新版Visual Studio安装源缓存" Link="Yeni Visual Studio Kurulum Kaynağı Ön Belleği"/>
+    <String Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="Bu seçenek kullanıldığında, Visual Studio 2017 ve üzerindeki sürümlerin kurulum kaynağı temizlenir."/>
+    <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="Bu seçenek kullanıldıktan sonra, temizlik, yükseltme, onarma, bileşen ekleme ve kaldırma işlemlerinin ağ üzerinden yapılması gerekir(Visual Studio 2017 ve üzerindeki sürümler)."/>
+
+    <String Target="损坏的Appx" Link="Bozuk Appx Uygulamaları"/>
+    <String Target="清理损坏的Appx。例如Visual Studio的通用应用XAML设计器暴力删除临时生成的设计器应用，于是会出现大量损坏的Appx。" Link="Bu seçenek kullanıldığında, bozulmuş Appx uygulamaları temizlenir. Örneğin Visual Studio genel XAML Designer uygulaması Appx uygulamalarının bozulmasına neden olan geçici tasarlayıcı uygulamalarını siler."/>
+  </StringMaps>
+  <MessageTable>
+    <x800F0806>Bekleyen bir ya da bir kaç güncelleme var. Lütfen devam etmeden önce yeniden başlatın.</x800F0806>
+    <x800F081F>Dism++ kurulum kaynağını bulamadı. NET3.5 uygulamasını etkinleştirmeniz gerekiyorsa ISO dosyasını taktıktan sonra yeniden deneyin.</x800F081F>
+    <x80073703>İşletim sistemi ağırlıklı olarak streamline kipinde çalışıyor. Dism++ çalışmaya devam edemez.</x80073703>
+    <x800F0830>İşletim sistemi ağırlıklı olarak sreamline kipinde çalışıyor. Lütfen bu sistemi kapatıp yeniden başlatın.</x800F0830>
+    <x800F0825>Bilgisayara kurulmuş ve kalıcı duruma getirilmiş bir paketi kaldırmaya çalışıyorsunuz. Bu nedenle bu paket kaldırılamaz.</x800F0825>
+    <x800F082E>Belirtilen paket çevrimdışı bir kalıba eklenemez.</x800F082E>
+    <x800F082F>Öncelikli bir oturum beklediğinden oturum kapatılamıyor.</x800F082F>
+    <x000F0801>Büyük olasılıkla çalışan diğer uygulamalar nedeniyle Dism++ meşgul. Lütfen daha sonra yeniden deneyin.</x000F0801>
+    <x80072EE7>Sunucu ile bağlantı kurulamadı. Ağ bağlantınızı ve güvenlik duvarı ayarlarınızı denetleyin.</x80072EE7>
+    <x80072EFF>Sunucu ile bağlantı kurulamadı. Ağ bağlantınızı ve güvenlik duvarı ayarlarınızı denetleyin.</x80072EFF>
+
+    <xA0020001>Yalnız Microsoft Online ESD dosyalarının ISO biçimine dönüştürülmesini destekler.</xA0020001>
+    <xA0020002>Bazı temizlikler yapıldı. Tam bir temizlik için Windows 8.1 sürümüne güncelledikten sonra yeniden deneyin.</xA0020002>
+    <xA0020003>Lütfen Windows Vista SP2 sürümüne güncelledikten sonra yeniden deneyin.</xA0020003>
+    <xA0020004>Lütfen Windows 7 SP1 sürümüne güncelledikten sonra yeniden deneyin.</xA0020004>
+    <xA0020005>WIMBoot ve Sıkışık kipleri aynı anda kullanılamaz.</xA0020005>
+    <xA0020006>Geçerli sistem üzerinde Wox64 desteği yok. 64 bit olmayan sistemler çevrimdışı olarak işlenemez.</xA0020006>
+    <xA0020007>Gerekli CBSHost.dll dosyası bulunamadı. Lütfen Dism++ paketinin eksiksiz olduğundan emin olun.</xA0020007>
+    <xA0020008>rundll32.exe dosyası bulunamadı. Dism++ çalışamaz.</xA0020008>
+    <xA0020009>Dism++ oturumu çöktü. Bu sorunu çözmek için mingkuang@live. com adresine yazabilirsiniz.</xA0020009>
+    <xA002000A>Dism++ bazı uyumluluk sorunları algıladı. Lütfen KB960037 yamasını kurduktan sonra yeniden deneyin.</xA002000A>
+
+    <x20020001>Geçerli kalıpta herhangi bir varsayılan dosya ilişkilendirme yapılandırması yok. Dışa aktarılamadı.</x20020001>
+
+    <xC1440136>Sürücü (Wofadk.sys) yüklenemedi. Lütfen Ayarlar - Diğer bölümünden "wofadk yüklensin" seçeneğini etkinleştirin.</xC1440136>
+    <xC144013B>Sürücü (Wofadk.sys) yüklenemedi. Lütfen Ayarlar - Diğer bölümünden "wofadk yüklensin" seçeneğini etkinleştirin.</xC144013B>
+
+    <!--VSS-->
+    <x80042302>Birim Gölge Kopya Hizmeti devre dışı bırakılmış. Lütfen Birim Gölge Kopya Hizmeti için başlatma ayarını el ile şeklinde değiştirip yeniden deneyin.</x80042302>
+
+    <xA0010001>Microsoft çevrimiçi hesap parolası sıfırlama desteklenmiyor. Lütfen parolanızı resmi Microsoft sitesinden sıfırlayın.</xA0010001>
+
+    <!--WimgAPI Message-->
+    <x4144012B>Bu bir deneme iletisidir ve herhangi bir işlem yapılması gerekmez. İleti kodu %1.</x4144012B>
+    <x4144012C>[ BİLGİ ] %1</x4144012C>
+    <x8144012A>Anlaşılamayan bir ileti kodu alındı: %1.</x8144012A>
+    <x8144012D>[ UYARI ] %1</x8144012D>
+    <x81440133>[ YENİDEN DENE ] %1</x81440133>
+    <xC1420100>Belirtilen kitaplık geçerli bir dosya sistemi kapsayıcısı değil.</xC1420100>
+    <xC1420101>Kullanıcı salt okunur bir kapsayıcı kitaplığını kullanan bir kalıp dosyasını okunur/yazılır olarak takmayı denedi.</xC1420101>
+    <xC1420103>Kullanıcı bir kalıp dosyasını zaten var olan bir klasöre takmayı denedi.</xC1420103>
+    <xC1420104>Bu kalıp dosyası içinde bulunmayan bir dosyayı ayıklama isteği yapıldı. Bu dosya ayıklanmayacak.</xC1420104>
+    <xC1420105>Var olmayan bir dosya için bir ayıklama isteği yapıldı. Bu durum başka sistem süzgeçlerinden kaynaklanan hatalı bir işlemin sonucu olabilir. Çalışan herhangi bir zararlı yazılımdan koruma ya da yedekleme uygulamasının takılan klasör üzerinde çalışmadığından emin olun.</xC1420105>
+    <xC1420106>Zaten ayıklanmış bir dosya için ayıklama isteği yapıldı. Bu istek yerine getirilmeyecek.</xC1420106>
+    <xC1420107>Hizmete aynı dosya kodu ile iki farklı dosya bildirildi. Bu dosyaların işaret kümesi uyumlu değil. Takma işlemi iptal edilecek.</xC1420107>
+    <xC1420108>Dosya sistemi kapsayıcısı bir dosya adını iki kez eklemeye çalıştı. Bu durum geçersiz. Wim hizmetine her dosya adı için yalnız bir bildirim gönderilmelidir.</xC1420108>
+    <xC1420109>Süzgeçten hizmete bozuk bir ileti gönderildi. Bu ileti işlenmeyecek.</xC1420109>
+    <xC142010A>Hizmete takılı olmayan bir kalıptaki bir dosyayı ayıklama isteği yapıldı. Bu ayıklama işlemi yok sayılacak.</xC142010A>
+    <xC142010B>Takılı olmayan bir klasörü çıkartma isteği yapıldı.</xC142010B>
+    <xC142010C>Salt okunur erişim ile takılmış bir kalıp dosyasına yazma isteği yapıldı. Bu durum geçersiz. Bir kalıp dosyasına yazabilmek için takarken salt okunur işaretini kaldırın.</xC142010C>
+    <xC142010E>Ayıklama işleminde var olmayan bir takma klasörü belirtildi. Ayıklama işlemine başlanmadan önce kalıp dosyasının takılmış olması gereklidir.</xC142010E>
+    <xC142010F>Kalıp yöneticisine geçersiz bir kalıp kodu gönderildi. Bu bir programlama hatasıdır.</xC142010F>
+    <xC1420110>Belirtilen kalıp kodu bir kalıbı takmak için kullanılmadığından çıkartmak için kullanılamaz. Lütfen kalıbı çıkartmak için WIMUnmountImage komutunu takma klasörünün adını belirterek yürütün.</xC1420110>
+    <xC1420111>Belirtilen takma verilerine uyan bir kalıp dosyası bulunamadı.</xC1420111>
+    <xC1420112>Takma klasöründeki bir dosya kullanılmakta olduğundan kalıp dosyası çıkartılamıyor.</xC1420112>
+    <xC1420113>Kullanıcı zaten takılı bir kalıp dosyasının kullandığı bir klasöre başka bir kalıp takmayı denedi. Bu işlem yapılamaz.</xC1420113>
+    <xC1420114>Kullanıcı boş olmayan bir klasöre bir kalıp dosyası takmayı denedi. Bu işlem yapılamaz.</xC1420114>
+    <xC1420115>Kullanıcı var olmayan bir klasöre bir kalıp dosyası takmayı denedi. Bu işlem yapılamaz.</xC1420115>
+    <xC1420116>WIMUnmountImageHandle komutuna hatalı bir kalıp kodu gönderildi. WIMUnmountImageHandle komutuna yalnız daha önce belirtilmiş ya da WIMGetMountedImageHandle komutu ile alınan kalıp kodu belirtilebilir.</xC1420116>
+    <xC1420117>Klasör tam olarak çıkartılamadı. Bu duruma genellikle takma klasöründeki dosyaları kullanan diğer uygulamalar neden olur. Bu dosyaları kapatıp çıkartma işlemini tamamlayın.</xC1420117>
+    <xC1420118>Takılmış kalıp dosyası şu anda kullanılıyor. Lütfen başka bir işlem tarafından takılmamış olduğundan emin olun.</xC1420118>
+    <xC1420119>wimserv.exe dosyası bulunamadı. Bu dosyanın sistem arama yolunda bulunduğundan emin olun.</xC1420119>
+    <xC142011A>Imagex, winmount ayıklayıcı işleminin başlatılmasını beklerken zaman aşımına uğradı.</xC142011A>
+    <xC142011B>Winmount hizmeti bir durum belirtmeden kapandı.</xC142011B>
+    <xC142011C>Belirtilen klasör geçerli bir takılmış klasör değil.</xC142011C>
+    <xC142011D>Belirtilen takılı kalıp dosyası yeniden WIM dosyasına yazılamadı. Bu durum bir kalıp dosyası kısmen çıkartıldığında ya da hala takılı olduğunda yaşanır. Bu kalıp dosyası daha önce yazılarak çıkartılmış ise büyük olasılıkla yazma işlemi tamamlanmıştır. Lütfen durumun bu olduğunu denetledikten sonra kalıp dosyasını yazmadan çıkartın.</xC142011D>
+    <xC142011E>Belirtilen kalıp dosyasının takıldığı klasör değiştirildi. Bu kalıp dosyasındaki tüm dosyalar ayıklanacak ve bu kalıp dosyasına yazılamayacak.</xC142011E>
+    <xC142011F>Belirtilen takma yolunun birimi yeniden işleme noktalarını desteklemiyor. Lütfen kalıp dosyasını yeniden işleme noktalarını destekleyen bir birime takın.</xC142011F>
+    <xC1420120>Belirtilen klasöre bozuk bir kalıp dosyası takılmış. Bu klasör üzerinde takma işlemleri yapılamaz.</xC1420120>
+    <xC1420121>Bu bilgisayar üzerinde winmount.sys sürücüsü kurulu olmadığından kalıp dosyası takılamadı. Bu sorunu çözmek için winmount.sys sürücüsünü kurun.</xC1420121>
+    <xC1420122>Wim dosyasındaki kalıp takıldıktan sonra değiştirilmiş olduğundan takılı kalıp dosyasına yazılamadı.</xC1420122>
+    <xC1420123>Yeniden takma hedefi geçersiz olduğundan belirtilen klasör yeniden takılamadı. Bu klasörün geçersiz olmasının nedeni büyük olasılıkla çıkartılmış olmasıdır.</xC1420123>
+    <xC1420124>Wim dosyası içindeki kalıp takıldıktan sonra değiştirilmiş olduğundan belirtilen klasör yeniden takılamadı.</xC1420124>
+    <xC1420125>Bu klasör ile ilgili bir çıkartma işlemi yapılmakta olduğundan belirtilen klasör yeniden takılamadı.</xC1420125>
+    <xC1420126>Belirtilen kalıp dosyası zaten takılmış olduğundan yeniden takılamaz.</xC1420126>
+    <xC1420127>Belirtilen wim dosyası içindeki belirtilen kalıp dosyası zaten okunabilir/yazılabilir olarak takılmış.</xC1420127>
+    <xC1420128>Belirtilen kalıp kodu doğru erişim düzeyi ile açılmamış. Bir kalıp kodunu takmak için kalıp kodunun WIM_GENERIC_MOUNT erişimi olmalıdır.</xC1420128>
+    <xC1420130>Kullanıcı bölünüş bir wim dosyasını takmayı denedi. Bu işlem yapılamaz.</xC1420130>
+    <xC1420131>Kullanıcı kalıp dosyasını bir birimin kök klasörüne takmayı denedi. Bu işlem yapılamaz.</xC1420131>
+    <xC1420132>Bu takma klasörünü oluşturmak için kullanılan wimgapi sürümü geçerli sürüm ile uyuşmuyor. wimserv.exe, wimmount.sys ve imagex.exe/wimgapi.dll sürümlerinin aynı olduğundan emin olun.</xC1420132>
+    <xC1420134>Belirtilen takma yolunun sürücüsü desteklenmiyor. Lütfen bir sabit disk üzerindeki bir birime takın.</xC1420134>
+    <xC1420135>Takma işlemi tamamlanamadı. Takma işlemi sırasında belirtilen takma yolundaki dosyalara erişen tüm uygulamaları (antivirus ya da arama dizini oluşturucu gibi) kapatmalısınız.</xC1420135>
+    <xC143010D>Wim kapsayıcı işleyicisi için belirtilen kalıp kodu geçersiz. İşleyici bir kalıbı açamaz.</xC143010D>
+    <xC1440129>Belirtilen günlük dosyası zaten var ancak kodlaması unikod olan bir metin dosyası değil. Yalnız kodlaması unikod olan metin dosyaları desteklenir.</xC1440129>
+    <xC144012E>[ HATA ] %1</xC144012E>
+    <xC144012F>[ UYARI ] %1 dosyasındaki ek öznitelik yok sayıldı.</xC144012F>
+    <xC1440136>İşlem desteklenmiyor. Çalıştırılan işletim sisteminde bir wof sürücüsü (wof.sys/wofadk.sys) bulunduğundan emin olun.</xC1440136>
+    <xC1440137>İşlem desteklenmiyor. WIMBoot uygulanan kalıbın WIMBoot ile uyumlu olduğundan emin olun.</xC1440137>
+    <xC1440138>İşlem desteklenmiyor. WIMBoot uygulanan kalıbın yerel olarak kaydedildiğinde ve bir ağ paylaşımı olmadığından emin olun.</xC1440138>
+    <xC1440139>İşlem desteklenmiyor. Belirtilen WIM dosyasındaki işletim sistemi kalıplarının WIMBoot tarafından desteklenen biçimde olduğundan emin olun.</xC1440139>
+    <xC144013A>İşlem desteklenmiyor. Belirtilen yoldaki işletim sistemi kalıbının WIMBoot ile uyumlu şekilde oluşturulduğundan emin olun.</xC144013A>
+    <xC144013B>İşlem desteklenmiyor. Çalıştırılan işletim sisteminde bir wof sürücüsü (wof.sys) bulunduğundan emin olun.</xC144013B>
+  </MessageTable>
+  <UserAgreement>Kullanıcı Sözleşmesi
+
+    Chuyu ekibi, her kullanıcının Dism ++ uygulamasını kullanmadan önce aşağıdaki kullanıcı sözleşmesini (bundan böyle "sözleşme" ya da "bu sözleşme" olarak anılacaktır) dikkatle okumasını şiddetle önerir. Sözleşmenin içeriğine uymamayı seçen ya da uymayan kişiler, Chuyu ekibi tarafından verilen Dism++ kullanma izinlerini kullanmamalı ya da kullanmasına izin verilmemelidir. Dism++ uygulamasını kullanan herkes, aşağıdaki sözleşmeyi kabul etmiş ve bu sözleşmenin içeriğine uymayı kabul etmiş sayılır.
+
+    Bu sözleşme, "Dism++" yazılım hizmetini (bundan böyle "hizmet" ya da "bu hizmet" olarak anılacaktır) kullanan Dism++ kullanıcıları ile Chuyu ekibinin hak ve yükümlülüklerini tanımlamaktadır. "Kullanıcılar" ve "Dism++ kullanıcıları", bu hizmete kayıt olan, oturum açan ya da kullanan kişileri ifade eder. Bu sözleşme herhangi bir zamanda Chuyu ekibi tarafından güncellenebilir. Güncellenmiş sözleşme herhangi bir biçimde yayınlandığında özgün sözleşmenin yerine geçer. Dism++ uygulaması normal bir şekilde başlatıldığında güncellenmiş sözleşme görüntülenmelidir. Dism++ kullanıcıları güncellenmiş sözleşmeye uymamayı seçerse, bu uygulamayı ve Chuyu ekibinin hizmetlerini kullanmayı bırakmalıdır.
+
+I. Haklar ve Yükümlülükler
+
+    1. Dism++ kullanıcıları, Dism++ uygulamasını bilgisayarlarında yalnız kişisel amaçlar için kullanabilir. Chuyu ekibinin yazılı onayı olmadan kişisel olmayan herhangi bir kullanım (ticari ya da mesleki kullanım dahil ancak bunlarla sınırlı olmamak kaydıyla) yasaktır.
+    2. Dism++ kullanıcıları Dism++ uygulamasını kullanmaya başlamadan önce bu sözleşmeyi ve diğer Dism++ belgelerini dikkatle okumalıdır.
+    3. Dism++ kullanıcılarının Chuyu ekibine hata ve yapılabilecek iyileştirmeleri bildirme yükümlülüğü vardır. Dism++ uygulamasını 30 günden uzun süre kullanan herkes, mingkuang adresine en az 345 sözcük uzunluğunda bir "Dism++ kullanım raporu" göndermelidir. Dism++ uygulamasını 8 ya da daha uzun süre kullanan herkes, 11 Kasım tarihinde (yerel saate göre) mingkuang adresine "Suggestion and possible improvement on Dism++" konulu bir yıllık rapor (en az 520 sözcük uzunluğunda) e-posta göndermelidir. Mingkuang e-postası: mingkuang@live.com.
+    4. Dism ++ kullanıcıları huzuru, grup çalışmasını ve başkalarına yardım etmeyi sevmelidir.
+    5. Dism ++ kullanıcıları Temel Yasalara (ya da yerel eşdeğeri) uymalıdır. Chuyu ekibinin telif haklarına ya da bu sözleşmenin koşullarına aykırı herhangi bir eylem (uygunsuz kopyalama, yayma, görüntüleme, yansıtma, yükleme, indirme, değiştirme gibi işlemler dahil olarak) ve Chuyu ekibinin çalışmasını ya da hizmetlerini olumsuz yönde etkileyenler ciddi yasal işlemlere tabi olacaktır.
+    6. Bu sözleşmeye uymayanlar Chuyu ekibi tarafından verilen herhangi bir hakkı otomatik olarak kaybeder. Chuyu ekibi, bu kişilerin bilgisayarlarında bulunan Chuyu ekibine ait tüm yazılımları durdurma, tekliflerini reddetme ve yasal yollara başvurma hakkını saklı tutar.
+    7. Chuyu ekibi, bu sözleşmeye uyan kişilere teknik destek sağlamak için şu koşulların izin verdiği ölçüde elinden gelenin en iyisini yapmaya çalışır: sorunun karmaşıklığı, Chuyu ekibinin uyguluğu ve diğer kullanıcıların aynı konudaki istekleri.
+
+II. Kişisel Gizlilik Konuları
+
+    1. Dism++ başlatıldıktan sonra, hizmeti geliştirmek için Dism++ kullanıcısının sistem bilgilerini (sistem sürümü, sistem yapısı, sistem dili, işlemci bilgileri, bellek bilgileri dahil ancak bunlarla sınırlı olmamak kaydıyla) ve Dism++ raporunu (sistem çökmesi dökümü ve günlük dosyaları dahil ancak bunlarla sınırlı olmamak kaydıyla) toplar. Dism++ kullanıcıyı kişisel olarak belirleyecek bir kimlik bilgisi ya da iletişim bilgisi toplamaz.
+    2. Chuyu ekibi, Dism++ uygulamasının denemeleri, Chuyu ekibinin nasıl ilerleyeceğine karar vermesine yardımcı olacak oylamalar ve yazılım güncellemeleri hakkında çağrılar gönderebilir. Ancak Chuyu ekibi hiçbir zaman reklam, tanıtım, dolandırıcılık ya da ödeme isteği gibi ve diğer konularda iletiler göndermez.
+
+III. Kullanıcının Riskleri
+
+    1. Chuyu takımı açık bir tavır sergiler. Böylece herkes Dism++ uygulamasının daha iyi olmasına katkıda bulunabilir. Bazı özellikler bilinmeyen sonuçlara yol açabilir. Böyle durumlarda Chuyu ekibi olası riskleri kaldırır ve kullanıcılara bildirir. Ancak sorunu tamamen çözemez. Sorunları kullanıcıların çözmesi gerekir. Bir sorun ile karşılaşırsanız, aynı sorunu başkalarının da yaşamaması için lütfen Chuyu ekibine iletin.
+    2. Lütfen, yazılımlarımızı geliştirmemiz gerektiğini anlayın ve kabul edin. Chuyu ekibinin sunduğu hizmetlerin tümünü ya da bir bölümünü değiştirme, durdurma ya da iptal etme hakkı vardır. Kullanıcıların bu riski alması gerekir.
+
+IV. Fikri Mülkiyet Hakları Bildirimi
+
+    1. Chuyu ekibi, bu hizmet içeriğinin tüm fikri mülkiyet haklarına sahiptir (yazılım, web sayfası, metinler dahil ancak bunlarla sınırlı olmamak kaydıyla).
+    2. Daha önemli bir madde yoksa, tüm fikri mülkiyet hakları Chuyu ekibine aittir.
+    3. Chuyu ekibinin yazılı onayı olmadan, kullanıcılar hiç bir şekilde Chuyu yazılımlarını işleyemez ve diğer kişilere Chuyu yazılımlarını işleme hakları olduğunu söyleyemez.
+    4. Chuyu ekibinin yukarıda anılan ve diğer fikri mülkiyet hakları yasalarla korunmaktadır. Chuyu takımı izin vermedikçe yazılım kodunu çözmek gibi işlemler yapılamaz.
+
+V. Yasal Sorumluluklar
+
+    1. Chuyu ekibine bir kullanıcının bu sözleşmeye aykırı davrandığı bildirildiğinde, Chuyu ekibi söz konusu kullanıcıyı bilgilendirmeden Chuyu yazılımlarını kullanmasını engelleyebilir.
+    2. Chuyu ekibinin, sözleşmeye aykırı davranışları kanunlara uygun olarak makul ölçüde cezalandırma hakkı vardır.
+    3. Kullanıcıların bu sözleşmeye aykırı davranması durumunda oluşabilecek üçüncü taraflara ait masrafları (makul avukatlık ücretleri dahil) Chuyu ekibine ödemesi gerekir.
+
+VI. Diğer Konular
+
+    1. Chuyu ekibi, kullanıcıların bu sözleşmeyi iyi okuyarak, Chuyu ekibinin ve kullanıcıları hak ve yükümlülüklerini iyi anlamalarını şart koşar. Reşit olmayan kişiler bu sözleşmeyi yasal vasileri ile okumalıdır.
+    2. Sözleşmenin geçerliliği ve açıklaması Çin kanunlarına göre uygulanır. Kullanıcı ile Chuyu ekibi anlaşmazlığa düşerse önce uzlaşma yolu aranır. Uzlaşma sağlanamaz ise konu yetkili idare mahkemesine aktarılır.
+    3. Herhangi bir nedenle sözleşme maddeleri geçersiz olur ya da uygulanamaz ise, diğer maddeler hala geçerli ve bağlayıcıdır.
+    4. Başka dillerdeki çevirileri farklı ise basitleştirilmiş Çince ile yazılmış kullanıcı sözleşmesi temel alınır.
+</UserAgreement>
+</Data>
