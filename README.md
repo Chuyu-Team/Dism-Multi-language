@@ -57,6 +57,10 @@ Thanks to JNylson.
 Russian resource file.
 Thanks to Black Alex, Vasiliy Nasonov, virus, Vladimir, ZT.
 
+## [Languages/tr.xml]
+Russian resource file.
+Thanks to Kaya Zeren
+
 ## [Languages/zh-Hans.xml]
 简体资源文件。
 感谢 mingkuang。
