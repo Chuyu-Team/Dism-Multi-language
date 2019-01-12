@@ -2361,18 +2361,23 @@
         <System>
           <State>
             <Applicable>
-              <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" Value="DisableAntiSpyware" Type="REG_DWORD" Data="1"/>
+              <Or>
+                <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" Value="DisableAntiSpyware" Type="REG_DWORD" Data="1"/>
+                <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection" Value="DisableRealtimeMonitoring" Type="REG_DWORD" Data="1"/>
+              </Or>
             </Applicable>
           </State>
           <True>
             <Warning>#关闭Windows Defender后可提高计算机响应速度，但是也将增加电脑被攻击的几率！</Warning>
             <Activate>
               <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" Value="DisableAntiSpyware" Type="REG_DWORD" Data="1"/>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection" Value="DisableRealtimeMonitoring" Type="REG_DWORD" Data="1"/>
             </Activate>
           </True>
           <False>
             <Activate>
-              <RegDelete Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" Value="DisableAntiSpyware"/>
+              <RegDelete Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" Value="DisableAntiSpyware" SkipError="2"/>
+              <RegDelete Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection" Value="DisableRealtimeMonitoring" SkipError="2"/>
             </Activate>
           </False>
         </System>
