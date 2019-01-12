@@ -6457,6 +6457,36 @@
       </Item>
     </Group>
 
+    <Group Name="#微软注音输入法">
+      <Applicable>
+        <RegExist Key="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\IME\15.0\IMETC"/>
+      </Applicable>
+
+      <Item Type="Combo" Name="#默认输入模式（by iliGPU）：">
+        <Applicable>
+          <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\IME\15.0\IMETC"/>
+        </Applicable>
+        <Current>
+          <Dropdown Name="#中文模式">
+            <Applicable>
+              <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\IME\15.0\IMETC" Value="Default Input Mode" Type="REG_DWORD" Data="0"/>
+            </Applicable>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\IME\15.0\IMETC" Value="Default Input Mode" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </Dropdown>
+          <Dropdown Name="#英数模式">
+            <Applicable>
+              <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\IME\15.0\IMETC" Value="Default Input Mode" Type="REG_DWORD" Data="1"/>
+            </Applicable>
+            <Activate>
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\IME\15.0\IMETC" Value="Default Input Mode" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </Dropdown>
+        </Current>
+      </Item>
+    </Group>
+    
     <Group Name="Windows Update">
       <Item Type="CheckBox" Name="#自动安装无需重启的更新（by Rambin）">
         <System>

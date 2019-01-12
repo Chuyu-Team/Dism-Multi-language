@@ -909,6 +909,12 @@ Also please avoid indenting this file using tabulations.
 
     <String Target="关闭微软拼音云计算（by Rambin）" Link="關閉微軟拼音的雲端運算 (by Rambin)"/>
 
+    <!--微軟注英输入法 繁体中文专属条目，其他语言可以不翻译-->
+    <String Target="微软注音输入法" Link="微軟注音輸入法"/>
+    <String Target="默认输入模式（by iliGPU）：" Link="預設輸入模式（by iliGPU）："/>
+    <String Target="中文模式" Link="中文模式"/>
+    <String Target="英数模式" Link="英數模式"/>
+
     <!--Windows Update-->
     <String Target="自动安装无需重启的更新（by Rambin）" Link="自動安裝無需重新啟動的更新 (by Rambin)"/>
 
