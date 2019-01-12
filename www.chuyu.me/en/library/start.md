@@ -39,14 +39,17 @@ Here are the all files about Dism++. You can delete those that you do not need. 
 
 | File Name | Description
 | -------- | -------
-|Dism++x64.exe| User interface for x64-based systems; used to provide a graphical interface. x86 users can consider removing this file.
-|Dism++x86.exe| User interface for x86-based systems; used to provide a graphical interface. When launched on an x64 system, Dism++x64.exe will be launched instead. x64 users can consider removing this file.
+|Dism++x64.exe| User interface for x64-based systems; used to provide a graphical interface. This file can be considered for deletion only for x64 systems.
+|Dism++x86.exe| User interface for x86-based systems; used to provide a graphical interface. When launched on an x64 system, Dism++x64.exe will be launched instead. This file can be considered for deletion only for x86 systems.
+|Dism++arm64.exe| User interface for x64-based systems; used to provide a graphical interface. This file can be considered for deletion only for arm64 systems.
 |Config\amd64\bcdboot.exe| Provides index repair functionalitiy for x64 users. All versions of Windows come with this utility, removing this file does not affect the overall functionalitiy. Users with a full installation of Windows and x86 users can consider removing this file.
 |Config\x86\bcdboot.exe| Provides index repair functionalitiy for x86 users. All versions of Windows come with this utility, removing this file does not affect the overall functionalitiy. Users with a full installation of Windows and x64 users can consider removing this file.
 |Config\amd64\CBSHost.dll| 64-bit Dism++ API support module. Removing this file will render the utility useless for x64 users. x86 users can consider removing this file.
 |Config\x86\CBSHost.dll| 32-bit Dism++ API support module. Removing this file will render the utility useless for x86 users; x64 users will not be able to process x86-based systems offline. x64 users that do not need to handle x86-based systems can consider removing this file.
+|Config\arm64\CBSHost.dll| arm64 Dism++ API support module. Removing this file will render the utility useless for arm64 users. This file can be considered for deletion only for arm64 systems.
 |Config\amd64\NCleaner.dll| 64-bit NCleaner cleanup engine. Removing this file can render some of the advanced clean-up features unusable. x86 users can consider removing this file.
 |Config\x86\NCleaner.dll| 32-bit NCleaner engine. Removing this file can render some of the advanced clean-up features unusable. x64 users can consider removing this file.
+|Config\arm64\NCleaner.dll| arm64 NCleaner cleanup engine. Removing this file can render some of the advanced clean-up features unusable. This file can be considered for deletion only for arm64 systems.
 |Config\amd64\wimgapi.dll| WIM file operation support module. Windows 10 users, x86 users, or users that do not need to utilize any features related to WIM can consider removing this file.
 |Config\x86\wimgapi.dll| WIM file operation support module. Windows 10 users, x64 users, or users that do not need to utilize any features related to WIM can consider removing this file.
 |Config\amd64\wofadk.sys<br>Config\x86\wofadk.sys| Offers support for Compact-related features. Users that do not need to process Windows 10 systems offline can consider deleting this file. We highly recommend that you do not remove this file.

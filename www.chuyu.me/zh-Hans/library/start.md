@@ -25,9 +25,9 @@ Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更
 
 最小运行平台：NT 6.0或者更高、512MB内存
 
-推荐运行平台：NT 6.1或者更高、amd64架构操作系统、8G物理内存+8GB虚拟内存或者更高
+推荐运行平台：NT 6.1或者更高，64位操作系统、8G物理内存+8GB虚拟内存或者更高
 
->* 运行平台仅限x86以及amd64处理器，IA64、ARM以及ARM64体系仅支持离线模式
+>* 运行平台仅限x86、amd64以及arm64处理器，IA64以及ARM体系仅支持离线模式
 * 在没有WOW64支持的环境中（比如纯64 PE），将导致Dism++无法离线处理32位系统。
 * 如果运行平台为Windows Vista或者Windows 2008时某些功能将无法使用，比如CompactOS、WIMBoot。
 
@@ -37,14 +37,17 @@ Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更
 
 | 文件名称 | 功能说明
 | -------- | -------
-|Dism++x64.exe|64位系统的UI，在64位系统中，启动此程序呈现UI。32位系统用户可以考虑删除此文件。
-|Dism++x86.exe|32位系统的UI，如果你在64位系统中启动此程序，则自动转向到Dism++x64.exe。64位系统用户可以考虑删除此文件。
+|Dism++x64.exe|x64系统的UI，在64位系统中，启动此程序呈现UI。仅x64系统需要，可以考虑删除此文件。
+|Dism++x86.exe|x86系统的UI，如果你在x64系统中启动此程序，则自动转向到Dism++x64.exe。仅x86系统需要，可以考虑删除此文件。
+|Dism++arm64.exe|arm64位系统的UI，在arm64位系统中，启动此程序呈现UI。仅arm64系统需要，可以考虑删除此文件。
 |Config\amd64\bcdboot.exe|提供引导修复功能，原版系统自带此文件，删除没有影响。原版系统用户以及32位系统用户可以删除此文件。
 |Config\x86\bcdboot.exe|提供引导修复功能，原版系统自带此文件，删除没有影响。原版系统用户以及64位系统用户可以删除此文件。
-|Config\amd64\CBSHost.dll|Dism++API支持模块，删除后64位系统将无法使用Dism++。32位用户可以删除此文件。
-|Config\x86\CBSHost.dll|Dism++API支持模块，删除后32位系统将无法使用Dism++，64位系统无法脱机处理32位系统。不需要脱机处理32位系统的64位用户可以考虑删除。
-|Config\amd64\NCleaner.dll|64位NCleaner清理引擎，缺少此文件后某些高级清理功能将无法使用，32位用户可以考虑删除此文件。
-|Config\x86\NCleaner.dll|32位NCleaner清理引擎，缺少此文件后某些高级清理功能将无法使用，64位用户可以考虑删除此文件。
+|Config\amd64\CBSHost.dll|Dism++API支持模块，删除后x64系统将无法使用Dism++。仅x64系统需要，可以考虑删除此文件。
+|Config\x86\CBSHost.dll|Dism++API支持模块，删除后x86系统将无法使用Dism++，64位系统无法脱机处理x86以及arm64系统。不需要脱机处理32位系统的x64以及arm64用户可以考虑删除。
+|Config\arm64\CBSHost.dll|Dism++API支持模块，删除后arm64位系统将无法使用Dism++。仅arm64系统需要，用户可以考虑删除此文件。
+|Config\amd64\NCleaner.dll|64位NCleaner清理引擎，缺少此文件后某些高级清理功能将无法使用，仅x64系统需要，可以考虑删除此文件。
+|Config\x86\NCleaner.dll|32位NCleaner清理引擎，缺少此文件后某些高级清理功能将无法使用，仅x86系统需要，可以考虑删除此文件。
+|Config\arm64\NCleaner.dll|arm64 NCleaner清理引擎，缺少此文件后某些高级清理功能将无法使用，仅arm64系统需要，用户可以考虑删除此文件。
 |Config\amd64\wimgapi.dll|WIM文件操作支持模块，Win10用户、32位用户或者不需要任何WIM相关功能的用户，那么可以考虑删除。
 |Config\x86\wimgapi.dll|WIM文件操作支持模块，Win10用户、64位用户或者不需要任何WIM相关功能的用户，那么可以考虑删除。
 |Config\amd64\wofadk.sys<br>Config\x86\wofadk.sys|提供Compact功能相关支持，不需要脱机处理的Win10用户可以考虑删除此文件。强烈建议不要删除这些文件。
