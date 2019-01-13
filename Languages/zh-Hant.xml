@@ -730,7 +730,7 @@ Also please avoid indenting this file using tabulations.
     <String Target="提交规则" Link="提供規則"/>
 
     <!--Explorer-->
-    <String q="" Target="Explorer" Link="Explorer"/>
+    <String Target="Explorer" Link="Explorer"/>
     <String Target="将任务栏中的Cortana调整为" Link="將工作列中的 Cortana(小娜) 調整為"/>
       <String Target="隐藏" Link="隱藏"/>
       <String Target="仅显示图标" Link="僅顯示搜尋圖示"/>
@@ -1023,7 +1023,7 @@ Also please avoid indenting this file using tabulations.
     <String Target="关闭商店应用推广（by 、Cloud.）" Link="關閉市集 App 推廣 (by 、Cloud.)"/>
     <String Target="关闭多嘴的小娜（by 朽木）" Link="關閉多嘴的 Cortana (by 朽木)"/>
     <String Target="关闭游戏录制工具（by 、Cloud.）" Link="關閉遊戲錄製工具 (by 、Cloud.)"/>
-    <String q="" Target="显示首次登录动画（by intionwun &amp; 组策略编辑器）" Link="顯示首次登入動畫 (by intionwun &amp; Group Policy Editor)"/>
+    <String Target="显示首次登录动画（by intionwun &amp; 组策略编辑器）" Link="顯示首次登入動畫 (by intionwun &amp; Group Policy Editor)"/>
     <String Target="启用 Windows 照片查看器（by 心之所向）" Link="啟用 Windows 照片檢視器 (by 心之所向)"/>
     <String Target="安全相关设置" Link="安全相關設定"/>
     <String Target="开启模糊音（by 朽木）" Link="開啟模糊音 (by 朽木)"/>
@@ -1181,9 +1181,9 @@ Also please avoid indenting this file using tabulations.
     <String Target="Windows临时安装文件" Link="Windows 臨時安裝檔"/>
     <String Target="在系统升级或者还原后留下的系统临时安装文件，如果你确定当前没有进行系统升级或者还原，那么可以安全删除。" Link="在系統升級或者還原後留下的系統臨時安裝檔，如果您確定目前沒有進行系統升級或者還原，那麼可以安全刪除。"/>
 
-    <String q="" Target="IDM临时文件（by MS-PC2）" Link="IDM 暫存檔 (by MS-PC2)"/>
-    <String q="" Target="Internet Download Manager临时下载文件。" Link="Internet Download Manager 暫存下載檔案。"/>
-    <String q="" Target="清理IDM临时文件可能导致正在下载的任务需要重新下载！" Link="清理 IDM 暫存檔案可能導致正在下載的任務需要重新下載！"/>
+    <String Target="IDM临时文件（by MS-PC2）" Link="IDM 暫存檔 (by MS-PC2)"/>
+    <String Target="Internet Download Manager临时下载文件。" Link="Internet Download Manager 暫存下載檔案。"/>
+    <String Target="清理IDM临时文件可能导致正在下载的任务需要重新下载！" Link="清理 IDM 暫存檔案可能導致正在下載的任務需要重新下載！"/>
 
     <String Target="QQ临时数据" Link="QQ 暫存檔案"/>
     <String Target="QQ运行时产生的临时文件还有日志，不影响QQ消息记录，建议定期删除。" Link="QQ 執行時產生的暫存檔案還有日誌，不影響 QQ 訊息記錄，建議定期刪除。"/>
