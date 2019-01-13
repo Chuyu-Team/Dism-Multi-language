@@ -909,7 +909,7 @@ Also please avoid indenting this file using tabulations.
 
     <String Target="关闭微软拼音云计算（by Rambin）" Link="關閉微軟拼音的雲端運算 (by Rambin)"/>
 
-    <!--微軟注英輸入法 繁體中文專屬條目，其他語言可以不翻譯-->
+    <!--微軟注音輸入法 繁體中文專屬條目，其他語言可以不翻譯-->
     <String Target="微软注音输入法" Link="微軟注音輸入法"/>
     <String Target="默认输入模式（by iliGPU）：" Link="預設輸入模式 (by iliGPU):"/>
     <String Target="中文模式" Link="中文模式"/>
