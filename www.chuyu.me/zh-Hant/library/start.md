@@ -25,9 +25,9 @@ Dism++ 可以說是一個 Dism 的 GUI 版，但是並不依賴 Dism，直接基
 
 最低執行平台：NT 6.0 以上、512 MB 記憶體
 
-建議執行平台：NT 6.1 以上、amd64 架構作業系統、8G 實體記憶體 +8GB 虛擬記憶體以上
+建議執行平台：NT 6.1 以上、64 位元作業系統、8G 實體記憶體 +8GB 虛擬記憶體以上
 
->* 執行平台僅限 x86 以及 amd64 處理器，IA64、ARM 以及 ARM64 架構僅支援離線模式
+>* 執行平台僅限 x86、amd64 以及 arm64 處理器，IA64 以及 ARM 架構僅支援離線模式
 * 在沒有 WOW64 支援的環境中（比如純 64 PE），將導致 Dism++ 無法離線處理 32 位元系統。
 * 如果執行平台為 Windows Vista 或者 Windows 2008 時某些功能將無法使用，比如 CompactOS、WIMBoot。
 
@@ -37,14 +37,17 @@ Dism++ 可以說是一個 Dism 的 GUI 版，但是並不依賴 Dism，直接基
 
 | 檔案名稱 | 功能說明
 | -------- | -------
-|Dism++x64.exe|64 位元系統的 UI，在 64 位元系統中，啟動此程式呈現 UI。32 位元系統使用者可以考慮刪除此檔案。
-|Dism++x86.exe|32 位元系統的 UI，如果你在 64 位元系統中啟動此程式，則自動轉向到 Dism++x64.exe。64 位元系統使用者可以考慮刪除此檔案。
+|Dism++x64.exe|x64 系統的 UI，在 64 位元系統中，啟動此程式呈現 UI。 僅 x64 系統需要，可以考慮刪除此檔案。
+|Dism++x86.exe|x86 系統的 UI，如果你在 x64 系統中啟動此程式，則自動轉向到 Dism++x64.exe。 僅 x86 系統需要，可以考慮刪除此檔案。
+|Dism++arm64.exe|arm64 位元系統的 UI，在 arm64 位元系統中，啟動此程式呈現 UI。 僅 arm64 系統需要，可以考慮刪除此檔案。
 |Config\amd64\bcdboot.exe|提供啟動(Boot)修復功能，原版系統自帶此檔案，刪除沒有影響。原版系統使用者以及 32 位元系統使用者可以刪除此檔案。
 |Config\x86\bcdboot.exe|提供啟動(Boot)修復功能，原版系統自帶此檔案，刪除沒有影響。原版系統使用者以及 64 位元系統使用者可以刪除此檔案。
-|Config\amd64\CBSHost.dll|Dism++API 支援模組，刪除後 64 位元系統將無法使用 Dism++。32 位元使用者可以刪除此檔案。
-|Config\x86\CBSHost.dll|Dism++API 支援模組，刪除後 32 位元系統將無法使用 Dism++，64 位元系統無法離線處理 32 位元系統。不需要離線處理 32 位元系統的 64 位元使用者可以考慮刪除。
-|Config\amd64\NCleaner.dll|64 位元 NCleaner 清理引擎，缺少此檔案後某些進階清理功能將無法使用，32 位元使用者可以考慮刪除此檔案。
-|Config\x86\NCleaner.dll|32 位元 NCleaner 清理引擎，缺少此檔案後某些進階清理功能將無法使用，64 位元使用者可以考慮刪除此檔案。
+|Config\amd64\CBSHost.dll|Dism++API 支援模組，刪除後 x64 系統將無法使用 Dism++。僅 x64 系統需要，可以考慮刪除此檔案。
+|Config\x86\CBSHost.dll|Dism++API 支援模組，刪除後 x86 系統將無法使用 Dism++，64 位元系統無法離線處理 x86 以及 arm64 系統。不需要離線處理 32 位元系統的 x64 以及 arm64 使用者可以考慮刪除。
+|Config\arm64\CBSHost.dll|Dism++API 支援模組，刪除後 arm64 位元系統將無法使用Dism++。 僅 arm64 系統需要，使用者可以考慮刪除此檔案。
+|Config\amd64\NCleaner.dll|64 位元 NCleaner 清理引擎，缺少此檔案後某些進階清理功能將無法使用，僅 x64 系統需要，可以考慮刪除此檔案。
+|Config\x86\NCleaner.dll|32 位元 NCleaner 清理引擎，缺少此檔案後某些進階清理功能將無法使用，僅 x86 系統需要，可以考慮刪除此檔案。
+|Config\arm64\NCleaner.dll|arm64 NCleaner 清理引擎，缺少此檔案後某些進階清理功能將無法使用，僅 arm64 系統需要，使用者可以考慮刪除此檔案。
 |Config\amd64\wimgapi.dll|WIM 檔案操作支援模組，Win10 使用者、32 位元使用者或者不需要任何 WIM 相關功能的使用者，那麼可以考慮刪除。
 |Config\x86\wimgapi.dll|WIM 檔案操作支援模組，Win10 使用者、64 位元使用者或者不需要任何 WIM 相關功能的使用者，那麼可以考慮刪除。
 |Config\amd64\wofadk.sys<br>Config\x86\wofadk.sys|提供 Compact 功能相關支援，不需要離線處理的 Win10 使用者可以考慮刪除此檔案。強烈建議不要刪除這些檔案。
