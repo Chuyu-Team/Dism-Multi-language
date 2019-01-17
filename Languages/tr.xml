@@ -14,6 +14,7 @@ Also some control characters should be preferably encoded as numeric character e
     \r    Carriage return control      &#xD;
 Also please avoid indenting this file using tabulations.
 
+Special Thanks to Kaya Zeren(kayazeren@gmail.com)
 -->
 <Data>
   <DefaultControl>
@@ -84,7 +85,7 @@ Also please avoid indenting this file using tabulations.
     <String Target="保存对安装的 WIM 映像的更改" Link="Takılmış bir WIM kalıbındaki değişiklikleri kaydeder."/>
     <String Target="保存更改到另一个WIM文件中" Link="Değişiklikleri farklı bir WIM kalıbına kaydeder."/>
     <String Target="打开并编辑现有的WIM文件" Link="Var olan bir WIM kalıbını açar ve düzenler"/>
-    <String Target="WIM、ESD互转" Link="ESD <-> WIM"/>
+    <String Target="WIM、ESD互转" Link="ESD &lt;-&gt; WIM"/>
     <String Target="将ESD文件（支持加密）转换为ISO。" Link="ESD dosyasını ISO biçimine dönüştürür (şifrelenmiş ESD dosyalarını destekler)."/>
     <String Target="解密微软在线提供的ESD文件" Link="Microsoft Online üzerinden ESD dosyalarını ayıklar"/>
     <String Target="重启进入RE并为我启动Dism++" Link="WinRE ile başlatır ve Dism++ uygulamasını çalıştırır"/>
@@ -696,7 +697,7 @@ Also please avoid indenting this file using tabulations.
       Target="可以使用以下命令来操作此映像：&#xD;&#xA;&#xD;&#xA;/GodMode&#9;- 使用春哥附体启动应用程序"
       Link="Kalıp üzerinde işlem yapmak için şu komutlar kullanılabilir:&#xD;&#xA;&#xD;&#xA;/GodMode&#9;- programı Tanrı Kipinde çalıştırır"/>
 
-    <String Target="ESD转ISO" Link="ESD <-> ISO"/>
+    <String Target="ESD转ISO" Link="ESD &lt;-&gt; ISO"/>
     <String Target="允许将WIM、SWM以及ESD之间格式自由转换。" Link="WIM, SWM ve ESD dosyalarını dönüştürür."/>
 
     <String Target="用于修改WIM、SWM以及ESD文件信息。" Link="WIM, SWM ve ESD dosyalarını düzenlemek için."/>
