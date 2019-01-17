@@ -34,7 +34,7 @@
   <String Src="%NM%" Dst=""/>
   <String Src="%WinOS%" Dst="WINOS Lite System"/>
   <String Src="%LanDian%" Dst="LandianNews"/>
-  <String Src="%ChuyuTream%" Dst="&amp;nbsp;2018&amp;nbsp;Equipo de Chuyu"/>
+  <String Src="%ChuyuTream%" Dst="&amp;nbsp;2019&amp;nbsp;Equipo de Chuyu"/>
   <String Src="%ICP%" Dst=""/>
   <String Src="%Document%" Dst="Documentación de Dism++"/>
   <String Src="%logs%" Dst="Registro de cambios"/>

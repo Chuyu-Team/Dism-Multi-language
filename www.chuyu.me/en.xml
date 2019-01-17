@@ -34,7 +34,7 @@
   <String Src="%GTWang%" Dst=""/>
   <String Src="%NM%" Dst=""/>
   <String Src="%LanDian%" Dst="LandianNews"/>
-  <String Src="%ChuyuTream%" Dst="&amp;nbsp;2018&amp;nbsp;Chuyu Team"/>
+  <String Src="%ChuyuTream%" Dst="&amp;nbsp;2019&amp;nbsp;Chuyu Team"/>
   <String Src="%ICP%" Dst=""/>
   <String Src="%Document%" Dst="Dism++ Documentation"/>
   <String Src="%logs%" Dst="Changelog"/>
