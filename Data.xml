@@ -6651,7 +6651,7 @@
             </Applicable>
             <Activate>
               <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" Value="AUOptions" Type="REG_DWORD" Data="2"/>
-              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" Value="NoAutoUpdate" Type="REG_DWORD" Data="1"/>
+              <RegDelete Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" Value="NoAutoUpdate" SkipError="2"/>
             </Activate>
           </Dropdown>
           <Dropdown Name="#检查并下载更新">
@@ -6660,7 +6660,7 @@
             </Applicable>
             <Activate>
               <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" Value="AUOptions" Type="REG_DWORD" Data="3"/>
-              <RegWrite Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" Value="NoAutoUpdate" Type="REG_DWORD" Data="1"/>
+              <RegDelete Key="HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" Value="NoAutoUpdate" SkipError="2"/>
             </Activate>
           </Dropdown>
           <Dropdown Name="#自动安装更新（推荐）">
