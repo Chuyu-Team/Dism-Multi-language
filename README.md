@@ -33,6 +33,10 @@ Thanks to Oleada, MS-PC2, nomemolesteis@gmail.com.
 French resource file.
 Thanks to JP.Sudret, P.Verdy.
 
+## [Languages/hu.xml]
+Hungarian language file.
+Thanks to szuper.
+
 ## [Languages/it.xml]
 Italian resource file.
 Thanks to Massimiliano F.
