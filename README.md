@@ -9,7 +9,7 @@ Dism++ rules file which provides cleanup and optimization rules.
 
 ---
 
-## Dism++ Languages (Languages folder)
+## Languages of Dism++ (Languages folder)
 
 |  Name  | Language | Contributors
 | ------ | -------- | ------------
@@ -44,30 +44,13 @@ Dism++官方网站以及帮助文档。
 
 ---
 
-### [www.chuyu.me/de.xml]
-Dism++ website German resource file.
-Thanks to franz@drwindows.de.
-
-### [www.chuyu.me/en.xml]
-Dism++ website English resource file.
-Thanks to Frag, Hexhu.
-
-### [www.chuyu.me/es.xml]
-Dism++ website Spanish resource file.
-Thanks to MS-PC2.
-
-### [www.chuyu.me/fr.xml]
-Dism++ website French resource file.
-Thanks to P.Verdy.
-
-### [www.chuyu.me/ja.xml]
-Dism++ website Japanese resource file.
-Thanks to 山形まり花.
-
-### [www.chuyu.me/zh-Hans.xml]
-Dism++官方网站简体资源。
-感谢 mingkuang。
-
-### [www.chuyu.me/zh-Hant.xml]
-Dism++官方網站繁體資源。
-感謝 GT Wang (http://mkvq.blogspot.com) 。
+## Languages of Dism++ website (www.chuyu.me folder)
+|  Name  | Language | Contributors
+| ------ | -------- | ------------
+| de.xml | German | franz@drwindows.de
+| en.xml | English | Frag, Hexhu
+| es.xml | Spanish | MS-PC2
+| fr.xml | French | P.Verdy
+| ja.xml | Japanese | 山形まり花
+| zh-Hans.xml | Chinese Simplified | mingkuang
+| zh-Hant.xml | Chinese Traditional | GT Wang (http://mkvq.blogspot.com)
