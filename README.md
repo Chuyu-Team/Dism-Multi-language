@@ -9,69 +9,26 @@ Dism++ rules file which provides cleanup and optimization rules.
 
 ---
 
-## [Languages/bg.xml]
-Bulgarian resource file.
-Thanks to Мартин Тайна, Pavel Belivakov.
+## Dism++ Languages (Languages folder)
 
-## [Languages/cs.xml]
-Czech resource file.
-Thanks to Richard Kahl.
-
-## [Languages/de.xml]
-German resource file.
-Thanks to franz@drwindows.de.
-
-## [Languages/en.xml]
-English resource file.
-Thanks to EMLVIRUS, Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wondersnefu.
-
-## [Languages/es.xml]
-Spanish resource file.
-Thanks to Oleada, MS-PC2, nomemolesteis@gmail.com.
-
-## [Languages/fr.xml]
-French resource file.
-Thanks to JP.Sudret, P.Verdy.
-
-## [Languages/hu.xml]
-Hungarian language file.
-Thanks to szuper.
-
-## [Languages/it.xml]
-Italian resource file.
-Thanks to Massimiliano F.
-
-## [Languages/ja.xml]
-Japanese resource file.
-Thanks to 山形まり花.
-
-## [Languages/ko.xml]
-Korean resource file.
-Thanks to OldMac, 阿泽西.
-
-## [Languages/pl-PL.xml]
-Polish resource file.
-Thanks to romuald68@gmail.com, Bladius (KuchtaPC2015@outlook.com).
-
-## [Languages/pt.xml]
-Portuguese resource file.
-Thanks to JNylson.
-
-## [Languages/ru.xml]
-Russian resource file.
-Thanks to Black Alex, Vasiliy Nasonov, virus, Vladimir, ZT.
-
-## [Languages/tr.xml]
-Russian resource file.
-Thanks to Kaya Zeren
-
-## [Languages/zh-Hans.xml]
-简体资源文件。
-感谢 mingkuang。
-
-## [Languages/zh-Hant.xml]
-繁體資源檔案。
-感謝 GT Wang (http://mkvq.blogspot.com) 、jamesfuh、月下独酌。
+|  Name  | Language | Contributors
+| ------ | -------- | ------------
+| bg.xml | Bulgarian | Мартин Тайна, Pavel Belivakov
+| cs.xml | Czech | Richard Kahl
+| de.xml | German | franz@drwindows.de
+| en.xml | English | EMLVIRUS, Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wondersnefu
+| es.xml | Spanish | Oleada, MS-PC2, nomemolesteis@gmail.com
+| fr.xml | French | JP.Sudret, P.Verdy
+| hu.xml | Hungarian | szuper
+| it.xml | Italian | Massimiliano F
+| ja.xml | Japanese | 山形まり花
+| ko.xml | Korean | OldMac, 阿泽西
+| pl-PL.xml | Polish | romuald68@gmail.com, Bladius (KuchtaPC2015@outlook.com)
+| pt.xml | Portuguese | JNylson
+| ru.xml | Russian | Black Alex, Vasiliy Nasonov, virus, Vladimir, ZT
+| tr.xml | Turkish | Kaya Zeren
+| zh-Hans.xml | Chinese Simplified | mingkuang
+| zh-Hant.xml | Chinese Traditional | GT Wang (http://mkvq.blogspot.com) 、jamesfuh、月下独酌
 
 ---
 
