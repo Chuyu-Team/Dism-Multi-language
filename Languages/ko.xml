@@ -1043,7 +1043,7 @@ Special thanks to digitky, OldMac, Schooli, 阿泽西
     <String Target="Windows 7体验" Link="Windows 7 스타일로 변경"/>
     <String Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Windows Update 시 멀웨어제거도구를 업데이트하지 않음 (by Winaero)"/>
     <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="&quot;우클릭메뉴&quot;를 Windows 7 모드로 변경 (by Silence)"/>
-    <String Target="登陆界面默认打开小键盘（by IT之家）" Link="로그인 시 키패드 사용 (by ITHome)"/>
+    <String Target="登录界面默认打开小键盘（by IT之家）" Link="로그인 시 키패드 사용 (by ITHome)"/>
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="구성요소 기반 서비스 백업 사용안함"/>
     <String Target="任务栏时钟精确到秒（by Luupw3d）" Link="작업표시줄 시계에 &quot;초&quot; 표시 (by Luupw3d)"/>
 

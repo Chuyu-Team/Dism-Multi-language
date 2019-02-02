@@ -1042,7 +1042,7 @@ Special Thanks to Richard Kahl (Richard.Kahl@seznam.cz)
     <String Target="Windows 7体验" Link="Windows 7 Zkušenosti"/>
     <String Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Windows Update neobsahuje nástroj pro odstranění malware (od Winaero)"/>
     <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Změna &quot;klikněte pravým tlačítkem myši v menu&quot; Windows 7 mod (od Silence)"/>
-    <String Target="登陆界面默认打开小键盘（by IT之家）" Link="Povolit klávesnice při přihlášení (od ITHome)"/>
+    <String Target="登录界面默认打开小键盘（by IT之家）" Link="Povolit klávesnice při přihlášení (od ITHome)"/>
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Zakázat součást na základě servisního zálohování"/>
     <String Target="任务栏时钟精确到秒（by Luupw3d）" Link="Hodiny zobrazují sekundy (by Luupw3d)"/>
 

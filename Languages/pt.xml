@@ -1043,7 +1043,7 @@ Special thanks to JNylson
     <String Target="Windows 7体验" Link="Windows 7 Experience"/>
     <String Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Windows Update não inclui ferramentas de remoção de malware (by Winaero)"/>
     <String q="" Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Change &quot;right click menu&quot; to Windows 7 mode (by Silence)"/>
-    <String q="" Target="登陆界面默认打开小键盘（by IT之家）" Link="Enable keypad when login (by ITHome)"/>
+    <String q="" Target="登录界面默认打开小键盘（by IT之家）" Link="Enable keypad when login (by ITHome)"/>
     <String q="" Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Disable Component Based Servicing Backup"/>
     <String q="" Target="任务栏时钟精确到秒（by Luupw3d）" Link="Taskbar clock did display seconds (by Luupw3d)"/>
 

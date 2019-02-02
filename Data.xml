@@ -2779,7 +2779,7 @@
         </Default>
       </Item>
 
-      <Item Type="CheckBox" Name="#登陆界面默认打开小键盘（by IT之家）">
+      <Item Type="CheckBox" Name="#登录界面默认打开小键盘（by IT之家）">
         <System>
           <State>
             <Applicable>

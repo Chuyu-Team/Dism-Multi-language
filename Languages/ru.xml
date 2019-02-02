@@ -1043,7 +1043,7 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <String Target="Windows 7体验" Link="Windows 7 Experience"/>
     <String Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Обновление Windows не включает в себя средство удаления вредоносных программ (by Winaero)"/>
     <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Настройка меню ПКМ для режима Windows 7 (by Silence)"/>
-    <String Target="登陆界面默认打开小键盘（by IT之家）" Link="Включить клавиатуру при входе (by ITHome)"/>
+    <String Target="登录界面默认打开小键盘（by IT之家）" Link="Включить клавиатуру при входе (by ITHome)"/>
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Отключить создание файла резервной копии менеджера пакетов CBS"/>
     <String Target="任务栏时钟精确到秒（by Luupw3d）" Link="Часы на панели задач отображают секунды (by Luupw3d)"/>
 
