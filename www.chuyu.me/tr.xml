@@ -1,0 +1,42 @@
+<Strings>
+  <String Src="%lang%" Dst="tr_TR"/>
+  <String Src="%description%" Dst="Chuyu Dism++, Microsoft Dism aracının arayüz versiyonudur. Güncellemeleri ve sürücüleri eklemek, WinSxS ve Paket Çerezlerini temizlemek, İS imajını kişiselleştirme ve Windows işleme sürecini hızlandırmak amacıyla kullanılabilir."/>
+  <String Src="%keywords%" Dst="Dism++,Dism GUI,WinSxS Temizleme,Dism Arayüz,Windows Güncelleme Temizleme Aracı,Sistem Temizleme,Windows Güncelleme Temizleme,vista,win7,win8,win8.1,win10,Chuyu,dism,Güncelleme Ekle,Windows"/>
+  <String Src="%title%" Dst="Dism++ | Yeni Windows Aracı"/>
+  <String Src="%String1%" Dst="Dism++, muhtemelen en güçlü araç"/>
+  <String Src="%String2%" Dst="CBS temelli, dünyanın ilk DISM Arayüz uygulaması!"/>
+  <String Src="%WhatsnewVersion%" Dst="Yeni sürüm ‒ ne"/>
+  <String Src="%64Bit%" Dst="Dism++ x64"/>
+  <String Src="%32Bit%" Dst="Dism++ x86"/>
+  <String Src="%Full%" Dst="Dism++ Tam(x86/x64)"/>
+  <String Src="%SupportSystem%" Dst="Windows Vista/7/8/8.1/10 ile uyumlu"/>
+  <String Src="%AboutDism++%" Dst="Dism++ Hakkında"/>
+  <String Src="%AboutDism++Des%" Dst="Dism++, DISM'nin arayüze bürünmüş hali gibi düşünülebilir, fakat DISM API veya DISM Çekirdek API yerine düşük seviye İçerik Yönlü Hizmet (Component Based Servicing - CBS) olmaktadır."/>
+  <String Src="%OpenSourceStr%" Dst="Açık kaynak bir ruh değil, aynı zamanda gücün de sembolü. Chuyu Takımını Github üzerinde görmek için &lt;span onclick=&quot;window.location.href='https://github.com/Chuyu-Team'&quot; style=&quot;color:blue;cursor:pointer&quot;>buraya tıkla&lt;/span>."/>
+  <String Src="%SxSClean%" Dst="WinSxS Temizleme"/>
+  <String Src="%SxSCleanDes%" Dst="Güncellemleri yüklerken diskin boş alanı hakkında endişelenmenize artık gerek yok!"/>
+  <String Src="%CompactOS%" Dst="SıkıştırılmışİS"/>
+  <String Src="%CompactOSDes%" Dst="İşletim Sistemi imajınızı birleştirmeden, en azından %33 daha az kullanılan alan."/>
+  <String Src="%EsdSupport%" Dst="ESD Desteği"/>
+  <String Src="%EsdSupportDes%" Dst="ESD'yi ISO'ya dönüştürme konusunda endişelenmenize artık gerek yok."/>
+  <String Src="%WindowsUpdate%" Dst="Windows Güncelleme"/>
+  <String Src="%WindowsUpdateDes%" Dst="Güncellemerlerini seç -- sorun değil."/>
+  <String Src="%SystemRecover%" Dst="Yedekleme ve Geri yükleme"/>
+  <String Src="%SystemRecoverDes%" Dst="Windows PE KULLANMADAN sisteminizi yedekleyin veya geri yükleyin"/>  
+  <String Src="%Green%" Dst="Tamamen Taşınabilir"/>
+  <String Src="%GreenDes%" Dst="ÜCRETSİZ, REKLAM VEYA CASUS YAZILIM YOK."/>
+  <String Src="%AboutChuyu%" Dst="Chuyu Takımı Hakkında"/>
+  <String Src="%AboutChuyuDes%" Dst="Çok hafif, kullanımı kolay, açık ve net, çöp veya can sıkıcılar içermeyen bir araç arıyoruz. Bu sebeple, bulamadık fakat pes etmedik, bu hayalin Dism++'ı kendi ellerimizle yaparak farkına vardık: kar amacı gütmeyen, saf bir inat ve hevesle küçük bir araç oluşturduk."/>
+  <String Src="%QQ%" Dst="QQ Grup"/>
+  <String Src="%E-Mail%" Dst="Geri Bildirim E-Postası"/>
+  <String Src="%Links%" Dst="Linkler"/>
+  <String Src="%WinOS%" Dst="WINOS Basit Sistem"/>
+  <String Src="%GTWang%" Dst=""/>
+  <String Src="%NM%" Dst=""/>
+  <String Src="%LanDian%" Dst="LandianHaberleri"/>
+  <String Src="%ChuyuTream%" Dst="&amp;nbsp;2019&amp;nbsp;Chuyu Team"/>
+  <String Src="%ICP%" Dst=""/>
+  <String Src="%Document%" Dst="Dism++ Belgeleri"/>
+  <String Src="%logs%" Dst="Değişim Kaydı"/>
+  <String Src="%wsuscan2%" Dst="&quot;wsusscn2.cab&quot; Dism++'ın kullandığı Windows Güncelleme veritabanıdır. Basitçe &quot;Config\wsusscn2.cab&quot; dosyasının üzerine yazabilirsiniz."/>
+</Strings>
