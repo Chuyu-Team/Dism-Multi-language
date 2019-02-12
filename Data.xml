@@ -7830,7 +7830,7 @@
     <Item>Users\*\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\</Item>
     <!--过滤OneDrive，避免1803无法复制-->
     <Item>Users\*\OneDrive</Item>
-    <Item>Users\*\OneDrive - business</Item>
+    <Item>Users\*\OneDrive - *</Item>
   </DefaultFilterList>
   <TimeZoneMap>
     <x2>SA Western Standard Time</x2>
