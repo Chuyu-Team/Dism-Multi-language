@@ -22,7 +22,7 @@ All donations go towards hosting; if enough people help out or donate enough, we
 
 `Reminder: Donation does not equate to paying for support. This software is developed out of self-interest. Feedbacks may not be processed immediately. Please do not donate to Dism++ for the sake of software support.`
 
-![WeiXin](../images/weixin.png)  ![Alipay](../images/1487498940074.jpg)
+![donate](../images/donate.png)
 
 ## Minimum requirements of Dism++
 Minimum: Windows NT 6.0 or later, 512 MB Physical Memory
