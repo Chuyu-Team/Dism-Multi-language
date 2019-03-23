@@ -200,7 +200,7 @@ Gracias a: Oleada, MS-PC2, nomemolesteis@gmail.com por la traducción.
     <String Target="系统体系" Link="Arquitectura"/>
     <String Target="创建日期" Link="Creado"/>
     <String Target="展开空间" Link="Espacio extendido"/>
-    <String Target="系统版本" Link="Versión del SO"/>
+    <String Target="系统版本" Link="Versión de SO"/>
 
     <String Target="不压缩映像" Link="Nada"/>
     <String Target="WIMBoot压缩映像" Link="WIMBoot"/>
