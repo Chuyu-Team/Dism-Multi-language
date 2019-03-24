@@ -47,7 +47,7 @@ Gracias a: Oleada, MS-PC2, nomemolesteis@gmail.com por la traducción.
       <String Target="重新载入" Link="Recargar"/>
       <String Target="格式转换" Link="Convertir formato"/>
         <String Target="ESD解密" Link="Desencriptar ESD"/>
-      <String Target="取消任务&#9;Ctrl+Break" Link="Cancelar tarea&#9;Ctrl+Break"/>
+      <String Target="取消任务&#9;Ctrl+Break" Link="Cancelar tarea&#9;Ctrl+C"/>
 
     <String Target="恢复功能(&amp;R)" Link="&amp;Recuperar"/>
       <String Target="系统修复" Link="Recuperación del sistema"/>
@@ -58,7 +58,7 @@ Gracias a: Oleada, MS-PC2, nomemolesteis@gmail.com por la traducción.
       <String Target="系统备份" Link="Respaldar sistema"/>
       <String Target="系统还原" Link="Restaurar sistema"/>
       <String Target="在RE中运行" Link="Ejecutar en WinRE"/>
-      <String Target="仅启动RE" Link="Ejecutar sólo WinRE"/>
+      <String Target="仅启动RE" Link="Ejecutar solo WinRE"/>
       <String Target="撤销Compact" Link="Nunca compactar"/>
 
     <String Target="选项(&amp;O)" Link="&amp;Opciones"/>
@@ -270,7 +270,7 @@ Gracias a: Oleada, MS-PC2, nomemolesteis@gmail.com por la traducción.
     <String Target="请在此输入挂载路径，比如D:\1" Link="Introducir la ruta de montaje aquí. Por ejemplo, D:\1"/>
     <String Target="请输入所在路径" Link="Introducir la ruta de la imagen"/>
     <String Target="镜像文件" Link="Archivo de imagen"/>
-    <String Target="只读模式" Link="Sólo lectura"/>
+    <String Target="只读模式" Link="Solo lectura"/>
     <String Target="快速挂载" Link="Montaje rápido"/>
     <String Target="（可启动）" Link="(Iniciable)"/>
     <String Target="添加映像向导" Link="Asistente para añadir imagen"/>
@@ -483,18 +483,18 @@ Gracias a: Oleada, MS-PC2, nomemolesteis@gmail.com por la traducción.
     <!--开机启动项-->
     <String Target="开机启动项" Link="Inicio"/>
     <String Target="系统启动项 —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="Inicio del sistema —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
-    <String Target="系统启动项32位 —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run" Link="Inicio del sistema 32Bits —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run"/>
-    <String Target="系统启动项（仅启动一次） —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="Inicio del sistema (Una vez) —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
-    <String Target="系统启动项32位（仅启动一次） —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce" Link="Inicio del sistema 32Bits (Una vez) —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce"/>
+    <String Target="系统启动项32位 —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run" Link="Inicio del sistema 32 bits —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run"/>
+    <String Target="系统启动项（仅启动一次） —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="Inicio del sistema (una vez) —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
+    <String Target="系统启动项32位（仅启动一次） —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce" Link="Inicio del sistema 32 bits (una vez) —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce"/>
     <String Target="用户启动项 —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="Inicio del usuario —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
-    <String Target="用户启动项（仅启动一次） —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="Inicio del usuario (Una vez) —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
-    <String Target="启动（所有用户） —— %SystemDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup" Link="Inicio (Todos los usuarios) —— %SystemDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup"/>
-    <String Target="启动（当前用户） —— %UserProfile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup" Link="Inicio (Usuario actual) —— %UserProfile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"/>
+    <String Target="用户启动项（仅启动一次） —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="Inicio del usuario (una vez) —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
+    <String Target="启动（所有用户） —— %SystemDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup" Link="Inicio (todos los usuarios) —— %SystemDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup"/>
+    <String Target="启动（当前用户） —— %UserProfile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup" Link="Inicio (usuario actual) —— %UserProfile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"/>
     <String Target="本机启动项 —— HKLM\SYSTEM\CurrentControlSet\Control\Session Manager" Link="Inicio original —— HKLM\SYSTEM\CurrentControlSet\Control\Session Manager"/>
     <String Target="隐藏禁用项" Link="No desactivado"/>
     <String Target="查找" Link="Buscar"/>
     <String Target="新用户启动项 —— HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="Inicio usuario nuevo —— HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
-    <String Target="新用户启动项（仅启动一次） —— HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="Inicio usuario nuevo (Una vez) —— HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
+    <String Target="新用户启动项（仅启动一次） —— HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="Inicio usuario nuevo (una vez) —— HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
 
     <!--服务-->
     <String Target="服务项" Link="Servicios"/>
@@ -720,7 +720,7 @@ Gracias a: Oleada, MS-PC2, nomemolesteis@gmail.com por la traducción.
     <String Target="当前用户" Link="Usuario actual"/>
     <String Target="新用户" Link="Usuario nuevo"/>
     <String Target="系统" Link="Sistema"/>
-    <String Target="仅针对当前用户，即 HKEY_CURRENT_USER。" Link="Sólo para el usuario actual (HKEY_CURRENT_USER)"/>
+    <String Target="仅针对当前用户，即 HKEY_CURRENT_USER。" Link="Solo para el usuario actual (HKEY_CURRENT_USER)"/>
     <String Target="针对未来新建的用户，即 HKEY_USERS\DEFAULT。" Link="Para los usuarios que se van a crear (HKEY_USERS\DEFAULT)"/>
     <String Target="针对系统，即 HKEY_LOCAL_MACHINE。" Link="Para el sistema (HKEY_LOCAL_MACHINE)"/>
     <String Target="导入配置" Link="Importar reg."/>
@@ -1144,8 +1144,8 @@ Gracias a: Oleada, MS-PC2, nomemolesteis@gmail.com por la traducción.
     <String Target="在Appx应用升级时，会留下老版本应用，该功能将删除那些不使用的老版本。" Link="Al actualizar una aplicación, no eliminará las versiones anteriores. Esta función puede eliminar las versiones anteriores no utilizadas (la función beta, puede conducirle a inestabilidad)."/>
     <String Target="少数用户报告称使用后无法打开Appx应用，需要重新安装Appx应用。" Link="Algunos usuarios dijeron después de usarlo, que aplicación no se puede ejecutar. Necesitas reinstalar la aplicación."/>
 
-    <String Target="系统自带Appx应用" Link="Aplicaciones de Microsoft Store integrada"/>
-    <String Target="此功能将移除所有系统自带Appx应用，移除后可以在Windows应用商店重新下载他们。" Link="Esta función elimina todo el sistema de aplicaciones integrado. Puede descargarlos de nuevo desde Microsoft Store."/>
+    <String Target="系统自带Appx应用" Link="Aplicaciones integradas de Microsoft Store"/>
+    <String Target="此功能将移除所有系统自带Appx应用，移除后可以在Windows应用商店重新下载他们。" Link="Esta función elimina todo el sistema de aplicaciones integradas. Puede descargarlos de nuevo desde Microsoft Store."/>
 
     <String Target="WinSxS临时文件" Link="Archivos temporales WinSxS"/>
     <String Target="系统更新时在WinSxS里面产生的临时文件。" Link="Al actualizar el sistema, crea los archivos temporales."/>
