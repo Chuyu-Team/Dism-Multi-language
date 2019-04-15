@@ -33,10 +33,12 @@
   <String Src="%WinOS%" Dst="WINOS Lite System"/>
   <String Src="%GTWang%" Dst=""/>
   <String Src="%NM%" Dst=""/>
+  <String Src="%qcyb%" Dst=""/>
   <String q="" Src="%LanDian%" Dst="LandianNews"/>
   <String Src="%ChuyuTream%" Dst="&amp;nbsp;2019&amp;nbsp;Chuyu Team"/>
   <String Src="%ICP%" Dst=""/>
   <String Src="%Document%" Dst="Dism++ Dokumente"/>
   <String Src="%logs%" Dst="Änderungen"/>
   <String Src="%wsuscan2%" Dst="&quot;wsusscn2.cab&quot; ist die Dism++ Windows Update-Datenbank, mit dieser Datei kann &quot;Config\wsusscn2.cab&quot; überschrieben werden."/>
+  <String Src="%DownloadDism%" Dst="Download Dism++ x86/x64/ARM64"/>
 </Strings>

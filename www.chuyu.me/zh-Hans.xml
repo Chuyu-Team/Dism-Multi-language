@@ -34,9 +34,11 @@
   <String Src="%LanDian%" Dst="蓝点网"/>
   <String Src="%GTWang%" Dst="&lt;li&gt;&lt;a href=&quot;http://mkvq.blogspot.com/&quot; target=&quot;_blank&quot;&gt;GT Wang 汉化&lt;/a&gt;&lt;/li&gt;"/>
   <String Src="%NM%" Dst="&lt;li&gt;&lt;a href=&quot;https://mourinaruto.github.io/&quot; target=&quot;_blank&quot;&gt;毛利的技术小站&lt;/a&gt;&lt;/li&gt;"/>
+  <String Src="%qcyb%" Dst="&lt;li&gt;&lt;a href=&quot;https://yszhblog.github.io/&quot; target=&quot;_blank&quot;&gt;悠溯志的技术小站&lt;/a&gt;&lt;/li&gt;"/>
   <String Src="%ChuyuTream%" Dst="&amp;nbsp;2019&amp;nbsp;初雨团队"/>
   <String Src="%ICP%" Dst="&lt;p style=&quot;float: right; margin: 0 2rem;&quot;>浙ICP备17002125&lt;/p>"/>
   <String Src="%Document%" Dst="帮助文档"/>
   <String Src="%logs%" Dst="更新日志"/>
   <String Src="%wsuscan2%" Dst="“wsusscn2.cab”是更新补丁离线库，覆盖 “Config\wsusscn2.cab” 即可。"/>
+  <String Src="%DownloadDism%" Dst="下载 Dism++ x86/x64/ARM64"/>
 </Strings>

@@ -33,10 +33,12 @@
   <String Src="%WinOS%" Dst="WINOS Lite System"/>
   <String Src="%GTWang%" Dst=""/>
   <String Src="%NM%" Dst=""/>
+  <String Src="%qcyb%" Dst=""/>
   <String Src="%LanDian%" Dst="LandianNews"/>
   <String Src="%ChuyuTream%" Dst="&amp;nbsp;2019&amp;nbsp;Chuyu Team"/>
   <String Src="%ICP%" Dst=""/>
   <String Src="%Document%" Dst="Dism++ Documentation"/>
   <String Src="%logs%" Dst="Changelog"/>
   <String Src="%wsuscan2%" Dst="&quot;wsusscn2.cab&quot; is the offline Windows Update database Dism++ uses. You can simply overwrite the &quot;Config\wsusscn2.cab&quot; file."/>
+  <String Src="%DownloadDism%" Dst="Download Dism++ x86/x64/ARM64"/>
 </Strings>
