@@ -40,5 +40,5 @@
   <String Src="%Document%" Dst="Documentación de Dism++"/>
   <String Src="%logs%" Dst="Registro de cambios"/>
   <String Src="%wsuscan2%" Dst="&quot;wsusscn2.cab&quot; es la base de datos para Windows Update. Puedes usarlo al copiar o sobrescribir en &quot;Config\wsusscn2.cab&quot;."/>
-  <String Src="%DownloadDism%" Dst="Download Dism++ x86/x64/ARM64"/>
+  <String Src="%DownloadDism%" Dst="Descargar Dism++ x86/x64/ARM64"/>
 </Strings>
