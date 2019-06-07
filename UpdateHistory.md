@@ -10,6 +10,15 @@
   https://github.com/Chuyu-Team/Dism-Multi-language/blob/master/NCleanerReadMe.md
 
 ## 更新历史记录
+**Dism++ 10.1.1000.100 夏季更新 14:18 2019/6/7**
+- 解决Bug，ISO功能无法创建超过7.9GB的ISO问题（感谢 行走世间全是妖怪）。
+- 解决Bug，14393等老版本Win10不能正常InfusedApps不删除问题。
+- 解决Bug，某些网络环境无法自动更新问题。
+- 解决Bug，解决1903平台NCleaner传递优化缓存崩溃问题。
+- 改进体验，将备份还原特权调整为可选，增强Dism++可用性。
+- 其他，wimgapi.dll更新到Windows 10 17763。
+- 其他，全面切换到VS2019编译。
+
 **Dism++ 10.1.1000.90年度更新 13:21 2019/1/26**
 - 解决Bug，避免某些精简PE API导致程序崩溃（感谢 青春永不落幕）
 - 解决Bug 583，修复仅启动RE功能无法使用问题（感谢 N5558）。
