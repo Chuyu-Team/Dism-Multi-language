@@ -1,19 +1,19 @@
 <Strings>
   <String Src="%lang%" Dst="pt"/>
-  <String Src="%description%" Dst="Chuyu DISM++ é uma versão GUI da ferramenta Microsoft DISM. Ele pode ser usado para integrar atualizações e drivers, limpeza WinSxS e cache de pacotes, personalizar sua imagem do sistema operacional e acelerar o processo de implantação do Windows."/>
-  <String Src="%keywords%" Dst="DISM++, DISM GUI, WinSxS Cleanup, ferramenta de limpeza do Windows Update, limpeza do sistema, Atualização do Windows limpa, vista, Win7, win8, Win 8.1, win10, Chuyu, DISM, adicionar atualizações, Windows"/>
+  <String Src="%description%" Dst="Chuyu DISM++ é uma versão GUI da ferramenta Microsoft DISM. Ela pode ser usada para integrar atualizações e drivers, limpeza do WinSxS e cache de pacotes, personalizar sua imagem do sistema operacional e acelerar o processo de implantação do Windows."/>
+  <String Src="%keywords%" Dst="DISM++, DISM GUI, Limpeza de WinSxS, ferramenta de limpeza do Windows Update, limpeza do sistema, Atualização do Windows limpa, vista, Win7, win8, Win 8.1, win10, Chuyu, DISM, adicionar atualizações, Windows"/>
   <String Src="%title%" Dst="DISM++ | Novo utilitário do Windows"/>
   <String Src="%String1%" Dst="DISM++, provavelmente o utilitário mais poderoso"/>
-  <String Src="%String2%" Dst="A primeira implementação do DISM GUI do mundo baseada na CBS!"/>
+  <String Src="%String2%" Dst="A primeira implementação GUI do DISM no mundo baseada em CBS!"/>
   <String Src="%WhatsnewVersion%" Dst="O que há de novo - versão"/>
   <String Src="%64Bit%" Dst="Dism++ x64"/>
   <String Src="%32Bit%" Dst="Dism++ x86"/>
   <String Src="%Full%" Dst="Dism++ Completo(x86/x64)"/>
   <String Src="%SupportSystem%" Dst="Compatível com Windows Vista/7/8/8.1/10"/>
   <String Src="%AboutDism++%" Dst="Sobre o Dism++"/>
-  <String Src="%AboutDism++Des%" Dst="O Dism++ pode ser considerado como um frontend de GUI do DISM, mas é baseado na interface CBS (Component Based Servicing) de baixo nível, em vez da API do DISM ou da API principal do DISM."/>
-  <String Src="%OpenSourceStr%" Dst="O código aberto não é apenas um espírito, mas também um símbolo de força. &lt;span onclick=&quot;window.location.href='https://github.com/Chuyu-Team'&quot; style=&quot;color:blue;cursor:pointer&quot;>Check here&lt;/span> para ver o Github da Equipe Chuyu."/>
-  <String Src="%SxSClean%" Dst="WinSxS Cleanup"/>
+  <String Src="%AboutDism++Des%" Dst="O Dism++ pode ser considerado como um frontend com GUI do DISM, mas é baseado em interface CBS (Component Based Servicing) de baixo nível, em vez da API do DISM ou da API principal do DISM."/>
+  <String Src="%OpenSourceStr%" Dst="O código aberto não é apenas um espírito, mas também um símbolo de força. Para ver o Github da Equipe Chuyu &lt;span onclick=&quot;window.location.href='https://github.com/Chuyu-Team'&quot; style=&quot;color:blue;cursor:pointer&quot;>Veja aqui&lt;/span>."/>
+  <String Src="%SxSClean%" Dst="Limpeza do WinSxS"/>
   <String Src="%SxSCleanDes%" Dst="Não precisa mais se preocupar com espaço livre em disco durante a instalação de atualizações!"/>
   <String Src="%CompactOS%" Dst="CompactOS"/>
   <String Src="%CompactOSDes%" Dst="Pelo menos 33% utilizaram a redução de espaço sem otimizar sua imagem do sistema operacional."/>
@@ -24,8 +24,8 @@
   <String Src="%SystemRecover%" Dst="Backup e Recuperação"/>
   <String Src="%SystemRecoverDes%" Dst="Faça backup ou restauração de seu sistema SEM usar o Windows PE"/>  
   <String Src="%Green%" Dst="Verdadeiramente Portátil"/>
-  <String Src="%GreenDes%" Dst="GRÁTIS, SEM ANÚNCIOS e SPYWARE."/>
-  <String Src="%AboutChuyu%" Dst="Sobre a Equipe Chuyu"/>
+  <String Src="%GreenDes%" Dst="GRÁTIS, SEM ANÚNCIOS e SEM SPYWARE."/>
+  <String Src="%AboutChuyu%" Dst="Sobre a equipe Chuyu"/>
   <String Src="%AboutChuyuDes%" Dst="Somos bastante obcecados em procurar uma ferramenta leve, fácil de usar, simples, sem lixo e aborrecimento. Infelizmente, não conseguimos encontrar uma, mas não desistimos, pois realizamos esse sonho com nossas próprias mãos ao criar o Dism++: uma pequena ferramenta sem fins lucrativos e construída com pura persistência e entusiasmo."/>
   <String Src="%QQ%" Dst="QQ Group"/>
   <String Src="%E-Mail%" Dst="Feeback E-mail"/>
@@ -38,7 +38,7 @@
   <String Src="%ChuyuTream%" Dst="&amp;nbsp;2019&amp;nbsp;Chuyu Team"/>
   <String Src="%ICP%" Dst=""/>
   <String Src="%Document%" Dst="Documentação do Dism++"/>
-  <String Src="%logs%" Dst="Changelog"/>
+  <String Src="%logs%" Dst="Alterações"/>
   <String Src="%wsuscan2%" Dst="&quot;wsusscn2.cab&quot; é o banco de dados offline do Windows Update que o Dism++ usa. Você pode simplesmente sobrescrever o arquivo &quot;Config\wsusscn2.cab&quot;."/>
-  <String Src="%DownloadDism%" Dst="Download Dism++ x86/x64/ARM64"/>
+  <String Src="%DownloadDism%" Dst="Baixar Dism++ x86/x64/ARM64"/>
 </Strings>
