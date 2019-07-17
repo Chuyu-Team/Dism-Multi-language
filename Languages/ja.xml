@@ -730,7 +730,7 @@ Special Thanks to 山形まり花.
     <String Target="提交规则" Link="ルールを提出する"/>
 
     <!--Explorer-->
-    <String q="" Target="Explorer" Link="Explorer"/>
+    <String Target="Explorer" Link="エクスプローラー"/>
     <String Target="将任务栏中的Cortana调整为" Link="Cortana 表示"/>
       <String Target="隐藏" Link="隠す"/>
       <String Target="仅显示图标" Link="アイコンを表示"/>
@@ -1016,7 +1016,7 @@ Special Thanks to 山形まり花.
     <String Target="任务栏相关设置" Link="タスク バーの設定"/>
     <String Target="关闭商店应用推广（by 、Cloud.）" Link="ストアのキャンペーンを閉じる (by 、Cloud.)"/>
     <String Target="关闭多嘴的小娜（by 朽木）" Link="コルタナを閉じる (by XiuMu)"/>
-    <String q="" Target="显示首次登录动画（by intionwun &amp; 组策略编辑器）" Link="Show-Enable First Logon Animation (by intionwun &amp; Group Policy Editor)"/>
+    <String Target="显示首次登录动画（by intionwun &amp; 组策略编辑器）" Link="初回ログオンのアニメーションを表示 (by intionwun &amp; グループ ポリシー エディター)"/>
     <String Target="关闭游戏录制工具（by 、Cloud.）" Link="ゲーム録画を閉じる (by 、Cloud.)"/>
     <String Target="启用 Windows 照片查看器（by 心之所向）" Link="Windows フォト ビューアー有効化 (by XinZhiSuoXiang)"/>
     <String Target="安全相关设置" Link="セキュリティ設定"/>
@@ -1044,7 +1044,7 @@ Special Thanks to 山形まり花.
     <String Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Windows 更新は悪意のあるソフトウェアの削除ツールを除く（by ‍Winaero）"/>
     <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="[右クリック メニュー] を Windows 7 のスタイルに調整する（by Silence）"/>
     <String Target="登录界面默认打开小键盘（by IT之家）" Link="ログイン画面で NumLock キーをオンする。（by ITHome）"/>
-    <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Component Based Servicing ファイル バックアップ無効化"/>
+    <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="コンポーネント ベース サービシングのファイル バックアップ無効化"/>
     <String Target="任务栏时钟精确到秒（by Luupw3d）" Link="タスク バーの時刻で秒を表示する（by Luupw3d）"/>
 
     <String Target="禁用WfpDiag.ETL日志（by powerxing04）" Link="WfpDiag.ETL ログ無効化 (by powerxing04)"/>
@@ -1074,13 +1074,13 @@ Special Thanks to 山形まり花.
     <String Target="无法识别参数：%s" Link="無効な識別パラメータ：%s"/>
     <String Target="至少输入一个路径" Link="1 つ以上のパスは入力してください"/>
     <String Target="%s 路径无效" Link="パス %s は無効です"/>
-    <String Target="未正确识别到命令，以下是程序支持的所有命令：" Link="An error occurred while processing the command. Ensure that the command-line arguments are valid. The following commands is supported:"/>
+    <String Target="未正确识别到命令，以下是程序支持的所有命令：" Link="コマンドを処理しているときにエラー %s が発生しました。コマンド ライン引数を確認してください。以下のコマンドでサポートデスク："/>
     <String
       Target="将一个文件夹或者文件进行Compact压缩：&#xD;&#xA;/C  { /exe [ xpress4k（默认、更佳性能） | xpress8k | xpress16k | lzx（更小体积） ] } Path"
-      Link="Compact compress a folder or file(s):&#xD;&#xA;/C  { /exe [ xpress4k(default, Faster) | xpress8k | xpress16k | lzx(Smaller) ] } Path"/>
+      Link="ファイルまたはフォルダーを Compact 圧縮する：&#xD;&#xA;/C  { /exe [ xpress4k（既定値、より早い） | xpress8k | xpress16k | lzx（より小さいサイズ） ] } Path"/>
     <String
       Target="将一个文件夹或者文件进行Compact解压缩&#xD;&#xA;/U Path"
-      Link="Decompress Compact a folder or file(s)&#xD;&#xA;/U Path"/>
+      Link="ファイルまたはフォルダーを Compact 展開する&#xD;&#xA;/U Path"/>
     <String
       Target="/Image:&lt;path_to_image&gt;&#9;- 指定特定 Windows 映像的根目录的路径。&#xD;&#xA;&#xD;&#xA;示例：&#xD;&#xA; Dism++x86.exe /Image:C:\ /?&#xD;&#xA; Dism++x86.exe /Image:&quot;D:\1213\&quot; /?"
       Link="/Image:&lt;path_to_image&gt;&#9;- The path to the root directory of the image.&#xD;&#xA;&#xD;&#xA;Examples:&#xD;&#xA; Dism++x86.exe /Image:C:\ /?&#xD;&#xA; Dism++x86.exe /Image:&quot;D:\1213\&quot; /?"/>
@@ -1133,7 +1133,7 @@ Special Thanks to 山形まり花.
 
     <String Target="硬链接合并（较慢）" Link="ハード リンクのマージ（遅い）"/>
     <String Target="使用利用NTFS硬链接特性合并所有文件内容相同的文件。" Link="NTFS のハード リンクを利用し、同じファイルを結合する。"/>
-    <String Target="某些文件被硬链接合并后可能导致相关功能无法正常使用。" Link="Some files merged will not work normally properly."/>
+    <String Target="某些文件被硬链接合并后可能导致相关功能无法正常使用。" Link="結合すると、一部の機能は正しく動作しない場合があります。"/>
 
     <String Target="CompactOs（较慢）" Link="CompactOs（遅い）"/>
     <String Target="对单纯读取的文件进行哈夫曼压缩，在不影响性能的情况下，显著减少系统体积。特别感谢矿工以及所有Compact团队成员无私的支持与帮助。" Link="Compree the read-only file with Huffman compression, it will not impact the performance, reduce the volume of the system evidently. Special thanks to the miners and the selfless support and aid of the member of compact team."/>
@@ -1157,10 +1157,10 @@ Special Thanks to 山形まり花.
     <String Target="Windows在下载更新以及更新Metro应用时会在这里产生临时安装包。" Link="When windows downloading updates or updating metro apps, system make temp installation packages in here"/>
 
     <String Target="临时文件" Link="一時ファイル"/>
-    <String Target="一些程序为特定用户产生的临时文件。" Link="Temp files generated for specific users."/>
+    <String Target="一些程序为特定用户产生的临时文件。" Link="特定のユーザーで自動生成したの一時ファイル。"/>
 
     <String Target="Windows报告" Link="Windows エラー報告"/>
-    <String Target="当程序遇到某些问题时，系统会在这里留下稳定性报告，建议你定期清理。" Link="When the programs have some problems, the system will left a stability report here, I recommended you clean the stability report annually."/>
+    <String Target="当程序遇到某些问题时，系统会在这里留下稳定性报告，建议你定期清理。" Link="プログラムをエラー発生し、システムは自動的に安定性レポートを生成する。定期的にクリーンアップお勧めします。"/>
 
     <String Target="常见的驱动临时解压目录" Link="汎用性ドライバーの展開ディレクトリ"/>
     <String Target="Intel、AMD以及Nvidia驱动在安装时留下的解压目录。" Link="When Intel , AMD and Nvidia drivers installing, they made the extracted directory."/>
@@ -1175,9 +1175,9 @@ Special Thanks to 山形まり花.
     <String Target="Windows临时安装文件" Link="Windows 一時的なのインストール ファイル"/>
     <String Target="在系统升级或者还原后留下的系统临时安装文件，如果你确定当前没有进行系统升级或者还原，那么可以安全删除。" Link="When system upgrading or restoring, system made the backup. If you ensure you did not upgrade or restore system, you can delete the backup."/>
 
-    <String q="" Target="IDM临时文件（by MS-PC2）" Link="Internet Download Manager temporary files (by MS-PC2)"/>
-    <String q="" Target="Internet Download Manager临时下载文件。" Link="Temporary download files left by Internet Download Manager temporary files."/>
-    <String q="" Target="清理IDM临时文件可能导致正在下载的任务需要重新下载！" Link="Cleaning up IDM temporary files may cause the task being downloaded to be re-downloaded!"/>
+    <String Target="IDM临时文件（by MS-PC2）" Link="Internet Download Manager 一時ファイル (by MS-PC2)"/>
+    <String Target="Internet Download Manager临时下载文件。" Link="Internet Download Manager temporary ダウンロードの一時ファイル。"/>
+    <String Target="清理IDM临时文件可能导致正在下载的任务需要重新下载！" Link="クリーンアップすると、ダウンロード中のファイルは再ダウンロード必要の可能性があります。"/>
 
     <String Target="QQ临时数据" Link="テンセント QQ 一時ファイル"/>
     <String Target="QQ运行时产生的临时文件还有日志，不影响QQ消息记录，建议定期删除。" Link="When QQ running, QQ made the temp files and log files. I recommend you delete them regularly."/>
@@ -1227,7 +1227,7 @@ Special Thanks to 山形まり花.
 
     <String Target="苹果iTunes备份" Link="Apple iTunes バックアップ"/>
     <String Target="苹果相关设备备份文件，比如通讯录、照片、视频等。" Link="The backup of iOS(or MAC). For example, contacts, photos, videos..."/>
-    <String Target="请你确保暂时不需要使用恢复功能，如果你现在需要恢复苹果设备，请勿勾选此项目！" Link="Please ensure you will not use the recovery function temporary. If you need to restore the iOS(or MAC)device, do not select this item!"/>
+    <String Target="请你确保暂时不需要使用恢复功能，如果你现在需要恢复苹果设备，请勿勾选此项目！" Link="一時的に復元機能は利用不要を確認お願いします。もし今すぐに Apple 社製のデバイスを復元必要すると、選択不要ください。"/>
 
     <String Target="硬链接备份" Link="ハード リンクのバックアップ"/>
     <String Target="硬链接合并功能留下的备份文件。" Link="Hardlink merge feature left the backup."/>
