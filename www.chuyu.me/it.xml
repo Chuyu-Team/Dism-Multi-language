@@ -1,0 +1,44 @@
+<Strings>
+  <String Src="%lang%" Dst="it"/>
+  <String Src="%description%" Dst="Chuyu Dism++ è l'interfaccia grafica dello strumento Microsoft Dism. Può essere usato per integrare aggiornamenti e driver, pulire la Cache dei Pacchetti e WinSxS, personalizzare l'immagine del SO e per velocizzare il processo di sviluppo di Windows."/>
+  <String Src="%keywords%" Dst="Dism++,Dism GUI,WinSxS Cleanup,Windows Update Cleanup Tool,System Cleanup,Windows Update Clean,vista,win7,win8,win8.1,win10,Chuyu,dism,Add Updates,Windows"/>
+  <String Src="%title%" Dst="Dism++ | Nuova utility di Windows"/>
+  <String Src="%String1%" Dst="Dism++, probabilmente la miglior utilità per Windows"/>
+  <String Src="%String2%" Dst="La prima GUI per DISM al mondo basata su CBS!"/>
+  <String Src="%WhatsnewVersion%" Dst="Cosa c'è di nuovo ‒ versione"/>
+  <String Src="%64Bit%" Dst="Dism++ x64"/>
+  <String Src="%32Bit%" Dst="Dism++ x86"/>
+  <String Src="%Full%" Dst="Dism++ Completo(x86/x64)"/>
+  <String Src="%SupportSystem%" Dst="Compatibile con Windows Vista/7/8/8.1/10"/>
+  <String Src="%AboutDism++%" Dst="Informazioni su Dism++"/>
+  <String Src="%AboutDism++Des%" Dst="Dism++ può essere considerato come una GUI di DISM, però è basato su una interfaccia a basso livello di Component Based Servicing (CBS) al posto DISM API oppure di DISM Core API."/>
+  <String Src="%OpenSourceStr%" Dst="Open source non è solo uno spirito, è anche simbolo di coraggio. &lt;span onclick=&quot;window.location.href='https://github.com/Chuyu-Team'&quot; style=&quot;color:blue;cursor:pointer&quot;>Clicca qui&lt;/span> per visualizzare la pgina GitHub di Chuyu Team."/>
+  <String Src="%SxSClean%" Dst="Pulitura WinSxS"/>
+  <String Src="%SxSCleanDes%" Dst="Non è più necessario preoccuparsi dello spazio libero su disco durante l'installazione degli aggiornamenti!"/>
+  <String Src="%CompactOS%" Dst="CompattaSo"/>
+  <String Src="%CompactOSDes%" Dst="Almeno il 33% di riduzione dello spazio senza ottimizzare l'immagine del sistema operativo."/>
+  <String Src="%EsdSupport%" Dst="Supporto ESD"/>
+  <String Src="%EsdSupportDes%" Dst="Non devi più preoccuparti di convertire ESD in ISO."/>
+  <String Src="%WindowsUpdate%" Dst="Windows Update"/>
+  <String Src="%WindowsUpdateDes%" Dst="Scegli i tuoi aggiornamenti - nessuna preoccupazione."/>
+  <String Src="%SystemRecover%" Dst="Backup e Ripristino"/>
+  <String Src="%SystemRecoverDes%" Dst="Esegui il backup o il ripristino del sistema SENZA utilizzare Windows PE"/>  
+  <String Src="%Green%" Dst="Veramente Portatile"/>
+  <String Src="%GreenDes%" Dst="GRATUITO, SENZA PUBBLICITA' E SPYWARE."/>
+  <String Src="%AboutChuyu%" Dst="Informazioni su Chuyu Team"/>
+  <String Src="%AboutChuyuDes%" Dst="Siamo piuttosto ossessionati dall'aspetto di uno strumento leggero, facile da usare, semplice, senza immondizia e fastidio. Purtroppo, non siamo riusciti a trovarne uno, ma non ci siamo arresi, dato che abbiamo realizzato un sogno simile con le nostre stesse mani facendo Dism ++: un piccolo strumento senza scopo di lucro e costruito con pura persistenza ed entusiasmo."/>
+  <String Src="%QQ%" Dst="Gruppo QQ"/>
+  <String Src="%E-Mail%" Dst="Feeback E-mail"/>
+  <String Src="%Links%" Dst="Link"/>
+  <String Src="%WinOS%" Dst="Sistema WINOS Lite"/>
+  <String Src="%GTWang%" Dst=""/>
+  <String Src="%NM%" Dst=""/>
+  <String Src="%qcyb%" Dst=""/>
+  <String Src="%LanDian%" Dst="LandianNews"/>
+  <String Src="%ChuyuTream%" Dst="&amp;nbsp;2019&amp;nbsp;Chuyu Team"/>
+  <String Src="%ICP%" Dst=""/>
+  <String Src="%Document%" Dst="Documentazione Dism++"/>
+  <String Src="%logs%" Dst="Changelog"/>
+  <String Src="%wsuscan2%" Dst="&quot;wsusscn2.cab&quot; è il database offline di Windows Update che Dism ++ utilizza. Puoi semplicemente sovrascrivere il file &quot;Config\wsusscn2.cab&quot; ."/>
+  <String Src="%DownloadDism%" Dst="Scarica Dism++ x86/x64/ARM64"/>
+</Strings>
