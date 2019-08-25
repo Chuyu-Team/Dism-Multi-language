@@ -3081,8 +3081,8 @@
       
       <Item Type="CheckBox" Name="#shift右击时显示在此处打开命令窗口"> 
         <Applicable> 
-          <OSVersion Compare="&gt;=">10.0.15063.0</OSVersion> 
-        </Applicable>  
+          <OSVersion Compare=">=">10.0.15063.0</OSVersion> 
+        </Applicable> 
         <System> 
           <State> 
             <Applicable> 
@@ -3105,7 +3105,7 @@
             </Activate> 
           </False> 
         </System> 
-      </Item>
+      </Item> 
       
       <Item Type="CheckBox" Name="#创建快捷方式时不添&quot;快捷方式&quot;文字（by 518516.net）">
         <Current>
