@@ -3078,7 +3078,35 @@
           </False>
         </System>
       </Item>
-
+      
+      <Item Type="CheckBox" Name="#shift右击时显示在此处打开命令窗口（by sandtechnology）"> 
+        <Applicable> 
+          <OSVersion Compare=">=">10.0.15063.0</OSVersion> 
+        </Applicable> 
+        <System> 
+          <State> 
+            <Applicable> 
+              <And> 
+                <RegExist Key="HKEY_CLASSES_ROOT\Directory\Background\shell\cmd" Value="ShowBasedOnVelocityId" Type="REG_DWORD"/>  
+                <RegExist Key="HKEY_CLASSES_ROOT\Directory\shell\cmd" Value="ShowBasedOnVelocityId" Type="REG_DWORD"/> 
+              </And> 
+            </Applicable> 
+          </State>  
+          <True> 
+            <Activate> 
+              <RegMove Key="HKEY_CLASSES_ROOT\Directory\shell\cmd" NewKey="HKEY_CLASSES_ROOT\Directory\shell\cmd" Value="HideBasedOnVelocityId" NewValue="ShowBasedOnVelocityId"/>  
+              <RegMove Key="HKEY_CLASSES_ROOT\Directory\Background\shell\cmd" NewKey="HKEY_CLASSES_ROOT\Directory\Background\shell\cmd" Value="HideBasedOnVelocityId" NewValue="ShowBasedOnVelocityId"/> 
+            </Activate> 
+          </True>  
+          <False> 
+            <Activate> 
+              <RegMove Key="HKEY_CLASSES_ROOT\Directory\shell\cmd" NewKey="HKEY_CLASSES_ROOT\Directory\shell\cmd" Value="ShowBasedOnVelocityId" NewValue="HideBasedOnVelocityId"/>  
+              <RegMove Key="HKEY_CLASSES_ROOT\Directory\Background\shell\cmd" NewKey="HKEY_CLASSES_ROOT\Directory\Background\shell\cmd" Value="ShowBasedOnVelocityId" NewValue="HideBasedOnVelocityId"/> 
+            </Activate> 
+          </False> 
+        </System> 
+      </Item> 
+      
       <Item Type="CheckBox" Name="#创建快捷方式时不添&quot;快捷方式&quot;文字（by 518516.net）">
         <Current>
           <State>
