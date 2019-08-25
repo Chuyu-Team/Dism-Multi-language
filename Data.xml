@@ -3081,7 +3081,7 @@
       
       <Item Type="CheckBox" Name="#shift右击时显示在此处打开命令指示符">
 	      <Applicable>
-        <OSVersion Compare=">=">10.0</OSVersion>
+        <OSVersion Compare=">=">10.0.15063.0</OSVersion>
         </Applicable> 
         <System>
           <State>
