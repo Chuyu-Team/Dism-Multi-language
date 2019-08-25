@@ -3079,7 +3079,7 @@
         </System>
       </Item>
       
-      <Item Type="CheckBox" Name="#shift右击时显示在此处打开命令窗口"> 
+      <Item Type="CheckBox" Name="#shift右击时显示在此处打开命令窗口（by sandtechnology）"> 
         <Applicable> 
           <OSVersion Compare=">=">10.0.15063.0</OSVersion> 
         </Applicable> 
