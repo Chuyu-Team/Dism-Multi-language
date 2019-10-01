@@ -53,5 +53,6 @@ Dism++官方网站以及帮助文档。
 | fr.xml | French | P.Verdy
 | ja.xml | Japanese | 山形まり花
 | pt.xml | Portuguese | JNylson
+| ru.xml | Russian | AHOHNMYC
 | zh-Hans.xml | Chinese Simplified | mingkuang
 | zh-Hant.xml | Chinese Traditional | GT Wang (http://mkvq.blogspot.com)
