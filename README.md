@@ -20,7 +20,7 @@ Dism++ rules file which provides cleanup and optimization rules.
 | es.xml | Spanish | Oleada, MS-PC2, nomemolesteis@gmail.com
 | fr.xml | French | JP.Sudret, P.Verdy
 | hu.xml | Hungarian | szuper
-| it.xml | Italian | Massimiliano F
+| it.xml | Italian | Massimiliano F, Jumy
 | ja.xml | Japanese | 山形まり花
 | ko.xml | Korean | OldMac, 阿泽西
 | pl-PL.xml | Polish | romuald68@gmail.com, Bladius (KuchtaPC2015@outlook.com)

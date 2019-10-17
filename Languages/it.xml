@@ -14,7 +14,7 @@ Also some control characters should be preferably encoded as numeric character e
     \r    Carriage return control      &#xD;
 Also please avoid indenting this file using tabulations.
 
-Special Thanks to Massimiliano F.
+Special Thanks to Massimiliano F. and Jumy
  -->
 <Data>
   <DefaultControl>
@@ -36,48 +36,48 @@ Special Thanks to Massimiliano F.
   </CCleanLangSecRefMap>
   <StringMaps>
     <String Target="文件(&amp;F)" Link="&amp;File"/>
-      <String Target="添加映像" Link="Aggiungi immagine"/>
-        <String Target="释放映像&#9;Ctrl+N" Link="Applica immagine&#9;Ctrl+N"/>
-        <String Target="挂载映像&#9;Ctrl+Shift+N" Link="Monta immagine&#9;Ctrl+Shift+N"/>
-        <String Target="添加路径" Link="Aggiungi percorso"/>
-      <String Target="卸载映像&#9;Delete" Link="Smonta immagine&#9;Delete"/>
-      <String Target="保存映像&#9;Ctrl+S" Link="Salva immagine&#9;Ctrl+S"/>
-      <String Target="另存为映像&#9;Ctrl+Shift+S" Link="Salva immagine come&#9;Ctrl+Shift+S"/>
-      <String Target="打开映像文件&#9;Ctrl+O" Link="Apri file immagine&#9;Ctrl+O"/>
-      <String Target="重新载入" Link="Ricarica"/>
-      <String Target="格式转换" Link="Conversione formato"/>
-        <String Target="ESD解密" Link="Decriptazione ESD"/>
+    <String Target="添加映像" Link="Aggiungi immagine"/>
+    <String Target="释放映像&#9;Ctrl+N" Link="Applica immagine&#9;Ctrl+N"/>
+    <String Target="挂载映像&#9;Ctrl+Shift+N" Link="Monta immagine&#9;Ctrl+Shift+N"/>
+    <String Target="添加路径" Link="Aggiungi percorso"/>
+    <String Target="卸载映像&#9;Delete" Link="Smonta immagine&#9;Delete"/>
+    <String Target="保存映像&#9;Ctrl+S" Link="Salva immagine&#9;Ctrl+S"/>
+    <String Target="另存为映像&#9;Ctrl+Shift+S" Link="Salva immagine come&#9;Ctrl+Shift+S"/>
+    <String Target="打开映像文件&#9;Ctrl+O" Link="Apri file immagine&#9;Ctrl+O"/>
+    <String Target="重新载入" Link="Ricarica"/>
+    <String Target="格式转换" Link="Conversione formato"/>
+    <String Target="ESD解密" Link="Decriptazione ESD"/>
     <String Target="取消任务&#9;Ctrl+Break" Link="Annulla l'attività&#9;Ctrl+Break"/>
 
     <String Target="恢复功能(&amp;R)" Link="&amp;Recupero"/>
-      <String Target="系统修复" Link="Recupero del sistema"/>
-      <String Target="健康扫描" Link="Controlla immagine"/>
-        <String Target="验证受损" Link="Scansiona immagine"/>
-        <String Target="修复受损" Link="Ripara immagine"/>
-      <String Target="引导修复" Link="Ripara avvio"/>
-      <String Target="系统备份" Link="Backup del sistema"/>
-      <String Target="系统还原" Link="Ripristino del sistema"/>
-      <String Target="在RE中运行" Link="Avvia in WinRE"/>
-      <String Target="仅启动RE" Link="Avvia solo WinRE"/>
-      <String Target="撤销Compact" Link="Non compattare"/>
+    <String Target="系统修复" Link="Recupero del sistema"/>
+    <String Target="健康扫描" Link="Controlla immagine"/>
+    <String Target="验证受损" Link="Scansiona immagine"/>
+    <String Target="修复受损" Link="Ripara immagine"/>
+    <String Target="引导修复" Link="Ripara avvio"/>
+    <String Target="系统备份" Link="Backup del sistema"/>
+    <String Target="系统还原" Link="Ripristino del sistema"/>
+    <String Target="在RE中运行" Link="Avvia in WinRE"/>
+    <String Target="仅启动RE" Link="Avvia solo WinRE"/>
+    <String Target="撤销Compact" Link="Non compattare"/>
 
     <String Target="选项(&amp;O)" Link="&amp;Opzioni"/>
-      <String Target="插件管理" Link="Gestore plugin"/>
-      <String Target="新手模式" Link="Modalità principiante"/>
-      <String Target="详细设置" Link="Altre impostazioni"/>
-      <String Target="操作完成后" Link="Dopo il completamento dell'operazione"/>
-        <String Target="未定义" Link="Niente"/>
-        <String Target="关机" Link="Spegni"/>
-        <String Target="重启" Link="Riavvia"/>
-      <String Target="程序外观" Link="Aspetto"/>
+    <String Target="插件管理" Link="Gestore plugin"/>
+    <String Target="新手模式" Link="Modalità principiante"/>
+    <String Target="详细设置" Link="Altre impostazioni"/>
+    <String Target="操作完成后" Link="Dopo il completamento dell'operazione"/>
+    <String Target="未定义" Link="Niente"/>
+    <String Target="关机" Link="Spegni"/>
+    <String Target="重启" Link="Riavvia"/>
+    <String Target="程序外观" Link="Aspetto"/>
 
     <String Target="帮助(&amp;H)" Link="&amp;Aiuto"/>
-      <String Target="查看帮助(&amp;V)" Link="&amp;Visualizza aiuto"/>
-      <String Target="官方网站(&amp;O)" Link="&amp;Sito web ufficiale"/>
-      <String Target="官方群(&amp;G)" Link="&amp;Gruppo ufficiale"/>
-      <String Target="问题反馈(&amp;B)" Link="&amp;Feedback"/>
-      <String Target="关于Dism++(&amp;A)" Link="&amp;Informazioni su Dism++"/>
-      <String Target="检查更新(&amp;U)" Link="&amp;Controllo aggiornamenti"/>
+    <String Target="查看帮助(&amp;V)" Link="&amp;Visualizza aiuto"/>
+    <String Target="官方网站(&amp;O)" Link="&amp;Sito web ufficiale"/>
+    <String Target="官方群(&amp;G)" Link="&amp;Gruppo ufficiale"/>
+    <String Target="问题反馈(&amp;B)" Link="&amp;Feedback"/>
+    <String Target="关于Dism++(&amp;A)" Link="&amp;Informazioni su Dism++"/>
+    <String Target="检查更新(&amp;U)" Link="&amp;Controllo aggiornamenti"/>
 
     <String Target="应用一个WIM、ESD、SWM或者ISO映像。" Link="Applica un'immagine WIM, ESD, SWM, ISO."/>
     <String Target="从 WIM 文件安装映像。" Link="Monta immagine da un file WIM."/>
@@ -120,7 +120,7 @@ Special Thanks to Massimiliano F.
     <String Target="临时目录可用空间不足5GB，这可能导致Dism++无法正常运行，推荐将Dism++复制到可用空间大于5GB的驱动器，然后继续。" Link="Spazio nella directory temporanea inferiore a 5GB, Dism++ potrebbe non funzionare regolarmente. Si consiglia di copiare Dism++ in un'unità che abbia più di 5GB di spazio libero prima di continuare."/>
     <String Target="基础支撑库缺失，引导修复相关功能无法使用。" Link="Le librerie di supporto fondamentali sono mancanti. Impossibile utilizzare le funzioni relative al boot-fix."/>
     <String Target="Dism++需要管理员权限才能运行，请右键 以管理员身份运行 然后继续。" Link="Dism++ necessita dei diritti di amministratore per avviarsi. Fare click destro sul file Dism++ e selezionare Esegui come Amministratore."/>
-    <String q="" Target="Dism++不允许以兼容模式启动，请去除兼容模式，然后再启动Dism++。" Link="Dism++ doesn't allow compatibility mode. Restart Dism++ after disable it."/>
+    <String Target="Dism++不允许以兼容模式启动，请去除兼容模式，然后再启动Dism++。" Link="Dism++ non funziona in modalità compatibilità. Riavvia Dism++ dopo averla disabilitata."/>
 
     <String Target="你需要增量保存还是直接保存？" Link="Salvare direttamente oppure eseguire un salvataggio incrementale?"/>
     <String Target="温馨提示：保存映像后空间不会减少，如果需要减少空间请重新编译目标文件。" Link="Suggerimento: Lo spazio non si riduce se salvi questa immagine; ricompila il file di destinazione se è necessario ridurre lo spazio."/>
@@ -387,21 +387,21 @@ Special Thanks to Massimiliano F.
     <String Target="为了优化性能，你需要手动打开会话。" Link="Per ottimizzare le prestazioni, è necessario aprire la sessione manualmente."/>
     <String Target="打开会话" Link="Apri sessione"/>
     <String Target="正在打开会话" Link="Apertura sessione"/>
-    <String q="" Target="当前系统至少为Windows 8/2012才能正常处理此系统。如果你继续进行，那么打开关闭功能、添加删除更新均可能出现意外失败。" Link="Host Version should be at least Windows 8/2012. If you continue in host of a lower version, functions like open, close, add, delete, update may not work properly."/>
-    <String q="" Target="映像路径存在非英文字符可能导致安装更新失败，请在全英文路径重新挂载此映像，比如“D:\Mount”。" Link="The image path contains non-ASCII characters may cause the install update to fail, please reload the image in full ASCII path, such as &quot;D:\Mount&quot;."/>
+    <String Target="当前系统至少为Windows 8/2012才能正常处理此系统。如果你继续进行，那么打开关闭功能、添加删除更新均可能出现意外失败。" Link="Versione Host dovrebbe essere almeno Windows 8/2012. Se si continua in Host di una versione inferiore, funzioni come Apri, Chiudi, Aggiungi, Cancella, Aggiorna potrebbero non funzionare correttamente."/>
+    <String Target="映像路径存在非英文字符可能导致安装更新失败，请在全英文路径重新挂载此映像，比如“D:\Mount”。" Link="Il percorso immagine contiene caratteri non-ASCII, Ricarica immagine in un percorso completamente ASCII, ad esempio &quot;D:\Mount&quot;."/>
 
     <String Target="常用工具" Link="Utilità"/>
-      <String Target="空间回收" Link="Pulizia del disco"/>
-      <String Target="启动项管理" Link="Avvio"/>
-      <String Target="工具箱" Link="Strumenti"/>
-      <String Target="Appx管理" Link="Gestione Appx"/>
+    <String Target="空间回收" Link="Pulizia del disco"/>
+    <String Target="启动项管理" Link="Avvio"/>
+    <String Target="工具箱" Link="Strumenti"/>
+    <String Target="Appx管理" Link="Gestione Appx"/>
 
     <String Target="驱动管理" Link="Gestione driver"/>
     <String Target="程序和功能" Link="Applicazioni e funzioni"/>
     <String Target="Windows服务" Link="Gestione servizi"/>
     <String Target="Windows功能" Link="Gestione funzionalità"/>
     <String Target="更新管理" Link="Gestione aggiornamenti"/>
-      <String Target="已安装的更新" Link="Aggiornamenti installati"/>
+    <String Target="已安装的更新" Link="Aggiornamenti installati"/>
     <String Target="可选功能" Link="Caratteristiche opzionali"/>
     <String Target="部署功能" Link="Funzionalità di sviluppo"/>
 
@@ -446,7 +446,7 @@ Special Thanks to Massimiliano F.
     <String Target="注册表还原" Link="Ripristino"/>
     <String Target="清理时间" Link="Tempo pulitura"/>
     <String Target="网络位置" Link="Localizzazione Rete"/>
-    <String q="" Target="正在扫描第%d个可清理的注册表项。。。" Link="Scanning num. %d register item to be cleaned..."/>
+    <String Target="正在扫描第%d个可清理的注册表项。。。" Link="Scansione num. %d voci registro saranno cancellate..."/>
 
     <!--驱动管理-->
     <String Target="温馨提示：删除关键驱动可能导致计算机无法启动" Link="Suggerimento: l'eliminazione di driver importanti può causare l'impossibilità di avviare il computer"/>
@@ -525,8 +525,8 @@ Special Thanks to Massimiliano F.
 
     <!--应用程序-->
     <String Target="更改" Link="Modificare"/>
-    <String q="" Target="通用安装脚本" Link="Universal installation scripts"/>
-    <String q="" Target="%s 已经安装，你确定要继续吗？" Link="%s is installed already. Sure to proceed?"/>
+    <String q="" Target="通用安装脚本" Link="Universal installation scripts"/>
+    <String Target="%s 已经安装，你确定要继续吗？" Link="%s già installato. Sicuro di continuare?"/>
 
     <!--添加删除更新-->
     <String Target="未知" Link="Sconosciuto"/>
@@ -557,7 +557,7 @@ Special Thanks to Massimiliano F.
     <String Target="添加" Link="Aggiungi"/>
     <String Target="语言" Link="Lingua"/>
     <String Target="Windows %s 语言包" Link="Pacchetto Lingua Windows %s"/>
-    <String q="" Target="重启生效" Link="Richiedere un riavvio"/>
+    <String Target="重启生效" Link="Richiede un riavvio"/>
 
     <!--可选功能-->
     <String Target="正在删除可选功能" Link="Rimozione caratteristiche opzionali"/>
@@ -581,7 +581,7 @@ Special Thanks to Massimiliano F.
     <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="Congratulazioni! Cancellazione effettuta con successo. Però, alcune applicazioni potrebbero essere Provisioned Appx e persistere nel sistema, in questo caso utilizzare Provisioned Appx per eliminarle."/>
     <String q="" Target="User Appx" Link="User Appx"/>
     <String q="" Target="Provisioned Appx" Link="Provisioned Appx"/>
-    <String q="" Target="删除Microsoft.StorePurchaseApp可能导致Windows Store无法使用，你确定要继续么？" Link="Removing Microsoft.StorePurchaseApp may cause Windows Store unusable. Sure to proceed?"/>
+    <String Target="删除Microsoft.StorePurchaseApp可能导致Windows Store无法使用，你确定要继续么？" Link="Rimuovere Microsoft.StorePurchaseApp può rendere Windows Store inusabile. Sicuro di procedere?"/>
 
     <!--Windows Update-->
     <String Target="安装" Link="Installa"/>
@@ -732,16 +732,16 @@ Special Thanks to Massimiliano F.
     <!--Explorer-->
     <String q="" Target="Explorer" Link="Explorer"/>
     <String Target="将任务栏中的Cortana调整为" Link="Scegli come visualizzare Cortana sulla barra delle applicazioni"/>
-      <String Target="隐藏" Link="Nascosto"/>
-      <String Target="仅显示图标" Link="Mostra icona ricerca"/>
-      <String Target="显示搜索框" Link="Mostra campo ricerca"/>
+    <String Target="隐藏" Link="Nascosto"/>
+    <String Target="仅显示图标" Link="Mostra icona ricerca"/>
+    <String Target="显示搜索框" Link="Mostra campo ricerca"/>
 
     <String Target="将用户账号控制程序（UAC）调整为" Link="Scegliere impostazioni Controllo Account Utente"/>
-      <String Target="从不通知（不推荐）" Link="Disattivo(non raccomandato)"/>
-        <String Target="此选项将导致计算机面临安全风险！" Link="Questa selezione comporta dei rischi di sicurezza nel computer! Scelta sconsigliata!"/>
-      <String Target="提示我但不降低亮度" Link="Notifica (senza dim)"/>
-      <String Target="提示我（推荐）" Link="Notifica (raccomandato)"/>
-      <String Target="总是提示我" Link="Notifica sempre"/>
+    <String Target="从不通知（不推荐）" Link="Disattivo(non raccomandato)"/>
+    <String Target="此选项将导致计算机面临安全风险！" Link="Questa selezione comporta dei rischi di sicurezza nel computer! Scelta sconsigliata!"/>
+    <String Target="提示我但不降低亮度" Link="Notifica (senza dim)"/>
+    <String Target="提示我（推荐）" Link="Notifica (raccomandato)"/>
+    <String Target="总是提示我" Link="Notifica sempre"/>
 
     <String Target="用于内置管理员帐户的管理员批准模式 (by 坏坏小生)" Link="Modalità approvazione per l'account Amministratore integrato (by HuaiHuaiXiaoSheng)"/>
 
@@ -765,7 +765,7 @@ Special Thanks to Massimiliano F.
 
     <String Target="收起资源管理器功能区（by Rambin）" Link="Riduci la Barra del Titolo (by Rambin)"/>
 
-    <String Target="显示开始菜单、任务栏、操作中心和标题栏的颜色（by Rambin）" Link="Mostra colori sul menu Avvio, Barra Applicazioni, Centro Azioni e Barra Titolo (by Rambin)"/>
+    <String Target="显示开始菜单、任务栏、操作中心和标题栏的颜色（by Rambin）" Link="Mostra colori sul menu Start, Barra Applicazioni, Centro Azioni e Barra Titolo (by Rambin)"/>
 
     <String Target="禁止自动播放（by Rambin）" Link="Disattiva AutoPlay (by Rambin)"/>
 
@@ -775,17 +775,16 @@ Special Thanks to Massimiliano F.
 
     <String Target="资源管理器窗口最小化时显示完整路径（by 原罪）" Link="Mostra il percorso completo se la finestra è minimizzata (by YZ)"/>
 
-    <String Target="使开始菜单、任务栏、操作中心透明" Link="Rendi trasparente Menu Avvio, Barra Applicazioni e Centro Azioni"/>
+    <String Target="使开始菜单、任务栏、操作中心透明" Link="Rendi trasparente menu Start, Barra Applicazioni e Centro Azioni"/>
 
     <String Target="使任务栏更透明（by 518516.net）" Link="Rendi Barra Applicazioni più trasparente (by 518516.net)"/>
 
-    <String q="" Target="不允许在开始菜单显示建议" Link="Disable suggestions in Start Menu"/>
-    <String q="" Target="不允许在开始菜单显示建议（by powerxing04）" Link="Disable suggestions in Start Menu (by powerxing04)"/>
+    <String Target="不允许在开始菜单显示建议（by powerxing04）" Link="Disattiva suggerimenti in menu Start (by powerxing04)"/>
 
     <String Target="在桌面显示我的电脑（by Rambin）" Link="Mostra icona Questo PC sul desktop (by Rambin)"/>
-      <String Target="跟随系统" Link="Come Sistema"/>
-      <String Target="显示" Link="Mostra"/>
-      <String Target="隐藏" Link="nascondi"/>
+    <String Target="跟随系统" Link="Come Sistema"/>
+    <String Target="显示" Link="Mostra"/>
+    <String Target="隐藏" Link="nascondi"/>
 
     <String Target="在桌面显示回收站（by Rambin）" Link="Mostra icona Cestino sul desktop (by Rambin)"/>
 
@@ -806,9 +805,9 @@ Special Thanks to Massimiliano F.
     <String Target="始终在任务栏显示所有图标和通知" Link="Mostra sempre tutte le icone e le notifiche nella barra applicazioni"/>
 
     <String Target="当任务栏被占满时" Link="Quando la barra delle applicazioni è piena"/>
-      <String Target="始终合并" Link="Combina sempre"/>
-      <String Target="被占满时合并" Link="Quando necessario"/>
-      <String Target="从不合并" Link="Non combinare mai"/>
+    <String Target="始终合并" Link="Combina sempre"/>
+    <String Target="被占满时合并" Link="Quando necessario"/>
+    <String Target="从不合并" Link="Non combinare mai"/>
 
     <String Target="锁定任务栏" Link="Blocca barra applicazioni"/>
 
@@ -824,28 +823,28 @@ Special Thanks to Massimiliano F.
 
     <String Target="优化非活动窗口标题栏颜色（by IT之家）" Link="Ottimizza colore della barra del titolo della finestra inattiva (by IT Home)"/>
 
-    <String q="" Target="*桌面壁纸质量调整为（by IT之家）" Link="Change desktop wallpaper quality to (by ITHome)"/>
-      <String q="" Target="低质量（更快）" Link="Low(Faster)"/>
-      <String q="" Target="默认（推荐）" Link="Default"/>
-      <String q="" Target="高质量（更清晰）" Link="High(Clearer)"/>
+    <String Target="*桌面壁纸质量调整为（by IT之家）" Link="Cambia qualità dello Sfondo del Desktop (by ITHome)"/>
+    <String Target="低质量（更快）" Link="Bassa(Veloce)"/>
+    <String Target="默认（推荐）" Link="Default"/>
+    <String Target="高质量（更清晰）" Link="Alta(Qualità)"/>
 
     <String Target="关闭视频文件预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Disttiva anteprima file video per migliorare il tempo di risposta di Windows Explorer (by MoWangMoShi)"/>
     <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Disttiva anteprima file audio per migliorare il tempo di risposta di Windows Explorer (by MoWangMoShi)"/>
     <String Target="关闭打开程序的“安全警告”（by 莫失莫忘）" Link="Disattiva avviso di sicurezza quando si aprono alcuni programmi (by MoWangMoShi) "/>
     <String Target="关闭在应用商店中查找关联应用（by Asoft）" Link="Disattiva ricerca per le applicazioni associate in Windows Store (by Asoft)"/>
-    <String q="" Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="Hide 3D Objects, Desktop Documents, Download, Music, Pictures, Videos in Computer (by 、Cloud)"/>
-    <String q="" Target="禁止自动安装推荐的应用程序（by IT之家）" Link="Disable installing recommmeded apps autoly (by ITHome)"/>
-    <String q="" Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="Disable Windows Focus on lock screen (by 、Cloud.)"/>
-    <String q="" Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="Disable &quot;Get suggestions when using Windows&quot; (by 、Cloud.)"/>
-    <String q="" Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Hide People on Task Bar (by 、Cloud)"/>
+    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="Nascondi Oggetti 3D, Desktop, Documenti, Download, Immagini, Musica, Video in Questo PC (by 、Cloud)"/>
+    <String Target="禁止自动安装推荐的应用程序（by IT之家）" Link="Disattiva installazione automatica delle app consigliate (by ITHome)"/>
+    <String Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="Disattiva Windows Focus in schermata di blocco (by 、Cloud.)"/>
+    <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="Disattiva &quot;Ottieni suggerimenti quando si utilizza Windows&quot; (by 、Cloud.)"/>
+    <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Nascondi Contatti nella barra strumenti (by 、Cloud)"/>
 
     <!--开始菜单-->
     <String q="" Target="开始菜单以及Windows体验" Link="Start&amp;Windows Experience"/>
 
     <!--右键菜单管理-->
-    <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="Gestione menu contestuale: Disattiva menu non necessari per migliorare il tempo di risposta di Windows Explorer"/>
+    <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="Gestione menu contestuale (tasto destro): Disattiva menu per migliorare il tempo di risposta di Windows Explorer"/>
     <String Target="禁用可执行文件的“兼容性疑难解答”右键菜单（by 莫失莫忘）" Link="Disattiva menu &quot;Problemi di compatibilità&quot; sui file eseguibili (by MoWangMoShi)"/>
-    <String Target="禁用文件、文件夹以及磁盘的“使用Windows Defender扫描”右键菜单（by 莫失莫忘）" Link="Disattiva &quot;Scan con Windows Defender&quot; su file, cartelle, dischi (by MoWangMoShi)"/>
+    <String Target="禁用文件、文件夹以及磁盘的“使用Windows Defender扫描”右键菜单（by 莫失莫忘）" Link="Disattiva &quot;Scansiona Windows Defender&quot; su file, cartelle, dischi (by MoWangMoShi)"/>
     <String Target="禁用文件、磁盘以及属性的“还原以前版本”右键菜单（by 莫失莫忘）" Link="Disattiva menu &quot;Ripristina versioni precedenti&quot; su file, dischi e proprietà (by MoWangMoShi)"/>
     <String Target="禁用文件、文件夹、桌面以及所有对象的“共享文件夹同步”右键菜单" Link="Disattiva menu &quot;Sincronizza cartella condivisa&quot; su file, cartelle, desktop e tutti gli oggetti"/>
     <String Target="禁用新建“ZIP/RAR文件”右键菜单（by 莫失莫忘）" Link="Disattiva menu &quot;Nuovo Archivio RAR/ZIP&quot; (by MoWangMoShi)"/>
@@ -859,10 +858,10 @@ Special Thanks to Massimiliano F.
     <String Target="禁用磁盘的“复制磁盘”右键菜单" Link="Disattiva menu &quot;Copia Disco&quot; sui dischi"/>
     <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="Disattiva menu &quot;Condividi&quot; su file, cartelle, desktop, dischi e Raccolte"/>
     <String Target="禁用桌面的“小工具”右键菜单" Link="Disattiva menu &quot;Widget&quot;"/>
-    <String q="" Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Disable file context menu item &quot;View 3D&quot; (by Cloud)"/>
-    <String q="" Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Disable file context menu item &quot;Paint 3D&quot; (by Cloud)"/>
-    <String q="" Target="禁用所有对象的“共享”右键菜单" Link="Disable the &quot;Share&quot; context menu on all objects"/>
-    <String q="" Target="禁用文件、目录、桌面、磁盘以及库的“授予访问权限”右键菜单" Link="Disable &quot;Grant Access&quot; context menu on files, folders, desktop, disks and libraries"/>
+    <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Disattiva menu &quot;View 3D&quot; (by Cloud)"/>
+    <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Disattiva menu &quot;Paint 3D&quot; (by Cloud)"/>
+    <String Target="禁用所有对象的“共享”右键菜单" Link="Disattiva menu &quot;Condividi&quot; per tutti gli oggetti"/>
+    <String Target="禁用文件、目录、桌面、磁盘以及库的“授予访问权限”右键菜单" Link="Disattiva menu &quot;Consenti Accesso&quot; su file, cartelle, desktop, dischi e Raccolte"/>
 
     <!--桌面图示管理-->
     <String Target="桌面图标管理" Link="Gestione icone Desktop"/>
@@ -872,7 +871,7 @@ Special Thanks to Massimiliano F.
     <String Target="隐藏资源管理器导航窗口中的OneDrive（by 莫失莫忘）" Link="Nascondi navigazione in OneDrive (by MoWangMoShi)"/>
     <String Target="隐藏资源管理器导航窗口中的可移动设备（by 莫失莫忘）" Link="Nascondi navigazione in Periferiche removibili (by MoWangMoShi)"/>
     <String Target="隐藏资源管理器导航窗口中的快速访问（by starP）" Link="Nascondi avigazione in Accesso Rapido (by starP)"/>
-      <String Target="启用此选项将导致导航窗口拖拽功能无法使用。" Link="L'attivazione di questa opzione disattiva la funzione di trascinamento e rilascio nel riquadro di spostamento."/>
+    <String Target="启用此选项将导致导航窗口拖拽功能无法使用。" Link="L'attivazione di questa opzione disattiva la funzione di trascinamento e rilascio nel riquadro di spostamento."/>
 
     <!--Internet Explorer-->
     <String Target="关闭多个选项卡时不发出警告（by 一叶微风TM）" Link="Non avvisare quando vengono chiuse più finestre (by YiYieWeiFeng TM)"/>
@@ -889,25 +888,25 @@ Special Thanks to Massimiliano F.
 
     <String Target="跳过IE首次运行自定义设置（by 原罪、恋人の共鸣）" Link="Previeni l'avvio della procedura guidata (by YZ, Lovers vibes)"/>
 
-    <String q="" Target="不保存附件的区域信息（by 古畑任三郎）" Link="Regional information does not save attachments (by niphor)"/>
+    <String Target="不保存附件的区域信息（by 古畑任三郎）" Link="Informazioni Area Geografica non salva allegati (by niphor)"/>
 
     <String Target="启用增强保护模式" Link="Attiva Modalità Protetta Avanzata"/>
 
-    <String Target="针对增强保护模式启用64位进程" Link="Attiva rpocesso 64-bit per la Modalità Protetta Avanzata"/>
+    <String Target="针对增强保护模式启用64位进程" Link="Attiva processo 64-bit per la Modalità Protetta Avanzata"/>
 
-    <String q="" Target="隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）" Link="Hide Feedback smiley in Internet Explorer (by ITHome)"/>
+    <String Target="隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）" Link="Nascondi manda Feedback in Internet Explorer (by ITHome)"/>
 
     <!--Microsoft Edge-->
-    <String q="" Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Prevent Microsoft Edge from opening &quot;First Running&quot; (by ITHome)"/>
+    <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Previeni apertura Microsoft Edge &quot;Primo avvio&quot; (by ITHome)"/>
 
-    <String q="" Target="关闭Adobe Flash即点即用" Link="Disable Adobe Flash right click"/>
-      <String q="" Target="此选项将降低计算机安全性，增加Adobe Flash的安全隐患！" Link="This item will reduce the computer security."/>
+    <String Target="关闭Adobe Flash即点即用" Link="Disattiva Adobe Flash click destro"/>
+    <String Target="此选项将降低计算机安全性，增加Adobe Flash的安全隐患！" Link="Questo oggetto riduce la sicurezza del computer."/>
 
     <!--微软拼音输入法-->
     <String q="" Target="微软拼音输入法" Link="Microsoft Pinyin IME"/>
     <String Target="微软拼音默认为英语输入（by Rambin）" Link="Modalità IME predefinita per Inglese (by Rambin)"/>
 
-    <String Target="关闭微软拼音云计算（by Rambin）" Link="Attiva Cloud input method (by Rambin)"/>
+    <String Target="关闭微软拼音云计算（by Rambin）" Link="Disattiva metodo input Cloud (by Rambin)"/>
 
     <!--Windows Update-->
     <String Target="自动安装无需重启的更新（by Rambin）" Link="Consenti installazione immediata degli Aggiornamenti Automatici (by Rambin)"/>
@@ -917,10 +916,10 @@ Special Thanks to Massimiliano F.
     <String Target="Windows更新不包括驱动程序" Link="Windows Update non include i driver"/>
 
     <String Target="*将Windows Update自动更新调整为" Link="*Regola le impostazioni di Windows Update per gli aggiornamenti"/>
-      <String Target="从不检查（不推荐）" Link="Non controllare (non raccomandato)"/>
-      <String Target="仅检查更新" Link="Controlla solo"/>
-      <String Target="检查并下载更新" Link="Controlla e scarica"/>
-      <String Target="自动安装更新（推荐）" Link="Auto Installa(raccomandato)"/>
+    <String Target="从不检查（不推荐）" Link="Non controllare (non raccomandato)"/>
+    <String Target="仅检查更新" Link="Controlla solo"/>
+    <String Target="检查并下载更新" Link="Controlla e scarica"/>
+    <String Target="自动安装更新（推荐）" Link="Auto Installa(raccomandato)"/>
 
     <String Target="禁止自动更新到Internet Explorer 9" Link="Disattiva aggiornamento automatico di Internet Explorer 9"/>
 
@@ -939,11 +938,11 @@ Special Thanks to Massimiliano F.
     <String Target="*关闭默认共享（by 518516.net）" Link="*Disattiva condivisione predefinita (by 518516.net)"/>
 
     <String Target="*关闭防火墙（by 一叶微风TM）" Link="*Disattiva Windows Firewall (by YiYieWeiFeng TM)"/>
-      <String Target="此选项将降低计算机安全性，请确保你已经安装第三方防火墙软件！" Link="Questa selezione comporta dei rischi di sicurezza nel computer! Assicurati di avere installato un firewall di terze parti!"/>
+    <String Target="此选项将降低计算机安全性，请确保你已经安装第三方防火墙软件！" Link="Questa selezione comporta dei rischi di sicurezza nel computer! Assicurati di avere installato un firewall di terze parti!"/>
 
     <String Target="*关闭远程协助（by 原罪）" Link="*Non consentire connessioni di Assistenza Remota (by YZ)"/>
 
-    <String q="" Target="*禁用SMB1网络协议（by MS-PC2）" Link="*Disallow SMB1 network protocol (by MS-PC2)"/>
+    <String Target="*禁用SMB1网络协议（by MS-PC2）" Link="*Disattiva SMB1 protocollo di rete (by MS-PC2)"/>
 
     <!--服务优化-->
     <String Target="服务优化" Link="Servizi"/>
@@ -954,24 +953,24 @@ Special Thanks to Massimiliano F.
     <String Target="禁用诊断服务" Link="Disattiva Servizio di Diagnostica"/>
 
     <String Target="禁用IPv6转换服务" Link="Disattiva IP Helper"/>
-      <String Target="禁用此服务将导致IPv6无法正常使用，请确保你不需要使用IPv6！" Link="Disattiva questo servizio IPv6 non funzionerà più come previsto. Assicurarsi di non aver bisogno di utilizzare IPv6!"/>
+    <String Target="禁用此服务将导致IPv6无法正常使用，请确保你不需要使用IPv6！" Link="Disattiva questo servizio IPv6 non funzionerà più come previsto. Assicurarsi di non aver bisogno di utilizzare IPv6!"/>
 
     <String Target="禁用Windows Search" Link="Disattiva Windows Search"/>
-      <String Target="禁用此服务将导致搜索文件变慢，并且某些Windows Store应用可能无法正常使用！" Link="Disattivando il servizio, le ricerche dei file saranno più lente. E alcune App di Windows Store non funzioneranno correttamente!"/>
+    <String Target="禁用此服务将导致搜索文件变慢，并且某些Windows Store应用可能无法正常使用！" Link="Disattivando il servizio, le ricerche dei file saranno più lente. E alcune App di Windows Store non funzioneranno correttamente!"/>
 
     <String Target="禁用错误报告" Link="Disattiva Segnalazione Errori di Windows"/>
 
     <String Target="禁用家庭组" Link="Disattiva Gruppo Home"/>
 
     <String Target="禁用Windows Defender（by Windows 10优化辅助工具）" Link="Disativa Windows Defender (by Windows 10 optimization aids)"/>
-      <String Target="关闭Windows Defender后可提高计算机响应速度，但是也将增加电脑被攻击的几率！" Link="Disattivando Windows Defender si velocizza il computer, però aumentano le possibilità che il computer possa essere attaccato da virus! Assicurati di avere installato un antivirus di terze parti"/>
+    <String Target="关闭Windows Defender后可提高计算机响应速度，但是也将增加电脑被攻击的几率！" Link="Disattivando Windows Defender si velocizza il computer, però aumentano le possibilità che il computer possa essere attaccato da virus! Assicurati di avere installato un antivirus di terze parti"/>
 
     <String Target="禁用客户体验改善计划（by Windows 10优化辅助工具）" Link="Disattiva Programma Miglioramento Esperienza Utente (by Windows 10 optimization aids)"/>
 
     <String Target="禁用NTFS链接跟踪服务（by 某宅）" Link="Disattiva NTFS Link Tracking (by Stotaku)"/>
 
     <String Target="禁止自动维护计划（by Lux ferre）" Link="Disattiva Attività Manutenzione Automatica (by Lux ferre)"/>
-      <String Target="禁用后系统将无法使用文件预读等功能，这可能导致系统性能下降！" Link="Il sistema non potrà utilizzare le funzioni come file prefetching se si disabilita. Potrebbe causare un degrado delle prestazioni."/>
+    <String Target="禁用后系统将无法使用文件预读等功能，这可能导致系统性能下降！" Link="Il sistema non potrà utilizzare le funzioni come file prefetching se si disabilita. Potrebbe causare un degrado delle prestazioni."/>
 
     <!--WinRAR-->
     <String Target="锁定WinRAR工具栏（by 原罪）" Link="Blocca barra strumenti di WinRAR (by YZ)"/>
@@ -985,20 +984,20 @@ Special Thanks to Massimiliano F.
     <String Target="*隐藏Windows 10升级助手GWX" Link="*Nascondi Assistente per l'Aggiornamento a Windows 10 (GWX)"/>
 
     <String Target="关闭OneDrive（by Rambin）" Link="Disattiva OneDrive (by Rambin)"/>
-      <String Target="禁用OneDrive将导致某些Windows Store应用无法使用OneDrive存储。" Link="Disattivando OneDrive le app di Windows Store non potranno utilizzare lo spazio di archiviazione su OneDrive."/>
+    <String Target="禁用OneDrive将导致某些Windows Store应用无法使用OneDrive存储。" Link="Disattivando OneDrive le app di Windows Store non potranno utilizzare lo spazio di archiviazione su OneDrive."/>
 
     <String Target="*VHD启动时不要将VHD动态文件扩展到最大（以节省空间）" Link="*Previeni dimensione del file espanso al massimo quando si avvia dal file VHD dinamico"/>
-      <String Target="此选项可能降低VHD文件性能。" Link="Questa opzione riduce le prestazioni del file VHD."/>
+    <String Target="此选项可能降低VHD文件性能。" Link="Questa opzione riduce le prestazioni del file VHD."/>
 
     <String Target="*隐藏某些SATA硬盘任务栏图标（by 原罪）" Link="*Nascondi icona su alcuni dischi SATA (by YZ)"/>
 
     <String Target="蓝屏时自动重启（by 原罪）" Link="Riavvio automatico in caso di crash (by YZ)"/>
 
     <String Target="关闭快速启动" Link="Disattiva Avvio Rapido"/>
-      <String Target="关闭快速启动将导致系统启动速度变慢！" Link="Disattivando avvio rapido il tempo di avvio del computer sarà più lungo."/>
+    <String Target="关闭快速启动将导致系统启动速度变慢！" Link="Disattivando avvio rapido il tempo di avvio del computer sarà più lungo."/>
 
-    <String q="" Target="关闭休眠（by powerxing04）" Link="Disable Hibernate ( by powerxing04 )"/>
-      <String q="" Target="关闭休眠后将导致快速启动以及混合休眠不可用，这样将增加断电丢失数据的风险！" Link="Will result in Hiberboot and Hybrid Hibernation not available!"/>
+    <String Target="关闭休眠（by powerxing04）" Link="Disattiva Ibernazione ( by powerxing04 )"/>
+    <String Target="关闭休眠后将导致快速启动以及混合休眠不可用，这样将增加断电丢失数据的风险！" Link="Avvio rapido e Ibernazione ibrida non saranno disponibili!"/>
 
     <String Target="禁用组件堆栈（Component Based Servicing）日志" Link="Disattiva log Component Based Servicing"/>
 
@@ -1007,16 +1006,16 @@ Special Thanks to Massimiliano F.
     <String Target="禁用系统日志（by Windows 10优化辅助工具）" Link="Disattiva log di sistema (by Windows 10 optimization aids)"/>
 
     <String Target="崩溃时写入调试信息" Link="Scrivi informazioni di debug quando il sistema va in crash"/>
-      <String Target="无" Link="Nessuno"/>
-      <String Target="小内存转储（256KB）" Link="Mini Memory dump (256KB)"/>
-      <String Target="核心内存转储" Link="Core memory dump"/>
+    <String Target="无" Link="Nessuno"/>
+    <String Target="小内存转储（256KB）" Link="Mini Memory dump (256KB)"/>
+    <String Target="核心内存转储" Link="Core memory dump"/>
 
     <String Target="Windows 照片查看器" Link="Visualizzatore Foto di Windows"/>
     <String Target="Windows主题相关设置" Link="Impostazione Temi Windows"/>
     <String Target="任务栏相关设置" Link="Impostazioni Barra Applicazioni"/>
     <String Target="关闭商店应用推广（by 、Cloud.）" Link="Disattiva app promozionali di Windows Store (by 、Cloud.)"/>
     <String Target="关闭多嘴的小娜（by 朽木）" Link="Disattiva Cortana (by XiuMu)"/>
-    <String q="" Target="显示首次登录动画（by intionwun &amp; 组策略编辑器）" Link="Show-Enable First Logon Animation (by intionwun &amp; Group Policy Editor)"/>
+    <String Target="显示首次登录动画（by intionwun &amp; 组策略编辑器）" Link="Mostra Animazione Primo Login (by intionwun &amp; Group Policy Editor)"/>
     <String Target="关闭游戏录制工具（by 、Cloud.）" Link="Disattiva registrazione giochi (by 、Cloud.)"/>
     <String Target="启用 Windows 照片查看器（by 心之所向）" Link="Attiva Visualizzatore Foto di Windows (by XingZhiSuoXiang)"/>
     <String Target="安全相关设置" Link="Impostazioni Sicurezza"/>
@@ -1043,13 +1042,13 @@ Special Thanks to Massimiliano F.
     <String Target="Windows 7体验" Link="Windows 7 Experience"/>
     <String Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Windows Update non include Strumenti di rimozione malware (by Winaero)"/>
     <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Cambia &quot;Click destro del mouse&quot; con Windows 7 (by Silence)"/>
-    <String Target="登录界面默认打开小键盘（by IT之家）" Link="EAttiva la tastiera virtuale durante l'accesso (by IT House)"/>
+    <String Target="登录界面默认打开小键盘（by IT之家）" Link="Attiva la tastiera virtuale durante l'accesso (by IT House)"/>
     <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Disattiva Backup CBS (Component Based Servicing)"/>
-    <String q="" Target="任务栏时钟精确到秒（by Luupw3d）" Link="Taskbar clock did display seconds (by Luupw3d)"/>
+    <String Target="任务栏时钟精确到秒（by Luupw3d）" Link="Orologio mostra i secondi (by Luupw3d)"/>
 
-    <String q="" Target="禁用WfpDiag.ETL日志（by powerxing04）" Link="Disable WfpDiag ETL log (by powerxing04)"/>
-    <String q="" Target="禁用文件夹的“包含到库中”右键菜单（by choyri）" Link="Disable &quot;Included in the library&quot; context menu on directory (by choyri)"/>
-    <String q="" Target="禁用桌面的“NVIDIA 控制面板”右键菜单（by choyri）" Link="Disable &quot;NVIDIA Control Panel&quot; context menu on desktop (by choyri)"/>
+    <String Target="禁用WfpDiag.ETL日志（by powerxing04）" Link="Disattiva log WfpDiag ETL (by powerxing04)"/>
+    <String Target="禁用文件夹的“包含到库中”右键菜单（by choyri）" Link="Disattiva menu &quot;Includi nella Raccolta&quot; in directory (by choyri)"/>
+    <String Target="禁用桌面的“NVIDIA 控制面板”右键菜单（by choyri）" Link="Disattiva menu &quot;NVIDIA Control Panel&quot; in desktop (by choyri)"/>
     <!--系统优化已经结束-->
 
     <!--Dism++更新程序-->
@@ -1175,9 +1174,9 @@ Special Thanks to Massimiliano F.
     <String Target="Windows临时安装文件" Link="File di Installazione Temporanei di Windows"/>
     <String Target="在系统升级或者还原后留下的系统临时安装文件，如果你确定当前没有进行系统升级或者还原，那么可以安全删除。" Link="Quando il sistema viene aggiornato o ripristinato, il sistema crea un backup. Se sei sicuro di non dover più aggiornare il sistema, puoi cancellare il backup."/>
 
-    <String q="" Target="IDM临时文件（by MS-PC2）" Link="Internet Download Manager temporary files (by MS-PC2)"/>
-    <String q="" Target="Internet Download Manager临时下载文件。" Link="Temporary download files left by Internet Download Manager temporary files."/>
-    <String q="" Target="清理IDM临时文件可能导致正在下载的任务需要重新下载！" Link="Cleaning up IDM temporary files may cause the task being downloaded to be re-downloaded!"/>
+    <String Target="IDM临时文件（by MS-PC2）" Link="Internet Download Manager files temporanei (by MS-PC2)"/>
+    <String Target="Internet Download Manager临时下载文件。" Link="File di download temporanei lasciati da Internet Download Manager."/>
+    <String Target="清理IDM临时文件可能导致正在下载的任务需要重新下载！" Link="Pulire file temporanei di IDM may può causare la perdita dei download in corso, dovrai Riscaricarli!"/>
 
     <String Target="QQ临时数据" Link="File temporanei Tencent QQ"/>
     <String Target="QQ运行时产生的临时文件还有日志，不影响QQ消息记录，建议定期删除。" Link="Quando QQ è avviato, QQ crea dei file log temporanei. E' raccomandato eliminarli regolarmente."/>
@@ -1401,7 +1400,7 @@ Special Thanks to Massimiliano F.
     <xA0020006>Il sistema attuale non ha il supporto Wow64, impossibile gestire un sistema non 64bit offline.</xA0020006>
     <xA0020007>Il file richiesto CBSHost.dllnon esiste. Assicurati dell'integrità di Dism++.</xA0020007>
     <xA0020008>rundll32.exe mancante. Dism++ non può essere avviato.</xA0020008>
-    <xA0020009 q="">Dism++ session crashed. you can contact (mingkuang@live. com) to help resolve this issue.</xA0020009>
+    <xA0020009>Dism++ sessione in crash. puoi contattare (mingkuang@live. com) per aiutare a risolvere questo problemae.</xA0020009>
     <xA002000A>Dism++ ha rilevato alcuni problemi di compatibilità. Installare la patch KB960037, quindi continuare.</xA002000A>
 
     <x20020001>Nessuna configurazione predefinita nell'immagine attuale. Imposibile esportare.</x20020001>
@@ -1475,13 +1474,14 @@ Special Thanks to Massimiliano F.
     <xC144013A>Unsupported operation. Check that the OS image at the specified path to be captured is WIMBoot supported.</xC144013A>
     <xC144013B>Unsupported operation. Check that the OS you are running contains a wof driver (wof.sys).</xC144013B>
   </MessageTable>
-  <UserAgreement>Accordo per gli utenti
+  <UserAgreement>
+    Accordo per gli utenti
 
     Chuyu team strongly recommends every user to read the following user agreement (hereinafter referred to as "agreement", or "this agreement") carefully before using Dism++. Anyone chooses not to comply with or fail to understand the intended meaning of the agreement should not be allowed, nor be granted the right granted by Chuyu team to use Dism++. Anyone who uses Dism++ is considered to agree with the following agreement, and to comply with the content of this agreement.
 
     This agreement defines the rights and obligations between Dism++ users of "Dism++" software service (hereinafter referred to as "service", or "this service") and Chuyu team. "Users", and "Dism++ users" refer to individuals who register, login, or utilize this service. This agreement is subject to updates from Chuyu team at any possible moment. Updated agreement, once published in any format, replaces the original agreement. Dism++ should display the updated agreement when the software properly initiates. Dism++ users must stop using this software and the services fom Chuyu team immediately if they choose not to comply with the updated agreement.
 
-I. Diritti e doveri
+    I. Diritti e doveri
 
     1. Dism++ users can only use Dism++ for personal use in their PC(s). Any non-personal use (including but not limited to commercial or occupational use) without written approval from Chuyu team is not allowed.
     2. Dism++ users must read this agreement and other content in the document of Dism++ carefully before using Dism++.
@@ -1491,34 +1491,34 @@ I. Diritti e doveri
     6. Anyone who fails to comply with this agreement automatically loses any right granted by Chuyu team. Chuyu team retain right to stop all software of Chuyu team in their PC(s), to reject any of their proposal(s), and to persue legal actions gainst them.
     7. Chuyu team will try their best to provide technical support for those who comply with this agreement, when all of the following factors permit: the complexity of issue, the availability of Chuyu team, and the other users' vote.
 
-II. Problemi di privacy
+    II. Problemi di privacy
 
     1. After initialisation, Dism++ will collect Dism++ users' system information (including but not restricted to the system version, system structure, system language, CPU information, RAM information), and Dism++'s own report (including but not restricted to the system crash dump and log files) to improve the service. Dism++ will not collect user identification information nor user's contact information.
     2. Chuyu team may send users invitations for testing Dism++, invitations for voting to help Chuyu team's decisioning, and software updates, but Chuyu team will never send messages that include but not limited to advertisements, promotions, frauds, or request for payment.
 
-III. Conosci i rischi
+    III. Conosci i rischi
 
     1. Chuyu team have an open-type attitude so everyone can let Dism++ better. Some functions may lead unknown aftermath so Chuyu team will remove the possible risk and tell the users. But we didn't solve all the issue. You must bear all the aftermath yourself. Please tell Chuyu team after you find some problems to prevent others have the problems.
     2. Please understand and agree because our softwares need to develop. Chuyu team persists the rights to change or pause or end or revoke all or some service. The users need to bear this danger.
 
-IV. Dichiarazione sui diritti di proprietà intellettuale
+    IV. Dichiarazione sui diritti di proprietà intellettuale
 
     1. Chuyu team has all the intellectual property rights of this-service content (including but not limited to program, webpage, text and so on)
     2. If no important clauses, Chuyu team has all the intellectual property rights.
     3. If Chuyu team didn't consent in writing, the users cannot process Chuyu softwares anyway. Cannot tell others have the rights to proces Chuyu softwares.
     4. Above and other intellectual property rights of Chuyu team are protected by law. If Chuyu team didn't allow you, you cannot disassemble or do others.
 
-V. Responsabilità legale
+    V. Responsabilità legale
 
     1. If Chuyu team sees someone report some users breached this agreement, Chuyu team have the rights to ban the users to use Chuyu softwares without informing.
     2. Please understand and agree. Chuyu team has the rights to reasonably penalize the violation behavior with law.
     3. Please understand and agree. If the users breach this agreement lead third party arise the claim (including the reasonable money to lawyer). The users must compensate for Chuyu team.
 
-VI. Altri
+    VI. Altri
 
     1. Chuyu team solemnly tells the users to notice the clauses of exempt the responsibility of Chuyu team and the rights of limit the users. Minors should read this agreement with the legal guardians.
     2. The agreement validity and explanation apply in Chinese law. If the users and Chuyu team have disputes, negotiated settlement first. If it's failed, please agree to report the having-jurisdiction people's court to administer.
     3. If the agreement clauses be invalid or not executable because of whatever reason, the other clauses are still valid. Binding upon Both.
     4. The user agreement written in Chinese-simplified should be referred to if the Chinese-simplified version differs from user agreements written in other languages.
-</UserAgreement>
+  </UserAgreement>
 </Data>
