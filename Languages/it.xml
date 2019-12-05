@@ -828,8 +828,8 @@ Special Thanks to Massimiliano F. and Jumy
     <String Target="默认（推荐）" Link="Default"/>
     <String Target="高质量（更清晰）" Link="Alta(Qualità)"/>
 
-    <String Target="关闭视频文件预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Disttiva anteprima file video per migliorare il tempo di risposta di Windows Explorer (by MoWangMoShi)"/>
-    <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Disttiva anteprima file audio per migliorare il tempo di risposta di Windows Explorer (by MoWangMoShi)"/>
+    <String Target="关闭视频文件预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Disattiva anteprima file video per migliorare il tempo di risposta di Windows Explorer (by MoWangMoShi)"/>
+    <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Disattiva anteprima file audio per migliorare il tempo di risposta di Windows Explorer (by MoWangMoShi)"/>
     <String Target="关闭打开程序的“安全警告”（by 莫失莫忘）" Link="Disattiva avviso di sicurezza quando si aprono alcuni programmi (by MoWangMoShi) "/>
     <String Target="关闭在应用商店中查找关联应用（by Asoft）" Link="Disattiva ricerca per le applicazioni associate in Windows Store (by Asoft)"/>
     <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="Nascondi Oggetti 3D, Desktop, Documenti, Download, Immagini, Musica, Video in Questo PC (by 、Cloud)"/>
