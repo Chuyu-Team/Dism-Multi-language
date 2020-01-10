@@ -5522,7 +5522,7 @@
           <True>
             <Activate>
               <RegMove Key="HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\WorkFolders" NewKey="HKEY_CLASSES_ROOT\*\-shellex\ContextMenuHandlers\WorkFolders" SkipError="2"/>
-              <RegMove Key="HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\WorkFolders" NewKey="HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\WorkFolders" SkipError="2"/>
+              <RegMove Key="HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\WorkFolders" NewKey="HKEY_CLASSES_ROOT\Directory\-shellex\ContextMenuHandlers\WorkFolders" SkipError="2"/>
               <RegMove Key="HKEY_CLASSES_ROOT\Directory\background\shellex\ContextMenuHandlers\WorkFolders" NewKey="HKEY_CLASSES_ROOT\Directory\background\-shellex\ContextMenuHandlers\WorkFolders" SkipError="2"/>
               <RegMove Key="HKEY_CLASSES_ROOT\AllFilesystemObjects\shell\LaunchWorkfoldersControl" NewKey="HKEY_CLASSES_ROOT\AllFilesystemObjects\-shell\LaunchWorkfoldersControl" SkipError="2"/>
             </Activate>
@@ -5530,7 +5530,7 @@
           <False>
             <Activate>
               <RegMove NewKey="HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\WorkFolders" Key="HKEY_CLASSES_ROOT\*\-shellex\ContextMenuHandlers\WorkFolders" SkipError="2"/>
-              <RegMove NewKey="HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\WorkFolders" Key="HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\WorkFolders" SkipError="2"/>
+              <RegMove NewKey="HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\WorkFolders" Key="HKEY_CLASSES_ROOT\Directory\-shellex\ContextMenuHandlers\WorkFolders" SkipError="2"/>
               <RegMove NewKey="HKEY_CLASSES_ROOT\Directory\background\shellex\ContextMenuHandlers\WorkFolders" Key="HKEY_CLASSES_ROOT\Directory\background\-shellex\ContextMenuHandlers\WorkFolders" SkipError="2"/>
               <RegMove NewKey="HKEY_CLASSES_ROOT\AllFilesystemObjects\shell\LaunchWorkfoldersControl" Key="HKEY_CLASSES_ROOT\AllFilesystemObjects\-shell\LaunchWorkfoldersControl" SkipError="2"/>
             </Activate>
