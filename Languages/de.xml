@@ -1037,6 +1037,7 @@ Special Thanks to franz@drwindows.de
     <String Target="禁用账号登录日志报告（by 溯汐潮）" Link="Aufzeichnung der Benutzeranmeldung deaktiveren(by Hell Cabrite)"/>
     <String Target="遇到弹出窗口时始终在新选项卡中打开弹出窗口（by 溯汐潮）" Link="Popups immer in neuem Tab anzeigen(by Hell Cabrite)"/>
     <String Target="锁定Internet Explorer工具栏（by 溯汐潮）" Link="Internet Explorer Toolbar sperren (by Hell Cabrite)"/>
+    <String Target="shift右击时显示在此处打开命令窗口（by sandtechnology）" Link="CMD im erweiterten Shift-Kontextmenü anzeigen（by sandtechnology）"/>
     <String Target="隐藏NTFS蓝色双箭头压缩标识（by IT之家）" Link="Blauer-Doppelpfeil für NTFS-Komprimierung im Icon verstecken (by IT Home)"/>
     <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="Hilfe-Button in der Sprach-Anzeige verstecken (by Hell Cabrite)"/>
     <String Target="Windows 7体验" Link="Windows 7 Leistungsindex"/>
