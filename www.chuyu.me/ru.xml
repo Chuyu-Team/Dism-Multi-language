@@ -1,36 +1,36 @@
 <Strings>
   <String Src="%lang%" Dst="ru"/>
-  <String Src="%description%" Dst="Chuyu Dism++ это графический интерфейс для утилиты Dism от Microsoft. С её помощью можно встраивать обновления и драйверы, очищать WinSxS и Кэш Пакетов, изменять образы ОС и ускорять развёртывание Windows."/>
+  <String Src="%description%" Dst="Chuyu Dism++ - это графическая версия инструмента DISM от Microsoft. С её помощью можно интегрировать обновления и драйверы, очищать  папки WinSxS и Package Cache, настраивать образы ОС и ускорять процесс развертывания Windows."/>
   <String Src="%keywords%" Dst="Dism++,Dism GUI,Очистка WinSxS,Средство очистки обновлений Windows,Очистка системы,Очистка обновлений Windows,vista,win7,win8,win8.1,win10,Chuyu,dism,Интеграция обновлений,Windows"/>
   <String Src="%title%" Dst="Dism++ | Новая утилита для Windows"/>
-  <String Src="%String1%" Dst="Dism++ — самая продвинутая нишевая утилита"/>
-  <String Src="%String2%" Dst="Первый в мире GUI для DISM, основанный на CBS!"/>
-  <String Src="%WhatsnewVersion%" Dst="Свежайшая версия:"/>
+  <String Src="%String1%" Dst="Dism++ наверное, самая мощная утилита"/>
+  <String Src="%String2%" Dst="Первая в мире реализация графического интерфейса DISM на базе CBS!"/>
+  <String Src="%WhatsnewVersion%" Dst="Последняя версия:"/>
   <String Src="%64Bit%" Dst="Dism++ x64"/>
   <String Src="%32Bit%" Dst="Dism++ x86"/>
-  <String Src="%Full%" Dst="Dism++ Full(x86/x64)"/>
-  <String Src="%SupportSystem%" Dst="Совместима с Windows Vista/7/8/8.1/10"/>
+  <String Src="%Full%" Dst="Dism++ Full (x86/x64)"/>
+  <String Src="%SupportSystem%" Dst="Совместимо с Windows Vista/7/8/8.1/10"/>
   <String Src="%AboutDism++%" Dst="О Dism++"/>
-  <String Src="%AboutDism++Des%" Dst="Dism++ можно считать GUI, графической оболочкой для DISM. Но на самом деле, в основе лежит низкоуровневый интерфейс Component Based Servicing (CBS), на который опирается сам DISM API, и его DISM Core API."/>
+  <String Src="%AboutDism++Des%" Dst="Dism++ можно рассматривать как графический интерфейс для DISM. но он основан на низкоуровневом интерфейсе Component Based Servicing (CBS) вместо DISM API или DISM Core API"/>
   <String Src="%OpenSourceStr%" Dst="Открытый исходный код — не только идеология, но и великая сила. Заходите к нам на &lt;span onclick=&quot;window.location.href='https://github.com/Chuyu-Team'&quot; style=&quot;color:blue;cursor:pointer&quot;>Github&lt;/span>."/>
-  <String Src="%SxSClean%" Dst="Чистка WinSxS"/>
-  <String Src="%SxSCleanDes%" Dst="Больше не надо беспокоиться о съедаемом месте после установки обновлений!"/>
+  <String Src="%SxSClean%" Dst="Очистка WinSxS"/>
+  <String Src="%SxSCleanDes%" Dst="Больше не нужно беспокоиться о свободном месте на диске при установке обновлений!"/>
   <String Src="%CompactOS%" Dst="CompactOS"/>
-  <String Src="%CompactOSDes%" Dst="Вырвите 33% занимаемого места у вашей ОС. Без обрезания и выкидывания компонентов."/>
+  <String Src="%CompactOSDes%" Dst="Сокращение не менее 33% используемого пространства без оптимизации образа ОС."/>
   <String Src="%EsdSupport%" Dst="Поддержка ESD"/>
-  <String Src="%EsdSupportDes%" Dst="Сконвертируем ESD в ISO за вас, в автоматическом режиме."/>
+  <String Src="%EsdSupportDes%" Dst="Больше не нужно беспокоиться о преобразовании ESD в ISO."/>
   <String Src="%WindowsUpdate%" Dst="Обновления Windows"/>
-  <String Src="%WindowsUpdateDes%" Dst="Отметьте нужные обновления, остальное сделаем мы."/>
-  <String Src="%SystemRecover%" Dst="Резервные копии и Восстановление"/>
-  <String Src="%SystemRecoverDes%" Dst="Сохраняте и восстанавливайте систему БЕЗ Windows PE"/>  
-  <String Src="%Green%" Dst="Истиный Portable"/>
-  <String Src="%GreenDes%" Dst="БЕСПЛАТНО, БЕЗ РЕКЛАМЫ, БЕЗ ЗОНДОВ."/>
+  <String Src="%WindowsUpdateDes%" Dst="Выбирайте обновления, не беспокоясь за их установку."/>
+  <String Src="%SystemRecover%" Dst="Резервные копии и восстановление"/>
+  <String Src="%SystemRecoverDes%" Dst="Резервное копирование или восстановление Вашей системы без использования Windows PE"/>  
+  <String Src="%Green%" Dst="Действительно портативный"/>
+  <String Src="%GreenDes%" Dst="БЕСПЛАТНО, БЕЗ РЕКЛАМЫ И ШПИОНСКИХ ПРОГРАММ."/>
   <String Src="%AboutChuyu%" Dst="О команде Chuyu"/>
-  <String Src="%AboutChuyuDes%" Dst="У нас возникла необходимость в лёгкой, удобной простой утилите без мусора и раздражающих моментов. Увы, мы не смогли найти ничего подобного. Но мы не сдались, мы осознали, что можем воплотить мечту собственными руками. Так родился Dism++: компактная утилита, не требующая денег, построенная на упорстве и увлечённости."/>
+  <String Src="%AboutChuyuDes%" Dst="Мы очень одержимы поиском инструмента, который является легким, простым в использовании, несложным и без мусора. Увы, мы не смогли его найти, но не сдались, так как осуществили такую мечту своими руками, сделав Dism++ - небольшой инструмент, который является некоммерческим и построен на чистом упорстве и энтузиазме."/>
   <String Src="%QQ%" Dst="Группа в QQ"/>
   <String Src="%E-Mail%" Dst="E-mail"/>
   <String Src="%Links%" Dst="Ссылки"/>
-  <String Src="%WinOS%" Dst="Сборочки на WINOS"/>
+  <String Src="%WinOS%" Dst="Легкая система WINOS"/>
   <String Src="%GTWang%" Dst=""/>
   <String Src="%NM%" Dst=""/>
   <String Src="%qcyb%" Dst=""/>
@@ -39,6 +39,6 @@
   <String Src="%ICP%" Dst=""/>
   <String Src="%Document%" Dst="Документация по Dism++"/>
   <String Src="%logs%" Dst="Список изменений"/>
-  <String Src="%wsuscan2%" Dst="&quot;wsusscn2.cab&quot; — оффлайновая база обновлений Windows, используемая Dism++. Вы можете его заменить свежей версией вручную &quot;Config\wsusscn2.cab&quot;."/>
-  <String Src="%DownloadDism%" Dst="Загрузить Dism++ x86/x64/ARM64"/>
+  <String Src="%wsuscan2%" Dst="&quot;wsusscn2.cab&quot; — оффлайн база обновлений Windows, используемая Dism++. Вы можете просто перезаписать файл &quot;Config\wsusscn2.cab&quot; для обновления базы."/>
+  <String Src="%DownloadDism%" Dst="Скачать Dism++ x86/x64/ARM64"/>
 </Strings>
