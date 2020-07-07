@@ -683,6 +683,20 @@
       </Scan>
     </Item>
 
+<Item Name="#Windows Defender保护历史记录" Level="2">
+      <Description>#Windows Defender保护历史记录存放了Windows Defender日志，日志过多会导致打开保护历史记录记录闪退</Description>
+      <Warning>#清理后无法还原被隔离文件</Warning>
+      <Group>#应用程序</Group>
+      <Scan>
+        <Applicable>
+          <FileExist FilePath="%ProgramData%\Microsoft\Windows Defender\Scans\History"/>
+        </Applicable>
+        <Activate>
+          <General RootPath="%ProgramData%\Microsoft\Windows Defender\Scans\History"/>
+        </Activate>
+      </Scan>
+    </Item>
+
     <Item Name="#WebPI缓存" Level="2">
       <Description>#Web平台安装程序的缓存</Description>
       <Group>#应用程序</Group>
