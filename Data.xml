@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--此文件用于保存程序的清理规则-->
 <Data>
   <CleanCollection4>
@@ -48,7 +48,22 @@
         </Scan>
       </ScanCollection>
     </Item>
-
+    
+    <Item Name="#OneDrive临时文件">
+      <Description>#OneDrive在安装、运行、更新过程中产生的临时文件。</Description>
+      <Group>#临时文件</Group>
+      <Scan>
+        <Activate>
+          <General RootPath="%SystemRoot%\SysWOW64\OneDriveSetup.exe"/>
+          <General RootPath="%SystemDrive%\OneDriveTemp"/>
+          <General RootPath="%LocalAppData%\Microsoft\OneDrive\logs"/>
+          <General RootPath="%LocalAppData%\Microsoft\OneDrive\setup"/>
+          <General RootPath="%LocalAppData%\Microsoft\OneDrive\StandaloneUpdater"/>
+          <General RootPath="%LocalAppData%\Microsoft\OneDrive\Update"/>
+        </Activate>
+      </Scan>
+    </Item>
+    
     <Item Name="#以前的Windows系统" Level="2">
       <Description>#在系统升级或者还原后留下的系统备份。</Description>
       <Warning>#删除后你将无法回滚到以前安装的系统。</Warning>
