@@ -2558,7 +2558,7 @@
         </Default>
       </Item>
 
-      <Item Type="CheckBox" Name="#关闭锁屏时的Windows 聚焦推广（by 、Cloud.）">
+      <Item Type="CheckBox" Name="#关闭锁屏时的Windows 聚焦推广（by Asurada）">
         <Applicable>
           <OSVersion Compare=">=">10.0</OSVersion>
         </Applicable>
@@ -2567,20 +2567,20 @@
             <Applicable>
               <Or>
                 <Not>
-                  <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable"/>
+                  <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SubscribedContent-338387Enabled"/>
                 </Not>
-                <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable" Type="REG_DWORD" Data="0"/>
+                <RegExist Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SubscribedContent-338387Enabled" Type="REG_DWORD" Data="0"/>
               </Or>
             </Applicable>
           </State>
           <True>
             <Activate>
-              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable" Type="REG_DWORD" Data="0"/>
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SubscribedContent-338387Enabled" Type="REG_DWORD" Data="0"/>
             </Activate>
           </True>
           <False>
             <Activate>
-              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable" Type="REG_DWORD" Data="1"/>
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SubscribedContent-338387Enabled" Type="REG_DWORD" Data="1"/>
             </Activate>
           </False>
         </Current>
@@ -2590,20 +2590,20 @@
             <Applicable>
               <Or>
                 <Not>
-                  <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable"/>
+                  <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SubscribedContent-338387Enabled"/>
                 </Not>
-                <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable" Type="REG_DWORD" Data="0"/>
+                <RegExist Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SubscribedContent-338387Enabled" Type="REG_DWORD" Data="0"/>
               </Or>
             </Applicable>
           </State>
           <True>
             <Activate>
-              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable" Type="REG_DWORD" Data="0"/>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SubscribedContent-338387Enabled" Type="REG_DWORD" Data="0"/>
             </Activate>
           </True>
           <False>
             <Activate>
-              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="RotatingLockScreenEnable" Type="REG_DWORD" Data="1"/>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" Value="SubscribedContent-338387Enabled" Type="REG_DWORD" Data="1"/>
             </Activate>
           </False>
         </Default>
