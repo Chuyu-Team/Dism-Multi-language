@@ -242,7 +242,7 @@ Special Thanks to franz@drwindows.de
     <String Target="正在修复挂载映像" Link="Image wird neu eingebunden"/>
     <String Target="正在取消现有任务，请稍等……" Link="Der Vorgang wird abgebrochen, bitte warten ..."/>
     <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="Das eingebundene Image %s  ist beschädigt und muß zuerst repariert werden. Wollen Sie das Image jetzt reparieren?"/>
-    <String Target="即将重启以下程序 %s，你确定要继续吗？" Link="Das folgende Programm soll neu gestartet werden. Wollen Sie wirklich fortfahren?"/>
+    <String Target="即将重启以下程序 %s，你确定要继续吗？" Link="Das folgende Programm %s soll neu gestartet werden. Wollen Sie wirklich fortfahren?"/>
     <String Target="资源管理器" Link="Explorer"/>
     <String Target="操作完成" Link="Beendet"/>
 
