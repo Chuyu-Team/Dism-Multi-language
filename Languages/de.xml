@@ -138,7 +138,7 @@ Special Thanks to franz@drwindows.de
     <String Target="无法移动文件 %s，Dism++已回滚对系统的更改。" Link="Die Datei %s kann nicht verschoben werden, alle Änderungen werden von Dism++ rückgängig gemacht."/>
 
     <String Target="正在配置WinRE" Link="Windows RE einrichten"/>
-    <String Target="正在进行第 %d 阶段（共 %d ）" Link="Noch %d Schritte (von %d)"/>
+    <String Target="正在进行第 %d 阶段（共 %d ）" Link="Noch %d Schritte (%d insgesamt)"/>
     <String Target="格式转换向导" Link="Format-Wizard"/>
     <String Target="此功能可以将微软发布的ESD转换为ISO，还支持加密的ESD哦。" Link="Diese Funktion konvertiert ESD zu ISO, unverschlüsselte ESD-Dateien werden auch unterstützt."/>
     <String Target="ESD映像文件" Link="ESD-Datei"/>
@@ -330,8 +330,8 @@ Special Thanks to franz@drwindows.de
     <String Target="导出" Link="Exportieren"/>
     <String Target="保存更改" Link="Änderungen speichern"/>
     <String Target="导出映像" Link="Exportieren"/>
-    <String Target="正在导出第%d个映像（共 %d ）" Link="Exportiere %d von %d Images"/>
-    <String Target="正在添加映像，请耐心等待……" Link="Image-Datei wird hinzugefügt, bitte warten...."/>
+    <String Target="正在导出第%d个映像（共 %d ）" Link="Exportiere %d Image (%d insgesamt)"/>
+    <String Target="正在添加映像，请耐心等待……" Link="Image-Datei wird hinzugefügt, bitte warten..."/>
     <String Target="操作成功！" Link="Abgeschlossen"/>
     <String Target="删除映像" Link="Entfernen"/>
     <String Target="编辑映像" Link="Bearbeiten"/>
@@ -341,7 +341,7 @@ Special Thanks to franz@drwindows.de
     <String Target="当前映像正在运行，所以无法执行修复操作。" Link="Kann nicht repariert werden, da die Image-Datei bereits verwendet wird."/>
     <String Target="正在修复引导" Link="Repariere..."/>
     <String Target="恭喜已经成功修复引导。" Link="Die Boot-Dateien wurden erfolgreich repariert."/>
-    <String Target="启动修复失败，错误代码：%d" Link="Die Reparatur der Boot-Dateien ist fehlgeschlagen, Fehlercode:%d"/>
+    <String Target="启动修复失败，错误代码：%d" Link="Die Reparatur der Boot-Dateien ist fehlgeschlagen, Fehlercode: %d"/>
     <String Target="无法对PE进行引导修复。" Link="PE Boot kann nicht repariert werden."/>
     <String Target="类型" Link="Typ"/>
 
@@ -351,8 +351,8 @@ Special Thanks to franz@drwindows.de
     <String Target="更多" Link="Erweitert"/>
     <String Target="启动分区：" Link="Boot Partition:"/>
     <String Target="你必须点击更多进行手动指定！" Link="Bitte klicken Sie für genaue Aufgaben auf &quot;Mehr&quot;."/>
-    <String Target="硬盘%d 分区%d（%s）" Link="Datenträger%d Partition%d(%s)"/>
-    <String Target="硬盘%d 分区%d" Link="Datenträger%d Partition%d"/>
+    <String Target="硬盘%d 分区%d（%s）" Link="Datenträger %d Partition %d (%s)"/>
+    <String Target="硬盘%d 分区%d" Link="Datenträger %d Partition %d"/>
     <String Target="即将把启动信息写入启动分区- %s" Link="Der Boot Record wird in die Bootpartition geschrieben - %s"/>
     <String Target="没有异议或者看不懂的请点击 %s 。" Link="Wenn keine weiteren Änderungen vorgenommen werden, bitte auf %s klicken."/>
     <String Target="无法获取该分区的详细信息。" Link="Detaillierte Angaben über die Partition können nicht gefunden werden."/>
@@ -549,10 +549,10 @@ Special Thanks to franz@drwindows.de
     <String Target="状态" Link="Systemstatus"/>
     <String Target="正在获取更新信息" Link="Update-Informationen abrufen"/>
     <String Target="正在删除更新" Link="Updates werden entfernt"/>
-    <String Target="正在删除第 %d 个更新（共 %d ）" Link="%d von %d Updates entfernt"/>
+    <String Target="正在删除第 %d 个更新（共 %d ）" Link="%d Update löschen (%d insgesamt)"/>
     <String Target="补丁包" Link="Update Pack"/>
     <String Target="正在安装更新" Link="Updates werden installiert"/>
-    <String Target="正在安装第 %d 个更新（共 %d ）" Link="%d von %d Updates installiert"/>
+    <String Target="正在安装第 %d 个更新（共 %d ）" Link="%d Update installiert (%d insgesamt)"/>
     <String Target="刷新" Link="Aktualisieren"/>
     <String Target="添加" Link="Hinzufügen"/>
     <String Target="语言" Link="Sprache"/>
@@ -561,7 +561,7 @@ Special Thanks to franz@drwindows.de
 
     <!--可选功能-->
     <String Target="正在删除可选功能" Link="Funktionen entfernen"/>
-    <String Target="正在删除第 %d 个可选功能（共 %d ）" Link="%d von %d Funktionen entfernt"/>
+    <String Target="正在删除第 %d 个可选功能（共 %d ）" Link="%d Funktion entfernt (%d insgesamt)"/>
     <String Target="正在加载可选功能" Link="Funktionen werden geladen"/>
     <String Target="显示所有功能" Link="Alles anzeigen"/>
     <String Target="卸载" Link="Deinstallieren"/>
@@ -1060,18 +1060,18 @@ Special Thanks to franz@drwindows.de
     <String
       Target="准备启动下载模块……&#xD;&#xA;"
       Link="Start des Modul-Downloads...&#xD;&#xA;"/>
-    <String Target="正在下载 - %d/%d" Link="Download %d/%d"/>
+    <String Target="正在下载 - %d/%d" Link="Download - %d/%d"/>
     <String Target="更新文件过程中遇到错误，Orz……" Link="Updatefehler werden angezeigt, bitte warten..."/>
 
     <!--命令行-->
     <String Target="退出" Link="Exit"/>
-    <String Target="%s 解压失败，错误代码：%d" Link="%s Entpacken fehlgeschlagen, Fehlercode:%d"/>
+    <String Target="%s 解压失败，错误代码：%d" Link="%s Entpacken fehlgeschlagen, Fehlercode: %d"/>
     <String Target="%s 解压成功" Link="%s Entpacken erfolgreich"/>
-    <String Target="%s 压缩失败，错误代码：%d" Link="%s Entpacken fehlgeschlagen, Fehlercode:%d"/>
+    <String Target="%s 压缩失败，错误代码：%d" Link="%s Entpacken fehlgeschlagen, Fehlercode: %d"/>
     <String Target="%s 跳过" Link="%s übersprungen"/>
     <String Target="%s 压缩成功" Link="%s Entpacken erfolgreich"/>
-    <String Target="Dism++初始化成功，开始执行命令：%s" Link="Dism++ wurde erfolgreich gestartet, beginnen Sie mit der Kommando-Eingabe:%s"/>
-    <String Target="无法识别参数：%s" Link="Die Parameter können nicht bestimmt werden:%s"/>
+    <String Target="Dism++初始化成功，开始执行命令：%s" Link="Dism++ wurde erfolgreich gestartet, beginnen Sie mit der Kommando-Eingabe: %s"/>
+    <String Target="无法识别参数：%s" Link="Die Parameter können nicht bestimmt werden: %s"/>
     <String Target="至少输入一个路径" Link="Bitte mindestens einen Pfad eingeben"/>
     <String Target="%s 路径无效" Link="%s Falsche Pfadangabe"/>
     <String Target="未正确识别到命令，以下是程序支持的所有命令：" Link="Ein Fehler ist während der Ausführung der Anweisung aufgetreten, bitte stellen Sie sicher, dass alle Eingaben korrekt sind. Folgende Anweisungen werden unterstützt:"/>
@@ -1100,7 +1100,7 @@ Special Thanks to franz@drwindows.de
     <!--系统还原-->
     <String Target="当前模式不支持引导修复以及格式化分区，你需要重启并进入RE进行恢复么？" Link="Dieser Modus kann keine Partition formatieren oder den Bootsektor reparieren. Soll WinRE für die Wiederherstellung neu gestartet werden?"/>
     <String Target="正在格式化" Link="Formatierung"/>
-    <String Target="格式化分区 %s 失败，错误代码：%d。" Link="Die Formatierung der Partition %s ist fehlgeschlagen, Fehlercode:%d."/>
+    <String Target="格式化分区 %s 失败，错误代码：%d。" Link="Die Formatierung der Partition %s ist fehlgeschlagen, Fehlercode: %d."/>
     <String Target="正在刷新" Link="Aktualisieren"/>
     <String Target="Dism++与此操作系统处于同一分区，无法进行格式化。" Link="Dism++ und das Betriebssystem sind auf der gleichen Partition, daher kann diese Partition nicht formatiert werden."/>
 
