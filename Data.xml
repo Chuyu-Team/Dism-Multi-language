@@ -7694,6 +7694,27 @@
           </False>
         </System>
       </Item>
+
+      <Item Type="CheckBox" Name="#将硬件时钟设置为 UTC（by chenjunyu19）">
+        <System>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation" Value="RealTimeIsUniversal" Type="REG_DWORD" Data="1"/>
+            </Applicable>
+          </State>
+          <True>
+            <Warning>#启用此选项通常是为了与其他操作系统兼容。如果你不知道此选项有何作用，请不要更改其状态。</Warning>
+            <Activate>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation" Value="RealTimeIsUniversal" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation" Value="RealTimeIsUniversal" Type="REG_DWORD" Data="0"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
     </Group>
   </SystemOptimization>
   <ESDDecryptKey>
