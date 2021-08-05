@@ -1015,7 +1015,7 @@ Special Thanks to franz@drwindows.de
     <String Target="任务栏相关设置" Link="Einstellungen für Taskleiste"/>
     <String Target="关闭商店应用推广（by 、Cloud.）" Link="Windows Store App-Werbung deaktivieren (by Cloud.)"/>
     <String Target="关闭多嘴的小娜（by 朽木）" Link="Cortana deaktivieren (by XiuMu)"/>
-    <String Target="显示首次登录动画（by intionwun &amp; 组策略编辑器）" Link="Show-Enable First Logon Animation (by intionwun & Group Policy Editor)"/>
+    <String Target="显示首次登录动画（by intionwun &amp; 组策略编辑器）" Link="Show-Enable First Logon Animation (by intionwun &amp; Group Policy Editor)"/>
     <String Target="关闭游戏录制工具（by 、Cloud.）" Link="Gamerecorder deaktivieren (by Cloud.)"/>
     <String Target="启用 Windows 照片查看器（by 心之所向）" Link="Windows-Fotoanzeige aktivieren (by XingZhiSuoXiang) "/>
     <String Target="安全相关设置" Link="Sicherheitseinstellungen"/>
