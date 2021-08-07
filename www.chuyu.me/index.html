@@ -1,4 +1,4 @@
-<script language="JavaScript">
+﻿<script language="JavaScript">
 var la = (navigator.language || navigator.browserLanguage || '').toLowerCase().split('-');
 switch (la[0]) {
     case 'es': case 'an': case 'ast': case 'ca': case 'gl':
@@ -46,6 +46,8 @@ switch (la[0]) {
         } break;
     case 'wuu': case 'yue':
         la = 'zh-Hans'; break;
+    case 'uk':
+        la = 'uk'; break;
     default: /* all other languages go to English */
         la = 'en'; break;
 }
