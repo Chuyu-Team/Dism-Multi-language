@@ -7694,6 +7694,26 @@
           </False>
         </System>
       </Item>
+
+      <Item Type="CheckBox" Name="Windows To Go标记(关闭以允许大版本更新)(By 玩火)">
+        <System>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control" Value="PortableOperatingSystem" Type="REG_DWORD" Data="1"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control" Value="PortableOperatingSystem" Type="REG_DWORD" Data="1"/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control" Value="PortableOperatingSystem"/>
+            </Activate>
+          </False>
+        </System>
+      </Item>
     </Group>
   </SystemOptimization>
   <ESDDecryptKey>
