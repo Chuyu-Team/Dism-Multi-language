@@ -683,7 +683,7 @@
       </Scan>
     </Item>
 
-<Item Name="#Windows Defender保护历史记录" Level="2">
+    <Item Name="#Windows Defender保护历史记录" Level="2">
       <Description>#Windows Defender保护历史记录存放了Windows Defender日志，日志过多会导致打开保护历史记录记录闪退</Description>
       <Warning>#清理后无法还原被隔离文件</Warning>
       <Group>#应用程序</Group>
@@ -2859,7 +2859,7 @@
         </System>
       </Item>
       
-    <Item Type="CheckBox" Name="#显示首次登录动画（by intionwun &amp; 组策略编辑器）">
+      <Item Type="CheckBox" Name="#显示首次登录动画（by intionwun &amp; 组策略编辑器）">
         <Applicable>
           <OSVersion Compare=">=">6.2</OSVersion>
         </Applicable>
