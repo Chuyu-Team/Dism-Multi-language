@@ -330,7 +330,7 @@ Special Thanks to franz@drwindows.de
     <String Target="导出" Link="Exportieren"/>
     <String Target="保存更改" Link="Änderungen speichern"/>
     <String Target="导出映像" Link="Exportieren"/>
-    <String Target="正在导出第%d个映像（共 %d ）" Link="%d Image exportieren(%d insgesamt)"/>
+    <String Target="正在导出第%d个映像（共 %d ）" Link="%d Image exportieren (%d insgesamt)"/>
     <String Target="正在添加映像，请耐心等待……" Link="Image-Datei wird hinzugefügt, bitte warten…"/>
     <String Target="操作成功！" Link="Abgeschlossen"/>
     <String Target="删除映像" Link="Entfernen"/>
