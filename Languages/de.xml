@@ -240,7 +240,7 @@ Special Thanks to franz@drwindows.de
     <String Target="正在扫描已安装的系统" Link="Überprüfe installiertes System"/>
     <String Target="已经是最新版本，无需更新！" Link="Die aktuelle Version ist bereits installiert. Derzeit sind keine weiteren Updates verfügbar."/>
     <String Target="正在修复挂载映像" Link="Image wird neu eingebunden"/>
-    <String Target="正在取消现有任务，请稍等……" Link="Der Vorgang wird abgebrochen, bitte warten …"/>
+    <String Target="正在取消现有任务，请稍等……" Link="Der Vorgang wird abgebrochen, bitte warten…"/>
     <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="Das eingebundene Image [%s] ist beschädigt und muß zuerst repariert werden. Wollen Sie das Image jetzt reparieren?"/>
     <String Target="即将重启以下程序 %s，你确定要继续吗？" Link="Das folgende Programm [%s] soll neu gestartet werden. Wollen Sie wirklich fortfahren?"/>
     <String Target="资源管理器" Link="Explorer"/>
@@ -331,7 +331,7 @@ Special Thanks to franz@drwindows.de
     <String Target="保存更改" Link="Änderungen speichern"/>
     <String Target="导出映像" Link="Exportieren"/>
     <String Target="正在导出第%d个映像（共 %d ）" Link="Exportiere %d Image (%d insgesamt)"/>
-    <String Target="正在添加映像，请耐心等待……" Link="Image-Datei wird hinzugefügt, bitte warten…."/>
+    <String Target="正在添加映像，请耐心等待……" Link="Image-Datei wird hinzugefügt, bitte warten…"/>
     <String Target="操作成功！" Link="Abgeschlossen"/>
     <String Target="删除映像" Link="Entfernen"/>
     <String Target="编辑映像" Link="Bearbeiten"/>
@@ -1319,7 +1319,7 @@ Special Thanks to franz@drwindows.de
     <String Target="PPLive老版本备份（by 何超）" Link="Backup-Dateien älterer Versionen von PPLive (by HeChao)"/>
     <String Target="PPLive在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Backup-Dateien älterer Versionen von PPLive nach einem Update, für ein Rollback zur Problembehandlung."/>
 
-    <String Target="酷狗音乐老版本备份（by 何超）" Link="BBackup-Dateien älterer Versionen von Kugou Music (by HeChao)"/>
+    <String Target="酷狗音乐老版本备份（by 何超）" Link="Backup-Dateien älterer Versionen von Kugou Music (by HeChao)"/>
     <String Target="酷狗音乐在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Dateien älterer Versionen von Kugou Music nach Update, für Rollback zur Problembehandlung."/>
 
     <String Target="2345拼音输入法老版本备份（by 何超）" Link="Backup-Dateien älterer Versionen von 2345 Pinyin IME (by HeChao)"/>
