@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-This is the German translation resource for Dism++.
-There are 5 ASCII punctuation needing special representation in XML.
-Also some control characters should be preferably encoded as numeric character entities.
-  Symbol  Description                  Encoded as  Preferably changed in translations to
+Dies ist die deutsche Übersetzungsquelle für Dism++.
+Es gibt 5 ASCII-Satzzeichen, die in XML besonders dargestellt werden müssen.
+Auch einige Steuerzeichen sollten vorzugsweise als numerische Zeicheneinheiten kodiert werden.
+  Symbol  Beschreibung                 Kodiert Vorzugsweise in Übersetzungen geändert in
     <     Less than                    &lt;
     >     More than                    &gt;
     &     And                          &amp;
@@ -12,9 +12,9 @@ Also some control characters should be preferably encoded as numeric character e
     \t    Tabulation control           &#9;
     \n    Line feed (newline) control  &#xA;
     \r    Carriage return control      &#xD;
-Also please avoid indenting this file using tabulations.
+Vermeiden Sie es bitte auch, diese Datei mit Hilfe von Tabulatoren einzurücken.
 
-Special Thanks to franz@drwindows.de
+Besonderen Dank an franz@drwindows.de
  -->
 <Data>
   <DefaultControl>
@@ -219,14 +219,14 @@ Special Thanks to franz@drwindows.de
     <String Target="建议删除" Link="Gelöscht"/>
     <String Target="自定义" Link="Eigene Einstellungen"/>
 
-    <String Target="正在载入清理规则" Link="Richtlinien werden bereinigt..."/>
+    <String Target="正在载入清理规则" Link="Richtlinien werden bereinigt…"/>
     <String Target="正在撤销Compact" Link="Das Packen der Dateien wird verworfen"/>
     <String Target="名称" Link="Name"/>
     <String Target="保存" Link="Speichern"/>
     <String Target="取消" Link="Abbrechen"/>
     <String Target="详细信息" Link="Details"/>
     <String Target="其他" Link="Andere"/>
-    <String Target="正在初始化" Link="Initialisierung..."/>
+    <String Target="正在初始化" Link="Initialisierung…"/>
     <String Target="类别" Link="Kategorie"/>
     <String Target="大小" Link="Größe"/>
     <String Target="正在关闭会话" Link="Die Sitzung wird abgeschlossen"/>
@@ -234,13 +234,13 @@ Special Thanks to franz@drwindows.de
     <String Target="控制面板" Link="Systemsteuerung"/>
     <String Target="删除" Link="Entfernen"/>
     <String Target="关于Dism++" Link="Über Dism++"/>
-    <String Target="Dism++正在执行任务，你确定要关闭程序么？" Link="Dism++ ist beschäftigt, soll Dism++ trotzdem jetzt beendet werden?"/>
-    <String Target="正在检查更新" Link="Nach Updates wird gesucht..."/>
-    <String Target="正在加载插件" Link="Lade Plug-in"/>
-    <String Target="正在扫描已安装的系统" Link="Überprüfe installiertes System"/>
+    <String Target="Dism++正在执行任务，你确定要关闭程序么？" Link="Dism++ ist beschäftigt, soll Dism++ jetzt trotzdem beendet werden?"/>
+    <String Target="正在检查更新" Link="Nach Updates suchen…"/>
+    <String Target="正在加载插件" Link="Plugin laden"/>
+    <String Target="正在扫描已安装的系统" Link="Installiertes System prüfen"/>
     <String Target="已经是最新版本，无需更新！" Link="Die aktuelle Version ist bereits installiert. Derzeit sind keine weiteren Updates verfügbar."/>
-    <String Target="正在修复挂载映像" Link="Image wird neu eingebunden"/>
-    <String Target="正在取消现有任务，请稍等……" Link="Der Vorgang wird abgebrochen, bitte warten ..."/>
+    <String Target="正在修复挂载映像" Link="Image neu eingebinden"/>
+    <String Target="正在取消现有任务，请稍等…" Link="Der Vorgang wird abgebrochen, bitte warten …"/>
     <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="Das eingebundene Image [%s] ist beschädigt und muß zuerst repariert werden. Wollen Sie das Image jetzt reparieren?"/>
     <String Target="即将重启以下程序 %s，你确定要继续吗？" Link="Das folgende Programm [%s] soll neu gestartet werden. Wollen Sie wirklich fortfahren?"/>
     <String Target="资源管理器" Link="Explorer"/>
@@ -262,7 +262,7 @@ Special Thanks to franz@drwindows.de
     <String Target="致谢" Link="Danke"/>
     <String Target="翻译人员" Link="Übersetzung"/>
     <String Target="赞助名单" Link="Sponsor"/>
-    <String Target="第三方库" Link="Nutzung durch Dritte"/>
+    <String Target="第三方库" Link="Drittanbieter"/>
 
     <!--添加映像-->
     <String Target="请输入映像存放目录" Link="Bitte geben Sie den Pfad zum Abbild ein"/>
@@ -331,7 +331,7 @@ Special Thanks to franz@drwindows.de
     <String Target="保存更改" Link="Änderungen speichern"/>
     <String Target="导出映像" Link="Exportieren"/>
     <String Target="正在导出第%d个映像（共 %d ）" Link="Exportiere %d Image (%d insgesamt)"/>
-    <String Target="正在添加映像，请耐心等待……" Link="Image-Datei wird hinzugefügt, bitte warten..."/>
+    <String Target="正在添加映像，请耐心等待…" Link="Image-Datei wird hinzugefügt, bitte warten…"/>
     <String Target="操作成功！" Link="Abgeschlossen"/>
     <String Target="删除映像" Link="Entfernen"/>
     <String Target="编辑映像" Link="Bearbeiten"/>
@@ -339,7 +339,7 @@ Special Thanks to franz@drwindows.de
     <!--引导修复-->
     <String Target="此映像并不在分区根目录，所以无法执行修复操作。" Link="Kann nicht repariert werden, da die Image-Datei nicht im Wurzelverzeichnis der Partition liegt."/>
     <String Target="当前映像正在运行，所以无法执行修复操作。" Link="Kann nicht repariert werden, da die Image-Datei bereits verwendet wird."/>
-    <String Target="正在修复引导" Link="Repariere..."/>
+    <String Target="正在修复引导" Link="Reparieren…"/>
     <String Target="恭喜已经成功修复引导。" Link="Die Boot-Dateien wurden erfolgreich repariert."/>
     <String Target="启动修复失败，错误代码：%d" Link="Die Reparatur der Boot-Dateien ist fehlgeschlagen, Fehlercode: %d"/>
     <String Target="无法对PE进行引导修复。" Link="PE Boot kann nicht repariert werden."/>
@@ -446,7 +446,7 @@ Special Thanks to franz@drwindows.de
     <String Target="注册表还原" Link="Wiederherstellung"/>
     <String Target="清理时间" Link="Dauer der Bereinigung"/>
     <String Target="网络位置" Link="Netzwerkstandort"/>
-    <String Target="正在扫描第%d个可清理的注册表项。。。" Link="Prüfe %d Registrierungseinträge für die Bereinigung..."/>
+    <String Target="正在扫描第%d个可清理的注册表项。。。" Link="Prüfe %d Registrierungseinträge für die Bereinigung…"/>
 
     <!--驱动管理-->
     <String Target="温馨提示：删除关键驱动可能导致计算机无法启动" Link="Hinweis: Werden wichtige Treiber gelöscht, kann der Computer evtl. nicht mehr gestartet werden"/>
@@ -845,7 +845,7 @@ Special Thanks to franz@drwindows.de
     <!--右键菜单管理-->
     <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="Kontextmenü einrichten: nicht benötigte Einträge ausblenden (beschleunigt den Windows Explorer)"/>
     <String Target="禁用可执行文件的“兼容性疑难解答”右键菜单（by 莫失莫忘）" Link="Reiter &quot;Kompatibilität&quot; im Kontextmenü ausführbarer Dateien deaktivieren (by MoWangMoShi)"/>
-    <String Target="禁用文件、文件夹以及磁盘的“使用Windows Defender扫描”右键菜单（by 莫失莫忘）" Link="&quot;Mit Windows Defender überprüfen...&quot; bei Dateien, Verzeichnissen und Laufwerken ausblenden (by MoWangMoShi)"/>
+    <String Target="禁用文件、文件夹以及磁盘的“使用Windows Defender扫描”右键菜单（by 莫失莫忘）" Link="&quot;Mit Windows Defender überprüfen…&quot; bei Dateien, Verzeichnissen und Laufwerken ausblenden (by MoWangMoShi)"/>
     <String Target="禁用文件、磁盘以及属性的“还原以前版本”右键菜单（by 莫失莫忘）" Link="&quot;Vorgängerversion wiederherstellen&quot; bei Dateien, Laufwerken und in den Eigenschaften ausblenden (by MoWangMoShi)"/>
     <String Target="禁用文件、文件夹、桌面以及所有对象的“共享文件夹同步”右键菜单" Link="&quot;Synchronisierung freigegebener Ordner&quot; ausblenden"/>
     <String Target="禁用新建“ZIP/RAR文件”右键菜单（by 莫失莫忘）" Link="&quot;Neue ZIP/RAR-Datei&quot; ausblenden (by MoWangMoShi)"/>
@@ -976,7 +976,7 @@ Special Thanks to franz@drwindows.de
     <!--WinRAR-->
     <String Target="锁定WinRAR工具栏（by 原罪）" Link="WinRAR-Toolbar verhindern (by YZ)"/>
 
-    <String Target="隐藏WinRAR 在右键菜单中添加的&quot;压缩并 E-mail...&quot;（by 原罪）" Link="WinRAR-Eintrag &quot;Packen und als E-mail versenden...&quot; im Kontextmenü ausblenden (by YZ)"/>
+    <String Target="隐藏WinRAR 在右键菜单中添加的&quot;压缩并 E-Mail…&quot;（by 原罪）" Link="WinRAR-Eintrag &quot;Packen und als E-Mail versenden…&quot; im Kontextmenü ausblenden (by YZ)"/>
 
     <!--Windows Media Player-->
     <String Target="不显示首次使用对话框（by 原罪）" Link="Einrichtungsassistent bei ersten Start von Windows Media Player verhindern (by YZ)"/>
@@ -1059,10 +1059,10 @@ Special Thanks to franz@drwindows.de
       Link="Eine neue Version wurde gefunden. %d Dateien werden aktualsiert, es wird %s freier Speicherplatz benötigt.&#xD;&#xA;&#xD;&#xA;Changelog:&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;Soll aktualisiert werden?"/>
     <String Target="Dism++更新程序" Link="Dism++ Updater"/>
     <String
-      Target="准备启动下载模块……&#xD;&#xA;"
-      Link="Start des Modul-Downloads...&#xD;&#xA;"/>
+      Target="准备启动下载模块…&#xD;&#xA;"
+      Link="Start des Modul-Downloads…&#xD;&#xA;"/>
     <String Target="正在下载 - %d/%d" Link="Download - %d/%d"/>
-    <String Target="更新文件过程中遇到错误，Orz……" Link="Updatefehler werden angezeigt, bitte warten..."/>
+    <String Target="更新文件过程中遇到错误，Orz…" Link="Updatefehler werden angezeigt, bitte warten…"/>
 
     <!--命令行-->
     <String Target="退出" Link="Exit"/>
@@ -1106,7 +1106,7 @@ Special Thanks to franz@drwindows.de
     <String Target="Dism++与此操作系统处于同一分区，无法进行格式化。" Link="Dism++ und das Betriebssystem sind auf der gleichen Partition, daher kann diese Partition nicht formatiert werden."/>
 
     <!--重新载入-->
-    <String Target="当前其他任务正在进行，请稍等……" Link="Aufgaben werden bearbeitet, bitte warten..."/>
+    <String Target="当前其他任务正在进行，请稍等…" Link="Aufgaben werden bearbeitet, bitte warten…"/>
 
     <!--文件拆分设置-->
     <String Target="文件拆分" Link="Datei aufteilen"/>
@@ -1227,7 +1227,7 @@ Special Thanks to franz@drwindows.de
     <String Target="清理可能导致无法正常卸载Office。" Link="Nach der Bereinigung kann Office evtl. nicht mehr normal deinstalliert werden."/>
 
     <String Target="苹果iTunes备份" Link="Apple iTunes Sicherung"/>
-    <String Target="苹果相关设备备份文件，比如通讯录、照片、视频等。" Link="Sicherung von iOS. (Kontakte, Fotos, Videos,...)"/>
+    <String Target="苹果相关设备备份文件，比如通讯录、照片、视频等。" Link="Sicherung von iOS. (Kontakte, Fotos, Videos,…)"/>
     <String Target="请你确保暂时不需要使用恢复功能，如果你现在需要恢复苹果设备，请勿勾选此项目！" Link="Muss ein iOS-Gerät öfter wiederhergestellt werden, bitte diese Funktion nicht auswählen!"/>
 
     <String Target="硬链接备份" Link="Hardlink Backup"/>
