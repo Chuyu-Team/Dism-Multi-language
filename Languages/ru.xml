@@ -1039,6 +1039,7 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <String Target="遇到弹出窗口时始终在新选项卡中打开弹出窗口（by 溯汐潮）" Link="Всегда отображать всплывающие окна на новой вкладке (by Hell Cabrite)"/>
     <String Target="锁定Internet Explorer工具栏（by 溯汐潮）" Link="Закрепить панель инструментов Internet Explorer (by Hell Cabrite)"/>
     <String Target="隐藏NTFS蓝色双箭头压缩标识（by IT之家）" Link="Скрыть значок двойной стрелки NTFS-сжатия (by IT Home)"/>
+    <String Target="shift右击时显示在此处打开命令窗口（by sandtechnology）" Link="When shift right click, show here to open the command window(by sandtechnology)"/>
     <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="Скрыть кнопку помощи на Панели языка (by Hell Cabrite)"/>
     <String Target="Windows 7体验" Link="Windows 7 Experience"/>
     <String Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Обновление Windows не включает в себя средство удаления вредоносных программ (by Winaero)"/>
