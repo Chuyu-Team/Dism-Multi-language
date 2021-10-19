@@ -3939,6 +3939,47 @@
         </Default>
       </Item>
 
+      <Item Type="CheckBox" Name="#禁用Win11加入的新右键菜单，默认显示更多选项（by LittleCircleOO）">
+      <!--Win11引入了套娃式新菜单，原菜单需要两步操作才能弹出；该选项去除新菜单，直接弹出原菜单-->
+        <Applicable>
+          <OSVersion Compare=">=">10.0.22000</OSVersion>
+        </Applicable>
+        <Current>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_CURRENT_USER\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate Restart="Explorer">
+              <RegWrite Key="HKEY_CURRENT_USER\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" Value="" Type="REG_SZ" Data=""/>
+            </Activate>
+          </True>
+          <False>
+            <Activate Restart="Explorer">
+              <RegDelete Key="HKEY_CURRENT_USER\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}"/>
+            </Activate>
+          </False>
+        </Current>
+        <Default>
+          <State>
+            <Applicable>
+              <RegExist Key="HKEY_USERS\DEFAULT\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32"/>
+            </Applicable>
+          </State>
+          <True>
+            <Activate>
+              <RegWrite Key="HKEY_USERS\DEFAULT\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" Value="" Type="REG_SZ" Data=""/>
+            </Activate>
+          </True>
+          <False>
+            <Activate>
+              <RegDelete Key="HKEY_USERS\DEFAULT\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}"/>
+            </Activate>
+          </False>
+        </Default>
+      </Item>
+
     </Group>
 
     <Group Name="#Windows 7体验">
