@@ -47,7 +47,7 @@ Besonderen Dank an franz@drwindows.de
       <String Target="重新载入" Link="Aktualisieren"/>
       <String Target="格式转换" Link="Umwandlungsformat"/>
       <String Target="ESD解密" Link="ESD Verschlüsselung"/>
-    <String Target="取消任务&#9;Ctrl+Break" Link="Task beenden&#9;Strg+Pause"/>
+    <String Target="取消任务&#9;Ctrl+Break" Link="Aufgabe beenden&#9;Strg+Pause"/>
 
     <String Target="恢复功能(&amp;R)" Link="&amp;Wiederherstellung"/>
       <String Target="系统修复" Link="System Wiederherstellung"/>
