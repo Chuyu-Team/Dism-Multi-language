@@ -152,7 +152,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="正在从%s，转换到%s" Link="Conversion %s vers %s"/>
 
     <String Target="映像文件" Link="Fichier image"/>
-    <String Target="无法获取RE信息，错误代码：%d" Link="Impossible d’obtenir les infos de WinRE, code erreur : %d."/>
+    <String Target="无法获取RE信息，错误代码：%d" Link="Impossible d’obtenir les infos de WinRE, code d’erreur : %d."/>
     <String Target="重启后，系统自动将启动RE，你确定要重启么？" Link="Le système redémarrera dans WinRE, voulez-vous redémarrer maintenant ?"/>
     <String Target="此功能可以将ESD、WIM格式相互转换。" Link="Cette fonction permet de convertir un ESD en WIM ou un WIM en ESD"/>
     <String Target="Dism++将会在RE中启动，你现在需要重启电脑么？" Link="Dism++ va démarrer dans WinRE, voulez-vous redémarrer maintenant ?"/>
@@ -247,7 +247,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="操作完成" Link="Terminé"/>
 
     <!--欢迎页-->
-    <String Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。" Link="Dism++ est le premier développement GUI dans le monde de Dism basé sur CBS (Component Based Servicing Reference) !"/>
+    <String Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。" Link="Dism++ est la première interface graphique développée dans le monde pour Dism, basée sur CBS (Component Based Servicing Reference) !"/>
 
     <String Target="联系方式" Link="Contacts"/>
     <String Target="官方网站" Link="Site officiel"/>
@@ -262,7 +262,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="致谢" Link="Remerciements"/>
     <String Target="翻译人员" Link="Traducteurs"/>
     <String Target="赞助名单" Link="Partenaires"/>
-    <String Target="第三方库" Link="Bibliothèques tierces"/>
+    <String Target="第三方库" Link="Logiciels tiers"/>
 
     <!--添加映像-->
     <String Target="请输入映像存放目录" Link="Veuiller entrer le chemin d’accès de l’image"/>
@@ -341,7 +341,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="当前映像正在运行，所以无法执行修复操作。" Link="Impossible de réparer, car l’image est utilisée."/>
     <String Target="正在修复引导" Link="Réparation..."/>
     <String Target="恭喜已经成功修复引导。" Link="Réparation de l’amorçage réussie."/>
-    <String Target="启动修复失败，错误代码：%d" Link="La réparation de l’amorçage a échoué, code erreur : %d."/>
+    <String Target="启动修复失败，错误代码：%d" Link="La réparation de l’amorçage a échoué, code d’erreur : %d."/>
     <String Target="无法对PE进行引导修复。" Link="Ne peut pas réparer l’amorçage PE."/>
     <String Target="类型" Link="Type"/>
 
@@ -471,11 +471,11 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="导出驱动时遇到问题，具体参考Dism++.log" Link="Problèmes rencontrés lors de l’exportation des pilotes. Veuillez vous référer à Dism++.log pour plus de détails."/>
 
     <String Target="正在删除驱动" Link="Supprimer le pilote"/>
-    <String Target="一个或者多个驱动删除失败，错误代码：0x%.8X" Link="Un ou plusieurs pilotes n’ont pas été supprimés, code erreur : 0x%.8X"/>
+    <String Target="一个或者多个驱动删除失败，错误代码：0x%.8X" Link="Un ou plusieurs pilotes n’ont pas été supprimés, code d’erreur : 0x%.8X"/>
 
     <String Target="请选择驱动所在文件夹" Link="Veuillez sélectionner le dossier du pilote"/>
     <String Target="正在安装驱动" Link="Installation du pilote"/>
-    <String Target="一个或者多个驱动添加失败，错误代码：0x%.8X" Link="Un ou plusieurs pilotes n’ont pas été ajoutés, code erreur : 0x%.8X"/>
+    <String Target="一个或者多个驱动添加失败，错误代码：0x%.8X" Link="Un ou plusieurs pilotes n’ont pas été ajoutés, code d’erreur : 0x%.8X"/>
     <String Target="显示内置驱动" Link="Pilotes du système"/>
     <String Target="处理过程中遇到问题，其中成功 %u 个，失败 %u 个，不适用 %u 个。部分错误信息：%s [0x%.8X] 更多信息请参考 &quot;Config\Dism++.log&quot;" Link="Problèmes rencontrés lors du traitement. %u installations réussies, %u échouées, %u non applicables. Extrait des erreurs : %s [0x%.8X]. Consultez « Config\Dism++.log » pour plus d’informations."/>
     <String Target="操作成功，其中成功 %u 个，不适用 %u 个。更多信息请参考 &quot;Config\Dism++.log&quot;" Link="Opération terminée. %u installations réussies, %u non applicables. Consultez « Config\Dism++.log » pour plus d’informations."/>
@@ -576,7 +576,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="无法初始化Appx管理接口。" Link="Impossible d’initialiser les interface de gestion Appx."/>
     <String Target="%s 无法获取Appx关联的账号信息，错误代码：0x%.8X" Link="%s ne peut pas obtenir les informations de compte Appx. Code d’erreur : 0x%.8X"/>
     <String Target="%s 无法获取账号SID，错误代码：0x%.8X" Link="%s Impossible d’obtenir le compte SID, code d’erreur: 0x%.8X"/>
-    <String Target="%s 所关联的用户（%s）无法删除，错误代码：0x%.8X" Link="%s Utilisateur associé (%s) ne peut pas être supprimé, code erreur : 0x%.8X"/>
+    <String Target="%s 所关联的用户（%s）无法删除，错误代码：0x%.8X" Link="%s Utilisateur associé (%s) ne peut pas être supprimé, code d’erreur : 0x%.8X"/>
     <String Target="%s 未关联任何用户。" Link="%s N’est pas associé à un utilisateur."/>
     <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="Félicitations ! Suppression réussie. Cependant certaines applications peuvent être préinstallées sur le système : si certaines persistent, vous pouvez utiliser « Appx préinstallées » pour les supprimer."/>
     <String Target="User Appx" Link="Appx de l’utilisateur"/>
@@ -594,7 +594,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="安装失败" Link="Échec"/>
     <String Target="部分成功" Link="Partiellement réussi"/>
     <String Target="安装成功" Link="Installation réussie"/>
-    <String Target="一个或者多个更新安装失败，错误代码：0x%.8X" Link="Échec de une ou plusieurs mises à jour, code erreur : 0x%.8X."/>
+    <String Target="一个或者多个更新安装失败，错误代码：0x%.8X" Link="Échec de une ou plusieurs mises à jour, code d’erreur : 0x%.8X."/>
     <String Target="正在下载" Link="Téléchargement..."/>
     <String Target="正在安装" Link="Installation"/>
     <String Target="项目" Link="Article"/>
@@ -1039,6 +1039,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="遇到弹出窗口时始终在新选项卡中打开弹出窗口（by 溯汐潮）" Link="Toujours afficher les fenêtres pop-up dans un nouvel onglet (par Hell Cabrite)"/>
     <String Target="锁定Internet Explorer工具栏（by 溯汐潮）" Link="Verrouiller Internet Explorer dans la barre d’outils (par Hell Cabrite)"/>
     <String Target="隐藏NTFS蓝色双箭头压缩标识（by IT之家）" Link="Masquer l’icône double flèche bleue de compression NTFS (par IT Home)"/>
+    <String Target="shift右击时显示在此处打开命令窗口（by sandtechnology）" Link="En cliquant avec la touche majuscule droite pressée, afficher ici pour ouvrir une fenêtre de commande (par sandtechnology)"/>
     <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="Masquer le bouton Aide sur la barre de langues (par Hell Cabrite)"/>
     <String Target="Windows 7体验" Link="Expérience de Windows 7"/>
     <String Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Désactiver les outils de suppression de logiciels malveillants dans les mises à jour de Windows (par Winaero)"/>
@@ -1065,9 +1066,9 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
 
     <!--命令行-->
     <String Target="退出" Link="Quitter"/>
-    <String Target="%s 解压失败，错误代码：%d" Link="La décompression de %s a échoué, code erreur : %d."/>
+    <String Target="%s 解压失败，错误代码：%d" Link="La décompression de %s a échoué, code d’erreur : %d."/>
     <String Target="%s 解压成功" Link="%s décompression succès"/>
-    <String Target="%s 压缩失败，错误代码：%d" Link="La compression de %s a échoué, code erreur : %d."/>
+    <String Target="%s 压缩失败，错误代码：%d" Link="La compression de %s a échoué, code d’erreur : %d."/>
     <String Target="%s 跳过" Link="%s sauté"/>
     <String Target="%s 压缩成功" Link="Compression de %s réussie"/>
     <String Target="Dism++初始化成功，开始执行命令：%s" Link="Dism++ initialisé avec succès, commence à exécuter les commandes : %s"/>
@@ -1100,7 +1101,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <!--系统还原-->
     <String Target="当前模式不支持引导修复以及格式化分区，你需要重启并进入RE进行恢复么？" Link="Le mode actuel ne peut pas utiliser la réparation au démarrage ou formater une partition. Voulez-vous redémarrer vers WinRE pour la récupération ?"/>
     <String Target="正在格式化" Link="Formatage"/>
-    <String Target="格式化分区 %s 失败，错误代码：%d。" Link="Formater la partition %s a échoué, code erreur : %d."/>
+    <String Target="格式化分区 %s 失败，错误代码：%d。" Link="Formater la partition %s a échoué, code d’erreur : %d."/>
     <String Target="正在刷新" Link="Actualiser"/>
     <String Target="Dism++与此操作系统处于同一分区，无法进行格式化。" Link="Dism++ et le système d’exploitation sont sur la même partition. Impossible de formater la partition."/>
 
@@ -1296,9 +1297,9 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <String Target="使用Windows Update安装更新后保存的记录。" Link="Après l’application de mises à jour de Windows, Windows Update conserve un historique"/>
     <String Target="删除后更新历史记录将被清空。" Link="Une fois supprimé, l’historique des mises à jour sera effacé."/>
 
-    <String Target="Microsoft SQL Server更新缓存（by Honry、撕裂五维空间）" Link="Microsoft SQL Server update cache (par Honry, SiLieWuWeiKongJian)"/>
-    <String Target="安装Microsoft SQL Server补丁残留的安装缓存。" Link="If you install microsoft SQL Server, the program leave the install cache."/>
-    <String Target="此条目最新添加，可能引发意外问题！" Link="This funtion is added at last, may lead to unexpected issue !"/>
+    <String Target="Microsoft SQL Server更新缓存（by Honry、撕裂五维空间）" Link="Cache de mise à jout de Microsoft SQL Server (par Honry, SiLieWuWeiKongJian)"/>
+    <String Target="安装Microsoft SQL Server补丁残留的安装缓存。" Link="Si vous installez Microsoft SQL Server, le programme peut laisser le cache d’installation."/>
+    <String Target="此条目最新添加，可能引发意外问题！" Link="Cette fonctionnalité a été ajoutée en dernière minute, cela peut conduire à des problèmes inattendus !"/>
 
     <String Target="Adobe Acrobat安装源缓存（by Honry）" Link="Source d’installation d’Adobe Acrobat (par Honry)"/>
     <String Target="安装Adobe Acrobat后留下的安装缓存。" Link="Après installation d’Adobe Acrobat, le programme a créé une source d’installation."/>
@@ -1394,7 +1395,7 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
     <x80072EFF>Impossible de se connecter au serveur, vérifiez que votre connexion réseau ou les paramètres du pare-feu sont corrects.</x80072EFF>
 
     <xA0020001>La conversion en images ISO ne prend en charge que les images ESD issues de Microsoft Online.</xA0020001>
-    <xA0020002>Some have been cleared, for a complete cleanup upgrade to Windows 8.1, and then continue.</xA0020002>
+    <xA0020002>Une partie a été nettoyée, pour un nettoyage complet, veuillez mettre à niveau vers Windows 8.1 puis continuer.</xA0020002>
     <xA0020003>Veuillez mettre à niveau vers Windows Vista SP2 avant de continuer.</xA0020003>
     <xA0020004>Veuillez mettre à niveau vers Windows 7 SP1 avant de continuer.</xA0020004>
     <xA0020005>WIMBoot et Compact ne peuvent pas être utilisés simultanément.</xA0020005>
@@ -1477,23 +1478,23 @@ Special Thanks to JP.Sudrets (jp.sudret@wanadoo.fr), P.Verdy (verdyp@gmail.com).
   </MessageTable>
   <UserAgreement>Accord de licence utilisateur
 
-    Chuyu Team recommande fermement à chaque utilisateur de lire attentivement l’accord de licence utilisateur (désigné ci-dessous comme « accord », ou « cet accord ») avant d’utiliser Dism++. Quiconque choisit de ne pas se conformer ou ne parvient pas à comprendre la signification attendue de cet accord ne devrait pas être autorisé, ni ne devrait lui être accordés les droits concédés par Chuyu Team lui permettant d’utiliser Dism++. Quiconque utilise Dism++ est considéré comme acceptant les termes de l’accord suivant, et de se conformer à son contenu.
+    Chuyu Team recommande fermement à chaque utilisateur de lire attentivement l’accord suivant de licence utilisateur (désigné ci-dessous comme « accord », ou « cet accord ») avant d’utiliser Dism++. Quiconque choisit de ne pas se conformer ou ne parvient pas à comprendre la signification attendue de cet accord ne devrait pas être autorisé, ni ne devrait lui être accordés les droits concédés par Chuyu Team lui permettant d’utiliser Dism++. Quiconque utilise Dism++ est considéré comme acceptant les termes de l’accord suivant, et de se conformer à son contenu.
 
     Cet accord définit les droits et obligations entre les utilisateurs du service logiciel Dism++ (désigné ci-dessous comme « service » ou « ce service ») et Chuyu Team. Les « utilisateurs » et « utilisateurs de Dism++ » désignent les individus qui s’enregistrent, se connectent ou utilisent ce service. Cet accord fait l’objet de mises à jour de la part de Chuyu Team à tout moment possible. L’accord mis à jour, une fois publié dans tout format, remplace l’accord d’origine. Dism++ devrait afficher l’accord mis à jour lorsque le logiciel s’initialise correctement. Les utilisateurs de Dism++ devraient arrêter d’utiliser ce logiciel et les services de Chuyu Team immediatement s’ils choisissent de ne pas se conformer avec l’accord mis à jour.
 
 I. Droits et obligations
 
-    1. Les utilisateurs de Dism++ ne peuvent utiliser Dism++ que leur usage personnel sur leur(s) ordinateur(s). Toute utilisation non-personnelle (y compris mais non seulement une ustilisation commerciale ou au travail) sans accord écrit de la part de Chuyu Team n’est pas autorisée.
+    1. Les utilisateurs de Dism++ ne peuvent utiliser Dism++ que pour leur usage personnel sur leur(s) ordinateur(s). Toute utilisation non personnelle (y compris, mais sans s’y limiter, une utilisation commerciale ou au travail) sans accord écrit de la part de Chuyu Team n’est pas autorisée.
     2. Les utilisateurs de Dism++ doivent lire attentivement cet accord et tout autre contenu de la documentation de Dism++ avant d’utiliser Dism++.
-    3. Les utilisateurs de Dism++ doivent signaler les anomalies et améliorations possibles à Chuyu Team. Quiconque utilise Dism++ pour une période de plus de 30 jours devrait envoyer à mingkuang un « Rapport d’utilisation de Dism++ » comprenant pas moins de 345 words. Quiconque utilise Dism++ durant 8 mois ou plus devrait envoyer à mingkuang un rapport annuel (au moins 520 mots) sur le sujet « Suggestions et amélioration possible de Dism++ » le  11 novembre (heure locale). Adresse courriel de mingkuang: mingkuang@live.com.
+    3. Les utilisateurs de Dism++ doivent signaler les anomalies et améliorations possibles à Chuyu Team. Quiconque utilise Dism++ pour une période de plus de 30 jours devrait envoyer à mingkuang un « Rapport d’utilisation de Dism++ » comprenant pas moins de 345 mots. Quiconque utilise Dism++ durant 8 mois ou plus devrait envoyer à Mingkuang un rapport annuel (au moins 520 mots) sur le sujet « Suggestions et amélioration possible de Dism++ » le 11 novembre (heure locale). Adresse courriel de Mingkuang : mingkuang@live.com.
     4. Les utilisateurs de Dism++ devraient garder à l’esprit l’amour de paix, du travail en groupe, et de l’aide des autres.
-    5. Les utilisateurs de Dism++ devraient se conformer à la Loi commune (ou les équivalents locaux). Toute action qui violerait les droits d’auteur de Chuyu Team ou les termes de cet accord (y compris sans limitation en effectuant de façon inappropriée une copie, propagation, affichage, un miroir, un téléversement, un téléchargement, une modification), et tous ceux qui impactent négativement les opérations ou le service de Chuyu Team fera l’objet de sérieuses actions légales.
-    6. Quiconque échouerait à se conformer avec cet accord perdra automatiquement tous les droits accordés par Chuyu Team. Chuyu Team conserve le droit d’arrêter tout logiciel de Chuyu Team sur leur(s) ordinateur(s), de rejeter chacune de leur(s) proposition(s), et de lancer des actions légales à leur encontre.
+    5. Les utilisateurs de Dism++ devraient se conformer à la loi commune (ou les équivalents locaux). Toute action violant les droits d’auteur de Chuyu Team ou les termes de cet accord (y compris, mais sans s’y limiter, en effectuant de façon inappropriée une copie, une propagation, un affichage, un miroir, un téléversement, un téléchargement ou une modification) et toutes celles qui impacteraient de façon négative les opérations ou services de Chuyu Team feront l’objet de sérieuses poursuites légales.
+    6. Quiconque échouerait à se conformer avec cet accord perdra automatiquement tous les droits accordés par Chuyu Team. Chuyu Team conserve le droit d’arrêter tout logiciel de Chuyu Team sur leur(s) ordinateur(s), de rejeter chacune de leur(s) proposition(s) et de lancer des actions légales à leur encontre.
     7. Chuyu Team will fera de son mieux pour fournir une assistance technique à ceux qui se conforment avec cet accord, lorsque les facteurs suivants le permettent : la complexité du problème, la disponilibité de Chuyu Team, et l’expression des votes des autre(s) utilisateurs.
 
 II. Données de vie privée
 
-    1. Une fois initialisé, Dism++ collectera des informations sur le système des utilisateurs de Dism++ (y compris, mais sans se limiter à cela, la version du système, la structure du système, la langue du système, des informations sur le processeur et la mémoire), ainsi que le rapport d’état sur Dism++ lui-même (y compris, mais sans se limiter à cela, les fichiers de vidage système en cas de crash et les fichiers journaux) afin d’améliorer le service. Dism++ ne collectera pas d’informations sur les utilisateurs ni celles permettant de les contacter.
+    1. Une fois initialisé, Dism++ collectera des informations sur le système des utilisateurs de Dism++ (y compris, mais sans s’y limiter, la version du système, la structure du système, la langue du système, des informations sur le processeur et la mémoire), ainsi que le rapport d’état sur Dism++ lui-même (y compris, mais sans se limiter à cela, les fichiers de vidage système en cas de plantage et les fichiers journaux) afin d’améliorer le service. Dism++ ne collectera pas d’informations sur les utilisateurs ni celles permettant de les contacter.
     2. Chuyu Team peut envoyer aux utilisateurs des invitations à tester Dism++, des invitations à voter pour aider Chuyu Team dans ses décisions, ainsi que des mises à jour logicielles, mais Chuyu Team n’enverra jamais de messages comprenant notamment des publicités, des promotions, des fraudes ou des demandes de paiement.
 
 III. Évaluez les risques
@@ -1503,22 +1504,22 @@ III. Évaluez les risques
 
 IV. Déclaration des droits de propriété intellectuelle
 
-    1. Chuyu Team dispose des droits de propriété intellectuelle sur les contenus de ce service (y compris, mais sans s’y limiter, le logiciel, le site web, le texte, etc.).
+    1. Chuyu Team dispose de tous les droits de propriété intellectuelle sur les contenus de ce service (y compris, mais sans s’y limiter, le logiciel, le site web, le texte, etc.).
     2. En l’absence de clauses importantes, Chuyu Team a tous les droits de propriété intellectuelles.
-    3. Si Chuyu Team ne l’a pas consenti par écrit, les utilisateurs ne peuvent en aucune façon faire usage des logiciels et services de Chuyu Team. Ils ne peuvent donner aux autres aucun droit d’utiliser les logiciels de Chuyu Team.
-    4. Les droits de propriété intellectuelles ci-dessus et autres droits de Chuyu Team sont protégés par la loi. Si Chuyu Team ne vous l’a pas autorisé, vous ne pouvez pas désassembler ou faire autres choses avec ce service.
+    3. À moins que Chuyu Team ne l’ait consenti par écrit, les utilisateurs ne peuvent en aucune façon faire usage des logiciels et services de Chuyu Team. Ils ne peuvent donner aux autres aucun droit d’utiliser les logiciels de Chuyu Team.
+    4. Les droits de propriété intellectuelles ci-dessus et autres droits de Chuyu Team sont protégés par la loi. Si Chuyu Team ne vous l’a pas autorisé, vous ne pouvez pas désassembler ou faire autre chose avec ce service.
 
 V. Responsibilité légale
 
     1. Si Chuyu Team constate que certains utilisateurs enfreignent les termes de cet accord, Chuyu Team a les droits de bannir ces utilisateurs d’utiliser les logiciels de Chuyu Team sans donner d’information.
-    2. Veuillez comprendre et accepter. Chuyu Team a les droits de raisonnablement pénaliser par la loi tout comportement en violation avec cet accord.
-    3. Veuillez comprendre et accepter. Si les utilisateurs rompent cet accord, la partie enfraignante devraient prendre totalement en charge les conséquences de cette décision (y compris les frais raisonnables de justice dus aux avocats). Les utilisateurs doivent compenser Chuyu Team.
+    2. Veuillez comprendre et accepter ceci. Chuyu Team a les droits de pénaliser raisonnablement par la loi tout comportement en violation avec cet accord.
+    3. Veuillez comprendre et accepter ceci. Si les utilisateurs rompent cet accord, la partie enfraignante devraient prendre totalement en charge les conséquences de cette décision (y compris les frais raisonnables de justice dus aux avocats). Les utilisateurs doivent indemniser Chuyu Team.
 
 VI. Autres
 
     1. Chuyu Team demande solennellement aux utilisateurs de noter les clauses d’exemption de responsibilité de la Chuyu Team et de limitation des droits des utilisateurs. Les mineurs devraient lire cet accord avec leurs tuteurs légaux.
-    2. La validité et l’explication de cet accord est appliquée d’après la législation de la République populaire de Chine. En cas de disputes entre les users et Chuyu Team, leur règlement doit d’abord être négocié à l’amiable. Si ceci échoue, vous acceptez de vous rapporter à une cour de justice chinoise compétente pour l’administrer.
-    3. Si ces clauses de cet accord s’avéraient non valides ou inapplicables pour quelque raison que ce soit, les autres clauses conserveraient leur validité et leur force contractuelle pour les deux parties.
-    4. L’accord de licence utilisateur écrit en chinois simplifié devrait faire référence si la version en chinois simplidié diffère des accords de licence utilisateur traduits dans d’autres langues.
+    2. La validité et l’explication de cet accord est appliquée selon la législation de la République populaire de Chine. En cas de disputes entre les utilisateurs et Chuyu Team, leur règlement doit d’abord être négocié à l’amiable. Si ceci échoue, vous acceptez de vous référer à une cour de justice chinoise compétente pour l’administrer.
+    3. Si des clauses de cet accord s’avéraient non valides ou inapplicables pour quelque raison que ce soit, les autres clauses conserveraient leur validité et leur force contractuelle pour les deux parties.
+    4. L’accord de licence utilisateur écrit en chinois simplifié devrait faire référence si la version en chinois simplifié diffère des accords de licence utilisateur traduits dans d’autres langues.
 </UserAgreement>
 </Data>
