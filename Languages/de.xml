@@ -1137,7 +1137,7 @@ Besonderen Dank an franz@drwindows.de
     <String Target="使用利用NTFS硬链接特性合并所有文件内容相同的文件。" Link="NTFS-Hardlinks gruppieren, die gleiche Dateien enthalten."/>
     <String Target="某些文件被硬链接合并后可能导致相关功能无法正常使用。" Link="Verschiedene gruppierte Dateien können nicht mehr korrekt ausgeführt werden."/>
 
-    <String Target="CompactOs（较慢）" Link="CompactOs (Langsamer)"/>
+    <String Target="CompactOs（较慢）" Link="CompactOs (langsam)"/>
     <String Target="对单纯读取的文件进行哈夫曼压缩，在不影响性能的情况下，显著减少系统体积。特别感谢矿工以及所有Compact团队成员无私的支持与帮助。" Link="Nur-lesen berechtigte Dateien mit der Huffman-Methode komprimieren, reduziert erheblich den Speicherplatz ohne Verlust an Performance. Besonderer Dank an das Compact Team."/>
     <String Target="使用后可能导致某些程序无法正常运行甚至让系统无法启动，如果使用后出现问题，可以在PE中点击 恢复功能-->撤销Compact。" Link="Die Ausführung der Komprimierung kann zu Fehlfunktionen von Programmen führen, wodurch das System evtl. nicht gestartet werden kann. Für die Reparatur kann eine Wiederherstellung durchgeführt werden -> Bitte nie mit WinPE komprimieren"/>
     <String Target="此功能与某些硬盘备份软件不兼容。如果使用后出现问题，可以点击 恢复功能-->撤销Compact。" Link="Die Funktion ist nicht kompatibel mit einigen Sicherungsprogrammen. Wenn Probleme auftreten, die Wiederherstellung auswählen und bitte nicht mehr komprimieren."/>
