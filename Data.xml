@@ -437,6 +437,20 @@
     </Item>
 
     <!--缓存文件-->
+    <Item Name="#NuGet包缓存" Level="2">
+      <Description>#引用了NuGet包的.NET应用程序在使用Visual Studio生成时产生的缓存（尤其是使用WinUI3构建的应用程序）。</Description>
+      <Warning>#如果未在Visual Studio的首选项中打开“允许NuGet下载缺少的程序包”，则应用生成将会失败。</Warning>
+      <Group>#缓存文件</Group>
+      <Scan>
+        <Applicable>
+          <FileExist FilePath="%USERPROFILE%\.nuget"/>
+          <FileExist FilePath="%LOCALAPPDATA%\NuGet\v3-cache"/>
+        </Applicable>
+        <Activate>
+          <General RootPath="%USERPROFILE%\.nuget"/>
+        </Activate>
+      </Scan>
+    </Item>
 
     <Item Name="#Windows下载缓存" Level="2">
       <Description>#Windows在下载更新以及更新Metro应用时会在这里产生临时安装包。</Description>
@@ -450,7 +464,6 @@
           <Activate>
             <General RootPath="%SystemRoot%\SoftwareDistribution\Download"/>
           </Activate>
-          <!--Excluded 可以排除-->
         </Scan>
         <Scan>
           <Applicable>
