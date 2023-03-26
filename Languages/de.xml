@@ -1106,7 +1106,7 @@ Besonderen Dank an franz@drwindows.de
     <String Target="Dism++与此操作系统处于同一分区，无法进行格式化。" Link="Dism++ und das Betriebssystem sind auf der gleichen Partition, daher kann diese Partition nicht formatiert werden."/>
 
     <!--重新载入-->
-    <String Target="Andere Aufgaben sind derzeit in Arbeit, bitte warten…" Link="Aufgaben werden bearbeitet, bitte warten…"/>
+    <String Target="当前其他任务正在进行，请稍等…" Link="Aufgaben werden bearbeitet, bitte warten…"/>
 
     <!--文件拆分设置-->
     <String Target="文件拆分" Link="Datei aufteilen"/>
