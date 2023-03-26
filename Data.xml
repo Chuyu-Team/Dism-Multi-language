@@ -958,7 +958,8 @@
             <Query>AndroidAssist</Query>
             <Query>AndroidServer</Query>
             <Query>Logs</Query>
-            <Query>TXSSO</Query>
+            <Query>TXSSO\SetupLogs</Query>
+            <Query>TXSSO\SSOTemp</Query>
           </General>
           <General RootPath="%SystemDrive%\Users\*\AppData\Roaming\Tencent\Users\*\WinTemp\*"/>
           <General RootPath="%SystemX86%\config\systemprofile\AppData\Roaming\Tencent" Flags="Directory"/>
