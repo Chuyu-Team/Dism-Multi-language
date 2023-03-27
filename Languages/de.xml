@@ -59,7 +59,7 @@ Besonderen Dank an franz@drwindows.de
       <String Target="系统还原" Link="Wiederherstellung"/>
       <String Target="在RE中运行" Link="In WinRE öffnen"/>
       <String Target="仅启动RE" Link="Nur in WinRE öffnen"/>
-      <String Target="撤销Compact" Link="Nur entpacken"/>
+      <String Target="撤销Compact" Link="Kompakt rückgängig"/>
 
     <String Target="选项(&amp;O)" Link="&amp;Optionen"/>
       <String Target="插件管理" Link="Plugin-Manager"/>
