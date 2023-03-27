@@ -394,7 +394,7 @@ Besonderen Dank an franz@drwindows.de
       <String Target="空间回收" Link="Festplattenbereinigung"/>
       <String Target="启动项管理" Link="Start-Verwaltung"/>
       <String Target="工具箱" Link="Werkzeugkoffer"/>
-      <String Target="Appx管理" Link="Appxs"/>
+      <String Target="Appx管理" Link="Appx"/>
 
     <String Target="驱动管理" Link="Treiber-Verwaltung"/>
     <String Target="程序和功能" Link="Programme und Features"/>
@@ -832,7 +832,7 @@ Besonderen Dank an franz@drwindows.de
     <String Target="关闭视频文件预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Windows Explorer beschleunigen - Videovorschau deaktiveren (by MoWangMoShi)"/>
     <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Windows Explorer beschleunigen - Audiovorschau deaktiveren (by MoWangMoShi)"/>
     <String Target="关闭打开程序的“安全警告”（by 莫失莫忘）" Link="Sicherheitshinweis beim Öffnen von Programmen verhindern (by MoWangMoShi) "/>
-    <String Target="关闭在应用商店中查找关联应用（by Asoft）" Link="Suche nach verwandten Appxs im Windows Store verhindern (by Asoft)"/>
+    <String Target="关闭在应用商店中查找关联应用（by Asoft）" Link="Suche nach verwandten Appx im Windows Store verhindern (by Asoft)"/>
     <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="Videos, Bilder, Dokumente, Downloads, Musik, Desktop, 3D Objekte in &quot;Dieser PC&quot; ausblenden (by 、Cloud)"/>
     <String Target="禁止自动安装推荐的应用程序（by IT之家）" Link="Automatische Installation von empfohlenen Apps deaktivieren (by ITHome)"/>
     <String Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="Den Windows-Fokus (geöffnete Verzeichnisse od. Programme) am Lockscreen deaktivieren (by 、Cloud.)"/>
@@ -957,7 +957,7 @@ Besonderen Dank an franz@drwindows.de
       <String Target="禁用此服务将导致IPv6无法正常使用，请确保你不需要使用IPv6！" Link="Wird der Dienst deaktiviert, arbeitet IPv6 nicht mehr einwandfrei. Stelle sicher, dass IPv6 nicht verwendet wird!"/>
 
     <String Target="禁用Windows Search" Link="Windows-Suche deaktivieren"/>
-      <String Target="禁用此服务将导致搜索文件变慢，并且某些Windows Store应用可能无法正常使用！" Link="Wird der Dienst deaktiviert, wird die Dateisuche verlangsamt und einige Windows Store Appxs funktionieren nicht mehr!"/>
+      <String Target="禁用此服务将导致搜索文件变慢，并且某些Windows Store应用可能无法正常使用！" Link="Wird der Dienst deaktiviert, wird die Dateisuche verlangsamt und einige Windows Store Appx funktionieren nicht mehr!"/>
 
     <String Target="禁用错误报告" Link="Windows-Fehlerberichtserstattungsdient deaktivieren"/>
 
@@ -985,7 +985,7 @@ Besonderen Dank an franz@drwindows.de
     <String Target="*隐藏Windows 10升级助手GWX" Link="*Windows 10 Upgrade Assistent ausblenden (GWX)"/>
 
     <String Target="关闭OneDrive（by Rambin）" Link="OneDrive deaktivieren (by Rambin)"/>
-      <String Target="禁用OneDrive将导致某些Windows Store应用无法使用OneDrive存储。" Link="Wird OneDrive deaktiviert, können Windows Store Appxs den OneDrive-Speicher nicht mehr nutzen."/>
+      <String Target="禁用OneDrive将导致某些Windows Store应用无法使用OneDrive存储。" Link="Wird OneDrive deaktiviert, können Windows Store Appx den OneDrive-Speicher nicht mehr nutzen."/>
 
     <String Target="*VHD启动时不要将VHD动态文件扩展到最大（以节省空间）" Link="*Maximale Dateigröße verhindern, wenn von einem virtuellen dynamischen Datenträger gestartet wird (Speicherplatz wird gespart)"/>
       <String Target="此选项可能降低VHD文件性能。" Link="Die Deaktivierung verursacht einen langsameren Start des virtuellen Datenträgers."/>
@@ -1523,3 +1523,4 @@ VI. Sonstiges
     4. Die in vereinfachtem Chinesisch verfasste Nutzungsvereinbarung sollte herangezogen werden, wenn die vereinfachte chinesische Version von den in anderen Sprachen verfassten Nutzungsvereinbarungen abweicht.
 </UserAgreement>
 </Data>
+
