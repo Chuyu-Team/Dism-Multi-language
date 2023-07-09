@@ -490,6 +490,7 @@ Special Thanks to Kaya Zeren(kayazeren@gmail.com)
     <String Target="用户启动项（仅启动一次） —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="Kullanıcılar İçin Başlatma (Bir Kez Çalışan) — HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
     <String Target="启动（所有用户） —— %SystemDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup" Link="Başlatma (Tüm Kullanıcılar) — %SystemDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup"/>
     <String Target="启动（当前用户） —— %UserProfile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup" Link="Başlatma — HKLM\SYSTEM\CurrentControlSet\Control\Session Manager"/>
+    <String Target="本机启动项 —— HKLM\SYSTEM\CurrentControlSet\Control\Session Manager" Link="Yerel Önyükleme (Native Boot) — HKLM\SYSTEM\CurrentControlSet\Control\Session Manager"/>
     <String Target="隐藏禁用项" Link="Devre dışı bırakılmış ögeler gizlensin"/>
     <String Target="查找" Link="Bul"/>
     <String Target="新用户启动项 —— HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="Yeni Kullanıcılar İçin Başlatma — HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
@@ -726,9 +727,10 @@ Special Thanks to Kaya Zeren(kayazeren@gmail.com)
     <String Target="导入注册表文件过程中遇到问题，具体错误信息请参考 Dism++.log。" Link="Kayıt defteri dosyası içe aktarılırken sorun çıktı. Ayrıntılı bilgi almak için Dism++.log dosyasına bakabilirsiniz."/>
     <String Target="注册表文件" Link="Kayıt Defteri Dosyası"/>
     <String Target="操作成功，但是导入注册表文件过程遇到一些非致命性错误，具体错误信息请参考 Dism++.log。" Link="İşlem tamamlandı. Ancak kayıt defteri dosyası içe aktarılırken bazı kritik olmayan sorunlar çıktı. Ayrıntılı bilgi almak için Dism++.log dosyasına bakabilirsiniz."/>
-    <String Target="提交规则" Link="Hata Bildir"/>
+    <String Target="提交规则" Link="Kural ekle"/>
 
     <!--Explorer-->
+    <String Target="Explorer" Link="Gezgin"/>
     <String Target="将任务栏中的Cortana调整为" Link="Görev çubuğundaki Cortana görünümü"/>
       <String Target="隐藏" Link="Görüntülenmesin"/>
       <String Target="仅显示图标" Link="Arama Simgesi"/>
@@ -1014,6 +1016,7 @@ Special Thanks to Kaya Zeren(kayazeren@gmail.com)
     <String Target="任务栏相关设置" Link="Görev Çubuğu Ayarları"/>
     <String Target="关闭商店应用推广（by 、Cloud.）" Link="Windows Mağaza reklamları devre dışı bırakılsın (Ekleyen: 、Cloud.)"/>
     <String Target="关闭多嘴的小娜（by 朽木）" Link="Cortana devre dışı bırakılsın (Ekleyen: XiuMu)"/>
+    <String Target="显示首次登录动画（by intionwun &amp; 组策略编辑器）" Link="İlk Oturum Açma Animasyonunu Göster-Etkinleştir (Ekleyen: intionwun &amp; Yerel Grup İlkesi Düzenleyicisi)"/>
     <String Target="关闭游戏录制工具（by 、Cloud.）" Link="Oyun kaydedici devre dışı bırakılsın (Ekleyen: 、Cloud.)"/>
     <String Target="启用 Windows 照片查看器（by 心之所向）" Link="Windows Fotoğraf Görüntüleyici etkinleştirilsin (Ekleyen: XingZhiSuoXiang)"/>
     <String Target="安全相关设置" Link="Güvenlik Ayarları"/>
@@ -1036,6 +1039,7 @@ Special Thanks to Kaya Zeren(kayazeren@gmail.com)
     <String Target="遇到弹出窗口时始终在新选项卡中打开弹出窗口（by 溯汐潮）" Link="Yeni sekmelerde her zaman açılan pencereler görüntülensin (Ekleyen: Hell Cabrite)"/>
     <String Target="锁定Internet Explorer工具栏（by 溯汐潮）" Link="Internet Explorer araç çubuğu kilitlensin (Ekleyen: Hell Cabrite)"/>
     <String Target="隐藏NTFS蓝色双箭头压缩标识（by IT之家）" Link="NTFS sıkıştırmasını gösteren çift mavi ok kaplaması gizlensin (Ekleyen: IT Home)"/>
+    <String Target="shift右击时显示在此处打开命令窗口（by sandtechnology）" Link="Shift &amp; Sağ tıklayınca komut penceresini göster (Ekleyen: by sandtechnology)"/>
     <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="Dil Çubuğunda yardım düğmesi gizlensin (Ekleyen: Hell Cabrite)"/>
     <String Target="Windows 7体验" Link="Windows 7 Deneyimi"/>
     <String Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Windows Update zararlı yazılım kaldırma araçlarını kapsamasın (Ekleyen: ‍Winaero)"/>
@@ -1171,6 +1175,10 @@ Special Thanks to Kaya Zeren(kayazeren@gmail.com)
 
     <String Target="Windows临时安装文件" Link="Windows Geçici Kurulum Dosyaları"/>
     <String Target="在系统升级或者还原后留下的系统临时安装文件，如果你确定当前没有进行系统升级或者还原，那么可以安全删除。" Link="Sistem yükseltilirken ya da geri yüklenirken sistem dosyalarının yedeği alınır. Sisteminizi yükseltmediğinize ya da geri yüklemediğinize eminseniz yedekleri silebilirsiniz."/>
+
+    <String Target="IDM临时文件（by MS-PC2）" Link="Internet Download Manager geçici dosyaları (Ekleyen: MS-PC2)"/>
+    <String Target="Internet Download Manager临时下载文件。" Link="Internet Download Manager geçici dosyaları tarafından geride kalmış geçici indirme dosyaları."/>
+    <String Target="清理IDM临时文件可能导致正在下载的任务需要重新下载！" Link="IDM geçici dosyaşarını temizlemek, indirilen görevin tekrar indirilmesine neden olabilir!"/>
 
     <String Target="QQ临时数据" Link="Tencent QQ Geçici Dosyaları"/>
     <String Target="QQ运行时产生的临时文件还有日志，不影响QQ消息记录，建议定期删除。" Link="QQ çalışırken oluşturulan geçici ve günlük dosyaları. Bunların düzenli olarak silinmesi önerilir."/>
