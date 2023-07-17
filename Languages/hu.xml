@@ -1034,7 +1034,7 @@ Special Thanks to szuper@hotmail.hu
     <String Target="将语言栏隐藏到任务拦（by 溯汐潮）" Link="A nyelvi sáv elrejtése a tálcára (Hell Cabrite-től)"/>
     <String Target="快速访问不显示常用文件夹（by 溯汐潮）" Link="Ne jelenítse meg a Gyors hozzáférésben a Gyakran használt mappákat (Hell Cabrite-től)"/>
     <String Target="快速访问不显示最近使用的文件（by 溯汐潮）" Link="Ne jelenítse meg a legutóbb használt fájlokat a Gyors hozzáférés szolgáltatásban (Hell Cabrite-től)"/>
-    <String Target="清理被取代的msp补丁并减少Installer目录的大小。" Link="Frissíti a Windows telepítő javítócsomag fájljai (.MSP) és csökkenti a telepítési könyvtár méretét."/>
+    <String Target="清理被取代的msp补丁并减少Installer 目录的大小。" Link="Frissíti a Windows telepítő javítócsomag fájljai (.MSP) és csökkenti a telepítési könyvtár méretét."/>
     <String Target="禁用账号登录日志报告（by 溯汐潮）" Link="Fiók bejelentkezési naplózásának kikapcsolása (Hell Cabrite-től)"/>
     <String Target="遇到弹出窗口时始终在新选项卡中打开弹出窗口（by 溯汐潮）" Link="Mindig új ablakban jelenítse meg a felugró ablakokat (Hell Cabrite-től)"/>
     <String Target="锁定Internet Explorer工具栏（by 溯汐潮）" Link="Internet Explorer eszköztár rögzítése (Hell Cabrite-től)"/>
@@ -1120,12 +1120,12 @@ Special Thanks to szuper@hotmail.hu
     <String Target="作者的话" Link="A szerző szavai"/>
 
     <!--清理项目条目映射-->
-    <String Target="被取代的WinSxS组件" Link="A helyettesített WinSxS összetevő"/>
+    <String Target="被取代的 WinSxS 组件" Link="A helyettesített WinSxS összetevő"/>
     <String Target="清理被取代的组件并减少组件存储的大小。" Link="A lemezterület megtakarítása érdekében a WinSxS könyvtár tisztítható."/>
     <String Target="清理后将无法卸载更新，如果有卸载更新需求请勿使用此选项。" Link="A telepített Windows-frissítések nem távolíthatók el a művelet befejezése után."/>
     <String Target="清理后将无法卸载更新，此外ResetBase模式跟系统重置功能有冲突，如果有卸载更新或者系统重置需求请勿使用此选项。" Link="A tisztítás után nem lesz képes eltávolítani a frissítést, továbbá a ResetBase mód ellentétes a rendszer visszaállítási funkciójával."/>
 
-    <String Target="被取代的WinSxS组件（非常慢）" Link="WinSxS összetevők cseréje (nagyon lassú)"/>
+    <String Target="被取代的 WinSxS 组件（非常慢）" Link="WinSxS összetevők cseréje (nagyon lassú)"/>
 
     <String Target="过期驱动" Link="Elavult illesztőprogramok"/>
     <String Target="删除计算机中不使用的驱动程序以节省驱动存储池空间。" Link="Távolítsa el a számítógépről a nem használt illesztőprogramokat a meghajtó tárterületének visszanyerése érdekében."/>
@@ -1135,26 +1135,26 @@ Special Thanks to szuper@hotmail.hu
     <String Target="使用利用NTFS硬链接特性合并所有文件内容相同的文件。" Link="Használja az NTFS hard link funkciót az összes fájlhoz, hogy  azonos tartalmú fájlokat egyesítse."/>
     <String Target="某些文件被硬链接合并后可能导致相关功能无法正常使用。" Link="Egyes egyesített fájlok nem fognak megfelelően működni."/>
 
-    <String Target="CompactOs（较慢）" Link="CompactOs (lassabb)"/>
+    <String Target="CompactOS（较慢）" Link="CompactOS (lassabb)"/>
     <String Target="对单纯读取的文件进行哈夫曼压缩，在不影响性能的情况下，显著减少系统体积。特别感谢矿工以及所有Compact团队成员无私的支持与帮助。" Link="Az egyszerűen olvasott fájlok Huffman tömörítése jelentősen csökkenti a rendszer méretét a teljesítmény csökkenése nélkül. Külön köszönet a bányászoknak és a Compact csapat minden tagjának önzetlen támogatásukért és segítségért."/>
     <String Target="使用后可能导致某些程序无法正常运行甚至让系统无法启动，如果使用后出现问题，可以在PE中点击 恢复功能-->撤销Compact。" Link="A használat bizonyos programok meghibásodásához vezethet, vagy nem képes a rendszer elindulni. Ha a használat után problémák merülnek fel, javíthatja a WinPE-ben a &quot;Helyreállítás&quot; > &quot;Soha nem tömörít&quot; használatával."/>
     <String Target="此功能与某些硬盘备份软件不兼容。如果使用后出现问题，可以点击 恢复功能-->撤销Compact。" Link="Ez a funkció nem kompatibilis néhány biztonsági mentési szoftverrel. Ha problémákat tapasztal, kattintson a &quot;Helyreállítás&quot; > &quot;Soha nem tömörít&quot; lehetőségre;."/>
 
-    <String Target="过期Appx应用" Link="Elavult Appx alkalmazás"/>
-    <String Target="在Appx应用升级时，会留下老版本应用，该功能将删除那些不使用的老版本。" Link="Az Appx frissítésekor nem törli a régebbi verziókat. Ez a funkció törölheti a fel nem használt régebbi verziókat (a béta funkció elindíthatja a metróalkalmazást)."/>
+    <String Target="过期 AppX 应用" Link="Elavult Appx alkalmazás"/>
+    <String Target="在 AppX 应用升级时，会留下老版本应用，该功能将删除那些不使用的老版本。" Link="Az Appx frissítésekor nem törli a régebbi verziókat. Ez a funkció törölheti a fel nem használt régebbi verziókat (a béta funkció elindíthatja a metróalkalmazást)."/>
     <String Target="少数用户报告称使用后无法打开Appx应用，需要重新安装Appx应用。" Link="Néhány felhasználó azt mondta a használat után, az Appx nem futtatható. Ilyenkor újra kell telepítenie az Appx-et."/>
 
-    <String Target="系统自带Appx应用" Link="Beépített Microsoft Store alkalmazás"/>
-    <String Target="此功能将移除所有系统自带Appx应用，移除后可以在Windows应用商店重新下载他们。" Link="Ez a funkció eltávolítja az összes rendszerbe ágyazott Appx-t. A Microsoft Store-ból újra letöltheti azokat."/>
+    <String Target="系统自带 AppX 应用" Link="Beépített Microsoft Store alkalmazás"/>
+    <String Target="此功能将移除所有系统自带 AppX 应用，移除后可以在Windows应用商店重新下载他们。" Link="Ez a funkció eltávolítja az összes rendszerbe ágyazott Appx-t. A Microsoft Store-ból újra letöltheti azokat."/>
 
-    <String Target="WinSxS临时文件" Link="WinSxS időleges fájlok"/>
-    <String Target="系统更新时在WinSxS里面产生的临时文件。" Link="A rendszer frissítésekor, a rendszer létrehozza a temp (időleges) fájlokat."/>
+    <String Target="WinSxS 临时文件" Link="WinSxS időleges fájlok"/>
+    <String Target="系统更新时在 WinSxS 里面产生的临时文件。" Link="A rendszer frissítésekor, a rendszer létrehozza a temp (időleges) fájlokat."/>
 
-    <String Target="Windows日志（by chenyu、YukiSakura）" Link="Windows napló (chenyu-tól és YukiSakura-tól)"/>
-    <String Target="Windows在运行时产生的日志。" Link="Windows napló fájlok."/>
+    <String Target="Windows 日志（by chenyu、YukiSakura）" Link="Windows napló (chenyu-tól és YukiSakura-tól)"/>
+    <String Target="Windows 在运行时产生的日志。" Link="Windows napló fájlok."/>
 
-    <String Target="Windows下载缓存" Link="Windows letöltési gyorsítótár"/>
-    <String Target="Windows在下载更新以及更新Metro应用时会在这里产生临时安装包。" Link="Amikor a Windows a frissítéseket tölti le, vagy frissíti a metróalkalmazásokat, akkor a rendszer temp telepítőcsomagokat készít itt"/>
+    <String Target="Windows 下载缓存" Link="Windows letöltési gyorsítótár"/>
+    <String Target="Windows 在下载更新以及更新 Metro 应用时会在这里产生临时安装包。" Link="Amikor a Windows a frissítéseket tölti le, vagy frissíti a metróalkalmazásokat, akkor a rendszer temp telepítőcsomagokat készít itt"/>
 
     <String Target="临时文件" Link="Időleges fájlok"/>
     <String Target="一些程序为特定用户产生的临时文件。" Link="Egy adott felhasználó Temp fájljai."/>
@@ -1163,34 +1163,34 @@ Special Thanks to szuper@hotmail.hu
     <String Target="当程序遇到某些问题时，系统会在这里留下稳定性报告，建议你定期清理。" Link="Amikor a program bizonyos problémákkal szembesül, a rendszer stabilitási jelentést fog hagyni itt, ami a hibára utal. Javasoljuk, hogy rendszeresen ellenőrizze, tisztítsa ki ezeket."/>
 
     <String Target="常见的驱动临时解压目录" Link="Közös illesztőprogramok ideiglenes kicsomagolási könyvtára"/>
-    <String Target="Intel、AMD以及Nvidia驱动在安装时留下的解压目录。" Link="Az Intel, az AMD és az Nvidia illesztőprogramok által a telepítés során készített könyvtár."/>
+    <String Target="Intel、AMD以及 NVIDIA 驱动在安装时留下的解压目录。" Link="Az Intel, az AMD és az NVIDIA illesztőprogramok által a telepítés során készített könyvtár."/>
 
-    <String Target="Terminal Server Client缓存" Link="Terminálkiszolgáló kliens gyorsítótár"/>
+    <String Target="Terminal Server Client 缓存" Link="Terminálkiszolgáló kliens gyorsítótár"/>
     <String Target="Terminal Server Client运行时产生的一些缓存文件。" Link="A Terminálkiszolgáló kliens futásakor, a terminálkiszolgáló kliens elkészíti a gyorsítótárat."/>
 
-    <String Target="以前的Windows系统" Link="Windows Old"/>
+    <String Target="以前的 Windows 系统" Link="Windows Old"/>
     <String Target="在系统升级或者还原后留下的系统备份。" Link="A rendszer frissítése vagy helyreállítása során a rendszer biztonsági mentést készített."/>
     <String Target="删除后你将无法回滚到以前安装的系统。" Link="Törlés után nem lehet visszaállítani a korábbi rendszert."/>
 
-    <String Target="Windows临时安装文件" Link="Windows időleges telepítési fájlok"/>
+    <String Target="Windows 临时安装文件" Link="Windows időleges telepítési fájlok"/>
     <String Target="在系统升级或者还原后留下的系统临时安装文件，如果你确定当前没有进行系统升级或者还原，那么可以安全删除。" Link="A rendszer frissítése vagy visszaállítása után a rendszer ideiglenes telepítőfájlja maradt, ha biztos abban, hogy nincs rendszerfrissítés vagy visszaállítás, biztonságosan törölheti azt."/>
 
-    <String Target="IDM临时文件（by MS-PC2）" Link="Internet Download Manager ideiglenes fájlok (MS-PC2-től)"/>
+    <String Target="IDM 临时文件（by MS-PC2）" Link="Internet Download Manager ideiglenes fájlok (MS-PC2-től)"/>
     <String Target="Internet Download Manager临时下载文件。" Link="Ideiglenes letöltési fájlok, amelyeket az Internet Download Manager ideiglenes fájljai hagynak."/>
     <String Target="清理IDM临时文件可能导致正在下载的任务需要重新下载！" Link="Az ideiglenes IDM fájlok törlése a letöltött fájlok újratöltéséhez vezethet!"/>
 
-    <String Target="QQ临时数据" Link="Tencent QQ ideiglenes fájlok"/>
+    <String Target="QQ 临时数据" Link="Tencent QQ ideiglenes fájlok"/>
     <String Target="QQ运行时产生的临时文件还有日志，不影响QQ消息记录，建议定期删除。" Link="A QQ futásakor generált ideiglenes naplófájlok is vannak, amelyek nem befolyásolják a QQ üzenetek rekordjait. Azt javaslom, hogy rendszeresen törölje őket"/>
 
     <String Target="YY临时文件" Link="YY ideiglenes fájlok"/>
     <String Target="YY运行时产生的一些临时文件以及日志，建议定期删除。" Link="Néhány ideiglenes fájlt és naplót, amelyeket az YY a futásideje alatt generál, rendszeresen törölni kell."/>
 
-    <String Target="Installer基线缓存" Link="Telepítő gyorsítótár"/>
-    <String Target="使用Installer技术的安装程序产生的缓存。" Link="A telepítő által létrehozott gyorsítótár."/>
-    <String Target="可能导致卸载Office、VM等应用程序需要安装包。" Link="Lehet, hogy az alkalmazások, mint például az Office és a VM eltávolítása telepítő csomagot igényel."/>
+    <String Target="Installer 基线缓存" Link="Telepítő gyorsítótár"/>
+    <String Target="使用 Installer 技术的安装程序产生的缓存。" Link="A telepítő által létrehozott gyorsítótár."/>
+    <String Target="可能导致卸载 Office、VMware 等应用程序需要安装包。" Link="Lehet, hogy az alkalmazások, mint például az Office és a VM eltávolítása telepítő csomagot igényel."/>
 
-    <String Target="Visual Studio安装源" Link="Visual Studio telepítési forrása"/>
-    <String Target="安装Visual Studio后产生的安装源，如果不需要卸载VS可以考虑删除。" Link="A Visual Studio telepítése után létrehozott telepítési forrás, ha nem kell eltávolítania a VS-t, megfontolhatja a törlést."/>
+    <String Target="Visual Studio 安装源" Link="Visual Studio telepítési forrása"/>
+    <String Target="安装 Visual Studio 后产生的安装源，如果不需要卸载可以考虑删除。" Link="A Visual Studio telepítése után létrehozott telepítési forrás, ha nem kell eltávolítania a VS-t, megfontolhatja a törlést."/>
     <String Target="清理后将无法卸载只能升级安装或者强行删除。" Link="A tisztítás után nem lehet eltávolítani. Csak törölheti vagy kényszerítheti a törlést."/>
 
     <String Target="Office安装源" Link="Office telepítési forrása"/>
@@ -1200,13 +1200,13 @@ Special Thanks to szuper@hotmail.hu
     <String Target="腾讯相关软件下载目录" Link="Tencenthez kapcsolódó szoftver letöltési könyvtár"/>
     <String Target="腾讯相关软件更新时会在此留下残留。" Link="Amikor Tencent szoftverek frissülnek, maradványok maradnak"/>
 
-    <String Target="XDE缓存文件" Link="XDE gyorsítótár fájlok"/>
-    <String Target="WP开发时保存的一些虚拟机状态文件，不建议频繁清理此条目。" Link="A WP fejlesztésekor a WP mentett néhány virtuális gépállapot fájlt. Nem javasoljuk gyakran tisztítani őket."/>
+    <String Target="XDE 缓存文件" Link="XDE gyorsítótár fájlok"/>
+    <String Target="WP 开发时保存的一些虚拟机状态文件，不建议频繁清理此条目。" Link="A WP fejlesztésekor a WP mentett néhány virtuális gépállapot fájlt. Nem javasoljuk gyakran tisztítani őket."/>
 
-    <String Target="Boot备份信息" Link="Rendszerindító biztonsági mentés"/>
+    <String Target="Boot 备份信息" Link="Rendszerindító biztonsági mentés"/>
     <String Target="修改启动信息后系统会创建备份，方便回滚。如果确定不需要还原则可以删除。" Link="Miután megváltoztatta az indítási információkat, a rendszer létrehozza a biztonsági másolatot, amely könnyen visszaállítható. Ha nem kell visszaállítania, törölheti."/>
 
-    <String Target="PDB缓存文件" Link="PDB gyorsítótár fájlok"/>
+    <String Target="PDB 缓存文件" Link="PDB gyorsítótár fájlok"/>
     <String Target="调试程序时创建的符号缓存，不建议频繁清理此条目。" Link="A hibakeresés során programadatbázis-fájlokat vagy szimbólumfájlokat hoz létre. Ha a fájlok nem szükségesek, a gyorsítótár törölhető."/>
 
     <String Target="微软拼音安装文件" Link="Microsoft Pinyin telepítési fájlok"/>
@@ -1221,9 +1221,9 @@ Special Thanks to szuper@hotmail.hu
     <String Target="回收站" Link="Lomtár"/>
     <String Target="用于存放用户手动删除的文件目录。" Link="A felhasználó által törölt fájlok tárolásához."/>
 
-    <String Target="Office 365/2016安装源" Link="Office 365/2016 telepítési forrás"/>
-    <String Target="安装Office 365/2016后产生的安装源。" Link="Az Office 365/2016 telepítése során a program létrehozta a telepítési forrást"/>
-    <String Target="清理可能导致无法正常卸载Office。" Link="A törlés után nem lehet eltávolítani az Officet valószínűleg."/>
+    <String Target="Office 365/2016 安装源" Link="Office 365/2016 telepítési forrás"/>
+    <String Target="安装 Office 365/2016 后产生的安装源。" Link="Az Office 365/2016 telepítése során a program létrehozta a telepítési forrást"/>
+    <String Target="清理可能导致无法正常卸载 Office。" Link="A törlés után nem lehet eltávolítani az Officet valószínűleg."/>
 
     <String Target="苹果iTunes备份" Link="Apple iTunes biztonsági mentés"/>
     <String Target="苹果相关设备备份文件，比如通讯录、照片、视频等。" Link="Az iOS (vagy MAC) biztonsági mentése. Például névjegyek, fényképek, videók..."/>
@@ -1233,8 +1233,8 @@ Special Thanks to szuper@hotmail.hu
     <String Target="硬链接合并功能留下的备份文件。" Link="A hard link összekapcsolási funkció által hagyott biztonsági mentési fájl."/>
     <String Target="请你确保硬链接合并后系统正常，删除此文件将导致硬链接合并操作无法回滚！" Link="Kérjük, győződjön meg róla, hogy a rendszer normális a hard link összevonása után. A fájl törlése a hard link összekapcsolási műveletét nem állítja vissza!"/>
 
-    <String Target="Windows事件" Link="Windows események"/>
-    <String Target="Windows在运行过程中产生的事件。" Link="A Windows által a futás során generált események."/>
+    <String Target="Windows 事件" Link="Windows események"/>
+    <String Target="Windows 在运行过程中产生的事件。" Link="A Windows által a futás során generált események."/>
 
     <String Target="Dism++非必需文件" Link="Dism++ szükségtelen fájlok"/>
     <String Target="Dism++为了兼容各个环境，在完整包中存放了大量兼容性文件，以兼容各个平台。此功能可以根据当前环境自动删除不需要的文件。" Link="Ahhoz, hogy kompatibilis legyen a különböző környezetekkel, a Dism++ nagyszámú kompatibilitási fájlt tárol a teljes csomagban, hogy kompatibilis legyen a különböző platformokkal. Ez a funkció automatikusan törli a nem kívánt fájlokat az aktuális környezet alapján."/>
@@ -1248,13 +1248,13 @@ Special Thanks to szuper@hotmail.hu
     <String Target="迅雷游戏" Link="Thunder játékok"/>
     <String Target="迅雷游戏安装后所在目录，一般人不需要此程序，可以考虑删除。" Link="A könyvtár, ahol a Thunder jétékok telepítve vannak. Az átlagos felhasználónak nincs szüksége erre a programra, megfontolhatja a törlést."/>
 
-    <String Target="NET程序集缓存（by 大胖子技术员）" Link=".NET assembly gyorsítótár (dpzjsy-től)"/>
-    <String Target="NET程序运行过程中产生的机器代码缓存文件，不建议频繁清理此条目。" Link="A .NET program futtatása során létrehozott gépikód-gyorsítótár-fájl. Nem ajánlott a bejegyzés gyakori tisztítása."/>
+    <String Target=".NET 程序集缓存（by 大胖子技术员）" Link=".NET assembly gyorsítótár (dpzjsy-től)"/>
+    <String Target=".NET 程序运行过程中产生的机器代码缓存文件，不建议频繁清理此条目。" Link="A .NET program futtatása során létrehozott gépikód-gyorsítótár-fájl. Nem ajánlott a bejegyzés gyakori tisztítása."/>
 
-    <String Target="以前的Dism++组件" Link="Előző Dism++ összetevők"/>
-    <String Target="以前版本的Dism++使用的文件。" Link="Ezeket a fájlokat a Dism++ korábbi verziói használják."/>
+    <String Target="旧版 Dism++ 组件" Link="Előző Dism++ összetevők"/>
+    <String Target="旧版 Dism++ 使用的文件。" Link="Ezeket a fájlokat a Dism++ korábbi verziói használják."/>
 
-    <String Target="360浏览器老版本备份" Link="A 360 webböngésző régi verziójának biztonsági mentése"/>
+    <String Target="360 浏览器老版本备份" Link="A 360 webböngésző régi verziójának biztonsági mentése"/>
     <String Target="360浏览器在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="360 webböngésző biztonsági másolata a frissítés utáni problémák visszavonása esetére."/>
 
     <String Target="阿里旺旺老版本备份" Link="Az AliIM régi verziójának biztonsági mentése"/>
@@ -1267,8 +1267,8 @@ Special Thanks to szuper@hotmail.hu
     <String Target="会声会影使用过程中会在此目录产生存档，在不需要后可以删除。" Link="Ulead Video Studio az anyagokat az archívumba menti. Ha ez szükségtelen, törölheti őket."/>
     <String Target="请确保所有编辑的视频已经保存！" Link="Kérjük, győződjön meg róla, hogy az összes szerkesztett videó mentésre került!"/>
 
-    <String Target="Visual Studio智能跟踪（by LP）" Link="Visual Studio IntelliTrace (LP-től)"/>
-    <String Target="Visual Studio调试程序时留下的智能跟踪缓存。" Link="Intelligens nyomkövetési gyorsítótár a Visual Studio programjainak hibakeresésekor."/>
+    <String Target="Visual Studio 智能跟踪（by LP）" Link="Visual Studio IntelliTrace (LP-től)"/>
+    <String Target="Visual Studio 调试程序时留下的智能跟踪缓存。" Link="Intelligens nyomkövetési gyorsítótár a Visual Studio programjainak hibakeresésekor."/>
 
     <String Target="系统以及程序崩溃dmp文件（by YukiSakura）" Link="Rendszer és programok összeomlási memóriaképének mentése (.dmp) fájljai (YukiSakura-tól)"/>
     <String Target="当系统蓝屏或者应用程序崩溃时产生的dmp文件。" Link="A kék képernyős (BSOD) összeomláskor, vagy az alkalmazás összeomlásakor létrehozott .dmp fájl."/>
@@ -1289,44 +1289,44 @@ Special Thanks to szuper@hotmail.hu
     <String Target="英伟达驱动安装后留下的安装源缓存。" Link="Az NVIDIA illesztőprogram telepítése után a telepítési forrás gyorsítótára maradt."/>
     <String Target="此条目可能影响英伟达驱动的卸载。" Link="Ez a bejegyzés befolyásolhatja az NVIDIA illesztőprogram eltávolítását."/>
 
-    <String Target="Windows预读取文件（by 辰g.）" Link="Windows előtöltési fájlok (Cheng g.-től)"/>
+    <String Target="Windows 预读取文件（by 辰g.）" Link="Windows előtöltési fájlok (Cheng g.-től)"/>
     <String Target="用于加速下次程序启动速度，不建议频繁清理此条目。" Link="A következő programindítás felgyorsítására használatos, ezért nem ajánlott gyakran törölni ezt a bejegyzést."/>
 
-    <String Target="Windows更新安装记录" Link="A Windows frissítés telepítési előzményei"/>
-    <String Target="使用Windows Update安装更新后保存的记录。" Link="A frissítés után mentett rekordok telepítéséhez használja a Windows Update programot."/>
+    <String Target="Windows 更新安装记录" Link="A Windows frissítés telepítési előzményei"/>
+    <String Target="使用 Windows Update 安装更新后保存的记录。" Link="A frissítés után mentett rekordok telepítéséhez használja a Windows Update programot."/>
     <String Target="删除后更新历史记录将被清空。" Link="A frissítés előzményei törlődnek a törlés után."/>
 
-    <String Target="Microsoft SQL Server更新缓存（by Honry、撕裂五维空间）" Link="Microsoft SQL Server frissítés gyorsítótár (Honry-tól és SiLieWuWeiKongJian-tól)"/>
+    <String Target="SQL Server 更新缓存（by Honry、撕裂五维空间）" Link="Microsoft SQL Server frissítés gyorsítótár (Honry-tól és SiLieWuWeiKongJian-tól)"/>
     <String Target="安装Microsoft SQL Server补丁残留的安装缓存。" Link="A Microsoft SQL Server telepítésekor telepítenie kell a gyorsítótárat."/>
     <String Target="此条目最新添加，可能引发意外问题！" Link="Ez a funkció hozzáadódik az utolsó kérdéshez!"/>
 
-    <String Target="Adobe Acrobat安装源缓存（by Honry）" Link="Adobe Acrobat telepítési forrás gyorsítótár (Honry-tól)"/>
-    <String Target="安装Adobe Acrobat后留下的安装缓存。" Link="Az Adobe Acrobat telepítése után a telepítő gyorsítótára megmaradt."/>
-    <String Target="删除此条目可能导致Adobe Acrobat无法正常卸载！" Link="A bejegyzés törlése megakadályozhatja az Adobe Acrobat helyes eltávolítását!"/>
+    <String Target="Acrobat 安装源缓存（by Honry）" Link="Adobe Acrobat telepítési forrás gyorsítótár (Honry-tól)"/>
+    <String Target="安装 Acrobat 后留下的安装缓存。" Link="Az Adobe Acrobat telepítése után a telepítő gyorsítótára megmaradt."/>
+    <String Target="删除此条目可能导致 Acrobat 无法正常卸载！" Link="A bejegyzés törlése megakadályozhatja az Adobe Acrobat helyes eltávolítását!"/>
 
     <String Target="小红伞临时文件" Link="Avira ideiglenes fájlok"/>
     <String Target="小红伞在自动升级过程中残留的临时文件。" Link="Ez egy ideiglenes fájl, amelyet az Avira hagyott az automatikus frissítési folyamat során."/>
 
-    <String Target="Chrome浏览器老版本备份（by Honry）" Link="A Chrome webböngésző régi verziójának biztonsági másolata (Honry-tól)"/>
-    <String Target="Chrome浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="A Chrome webböngésző biztonsági másolata a frissítés után, problémák visszavonása esetére."/>
+    <String Target="Chrome 浏览器老版本备份（by Honry）" Link="A Chrome webböngésző régi verziójának biztonsági másolata (Honry-tól)"/>
+    <String Target="Chrome 浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="A Chrome webböngésző biztonsági másolata a frissítés után, problémák visszavonása esetére."/>
 
-    <String Target="Opera浏览器老版本备份（by MS-PC2）" Link="Az Opera webböngésző régi verziójának biztonsági másolata (MS-PC2-től)"/>
-    <String Target="Opera浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Az Opera böngésző frissítése után megmaradt biztonsági mentési fájl, hogy egy estleges hiba esetén visszaállítható legyen a régi verzió."/>
+    <String Target="Opera 浏览器老版本备份（by MS-PC2）" Link="Az Opera webböngésző régi verziójának biztonsági másolata (MS-PC2-től)"/>
+    <String Target="Opera 浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Az Opera böngésző frissítése után megmaradt biztonsági mentési fájl, hogy egy estleges hiba esetén visszaállítható legyen a régi verzió."/>
 
-    <String Target="Microsoft .NET安装缓存（by 撕裂五维空间）" Link="MA Microsoft .NET telepíti a gyorsítótára (SiLieWuWeiKongJian-tól)"/>
-    <String Target="安装Microsoft .NET补丁残留的安装缓存。" Link="Amikor a programok telepítenek javításokat a Microsoft .NET programhoz, a program néhány gyorsítótárat hagy."/>
+    <String Target=".NET 安装缓存（by 撕裂五维空间）" Link="MA Microsoft .NET telepíti a gyorsítótára (SiLieWuWeiKongJian-tól)"/>
+    <String Target="安装 .NET 补丁残留的安装缓存。" Link="Amikor a programok telepítenek javításokat a Microsoft .NET programhoz, a program néhány gyorsítótárat hagy."/>
 
-    <String Target="PPLive老版本备份（by 何超）" Link="A PPLive régi verziójának biztonsági másolata (HeChao-tól)"/>
-    <String Target="PPLive在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="A frissítés előtt PPLive biztonsági mentés fájljai, problémák miatti visszavonás esetére."/>
+    <String Target="PPLive 老版本备份（by 何超）" Link="A PPLive régi verziójának biztonsági másolata (HeChao-tól)"/>
+    <String Target="PPLive 在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="A frissítés előtt PPLive biztonsági mentés fájljai, problémák miatti visszavonás esetére."/>
 
     <String Target="酷狗音乐老版本备份（by 何超）" Link="A Kugou Music régi verziójának biztonsági másolata (HeChao-tól)"/>
     <String Target="酷狗音乐在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Biztonsági mentések, a Kougou Music frissítése utáni problémák miatti vissza állítás esetére."/>
 
-    <String Target="2345拼音输入法老版本备份（by 何超）" Link="A Pinyin IME 2345 régi verziójának biztonsági mentése (HeChao-tól)"/>
-    <String Target="2345拼音输入法在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="A Pinyin IME 2345 biztonsági mentési fájljai a frissítés utáni problémák miatti vissza állítás esetére."/>
+    <String Target="2345 拼音输入法老版本备份（by 何超）" Link="A Pinyin IME 2345 régi verziójának biztonsági mentése (HeChao-tól)"/>
+    <String Target="2345 拼音输入法在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="A Pinyin IME 2345 biztonsági mentési fájljai a frissítés utáni problémák miatti vissza állítás esetére."/>
 
-    <String Target="WPS老版本备份（by Rambin）" Link="A WPS régi verziójának biztonsági mentése (Rambin-tól)"/>
-    <String Target="WPS在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="A WPS által az új verzióra történő frissítéskor elmentett biztonsági mentési fájl. Meghibásodás esetén visszaáll a régi verzióra."/>
+    <String Target="WPS 老版本备份（by Rambin）" Link="A WPS régi verziójának biztonsági mentése (Rambin-tól)"/>
+    <String Target="WPS 在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="A WPS által az új verzióra történő frissítéskor elmentett biztonsági mentési fájl. Meghibásodás esetén visszaáll a régi verzióra."/>
 
     <String Target="系统还原点" Link="Rendszervisszaállítási pont"/>
     <String Target="先删除全部还原点，再创建一个新的还原点(当系统还原已启用时)" Link="Új visszaállítási pontot hoz létre az összes eredeti visszaállítási pont törlése után (csak akkor érhető el, ha a rendszer-visszaállítás engedélyezve van)"/>
@@ -1338,25 +1338,25 @@ Special Thanks to szuper@hotmail.hu
     <String Target="缩略图缓存（当前用户）" Link="Miniatűrkép gyorsítótár (Jelenlegi felhasználó)"/>
 
     <String Target="微软系安软无用文件" Link="Szükségtelen Microsoft szoftverfájlok"/>
-    <String Target="该项目清理WD，MSE，SCEP等微软系安软的无用文件" Link="A projekt megtisztítja a WD, MSE, SCEP és más Microsoft szoftver biztonsági fájlokat"/>
+    <String Target="该项目清理 WD，MSE，SCEP 等微软系安软的无用文件" Link="A projekt megtisztítja a WD, MSE, SCEP és más Microsoft szoftver biztonsági fájlokat"/>
 
-    <String Target="Package Cache目录" Link="Csomaggyorsítótár mappa"/>
-    <String Target="Package Cache目录存放以WIX为基础的安装程序的安装源" Link="Megtisztítja a Csomaggyorsítótár mappáját. A Csomag gyorsítótár mappa tárolja a WIX-alapú telepítő által használt telepítési forrásokat."/>
+    <String Target="Package Cache 目录" Link="Csomaggyorsítótár mappa"/>
+    <String Target="Package Cache 目录存放以 WIX 为基础的安装程序的安装源" Link="Megtisztítja a Csomaggyorsítótár mappáját. A Csomag gyorsítótár mappa tárolja a WIX-alapú telepítő által használt telepítési forrásokat."/>
     <String Target="清理后基于WIX的安装程序例如VS可以正常卸载；但升级、修复、增添组件需要联网或者备好安装镜像" Link="A tisztítás után a WIX-alapú eltávolítót általában is használhatja (például a Visual Studio-ban található), de szüksége lesz egy internetkapcsolatra vagy offline alkalmazásra, ha frissíti, javítja vagy módosítja az alkalmazást"/>
 
-    <String Target="WebPI缓存" Link="WebPI gyorsítótár"/>
+    <String Target="WebPI 缓存" Link="WebPI gyorsítótár"/>
     <String Target="Web平台安装程序的缓存" Link="A webes platform telepítői gyorsítótára"/>
 
-    <String Target="Visual Studio日志" Link="Visual Studio napló fájlok"/>
+    <String Target="Visual Studio 日志" Link="Visual Studio napló fájlok"/>
     <String Target="使用Visual Studio所产生的日志" Link="A Visual Studio naplófájljai"/>
 
-    <String Target="Installer目录" Link="Telepítési könyvtár"/>
+    <String Target="Installer 目录" Link="Telepítési könyvtár"/>
     <String Target="(这是一个实验性功能)清理后将无法卸载被取代的msp更新，如果有卸载更新需求请勿使用此选项。" Link="(Ez egy kísérleti funkció) A tisztítás után a lecserélt .msp frissítések nem távolíthatók el. Ne használja ezt az lehetőséget, ha el kell távolítania a frissítést."/>
 
     <String Target="零售演示离线内容" Link="Kiskereskedelmi bemutató, offline tartalom"/>
     <String Target="为Windows10零售演示模式所缓存的离线内容" Link="Offline tartalom a Windows 10 kiskereskedelmi bemutató módban"/>
 
-    <String Target="WinINet网页缓存" Link="WinINet webes gyorsítótár"/>
+    <String Target="WinINet 网页缓存" Link="WinINet webes gyorsítótár"/>
     <String Target="清理每个用户账户和应用容器下的Windows网络组件（例如IE，Edge）的网页缓存（仅支持默认目录）" Link="Tisztítsa meg a Windows hálózati összetevőinek (például az IE, az Edge) webes gyorsítótárát, minden felhasználói fiók és alkalmazás tároló alatt (csak az alapértelmezett könyvtárban támogatott)"/>
 
     <String Target="WinINet Cookies" Link="WinINet Sütik"/>
@@ -1372,11 +1372,11 @@ Special Thanks to szuper@hotmail.hu
     <String Target="Appx运行时产生的缓存文件，当应用闪退时可尝试清理此选项，可解决大多数闪退问题。" Link="Appx futásidejű gyorsítótárfájlok. Ha az Appx villog, megpróbálhatja megtisztítani őket. A legtöbb esetben a probléma megoldható."/>
 
     <String Target="英伟达驱动安装包（by Ailick）" Link="nVidia illesztőprogram telepítőcsomag (Ailick-től)"/>
-    <String Target="Nvidia Geforce Experience更新程序时产生的安装包。" Link="Az nVidia Geforce Experience ezt a telepítőcsomagot a programok frissítésekor generálja."/>
+    <String Target="NVIDIA Geforce Experience更新程序时产生的安装包。" Link="Az nVidia Geforce Experience ezt a telepítőcsomagot a programok frissítésekor generálja."/>
 
-    <String Target="新版Visual Studio安装源缓存" Link="New Visual Studio gyorsítótár forrás telepítése"/>
-    <String Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="Ez a projekt megtisztítja a Visual Studio 2017 és újabb verzióinak telepítési forrását."/>
-    <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="A Visual Studio 2017 és a későbbi kiadások frissítése, javítása, összetevőinek hozzáadása, hálózati eltávolítása hálózati kapcsolatot igényel."/>
+    <String Target="新版 Visual Studio 安装源缓存" Link="New Visual Studio gyorsítótár forrás telepítése"/>
+    <String Target="该项目清理 Visual Studio 2017+ 的安装源" Link="Ez a projekt megtisztítja a Visual Studio 2017 és újabb verzióinak telepítési forrását."/>
+    <String Target="清理后升级、修复、增添组件、卸载 Visual Studio 2017+ 需要联网" Link="A Visual Studio 2017 és a későbbi kiadások frissítése, javítása, összetevőinek hozzáadása, hálózati eltávolítása hálózati kapcsolatot igényel."/>
 
     <String Target="损坏的Appx" Link="Sérült Appx"/>
     <String Target="清理损坏的Appx。例如Visual Studio的通用应用XAML设计器暴力删除临时生成的设计器应用，于是会出现大量损坏的Appx。" Link="Törli a sérült Appx-et. Például: A Visual Studio XAML Designer programja szigorúan törli az ideiglenes fejlesztői programokat, amelyek számos törött Appx alkalmazást okoznak."/>

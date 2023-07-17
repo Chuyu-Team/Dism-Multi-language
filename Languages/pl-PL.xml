@@ -1034,7 +1034,7 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
     <String Target="将语言栏隐藏到任务栏（by 溯汐潮）" Link="Ukryj &quot;Pasek jêzyka&quot; (by Hell Cabrite)"/>
     <String Target="快速访问不显示常用文件夹（by 溯汐潮）" Link="Nie wyœwietlaj Czesto u¿ywanych Folderów w zak³¹dce Szybki Dostêp (by Hell Cabrite)"/>
     <String Target="快速访问不显示最近使用的文件（by 溯汐潮）" Link="Nie wyœwietlaj ostatnio u¿ywanych plików w zak³¹dce Szybki Dostêp (by Hell Cabrite)"/>
-    <String Target="清理被取代的msp补丁并减少Installer目录的大小。" Link="Czyœæ zast¹pione patch'e msp i zmniejsz rozmiar folderu Instalatora."/>
+    <String Target="清理被取代的msp补丁并减少Installer 目录的大小。" Link="Czyœæ zast¹pione patch'e msp i zmniejsz rozmiar folderu Instalatora."/>
     <String Target="禁用账号登录日志报告（by 溯汐潮）" Link="Wy³¹cz zapisywanie logowania u¿ytkownika (by Hell Cabrite)"/>
     <String Target="遇到弹出窗口时始终在新选项卡中打开弹出窗口（by 溯汐潮）" Link="Zawsze pokazuj pop-up'y w nowej karcie (by Hell Cabrite)"/>
     <String Target="锁定Internet Explorer工具栏（by 溯汐潮）" Link="Zablokuj toolbar Internet Explorer'a (by Hell Cabrite)"/>
@@ -1120,12 +1120,12 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
     <String Target="作者的话" Link="/Od autora"/>
 
     <!--Projekt czyszczenie-->
-    <String Target="被取代的WinSxS组件" Link="Elementy WinSxS"/>
+    <String Target="被取代的 WinSxS 组件" Link="Elementy WinSxS"/>
     <String Target="清理被取代的组件并减少组件存储的大小。" Link="Usuwa zastąpione elementy i zmniejsza rozmiar folderu WinSxS"/>
     <String Target="清理后将无法卸载更新，如果有卸载更新需求请勿使用此选项。" Link="Po użyciu tej opcji nie będzie można odinstalować aktualizaji."/>
     <String Target="清理后将无法卸载更新，此外ResetBase模式跟系统重置功能有冲突，如果有卸载更新或者系统重置需求请勿使用此选项。" Link="Po oczyszczeniu nie będzie można odinstalować aktualizacji. Ponadto tryb ResetBase jest sprzeczny z funkcją resetowania systemu. Proszę nie używać tej opcji, jeśli nie musisz."/>
 
-    <String Target="被取代的WinSxS组件（非常慢）" Link="Elementy WinSxS (b.wolny proces)"/>
+    <String Target="被取代的 WinSxS 组件（非常慢）" Link="Elementy WinSxS (b.wolny proces)"/>
 
     <String Target="过期驱动" Link="Nieaktualne sterowniki"/>
     <String Target="删除计算机中不使用的驱动程序以节省驱动存储池空间。" Link="Usuwa nieaktualne sterowniki w celu zwiększenia miejsca na dysku."/>
@@ -1135,26 +1135,26 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
     <String Target="使用利用NTFS硬链接特性合并所有文件内容相同的文件。" Link="Użycie hardlinku NTFS do połączenia plików o takiej samej zawartość."/>
     <String Target="某些文件被硬链接合并后可能导致相关功能无法正常使用。" Link="Niektóre pliki po połączeniu nie będą działać prawidłowo."/>
 
-    <String Target="CompactOs（较慢）" Link="CompactOs (Powolny proces)"/>
+    <String Target="CompactOS（较慢）" Link="CompactOS (Powolny proces)"/>
     <String Target="对单纯读取的文件进行哈夫曼压缩，在不影响性能的情况下，显著减少系统体积。特别感谢矿工以及所有Compact团队成员无私的支持与帮助。" Link="Skompresowanie plików tylko do odczytu metodą Huffmana, nie ma wpływu na wydajność, zmniejsza widocznie rozmiar systemu."/>
     <String Target="使用后可能导致某些程序无法正常运行甚至让系统无法启动，如果使用后出现问题，可以在PE中点击 恢复功能-->撤销Compact。" Link="zastosowaniu niektóre programy będą działać nieprawidłowo, system może się nie uruchomić. Możesz to naprawić później używając Revovery - Never Compact w WinPE."/>
     <String Target="此功能与某些硬盘备份软件不兼容。如果使用后出现问题，可以点击 恢复功能-->撤销Compact。" Link="Funkcja nie jest zgodna z oprogramowaniem kopii zapasowych. Jeśli wystąpią problemy, kliknij Recorvery Never Compact."/>
 
-    <String Target="过期Appx应用" Link="Przestarzałe aplikacje MetroUI"/>
-    <String Target="在Appx应用升级时，会留下老版本应用，该功能将删除那些不使用的老版本。" Link="Po aktualizacji stare wersje są nie usuwane. Funkcja je usunie, ale może to spowodowć, że aplikacje MetroUI przestaną działać"/>
+    <String Target="过期 AppX 应用" Link="Przestarzałe aplikacje MetroUI"/>
+    <String Target="在 AppX 应用升级时，会留下老版本应用，该功能将删除那些不使用的老版本。" Link="Po aktualizacji stare wersje są nie usuwane. Funkcja je usunie, ale może to spowodowć, że aplikacje MetroUI przestaną działać"/>
     <String Target="少数用户报告称使用后无法打开Appx应用，需要重新安装Appx应用。" Link="W przypadku gdy aplikacji nie można uruchomić wymagana ponowna jej instalacja."/>
 
-    <String Target="系统自带Appx应用" Link="Wbudowane aplikacje Sklepu Windows"/>
-    <String Target="此功能将移除所有系统自带Appx应用，移除后可以在Windows应用商店重新下载他们。" Link="Usuwa wszystkie wbudowane aplikacje systemowe. Można pobrać je ponownie w Windows Store."/>
+    <String Target="系统自带 AppX 应用" Link="Wbudowane aplikacje Sklepu Windows"/>
+    <String Target="此功能将移除所有系统自带 AppX 应用，移除后可以在Windows应用商店重新下载他们。" Link="Usuwa wszystkie wbudowane aplikacje systemowe. Można pobrać je ponownie w Windows Store."/>
 
-    <String Target="WinSxS临时文件" Link="Pliki tymczasowe WinSxS"/>
-    <String Target="系统更新时在WinSxS里面产生的临时文件。" Link="Pliki temp WinSxS, utworzone podczas aktualizacji systemu."/>
+    <String Target="WinSxS 临时文件" Link="Pliki tymczasowe WinSxS"/>
+    <String Target="系统更新时在 WinSxS 里面产生的临时文件。" Link="Pliki temp WinSxS, utworzone podczas aktualizacji systemu."/>
 
-    <String Target="Windows日志（by chenyu、YukiSakura）" Link="Logi Windows (by chenyu, YukiSakura)"/>
-    <String Target="Windows在运行时产生的日志。" Link="Logi Windows."/>
+    <String Target="Windows 日志（by chenyu、YukiSakura）" Link="Logi Windows (by chenyu, YukiSakura)"/>
+    <String Target="Windows 在运行时产生的日志。" Link="Logi Windows."/>
 
-    <String Target="Windows下载缓存" Link="Pamięć podręczna Windows Update"/>
-    <String Target="Windows在下载更新以及更新Metro应用时会在这里产生临时安装包。" Link="Pliki temp Windows utworzone podczas aktualizacji systemu i aplikacji Appx."/>
+    <String Target="Windows 下载缓存" Link="Pamięć podręczna Windows Update"/>
+    <String Target="Windows 在下载更新以及更新 Metro 应用时会在这里产生临时安装包。" Link="Pliki temp Windows utworzone podczas aktualizacji systemu i aplikacji Appx."/>
 
     <String Target="临时文件" Link="Usuwanie plików tymczasowych"/>
     <String Target="一些程序为特定用户产生的临时文件。" Link="Pliki temp użytkowników."/>
@@ -1163,34 +1163,34 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
     <String Target="当程序遇到某些问题时，系统会在这里留下稳定性报告，建议你定期清理。" Link="Gdy system ma problemy, system generuje raport, można usunąć."/>
 
     <String Target="常见的驱动临时解压目录" Link="Wspólny folder temp dla sterowników"/>
-    <String Target="Intel、AMD以及Nvidia驱动在安装时留下的解压目录。" Link="Folder dla rozpakowanych sterowników Intel, AMD, Nvidia, itp."/>
+    <String Target="Intel、AMD以及 NVIDIA 驱动在安装时留下的解压目录。" Link="Folder dla rozpakowanych sterowników Intel, AMD, NVIDIA, itp."/>
 
-    <String Target="Terminal Server Client缓存" Link="Pamięć podręczna Terminal Server Client"/>
+    <String Target="Terminal Server Client 缓存" Link="Pamięć podręczna Terminal Server Client"/>
     <String Target="Terminal Server Client运行时产生的一些缓存文件。" Link="Część cache, którą Client Terminal Server wygenerował podczas pracy."/>
 
-    <String Target="以前的Windows系统" Link="Windows Old"/>
+    <String Target="以前的 Windows 系统" Link="Windows Old"/>
     <String Target="在系统升级或者还原后留下的系统备份。" Link="Kiedy modernizujesz system lub przywracasz, system tworzy kopię zapasową."/>
     <String Target="删除后你将无法回滚到以前安装的系统。" Link="Po usunięciu nie można powrócić systemu do wcześniejszej wersji."/>
 
-    <String Target="Windows临时安装文件" Link="Pliki temp instalatora Windows"/>
+    <String Target="Windows 临时安装文件" Link="Pliki temp instalatora Windows"/>
     <String Target="在系统升级或者还原后留下的系统临时安装文件，如果你确定当前没有进行系统升级或者还原，那么可以安全删除。" Link="System tworzy pliki temp po aktualizacji lub przywraceniu. Jeśli nie są potrzebne, można je usunąć."/>
 
-    <String q="" Target="IDM临时文件（by MS-PC2）" Link="Internet Download Manager temporary files (by MS-PC2)"/>
+    <String q="" Target="IDM 临时文件（by MS-PC2）" Link="Internet Download Manager temporary files (by MS-PC2)"/>
     <String q="" Target="Internet Download Manager临时下载文件。" Link="Temporary download files left by Internet Download Manager temporary files."/>
     <String q="" Target="清理IDM临时文件可能导致正在下载的任务需要重新下载！" Link="Cleaning up IDM temporary files may cause the task being downloaded to be re-downloaded!"/>
 
-    <String Target="QQ临时数据" Link="Pliki temp Tencent QQ"/>
+    <String Target="QQ 临时数据" Link="Pliki temp Tencent QQ"/>
     <String Target="QQ运行时产生的临时文件还有日志，不影响QQ消息记录，建议定期删除。" Link="QQ pozostawił pliki temp i logi kiedy był uruchomiony, można usunąć."/>
 
     <String Target="YY临时文件" Link="Pliki temp YY"/>
     <String Target="YY运行时产生的一些临时文件以及日志，建议定期删除。" Link="YY pozostawił pliki temp i logi kiedy był uruchomiony, można usunąć."/>
 
-    <String Target="Installer基线缓存" Link="Pamięć temp Instatorów"/>
-    <String Target="使用Installer技术的安装程序产生的缓存。" Link="Pliki cache niektórych instalatorów."/>
-    <String Target="可能导致卸载Office、VM等应用程序需要安装包。" Link="Może spowodować błąd dezinstalacji pakietu Office czy VM. Wymagana ponowna instalacja pakietu."/>
+    <String Target="Installer 基线缓存" Link="Pamięć temp Instatorów"/>
+    <String Target="使用 Installer 技术的安装程序产生的缓存。" Link="Pliki cache niektórych instalatorów."/>
+    <String Target="可能导致卸载 Office、VMware 等应用程序需要安装包。" Link="Może spowodować błąd dezinstalacji pakietu Office czy VM. Wymagana ponowna instalacja pakietu."/>
 
-    <String Target="Visual Studio安装源" Link="Pliki źródłowe instalatora Visual Studio"/>
-    <String Target="安装Visual Studio后产生的安装源，如果不需要卸载VS可以考虑删除。" Link="Źródło instalacji po zainstalowaniu programu Visual Studio. Jeśli nie są potrzebne, można je usunąć."/>
+    <String Target="Visual Studio 安装源" Link="Pliki źródłowe instalatora Visual Studio"/>
+    <String Target="安装 Visual Studio 后产生的安装源，如果不需要卸载可以考虑删除。" Link="Źródło instalacji po zainstalowaniu programu Visual Studio. Jeśli nie są potrzebne, można je usunąć."/>
     <String Target="清理后将无法卸载只能升级安装或者强行删除。" Link="Po tym można zainstalować tylko czyszczenie aktualizacji nie można odinstalować lub usunąć"/>
 
     <String Target="Office安装源" Link="Pliki źródłowe instalatora Office"/>
@@ -1200,13 +1200,13 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
     <String Target="腾讯相关软件下载目录" Link="Folder pobierania oprogramowania Tencent."/>
     <String Target="腾讯相关软件更新时会在此留下残留。" Link="Pliki po aktualizacji oprogramowania Tencent."/>
 
-    <String Target="XDE缓存文件" Link="Pliki pamięci temp XDE"/>
-    <String Target="WP开发时保存的一些虚拟机状态文件，不建议频繁清理此条目。" Link="Zapisane pliki stanu pracy maszyn wirtualnych."/>
+    <String Target="XDE 缓存文件" Link="Pliki pamięci temp XDE"/>
+    <String Target="WP 开发时保存的一些虚拟机状态文件，不建议频繁清理此条目。" Link="Zapisane pliki stanu pracy maszyn wirtualnych."/>
 
-    <String Target="Boot备份信息" Link="Kopia plików Boot"/>
+    <String Target="Boot 备份信息" Link="Kopia plików Boot"/>
     <String Target="修改启动信息后系统会创建备份，方便回滚。如果确定不需要还原则可以删除。" Link="Po modyfikacji, podczas startu system informacyjny tworzy kopię, łatwą do przywrócenia. Jeśli nie są potrzebne, można je usunąć."/>
 
-    <String Target="PDB缓存文件" Link="Pliki pamięci temp PDB"/>
+    <String Target="PDB 缓存文件" Link="Pliki pamięci temp PDB"/>
     <String Target="调试程序时创建的符号缓存，不建议频繁清理此条目。" Link="Utworzono podczas awarii cache symbol. Jeśli nie są potrzebne, można je usunąć."/>
 
     <String Target="微软拼音安装文件" Link="Pliki Microsoft pinyin"/>
@@ -1221,9 +1221,9 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
     <String Target="回收站" Link="Kosz"/>
     <String Target="用于存放用户手动删除的文件目录。" Link="Trwałe usunięcie plików."/>
 
-    <String Target="Office 365/2016安装源" Link="Pliki instalatora Office 365/2016"/>
-    <String Target="安装Office 365/2016后产生的安装源。" Link="Pozostałości instalatora pakietu Office 365/2016."/>
-    <String Target="清理可能导致无法正常卸载Office。" Link="Usunięcie może spowodować błąd przy dezinstalacji."/>
+    <String Target="Office 365/2016 安装源" Link="Pliki instalatora Office 365/2016"/>
+    <String Target="安装 Office 365/2016 后产生的安装源。" Link="Pozostałości instalatora pakietu Office 365/2016."/>
+    <String Target="清理可能导致无法正常卸载 Office。" Link="Usunięcie może spowodować błąd przy dezinstalacji."/>
 
     <String Target="苹果iTunes备份" Link="Apple iTunes Backup"/>
     <String Target="苹果相关设备备份文件，比如通讯录、照片、视频等。" Link="Pliki kopii urządzeń Apple, takie jak kontakty, zdjęcia, filmy..."/>
@@ -1233,8 +1233,8 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
     <String Target="硬链接合并功能留下的备份文件。" Link="Scalanie kopii zapasowych."/>
     <String Target="请你确保硬链接合并后系统正常，删除此文件将导致硬链接合并操作无法回滚！" Link="Upewnij się, że systemu działa poprawnie. Uusunięcie tego pliku to operacja nie do odwrócenia!"/>
 
-    <String Target="Windows事件" Link="Windows Events"/>
-    <String Target="Windows在运行过程中产生的事件。" Link="Zdarzenia utworzone w procesie."/>
+    <String Target="Windows 事件" Link="Windows Events"/>
+    <String Target="Windows 在运行过程中产生的事件。" Link="Zdarzenia utworzone w procesie."/>
 
     <String Target="Dism++非必需文件" Link="Niepotrzebne pliki Dism++"/>
     <String Target="Dism++为了兼容各个环境，在完整包中存放了大量兼容性文件，以兼容各个平台。此功能可以根据当前环境自动删除不需要的文件。" Link="Deweloper umieścić pliki kompatybilne z każdym środowiskiem. Funkcja ta może usuwać zbędne pliki."/>
@@ -1248,13 +1248,13 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
     <String Target="迅雷游戏" Link="Thunder Games"/>
     <String Target="迅雷游戏安装后所在目录，一般人不需要此程序，可以考虑删除。" Link="Pozostałości po instalacji, można rozważyć usunięcie."/>
 
-    <String Target="NET程序集缓存（by 大胖子技术员）" Link="Pamięć podręczna NET. (by dpzsjy)"/>
-    <String Target="NET程序运行过程中产生的机器代码缓存文件，不建议频繁清理此条目。" Link="Nie zaleca się często czyścić plików cache NET, mogą wystąpić problemy pamięci podręcznej."/>
+    <String Target=".NET 程序集缓存（by 大胖子技术员）" Link="Pamięć podręczna NET. (by dpzsjy)"/>
+    <String Target=".NET 程序运行过程中产生的机器代码缓存文件，不建议频繁清理此条目。" Link="Nie zaleca się często czyścić plików cache NET, mogą wystąpić problemy pamięci podręcznej."/>
 
-    <String Target="以前的Dism++组件" Link="Stara wersja Dism++"/>
-    <String Target="以前版本的Dism++使用的文件。" Link="Pliki poprzedniej wersji Dism++."/>
+    <String Target="旧版 Dism++ 组件" Link="Stara wersja Dism++"/>
+    <String Target="旧版 Dism++ 使用的文件。" Link="Pliki poprzedniej wersji Dism++."/>
 
-    <String Target="360浏览器老版本备份" Link="Kopia zapasowa przeglądarki 360."/>
+    <String Target="360 浏览器老版本备份" Link="Kopia zapasowa przeglądarki 360."/>
     <String Target="360浏览器在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Pliki kopii zapasowej przeglądarki 360, w razie problemów można cofnąć."/>
 
     <String Target="阿里旺旺老版本备份" Link="Kopia zapasowa AliIM"/>
@@ -1267,8 +1267,8 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
     <String Target="会声会影使用过程中会在此目录产生存档，在不需要后可以删除。" Link="Kopia zapasowa Ulead Video Studio. Jeśli nie są potrzebne, można je usunąć."/>
     <String Target="请确保所有编辑的视频已经保存！" Link="Proszę upewnić się że wszystkie edytowane filmy zostały zapisane!"/>
 
-    <String Target="Visual Studio智能跟踪（by LP）" Link="Visual Studio Intelligent Tracking (by LP)"/>
-    <String Target="Visual Studio调试程序时留下的智能跟踪缓存。" Link="Kopia zapasowa Visual Studio Intelligent Tracking. Jeśli nie są potrzebne, można je usunąć."/>
+    <String Target="Visual Studio 智能跟踪（by LP）" Link="Visual Studio Intelligent Tracking (by LP)"/>
+    <String Target="Visual Studio 调试程序时留下的智能跟踪缓存。" Link="Kopia zapasowa Visual Studio Intelligent Tracking. Jeśli nie są potrzebne, można je usunąć."/>
 
     <String Target="系统以及程序崩溃dmp文件（by YukiSakura）" Link="Pliki DMP (BSOD) (by YukiSakura)"/>
     <String Target="当系统蓝屏或者应用程序崩溃时产生的dmp文件。" Link="Kiedy w systemie występuje blue screen, system tworzy pliki DMP."/>
@@ -1289,44 +1289,44 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
     <String Target="英伟达驱动安装后留下的安装源缓存。" Link="Sterownik NVIDIA pozostawiony po instalacji  zainstalowane źródła pamięci podręcznej."/>
     <String Target="此条目可能影响英伟达驱动的卸载。" Link="Ten wpis może mieć wpływ na odinstalowanie sterownika NVIDIA."/>
 
-    <String Target="Windows预读取文件（by 辰g.）" Link="Pliki Windows prefetch (by Cheng g.)"/>
+    <String Target="Windows 预读取文件（by 辰g.）" Link="Pliki Windows prefetch (by Cheng g.)"/>
     <String Target="用于加速下次程序启动速度，不建议频繁清理此条目。" Link="W celu przyspieszenia uruchamiania programów częste czyszczenie nie jest zalecane."/>
 
-    <String Target="Windows更新安装记录" Link="Historia Windows Update"/>
-    <String Target="使用Windows Update安装更新后保存的记录。" Link="Zapisana historia aktualizacji systemu."/>
+    <String Target="Windows 更新安装记录" Link="Historia Windows Update"/>
+    <String Target="使用 Windows Update 安装更新后保存的记录。" Link="Zapisana historia aktualizacji systemu."/>
     <String Target="删除后更新历史记录将被清空。" Link="Po usunięciu plików, historia aktualizacji zostanie wyczyszczona."/>
 
-    <String Target="Microsoft SQL Server更新缓存（by Honry、撕裂五维空间）" Link="Aktualizacje i pamięć tymczasowa Microsoft SQL Server (by Honry, SiLieWuWeiKongJian)"/>
+    <String Target="SQL Server 更新缓存（by Honry、撕裂五维空间）" Link="Aktualizacje i pamięć tymczasowa Microsoft SQL Server (by Honry, SiLieWuWeiKongJian)"/>
     <String Target="安装Microsoft SQL Server补丁残留的安装缓存。" Link="Pozostałości po instalacji poprawek i pamięci podręcznej programu Microsoft SQL Server pozostałości instalacji."/>
     <String Target="此条目最新添加，可能引发意外问题！" Link="Może doprowadzić do nieoczekiwanych problemów!"/>
 
-    <String Target="Adobe Acrobat安装源缓存（by Honry）" Link="Pliki tymczasowe Adobe Acrobat (by Honry)"/>
-    <String Target="安装Adobe Acrobat后留下的安装缓存。" Link="Pozostałości po instalacji Adobe Acrobat."/>
-    <String Target="删除此条目可能导致Adobe Acrobat无法正常卸载！" Link="Usunięcie tego może spowodować, że Adobe Acrobat nie uruchomi się poprawnie!"/>
+    <String Target="Acrobat 安装源缓存（by Honry）" Link="Pliki tymczasowe Adobe Acrobat (by Honry)"/>
+    <String Target="安装 Acrobat 后留下的安装缓存。" Link="Pozostałości po instalacji Adobe Acrobat."/>
+    <String Target="删除此条目可能导致 Acrobat 无法正常卸载！" Link="Usunięcie tego może spowodować, że Adobe Acrobat nie uruchomi się poprawnie!"/>
 
     <String Target="小红伞临时文件" Link="Pliki tymczasowe Avira."/>
     <String Target="小红伞在自动升级过程中残留的临时文件。" Link="Pliki tymczasowe po aktualizacji Avira."/>
 
-    <String Target="Chrome浏览器老版本备份（by Honry）" Link="Pliki kopii zapasowej starej wersji Chrome Web Browser (by Honry)"/>
-    <String Target="Chrome浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Pliki kopii zapasowej Chrome Web Browser, w razie problemów można cofnąć."/>
+    <String Target="Chrome 浏览器老版本备份（by Honry）" Link="Pliki kopii zapasowej starej wersji Chrome Web Browser (by Honry)"/>
+    <String Target="Chrome 浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Pliki kopii zapasowej Chrome Web Browser, w razie problemów można cofnąć."/>
 
-    <String q="" Target="Opera浏览器老版本备份（by MS-PC2）" Link="Backup files of Opera Web Browser old version (by MS-PC2)"/>
-    <String q="" Target="Opera浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Backup files of Opera Web Browser after upgrade, for rollback in case of problems."/>
+    <String q="" Target="Opera 浏览器老版本备份（by MS-PC2）" Link="Backup files of Opera Web Browser old version (by MS-PC2)"/>
+    <String q="" Target="Opera 浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Backup files of Opera Web Browser after upgrade, for rollback in case of problems."/>
 
-    <String Target="Microsoft .NET安装缓存（by 撕裂五维空间）" Link="Instalacja pamięci podręcznej Microsoft .NET (by SiLieWuWeiKongJian)"/>
-    <String Target="安装Microsoft .NET补丁残留的安装缓存。" Link="Pozostałości po instalacji poprawek dla programu Microsoft .NET."/>
+    <String Target=".NET 安装缓存（by 撕裂五维空间）" Link="Instalacja pamięci podręcznej Microsoft .NET (by SiLieWuWeiKongJian)"/>
+    <String Target="安装 .NET 补丁残留的安装缓存。" Link="Pozostałości po instalacji poprawek dla programu Microsoft .NET."/>
 
-    <String Target="PPLive老版本备份（by 何超）" Link="Pliki kopii zapasowej utworzonej z  starej wersji PPLive (by HeChao)"/>
-    <String Target="PPLive在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Pliki kopii zapasowej PPLive, w razie problemów można cofnąć."/>
+    <String Target="PPLive 老版本备份（by 何超）" Link="Pliki kopii zapasowej utworzonej z  starej wersji PPLive (by HeChao)"/>
+    <String Target="PPLive 在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Pliki kopii zapasowej PPLive, w razie problemów można cofnąć."/>
 
     <String Target="酷狗音乐老版本备份（by 何超）" Link="Pliki kopii zapasowej utworzonej z  starej wersji Kugou Muzycznej (by HeChao)"/>
     <String Target="酷狗音乐在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Pliki kopii zapasowej Kugou, w razie problemów można cofnąć."/>
 
-    <String Target="2345拼音输入法老版本备份（by 何超）" Link="Pliki kopii zapasowej utworzonej z 2345 starej wersji Pinyin IME (by HeChao)"/>
-    <String Target="2345拼音输入法在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Pliki kopii zapasowej Pinyin IME 2345, w razie problemów można cofnąć."/>
+    <String Target="2345 拼音输入法老版本备份（by 何超）" Link="Pliki kopii zapasowej utworzonej z 2345 starej wersji Pinyin IME (by HeChao)"/>
+    <String Target="2345 拼音输入法在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Pliki kopii zapasowej Pinyin IME 2345, w razie problemów można cofnąć."/>
 
-    <String Target="WPS老版本备份（by Rambin）" Link="Pliki kopii zapasowej utworzonej z starej wersji WPS (by Rambin)"/>
-    <String Target="WPS在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Pliki kopii zapasowej WPS, w razie problemów można cofnąć."/>
+    <String Target="WPS 老版本备份（by Rambin）" Link="Pliki kopii zapasowej utworzonej z starej wersji WPS (by Rambin)"/>
+    <String Target="WPS 在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Pliki kopii zapasowej WPS, w razie problemów można cofnąć."/>
 
     <String Target="系统还原点" Link="Punkt przywracania systemu"/>
     <String Target="先删除全部还原点，再创建一个新的还原点(当系统还原已启用时)" Link=" Utwórz nowy punkt przywracania po usunięciu wszystkich starych punktów(Dostępne tylko wtedy, gdy włączona jest funkcja przywracania systemu)"/>
@@ -1338,25 +1338,25 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
     <String Target="缩略图缓存（当前用户）" Link="Bufor miniatur (Aktualny użytkownik)"/>
 
     <String Target="微软系安软无用文件" Link="Zbędne pliki MA's"/>
-    <String Target="该项目清理WD，MSE，SCEP等微软系安软的无用文件" Link="Oczyść Microsoft AntiMalware z niepotrzebnych plików (I.e. WD, MSE and SCEP)"/>
+    <String Target="该项目清理 WD，MSE，SCEP 等微软系安软的无用文件" Link="Oczyść Microsoft AntiMalware z niepotrzebnych plików (I.e. WD, MSE and SCEP)"/>
 
-    <String Target="Package Cache目录" Link="Pakiet Folder Cache"/>
-    <String Target="Package Cache目录存放以WIX为基础的安装程序的安装源" Link="Oczyść folder Pakiet Cache. Folder Pakiet Cache przechowuje pliki wykorzystywane przez instalatora WIX."/>
+    <String Target="Package Cache 目录" Link="Pakiet Folder Cache"/>
+    <String Target="Package Cache 目录存放以 WIX 为基础的安装程序的安装源" Link="Oczyść folder Pakiet Cache. Folder Pakiet Cache przechowuje pliki wykorzystywane przez instalatora WIX."/>
     <String Target="清理后基于WIX的安装程序例如VS可以正常卸载；但升级、修复、增添组件需要联网或者备好安装镜像" Link="Po oczyszczeniu, można nadal używać normalnie deinstalatoraWIX-Based, ale będzie potrzebne połączenie z Internetem lub źródło offline."/>
 
-    <String Target="WebPI缓存" Link="Bufor WebPI"/>
+    <String Target="WebPI 缓存" Link="Bufor WebPI"/>
     <String Target="Web平台安装程序的缓存" Link="Bufor Web Platform Installer"/>
 
-    <String Target="Visual Studio日志" Link="Pliki log Visual Studio"/>
+    <String Target="Visual Studio 日志" Link="Pliki log Visual Studio"/>
     <String Target="使用Visual Studio所产生的日志" Link="Pliki log Visual Studio's"/>
 
-    <String Target="Installer目录" Link="Folder instalacyjny"/>
+    <String Target="Installer 目录" Link="Folder instalacyjny"/>
     <String Target="(这是一个实验性功能)清理后将无法卸载被取代的msp更新，如果有卸载更新需求请勿使用此选项。" Link="(Eksperymentalne) Po czyszczeniu zastąpionych aktualizacji MSP nie będzie można ich odinstalować. Jeśli konieczne będze odinstalowanie aktualizacji proszę nie korzystać z tej opcji."/>
 
     <String Target="零售演示离线内容" Link="Zawartość offline Retail Demo"/>
     <String Target="为Windows10零售演示模式所缓存的离线内容" Link="Nieaktywna tymczasowa Pomoc dla Windows 10 w trybie demonstracyjnym"/>
 
-    <String Target="WinINet网页缓存" Link="WinINet Web Cache"/>
+    <String Target="WinINet 网页缓存" Link="WinINet Web Cache"/>
     <String Target="清理每个用户账户和应用容器下的Windows网络组件（例如IE，Edge）的网页缓存（仅支持默认目录）" Link="Oczyść pmięć podręczną sieci Web z elementów WinINet (I.e. IE, Edge) dla każdego Użytkownika oraz AppContainer (tylko Folder Domyślny)"/>
 
     <String Target="WinINet Cookies" Link="WinINet Cookies"/>
@@ -1372,11 +1372,11 @@ Special thanks to Romuald Marszałek(romuald68@gmail.com), Bladius (KuchtaPC2015
     <String Target="Appx运行时产生的缓存文件，当应用闪退时可尝试清理此选项，可解决大多数闪退问题。" Link="Wykonywalne pliki cache Appx. Jeśli są jakieś kopie, możemy spróbować je wyczyścić. W wielu przypadkach problem może być rozwiązany."/>
 
     <String Target="英伟达驱动安装包（by Ailick）" Link="Pakiet instalacyjny sterownika nVidia (by Ailick)"/>
-    <String Target="Nvidia Geforce Experience更新程序时产生的安装包。" Link="NVIDIA GeForce Experience generuje ten pakiet instalacyjny przy aktualizacji programów."/>
+    <String Target="NVIDIA Geforce Experience更新程序时产生的安装包。" Link="NVIDIA GeForce Experience generuje ten pakiet instalacyjny przy aktualizacji programów."/>
 
-    <String Target="新版Visual Studio安装源缓存" Link="Pamięć podręczna źródła instalacji New Visual Studio"/>
-    <String Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="Czyści Visual Studio 2017 i w późniejszych wersjach źródła instalacji."/>
-    <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="Po oczyszczeniu aktualizacji, naprawie, dodaniu składników i odinstalowaniu należy połączyć się z siecią (Visual Studio 2017 i nowsze wersje)."/>
+    <String Target="新版 Visual Studio 安装源缓存" Link="Pamięć podręczna źródła instalacji New Visual Studio"/>
+    <String Target="该项目清理 Visual Studio 2017+ 的安装源" Link="Czyści Visual Studio 2017 i w późniejszych wersjach źródła instalacji."/>
+    <String Target="清理后升级、修复、增添组件、卸载 Visual Studio 2017+ 需要联网" Link="Po oczyszczeniu aktualizacji, naprawie, dodaniu składników i odinstalowaniu należy połączyć się z siecią (Visual Studio 2017 i nowsze wersje)."/>
 
     <String Target="损坏的Appx" Link="Uszkodzony Appx"/>
     <String Target="清理损坏的Appx。例如Visual Studio的通用应用XAML设计器暴力删除临时生成的设计器应用，于是会出现大量损坏的Appx。" Link="Oczyszcza uszkodzone Appx. Aplikacja ogólnego przeznaczenia usuwa pliki tymczasowe."/>

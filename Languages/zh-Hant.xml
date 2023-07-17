@@ -1041,7 +1041,7 @@ Also please avoid indenting this file using tabulations.
     <String Target="将语言栏隐藏到任务栏（by 溯汐潮）" Link="將語言列隱藏到工作列 (by 溯汐潮)"/>
     <String Target="快速访问不显示常用文件夹（by 溯汐潮）" Link="快速存取不顯示常用資料夾 (by 溯汐潮)"/>
     <String Target="快速访问不显示最近使用的文件（by 溯汐潮）" Link="快速存取不顯示最近使用的檔案 (by 溯汐潮)"/>
-    <String Target="清理被取代的msp补丁并减少Installer目录的大小。" Link="清理被取代的 msp 更新檔並減少 Installer 目錄的大小。"/>
+    <String Target="清理被取代的msp补丁并减少Installer 目录的大小。" Link="清理被取代的 msp 更新檔並減少 Installer 目錄的大小。"/>
     <String Target="禁用账号登录日志报告（by 溯汐潮）" Link="停用帳戶登入日誌報告 (by 溯汐潮)"/>
     <String Target="遇到弹出窗口时始终在新选项卡中打开弹出窗口（by 溯汐潮）" Link="遇到快顯視窗時一律在新分頁中開啟快顯視窗 (by 溯汐潮)"/>
     <String Target="锁定Internet Explorer工具栏（by 溯汐潮）" Link="鎖定 Internet Explorer 工具列 (by 溯汐潮)"/>
@@ -1127,12 +1127,12 @@ Also please avoid indenting this file using tabulations.
     <String Target="作者的话" Link="作者的話"/>
 
     <!--清理项目条目映射-->
-    <String Target="被取代的WinSxS组件" Link="被取代的 WinSxS 元件"/>
+    <String Target="被取代的 WinSxS 组件" Link="被取代的 WinSxS 元件"/>
     <String Target="清理被取代的组件并减少组件存储的大小。" Link="清理被取代的元件並減少元件儲存的大小。"/>
     <String Target="清理后将无法卸载更新，如果有卸载更新需求请勿使用此选项。" Link="清理後將無法移除更新，如果有移除更新需求請勿使用此選項。"/>
     <String Target="清理后将无法卸载更新，此外ResetBase模式跟系统重置功能有冲突，如果有卸载更新或者系统重置需求请勿使用此选项。" Link="清理後將無法解除安裝更新，此外 ResetBase 模式跟系統重置功能有衝突，如果有解除安裝更新或者系統重置需求請勿使用此選項。"/>
 
-    <String Target="被取代的WinSxS组件（非常慢）" Link="被取代的 WinSxS 元件 (非常慢)"/>
+    <String Target="被取代的 WinSxS 组件（非常慢）" Link="被取代的 WinSxS 元件 (非常慢)"/>
 
     <String Target="过期驱动" Link="過期驅動程式"/>
     <String Target="删除计算机中不使用的驱动程序以节省驱动存储池空间。" Link="刪除電腦中不使用的驅動程式以節省驅動程式儲存池空間。"/>
@@ -1142,26 +1142,26 @@ Also please avoid indenting this file using tabulations.
     <String Target="使用利用NTFS硬链接特性合并所有文件内容相同的文件。" Link="NTFS 檔案系統下，對相同的檔案作永久連結合併，此過程速度較慢。"/>
     <String Target="某些文件被硬链接合并后可能导致相关功能无法正常使用。" Link="某些檔案被永久連結合併後，可能導致某些功能無法正常使用。"/>
 
-    <String Target="CompactOs（较慢）" Link="CompactOs (較慢)"/>
+    <String Target="CompactOS（较慢）" Link="CompactOS (較慢)"/>
     <String Target="对单纯读取的文件进行哈夫曼压缩，在不影响性能的情况下，显著减少系统体积。特别感谢矿工以及所有Compact团队成员无私的支持与帮助。" Link="對單純讀取的檔案進行霍夫曼壓縮，在不影響效能的情況下，顯著減少系統容量。 特別感謝礦工以及所有 Compact 團隊成員無私的支援與幫助。"/>
     <String Target="使用后可能导致某些程序无法正常运行甚至让系统无法启动，如果使用后出现问题，可以在PE中点击 恢复功能-->撤销Compact。" Link="目前該功能僅供測試，使用後可能導致系統無法啟動，如果使用後無法啟動系統，可以在 PE 中點選恢復功能，選擇撤銷 Compact。"/>
     <String Target="此功能与某些硬盘备份软件不兼容。如果使用后出现问题，可以点击 恢复功能-->撤销Compact。" Link="此功能與某些硬碟備份軟體不相容。如果使用後出現問題，可以點選 恢復功能-->撤銷 Compact。"/>
 
-    <String Target="过期Appx应用" Link="過期 Appx 應用程式"/>
-    <String Target="在Appx应用升级时，会留下老版本应用，该功能将删除那些不使用的老版本。" Link="在 Appx 應用程式升級時，會留下舊版本應用程式，該功能將刪除那些不使用的舊版本。"/>
+    <String Target="过期 AppX 应用" Link="過期 Appx 應用程式"/>
+    <String Target="在 AppX 应用升级时，会留下老版本应用，该功能将删除那些不使用的老版本。" Link="在 Appx 應用程式升級時，會留下舊版本應用程式，該功能將刪除那些不使用的舊版本。"/>
     <String Target="少数用户报告称使用后无法打开Appx应用，需要重新安装Appx应用。" Link="少數使用者回報稱使用後無法開啟 Metro App，需要重新安裝 Appx 應用程式。"/>
 
-    <String Target="系统自带Appx应用" Link="系統自帶 Appx 應用程式"/>
-    <String Target="此功能将移除所有系统自带Appx应用，移除后可以在Windows应用商店重新下载他们。" Link="此功能將移除所有系統自帶 Appx 應用程式，移除後可以在 Windows 市集重新下載他們。"/>
+    <String Target="系统自带 AppX 应用" Link="系統自帶 Appx 應用程式"/>
+    <String Target="此功能将移除所有系统自带 AppX 应用，移除后可以在Windows应用商店重新下载他们。" Link="此功能將移除所有系統自帶 Appx 應用程式，移除後可以在 Windows 市集重新下載他們。"/>
 
-    <String Target="WinSxS临时文件" Link="WinSxS 暫存檔案"/>
-    <String Target="系统更新时在WinSxS里面产生的临时文件。" Link="系統更新時在 WinSxS 裡面產生的暫存檔案。"/>
+    <String Target="WinSxS 临时文件" Link="WinSxS 暫存檔案"/>
+    <String Target="系统更新时在 WinSxS 里面产生的临时文件。" Link="系統更新時在 WinSxS 裡面產生的暫存檔案。"/>
 
-    <String Target="Windows日志（by chenyu、YukiSakura）" Link="Windows 日誌 (by chenyu、YukiSakura)"/>
-    <String Target="Windows在运行时产生的日志。" Link="Windows 在執行時產生的日誌。"/>
+    <String Target="Windows 日志（by chenyu、YukiSakura）" Link="Windows 日誌 (by chenyu、YukiSakura)"/>
+    <String Target="Windows 在运行时产生的日志。" Link="Windows 在執行時產生的日誌。"/>
 
-    <String Target="Windows下载缓存" Link="Windows 下載快取"/>
-    <String Target="Windows在下载更新以及更新Metro应用时会在这里产生临时安装包。" Link="Windows 在下載更新以及更新 Metro App 時會在這裡產生暫存安裝包。"/>
+    <String Target="Windows 下载缓存" Link="Windows 下載快取"/>
+    <String Target="Windows 在下载更新以及更新 Metro 应用时会在这里产生临时安装包。" Link="Windows 在下載更新以及更新 Metro App 時會在這裡產生暫存安裝包。"/>
 
     <String Target="临时文件" Link="暫存檔案"/>
     <String Target="一些程序为特定用户产生的临时文件。" Link="一些程式為特定使用者產生的暫存檔案。"/>
@@ -1170,34 +1170,34 @@ Also please avoid indenting this file using tabulations.
     <String Target="当程序遇到某些问题时，系统会在这里留下稳定性报告，建议你定期清理。" Link="當程式遇到某些問題時，系統會在這裡留下穩定性報告，建議您定期清理。"/>
 
     <String Target="常见的驱动临时解压目录" Link="常見的驅動程式暫存解壓縮目錄"/>
-    <String Target="Intel、AMD以及Nvidia驱动在安装时留下的解压目录。" Link="Intel、AMD 以及 Nvidia 驅動程式在安裝時留下的解壓縮目錄。"/>
+    <String Target="Intel、AMD以及 NVIDIA 驱动在安装时留下的解压目录。" Link="Intel、AMD 以及 NVIDIA 驅動程式在安裝時留下的解壓縮目錄。"/>
 
-    <String Target="Terminal Server Client缓存" Link="Terminal Server Client 快取"/>
+    <String Target="Terminal Server Client 缓存" Link="Terminal Server Client 快取"/>
     <String Target="Terminal Server Client运行时产生的一些缓存文件。" Link="Terminal Server Client 執行時產生的一些快取檔案。"/>
 
-    <String Target="以前的Windows系统" Link="先前的 Windows 系統"/>
+    <String Target="以前的 Windows 系统" Link="先前的 Windows 系統"/>
     <String Target="在系统升级或者还原后留下的系统备份。" Link="在系統升級或者還原後留下的系統備份。"/>
     <String Target="删除后你将无法回滚到以前安装的系统。" Link="刪除後您將無法回復到先前安裝的系統。"/>
 
-    <String Target="Windows临时安装文件" Link="Windows 暫存安裝檔"/>
+    <String Target="Windows 临时安装文件" Link="Windows 暫存安裝檔"/>
     <String Target="在系统升级或者还原后留下的系统临时安装文件，如果你确定当前没有进行系统升级或者还原，那么可以安全删除。" Link="在系統升級或者還原後留下的系統暫存安裝檔，如果您確定目前沒有進行系統升級或者還原，那麼可以安全刪除。"/>
 
-    <String Target="IDM临时文件（by MS-PC2）" Link="IDM 暫存檔案 (by MS-PC2)"/>
+    <String Target="IDM 临时文件（by MS-PC2）" Link="IDM 暫存檔案 (by MS-PC2)"/>
     <String Target="Internet Download Manager临时下载文件。" Link="Internet Download Manager 暫存下載檔案。"/>
     <String Target="清理IDM临时文件可能导致正在下载的任务需要重新下载！" Link="清理 IDM 暫存檔案可能導致正在下載的作業需要重新下載！"/>
 
-    <String Target="QQ临时数据" Link="QQ 暫存檔案"/>
+    <String Target="QQ 临时数据" Link="QQ 暫存檔案"/>
     <String Target="QQ运行时产生的临时文件还有日志，不影响QQ消息记录，建议定期删除。" Link="QQ 執行時產生的暫存檔案還有日誌，不影響 QQ 訊息記錄，建議定期刪除。"/>
 
     <String Target="YY临时文件" Link="YY 暫存檔案"/>
     <String Target="YY运行时产生的一些临时文件以及日志，建议定期删除。" Link="YY 執行時產生的一些暫存檔案以及日誌，建議定期刪除。"/>
 
-    <String Target="Installer基线缓存" Link="Installer 快取"/>
-    <String Target="使用Installer技术的安装程序产生的缓存。" Link="使用 Installer 技術的安裝程式產生的快取。"/>
-    <String Target="可能导致卸载Office、VM等应用程序需要安装包。" Link="可能導致移除 Office、VM 等應用程式時，缺乏安裝包。"/>
+    <String Target="Installer 基线缓存" Link="Installer 快取"/>
+    <String Target="使用 Installer 技术的安装程序产生的缓存。" Link="使用 Installer 技術的安裝程式產生的快取。"/>
+    <String Target="可能导致卸载 Office、VMware 等应用程序需要安装包。" Link="可能導致移除 Office、VM 等應用程式時，缺乏安裝包。"/>
 
-    <String Target="Visual Studio安装源" Link="Visual Studio 安裝來源"/>
-    <String Target="安装Visual Studio后产生的安装源，如果不需要卸载VS可以考虑删除。" Link="安裝 Visual Studio 後產生的安裝來源，如果不需要移除 VS 可以考慮刪除。"/>
+    <String Target="Visual Studio 安装源" Link="Visual Studio 安裝來源"/>
+    <String Target="安装 Visual Studio 后产生的安装源，如果不需要卸载可以考虑删除。" Link="安裝 Visual Studio 後產生的安裝來源，如果不需要移除 VS 可以考慮刪除。"/>
     <String Target="清理后将无法卸载只能升级安装或者强行删除。" Link="清理後將無法移除只能升級安裝或者強行刪除。"/>
 
     <String Target="Office安装源" Link="Office 安裝來源"/>
@@ -1207,13 +1207,13 @@ Also please avoid indenting this file using tabulations.
     <String Target="腾讯相关软件下载目录" Link="騰訊相關軟體下載目錄"/>
     <String Target="腾讯相关软件更新时会在此留下残留。" Link="騰訊相關軟體更新時會在此留下殘留。"/>
 
-    <String Target="XDE缓存文件" Link="XDE 快取檔案"/>
-    <String Target="WP开发时保存的一些虚拟机状态文件，不建议频繁清理此条目。" Link="WP 開發時儲存的一些虛擬機器狀態檔，不建議經常清理此條目。"/>
+    <String Target="XDE 缓存文件" Link="XDE 快取檔案"/>
+    <String Target="WP 开发时保存的一些虚拟机状态文件，不建议频繁清理此条目。" Link="WP 開發時儲存的一些虛擬機器狀態檔，不建議經常清理此條目。"/>
 
-    <String Target="Boot备份信息" Link="Boot 備份資訊"/>
+    <String Target="Boot 备份信息" Link="Boot 備份資訊"/>
     <String Target="修改启动信息后系统会创建备份，方便回滚。如果确定不需要还原则可以删除。" Link="修改啟動資訊後系統會建立備份，方便回復。 如果確定不需要還原則可以刪除。"/>
 
-    <String Target="PDB缓存文件" Link="PDB 快取檔案"/>
+    <String Target="PDB 缓存文件" Link="PDB 快取檔案"/>
     <String Target="调试程序时创建的符号缓存，不建议频繁清理此条目。" Link="偵錯工具時建立的符號快取，不建議經常清理此條目。"/>
 
     <String Target="微软拼音安装文件" Link="微軟拼音安裝檔"/>
@@ -1228,9 +1228,9 @@ Also please avoid indenting this file using tabulations.
     <String Target="回收站" Link="資源回收筒"/>
     <String Target="用于存放用户手动删除的文件目录。" Link="用於存放使用者手動刪除的檔案目錄。"/>
 
-    <String Target="Office 365/2016安装源" Link="Office 365/2016 安裝來源"/>
-    <String Target="安装Office 365/2016后产生的安装源。" Link="安裝 Office 365/2016 後產生的安裝來源。"/>
-    <String Target="清理可能导致无法正常卸载Office。" Link="清理可能導致無法正常移除 Office。"/>
+    <String Target="Office 365/2016 安装源" Link="Office 365/2016 安裝來源"/>
+    <String Target="安装 Office 365/2016 后产生的安装源。" Link="安裝 Office 365/2016 後產生的安裝來源。"/>
+    <String Target="清理可能导致无法正常卸载 Office。" Link="清理可能導致無法正常移除 Office。"/>
 
     <String Target="苹果iTunes备份" Link="Apple iTunes 備份"/>
     <String Target="苹果相关设备备份文件，比如通讯录、照片、视频等。" Link="Apple 相關裝置檔案備份，如通訊錄、照片、影片等。"/>
@@ -1240,8 +1240,8 @@ Also please avoid indenting this file using tabulations.
     <String Target="硬链接合并功能留下的备份文件。" Link="硬連結合併留下的備份檔案。"/>
     <String Target="请你确保硬链接合并后系统正常，删除此文件将导致硬链接合并操作无法回滚！" Link="請您確認硬連結合併後系統正常，若刪除此檔案，將導致硬連結合併無法復原動作！"/>
 
-    <String Target="Windows事件" Link="Windows 事件"/>
-    <String Target="Windows在运行过程中产生的事件。" Link="Windows 在執行過程中產生的事件。"/>
+    <String Target="Windows 事件" Link="Windows 事件"/>
+    <String Target="Windows 在运行过程中产生的事件。" Link="Windows 在執行過程中產生的事件。"/>
 
     <String Target="Dism++非必需文件" Link="Dism++ 非必要檔案"/>
     <String Target="Dism++为了兼容各个环境，在完整包中存放了大量兼容性文件，以兼容各个平台。此功能可以根据当前环境自动删除不需要的文件。" Link="Dism++ 為了相容各式環境，在完整包中存放了大量相容性檔案，以相容各平台。此功能可以根據目前系統環境，自動刪除不必要檔案。"/>
@@ -1255,13 +1255,13 @@ Also please avoid indenting this file using tabulations.
     <String Target="迅雷游戏" Link="迅雷遊戲"/>
     <String Target="迅雷游戏安装后所在目录，一般人不需要此程序，可以考虑删除。" Link="迅雷遊戲安裝後所在目錄，一般人不需要程式，可以考慮刪除。"/>
 
-    <String Target="NET程序集缓存（by 大胖子技术员）" Link="NET 程式元件快取 (by 大胖子技術員)"/>
-    <String Target="NET程序运行过程中产生的机器代码缓存文件，不建议频繁清理此条目。" Link="NET 程式執行過程中產生的機器代碼快取檔案，不建議經常清理此項目。"/>
+    <String Target=".NET 程序集缓存（by 大胖子技术员）" Link="NET 程式元件快取 (by 大胖子技術員)"/>
+    <String Target=".NET 程序运行过程中产生的机器代码缓存文件，不建议频繁清理此条目。" Link="NET 程式執行過程中產生的機器代碼快取檔案，不建議經常清理此項目。"/>
 
-    <String Target="以前的Dism++组件" Link="先前的 Dism++ 元件"/>
-    <String Target="以前版本的Dism++使用的文件。" Link="先前版本的 Dism++ 使用的檔案。"/>
+    <String Target="旧版 Dism++ 组件" Link="先前的 Dism++ 元件"/>
+    <String Target="旧版 Dism++ 使用的文件。" Link="先前版本的 Dism++ 使用的檔案。"/>
 
-    <String Target="360浏览器老版本备份" Link="360瀏覽器舊版本備份"/>
+    <String Target="360 浏览器老版本备份" Link="360瀏覽器舊版本備份"/>
     <String Target="360浏览器在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="360瀏覽器在升級到新版本後留下的備份檔案，在故障時復原到舊版本。"/>
 
     <String Target="阿里旺旺老版本备份" Link="阿里旺旺舊版本備份"/>
@@ -1274,8 +1274,8 @@ Also please avoid indenting this file using tabulations.
     <String Target="会声会影使用过程中会在此目录产生存档，在不需要后可以删除。" Link="會聲會影使用過程中會在此目錄產生存檔，在不需要後可以刪除。"/>
     <String Target="请确保所有编辑的视频已经保存！" Link="請確保所有編輯的視訊已經儲存！"/>
 
-    <String Target="Visual Studio智能跟踪（by LP）" Link="Visual Studio IntelliTrace (by LP)"/>
-    <String Target="Visual Studio调试程序时留下的智能跟踪缓存。" Link="Visual Studio 偵錯工具時留下的 IntelliTrace 快取。"/>
+    <String Target="Visual Studio 智能跟踪（by LP）" Link="Visual Studio IntelliTrace (by LP)"/>
+    <String Target="Visual Studio 调试程序时留下的智能跟踪缓存。" Link="Visual Studio 偵錯工具時留下的 IntelliTrace 快取。"/>
 
     <String Target="系统以及程序崩溃dmp文件（by YukiSakura）" Link="系統以及程式當機 dmp 檔 (by YukiSakura)"/>
     <String Target="当系统蓝屏或者应用程序崩溃时产生的dmp文件。" Link="當系統藍色畫面或者應用程式當機時產生的 dmp 檔。"/>
@@ -1292,48 +1292,48 @@ Also please avoid indenting this file using tabulations.
     <String Target="Intel驱动安装后留下的安装源缓存。" Link="Intel 驅動程式安裝後留下的安裝來源快取。"/>
     <String Target="此条目可能影响Intel驱动的卸载。" Link="此項目可能影響 Intel 驅動程式的移除。"/>
 
-    <String Target="英伟达驱动安装源缓存（by YukiSakura）" Link="Nvidia 驅動程式安裝來源快取 (by YukiSakura)"/>
-    <String Target="英伟达驱动安装后留下的安装源缓存。" Link="Nvidia 驅動程式安裝後留下的安裝來源快取。"/>
-    <String Target="此条目可能影响英伟达驱动的卸载。" Link="此項目可能影響 Nvidia 驅動程式的移除。"/>
+    <String Target="英伟达驱动安装源缓存（by YukiSakura）" Link="NVIDIA 驅動程式安裝來源快取 (by YukiSakura)"/>
+    <String Target="英伟达驱动安装后留下的安装源缓存。" Link="NVIDIA 驅動程式安裝後留下的安裝來源快取。"/>
+    <String Target="此条目可能影响英伟达驱动的卸载。" Link="此項目可能影響 NVIDIA 驅動程式的移除。"/>
 
-    <String Target="Windows预读取文件（by 辰g.）" Link="Windows prefetch (預先擷取)檔案 (by 辰g.)"/>
+    <String Target="Windows 预读取文件（by 辰g.）" Link="Windows prefetch (預先擷取)檔案 (by 辰g.)"/>
     <String Target="用于加速下次程序启动速度，不建议频繁清理此条目。" Link="用於加速下次程式啟動速度，不建議經常清理此項目。"/>
 
-    <String Target="Windows更新安装记录" Link="Windows 更新安裝記錄"/>
-    <String Target="使用Windows Update安装更新后保存的记录。" Link="使用 Windows Update 安裝更新後儲存的記錄。"/>
+    <String Target="Windows 更新安装记录" Link="Windows 更新安裝記錄"/>
+    <String Target="使用 Windows Update 安装更新后保存的记录。" Link="使用 Windows Update 安裝更新後儲存的記錄。"/>
     <String Target="删除后更新历史记录将被清空。" Link="刪除後更新歷史記錄將被清空。"/>
 
-    <String Target="Microsoft SQL Server更新缓存（by Honry、撕裂五维空间）" Link="Microsoft SQL Server 更新快取 (by Honry、撕裂五维空间)"/>
+    <String Target="SQL Server 更新缓存（by Honry、撕裂五维空间）" Link="Microsoft SQL Server 更新快取 (by Honry、撕裂五维空间)"/>
     <String Target="安装Microsoft SQL Server补丁残留的安装缓存。" Link="安裝 Microsoft SQL Server 更新檔殘留的安裝快取。"/>
     <String Target="此条目最新添加，可能引发意外问题！" Link="此項目最新新增，可能引發意外問題！"/>
 
-    <String Target="Adobe Acrobat安装源缓存（by Honry）" Link="Adobe Acrobat 安裝來源快取 (by Honry)"/>
-    <String Target="安装Adobe Acrobat后留下的安装缓存。" Link="安裝 Adobe Acrobat 後留下的安裝快取。"/>
-    <String Target="删除此条目可能导致Adobe Acrobat无法正常卸载！" Link="刪除此項目可能導致 Adobe Acrobat 無法正常移除！"/>
+    <String Target="Acrobat 安装源缓存（by Honry）" Link="Adobe Acrobat 安裝來源快取 (by Honry)"/>
+    <String Target="安装 Acrobat 后留下的安装缓存。" Link="安裝 Adobe Acrobat 後留下的安裝快取。"/>
+    <String Target="删除此条目可能导致 Acrobat 无法正常卸载！" Link="刪除此項目可能導致 Adobe Acrobat 無法正常移除！"/>
 
     <String Target="小红伞临时文件" Link="Avira 小紅傘暫存檔案"/>
     <String Target="小红伞在自动升级过程中残留的临时文件。" Link="Avira 小紅傘在自動升級過程中殘留的暫存檔案。"/>
 
-    <String Target="Chrome浏览器老版本备份（by Honry）" Link="Chrome 瀏覽器舊版本備份 (by Honry)"/>
-    <String Target="Chrome浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Chrome 瀏覽器升級到新版本後留下的備份檔案，在故障時復原到舊版本。"/>
+    <String Target="Chrome 浏览器老版本备份（by Honry）" Link="Chrome 瀏覽器舊版本備份 (by Honry)"/>
+    <String Target="Chrome 浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Chrome 瀏覽器升級到新版本後留下的備份檔案，在故障時復原到舊版本。"/>
 
-    <String Target="Opera浏览器老版本备份（by MS-PC2）" Link="Opera瀏覽器舊版本備份 (by MS-PC2)"/>
-    <String Target="Opera浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Opera瀏覽器升級到新版本後留下的備份檔案，在故障時復原到舊版本。"/>
+    <String Target="Opera 浏览器老版本备份（by MS-PC2）" Link="Opera瀏覽器舊版本備份 (by MS-PC2)"/>
+    <String Target="Opera 浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Opera瀏覽器升級到新版本後留下的備份檔案，在故障時復原到舊版本。"/>
 
-    <String Target="Microsoft .NET安装缓存（by 撕裂五维空间）" Link="Microsoft .NET 安裝快取 (by 撕裂五維空間)"/>
-    <String Target="安装Microsoft .NET补丁残留的安装缓存。" Link="安裝 Microsoft .NET 更新後，殘留的暫存檔案。"/>
+    <String Target=".NET 安装缓存（by 撕裂五维空间）" Link="Microsoft .NET 安裝快取 (by 撕裂五維空間)"/>
+    <String Target="安装 .NET 补丁残留的安装缓存。" Link="安裝 Microsoft .NET 更新後，殘留的暫存檔案。"/>
 
-    <String Target="PPLive老版本备份（by 何超）" Link="PPlive 舊版本備份 (by 何超)"/>
-    <String Target="PPLive在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="PPlive 在升級到新版本後留下的備份檔案，在故障時復原到舊版本。"/>
+    <String Target="PPLive 老版本备份（by 何超）" Link="PPlive 舊版本備份 (by 何超)"/>
+    <String Target="PPLive 在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="PPlive 在升級到新版本後留下的備份檔案，在故障時復原到舊版本。"/>
 
     <String Target="酷狗音乐老版本备份（by 何超）" Link="酷狗音樂舊版本備份 (by 何超)"/>
     <String Target="酷狗音乐在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="酷狗音樂在升級到新版本後留下的備份檔案，在故障時復原到舊版本"/>
 
-    <String Target="2345拼音输入法老版本备份（by 何超）" Link="2345拼音輸入法舊版本備份 (by 何超)"/>
-    <String Target="2345拼音输入法在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="2345拼音輸入法在升級到新版本後留下的備份檔案，在故障時復原到舊版本。"/>
+    <String Target="2345 拼音输入法老版本备份（by 何超）" Link="2345拼音輸入法舊版本備份 (by 何超)"/>
+    <String Target="2345 拼音输入法在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="2345拼音輸入法在升級到新版本後留下的備份檔案，在故障時復原到舊版本。"/>
 
-    <String Target="WPS老版本备份（by Rambin）" Link="WPS 舊版本備份 (by Rambin)"/>
-    <String Target="WPS在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="WPS 在升級到新版本後留下的備份檔案，在故障時復原到舊版本。"/>
+    <String Target="WPS 老版本备份（by Rambin）" Link="WPS 舊版本備份 (by Rambin)"/>
+    <String Target="WPS 在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="WPS 在升級到新版本後留下的備份檔案，在故障時復原到舊版本。"/>
 
     <String Target="系统还原点" Link="系統還原點"/>
     <String Target="先删除全部还原点，再创建一个新的还原点(当系统还原已启用时)" Link="先刪除所有還原點，再建立一個新的還原點 (當系統還原已啟用時)"/>
@@ -1345,25 +1345,25 @@ Also please avoid indenting this file using tabulations.
     <String Target="缩略图缓存（当前用户）" Link="縮圖快取 (目前使用者)"/>
 
     <String Target="微软系安软无用文件" Link="Microsoft 反惡意程式碼的無用檔案"/>
-    <String Target="该项目清理WD，MSE，SCEP等微软系安软的无用文件" Link="該項目清理 WD，MSE，SCEP 等 Microsoft 反惡意程式碼的無用檔案"/>
+    <String Target="该项目清理 WD，MSE，SCEP 等微软系安软的无用文件" Link="該項目清理 WD，MSE，SCEP 等 Microsoft 反惡意程式碼的無用檔案"/>
 
-    <String Target="Package Cache目录" Link="Package Cache 目錄"/>
-    <String Target="Package Cache目录存放以WIX为基础的安装程序的安装源" Link="Package Cache 目錄存放以 WIX 為基礎的安裝程式的安裝來源"/>
+    <String Target="Package Cache 目录" Link="Package Cache 目錄"/>
+    <String Target="Package Cache 目录存放以 WIX 为基础的安装程序的安装源" Link="Package Cache 目錄存放以 WIX 為基礎的安裝程式的安裝來源"/>
     <String Target="清理后基于WIX的安装程序例如VS可以正常卸载；但升级、修复、增添组件需要联网或者备好安装镜像" Link="清理後基於 WIX 的安裝程式例如 VS 可以正常移除；但升級、修復、增加元件需要有網路或者準備好安裝鏡像"/>
 
-    <String Target="WebPI缓存" Link="WebPI 快取"/>
+    <String Target="WebPI 缓存" Link="WebPI 快取"/>
     <String Target="Web平台安装程序的缓存" Link="Web 平台安裝程式的快取"/>
 
-    <String Target="Visual Studio日志" Link="Visual Studio 日誌"/>
+    <String Target="Visual Studio 日志" Link="Visual Studio 日誌"/>
     <String Target="使用Visual Studio所产生的日志" Link="使用 Visual Studio 所產生的日誌"/>
 
-    <String Target="Installer目录" Link="Installer 目錄"/>
+    <String Target="Installer 目录" Link="Installer 目錄"/>
     <String Target="(这是一个实验性功能)清理后将无法卸载被取代的msp更新，如果有卸载更新需求请勿使用此选项。" Link="(這是一個實驗性功能)清理後將無法解除安裝被取代的 msp 更新，如果有解除安裝更新需求請勿使用此選項。"/>
 
     <String Target="零售演示离线内容" Link="零售演示離線內容"/>
     <String Target="为Windows10零售演示模式所缓存的离线内容" Link="為 Windows10 零售演示模式所快取的離線內容"/>
 
-    <String Target="WinINet网页缓存" Link="WinINet 網頁快取"/>
+    <String Target="WinINet 网页缓存" Link="WinINet 網頁快取"/>
     <String Target="清理每个用户账户和应用容器下的Windows网络组件（例如IE，Edge）的网页缓存（仅支持默认目录）" Link="清理每個使用者帳戶和應用容器下的 Windows 網路元件 (例如IE，Edge) 的網頁快取 (僅支援預設目錄)"/>
 
     <String Target="WinINet Cookies" Link="WinINet Cookies"/>
@@ -1378,12 +1378,12 @@ Also please avoid indenting this file using tabulations.
     <String Target="Appx缓存文件-可解决Appx闪退" Link="Appx 快取檔案-可解決 Appx 閃退"/>
     <String Target="Appx运行时产生的缓存文件，当应用闪退时可尝试清理此选项，可解决大多数闪退问题。" Link="Appx 執行時產生的快取檔案，當程式閃退時可嘗試清理此選項，可解決大多數閃退問題。"/>
 
-    <String Target="英伟达驱动安装包（by Ailick）" Link="Nvidia 驅動程式安裝程式 (by Ailick)"/>
-    <String Target="Nvidia Geforce Experience更新程序时产生的安装包。" Link="Nvidia Geforce Experience 更新程式時產生的安裝包。"/>
+    <String Target="英伟达驱动安装包（by Ailick）" Link="NVIDIA 驅動程式安裝程式 (by Ailick)"/>
+    <String Target="NVIDIA Geforce Experience更新程序时产生的安装包。" Link="NVIDIA Geforce Experience 更新程式時產生的安裝包。"/>
 
-    <String Target="新版Visual Studio安装源缓存" Link="新版 Visual Studio 安裝來源快取"/>
-    <String Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="該專案清理 Visual Studio 2017 及以後版本的安裝來源"/>
-    <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="清理後升級、修復、新增元件、解除安裝 Visual Studio 2017 及之後的版本需要有網路的環境"/>
+    <String Target="新版 Visual Studio 安装源缓存" Link="新版 Visual Studio 安裝來源快取"/>
+    <String Target="该项目清理 Visual Studio 2017+ 的安装源" Link="該專案清理 Visual Studio 2017 及以後版本的安裝來源"/>
+    <String Target="清理后升级、修复、增添组件、卸载 Visual Studio 2017+ 需要联网" Link="清理後升級、修復、新增元件、解除安裝 Visual Studio 2017 及之後的版本需要有網路的環境"/>
 
     <String Target="损坏的Appx" Link="損壞的 Appx"/>
     <String Target="清理损坏的Appx。例如Visual Studio的通用应用XAML设计器暴力删除临时生成的设计器应用，于是会出现大量损坏的Appx。" Link="清理損壞的 Appx。例如 Visual Studio 的通用應用程式 XAML 設計工具強制刪除暫存產生的設計工具應用程式，於是會出現大量損壞的 Appx。"/>

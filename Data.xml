@@ -3,7 +3,7 @@
 <Data>
     <CleanCollection4>
         <!--过期文件-->
-        <Item Name="#被取代的WinSxS组件" Level="2">
+        <Item Name="#被取代的 WinSxS 组件" Level="2">
             <Description>#清理被取代的组件并减少组件存储的大小。</Description>
             <Group>#过期文件</Group>
             <ScanCollection>
@@ -33,7 +33,7 @@
 
                 <!--Windows 10离线，因为离线不能重启避免一些麻烦，离线下关闭Resetbase-->
                 <Scan Work="50">
-                    <Name>#被取代的WinSxS组件（非常慢）</Name>
+                    <Name>#被取代的 WinSxS 组件（非常慢）</Name>
                     <Applicable>
                         <OSVersion Compare=">=">10.0</OSVersion>
                         <Not>
@@ -48,7 +48,7 @@
             </ScanCollection>
         </Item>
 
-        <Item Name="#以前的Windows系统" Level="2">
+        <Item Name="#以前的 Windows 系统" Level="2">
             <Description>#在系统升级或者还原后留下的系统备份。</Description>
             <Warning>#删除后你将无法回滚到以前安装的系统。</Warning>
             <Group>#过期文件</Group>
@@ -64,8 +64,8 @@
             </Scan>
         </Item>
 
-        <Item Name="#以前的Dism++组件" Level="3">
-            <Description>#以前版本的Dism++使用的文件。</Description>
+        <Item Name="#旧版 Dism++ 组件" Level="3">
+            <Description>#旧版 Dism++ 使用的文件。</Description>
             <Group>#过期文件</Group>
             <Scan>
                 <Applicable>
@@ -108,7 +108,7 @@
             </Scan>
         </Item>
 
-        <Item Name="#360浏览器老版本备份" Level="2">
+        <Item Name="#360 浏览器老版本备份" Level="2">
             <Description>#360浏览器在升级到新版本后留下的备份文件，在故障时回滚到老版本。</Description>
             <Group>#过期文件</Group>
             <Scan>
@@ -159,8 +159,8 @@
             </Scan>
         </Item>
 
-        <Item Name="#Chrome浏览器老版本备份（by Honry）" Level="2">
-            <Description>#Chrome浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。</Description>
+        <Item Name="#Chrome 浏览器老版本备份（by Honry）" Level="2">
+            <Description>#Chrome 浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。</Description>
             <Group>#过期文件</Group>
             <Scan>
                 <Applicable>
@@ -195,8 +195,8 @@
             </Scan>
         </Item>
 
-        <Item Name="#Opera浏览器老版本备份（by MS-PC2）" Level="2">
-            <Description>#Opera浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。</Description>
+        <Item Name="#Opera 浏览器老版本备份（by MS-PC2）" Level="2">
+            <Description>#Opera 浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。</Description>
             <Group>#过期文件</Group>
             <Scan>
                 <Applicable>
@@ -225,8 +225,8 @@
             </Scan>
         </Item>
 
-        <Item Name="#PPLive老版本备份（by 何超）" Level="2">
-            <Description>#PPLive在升级到新版本后留下的备份文件，在故障时回滚到老版本。</Description>
+        <Item Name="#PPLive 老版本备份（by 何超）" Level="2">
+            <Description>#PPLive 在升级到新版本后留下的备份文件，在故障时回滚到老版本。</Description>
             <Group>#过期文件</Group>
             <Scan>
                 <Applicable>
@@ -278,7 +278,7 @@
         </Item>
 
         <Item Name="#WPS 老版本备份（by Rambin）" Level="2">
-            <Description>#WPS在升级到新版本后留下的备份文件，在故障时回滚到老版本。</Description>
+            <Description>#WPS 在升级到新版本后留下的备份文件，在故障时回滚到老版本。</Description>
             <Group>#过期文件</Group>
             <Scan>
                 <Applicable>
@@ -295,8 +295,8 @@
         </Item>
 
         <!--系统相关-->
-        <Item Name="#系统自带 Appx 应用" Level="2">
-            <Description>#此功能将移除所有系统自带Appx应用，移除后可以在Windows应用商店重新下载他们。</Description>
+        <Item Name="#系统自带 AppX 应用" Level="2">
+            <Description>#此功能将移除所有系统自带 AppX 应用，移除后可以在Windows应用商店重新下载他们。</Description>
             <Group>#系统相关</Group>
             <Scan Work="4">
                 <Applicable>
@@ -324,7 +324,7 @@
         </Item>
 
         <Item Name="#Windows 事件" Level="3">
-            <Description>#Windows在运行过程中产生的事件。</Description>
+            <Description>#Windows 在运行过程中产生的事件。</Description>
             <Group>#系统相关</Group>
             <ScanCollection>
                 <Scan Type="Custom">
@@ -344,7 +344,7 @@
         </Item>
 
         <Item Name="#Windows 更新安装记录" Level="2">
-            <Description>#使用Windows Update安装更新后保存的记录。</Description>
+            <Description>#使用 Windows Update 安装更新后保存的记录。</Description>
             <Warning>#删除后更新历史记录将被清空。</Warning>
             <Group>#系统相关</Group>
             <Scan>
@@ -453,7 +453,7 @@
             </Scan>
         </Item>
 
-        <Item Name="#Windows下载缓存" Level="2">
+        <Item Name="#Windows 下载缓存" Level="2">
             <Description>#Windows 在下载更新以及更新 Metro 应用时会在这里产生临时安装包。</Description>
             <Group>#缓存文件</Group>
             <ScanCollection>
@@ -817,7 +817,7 @@
         <!--临时文件-->
 
         <Item Name="#WinSxS 临时文件" Level="3">
-            <Description>#系统更新时在WinSxS里面产生的临时文件。</Description>
+            <Description>#系统更新时在 WinSxS 里面产生的临时文件。</Description>
             <Group>#临时文件</Group>
             <Scan>
                 <Activate>
@@ -828,7 +828,7 @@
         </Item>
 
         <Item Name="#Windows 日志（by chenyu、YukiSakura）" Level="3">
-            <Description>#Windows在运行时产生的日志。</Description>
+            <Description>#Windows 在运行时产生的日志。</Description>
             <Group>#临时文件</Group>
             <Scan>
                 <Activate>
@@ -1243,8 +1243,8 @@
             </Scan>
         </Item>
 
-        <Item Name="#过期Appx应用" Level="0">
-            <Description>#在Appx应用升级时，会留下老版本应用，该功能将删除那些不使用的老版本。</Description>
+        <Item Name="#过期 AppX 应用" Level="0">
+            <Description>#在 AppX 应用升级时，会留下老版本应用，该功能将删除那些不使用的老版本。</Description>
             <Warning>#少数用户报告称使用后无法打开 Appx 应用，需要重新安装 Appx 应用。</Warning>
             <Group>#过期文件</Group>
             <Scan Work="4">
@@ -1258,7 +1258,7 @@
             </Scan>
         </Item>
 
-        <Item Name="#Installer基线缓存" Level="0">
+        <Item Name="#Installer 基线缓存" Level="0">
             <Description>#使用 Installer 技术的安装程序产生的缓存。</Description>
             <Warning>#可能导致卸载 Office、VMWare 等应用程序需要安装包。</Warning>
             <Group>#系统相关</Group>
@@ -1403,7 +1403,7 @@
         </Item>
 
         <Item Name="#英伟达驱动安装包（by Ailick）" Level="1">
-            <Description>#Nvidia Geforce Experience更新程序时产生的安装包。</Description>
+            <Description>#NVIDIA Geforce Experience更新程序时产生的安装包。</Description>
             <Warning>#此条目可能影响英伟达驱动的卸载。</Warning>
             <Group>#临时文件</Group>
             <Scan>

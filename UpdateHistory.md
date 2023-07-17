@@ -254,7 +254,7 @@
   - 深度整合M2-SDK库（因为其他M2工具不再用到该库，但该库一旦修改，github对应部
     分会同步）
   - 删除无用代码
-  - 修复新版Visual Studio安装源缓存清理的日志输出Bug
+  - 修复新版 Visual Studio 安装源缓存清理的日志输出Bug
   - 整理并优化代码
   - 修改编译选项（根据新版VC-LTL文档）
   - 添加损坏的AppX在线清理（清理损坏的AppX。例如Visual Studio的通用应用XAML设计
@@ -1286,7 +1286,7 @@ DisableInstallUpdate=1
 - 新增FEA 51，增加春哥附体，允许无视权限运行其他程序。在工具箱 --> 春哥附体
 - 新增FEA，启动项管理，允许调整系统开机启动项（与系统msconfig行为一致）以及服务
   管理
-- 新增FEA，Windows事件清理（在空间回收，感谢 毛利提供）
+- 新增FEA，Windows 事件清理（在空间回收，感谢 毛利提供）
 - 体验改进：退出程序时增加退出提示（如果当前有任务正在进行）
 - 体验改进：大幅度提高会话打开速度
 - 新增ARM/ARM64平台支持（仅离线处理）
@@ -1405,7 +1405,7 @@ DisableInstallUpdate=1
 - 改进ESD转ISO，将临时文件设置在ISO所在目录，避免PE系统无法转换问题
 - 新增系统引导类型识别 传统BIOS启动的系统，会显示Bios Firmware，UEFI则显示UEFI 
   Firmware
-- 空间回收新增CompactOs支持，启用后直接将目标系统转换为CompactOS，减少系统体积
+- 空间回收新增CompactOS支持，启用后直接将目标系统转换为CompactOS，减少系统体积
 - Compact压缩时自动忽略已经压缩的文件
 - 新增Compact撤销选项
 - 解决二处Compact压缩后系统无法启动问题
