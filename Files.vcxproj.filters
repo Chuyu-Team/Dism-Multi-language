@@ -268,7 +268,7 @@
     <Text Include="ThirdParty.md">
       <Filter>资源文件</Filter>
     </Text>
-    <Text Include="HeplerDism.md">
+    <Text Include="HelperDism.md">
       <Filter>资源文件</Filter>
     </Text>
   </ItemGroup>
