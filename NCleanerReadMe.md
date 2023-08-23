@@ -59,9 +59,9 @@ Dism++的组件
 - 整理并优化代码
 - 修改编译选项
     - 根据新版VC-LTL文档
-- 添加损坏的AppX在线清理
-    - 清理损坏的AppX。例如Visual Studio的通用应用XAML设计器暴力删除临时生成的设计
-    器应用，于是会出现大量损坏的AppX
+- 添加损坏的 Appx在线清理
+    - 清理损坏的 Appx。例如Visual Studio的通用应用XAML设计器暴力删除临时生成的设计
+    器应用，于是会出现大量损坏的 Appx
 
 **NCleaner 1.0.3.4**
 

@@ -25,7 +25,7 @@
                         <OSVersion Compare=">=">10.0</OSVersion>
                         <ImageFlags>1</ImageFlags>
                     </Applicable>
-                    <Warning>#清理后将无法卸载更新，此外ResetBase模式跟系统重置功能有冲突，如果有卸载更新或者系统重置需求请勿使用此选项。</Warning>
+                    <Warning>#清理后将无法卸载更新，此外 ResetBase 模式跟系统重置功能有冲突，如果有卸载更新或者系统重置需求请勿使用此选项。</Warning>
                     <Activate>
                         <Custom ProcName="DismComponentCleanup" Flags="#1" />
                     </Activate>
@@ -296,7 +296,7 @@
 
         <!--系统相关-->
         <Item Name="#系统自带 AppX 应用" Level="2">
-            <Description>#此功能将移除所有系统自带 AppX 应用，移除后可以在Windows应用商店重新下载他们。</Description>
+            <Description>#此功能将移除所有系统自带 AppX 应用，移除后可以在 Microsoft Store 重新下载他们。</Description>
             <Group>#系统相关</Group>
             <Scan Work="4">
                 <Applicable>
@@ -386,7 +386,7 @@
         </Item>
 
         <Item Name="#损坏的 Appx" Level="2">
-            <Description>#清理损坏的Appx。例如Visual Studio的通用应用XAML设计器暴力删除临时生成的设计器应用，于是会出现大量损坏的Appx。</Description>
+            <Description>#清理损坏的 Appx。例如Visual Studio的通用应用XAML设计器暴力删除临时生成的设计器应用，于是会出现大量损坏的 Appx。</Description>
             <Group>#系统相关</Group>
             <Scan>
                 <Applicable>
@@ -599,7 +599,7 @@
             <Group>#缓存文件</Group>
             <ScanCollection>
                 <Scan Type="Custom">
-                    <Name>#缩略图缓存(需重启 explorer)</Name>
+                    <Name>#缩略图缓存（需重启 explorer）</Name>
                     <Description>#缩略图缓存（当前用户）</Description>
                     <Applicable>
                         <ImageFlags>1</ImageFlags>
@@ -904,7 +904,7 @@
         </Item>
 
         <Item Name="#常见的驱动临时解压目录" Level="3">
-            <Description>#Intel、AMD 以及 NVIDIA 驱动在安装时留下的解压目录。</Description>
+            <Description>#Intel/AMD/NVIDIA 驱动在安装时留下的解压目录。</Description>
             <Group>#临时文件</Group>
             <Scan>
                 <Applicable>
@@ -959,41 +959,32 @@
             </Scan>
         </Item>
 
-        <Item Name="Fiddler Everywhere 安装包缓存（by KaiHuaDou）" Level="2">
-            <Description>#Fiddler Everywhere 安装时产生的安装包临时文件</Description>
+        <Item Name="Electron 应用安装包缓存（by GuihongWang）" Level="2">
+            <Description>#Electron 应用安装时产生的安装包临时文件</Description>
             <Group>#临时文件</Group>
             <Scan>
                 <Applicable>
-                    <FileExist FilePath="%UserProfile%\AppData\Local\fiddler-everywhere-updater" />
+                    <Or>
+                        <FileExist FilePath="%UserProfile%\AppData\Local\*-updater" />
+                        <FileExist FilePath="%UserProfile%\AppData\Roaming\*-updater" />
+                    </Or>
                 </Applicable>
                 <Activate>
-                    <General RootPath="%UserProfile%\AppData\Local\fiddler-everywhere-updater" />
+                    <General RootPath="%UserProfile%\AppData\Local\*-updater" />
+                    <General RootPath="%UserProfile%\AppData\Roaming\*-updater" />
                 </Activate>
             </Scan>
         </Item>
 
-        <Item Name="新版 XMind 安装包缓存（by KaiHuaDou）" Level="2">
-            <Description>#新版 XMind 安装时产生的安装包临时文件</Description>
-            <Group>#临时文件</Group>
+        <Item Name="新版 Edge 安装包缓存（by GuihongWang）" Level="2">
+            <Description>#新版 Edge 安装时产生的安装包临时文件</Description>
+            <Group>#缓存文件</Group>
             <Scan>
                 <Applicable>
-                    <FileExist FilePath="%UserProfile%\AppData\Local\xmind-updater" />
+                    <FileExist FilePath="%ProgramFilesX86%\Microsoft\EdgeUpdate\Download" />
                 </Applicable>
                 <Activate>
-                    <General RootPath="%UserProfile%\AppData\Local\xmind-updater" />
-                </Activate>
-            </Scan>
-        </Item>
-
-        <Item Name="阿里云盘客户端安装包缓存（by KaiHuaDou）" Level="2">
-            <Description>#阿里云盘客户端安装时产生的安装包临时文件</Description>
-            <Group>#临时文件</Group>
-            <Scan>
-                <Applicable>
-                    <FileExist FilePath="%UserProfile%\AppData\Local\adrive-desktop-updater" />
-                </Applicable>
-                <Activate>
-                    <General RootPath="%UserProfile%\AppData\Local\adrive-desktop-updater" />
+                    <General RootPath="%ProgramFilesX86%\Microsoft\EdgeUpdate\Download" />
                 </Activate>
             </Scan>
         </Item>
@@ -1011,6 +1002,18 @@
             </Scan>
         </Item>
 
+        <Item Name="网易云音乐安装包缓存（by GuihongWang）" Level="2">
+            <Description>#网易云音乐安装时产生的安装包临时文件</Description>
+            <Group>#缓存文件</Group>
+            <Scan>
+                <Applicable>
+                    <FileExist FilePath="%UserProfile%\AppData\Local\Netease\CloudMusic\update" />
+                </Applicable>
+                <Activate>
+                    <General RootPath="%UserProfile%\AppData\Local\Netease\CloudMusic\update" />
+                </Activate>
+            </Scan>
+        </Item>
 
         <Item Name="#QQ 临时数据" Level="2">
             <Description>#QQ 运行时产生的临时文件还有日志，不影响 QQ 消息记录，建议定期删除。</Description>
@@ -1222,7 +1225,7 @@
         </Item>
 
         <Item Name="#硬链接合并（较慢）" Level="0">
-            <Description>#使用利用NTFS硬链接特性合并所有文件内容相同的文件。</Description>
+            <Description>#使用利用 NTFS 硬链接特性合并所有文件内容相同的文件。</Description>
             <Warning>#某些文件被硬链接合并后可能导致相关功能无法正常使用。</Warning>
             <Group>#系统相关</Group>
             <Scan Work="40">
@@ -1245,7 +1248,7 @@
 
         <Item Name="#过期 AppX 应用" Level="0">
             <Description>#在 AppX 应用升级时，会留下老版本应用，该功能将删除那些不使用的老版本。</Description>
-            <Warning>#少数用户报告称使用后无法打开 Appx 应用，需要重新安装 Appx 应用。</Warning>
+            <Warning>#少数用户报告称使用后无法打开 AppX 应用，需要重新安装 AppX 应用。</Warning>
             <Group>#过期文件</Group>
             <Scan Work="4">
                 <Applicable>
@@ -1356,8 +1359,8 @@
         </Item>
 
         <Item Name="#Java 安装源缓存（by YukiSakura）" Level="0">
-            <Description>#Java安装后留下的安装源缓存。</Description>
-            <Warning>#此条目可能影响Java的卸载。</Warning>
+            <Description>#Java 安装后留下的安装源缓存。</Description>
+            <Warning>#此条目可能影响 Java 的卸载。</Warning>
             <Group>#缓存文件</Group>
             <Scan>
                 <Applicable>
@@ -1374,8 +1377,8 @@
         </Item>
 
         <Item Name="#Intel 驱动安装源缓存（by YukiSakura）" Level="0">
-            <Description>#Intel驱动安装后留下的安装源缓存。</Description>
-            <Warning>#此条目可能影响Intel驱动的卸载。</Warning>
+            <Description>#Intel 驱动安装后留下的安装源缓存。</Description>
+            <Warning>#此条目可能影响 Intel 驱动的卸载。</Warning>
             <Group>#缓存文件</Group>
             <Scan>
                 <Applicable>

@@ -131,7 +131,7 @@
 **Dism++ 10.1.1000.50 13:13 2017/10/15**
 - 解决BUG，任务栏时钟精确到秒优化规则适用性检测错误，应该只能在Win10中显示（感
   谢 流星剑）
-- 解决BUG 237，收起资源管理器功能区优化项初始条件检测错误问题。（感谢 
+- 解决BUG 237，收起资源管理器功能区优化项初始条件检测错误问题。（感谢
   Roger-WIN）
 - 解决BUG，解决Vista无法正常使用更新清理问题。（感谢 魏 燕聪）
 - 解决BUG，调整360安全卫士的检测方式。
@@ -237,7 +237,7 @@
       （感谢 000）
   - 逻辑修复
     - 改进Dism++对Windows Vista的兼容（感谢 毛利）
-    - 解决BUG 111，解决Windows Update无法离线扫描Windows 10 15063问题（感谢 
+    - 解决BUG 111，解决Windows Update无法离线扫描Windows 10 15063问题（感谢
       Roger-WIN、预谋）
     - 解决BUG 107，打开特殊ISO导致Dism++崩溃问题
     - 解决BUG 106，开启DisableInstallUpdate参数时，Windows Update崩溃问题
@@ -257,8 +257,8 @@
   - 修复新版 Visual Studio 安装源缓存清理的日志输出Bug
   - 整理并优化代码
   - 修改编译选项（根据新版VC-LTL文档）
-  - 添加损坏的AppX在线清理（清理损坏的AppX。例如Visual Studio的通用应用XAML设计
-    器暴力删除临时生成的设计器应用，于是会出现大量损坏的AppX）
+  - 添加损坏的 Appx在线清理（清理损坏的 Appx。例如Visual Studio的通用应用XAML设计
+    器暴力删除临时生成的设计器应用，于是会出现大量损坏的 Appx）
 - Data.zip Ver 2017-06-17
   - 调整 显示开始菜单、任务栏、操作中心和标题栏的颜色 等级，所有Windows 10均显
     示（感谢 Cloud）
@@ -307,7 +307,7 @@
 - default.ui.zip Ver 2017-04-09
   - 适配最新UI
 - Data.zip Ver 2017-04-16
-  - 针对1703屏蔽 显示开始菜单、任务栏、操作中心和标题栏的颜色（感谢 
+  - 针对1703屏蔽 显示开始菜单、任务栏、操作中心和标题栏的颜色（感谢
     q1953555067）
 - Languages Ver 2017-04-16
   - en.zip English Resource，Thanks Frag
@@ -408,7 +408,7 @@
 
 **Dism++ 10.1.21.4 16:11 2017/2/12**
 - Dism++(x86/x64).exe Ver 10.1.21.4
-  - 新增FEA，增加150XX 分段ESD(UUP)转ISO功能以及释放映像功能（暂不支持Windows 
+  - 新增FEA，增加150XX 分段ESD(UUP)转ISO功能以及释放映像功能（暂不支持Windows
     7）
   - 新增FEA，格式化时保留卷标（由 咸鱼 提供）
   - 新增FEA，改进系统名称识别方式，兼容Windows 10 Starter/Cloud系统
@@ -450,10 +450,10 @@
   - 适配新版本的CBSHost.dll
 - Duilib.dll Ver 10.1.21.3
   - UI控件添加触摸屏支持（感谢 Hikari&nbsp;Calyx 提供平板设备）
-- Data.xml Ver 2017-01-15 
+- Data.xml Ver 2017-01-15
   - 添加 Installer清理项目以及英伟达安装文件
 - 多国语言翻译更新
-  - Thanks Richard Kahl, franz@drwindows.de, Frag, JP.Sudret, Massimiliano F., 
+  - Thanks Richard Kahl, franz@drwindows.de, Frag, JP.Sudret, Massimiliano F.,
     山形まり花, OldMac, WinClub.pl, Vasiliy Nasonov, 月下独酌
 
 **Dism++ 10.1.21.2C 20:57 2017/1/11**
@@ -465,7 +465,7 @@
   - 修复BUG，解决在空间回收不断点击 刷新 按钮可能导致程序崩溃问题
   - 避开系统BUG，由于Windows 10 14986系统 GetHandleInformation API BUG存在问
     题，导致Dism++文件虚拟化崩溃，现在已经避开 对 GetHandleInformation 的调用。
-- Data.xml Ver 2017-01-07 
+- Data.xml Ver 2017-01-07
   - 调整规则说明，响应规则提供者要求 将 雪姬 全部替换为 溯汐潮。
 
 **Dism++ 10.1.21.2 16:00 2017/1/7**
@@ -488,12 +488,12 @@
   - 同步最新的M2库
   - 减少模块体积
   - 解决某些古董级CPU不支持某些指令集崩溃问题
-- default.ui.zip Ver 2017-01-06 
+- default.ui.zip Ver 2017-01-06
   - 调整UI，适应新版本
-- Data.xml Ver 2017-01-06 
+- Data.xml Ver 2017-01-06
   - 年度规则扩充（感谢 大胖子、雪姬、dfc643）
 - 多国语言翻译更新 Ver 2017-01-07
-  - Thanks for Richard Kahl, franz@drwindows.de, Frag, Hexhu, JP.Sudret, 
+  - Thanks for Richard Kahl, franz@drwindows.de, Frag, Hexhu, JP.Sudret,
     Massimiliano F., 山形まり花, OldMac, WinClub.pl, Vasiliy Nasonov, 月下独酌
 
 **Dism++ 10.1.21.1B(1125) 19:17 2016/12/28**
@@ -623,7 +623,7 @@
 - Dism++(x86/x64).exe Ver 10.1.17.1：
   - 行为调整，崩溃时增加崩溃模块信息输出。
   - 修复BUG，解决更新元数据并发访问时，导致程序崩溃（感谢 辉哥）
-  - 修复BUG，解决Windows Update更新下载大小未纳入快速体验包大小（感谢 
+  - 修复BUG，解决Windows Update更新下载大小未纳入快速体验包大小（感谢
     1650***614 ）
   - 新增FEA，补丁下载新增Url导出功能
   - 修复BUG，解决bcdboot工作判断不正常，导致错误的弹窗警告
@@ -642,7 +642,7 @@
   - 行为调整，更新引入Tag机制，以免手动更新时提示降级问题（Fix by mingkuang）
   - 行为调整，默认引导挂掉时，Dism++引导修复后需要多按F9才能启动系统，现在修复
     引导后Dism++将会把修复的系统设置为默认（感谢 风无痕）
-  - 行为调整，修复引导时，如果提示BCD损坏，则自动删除BCD文件夹然后重建（感谢 
+  - 行为调整，修复引导时，如果提示BCD损坏，则自动删除BCD文件夹然后重建（感谢
     风无痕）
 - DuiLib.dll Ver 10.1.17.1：
   - 同步CppHealper最新代码
@@ -683,7 +683,7 @@
   删除Appx，将导致卸载不全问题。现在Dism++已经添加Windows异步部署感知，来解决此
   问题（责任老猫）
 - 修正BUG，Windows Update反复扫描时，偶尔发生崩溃问题
-- 修正BUG，文件浏览器直接选择计算机，确定后可能导致程序崩溃问题（感谢 
+- 修正BUG，文件浏览器直接选择计算机，确定后可能导致程序崩溃问题（感谢
   盗墓笔记）
 - 修正BUG，解决一定概率导致安装更新时第一次失败，第二次才成功BUG
 - 修正BUG，解决重新载入头标题未更新问题（感谢 夏虫）
@@ -725,7 +725,7 @@
 
 **Dism++ 10.1.11.3 20:08 2016/9/18**
 - 由于Windows 10 14393 ADK BUG，回滚部分组件至10586
-- en.xml, fr.xml,ja.xml, ru.xml, zhan-Hant.xml升级，改进多国语言翻译（感谢 
+- en.xml, fr.xml,ja.xml, ru.xml, zhan-Hant.xml升级，改进多国语言翻译（感谢
   Frag，JP.Sudret，山形まり花, Vasiliy Nasonov，月下独酌）
 
 **Dism++ 10.1.11.2(933) 12:16 2016/9/17**
@@ -749,7 +749,7 @@ DisableInstallUpdate=1
   - 修复BUG，解决安装msi更新时，Dism++崩溃问题（感谢 灰大狼）
   - 修复BUG，解决任务完成后未刷新任务栏进度条状态问题（感谢 و我要呵呵哈嘿）
   - 修复BUG，解决x86系统无法正常处理x64系统问题（感谢 巢鍋鍋）
-  - 修复BUG，解决安全模式下使用Appx清理时，所有Metro应用被删除（感谢 
+  - 修复BUG，解决安全模式下使用Appx清理时，所有Metro应用被删除（感谢
     YukiSakura 反馈）
   - 修复BUG，解决安装Office补丁时可能会自动重启计算机问题（感谢 ReinForce-I）
   - 修复BUG，解决Windows Update初始化可能发生的崩溃问题（感谢 咸鱼）
@@ -770,7 +770,7 @@ DisableInstallUpdate=1
   - 新增FEA，Windows Update扫描引入4级缓存机制，显著提升扫描速度
   - 新增FEA，文件下载添加断点续传支持
   - Data.xml规则更新，解决酷狗被误杀问题（感谢 花未『眠）
-  - en.xml, fr.xml,ja.xml, ru.xml, zhan-Hant.xml升级，改进多国语言翻译（感谢 
+  - en.xml, fr.xml,ja.xml, ru.xml, zhan-Hant.xml升级，改进多国语言翻译（感谢
     Frag，JP.Sudret，山形まり花, Vasiliy Nasonov，月下独酌）
 
 **Dism++10.1.9.4(883) 10:15 2016/9/14**
@@ -819,7 +819,7 @@ DisableInstallUpdate=1
   Data.xml（Dism++规则库）另一种通过Update.xml（Dism++自动更新元数据）。
 - 行为调整，改进Windows 10的版本识别（感谢 ╰殇夏 oSUMMER）
 - 新增FEA，添加国际化支持，支持离线调整Windows语言、键盘布局等
-- 更新日语、朝鲜语、俄语、繁体中文翻译（感谢 山形まり花、阿泽西、Vasiliy 
+- 更新日语、朝鲜语、俄语、繁体中文翻译（感谢 山形まり花、阿泽西、Vasiliy
   Nasonov、virus、月下独酌）
 
 **Dism++ 10.1.6.5B 10:24 2016/7/19**
@@ -843,7 +843,7 @@ DisableInstallUpdate=1
 **Dism++ 10.1.6.3C 10:18 2016/7/13(786)**
 - Data.xml库文件更新，添加14388 by 原罪、雪寂、chengshidong1259
 - wsusscn2.cab库文件更新，添加Windows Update 2016年7月13日新增更新，并删除（
-  KB2952664、KB2976978、KB2977759、KB3170735、KB3163589、KB3173040）6个Windows 
+  KB2952664、KB2976978、KB2977759、KB3170735、KB3163589、KB3173040）6个Windows
   10升级广告弹窗以及静默部署工具更新
 
 **Dism++ 10.1.6.3B 19:35 2016/7/11(786)**
@@ -898,7 +898,7 @@ DisableInstallUpdate=1
 
 **Dism++ 10.1.6.1E 10:37 2016/6/23(729)**
 - 添加Windows 10 14371解密Key（感谢 MrMagic）
-- 多国语言翻译更新（感谢 阿泽西、Frag、JP Student、山形まり花、Vasiliy 
+- 多国语言翻译更新（感谢 阿泽西、Frag、JP Student、山形まり花、Vasiliy
   Nasonov、月下独酌）
   - 也希望各种语言大神能为Dism++国际化支持添砖加瓦 : )
 
@@ -955,7 +955,7 @@ DisableInstallUpdate=1
 - 修复BUG，使用Appx相关功能后将AppxAllUserStore.dll文件占用导致离线时某些更新安
   装失败（感谢 352XXX944）
 - 修复BUG，某些时候备份激活时提示文件被占用。
-- 新增FEA，Provisioned Appx管理（等效Dism APPX 服务命令）、文件关联（等效Dism 
+- 新增FEA，Provisioned Appx管理（等效Dism APPX 服务命令）、文件关联（等效Dism
   默认关联命令）、预应答功能（等效Dism IBSProvider.dll）
 - 多国语言翻译更新（感谢 阿泽西、Frag、Vasiliy Nasonov、月下独酌）
 - 程序调整，Windows Update补丁数据库删除Win7大补丸（KB3125574）
@@ -992,7 +992,7 @@ DisableInstallUpdate=1
 **Dism++ 10.1.5.3 Release 14:58 2016/5/21(644)**
 - 修复BUG，不支持SSE2指令集的CPU无法运行Dism++问题。(感谢 Thomas Schneider)
 - 修复BUG，为PE/RE系统进行引导修复时导致程序崩溃（感谢 シ包泡糖o0）
-- 修复BUG，ISO制作器确定按钮以及RE配置时部分文字未翻译问题（感谢 Vasiliy 
+- 修复BUG，ISO制作器确定按钮以及RE配置时部分文字未翻译问题（感谢 Vasiliy
   Nasonov）
 - 修复BUG，UI同步问题可能导致程序崩溃（感谢 爤菜頭）
 - 修复BUG，zip数据异常时导致程序崩溃问题。
@@ -1104,11 +1104,11 @@ DisableInstallUpdate=1
 - 解决BUG，Windows更新清理提示拒绝访问问题（感谢 一叶微风TM）
 - 解决BUG，已安装的更新中添加IE11 exe安装包时未添加IE语言包问题（感谢 XX）
 - 解决BUG，WIM创建日期变成了UTC时间未转换为本地时间问题。
-- 显著增强插件多国语言支持（感谢 mdlgaofei、Mouri_Naruto、jamesfuh、Vasiliy 
+- 显著增强插件多国语言支持（感谢 mdlgaofei、Mouri_Naruto、jamesfuh、Vasiliy
   Nasonov、ZT为多国语言翻译辛勤的付出，也希望更多人能为Dism++添砖加瓦~）
 - 春哥附体添加命令行支持，比如 春哥附体启动regedit，让regedit无视权限访问注册
   表，如下：（具体请输入 /? 获得详细帮助）
-  - Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode 
+  - Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode
     regedit
 - 剔除韩语翻译，因为找不到合适的人翻译韩语 T - T
 - PS：现在的人是怎么了？喷子都不会做？什么叫喷子？喷子简单说就是敢于提出不足的
@@ -1135,7 +1135,7 @@ DisableInstallUpdate=1
 
 **Dism++ 10.1.4.8 Release3 14:51 2016/4/3**
 - 合并台湾、俄罗斯翻译（感谢 jamesfuh、Vladimir）
-- 升级Windows Update数据库同步至2016-04-03，并增加Windows 7 Embedded、Windows 
+- 升级Windows Update数据库同步至2016-04-03，并增加Windows 7 Embedded、Windows
   2016 TP4信息
 - Dism++规则日常更新
 
@@ -1277,7 +1277,7 @@ DisableInstallUpdate=1
   Dism++搞定
 - 改进WimBoot支持，即使不是哈夫曼压缩的WIM文件也能制作成WimBoot启动（ESD依然不
   支持直接变成WimBoot）
-- 新增功能，空间回收新增 Dism++非必需文件 项目，自动根据当前环境删除无用文件
+- 新增功能，空间回收新增 Dism++ 非必需文件 项目，自动根据当前环境删除无用文件
 - 新增功能，扩充ESD解密KEY（Windows 10 11082 感谢原罪）
 - 解决BUG 40：由于未写入PBR导致引导修复后无法启动
 - 解决BUG 41：因为文件占用无法删除Windows.old问题
@@ -1403,7 +1403,7 @@ DisableInstallUpdate=1
   Compact系统问题，解决Win7启动画面变成滚动条问题）
 - 改进引导修复，新增MBR引导写入
 - 改进ESD转ISO，将临时文件设置在ISO所在目录，避免PE系统无法转换问题
-- 新增系统引导类型识别 传统BIOS启动的系统，会显示Bios Firmware，UEFI则显示UEFI 
+- 新增系统引导类型识别 传统BIOS启动的系统，会显示Bios Firmware，UEFI则显示UEFI
   Firmware
 - 空间回收新增CompactOS支持，启用后直接将目标系统转换为CompactOS，减少系统体积
 - Compact压缩时自动忽略已经压缩的文件

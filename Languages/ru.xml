@@ -1124,7 +1124,7 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <String Target="被取代的 WinSxS 组件" Link="Замененные WinSxS компоненты"/>
     <String Target="清理被取代的组件并减少组件存储的大小。" Link="Очистка замененных компонентов и уменьшение размера хранилища компонентов."/>
     <String Target="清理后将无法卸载更新，如果有卸载更新需求请勿使用此选项。" Link="Очистка не удалит обновление. Если требуется удалить обновление - не используйте эту опцию."/>
-    <String Target="清理后将无法卸载更新，此外ResetBase模式跟系统重置功能有冲突，如果有卸载更新或者系统重置需求请勿使用此选项。" Link="Обновления не могут быть удалены после очистки. Кроме того, режим ResetBase конфликтует с функцией сброса системы. Не используйте эту опцию если Вы удаляете обновления или требуется сброс системы."/>
+    <String Target="清理后将无法卸载更新，此外 ResetBase 模式跟系统重置功能有冲突，如果有卸载更新或者系统重置需求请勿使用此选项。" Link="Обновления не могут быть удалены после очистки. Кроме того, режим ResetBase конфликтует с функцией сброса системы. Не используйте эту опцию если Вы удаляете обновления или требуется сброс системы."/>
 
     <String Target="被取代的 WinSxS 组件（非常慢）" Link="Замененные WinSxS компоненты (Медленно)"/>
 
@@ -1133,7 +1133,7 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <String Target="该功能对于某些精简系统或者手动处理过驱动的系统可能发生驱动签名问题。" Link="Возможно, эта функция приведет к проблемам с цифровой подписью драйверов на некоторых урезанных системах или системах, обработанных вручную."/>
 
     <String Target="硬链接合并（较慢）" Link="Слияние жестких ссылок (Медленно)"/>
-    <String Target="使用利用NTFS硬链接特性合并所有文件内容相同的文件。" Link="Использовать NTFS для замены одних и тех же файлов жесткими ссылками на один единственный файл."/>
+    <String Target="使用利用 NTFS 硬链接特性合并所有文件内容相同的文件。" Link="Использовать NTFS для замены одних и тех же файлов жесткими ссылками на один единственный файл."/>
     <String Target="某些文件被硬链接合并后可能导致相关功能无法正常使用。" Link="Некоторые файлы после такого замещения могут не работать должным образом."/>
 
     <String Target="CompactOS（较慢）" Link="CompactOS (Медленно)"/>
@@ -1143,10 +1143,10 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
 
     <String Target="过期 AppX 应用" Link="Устаревшие Аррх приложения"/>
     <String Target="在 AppX 应用升级时，会留下老版本应用，该功能将删除那些不使用的老版本。" Link="Удаление устаревших версий уже обновленных Appx приложений Windows."/>
-    <String Target="少数用户报告称使用后无法打开Appx应用，需要重新安装Appx应用。" Link="В случае неработоспособности некоторых Appx приложений потребуется их переустановка."/>
+    <String Target="少数用户报告称使用后无法打开 AppX 应用，需要重新安装 AppX 应用。" Link="В случае неработоспособности некоторых Appx приложений потребуется их переустановка."/>
 
     <String Target="系统自带 AppX 应用" Link="Предустановленные с системой Appx приложения"/>
-    <String Target="此功能将移除所有系统自带 AppX 应用，移除后可以在Windows应用商店重新下载他们。" Link="Будут удалены все приложения Appx, предустановленные с системой. После удаления они могут быть повторно загружены в Магазине Windows."/>
+    <String Target="此功能将移除所有系统自带 AppX 应用，移除后可以在 Microsoft Store 重新下载他们。" Link="Будут удалены все приложения Appx, предустановленные с системой. После удаления они могут быть повторно загружены в Магазине Windows."/>
 
     <String Target="WinSxS 临时文件" Link="WinSxS временные файлы"/>
     <String Target="系统更新时在 WinSxS 里面产生的临时文件。" Link="WinSxS временные файлы, созданные во время обновления системы."/>
@@ -1164,7 +1164,7 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <String Target="当程序遇到某些问题时，系统会在这里留下稳定性报告，建议你定期清理。" Link="Сохраненная информация об ошибках и возникших проблемах программ и системы. Рекомендуется регулярно очищать."/>
 
     <String Target="常见的驱动临时解压目录" Link="Временная папка для распаковки драйверов"/>
-    <String Target="Intel、AMD以及 NVIDIA 驱动在安装时留下的解压目录。" Link="Общая временная папка для распаковки драйверов Intel, AMD и NVIDIA."/>
+    <String Target="Intel/AMD/NVIDIA 驱动在安装时留下的解压目录。" Link="Общая временная папка для распаковки драйверов Intel, AMD и NVIDIA."/>
 
     <String Target="Terminal Server Client 缓存" Link="Кэш клиента сервера терминалов"/>
     <String Target="Terminal Server Client运行时产生的一些缓存文件。" Link="Некоторые кэш-файлы, генерируемые во время выполнения клиента сервера терминалов."/>
@@ -1183,7 +1183,7 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <String Target="QQ 临时数据" Link="QQ временные файлы"/>
     <String Target="QQ运行时产生的临时文件还有日志，不影响QQ消息记录，建议定期删除。" Link="Во время запуска QQ генерируются временные файлы и файлы журналов. Не влияют на записи сообщений QQ. Рекомендуется периодически удалять."/>
 
-    <String Target="YY临时文件" Link="YY временные файлы"/>
+    <String Target="YY 临时文件" Link="YY временные файлы"/>
     <String Target="YY运行时产生的一些临时文件以及日志，建议定期删除。" Link="Во время работы YY генерируются временные файлы и файл журнала. Рекомендуется регулярно удалять."/>
 
     <String Target="Installer 基线缓存" Link="Базовый кэш установщика"/>
@@ -1194,8 +1194,8 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <String Target="安装 Visual Studio 后产生的安装源，如果不需要卸载可以考虑删除。" Link="Источник установки, создаваемый после установки Visual Studio. Удаляйте, если не планируете удаление Visual Studio."/>
     <String Target="清理后将无法卸载只能升级安装或者强行删除。" Link="После очистки Вы не сможете выполнить удаление. Может быть выполнено только обновление или принудительное удаление."/>
 
-    <String Target="Office安装源" Link="Источник установки Office"/>
-    <String Target="安装Office后产生的安装源，如果不需要卸载Office可以考虑删除，删除后能正常安装Office更新。" Link="Источник установки, создаваемый после установки Office. Удаляйте, если не планируете удаление Office."/>
+    <String Target="Office 安装源" Link="Источник установки Office"/>
+    <String Target="安装 Office 后产生的安装源，如果不需要卸载 Office 可以考虑删除，删除后能正常安装 Office 更新。" Link="Источник установки, создаваемый после установки Office. Удаляйте, если не планируете удаление Office."/>
     <String Target="清理后将无法卸载只能升级安装或者强行删除，Office 2007以下版本（包含）删除后还影响安装更新。" Link="После очистки Вы не сможете выполнить удаление. Может быть выполнено только обновление до новой версии или принудительное удаление. Если у Вас установлен Office 2007 или более ранняя версия - это может повлиять на установку обновлений."/>
 
     <String Target="腾讯相关软件下载目录" Link="Каталог загрузки Tencent"/>
@@ -1226,7 +1226,7 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <String Target="安装 Office 365/2016 后产生的安装源。" Link="Источник установки, создаваемый после установки Office 365/2016."/>
     <String Target="清理可能导致无法正常卸载 Office。" Link="После очистки Вы не сможете выполнить удаление Office обычным способом."/>
 
-    <String Target="苹果iTunes备份" Link="Резервные копии iTunes"/>
+    <String Target="苹果 iTunes 备份" Link="Резервные копии iTunes"/>
     <String Target="苹果相关设备备份文件，比如通讯录、照片、视频等。" Link="Связанное с устройствами Apple резервное копирование файлов, таких как Контакты, Фотографии, Видео и т.п."/>
     <String Target="请你确保暂时不需要使用恢复功能，如果你现在需要恢复苹果设备，请勿勾选此项目！" Link="Убедитесь, что Вы не будете использовать функцию восстановления iOS (или MAC). Если в настоящее время требуется восстановить устройство Apple - не выбирайте данный пункт!"/>
 
@@ -1237,10 +1237,10 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <String Target="Windows 事件" Link="События Windows"/>
     <String Target="Windows 在运行过程中产生的事件。" Link="События Windows, которые регистрируются в процессе работы."/>
 
-    <String Target="Dism++非必需文件" Link="Необязательные файлы Dism++"/>
+    <String Target="Dism++ 非必需文件" Link="Необязательные файлы Dism++"/>
     <String Target="Dism++为了兼容各个环境，在完整包中存放了大量兼容性文件，以兼容各个平台。此功能可以根据当前环境自动删除不需要的文件。" Link="Dism++ для совместимости с различными ОС хранит много пакетов для разных платформ. Эта функция удаляет файлы, которые не нужны для текущей ОС."/>
 
-    <String Target="软媒PC管家" Link="PC Мастер"/>
+    <String Target="软媒 PC 管家" Link="PC Мастер"/>
     <String Target="魔方守护以及魔方更新暂存目录，如果你不喜欢魔方守护可以考虑删除。" Link="Временной каталог PC Мастер Guard и обновлений PC Мастер. Если Вам не нравится PC Мастер Guard - можете удалить."/>
 
     <String Target="给力助手" Link="GeiLi Ассистент"/>
@@ -1278,13 +1278,13 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <String Target="瑞昱声卡安装后留下的安装源缓存。" Link="Кэш источника установки, остающийся после установки драйверов Realtek."/>
     <String Target="此条目可能影响瑞昱声卡驱动的卸载。" Link="Эта запись может повлиять на удаление драйверов Realtek."/>
 
-    <String Target="Java安装源缓存（by YukiSakura）" Link="Кэш источника установки Java (by YukiSakura)"/>
-    <String Target="Java安装后留下的安装源缓存。" Link="Кэш источника установки, остающийся после установки Java."/>
-    <String Target="此条目可能影响Java的卸载。" Link="Эта запись может повлиять на удаление Java."/>
+    <String Target="Java 安装源缓存（by YukiSakura）" Link="Кэш источника установки Java (by YukiSakura)"/>
+    <String Target="Java 安装后留下的安装源缓存。" Link="Кэш источника установки, остающийся после установки Java."/>
+    <String Target="此条目可能影响 Java 的卸载。" Link="Эта запись может повлиять на удаление Java."/>
 
-    <String Target="Intel驱动安装源缓存（by YukiSakura）" Link="Кэш источника установки Intel (by YukiSakura)"/>
-    <String Target="Intel驱动安装后留下的安装源缓存。" Link="Кэш источника установки, остающийся после установки драйверов Intel."/>
-    <String Target="此条目可能影响Intel驱动的卸载。" Link="Эта запись может повлиять на удаление драйверов Intel."/>
+    <String Target="Intel 驱动安装源缓存（by YukiSakura）" Link="Кэш источника установки Intel (by YukiSakura)"/>
+    <String Target="Intel 驱动安装后留下的安装源缓存。" Link="Кэш источника установки, остающийся после установки драйверов Intel."/>
+    <String Target="此条目可能影响 Intel 驱动的卸载。" Link="Эта запись может повлиять на удаление драйверов Intel."/>
 
     <String Target="英伟达驱动安装源缓存（by YukiSakura）" Link="Кэш источника установки NVIDIA (by YukiSakura)"/>
     <String Target="英伟达驱动安装后留下的安装源缓存。" Link="Кэш источника установки, остающийся после установки драйверов NVIDIA."/>
@@ -1298,7 +1298,7 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <String Target="删除后更新历史记录将被清空。" Link="После удаления данной записи история обновлений будет очищена."/>
 
     <String Target="SQL Server 更新缓存（by Honry、撕裂五维空间）" Link="Кэш обновлений Microsoft SQL Server (by Honry, SiLieWuWeiKongJian)"/>
-    <String Target="安装Microsoft SQL Server补丁残留的安装缓存。" Link="Кэш установленных исправлений Microsoft SQL Server."/>
+    <String Target="安装 SQL Server 补丁残留的安装缓存。" Link="Кэш установленных исправлений Microsoft SQL Server."/>
     <String Target="此条目最新添加，可能引发意外问题！" Link="Удаление данной записи может привести к неожиданным проблемам!"/>
 
     <String Target="Acrobat 安装源缓存（by Honry）" Link="Кэш источника установки Adobe Acrobat (by Honry)"/>
@@ -1335,7 +1335,7 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
 
     <String Target="缩略图缓存" Link="Кэш миниатюр"/>
     <String Target="缩略图缓存（所有用户）" Link="Кэш миниатюр всех пользователей."/>
-    <String Target="缩略图缓存(需重启explorer)" Link="Кэш миниатюр"/>
+    <String Target="缩略图缓存（需重启 explorer）" Link="Кэш миниатюр"/>
     <String Target="缩略图缓存（当前用户）" Link="Кэш миниатюр текущего пользователя (необходим перезапуск Проводника)."/>
 
     <String Target="微软系安软无用文件" Link="Ненужные файлы ПО Майкрософт"/>
@@ -1369,8 +1369,8 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <String Target="传递优化缓存" Link="Кэш оптимизации доставки"/>
     <String Target="Win10开始使用传递优化（DeliveryOptimization）服务下载Windows更新和通用应用（UWP）产生的缓存文件" Link="Кэш-файлы, генерируемые, когда Windows 10 начинает использовать службу оптимизации доставки обновлений для их загрузки и UWP."/>
 
-    <String Target="Appx缓存文件-可解决Appx闪退" Link="Appx кэш-файлы - Исправление падения Appx"/>
-    <String Target="Appx运行时产生的缓存文件，当应用闪退时可尝试清理此选项，可解决大多数闪退问题。" Link="Кэш-файлы, генеририруемые во время выполнения Appx. Если Appx завершает работу, Вы можете попробовать очистить их. В большинстве случаев проблема может быть исправлена."/>
+    <String Target="AppX 缓存文件-可解决 AppX 闪退" Link="Appx кэш-файлы - Исправление падения Appx"/>
+    <String Target="AppX 运行时产生的缓存文件，当应用闪退时可尝试清理此选项，可解决大多数闪退问题。" Link="Кэш-файлы, генеририруемые во время выполнения Appx. Если Appx завершает работу, Вы можете попробовать очистить их. В большинстве случаев проблема может быть исправлена."/>
 
     <String Target="英伟达驱动安装包（by Ailick）" Link="Пакет установки драйвера nVidia (by Ailick)"/>
     <String Target="NVIDIA Geforce Experience更新程序时产生的安装包。" Link="nVidia Geforce Experience генерирует этот пакет установки при обновлении программ."/>
@@ -1379,8 +1379,8 @@ Special thanks to Black Alex(120171@live.ru), Vasiliy Nasonov, virus, Vladimir, 
     <String Target="该项目清理 Visual Studio 2017+ 的安装源" Link="Очистка источника установки Visual Studio 2017 и более поздних версий."/>
     <String Target="清理后升级、修复、增添组件、卸载 Visual Studio 2017+ 需要联网" Link="После очистки, обновления, исправления, добавления компонентов и удаления требуется сеть (Visual Studio 2017 и следующие версии)."/>
 
-    <String Target="损坏的Appx" Link="Поврежденные Appx"/>
-    <String Target="清理损坏的Appx。例如Visual Studio的通用应用XAML设计器暴力删除临时生成的设计器应用，于是会出现大量损坏的Appx。" Link="Очистка поврежденных Appx. Например, общий конструктор XAML-приложений Visual Studio насильственно удаляет временные приложения конструктора, что приведет ко множеству поврежденных Appx."/>
+    <String Target="损坏的 Appx" Link="Поврежденные Appx"/>
+    <String Target="清理损坏的 Appx。例如Visual Studio的通用应用XAML设计器暴力删除临时生成的设计器应用，于是会出现大量损坏的 Appx。" Link="Очистка поврежденных Appx. Например, общий конструктор XAML-приложений Visual Studio насильственно удаляет временные приложения конструктора, что приведет ко множеству поврежденных Appx."/>
   </StringMaps>
   <MessageTable>
     <x800F0806>Одно или несколько обновлений ожидает установки. Перезапустите компьютер для продолжения.</x800F0806>

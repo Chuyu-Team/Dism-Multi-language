@@ -1123,7 +1123,7 @@ Special Thanks to szuper@hotmail.hu
     <String Target="被取代的 WinSxS 组件" Link="A helyettesített WinSxS összetevő"/>
     <String Target="清理被取代的组件并减少组件存储的大小。" Link="A lemezterület megtakarítása érdekében a WinSxS könyvtár tisztítható."/>
     <String Target="清理后将无法卸载更新，如果有卸载更新需求请勿使用此选项。" Link="A telepített Windows-frissítések nem távolíthatók el a művelet befejezése után."/>
-    <String Target="清理后将无法卸载更新，此外ResetBase模式跟系统重置功能有冲突，如果有卸载更新或者系统重置需求请勿使用此选项。" Link="A tisztítás után nem lesz képes eltávolítani a frissítést, továbbá a ResetBase mód ellentétes a rendszer visszaállítási funkciójával."/>
+    <String Target="清理后将无法卸载更新，此外 ResetBase 模式跟系统重置功能有冲突，如果有卸载更新或者系统重置需求请勿使用此选项。" Link="A tisztítás után nem lesz képes eltávolítani a frissítést, továbbá a ResetBase mód ellentétes a rendszer visszaállítási funkciójával."/>
 
     <String Target="被取代的 WinSxS 组件（非常慢）" Link="WinSxS összetevők cseréje (nagyon lassú)"/>
 
@@ -1132,7 +1132,7 @@ Special Thanks to szuper@hotmail.hu
     <String Target="该功能对于某些精简系统或者手动处理过驱动的系统可能发生驱动签名问题。" Link="Ez a funkció a meghajtó aláírási problémákat okozhat egyes vékony kliensek vagy rendszerek esetében, amelyek manuálisan túlhajtottak."/>
 
     <String Target="硬链接合并（较慢）" Link="A Hard linkek egyesítése (lassabb)"/>
-    <String Target="使用利用NTFS硬链接特性合并所有文件内容相同的文件。" Link="Használja az NTFS hard link funkciót az összes fájlhoz, hogy  azonos tartalmú fájlokat egyesítse."/>
+    <String Target="使用利用 NTFS 硬链接特性合并所有文件内容相同的文件。" Link="Használja az NTFS hard link funkciót az összes fájlhoz, hogy  azonos tartalmú fájlokat egyesítse."/>
     <String Target="某些文件被硬链接合并后可能导致相关功能无法正常使用。" Link="Egyes egyesített fájlok nem fognak megfelelően működni."/>
 
     <String Target="CompactOS（较慢）" Link="CompactOS (lassabb)"/>
@@ -1142,10 +1142,10 @@ Special Thanks to szuper@hotmail.hu
 
     <String Target="过期 AppX 应用" Link="Elavult Appx alkalmazás"/>
     <String Target="在 AppX 应用升级时，会留下老版本应用，该功能将删除那些不使用的老版本。" Link="Az Appx frissítésekor nem törli a régebbi verziókat. Ez a funkció törölheti a fel nem használt régebbi verziókat (a béta funkció elindíthatja a metróalkalmazást)."/>
-    <String Target="少数用户报告称使用后无法打开Appx应用，需要重新安装Appx应用。" Link="Néhány felhasználó azt mondta a használat után, az Appx nem futtatható. Ilyenkor újra kell telepítenie az Appx-et."/>
+    <String Target="少数用户报告称使用后无法打开 AppX 应用，需要重新安装 AppX 应用。" Link="Néhány felhasználó azt mondta a használat után, az Appx nem futtatható. Ilyenkor újra kell telepítenie az Appx-et."/>
 
     <String Target="系统自带 AppX 应用" Link="Beépített Microsoft Store alkalmazás"/>
-    <String Target="此功能将移除所有系统自带 AppX 应用，移除后可以在Windows应用商店重新下载他们。" Link="Ez a funkció eltávolítja az összes rendszerbe ágyazott Appx-t. A Microsoft Store-ból újra letöltheti azokat."/>
+    <String Target="此功能将移除所有系统自带 AppX 应用，移除后可以在 Microsoft Store 重新下载他们。" Link="Ez a funkció eltávolítja az összes rendszerbe ágyazott Appx-t. A Microsoft Store-ból újra letöltheti azokat."/>
 
     <String Target="WinSxS 临时文件" Link="WinSxS időleges fájlok"/>
     <String Target="系统更新时在 WinSxS 里面产生的临时文件。" Link="A rendszer frissítésekor, a rendszer létrehozza a temp (időleges) fájlokat."/>
@@ -1163,7 +1163,7 @@ Special Thanks to szuper@hotmail.hu
     <String Target="当程序遇到某些问题时，系统会在这里留下稳定性报告，建议你定期清理。" Link="Amikor a program bizonyos problémákkal szembesül, a rendszer stabilitási jelentést fog hagyni itt, ami a hibára utal. Javasoljuk, hogy rendszeresen ellenőrizze, tisztítsa ki ezeket."/>
 
     <String Target="常见的驱动临时解压目录" Link="Közös illesztőprogramok ideiglenes kicsomagolási könyvtára"/>
-    <String Target="Intel、AMD以及 NVIDIA 驱动在安装时留下的解压目录。" Link="Az Intel, az AMD és az NVIDIA illesztőprogramok által a telepítés során készített könyvtár."/>
+    <String Target="Intel/AMD/NVIDIA 驱动在安装时留下的解压目录。" Link="Az Intel, az AMD és az NVIDIA illesztőprogramok által a telepítés során készített könyvtár."/>
 
     <String Target="Terminal Server Client 缓存" Link="Terminálkiszolgáló kliens gyorsítótár"/>
     <String Target="Terminal Server Client运行时产生的一些缓存文件。" Link="A Terminálkiszolgáló kliens futásakor, a terminálkiszolgáló kliens elkészíti a gyorsítótárat."/>
@@ -1182,7 +1182,7 @@ Special Thanks to szuper@hotmail.hu
     <String Target="QQ 临时数据" Link="Tencent QQ ideiglenes fájlok"/>
     <String Target="QQ运行时产生的临时文件还有日志，不影响QQ消息记录，建议定期删除。" Link="A QQ futásakor generált ideiglenes naplófájlok is vannak, amelyek nem befolyásolják a QQ üzenetek rekordjait. Azt javaslom, hogy rendszeresen törölje őket"/>
 
-    <String Target="YY临时文件" Link="YY ideiglenes fájlok"/>
+    <String Target="YY 临时文件" Link="YY ideiglenes fájlok"/>
     <String Target="YY运行时产生的一些临时文件以及日志，建议定期删除。" Link="Néhány ideiglenes fájlt és naplót, amelyeket az YY a futásideje alatt generál, rendszeresen törölni kell."/>
 
     <String Target="Installer 基线缓存" Link="Telepítő gyorsítótár"/>
@@ -1193,8 +1193,8 @@ Special Thanks to szuper@hotmail.hu
     <String Target="安装 Visual Studio 后产生的安装源，如果不需要卸载可以考虑删除。" Link="A Visual Studio telepítése után létrehozott telepítési forrás, ha nem kell eltávolítania a VS-t, megfontolhatja a törlést."/>
     <String Target="清理后将无法卸载只能升级安装或者强行删除。" Link="A tisztítás után nem lehet eltávolítani. Csak törölheti vagy kényszerítheti a törlést."/>
 
-    <String Target="Office安装源" Link="Office telepítési forrása"/>
-    <String Target="安装Office后产生的安装源，如果不需要卸载Office可以考虑删除，删除后能正常安装Office更新。" Link="Amikor telepítette az Officet, a program létrehozta a telepítési forrást. Ha nem kell eltávolítania az Officet, törölheti. A törlés után álatalában sikeresen telepítheti a frissítéseket."/>
+    <String Target="Office 安装源" Link="Office telepítési forrása"/>
+    <String Target="安装 Office 后产生的安装源，如果不需要卸载 Office 可以考虑删除，删除后能正常安装 Office 更新。" Link="Amikor telepítette az Officet, a program létrehozta a telepítési forrást. Ha nem kell eltávolítania az Officet, törölheti. A törlés után álatalában sikeresen telepítheti a frissítéseket."/>
     <String Target="清理后将无法卸载只能升级安装或者强行删除，Office 2007以下版本（包含）删除后还影响安装更新。" Link="A tisztítás után nem lehet törölni. Csak új verzióra frissíthető vagy kényszerített eltávolítás végezhető el. Ha Office 2007 vagy korábbi verziója van telepítve, ez befolyásolhatja a frissítések telepítését."/>
 
     <String Target="腾讯相关软件下载目录" Link="Tencenthez kapcsolódó szoftver letöltési könyvtár"/>
@@ -1225,7 +1225,7 @@ Special Thanks to szuper@hotmail.hu
     <String Target="安装 Office 365/2016 后产生的安装源。" Link="Az Office 365/2016 telepítése során a program létrehozta a telepítési forrást"/>
     <String Target="清理可能导致无法正常卸载 Office。" Link="A törlés után nem lehet eltávolítani az Officet valószínűleg."/>
 
-    <String Target="苹果iTunes备份" Link="Apple iTunes biztonsági mentés"/>
+    <String Target="苹果 iTunes 备份" Link="Apple iTunes biztonsági mentés"/>
     <String Target="苹果相关设备备份文件，比如通讯录、照片、视频等。" Link="Az iOS (vagy MAC) biztonsági mentése. Például névjegyek, fényképek, videók..."/>
     <String Target="请你确保暂时不需要使用恢复功能，如果你现在需要恢复苹果设备，请勿勾选此项目！" Link="Kérjük, győződjön meg róla, hogy nem használja-e ideiglenesen a helyreállítási funkciót. Ha vissza kell állítania az iOS (vagy MAC) eszközt, ne válassza ezt az elemet!"/>
 
@@ -1236,10 +1236,10 @@ Special Thanks to szuper@hotmail.hu
     <String Target="Windows 事件" Link="Windows események"/>
     <String Target="Windows 在运行过程中产生的事件。" Link="A Windows által a futás során generált események."/>
 
-    <String Target="Dism++非必需文件" Link="Dism++ szükségtelen fájlok"/>
+    <String Target="Dism++ 非必需文件" Link="Dism++ szükségtelen fájlok"/>
     <String Target="Dism++为了兼容各个环境，在完整包中存放了大量兼容性文件，以兼容各个平台。此功能可以根据当前环境自动删除不需要的文件。" Link="Ahhoz, hogy kompatibilis legyen a különböző környezetekkel, a Dism++ nagyszámú kompatibilitási fájlt tárol a teljes csomagban, hogy kompatibilis legyen a különböző platformokkal. Ez a funkció automatikusan törli a nem kívánt fájlokat az aktuális környezet alapján."/>
 
-    <String Target="软媒PC管家" Link="PC Master"/>
+    <String Target="软媒 PC 管家" Link="PC Master"/>
     <String Target="魔方守护以及魔方更新暂存目录，如果你不喜欢魔方守护可以考虑删除。" Link="A PC Master Guard ideiglenes könyvtára és a PC Master frissítése. Ha nem tetszik a PC Master Guard, akkor törölheti."/>
 
     <String Target="给力助手" Link="GeiLi asszisztens"/>
@@ -1277,13 +1277,13 @@ Special Thanks to szuper@hotmail.hu
     <String Target="瑞昱声卡安装后留下的安装源缓存。" Link="A Realtek hangkártya telepítése után a telepítési forrás gyorsítótára megmaradt."/>
     <String Target="此条目可能影响瑞昱声卡驱动的卸载。" Link="A törlés után telepítenie kell a hangkártya-illesztőprogramot."/>
 
-    <String Target="Java安装源缓存（by YukiSakura）" Link="Java telepítési forrásának gyorsítótára (YukiSakura-tól)"/>
-    <String Target="Java安装后留下的安装源缓存。" Link="A Java telepítése után megmaradt telepítési forrás gyorsítótára."/>
-    <String Target="此条目可能影响Java的卸载。" Link="Ez a bejegyzés valószínűleg hatással van a java eltávolítására."/>
+    <String Target="Java 安装源缓存（by YukiSakura）" Link="Java telepítési forrásának gyorsítótára (YukiSakura-tól)"/>
+    <String Target="Java 安装后留下的安装源缓存。" Link="A Java telepítése után megmaradt telepítési forrás gyorsítótára."/>
+    <String Target="此条目可能影响 Java 的卸载。" Link="Ez a bejegyzés valószínűleg hatással van a java eltávolítására."/>
 
-    <String Target="Intel驱动安装源缓存（by YukiSakura）" Link="Intel meghajtó telepítési forrás gyorsítótár (YukiSakura-tól)"/>
-    <String Target="Intel驱动安装后留下的安装源缓存。" Link="Az Intel meghajtó telepítése után a telepítési forrás gyorsítótára maradt."/>
-    <String Target="此条目可能影响Intel驱动的卸载。" Link="Ez a bejegyzés befolyásolhatja az Intel illesztőprogramok eltávolítását."/>
+    <String Target="Intel 驱动安装源缓存（by YukiSakura）" Link="Intel meghajtó telepítési forrás gyorsítótár (YukiSakura-tól)"/>
+    <String Target="Intel 驱动安装后留下的安装源缓存。" Link="Az Intel meghajtó telepítése után a telepítési forrás gyorsítótára maradt."/>
+    <String Target="此条目可能影响 Intel 驱动的卸载。" Link="Ez a bejegyzés befolyásolhatja az Intel illesztőprogramok eltávolítását."/>
 
     <String Target="英伟达驱动安装源缓存（by YukiSakura）" Link="NVIDIA illesztőprogram telepítési forrás gyorsítótár (YukiSakura-tól)"/>
     <String Target="英伟达驱动安装后留下的安装源缓存。" Link="Az NVIDIA illesztőprogram telepítése után a telepítési forrás gyorsítótára maradt."/>
@@ -1297,7 +1297,7 @@ Special Thanks to szuper@hotmail.hu
     <String Target="删除后更新历史记录将被清空。" Link="A frissítés előzményei törlődnek a törlés után."/>
 
     <String Target="SQL Server 更新缓存（by Honry、撕裂五维空间）" Link="Microsoft SQL Server frissítés gyorsítótár (Honry-tól és SiLieWuWeiKongJian-tól)"/>
-    <String Target="安装Microsoft SQL Server补丁残留的安装缓存。" Link="A Microsoft SQL Server telepítésekor telepítenie kell a gyorsítótárat."/>
+    <String Target="安装 SQL Server 补丁残留的安装缓存。" Link="A Microsoft SQL Server telepítésekor telepítenie kell a gyorsítótárat."/>
     <String Target="此条目最新添加，可能引发意外问题！" Link="Ez a funkció hozzáadódik az utolsó kérdéshez!"/>
 
     <String Target="Acrobat 安装源缓存（by Honry）" Link="Adobe Acrobat telepítési forrás gyorsítótár (Honry-tól)"/>
@@ -1334,7 +1334,7 @@ Special Thanks to szuper@hotmail.hu
 
     <String Target="缩略图缓存" Link="Miniatűrkép gyorsítótár"/>
     <String Target="缩略图缓存（所有用户）" Link="Miniatűrkép gyorsítótár (Minden felhasználó)"/>
-    <String Target="缩略图缓存(需重启explorer)" Link="Miniatűrkép gyorsítótár (Újra kell indítani a böngészőt)"/>
+    <String Target="缩略图缓存（需重启 explorer）" Link="Miniatűrkép gyorsítótár (Újra kell indítani a böngészőt)"/>
     <String Target="缩略图缓存（当前用户）" Link="Miniatűrkép gyorsítótár (Jelenlegi felhasználó)"/>
 
     <String Target="微软系安软无用文件" Link="Szükségtelen Microsoft szoftverfájlok"/>
@@ -1368,8 +1368,8 @@ Special Thanks to szuper@hotmail.hu
     <String Target="传递优化缓存" Link="Optimalizálási gyorsítótár"/>
     <String Target="Win10开始使用传递优化（DeliveryOptimization）服务下载Windows更新和通用应用（UWP）产生的缓存文件" Link="Gyorsítótár-fájlok, amikor a Windows 10 elindítja a szállítási optimalizálási szolgáltatást a Windows frissítések és az UWP letöltéséhez."/>
 
-    <String Target="Appx缓存文件-可解决Appx闪退" Link="Appx gyorsítótárfájlok - az Appx összeomlása"/>
-    <String Target="Appx运行时产生的缓存文件，当应用闪退时可尝试清理此选项，可解决大多数闪退问题。" Link="Appx futásidejű gyorsítótárfájlok. Ha az Appx villog, megpróbálhatja megtisztítani őket. A legtöbb esetben a probléma megoldható."/>
+    <String Target="AppX 缓存文件-可解决 AppX 闪退" Link="Appx gyorsítótárfájlok - az Appx összeomlása"/>
+    <String Target="AppX 运行时产生的缓存文件，当应用闪退时可尝试清理此选项，可解决大多数闪退问题。" Link="Appx futásidejű gyorsítótárfájlok. Ha az Appx villog, megpróbálhatja megtisztítani őket. A legtöbb esetben a probléma megoldható."/>
 
     <String Target="英伟达驱动安装包（by Ailick）" Link="nVidia illesztőprogram telepítőcsomag (Ailick-től)"/>
     <String Target="NVIDIA Geforce Experience更新程序时产生的安装包。" Link="Az nVidia Geforce Experience ezt a telepítőcsomagot a programok frissítésekor generálja."/>
@@ -1378,8 +1378,8 @@ Special Thanks to szuper@hotmail.hu
     <String Target="该项目清理 Visual Studio 2017+ 的安装源" Link="Ez a projekt megtisztítja a Visual Studio 2017 és újabb verzióinak telepítési forrását."/>
     <String Target="清理后升级、修复、增添组件、卸载 Visual Studio 2017+ 需要联网" Link="A Visual Studio 2017 és a későbbi kiadások frissítése, javítása, összetevőinek hozzáadása, hálózati eltávolítása hálózati kapcsolatot igényel."/>
 
-    <String Target="损坏的Appx" Link="Sérült Appx"/>
-    <String Target="清理损坏的Appx。例如Visual Studio的通用应用XAML设计器暴力删除临时生成的设计器应用，于是会出现大量损坏的Appx。" Link="Törli a sérült Appx-et. Például: A Visual Studio XAML Designer programja szigorúan törli az ideiglenes fejlesztői programokat, amelyek számos törött Appx alkalmazást okoznak."/>
+    <String Target="损坏的 Appx" Link="Sérült Appx"/>
+    <String Target="清理损坏的 Appx。例如Visual Studio的通用应用XAML设计器暴力删除临时生成的设计器应用，于是会出现大量损坏的 Appx。" Link="Törli a sérült Appx-et. Például: A Visual Studio XAML Designer programja szigorúan törli az ideiglenes fejlesztői programokat, amelyek számos törött Appx alkalmazást okoznak."/>
   </StringMaps>
   <MessageTable>
   <x800F0806>Egy vagy több frissítés függőben van, kérjük, indítsa újra, mielőtt folytatná.</x800F0806>
@@ -1392,7 +1392,7 @@ Special Thanks to szuper@hotmail.hu
 	<x000F0801>A Dism++ elfoglalt, valószínűleg azért, mert más programok futnak. Kérjük, próbálja meg később.</x000F0801>
 	<x80072EE7>Nem lehet csatlakozni a kiszolgálóhoz, ellenőrizze a hálózati kapcsolatot, vagy, hogy a tűzfal beállításai helyesek-e.</x80072EE7>
 	<x80072EFF>Nem lehet csatlakozni a kiszolgálóhoz, ellenőrizze a hálózati kapcsolatot, vagy, hogy a tűzfal beállításai helyesek-e.</x80072EFF>
-	
+
 	<xA0020001>Csak a Microsoft Online ESD fájlja támogatott.</xA0020001>
 	<xA0020002>Részleges tisztítás történt, a teljes tisztításhoz frissítsen a Windows 8.1-re, majd folytassa.</xA0020002>
 	<xA0020003>Frissítsen a Windows Vista SP2 rendszerre, majd folytassa.</xA0020003>
@@ -1403,12 +1403,12 @@ Special Thanks to szuper@hotmail.hu
 	<xA0020008>rundll32.exe hiányzik. A Dism++ nem futtatható.</xA0020008>
 	<xA0020009>A Dism++ munkamenet sikertelen. A probléma megoldásához lépjen kapcsolatba (mingkuang@live.com).</xA0020009>
 	<xA002000A>A Dism++ néhány kompatibilitási problémát fedezett fel. Telepítse a KB960037 gyorsjavítást, majd folytassa.</xA002000A>
-	
+
 	<x20020001>Az aktuális képhez nincs alapértelmezett fájlkonfiguráció. Nem lehet exportálni.</x20020001>
-	
+
 	<xC1440136>Az illesztőprogram (Wofadk.sys) nincs betöltve. A folytatáshoz jelölje be a "WofAdk illesztőprogram letöltése" menüpontot a "Beállítások - Szakértői mód engedélyezése" menüben.</xC1440136>
 	<xC144013B>Az illesztőprogram (Wofadk.sys) nincs betöltve. A folytatáshoz jelölje be a "WofAdk illesztőprogram letöltése" menüpontot a "Beállítások - Szakértői mód engedélyezése" menüben.</xC144013B>
-    
+
 	<!--VSS-->
     <x80042302>A kötet árnyékmásolási szolgáltatás leállt. A folytatáshoz állítsa be a kötet árnyékmásolási szolgáltatást kézi üzemmódba.</x80042302>
 
@@ -1478,7 +1478,7 @@ Special Thanks to szuper@hotmail.hu
   <UserAgreement>Felhasználói Szerződés
 
 	A Chuyu csapata határozottan ajánlja minden felhasználó számára, hogy a Dism++ használata előtt figyelmesen olvassa el a következő felhasználói megállapodást (a továbbiakban: megállapodás). Bárki, aki úgy dönt, hogy nem tartja be vagy nem érti meg a megállapodás szándékolt jelentését, nem szabad megengedni, a Chuyu csapat által fejlesztett Dism++ program használatára biztosított jogot. Bárki, aki Dism++-t használ, úgy véljük, hogy egyetért a következő megállapodással, és megfelel a megállapodás tartalmának.
-    
+
 	Ez a megállapodás meghatározza a "Dism++" szoftverszolgáltatás (a továbbiakban: "szolgáltatás" vagy "ez a szolgáltatás") és a Chuyu csapat közötti és a Dism ++ felhasználók közötti jogokat és kötelezettségeket. A "felhasználók" és a "Dism++ felhasználók" olyan személyekre vonatkoznak, akik regisztrálnak, bejelentkeznek vagy használják ezt a szolgáltatást. A frissített megállapodás, ha bármilyen formában megjelent, helyettesíti az eredeti megállapodást. A Dism++-nak meg kell jelenítenie a frissített megállapodást, amikor a szoftver megfelelően elindul. A Dism++ felhasználóknak abba kell hagyniuk a szoftver és a Chuyu csapat szolgáltatásainak használatát, ha úgy döntenek, hogy nem felelnek meg a frissített megállapodásnak.
 
 I. Jogok és kötelezettségek
