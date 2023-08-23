@@ -237,7 +237,7 @@
     <None Include="www.chuyu.me\zh-Hant\log.html" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="HeplerDism.md" />
+    <Text Include="HelperDism.md" />
     <Text Include="ThirdParty.md" />
   </ItemGroup>
   <ItemGroup>

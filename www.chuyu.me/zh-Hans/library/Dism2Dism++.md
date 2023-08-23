@@ -273,7 +273,7 @@ Dism++不支持此功能。
 /hidesp 参数，自动使用。
 
 ### /Cleanup-Image /StartComponentCleanup 清理WinSxS怎么用
-打开空间回收，里面有个清理项目叫`被取代的WinSxS组件`，勾选此项目然后点击清理即可。另外此功能已经包含 /spsuperseded特新。
+打开空间回收，里面有个清理项目叫`被取代的 WinSxS 组件`，勾选此项目然后点击清理即可。另外此功能已经包含 /spsuperseded特新。
 
 /ResetBase 更新固化，自动使用。另外，需要注意的是，Dism已经在Windows 10中屏蔽了此功能，此参数会被自动忽略。但是Dism++（10.1.25.1以及更高版本）不会忽略此参数，此处行为略有差异。另外Dism++还支持Vista以及Windows 7。
 
@@ -281,7 +281,7 @@ Dism++不支持此功能。
 
 
 ### /Cleanup-Image /AnalyzeComponentStore 扫描可以清理的空间
-打开空间回收，里面有个清理项目叫`被取代的WinSxS组件`，勾选此项目然后点击扫描即可，程序将展现可清理的空间。
+打开空间回收，里面有个清理项目叫`被取代的 WinSxS 组件`，勾选此项目然后点击扫描即可，程序将展现可清理的空间。
 
 ### /Cleanup-Image /CheckHealth 查看是否存在受损标记怎么用
 不支持此功能。
