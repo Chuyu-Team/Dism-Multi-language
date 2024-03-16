@@ -411,7 +411,7 @@ Besonderen Dank an franz@drwindows.de
     <String Target="正在扫描%s" Link="Scanvorgang %s"/>
     <String Target="出错" Link="Fehler"/>
     <String Target="正在清理%s" Link="Bereinigung: %s "/>
-    <String Target="本次共释放了%s 的空间。" Link="%s sind fertiggestellt."/>
+    <String Target="本次共释放了%s 的空间。" Link="Insgesamt %s Speicherplatz freigegeben."/>
 
     <String Target="该规则来自CCleaner解析引擎，因此不能提供说明。" Link="Diese Regel wurde von CCleaner erstellt, daher kann Dism++ keine Beschreibungen anzeigen."/>
     <String Target="默认" Link="Standard"/>
