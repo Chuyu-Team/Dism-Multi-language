@@ -33,10 +33,12 @@
   <String Src="%WinOS%" Dst="WINOS Basit Sistem"/>
   <String Src="%GTWang%" Dst=""/>
   <String Src="%NM%" Dst=""/>
+  <String Src="%qcyb%" Dst=""/>
   <String Src="%LanDian%" Dst="LandianHaberleri"/>
   <String Src="%ChuyuTream%" Dst="&amp;nbsp;2019&amp;nbsp;Chuyu Team"/>
   <String Src="%ICP%" Dst=""/>
   <String Src="%Document%" Dst="Dism++ Belgeleri"/>
   <String Src="%logs%" Dst="Değişim Kaydı"/>
-  <String Src="%wsuscan2%" Dst="&quot;wsusscn2.cab&quot; Dism++'ın kullandığı Windows Güncelleme veritabanıdır. Basitçe &quot;Config\wsusscn2.cab&quot; dosyasının üzerine yazabilirsiniz."/>
+  <String Src="%wsuscan2%" Dst="&quot;wsusscn2.cab&quot; Dism++'ın kullandığı Windows Güncelleme veritabanıdır. Basitçe &quot;Config\wsusscn2.cab&quot; dosyasının üzerine yazabilirsiniz"/>
+  <String Src="%DownloadDism%" Dst="Dism++ x86/x64/ARM64 İndir"/>
 </Strings>
