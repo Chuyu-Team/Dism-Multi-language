@@ -696,9 +696,9 @@
       </Scan>
     </Item>
 
-    <Item Name="#Windows Defender保护历史记录" Level="2">
-      <Description>#Windows Defender保护历史记录存放了Windows Defender日志，日志过多会导致打开保护历史记录记录闪退</Description>
-      <Warning>#清理后无法还原被隔离文件</Warning>
+    <Item Name="#Windows Defender Protecting Historical Records" Level="2">
+      <Description>#Windows Defender Protected History stores Windows Defender logs, and too many logs can cause flashing when opening Protected History records</Description>
+      <Warning># Unable to restore quarantined files after cleanup</Warning>
       <Group>#应用程序</Group>
       <Scan>
         <Applicable>
