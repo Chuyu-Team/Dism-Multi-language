@@ -46,7 +46,7 @@ switch (lang[0]) {
             default: /* case 'hans': case 'cn': case 'sg': */
                 lang = 'zh-Hans'; break;
         } break;
-    default: /* all other languages go to English */
+    default: /* case 'bg': case 'pl': case 'ko': all other languages go to English */
         lang = 'en'; break;
 }
 document.location = './' + lang + '/index.html';
