@@ -15,7 +15,7 @@ Dism++ rules file which provides cleanup and optimization rules.
 | ------ | -------- | ------------
 | bg.xml | Bulgarian | Мартин Тайна, Pavel Belivakov
 | cs.xml | Czech | Richard Kahl
-| de.xml | German | franz@drwindows.de | [Henry2o1o](https://github.com/Henry2o1o)
+| de.xml | German | franz@drwindows.de, [Henry2o1o](https://github.com/Henry2o1o)
 | en.xml | English | EMLVIRUS, Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wondersnefu
 | es.xml | Spanish | Oleada, MS-PC2, nomemolesteis@gmail.com
 | fr.xml | French | JP.Sudret, P.Verdy
