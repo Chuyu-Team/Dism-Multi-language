@@ -42,7 +42,7 @@ switch (lang[0]) {
     case 'hak':
         lang = 'zh-Hant'; break;
     default: /* all other languages go to English */
-        lang = 'en'; break;
+        lang = 'en' /* + '-US' */ ; break;
 }
-document.location = './' + lang + '.html';
+document.location = './' + lang /* + '/index' */ + '.html';
 </script>
