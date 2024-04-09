@@ -1,52 +1,47 @@
 ﻿<script language="JavaScript">
 var lang = (navigator.language || navigator.browserLanguage || '').toLowerCase().split('-');
 switch (lang[0]) {
-    case 'de': case 'en': case 'es': case 'fr': case 'it': case 'ja': case 'pt': case 'ru': case 'tr': case 'uk':
-        lang = lang[0]; break;
-    case 'bar': case 'nds':
+    case 'gsw': switch (la[1]) {
+            case 'fr':
+                lang = 'fr'; break;
+        } /* falls thru to 'de' */
+    case 'de': case 'bar': case 'nds':
         lang = 'de'; break;
-    case 'an': case 'ast': case 'ca': case 'gl':
+    case 'eu': switch (la[1]) {
+            case 'fr':
+                lang = 'fr'; break;
+        } /* falls thru to 'es' */
+    case 'es': case 'an': case 'ast': case 'ca': case 'gl':
         lang = 'es'; break;
-    case 'br': case 'co': case 'nrf': case 'pcd': case 'gcf': case 'ty':
-    case 'frc': case 'ht': case 'lb': case 'lij': case 'mg': case 'wa':
-        lang = 'fr'; break;
-    case 'egl': case 'eml': case 'nap': case 'rgn': case 'scn': case 'vec':
-        lang = 'it'; break;
-    case 'wuu': case 'yue':
-        lang = 'zh-Hans'; break;
-    case 'hak':
-        lang = 'zh-Hant'; break;
-    case 'gsw':
-        switch (la[1]) {
-            case 'fr':
-                lang = 'fr'; break;
-            default: /* case 'at': case 'ch': case 'de': case 'li': */
-                lang = 'de'; break;
-        } break;
-    case 'eu':
-        switch (la[1]) {
-            case 'fr':
-                lang = 'fr'; break;
-            default: /* case 'es': */
-                lang = 'es'; break;
-        } break;
-    case 'oc':
-        switch (la[1]) {
+    case 'oc': switch (la[1]) {
             case 'es':
                 lang = 'es'; break;
             case 'it':
                 lang = 'it'; break;
-            default: /* case 'fr': */
-                lang = 'fr'; break;
-        } break;
-    case 'zh':
-        switch (la[1]) {
+        } /* falls thru to 'fr' */
+    case 'fr': case 'br': case 'co': case 'frc': case 'gcf': case 'ht': case 'lb': case 'lij': case 'mg': case 'nrf': case 'pcd': case 'ty': case 'wa':
+        lang = 'fr'; break;
+    case 'it': case 'egl': case 'eml': case 'nap': case 'rgn': case 'scn': case 'vec':
+        lang = 'it'; break;
+    case 'ja':
+        lang = 'ja'; break;
+    case 'pt':
+        lang = 'pt'; break;
+    case 'ru':
+        lang = 'ru'; break;
+    case 'tr':
+        lang = 'tr'; break;
+    case 'uk':
+        lang = 'uk'; break;
+    case 'zh': switch (la[1]) {
             case 'hant': case 'mo': case 'tw': case 'hk':
                 lang = 'zh-Hant'; break;
-            default: /* case 'hans': case 'cn': case 'sg': */
-                lang = 'zh-Hans'; break;
-        } break;
-    default: /* case 'bg': case 'pl': case 'ko': all other languages go to English */
+        } /* falls thru to 'zh-Hans' */
+    case 'wuu': case 'yue':
+        lang = 'zh-Hans'; break;
+    case 'hak':
+        lang = 'zh-Hant'; break;
+    default: /* all other languages go to English */
         lang = 'en'; break;
 }
 document.location = './' + lang + '/index.html';
