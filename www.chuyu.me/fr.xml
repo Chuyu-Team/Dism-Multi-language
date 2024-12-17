@@ -3,7 +3,7 @@
   <String Src="%description%" Dst="Dism++ peut être considéré comme une interface graphique pour DISM, WinSxS Clean, Installer Clean, Add Update et Drive..."/>
   <String Src="%keywords%" Dst="Dism++,Dism GUI,nettoyage WinSxS,outil de nettoyage de Windows Update,nettoyage système,nettoyage de Windows Update,vista,win7,win8,win8.1,win10,Chuyu,dism,ajout de mises à jour"/>
   <String Src="%title%" Dst="Dism++ | Nouvel utilitaire Windows"/>
-  <String Src="%String1%" Dst="Dism++, l'utilitaire le plus puissant"/>
+  <String Src="%String1%" Dst="Dism++, l’utilitaire le plus puissant"/>
   <String Src="%String2%" Dst="La première interface graphique pour Dism basée sur CBS dans le monde !"/>
   <String Src="%WhatsnewVersion%" Dst="Quoi de neuf ‒ Version"/>
   <String Src="%64Bit%" Dst="Dism++ 64 bits"/>
@@ -12,7 +12,7 @@
   <String Src="%SupportSystem%" Dst="Compatible avec Windows Vista/7/8/8.1/10"/>
   <String Src="%AboutDism++%" Dst="À propos de Dism++"/>
   <String Src="%AboutDism++Des%" Dst="Dism++ peut être considéré comme une interface graphique pour DISM, mais il ne dépend pas de la version Microsoft de DISM et se base sur la bibliothèque CBS (Component Based Servicing Reference) de plus bas niveau."/>
-  <String Src="%OpenSourceStr%" Dst="Le code source ouvert n'est pas qu’un esprit, mais aussi un symbole de force. Consultez le projet source ouvert de Chuyu Team &lt;span onclick=&quot;window.location.href='https://github.com/Chuyu-Team'&quot; style=&quot;color:blue;cursor:pointer&quot;>Vérifiez-moi&lt;/span>。"/>
+  <String Src="%OpenSourceStr%" Dst="Le code source ouvert n’est pas qu’un esprit, mais aussi un symbole de force. Consultez le projet source ouvert de Chuyu Team &lt;span onclick=&quot;window.location.href='https://github.com/Chuyu-Team'&quot; style=&quot;color:blue;cursor:pointer&quot;>Vérifiez-moi&lt;/span>."/>
   <String Src="%SxSClean%" Dst="Windows Update Clean"/>
   <String Src="%SxSCleanDes%" Dst="Nettoyage de Windows update, plus AUCUN résidus !"/>
   <String Src="%CompactOS%" Dst="CompactOS"/>
@@ -20,11 +20,11 @@
   <String Src="%EsdSupport%" Dst="Prise en charge des ESD"/>
   <String Src="%EsdSupportDes%" Dst="Plus de problème pour transformer un format ESD en ISO."/>
   <String Src="%WindowsUpdate%" Dst="Windows Update"/>
-  <String Src="%WindowsUpdateDes%" Dst="Mon Windows Update, à ma façon ~~ Mises à jour rapides sans inquiétude."/>
+  <String Src="%WindowsUpdateDes%" Dst="Mon Windows Update, à ma façon ― Mises à jour rapides sans inquiétude."/>
   <String Src="%SystemRecover%" Dst="Récupération du système"/>
   <String Src="%SystemRecoverDes%" Dst="Sauvegarde à chaud du système d’exploitation, restauration à chaud sans passer par WinPE !"/>
   <String Src="%Green%" Dst="Vert !"/>
-  <String Src="%GreenDes%" Dst="Portable, VERT, GRATUIT, SÛR, SANS publicités."/>
+  <String Src="%GreenDes%" Dst="Portable, VERT, GRATUIT, SÛR, SANS publicité."/>
   <String Src="%AboutChuyu%" Dst="À propos de Chuyu Team"/>
   <String Src="%AboutChuyuDes%" Dst="En fait nous nous sommes tous un peu passionnés dans la période récente, en cherchant simplement un outil qui soit léger, pratique, efficace, facile à utiliser, sans logiciels indésirables (malwares), qui ne fasse pas pitié et reste non harceleur. Il n’y avait eu aucun résultat pendant longtemps mais nous n’avons pas abandonné puisque nous avons réalisé de nos propres mains un tel rêve en créant Dism++ : un petit outil sans but lucratif, sans artifice, qui ne suit pas le troupeau, construit pour durer et par des enthousiastes."/>
   <String Src="%QQ%" Dst="QQ Group"/>
@@ -39,6 +39,6 @@
   <String Src="%ICP%" Dst=""/>
   <String Src="%Document%" Dst="Documentation Dism++"/>
   <String Src="%logs%" Dst="Journal des changements"/>
-  <String Src="%wsuscan2%" Dst="« wsusscn2.cab » est la base de données pour Windows Update utilisée par Dism++, vous pouvez la mettre à jour vous-mêmes et écraser celle installée par défaut dans « Config\wsusscn2.cab »."/>
+  <String Src="%wsuscan2%" Dst="« wsusscn2.cab » est la base de données pour Windows Update utilisée par Dism++, vous pouvez la mettre à jour vous-même et écraser celle installée par défaut dans « Config\wsusscn2.cab »."/>
   <String Src="%DownloadDism%" Dst="Download Dism++ x86/x64/ARM64"/>
 </Strings>
