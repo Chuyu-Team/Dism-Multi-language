@@ -618,7 +618,7 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="安装%d%%" Link="Installing %d%%"/>
 
     <!--区域和语言-->
-    <String Target="区域和语言" Link="Region&amp;Language"/>
+    <String Target="区域和语言" Link="Region &amp; Language"/>
     <String Target="调整映像中的指定 SKU 语言的所有国际设置都设置为默认值：" Link="Reset all international settings of specified SKU language in the image to default:"/>
     <String Target="将系统默认语言调整为指定区域：" Link="Set system default language to:"/>
     <String Target="将用户配置（格式、键盘布局等）为指定区域：" Link="Set user regional settings (format, keyboard layout etc.) to be:"/>
@@ -840,10 +840,10 @@ Special Thanks to Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wonde
     <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Hide People on Task Bar (by 、Cloud)"/>
 
     <!--开始菜单-->
-    <String Target="开始菜单以及Windows体验" Link="Start&amp;Windows Experience"/>
+    <String Target="开始菜单以及Windows体验" Link="Start &amp; Windows Experience"/>
 
     <!--右键菜单管理-->
-    <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="Context menu management: Disable un-necessary menu items to improve Widnows Explorer response"/>
+    <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="Context menu management: Disable unnecessary menu items to improve Windows Explorer response"/>
     <String Target="禁用可执行文件的“兼容性疑难解答”右键菜单（by 莫失莫忘）" Link="Disable &quot;Compatibility troubleshooting&quot; context menu on execuables (by MoWangMoShi)"/>
     <String Target="禁用文件、文件夹以及磁盘的“使用Windows Defender扫描”右键菜单（by 莫失莫忘）" Link="Disable &quot;Scan by Windows Defender&quot; context menu on files, folders and disks (by MoWangMoShi)"/>
     <String Target="禁用文件、磁盘以及属性的“还原以前版本”右键菜单（by 莫失莫忘）" Link="Disable &quot;Revert to previous version&quot; context menu on files, disks and properties (by MoWangMoShi)"/>
