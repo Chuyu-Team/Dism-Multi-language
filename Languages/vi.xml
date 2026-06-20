@@ -1,0 +1,1525 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Đây là tài nguyên dịch sang tiếng Việt cho Dism++. (bởi Vũ Anh Vũ)
+Có 5 dấu câu ASCII cần được biểu diễn đặc biệt trong XML.
+Ngoài ra, một số ký tự điều khiển nên được mã hóa ưu tiên dưới dạng các thực thể ký tự số.
+  Ký hiệu  Mô tả                  Mã hóa thành  Ưu tiên thay đổi trong các bản dịch thành
+    <     Ít hơn                                 &lt;
+    >     Nhiều hơn                              &gt;
+    &     Và                                     &amp;
+    '     Dấu ngoặc đơn                          &apos;
+    "     Dấu ngoặc kép                          &quot;
+    \t    Kiểm soát lập bảng                     &#9;
+    \n    Kiểm soát nguồn cấp dữ liệu (dòng mới) &#xA;
+    \r    Điều khiển trả về đầu dòng             &#xD;
+Cũng xin vui lòng tránh thụt lề tệp này bằng tab.
+
+Đặc biệt cảm ơn Vũ Anh Vũ, Frag, Hexhu, raymai97, mdlgaofei, Mouri_Naruto, MikeGao, wondersnefu, tài khoản đã chết (https://www.github.com/EMLVIRUS)
+-->
+<Data>
+  <DefaultControl>
+    <Font shared="true" id="0" name="Segoe UI" size="12"/>
+    <Font shared="true" id="1" name="Segoe UI" size="16"/>
+  </DefaultControl>
+  <CCleanLangSecRefMap>
+    <LangSecRef ID="3021">Applications</LangSecRef>
+    <LangSecRef ID="3022">Internet</LangSecRef>
+    <LangSecRef ID="3023">Multimedia</LangSecRef>
+    <LangSecRef ID="3024">Utilities</LangSecRef>
+    <LangSecRef ID="3025">System</LangSecRef>
+    <LangSecRef ID="3026">Browser</LangSecRef>
+    <LangSecRef ID="3027">Browser</LangSecRef>
+    <LangSecRef ID="3028">Browser</LangSecRef>
+    <LangSecRef ID="3029">Browser</LangSecRef>
+    <LangSecRef ID="3030">Applications</LangSecRef>
+    <LangSecRef ID="3031">Windows Store</LangSecRef>
+  </CCleanLangSecRefMap>
+  <StringMaps>
+    <String Target="文件(&amp;F)" Link="Tệp(&amp;F)"/>
+      <String Target="添加映像" Link="Thêm ảnh"/>
+        <String Target="释放映像&#9;Ctrl+N" Link="Áp dụng ảnh&#9;Ctrl+N"/>
+        <String Target="挂载映像&#9;Ctrl+Shift+N" Link="Gắn kết ảnh&#9;Ctrl+Shift+N"/>
+        <String Target="添加路径" Link="Thêm đường dẫn"/>
+      <String Target="卸载映像&#9;Delete" Link="Gỡ ảnh&#9;Delete"/>
+      <String Target="保存映像&#9;Ctrl+S" Link="Lưu ảnh&#9;Ctrl+S"/>
+      <String Target="另存为映像&#9;Ctrl+Shift+S" Link="Lưu ảnh thành...&#9;Ctrl+Shift+S"/>
+      <String Target="打开映像文件&#9;Ctrl+O" Link="Mở tệp ảnh&#9;Ctrl+O"/>
+      <String Target="重新载入" Link="Tải lại"/>
+      <String Target="格式转换" Link="Chuyển đổi định dạng"/>
+        <String Target="ESD解密" Link="Giải mã ESD"/>
+    <String Target="取消任务&#9;Ctrl+Break" Link="Hủy tác vụ&#9;Ctrl+Break"/>
+
+    <String Target="恢复功能(&amp;R)" Link="Phục hồi(&amp;R)"/>
+      <String Target="系统修复" Link="Phục hồi hệ thống"/>
+      <String Target="健康扫描" Link="Kiểm tra sức khỏe"/>
+        <String Target="验证受损" Link="Quét sức khỏe"/>
+        <String Target="修复受损" Link="Khôi phục sức khỏe"/>
+      <String Target="引导修复" Link="Sửa lỗi khởi động"/>
+      <String Target="系统备份" Link="Sao lưu hệ thống"/>
+      <String Target="系统还原" Link="Khôi phục hệ thống"/>
+      <String Target="在RE中运行" Link="Chạy trong WinRE"/>
+      <String Target="仅启动RE" Link="Chỉ chạy WinRE"/>
+      <String Target="撤销Compact" Link="Hoàn tác Compact"/>
+
+    <String Target="选项(&amp;O)" Link="Tùy chọn(&amp;O)"/>
+      <String Target="插件管理" Link="Quản lý Plugin"/>
+      <String Target="新手模式" Link="Chế độ người mới"/>
+      <String Target="详细设置" Link="Cài đặt khác"/>
+      <String Target="操作完成后" Link="Sau khi hoàn tất"/>
+        <String Target="未定义" Link="Không"/>
+        <String Target="关机" Link="Tắt máy"/>
+        <String Target="重启" Link="Khởi động lại"/>
+      <String Target="程序外观" Link="Giao diện"/>
+
+    <String Target="帮助(&amp;H)" Link="Trợ giúp(&amp;H)"/>
+      <String Target="查看帮助(&amp;V)" Link="Xem trợ giúp(&amp;V)"/>
+      <String Target="官方网站(&amp;O)" Link="Trang chủ(&amp;O)"/>
+      <String Target="官方群(&amp;G)" Link="Nhóm chính thức(&amp;G)"/>
+      <String Target="问题反馈(&amp;B)" Link="Phản hồi(&amp;B)"/>
+      <String Target="关于Dism++(&amp;A)" Link="Về Dism++(&amp;A)"/>
+      <String Target="检查更新(&amp;U)" Link="Kiểm tra cập nhật(&amp;U)"/>
+
+    <String Target="应用一个WIM、ESD、SWM或者ISO映像。" Link="Áp dụng tệp ảnh WIM, ESD, SWM hoặc ISO."/>
+    <String Target="从 WIM 文件安装映像。" Link="Gắn kết ảnh từ tệp WIM."/>
+    <String Target="卸载安装的 WIM 映像" Link="Gỡ tệp ảnh WIM đã gắn kết."/>
+    <String Target="保存对安装的 WIM 映像的更改" Link="Lưu thay đổi vào tệp ảnh WIM đã gắn kết."/>
+    <String Target="保存更改到另一个WIM文件中" Link="Lưu thay đổi vào tệp WIM khác."/>
+    <String Target="打开并编辑现有的WIM文件" Link="Mở và chỉnh sửa tệp WIM hiện có."/>
+    <String Target="WIM、ESD互转" Link="ESD/WIM."/>
+    <String Target="将ESD文件（支持加密）转换为ISO。" Link="ESD sang ISO (hỗ trợ tệp ESD mã hóa)."/>
+    <String Target="解密微软在线提供的ESD文件" Link="Giải mã tệp ESD từ Microsoft."/>
+    <String Target="重启进入RE并为我启动Dism++" Link="Khởi động lại vào WinRE và chạy Dism++."/>
+    <String Target="启动RE环境" Link="Khởi động môi trường WinRE."/>
+    <String Target="添加删除Dism插件" Link="Thêm hoặc xóa Plugin Dism++."/>
+    <String Target="在官方网站可以获取帮助文档，并提出你的宝贵意见" Link="Tài liệu có sẵn tại www.chuyu.me. Chúng tôi rất trân trọng phản hồi của bạn!"/>
+    <String Target="为映像重新添加引导。" Link="Thêm lại ảnh khởi động."/>
+    <String Target="只添加指定文件夹路径到映像列表。" Link="Chỉ thêm đường dẫn thư mục đã chọn vào danh sách ảnh."/>
+    <String Target="重新扫描系统" Link="Quét lại hệ thống."/>
+    <String Target="取消所有Compact压缩的文件（存在兼容性问题时使用）" Link="Hoàn tác nén tệp Compact (dùng khi có lỗi tương thích)."/>
+    <String Target="将现有的系统备份为WIM或者ESD（如果文件存在则自动增量到原有文件）。" Link="Sao lưu hệ thống thành WIM hoặc ESD (tự động lưu tăng dần nếu đã sao lưu trước đó)."/>
+    <String Target="扫描映像是否存在组件存储损坏" Link="Quét ảnh để kiểm tra lỗi kho lưu trữ thành phần."/>
+  <String Target="修复映像中存在的组件存储损坏" Link="Sửa lỗi hỏng hóc trong kho lưu trữ thành phần ảnh"/>
+    <String Target="从现有映像文件（WIM、ESD）恢复系统。" Link="Khôi phục hệ thống từ tệp ảnh hiện có (WIM/ESD)."/>
+    <String Target="调整Dism++的设置" Link="Điều chỉnh cài đặt Dism++"/>
+    <String Target="专家模式" Link="Chế độ chuyên gia"/>
+
+    <!--右键菜单-->
+    <String Target="Xpress4k（推荐）" Link="Xpress4k (khuyên dùng)"/>
+    <String Target="LZX（体积最小）" Link="LZX (dung lượng nhỏ nhất)"/>
+
+    <!--主框架-->
+    <String Target="正在删除" Link="Đang xóa"/>
+    <String Target="错误提示" Link="Lỗi"/>
+    <String Target="正在保存" Link="Đang lưu"/>
+    <String Target="保存映像" Link="Lưu ảnh"/>
+    <String Target="正在准备" Link="Đang chuẩn bị"/>
+    <String Target="正在加载规则" Link="Đang tải quy tắc"/>
+    <String Target="Dism++不允许修改文件名，这将导致插件无法正常加载。" Link="Dism++ không cho phép đổi tên tệp, điều này khiến plugin không thể tải."/>
+    <String Target="无法启动Dism++x64.exe，请确保该Dism++组件的完整性。" Link="Không thể khởi chạy Dism++x64.exe, hãy đảm bảo tính toàn vẹn của Dism++."/>
+    <String Target="Dism++关键组件丢失，请从 www.chuyu.me 重新下载Dism++。" Link="Thiếu thành phần quan trọng, hãy tải lại Dism++ từ www.chuyu.me."/>
+    <String Target="临时目录可用空间不足5GB，这可能导致Dism++无法正常运行，推荐将Dism++复制到可用空间大于5GB的驱动器，然后继续。" Link="Thư mục tạm dưới 5GB trống, Dism++ có thể không hoạt động tốt. Hãy chuyển Dism++ đến ổ đĩa có trên 5GB trống rồi tiếp tục."/>
+    <String Target="基础支撑库缺失，引导修复相关功能无法使用。" Link="Thiếu thư viện hỗ trợ cơ bản, tính năng sửa khởi động không thể dùng."/>
+    <String Target="Dism++需要管理员权限才能运行，请右键 以管理员身份运行 然后继续。" Link="Dism++ cần quyền quản trị. Hãy chuột phải chọn Run as Administrator rồi tiếp tục."/>
+    <String Target="Dism++不允许以兼容模式启动，请去除兼容模式，然后再启动Dism++。" Link="Dism++ không cho phép chế độ tương thích. Hãy tắt chế độ đó rồi khởi động lại."/>
+
+    <String Target="你需要增量保存还是直接保存？" Link="Bạn muốn lưu tăng dần hay lưu trực tiếp?"/>
+    <String Target="温馨提示：保存映像后空间不会减少，如果需要减少空间请重新编译目标文件。" Link="Gợi ý: Lưu ảnh không làm giảm dung lượng, hãy biên dịch lại tệp đích nếu muốn tối ưu."/>
+    <String Target="增量保存（推荐）&#xA;创建一个新的映像，不会覆盖原有数据。" Link="Lưu tăng dần (khuyên dùng)&#xA;Tạo ảnh mới, không ghi đè dữ liệu cũ."/>
+
+    <String Target="直接保存&#xA;将覆盖当前映像的数据。" Link="Lưu trực tiếp&#xA;Sẽ ghi đè dữ liệu lên ảnh hiện tại."/>
+
+    <String Target="温馨提示" Link="Gợi ý"/>
+
+    <String Target="正在挂载" Link="Đang gắn kết"/>
+    <String Target="正在卸载映像" Link="Đang gỡ ảnh"/>
+    <String Target="正在释放" Link="Đang áp dụng"/>
+    <String Target="正在还原" Link="Đang khôi phục"/>
+    <String Target="%s 位置的映像正在进行其他事情，请稍后再试。" Link="Ảnh tại %s đang bận, vui lòng thử lại sau."/>
+    <String Target="无法移动文件 %s，Dism++已回滚对系统的更改。" Link="Không thể di chuyển tệp %s, Dism++ đã hoàn tác các thay đổi."/>
+
+    <String Target="正在配置WinRE" Link="Đang cấu hình WinRE"/>
+    <String Target="正在进行第 %d 阶段（共 %d ）" Link="Đang ở bước %d (tổng %d bước)"/>
+    <String Target="格式转换向导" Link="Trình hướng dẫn chuyển đổi định dạng"/>
+    <String Target="此功能可以将微软发布的ESD转换为ISO，还支持加密的ESD哦。" Link="Tính năng này chuyển ESD sang ISO, hỗ trợ cả ESD đã mã hóa."/>
+    <String Target="ESD映像文件" Link="Tệp ảnh ESD"/>
+    <String Target="ISO映像文件" Link="Tệp ảnh ISO"/>
+    <String Target="ISO映像文件-高压版" Link="Tệp ảnh ISO-Nén cao"/>
+    <String Target="WIM映像文件" Link="Tệp ảnh WIM"/>
+    <String Target="WIM拆分映像" Link="Tệp ảnh SWM"/>
+    <String Target="所有文件" Link="Tất cả tệp"/>
+
+    <String Target="正在转换格式" Link="Đang chuyển đổi"/>
+    <String Target="正在从%s，转换到%s" Link="Đang chuyển từ %s sang %s"/>
+
+    <String Target="映像文件" Link="Tệp ảnh"/>
+    <String Target="无法获取RE信息，错误代码：%d" Link="Không thể lấy thông tin RE, mã lỗi: %d"/>
+    <String Target="重启后，系统自动将启动RE，你确定要重启么？" Link="Hệ thống sẽ vào RE sau khi khởi động lại, bạn có chắc không?"/>
+    <String Target="此功能可以将ESD、WIM格式相互转换。" Link="Tính năng này chuyển đổi qua lại giữa ESD và WIM."/>
+    <String Target="Dism++将会在RE中启动，你现在需要重启电脑么？" Link="Dism++ sẽ khởi chạy trong RE, bạn có muốn khởi động lại ngay?"/>
+    <String Target="%s 位置的映像正繁忙，请稍后再试。" Link="Ảnh tại vị trí %s đang bận, vui lòng thử lại sau."/>
+    <String Target="正在验证受损" Link="Đang quét tình trạng"/>
+    <String Target="正在修复受损" Link="Đang khôi phục tình trạng"/>
+    <String Target="%d 秒后将关闭计算机，点击取消可以撤销此任务。" Link="Máy sẽ tắt sau %d giây. Nhấn Hủy để dừng tác vụ."/>
+    <String Target="%d 秒后将重启计算机，点击取消可以撤销此任务。" Link="Máy sẽ khởi động lại sau %d giây. Nhấn Hủy để dừng tác vụ."/>
+
+    <String Target="正在清理临时数据" Link="Đang dọn dẹp dữ liệu tạm"/>
+    <String Target="Sorry，无法配置环境，请在PE中使用此功能。" Link="Xin lỗi, không thể cấu hình môi trường. Vui lòng dùng trong môi trường PE."/>
+    <String Target="Sorry，无法清理临时文件！" Link="Xin lỗi, không thể dọn dẹp tệp tạm!"/>
+    <String Target="当前硬盘可用空间不足，你需要重启并进入RE进行恢复么？" Link="Không đủ dung lượng ổ đĩa, bạn có muốn vào RE để khôi phục không?"/>
+    <String Target="在还原前你需要格式化分区：%s ?" Link="Bạn có muốn định dạng phân vùng %s trước khi khôi phục không?"/>
+
+    <String Target="温馨提示：格式化分区该分区所有数据将丢失！" Link="Cảnh báo: Dữ liệu trên phân vùng sẽ bị xóa sạch khi định dạng!"/>
+    <String Target="格式化分区（推荐）&#xA;有助于系统分区整洁，消除文件残留。" Link="Định dạng (Khuyên dùng)&#xA;Giúp phân vùng sạch sẽ, loại bỏ tệp rác."/>
+
+    <String Target="%s 映像已经还原成功。" Link="Đã khôi phục thành công ảnh %s."/>
+    <String Target="你需要重启并立即生效么？" Link="Bạn có muốn khởi động lại để áp dụng thay đổi?"/>
+
+    <String Target="准备就绪" Link="Sẵn sàng"/>
+    <String Target="不支持" Link="Không hỗ trợ"/>
+    <String Target="不存在" Link="Không tồn tại"/>
+    <String Target="已经失效" Link="Đã hết hạn"/>
+    <String Target="请稍等" Link="Vui lòng đợi"/>
+
+    <String Target="本地硬盘" Link="Ổ đĩa cục bộ"/>
+    <String Target="挂载映像" Link="Ảnh đã gắn kết"/>
+    <String Target="Compact" Link="Compact"/>
+    <String Target="VHD装载" Link="VHD đã gắn kết"/>
+
+    <String Target="不压缩" Link="Không nén"/>
+    <String Target="WIMBoot压缩" Link="Nén WIMBoot"/>
+    <String Target="快速压缩" Link="Nén nhanh"/>
+    <String Target="最大压缩" Link="Nén tối đa"/>
+    <String Target="极限压缩" Link="Nén cực hạn"/>
+
+    <String Target="映像名称" Link="Tên ảnh"/>
+    <String Target="映像说明" Link="Mô tả ảnh"/>
+    <String Target="显示名称" Link="Tên hiển thị"/>
+    <String Target="显示说明" Link="Mô tả hiển thị"/>
+    <String Target="映像标志" Link="Phiên bản"/>
+
+    <String Target="系统体系" Link="Kiến trúc hệ thống"/>
+    <String Target="创建日期" Link="Ngày tạo"/>
+    <String Target="展开空间" Link="Dung lượng mở rộng"/>
+    <String Target="系统版本" Link="Phiên bản OS"/>
+
+    <String Target="不压缩映像" Link="Không nén"/>
+    <String Target="WIMBoot压缩映像" Link="Nén WIMBoot"/>
+    <String Target="快速压缩映像" Link="Nén nhanh"/>
+    <String Target="最大压缩映像" Link="Nén tối đa"/>
+    <String Target="极限压缩映像" Link="Nén cực hạn"/>
+    <String Target="全选" Link="Chọn tất cả"/>
+    <String Target="反选" Link="Đảo ngược chọn"/>
+    <String Target="自定义规则" Link="Quy tắc tùy chỉnh"/>
+    <String Target="扫描" Link="Quét"/>
+    <String Target="清理" Link="Dọn dẹp"/>
+
+    <String Target="存在风险" Link="Rủi ro"/>
+    <String Target="建议保留" Link="Nên giữ"/>
+    <String Target="可以删除" Link="Có thể xóa"/>
+    <String Target="建议删除" Link="Nên xóa"/>
+    <String Target="自定义" Link="Tùy chỉnh"/>
+
+    <String Target="正在载入清理规则" Link="Đang tải quy tắc dọn dẹp..."/>
+    <String Target="正在撤销Compact" Link="Đang hoàn tác Compact"/>
+    <String Target="名称" Link="Tên"/>
+    <String Target="保存" Link="Lưu"/>
+    <String Target="取消" Link="Hủy"/>
+    <String Target="详细信息" Link="Chi tiết"/>
+    <String Target="其他" Link="Khác"/>
+    <String Target="正在初始化" Link="Đang khởi tạo..."/>
+    <String Target="类别" Link="Thể loại"/>
+    <String Target="大小" Link="Dung lượng"/>
+    <String Target="正在关闭会话" Link="Đang đóng phiên làm việc"/>
+    <String Target="值" Link="Giá trị"/>
+    <String Target="控制面板" Link="Control Panel"/>
+    <String Target="删除" Link="Xóa"/>
+    <String Target="关于Dism++" Link="Về Dism++"/>
+    <String Target="Dism++正在执行任务，你确定要关闭程序么？" Link="Dism++ đang chạy tác vụ, bạn có chắc muốn thoát?"/>
+    <String Target="正在检查更新" Link="Đang kiểm tra cập nhật..."/>
+    <String Target="正在加载插件" Link="Đang tải Plugin"/>
+    <String Target="正在扫描已安装的系统" Link="Đang quét hệ thống đã cài đặt"/>
+    <String Target="已经是最新版本，无需更新！" Link="Đã là phiên bản mới nhất, không cần cập nhật!"/>
+    <String Target="正在修复挂载映像" Link="Đang sửa ảnh đã gắn kết"/>
+    <String Target="正在取消现有任务，请稍等……" Link="Đang hủy tác vụ, vui lòng đợi..."/>
+    <String Target="挂载映像 %s 已经损坏，需要修复才能继续。你需要执行修复操作吗？" Link="Ảnh %s đã gắn kết bị hỏng, cần sửa chữa trước khi tiếp tục. Bạn có muốn sửa ngay không?"/>
+    <String Target="即将重启以下程序 %s，你确定要继续吗？" Link="Sắp khởi động lại chương trình %s, bạn có chắc muốn tiếp tục?"/>
+    <String Target="资源管理器" Link="Explorer"/>
+    <String Target="操作完成" Link="Thành công"/>
+
+    <!--欢迎页-->
+    <String Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。" Link="Dism++ được tạo ra bởi những người cầu toàn, hướng tới tính năng mạnh mẽ, gọn nhẹ và chuẩn portable. Dism++ là giao diện đồ họa (GUI) cho Dism nhưng không phụ thuộc Dism, mà dựa trực tiếp vào CBS (Component Based Servicing) cấp thấp. Vì vậy, Dism++ thường tương thích tốt hơn và nhẹ hơn Dism gốc của Microsoft."/>
+
+    <String Target="联系方式" Link="Liên hệ"/>
+    <String Target="官方网站" Link="Trang chủ"/>
+    <String Target="QQ群" Link="Nhóm QQ"/>
+    <String Target="邮箱" Link="Email"/>
+
+    <String Target="帮助与支持" Link="Hỗ trợ"/>
+    <String Target="初雨开源" Link="Mã nguồn mở"/>
+    <String Target="问题反馈" Link="Phản hồi"/>
+    <String Target="帮助文档" Link="Tài liệu hướng dẫn"/>
+
+    <String Target="致谢" Link="Lời cảm ơn"/>
+    <String Target="翻译人员" Link="Người dịch"/>
+    <String Target="赞助名单" Link="Nhà tài trợ"/>
+    <String Target="第三方库" Link="Thư viện bên thứ 3"/>
+
+    <!--添加映像-->
+    <String Target="请输入映像存放目录" Link="Vui lòng nhập thư mục chứa ảnh"/>
+    <String Target="请在此输入安装路径，比如C:\" Link="Nhập đường dẫn cài đặt, ví dụ C:\"/>
+    <String Target="请在此输入挂载路径，比如D:\1" Link="Nhập đường dẫn gắn kết, ví dụ D:\1"/>
+    <String Target="请输入所在路径" Link="Vui lòng nhập đường dẫn"/>
+    <String Target="镜像文件" Link="Tệp ảnh"/>
+    <String Target="只读模式" Link="Chỉ đọc"/>
+    <String Target="快速挂载" Link="Gắn kết nhanh"/>
+    <String Target="（可启动）" Link="(Có thể khởi động)"/>
+    <String Target="添加映像向导" Link="Trình hướng dẫn thêm ảnh"/>
+    <String Target="此功能可以将其他文件（WIM、ESD、VHD、VHDX）或者文件夹的包含的映像添加至映像列表。" Link="Tính năng này cho phép thêm tệp (WIM, ESD, VHD, VHDX) hoặc ảnh từ thư mục vào danh sách."/>
+
+    <String Target="挂载映像文件（WIM、VHD、VHDX）中的映像到指定目录" Link="Gắn kết ảnh từ tệp (WIM, VHD, VHDX) vào thư mục chỉ định"/>
+    <String Target="释放映像文件（WIM、ESD）中的映像到指定目录" Link="Áp dụng ảnh từ tệp (WIM, ESD) vào thư mục chỉ định"/>
+    <String Target="谢谢，我只需要添加指定文件夹路径到映像列表" Link="Cảm ơn, tôi chỉ muốn thêm thư mục vào danh sách ảnh"/>
+    <String Target="浏览" Link="Duyệt"/>
+    <String Target="目标映像：" Link="Ảnh đích:"/>
+    <String Target="请选择其中一个映像" Link="Vui lòng chọn một ảnh"/>
+    <String Target="请在此输入映像文件路径，比如 D:\Backup.wim" Link="Nhập đường dẫn tệp ảnh, ví dụ D:\Backup.wim"/>
+    <String Target="添加引导" Link="Thêm khởi động"/>
+    <String Target="格式化" Link="Định dạng"/>
+    <String Target="释放映像" Link="Áp dụng ảnh"/>
+    <String Target="挂载映像 " Link="Gắn kết ảnh "/>
+
+    <!--另存为映像-->
+    <String Target="你可以在此处修改映像文件信息（支持双击修改）" Link="Bạn có thể sửa thông tin ảnh tại đây (nhấp đúp để sửa)"/>
+    <String Target="在此处设置捕获映像的文件豁免列表加快捕获速度，每个条目用回车分割。" Link="Thiết lập danh sách loại trừ để tăng tốc độ bắt ảnh, mỗi mục cách nhau bởi phím Enter."/>
+    <String Target="如何配置豁免列表" Link="Cách cấu hình danh sách loại trừ"/>
+    <String Target="另存为映像" Link="Lưu ảnh thành..."/>
+    <String Target="卷影复制" Link="Sao chép VSS"/>
+
+    <!--系统修复-->
+    <String Target="映像十分健康不需要修复。" Link="Ảnh đang ở trạng thái tốt, không cần sửa."/>
+    <String Target="映像已经受损，但是可以修复。" Link="Ảnh bị hỏng nhưng có thể sửa được."/>
+    <String Target="映像已经受到致命问题，已经无法修复，请修复安装。" Link="Ảnh gặp vấn đề nghiêm trọng, không thể sửa, vui lòng cài đặt lại."/>
+    <String Target="系统修复向导" Link="Trình hướng dẫn sửa chữa hệ thống"/>
+    <String Target="恭喜映像已经修复成功！" Link="Chúc mừng, ảnh đã được sửa chữa thành công!"/>
+    <String Target="致命错误，会话无应答。" Link="Lỗi nghiêm trọng, phiên làm việc không phản hồi."/>
+
+    <!--本地源-->
+    <String Target="本地源可以大幅度加速功能打开以及系统修复。" Link="Nguồn cục bộ giúp tăng tốc đáng kể việc mở tính năng và sửa chữa hệ thống."/>
+    <String Target="什么是本地源" Link="Nguồn cục bộ là gì?"/>
+    <String Target="本地源" Link="Nguồn cục bộ"/>
+
+    <!--格式转换-->
+    <String Target="请在此输入源文件路径" Link="Vui lòng nhập đường dẫn tệp nguồn tại đây"/>
+    <String Target="请在此输入目标文件路径" Link="Vui lòng nhập đường dẫn tệp đích tại đây"/>
+
+    <!--ESD解密-->
+    <String Target="温馨提示：此功能将直接解密目标文件，原版控请自行备份。" Link="Gợi ý: Tính năng này sẽ giải mã trực tiếp tệp đích, hãy tự sao lưu nếu bạn muốn giữ bản gốc."/>
+    <String Target="解密口令已自动匹配" Link="Mật khẩu giải mã đã được khớp tự động"/>
+    <String Target="请在输入框输入解密口令" Link="Vui lòng nhập mật khẩu giải mã vào ô trống"/>
+    <String Target="请正确输入Key，错误信息：%s" Link="Vui lòng nhập Key chính xác, thông báo lỗi: %s"/>
+    <String Target="成功解密：%s" Link="Giải mã thành công: %s"/>
+    <String Target="ESD解密向导" Link="Trình hướng dẫn giải mã ESD"/>
+    <String Target="该文件似乎不是一个有效的WIM、ESD文件。" Link="Tệp này dường như không phải là tệp WIM hoặc ESD hợp lệ."/>
+    <String Target="该文件没有被加密，无需解密。" Link="Tệp này không bị mã hóa, không cần giải mã."/>
+    <String Target="温馨提示：Dism++将使用独有内存解密，无需担心源文件被修改。" Link="Gợi ý: Dism++ sẽ giải mã trong bộ nhớ riêng, không cần lo tệp nguồn bị thay đổi."/>
+
+    <!--映像编辑-->
+    <String Target="温馨提示：双击可修改映像信息对应的值。" Link="Gợi ý: Nhấp đúp để sửa các giá trị thông tin ảnh tương ứng."/>
+    <String Target="可启动" Link="Có thể khởi động"/>
+    <String Target="编辑映像文件" Link="Chỉnh sửa tệp ảnh"/>
+    <String Target="导出" Link="Xuất"/>
+    <String Target="保存更改" Link="Lưu thay đổi"/>
+    <String Target="导出映像" Link="Xuất ảnh"/>
+    <String Target="正在导出第%d个映像（共 %d ）" Link="Đang xuất ảnh thứ %d (tổng %d)"/>
+    <String Target="正在添加映像，请耐心等待……" Link="Đang thêm ảnh, vui lòng kiên nhẫn đợi..."/>
+    <String Target="操作成功！" Link="Thao tác thành công!"/>
+    <String Target="删除映像" Link="Xóa ảnh"/>
+    <String Target="编辑映像" Link="Chỉnh sửa ảnh"/>
+
+    <!--引导修复-->
+    <String Target="此映像并不在分区根目录，所以无法执行修复操作。" Link="Không thể sửa vì ảnh không nằm ở thư mục gốc của phân vùng."/>
+    <String Target="当前映像正在运行，所以无法执行修复操作。" Link="Ảnh hiện tại đang chạy, nên không thể thực hiện sửa chữa."/>
+    <String Target="正在修复引导" Link="Đang sửa khởi động..."/>
+    <String Target="恭喜已经成功修复引导。" Link="Chúc mừng, đã sửa khởi động thành công."/>
+    <String Target="启动修复失败，错误代码：%d" Link="Sửa khởi động thất bại, mã lỗi: %d"/>
+    <String Target="无法对PE进行引导修复。" Link="Không thể thực hiện sửa khởi động cho môi trường PE."/>
+    <String Target="类型" Link="Loại"/>
+
+    <!--引导修复-启动分区选择-->
+    <String Target="位置" Link="Vị trí"/>
+    <String Target="基本" Link="Cơ bản"/>
+    <String Target="更多" Link="Nâng cao"/>
+    <String Target="启动分区：" Link="Phân vùng khởi động:"/>
+    <String Target="你必须点击更多进行手动指定！" Link="Bạn phải nhấn Nâng cao để chỉ định thủ công!"/>
+    <String Target="硬盘%d 分区%d（%s）" Link="Đĩa %d Phân vùng %d (%s)"/>
+    <String Target="硬盘%d 分区%d" Link="Đĩa %d Phân vùng %d"/>
+    <String Target="即将把启动信息写入启动分区- %s" Link="Sắp ghi thông tin khởi động vào phân vùng - %s"/>
+    <String Target="没有异议或者看不懂的请点击 %s 。" Link="Nếu đồng ý hoặc không hiểu, vui lòng nhấn %s."/>
+    <String Target="无法获取该分区的详细信息。" Link="Không thể lấy thông tin chi tiết phân vùng."/>
+    <String Target="目标系统需要以UEFI方式启动，请选择一个GPT分区。" Link="Hệ thống cần khởi động UEFI, hãy chọn phân vùng GPT."/>
+    <String Target="UEFI启动需要FAT16/FAT32分区。" Link="Khởi động UEFI cần phân vùng FAT16/FAT32."/>
+    <String Target="目标系统需要以BIOS方式启动，请选择一个MBR分区。" Link="Hệ thống cần khởi động BIOS, hãy chọn phân vùng MBR."/>
+    <String Target="BIOS启动分区必须是个主分区。" Link="Phân vùng khởi động BIOS phải là phân vùng chính (Primary)."/>
+
+    <!--详细设置-->
+    <String Target="体验" Link="Trải nghiệm"/>
+    <String Target="设置" Link="Cài đặt"/>
+    <String Target="确定" Link="OK"/>
+    <String Target="启用专家模式*" Link="Bật chế độ chuyên gia*"/>
+    <String Target="整合右键菜单" Link="Tích hợp menu chuột phải"/>
+    <String Target="整合引导菜单" Link="Tích hợp menu khởi động BCD"/>
+    <String Target="排除列表" Link="Danh sách loại trừ"/>
+    <String Target="减少映像文件（WIM、ESD）保存时间" Link="Giảm thời gian lưu tệp ảnh (WIM, ESD)"/>
+    <String Target="CompactOS压缩率" Link="Tỷ lệ nén CompactOS"/>
+    <String Target="压缩率越小性能越好（仅影响选中系统）" Link="Tỷ lệ nén càng thấp hiệu năng càng tốt (chỉ áp dụng cho hệ thống đã chọn)."/>
+    <String Target="大约压缩33%（更佳性能）" Link="Nén ~33% (Hiệu năng tốt hơn)"/>
+    <String Target="大约压缩36%" Link="Nén ~36%"/>
+    <String Target="大约压缩38%" Link="Nén ~38%"/>
+    <String Target="大约压缩44%（更小体积）" Link="Nén ~44% (Dung lượng nhỏ hơn)"/>
+    <String Target="加载WofAdk驱动（可能导致蓝屏！）" Link="Tải driver WofAdk (có thể gây màn hình xanh!)"/>
+    <String Target="更新差异传输引擎：" Link="Công cụ truyền khác biệt Windows Update:"/>
+    <String Target="关闭" Link="Tắt"/>
+    <String Target="快速" Link="Nhanh"/>
+    <String Target="完整" Link="Đầy đủ"/>
+
+    <!--Tab-->
+    <String Target="Dism++正在执行其他任务，你可以稍后打开会话。" Link="Dism++ đang bận tác vụ khác, bạn có thể mở phiên sau."/>
+    <String Target="为了优化性能，你需要手动打开会话。" Link="Để tối ưu hiệu năng, hãy mở phiên thủ công."/>
+    <String Target="打开会话" Link="Mở phiên làm việc"/>
+    <String Target="正在打开会话" Link="Đang mở phiên..."/>
+    <String Target="当前系统至少为Windows 8/2012才能正常处理此系统。如果你继续进行，那么打开关闭功能、添加删除更新均可能出现意外失败。" Link="Hệ thống cần tối thiểu Windows 8/2012. Nếu tiếp tục trên hệ điều hành cũ, việc bật tắt tính năng hoặc cập nhật có thể thất bại."/>
+    <String Target="映像路径存在非英文字符可能导致安装更新失败，请在全英文路径重新挂载此映像，比如“D:\Mount”。" Link="Đường dẫn ảnh chứa ký tự không phải tiếng Anh có thể gây lỗi cập nhật. Hãy gắn kết lại ở đường dẫn không dấu, ví dụ “D:\Mount”."/>
+
+    <String Target="常用工具" Link="Công cụ thường dùng"/>
+      <String Target="空间回收" Link="Dọn dẹp ổ đĩa"/>
+      <String Target="启动项管理" Link="Khởi động cùng Windows"/>
+      <String Target="工具箱" Link="Hộp công cụ"/>
+      <String Target="Appx管理" Link="Quản lý Appx"/>
+
+    <String Target="驱动管理" Link="Quản lý Driver"/>
+    <String Target="程序和功能" Link="Ứng dụng &amp; Tính năng"/>
+    <String Target="Windows服务" Link="Dịch vụ Windows"/>
+    <String Target="Windows功能" Link="Tính năng Windows"/>
+    <String Target="更新管理" Link="Quản lý cập nhật"/>
+      <String Target="已安装的更新" Link="Lịch sử cập nhật"/>
+    <String Target="可选功能" Link="Tính năng tùy chọn"/>
+    <String Target="部署功能" Link="Triển khai tính năng"/>
+
+    <!--空间回收-->
+    <String Target="推荐操作" Link="Khuyến nghị"/>
+    <String Target="需要扫描" Link="Sẵn sàng quét"/>
+    <String Target="正在扫描%s" Link="Đang quét %s"/>
+    <String Target="出错" Link="Lỗi"/>
+    <String Target="正在清理%s" Link="Đang dọn dẹp %s"/>
+    <String Target="本次共释放了%s 的空间。" Link="Đã giải phóng được %s dung lượng."/>
+
+    <String Target="该规则来自CCleaner解析引擎，因此不能提供说明。" Link="Quy tắc này đến từ công cụ CCleaner, nên không có mô tả chi tiết."/>
+    <String Target="默认" Link="Mặc định"/>
+    <String Target="关于 %s 的详细处理信息" Link="Thông tin chi tiết về %s"/>
+    <String Target="以下文件即将被处理，你可以点击 清理 处理他们" Link="Các tệp sau sẽ bị xử lý, bạn có thể nhấn &quot;Dọn dẹp&quot; để thực hiện"/>
+    <String
+      Target="关于 %s 的警告：&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;您确定要清理么？"
+      Link="Cảnh báo về %s:&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;Bạn có chắc chắn muốn dọn dẹp không?"/>
+    <String Target="全不选" Link="Bỏ chọn tất cả"/>
+    <String Target="已经清理" Link="Đã dọn dẹp"/>
+    <String Target="清理失败" Link="Dọn dẹp thất bại"/>
+    <String Target="等待扫描" Link="Chờ quét"/>
+    <String Target="过期文件" Link="Tệp hết hạn"/>
+    <String Target="系统相关" Link="Hệ thống"/>
+    <String Target="缓存文件" Link="Tệp bộ nhớ đệm"/>
+    <String Target="应用程序" Link="Ứng dụng"/>
+    <String Target="备份文件" Link="Tệp sao lưu"/>
+    <String Target="Dism++即将进行清理，垃圾文件将被直接删除，无法通过回收站恢复，你确定要继续么？" Link="Dism++ sắp bắt đầu quá trình dọn dẹp, các tệp rác sẽ bị xóa vĩnh viễn và không thể khôi phục qua Thùng rác. Bạn có chắc chắn muốn tiếp tục?"/>
+
+    <!--注册表清理-->
+    <String Target="注册表清理" Link="Dọn dẹp Registry"/>
+    <String Target="无效动态链接库" Link="Thư viện liên kết động (DLL) không hợp lệ"/>
+    <String Target="无效的应用程序路径" Link="Đường dẫn ứng dụng không hợp lệ"/>
+    <String Target="无效的启动程序" Link="Tiến trình khởi động không hợp lệ"/>
+    <String Target="用户访问历史记录" Link="Lịch sử truy cập người dùng"/>
+    <String Target="无效的防火墙设置" Link="Thiết lập tường lửa không hợp lệ"/>
+    <String Target="无效的卸载信息" Link="Thông tin gỡ cài đặt không hợp lệ"/>
+    <String Target="无效的MUI缓存" Link="Bộ nhớ đệm MUI không hợp lệ"/>
+    <String Target="无效的文件类型" Link="Loại tệp không hợp lệ"/>
+    <String Target="无效的COM组件" Link="Thành phần COM không hợp lệ"/>
+    <String Target="蓝屏记录" Link="Lịch sử màn hình xanh (BSOD)"/>
+    <String Target="注册表还原" Link="Khôi phục Registry"/>
+    <String Target="清理时间" Link="Thời gian dọn dẹp"/>
+    <String Target="网络位置" Link="Vị trí mạng"/>
+    <String Target="正在扫描第%d个可清理的注册表项。。。" Link="Đang quét mục Registry thứ %d có thể dọn dẹp..."/>
+
+    <!--驱动管理-->
+    <String Target="温馨提示：删除关键驱动可能导致计算机无法启动" Link="Lưu ý: Xóa các driver quan trọng có thể khiến máy tính không khởi động được."/>
+    <String Target="关键驱动：%s" Link="Driver quan trọng: %s"/>
+    <String Target="类别标识：%s" Link="Phân loại: %s"/>
+    <String Target="驱动版本：%hu.%hu.%hu.%hu" Link="Phiên bản: %hu.%hu.%hu.%hu"/>
+    <String Target="发布日期：%s" Link="Ngày phát hành: %s"/>
+    <String Target="文件路径：%s" Link="Đường dẫn: %s"/>
+    <String Target="驱动大小：%s" Link="Dung lượng: %s"/>
+    <String Target="OEM名称：%s" Link="Tên OEM: %s"/>
+
+    <String Target="导出驱动" Link="Xuất"/>
+    <String Target="删除驱动" Link="Xóa"/>
+    <String Target="添加驱动" Link="Thêm"/>
+
+    <String Target="是" Link="CÓ"/>
+    <String Target="否" Link="KHÔNG"/>
+
+    <String Target="正在加载驱动" Link="Đang tải driver"/>
+    <String Target="请选择驱动保存路径" Link="Vui lòng chọn đường dẫn lưu driver."/>
+    <String Target="正在导出驱动" Link="Đang xuất driver"/>
+    <String Target="导出驱动时遇到问题，具体参考Dism++.log" Link="Gặp sự cố khi xuất driver, vui lòng xem Dism++.log để biết chi tiết."/>
+
+    <String Target="正在删除驱动" Link="Đang xóa driver"/>
+    <String Target="一个或者多个驱动删除失败，错误代码：0x%.8X" Link="Xóa một hoặc nhiều driver thất bại, mã lỗi: 0x%.8X"/>
+
+    <String Target="请选择驱动所在文件夹" Link="Vui lòng chọn thư mục chứa driver"/>
+    <String Target="正在安装驱动" Link="Đang cài đặt driver"/>
+    <String Target="一个或者多个驱动添加失败，错误代码：0x%.8X" Link="Thêm một hoặc nhiều driver thất bại, mã lỗi: 0x%.8X"/>
+    <String Target="显示内置驱动" Link="Hiển thị driver tích hợp"/>
+    <String Target="处理过程中遇到问题，其中成功 %u 个，失败 %u 个，不适用 %u 个。部分错误信息：%s [0x%.8X] 更多信息请参考 &quot;Config\Dism++.log&quot;" Link="Gặp sự cố trong quá trình xử lý, thành công %u, thất bại %u, không áp dụng %u. Lỗi một phần: %s [0x%.8X]. Xem &quot;Config\Dism++.log&quot; để biết thêm thông tin."/>
+    <String Target="操作成功，其中成功 %u 个，不适用 %u 个。更多信息请参考 &quot;Config\Dism++.log&quot;" Link="Thao tác thành công, thành công %u, không áp dụng %u. Xem &quot;Config\Dism++.log&quot; để biết thêm thông tin."/>
+
+    <!--开机启动项-->
+    <String Target="开机启动项" Link="Khởi động"/>
+    <String Target="系统启动项 —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="Khởi động hệ thống — HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
+    <String Target="系统启动项32位 —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run" Link="Khởi động hệ thống 32bit — HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run"/>
+    <String Target="系统启动项（仅启动一次） —— HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="Khởi động hệ thống (Chạy một lần) — HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
+    <String Target="系统启动项32位（仅仅启动一次） —— HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce" Link="Khởi động hệ thống 32bit (Chạy một lần) — HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce"/>
+    <String Target="用户启动项 —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="Khởi động người dùng — HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
+    <String Target="用户启动项（仅启动一次） —— HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="Khởi động người dùng (Chạy một lần) — HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
+    <String Target="启动（所有用户） —— %SystemDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup" Link="Khởi động (Tất cả người dùng) — %SystemDrive%\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup"/>
+    <String Target="启动（当前用户） —— %UserProfile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup" Link="Khởi động (Người dùng hiện tại) — %UserProfile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"/>
+    <String Target="本机启动项 —— HKLM\SYSTEM\CurrentControlSet\Control\Session Manager" Link="Khởi động gốc — HKLM\SYSTEM\CurrentControlSet\Control\Session Manager"/>
+    <String Target="隐藏禁用项" Link="Ẩn các mục bị Tắt"/>
+    <String Target="查找" Link="Tìm kiếm"/>
+    <String Target="新用户启动项 —— HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" Link="Khởi động người dùng mới — HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"/>
+    <String Target="新用户启动项（仅启动一次） —— HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce" Link="Khởi động người dùng mới (Chạy một lần) — HKU\DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"/>
+
+    <!--服务-->
+    <String Target="服务项" Link="Dịch vụ"/>
+    <String Target="禁用" Link="Tắt"/>
+    <String Target="手动" Link="Thủ công"/>
+    <String Target="自动" Link="Tự động"/>
+    <String Target="自动（延迟）" Link="Tự động (Trễ)"/>
+
+    <String Target="描述" Link="Mô tả"/>
+    <String Target="启动类型" Link="Loại khởi động"/>
+
+    <String Target="正在加载服务" Link="Đang tải dịch vụ"/>
+    <String Target="应用服务" Link="Dịch vụ ứng dụng"/>
+    <String Target="系统服务" Link="Dịch vụ hệ thống"/>
+    <String Target="驱动程序" Link="Driver"/>
+
+    <!--功能-->
+    <String Target="指定本地源" Link="Chỉ định nguồn cục bộ"/>
+    <String Target="应用" Link="Áp dụng"/>
+    <String Target="正在加载Windows功能" Link="Đang tải tính năng Windows"/>
+    <String Target="关闭功能" Link="Đã Tắt"/>
+    <String Target="部分启用" Link="Đã bật một phần"/>
+    <String Target="全部启用" Link="Đã bật tất cả"/>
+    <String Target="删除功能" Link="Đã xóa"/>
+    <String Target="正在应用" Link="Đang áp dụng"/>
+    <String Target="本地源：" Link="Nguồn cục bộ:"/>
+    <String Target="请在此输入本地源" Link="Vui lòng nhập nguồn cục bộ tại đây"/>
+
+    <!--应用程序-->
+    <String Target="更改" Link="Thay đổi"/>
+    <String Target="通用安装脚本" Link="Script cài đặt chung"/>
+    <String Target="%s 已经安装，你确定要继续吗？" Link="%s đã được cài đặt, bạn có chắc chắn muốn tiếp tục?"/>
+
+    <!--添加删除更新-->
+    <String Target="未知" Link="Không xác định"/>
+    <String Target="不适用" Link="Không áp dụng"/>
+    <String Target="卸载挂起" Link="Chờ gỡ cài đặt"/>
+    <String Target="已暂存" Link="Đã lưu tạm (Staged)"/>
+    <String Target="正在暂存" Link="Đang lưu tạm"/>
+    <String Target="已安装" Link="Đã cài đặt"/>
+    <String Target="安装挂起" Link="Chờ cài đặt"/>
+    <String Target="被取代" Link="Đã bị thay thế"/>
+    <String Target="部分安装" Link="Cài đặt một phần"/>
+    <String Target="已删除" Link="Đã xóa"/>
+    <String Target="已固化" Link="Cố định (Permanent)"/>
+
+    <String Target="更新描述" Link="Mô tả cập nhật"/>
+    <String Target="产品名称" Link="Tên sản phẩm"/>
+    <String Target="产品版本" Link="Phiên bản sản phẩm"/>
+    <String Target="发行类型" Link="Loại phát hành"/>
+    <String Target="安装日期" Link="Ngày cài đặt"/>
+    <String Target="状态" Link="Trạng thái"/>
+    <String Target="正在获取更新信息" Link="Đang lấy thông tin cập nhật"/>
+    <String Target="正在删除更新" Link="Đang xóa cập nhật"/>
+    <String Target="正在删除第 %d 个更新（共 %d ）" Link="Đang xóa bản cập nhật thứ %d (tổng %d)"/>
+    <String Target="补丁包" Link="Gói cập nhật (Update Pack)"/>
+    <String Target="正在安装更新" Link="Đang cài đặt cập nhật"/>
+    <String Target="正在安装第 %d 个更新（共 %d ）" Link="Đang cài đặt bản cập nhật thứ %d (tổng %d)"/>
+    <String Target="刷新" Link="Làm mới"/>
+    <String Target="添加" Link="Thêm"/>
+    <String Target="语言" Link="Ngôn ngữ"/>
+    <String Target="Windows %s 语言包" Link="Gói ngôn ngữ Windows %s"/>
+    <String Target="重启生效" Link="Cần khởi động lại"/>
+
+    <!--可选功能-->
+    <String Target="正在删除可选功能" Link="Đang xóa tính năng tùy chọn"/>
+    <String Target="正在删除第 %d 个可选功能（共 %d ）" Link="Đang xóa tính năng tùy chọn thứ %d (tổng %d)"/>
+    <String Target="正在加载可选功能" Link="Đang tải tính năng tùy chọn"/>
+    <String Target="显示所有功能" Link="Hiện tất cả tính năng"/>
+    <String Target="卸载" Link="Gỡ cài đặt"/>
+    <String Target="正在卸载" Link="Đang gỡ cài đặt"/>
+
+    <!--Appx管理-->
+    <String Target="疑似损坏" Link="Nghi ngờ bị hỏng"/>
+    <String Target="正在删除Appx" Link="Đang xóa Appx"/>
+    <String Target="删除Windows Store可能导致你未来无法下载或更新Appx，你确定要继续么？" Link="Xóa Windows Store có thể khiến bạn không thể tải hoặc cập nhật Appx trong tương lai. Bạn có chắc chắn muốn tiếp tục?"/>
+    <String Target="删除Microsoft.XboxIdentityProvider可能导致Windows Store无法使用，你确定要继续么？" Link="Xóa Microsoft.XboxIdentityProvider có thể làm hỏng Windows Store. Bạn có chắc chắn muốn tiếp tục?"/>
+    <String Target="%s 等待超时，请尝试使用空间回收 - 过期Appx清理。" Link="%s quá thời gian chờ, hãy thử dùng Dọn dẹp ổ đĩa - Dọn dẹp Appx hết hạn."/>
+    <String Target="无法初始化Appx管理接口。" Link="Không thể khởi tạo giao diện quản lý Appx."/>
+    <String Target="%s 无法获取Appx关联的账号信息，错误代码：0x%.8X" Link="%s không thể lấy thông tin tài khoản Appx. Mã lỗi: 0x%.8X"/>
+    <String Target="%s 无法获取账号SID，错误代码：0x%.8X" Link="%s không thể lấy SID tài khoản. Mã lỗi: 0x%.8X"/>
+    <String Target="%s 所关联的用户（%s）无法删除，错误代码：0x%.8X" Link="%s không thể xóa người dùng liên kết (%s). Mã lỗi: 0x%.8X"/>
+    <String Target="%s 未关联任何用户。" Link="%s không liên kết với bất kỳ người dùng nào."/>
+    <String Target="恭喜你删除成功！但是某些应用可能属于Provisioned Appx，如果你遇到某个App所有者是SYSTEM，而且一直删不掉，请在 Provisioned Appx 删除它们。" Link="Chúc mừng, xóa thành công! Tuy nhiên, một số ứng dụng thuộc Provisioned Appx. Nếu ứng dụng có chủ sở hữu là SYSTEM và không thể xóa, hãy dùng mục Provisioned Appx để xóa chúng."/>
+    <String Target="User Appx" Link="User Appx"/>
+    <String Target="Provisioned Appx" Link="Provisioned Appx"/>
+    <String Target="删除Microsoft.StorePurchaseApp可能导致Windows Store无法使用，你确定要继续么？" Link="Xóa Microsoft.StorePurchaseApp có thể làm hỏng Windows Store. Bạn có chắc chắn muốn tiếp tục?"/>
+
+    <!--Windows Update-->
+    <String Target="安装" Link="Cài đặt"/>
+    <String Target="正在检查数据库" Link="Đang kiểm tra cơ sở dữ liệu"/>
+    <String Target="正在下载数据库" Link="Đang tải cơ sở dữ liệu"/>
+    <String Target="正在扫描更新" Link="Đang quét cập nhật"/>
+    <String Target="等待安装" Link="Chờ cài đặt"/>
+    <String Target="等待下载" Link="Chờ tải"/>
+    <String Target="下载失败" Link="Tải thất bại"/>
+    <String Target="安装失败" Link="Cài đặt thất bại"/>
+    <String Target="部分成功" Link="Thành công một phần"/>
+    <String Target="安装成功" Link="Cài đặt thành công"/>
+    <String Target="一个或者多个更新安装失败，错误代码：0x%.8X" Link="Một hoặc nhiều cập nhật cài đặt thất bại. Mã lỗi: 0x%.8X."/>
+    <String Target="正在下载" Link="Đang tải"/>
+    <String Target="正在安装" Link="Đang cài đặt"/>
+    <String Target="项目" Link="Mục"/>
+    <String Target="Windows Update数据库已经存在新版本，你需要更新吗？" Link="Đã có phiên bản cơ sở dữ liệu Windows Update mới, bạn có muốn cập nhật không?"/>
+    <String Target="下载%d%%" Link="Đang tải %d%%"/>
+    <String Target="将现有的本地补丁包添加至系统。" Link="Thêm các gói cập nhật cục bộ vào hệ thống."/>
+    <String Target="使用Dism++数据库扫描当前系统需要的更新列表。" Link="Sử dụng cơ sở dữ liệu Dism++ để phát hiện các bản cập nhật cần thiết."/>
+    <String Target="自动下载并安装更新列表中选中的更新。" Link="Tự động tải và cài đặt các bản cập nhật đã chọn."/>
+    <String Target="计算机已经安装最新更新。" Link="Máy tính đã cài đặt các bản cập nhật mới nhất."/>
+    <String Target="正在删除过期补丁缓存" Link="Đang xóa bộ nhớ đệm bản cập nhật hết hạn"/>
+    <String Target="分析%d%%" Link="Đang phân tích %d%%"/>
+    <String Target="%s 将引入独占请求，请在 %d 秒内做出选择。" Link="%s yêu cầu quyền truy cập độc quyền, vui lòng xác nhận trong %d giây."/>
+    <String Target="温馨提示：引入独占请求后，你将无法安装其他更新，直到你重启系统。建议你先安装其他更新，最后安装此更新。" Link="Gợi ý: Với quyền truy cập độc quyền, bạn không thể cài cập nhật khác cho đến khi khởi động lại. Nên cài các bản cập nhật khác trước, sau đó mới cài bản này."/>
+    <String Target="暂不安装（推荐）&#xA;我暂时还需要添加其他更新。" Link="Để sau (Khuyên dùng)&#xA;Tôi cần thêm các bản cập nhật khác."/>
+    <String Target="继续安装&#xA;我已确保我需要的更新均已安装。" Link="Tiếp tục cài đặt&#xA;Tôi đã cài các bản cập nhật cần thiết."/>
+    <String
+      Target="关于 %s 的警告：&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;你确定要继续吗？"
+      Link="Cảnh báo về %s:&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;Bạn có chắc chắn muốn tiếp tục?"/>
+    <String Target="导出地址" Link="Sao chép URL"/>
+    <String Target="补丁下载地址已经成功复制到剪切板。" Link="Đã sao chép địa chỉ tải bản cập nhật vào bộ nhớ tạm."/>
+    <String Target="安装%d%%" Link="Đang cài đặt %d%%"/>
+
+    <!--区域和语言-->
+    <String Target="区域和语言" Link="Vùng &amp; Ngôn ngữ"/>
+    <String Target="调整映像中的指定 SKU 语言的所有国际设置都设置为默认值：" Link="Đặt lại tất cả các thiết lập quốc tế của ngôn ngữ SKU đã chỉ định trong ảnh về mặc định:"/>
+    <String Target="将系统默认语言调整为指定区域：" Link="Đặt ngôn ngữ hệ thống mặc định thành vùng đã chỉ định:"/>
+    <String Target="将用户配置（格式、键盘布局等）为指定区域：" Link="Đặt thiết lập vùng người dùng (định dạng, bố cục bàn phím, v.v.) thành:"/>
+    <String Target="将时区设置调整为以下时区：" Link="Đặt múi giờ thành:"/>
+    <String Target="将非 Unicode 程序的代码页以及字体设置为指定区域：" Link="Đặt trang mã và phông chữ cho các chương trình không hỗ trợ Unicode thành vùng đã chỉ định:"/>
+    <String Target="欢迎屏幕（系统账号）" Link="Màn hình chào mừng (Tài khoản hệ thống)"/>
+    <String Target="新用户账号" Link="Tài khoản người dùng mới"/>
+
+    <!--文件关联-->
+    <String Target="文件关联" Link="Liên kết tệp mặc định"/>
+    <String Target="关联文件" Link="Tệp liên kết"/>
+    <String Target="Windows映像默认应用程序关联" Link="Liên kết ứng dụng mặc định của ảnh Windows"/>
+    <String Target="这些设置将在首次启动计算机的OOBE阶段生效" Link="Các thiết lập này sẽ có hiệu lực trong giai đoạn OOBE khi khởi động máy tính lần đầu."/>
+    <String Target="Windows联机映像默认应用程序关联" Link="Liên kết ứng dụng mặc định của hệ điều hành hiện tại"/>
+    <String Target="这些设置直接影响当前计算机" Link="Các thiết lập này ảnh hưởng trực tiếp đến máy tính hiện tại."/>
+    <String Target="导入" Link="Nhập"/>
+    <String Target="重置" Link="Đặt lại"/>
+
+    <!--预应答-->
+    <String Target="预应答" Link="Trả lời trước (Pre-Answer)"/>
+    <String Target="请输入一条命令。" Link="Vui lòng nhập một lệnh."/>
+    <String Target="请在树中选择一个需要操作的项目。" Link="Vui lòng chọn một mục trong cây để thao tác."/>
+    <String Target="第一次启动SysPrep前运行的命令" Link="Lệnh chạy trước lần khởi động SysPrep đầu tiên"/>
+    <String Target="第一次启动SysPrep后运行的命令" Link="Lệnh chạy sau lần khởi động SysPrep đầu tiên"/>
+    <String Target="首次启动OOBE前运行的命令" Link="Lệnh chạy trước lần khởi động OOBE đầu tiên"/>
+    <String Target="首次启动后OOBE后运行的命令" Link="Lệnh chạy sau lần khởi động OOBE đầu tiên"/>
+    <String Target="请在此输入需要添加的命令" Link="Vui lòng nhập lệnh cần thêm tại đây"/>
+    <String Target="上移" Link="Di chuyển lên"/>
+
+    <!--WinPE命令-->
+    <String Target="WinPE命令" Link="Thiết lập WinPE"/>
+    <String Target="设置 Windows PE 映像的暂存空间（MB）：" Link="Đặt không gian tạm (scratch space) cho ảnh Windows PE (MB):"/>
+    <String Target="设置 Windows PE 映像的目标路径：" Link="Đặt đường dẫn đích cho ảnh Windows PE:"/>
+
+    <!--工具箱-->
+    <String Target="激活备份" Link="Sao lưu kích hoạt"/>
+    <String Target="帮助用户备份已激活系统信息，方便下次还原。" Link="Hỗ trợ sao lưu thông tin kích hoạt hệ thống để khôi phục sau này."/>
+    <String Target="这里可以写备份说明，支持Windows以及Office零售版 : )" Link="Viết mô tả sao lưu tại đây, hỗ trợ Windows &amp; Office bản bán lẻ :-)"/>
+    <String Target="系统名称" Link="Tên sản phẩm"/>
+    <String Target="备份时间" Link="Thời gian"/>
+    <String Target="备份说明" Link="Mô tả"/>
+    <String Target="备份" Link="Sao lưu"/>
+    <String Target="还原" Link="Khôi phục"/>
+    <String Target="sppsvc关闭失败，有可能导致还原失败，是否继续？" Link="Tắt sppsvc thất bại, có thể khiến quá trình khôi phục bị lỗi. Bạn có muốn tiếp tục?"/>
+    <String
+      Target="当前系统为 %hd.%hd %s，而激活备份信息为 %hd.%hd %s&#xD;&#xA;&#xD;&#xA;信息不匹配，你确定要继续么？"
+      Link="Hệ thống hiện tại là %hd.%hd %s, khác với phiên bản sao lưu %hd.%hd %s.&#xD;&#xA;&#xD;&#xA;Bạn có chắc chắn muốn tiếp tục?"/>
+    <String Target="请重新选择你的系统，你当前要还原的系统与本系统不匹配，请重新选择你的系统！" Link="Hệ thống cần khôi phục không khớp với hệ thống hiện tại, vui lòng chọn lại!"/>
+    <String Target="备份的信息与你所还原的信息版本不同，是否要继续还原？" Link="Thông tin sao lưu khác phiên bản, bạn có muốn tiếp tục khôi phục?"/>
+    <String Target="Sorry暂不支持此系统，请反馈给我。" Link="Xin lỗi, hệ thống này chưa được hỗ trợ, vui lòng phản hồi cho chúng tôi tại www.chuyu.me."/>
+    <String Target="还原失败！具体错误信息请参考Dism++.log。" Link="Khôi phục thất bại! Vui lòng xem Dism++.log để biết chi tiết."/>
+    <String Target="备份失败，具体请参考日志Dism++.log。" Link="Sao lưu thất bại, vui lòng xem nhật ký Dism++.log."/>
+    <String Target="无法备份Windows激活信息。" Link="Không thể sao lưu thông tin kích hoạt Windows."/>
+    <String Target="非致命性错误，Office信息无法备份。" Link="Lỗi không nghiêm trọng, không thể sao lưu thông tin Office."/>
+
+    <String Target="账户管理" Link="Quản lý tài khoản"/>
+    <String Target="用于清空登录密码或者启用其他登录账号。" Link="Dùng để xóa mật khẩu đăng nhập hoặc kích hoạt các tài khoản khác."/>
+    <String Target="用户名" Link="Tên tài khoản"/>
+    <String Target="启用" Link="Kích hoạt"/>
+    <String Target="启用账户" Link="Kích hoạt tài khoản"/>
+    <String Target="禁用账户" Link="Tắt tài khoản"/>
+    <String Target="清空密码" Link="Đặt lại mật khẩu"/>
+    <String Target="该账户的密码已经被清空，现在无需密码即可登陆你的账号！" Link="Mật khẩu đã được xóa, bây giờ bạn có thể đăng nhập mà không cần mật khẩu!"/>
+
+    <String Target="春哥附体" Link="Chế độ God Mode"/>
+    <String Target="让其他程序以无视权限方式运行。" Link="Cho phép chạy các chương trình khác mà không bị kiểm tra quyền."/>
+    <String Target="请在此输入命令或者程序路径，比如regedit" Link="Nhập lệnh hoặc đường dẫn chương trình, ví dụ: regedit"/>
+    <String Target="说明" Link="Gợi ý"/>
+    <String Target="本工具可以让其他程序以无视权限形式运行，本功能可以通过命令行参数调用，详情请参考帮助文档了解具体用法。" Link="Công cụ này giúp chạy chương trình không bị kiểm tra quyền, có thể gọi qua dòng lệnh, vui lòng xem tài liệu hướng dẫn."/>
+    <String
+      Target="/GodMode {Commendline}&#xD;&#xA; 春哥附体执行Cmd命令，其命令格式与Cmd用法一致&#xD;&#xA;&#xD;&#xA;示例:&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode cmd&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode regedit.exe&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode &quot;\&quot;C:\Windows\notepad.exe\&quot; \&quot;C:\123.txt\&quot;&quot;"
+      Link="/GodMode {Dòng lệnh}&#xD;&#xA; Chế độ God Mode sử dụng lệnh Cmd, cú pháp giống Cmd.&#xD;&#xA;&#xD;&#xA;Ví dụ:&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode cmd&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode regedit.exe&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /GodMode &quot;\&quot;C:\Windows\notepad.exe\&quot; \&quot;C:\123.txt\&quot;&quot;"/>
+    <String
+      Target="即将以无视权限方式执行此命令：&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;为了避免让恶意软件利用，Dism++需要你的允许才能继续，你确定要继续吗？"
+      Link="Dism++ sẽ chạy lệnh:&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;bằng cách bỏ qua kiểm tra quyền. Malware có thể lợi dụng điều này để gây hại, vui lòng xác nhận để tiếp tục."/>
+    <String
+      Target="可以使用以下命令来操作此映像：&#xD;&#xA;&#xD;&#xA;/GodMode&#9;- 使用春哥附体启动应用程序"
+      Link="Bạn có thể dùng các lệnh sau để thao tác với ảnh:&#xD;&#xA;&#xD;&#xA;/GodMode&#9;- Chạy chương trình trong chế độ God Mode"/>
+
+    <String Target="ESD转ISO" Link="ESD sang ISO"/>
+    <String Target="允许将WIM、SWM以及ESD之间格式自由转换。" Link="Cho phép chuyển đổi tự do giữa các định dạng WIM, SWM và ESD."/>
+
+    <String Target="用于修改WIM、SWM以及ESD文件信息。" Link="Dùng để sửa thông tin tệp WIM, SWM và ESD."/>
+
+    <String Target="文件浏览器" Link="Trình duyệt tệp"/>
+    <String Target="提供简单的文件浏览，并支持无视权限删除。" Link="Cung cấp trình duyệt tệp đơn giản và hỗ trợ xóa không kiểm tra quyền."/>
+
+    <String Target="ISO生成器" Link="Trình tạo ISO"/>
+    <String Target="将一个文件夹打包为UEFI以及Legacy双启动ISO。" Link="Đóng gói thư mục thành ISO hỗ trợ dual-boot UEFI và Legacy."/>
+    <String Target="请在此输入文件夹路径，比如 D:\Win7" Link="Nhập đường dẫn thư mục, ví dụ: D:\Win7"/>
+    <String Target="请在此输入ISO生成路径，比如 D:\MyWin7.iso" Link="Nhập đường dẫn lưu file ISO, ví dụ: D:\Win7.iso"/>
+    <String Target="请在此输入ISO标签，比如 IR5_CCSA_X64FRE_ZH-CN_DV9" Link="Nhập nhãn ISO, ví dụ: IR5_CCSA_X64FRE_EN-US_DV9"/>
+
+    <String Target="hosts编辑器" Link="Trình sửa Hosts"/>
+    <String Target="用于hosts编辑" Link="Dùng để chỉnh sửa tệp hosts."/>
+
+    <!--系统优化开始-->
+    <String Target="系统优化" Link="Tối ưu hóa hệ thống"/>
+    <String Target="当前用户" Link="Người dùng hiện tại"/>
+    <String Target="新用户" Link="Người dùng mới"/>
+    <String Target="系统" Link="Hệ thống"/>
+    <String Target="仅针对当前用户，即 HKEY_CURRENT_USER。" Link="Chỉ áp dụng cho người dùng hiện tại (HKEY_CURRENT_USER)."/>
+    <String Target="针对未来新建的用户，即 HKEY_USERS\DEFAULT。" Link="Áp dụng cho người dùng mới được tạo (HKEY_USERS\DEFAULT)."/>
+    <String Target="针对系统，即 HKEY_LOCAL_MACHINE。" Link="Áp dụng cho hệ thống (HKEY_LOCAL_MACHINE)."/>
+    <String Target="导入配置" Link="Nhập cấu hình Registry"/>
+    <String Target="导入注册表文件过程中遇到问题，具体错误信息请参考 Dism++.log。" Link="Gặp lỗi khi nhập tệp Registry. Vui lòng xem Dism++.log để biết chi tiết."/>
+    <String Target="注册表文件" Link="Tệp Registry"/>
+    <String Target="操作成功，但是导入注册表文件过程遇到一些非致命性错误，具体错误信息请参考 Dism++.log。" Link="Thao tác thành công, nhưng gặp một vài lỗi không nghiêm trọng khi nhập tệp Registry. Xem Dism++.log để biết chi tiết."/>
+    <String Target="提交规则" Link="Gửi quy tắc"/>
+
+    <!--Explorer-->
+    <String Target="Explorer" Link="Explorer"/>
+    <String Target="将任务栏中的Cortana调整为" Link="Điều chỉnh hiển thị Cortana trên thanh tác vụ"/>
+      <String Target="隐藏" Link="Ẩn"/>
+      <String Target="仅显示图标" Link="Chỉ hiển thị biểu tượng tìm kiếm"/>
+      <String Target="显示搜索框" Link="Hiển thị thanh tìm kiếm"/>
+
+    <String Target="将用户账号控制程序（UAC）调整为" Link="Thay đổi hành vi Kiểm soát tài khoản người dùng (UAC)"/>
+      <String Target="从不通知（不推荐）" Link="Không bao giờ thông báo (không khuyến nghị)"/>
+        <String Target="此选项将导致计算机面临安全风险！" Link="Tùy chọn này khiến máy tính của bạn gặp nguy cơ bảo mật!"/>
+      <String Target="提示我但不降低亮度" Link="Thông báo nhưng không làm tối màn hình"/>
+      <String Target="提示我（推荐）" Link="Thông báo (khuyến nghị)"/>
+      <String Target="总是提示我" Link="Luôn thông báo"/>
+
+    <String Target="用于内置管理员帐户的管理员批准模式 (by 坏坏小生)" Link="Chế độ phê duyệt quản trị cho tài khoản Admin có sẵn (by HuaiHuaiXiaoSheng)"/>
+
+    <String Target="隐藏“任务视图”按钮" Link="Ẩn nút “Task View”"/>
+
+    <String Target="打开资源管理器时显示此电脑" Link="Mở File Explorer vào This PC"/>
+
+    <String Target="显示所有文件扩展名" Link="Hiển thị đuôi mở rộng của tất cả loại tệp"/>
+
+    <String Target="显示所有隐藏文件" Link="Hiển thị tất cả tệp ẩn"/>
+
+    <String Target="隐藏快捷方式小箭头" Link="Ẩn mũi tên nhỏ trên biểu tượng Shortcut"/>
+
+    <String Target="隐藏可执行文件小盾牌" Link="Ẩn khiên UAC trên tệp thực thi"/>
+
+    <String Target="创建快捷方式时不添&quot;快捷方式&quot;文字（by 518516.net）" Link="Không thêm hậu tố “Shortcut” khi tạo lối tắt (by 518516.net)"/>
+
+    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面六个文件夹" Link="Ẩn 6 thư mục (Video, Ảnh, Tài liệu, Tải xuống, Nhạc, Desktop) trong This PC"/>
+
+    <String Target="*隐藏桌面右下角教育版水印" Link="*Ẩn watermark Education Edition ở góc phải màn hình"/>
+
+    <String Target="收起资源管理器功能区（by Rambin）" Link="Thu gọn thanh Ribbon trong File Explorer (by Rambin)"/>
+
+    <String Target="显示开始菜单、任务栏、操作中心和标题栏的颜色（by Rambin）" Link="Hiển thị màu trên Start Menu, Taskbar, Action Center và Title bar (by Rambin)"/>
+
+    <String Target="禁止自动播放（by Rambin）" Link="Tắt tính năng AutoPlay (by Rambin)"/>
+
+    <String Target="在单独的进程中打开文件夹窗口（by 一叶微风TM）" Link="Mở cửa sổ thư mục trong tiến trình riêng (by YiYieWeiFeng TM)"/>
+
+    <String Target="始终显示菜单栏（by 一叶微风TM）" Link="Luôn hiển thị thanh menu (by YiYieWeiFeng TM)"/>
+
+    <String Target="资源管理器窗口最小化时显示完整路径（by 原罪）" Link="Hiển thị đầy đủ đường dẫn khi cửa sổ Explorer thu nhỏ (by YZ)"/>
+
+    <String Target="使开始菜单、任务栏、操作中心透明" Link="Làm trong suốt Start Menu, Taskbar và Action Center"/>
+
+    <String Target="使任务栏更透明（by 518516.net）" Link="Làm thanh tác vụ trong suốt hơn (by 518516.net)"/>
+
+    <String Target="不允许在开始菜单显示建议" Link="Không cho phép hiển thị gợi ý trong Start Menu"/>
+    <String Target="不允许在开始菜单显示建议（by powerxing04）" Link="Không cho phép hiển thị gợi ý trong Start Menu (by powerxing04)"/>
+
+    <String Target="在桌面显示我的电脑（by Rambin）" Link="Hiển thị This PC trên màn hình desktop (by Rambin)"/>
+      <String Target="跟随系统" Link="Theo hệ thống"/>
+      <String Target="显示" Link="Hiện"/>
+      <String Target="隐藏" Link="Ẩn"/>
+
+    <String Target="在桌面显示回收站（by Rambin）" Link="Hiển thị Recycle Bin trên desktop (by Rambin)"/>
+
+    <String Target="在桌面显示控制面板（by Rambin）" Link="Hiển thị Control Panel trên desktop (by Rambin)"/>
+
+    <String Target="在桌面显示用户文件夹（by Rambin）" Link="Hiển thị thư mục người dùng trên desktop (by Rambin)"/>
+
+    <String Target="在桌面显示网络（by Rambin）" Link="Hiển thị Network trên desktop (by Rambin)"/>
+
+    <String Target="在桌面显示库（by Rambin）" Link="Hiển thị Library trên desktop (by Rambin)"/>
+
+    <String Target="隐藏操作中心任务栏托盘（by Windows 10优化辅助工具）" Link="Ẩn biểu tượng Action Center trên khay hệ thống (by Windows 10 optimization aids)"/>
+    <String Target="隐藏操作中心任务栏托盘（by 巧木）" Link="Ẩn biểu tượng Action Center trên khay hệ thống (by QiaoMu)"/>
+
+    <String Target="关闭Smartscreen应用筛选器（by Windows 10优化辅助工具）" Link="Tắt Smartscreen Filter (by Windows 10 optimization aids)"/>
+    <String Target="关闭Smartscreen应用筛选器（by 、Cloud）" Link="Tắt Smartscreen Filter (by 、Cloud)"/>
+
+    <String Target="始终在任务栏显示所有图标和通知" Link="Luôn hiển thị tất cả biểu tượng và thông báo trên thanh tác vụ"/>
+
+    <String Target="当任务栏被占满时" Link="Khi thanh tác vụ đã đầy"/>
+      <String Target="始终合并" Link="Luôn gộp"/>
+      <String Target="被占满时合并" Link="Gộp khi đã đầy"/>
+      <String Target="从不合并" Link="Không bao giờ gộp"/>
+
+    <String Target="锁定任务栏" Link="Khóa thanh tác vụ"/>
+
+    <String Target="任务栏使用小图标" Link="Sử dụng biểu tượng nhỏ trên thanh tác vụ"/>
+
+    <String Target="隐藏资源管理器导航窗口中的库" Link="Ẩn “Library” khỏi ngăn điều hướng Explorer"/>
+
+    <String Target="隐藏资源管理器导航窗口中的收藏夹" Link="Ẩn “Quick Access” khỏi ngăn điều hướng Explorer"/>
+
+    <String Target="隐藏资源管理器导航窗口中的家庭组" Link="Ẩn “Family Group” khỏi ngăn điều hướng Explorer"/>
+
+    <String Target="隐藏资源管理器导航窗口中的网络" Link="Ẩn “Network” khỏi ngăn điều hướng Explorer"/>
+
+    <String Target="优化非活动窗口标题栏颜色（by IT之家）" Link="Tối ưu màu thanh tiêu đề cửa sổ không hoạt động (by ITHome)"/>
+
+    <String Target="*桌面壁纸质量调整为（by IT之家）" Link="*Điều chỉnh chất lượng hình nền desktop thành (by ITHome)"/>
+      <String Target="低质量（更快）" Link="Thấp (Nhanh hơn)"/>
+      <String Target="默认（推荐）" Link="Mặc định (Khuyến nghị)"/>
+      <String Target="高质量（更清晰）" Link="Cao (Sắc nét hơn)"/>
+
+      <String Target="关闭视频文件预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Tắt xem trước tệp video để cải thiện tốc độ phản hồi của File Explorer (by MoWangMoShi)"/>
+    <String Target="关闭音乐文件图片预览，提高资源管理器响应速度（by ‍莫失莫忘）" Link="Tắt xem trước hình ảnh tệp âm thanh để cải thiện tốc độ phản hồi của File Explorer (by MoWangMoShi)"/>
+    <String Target="关闭打开程序的“安全警告”（by 莫失莫忘）" Link="Tắt cảnh báo bảo mật khi mở chương trình (by MoWangMoShi)"/>
+    <String Target="关闭在应用商店中查找关联应用（by Asoft）" Link="Tắt tìm kiếm ứng dụng liên kết trong Windows Store (by Asoft)"/>
+    <String Target="隐藏此电脑中视频、图片、文档、下载、音乐、桌面、3D对象七个文件夹（by 、Cloud.）" Link="Ẩn 7 thư mục (3D Objects, Desktop, Documents, Downloads, Music, Pictures, Videos) trong This PC (by 、Cloud.)"/>
+    <String Target="禁止自动安装推荐的应用程序（by IT之家）" Link="Tắt tự động cài đặt ứng dụng được đề xuất (by ITHome)"/>
+    <String Target="关闭锁屏时的Windows 聚焦推广（by 、Cloud.）" Link="Tắt Windows Spotlight trên màn hình khóa (by 、Cloud.)"/>
+    <String Target="关闭“使用Windows时获取技巧和建议”（by 、Cloud.）" Link="Tắt “Nhận mẹo và gợi ý khi sử dụng Windows” (by 、Cloud.)"/>
+    <String Target="隐藏任务栏上的人脉（by 、Cloud.）" Link="Ẩn tính năng People trên thanh tác vụ (by 、Cloud.)"/>
+
+    <!--开始菜单-->
+    <String Target="开始菜单以及Windows体验" Link="Start Menu &amp; Windows Experience"/>
+
+    <!--右键菜单管理-->
+    <String Target="右键菜单管理 - 禁用不需要的菜单提高响应速度" Link="Quản lý menu chuột phải - Tắt các menu không cần thiết để tăng tốc phản hồi của File Explorer"/>
+    <String Target="禁用可执行文件的“兼容性疑难解答”右键菜单（by 莫失莫忘）" Link="Tắt menu chuột phải “Khắc phục sự cố tương thích” trên tệp thực thi (by MoWangMoShi)"/>
+    <String Target="禁用文件、文件夹以及磁盘的“使用Windows Defender扫描”右键菜单（by 莫失莫忘）" Link="Tắt menu chuột phải “Quét bằng Windows Defender” trên tệp, thư mục và ổ đĩa (by MoWangMoShi)"/>
+    <String Target="禁用文件、磁盘以及属性的“还原以前版本”右键菜单（by 莫失莫忘）" Link="Tắt menu chuột phải “Khôi phục phiên bản trước” trên tệp, ổ đĩa và thuộc tính (by MoWangMoShi)"/>
+    <String Target="禁用文件、文件夹、桌面以及所有对象的“共享文件夹同步”右键菜单" Link="Tắt menu chuột phải “Đồng bộ thư mục chia sẻ” trên tệp, thư mục, desktop và mọi đối tượng"/>
+    <String Target="禁用新建“ZIP/RAR文件”右键菜单（by 莫失莫忘）" Link="Tắt menu chuột phải “Tạo tệp ZIP/RAR mới” (by MoWangMoShi)"/>
+    <String Target="禁用新建、文件以及文件夹的“公文包”右键菜单" Link="Tắt menu chuột phải “Briefcase” trên mục tạo mới, tệp và thư mục"/>
+    <String Target="禁用新建的“联系人”右键菜单（by 莫失莫忘）" Link="Tắt menu chuột phải “Liên hệ mới” (by MoWangMoShi)"/>
+    <String Target="禁用桌面的英特尔集显右键菜单（by 莫失莫忘）" Link="Tắt menu chuột phải Intel Graphics trên desktop (by MoWangMoShi)"/>
+    <String Target="禁用目录、文件夹、所有对象、的“始终脱机可用”右键菜单" Link="Tắt menu chuột phải “Luôn khả dụng ngoại tuyến” trên thư mục và mọi đối tượng"/>
+    <String Target="禁用磁盘的“以便携式方式打开”右键菜单（by 莫失莫忘）" Link="Tắt menu chuột phải “Mở dưới dạng thiết bị di động” trên ổ đĩa (by MoWangMoShi)"/>
+    <String Target="禁用磁盘的“刻录到光盘”右键菜单" Link="Tắt menu chuột phải “Ghi ra đĩa” trên ổ đĩa"/>
+    <String Target="禁用磁盘的“启用Bitlocker”右键菜单（by 莫失莫忘）" Link="Tắt menu chuột phải “Bật Bitlocker” trên ổ đĩa (by MoWangMoShi)"/>
+    <String Target="禁用磁盘的“复制磁盘”右键菜单" Link="Tắt menu chuột phải “Sao chép ổ đĩa” trên ổ đĩa"/>
+    <String Target="禁用文件、目录、桌面、磁盘以及库的“共享”右键菜单" Link="Tắt menu chuột phải “Chia sẻ” trên tệp, thư mục, desktop, ổ đĩa và thư viện"/>
+    <String Target="禁用桌面的“小工具”右键菜单" Link="Tắt menu chuột phải “Gadgets” trên desktop"/>
+    <String Target="禁用文件的“View 3D”右键菜单（by Cloud）" Link="Tắt menu chuột phải “View 3D” trên tệp (by Cloud)"/>
+    <String Target="禁用文件的“画图 3D”右键菜单（by Cloud）" Link="Tắt menu chuột phải “Paint 3D” trên tệp (by Cloud)"/>
+    <String Target="禁用所有对象的“共享”右键菜单" Link="Tắt menu chuột phải “Chia sẻ” trên mọi đối tượng"/>
+    <String Target="禁用文件、目录、桌面、磁盘以及库的“授予访问权限”右键菜单" Link="Tắt menu chuột phải “Cấp quyền truy cập” trên tệp, thư mục, desktop, ổ đĩa và thư viện"/>
+
+    <!--桌面图示管理-->
+    <String Target="桌面图标管理" Link="Quản lý biểu tượng trên màn hình (Desktop)"/>
+
+    <!--资源管理器导航窗口图标管理-->
+    <String Target="资源管理器导航窗口图标管理" Link="Quản lý biểu tượng trong ngăn điều hướng của File Explorer"/>
+    <String Target="隐藏资源管理器导航窗口中的OneDrive（by 莫失莫忘）" Link="Ẩn OneDrive trong ngăn điều hướng của File Explorer (by MoWangMoShi)"/>
+    <String Target="隐藏资源管理器导航窗口中的可移动设备（by 莫失莫忘）" Link="Ẩn thiết bị di động trong ngăn điều hướng của File Explorer (by MoWangMoShi)"/>
+    <String Target="隐藏资源管理器导航窗口中的快速访问（by starP）" Link="Ẩn Quick Access trong ngăn điều hướng của File Explorer (by starP)"/>
+      <String Target="启用此选项将导致导航窗口拖拽功能无法使用。" Link="Bật tùy chọn này sẽ khiến chức năng kéo &amp; thả trong ngăn điều hướng không hoạt động."/>
+
+    <!--Internet Explorer-->
+    <String Target="关闭多个选项卡时不发出警告（by 一叶微风TM）" Link="Không cảnh báo khi đóng nhiều tab (by YiYieWeiFeng TM)"/>
+
+    <String Target="当创建新选项卡时，始终切换到新选项卡（by 一叶微风TM）" Link="Luôn chuyển đến tab mới khi vừa tạo (by YiYieWeiFeng TM)"/>
+
+    <String Target="其他程序从当前窗口的新选项卡打开连接（by 一叶微风TM）" Link="Mở liên kết từ các chương trình khác trong tab mới của cửa sổ hiện tại (by YiYieWeiFeng TM)"/>
+
+    <String Target="以兼容性视图中显示所有网站（by 一叶微风TM）" Link="Hiển thị tất cả trang web trong chế độ Compatibility view (by YiYieWeiFeng TM)"/>
+
+    <String Target="启用表单的自动完成功能（by 原罪）" Link="Bật tính năng AutoComplete cho biểu mẫu (by YZ)"/>
+
+    <String Target="关闭建议的网站（by 原罪）" Link="Tắt tính năng Suggested Sites (by YZ)"/>
+
+    <String Target="跳过IE首次运行自定义设置（by 原罪、恋人の共鸣）" Link="Bỏ qua trình hướng dẫn cài đặt lần đầu của IE (by YZ, Lovers vibes)"/>
+
+    <String Target="不保存附件的区域信息（by 古畑任三郎）" Link="Không lưu thông tin vùng (zone) của tệp đính kèm (by niphor)"/>
+
+    <String Target="启用增强保护模式" Link="Bật chế độ Enhanced Protected Mode"/>
+
+    <String Target="针对增强保护模式启用64位进程" Link="Bật tiến trình 64-bit cho Enhanced Protected Mode"/>
+
+    <String Target="隐藏Internet Explorer右上角的笑脸反馈按钮（by IT之家）" Link="Ẩn nút phản hồi mặt cười ở góc phải IE (by ITHome)"/>
+
+    <!--Microsoft Edge-->
+    <String Target="阻止Microsoft Edge“首次运行”欢迎页面（by IT之家）" Link="Chặn trang chào mừng “Lần đầu sử dụng” của Microsoft Edge (by ITHome)"/>
+
+    <String Target="关闭Adobe Flash即点即用" Link="Tắt tính năng Click-to-Run của Adobe Flash"/>
+      <String Target="此选项将降低计算机安全性，增加Adobe Flash的安全隐患！" Link="Tùy chọn này sẽ làm giảm tính bảo mật của máy tính và tăng rủi ro từ Adobe Flash!"/>
+
+    <!--微软拼音输入法-->
+    <String Target="微软拼音输入法" Link="Bộ gõ Microsoft Pinyin"/>
+    <String Target="微软拼音默认为英语输入（by Rambin）" Link="Đặt chế độ mặc định của Microsoft Pinyin là tiếng Anh (by Rambin)"/>
+
+    <String Target="关闭微软拼音云计算（by Rambin）" Link="Tắt tính năng gợi ý đám mây của Microsoft Pinyin (by Rambin)"/>
+
+    <!--Windows Update-->
+    <String Target="自动安装无需重启的更新（by Rambin）" Link="Tự động cài đặt các bản cập nhật không cần khởi động lại (by Rambin)"/>
+
+    <String Target="更新挂起时如果有用户登录不自动重启计算机（by Rambin）" Link="Không tự động khởi động lại khi có người dùng đang đăng nhập (by Rambin)"/>
+
+    <String Target="Windows更新不包括驱动程序" Link="Windows Update không bao gồm các driver"/>
+
+    <String Target="*将Windows Update自动更新调整为" Link="*Điều chỉnh Windows Update tự động thành"/>
+      <String Target="从不检查（不推荐）" Link="Không bao giờ kiểm tra (không khuyến nghị)"/>
+      <String Target="仅检查更新" Link="Chỉ kiểm tra cập nhật"/>
+      <String Target="检查并下载更新" Link="Kiểm tra và tải cập nhật"/>
+      <String Target="自动安装更新（推荐）" Link="Tự động cài đặt (khuyến nghị)"/>
+
+    <String Target="禁止自动更新到Internet Explorer 9" Link="Chặn tự động cập nhật lên Internet Explorer 9"/>
+
+    <String Target="禁止自动更新到Internet Explorer 10" Link="Chặn tự động cập nhật lên Internet Explorer 10"/>
+
+    <String Target="禁止自动更新到Internet Explorer 11（by Rambin）" Link="Chặn tự động cập nhật lên Internet Explorer 11 (by Rambin)"/>
+
+    <!--记事本-->
+    <String Target="记事本" Link="Notepad"/>
+    <String Target="启用自动换行（by 一叶微风TM）" Link="Bật tính năng Word Wrap (by YiYieWeiFeng TM)"/>
+
+    <String Target="始终显示状态栏（by 一叶微风TM）" Link="Luôn hiển thị thanh trạng thái (by YiYieWeiFeng TM)"/>
+
+    <!--网络设置-->
+    <String Target="网络设置" Link="Thiết lập mạng"/>
+    <String Target="*关闭默认共享（by 518516.net）" Link="*Tắt tính năng chia sẻ mặc định (default sharing) (by 518516.net)"/>
+
+    <String Target="*关闭防火墙（by 一叶微风TM）" Link="*Tắt Windows Firewall (by YiYieWeiFeng TM)"/>
+      <String Target="此选项将降低计算机安全性，请确保你已经安装第三方防火墙软件！" Link="Tùy chọn này làm giảm tính bảo mật, hãy đảm bảo bạn đã cài phần mềm tường lửa của bên thứ ba!"/>
+
+      <String Target="*关闭远程协助（by 原罪）" Link="*Tắt Hỗ trợ từ xa (Remote Assistance) (by YZ)"/>
+
+    <String Target="*禁用SMB1网络协议（by MS-PC2）" Link="*Tắt giao thức mạng SMB1 (by MS-PC2)"/>
+
+    <!--服务优化-->
+    <String Target="服务优化" Link="Tối ưu hóa dịch vụ"/>
+    <String Target="禁用程序兼容性助手（by 一叶微风TM）" Link="Tắt dịch vụ Trợ lý tương thích chương trình (by YiYieWeiFeng TM)"/>
+
+    <String Target="禁用远程修改注册表（by 一叶微风TM）" Link="Tắt dịch vụ Registry từ xa (by YiYieWeiFeng TM)"/>
+
+    <String Target="禁用诊断服务" Link="Tắt dịch vụ chẩn đoán (Diagnostic Service)"/>
+
+    <String Target="禁用IPv6转换服务" Link="Tắt dịch vụ IP Helper"/>
+      <String Target="禁用此服务将导致IPv6无法正常使用，请确保你不需要使用IPv6！" Link="Tắt dịch vụ này sẽ làm IPv6 không hoạt động, hãy đảm bảo bạn không cần dùng IPv6!"/>
+
+    <String Target="禁用Windows Search" Link="Tắt Windows Search"/>
+      <String Target="禁用此服务将导致搜索文件变慢，并且某些Windows Store应用可能无法正常使用！" Link="Tắt sẽ làm chậm việc tìm kiếm tệp và khiến một số ứng dụng Windows Store không hoạt động bình thường!"/>
+
+    <String Target="禁用错误报告" Link="Tắt Báo cáo lỗi Windows (Error Reporting)"/>
+
+    <String Target="禁用家庭组" Link="Tắt Homegroup"/>
+
+    <String Target="禁用Windows Defender（by Windows 10优化辅助工具）" Link="Tắt Windows Defender (by Windows 10 optimization aids)"/>
+      <String Target="关闭Windows Defender后可提高计算机响应速度，但是也将增加电脑被攻击的几率！" Link="Tắt Windows Defender giúp tăng tốc phản hồi máy tính, nhưng tăng rủi ro bị tấn công!"/>
+
+    <String Target="禁用客户体验改善计划（by Windows 10优化辅助工具）" Link="Tắt Chương trình cải thiện trải nghiệm khách hàng (by Windows 10 optimization aids)"/>
+
+    <String Target="禁用NTFS链接跟踪服务（by 某宅）" Link="Tắt dịch vụ Theo dõi liên kết NTFS (by Stotaku)"/>
+
+    <String Target="禁止自动维护计划（by Lux ferre）" Link="Cấm tác vụ bảo trì tự động (by Lux ferre)"/>
+      <String Target="禁用后系统将无法使用文件预读等功能，这可能导致系统性能下降！" Link="Hệ thống sẽ không thể sử dụng chức năng prefetch, có thể làm giảm hiệu năng hệ thống!"/>
+
+    <!--WinRAR-->
+    <String Target="锁定WinRAR工具栏（by 原罪）" Link="Khóa thanh công cụ WinRAR (by YZ)"/>
+
+    <String Target="隐藏WinRAR 在右键菜单中添加的&quot;压缩并 E-mail...&quot;（by 原罪）" Link="Ẩn mục “Nén và gửi E-mail...” trong menu chuột phải của WinRAR (by YZ)"/>
+
+    <!--Windows Media Player-->
+    <String Target="不显示首次使用对话框（by 原罪）" Link="Không hiển thị hộp thoại sử dụng lần đầu (by YZ)"/>
+
+    <!--其他-->
+    <String Target="*隐藏Windows 10升级助手GWX" Link="*Ẩn trợ lý nâng cấp Windows 10 (GWX)"/>
+
+    <String Target="关闭OneDrive（by Rambin）" Link="Tắt OneDrive (by Rambin)"/>
+      <String Target="禁用OneDrive将导致某些Windows Store应用无法使用OneDrive存储。" Link="Một số ứng dụng Windows Store sẽ không thể dùng lưu trữ đám mây OneDrive."/>
+
+    <String Target="*VHD启动时不要将VHD动态文件扩展到最大（以节省空间）" Link="*Không mở rộng tệp VHD động lên kích thước tối đa khi khởi động (để tiết kiệm không gian)"/>
+      <String Target="此选项可能降低VHD文件性能。" Link="Tùy chọn này có thể làm giảm hiệu suất tệp VHD."/>
+
+    <String Target="*隐藏某些SATA硬盘任务栏图标（by 原罪）" Link="*Ẩn biểu tượng ổ cứng SATA trên khay hệ thống (by YZ)"/>
+
+    <String Target="蓝屏时自动重启（by 原罪）" Link="Tự động khởi động lại khi màn hình xanh (BSOD) (by YZ)"/>
+
+    <String Target="关闭快速启动" Link="Tắt Khởi động nhanh (Hiberboot)"/>
+      <String Target="关闭快速启动将导致系统启动速度变慢！" Link="Tắt khởi động nhanh sẽ khiến tốc độ khởi động hệ thống chậm hơn!"/>
+
+    <String Target="关闭休眠（by powerxing04）" Link="Tắt chế độ ngủ đông (Hibernate) (by powerxing04)"/>
+      <String Target="关闭休眠后将导致快速启动以及混合休眠不可用，这样将增加断电丢失数据的风险！" Link="Sẽ làm mất tính năng khởi động nhanh và ngủ đông lai, tăng rủi ro mất dữ liệu khi mất điện!"/>
+
+    <String Target="禁用组件堆栈（Component Based Servicing）日志" Link="Tắt nhật ký CBS (Component Based Servicing)"/>
+
+    <String Target="禁用更新解压模块（Delta Package Expander）日志" Link="Tắt nhật ký giải nén gói cập nhật (Delta Package Expander)"/>
+
+    <String Target="禁用系统日志（by Windows 10优化辅助工具）" Link="Tắt nhật ký hệ thống (by Windows 10 optimization aids)"/>
+
+    <String Target="崩溃时写入调试信息" Link="Ghi thông tin gỡ lỗi khi hệ thống gặp sự cố"/>
+      <String Target="无" Link="Không"/>
+      <String Target="小内存转储（256KB）" Link="Dump bộ nhớ nhỏ (256KB)"/>
+      <String Target="核心内存转储" Link="Dump bộ nhớ lõi"/>
+
+    <String Target="Windows 照片查看器" Link="Trình xem ảnh Windows (Windows Photo Viewer)"/>
+    <String Target="Windows主题相关设置" Link="Cài đặt chủ đề (Theme) Windows"/>
+    <String Target="任务栏相关设置" Link="Cài đặt thanh tác vụ (Taskbar)"/>
+    <String Target="关闭商店应用推广（by 、Cloud.）" Link="Tắt quảng cáo từ Windows Store (by 、Cloud.)"/>
+    <String Target="关闭多嘴的小娜（by 朽木）" Link="Tắt trợ lý Cortana (by XiuMu)"/>
+    <String Target="显示首次登录动画（by intionwun &amp; 组策略编辑器）" Link="Hiển thị hoạt ảnh đăng nhập lần đầu (by intionwun &amp; Group Policy)"/>
+    <String Target="关闭游戏录制工具（by 、Cloud.）" Link="Tắt công cụ ghi hình trò chơi (Game Recorder) (by 、Cloud.)"/>
+    <String Target="启用 Windows 照片查看器（by 心之所向）" Link="Kích hoạt Windows Photo Viewer (by XingZhiSuoXiang)"/>
+    <String Target="安全相关设置" Link="Cài đặt bảo mật"/>
+    <String Target="开启模糊音（by 朽木）" Link="Bật tính năng Gõ phím không dấu (Fuzzy support) (by XiuMu)"/>
+    <String Target="开启此功能将导致平板模式下无法使用手势调出操作中心。" Link="Bật tính năng này sẽ làm mất cử chỉ vuốt mở Action Center trong chế độ Tablet."/>
+    <String Target="禁用文件、目录、桌面、所有对象的“工作文件夹”右键菜单" Link="Tắt menu chuột phải “Working folder”"/>
+    <String Target="禁用文件夹的“固定到快速访问”右键菜单" Link="Tắt menu chuột phải “Ghim vào truy cập nhanh” (Pin to Quick Access)"/>
+    <String Target="禁用文件的“OneDrive文件同步”右键菜单" Link="Tắt menu chuột phải “Đồng bộ tệp OneDrive”"/>
+    <String Target="关闭“突出显示新安装的程序”（by 溯汐潮）" Link="Tắt “Làm nổi bật các chương trình mới cài đặt” (by Hell Cabrite)"/>
+    <String Target="关闭自动更新（by 溯汐潮）" Link="Tắt cập nhật tự động (by Hell Cabrite)"/>
+    <String Target="将“音量调节”调整为Windows 7模式（by 溯汐潮）" Link="Đổi “Điều chỉnh âm lượng” sang chế độ Windows 7 (by Hell Cabrite)"/>
+    <String Target="将同时可用下载数目调整到 10（by 溯汐潮）" Link="Chỉnh số lượng tải xuống đồng thời lên 10 (by Hell Cabrite)"/>
+    <String Target="将桌面右键菜单“个性化”调整为Windows 7模式（by 大胖子技术员）" Link="Đổi “Cá nhân hóa” (Personalize) menu chuột phải sang kiểu Windows 7 (by dpzjsy)"/>
+    <String Target="将桌面右键菜单“显示设置”调整为Windows 7模式（by 大胖子技术员）" Link="Đổi “Cài đặt hiển thị” (Display Settings) menu chuột phải sang kiểu Windows 7 (by dpzjsy)"/>
+    <String Target="将语言栏隐藏到任务栏（by 溯汐潮）" Link="Ẩn thanh ngôn ngữ vào thanh tác vụ (by Hell Cabrite)"/>
+    <String Target="快速访问不显示常用文件夹（by 溯汐潮）" Link="Không hiển thị thư mục thường dùng trong Truy cập nhanh (by Hell Cabrite)"/>
+    <String Target="快速访问不显示最近使用的文件（by 溯汐潮）" Link="Không hiển thị tệp gần đây trong Truy cập nhanh (by Hell Cabrite)"/>
+    <String Target="清理被取代的msp补丁并减少Installer目录的大小。" Link="Dọn dẹp các bản vá msp lỗi thời để giảm dung lượng thư mục Installer."/>
+    <String Target="禁用账号登录日志报告（by 溯汐潮）" Link="Tắt ghi nhật ký đăng nhập tài khoản (by Hell Cabrite)"/>
+    <String Target="遇到弹出窗口时始终在新选项卡中打开弹出窗口（by 溯汐潮）" Link="Luôn mở cửa sổ bật lên (popup) trong tab mới (by Hell Cabrite)"/>
+    <String Target="锁定Internet Explorer工具栏（by 溯汐潮）" Link="Khóa thanh công cụ Internet Explorer (by Hell Cabrite)"/>
+    <String Target="隐藏NTFS蓝色双箭头压缩标识（by IT之家）" Link="Ẩn biểu tượng nén NTFS (hai mũi tên xanh) (by ITHome)"/>
+    <String Target="shift右击时显示在此处打开命令窗口（by sandtechnology）" Link="Hiển thị “Mở cửa sổ lệnh tại đây” khi Shift + Chuột phải (by sandtechnology)"/>
+    <String Target="隐藏语言栏上的帮助按钮（by 溯汐潮）" Link="Ẩn nút Trợ giúp trên thanh ngôn ngữ (by Hell Cabrite)"/>
+    <String Target="Windows 7体验" Link="Trải nghiệm Windows 7"/>
+    <String Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="Windows Update không bao gồm công cụ xóa phần mềm độc hại (by Winaero)"/>
+    <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="Đổi menu chuột phải sang chế độ Windows 7 (by Silence)"/>
+    <String Target="登录界面默认打开小键盘（by IT之家）" Link="Bật phím số (NumLock) tại màn hình đăng nhập (by ITHome)"/>
+    <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="Tắt sao lưu tệp CBS (Component Based Servicing)"/>
+    <String Target="任务栏时钟精确到秒（by Luupw3d）" Link="Đồng hồ thanh tác vụ hiển thị đến giây (by Luupw3d)"/>
+    
+    <String Target="禁用WfpDiag.ETL日志（by powerxing04）" Link="Tắt nhật ký WfpDiag ETL (by powerxing04)"/>
+    <String Target="禁用文件夹的“包含到库中”右键菜单（by choyri）" Link="Tắt menu chuột phải “Bao gồm trong thư viện” (by choyri)"/>
+    <String Target="禁用桌面的“NVIDIA 控制面板”右键菜单（by choyri）" Link="Tắt menu chuột phải “NVIDIA Control Panel” trên desktop (by choyri)"/>
+    <!--系统优化已经结束-->
+
+    <!--Dism++更新程序-->
+    <String
+      Target="发现新版本，需要更新 %d 个文件，约%s。&#xD;&#xA;&#xD;&#xA;更新日志：&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;确定要升级吗？"
+      Link="Đã tìm thấy phiên bản mới, cần cập nhật %d tệp, khoảng %s.&#xD;&#xA;&#xD;&#xA;Nhật ký cập nhật:&#xD;&#xA;&#xD;&#xA;%s&#xD;&#xA;&#xD;&#xA;Bạn có chắc chắn muốn nâng cấp?"/>
+    <String Target="Dism++更新程序" Link="Trình cập nhật Dism++"/>
+    <String
+      Target="准备启动下载模块……&#xD;&#xA;"
+      Link="Đang chuẩn bị khởi chạy mô-đun tải xuống...&#xD;&#xA;"/>
+    <String Target="正在下载 - %d/%d" Link="Đang tải xuống - %d/%d"/>
+    <String Target="更新文件过程中遇到错误，Orz……" Link="Gặp lỗi trong quá trình cập nhật, Orz..."/>
+
+    <!--命令行-->
+    <String Target="退出" Link="Thoát"/>
+    <String Target="%s 解压失败，错误代码：%d" Link="Giải nén %s thất bại, mã lỗi: %d"/>
+    <String Target="%s 解压成功" Link="Giải nén %s thành công"/>
+    <String Target="%s 压缩失败，错误代码：%d" Link="Nén %s thất bại, mã lỗi: %d"/>
+    <String Target="%s 跳过" Link="Bỏ qua %s"/>
+    <String Target="%s 压缩成功" Link="Nén %s thành công"/>
+    <String Target="Dism++初始化成功，开始执行命令：%s" Link="Khởi tạo Dism++ thành công, bắt đầu thực thi lệnh: %s"/>
+    <String Target="无法识别参数：%s" Link="Không thể nhận diện tham số: %s"/>
+    <String Target="至少输入一个路径" Link="Vui lòng nhập ít nhất một đường dẫn"/>
+    <String Target="%s 路径无效" Link="Đường dẫn %s không hợp lệ"/>
+    <String Target="未正确识别到命令，以下是程序支持的所有命令：" Link="Không nhận diện được lệnh, dưới đây là tất cả các lệnh được hỗ trợ:"/>
+    <String
+      Target="将一个文件夹或者文件进行Compact压缩：&#xD;&#xA;/C  { /exe [ xpress4k（默认、更佳性能） | xpress8k | xpress16k | lzx（更小体积） ] } Path"
+      Link="Nén Compact một thư mục hoặc tệp:&#xD;&#xA;/C { /exe [ xpress4k (mặc định, nhanh hơn) | xpress8k | xpress16k | lzx (nhỏ nhất) ] } Path"/>
+    <String
+      Target="将一个文件夹或者文件进行Compact解压缩&#xD;&#xA;/U Path"
+      Link="Giải nén thư mục hoặc tệp đã nén Compact&#xD;&#xA;/U Path"/>
+    <String
+      Target="/Image:&lt;path_to_image&gt;&#9;- 指定特定 Windows 映像的根目录的路径。&#xD;&#xA;&#xD;&#xA;示例：&#xD;&#xA; Dism++x86.exe /Image:C:\ /?&#xD;&#xA; Dism++x86.exe /Image:&quot;D:\1213\&quot; /?"
+      Link="/Image:&lt;path_to_image&gt;&#9;- Đường dẫn đến thư mục gốc của ảnh Windows.&#xD;&#xA;&#xD;&#xA;Ví dụ:&#xD;&#xA; Dism++x86.exe /Image:C:\ /?&#xD;&#xA; Dism++x86.exe /Image:&quot;D:\1213\&quot; /?"/>
+    <String
+      Target="映像管理命令：&#xD;&#xA; /All&#9;- 打开全局会话&#xD;&#xA; /Image&#9;- 指定特定 Windows 映像的根目录的路径。&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Compact支持命令：&#xD;&#xA; /C&#9;- 使用Compact压缩文件/文件夹&#xD;&#xA; /U&#9;- 撤销Compact压缩的文件/文件夹&#xD;&#xA;&#xD;&#xA;若要获得有关这些 Dism++ 选项及其参数的详细信息，请在紧挨着 /? 之前指定一个选项。&#xD;&#xA;示例：&#xD;&#xA; Dism++x86.exe /Image /?&#xD;&#xA; Dism++x86.exe /C /?"
+      Link="Lệnh quản lý ảnh:&#xD;&#xA; /All&#9;- Mở phiên làm việc toàn cục&#xD;&#xA; /Image&#9;- Chỉ định đường dẫn thư mục gốc của ảnh Windows&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Lệnh hỗ trợ Compact:&#xD;&#xA; /C&#9;- Nén tệp/thư mục bằng Compact&#xD;&#xA; /U&#9;- Hủy nén tệp/thư mục bằng Compact&#xD;&#xA;&#xD;&#xA;Để biết thêm thông tin về các tùy chọn, hãy đặt /? sau tùy chọn đó.&#xD;&#xA;Ví dụ:&#xD;&#xA; Dism++x86.exe /Image /?&#xD;&#xA; Dism++x86.exe /C /?"/>
+    <String
+      Target="/Plugin:&lt;Plugin_ID&gt;&#9;- 此功能用于打开某插件支持的命令&#xD;&#xA;&#xD;&#xA;示例：&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"
+      Link="/Plugin:&lt;Plugin_ID&gt;&#9;- Dùng để chạy lệnh hỗ trợ bởi plugin.&#xD;&#xA;&#xD;&#xA;Ví dụ:&#xD;&#xA; Dism++x86.exe /All /Plugin:{4d420a2e-ea11-450a-b8a0-ab8ca7772043} /?"/>
+    <String
+      Target="可以使用以下命令来操作此映像：&#xD;&#xA;&#xD;&#xA;插件命令：&#xD;&#xA; /Plugin&#9;- 启动特定插件（需要插件支持命令参数）"
+      Link="Bạn có thể dùng các lệnh sau để thao tác với ảnh:&#xD;&#xA;&#xD;&#xA;Lệnh plugin:&#xD;&#xA; /Plugin&#9;- Khởi chạy plugin cụ thể (cần plugin hỗ trợ tham số)"/>
+    <String Target="正在压缩" Link="Đang nén"/>
+    <String Target="正在解压" Link="Đang giải nén"/>
+    <String Target="操作完成！" Link="Hoàn tất!"/>
+
+    <!--系统还原-->
+    <String Target="当前模式不支持引导修复以及格式化分区，你需要重启并进入RE进行恢复么？" Link="Chế độ hiện tại không hỗ trợ sửa lỗi khởi động hoặc định dạng phân vùng, bạn có muốn khởi động lại vào WinRE để khôi phục không?"/>
+    <String Target="正在格式化" Link="Đang định dạng"/>
+    <String Target="格式化分区 %s 失败，错误代码：%d。" Link="Định dạng phân vùng %s thất bại, mã lỗi: %d."/>
+    <String Target="正在刷新" Link="Đang làm mới"/>
+    <String Target="Dism++与此操作系统处于同一分区，无法进行格式化。" Link="Dism++ và hệ điều hành đang ở cùng phân vùng, không thể định dạng."/>
+
+    <!--重新载入-->
+    <String Target="当前其他任务正在进行，请稍等……" Link="Các tác vụ khác đang chạy, vui lòng đợi..."/>
+
+    <!--文件拆分设置-->
+    <String Target="文件拆分" Link="Chia nhỏ tệp"/>
+    <String Target="分卷大小（MB）" Link="Kích thước tệp chia (MB)"/>
+
+    <!--用户协议-->
+    <String Target="Dism++用户协议" Link="Thỏa thuận người dùng Dism++"/>
+    <String Target="这是一份法律性资料。" Link="Đây là tài liệu pháp lý."/>
+    <String Target="接受" Link="Chấp nhận"/>
+    <String Target="不接受" Link="Không chấp nhận"/>
+
+    <String Target="作者的话" Link="Lời của tác giả"/>
+
+    <!--清理项目条目映射-->
+    <String Target="被取代的WinSxS组件" Link="Thành phần WinSxS bị thay thế"/>
+    <String Target="清理被取代的组件并减少组件存储的大小。" Link="Dọn dẹp các thành phần cũ để giảm dung lượng lưu trữ bộ nhớ thành phần."/>
+    <String Target="清理后将无法卸载更新，如果有卸载更新需求请勿使用此选项。" Link="Sau khi dọn dẹp sẽ không thể gỡ cập nhật, vui lòng cân nhắc nếu cần gỡ cập nhật."/>
+    <String Target="清理后将无法卸载更新，此外ResetBase模式跟系统重置功能有冲突，如果有卸载更新或者系统重置需求请勿使用此选项。" Link="Không thể gỡ cập nhật sau khi dọn dẹp. Ngoài ra, ResetBase xung đột với tính năng Reset của hệ thống, vui lòng không dùng nếu cần Reset."/>
+
+    <String Target="被取代的WinSxS组件（非常慢）" Link="Thành phần WinSxS bị thay thế (rất chậm)"/>
+
+    <String Target="过期驱动" Link="Driver hết hạn"/>
+    <String Target="删除计算机中不使用的驱动程序以节省驱动存储池空间。" Link="Xóa driver không sử dụng để tiết kiệm không gian."/>
+    <String Target="该功能对于某些精简系统或者手动处理过驱动的系统可能发生驱动签名问题。" Link="Tính năng này có thể gây lỗi chữ ký driver trên một số hệ thống tinh giản."/>
+
+    <String Target="硬链接合并（较慢）" Link="Hợp nhất Hard Link (chậm)"/>
+    <String Target="使用利用NTFS硬链接特性合并所有文件内容相同的文件。" Link="Sử dụng thuộc tính NTFS hard link để hợp nhất các tệp trùng nội dung."/>
+    <String Target="某些文件被硬链接合并后可能导致相关功能无法正常使用。" Link="Một số tệp sau khi hợp nhất có thể không hoạt động bình thường."/>
+
+    <String Target="CompactOs（较慢）" Link="CompactOs (chậm)"/>
+    <String Target="对单纯读取的文件进行哈夫曼压缩，在不影响性能的情况下，显著减少系统体积。特别感谢矿工以及所有Compact团队成员无私的支持与帮助。" Link="Nén các tệp chỉ đọc bằng Huffman, giúp giảm đáng kể dung lượng hệ thống mà không ảnh hưởng hiệu năng. Đặc biệt cảm ơn nhóm Compact."/>
+    <String Target="使用后可能导致某些程序无法正常运行甚至让系统无法启动，如果使用后出现问题，可以在PE中点击 恢复功能-->撤销Compact。" Link="Sau khi dùng, một số chương trình có thể lỗi hoặc không khởi động được. Bạn có thể dùng tính năng Phục hồi trong WinPE để hủy Compact."/>
+    <String Target="此功能与某些硬盘备份软件不兼容。如果使用后出现问题，可以点击 恢复功能-->撤销Compact。" Link="Tính năng này không tương thích với vài phần mềm sao lưu. Nếu lỗi, hãy chọn Phục hồi --> Hủy Compact."/>
+
+    <String Target="过期Appx应用" Link="Ứng dụng Appx hết hạn"/>
+    <String Target="在Appx应用升级时，会留下老版本应用，该功能将删除那些不使用的老版本。" Link="Xóa các phiên bản Appx cũ còn sót lại sau khi cập nhật ứng dụng."/>
+    <String Target="少数用户报告称使用后无法打开Appx应用，需要重新安装Appx应用。" Link="Lưu ý: Một số người dùng báo cáo Appx lỗi sau khi dọn, có thể cần cài lại ứng dụng."/>
+
+    <String Target="系统自带Appx应用" Link="Ứng dụng Appx tích hợp"/>
+    <String Target="此功能将移除所有系统自带Appx应用，移除后可以在Windows应用商店重新下载他们。" Link="Gỡ bỏ ứng dụng Appx hệ thống. Bạn có thể tải lại từ Windows Store."/>
+
+    <String Target="WinSxS临时文件" Link="Tệp tạm WinSxS"/>
+    <String Target="系统更新时在WinSxS里面产生的临时文件。" Link="Các tệp tạm sinh ra trong WinSxS khi cập nhật hệ thống."/>
+
+    <String Target="Windows日志（by chenyu、YukiSakura）" Link="Nhật ký Windows (by chenyu, YukiSakura)"/>
+    <String Target="Windows在运行时产生的日志。" Link="Tệp nhật ký sinh ra trong quá trình Windows vận hành."/>
+
+    <String Target="Windows下载缓存" Link="Bộ nhớ đệm tải xuống Windows"/>
+    <String Target="Windows在下载更新以及更新Metro应用时会在这里产生临时安装包。" Link="Gói cài đặt tạm thời khi tải cập nhật Windows hoặc ứng dụng Metro."/>
+
+    <String Target="临时文件" Link="Tệp tạm"/>
+    <String Target="一些程序为特定用户产生的临时文件。" Link="Các tệp tạm do một số ứng dụng tạo ra cho người dùng cụ thể."/>
+
+    <String Target="Windows报告" Link="Báo cáo lỗi Windows"/>
+    <String Target="当程序遇到某些问题时，系统会在这里留下稳定性报告，建议你定期清理。" Link="Khi chương trình gặp lỗi, hệ thống sẽ lưu báo cáo ổn định tại đây. Khuyên bạn nên dọn dẹp định kỳ."/>
+
+    <String Target="常见的驱动临时解压目录" Link="Thư mục giải nén Driver tạm"/>
+    <String Target="Intel、AMD以及Nvidia驱动在安装时留下的解压目录。" Link="Các thư mục giải nén còn sót lại sau khi cài đặt driver Intel, AMD hoặc NVIDIA."/>
+
+    <String Target="Terminal Server Client缓存" Link="Bộ nhớ đệm Terminal Server Client"/>
+    <String Target="Terminal Server Client运行时产生的一些缓存文件。" Link="Các tệp bộ nhớ đệm sinh ra trong quá trình Terminal Server Client hoạt động."/>
+
+    <String Target="以前的Windows系统" Link="Windows.Old"/>
+    <String Target="在系统升级或者还原后留下的系统备份。" Link="Bản sao lưu hệ thống còn lại sau khi nâng cấp hoặc khôi phục hệ thống."/>
+    <String Target="删除后你将无法回滚到以前安装的系统。" Link="Sau khi xóa, bạn sẽ không thể quay lại phiên bản hệ điều hành trước đó."/>
+
+    <String Target="Windows临时安装文件" Link="Tệp cài đặt tạm thời của Windows"/>
+    <String Target="在系统升级或者还原后留下的系统临时安装文件，如果你确定当前没有进行系统升级或者还原，那么可以安全删除。" Link="Các tệp cài đặt tạm thời sau khi nâng cấp hoặc khôi phục. Bạn có thể xóa an toàn nếu chắc chắn không có tiến trình nâng cấp nào đang diễn ra."/>
+
+    <String Target="IDM临时文件（by MS-PC2）" Link="Tệp tạm của Internet Download Manager (by MS-PC2)"/>
+    <String Target="Internet Download Manager临时下载文件。" Link="Các tệp tải xuống tạm thời do Internet Download Manager để lại."/>
+    <String Target="清理IDM临时文件可能导致正在下载的任务需要重新下载！" Link="Dọn dẹp tệp tạm IDM có thể khiến các tác vụ đang tải dở phải tải lại từ đầu!"/>
+
+    <String Target="QQ临时数据" Link="Dữ liệu tạm của Tencent QQ"/>
+    <String Target="QQ运行时产生的临时文件还有日志，不影响QQ消息记录，建议定期删除。" Link="Các tệp tạm và nhật ký sinh ra khi QQ hoạt động, không ảnh hưởng đến lịch sử trò chuyện. Khuyên nên xóa định kỳ."/>
+
+    <String Target="YY临时文件" Link="Tệp tạm của YY"/>
+    <String Target="YY运行时产生的一些临时文件以及日志，建议定期删除。" Link="Các tệp tạm và nhật ký sinh ra khi YY hoạt động, khuyên nên xóa định kỳ."/>
+
+    <String Target="Installer基线缓存" Link="Bộ nhớ đệm Installer Baseline"/>
+    <String Target="使用Installer技术的安装程序产生的缓存。" Link="Bộ nhớ đệm tạo bởi các trình cài đặt sử dụng công nghệ Installer."/>
+    <String Target="可能导致卸载Office、VM等应用程序需要安装包。" Link="Có thể cần các gói cài đặt khi gỡ bỏ Office, máy ảo (VM) hoặc các ứng dụng khác."/>
+
+    <String Target="Visual Studio安装源" Link="Nguồn cài đặt Visual Studio"/>
+    <String Target="安装Visual Studio后产生的安装源，如果不需要卸载VS可以考虑删除。" Link="Các nguồn cài đặt sinh ra sau khi cài Visual Studio. Có thể cân nhắc xóa nếu không có ý định gỡ bỏ VS."/>
+    <String Target="清理后将无法卸载只能升级安装或者强行删除。" Link="Sau khi xóa, bạn sẽ không thể gỡ cài đặt theo cách thông thường, chỉ có thể nâng cấp hoặc gỡ bỏ cưỡng bức."/>
+
+    <String Target="Office安装源" Link="Nguồn cài đặt Office"/>
+    <String Target="安装Office后产生的安装源，如果不需要卸载Office可以考虑删除，删除后能正常安装Office更新。" Link="Nguồn cài đặt Office. Có thể cân nhắc xóa nếu không định gỡ Office. Vẫn có thể cài cập nhật sau khi xóa."/>
+    <String Target="清理后将无法卸载只能升级安装或者强行删除，Office 2007以下版本（包含）删除后还影响安装更新。" Link="Sau khi xóa, việc gỡ cài đặt sẽ gặp khó khăn. Với bản Office 2007 trở xuống, việc xóa này còn ảnh hưởng đến việc cập nhật."/>
+
+    <String Target="腾讯相关软件下载目录" Link="Thư mục tải xuống phần mềm Tencent"/>
+    <String Target="腾讯相关软件更新时会在此留下残留。" Link="Dữ liệu dư thừa để lại khi cập nhật các phần mềm của Tencent."/>
+
+    <String Target="XDE缓存文件" Link="Tệp bộ nhớ đệm XDE"/>
+    <String Target="WP开发时保存的一些虚拟机状态文件，不建议频繁清理此条目。" Link="Các tệp trạng thái máy ảo lưu khi phát triển WP, không khuyến nghị xóa thường xuyên."/>
+
+    <String Target="Boot备份信息" Link="Tệp sao lưu Boot"/>
+    <String Target="修改启动信息后系统会创建备份，方便回滚。如果确定不需要还原则可以删除。" Link="Hệ thống tạo bản sao lưu sau khi thay đổi thông tin khởi động. Có thể xóa nếu chắc chắn không cần khôi phục."/>
+
+    <String Target="PDB缓存文件" Link="Tệp bộ nhớ đệm PDB"/>
+    <String Target="调试程序时创建的符号缓存，不建议频繁清理此条目。" Link="Bộ nhớ đệm ký hiệu tạo ra khi debug chương trình, không khuyến nghị xóa thường xuyên."/>
+
+    <String Target="微软拼音安装文件" Link="Tệp cài đặt bộ gõ Microsoft Pinyin"/>
+    <String Target="微软拼音升级程序遗留下的安装文件。" Link="Các tệp cài đặt còn sót lại từ trình cập nhật bộ gõ Microsoft Pinyin."/>
+
+    <String Target="百度网盘日志" Link="Nhật ký Baidu Wangpan"/>
+    <String Target="百度网盘运行时产生的一些日志文件。" Link="Các tệp nhật ký sinh ra khi Baidu Wangpan hoạt động."/>
+
+    <String Target="飞信日志" Link="Nhật ký Fetion"/>
+    <String Target="飞信运行时产生的一些日志文件。" Link="Các tệp nhật ký sinh ra khi Fetion hoạt động."/>
+
+    <String Target="回收站" Link="Thùng rác (Recycle Bin)"/>
+    <String Target="用于存放用户手动删除的文件目录。" Link="Thư mục chứa các tệp mà người dùng đã xóa thủ công."/>
+
+    <String Target="Office 365/2016安装源" Link="Nguồn cài đặt Office 365/2016"/>
+    <String Target="安装Office 365/2016后产生的安装源。" Link="Nguồn cài đặt sinh ra sau khi cài Office 365/2016."/>
+    <String Target="清理可能导致无法正常卸载Office。" Link="Dọn dẹp có thể khiến bạn không thể gỡ cài đặt Office bình thường."/>
+
+    <String Target="苹果iTunes备份" Link="Sao lưu Apple iTunes"/>
+    <String Target="苹果相关设备备份文件，比如通讯录、照片、视频等。" Link="Tệp sao lưu thiết bị Apple, bao gồm danh bạ, ảnh, video, v.v."/>
+    <String Target="请你确保暂时不需要使用恢复功能，如果你现在需要恢复苹果设备，请勿勾选此项目！" Link="Hãy chắc chắn bạn không cần khôi phục dữ liệu ngay lúc này. Nếu cần khôi phục thiết bị Apple, đừng chọn mục này!"/>
+
+    <String Target="硬链接备份" Link="Sao lưu HardLink"/>
+    <String Target="硬链接合并功能留下的备份文件。" Link="Tệp sao lưu để lại từ tính năng hợp nhất HardLink."/>
+    <String Target="请你确保硬链接合并后系统正常，删除此文件将导致硬链接合并操作无法回滚！" Link="Hãy đảm bảo hệ thống ổn định sau khi hợp nhất. Xóa tệp này sẽ khiến bạn không thể hoàn tác thao tác hợp nhất HardLink!"/>
+
+    <String Target="Windows事件" Link="Sự kiện Windows"/>
+    <String Target="Windows在运行过程中产生的事件。" Link="Các tệp sự kiện sinh ra trong quá trình Windows vận hành."/>
+
+    <String Target="Dism++非必需文件" Link="Tệp không cần thiết của Dism++"/>
+    <String Target="Dism++为了兼容各个环境，在完整包中存放了大量兼容性文件，以兼容各个平台。此功能可以根据当前环境自动删除不需要的文件。" Link="Dism++ chứa nhiều tệp để tương thích các môi trường khác nhau. Tính năng này tự động xóa các tệp không cần thiết cho hệ thống hiện tại."/>
+
+    <String Target="软媒PC管家" Link="PC Master"/>
+    <String Target="魔方守护以及魔方更新暂存目录，如果你不喜欢魔方守护可以考虑删除。" Link="Thư mục tạm của PC Master Guard và trình cập nhật. Có thể xóa nếu bạn không dùng PC Master Guard."/>
+
+    <String Target="给力助手" Link="GeiLi Assistant"/>
+    <String Target="安装蓝手指时留下的给力助手。" Link="Loại bỏ GeiLi Assistant còn sót lại khi cài BlueStacks."/>
+
+    <String Target="迅雷游戏" Link="Thunder Games"/>
+    <String Target="迅雷游戏安装后所在目录，一般人不需要此程序，可以考虑删除。" Link="Thư mục cài đặt Thunder Games. Hầu hết người dùng không cần, có thể cân nhắc xóa."/>
+
+    <String Target="NET程序集缓存（by 大胖子技术员）" Link="Bộ nhớ đệm .NET Assembly (by dpzjsy)"/>
+    <String Target="NET程序运行过程中产生的机器代码缓存文件，不建议频繁清理此条目。" Link="Bộ nhớ đệm mã máy sinh ra khi ứng dụng .NET chạy, không khuyến nghị xóa thường xuyên."/>
+
+    <String Target="以前的Dism++组件" Link="Tệp còn sót lại của Dism++ phiên bản cũ"/>
+    <String Target="以前版本的Dism++使用的文件。" Link="Các tệp sử dụng bởi các phiên bản Dism++ cũ."/>
+
+    <String Target="360浏览器老版本备份" Link="Sao lưu 360 Browser cũ"/>
+    <String Target="360浏览器在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Tệp sao lưu sau khi cập nhật 360 Browser, dùng để quay lại phiên bản cũ nếu gặp lỗi."/>
+
+    <String Target="阿里旺旺老版本备份" Link="Sao lưu AliIM cũ"/>
+    <String Target="阿里旺旺在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Tệp sao lưu sau khi cập nhật AliIM, dùng để quay lại phiên bản cũ nếu gặp lỗi."/>
+
+    <String Target="阿里亲淘老版本备份" Link="Sao lưu AliQinTao cũ"/>
+    <String Target="阿里亲淘在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Tệp sao lưu sau khi cập nhật AliQinTao, dùng để quay lại phiên bản cũ nếu gặp lỗi."/>
+
+    <String Target="会声会影素材存档" Link="Lưu trữ tài nguyên Video Studio"/>
+    <String Target="会声会影使用过程中会在此目录产生存档，在不需要后可以删除。" Link="Video Studio tạo lưu trữ tại thư mục này, có thể xóa nếu không còn dùng."/>
+    <String Target="请确保所有编辑的视频已经保存！" Link="Vui lòng đảm bảo tất cả video đã chỉnh sửa đã được lưu!"/>
+
+    <String Target="Visual Studio智能跟踪（by LP）" Link="Visual Studio IntelliTrace (by LP)"/>
+    <String Target="Visual Studio调试程序时留下的智能跟踪缓存。" Link="Bộ nhớ đệm IntelliTrace sinh ra khi debug chương trình."/>
+
+    <String Target="系统以及程序崩溃dmp文件（by YukiSakura）" Link="Tệp dmp crash hệ thống và ứng dụng (by YukiSakura)"/>
+    <String Target="当系统蓝屏或者应用程序崩溃时产生的dmp文件。" Link="Tệp dmp tạo ra khi hệ thống bị màn hình xanh hoặc ứng dụng gặp sự cố."/>
+
+    <String Target="瑞昱声卡驱动安装源缓存（by YukiSakura）" Link="Bộ nhớ đệm cài đặt Driver âm thanh Realtek (by YukiSakura)"/>
+    <String Target="瑞昱声卡安装后留下的安装源缓存。" Link="Tệp cài đặt tạm thời sinh ra khi cài driver âm thanh Realtek."/>
+    <String Target="此条目可能影响瑞昱声卡驱动的卸载。" Link="Xóa mục này có thể ảnh hưởng đến việc gỡ cài đặt driver."/>
+
+    <String Target="Java安装源缓存（by YukiSakura）" Link="Bộ nhớ đệm cài đặt Java (by YukiSakura)"/>
+    <String Target="Java安装后留下的安装源缓存。" Link="Tệp cài đặt tạm thời sinh ra khi cài Java."/>
+    <String Target="此条目可能影响Java的卸载。" Link="Xóa mục này có thể ảnh hưởng đến việc gỡ cài đặt Java."/>
+
+    <String Target="Intel驱动安装源缓存（by YukiSakura）" Link="Bộ nhớ đệm cài đặt Driver Intel (by YukiSakura)"/>
+    <String Target="Intel驱动安装后留下的安装源缓存。" Link="Tệp cài đặt tạm thời sinh ra khi cài driver Intel."/>
+    <String Target="此条目可能影响Intel驱动的卸载。" Link="Xóa mục này có thể ảnh hưởng đến việc gỡ cài đặt driver."/>
+
+    <String Target="英伟达驱动安装源缓存（by YukiSakura）" Link="Bộ nhớ đệm cài đặt Driver NVIDIA (by YukiSakura)"/>
+    <String Target="英伟达驱动安装后留下的安装源缓存。" Link="Tệp cài đặt tạm thời sinh ra khi cài driver NVIDIA."/>
+    <String Target="此条目可能影响英伟达驱动的卸载。" Link="Xóa mục này có thể ảnh hưởng đến việc gỡ cài đặt driver."/>
+
+    <String Target="Windows预读取文件（by 辰g.）" Link="Tệp Prefetch của Windows (by Cheng g.)"/>
+    <String Target="用于加速下次程序启动速度，不建议频繁清理此条目。" Link="Tệp dùng để tăng tốc khởi chạy ứng dụng, không khuyến nghị xóa thường xuyên."/>
+
+    <String Target="Windows更新安装记录" Link="Lịch sử cài đặt Windows Update"/>
+    <String Target="使用Windows Update安装更新后保存的记录。" Link="Bản ghi lưu lại sau khi cài cập nhật bằng Windows Update."/>
+    <String Target="删除后更新历史记录将被清空。" Link="Sau khi xóa, lịch sử cập nhật sẽ bị xóa sạch."/>
+
+    <String Target="Microsoft SQL Server更新缓存（by Honry、撕裂五维空间）" Link="Bộ nhớ đệm cập nhật Microsoft SQL Server (by Honry, SiLieWuWeiKongJian)"/>
+    <String Target="安装Microsoft SQL Server补丁残留的安装缓存。" Link="Tệp cài đặt tạm thời của các bản vá Microsoft SQL Server."/>
+    <String Target="此条目最新添加，可能引发意外问题！" Link="Tính năng mới thêm vào, có thể gây lỗi ngoài ý muốn!"/>
+
+    <String Target="Adobe Acrobat安装源缓存（by Honry）" Link="Bộ nhớ đệm cài đặt Adobe Acrobat (by Honry)"/>
+    <String Target="安装Adobe Acrobat后留下的安装缓存。" Link="Tệp cài đặt tạm thời sinh ra khi cài Adobe Acrobat."/>
+    <String Target="删除此条目可能导致Adobe Acrobat无法正常卸载！" Link="Xóa mục này có thể ảnh hưởng đến việc gỡ cài đặt chương trình!" />
+
+    <String Target="小红伞临时文件" Link="Tệp tạm Avira"/>
+    <String Target="小红伞在自动升级过程中残留的临时文件。" Link="Tệp tạm còn sót lại sau quá trình tự động cập nhật Avira."/>
+
+    <String Target="Chrome浏览器老版本备份（by Honry）" Link="Sao lưu Chrome cũ (by Honry)"/>
+    <String Target="Chrome浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Sao lưu sau khi cập nhật Chrome, dùng để quay lại phiên bản cũ nếu gặp lỗi."/>
+
+    <String Target="Opera浏览器老版本备份（by MS-PC2）" Link="Sao lưu Opera cũ (by MS-PC2)"/>
+    <String Target="Opera浏览器升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Sao lưu sau khi cập nhật Opera, dùng để quay lại phiên bản cũ nếu gặp lỗi."/>
+
+    <String Target="Microsoft .NET安装缓存（by 撕裂五维空间）" Link="Bộ nhớ đệm cài đặt Microsoft .NET (by SiLieWuWeiKongJian)"/>
+    <String Target="安装Microsoft .NET补丁残留的安装缓存。" Link="Tệp bộ nhớ đệm tạo bởi trình cài đặt khi cài/cập nhật Microsoft .NET."/>
+
+    <String Target="PPLive老版本备份（by 何超）" Link="Sao lưu PPLive cũ (by HeChao)"/>
+    <String Target="PPLive在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Sao lưu sau khi cập nhật PPLive, dùng để quay lại phiên bản cũ nếu gặp lỗi."/>
+
+    <String Target="酷狗音乐老版本备份（by 何超）" Link="Sao lưu Kugou Music cũ (by HeChao)"/>
+    <String Target="酷狗音乐在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Sao lưu sau khi cập nhật Kugou Music, dùng để quay lại phiên bản cũ nếu gặp lỗi."/>
+
+    <String Target="2345拼音输入法老版本备份（by 何超）" Link="Sao lưu 2345 Pinyin IME cũ (by HeChao)"/>
+    <String Target="2345拼音输入法在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Sao lưu sau khi cập nhật 2345 Pinyin, dùng để quay lại phiên bản cũ nếu gặp lỗi."/>
+
+    <String Target="WPS老版本备份（by Rambin）" Link="Sao lưu WPS cũ (by Rambin)"/>
+    <String Target="WPS在升级到新版本后留下的备份文件，在故障时回滚到老版本。" Link="Sao lưu sau khi cập nhật WPS, dùng để quay lại phiên bản cũ nếu gặp lỗi."/>
+
+    <String Target="系统还原点" Link="Điểm khôi phục hệ thống (System Restore Points)"/>
+    <String Target="先删除全部还原点，再创建一个新的还原点(当系统还原已启用时)" Link="Xóa toàn bộ điểm khôi phục cũ và tạo điểm mới (chỉ khả dụng khi đã bật System Restore)"/>
+    <String Target="清理后将无法使用之前创建的还原点，如果有使用之前的还原点的需求请勿使用此选项。" Link="Bạn sẽ không thể dùng các điểm khôi phục cũ! Vui lòng không chọn nếu bạn có nhu cầu sử dụng chúng."/>
+
+    <String Target="缩略图缓存" Link="Bộ nhớ đệm hình thu nhỏ (Thumbnail)"/>
+    <String Target="缩略图缓存（所有用户）" Link="Bộ nhớ đệm Thumbnail (tất cả người dùng)"/>
+    <String Target="缩略图缓存(需重启explorer)" Link="Bộ nhớ đệm Thumbnail (cần khởi động lại explorer)"/>
+    <String Target="缩略图缓存（当前用户）" Link="Bộ nhớ đệm Thumbnail (người dùng hiện tại)"/>
+
+    <String Target="微软系安软无用文件" Link="Tệp dư thừa của phần mềm bảo mật Microsoft"/>
+    <String Target="该项目清理WD，MSE，SCEP等微软系安软的无用文件" Link="Dọn dẹp các tệp dư thừa của trình bảo mật Microsoft (WD, MSE, SCEP)"/>
+
+    <String Target="Package Cache目录" Link="Thư mục Package Cache"/>
+    <String Target="Package Cache目录存放以WIX为基础的安装程序的安装源" Link="Dọn dẹp thư mục Package Cache, nơi lưu nguồn cài đặt của các bộ cài dựa trên WIX."/>
+    <String Target="清理后基于WIX的安装程序例如VS可以正常卸载；但升级、修复、增添组件需要联网或者备好安装镜像" Link="Sau khi xóa, bạn vẫn có thể gỡ ứng dụng (như VS) bình thường, nhưng khi cần nâng cấp/sửa chữa sẽ cần mạng hoặc tệp cài đặt gốc."/>
+
+    <String Target="WebPI缓存" Link="Bộ nhớ đệm WebPI"/>
+    <String Target="Web平台安装程序的缓存" Link="Bộ nhớ đệm của trình cài đặt nền tảng Web."/>
+
+    <String Target="Visual Studio日志" Link="Tệp nhật ký Visual Studio"/>
+    <String Target="使用Visual Studio所产生的日志" Link="Tệp nhật ký sinh ra khi sử dụng Visual Studio."/>
+
+    <String Target="Installer目录" Link="Thư mục Installer"/>
+    <String Target="(这是一个实验性功能)清理后将无法卸载被取代的msp更新，如果有卸载更新需求请勿使用此选项。" Link="(Tính năng thử nghiệm) Sau khi dọn dẹp sẽ không thể gỡ các bản cập nhật msp cũ. Nếu cần gỡ cập nhật, đừng chọn mục này."/>
+
+    <String Target="零售演示离线内容" Link="Nội dung ngoại tuyến Retail Demo"/>
+    <String Target="为Windows10零售演示模式所缓存的离线内容" Link="Gỡ bỏ nội dung tạm ngoại tuyến của chế độ Retail Demo trên Windows 10."/>
+
+    <String Target="WinINet网页缓存" Link="Bộ nhớ đệm Web WinINet"/>
+    <String Target="清理每个用户账户和应用容器下的Windows网络组件（例如IE，Edge）的网页缓存（仅支持默认目录）" Link="Dọn bộ nhớ đệm Web của các thành phần mạng Windows (IE, Edge) cho mỗi tài khoản người dùng và AppContainer (chỉ thư mục mặc định)"/>
+
+    <String Target="WinINet Cookies" Link="WinINet Cookies"/>
+    <String Target="清理每个用户账户和应用容器下的Windows网络组件（例如IE，Edge）的Cookies（仅支持默认目录）" Link="Dọn dẹp Cookies của các thành phần mạng Windows (IE, Edge) cho mỗi tài khoản và AppContainer (chỉ thư mục mặc định)"/>
+
+    <String Target="最后一次正确配置（by Stanlazy）" Link="Cấu hình tốt gần nhất (Last Known Good Configuration) (by Stanlazy)"/>
+    <String Target="最近能正常启动计算机的配置备份。" Link="Bản sao lưu cấu hình gần nhất mà máy tính có thể khởi động bình thường."/>
+
+    <String Target="传递优化缓存" Link="Bộ nhớ đệm Tối ưu hóa phân phối (Delivery Optimization)"/>
+    <String Target="Win10开始使用传递优化（DeliveryOptimization）服务下载Windows更新和通用应用（UWP）产生的缓存文件" Link="Các tệp bộ nhớ đệm sinh ra khi Windows 10 sử dụng dịch vụ Delivery Optimization để tải cập nhật và ứng dụng UWP."/>
+
+    <String Target="Appx缓存文件-可解决Appx闪退" Link="Bộ nhớ đệm Appx - Khắc phục lỗi văng ứng dụng"/>
+    <String Target="Appx运行时产生的缓存文件，当应用闪退时可尝试清理此选项，可解决大多数闪退问题。" Link="Tệp bộ nhớ đệm sinh ra khi chạy Appx. Nếu ứng dụng bị văng, hãy thử dọn mục này để khắc phục."/>
+
+    <String Target="英伟达驱动安装包（by Ailick）" Link="Gói cài đặt Driver NVIDIA (by Ailick)"/>
+    <String Target="Nvidia Geforce Experience更新程序时产生的安装包。" Link="Gói cài đặt sinh ra khi cập nhật NVIDIA GeForce Experience."/>
+
+    <String Target="新版Visual Studio安装源缓存" Link="Bộ nhớ đệm nguồn cài đặt Visual Studio mới"/>
+    <String Target="该项目清理Visual Studio 2017及以后版本的安装源" Link="Dọn dẹp nguồn cài đặt của Visual Studio 2017 và các phiên bản mới hơn."/>
+    <String Target="清理后升级、修复、增添组件、卸载Visual Studio 2017及之后的版本需要联网" Link="Sau khi dọn dẹp, việc nâng cấp, sửa chữa, thêm thành phần và gỡ cài đặt VS 2017 trở lên sẽ cần kết nối mạng."/>
+
+    <String Target="损坏的Appx" Link="Appx bị lỗi"/>
+    <String Target="清理损坏的Appx。例如Visual Studio的通用应用XAML设计器暴力删除临时生成的设计器应用，于是会出现大量损坏的Appx。" Link="Dọn dẹp các Appx bị hỏng. Ví dụ, trình thiết kế XAML trong Visual Studio xóa các ứng dụng tạm sinh ra, dẫn đến nhiều Appx bị hỏng."/>
+  </StringMaps>
+  <MessageTable>
+    <x800F0806>Một hoặc nhiều bản cập nhật đang chờ xử lý, vui lòng khởi động lại trước khi tiếp tục.</x800F0806>
+    <x800F081F>Dism++ không tìm thấy nguồn cài đặt. Nếu cần kích hoạt NET3.5, vui lòng mount ISO rồi tiếp tục.</x800F081F>
+    <x80073703>Hệ điều hành đã bị tinh giản quá mức, Dism++ không thể tiếp tục.</x80073703>
+    <x800F0830>Hệ điều hành đã bị tinh giản quá mức, vui lòng từ bỏ hệ thống này và thử lại với hệ thống khác.</x800F0830>
+    <x800F0825>Bạn đang cố gỡ cài đặt một gói đã được cài đặt cố định. Do đó, gói này không thể gỡ bỏ.</x800F0825>
+    <x800F082E>Gói đã chỉ định không thể thêm vào ảnh ngoại tuyến (offline image).</x800F082E>
+    <x800F082F>Không thể hoàn tất phiên vì một phiên độc quyền khác đang chờ xử lý.</x800F082F>
+    <x000F0801>Dism++ đang bận, có thể do các chương trình khác đang chạy. Vui lòng thử lại sau.</x000F0801>
+    <x80072EE7>Không thể kết nối máy chủ, vui lòng kiểm tra kết nối mạng hoặc thiết lập tường lửa.</x80072EE7>
+    <x80072EFF>Không thể kết nối máy chủ, vui lòng kiểm tra kết nối mạng hoặc thiết lập tường lửa.</x80072EFF>
+
+    <xA0020001>Chỉ hỗ trợ chuyển đổi tệp ESD trực tuyến của Microsoft sang tệp ISO.</xA0020001>
+    <xA0020002>Một số tệp đã được dọn dẹp. Để dọn dẹp hoàn toàn, hãy nâng cấp lên Windows 8.1 rồi tiếp tục.</xA0020002>
+    <xA0020003>Vui lòng nâng cấp lên Windows Vista SP2 rồi tiếp tục.</xA0020003>
+    <xA0020004>Vui lòng nâng cấp lên Windows 7 SP1 rồi tiếp tục.</xA0020004>
+    <xA0020005>Không thể sử dụng đồng thời WIMBoot và Compact.</xA0020005>
+    <xA0020006>Hệ thống hiện tại không hỗ trợ Wow64, không thể xử lý hệ thống không phải 64-bit ngoại tuyến.</xA0020006>
+    <xA0020007>Thiếu tệp CBSHost.dll. Vui lòng đảm bảo tính toàn vẹn của Dism++.</xA0020007>
+    <xA0020008>Thiếu rundll32.exe. Dism++ không thể chạy.</xA0020008>
+    <xA0020009>Phiên làm việc Dism++ bị lỗi. Bạn có thể liên hệ (mingkuang@live.com) để được hỗ trợ.</xA0020009>
+    <xA002000A>Dism++ phát hiện vấn đề tương thích. Vui lòng cài đặt bản vá KB960037 rồi tiếp tục.</xA002000A>
+
+    <x20020001>Không có cấu hình liên kết tệp mặc định trong ảnh hiện tại. Không thể xuất.</x20020001>
+
+    <xC1440136>Driver (Wofadk.sys) chưa được tải. Vui lòng đánh dấu "Load wofadk" trong Tùy chọn - Cài đặt khác.</xC1440136>
+    <xC144013B>Driver (Wofadk.sys) chưa được tải. Vui lòng đánh dấu "Load wofadk" trong Tùy chọn - Cài đặt khác.</xC144013B>
+
+    <!--VSS-->
+    <x80042302>Dịch vụ Volume Shadow Copy đã bị Tắt, vui lòng đặt dịch vụ này sang Manual rồi tiếp tục.</x80042302>
+
+    <xA0010001>Không hỗ trợ đặt lại mật khẩu tài khoản Microsoft trực tuyến. Vui lòng đặt lại qua website chính thức của Microsoft.</xA0010001>
+
+    <!--WimgAPI Message-->
+    <x4144012B>Đây là thông báo kiểm thử, không cần thực hiện hành động gì. Mã thông báo %1.</x4144012B>
+    <x4144012C>[ THÔNG TIN ] %1</x4144012C>
+    <x8144012A>Nhận được ID thông báo không xác định: %1.</x8144012A>
+    <x8144012D>[ CẢNH BÁO ] %1</x8144012D>
+    <x81440133>[ THỬ LẠI ] %1</x81440133>
+    <xC1420100>Thư viện đã chỉ định không phải là tệp chứa hệ thống tệp hợp lệ.</xC1420100>
+    <xC1420101>Người dùng cố mount một ảnh với quyền đọc/ghi bằng thư viện chỉ đọc.</xC1420101>
+    <xC1420103>Người dùng cố mount một ảnh vào thư mục đã tồn tại. Thao tác này không được hỗ trợ.</xC1420103>
+    <xC1420104>Yêu cầu giải nén một tệp không có trong ảnh này. Tệp sẽ không được giải nén.</xC1420104>
+    <xC1420105>Yêu cầu giải nén một tệp không tồn tại. Đảm bảo không có phần mềm diệt virus hoặc sao lưu nào đang chạy trên thư mục mount.</xC1420105>
+    <xC1420106>Yêu cầu giải nén một tệp đã được giải nén trước đó. Yêu cầu sẽ bị bỏ qua.</xC1420106>
+    <xC1420107>Dịch vụ nhận được hai tệp khác nhau cùng ID. Thao tác mount sẽ bị hủy.</xC1420107>
+    <xC1420108>Bộ chứa hệ thống tệp cố gắng chèn một tên tệp hai lần. Điều này là không hợp lệ.</xC1420108>
+    <xC1420109>Dịch vụ nhận được thông báo lỗi từ bộ lọc. Thông báo này sẽ không được xử lý.</xC1420109>
+    <xC142010A>Dịch vụ nhận yêu cầu giải nén một tệp không nằm trong ảnh đang được mount. Yêu cầu sẽ bị bỏ qua.</xC142010A>
+    <xC142010B>Đã thực hiện nỗ lực unmount một thư mục không được mount.</xC142010B>
+    <xC142010C>Đã thực hiện nỗ lực commit một ảnh được mount với quyền chỉ đọc. Điều này không hợp lệ.</xC142010C>
+    <xC142010E>Một thư mục mount không tồn tại đã được cung cấp cho quá trình giải nén. Ảnh phải được chuẩn bị trước khi bắt đầu.</xC142010E>
+    <xC142010F>Một handle không hợp lệ đã được chuyển đến trình quản lý ảnh. Đây là lỗi lập trình.</xC142010F>
+    <xC1420110>Handle ảnh đã chỉ định không được dùng để mount ảnh, không thể dùng để unmount.</xC1420110>
+    <xC1420111>Không tìm thấy ảnh khớp với dữ liệu mount đã chỉ định.</xC1420111>
+    <xC1420112>Không thể unmount ảnh vì một tệp trong thư mục mount vẫn đang được sử dụng.</xC1420112>
+    <xC1420113>Người dùng cố mount vào thư mục đã chứa một ảnh đang mount. Thao tác này không được hỗ trợ.</xC1420113>
+    <xC1420114>Người dùng cố mount vào một thư mục không trống. Thao tác này không được hỗ trợ.</xC1420114>
+    <xC1420115>Người dùng cố mount vào một thư mục không tồn tại. Thao tác này không được hỗ trợ.</xC1420115>
+    <xC1420116>Handle ảnh không hợp lệ đã được chuyển đến WIMUnmountImageHandle.</xC1420116>
+    <xC1420117>Thư mục không thể unmount hoàn toàn. Hãy đóng các ứng dụng đang mở tệp trong thư mục mount rồi thử lại.</xC1420117>
+    <xC1420118>Ảnh được mount đang được sử dụng. Hãy đảm bảo nó không được mount bởi tiến trình khác.</xC1420118>
+    <xC1420119>Không tìm thấy tệp nhị phân wimserv.exe. Hãy đảm bảo nó có sẵn trong đường dẫn tìm kiếm hệ thống.</xC1420119>
+    <xC142011A>Imagex hết thời gian chờ đợi tiến trình wimmount khởi tạo.</xC142011A>
+    <xC142011B>Dịch vụ wimmount đã tắt mà không trả về trạng thái.</xC142011B>
+    <xC142011C>Thư mục đã chỉ định không phải là thư mục mount hợp lệ.</xC142011C>
+    <xC142011D>Ảnh được mount đã chỉ định không thể commit trở lại WIM. Ảnh có thể đang bị mount dở dang.</xC142011D>
+    <xC142011E>Thư mục mount của ảnh đã chỉ định đã thay đổi. Tất cả tệp sẽ được giải nén, ảnh này không thể commit.</xC142011E>
+    <xC142011F>Phân vùng của đường dẫn mount không hỗ trợ reparse point. Hãy mount vào phân vùng hỗ trợ.</xC142011F>
+    <xC1420120>Thư mục đã chỉ định chứa ảnh mount bị hỏng. Không thể thực hiện thao tác mount trên thư mục này.</xC1420120>
+    <xC1420121>Không thể mount ảnh vì driver wimmount.sys chưa được cài đặt.</xC1420121>
+    <xC1420122>Ảnh đã mount không thể commit vì ảnh trong WIM đã bị sửa đổi sau khi mount.</xC1420122>
+    <xC1420123>Thư mục đã chỉ định không thể remount vì không hợp lệ. Có thể thư mục đã bị unmount.</xC1420123>
+    <xC1420124>Thư mục đã chỉ định không thể remount vì ảnh trong WIM đã bị sửa đổi sau khi mount.</xC1420124>
+    <xC1420125>Thư mục đã chỉ định không thể remount vì đang trong quá trình unmount.</xC1420125>
+    <xC1420126>Ảnh đã chỉ định đã được mount, không thể mount lại lần nữa.</xC1420126>
+    <xC1420127>Ảnh đã chỉ định trong WIM đã được mount với quyền đọc/ghi.</xC1420127>
+    <xC1420128>Handle ảnh đã chỉ định không được mở với mức truy cập chính xác.</xC1420128>
+    <xC1420130>Người dùng cố mount một wim bị chia nhỏ (split wim). Thao tác này không được hỗ trợ.</xC1420130>
+    <xC1420131>Người dùng cố mount vào thư mục gốc của một ổ đĩa. Thao tác này không được hỗ trợ.</xC1420131>
+    <xC1420132>Phiên bản wimgapi được dùng để tạo thư mục mount này không khớp với phiên bản hiện tại. Hãy đảm bảo wimserv.exe, wimmount.sys và imagex.exe/wimgapi.dll có cùng phiên bản.</xC1420132>
+    <xC1420134>Ổ đĩa của đường dẫn mount đã chỉ định không được hỗ trợ. Vui lòng mount vào phân vùng trên ổ đĩa vật lý (fixed drive).</xC1420134>
+    <xC1420135>Thao tác mount thất bại. Khi mount, bạn phải Tắt mọi phần mềm (như diệt virus, lập chỉ mục tìm kiếm) đang truy cập các tệp trong đường dẫn mount.</xC1420135>
+    <xC143010D>Đã chỉ định chỉ mục ảnh không hợp lệ cho trình bao bọc (wrapper) wim. Trình bao bọc không thể mở ảnh.</xC143010D>
+    <xC1440129>Tệp nhật ký đã chỉ định tồn tại và không phải là tệp văn bản mã hóa Unicode. Chỉ hỗ trợ tệp văn bản Unicode.</xC1440129>
+    <xC144012E>[ LỖI ] %1</xC144012E>
+    <xC144012F>[ CẢNH BÁO ] Thuộc tính mở rộng trên tệp %1 đã bị bỏ qua.</xC144012F>
+    <xC1440136>Thao tác không được hỗ trợ. Kiểm tra xem hệ điều hành bạn đang chạy có driver wof (wof.sys/wofadk.sys) hay không.</xC1440136>
+    <xC1440137>Thao tác không được hỗ trợ. Kiểm tra xem ảnh đã áp dụng WIMBoot có tương thích với WIMBoot không.</xC1440137>
+    <xC1440138>Thao tác không được hỗ trợ. Kiểm tra xem ảnh đã áp dụng WIMBoot được lưu cục bộ và không nằm trên mạng chia sẻ.</xC1440138>
+    <xC1440139>Thao tác không được hỗ trợ. Kiểm tra xem các ảnh hệ điều hành hiện có trong tệp WIM đã chỉ định có ở định dạng hỗ trợ WIMBoot không.</xC1440139>
+    <xC144013A>Thao tác không được hỗ trợ. Kiểm tra xem ảnh hệ điều hành tại đường dẫn đã chỉ định có hỗ trợ WIMBoot không.</xC144013A>
+    <xC144013B>Thao tác không được hỗ trợ. Kiểm tra xem hệ điều hành bạn đang chạy có driver wof (wof.sys) hay không.</xC144013B>
+  </MessageTable>
+  <UserAgreement>Thỏa thuận người dùng
+
+    Nhóm Chuyu khuyến nghị mạnh mẽ mọi người dùng đọc kỹ thỏa thuận người dùng sau đây (sau đây gọi là "thỏa thuận" hoặc "thỏa thuận này") trước khi sử dụng Dism++. Bất kỳ ai chọn không tuân thủ hoặc không hiểu ý nghĩa của thỏa thuận này sẽ không được phép, cũng như không được nhóm Chuyu trao quyền sử dụng Dism++. Bất kỳ ai sử dụng Dism++ đều được coi là đồng ý với thỏa thuận dưới đây và tuân thủ nội dung của thỏa thuận này.
+
+    Thỏa thuận này xác định quyền và nghĩa vụ giữa người dùng Dism++ của dịch vụ phần mềm "Dism++" (sau đây gọi là "dịch vụ" hoặc "dịch vụ này") và nhóm Chuyu. "Người dùng" và "người dùng Dism++" chỉ các cá nhân đăng ký, đăng nhập hoặc sử dụng dịch vụ này. Thỏa thuận này có thể được nhóm Chuyu cập nhật bất cứ lúc nào. Thỏa thuận cập nhật, sau khi được công bố dưới bất kỳ hình thức nào, sẽ thay thế thỏa thuận gốc. Dism++ sẽ hiển thị thỏa thuận cập nhật khi phần mềm khởi động. Người dùng Dism++ phải ngừng sử dụng phần mềm này và các dịch vụ của nhóm Chuyu ngay lập tức nếu chọn không tuân thủ thỏa thuận cập nhật.
+
+I. Quyền và nghĩa vụ
+
+    1. Người dùng Dism++ chỉ có thể sử dụng Dism++ cho mục đích cá nhân trên máy tính của họ. Mọi hình thức sử dụng không vì mục đích cá nhân (bao gồm nhưng không giới hạn ở sử dụng thương mại hoặc nghề nghiệp) mà không có sự đồng ý bằng văn bản của nhóm Chuyu đều không được phép.
+    2. Người dùng Dism++ phải đọc kỹ thỏa thuận này và các tài liệu khác của Dism++ trước khi sử dụng.
+    3. Người dùng Dism++ có nghĩa vụ báo cáo lỗi và các cải tiến có thể có cho nhóm Chuyu. Bất kỳ ai sử dụng Dism++ trên 30 ngày nên gửi cho mingkuang một "Báo cáo sử dụng Dism++" không dưới 345 từ. Bất kỳ ai sử dụng Dism++ từ 8 tháng trở lên nên gửi cho mingkuang một báo cáo hàng năm (ít nhất 520 từ) với chủ đề "Đề xuất và cải tiến cho Dism++" vào ngày 11 tháng 11 (giờ địa phương). Email của mingkuang: mingkuang@live.com.
+    4. Người dùng Dism++ nên giữ tình yêu hòa bình, tinh thần làm việc nhóm và giúp đỡ người khác.
+    5. Người dùng Dism++ phải tuân thủ Luật cơ bản (hoặc các văn bản tương đương tại địa phương). Mọi hành động vi phạm bản quyền của nhóm Chuyu hoặc thỏa thuận này (bao gồm nhưng không giới hạn ở việc sao chép, phổ biến, hiển thị, nhân bản, tải lên, tải xuống, sửa đổi không phù hợp) và những hành động gây tác động tiêu cực đến hoạt động hoặc dịch vụ của nhóm Chuyu sẽ phải chịu các hành động pháp lý nghiêm trọng.
+    6. Bất kỳ ai không tuân thủ thỏa thuận này sẽ tự động mất mọi quyền do nhóm Chuyu cấp. Nhóm Chuyu bảo lưu quyền dừng mọi phần mềm của nhóm Chuyu trên máy tính của họ, từ chối mọi đề xuất của họ và theo đuổi các hành động pháp lý chống lại họ.
+    7. Nhóm Chuyu sẽ cố gắng hết sức cung cấp hỗ trợ kỹ thuật cho những người tuân thủ thỏa thuận này, khi tất cả các yếu tố sau đây cho phép: độ phức tạp của vấn đề, sự khả dụng của nhóm Chuyu và sự bình chọn của những người dùng khác.
+
+II. Vấn đề quyền riêng tư
+
+    1. Sau khi khởi động, Dism++ sẽ thu thập thông tin hệ thống của người dùng (bao gồm nhưng không giới hạn ở phiên bản hệ thống, cấu trúc hệ thống, ngôn ngữ hệ thống, thông tin CPU, thông tin RAM) và báo cáo của chính Dism++ (bao gồm nhưng không giới hạn ở tệp crash dump hệ thống và tệp nhật ký) để cải thiện dịch vụ. Dism++ sẽ không thu thập thông tin nhận dạng người dùng cũng như thông tin liên lạc của người dùng.
+    2. Nhóm Chuyu có thể gửi cho người dùng lời mời thử nghiệm Dism++, lời mời bình chọn để giúp nhóm Chuyu ra quyết định và các bản cập nhật phần mềm, nhưng nhóm Chuyu sẽ không bao giờ gửi các tin nhắn bao gồm nhưng không giới hạn ở quảng cáo, khuyến mãi, lừa đảo hoặc yêu cầu thanh toán.
+
+III. Chịu rủi ro
+
+    1. Nhóm Chuyu có thái độ cởi mở để mọi người có thể giúp Dism++ tốt hơn. Một số chức năng có thể dẫn đến hậu quả không mong muốn nên nhóm Chuyu sẽ loại bỏ rủi ro có thể xảy ra và thông báo cho người dùng. Tuy nhiên, chúng tôi chưa giải quyết được tất cả các vấn đề. Bạn phải tự chịu mọi hậu quả. Vui lòng thông báo cho nhóm Chuyu sau khi bạn tìm thấy một số vấn đề để ngăn người khác gặp phải.
+    2. Vui lòng hiểu và đồng ý rằng vì phần mềm của chúng tôi cần phát triển, nhóm Chuyu bảo lưu quyền thay đổi, tạm dừng, kết thúc hoặc thu hồi toàn bộ hoặc một phần dịch vụ. Người dùng cần phải chịu rủi ro này.
+
+IV. Tuyên bố quyền sở hữu trí tuệ
+
+    1. Nhóm Chuyu sở hữu tất cả quyền sở hữu trí tuệ đối với nội dung dịch vụ này (bao gồm nhưng không giới hạn ở chương trình, trang web, văn bản, v.v.)
+    2. Nếu không có các điều khoản quan trọng khác, nhóm Chuyu sở hữu tất cả các quyền sở hữu trí tuệ.
+    3. Nếu nhóm Chuyu không đồng ý bằng văn bản, người dùng không được xử lý phần mềm Chuyu dưới bất kỳ hình thức nào. Không được nói với người khác là họ có quyền xử lý phần mềm của Chuyu.
+    4. Các quyền sở hữu trí tuệ trên và các quyền khác của nhóm Chuyu được pháp luật bảo vệ. Nếu nhóm Chuyu không cho phép, bạn không được tháo rời hoặc thực hiện các hành động khác.
+
+V. Trách nhiệm pháp lý
+
+    1. Nếu nhóm Chuyu thấy ai đó báo cáo người dùng vi phạm thỏa thuận này, nhóm Chuyu có quyền cấm người dùng sử dụng phần mềm của Chuyu mà không cần thông báo trước.
+    2. Vui lòng hiểu và đồng ý rằng nhóm Chuyu có quyền xử phạt hợp lý các hành vi vi phạm theo pháp luật.
+    3. Vui lòng hiểu và đồng ý rằng nếu người dùng vi phạm thỏa thuận này dẫn đến bên thứ ba khiếu nại (bao gồm cả chi phí luật sư hợp lý), người dùng phải bồi thường cho nhóm Chuyu.
+
+VI. Khác
+
+    1. Nhóm Chuyu nghiêm túc nhắc nhở người dùng chú ý đến các điều khoản miễn trừ trách nhiệm của nhóm Chuyu và các quyền hạn chế người dùng. Trẻ vị thành niên nên đọc thỏa thuận này cùng với người giám hộ hợp pháp.
+    2. Hiệu lực và giải thích của thỏa thuận áp dụng theo pháp luật Trung Quốc. Nếu người dùng và nhóm Chuyu có tranh chấp, trước hết hãy giải quyết thông qua thương lượng. Nếu không thành công, vui lòng đồng ý báo cáo lên tòa án nhân dân có thẩm quyền để giải quyết.
+    3. Nếu các điều khoản của thỏa thuận không hợp lệ hoặc không thể thực thi vì bất kỳ lý do gì, các điều khoản khác vẫn có hiệu lực và ràng buộc đối với cả hai bên.
+    4. Thỏa thuận người dùng viết bằng tiếng Trung giản thể sẽ được tham chiếu nếu phiên bản tiếng Trung giản thể khác với thỏa thuận người dùng viết bằng các ngôn ngữ khác.
+</UserAgreement>
+</Data>
