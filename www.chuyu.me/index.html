@@ -1,55 +1,48 @@
 ﻿<script language="JavaScript">
-var la = (navigator.language || navigator.browserLanguage || '').toLowerCase().split('-');
-switch (la[0]) {
-    case 'es': case 'an': case 'ast': case 'ca': case 'gl':
-        la = 'es'; break;
-    case 'eu':
-        switch (la[1]) {
+var lang = (navigator.language || navigator.browserLanguage || '').toLowerCase().split('-');
+switch (lang[0]) {
+    case 'gsw': switch (la[1]) {
             case 'fr':
-                la = 'fr'; break;
-            default: /* case 'es': case 'ad': */
-                la = 'es'; break;
-        } break;
-    case 'oc':
-        switch (la[1]) {
-            case 'es':
-                la = 'es'; break;
-            default: /* case 'fr': case 'it': */
-                la = 'fr'; break;
-        } break;
-    case 'fr': case 'br': case 'co': case 'nrf': case 'pcd': case 'gcf': case 'ty':
-    case 'frc': case 'wa': case 'ht': case 'mg': case 'lb':
-        la = 'fr'; break;
-    case 'gsw':
-        switch (la[1]) {
-            case 'fr':
-                la = 'fr'; break;
-            default: /* case 'de': case 'ch': */
-                la = 'de'; break;
-        } break;
+                lang = 'fr'; break;
+        } /* falls thru to 'de' */
     case 'de': case 'bar': case 'nds':
-        la = 'de'; break;
+        lang = 'de'; break;
+    case 'eu': switch (la[1]) {
+            case 'fr':
+                lang = 'fr'; break;
+        } /* falls thru to 'es' */
+    case 'es': case 'an': case 'ast': case 'ca': case 'gl':
+        lang = 'es'; break;
+    case 'oc': switch (la[1]) {
+            case 'es':
+                lang = 'es'; break;
+            case 'it':
+                lang = 'it'; break;
+        } /* falls thru to 'fr' */
+    case 'fr': case 'br': case 'co': case 'frc': case 'gcf': case 'ht': case 'lb': case 'lij': case 'mg': case 'nrf': case 'pcd': case 'ty': case 'wa':
+        lang = 'fr'; break;
+    case 'it': case 'egl': case 'eml': case 'nap': case 'rgn': case 'scn': case 'vec':
+        lang = 'it'; break;
     case 'ja':
-        la = 'ja'; break;
+        lang = 'ja'; break;
     case 'pt':
-        la = 'pt'; break;
+        lang = 'pt'; break;
     case 'ru':
-        la = 'ru'; break;
+        lang = 'ru'; break;
     case 'tr':
-        la = 'tr'; break;
-    case 'zh':
-        switch (la[1]) {
-            case 'hant': case 'mo': case 'tw': case 'hk':
-                la = 'zh-Hant'; break;
-            default: /* case 'hans': case 'cn': case 'sg': */
-                la = 'zh-Hans'; break;
-        } break;
-    case 'wuu': case 'yue':
-        la = 'zh-Hans'; break;
+        lang = 'tr'; break;
     case 'uk':
-        la = 'uk'; break;
+        lang = 'uk'; break;
+    case 'zh': switch (la[1]) {
+            case 'hant': case 'mo': case 'tw': case 'hk':
+                lang = 'zh-Hant'; break;
+        } /* falls thru to 'zh-Hans' */
+    case 'wuu': case 'yue':
+        lang = 'zh-Hans'; break;
+    case 'hak':
+        lang = 'zh-Hant'; break;
     default: /* all other languages go to English */
-        la = 'en'; break;
+        lang = 'en' /* + '-US' */ ; break;
 }
-document.location = './' + la + '/index.html';
+document.location = './' + lang /* + '/index' */ + '.html';
 </script>
