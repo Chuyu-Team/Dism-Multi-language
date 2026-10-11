@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 This is the Arabic translation resource for Dism++.
 There are 5 ASCII punctuation needing special representation in XML.
@@ -33,7 +33,7 @@ Also please avoid indenting this file using tabulations.
         <LangSecRef ID="3031">Microsoft Store</LangSecRef>
     </CCleanLangSecRefMap>
     <StringMaps>
-        <String Target="文件(&amp;F)" Link="&amp;ملف" />
+        <String Target="文件(&amp;F)" Link="ملف (&amp;F)" />
         <String Target="添加映像" Link="إضافة صورة" />
         <String Target="释放映像&#x9;Ctrl+N" Link="تطبيق الصورة&#x9;Ctrl+N" />
         <String Target="挂载映像&#x9;Ctrl+Shift+N" Link="تركيب الصورة&#x9;Ctrl+Shift+N" />
@@ -46,7 +46,7 @@ Also please avoid indenting this file using tabulations.
         <String Target="格式转换" Link="تحويل الصيغة" />
         <String Target="ESD解密" Link="فك تشفير ESD" />
         <String Target="取消任务&#x9;Ctrl+Break" Link="إلغاء المهمة&#x9;Ctrl+Break" />
-        <String Target="恢复功能(&amp;R)" Link="&amp;الاسترداد" />
+        <String Target="恢复功能(&amp;R)" Link="الاسترداد (&amp;R)" />
         <String Target="系统修复" Link="إصلاح النظام" />
         <String Target="健康扫描" Link="فحص السلامة" />
         <String Target="验证受损" Link="التحقق من التلف" />
@@ -57,7 +57,7 @@ Also please avoid indenting this file using tabulations.
         <String Target="在RE中运行" Link="تشغيل في بيئة الاسترداد" />
         <String Target="仅启动RE" Link="تشغيل بيئة الاسترداد فقط" />
         <String Target="撤销Compact" Link="إلغاء ضغط Compact" />
-        <String Target="选项(&amp;O)" Link="&amp;خيارات" />
+        <String Target="选项(&amp;O)" Link="خيارات (&amp;O)" />
         <String Target="插件管理" Link="إدارة الإضافات" />
         <String Target="新手模式" Link="الوضع المبسط" />
         <String Target="详细设置" Link="إعدادات متقدمة" />
@@ -66,7 +66,7 @@ Also please avoid indenting this file using tabulations.
         <String Target="关机" Link="إيقاف التشغيل" />
         <String Target="重启" Link="إعادة التشغيل" />
         <String Target="程序外观" Link="مظهر البرنامج" />
-        <String Target="帮助(&amp;H)" Link="&amp;مساعدة" />
+        <String Target="帮助(&amp;H)" Link="مساعدة (&amp;H)" />
         <String Target="查看帮助(&amp;V)" Link="عرض المساعدة (&amp;V)" />
         <String Target="官方网站(&amp;O)" Link="الموقع الرسمي (&amp;O)" />
         <String Target="官方群(&amp;G)" Link="المجموعة الرسمية (&amp;G)" />
@@ -74,9 +74,9 @@ Also please avoid indenting this file using tabulations.
         <String Target="关于Dism++(&amp;A)" Link="حول Dism++ (&amp;A)" />
         <String Target="检查更新(&amp;U)" Link="التحقق من التحديثات (&amp;U)" />
         <String Target="应用一个WIM、ESD、SWM或者ISO映像。" Link="تطبيق صورة WIM أو ESD أو SWM أو ISO." />
-        <String Target="从 WIM 文件安装映像。" Link="تحميل صورة من ملف WIM." />
-        <String Target="卸载安装的 WIM 映像" Link="فصل صورة WIM المحملة." />
-        <String Target="保存对安装的 WIM 映像的更改" Link="حفظ التغييرات على صورة WIM المحملة." />
+        <String Target="从 WIM 文件安装映像。" Link="تركيب صورة من ملف WIM." />
+        <String Target="卸载安装的 WIM 映像" Link="إلغاء تركيب صورة WIM المُركَّبة." />
+        <String Target="保存对安装的 WIM 映像的更改" Link="حفظ التغييرات على صورة WIM المُركَّبة." />
         <String Target="保存更改到另一个WIM文件中" Link="حفظ التغييرات في ملف WIM آخر." />
         <String Target="打开并编辑现有的WIM文件" Link="فتح وتحرير ملف WIM موجود" />
         <String Target="WIM、ESD互转" Link="ESD ↔ WIM" />
@@ -170,7 +170,7 @@ Also please avoid indenting this file using tabulations.
         <String Target="WIMBoot压缩" Link="WIMBoot" />
         <String Target="快速压缩" Link="ضغط سريع" />
         <String Target="最大压缩" Link="ضغط أقصى" />
-        <String Target="极限压缩" Link="ضغط قصوى" />
+        <String Target="极限压缩" Link="أقصى ضغط" />
         <String Target="映像名称" Link="اسم الصورة" />
         <String Target="映像说明" Link="وصف الصورة" />
         <String Target="显示名称" Link="اسم العرض" />
@@ -184,7 +184,7 @@ Also please avoid indenting this file using tabulations.
         <String Target="WIMBoot压缩映像" Link="WIMBoot" />
         <String Target="快速压缩映像" Link="ضغط سريع" />
         <String Target="最大压缩映像" Link="ضغط أقصى" />
-        <String Target="极限压缩映像" Link="ضغط قصوى" />
+        <String Target="极限压缩映像" Link="صورة بأقصى ضغط" />
         <String Target="全选" Link="تحديد الكل" />
         <String Target="反选" Link="عكس التحديد" />
         <String Target="自定义规则" Link="قواعد مخصصة" />
@@ -222,7 +222,7 @@ Also please avoid indenting this file using tabulations.
         <String Target="资源管理器" Link="مستكشف الملفات" />
         <String Target="操作完成" Link="اكتملت العملية" />
         <!--欢迎页-->
-        <String Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。" Link="A világ első, a CBS-en (Component Based Service Reference) alapuló Dism GUI alkalmazása! A Dism++ kompatibilisebb és kisebb méretű, mint a Microsoft saját Dism alkalmazása." />
+        <String Target="Dism++由大学时期几个强迫症晚期患者打造，追求最强功能、极致绿色、极小身材。Dism++可以说是一个Dism的GUI版，但是并不依赖Dism，直接基于更底层的CBS(Component Based Servicing Reference)。因此Dism++往往比微软自带的Dism拥有更好的兼容性以及更加轻巧的体积。" Link="أول واجهة رسومية (GUI) في العالم لأداة Dism مبنية على خدمة CBS. يتميز Dism++ بتوافق أفضل وحجم أصغر بكثير مقارنة بأداة Dism الرسمية المدمجة من مايكروسوفت." />
         <String Target="联系方式" Link="التواصل" />
         <String Target="官方网站" Link="الموقع الرسمي" />
         <String Target="QQ群" Link="مجموعة QQ" />
@@ -819,7 +819,7 @@ Also please avoid indenting this file using tabulations.
         <String Target="关闭快速启动将导致系统启动速度变慢！" Link="تعطيل بدء التشغيل السريع سيُبطئ تشغيل النظام!" />
         <String Target="关闭休眠（by powerxing04）" Link="تعطيل وضع الإسبات (بواسطة powerxing04)" />
         <String Target="关闭休眠后将导致快速启动以及混合休眠不可用，这样将增加断电丢失数据的风险！" Link="تعطيل وضع الإسبات سيجعل بدء التشغيل السريع والإسبات المختلط غير متاحَين، مما يزيد خطر فقدان البيانات عند انقطاع الكهرباء!" />
-        <String Target="禁用组件堆栈（Component Based Servicing）日志" Link="تعطيل نسخ سجلات خدمة الصيانة المستندة إلى المكونات (CBS)" />
+        <String Target="禁用组件堆栈（Component Based Servicing）日志" Link="تعطيل سجلات خدمة الصيانة المستندة إلى المكونات (CBS)" />
         <String Target="禁用更新解压模块（Delta Package Expander）日志" Link="تعطيل نسخ حزم التحديث (Delta Package Expander)" />
         <String Target="禁用系统日志（by Windows 10优化辅助工具）" Link="تعطيل نسخ سجلات النظام (بواسطة أدوات تحسين Windows 10)" />
         <String Target="崩溃时写入调试信息" Link="كتابة معلومات التصحيح عند الانهيار" />
@@ -859,7 +859,7 @@ Also please avoid indenting this file using tabulations.
         <String Target="Windows更新不包括恶意软件删除工具（by ‍Winaero）" Link="استثناء أداة إزالة البرامج الخبيثة من Windows Update (بواسطة Winaero)" />
         <String Target="将“右键菜单”调整为Windows 7模式（by Silence）" Link="ضبط القائمة اليمنى على أسلوب Windows 7 (بواسطة Silence)" />
         <String Target="登录界面默认打开小键盘（by IT之家）" Link="تفعيل لوحة المفاتيح الرقمية عند شاشة تسجيل الدخول (بواسطة IT Home)" />
-        <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="تعطيل نسخ ملفات خدمة الصيانة المستندة إلى المكونات (CBS)" />
+        <String Target="禁用组件堆栈（Component Based Servicing）文件备份" Link="تعطيل النسخ الاحتياطي لملفات خدمة الصيانة المستندة إلى المكونات (CBS)" />
         <String Target="任务栏时钟精确到秒（by Luupw3d）" Link="دقة ساعة شريط المهام: بالثانية (بواسطة Luupw3d)" />
         <String Target="禁用WfpDiag.ETL日志（by powerxing04）" Link="تعطيل ملف سجل WfpDiag.ETL (بواسطة powerxing04)" />
         <String Target="禁用文件夹的“包含到库中”右键菜单（by choyri）" Link="تعطيل الإضافة إلى المكتبة من القائمة اليمنى للمجلدات (بواسطة choyri)" />
@@ -902,7 +902,7 @@ Also please avoid indenting this file using tabulations.
         <String Target="当前其他任务正在进行，请稍等……" Link="المهام الأخرى قيد التشغيل حالياً، يرجى الانتظار..." />
         <!--文件拆分设置-->
         <String Target="文件拆分" Link="تقسيم الملف" />
-        <String Target="分卷大小（MB）" Link="حجم المجلد (MB)" />
+        <String Target="分卷大小（MB）" Link="حجم الجزء (ميجابايت)" />
         <!--用户协议-->
         <String Target="Dism++用户协议" Link="اتفاقية مستخدم Dism++" />
         <String Target="这是一份法律性资料。" Link="هذا مستند قانوني." />
@@ -1015,7 +1015,7 @@ Also please avoid indenting this file using tabulations.
         <String Target="请确保所有编辑的视频已经保存！" Link="تأكد من حفظ جميع مقاطع الفيديو المحررة!" />
         <String Target="Visual Studio智能跟踪（by LP）" Link="Visual Studio IntelliTrace (بواسطة LP)" />
         <String Target="Visual Studio调试程序时留下的智能跟踪缓存。" Link="ذاكرة التخزين المؤقت للتتبع الذكي التي يتركها Visual Studio أثناء تصحيح البرامج." />
-        <String Target="系统以及程序崩溃dmp文件（by YukiSakura）" Link="ملفات تفريغ أعطال النظام والبرامج (bواسطة YukiSakura)" />
+        <String Target="系统以及程序崩溃dmp文件（by YukiSakura）" Link="ملفات تفريغ أعطال النظام والبرامج (بواسطة YukiSakura)" />
         <String Target="当系统蓝屏或者应用程序崩溃时产生的dmp文件。" Link="ملفات .dmp التي تُنشأ عند الشاشة الزرقاء أو انهيار التطبيق." />
         <String Target="瑞昱声卡驱动安装源缓存（by YukiSakura）" Link="ذاكرة تخزين مؤقت لمصدر تثبيت برنامج تشغيل بطاقة صوت Realtek (بواسطة YukiSakura)" />
         <String Target="瑞昱声卡安装后留下的安装源缓存。" Link="ذاكرة التخزين المؤقت لمصدر التثبيت المتبقية بعد تثبيت برنامج تشغيل Realtek." />
@@ -1132,9 +1132,9 @@ Also please avoid indenting this file using tabulations.
         <xC1420100>المجلد المحدد ليس مستودع نظام ملفات صالحاً.</xC1420100>
         <xC1420101>حاول مستخدم فتح صورة بصلاحيات قراءة/كتابة باستخدام مجلد مستودع للقراءة فقط.</xC1420101>
         <xC1420103>حاول مستخدم تركيب صورة في مجلد موجود. هذه الميزة غير مدعومة.</xC1420103>
-        <xC1420104>وردت طلب لاستخراج ملف غير موجود في هذه الصورة. لن يتم استخراج الملف.</xC1420104>
-        <xC1420105>وردت طلب لاستخراج ملف غير موجود. قد ينجم هذا عن تشغيل غير مقبول مع عوامل تصفية نظام ملفات أخرى. تأكد من عدم تشغيل برنامج مكافحة الفيروسات أو النسخ الاحتياطي في مجلد التركيب.</xC1420105>
-        <xC1420106>وردت طلب استخراج لملف مستخرج مسبقاً. لن يُنفَّذ هذا الطلب.</xC1420106>
+        <xC1420104>وردَ طلب لاستخراج ملف غير موجود في هذه الصورة. لن يتم استخراج الملف.</xC1420104>
+        <xC1420105>وردَ طلب لاستخراج ملف غير موجود. قد ينجم هذا عن تشغيل غير مقبول مع عوامل تصفية نظام ملفات أخرى. تأكد من عدم تشغيل برنامج مكافحة الفيروسات أو النسخ الاحتياطي في مجلد التركيب.</xC1420105>
+        <xC1420106>وردَ طلب استخراج لملف مستخرج مسبقاً. لن يُنفَّذ هذا الطلب.</xC1420106>
         <xC1420107>تلقت الخدمة إشعاراً بوجود ملفين بنفس المعرف مع تعيين علامات عدم التوافق. سيتم قطع الاتصال.</xC1420107>
         <xC1420108>حاول مستودع نظام الملفات إدراج اسم الملف مرتين. هذه العملية غير صالحة لأن خدمة WIM يجب أن تتلقى إشعاراً واحداً فقط لكل اسم ملف.</xC1420108>
         <xC1420109>تلقت الخدمة رسالة غير صالحة من عامل التصفية. لن تُعالَج هذه الرسالة.</xC1420109>
@@ -1161,12 +1161,12 @@ Also please avoid indenting this file using tabulations.
         <xC142011F>وحدة التخزين المحددة في مسار التركيب لا تدعم نقاط إعادة التحليل. حمّل وحدة تخزين تدعم نقاط إعادة التحليل.</xC142011F>
         <xC1420120>المجلد المحدد يحتوي على صورة مركّبة تالفة. لا يمكن إجراء عمليات التركيب في هذا المجلد.</xC1420120>
         <xC1420121>لا يمكن تركيب الصورة لأن برنامج التشغيل wimmount.sys غير مثبت على هذا الجهاز. لإصلاح المشكلة ثبّت برنامج التشغيل wimmount.sys.</xC1420121>
-        <xC1420122>لا يمكن تثبيت الصورة لأن برنامج التشغيل wimmount.sys غير مثبت على هذا الكمبيوتر. لحل المشكلة ثبّت برنامج التشغيل wimmount.sys.</xC1420122>
+        <xC1420122>لا يمكن تركيب الصورة لأن برنامج التشغيل wimmount.sys غير مثبت على هذا الكمبيوتر. لحل المشكلة ثبّت برنامج التشغيل wimmount.sys.</xC1420122>
         <xC1420123>فشل إعادة تركيب المجلد المحدد لأنه ليس وجهة صالحة لإعادة التركيب. على الأرجح تم فصله مسبقاً.</xC1420123>
         <xC1420124>لا يمكن إعادة تركيب المجلد المحدد لأن صورة القرص في ملف .wim قد تعدلت بعد التركيب.</xC1420124>
         <xC1420125>لا يمكن إعادة تركيب المجلد المحدد لأنه مفصول.</xC1420125>
         <xC1420126>الصورة المحددة مركّبة مسبقاً ولا يمكن إعادة تركيبها.</xC1420126>
-        <xC1420127>The specified image in the specified wim is already mounted for read/write access.</xC1420127>
+        <xC1420127>الصورة المحددة في ملف WIM المحدد مركّبة مسبقاً بصلاحية القراءة/الكتابة.</xC1420127>
         <xC1420128>الصورة المحددة مركّبة مسبقاً ولا يمكن إعادة تركيبها.</xC1420128>
         <xC1420130>حاول مستخدم تقسيم ملف .wim. هذه الميزة غير مدعومة.</xC1420130>
         <xC1420131>حاول مستخدم التركيب في جذر وحدة تخزين. هذا غير مدعوم.</xC1420131>
