@@ -1,4 +1,5 @@
 # Dism-Multi-language
+[![Featured on AppWK](https://appwk.cn/badges/featured-dark.svg)](https://appwk.cn/apps/dism-plus-plus)
 Dism++ resource files for supporting translation to various languages.
 The default language used for development is in Simplified Chinese.
 
